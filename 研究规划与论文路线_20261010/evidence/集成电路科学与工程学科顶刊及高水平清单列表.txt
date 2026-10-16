@@ -1,0 +1,170 @@
+
+--- PAGE 1 ---
+附件 1：
+集成电路科学与工程学科学科领域顶级期刊列表
+序号 刊名 检索类型 中科院分区 影响因子（IF） 备注
+1N a t u r e SCI 一区 48.5
+2 Science SCI 一区 45.8
+3N a t u r e 系列子刊 SCI 中科院一区 15.7-51.7
+4 Science 系列子刊 SCI 中科院一区 12.5-26.1
+5
+Proceedings of the National
+Academy of Sciences of the
+United States of America
+SCI 中科院一区 9.1
+6 Physical Review Letters SCI 中科院一区 9.0
+7 National Science Review SCI 中科院一区 17.1
+8 Engineering SCI 中科院二区 11.6
+集成电路科学与工程学科学科领域高水平期刊列表
+序号 刊名 检索类型 中科院分区 影响因子（ I F ）备注
+1 IEEE JOURNAL OFSOLID-STATE CIRCUITS SCI 中科院一区 5.6
+2 IEEE Transactions on Circuitsand Systems I: Regular Papers SCI 中科院二区 5.2
+3 IEEE Internet of Things Journal SCI 中科院二区 8.9
+4 IEEE Transactions on PowerElectronics SCI 中科院一区 6.5
+5 IEEE Transactions on NuclearScience SCI 中科院二区 1.9
+6 Science China-InformationSciences SCI 中科院一区 7.6
+7
+IEEE TRANSACTIONS ON
+WIRELESS
+COMMUNICATIONS
+SCI 中科院一区 10.7
+8 Light-Science & Applications SCI 中科院一区 23.4
+9 Advances in Optics andPhotonics SCI 中科院一区 23.8
+10 Laser & Photonics Reviews SCI 中科院一区 10.0
+11 Optica SCI 中科院一区 8.5
+12 Nanophotonics SCI 中科院二区 6.6
+13 Photonics Research SCI 中科院一区 7.2
+14 eLight SCI 中科院一区 32.1
+15 Advanced Materials SCI 中科院一区 26.8
+16 Nano-Micro Letters SCI 中科院一区 36.3
+17 IEEE Transactions on Pattern SCI 中科院一区 18.6
+
+--- PAGE 2 ---
+Analysis and Machine
+Intelligence
+18 Light-Science & Applications SCI 中科院一区 23.4
+19 Advanced Energy Materials SCI 中科院一区 26.0
+20 Advanced Functional Materials SCI 中科院一区 19.0
+21 ACS Nano SCI 中科院一区 16.0
+22 Advanced Science SCI 中科院一区 14.1
+23 International Journal of MachineTools and Manufacture SCI 中科院一区 18.8
+24 Small SCI 中科院二区 12.1
+25 Carbon SCI 中科院二区 11.6
+26 Nano Letters SCI 中科院二区 9.1
+27 IEEE Transactions on ImageProcessing SCI 中科院一区 13.7
+28 IEEE Signal ProcessingMagazine SCI 中科院二区 9.6
+29 Nano Research SCI 中科院一区 9.0
+30 ACS Applied Materials 系列 SCI 中科院三区 3.8-5.5
+31 Physical Review 系列 SCI 中科院一/二区 2.4-15.7
+32 Combustion and Flame SCI 中科院一区 6.2
+33 Proceedings of the CombustionInstitute SCI 中科院二区 5.2
+34 中国科学系列 SCI 中科院一区 4.9-9.7
+35 Chinese Physics Letters SCI 中科院一区 4.2
+36 Matter and Radiation atExtremes SCI 中科院一区 4.7
+37 High Power Laser Science andEngineering SCI 中科院一区 5.7
+38 The Innovation 系列 SCI 中科院一区
+39 Measurement SCI 中科院二区 5.6
+40
+IEEE Transactions on Electron
+Devices SCI 中科院三区 3.2
+41
+IEEE Transactions OnVery
+Large ScaleIntegration (VLSI)
+Systems
+SCI 中科院二区 3.1
+42
+IEEE TRANSACTIONS ON
+CIRCUITS AND SYSTEMS
+I-REGULAR PAPERS
+SCI 中科院二区 5.2
+43
+IEEE TRANSACTIONS ON
+SIGNAL PROCESSING SCI 中科院二区 5.8
+44 IEEE TRANSACTIONS ON SCI 中科院二区 4.9
+
+--- PAGE 3 ---
+CIRCUITS AND SYSTEMS
+II-EXPRESS BRIEFS
+45
+IEEE Journal of Emerging and
+Selected Topics in Power
+Electronics
+SCI 中科院二区 4.9
+46
+IEEE Circuits and Systems
+Magazine SCI 中科院二区 3.5
+47
+IEEE SIGNAL PROCESSING
+MAGAZINE SCI 中科院二区 9.6
+48
+IEEE ELECTRON DEVICE
+LETTERS SCI 中科院二区 4.5
+49
+IEEE TRANSACTIONS ON
+VERY LARGE SCALE
+INTEGRATION (VLSI)
+SYSTEMS
+SCI 中科院二区 3.1
+50
+Journal of Computational
+Design and Engineering SCI 中科院二区 6.1
+51 SIGNAL PROCESSING SCI 中科院二区 3.6
+52
+IEEE TRANSACTIONS ON
+DIELECTRICS AND
+ELECTRICAL INSULATION
+SCI 中科院二区 3.1
+53
+IEEE Journal on Emerging and
+Selected Topics in Circuits and
+Systems
+SCI 中科院二区 3.8
+54
+IEEE TRANSACTIONS ON
+NUCLEAR SCIENCE SCI 中科院二区 1.9
+55
+IEEE JOURNAL OF
+SELECTED TOPICS IN
+QUANTUM ELECTRONICS
+SCI 中科院二区 5.1
+56
+IEEE Journal of Selected Topics
+in Signal Processing SCI 中科院二区 13.7
+57
+IEEE TRANSACTIONS ON
+INTELLIGENT
+TRANSPORTATION
+SYSTEMS
+SCI 中科院二区 8.4
+58
+IEEE TRANSACTIONS ON
+AUTOMATIC CONTROL SCI 中科院二区 7.0
+59
+IEEE TRANSACTIONS ON
+COMMUNICATIONS SCI 中科院二区 8.3
+
+--- PAGE 4 ---
+60 AUTOMATICA SCI 中科院二区 5.9
+61
+IEEE TRANSACTIONS ON
+RELIABILITY SCI 中科院二区 5.7
+62
+IEEE TRANSACTIONS ON
+COMPUTERS SCI 中科院二区 3.8
+63 Applied Acoustics SCI 中科院二区 3.6
+64
+IEEE TRANSACTIONS ON
+Audio, Speech and Language
+Processing
+SCI 中科院二区 5.1
+65
+IEEE Transactions on
+Computer-Aided Design of
+Integrated Circuits and Systems
+SCI 中科院三区 2.9
+66
+ACM Transactions on Design
+Automation of Electronic
+Systems
+SCI 中科院四区 2.0
+67 Chinese Physics B SCI 中科院三区 1.4

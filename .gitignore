@@ -1,0 +1,24 @@
+# Source and reproducible reference vectors are versioned. Large reference
+# publications, archives, numerical caches and simulator products stay local.
+*.pdf
+*.docx
+*.zip
+*.mat
+*.pyc
+__pycache__/
+vendor/
+xsim.dir/
+.Xil/
+*.pb
+*.jou
+*.wdb
+*.vcd
+*.vvp
+*.log
+xsim_*.backup.*
+dfx_runtime.txt
+*_console.txt
+compile_console.txt
+elaborate_console.txt
+simulation_console.txt
+*.asv

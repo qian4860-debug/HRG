@@ -1,0 +1,437 @@
+ARCHIVE: 全角陀螺/Full_Digital_Control_of_Hemispherical_Resonator_Gyro_Under_Force-to-Rebalance_Mode.pdf
+TOTAL PAGES: 5
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+IEEE SENSORS JOURNAL, VOL. 15, NO. 1, JANUARY 2015 71
+Full Digital Control of Hemispherical Resonator
+Gyro Under Force-to-Rebalance Mode
+Baomei Qiu, Member, IEEE, Jianwen Wang, Member, IEEE, and Penghua Li, Member, IEEE
+Abstract— The signal processing of the hemispherical
+resonator gyro (HRG) plays a key role in realizing the function
+and improving the performance of HRG. In this paper, a novel
+signal processing method for HRG is proposed and the basic prin-
+ciple of this method is introduced. The hardware and software
+design for the system are implemented based on the given method.
+The system realizes the full digital circuit control strategy for
+HRG under force-to-rebalance mode based on the digital signal
+processor and ﬁeld programmable gate array framework. The
+effectiveness of the proposed control strategy is veriﬁed by
+simulations and experimental results. The experimental results
+show that the gyro bias stability is better than 0.02°/h.
+Index Terms — Hemispherical resonator gyro, digital control,
+signal processing, force-to-rebalance control.
+I. I NTRODUCTION
+T
+HE hemispherical resonator gyro (HRG) is used to
+measure the angular rotation rate by the procession of
+the vibration pattern based on the resonators Coriolis effect.
+It utilizes the rotation sensitivity of the lowest bending mode
+of a hemispherical shell. When HRG is vibrating in that
+mode it will respond in one circle of the shell vibration.
+The vibrating equatorial ellipse thus forms a standing wave
+with four equally-spaced antinodes and four nodes. When
+such a standing wave is present in the shell, a rotation about
+the shell axis produces Coriolis forces on the vibrating mass
+elements [1].
+The HRG operates in one of two modes: whole angle (W A)
+in which the gyro acts as an integrating rate gyro; FR in which
+the gyro acts as a rate sensor. The choice of gyro operation is
+highly dependent upon the application in which it will be used.
+W A operation with its extremely accurate angular gain factor
+will have excellent scale factor performance (< 1ppm) but will
+have high angle noise due to lo w resolution and inaccuracies
+in reading out the position of the standing wave. It also will
+have bias errors that vary as the standing wave moves relative
+to the case and requires compensation. On the other hand, FR
+operation will have excellent noise characteristics and easily
+Manuscript received April 22, 2014; revised July 5, 2014; accepted July 6,
+2014. Date of publication July 16, 2014; date of current version November 5,
+2014. This work was supported in part by the Youth Science and Technology
+Innovation Talents Project of Chongqi ng Science and Technology Commis-
+sion, under Grant cstc2013kjrc-qnrc 40005, and in part by the Science and
+Technology Project of Chongqing Muni cipal Education Commission, under
+Grant KJ1400404. The associate editor coordinating the review of this paper
+and approving it for publication was Dr. E. H. Yang.
+B. Qiu and P. Li are with the College of Automation, Chongqing Uni-
+versity of Posts and Telecommunications, Chongqing 400065, China (e-mail:
+qiubaomei@hotmail.com; lipenghua88@163.com).
+J. Wang is with the Research Institute, China Electronics Technology Group
+Corporation, Chongqing 400060, China (e-mail: wjwqbm@yahoo.com).
+Color versions of one or more of the ﬁgures in this paper are available
+online at http://ieeexplore.ieee.org.
+Digital Object Identiﬁer 10.1109/JSEN.2014.2339229
+modeled bias errors along with a high resolution, but will
+have a scale factor that will be limited by the stability of
+the electrical components and circuits, and depends upon the
+stability of gyro structure [1], [2].
+The HRG has the features of small size, low noise, light
+weight, high accuracy, long life span, inherent high reliability,
+natural radiation hardness and no wear-out. With its excellent
+performance, HRG has received i ncreasing attention and it
+has been widely used in many areas, including spacecraft sta-
+bilization, precision pointing, aircraft navigation, oil borehole
+exploration and planetary exploration [3], [4]. HRG control
+is required to establish a ﬁxed-amplitude standing wave, keep
+the standing wave at a null position, remove any traveling
+wave components in the wave, and synchronize itself with
+the frequency of the resonator. Many researchers are devoted
+to research related to it. Lynch has done much work in this
+ﬁeld [1]. The detection of signals is one of the key techniques
+for realizing the functions and characteristics of HRG. The
+method for the detection of signals proposed by Lynch in
+[5]–[9] assumes the stable and precise replica of reference
+signals VRS = ARS sin (ωτ+ϕ
+′
+) and VRC = ARC cos(ωτ+ϕ
+′
+).
+The standing wave parameters deriving from HRG are demod-
+ulated by the reference signals VRS and VRC . The reference
+signals are obtained from the reference voltage-controlled
+oscillator. The frequency ω of the reference generator is
+close to the natural frequency of HRG. This requires a
+reference-phase loop to lock an external reference frequency
+to the natural frequency of HRG [10], [11]. But the natural
+frequency of HRG varies with the temperature. As men-
+tioned in [12]–[14], the change rate of the natural resonance
+frequency of HRG with the ambient temperature is about
+80ppm/°C. As the environment temperature changes, it is
+very difﬁcult to produce the frequency which is the same
+as the natural resonance frequency ω of HRG. In addition,
+the methods for demodulation need the high-accuracy
+phase shifter. Therefore, it is difﬁcult to achieve the
+conventional signals demodulation and control mode in
+practice.
+In this paper, the FR mode is used in order to meet the
+needs of low noise and high res olution angular rate in satellite
+applications. A novel demodulation method is presented based
+on the FR mode. The the proposed approach, unlike the
+conventional signal demodulation approaches, doesn’t require
+the reference signals from the high accuracy phase-locked
+loop (PLL) and the complex high accuracy phase shifting
+circuit. The phase shifting circuit is mainly implemented based
+on the digital signal processor (DSP) and the ﬁeld program-
+mable gate array (FPGA). Therefore, the computational com-
+plexity is greatly reduced. It is easy to realize the full digital
+1530-437X © 2014 I EEE. Personal u se is perm itted, but republication/redistribution requires IEEE permission.
+See http://www.ieee.org/publications_standards/publications/rights/index.html for more information.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:04:22 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 2 ---
+72 IEEE SENSORS JOURNAL, VOL. 15, NO. 1, JANUARY 2015
+Fig. 1. Schematic of re sonator’s vibration.
+demodulation and control for HRG. The hardware and soft-
+ware design are developed based on the proposed algorithm.
+II. R EALIZATION PRINCIPLE
+A. Expression of HRG Signals
+The HRG is a kind of Coriolis Vibratory Gyro (CVG) [14].
+Its harmonic oscillator is a thin-walled axis-symmetric hemi-
+spherical shell. Actually, it is a two-dimensional oscillator
+with the natural frequency ω. In [15], the vibration model of
+a vibratory gyroscope has been built. In [16], by applying the
+ﬁnite element method, the equations of vibration have been
+derived and analyzed. The design and analysis of a vibratory
+gyroscope begin with the equations of motion for the excita-
+tion and detection mode. The vibratory mode of HRG is based
+upon the pendulum operation. As shown in Fig. 1, x and y
+axes are the 0° electrode axis and the 45° electrode axis,
+respectively. The proof-mass tra jectory is an orbital trajectory
+m o t i o ni nt h ex-y plane with parameters θ, ϕ, a,a n d q,
+describing the inclination angle, the orbital phase, semi-major,
+and semi-minor axes, respectively. The parameters a and q can
+be thought of as the amplitude of the main antinode and the
+quadrature antinode of the proof-mass motion in x-y plane.
+The parameter ϕ is the phase of main-wave. The parameter
+ω is the angular frequency of the vibration of the HRG. The
+signals x and y are measured through 0° and 45° electrode,
+respectively. The controlled objects are two output signals
+x and y from HRG: the amplitude of antinode point x is equal
+to the signal a, the node signal y is asymptotically approaching
+zero. The higher the control precision, the closer the signal y
+is to zero (theoretically equal to zero). Under the FR mode,
+the vibration displacement in the x and the y directions can
+be expressed as follows [13]:
+x = acos 2θcos(ωτ + ϕ) − qsin 2θsin(ωτ + ϕ)
+y = asin 2θcos(ωτ + ϕ) − qcos 2θsin(ωτ + ϕ) (1)
+B. Algorithm Implementation
+According to (1), the signals x and y are processed as
+follows:
+(x2 + y2) low-pass IIR ﬁlter−−−−−−−−−−−−−−−−−→
+inﬁnite-impulse-response (IIR)
+= 1
+2(a2 + q2) (2)
+(x ∗ y)
+low-pass IIR ﬁlter
+−−−−−−−−−−−−−−−−−→
+inﬁnite-impulse-response (IIR)
+= 1
+4(a2 − q2) sin 4θ (3)
+Fig. 2. Block diagram of hardware.
+As the signal x is delayed 90°, the signal x90 can be written
+as follows:
+x90 = a cos 2θ sin(ωτ + ϕ) + q sin 2θ cos(ωτ + ϕ) (4)
+The x90 ∗ y is shown as follows:
+(x90 ∗ y)
+low-pass IIR ﬁlter
+−−−−−−−−−−−−−−−−−→
+inﬁnite-impulse-response (IIR)
+= 1
+2 qa (5)
+Let
+E1 = 1
+2(a2 + q2)
+E2 = 1
+4(a2 − q2) sin 4θ
+E3 = 1
+2 qa (6)
+where E1 is the error signal of the amplitude control loop.
+It is used to keep and control the amplitude of standing wave
+vibration. When E1 is kept a ﬁxed value by the amplitude
+control loop, the stability of th e vibration amplitude could be
+realized. E2 is used for the force control. E3 is used for the
+quadrature control.
+According to (5) and (6), the signals a, q,a n d θ can be
+expressed as
+a = 1
+2
+(√
+2E1 + 4E3 +
+√
+2E1 − 4E3
+)
+q = 1
+2
+(√
+2E1 + 4E3 −
+√
+2E1 − 4E3
+)
+θ = arcsin 2E2
+√
+E21 − 4E23
+(7)
+1) The signal θ is HRG output angle, and the control target
+for θ is zero under FR mode.
+2) The error signal q is used to correct the frequency differ-
+ence resulting from imbalance of resonator machining.
+Theoretically, the control target for q is zero.
+3) The signal a is the amplitude of the main antinode.
+III. H ARDWARE IMPLEMENTATION
+After the continuous signals were discretized, it was easy
+to realize the digital control for HRG by using the digital
+signal processing technology. In the process of the signal
+demodulation, the signal y plays an essential role. But the
+signal y is a very weak signal. The higher the control precision,
+the closer the signal y is to zero. The hardware implementation
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:04:22 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 3 ---
+QIU et al.: FULL DIGITAL CONTROL OF HEMISPHERICAL RESONATOR GYRO UNDER FORCE-TO-REBALANCE MODE 73
+Fig. 3. Block diagram of software design.
+block diagram is shown in Fig. 2. It consists of the buffer
+ampliﬁer circuit, the digital acquisition, the digital processing
+circuit, the high voltage signal modulation circuit for HRG,
+and the data output circuit, etc.
+To extract high precision information from the weak signals,
+the digital acquisition circuit employed high-speed, high-
+resolution analog-to-digital (A/D) converters. The wave node
+signal y from the gauge outﬁt of HRG was highly ampli-
+ﬁed before inputting into A/D converters, which signiﬁcantly
+reduced the high-resolution demand for the A/D converter. The
+buffer ampliﬁer employed the hig h precision instrumentation
+ampliﬁer. In order to ensure the synchronization for the
+discretization of the antinode and the node signals from the
+gauge outﬁt, two pieces of high- speed and high-resolution
+successive approximation analog-to-digital converters (SAR
+ADC) AD7634 were employed. The sampling frequency was
+500 kHz.
+The digital processing circuit mainly used a Xilinx Virtex-4
+ﬁeld-programmable gate array (FPGA) from Xilinx, Inc. The
+functions of FPGA were mainly responsible for control-
+ling A/D sampling, the ﬁnite-impulse-response (FIR) band-
+pass ﬁlter after A/D sampling, the digital demodulation, the
+digital modulation, the digital-to-analog (D/A) control, the
+frequency detection of HRG, and data exchange with DSP,
+etc. A TMS320C6701 DSP manufactured by TI Corporation
+was employed. The functions of DSP were mainly responsible
+for solving the signals a, q,a n dθ according to (6), completing
+the proportional-integral-derivative (PID) control algorithm of
+the amplitude loop, the quadrature loop, and the force control
+loop for HRG control, IIR ﬁlter algorithm after FPGA demod-
+ulation, temperature compensation, and linearity compensation
+algorithms, etc. The results, as the output of HRG, were sent
+to FPGA through the external bus.
+IV . SOFTWARE IMPLEMENTATION
+Fig. 3 shows the software implementation frame diagram.
+Xi and Yi were respectively the output data from AD7634
+sampling the antinode and the node signals. The signal x90,
+as the key signal of demodulation mentioned above, is the
+signal x delayed 90°. In practice, the zero-point drift for
+HRG output varies with temperature. Therefore, it is of vital
+importance to make necessary temperature compensation. The
+frequency of HRG varies with temperature and each point
+of temperature only corresponds to one natural frequency.
+Therefore, instead of the temperature sensor, the temperature
+drift compensation can be accomplished based on the natural
+frequency of the resonator [12]. This compensation method
+was valid and suitable for the full digital circuit control. The
+resonant frequency of HRG changes slowly with temperature.
+The frequency of HRG can be acquired by the multi-period
+detection method. This method took the average values of
+the detection results after periodically detecting HRG output
+signals. It was very easy to implement with FPGA and a high-
+resolution of 0.001 Hz was achieved. In practice, PLL achieved
+the detection accuracy of 0.05° when the operating temperature
+range for HRG is from −30 °C to 60 °C. This provided a solid
+foundation for the high-precision control for HRG.
+V. R ESULTS
+In order to compare the simulation results with those mea-
+sured in practice, the paramet ers in the simulation conditions
+were set in coherence with HRG working conditions in the
+actual application. The paramet ers for (1) were set as follows:
+a = 5, q = 0.05, θ = 0.2◦, ω = 10000π,a n d ϕ = π
+7 .T h e
+sampling frequency was also 500 kHz. The band-pass ﬁlter
+was replaced by the FIR digital ﬁlter. The demodulated signals
+adopted the IIR low-pass ﬁlter. The ﬁlter cut-off frequency
+was set to be 100 Hz. Under the FR mode, the control targets
+were that the signal a tends to a constant, q and θ tend to zero.
+After the signals from (1) were discretized, noise was added to
+the input signals. With the matlab simulation software, Fig. 4,
+Fig. 5, and Fig. 6 show the demodulated results. Fig. 4 is the
+graph of the demodulated signal a. Fig. 5 is the graph of the
+demodulated signal q. Fig. 6 is the output of demodulated
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:04:22 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 4 ---
+74 IEEE SENSORS JOURNAL, VOL. 15, NO. 1, JANUARY 2015
+Fig. 4. The amplitude curve for the signal a.
+Fig. 5. The output curve for the signal q.
+Fig. 6. The output curve for the signal θ.
+signal θ. The curves demonstrate that the signals a, q,a n d θ
+are stable at 1000 point, respectively. The signals achieve fast
+convergence within a very short time, and the overshoot of
+signals a, q,a n dθ are small, respectively (the overshoot of a
+is 2%, that of θ and that of q less than 1%). When the sampling
+point is 1000, a = 4.9984, q = 0.0521, and θ = 0.20034°,
+these data are very close to the theoretically set values ( a = 5,
+q = 0.05, and θ = 0.2°) as shown in Table I. Simulation
+results indicated the fast convergence and the feasibility of
+the proposed algorithm.
+On the other hand, from the simulation results as shown in
+Table II, the little error of the signal x90 (the signal x90 is
+TABLE I
+COMPARISON OF THE THEORETICAL SET
+VALUE AND DEMODULATION VALUE
+TABLE II
+DEMODULATION VALUES WITH THE ERROR OF THE SIGNAL x90
+Fig. 7. The actual digital control circuit.
+delayed 90°) didn’t signiﬁcantly affect the demodulation
+results. But the experimental results show that the little error
+of x90 has a greater impact on HRG outputs, because the x90
+(C1 is x90 multiplied by the constant coefﬁcient as shown
+in Fig. 3) was also used for force closed-loop control. Conse-
+quently, getting the high-stability and high-precision signal x90
+plays a vital role in improvi ng the accuracy of HRG outputs.
+Fig. 7 shows a digital control printed circuit board (PCB).
+The overall construction of the circuit is shown in Fig. 2.
+The outputs of HRG were transmitted to the upper computer
+through the RS422 digital interface circuits. Based on the
+proposed demodulation cont rol method, HRG was placed on
+the turntable with the single axis, and the input shaft of HRG
+was towards the west on the test. The operation was performed
+during an hour’s continuous sampling. The sampling period
+was 10ms. One sample was achieved during a 10s integra-
+tion period. A total of 36 samples were achieved as shown
+in Table III.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:04:22 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 5 ---
+QIU et al.: FULL DIGITAL CONTROL OF HEMISPHERICAL RESONATOR GYRO UNDER FORCE-TO-REBALANCE MODE 75
+TABLE III
+GYRO OUTPUT RESULT (UNIT :V )
+According to Table III, the average value is 0.0025656 V
+the standard deviation is 1.2318 ×10−5V; the scale factor is
+2.9°/s, the bias of gyro is 3.18°/h, the bias stability of gyro
+is 0.015°/h. By the application of this digital demodulation
+control method, the gyro bias stability is better than 0.02°/h
+and the linearity of the gyro is better than 50 ppm.
+VI. C ONCLUSION
+In this paper, a novel signal demodulation approach for
+HRG was proposed. This demodulation approach doesn’t
+require the reference signals from the high precision PLL.
+The computational complexity was greatly reduced. The hard-
+ware and software designs were implemented based upon
+this method. The simulation and test results have proved the
+feasibility of the approach and the correctness of its theoretical
+derivation. The research results build a theoretical basis for
+the HRG control and application under the FR mode. The full
+digital control of HRG under the FR mode has been achieved
+by the use of the FPGA and DSP digital demodulation
+control mode. The experimental results show that the gyro bias
+stability is better than 0.02 ◦/h. The experiment also found that
+the three gyro control signals are coupled to each other under
+the FR mode. The signal decoupling research will be further
+needed to improve the gyro accuracy.
+REFERENCES
+[1] D. M. Rozelle, “The hemispherical resonator gyro: From wineglass to
+the planets,” in Proc. 19th AAS/AIAA Space Flight Mech. Meeting, 2009,
+pp. 1157–1178.
+[2] D. D. Lynch, R. R. Savaya, and J. J. Campanile, “Hemispherical resonant
+gyro control,” U.S. Patent 2006 ˙0 248 953. Nov. 9, 2006.
+[3] A. Matthews and F. J. Rybak, “Comparison of hemispherical resonator
+gyro and optical gyros,” IEEE Aerosp. Electron. Syst. Mag., vol. 7, no. 5,
+pp. 40–46, May 1992.
+[4] G. I. Dzhandzhgava, K. A. Bakhonin, G. M. Vinogradov, and
+A. V . Trebukhov, “Strapdown inertial navigation system based on a
+hemispherical resonance gyro,” Gyroscopy Navigat. , vol. 1, no. 2,
+pp. 91–97, 2010.
+[5] D. Lynch, A. Matthews, and G. T. Varty, “Innovative mechanization to
+optimize inertial sensors for high or low rate operations,” in Proc. Symp.
+Gyro Technol., vol. 6. Stuttgart, Germany, Sep. 1997, pp. 16–17.
+[6] A. Matthews, G. T. Varty, C.-M. Li, and D. D. Lynch, “Vibratory rotation
+sensor with whole-angle tracking,” U.S. Patent 5 801 310, Sep. 1, 1998.
+[7] A. Matthews, G. T. Varty, P. C. N guyen, and D. D. Lynch, “Extraction
+of double-oscillation-frequency sinusoi ds in vibratory rotation sensors,”
+U.S. Patent 6 158 282. Dec. 12, 2000.
+[8] E. J. Loper, Jr. and D. D. Lynch, “Vibratory rotation sensor,”
+U.S. Patent 4 951 508, Aug. 28, 1990.
+[9] A. Matthews, “Vibratory rotation sensor with scanning-tunneling-
+transducer readout,” U.S. Patent 5 712 427, Jan. 27, 1998.
+[10] L. Yun, L. Bing, W. Xu, and W. Wenqi, “Quadrature control of
+hemispherical resonator gyro based on FPGA,” in Proc. 10th Int. Conf.
+Electron. Meas. Instrum. , Aug. 2011, pp. 369–372.
+[11] X. Wang, W. Wu, B. Luo, Z. Fang, Y . Li, and Q. Jiang, “Force to
+rebalance control of HRG and suppression of its errors on the basis of
+FPGA,” Sensors, vol. 11, no. 12, pp. 1761–1773, 2011.
+[12] X. Wang, W. Wu, B. Luo, Z. Fang, Y . Li, and Q. Jiang, “Temperature
+drift compensation for hemispheri cal resonator gyro based on natural
+frequency,” Sensors, vol. 12, no. 5, pp. 6434–6446, 2012.
+[13] W. W. Stripling, D. D. Lynch, and J. R. Baskett, “Hemispherical
+resonator gyro: Principle, design, and performance,” in Proc. Symp. Gyro
+Technol., Stuttgart, Germany, Sep. 1992, pp. 22–23.
+[14] E. J. Loper and D. D. Lynch, “Projected system performance based on
+recent HRG test result,” in Proc. IEEE/AIAA 5th Digit. Avionics Syst.
+Conf., Seattle, WA, USA, Oct./Nov. 1983, pp. 1811–1816.
+[15] D. D. Lynch, “Coriolis vibratory gyros,” in Proc. Symp. Gyro Technol.,
+Stuttgart, Germany, 1998.
+[16] B. Friedland and M. Hutton, “The ory and error analysis of vibrating-
+member gyroscope,” IEEE Trans. Autom. Control , vol. 23, no. 4,
+pp. 545–556, Aug. 1978.
+[17] G.-S. Chou and C.-O. Chang, “Modal precession of a hemispherical shell
+gyro excited by electrostatic ﬁeld,” Int. J. Appl. Electromagn. Mech. ,
+vol. 10, no. 5, pp. 425–449, 1999.
+Baomei Qiu received the master’s degree from the Xi’an University of
+Science and Technology, Xi’an, Chi na, in 2004. She is currently a Faculty
+Member of the College of Automation at Chongqing University of Posts and
+Telecommunications, Chongqing, China. Her research interests focus on the
+inertial sensor, control theory, and signal detection.
+Jianwen Wang received the master’s degree in electronics engineering from
+Xidian University, Xi’an, China, in 2006. He is currently an Engineer in
+Inertial Technology with the No.26 Research Institute, China Electronics
+Technology Group, Chongqing, China. His r esearch interests include sensor
+technology and control engineering.
+Penghua Li received the bachelor’s and Ph.D. degrees from Chongqing
+University, Chongqing, in 2008 and 2012, respectively. He is an Associate
+Professor with the College of Automation, Chongqing University of Posts and
+Telecommunications, Chongqing, China. His research interests cover artiﬁcial
+neural networks, quantum neural compu ting and its applications, and inertial
+technology.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:04:22 UTC from IEEE Xplore.  Restrictions apply. 

@@ -1,0 +1,1388 @@
+ARCHIVE: 全角陀螺/1-s2.0-S2405896325018932-main.pdf
+TOTAL PAGES: 5
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+IFAC PapersOnLine 59-20 (2025) 640–644
+ScienceDirect
+Available online at www.sciencedirect.com
+2405-8963 Copyright © 2025 The Authors. This is an open access article under the CC BY-NC-ND license.
+Peer review under responsibility of International Federation of Automatic Control.
+10.1016/j.ifacol.2025.11.223
+10.1016/j.ifacol.2025.11.223 2405-8963
+Copyright © 2025 The Authors. This is an open access article under the CC BY -NC-ND license  
+(https://creativecommons.org/licenses/by-nc-nd/4.0/)
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+High-precision frequency split Identification
+and balancing of the hemispherical
+resonator gyro via Virtual Precession
+Ning W ang∗, Zhennan W ei∗∗, Guoxing Yi ∗∗∗, Yibo F eng∗∗∗∗,
+Cong W ang†
+∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ning.w@stu.hit.edu.cn)
+∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: wzn@hit.edu.cn)
+∗∗∗ Harbin Institute of Technology, Harbin, Heilongjiang 150001 China
+(e-mail: ygx@hit.edu.cn)
+∗∗∗∗ Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (feng yibo123@163.com)
+† Beijing Institute of Aerospace Control Devices, Beijing, 100854
+China (wangcong 0716@126.com)
+Abstract: This study addresses the challenges of low efficiency and limited accuracy in the
+frequency split identification of the high-precision hemispherical resonator gyro(HRG). A novel
+high-precision and rapid identification method based on virtual precession is proposed. Initially,
+the underlying causes of frequency split and its impact mechanism on the standing wave drift
+of the HRG are systematically analyzed. Subsequently, a measurement approach leveraging
+the active precession of the driven standing wave to determine the frequency split of the
+HRG is introduced. The validity of the proposed method is further substantiated through
+numerical simulations. Finally, an experimental system for HRG frequency split identification
+is established, followed by identification experiments. Based on the experimental outcomes,
+ion beam machining is employed to balance the resonator. Experimental results show a
+significant reduction in frequency split after balancing, thereby confirming the effectiveness
+and applicability of the proposed method.
+Keywords: Hemispherical resonator gyro (HRG), Frequency split, Parameter estimation, Ion
+beam balancing, vibration
+1. INTRODUCTION
+The hemispherical resonator gyro (HRG), as a high-
+precision inertial sensor, has significant applications in
+aerospace navigation, precision guidance, and attitude
+control due to its long lifespan, low power consumption,
+and excellent shock resistance Delhaye (2018), Delhaye
+(2019), Rozelle (2009). The dynamic characteristics of its
+core sensing element, the hemispherical resonator, directly
+determine the performance of the gyro Jeanroy et al.
+(2014). Among these characteristics, frequency split, a pa-
+rameter representing the inherent defects of the resonator,
+is a critical factor causing standing wave drift and limiting
+the accuracy and stability of the gyro Lynch (1995).
+In the field of hemispherical resonator frequency split
+research, numerous scholars have conducted in-depth in-
+vestigations. Huo et al. (2020),Wei et al. (2019) established
+a dynamic model of the hemispherical resonator based
+on the elastic thin-shell theory and derived the motion
+equations considering frequency split. Their study revealed
+that the fourth-order harmonic component of the mass
+defect is the primary cause of frequency split, providing a
+theoretical foundation for subsequent identification meth-
+ods. Building on this, Wei et al. (2021), Li et al. (2020) pro-
+posed a high-precision synchronous measurement method
+based on the envelope of time-domain vibration signals,
+which enables accurate identification of the hemispherical
+resonator’s frequency split. However, this method cannot
+directly determine the orientation of the resonator’s natu-
+ral modal axes and requires additional identification using
+Fast Fourier Transform (FFT), making the testing process
+relatively complex. Furthermore, the presence of damping
+asymmetry in the hemispherical resonator may introduce
+errors in the identification of the natural modal axes and
+frequency split. To address this issue, Huo et al. (2022) re-
+fined the testing method, further improving identification
+accuracy.
+Once the amplitude and orientation of the fourth-order
+harmonic component of the mass defect are determined,
+mass balancing can be performed using either physi-
+cal or chemical methods. Wang et al. (2018), Basarab
+et al. (2015) implemented mass balancing using chemical
+reagents, reducing the hemispherical resonator’s frequency
+split to 0.05 Hz. In contrast, Huo et al. (2022) employed
+ion beam balancing, achieving a more precise correction
+that successfully reduced the frequency split from an initial
+0.2354 Hz to 0.0006 Hz.
+Although existing studies have attempted to reduce fre-
+quency split through mechanical balancing and mass com-
+pensation, traditional methods generally suffer from low
+efficiency and insufficient identification accuracy, making
+it difficult to meet the urgent demand for rapid calibration
+and correction of resonator dynamics in high-precision
+HRGs. The envelope-based frequency split testing method
+for hemispherical resonators is closely related to the fre-
+quency split itself. The smaller the frequency split, the
+longer the testing duration, exhibiting an inverse relation-
+ship between the two. For a hemispherical resonator with
+a frequency split of 0.001 Hz, a single test requires more
+than 1000 seconds.
+To address these challenges, this study proposes a novel
+high-precision and rapid identification method for HRG
+frequency split based on virtual precession, aiming to over-
+come the limitations of traditional techniques. First, by
+systematically analyzing the causes of frequency split and
+its impact mechanism on standing wave drift, the intrinsic
+relationship between the active precession characteristics
+of the driven standing wave and frequency split is revealed.
+Building on this, an innovative rapid measurement model
+for frequency split is constructed based on the dynamic
+response of the resonator, and the robustness and feasi-
+bility of the theoretical model are verified through numer-
+ical simulations. Furthermore, an experimental platform
+for HRG frequency split identification is established, and
+dynamic balancing of the resonator is performed using ion
+beam machining.
+2. HRG DYNAMIC MODAL
+As illustrated in Fig. 1(a), the HRG comprises five es-
+sential components: a hemispherical resonator, a flat elec-
+trode, electrode conductors, a metal shell, and a control
+circuit. During HRG operation, alternating electrical sig-
+nals generated by the control circuitry are transmitted
+through the electrode conductors to the flat electrode.
+The resultant alternating electric field excites the hemi-
+spherical resonator into a four-wave antinodal bending
+vibration mode, as depicted in Fig. 1(b). When subjected
+to external angular velocity inputs Ω(t), Coriolis force-
+induced precession occurs in the resonator’s standing wave
+pattern:
+ϑ(t)= −K
+� t
+0
+Ω(t)dτ (1)
+where ϑ denotes the standing wave precession angle, and
+K represents the gyroscopic precession coefficient.
+The hemispherical resonator is typically fabricated from
+low-damping fused quartz material through mechani-
+cal grinding. However, mechanical processing inevitably
+causes an uneven distribution of mass around the res-
+onator, which is defined as mass defects. These defects lead
+to issues such as frequency split and uneven damping. For
+a non-ideal hemispherical resonator with mass defects, its
+dynamic equation can be expressed as:
+Fig. 1. Schematic diagrams of the mechanical configuration
+of an HRG (a), standing wave precession mechanism
+(b).
+
+
+
+¨x +2 k1Ωz ˙y + k1 ˙Ωz y +
+� 1
+τx
++ 1τy
+�
+˙x
++
+� 1
+τx
+− 1τy
+�
+(˙x cos 4βτ +˙y sin 4βτ )
++
+� 1
+2
+�
+ω2x + ω2y � − 2k2Ω2z
+�
+x
++ 12 �ω2x − ω2y � (x cos 4βω + y sin 4βω )= fx
+¨y − 2k1Ωz ˙x − k1 ˙Ωz x +
+� 1
+τx
++ 1τy
+�
+˙y
+−
+� 1
+τx
+− 1τy
+�
+(− ˙x sin 4βτ +˙y cos 4βτ )
++
+� 1
+2
+�
+ω2x + ω2y � − 2k2Ω2z
+�
+y
+− 12 �ω2x − ω2y � (−x sin 4βω + y cos 4βω )= fy
+(2)
+where x and y are the displacements at the edges of
+the hemispherical resonator, k1 and k2 are the precession
+coefficients, τx and τy are the time constants, βτ is the
+damping axis orientation angle, ωx and ωy are the natural
+frequencies, βω is the modal axis orientation angle, Ω z is
+the external input angular velocity, and fx and fy are the
+control forces.
+The mass defects of the hemispherical resonator are char-
+acterized by an equivalent non-uniform density distribu-
+tion. The density of the hemispherical resonator is ex-
+panded in a Fourier series along the circumferential az-
+imuth angle:
+ρ(β)= ρ0
+�
+1+
+∞�
+i=1
+ϵi cos [i(β − βi)]
+�
+(3)
+where ρ0 represents the average angular density of the
+hemispherical resonator, and ϵi and βi represent the an-
+gular density distribution and the corresponding angular
+widths and positions of the i-th harmonic mode.
+The hemispherical resonator frequency split of the res-
+onator is defined as Huo et al. (2020):
+∆ω = ωy − ωx ≈ νϵ4ω0 (4)
+Equation (4) indicates that the frequency split of the hemi-
+spherical resonator is primarily caused by the fourth-order
+harmonic of the mass defect. The frequency split is pro-
+portional to the amplitude of the fourth-order harmonic
+component of the mass defect. By accurately identifying
+the modal axis orientation βω of the hemispherical res-
+onator and balancing the mass defect of the fourth-order
+harmonic, the frequency split can be effectively balanced.
+--- PAGE 2 ---
+ Ning Wang  et al. / IF AC PapersOnLine 59-20 (2025) 640–644 641
+Copyright © 2025 The Authors. This is an open access article under the CC BY -NC-ND license  
+(https://creativecommons.org/licenses/by-nc-nd/4.0/)
+that successfully reduced the frequency split from an initial
+0.2354 Hz to 0.0006 Hz.
+Although existing studies have attempted to reduce fre-
+quency split through mechanical balancing and mass com-
+pensation, traditional methods generally suffer from low
+efficiency and insufficient identification accuracy, making
+it difficult to meet the urgent demand for rapid calibration
+and correction of resonator dynamics in high-precision
+HRGs. The envelope-based frequency split testing method
+for hemispherical resonators is closely related to the fre-
+quency split itself. The smaller the frequency split, the
+longer the testing duration, exhibiting an inverse relation-
+ship between the two. For a hemispherical resonator with
+a frequency split of 0.001 Hz, a single test requires more
+than 1000 seconds.
+To address these challenges, this study proposes a novel
+high-precision and rapid identification method for HRG
+frequency split based on virtual precession, aiming to over-
+come the limitations of traditional techniques. First, by
+systematically analyzing the causes of frequency split and
+its impact mechanism on standing wave drift, the intrinsic
+relationship between the active precession characteristics
+of the driven standing wave and frequency split is revealed.
+Building on this, an innovative rapid measurement model
+for frequency split is constructed based on the dynamic
+response of the resonator, and the robustness and feasi-
+bility of the theoretical model are verified through numer-
+ical simulations. Furthermore, an experimental platform
+for HRG frequency split identification is established, and
+dynamic balancing of the resonator is performed using ion
+beam machining.
+2. HRG DYNAMIC MODAL
+As illustrated in Fig. 1(a), the HRG comprises five es-
+sential components: a hemispherical resonator, a flat elec-
+trode, electrode conductors, a metal shell, and a control
+circuit. During HRG operation, alternating electrical sig-
+nals generated by the control circuitry are transmitted
+through the electrode conductors to the flat electrode.
+The resultant alternating electric field excites the hemi-
+spherical resonator into a four-wave antinodal bending
+vibration mode, as depicted in Fig. 1(b). When subjected
+to external angular velocity inputs Ω(t), Coriolis force-
+induced precession occurs in the resonator’s standing wave
+pattern:
+ϑ(t)= −K
+� t
+0
+Ω(t)dτ (1)
+where ϑ denotes the standing wave precession angle, and
+K represents the gyroscopic precession coefficient.
+The hemispherical resonator is typically fabricated from
+low-damping fused quartz material through mechani-
+cal grinding. However, mechanical processing inevitably
+causes an uneven distribution of mass around the res-
+onator, which is defined as mass defects. These defects lead
+to issues such as frequency split and uneven damping. For
+a non-ideal hemispherical resonator with mass defects, its
+dynamic equation can be expressed as:
+Fig. 1. Schematic diagrams of the mechanical configuration
+of an HRG (a), standing wave precession mechanism
+(b).
+
+
+
+¨x +2 k1Ωz ˙y + k1 ˙Ωz y +
+� 1
+τx
++ 1τy
+�
+˙x
++
+� 1
+τx
+− 1τy
+�
+(˙x cos 4βτ +˙y sin 4βτ )
++
+� 1
+2
+�
+ω2x + ω2y � − 2k2Ω2z
+�
+x
++ 12 �ω2x − ω2y � (x cos 4βω + y sin 4βω )= fx
+¨y − 2k1Ωz ˙x − k1 ˙Ωz x +
+� 1
+τx
++ 1τy
+�
+˙y
+−
+� 1
+τx
+− 1τy
+�
+(− ˙x sin 4βτ +˙y cos 4βτ )
++
+� 1
+2
+�
+ω2x + ω2y � − 2k2Ω2z
+�
+y
+− 12 �ω2x − ω2y � (−x sin 4βω + y cos 4βω )= fy
+(2)
+where x and y are the displacements at the edges of
+the hemispherical resonator, k1 and k2 are the precession
+coefficients, τx and τy are the time constants, βτ is the
+damping axis orientation angle, ωx and ωy are the natural
+frequencies, βω is the modal axis orientation angle, Ω z is
+the external input angular velocity, and fx and fy are the
+control forces.
+The mass defects of the hemispherical resonator are char-
+acterized by an equivalent non-uniform density distribu-
+tion. The density of the hemispherical resonator is ex-
+panded in a Fourier series along the circumferential az-
+imuth angle:
+ρ(β)= ρ0
+�
+1+
+∞�
+i=1
+ϵi cos [i(β − βi)]
+�
+(3)
+where ρ0 represents the average angular density of the
+hemispherical resonator, and ϵi and βi represent the an-
+gular density distribution and the corresponding angular
+widths and positions of the i-th harmonic mode.
+The hemispherical resonator frequency split of the res-
+onator is defined as Huo et al. (2020):
+∆ω = ωy − ωx ≈ νϵ4ω0 (4)
+Equation (4) indicates that the frequency split of the hemi-
+spherical resonator is primarily caused by the fourth-order
+harmonic of the mass defect. The frequency split is pro-
+portional to the amplitude of the fourth-order harmonic
+component of the mass defect. By accurately identifying
+the modal axis orientation βω of the hemispherical res-
+onator and balancing the mass defect of the fourth-order
+harmonic, the frequency split can be effectively balanced.
+--- PAGE 3 ---
+642 Ning Wang  et al. / IF AC PapersOnLine 59-20 (2025) 640–644
+A/D Signal Demodulation cx
+cy
+sx
+sy
+Parameter
+Calculat io n
+Signal 
+Modulatio n
+PLL
+urc urs
+urc urs
+Angle
+Calculat io n
+Quadrature Control
+Amplitude Control
+Virtua l Precession
+D/A
+sx
+sy
+E
+Q
+L
+M
+ϑ
+ϑ
+ϑ
+Fig. 2. Control block diagram of an HRG.
+3. FREQUENCY SPLIT IDENTIFICATION METHOD
+BASED ON VIRTUAL PRECESSION
+As is shown in Fig. 2, the basic control scheme of the
+HRG with a rate integration formulation includes phase-
+locking, quadrature, and amplitude control loops Wang
+et al. (2025), Sun et al. (2025), Wang et al. (2024).
+These loops collectively ensure the stable standing wave
+state of the resonator, enabling the measurement of the
+input angular velocity. Based on this, a virtual precession
+loop is added to apply control forces, actively controlling
+the standing wave to achieve high-precision identification
+of the hemispherical resonator’s frequency split and the
+fourth-order harmonic of mass defects. The derivative of
+the phase error of the hemispherical resonator gyro under
+closed-loop control is:
+∆ ˙ϕ = ˙ϕr + 12 ∆ω cos 4 (ϑ − βω )
++ 12 ∆ ( 1τ ) sin 4 (ϑ − βτ ) QE + fac2ω√E (5)
+Where ϕr represents the phase difference between the
+reference signal and the vibration signal, ∆1 /τ =1 /τ1 −
+1/τ2, and ω =( ω21 + ω22 )/2. Q and E denote the secondary
+demodulation quantities of the gyro, while fac represents
+the amplitude control force of the hemispherical resonator.
+In practical control implementations, the quadrature con-
+trol loop ensures that Q is maintained at zero. Addition-
+ally, since hemispherical resonator typically exhibit a high
+quality factor, the term fac /(2ωE) is approximately zero.
+As a result, the resonant frequency of the hemispherical
+resonator can be expressed as:
+f = f0 +2 π · ∆ ˙ϕ ≈ f0 + 12 ∆f cos 4 (ϑ − βω ) (6)
+From Equation (6), it is known that after enabling the
+phase-locked, quadrature, amplitude, and traveling wave
+rotation drive control, the frequency output model of the
+phase-locked loop (PLL) under the traveling wave rotation
+state is:
+fP LL(t)= f0 + 12 ∆f cos 4ωv t (7)
+where ωv represents the angular velocity of the resonator’s
+traveling wave under active drive control.
+Since the frequency at the initial time of signal acquisition
+does not necessarily correspond to the maximum frequency
+value, phase correction is required for Equation (7). After
+phase correction and discretization, the signal model is:
+fP LL(kN )= f0 + 12 ∆f cos(4ωv ·kN Te +Θ0)+ NS (kN ) (8)
+where Θ0 is the initial measured phase of the phase-locked
+loop’s frequency output signal, kN is the sample index, Te
+is the sampling period of the frequency measurement sig-
+nal, and NS (kN ) represents zero-mean noise interference.
+The sampled sequence of the frequency output signal of the
+phase-locked loop is denoted as fzP LL(kN ). Based on the
+least-squares principle, the optimization objective function
+is established as :
+JV (kN )=
+Ne∑
+kN =1
+{
+fzP LL(kN ) −
+[
+f0 + 12 ∆f cos(4ωv kN Te
++Θ0)]}2 (9)
+When JV (kN ) satisfies the conditions of least squares and
+the minimum principle, the model parameters f0,∆ f ,
+ωv ,a n dΘ 0 can all reach their optimal estimates. The
+minimum value of the objective function JV (kN ) can be
+obtained using the Nelder-Mead simplex method Lagarias
+et al. (1998).
+4. RESULTS AND DISCUSSION
+To validate the effectiveness of the virtual precession-based
+frequency split identification method for the hemispherical
+resonator, a frequency split identification system and an
+ion beam balancing system were established.
+The hemispherical resonator frequency split identification
+system, as shown in Fig. 3, consists of a vacuum system,
+the hemispherical resonator under test, control circuits, an
+oscilloscope, and a data acquisition computer. The control
+circuits, implemented using FPGA and DSP, execute the
+required control algorithms and facilitate the detection
+and actuation of the resonator’s vibration signals through
+planar electrodes.
+Vacuum 
+chamber
+Computer
+Oscilloscope
+Vacuum chamber
+controller
+Circuit boardDigital power
+Hemispherical 
+resonator gyro
+Data cable
+Fig. 3. Hemispherical resonator frequency split identifica-
+tion system.
+Fig. 4 presents the ion beam balancing system, comprising
+a vacuum system, a motion platform, and an ion source.
+During the balancing process, the hemispherical resonator
+is placed in the vacuum chamber, where the motion
+platform precisely rotates the resonator while high-energy
+ion beams emitted from the ion source selectively remove
+mass defects, thereby compensating for the fourth-order
+harmonic component of the mass defect.
+Diaphragm
+Ion beam
+Hemispherical 
+resonator
+Motion platform
+Neutralizer
+Isolation 
+platform
+Vacuum 
+chamber
+Controller
+Ion source
+Fig. 4. Hemispherical resonator ion beam balancing sys-
+tem.
+As illustrated in Fig. 5, the ion beam etching trajectory
+begins with a high-energy ion beam generated by the
+ion source. This beam is collimated through a focusing
+aperture and directed onto the resonator surface, where
+it selectively etches the elliptical pattern shown in the
+diagram, enabling nanoscale material removal with sub-
+micron precision. To achieve harmonic mass removal, the
+etching process is temporally discretized into a time-series
+sequence. By leveraging a high-precision rotary stage to
+control the dwell time of the resonator at specific az-
+imuthal angles, the mass removal profile is modulated into
+a harmonic form. The following mathematical formula-
+tion governs the discrete time-series corresponding to the
+fourth-order harmonic:
+T (j)= T0 {1 + cos [4φ(j) − φ]} (10)
+where T0 is the time amplitude etched by the fourth-
+order harmonic. The etching angle φ(j) of the fourth-order
+harmonic point can be expressed as:
+φ(j)=[ 2 π(j − 1)] /Nion,j =1 , 2, 3,..., 120 (11)
+where Nion is the total number of etching points, and in
+this paper, Nion = 120. The total etching time for the
+fourth-order harmonic is:
+Ttotal =
+Nion∑
+j=1
+T (j) (12)
+Ion Beam
+Diaphragm
+ dion 
+Etching Area
+Hemispherical 
+Resonator
+ Rotation Direction 0°° 360°° 
+0°° 360°° β4  
+β  
+β  
+Tion(j)  
+45°° 
+90°° α  Δβion   Δβion  Δβion  
+β  
+0°° 
+Etching Area Moving Direction
+Center Line
+Normal Line Expansion Direction
+Rotary Axis Line
+αion α 
+αion
+TA_ion  Ψion  
+ Φion  
+β4+90°   β4+180°   β4+270°°   
+Fig. 5. Ion beam etching trajectory.
+Fig. 6(a) illustrates the frequency output of the frequency
+control loop under the actively driven rotational state of
+the hemispherical resonator’s standing wave before balanc-
+ing. The actively driven standing wave precesses at a rate
+of 1 ◦/s. The experimental results closely match the theo-
+retical model described in Equation (7), demonstrating the
+accuracy of the proposed approach. Based on this model,
+the current frequency split of the hemispherical resonator
+is determined to be 0.0089 Hz.
+Fig. 6(b) presents the variation of the standing wave
+orientation under active rotational drive. By analyzing
+Fig. 6(a) and Fig. 6(b) together, the orientation of the
+low natural frequency axis is identified as 7.78 ◦.
+0 40 80 120 160
+7141.994
+7141.996
+7141.998
+7142.000
+7142.002
+7142.004
+7142.006f (Hz)
+Time (s)
+ Measured data before balancing  
+ Fitted data before balancing
+(a)
+0 40 80 120 160
+-100
+-75
+-50
+-25
+0
+25
+50
+75
+Standing wave azimuth 
+J (°)
+Time (s)
+(b)
+df = 0.0089 Hz
+βω = 7.78°
+Fig. 6. Resonant frequency (a) and standing wave azimuth
+angle (b) variations of the hemispherical resonator
+during actively driven precession.
+Once the orientation of the low natural frequency axis and
+the corresponding frequency split of the hemispherical res-
+onator have been identified, ion beam balancing is applied
+to compensate for the mass defect. Fig. 7 illustrates the
+variation in frequency split during the ion beam balancing
+process. The etching time exhibits an approximately linear
+relationship with the mass defect removal rate. After the
+balancing process, the frequency split of the hemispherical
+resonator is significantly reduced, decreasing from an ini-
+tial 0.0089 Hz to 0.0009 Hz, thereby meeting the precision
+requirements of high-performance HRGs.
+Fig. 8 compares the output frequency of the control loop
+variation with the standing wave azimuth angle before
+and after mass balancing under actively driven precession.
+Notably, while temperature significantly impacts the res-
+onant frequency of the HRG, the frequency split remains
+temperature-insensitive. A detrended frequency parameter
+f ′ = f − f is adopted to characterize azimuth-dependent
+frequency fluctuations. The results demonstrate a substan-
+tial reduction in frequency fluctuations after the balancing
+process, thereby validating both the effectiveness and ap-
+plicability of the proposed identification methodology.
+--- PAGE 4 ---
+ Ning Wang  et al. / IF AC PapersOnLine 59-20 (2025) 640–644 643
+Diaphragm
+Ion beam
+Hemispherical 
+resonator
+Motion platform
+Neutralizer
+Isolation 
+platform
+Vacuum 
+chamber
+Controller
+Ion source
+Fig. 4. Hemispherical resonator ion beam balancing sys-
+tem.
+As illustrated in Fig. 5, the ion beam etching trajectory
+begins with a high-energy ion beam generated by the
+ion source. This beam is collimated through a focusing
+aperture and directed onto the resonator surface, where
+it selectively etches the elliptical pattern shown in the
+diagram, enabling nanoscale material removal with sub-
+micron precision. To achieve harmonic mass removal, the
+etching process is temporally discretized into a time-series
+sequence. By leveraging a high-precision rotary stage to
+control the dwell time of the resonator at specific az-
+imuthal angles, the mass removal profile is modulated into
+a harmonic form. The following mathematical formula-
+tion governs the discrete time-series corresponding to the
+fourth-order harmonic:
+T (j)= T0 {1 + cos [4φ(j) − φ]} (10)
+where T0 is the time amplitude etched by the fourth-
+order harmonic. The etching angle φ(j) of the fourth-order
+harmonic point can be expressed as:
+φ(j)=[ 2 π(j − 1)] /Nion,j =1 , 2, 3,..., 120 (11)
+where Nion is the total number of etching points, and in
+this paper, Nion = 120. The total etching time for the
+fourth-order harmonic is:
+Ttotal =
+Nion∑
+j=1
+T (j) (12)
+Ion Beam
+Diaphragm
+ dion 
+Etching Area
+Hemispherical 
+Resonator
+ Rotation Direction 0°° 360°° 
+0°° 360°° β4  
+β  
+β  
+Tion(j)  
+45°° 
+90°° α  Δβion   Δβion  Δβion  
+β  
+0°° 
+Etching Area Moving Direction
+Center Line
+Normal Line Expansion Direction
+Rotary Axis Line
+αion α 
+αion
+TA_ion  Ψion  
+ Φion  
+β4+90°   β4+180°   β4+270°°   
+Fig. 5. Ion beam etching trajectory.
+Fig. 6(a) illustrates the frequency output of the frequency
+control loop under the actively driven rotational state of
+the hemispherical resonator’s standing wave before balanc-
+ing. The actively driven standing wave precesses at a rate
+of 1 ◦/s. The experimental results closely match the theo-
+retical model described in Equation (7), demonstrating the
+accuracy of the proposed approach. Based on this model,
+the current frequency split of the hemispherical resonator
+is determined to be 0.0089 Hz.
+Fig. 6(b) presents the variation of the standing wave
+orientation under active rotational drive. By analyzing
+Fig. 6(a) and Fig. 6(b) together, the orientation of the
+low natural frequency axis is identified as 7.78 ◦.
+0 40 80 120 160
+7141.994
+7141.996
+7141.998
+7142.000
+7142.002
+7142.004
+7142.006f (Hz)
+Time (s)
+ Measured data before balancing  
+ Fitted data before balancing
+(a)
+0 40 80 120 160
+-100
+-75
+-50
+-25
+0
+25
+50
+75
+Standing wave azimuth 
+J (°)
+Time (s)
+(b)
+df = 0.0089 Hz
+βω = 7.78°
+Fig. 6. Resonant frequency (a) and standing wave azimuth
+angle (b) variations of the hemispherical resonator
+during actively driven precession.
+Once the orientation of the low natural frequency axis and
+the corresponding frequency split of the hemispherical res-
+onator have been identified, ion beam balancing is applied
+to compensate for the mass defect. Fig. 7 illustrates the
+variation in frequency split during the ion beam balancing
+process. The etching time exhibits an approximately linear
+relationship with the mass defect removal rate. After the
+balancing process, the frequency split of the hemispherical
+resonator is significantly reduced, decreasing from an ini-
+tial 0.0089 Hz to 0.0009 Hz, thereby meeting the precision
+requirements of high-performance HRGs.
+Fig. 8 compares the output frequency of the control loop
+variation with the standing wave azimuth angle before
+and after mass balancing under actively driven precession.
+Notably, while temperature significantly impacts the res-
+onant frequency of the HRG, the frequency split remains
+temperature-insensitive. A detrended frequency parameter
+f ′ = f − f is adopted to characterize azimuth-dependent
+frequency fluctuations. The results demonstrate a substan-
+tial reduction in frequency fluctuations after the balancing
+process, thereby validating both the effectiveness and ap-
+plicability of the proposed identification methodology.
+--- PAGE 5 ---
+644 Ning Wang  et al. / IF AC PapersOnLine 59-20 (2025) 640–644
+0 1 2 3 4
+0.000
+0.002
+0.004
+0.006
+0.008
+0.010
+ Frequency split
+ Balancing time
+Ion beam balancing times
+Frequency split (Hz)
+40
+60
+80
+100
+120
+Balancing time (s)
+Fig. 7. Variation of frequency split during the ion beam
+balancing process.
+-80 -40 0 40
+-4.0×10-3
+0.0
+4.0×10-3
+8.0×10-3
+f '(Hz)
+Standing wave azimuth b (°)
+ Measured data before balancing  
+ Fitted data before balancing
+ Measured data after balancing
+ Fitted data after balancing
+df = 0.0089 Hz
+df = 0.0009 Hz
+Fig. 8. Variations in resonant frequency and standing wave
+azimuth angle of the hemispherical resonator before
+and after balancing under actively driven Precession.
+5. CONCLUSION
+This paper presents a virtual precession-based method-
+ology to overcome the persistent challenges of inefficient
+and low-precision frequency split identification in high-
+precision HRG. A systematic investigation into the ori-
+gin of frequency split and its correlation with standing
+wave drift lays the theoretical foundation for the proposed
+method. By innovatively harnessing the controlled active
+precession of driven standing waves, the developed ap-
+proach enables rapid and accurate frequency split quantifi-
+cation, surpassing conventional identification paradigms.
+Numerical simulations and experimental validation con-
+firm its robustness, with post-identification ion beam ma-
+chining achieving a substantial reduction in resonator fre-
+quency split. The demonstrated efficacy and operational
+adaptability of this method not only advance HRG perfor-
+mance optimization but also provide a scalable framework
+for precision enhancement in inertial navigation systems.
+REFERENCES
+Basarab, M., Lunin, B., Matveev, V., and Chumankin, E.
+(2015). Balancing of hemispherical resonator gyros by
+chemical etching. Gyroscopy and Navigation, 6(3), 218–
+223.
+Delhaye, F. (2018). Hrg by safran: The game-changing
+technology. In 2018 IEEE international symposium on
+inertial sensors and systems (INERTIAL) , 1–4. IEEE.
+Delhaye, F. (2019). Space naute® the hrg based inertial
+reference system of ariane 6 european space launcher.
+Gyroscopy and navigation, 10, 1–6.
+Huo, Y., Ren, S., Yi, G., and Wang, C. (2020). Motion
+equations of hemispherical resonator and analysis of
+frequency split caused by slight mass non-uniformity.
+Chinese Journal of Aeronautics , 33(10), 2660–2669.
+Huo, Y., Wei, Z., Ren, S., and Yi, G. (2022). High precision
+mass balancing method for the fourth harmonic of mass
+defect of fused quartz hemispherical resonator based
+on ion beam etching process. IEEE Transactions on
+Industrial Electronics, 70(9), 9601–9613.
+Jeanroy, A., Bouvet, A., and Remillieux, G. (2014). Hrg
+and marine applications. Gyroscopy and navigation,
+5(2), 67–74.
+Lagarias, J.C., Reeds, J.A., Wright, M.H., and Wright,
+P.E. (1998). Convergence properties of the nelder–mead
+simplex method in low dimensions. SIAM Journal on
+optimization, 9(1), 112–147.
+Li, S., Rong, Y., Zhao, W., Yang, H., Duan, J., and Zhao,
+S. (2020). Measurement method of frequency splitting
+for high-q hemispherical resonator based on standing
+wave swing effect. In 2020 IEEE International Sym-
+posium on Inertial Sensors and Systems (INERTIAL) ,
+1–4. IEEE.
+Lynch, D.D. (1995). Vibratory gyro analysis by the
+method of averaging. In Proc. 2nd St. Petersburg Conf.
+on Gyroscopic Technology and Navigation, 26–34.
+Rozelle, D.M. (2009). The hemispherical resonator gyro:
+From wineglass to the planets. In Proc. 19th AAS/AIAA
+Space Flight Mechanics Meeting, volume 134, 1157–
+1178.
+Sun, Y., Yi, G., Wei, Z., and Wang, Q. (2025). Identifi-
+cation and compensation method for unbalance error in
+signal detection chain of rate-integrating hemispherical
+resonator gyro. Measurement, 240, 115599.
+Wang, Q., Xie, W., Xi, B., Li, H., and Yi, G. (2025). A
+drive error identification and compensation method for
+whole angle mode hemispherical resonator gyroscope.
+Sensors and Actuators A: Physical, 116402.
+Wang, R., Yi, G., and Xie, W. (2024). Virtual precession
+self calibration method for hemispherical resonator gyro
+based on sinusoidal injection. IEEE Transactions on
+Instrumentation and Measurement.
+Wang, Y., Pan, Y., Qu, T., Jia, Y., Yang, K., and Luo,
+H. (2018). Decreasing frequency splits of hemispherical
+resonators by chemical etching. Sensors, 18(11), 3772.
+Wei, Z., Yi, G., Huo, Y., Qi, Z., and Xu, Z. (2019).
+The Synthesis Model of Flat-Electrode Hemispheri-
+cal Resonator Gyro. Sensors, 19(7), 1690. doi:
+10.3390/s19071690.
+Wei, Z., Yi, G., Huo, Y., Xi, B., and Zhao, Y. (2021).
+High-precision synchronous test method of vibration
+performance parameters for fused quartz hemispherical
+resonator. Measurement, 185, 109924.

@@ -1,0 +1,7 @@
+{
+  "seed": 465,
+  "dsp_cycles": 15330,
+  "dsp_transactions": 350,
+  "controller_cycles": 2400,
+  "model_source_sha256_utf8": "8b586777640dc25e88cadd33f022f90a7e170d26af0085eac15545b3be5de01d"
+}

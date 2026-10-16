@@ -1,0 +1,274 @@
+ARCHIVE: 全角陀螺/US9217640.pdf
+TOTAL PAGES: 15
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+USOO9217640B2 
+ (12) United States Patent (10) Patent No.: US 9.217,640 B2 
+ Lignon et al. (45) Date of Patent: *Dec. 22, 2015 
+ (54) GYROSCOPIC MEASUREMENT INA (56) References Cited 
+ NAVIGATION SYSTEM 
+ (75) Inventors: Christian Lignon, Paris (FR); Yannick Foloppe, Paris (FR) 
+ (73) Assignee: SAGEM DEFENSE SECURITE, Boulogne-Billancourt (FR) 
+ (*) Notice: Subject to any disclaimer, the term of this patent is extended or adjusted under 35 
+ U.S.C. 154(b) by 445 days. 
+ This patent is Subject to a terminal dis 
+ claimer. 
+ (21) Appl. No.: 13/641,459 
+ (22) PCT Filed: Apr. 18, 2011 
+ (86). PCT No.: 
+ S371 (c)(1), 
+ (2), (4) Date: Oct. 15, 2012 
+ (87) PCT Pub. No.: WO2011/128605 
+ PCT Pub. Date: Oct. 20, 2011 
+ (65) Prior Publication Data 
+ US 2013/0031948 A1 Feb. 7, 2013 
+ (30) Foreign Application Priority Data 
+ Apr. 16, 2010 (FR) ...................................... 10 O1628 
+ (51) Int. Cl. 
+ GOIC 9/56 
+ GOIC 9/567 
+ (52) U.S. Cl. 
+ CPC .............. G0IC 19/56 (2013.01); G0IC 19/567 
+ (2013.01) 
+ (2012.01) 
+ (2012.01) 
+ (58) Field of Classification Search 
+ CPC ....................................................... GO1C 19756 
+ See application file for complete search history. 
+ U.S. PATENT DOCUMENTS 
+ 6,834,247 B2 * 12/2004 Hiedenstierna et al. ........ 7O2/85 
+ 7,040,162 B2 * 5/2006 Lehureau et al. .......... T3,504.12 
+ (Continued) 
+ FOREIGN PATENT DOCUMENTS 
+ EP 1 491 85.6 A1 12/2004 
+ EP 1571. 417 A2 9, 2005 
+ (Continued) 
+ OTHER PUBLICATIONS 
+ Shkel et al., “Type I and Type II Micromachined Vibratory Gyro 
+ scopes.” IEEE, 2006. 
+ International Search Report for PCT/FR2011/050890, mailed Apr. 
+ 20, 2012. 
+ Primary Examiner — Herzon E Williams 
+ Assistant Examiner — Mark A Shabman 
+ (74) Attorney, Agent, or Firm — Marshall, Gerstein & Borun 
+ LLP 
+ (57) ABSTRACT 
+ A gyroscopic System provides measurements on the basis of 
+ a vibrating gyroscope and provides a measurement signal. A 
+ periodic control signal is applied to it; in order to rotate the position of vibration, during a halfperiod, according to a first 
+ speed profile, from a first up to a second position; and in order 
+ to rotate the position of vibration in an opposite direction during the other part of the period, according to a second 
+ speed profile, up to a third position. The measurements are 
+ based on corrected signals, each of said corrected signals, respectively for each of the vibrating gyroscopes, being 
+ obtained by: deducting the control signal from the measure ment signal of the vibrating gyroscope; and taking account of 
+ errors identified on the basis of a comparison of the measure ments provided by the gyroscopic system as a function of the 
+ position of vibration with reference measurements. 
+ 17 Claims, 6 Drawing Sheets 
+   
+--- PAGE 2 ---
+US 9.217,640 B2 
+ Page 2 
+ (56) References Cited FOREIGN PATENT DOCUMENTS 
+ U.S. PATENT DOCUMENTS FR 2 755 227 A1 4f1998 
+ FR 2904 870 A1 2, 2008 
+ 7,281,426 B1 10/2007 Chikovani et al. 2007/0204802 A1* 9, 2007 Davies .......................... 119,712 * cited by examiner 
+--- PAGE 3 ---
+U.S. Patent Dec. 22, 2015 Sheet 1 of 6 US 9.217,640 B2 
+ 21 Conto signal 
+ Control signal 
+ Measurement signal 
+ 22 
+ Control signal 
+ Error 
+ identification 
+ FIG. 2 
+   
+   
+   
+     
+   
+   
+--- PAGE 14 ---
+US 9,217,640 B2 
+ 11 
+ odicity, the more quickly it is possible to Supply a corrected 
+ signal and therefore reliable measurements from the gyro scopic system. 
+ The control signal illustrated in FIG. 10 is provided to both the vibrating gyroscope 921 and the processing unit 926. 
+ Upon receipt of the control signal at the processing unit 
+ 926, this control signal, which corresponds to the angular 
+ velocity value, is first integrated. Thus in an embodiment of 
+ the invention, the integration of the control signal as illus 
+ trated in FIG. 10 is output from the integration unit 923 in the 
+ form of a signal as illustrated in FIG. 11. This signal is a triangular periodic wave of period 2T, 
+ therefore representing the variation of the geometric position 
+ of vibration of the vibrating gyroscope 921 over time. 
+ By ordering a uniform change in the position of vibration 
+ over an angular range of 2L/kN radians, it is possible to 
+ average the errors in the measurement signal from the gyro 
+ Scope according to the following equation, with the errors 
+ written in the form sin(nN0) or cos(nN0): 
+ where N is the frequency vibration mode of the vibrating 
+ gyroscope; 
+ where k is a positive integer, 
+ where n is an integer corresponding to an order of error to 
+ be corrected; and 
+ where 0 is an initial geometric position of vibration of the vibrating gyroscope. 
+ It should be noted that the integer k may be determined 
+ according to the order of the errors to be corrected in the 
+ measurement signal from the vibrating gyroscope. For a 
+ value of k equal to 1 and a vibrating gyroscope for which the 
+ frequency mode is equal to 2 (in other words, N=2), it is 
+ possible to average errors of any order that are related to the 
+ geometric position of vibration of the gyroscope. 
+ Fork equal to 1 and for a vibrating gyroscope for which the 
+ frequency mode is equal to 2, meaning for N equal to 2, the 
+ errors of order n greater than or equal to 1 are corrected according to the following equation: 
+ to +7. 
+ ? (a sin(2nd) + bicos(2nd)), d6 
+ 60 
+ N, the frequency vibration mode of a vibrating gyroscope, 
+ may for example be equal to 2, or to 3 as in the case of a 
+ vibrating gyroscope as described in document U.S. Pat. No. 
+ 7.281,426 for example. 
+ It may be arranged so that the residual control signal related 
+ to the scale factor is Subtracted from the measurement signal 
+ by determining a difference between a first angular value 
+ measured at the start of the period of the control signal and a 
+ second angular value measured at the end of this period, and 
+ dividing this difference by the value of the period. 
+ It is also possible to take into consideration two geometric 
+ positions of vibration, occupied by the vibrating gyroscope at 
+ two times separated by one or more periods of the control 
+ signal. In this case, the difference between the two positions 
+ is divided by the number of periods that separate these two 
+ geometric positions of vibration. 
+ 5 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 45 
+ 50 
+ 55 
+ 60 
+ 65 
+ 12 
+ An angular Velocity value is therefore Supplied here. Advantageously, this angular Velocity value is corrected by 
+ the error related to the scale factor. 
+ The invention claimed is: 
+ 1. Method for gyroscopic measurements Supplied by a gyroscopic navigation system comprising at least three vibrating gyroscopes, 
+ each of said gyroscopes vibrating in a first initial geometric 
+ position of vibration and Supplying a measurement sig 
+ nal; 
+ wherein a periodic control signal is applied to each of said vibrating gyroscopes, over a time period, in order to: 
+ rotate the geometric position of vibration in a first direc tion, during a portion of the time period, according to a first speed profile, causing a change in the position of the 
+ vibration of said gyroscope from the first geometric 
+ position of vibration to a second geometric position of 
+ vibration; and 
+ rotate the geometric position of vibration in a second direc tion opposite the first direction, during the remaining 
+ portion of the time period, according to a second speed profile, causing a change in the position of the vibration 
+ of said gyroscope from the second geometric position of 
+ vibration to a third geometric position of vibration; 
+ said control signal having a Zero mean over said time period, and the first and second speed profiles indicating 
+ a variation in the speed of the change of geometric 
+ position of vibration over time; wherein the measurements provided by the gyroscopic 
+ system are based on corrected signals, 
+ with each of said corrected signals, respectively for each of the vibrating gyroscopes, representing a variation in the 
+ geometric position of vibration values and being 
+ obtained by: Subtracting the control signal from the measurement signal Supplied by said vibrating gyroscope; and 
+ taking into account errors identified on the basis of com paring measurements Supplied by the gyroscopic system 
+ as a function of the position of vibration, with reference 
+ measurementS. 
+ 2. Method for gyroscopic measurements according to 
+ claim 1, wherein the reference measurements are Supplied by 
+ an external measurement signal. 3. Method for gyroscopic measurements according to claim 1, wherein the gyroscopic navigation system comprises 
+ a fourth gyroscope, the reference measurements being Sup plied by said fourth gyroscope. 
+ 4. Method for gyroscopic measurements according to 
+ claim 1, wherein the gyroscopic navigation system addition 
+ ally comprises accelerometers, the reference measurements being provided by measurements of position and/or speed 
+ obtained on the basis of measurements provided by said 
+ accelerometers. 
+ 5. Method for gyroscopic measurements according to 
+ claim 1, wherein the error identification is determined, for 
+ each of the vibrating gyroscopes, on the basis of a Kalman 
+ filter given as parameters the position of vibration of the vibrating gyroscope, the control signal, and the reference 
+ measurementS. 
+ 6. Method for gyroscopic measurements according to claim 1, wherein the gyroscopic system comprises three vibrating gyroscopes positioned in a triad having a trisection 
+ oriented on a Substantially vertical axis. 
+ 7. Method for gyroscopic measurements according to 
+ claim 1, wherein the first and second speed profiles are dif ferent for each of the vibrating gyroscopes of the gyroscopic 
+--- PAGE 15 ---
+US 9,217,640 B2 
+ 13 
+ system, the differences allowing the errors associated with 
+ the measurements from the three gyroscopes to be decorre 
+ lated from each other. 
+ 8. Method for gyroscopic measurement according to claim 
+ 1, wherein the measurements Supplied by the gyroscopic 
+ system correspond to angular velocity values, each angular 
+ velocity value resulting from the division of a difference 
+ between two values for the geometric position of vibration for 
+ the corrected signal, separated by a whole number of time 
+ periods, by a time value corresponding to the whole number 
+ of time periods. 
+ 9. Method for gyroscopic measurement according to claim 
+ 1, wherein the time period and the first and second speed 
+ profiles of the control signal are determined such that each 
+ integral of each of the speed profiles is equal to 27 L/kN radians, 
+ where N is a frequency vibration mode of the vibrating gyroscope, and 
+ where k is a positive integer determined according to the 
+ order of the errors to be corrected. 
+ 10. Gyroscopic system comprising: 
+ three vibrating gyroscopes, each of said gyroscopes vibrat 
+ ing in a first initial geometric position of vibration and 
+ Supplying a measurement signal; 
+ a control unit adapted to apply a periodic control signal 
+ over a time period, in order to: 
+ rotate the geometric position of vibration in a first direc 
+ tion, during a portion of the time period, according to a 
+ first speed profile, causing a change in the position of the 
+ vibration of said gyroscope from the first geometric 
+ position of vibration to a second geometric position of 
+ vibration; and 
+ rotate the geometric position of vibration in a second direc 
+ tion opposite the first direction, during the remaining 
+ portion of the time period, according to a second speed 
+ profile, causing a change in the position of the vibration 
+ of said gyroscope from the second geometric position of 
+ vibration to a third geometric position of vibration, 
+ said control signal having a Zero mean over said time period, and the first and second speed profiles indicating 
+ a variation in the speed of the change in geometric posi 
+ tion of vibration over time; and 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 14 
+ a processing unit adapted to obtain, for each of the three vibrating gyroscopes, a corrected signal representing a 
+ variation in the geometric position of vibration values and being obtained by: Subtracting the control signal from the measurement signal Supplied by said vibrating gyroscope; and 
+ taking into account errors identified on the basis of com paring measurements Supplied by the gyroscopic system 
+ as a function of the vibration position, with reference 
+ measurements, 
+ wherein the measurements supplied by the gyroscopic sys tem are based on the corrected signals. 11. Gyroscopic system according to claim 10, wherein the 
+ reference measurements are Supplied by an external measure ment signal. 12. Gyroscopic system according to claim 10, wherein the gyroscopic navigation system comprises a fourth gyroscope, 
+ the reference measurements being provided by said fourth 
+ gyroscope. 
+ 13. Gyroscopic system according to claim 10, wherein the gyroscopic navigation system additionally comprises accel 
+ erometers, the reference measurements being Supplied by 
+ said accelerometers. 
+ 14. Gyroscopic system according to claim 10, wherein the 
+ error identification is determined, for each of the vibrating gyroscopes, on the basis of a Kalman filter given as param eters the position of vibration of the vibrating gyroscope, the control signal, and the reference measurements as param 
+ eters. 
+ 15. Gyroscopic system according to claim 10, wherein the 
+ error identification is determined, for each of the vibrating gyroscopes, on the basis of a Kalman filter given as param eters the position of vibration of the vibrating gyroscope, the control signal, and the measurements Supplied by the gyro scopic system. 
+ 16. Gyroscopic system according to claim 10, comprising 
+ three vibrating gyroscopes positioned in a triad having a 
+ trisection oriented on a Substantially vertical axis. 17. Gyroscopic system according to claim 10, wherein the 
+ first and second speed profiles are different for each of the vibrating gyroscopes of the gyroscopic system, such that the 
+ errors associated with the measurements from the three gyro Scopes are decorrelated. 
+ k k k k k 

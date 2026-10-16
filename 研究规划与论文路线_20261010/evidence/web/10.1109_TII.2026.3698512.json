@@ -1,0 +1,522 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2026-10-08T06:52:19Z",
+      "timestamp": 1791442339337,
+      "version": "4.3.3"
+    },
+    "reference-count": 30,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Natural Science Foundation of China",
+        "award": [
+          "62173335"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62173335"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01h0zpd94",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Ind. Inf."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/tii.2026.3698512",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          26
+        ]
+      ],
+      "date-time": "2026-06-26T19:48:54Z",
+      "timestamp": 1782503334000
+    },
+    "page": "9212-9221",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "A Novel Hybrid Mode for Hemispherical Resonator Gyroscope Inertial Navigation Systems: Principle and System-Level Calibration Method"
+    ],
+    "prefix": "10.1109",
+    "volume": "22",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-8576-1606",
+        "authenticated-orcid": false,
+        "given": "Qixin",
+        "family": "Lou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National University of Defense Technology",
+            "place": [
+              "Changsha, China"
+            ],
+            "department": [
+              "College of Advanced Interdisciplinary Studies"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1421-5304",
+        "authenticated-orcid": false,
+        "given": "Ding",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Defense Technology",
+            "place": [
+              "Changsha, China"
+            ],
+            "department": [
+              "College of Advanced Interdisciplinary Studies"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9770-0112",
+        "authenticated-orcid": false,
+        "given": "Jingyu",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Defense Technology",
+            "place": [
+              "Changsha, China"
+            ],
+            "department": [
+              "College of Advanced Interdisciplinary Studies"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xingyuan",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Defense Technology",
+            "place": [
+              "Changsha, China"
+            ],
+            "department": [
+              "College of Advanced Interdisciplinary Studies"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7572-0027",
+        "authenticated-orcid": false,
+        "given": "Zhongqi",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Defense Technology",
+            "place": [
+              "Changsha, China"
+            ],
+            "department": [
+              "College of Advanced Interdisciplinary Studies"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Defense Technology",
+            "place": [
+              "Changsha, China"
+            ],
+            "department": [
+              "College of Advanced Interdisciplinary Studies"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-6255-9911",
+        "authenticated-orcid": false,
+        "given": "Xudong",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Defense Technology",
+            "place": [
+              "Changsha, China"
+            ],
+            "department": [
+              "College of Advanced Interdisciplinary Studies"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/isiss.2018.8358163"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/jsen.2024.3408638"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iss46986.2019.8943660"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tim.2020.3005282"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ast.2021.107168"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/memsys.2012.6170119"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/icsens.2010.5690867"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.measurement.2022.112064"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tim.2025.3547107"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.measurement.2024.115599"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.measurement.2024.114945"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/jsen.2025.3543642"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/isiss.2016.7435531"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PLANS.2018.8373357"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s22124334"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tii.2021.3077296"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tim.2016.2625958"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tie.2024.3395797"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tim.2025.3551480"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tie.2022.3229325"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tii.2024.3507210"
+      },
+      {
+        "key": "ref22",
+        "first-page": "26",
+        "article-title": "Vibratory gyro analysis by the method of averaging",
+        "volume-title": "Proc. 2nd Saint Petersburg Int. Conf. Gyroscopic Technol. Navigation",
+        "author": "Lynch"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sna.2024.115494"
+      },
+      {
+        "key": "ref24",
+        "article-title": "A vehicle angular motion isolation method for dual-axis rotational laser gyro inertial navigation system",
+        "volume-title": "Proc. 3rd Int. Conf. Optoelectron. Sci. Mater.",
+        "author": "Fan"
+      },
+      {
+        "key": "ref25",
+        "first-page": "13",
+        "article-title": "Calibration technique for laser gyro strapdown inertial navigation systems",
+        "volume-title": "Proc. Symp. Gyro Technol.",
+        "author": "Camberlein"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tii.2018.2850756"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0957-0233/23/2/025102"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymssp.2021.108760"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tim.2025.3565052"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tie.2022.3201293"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Industrial Informatics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/9424/11722569/11580376.pdf?arnumber=11580376",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2026-10-08T06:20:03Z",
+      "timestamp": 1791440403000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11580376/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "references-count": 30,
+    "journal-issue": {
+      "issue": "10"
+    },
+    "URL": "https://doi.org/10.1109/tii.2026.3698512",
+    "relation": {},
+    "ISSN": [
+      "1551-3203",
+      "1941-0050"
+    ],
+    "issn-type": [
+      {
+        "value": "1551-3203",
+        "type": "print"
+      },
+      {
+        "value": "1941-0050",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    }
+  }
+}

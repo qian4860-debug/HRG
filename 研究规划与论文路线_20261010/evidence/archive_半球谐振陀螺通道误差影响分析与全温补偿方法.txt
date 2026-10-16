@@ -1,0 +1,541 @@
+ARCHIVE: 全角陀螺/半球谐振陀螺通道误差影响分析与全温补偿方法.pdf
+TOTAL PAGES: 8
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+第 33 卷第 6 期                                  中国惯性技术学报                                   V o l . 3 3  N o . 6             
+2025 年 06 月                            J o u r n a l  o f  C h i n e s e  I n e r t i a l  T e c h n o l o g y                              J u n .  2 0 2 5  
+收稿日期：2025-01-14；修回日期：2025-04-20 
+基金项目：国家重点研发计划项目（2022YFB3403600） 
+作者简介：赵丙权（1976—），男，研究员，硕士生导师，从事惯性元件及系统研究。 
+通讯作者：张勇刚（1981—），男，教授，博士生导师，从事智能信息融合理论和智能导航应用研究。 
+ 
+ 
+ 
+ 
+ 
+文章编号：1005-6734(2025)06-0607-08                                      doi.10.13695/j.cnki.12-1222/o3.2025.06.010 
+ 
+半球谐振陀螺通道误差影响分析与全温补偿方法 
+赵丙权 1,2，高方旭 1，张勇刚 1,2，张海峰 1，李世杨 1，周 彤 1 
+（1. 天津航海仪器研究所，天津 300131 ；2. 哈尔滨工程大学，哈尔滨 150006 ） 
+摘要：为了减小半球谐振陀螺在温度变化过程中增益误差、相位误差、非线性误差等通道误差与陀螺
+零偏的耦合，提升陀螺全温精度，提出了一种基于 Elman 神经网络对通道误差补偿的方法。首先，分
+析了增益误差、相位误差、非线性误差等通道误差对陀螺输出的影响机理，其次，建立了基于 Elman
+神经网络的补偿模型。最后通过实验对建立的模型进行了验证。实验结果表明，由于辨识并补偿了耦
+合在陀螺阻尼不均中的通道误差，零偏在全温过程中的变化量减小，非线性得到改善，陀螺的全温精
+度由 0.1132(°)/h 提升至 0.012(°)/h。 
+关  键  词：半球谐振陀螺；全角模式；通道误差；零偏稳定性；温度补偿 
+中图分类号：U 6 6 6 . 1                     文献标志码：A 
+ 
+Hemispherical resonant gyroscope channel error influence analysis 
+and full temperature compensation method 
+ 
+ZHAO Bingquan1,2, GAO Fangxu1, ZHANG Yonggang1,2, ZHANG Haifeng1, LI Shiyang1, ZHOU Tong1 
+(1. Tianjin Navigation Instrument Research Institute, Tianjin 300131, China; 
+2. Harbin Engineering University, Harbin 150006, China) 
+ 
+Abstract: In order to reduce the coupling of the channel erro rs such as gain error, phase error and nonlinear 
+error with zero offset of the hemispherical resonant  gyroscope in the process of temperature change, and 
+improve the accuracy of gyroscope at full temperature, a method of channel error compensation based on Elman 
+neural network is proposed. Firstly, the principles by which channel errors such as gain error, phase error and 
+nonlinear error affect the gyroscope output are analyzed, and secondly, a compensation model based on Elman 
+neural network is established. Finally, the established model is verified by experiments. The experimental 
+results show that due to the identification and compensation of the channel errors coupled in the uneven 
+damping of the gyroscope, the variation of zero offset  during the full-temperatur e process is reduced, the 
+nonlinearity is improved, and the acc uracy of the gyroscope at full-temper ature is increased from 0.1132(°)/h 
+to 0.012(°)/h. 
+Key words:  hemispherical resonant gyroscope; full-width m ode; channel error; bias stability; temperature 
+compensation 
+ 
+半球谐振陀螺（ Hemispherical Resonator Gyro, 
+HRG）因其高精度、高可靠性和抗辐射等显著优势，
+广泛应用于军事和民用领域[1]。 由于制备工艺的限制，
+在对半球谐振陀螺进行加工和装配的过程中，会引入
+诸如阻尼各向异性、刚度各向异性、通道误差（这里
+将由电极装配过程中非对称性带来的误差统称为通道
+误差）等非理想因素，这些因素之间互相耦合，影响
+陀螺精度。随着制造精度的不断提升，阻尼各向异性
+与刚度各向异性已得到极大程度的改善，通道误差成
+为了新的制约陀螺精度的重要误差项[2,3]。 
+目前，对阻尼各向异性与刚度各向异性的研究文
+献较多， 对通道误差的研究较少[4-8]。2022 年， 上海航
+万方数据
+--- PAGE 2 ---
+608                                          中国惯性技术学报                                       第 33 卷 
+ 
+天控制技术研究所的学者们对半球谐振陀螺检测信号
+的增益误差和相位误差进行了具体的分析，并通过电
+路反馈的方式对上述两项误差进行了补偿[9]。同年，哈
+尔滨工程大学的学者们对半球谐振陀螺检测信号带来
+的非线性误差进行了具体分析，得到了检测信号非线
+性误差影响的大小与陀螺电极极板间距有关[10]。然而
+上述研究文献并未得出通道误差在陀螺输出中的具体
+表达式，也并未考虑温度对通道误差的影响，因此陀
+螺在变温过程中受到的通道误差的影响并未得到太多
+的改善。本文通过对通道误差影响机理分析，分别推
+导出了检测信号和驱动信号的具体表达式，并且通过
+Elman 神经网络建立了温度模型，对通道误差进行更
+好的补偿，有效提升了半球谐振陀螺的全温精度。 
+ 
+1  陀螺通道误差分析 
+1.1  半球谐振陀螺动力学模型 
+图 1 所示为半球谐振子壳体的示意图，根据薄壳
+理论分析可以得出，半球谐振陀螺的二阶模态振动方
+程，模态的幅值满足如下所示的一个二阶线性并与外
+界输入角速率有耦合项的微分方程[11-13]： 
+ 
+图 1  半球谐振子壳体示意图 
+Fig.1  Schematic diagram of  the hemispherical harmonic 
+oscillator shell 
+2
+2
+22
+22
+x
+y
+x ny x x F
+yn x y y F
+ 
+ 
+    
+   
+ 
+ 
+
+
+         ( 1 )  
+在式(1)中，x 和 y 分别表示半球谐振子在 x 模态
+和 y 模态下的振动位移。τ 为阻尼时间常数， 为半
+球谐振子的谐振频率，Ω 是外部输入的角速度，为振
+型进动因子，它仅与谐振子的材料和形状参数相关，
+不受外部输入角速率变化的影响，通常取固定值 0.274。
+n 为振型阶数，为了实现高精度测量，并且便于信号
+的检测与处理，通常选择 n=2 作为半球谐振陀螺的主
+振型。 
+式(1)中所所描述的内容，可以等价为一个在二位
+平面内做简谐运动的质量块，如图 2 所示，质量快的
+轨迹为椭圆，其椭圆的长轴 a 与短轴 b 分别表示半球
+谐振子的主波波腹和正交波波腹，夹角 θ 表示半球谐
+振子的驻波方位角，因此半球谐振子的运动方程可以
+进一步表示为： 
+( ) cos 2 cos sin 2 sin
+() s i n 2 c o s c o s 2 s i n
+xt a q
+yt a q
+  
+  
+
+        (2) 
+ 
+图 2  半球谐振陀螺运动轨迹示意图 
+Fig.2  Schematic diagram of the trajectory of the 
+hemispherical resonant gyroscope 
+对于图 2 中所示半球谐振陀螺运动轨迹的椭圆参
+数 a，q，，ω，分别定义与其相对应的4 个虚拟控制
+力 Ca、Cq、Cp、Cr。其中 Ca 为稳幅回路控制力，Cq
+为正交回路控制力，Cr 为稳频回路控制力，Cp 用于
+改变驻波角的角度。在这 4 个虚拟控制力中，Ca 与 Cp
+为一组互为正交的向量，Cr 与 Cq 为另一组互为正交
+的向量。实际通过驱动电极施加的静电驱动力则是经
+解算后得到的这 4 个虚拟控制力的向量和[14,15]。 
+1.2  增益误差与相位误差分析 
+1.2.1  检测信号增益误差与相位误差分析 
+设 X 轴的检测增益为 kEx，经过检测电路后 X 轴
+上产生的相移为Ex。设 Y 轴的检测增益为 kEy，经过
+检测电路后 Y 轴上产生的相移为Ey。因此，式(2)可
+改写为： 
+ 
+ 
+( ) cos 2 cos sin 2 sin
+() s i n 2 c o s c o s 2 s i n
+Ex Ex Ex
+Ey Ey Ey
+xt k a q
+yt k a q
+   
+   
+            (3) 
+将式(3)代入式(1)中，可以得到含有不同增益与相
+移的半球谐振陀螺动力学模型，对该模型采用慢变量
+分析法后，可得： 
+
+
+
+22
+22 22
+22
+02222
+cos 2 sin 222
+cos 2 sin 222
+cos 2sin 2
+sin 2 cos 2
+2
+EE E
+EE E
+EE
+E E
+qqaa k
+aaqq k
+aq kaq
+aq aq
+aq aq k
+aqaq
+   
+   
+  
+   
+       
+        
+      
+      
+
+
+
+
+(4) 
+万方数据
+--- PAGE 3 ---
+第 6 期                         赵丙权等：半球谐振陀螺通道误差影响分析与全温补偿方法                      609 
+ 
+其中  E Ex Ey   ，  E Ex Ey   ，
+EyE x
+E
+Ex
+kkk k 。a、q、θ、φ 分别表示半球谐振陀螺 
+工程过程中驻波的振幅、正交误差、进动角和相位，
+式(4)表示了检测电路增益误差与相位误差分别对陀
+螺振幅信号检测回路、陀螺正交信号检测回路、驻波
+角检测回路以及振动相位检测回路的影响。 
+1.2.2  驱动信号增益误差与相位误差分析 
+设 X 轴的驱动增益为 Dxk ，经过检测电路后 X 轴
+上产生的相移为 Dx 。设 Y 轴的检测增益为 Dyk ，经过
+检测电路后 Y 轴上产生的相移为 Dy 。由 1.2 中所述
+信号的驱动原理可知，施加在 X，Y 回路的静电控制
+力可以分解为稳幅控制力 Ca、正交控制力 Cq、稳频
+控制力 Cr 与驻波角控制力 Cp。因此可得： 
+ 
+ 
+cos sin sin cos
+sin sin cos cos
+xD x D x D x
+yD y D y D y
+F k Ca Cq
+Fk C r C p
+   
+   
+          (5) 
+将式(5)代入式(1)中，可以得到引入驱动信号增益
+非对称性误差与相移误差后，驻波角度 d 的表达式： 
+cos1c o s c o s sin cos DdD k            (6) 
+其中  D Dx Dy   ，
+DyD x
+D
+Dx
+kkk k 。 
+1.3  非线性误差分析 
+1.3.1  检测信号非线性分析 
+定义极板位移为： 
+   sincdxt x t            ( 7 )  
+极板电容可表示为： 
+  0
+1
+1s i n
+xx m
+d
+ACx t C g xt x t      ( 8 )  
+其中 g 表示陀螺在非工作状态下极板间的间隙。 
+xm
+AC g ， 0 cxx g 。 
+由麦克劳林级数可得： 
+ 0
+0
+1 sin1s i n ndd x txt           ( 9 )  
+再由欧拉公式可得： 
+sin 2
+ddit it
+d
+eet i            ( 1 0 )  
+将式(10)带入级数表达式(9)后，按照牛顿二项式
+进行展开，并对式中的奇数项和偶数项进行分离，然
+后利用欧拉公式逆方程换回正余弦函数，经代数重组
+交换求和顺序后，可以得出电容的傅里叶级数表达式： 
+   
+   
+20
+0
+21 0
+0
+sin 2
+sin 2 1
+xx m k d
+k
+xm k d
+k
+Cx t C p x k t
+Cpx k t
+
+
+
+
+
+
+
+
+
+
+
+   ( 1 1 )  
+因此可以进一步得到实际检测信号的表达式： 
+
+
+35 7 9
+00 0 0 0
+35 7 9
+00 0 0 0
+192 9  cos41 66 4
+373 5  sin41 66 4
+HV xm
+f
+HV xm
+f
+VCxx x x x xC
+VCyx x x x xC
+
+
+              (12) 
+将式(12)代入式(1)中化简后可得： 
+ 
+
+
+
+37
+00
+35 7
+00 00
+57
+00
+35 7
+00 0 0
+19 3 6 c o s 8
+32 72 45 24 27 cos8
+24 27 sin 8
+32 72 45 24 27 cos8
+e
+xx
+xx xx
+xx
+xx xx
+
+
+ 
+
+
+ 
+ 
+  
+ 
+ 
+ 
+   
+   (13) 
+根据式(10)可以得出如下结论：1.基波解调得到的
+振动信号电压大于实际的振幅表达。 2.检测信号中存
+在高次谐波。3.非线性误差随着 0x （即实际振幅与电
+容间距的比值）的增大而增大。 
+1.3.2  静电驱动非线性分析 
+已知半球谐振陀螺的静电驱动力方程可表示如下： 
+
+2
+0
+22
+0
+sin cos
+2( 1 s i n )
+HV c d s dr
+d
+VV t V tAEF d gx t      (14) 
+令 0 22 r cA Kg ，并 将 20 1(1 sin ) dx t 通过麦克劳 
+林级数进行展开后，对得到静电力的驱动方程进行进
+一步整理可得： 
+
+
+32 4
+00 0 0
+32 4
+00 0 0
+13 2 5 1c o s44 8
+19 535 1 s i n44 8
+C
+x
+HV HV
+C
+y
+HV HV
+KFx x x xVV
+KFx x x xVV
+
+
+                   (15) 
+将式(13)代入式(1)中化简后可得： 
+24
+00
+24
+00
+92 51c o s 416 64
+73 91s i n 416 64
+d
+xx
+xx
+
+ 
+
+                ( 1 6 )  
+ 
+2  基于Elman神经网络的非线性拟合 
+2.1  Elman神经网络拟合原理 
+Elman 神经网络是一种常见的反馈型神经网络，
+由 Elman 于 1990 年提出。与常见的前馈式 BP 神经网
+万方数据
+--- PAGE 7 ---
+第 6 期                         赵丙权等：半球谐振陀螺通道误差影响分析与全温补偿方法                      613 
+ 
+ 
+(b)  驱动误差预测结果 
+(b)  Drive error prediction results 
+ 
+(c)  非线性误差预测结果 
+(c)  Nonlinear error prediction results 
+图 8  Elman 神经网络预测结果 
+Fig.8  Elman neural network prediction results 
+采用 2R 、MAE、MBE 和 RMSE 对基于 Elman 神
+经网络拟合的预测结果的准确性和实用性进行分析，
+得到的结果如表 4 所示。 
+表 4  基于Elman 神经网络拟合结果 
+Tab.4  Based on Elman neural network fitting results 
+评价项 2R  MAE MBE RMSE 
+驱动相位误差 0. 983 0.00386 0.00009 0.00011
+检测相位误差 0.996 0.00562 0.00018 0.00045
+驱动增益误差 0.991 0.00872 0.00011 0.00039
+检测增益误差 0.995 0.01004 0.00025 0.00028
+驱动非线性误差 0.989 0.00994 0.00021 0.00066
+检测非线性误差 0.985 0.00427 0.00032 0.00024
+由表 4 可知，基于 Elman 神经网络的拟合方法，
+拟合效果较好，可以满足预测需求。 
+将拟合后的结果补偿至陀螺输出中后再进行全温
+试验，得到的结果如图 9 所示。 
+由图 9 可知，经过温度拟合后的通道误差补偿，
+不仅剔除了耦合在陀螺阻尼不均中的通道误差，同时
+很大程度上改善了输出的非线性情况，降低了陀螺输
+出的温度补偿难度。分别对标定前后的输出曲线进行
+温度补偿，并对补偿后的结果通过求取方差法进行计
+算后可得，标定前陀螺输出的温度补偿结果为
+0.1132(°)/h，标定后陀螺输出的温度补偿结果为
+0.012(°)/h，全温精度提升了 89.4%。 
+ 
+(a)  标定前陀螺输出 
+(a)  The gyro output before calibration  
+ 
+(b)  标定后陀螺输出 
+(b)  The gyro output after calibration  
+图 9  补偿前后陀螺输出对比 
+Fig.9  Comparison of gyro output before and after 
+compensation 
+ 
+4  结 论 
+本文分析了半球谐振陀螺中增益误差、相位误差、
+非线性误差等通道误差影响的原因，并推导出了相应
+的数学模型。随后进行实验，通过温箱和转台对半球
+谐振陀螺在不同温度点下的通道误差进行了标定，对
+标定得到的通道误差结果进行了基于 Elman 神经网络
+的非线性拟合后，进行了补偿。结果表明通过对通道
+误差进行温度补偿，剔除了耦合于阻尼不均中的额外
+万方数据
+--- PAGE 8 ---
+614                                          中国惯性技术学报                                       第 33 卷 
+ 
+误差，输出曲线的非线性得到了很好的改善，陀螺的
+全温精度由 0.1132(°)/h 提升至 0.012(°)/h。 
+参考文献（References）： 
+[1] 淦述荣，陈少春，高溥泽，等. 2022 年国外惯性技术发
+展与回顾[J]. 导航定位与授时，2023: 69-80. 
+Gan S, Chen S, Gao P, et al . Development and review of 
+foreign inertial technology in 2022[J]. Navigation, 
+Positioning and Timing, 2023: 69-80. 
+[2] 贾智学，付丽萍，任佳婧 . 半球谐振陀螺技术发展趋
+势[J]. 导航与控制，2018, 17(03): 83-87.  
+Jia Z, Fu L, Ren J. Development trend of hemispheric 
+resonant gyroscope[J]. Na vigation and Control, 2018, 
+17(03): 83-87. 
+[3] Fabrice D. HRG by SAFRAN ： The game-changing 
+technology[C]//IEEE Inertial Sensors &Systems 
+Symposium. Italy, March 26-29, 2018: 1-4. 
+[4] Guo K, Wu Y , Zhang Y , et al. Damping asymmetry 
+trimming based on the resistance heat dissipation for 
+Coriolis vibratory gyroscope in whole-angle mode[J]. 
+Micromachines, 2020, 11(10): 945. 
+[5] Ruan Z, Ding X, Qin Z, et al. Modeling and compensation 
+of assembly inclination e rror of micro hemispherical 
+resonator gyroscope under force-to-rebalance mode[J]. 
+IEEE Sensors Journal, 2021, 21(13): 14726-14738.  
+[6] Ruan Z, Ding X, Pu Y , et al. In-run automatic 
+modematching of whole-an gle micro-hemispherical 
+resonator gyroscope based on standing wave self-
+precession[J]. IEEE Sensors Journal, 2022, 22(14): 13945-
+13957. 
+[7] 樊琦，潘覃毅，陈家伟，等. 科氏振动陀螺全角模式阻 
+尼误差与补偿[J]. 中国惯性技术学报，2023, 31(01): 61- 
+66.  
+Fan Q, Pan Q, Chen J, et al. BCoriolis vibration gyroscope 
+damping error and compensation under whole angle 
+operation mode[J]. Journal of Chinese Inertial Technology, 
+2023, 31(01): 61-66.  
+[8] 蒋效雄，田欣然，丛正，等. 基于 RLS 算法的全角模 
+式半球谐振陀螺自补偿控制 [J]. 中国惯性技术学报，  
+2023, 31(04): 401-406. 
+Jiang X, Tian X, Cong Z, et al. Self-compensation control 
+method of whole angle m ode HRG based on RLS 
+algorithm[J]. Journal of Chinese Inertial Technology, 2023, 
+31(04):401-406.  
+[9] 赵万良，江文杰，张天翔，等. 半球谐振陀螺电路增益
+非对称分析及抑制方法 [J]. 中国惯性技术学报， 2022, 
+30(5): 644-651. 
+Zhao W, Jiang W, Zhang T, et al. Gain asymmetric analysis 
+and suppression method of hemi spherical resonant gyro 
+circuit[J]. Journal of Chinese Inertial Technology. 2022, 
+30(5): 644-651. 
+[10] 徐睿东，郜中星，南方伯，等. 检测信号非线性引起的
+全角半球谐振陀螺漂移模型 [J]. 中国惯性技术学报，
+2022, 30(5): 683-689. 
+Xu R, Gao Z, Nan F, et al. Drift model of full-angle 
+hemispherical resonant gyrosc ope caused by nonlinearity 
+of detection signal[J]. Journal of Chinese Inertial 
+Technology, 2022, 30(5): 683-689. 
+[11] 王旭，吴文启，方针，等. 力平衡模式下半球谐振陀螺 
+正交误差控制[J]. 仪器仪表学报，2012, 33(4): 936-941. 
+Wang X, Wu W, Fang Z, et al. Quadrature drift control of 
+hemispherical resonator gyro  under force-to-rebalance 
+mode[J]. Chinese Journal of Scientific Instrument, 2012, 
+33(4): 936-941.  
+[12] D. Lynch. Vibratory gyro analysis by the method of 
+averaging[C]//Proc. 2nd St. Petersburg Conf. on 
+Gyroscopic Technology and Na vigation. St. Petersburg, 
+Russia, May 24-25, 1995: 26-34.  
+[13] Parsa T, Oleg I, Igor I, et al. Disk resonator gyroscope with 
+whole-angle mode operation[ C]//2015 IEEE International 
+Symposium on Inertial Sens ors and Systems (ISISS) 
+Proceedings. Hapuna Beach, HI, USA, March 23-26, 2015: 
+1-4. 
+[14] 赵小明，李世杨，张悦，等. 抑制耦合干扰的半球谐振 
+陀螺信号分频调制检测方法 [J]. 中国惯性技术学报，  
+2020, 28(01): 94-99. 
+Zhao X, Li S, Zhang Y , et al. A frequency division 
+modulation detection method of hemispherical resonance 
+gyro signal for suppressing coupling interference[J]. 
+Journal of Chinese Inertial Technology, 2020, 28(01): 94-
+99. 
+[15] B. Friedland, M. Hutton. Theory and error analysis of 
+vibrating-member gyroscope[J]. IEEE Transactions on 
+Automatic Control, 1978, 23(4): 545-556. 
+ 
+万方数据

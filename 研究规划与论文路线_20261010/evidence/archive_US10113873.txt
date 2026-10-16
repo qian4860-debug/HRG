@@ -1,0 +1,133 @@
+ARCHIVE: 全角陀螺/US10113873.pdf
+TOTAL PAGES: 40
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+US010113873B2 
+ ( 12 ) United States Patent 
+ Cook et al . 
+ ( 10 ) Patent No . : US 10 , 113 , 873 B2 ( 45 ) Date of Patent : * Oct . 30 , 2018 
+ ( 54 ) WHOLE ANGLE MEMS GYROSCOPE 
+ ( 71 ) Applicant : THE CHARLES STARK DRAPER LABORATORY , INC . , Cambridge , 
+ MA ( US ) 
+ ( 58 ) Field of Classification Search CPC . . . . . . . . . . . . GO1C 19 / 5677 ; G01C 19 / 5684 ; G01C 19 / 574 See application file for complete search history . 
+ ( 56 ) References Cited ( 72 ) Inventors : Eugene H . Cook , Acton , MA ( US ) ; Marc S . Weinberg , Needham , MA ( US ) ; Jonathan J . Bernstein , Medfield , MA ( US ) U . S . PATENT DOCUMENTS 7 , 318 , 347 B2 7 , 360 , 423 B2 8 , 166 , 816 B2 8 , 322 , 213 B2 ( 73 ) Assignee : THE CHARLES STARK DRAPER LABORATORY , INC . , Cambridge , MA ( US ) 1 / 2008 Lynch et al . 4 / 2008 Ayazi et al . 5 / 2012 Ayazi et al . 12 / 2012 Trusov et al . ( Continued ) 
+ ( * ) Notice : OTHER PUBLICATIONS Subject to any disclaimer , the term of this patent is extended or adjusted under 35 U . S . C . 154 ( b ) by 151 days . 
+ This patent is subject to a terminal dis 
+ claimer . 
+ B . J . Gallacher , et al . , “ Electrostatic correction of structural imper fections present in a microring gyroscope , ” Microelectromechanical 
+ Systems , Journal of , vol . 14 , pp . 221 - 234 , 2005 . 
+ ( 21 ) Appl . No . : 15 / 160 , 421 
+ ( 22 ) Filed : May 20 , 2016 
+ Primary Examiner - John Chapman , Jr . 
+ ( 74 ) Attorney , Agent , or Firm — Lando & Anastasi , LLP 
+ ( 65 ) Prior Publication Data 
+ US 2016 / 0341551 A1 Nov . 24 , 2016 
+ Related U . S . Application Data 
+ ( 60 ) Provisional application No . 62 / 165 , 365 , filed on May 22 , 2015 . 
+ ( 57 ) ABSTRACT 
+ According to one aspect , embodiments herein provide a gyroscope comprising a central anchor , a plurality of inter 
+ nal flexures , a plurality of masses , each mass coupled to the 
+ central anchor via at least one of the plurality of internal 
+ flexures and configured to translate in a plane of the gyro 
+ scope , and a plurality of mass - to - mass couplers , each mass 
+ to - mass coupler coupled between two adjacent masses of the 
+ plurality of masses , and a plurality of transducers , each 
+ configured to perform at least one of driving and sensing 
+ motion of a corresponding one of the plurality of masses , 
+ wherein the plurality of transducers is configured to drive 
+ the plurality of masses in at least a first vibratory mode and 
+ a second vibratory mode . 
+ ( 51 ) Int . CI . 
+ G01C 19 / 574 ( 2012 . 01 ) GOIC 19 / 5684 ( 2012 . 01 ) 
+ G01C 19 / 5726 ( 2012 . 01 ) G01C 19 / 5733 ( 2012 . 01 ) 
+ ( 52 ) U . S . CI . CPC . . . G01C 19 / 5726 ( 2013 . 01 ) ; GOIC 19 / 5684 ( 2013 . 01 ) ; G01C 19 / 5733 ( 2013 . 01 ) 31 Claims , 28 Drawing Sheets 
+ 100 
+ 102 112 114 
+ 118 Drive / Sense 
+ 104 / 
+ 117 
+ ¡ Controller 
+ 0 
+ 6111 108 
+ 106 106 
+ 102 
+--- PAGE 2 ---
+US 10 , 113 , 873 B2 Page 2 
+ ( 56 ) References Cited 
+ U . S . PATENT DOCUMENTS 
+ 8 , 429 , 970 B2 * 
+ 8 , 479 , 575 B2 * 
+ 4 / 2013 Rocchi . . . . . . . . . . . . . . . . GO1C 19 / 574 73 / 504 . 08 7 / 2013 Kempe . . . . . . . . . GO1C 19 / 5747 73 / 504 . 12 1 / 2017 Ruohio . . . . . . . . . . . . . . . . G01C 19 / 574 9 , 551 , 577 B2 * 
+ * cited by examiner 
+--- PAGE 3 ---
+atent Oct . 30 , 2018 Sheet 1 of 28 US 10 , 113 , 873 B2 
+ 100 
+ 102 112 * * * * * * * * * * * * * * * * * * * 
+ 7 
+ TI 
+ 1067 
+ $ 24 Drive / Sense 
+ 109 
+ 109 . 108 
+ MARRON 1 
+ nek 
+ wwwwwwwwwwwwwwwwwww ARE Controller * * ADA 
+ VALDO 
+ YA 
+ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW 1111 108 
+ Winner A MMALALAHADHALIAUSIMWAMAHANLANKANNAMARIA LUUKKUMWAMBIA 
+ wwwww WWWWWW MUX 
+ 112 102 FIG . 1 
+--- PAGE 39 ---
+V US 10 , 113 , 873 B2 
+ 17 18 
+ aspects of the present disclosure . The gyroscope 1800 s umer electronics such as various computing devices and 
+ includes a plurality of masses 1802 . Each mass 1802 is mobile communication devices . 
+ suspended between two shuttles 1804 via flexures 1806 . Having described above several aspects of at least one Each mass is also coupled to a ring 1808 . The gyroscope embodiment , it is to be appreciated various alterations , 1800 operates in substantially the same way as the gyro - 5 modifications , and improvements will readily occur to those 
+ scope 100 discussed above with regard to FIG . 1 except that skilled in the art . Such alterations , modifications , and 
+ with the gyroscope 1800 , the ring 1808 acts as the mass improvements are intended to be part of this disclosure and 
+ to - mass coupler . FIG . 19 is a diagram illustrating further are intended to be within the scope of the disclosure . details of the mass 1802 , shuttles 1804 , and flexures 1806 . Accordingly , the foregoing description and drawings are by 
+ As discussed above , in certain embodiments , the MEMS 10 way of example only , and the scope of the disclosure should based gyroscope includes eight masses ; however , in other be determined from proper construction of the appended embodiments , the MEMS based gyroscope may include any claims , and their equivalents . 
+ number of masses . For example , in one embodiment , the What is claimed is : 
+ MEMS based gyroscope includes any number of masses that 1 . A gyroscope comprising : 
+ is greater than eight and a multiple of four . As also discussed 15 a central anchor ; 
+ above , the MEMS based gyroscope includes wedge - shaped a plurality of internal flexures ; masses ; however , in other embodiments , the masses may be a plurality of masses configured to vibrate in a first configured in any appropriate shape capable of operating in vibratory mode and a second vibratory mode , each 
+ the n = 2 vibratory mode . mass coupled to the central anchor via at least one of 
+ As discussed above , the MEMS based gyroscope is oper - 20 the plurality of internal flexures and configured to 
+ ated in an n = 2 vibratory mode ; however , in other embodi translate in a plane of the gyroscope ; 
+ ments , the MEMS based gyroscope may be operated in some a plurality of mass - to - mass couplers , each mass - to - mass 
+ other vibratory mode . For example , in at least one embodi coupler coupled between two adjacent masses of the 
+ ment , the MEMS based gyroscope includes 12 masses and plurality of masses ; and is configured to operate in the n = 3 vibratory mode . In other 25 a plurality of transducers configured to drive the plurality embodiments , the MEMS based gyroscope may be config of masses and sense motion of the plurality of masses ; ured to operate in any other vibratory mode ( e . g . , n = 3 wherein the plurality of transducers is configured to drive 
+ vibratory mode , n = 4 vibratory mode , n = 5 vibratory mode , the plurality of masses in at least the first vibratory etc . ) and may include an appropriate number of masses . mode and the second vibratory mode . A new MEMS based gyroscope design is provided that 30 2 . The gyroscope of claim 1 , wherein each transducer is combines the best features of a lumped element TF gyro - located at a periphery of a corresponding one of the plurality scope and a rotationally symmetric gyroscope . The new of masses . design efficiently uses relatively large masses ( e . g . , like a TF 3 . The gyroscope of claim 2 , wherein at least one trans 
+ gyroscope ) on relatively weak flexures to provide high ducer is configured to electrostatically drive motion of its sensitivity while maintaining an eight - fold symmetry con - 35 corresponding one of the plurality of masses . 
+ ducive to the n = 2 vibratory mode used in most whole angle 4 . The gyroscope of claim 2 , wherein at least one trans 
+ based gyroscopes to provide high dynamic range . The new ducer is configured to magnetically drive motion of its design is capable of operating in both rate and whole angle corresponding one of the plurality of masses . 
+ mode , is low cost , and is easily fabricated . 5 . The gyroscope of claim 2 , wherein at least one trans According to one embodiment , the MEMS based gyro - 40 ducer is configured to optically drive motion of its corre 
+ scope design discussed above may be utilized as a whole sponding one of the plurality of masses . 
+ angle gyroscope in a miniature system . In another embodi - 6 . The gyroscope of claim 2 , wherein at least one trans ment , the MEMS based gyroscope may be utilized as a ducer is configured to piezoelectrically drive motion of its 
+ whole angle gyroscope in a platform having a high rotation corresponding one of the plurality of masses . 
+ rate that requires a high dynamic range instrument . The 45 7 . The gyroscope of claim 2 , wherein at least one trans 
+ MEMS based gyroscope may be utilized in any other whole ducer is configured to thermally drive motion of its corre angle application . sponding one of the plurality of masses . The MEMS based gyroscope design could also be used in 8 . The gyroscope of claim 1 , wherein the plurality of any application where traditional MEMS gyroscopes are transducers is further configured to drive the plurality of 
+ currently used . The combination of large masses on weak 50 masses in an n = 2 vibratory mode . 
+ springs ( providing high momentum and low damping ) and 9 . The gyroscope of claim 8 , wherein the first vibratory 
+ matched modes ( providing high gain ) yields a low Angle mode and the second vibratory mode are 45° apart . Random Walk ( ARW ) , one of the primary performance 10 . The gyroscope of claim 8 , wherein the plurality of parameters for gyroscopes . Applicant has appreciated that an transducers is further configured to drive motion of the ARW on the order of 0 . 01 deg / rt - hr will be obtained with 55 plurality of masses at a fixed amplitude in the first vibratory this gyroscope design and improvement of 10x ( or more ) mode and to sense motion of the plurality of masses in the could be possible by increasing the size of the gyroscope . second vibratory mode . Various embodiments of systems and methods disclosed 11 . The gyroscope of claim 10 , further comprising a herein may have applications in various fields . Applications controller coupled to the plurality of transducers , may encompass the field of precision inertial guidance and 60 wherein the plurality of transducers is further configured 
+ navigation , particularly in GPS denied environments . For to provide signals to the controller based on the sensed example , embodiments may be used to guide platforms such motion of the plurality of masses in the second vibra as strategic missiles , submarines , Unmanned Underwater tory mode , and 
+ Vehicles ( UUV ) , Unmanned Aerial Vehicles ( UAV ) , cruise wherein the controller is configured to calculate a rate of missiles , aircraft , and tactical munitions . Other examples of 65 rotation of the gyroscope based on the signals . applications may include commercial aviation , self - driving 12 . The gyroscope of claim 8 , wherein the plurality of 
+ vehicles , robotic machinery , personal navigation and con - transducers is further configured to drive motion of the 
+--- PAGE 40 ---
+10 
+ US 10 , 113 , 873 B2 
+ 19 20 plurality of masses such that a total vibrational energy is generate a radial force component in the second vibratory maintained across the first vibratory mode and the second mode in response to a circumferential motion of its vibratory mode and to sense a distribution of energy between corresponding one of the plurality of masses in the first the first vibratory mode and the second vibratory mode . vibratory mode ; and 13 . The gyroscope of claim 12 , further comprising a 5 generate a circumferential force component in the second controller coupled to the plurality of transducers , vibratory mode in response to a radial motion of its wherein the plurality of transducers is further configured corresponding one of the plurality of masses in the first to provide signals to the controller based on the sensed vibratory mode ; distribution of motion between the first vibratory mode wherein the radial force component and the circumferen and the second vibratory mode , and 
+ wherein the controller is configured to calculate an angle tial force component are configured to either assist or oppose the vibration of the plurality of masses in the of rotation of the gyroscope based on the signals . 14 . The gyroscope of claim 1 , wherein each mass - to - mass second vibratory mode to trim the cross spring term . 
+ coupler includes a bar coupled to each adjacent mass via a 22 . The gyroscope of claim 1 , wherein the gyroscope is flexural hinge , wherein the bar is configured to operate such 15 Implemented ich is implemented on a cubic crystal based substrate having a that circumferential motion of one of the two adiacent ( 100 ) direction plane and a ( 110 ) direction plane ; and 
+ masses of the plurality of masses to which it is coupled wherein at least one of the plurality of internal flexures is 
+ depends on radial motion of the other one of the two oriented equidistant from the ( 100 ) direction plane and adjacent masses . the ( 110 ) direction plane . 15 . The gyroscope of claim 1 , further comprising : 2023 . The gyroscope of claim 22 , wherein the at least one of 
+ a plurality of outside anchors ; the plurality of internal flexures is oriented 22 . 5° from the a plurality of outside shuttles , each located at a periphery ( 100 ) direction plane and the ( 110 ) direction plane of the of a corresponding one of the plurality of masses ; and cubic crystal - based substrate . a plurality of outside flexures ; 24 . The gyroscope of claim 22 , wherein the cubic crystal wherein each mass of the plurality of masses is suspended 25 based substrate is a Silicon ( Si ) based substrate . 
+ between the central anchor and the plurality of outside 25 . The gyroscope of claim 1 , wherein the plurality of anchors via the plurality of internal flexures and the masses includes a plurality of wedge - shaped masses . 
+ plurality of outside flexures ; and 26 . The gyroscope of claim 1 , wherein the plurality of wherein each one of the plurality of outside shuttles is masses is arranged symmetrically about the central anchor . configured to restrict rotation of its corresponding one 302 Orresponding one 30 27 . The gyroscope of claim 1 , wherein the gyroscope has of the plurality of masses . a thickness , and wherein the plurality of internal flexures 16 . The gyroscope of claim 15 , wherein each one of the includes flexures having a width that is at least five times plurality of outside shuttles is further configured to decouple 
+ X - and y - motion of its corresponding one of the plurality of narrower than the thickness of the gyroscope . 28 . The gyroscope of claim 1 , wherein the gyroscope is a masses . 35 
+ 17 . The gyroscope of claim 15 , wherein each one of the Microelectromechanical System ( MEMS ) based gyroscope . plurality of outside shuttles is further configured to prevent 29 . A gyroscope comprising : force from being applied circumferentially to its correspond a central anchor ; ing one of the plurality of masses . a plurality of internal flexures ; 18 . The gyroscope of claim 1 , further comprising a 40 a plurality of masses configured to vibrate in a vibratory plurality of internal shuttles , each one of the plurality of mode emulating the n = 2 vibratory mode of a rotation internal shuttles coupled between the central anchor and a ally symmetric gyroscope , each mass coupled to the corresponding one of the plurality of masses and configured central anchor via one of the plurality of internal 
+ to restrict rotation of its corresponding one of the plurality flexures and configured to translate in a plane of the 
+ of masses . 45 gyroscope ; 
+ 19 . The gyroscope of claim 18 , wherein each one of the means for driving the plurality of masses in the vibratory plurality of internal shuttles is further configured to decouple mode emulating the n = 2 vibratory mode of a rotation X - and y - motion of its corresponding one of the plurality of ally symmetric gyroscope ; and masses . means for operating the gyroscope in one of a rate mode 20 . The gyroscope of claim 1 , further comprising a 50 of operation or a whole angle mode of operation . plurality of angled electrodes , each angled electrode coupled 30 . The gyroscope of claim 29 , further comprising means to a corresponding one of the plurality of masses and for decoupling radial and circumferential motion of each one configured to trim the cross spring term of the corresponding of the plurality of masses . one of the plurality of masses . 21 . The gyroscope of claim 20 , wherein in trimming the 55 31 . The gyroscope of claim 29 , further comprising means cross spring term of its corresponding one of the plurality of for trimming a cross spring term of the gyroscope . masses , each angled electrode is configured to : * * * * 

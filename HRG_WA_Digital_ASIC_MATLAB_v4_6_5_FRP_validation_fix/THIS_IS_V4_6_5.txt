@@ -1,0 +1,9 @@
+HRG_WA V4.6.5 unique release package
+Revision: V4.6.5-frp-observable-rate-basis-independent-validation-20260825
+Expected validation output contains:
+1. RLS equivalence: updates=12000/12000
+2. Zero-rate A/B/C/D: PASS=1
+3. Zero-rate diagnostics: coverage, signSeparation and correlation
+4. AB_FINAL_PASS=1 or AB_V2_PASS=1
+
+NAVPASS remains an independent nonzero-rate scale-factor/dynamic-model diagnostic.

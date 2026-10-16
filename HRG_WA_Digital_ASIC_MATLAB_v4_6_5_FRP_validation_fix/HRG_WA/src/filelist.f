@@ -1,0 +1,14 @@
+spi_original/crc8_param.v
+spi_original/fifoTPRAM.v
+spi_original/wCtlr.v
+spi_original/rCtrl.v
+spi_original/asyncFifo.v
+spi_original/spiRegSlave.v
+spi_original/rwRegPG2.v
+spi_original/roReg.v
+spi_original/spiRegPG2.v
+hrg_nco.v
+hrg_dsp_core.v
+hrg_cordic.v
+hrg_controller.v
+hrg_sensor_if_top.v

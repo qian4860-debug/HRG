@@ -1,0 +1,1437 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2026-06-24T14:59:08Z",
+      "timestamp": 1782313148524,
+      "version": "3.54.5"
+    },
+    "reference-count": 105,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2026-04-01T00:00:00Z",
+          "timestamp": 1775001600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "International Journal of Mechanical Sciences"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ijmecsci.2026.111465",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2026-03-12T08:26:08Z",
+      "timestamp": 1773303968000
+    },
+    "page": "111465",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "special_numbering": "C",
+    "title": [
+      "Equivalent Bryan’s factor in hemispherical resonator gyroscopes with nonuniformities coupling"
+    ],
+    "prefix": "10.1016",
+    "volume": "316",
+    "author": [
+      {
+        "given": "Wei",
+        "family": "Cheng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8866-2898",
+        "authenticated-orcid": false,
+        "given": "Shunqing",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Boqi",
+        "family": "Xi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xu",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhen",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Boda",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Youhuan",
+        "family": "Ning",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0001",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2025.110242",
+        "article-title": "Defects identification and mass trimming in hemispherical resonators",
+        "volume": "294",
+        "author": "Cheng",
+        "year": "2025",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0002",
+        "series-title": "25th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS)",
+        "first-page": "1",
+        "article-title": "SpaceNaute®: HRG technological breakthrough for advanced space launcher inertial reference system",
+        "author": "Delhaye",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0003",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2025.110853",
+        "article-title": "Q-factor enhancement in micro hemispherical resonators by laser welding",
+        "volume": "306",
+        "author": "Jian",
+        "year": "2025",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1134/S2075108714020047",
+        "article-title": "HRG and marine applications",
+        "volume": "5",
+        "author": "Jeanroy",
+        "year": "2014",
+        "journal-title": "Gyroscopy and Navigation"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0005",
+        "series-title": "DGON Inertial Sensors and Systems (ISS)",
+        "first-page": "1",
+        "article-title": "HRG Crystal™ dual core: rebooting the INS revolution",
+        "author": "Foloppe",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "1676",
+        "DOI": "10.3390/mi13101676",
+        "article-title": "Recent advances in MEMS-based 3D hemispherical resonator gyroscope (HRG)-a sensor of choice",
+        "volume": "13",
+        "author": "Ranji",
+        "year": "2022",
+        "journal-title": "Micromachines"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0007",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2025.110856",
+        "article-title": "Identifying vibration characteristics of hemispherical resonators with mass defects",
+        "volume": "306",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0008",
+        "first-page": "1",
+        "article-title": "Review on the current advances, key technology and future trends of hemispherical resonator gyroscope",
+        "volume": "20",
+        "author": "Qu",
+        "year": "2022",
+        "journal-title": "Opt. Optoelectron. Technol"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1134/S2075108723010054",
+        "article-title": "Hemispherical resonator gyros (an overview of publications)",
+        "volume": "14",
+        "author": "Maslov",
+        "year": "2023",
+        "journal-title": "Gyroscopy and Navigation"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1134/S2075108719010036",
+        "article-title": "Space Naute® the HRG based inertial reference system of Ariane 6 European space launcher",
+        "volume": "10",
+        "author": "Delhaye",
+        "year": "2019",
+        "journal-title": "Gyroscopy and navigation"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0011",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2025.110644",
+        "article-title": "Linear calibration models for mass defects of hemispherical resonator",
+        "volume": "303",
+        "author": "Huo",
+        "year": "2025",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0012",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2024.109413",
+        "article-title": "Anchor loss improvement in hemispherical resonators with ion beams",
+        "volume": "277",
+        "author": "Ning",
+        "year": "2024",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0013",
+        "series-title": "AIAA Guidance, Navigation and Control Conference and Exhibit",
+        "first-page": "6340",
+        "article-title": "In-flight characterization of Cassini inertial reference units",
+        "author": "Burrough",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0014",
+        "series-title": "AAS/AIAA 19th Space Flight Mechanics Meeting, Savannah, GA",
+        "first-page": "1157",
+        "article-title": "The Hemispherical Resonator Gyro: from wineglass to the planets",
+        "author": "Rozelle",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0015",
+        "series-title": "3rd IEEE International Symposium on Inertial Sensors and Systems, Laguna Beach, CA",
+        "first-page": "1",
+        "article-title": "IEEE, HRG by SAGEM from laboratory to mass production",
+        "author": "Jeanroy",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0016",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2021.108760",
+        "article-title": "An accurate thermoelastic model and thermal output error analysis of a hemispherical resonator gyroscope under varying temperatures",
+        "volume": "170",
+        "author": "Xu",
+        "year": "2022",
+        "journal-title": "Mechanical Systems and Signal Processing"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0017",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIM.2025.3555670",
+        "article-title": "Separation, identification and compensation of damping, detection and actuation errors for rate integrating hemispherical resonator gyroscopes",
+        "volume": "74",
+        "author": "Deng",
+        "year": "2025",
+        "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0018",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2023.114986",
+        "article-title": "Self-calibration of hemispherical resonator gyroscopes under drastic changes of ambient temperature based on mode reversal",
+        "volume": "366",
+        "author": "Zeng",
+        "year": "2024",
+        "journal-title": "Sensors and Actuators a-Physical"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "16823",
+        "DOI": "10.1109/TIE.2024.3395797",
+        "article-title": "An efficient system-level calibration method for a high-precision RLG RINS considering the G-sensitive misalignment",
+        "volume": "71",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "IEEE Transactions on Industrial Electronics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0020",
+        "article-title": "A bias compensation method for ring laser gyroscopes based on gaussian process regression and distributed temperature measurement configuration",
+        "volume": "74",
+        "author": "Li",
+        "year": "2025",
+        "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0021",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2025.116839",
+        "article-title": "Sensitivity enhancement based on suppressing RIN induced by harmonic components in fiber-optic gyroscopes",
+        "volume": "393",
+        "author": "Shi",
+        "year": "2025",
+        "journal-title": "Sensors and Actuators a-Physical"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "2963",
+        "DOI": "10.1109/JLT.2024.3511668",
+        "article-title": "The influence and suppression of spectral width on scale factor nonlinearity in fiber optic gyroscopes with broadband sources",
+        "volume": "43",
+        "author": "Cao",
+        "year": "2025",
+        "journal-title": "Journal of Lightwave Technology"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "2709",
+        "DOI": "10.3390/s24092709",
+        "article-title": "The influence of nonlinear high-intensity dynamic processes on the standing wave precession of a non-ideal hemispherical resonator",
+        "volume": "24",
+        "author": "Cheng",
+        "year": "2024",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0024",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jsv.2022.117249",
+        "article-title": "The effect of stem on the Bryan's factor of a hemispherical resonator",
+        "volume": "538",
+        "author": "Park",
+        "year": "2022",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0025",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2025.110581",
+        "article-title": "Trimming of the unbalanced mass in resonators with ion beams",
+        "volume": "302",
+        "author": "Ning",
+        "year": "2025",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1109/62.257091",
+        "article-title": "Comparison of hemispherical resonator gyro and optical gyros",
+        "volume": "7",
+        "author": "Matthews",
+        "year": "1992",
+        "journal-title": "IEEE Aerospace and Electronic Systems Magazine"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0027",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2024.109165",
+        "article-title": "Subsurface damage detection and prediction of thin-walled complex curved-surface component",
+        "volume": "272",
+        "author": "Qin",
+        "year": "2024",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0028",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.tsf.2025.140684",
+        "article-title": "Fabrication of highly homogeneous metal films for hemispherical resonators by a 3D mask based on a sputter-coating process",
+        "volume": "821",
+        "author": "Zhu",
+        "year": "2025",
+        "journal-title": "Thin Solid Films"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "570",
+        "DOI": "10.1016/j.cja.2023.08.022",
+        "article-title": "Hemispherical resonator with low subsurface damage machined by small ball-end fine diamond grinding wheel: A novel grinding technique",
+        "volume": "37",
+        "author": "Qin",
+        "year": "2024",
+        "journal-title": "Chinese Journal of Aeronautics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0030",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.tws.2025.112965",
+        "article-title": "Fillet effects on hemispherical shell resonators: Analytical insights for enhanced structural integrity",
+        "volume": "210",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "Thin-Walled Structures"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "5304",
+        "DOI": "10.1109/TIE.2021.3078375",
+        "article-title": "A wafer-level vacuum packaged MEMS disk resonator gyroscope with 0.42°/h bias instability within ±300°/s full scale",
+        "volume": "69",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Industrial Electronics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.1038/s41378-025-01011-4",
+        "article-title": "0.003°/h bias instability of honeycomb disk resonator gyroscope achieved by mode reversal combined mode deflection control method",
+        "volume": "11",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Microsystems & Nanoengineering"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0033",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIM.2025.3643062",
+        "article-title": "Multifrequency modulation techniques to suppress coupling between excitation and sense electrodes in MEMS disk resonant gyroscopes",
+        "volume": "74",
+        "author": "Ke",
+        "year": "2025",
+        "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0034",
+        "series-title": "IEEE international symposium on inertial sensors and systems (INERTIAL)",
+        "first-page": "1",
+        "article-title": "HRG by SAFRAN: The game-changing technology",
+        "author": "Delhaye",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0035",
+        "series-title": "DGON Inertial Sensors and Systems Symposium (ISS), Karlsruhe, GERMANY",
+        "article-title": "Sagem Coriolis Vibrating Gyros: a vision realized",
+        "author": "Remillieux",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0036",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jsv.2021.116733",
+        "article-title": "Approximation method for frequency split calculation of coriolis vibrating gyroscope resonator",
+        "volume": "526",
+        "author": "Vakhlyarsky",
+        "year": "2022",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "6425",
+        "DOI": "10.1109/TIE.2022.3192672",
+        "article-title": "Milli-hertz frequency tuning architecture toward high repeatable micromachined axi-symmetry gyroscopes",
+        "volume": "70",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Transactions on Industrial Electronics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "5347",
+        "DOI": "10.1109/TIE.2022.3187598",
+        "article-title": "Calibration of coupling errors for scale factor nonlinearity improvement in navigation-grade honeycomb disk resonator gyroscope",
+        "volume": "70",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "IEEE Transactions on Industrial Electronics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "533",
+        "DOI": "10.1109/JMEMS.2022.3166213",
+        "article-title": "Fused quartz dual-shell resonator gyroscope",
+        "volume": "31",
+        "author": "Asadian",
+        "year": "2022",
+        "journal-title": "Journal of Microelectromechanical Systems"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1038/s41378-024-00659-8",
+        "article-title": "A 3D-printed microhemispherical shell resonator with electrostatic tuning for a Coriolis vibratory gyroscope",
+        "volume": "10",
+        "author": "Hou",
+        "year": "2024",
+        "journal-title": "Microsystems & Nanoengineering"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0041",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jsv.2025.119016",
+        "article-title": "Negating self-induced parametric excitation in capacitive ring-based MEMS Coriolis vibrating gyroscopes",
+        "volume": "607",
+        "author": "Arifin",
+        "year": "2025",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0042",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2025.116976",
+        "article-title": "Virtual precession-enabled phase error mitigation in high-precision hemispherical resonator gyroscopes",
+        "volume": "395",
+        "author": "Li",
+        "year": "2025",
+        "journal-title": "Sensors and Actuators a-Physical"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0043",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIM.2024.3451567",
+        "article-title": "Identification and calibration of the detection signal distortion in whole angle mode hemispherical resonator gyro",
+        "volume": "73",
+        "author": "Gao",
+        "year": "2024",
+        "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0044",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2025.110811",
+        "article-title": "Self-calibration method for assembly errors of hemispherical resonator gyroscope",
+        "volume": "306",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "6169",
+        "DOI": "10.1016/j.jsv.2013.06.032",
+        "article-title": "Bryan's effect and isotropic nonlinear damping",
+        "volume": "332",
+        "author": "Joubert",
+        "year": "2013",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/j.jsv.2017.11.043",
+        "article-title": "Bryan's effect and anisotropic nonlinear damping",
+        "volume": "416",
+        "author": "Joubert",
+        "year": "2018",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0047",
+        "article-title": "Bryan's factor for truncated spherical and conical shells",
+        "volume": "136",
+        "author": "Narasimhan",
+        "year": "2014",
+        "journal-title": "Journal of Vibration and Acoustics-Transactions of the Asme"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0048",
+        "doi-asserted-by": "crossref",
+        "first-page": "1094",
+        "DOI": "10.3390/mi15091094",
+        "article-title": "Low-damage trimming of micro hemispherical resonators by chemical etching",
+        "volume": "15",
+        "author": "Zhou",
+        "year": "2024",
+        "journal-title": "Micromachines"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "23899",
+        "DOI": "10.1109/JSEN.2025.3572899",
+        "article-title": "Dynamic modeling and coupling error analysis of imperfect hemispherical resonators",
+        "volume": "25",
+        "author": "Cheng",
+        "year": "2025",
+        "journal-title": "IEEE Sensors Journal"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0050",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.apsusc.2023.158323",
+        "article-title": "A novel method to characterize the residual stress on the fused silica surface based on the evolution of the atomic point defects",
+        "volume": "640",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "Applied Surface Science"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0051",
+        "series-title": "Annual IEEE International Conference on Manipulation, Manufacturing and Measurement on the Nanoscale (3M-NANO), Xian, PEOPLES R CHINA",
+        "first-page": "301",
+        "article-title": "Effect of residual stress on modes of coupled MEMS resonator array",
+        "author": "Peng",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0052",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2025.116390",
+        "article-title": "Mechanical modeling and frequency splitting mechanism analysis of variable density hemispherical resonators",
+        "volume": "387",
+        "author": "Yuan",
+        "year": "2025",
+        "journal-title": "Sensors and Actuators a-Physical"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0053",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIM.2024.3428603",
+        "article-title": "Stiffness tuning of hemispherical shell resonator based on electrostatic force applied to discrete electrodes",
+        "volume": "73",
+        "author": "Nan",
+        "year": "2024",
+        "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0054",
+        "article-title": "The influence of photothermal effect on the resonance frequency of fused silica micro hemispherical resonator",
+        "volume": "35",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Measurement Science and Technology"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1109/JMEMS.2013.2286820",
+        "article-title": "Achieving sub-Hz frequency symmetry in micro-glassblown wineglass resonators",
+        "volume": "23",
+        "author": "Senkal",
+        "year": "2014",
+        "journal-title": "Journal of Microelectromechanical Systems"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0056",
+        "doi-asserted-by": "crossref",
+        "first-page": "495",
+        "DOI": "10.1016/j.jsv.2003.12.032",
+        "article-title": "Frequency trimming of a vibrating ring-based multi-axis rate sensor",
+        "volume": "280",
+        "author": "Rourke",
+        "year": "2005",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0057",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2023.108682",
+        "article-title": "Frequency splitting of hemispherical resonators trimmed with focused ion beams",
+        "volume": "261",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0058",
+        "doi-asserted-by": "crossref",
+        "first-page": "2094",
+        "DOI": "10.1016/j.jsv.2010.11.014",
+        "article-title": "Natural frequency split estimation for inextensional vibration of imperfect hemispherical shell",
+        "volume": "330",
+        "author": "Choi",
+        "year": "2011",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0059",
+        "doi-asserted-by": "crossref",
+        "first-page": "847",
+        "DOI": "10.1016/j.ijmecsci.2017.08.021",
+        "article-title": "Trimming of imperfect hemispherical shell including point mass distributions",
+        "volume": "131",
+        "author": "Kim",
+        "year": "2017",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "227",
+        "DOI": "10.1016/0022-460X(90)90554-D",
+        "article-title": "A simple theory for the analysis and correction of frequency splitting in slightly imperfect rings",
+        "volume": "142",
+        "author": "Fox",
+        "year": "1990",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0061",
+        "series-title": "International Modal Analysis Conference Japan (IMAC), 15th, Tokyo, Japan",
+        "first-page": "566",
+        "article-title": "Mode trimming in nominally axisymmetric structures",
+        "author": "Fox",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0062",
+        "doi-asserted-by": "crossref",
+        "first-page": "3498",
+        "DOI": "10.1109/JSEN.2014.2344851",
+        "article-title": "Localized eutectic trimming of polysilicon microhemispherical resonating gyroscopes",
+        "volume": "14",
+        "author": "Hamelin",
+        "year": "2014",
+        "journal-title": "IEEE Sensors Journal"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0063",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jsv.2021.115964",
+        "article-title": "Dynamic modeling and output error analysis of an imperfect hemispherical shell resonator",
+        "volume": "498",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0064",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1134/S207510871702002X",
+        "article-title": "Influence of nonuniform thickness of hemispherical resonator gyro shell on its unbalance parameters",
+        "volume": "8",
+        "author": "Basarab",
+        "year": "2017",
+        "journal-title": "Gyroscopy and Navigation"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0065",
+        "series-title": "30th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS)",
+        "first-page": "1",
+        "article-title": "Investigation on influence of geometric error and structure on vibrational characteristics of hemispherical resonator",
+        "author": "Zeng",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0066",
+        "doi-asserted-by": "crossref",
+        "first-page": "2660",
+        "DOI": "10.1016/j.cja.2020.04.011",
+        "article-title": "Motion equations of hemispherical resonator and analysis of frequency split caused by slight mass non-uniformity",
+        "volume": "33",
+        "author": "Huo",
+        "year": "2020",
+        "journal-title": "Chinese Journal of Aeronautics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0067",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1016/j.jsv.2010.08.001",
+        "article-title": "The influence of mass imperfections on the evolution of standing waves in slowly rotating spherical bodies",
+        "volume": "330",
+        "author": "Shatalov",
+        "year": "2011",
+        "journal-title": "Journal of Sound and Vibration"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0068",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1016/j.apm.2021.10.038",
+        "article-title": "High rise of ring resonator frequency split due to combination of two harmonics of density defect",
+        "volume": "103",
+        "author": "Sorokin",
+        "year": "2022",
+        "journal-title": "Applied Mathematical Modelling"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0069",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijmecsci.2024.109504",
+        "article-title": "Identification and trimming of the eccentric mass in shell resonators",
+        "volume": "279",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "International Journal of Mechanical Sciences"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "9601",
+        "DOI": "10.1109/TIE.2022.3212381",
+        "article-title": "High precision mass balancing method for the fourth harmonic of mass defect of fused quartz hemispherical resonator based on ion beam etching process",
+        "volume": "70",
+        "author": "Huo",
+        "year": "2023",
+        "journal-title": "IEEE Transactions on Industrial Electronics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0071",
+        "article-title": "Application of conductive graphene films for high-performance hemispherical resonator gyroscopes",
+        "volume": "125",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Applied Physics Letters"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0072",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIM.2025.3585205",
+        "article-title": "Metal-film-free electrostatic excitation and detection scheme for maximizing the Q Factor of quartz resonators",
+        "volume": "74",
+        "author": "Feng",
+        "year": "2025",
+        "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0073",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1361-6501/ad6fc3",
+        "article-title": "4.11-million Q-factor whole-angle MEMS hemispherical resonator gyroscope with 0.013°/h bias instability",
+        "volume": "35",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "Measurement Science and Technology"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0074",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2024.114300",
+        "article-title": "A fusion algorithm for HRG output errors based on improved support function and MDTW",
+        "volume": "228",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0075",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1361-6439/aac221",
+        "article-title": "Compensation of frequency split by directional lapping in fused quartz micro wineglass resonators",
+        "volume": "28",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Journal of Micromechanics and Microengineering"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0076",
+        "series-title": "IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)",
+        "first-page": "78",
+        "article-title": "Frequency split reduction by directional lapping of fused quartz micro wineglass resonators",
+        "author": "Wang",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0077",
+        "series-title": "25th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS)",
+        "first-page": "1",
+        "article-title": "Solid-state wave gyroscope ensuring the required accuracy parameters",
+        "author": "Raspopov",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0078",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1134/S2075108715030025",
+        "article-title": "Balancing of hemispherical resonator gyros by chemical etching",
+        "volume": "6",
+        "author": "Basarab",
+        "year": "2015",
+        "journal-title": "Gyroscopy and Navigation"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0079",
+        "series-title": "2nd International Conference on DGON Inertial Sensors and Systems (ISS), Braunschweig, GERMANY",
+        "article-title": "Frequency tuning of fused silica cylindrical resonators by chemical etching",
+        "author": "Tao",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "3772",
+        "DOI": "10.3390/s18113772",
+        "article-title": "Decreasing frequency splits of hemispherical resonators by chemical etching",
+        "volume": "18",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0081",
+        "first-page": "782",
+        "article-title": "Point-trimming method of hemispherical resonator gyroscope based on ultrafast laser technology",
+        "volume": "27",
+        "author": "Zhao",
+        "year": "2019",
+        "journal-title": "Journal of Chinese Inertial Technology"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0082",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.1109/JMEMS.2023.3332669",
+        "article-title": "Frequency tuning method on teeth-like tines of the fused silica micro-hemispherical resonator using femtosecond laser",
+        "volume": "33",
+        "author": "Hu",
+        "year": "2024",
+        "journal-title": "Journal of Microelectromechanical Systems"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0083",
+        "doi-asserted-by": "crossref",
+        "first-page": "10347",
+        "DOI": "10.1109/JSEN.2019.2932761",
+        "article-title": "Precise dynamic mass-stiffness balancing of cylindrical shell vibrating gyroscope along working modal axis",
+        "volume": "19",
+        "author": "Hu",
+        "year": "2019",
+        "journal-title": "IEEE Sensors Journal"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0084",
+        "series-title": "7th Asia Pacific Conference on Optics Manufacture (APCOM), Shanghai, PEOPLES R CHINA",
+        "article-title": "Study on the relationship between motion accuracy and optical surface accuracy of ion beam figuring equipment",
+        "author": "Wang",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "31780",
+        "DOI": "10.1109/JSEN.2023.3297211",
+        "article-title": "The high-precision balance method for hemispherical resonator based on synchronous trimming system",
+        "volume": "24",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "IEEE Sensors Journal"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0086",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1016/j.nima.2009.11.013",
+        "article-title": "Ultra-precision surface finishing by ion beam and plasma jet techniques-status and outlook",
+        "volume": "616",
+        "author": "Arnold",
+        "year": "2010",
+        "journal-title": "Nuclear Instruments & Methods in Physics Research Section a-Accelerators Spectrometers Detectors and Associated Equipment"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0087",
+        "doi-asserted-by": "crossref",
+        "first-page": "545",
+        "DOI": "10.1109/TAC.1978.1101785",
+        "article-title": "Theory and error analysis of vibrating-member gyroscope",
+        "volume": "23",
+        "author": "Friedland",
+        "year": "2003",
+        "journal-title": "IEEE Transactions on Automatic Control"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0088",
+        "series-title": "2nd St. Petersburg Conference on Gyroscopic Technology and Navigation",
+        "first-page": "26",
+        "article-title": "Vibratory gyro analysis by the method of averaging",
+        "author": "Lynch",
+        "year": "1995"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0089",
+        "doi-asserted-by": "crossref",
+        "first-page": "160",
+        "DOI": "10.1016/j.cja.2021.05.012",
+        "article-title": "Standing wave drift of hemispherical resonator with quality factor non-uniformity under a ring electrode excitation",
+        "volume": "35",
+        "author": "Huo",
+        "year": "2022",
+        "journal-title": "Chinese Journal of Aeronautics"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0090",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIM.2025.3555670",
+        "article-title": "Separation, identification, and compensation of damping, detection, and actuation errors for rate-integrating hemispherical resonator gyroscopes",
+        "volume": "74",
+        "author": "Deng",
+        "year": "2025",
+        "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0091",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2021.109924",
+        "article-title": "High-precision synchronous test method of vibration performance parameters for fused quartz hemispherical resonator",
+        "volume": "185",
+        "author": "Wei",
+        "year": "2021",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0092",
+        "series-title": "7th IEEE International Symposium on Inertial Sensors and Systems (IEEE INERTIAL)",
+        "article-title": "Measurement method of frequency splitting for high-Q hemispherical resonator based on standing wave swing effect",
+        "author": "Li",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0093",
+        "doi-asserted-by": "crossref",
+        "first-page": "4069",
+        "DOI": "10.1109/JSEN.2014.2332879",
+        "article-title": "A simple acoustic method for modal parameter measurement of the resonator for vibratory shell gyroscope",
+        "volume": "14",
+        "author": "Xi",
+        "year": "2014",
+        "journal-title": "IEEE Sensors Journal"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0094",
+        "series-title": "28th IEEE International Conference on Micro Electro Mechanical Systems (MEMS), Estoril, PORTUGAL",
+        "first-page": "821",
+        "article-title": "A high-Q all-fused silica solid-stem wineglass hemispherical resonator formed using micro blow torching and welding",
+        "author": "Cho",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1137/S1052623496303470",
+        "article-title": "Convergence properties of the Nelder-Mead simplex method in low dimensions",
+        "volume": "9",
+        "author": "Lagarias",
+        "year": "1998",
+        "journal-title": "Siam Journal on Optimization"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0096",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.pmatsci.2025.101651",
+        "article-title": "Residual stress and distortion in fusion welding and fusion-based additive manufacturing: measurements, mechanisms and control strategies",
+        "volume": "159",
+        "author": "DebRoy",
+        "year": "2026",
+        "journal-title": "Progress in Materials Science"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0097",
+        "series-title": "International Conference on Sensors, Materials and Manufacturing (ICSMM)",
+        "article-title": "Iop, Evaluation of the residual stresses in 95wt%Al2O3-5wt% SiC wear protection coating using X-Ray diffraction technique",
+        "author": "Mahmoud",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0098",
+        "article-title": "Research progress of residual stress measurement methods",
+        "volume": "10",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "Heliyon"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0099",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.20517/microstructures.2025.54",
+        "article-title": "Synchrotron X-ray and neutron diffraction study on the deformation and phase transformation mechanisms in TiAl alloys: a review",
+        "volume": "5",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "Microstructures"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "7883",
+        "DOI": "10.1016/j.tsf.2011.04.220",
+        "article-title": "Overview and applicability of residual stress estimation of film-substrate structure",
+        "volume": "519",
+        "author": "Chou",
+        "year": "2011",
+        "journal-title": "Thin Solid Films"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0101",
+        "doi-asserted-by": "crossref",
+        "first-page": "2924",
+        "DOI": "10.1016/j.tsf.2008.12.022",
+        "article-title": "Modeling of creep deformation and its effect on stress distribution in multilayer systems under residual stress and external bending",
+        "volume": "517",
+        "author": "Chen",
+        "year": "2009",
+        "journal-title": "Thin Solid Films"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0102",
+        "doi-asserted-by": "crossref",
+        "first-page": "382",
+        "DOI": "10.1088/0960-1317/16/2/024",
+        "article-title": "Extension of the Stoney formula for film-substrate systems with gradient stress for MEMS applications",
+        "volume": "16",
+        "author": "Huang",
+        "year": "2006",
+        "journal-title": "Journal of Micromechanics and Microengineering"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0103",
+        "doi-asserted-by": "crossref",
+        "first-page": "3562",
+        "DOI": "10.1016/j.ijsolstr.2013.06.022",
+        "article-title": "Residual stresses in thin film systems: effects of lattice mismatch, thermal mismatch and interface dislocations",
+        "volume": "50",
+        "author": "Moridi",
+        "year": "2013",
+        "journal-title": "International Journal of Solids and Structures"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0104",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1115/1.4064207",
+        "article-title": "A theoretical analysis for arbitrary residual stress of thin film/substrate system with nonnegligible film thickness",
+        "volume": "91",
+        "author": "Sun",
+        "year": "2024",
+        "journal-title": "Journal of Applied Mechanics-Transactions of the ASME"
+      },
+      {
+        "key": "10.1016/j.ijmecsci.2026.111465_bib0105",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.euromechsol.2024.105538",
+        "article-title": "Analytical solutions of film/substrate structure with film bending under elastic boundary and bifurcation deformation analysis",
+        "volume": "111",
+        "author": "Sun",
+        "year": "2025",
+        "journal-title": "European Journal of Mechanics a-Solids"
+      }
+    ],
+    "container-title": [
+      "International Journal of Mechanical Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020740326003218?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020740326003218?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2026-04-29T08:46:23Z",
+      "timestamp": 1777452383000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0020740326003218"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "references-count": 105,
+    "alternative-id": [
+      "S0020740326003218"
+    ],
+    "URL": "https://doi.org/10.1016/j.ijmecsci.2026.111465",
+    "relation": {},
+    "ISSN": [
+      "0020-7403"
+    ],
+    "issn-type": [
+      {
+        "value": "0020-7403",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Equivalent Bryan’s factor in hemispherical resonator gyroscopes with nonuniformities coupling",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "International Journal of Mechanical Sciences",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ijmecsci.2026.111465",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "111465"
+  }
+}

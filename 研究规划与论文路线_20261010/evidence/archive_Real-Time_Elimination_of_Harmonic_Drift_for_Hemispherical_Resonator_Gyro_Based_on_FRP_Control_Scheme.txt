@@ -1,0 +1,574 @@
+ARCHIVE: 全角陀螺/Real-Time_Elimination_of_Harmonic_Drift_for_Hemispherical_Resonator_Gyro_Based_on_FRP_Control_Scheme.pdf
+TOTAL PAGES: 13
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT, VOL. 75, 2026 9501713
+Real-Time Elimination of Harmonic Drift for
+Hemispherical Resonator Gyro Based
+on FRP Control Scheme
+Hanshi Li (
+ )
+ , Weinan Xie (
+ )
+ , Qi Wang (
+ )
+ , Guoxing Yi (
+ )
+ ,
+and Changhong Wang (
+ )
+ , Senior Member, IEEE
+Abstract—The performance of the hemispherical resonator
+gyro (HRG) in whole-angle (W A) mode is a ﬀected by the angle-
+dependent harmonic drift. Suppressing this drift is essential
+to improve its temperature stability and operational range. In
+this article, a novel real-time method for eliminating harmonic
+drift based on a forward and reverse precession (FRP) control
+scheme is proposed. First, the sources of harmonic drift in
+HRG are analyzed. The HRG dynamical equations incorporating
+multiple error sources are derived and analyzed through numer-
+ical simulation. Subsequently, a real-time error identiﬁcation
+algorithm is developed and validated through simulation. Finally,
+a temperature experiment is conducted to validate the method.
+The experimental results demonstrate that the proposed method
+can accurately identify and compensate for errors at di ﬀerent
+temperatures, e ﬀectively suppressing the harmonic components
+in angular velocity by more than 97%. The bias instability
+(BI) of the HRG remains consistently around 0 .024◦/h across
+various temperatures, indicating strong temperature stability.
+Additionally, the scale-factor nonlinearity (SFN) is reduced ﬁve-
+fold to 0.84 ppm. Most importantly, this method can be applied
+to all Coriolis vibratory gyroscopes to e ﬀectively eliminate their
+common angle-dependent harmonic drift.
+Index Terms —Angle-dependent harmonic drift, forward and
+reverse precession (FRP) control scheme, hemispherical resonator
+gyro (HRG), real-time compensation.
+I. I NTRODUCTION
+T
+HE hemispherical resonator gyro (HRG) is one of the
+most promising inertial sensors for high-precision nav-
+igation due to its high accuracy, high reliability, and long
+service life [1], [2]. It has become the primary choice for many
+space missions and industrial applications when high accuracy
+and long-term stability are critical [3], [4]. The HRGs are
+mainly classiﬁed into two categories according to the operating
+principles [5]: force-to-rebalance (FTR) mode and whole-
+angle (W A) mode. Diﬀerent from FTR mode, which ﬁxes the
+standing wave at a speciﬁc position, the standing wave can
+precess freely in W A mode. The W A mode has the advantages
+Received 20 May 2025; revised 8 November 2025; accepted 6 December
+2025. Date of publication 2 January 2026; date of current version 19 January
+2026. This work was supported by the National Natural Science Founda-
+tion of China under Grant 62473107. The Associate Editor coordinating
+the review process was Dr. Salvatore Graziani. (Corresponding author:
+Changhong Wang.)
+The authors are with the Space Control and Inertial Technology Research
+Center, Harbin Institute of Technology, Harbin 150001, China (e-mail:
+lihanshi99@stu.hit.edu.cn; xieweinan@hit.edu.cn; wangqi95@stu.hit.edu.cn;
+ygx@hit.edu.cn; cwang@hit.edu.cn).
+Digital Object Identiﬁer 10.1109 /TIM.2025.3650265
+of a wide dynamic range [6], highly stable scale factor
+[7], low integration error [8], and has gradually become the
+mainstream [9]. However, the W A-HRG has strict symmetry
+requirements, including the symmetry of damping/stiﬀness and
+the consistency of the channels. This places higher demands on
+the resonator processing, circuit design, as well as the control
+and compensation algorithms [10].
+One of the key factors limiting the performance of W A-HRG
+is the angle-dependent harmonic drift [9], which signiﬁcantly
+aﬀects the measurement accuracy and dynamic performance
+of HRG. Previous studies have shown that the main causes of
+the harmonic drift are as follows [7], [11], [12].
+1) Electrode assembly error.
+2) Capacitive sensing and actuation nonlinearity.
+3) Damping and sti ﬀness asymmetry.
+Many studies on electrode assembly error analyze the detec-
+tion and driving chains in isolation and ignore their coupling
+eﬀects [13], [14], [15]. In [11] and [16], the assembly error is
+eﬀectively separated and identiﬁed through o ﬄine calibration.
+These methods are adopted for comparison with the online
+identiﬁcation results in this article. Vatanparvar and Shkel [17]
+proposed a self-calibration method for gain mismatch based
+on the amplitude control force in the two axes. However, the
+method cannot accurately identify the gain mismatch in the
+presence of assembly angle error, which causes signal coupling
+between channels. Yan et al. [18] and Gu et al. [19] identiﬁed
+drive-related errors through virtual precession. However, the
+method requires prior calibration of the detection errors, and
+the identiﬁcation accuracy under unidirectional precession
+is a ﬀected by the structural imperfection of the resonator.
+Chen et al. [20] proposed an online identiﬁcation and com-
+pensation approach for drive and phase errors in W A-HRG
+based on sinusoidal self-excitation modulation. However, the
+sinusoidal disturbance reduces measurement accuracy and
+introduces additional control errors, resulting in unnecessary
+drift. Wang et al. [21] proposed a method for real-time
+identiﬁcation of assembly error using virtual rotation modula-
+tion through control voltage. However, their method performs
+only oﬄine identiﬁcation without online compensation, which
+limits its applicability. The method proposed in this article
+enables online identiﬁcation and compensation of assembly
+error by introducing the existing compensation values into the
+identiﬁcation model. Furthermore, the limitations and tradeoﬀs
+1557-9662 © 2025 IEEE. All rights reserved, including rights for text and data mining, and training of artiﬁcial intelligence and
+similar technologies. Personal use is permitted, but republication /redistribution requires IEEE permission.
+See https://www.ieee.org/publications/rights/index.html for more information.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:06:48 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 2 ---
+9501713 IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT, VOL. 75, 2026
+of the proposed method in practical online applications are
+analyzed.
+Many scholars believe that the temperature characteristic of
+the capacitive nonlinearity is stable, so they concentrate on the
+oﬄine calibration methods. Hu and Gallacher [12] proposed
+a correction method for capacitive sensing nonlinearity in
+MEMS rate-integrating gyroscopes, but actuation nonlinearity
+remains unsolved. Wang et al. [22] analyzed the harmonic drift
+induced by assembly error and capacitive sensing /actuation
+nonlinearity, and proposed an oﬄine calibration method. How-
+ever, the analysis treats the errors independently and neglects
+their coupling eﬀects, resulting in residual errors in the calibra-
+tion results. Gao et al. [23] analyzed the distortion mechanisms
+in capacitive detection and proposed a calibration method
+based on a recursive least squares (RLS) algorithm. However,
+the experimental validation is limited to speciﬁc operating
+conditions, and the model’s robustness under broader dynamic
+environments remains insu ﬃciently explored. Yi et al. [24]
+proposed a parameter identiﬁcation method based on chaotic
+technology and particle swarm optimization algorithm to
+suppress nonlinear harmonic drift. However, the proposed
+method does not account for temperature variations, and no
+temperature experiments have been conducted to evaluate its
+robustness under varying temperature conditions. Sun et al.
+[25] and Yu et al. [26] proposed a dynamic compensation
+method for capacitive nonlinearity by demodulating the ampli-
+tude of the third harmonic in the detection signal. However,
+the study focuses on microshell resonator gyroscopes, and the
+applicability of the method to larger scale HRGs with distinct
+structural and dynamic characteristics remains to be veriﬁed.
+This article proposes another approach to identify capacitive
+nonlinearity, and its e ﬀectiveness has been experimentally
+veriﬁed on HRGs.
+In [7], [27], and [28], angular drift caused by sti ﬀness
+and damping imperfection is addressed through the quadrature
+nulling loop and velocity feedback control. However, these
+methods are based on a linear model of gyroscopes and do
+not take into account capacitive nonlinearity. Pi and Bang
+[29] developed an observer to estimate damping and sti ﬀ-
+ness imperfection parameters based on the dynamic model.
+However, the simulation results reveal that the method is
+highly model-dependent and is sensitive to the initial values.
+Guo et al. [30] proposed an adaptive control algorithm to
+recognize the damping asymmetry parameter through angu-
+lar velocity. However, this approach only ensures accuracy
+when the external angular velocity exhibits minimal variation.
+Yan et al. [18] and Gu et al. [19] compensated for the drift
+caused by damping asymmetry based on the output of the
+amplitude control loop. However, the e ﬀectiveness of their
+compensation method depends on the accuracy of prior error
+calibration, which is not performed online. The algorithm
+proposed in this article enables online identiﬁcation and com-
+pensation of prior errors, which enhances the suppression of
+the drift induced by sti ﬀness and damping asymmetry.
+The experimental evidence demonstrates that electrode
+assembly error, capacitive sensing /actuation nonlinearity, and
+damping/stiﬀness asymmetry exhibit temperature-dependent
+variations [10], [26], [31]. The variations cannot be ignored for
+high-precision gyroscopes. According to the above summary,
+most existing studies ignore the coupling between multiple
+errors and lack real-time compensation, which limits the
+performance of vibratory gyroscopes in di ﬀerent environ-
+ments. To address these issues, a novel method based on
+the forward and reverse precession (FRP) control scheme
+is proposed in this article for the real-time elimination of
+angle-dependent harmonic drift. It achieves harmonic drift
+suppression by online identifying and compensating for the
+relevant error terms. Compared with o ﬄine calibration meth-
+ods, the proposed algorithm can track and compensate for
+temperature-induced changes in the error terms. In contrast
+to other identiﬁcation methods based on self-precession, this
+article considers the issue of real-time compensation under
+practical applications. It takes into account the e ﬀects of
+existing compensation values and external angular velocity on
+the identiﬁcation process, which have not been discussed in
+previous studies. In addition, the multierror model established
+in this article further improves the e ﬀectiveness of harmonic
+drift suppression. The experimental results demonstrate that
+the method e ﬀectively eliminates the harmonic drift under
+varying temperatures, signiﬁcantly improving the temperature
+stability of the HRG.
+II. FRP C ONTROL SCHEME OF HRG
+A. Basic Dynamical Equations of HRG
+The HRG typically operates in a stable four-antinodal vibra-
+tion mode. The vibration of the resonator can be modeled as a
+2-D spring-mass system with coupled damping and sti ﬀness.
+According to Lynch’s theory [32], the dynamical model of
+HRG is expressed as
+¨z +
+2
+τ + ∆
+1
+τ
+
+(σ3 cos 4θτ +σ1 sin 4θτ)− 4ikΩσ2
+
+˙z
++
+
+ω2−ω∆ω (σ3 cos 4θω +σ1 sin 4θω)− 2ik ˙Ωσ2 z
+= f (1)
+in which
+ω2 = ω2x +ω2y
+2 , ω ∆ω =
+ω2y−ω2x
+2
+1
+τ = 12 1τx + 1τy, ∆1τ = 1τx− 1τy (2)
+where σ1 =
+0 1
+1 0
+
+,σ2 =
+0 − i
+i 0
+
+,σ3 =
+1 0
+0 − 1
+
+; z =
+ x
+y
+
+is the vibration displacement along X and Y electrodes;
+f =
+ fx
+fy
+
+is the electrostatic force applied to the X and Y
+electrodes;ωx andωy are the vibration frequencies of the two
+stiﬀness axes, respectively; τx andτy are the time constants of
+the two damping axes, respectively; k is the scale factor; and
+Ω is the external angular velocity.
+The general solution of the HRG dynamic equations is
+expressed in the form of elliptic parameters as follows:
+z = Re
+
+e−iσ22θ z0e−i(ωt+ϕ) (3)
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:06:48 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 3 ---
+LI et al.: REAL-TIME ELIMINATION OF HARMONIC DRIFT FOR HEMISPHERICAL RESONATOR GYRO 9501713
+Fig. 1. Control block diagram of HRG with single-channel strategy.
+where z0 =
+ a
+iq
+
+; a, q, and 2θ are the major axis, minor axis
+and azimuth of the ellipse, respectively; ϕ is the vibration
+phase; and Re(·) denotes real part.
+The form of the general solution shows that the trajectory of
+the vibration displacement is an ellipse, and the state variables
+a, q, and 2θ completely characterize the ellipse.
+B. Electrode Detection and Excitation Principle
+The primary structure of ﬂat-electrode HRG is a hemispher-
+ical resonator and ﬂat-electrode assembly [33]. As shown in
+Fig. 1, the resonator is anchored at the center of the quartz
+base, with its lip overlapping with ﬂat electrodes to form
+eight parallel-plate capacitors, which serve as the detection
+and excitation capacitors of HRG.
+The charge ampliﬁer is employed for capacitive vibration
+detection, and the output voltage of the detection circuit can
+be expressed as
+Vu = 1CF ε0Ad− uVdc (4)
+where A is the area of the parallel-plate capacitor; d is the
+electrode gap; CF is the feedback capacitor; Vdc is the high dc
+bias; ε0 is vacuum dielectric constant; and u∈{ x, y} denotes
+the vibration displacement x or y.
+Since u≪ d, the higher order terms O(u3) can be neglected,
+and the detection voltage can be approximated by Taylor
+expansion as
+Vu≈ K
+
+d + u + u2
+d + u3d2 (5)
+where K = (ε0A)/(CFd2)Vdc is detection gain.
+The electrostatic force generated between the resonator’s
+lip edge and the driving electrodes is expressed as a nonlinear
+function of the vibration amplitude
+Fu = ε0A2 (d− u)2 V2 (6)
+where V is the voltage applied to the driving electrodes.
+Similarly, the electrostatic force can be approximated by a
+Taylor expansion as
+Fu≈ G0V2
+
+1 + 2 ud + 3 ud2 + 4 ud3 (7)
+where G0 = (ε0A)/(2d2) is part of driving gain.
+The nonlinear terms O(u) in the detection voltage and
+driving force cause harmonic drift of the standing wave.
+C. FRP Control Scheme
+This article adopts a single-channel control strategy based
+on time division multiplexing and shared detection /driving
+electrodes [34] as shown in Fig. 1, including amplitude control
+for energy maintaining, quadrature control for quadrature
+nulling, and a phase-locked loop for resonance tracking. The
+detection and driving signals of the X and Y channels are
+sequentially applied to the same set of electrodes, while
+passing through their respective shared analog circuits for
+detection and driving.
+This control strategy fundamentally eliminates the electrical
+gain and phase imbalance between channels. As a result, the
+gain mismatch and angle error originate solely from assembly
+error, and each exhibits the same magnitude in both the
+detection and driving chains.
+The detection signal is expressed as
+D = Re
+
+Ke−iσ22θ z0e−i(ωt+ϕ). (8)
+The reference signal for demodulation is expressed as
+Pr = 2ei(ωt+ϕr) = Prc + iPrs (9)
+where ϕr is the phase of the reference signal; Prc and Prs are
+the cosine and sine parts of the reference signal, respectively.
+The product of the detection signal and reference signal is
+low-pass ﬁltered to extract the slowly varying components
+C = LPF (Pr· D) =
+ Cx + iS x
+Cy + iS y
+
+8
+ˆˆˆ<
+ˆˆˆ:
+Cx = K (a cos 2θ cos ∆ϕ + q sin 2θ sin ∆ϕ)
+S x = K (a cos 2θ sin ∆ϕ− q sin 2θ cos ∆ϕ)
+Cy = K (a sin 2θ cos ∆ϕ− q cos 2θ sin ∆ϕ)
+S y = K (a sin 2θ sin ∆ϕ + q cos 2θ cos ∆ϕ)
+(10)
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:06:48 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 12 ---
+9501713 IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT, VOL. 75, 2026
+Fig. 15. SFN before and after compensation at 20 ◦C.
+velocity signiﬁcantly decrease after compensation. The resid-
+ual harmonic components are caused by unmodeled errors,
+and they exhibit minimal variation with temperature. These
+can be further compensated at the gyroscope output using a
+ﬁxed compensation table.
+Fig. 14 shows the Allan variance of HRG under the conven-
+tional control scheme and under the FRP control scheme with
+real-time compensation for harmonic drift. Under a conven-
+tional control scheme, the relevant errors are well calibrated
+at 20 ◦C, with the bias instability (BI) of 0 .024◦/h. However,
+the errors change with temperature, resulting in the BI of
+0.033◦/h at 40 ◦C and 0.047◦/h at 60 ◦C, with the decrease
+ratio of 37.50% and 93.75%, respectively. In contrast, the BI
+of HRG under the FRP control scheme remains consistently
+around 0.024◦/h, reﬂecting strong temperature stability. When
+signiﬁcant harmonic components are present in the output,
+the Allan variance curve becomes distorted and can no longer
+represent the true random characteristics. Under the traditional
+control scheme, the tested HRG exhibits a total standing wave
+drift of about 8 ◦ during a 4-h test for Allan variance, which
+is much smaller than one period of the fourth harmonic.
+Therefore, the reasonable Allan variance curves can be plotted.
+When the proposed method based on the FRP control scheme
+is applied, more than 97% of the fourth and eighth harmonic
+components are eliminated. The residual harmonic compo-
+nents are compensated at the gyroscope output using a ﬁxed
+compensation table. The reasonable Allan variance curves
+depicted in Fig. 14(b) demonstrate that the remaining harmonic
+components are negligible under stationary conditions.
+Under dynamic conditions, as analyzed in Section III-C,
+the harmonic amplitude increases linearly with the external
+angular velocity. Therefore, the harmonic drift a ﬀects the
+output accuracy and the scale-factor nonlinearity (SFN) of
+HRG. As shown in Fig. 15, the real-time compensation method
+reduces the SFN ﬁvefold at 20 ◦C, from 4.13 to 0.84 ppm.
+V. C ONCLUSION
+This article proposes a novel real-time method for eliminat-
+ing angle-dependent harmonic drift based on an FRP control
+scheme. First, it is determined that the harmonic drift is
+mainly caused by electrode assembly error, capacitive sens-
+ing/actuation nonlinearity, and damping /stiﬀness asymmetry.
+The dynamical equations of HRG under multiple errors and
+their compensation values are derived. The contribution of
+each error to the harmonic components in angular velocity is
+analyzed by numerical simulation. Subsequently, an algorithm
+based on harmonic decomposition of the amplitude control
+force for real-time identiﬁcation and compensation of the
+relevant errors is proposed and analyzed through simulation.
+Finally, the e ﬀectiveness of the novel method is veriﬁed
+through temperature experiments. The harmonic drift is sup-
+pressed by over 97% across di ﬀerent temperatures, and the
+tested HRG achieves a stable BI of approximately 0 .024◦/h.
+Moreover, the SFN of the HRG is reduced ﬁvefold, from
+4.13 to 0.84 ppm. The proposed real-time harmonic drift
+elimination method signiﬁcantly enhances the temperature
+stability of the HRG and broadens its practical applications.
+Most importantly, this method can be applied to all Coriolis
+vibratory gyroscopes to e ﬀectively eliminate their common
+angle-dependent harmonic drift.
+This study presents a method based on the FRP control
+scheme for real-time elimination of the harmonic drift, achiev-
+ing promising results. Future work will focus on improving
+the FRP control implementation, such as accurately setting
+the virtual precession speed and reﬁning the transition process
+between FRP processes, to further enhance the performance
+of the HRG.
+REFERENCES
+[1] A. A. Maslov, D. A. Maslov, I. G. Ninalalov, and I. V . Merkuryev,
+“Hemispherical resonator gyros (an overview of publications),”
+Gyroscopy Navigat., vol. 14, no. 1, pp. 1–13, Mar. 2023.
+[2] F. Delhaye, “SpaceNaute RO the HRG based inertial reference system of
+Ariane 6 European space launcher,” Gyroscopy Navigat., vol. 10, no. 1,
+pp. 1–6, Jan. 2019.
+[3] S. E. Perelyaev, “Current state of wave solid-state gyroscopes. Devel-
+opment prospects in applied gyroscopy,” in Proc. 30th Saint Petersburg
+Int. Conf. Integr. Navigat. Syst. (ICINS) , May 2023, pp. 1–4.
+[4] F. Delhaye, “HRG by SAFRAN: The game-changing technology,” in
+Proc. IEEE Int. Symp. Inertial Sensors Syst. (INERTIAL) , Mar. 2018,
+pp. 1–4.
+[5] A. A. Trusov et al., “Non-axisymmetric Coriolis vibratory gyroscope
+with whole angle, force rebalance,” in Proc. Solid-State, Actuators,
+Microsystems Workshop Tech. Dig., May 2014, pp. 419–422.
+[6] W. Zhao, H. Yang, F. Liu, Y . Su, and C. Li, “High sensitivity
+rate-integrating hemispherical resonator gyroscope with dead area com-
+pensation for damping asymmetry,” Sci. Rep. , vol. 11, no. 1, p. 2195,
+Jan. 2021.
+[7] P. Taheri-Tehrani, A. D. Challoner, and D. A. Horsley, “Micromechanical
+rate integrating gyroscope with angle-dependent bias compensation
+using a self-precession method,” IEEE Sensors J. , vol. 18, no. 9,
+pp. 3533–3543, May 2018.
+[8] C. C. Painter and A. M. Shkel, “Structural and thermal modeling of
+a Z-axis rate integrating gyroscope,” J. Micromech. Microeng., vol. 13,
+no. 2, pp. 229–237, Mar. 2003.
+[9] Z. Hu and B. J. Gallacher, “Precision mode tuning towards a low
+angle drift MEMS rate integrating gyroscope,” Mechatronics, vol. 56,
+pp. 306–317, Dec. 2018.
+[10] Q. Fan, Y . Zhou, M. Liu, C. Lin, and Y . Su, “Rate-integration gyroscope
+(RIG) with gain self calibration,” IEEE Sensors J. , vol. 21, no. 3,
+pp. 3241–3249, Feb. 2021.
+[11] W. Chen, X. Ding, Z. Qin, and H. Li, “Modeling, characterization, and
+compensation of detection and actuation coupling errors for whole-angle
+micro hemispherical resonant gyroscope,” IEEE Trans. Instrum. Meas. ,
+vol. 73, pp. 1–14, 2024.
+[12] Z. Hu and B. J. Gallacher, “E ﬀects of nonlinearity on the angular
+drift error of an electrostatic MEMS rate integrating gyroscope,” IEEE
+Sensors J., vol. 19, no. 22, pp. 10271–10280, Nov. 2019.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:06:48 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 13 ---
+LI et al.: REAL-TIME ELIMINATION OF HARMONIC DRIFT FOR HEMISPHERICAL RESONATOR GYRO 9501713
+[13] J. Sun et al., “Characterization and compensation of detection electrode
+errors for whole-angle micro-shell resonator gyroscope,” J. Microelec-
+tromech. Syst., vol. 31, no. 1, pp. 19–28, Feb. 2022.
+[14] X. Zheng et al., “Identiﬁcation and suppression of driving force mis-
+alignment angle for a MEMS gyroscope using parametric excitation,”
+J. Micromech. Microeng., vol. 33, no. 5, May 2023, Art. no. 055002.
+[15] Y . Sun, G. Yi, Z. Wei, and Q. Wang, “Identiﬁcation and compensation
+method for unbalance error in signal detection chain of rate-integrating
+hemispherical resonator gyro,” Measurement, vol. 240, Jan. 2025, Art.
+no. 115599.
+[16] K. Deng et al., “Separation, identiﬁcation, and compensation of damp-
+ing, detection, and actuation errors for rate-integrating hemispherical
+resonator gyroscopes,” IEEE Trans. Instrum. Meas. , vol. 74, pp. 1–13,
+2025.
+[17] D. Vatanparvar and A. M. Shkel, “Identiﬁcation of gain mismatches in
+control electronics of rate integrating CVGs,” in Proc. IEEE Int. Symp.
+Inertial Sensors Syst. (INERTIAL) , Mar. 2021, pp. 1–4.
+[18] K. Yan et al., “Self-excitation enabled decoupling, calibration, and com-
+pensation of errors for whole-angle hemispherical resonator gyroscope,”
+IEEE Trans. Instrum. Meas. , vol. 73, pp. 1–13, 2024.
+[19] Z. Gu, X. Ding, L. Zhao, and H. Li, “Modeling and compensation of
+readout, actuation, and damping errors for whole-angle hemispherical
+resonator gyroscope,” IEEE Sensors J. , vol. 25, no. 6, pp. 9421–9431,
+Mar. 2025.
+[20] Z. Chen et al., “Online identiﬁcation and compensation of drive
+and phase errors for whole-angle hemispherical resonator gyroscope
+based on sinusoidal self-excitation,” IEEE Sensors J. , vol. 25, no. 2,
+pp. 2362–2371, Jan. 2025.
+[21] R. Wang, G. Yi, W. Xie, Z. Wei, and S. Dong, “Self-calibration method
+for assembly errors of hemispherical resonator gyroscope,” Int. J. Mech.
+Sci., vol. 306, Nov. 2025, Art. no. 110811.
+[22] R. Wang, G. Yi, W. Xie, and C. Wang, “High-precision identiﬁcation
+and compensation of nonlinear error in hemispherical resonator gyro,”
+Measurement, vol. 237, Sep. 2024, Art. no. 114945.
+[23] Z. Gao, R. Xu, F. Nan, Y . Han, D. Li, and Y . Zhang, “Identiﬁcation
+and calibration of the detection signal distortion in whole angle mode
+hemispherical resonator gyro,” IEEE Trans. Instrum. Meas. , vol. 73,
+pp. 1–9, 2024.
+[24] X. Yi, G. Yang, Q. Cai, and Y . Tu, “Nonlinearity harmonic error com-
+pensation method based on intelligent identiﬁcation for rate integrating
+resonator gyroscope,” Actuators, vol. 14, no. 2, p. 68, Feb. 2025.
+[25] J. Sun et al., “0.79 ppm scale-factor nonlinearity whole-angle microshell
+gyroscope realized by real-time calibration of capacitive displacement
+detection,” Microsystems Nanoengineering , vol. 7, no. 1, p. 79, Oct.
+2021.
+[26] S. Yu et al., “Real-time correction of gain nonlinearity in electrostatic
+actuation for whole-angle micro-shell resonator gyroscope,” Microsys-
+tems Nanoengineering, vol. 10, no. 1, p. 164, Nov. 2024.
+[27] J. A. Gregory, J. Cho, and K. Najaﬁ, “Novel mismatch compensation
+methods for rate-integrating gyroscopes,” in Proc. IEEE /ION Position,
+Location Navigat. Symp. , Apr. 2012, pp. 252–258.
+[28] S. R. Bowles, B. J. Gallacher, Z. X. Hu, C. P. Fell, and K. Townsend,
+“Control scheme to reduce the e ﬀect of structural imperfections in a
+rate integrating MEMS gyroscope,” IEEE Sensors J. , vol. 15, no. 1,
+pp. 552–560, Jan. 2015.
+[29] J. Pi and H. Bang, “Imperfection parameter observer and drift compensa-
+tion controller design of hemispherical resonator gyros,” Int. J. Aeronaut.
+Space Sci., vol. 14, no. 4, pp. 379–386, Dec. 2013.
+[30] K. Guo, Y . Wu, Y . Zhang, D. Xiao, and X. Wu, “Adaptive compen-
+sation of damping asymmetry in whole-angle hemispherical resonator
+gyroscope,” AIP Adv., vol. 10, no. 10, Oct. 2020, Art. no. 105109.
+[31] L. Zeng, K. Deng, Y . Pan, J. Li, X. Tang, and H. Luo, “Self-calibration
+of hemispherical resonator gyroscopes under drastic changes of ambient
+temperature based on mode reversal,” Sens. Actuators A, Phys., vol. 366,
+Feb. 2024, Art. no. 114986.
+[32] D. D. Lynch and D. Lynch, “Vibratory gyro analysis by the method of
+averaging,” in Proc. Int. Conf. Gyroscopic Technol. Navigat., May 1995,
+pp. 26–34.
+[33] L. Yuan, Q. Zeng, C. Wang, S. Ren, Z. Wei, and Y . Huo, “High precision
+assembly and welding method for ﬂat-electrode hemispherical resonator
+gyro,” IEEE Trans. Instrum. Meas. , vol. 72, pp. 1–10, 2023.
+[34] R. Xu, Z. Gao, F. Nan, and Y . Zhang, “Single-channel control for
+hemispherical resonator gyro based on time division multiplexing and
+demultiplexing,” IEEE Sensors J. , vol. 21, no. 19, pp. 21342–21348,
+Oct. 2021.
+Hanshi Li received the B.S. degree in automation
+from Harbin Institute of Technology, Harbin, China,
+in 2022, where he is currently pursuing the Ph.D.
+degree with the School of Aeronautics.
+His research interests include the hemispherical
+resonator gyroscope.
+Weinan Xie received the B.S., M.S., and Ph.D.
+degrees in control science and engineering from
+Harbin Institute of Technology, Harbin, China, in
+2002, 2004, and 2008, respectively.
+He is a Professor with the Space Control and Iner-
+tial Technology Research Center, Harbin Institute of
+Technology. His current research interests include
+the Coriolis vibration gyroscope.
+Qi Wang received the B.S. degree in automation
+from Harbin Engineering University, Harbin, China,
+in 2017, and the M.S. degree in control engineer-
+ing from Harbin Institute of Technology, Harbin,
+in 2020, where he is currently pursuing the Ph.D.
+degree with the School of Aeronautics.
+His research interests include the hemispherical
+resonator gyroscope.
+Guoxing Yi received the B.S., M.S., and Ph.D.
+degrees in control science and engineering from
+Harbin Institute of Technology, Harbin, China, in
+1997, 1999, and 2005, respectively.
+He is a Professor with the Space Control and Iner-
+tial Technology Research Center, Harbin Institute of
+Technology. His current research interests include
+inertial technology.
+Changhong Wang (Senior Member, IEEE) received
+the B.S., M.E., and Ph.D. degrees from Harbin
+Institute of Technology (HIT), Harbin, China, in
+1983, 1986, and 1991, respectively.
+In 1986, he joined the Department of Control
+Science and Control Engineering, HIT, where he
+is currently a Full Professor. His research interests
+include intelligent systems and control, inertial tech-
+nology and its testing equipment, and spacecraft
+control.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on March 01,2026 at 16:06:48 UTC from IEEE Xplore.  Restrictions apply. 

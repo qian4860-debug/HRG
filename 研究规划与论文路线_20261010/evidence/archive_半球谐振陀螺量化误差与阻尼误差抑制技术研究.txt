@@ -1,0 +1,168 @@
+ARCHIVE: 全角陀螺/半球谐振陀螺量化误差与阻尼误差抑制技术研究.pdf
+TOTAL PAGES: 88
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+ 
+ 
+ 
+学校代码：  10286   
+分 类 号：   000    
+密    级：  公开    
+UD C ：   000    
+学    号： 203500   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+半球谐振陀螺量化误差 
+与阻尼误差抑制技术研究 
+  
+研究生姓名：     陈洋      
+          导 师 姓 名：  李宏生 教授  
+ 
+ 
+申请学位类别      工学硕士                 学位授予单位      东 南 大 学                    
+一级学科名称   仪器科学与技术                   论文答辩日期   2023 年 5 月 24 日        
+二级学科名称   仪器科学与技术                    学位授予日期   2023 年 6 月 14 日               
+研究方向       惯性传感器                评   阅   人                        
+答辩委员会主席     宋光明                                                      
+ 
+2023 年 6 月 6 日 
+万方数据
+
+--- PAGE 2 ---
+ 
+ 
+ 
+ 
+硕士学位论文  
+ 
+ 
+ 
+ 
+ 
+半球谐振陀螺量化误差 
+与阻尼误差抑制技术研究 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+专业名 称：    仪器科学与技术     
+ 
+研究生姓名：         陈洋           
+ 
+导师姓 名：      李宏生 教授       
+ 
+ 
+ 
+ 
+万方数据
+
+--- PAGE 3 ---
+ 
+ 
+Research on Suppression Method of 
+Quantization Error and Damping Error of 
+Hemispherical Resonant Gyroscope 
+ 
+ 
+A Thesis Submitted to 
+Southeast University 
+For the Academic Degree of Master of Engineering   
+ 
+ 
+BY 
+ 
+ 
+Supervised by 
+ 
+ 
+School of Instrument Science & Engineering 
+Southeast University 
+ 
+ 
+ 
+ 
+ 
+ 
+April 2023
+万方数据
+
+--- PAGE 87 ---
+毕业/学位论文答辩委员会名单 
+77 
+ 
+毕业/学位论文答辩委员会名单 
+ 
+毕业/学位论文题目 
+半球谐振陀螺量化误差与阻尼误差抑制技术研究 
+ 
+作  者 陈洋 
+专  业 仪器科学与技术 
+研究方向 惯性传感器 
+导  师 李宏生 
+答 
+辩 
+委 
+员 
+会 
+组 
+成 
+姓  名 职  称 学科专业 工作单位 
+宋光明 
+（主席） 
+教授 
+ 
+仪器科学与技
+术 
+东南大学 
+梁金星 
+教授 
+ 
+仪器科学与技
+术 
+东南大学 
+黄丽斌 
+教授 
+ 
+仪器科学与技
+术 
+东南大学 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+丁徐锴 
+（秘书） 
+副教授 
+ 
+仪器科学与技
+术 
+东南大学 
+ 
+备注： 
+1、本表格适用于所有研究生。 
+2、本表格排版在终版毕业/学位论文中，附在毕业/学位论文的最后。
+万方数据
+
+--- PAGE 88 ---
+东南大学硕士学位论文 
+78 
+ 
+ 
+ 
+万方数据

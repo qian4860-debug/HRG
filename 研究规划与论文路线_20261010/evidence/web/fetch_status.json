@@ -1,0 +1,119 @@
+[
+  {
+    "key": "10.1109_TIM.2025.3650265",
+    "url": "https://api.crossref.org/works/10.1109/TIM.2025.3650265",
+    "status": "ok"
+  },
+  {
+    "key": "10.1109_TIM.2025.3555670",
+    "url": "https://api.crossref.org/works/10.1109/TIM.2025.3555670",
+    "status": "ok"
+  },
+  {
+    "key": "10.1109_TIM.2026.3674286",
+    "url": "https://api.crossref.org/works/10.1109/TIM.2026.3674286",
+    "status": "ok"
+  },
+  {
+    "key": "10.1109_TIM.2026.3667313",
+    "url": "https://api.crossref.org/works/10.1109/TIM.2026.3667313",
+    "status": "ok"
+  },
+  {
+    "key": "10.1109_TII.2026.3698512",
+    "url": "https://api.crossref.org/works/10.1109/TII.2026.3698512",
+    "status": "ok"
+  },
+  {
+    "key": "10.1016_j.ast.2025.111283",
+    "url": "https://api.crossref.org/works/10.1016/j.ast.2025.111283",
+    "status": "ok"
+  },
+  {
+    "key": "10.1038_s41378-026-01321-1",
+    "url": "https://api.crossref.org/works/10.1038/s41378-026-01321-1",
+    "status": "ok"
+  },
+  {
+    "key": "10.3390_mi17010143",
+    "url": "https://api.crossref.org/works/10.3390/mi17010143",
+    "status": "ok"
+  },
+  {
+    "key": "10.1016_j.sna.2025.116976",
+    "url": "https://api.crossref.org/works/10.1016/j.sna.2025.116976",
+    "status": "ok"
+  },
+  {
+    "key": "10.1016_j.measurement.2024.115599",
+    "url": "https://api.crossref.org/works/10.1016/j.measurement.2024.115599",
+    "status": "ok"
+  },
+  {
+    "key": "10.3390_act14060275",
+    "url": "https://api.crossref.org/works/10.3390/act14060275",
+    "status": "ok"
+  },
+  {
+    "key": "10.1016_j.ijmecsci.2026.111465",
+    "url": "https://api.crossref.org/works/10.1016/j.ijmecsci.2026.111465",
+    "status": "ok"
+  },
+  {
+    "key": "10.1016_j.ymssp.2025.113228",
+    "url": "https://api.crossref.org/works/10.1016/j.ymssp.2025.113228",
+    "status": "ok"
+  },
+  {
+    "key": "10.1007_s11071-026-12837-6",
+    "url": "https://api.crossref.org/works/10.1007/s11071-026-12837-6",
+    "status": "ok"
+  },
+  {
+    "key": "10.1109_TIM.2026.3704236",
+    "url": "https://api.crossref.org/works/10.1109/TIM.2026.3704236",
+    "status": "failed",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1026)>"
+  },
+  {
+    "key": "10.1109_TIM.2026.3682829",
+    "url": "https://api.crossref.org/works/10.1109/TIM.2026.3682829",
+    "status": "ok"
+  },
+  {
+    "key": "10.1109_JSEN.2026.3728523",
+    "url": "https://api.crossref.org/works/10.1109/JSEN.2026.3728523",
+    "status": "ok"
+  },
+  {
+    "key": "10.1016_j.measurement.2026.121170",
+    "url": "https://api.crossref.org/works/10.1016/j.measurement.2026.121170",
+    "status": "ok"
+  },
+  {
+    "key": "10.1063_5.0268634",
+    "url": "https://api.crossref.org/works/10.1063/5.0268634",
+    "status": "ok"
+  },
+  {
+    "key": "search_0",
+    "url": "https://api.crossref.org/works?query.bibliographic=hemispherical%20resonator%20gyroscope%20whole%20angle&filter=from-pub-date:2025-01-01,until-pub-date:2026-10-10&rows=12",
+    "status": "ok"
+  },
+  {
+    "key": "search_1",
+    "url": "https://api.crossref.org/works?query.bibliographic=The%20Electrode%20Nonlinearity%20Error%20Suppression%20of%20Hemispherical%20Resonator%20Gyro%20Under%20Whole-Angle%20Mode&filter=from-pub-date:2025-01-01,until-pub-date:2026-10-10&rows=12",
+    "status": "ok"
+  },
+  {
+    "key": "search_2",
+    "url": "https://api.crossref.org/works?query.bibliographic=Asymmetric%20Phase-Delay%20Modeling%20and%20Online%20Compensation%20for%20Whole-Angle%20Micro-Hemispherical%20Resonator%20Gyroscopes&filter=from-pub-date:2025-01-01,until-pub-date:2026-10-10&rows=12",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "key": "search_3",
+    "url": "https://api.crossref.org/works?query.bibliographic=Modeling%20Characterization%20Compensation%20Detection%20Errors%20Differential%20Frequency%20Modulation%20Whole%20Angle&filter=from-pub-date:2025-01-01,until-pub-date:2026-10-10&rows=12",
+    "status": "ok"
+  }
+]

@@ -1,0 +1,478 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T14:40:59Z",
+      "timestamp": 1767710459060,
+      "version": "3.48.0"
+    },
+    "reference-count": 21,
+    "publisher": "AIP Publishing",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              6
+            ]
+          ],
+          "date-time": "2026-01-06T00:00:00Z",
+          "timestamp": 1767657600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 5,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Key R&D Program of Shandong Province: Development and Industrialization of Inertial Navigation Systems for Marine Unmanned Systems",
+        "award": [
+          "2022CXGC020408"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022CXGC020408"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "pubs.aip.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>In whole-angle mode hemispherical resonator gyroscope (HRG) systems, time delay and damping asymmetry are critical factors affecting measurement accuracy and long-term stability. Time delay originates from signal acquisition and processing latency, resulting in misalignment between the input angular velocity and the output signal. Damping asymmetry, caused by non-uniform damping distribution within the resonator, further contributes to angle drift bias (ADB). To address these issues, this paper proposes a joint compensation method integrating cross-correlation time delay estimation with a recursive least squares algorithm. The method first estimates the system delay by analyzing the time lag between excitation and output signals, then iteratively identifies damping asymmetry parameters based on angular velocity data. Experimental results show that the proposed method reduces ADB to 1.2132°/h, representing an eightfold improvement over damping-asymmetry-only compensation (9.72°/h) and a 51.5-fold improvement compared to the uncompensated case (62.52°/h). These results underscore the non-negligible impact of time delay and the effectiveness of joint compensation in enhancing HRG performance.</jats:p>",
+    "DOI": "10.1063/5.0268634",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T14:38:57Z",
+      "timestamp": 1767710337000
+    },
+    "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Joint compensation of time delay and damping asymmetry errors for whole-angle hemispherical resonator gyroscopes"
+    ],
+    "prefix": "10.1063",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7384-6803",
+        "authenticated-orcid": false,
+        "given": "Ruizhao",
+        "family": "Cheng",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Instrumentation and Optoelectronic Engineering, Beihang University 1 , Beijing 100191,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2710-9914",
+        "authenticated-orcid": false,
+        "given": "Gongliu",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mechanical Engineering, Zhejiang University 2 , Hangzhou 310058,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9956-4740",
+        "authenticated-orcid": false,
+        "given": "Qingzhong",
+        "family": "Cai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Instrumentation and Optoelectronic Engineering, Beihang University 1 , Beijing 100191,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-7947-9938",
+        "authenticated-orcid": false,
+        "given": "Yuyi",
+        "family": "Yao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mechanical Engineering, Zhejiang University 2 , Hangzhou 310058,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8895-4188",
+        "authenticated-orcid": false,
+        "given": "Yongqiang",
+        "family": "Tu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Marine Equipment and Mechanical Engineering, Jimei University 3 , Xiamen 361021,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "317",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "first-page": "2158",
+        "article-title": "The error analysis of hemispherical resonator gyro based on a vibration model",
+        "year": "2017",
+        "key": "2026010609385173300_c1"
+      },
+      {
+        "first-page": "17",
+        "volume-title": "SkyNaute by Safran—How the HRG technological breakthrough benefits to a disruptive IRS (inertial reference system) for commercial aircraft",
+        "year": "2019",
+        "key": "2026010609385173300_c2"
+      },
+      {
+        "key": "2026010609385173300_c3",
+        "article-title": "New gyroscopes of the ‘generalized foucault pendulum’ family: Some fundamental issues of theory and applied aspects of its implementation in the engineering practice of modern gyroscopy"
+      },
+      {
+        "key": "2026010609385173300_c4",
+        "doi-asserted-by": "publisher",
+        "first-page": "40",
+        "DOI": "10.1109/62.257091",
+        "article-title": "Comparison of hemispherical resonator gyro and optical gyros",
+        "volume": "7",
+        "year": "1992",
+        "journal-title": "IEEE Aerosp. Electron. Syst. Mag."
+      },
+      {
+        "key": "2026010609385173300_c5",
+        "doi-asserted-by": "publisher",
+        "first-page": "658",
+        "DOI": "10.1109/taes.2012.6129662",
+        "article-title": "Principles of a micro-rate integrating ring gyroscope",
+        "volume": "48",
+        "year": "2012",
+        "journal-title": "IEEE Aerosp. Electron. Syst. Mag."
+      },
+      {
+        "first-page": "944",
+        "article-title": "A MEMS rate integrating gyroscope based on catch-and-release mechanism for low-noise continuous angle measurement",
+        "year": "2018",
+        "key": "2026010609385173300_c6"
+      },
+      {
+        "key": "2026010609385173300_c7",
+        "first-page": "1",
+        "article-title": "SpaceNaute®: HRG technological breakthrough for advanced space launcher inertial reference system",
+        "volume-title": "2018 25th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS)",
+        "year": "2018"
+      },
+      {
+        "key": "2026010609385173300_c8",
+        "doi-asserted-by": "publisher",
+        "first-page": "379",
+        "DOI": "10.5139/ijass.2013.14.4.379",
+        "article-title": "Imperfection parameter observer and drift compensation controller design of hemispherical resonator gyros",
+        "volume": "14",
+        "year": "2013",
+        "journal-title": "Int. J. Aeronaut. Space Sci."
+      },
+      {
+        "key": "2026010609385173300_c9",
+        "doi-asserted-by": "publisher",
+        "first-page": "3765",
+        "DOI": "10.1109/jsen.2017.2695501",
+        "article-title": "Structural parameter identification of the center support quadruple mass gyro",
+        "volume": "17",
+        "year": "2017",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "2026010609385173300_c10",
+        "article-title": "Toroidal resonators with small frequency mismatch for rate integrating gyroscopes"
+      },
+      {
+        "key": "2026010609385173300_c11",
+        "doi-asserted-by": "publisher",
+        "first-page": "945",
+        "DOI": "10.3390/mi11100945",
+        "article-title": "Damping asymmetry trimming based on the resistance heat dissipation for Coriolis vibratory gyroscope in whole-angle mode",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Micromachines"
+      },
+      {
+        "key": "2026010609385173300_c12",
+        "doi-asserted-by": "publisher",
+        "first-page": "105109",
+        "DOI": "10.1063/5.0026821",
+        "article-title": "Adaptive compensation of damping asymmetry in whole-angle hemispherical resonator gyroscope",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "AIP Adv."
+      },
+      {
+        "key": "2026010609385173300_c13",
+        "doi-asserted-by": "publisher",
+        "first-page": "3533",
+        "DOI": "10.1109/jsen.2018.2810843",
+        "article-title": "Micromechanical rate integrating gyroscope with angle-dependent bias compensation using a self-precession method",
+        "volume": "18",
+        "year": "2018",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "2026010609385173300_c14",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1109/jmems.2021.3123082",
+        "article-title": "Characterization and compensation of detection electrode errors for whole-angle micro-shell resonator gyroscope",
+        "volume": "31",
+        "year": "2022",
+        "journal-title": "J. Microelectromech. Syst."
+      },
+      {
+        "key": "2026010609385173300_c15",
+        "doi-asserted-by": "publisher",
+        "first-page": "3241",
+        "DOI": "10.1109/jsen.2020.3027739",
+        "article-title": "Rate-integration gyroscope (RIG) with gain self calibration",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "2026010609385173300_c16",
+        "doi-asserted-by": "publisher",
+        "first-page": "21342",
+        "DOI": "10.1109/jsen.2021.3103115",
+        "article-title": "Single-channel control for hemispherical resonator gyro based on time division multiplexing and demultiplexing",
+        "volume": "21",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "2026010609385173300_c17",
+        "doi-asserted-by": "publisher",
+        "first-page": "13945",
+        "DOI": "10.1109/jsen.2022.3181302",
+        "article-title": "In-run automatic mode-matching of whole-angle micro-hemispherical resonator gyroscope based on standing wave self-precession",
+        "volume": "22",
+        "year": "2022",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "first-page": "1579",
+        "article-title": "A high-precision mode matching method for rate-integrating honeycomb disk resonator gyroscope",
+        "year": "2021",
+        "key": "2026010609385173300_c18"
+      },
+      {
+        "key": "2026010609385173300_c19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1001613",
+        "DOI": "10.1109/tim.2023.3346525",
+        "article-title": "Self-excitation enabled decoupling, calibration, and compensation of errors for whole-angle hemispherical resonator gyroscope",
+        "volume": "73",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "2026010609385173300_c20",
+        "doi-asserted-by": "publisher",
+        "first-page": "19228",
+        "DOI": "10.1109/jsen.2022.3204631",
+        "article-title": "Identification and correction of phase error for whole-angle micro-shell resonator gyroscope",
+        "volume": "22",
+        "year": "2022",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "first-page": "26",
+        "volume-title": "Vibratory gyro analysis by the method of averaging",
+        "year": "1995",
+        "key": "2026010609385173300_c21"
+      }
+    ],
+    "container-title": [
+      "AIP Advances"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0268634/20859001/015107_1_5.0268634.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/5.0268634/20859001/015107_1_5.0268634.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T14:38:58Z",
+      "timestamp": 1767710338000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aip.org/adv/article/16/1/015107/3376359/Joint-compensation-of-time-delay-and-damping"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "references-count": 21,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1063/5.0268634",
+    "relation": {},
+    "ISSN": [
+      "2158-3226"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2158-3226"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "article-number": "015107"
+  }
+}

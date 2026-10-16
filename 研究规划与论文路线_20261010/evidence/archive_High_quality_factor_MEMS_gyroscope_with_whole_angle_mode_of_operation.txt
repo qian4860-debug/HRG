@@ -1,0 +1,316 @@
+ARCHIVE: 全角陀螺/High_quality_factor_MEMS_gyroscope_with_whole_angle_mode_of_operation.pdf
+TOTAL PAGES: 4
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+HIGH QUALITY FACTOR MEMS GYROSCOPE
+WITH WHOLE ANGLE MODE OF OPERA TION
+Sina Askari, Mohammad H. Asadian, Andrei M. Shkel
+MicroSystems Laboratory, University of California, Irvine, CA, USA
+Email: { sina.askari, asadianm, andrei.shkel } @uci.edu
+Abstract— The whole angle (W A) mode of operation for the
+direct measurement of the angle of rotation is implemented on a
+high-Q silicon micromachined gyroscope. This paper presents the
+angle estimation and its associated errors when the W A gyroscope
+was operating in a free vibration and a closed-loop controlled
+mode. The high Q-factor, and therefore a large energy decay
+time constant of the device, enabled the W A measurement of the
+precession of the vibration pattern for over 30 minutes without
+energy control loop to sustain the vibration pattern. Taking
+advantage of the long decay time without the feedback control,
+rate-dependent errors in the scale-factor were directly observed.
+For the closed-loop W A operation, the energy, quadrature, and
+phase-locked loops were implemented and used for feedback
+control of the device. The control signals were applied to the
+excitation electrodes of the two orthogonal modes to maintain
+the amplitude and quadrature errors. In the feedback mode of
+operation, the W A gyro output was collected for 10,000 seconds at
+a constant input rate. An angular gain factor of 0.84 was derived
+from the angle output of the gyroscope with 7 ppm angular gain
+variation over 1.8 million degrees of continuous rotation.
+I. I NTRODUCTION
+Coriolis Vibratory Gyroscopes (CVGs) with sufﬁcient stiff-
+ness and damping symmetry can be implemented as Whole
+Angle (W A) gyroscopes to directly measure the angle of
+rotation and estimate the orientation of an object. In the W A
+mode, the vibrational energy freely transfers between the two
+orthogonal modes due to the Coriolis force, resulting in the
+precession of the vibration pattern with respect to the rotating
+frame of the gyroscope. The orientation of the precession angle
+axis gives a direct measure of the rotation angle with respect
+to the inertial coordinate frame.
+The W A operation has been recently demonstrated utiliz-
+ing the Micro-Electro-Mechanical System (MEMS) CVGs. A
+free precession of vibration pattern without feedback control
+signals was demonstrated on a Quad Mass Gyroscope (QMG)
+with the amplitude decay time of 172 seconds in [1]. The
+precession of vibration pattern in response to the input rotation
+was limited to the decay time constant of the sensor.
+The closed-loop-controlled W A operation was implemented
+on a low Q-factor QMG, where the sensor was sealed in a
+moderate vacuum without getter showing the Q-factor of 1000
+and the decay time constant of less than 1 sec, [2]. The closed-
+loop W A operation was reported on a number of other MEMS
+CVGs, in all cases with short amplitude decay time con-
+stants. For example, the W A operation was demonstrated on
+This material is based on work supported by the Defense Advanced
+Research Projects Agency under Grant N66001-16-1-4021.
+epitaxially encapsulated Disk Resonator Gyroscopes (DRG),
+[3], and Dual Foucault Pendulum (DFP), [4]. A Toroidal
+Ring Gyroscopes (TRG) was fabricated in the epitaxial silicon
+encapsulation process and the W A operation was demonstrated
+using a closed-loop parametric excitation, [5].
+In this work, we used a high quality factor (over 2 Million)
+QMG design for the demonstration of W A operation. QMG
+is a lumped mass-spring quadruple tuning fork gyroscope
+that has two structurally decoupled, identical, and orthogonal
+tuning fork resonators. The structure of QMG is a 2D analo-
+gous of the 3D axisymmetric four beams resonator gyroscope
+(Quapason™, [6]). The vibrational energy exchange between
+the tines of the structure is caused by the Coriolis coupling
+in response to an input rotation. The sensor structure consists
+of four identical tines. The design of suspension provides a
+coupling between masses resulting in the anti-phase motion
+of four tines, [7]. The motion of each mass is capacitively
+sensed using the differential pickoff parallel plate electrodes.
+The corresponding signals from each mass were summed
+and lumped into two equivalent signals, one for sensing and
+another for a feedback control. The projected components of
+the axis of the vibration pattern orientation were calculated
+from the amplitude and phase of each resonator to estimate
+the precession angle. QMG sensors with the Q-factor of over 1
+million were previously reported, [8]. The high Q-factor in the
+QMG devices is attributed to: 1) its balanced anti-phase mode
+of vibration, [7], 2) mode ordering, 3) sufﬁcient separation of
+operational and parasitic modes, [9], and 4) ultra-high-vacuum
+device sealing, [10]. The high Q-factor of QMG sensors
+Fig. 1. A QMG sensor, vacuum-sealed with getter, revealing the ringdown
+time constant higher than 380 seconds and the Q-factor of over 2 million.
+978-1-5386-0895-1/18/$31.00 ©2018 IEEEAuthorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:57:00 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 2 ---
+operating at around 2 kHz resulted in several minutes of the
+amplitude decay time. In this paper, the W A mechanization is
+implemented on a QMG sensor with over 2 million Q-factor
+operating at 1.68 kHz. The decay time constant of the device
+was higher than 380 seconds, Fig. 1. We also observed a high
+damping symmetry ( Δ(1/τ) <0.0001 Hz) of the device. A
+long decay time constant and high symmetry make this sensor
+architecture a good candidate for the W A operation.
+II. P RECESSION OF VIBRA TION PA TTERN
+The precession of a vibration pattern was demonstrated on
+the QMG sensor operating in free vibration. The sensor was
+mounted on a rate table and was driven into the resonance
+along an axis with a ﬁxed amplitude. The as-fabricated fre-
+quency mismatch of 15 Hz was electrostatically tuned to 0.1
+Hz. The Phase-Locked-Loop (PLL) tracked the phase of the
+oscillation at any arbitrary pattern angle. After the resonance
+condition was established with the amplitude controlled along
+the drive axis using the energy loop, the forcer signal was
+abruptly turned off and an input rotation was applied to the
+rate table. The long energy decay time of the sensor enabled
+the W A operation in free vibration without applying any
+forcer signals to maintain the oscillation for over 30 minutes.
+The x and y axis pickoff signals are plotted in Fig. 2. This
+plot illustrates the precession of the vibration pattern in the
+plane of oscillation. The pickoff signals were demodulated at
+the frequency of the oscillation at the instantaneous pattern
+angle. The in-phase and in-quadrature components of the
+demodulated x and y axis pick-off signals with respect to the
+oscillation phase, Cx,Cy,Sx,Sy , were used to calculate the
+pendulum variables: energy ( E), quadrature ( Q), phase ( L),
+and angle of precession ( θ), with notations according to the
+model in [11]:
+E = cx2 +sx2 +cy 2 +sy 2
+Q =2 (cxsy −cysx)
+S =2 (cxcy +sxsy)
+R = cx2 +sx2 −cy 2 −sy 2
+}
+θ(t)= 12 arctan SR
+L = cx2 −sx2 +cy 2 −sy 2 +2i(cxsx +cysy)
+(1)
+Fig. 3 shows the angle output of the sensor under 0.5, 1,
+and 2 Hz input rotation. The sensor output was collected for
+time constant ( τ ) of one amplitude decay cycle. A linear ﬁt
+to the output data showed an angular gain factor of 0.83. The
+residuals of the ﬁt revealed a rate-dependent angle estimation
+error. The local perturbation in the estimated angle was less
+than 1 degree at 2 Hz input rotation, while the error increased
+to more than 2 degrees at 0.5 Hz input rotation. This rate-
+dependent growth of errors is explained to be originated from
+the uncompensated frequency mismatch of the gyroscope. The
+numerical simulation is discussed in section III.
+III. E FFECT OF IMPERFECTION
+The angle measurement drift in a W A mode was derived
+in [11]. The drift model is described by a set of nonlinear
+coupled ordinary differential equations. In the W A mode under
+free vibration, the drift equations have a form:
+Fig. 2. Trajectories of the vibration pattern in the plane of oscillation recorded
+in real-time from applying a rotation to the sensing element.
+˙θ = −kΩ+ 12Δ(1τ )sin2(θ −θτ) E√E2 −Q2
++ 12Δωc o s2(θ −θω) Q√E2 −Q2
+˙E = −2τE −Δ(1τ )cos2(θ −θτ)√E2 −Q2
+˙Q = −2τQ −Δωs i n2(θ −θω)√E2 −Q2
+(2)
+The uncompensated anisoelasticity (Δω) and anisodamping
+Δ(1/τ) of the sensor introduce an angle-dependent perturba-
+tion in the energy (E), quadrature (Q), and angle output ( θ),
+limiting the measurement resolution of the gyroscope. The
+drift equations were numerically solved for Δf =0.1 Hz and
+Δ(1/τ) = 0.0001 Hz. The normalized energy and quadrature
+are plotted over time for different input rotation rates in Fig. 4.
+The results demonstrated a dependency of the quadrature error
+amplitude to the input rate. At higher rates, the quadrature
+error decreased, resulting in a smaller perturbation of the angle
+measurement.
+Fig. 3. Experimental measurement of the direct angle estimation and the error
+in the W A operation under a free vibration at three different input rotations:
+90, 180, and 360 deg/sec. The inset ﬁgure shows residuals of the linear ﬁt.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:57:00 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 3 ---
+Fig. 4. Numerical simulation of energy and quadrature under continuous
+rotation of a sensor with Δf =0 .1 Hz and Δ(1/τ)=0 .0001 Hz. The
+values are normalized with respect to the maximum energy, corresponding to
+the maximum amplitude of vibration.
+The energy and quadrature variables were collected and
+estimated in real-time during the continuous rotation, Fig.
+5. As it was predicted from the simulation results, the de-
+pendency of quadrature error on the input rotation rate was
+observed experimentally. The uncompensated anisoelasticity
+introduced a rate-dependent quadrature error which couples to
+the angle drift, eq. 2, resulting in a local perturbation in angle
+measurements and an error in the angular gain factor of the
+gyroscope operating in the W A mode.
+Fig. 5. Experimental measurement of E and Q in W A under free vibration
+at three different input rotation rates: 90, 180 and 360 deg/sec.
+IV . C LOSED -LOOP OPERA TION
+The angle output of the sensor operating in a free vibration
+was captured for more than 4τ , where τ is a characteristic
+decay time of the system equal to the time where the amplitude
+reduced to 37% of its initial value. Fig. 6 shows the residuals
+of the linear ﬁt to the angle output data after 2200 seconds
+of continuous rotation at 180 deg/sec. The linear ﬁt reveals
+an angular gain factor of 0.83. The residual errors increased
+as the amplitude of vibration decayed and the signal-to-noise
+ratio (SNR) decreased. The local perturbation after τ was less
+than 3 degrees, and it grew to 10 degree after 4τ .
+An energy and quadrature control loops were implemented
+to maintain the oscillation amplitude and null the quadrature
+Fig. 6. 36 minutes of experimental measurements of the angle of gyroscope
+precession in a free vibration under an input rotation rate of 180 deg/sec.
+Inset (a) is angle output with 0.83 angular gain factor. Inset (b-c) are local
+perturbations at 1 τ and after 4 τ .
+error. In the closed-loop W A mode, the sensor was interfaced
+to the buffer electronics mounted on a rate table, the detailed
+block-diagram is shown in Fig. 7. The buffer electronics
+contained an analog conditioning of the capacitive forcer and
+pickoff signals, and included high input impedance current-
+to-voltage converter, carrier demodulator, and active ﬁlters.
+The as-fabricated frequency mismatch of 15 Hz was tuned
+electrostatically to 0.1 Hz, using 16.6 volts DC bias on
+differential parallel electrodes.
+The parasitic feedthrough path from drive to sense elec-
+trodes was canceled by a carrier demodulation scheme. This
+also required the phase compensation at the output of the
+current-to-voltage ampliﬁer to account for the system phase
+delay. The selection of the carrier amplitude was shown
+to satisfy the requirement of maximum oscillation at the
+resonators output current-to-voltage after demodulation at 1.2
+volts. The carrier frequency was typically 20 times greater
+than the resonators resonance frequency (100 kHz) in our
+experiments. No dependency was seen between device char-
+acteristics (resonance frequency and amplitude of vibration)
+and the carrier frequency from 40 kHz to 150 kHz, under the
+hardware constraints of the current-to-voltage ampliﬁer with
+the gain bandwidth product of near 200 kHz.
+The sensor was rotated under a constant input rate of rota-
+tions with the signals passed through the slip-rings of the rate
+table to the FPGA located outside of the rate table. An FPGA-
+based digital data acquisition system processed the input and
+returned the output waveforms. The in-phase and in-quadrature
+demodulation at the oscillation frequency followed by low
+pass ﬁlters at 2 Hz, all implemented on FPGA. The slow
+convergence pendulum variables were estimated using the
+demodulated pickoff signals and used to establish the feedback
+control loops, which is equivalent to estimation of precession
+parameters under the release condition of free vibration. These
+control loops, including the estimation of pendulum variables,
+with three PID controllers (energy, quadrature, and PLL) and
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:57:00 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 4 ---
+Fig. 7. Block diagram of the system including analog signal conditioning and digital control loops for estimating the direct angle by demodulating th e
+pendulum variables. The DC electrostatic voltages were applied to x and y axis, where P stands for pickoff and F stands for forcer electrode pairs.
+an in-phase and an in-quadrature coordinate transformation
+were implemented on a Xilinx MicroBlaze 32-bit processor. In
+this study, the complete architecture runs with a set sampling
+frequency of 998 Hz, more than three times higher than the
+Nyquist sampling rate selected relative to the input rate of
+rotation. These parameters were then down-sampled at 224 Hz
+for data recording and real-time visualization on a computer.
+Fig. 8 demonstrates the closed-loop W A operation under 180
+deg/sec continuous rotation. The linear ﬁt to the sensor angle
+output revealed an angular gain factor of 0.84, with a local
+perturbation less than 2.5 ◦ over 10,000 seconds of operation.
+Fig. 8. A residual ﬁt of over 10,000 seconds of the output measurement
+of the angle of rotation, showing 11 degree RMS error corresponding to 7
+ppm angular gain variation with local perturbation error < 2.5◦. Inset (a) is
+a direct angle measurement with 0.84 angular gain. Inset (b) i s a 4 seconds
+local perturbation.
+CONCLUSION
+The W A mechanization for direct estimation of the angle of
+rotation was demonstrated and compared on a high-Q MEMS
+sensor in a free vibration and a closed-loop controlled modes.
+The sensor was operated for more than 30 minutes under
+the free vibration without any excitation signals, allowing
+to estimate the angle output without major interferences of
+the electrostatic compensation loops with dynamics of the
+gyroscope. The rate-dependency of quadrature error was pre-
+dicted numerically from the error model and observed exper-
+imentally. The quadrature error resulted in a rate-dependent
+error in the angle estimation, which was mainly the result
+of structural imperfections in the system. The decay in the
+amplitude and SNR were observed to reduce the accuracy of
+the angle estimation. The closed-loop control W A operation
+with the energy and quadrature loops revealed 7 ppm variation
+in the angular gain factor over 1.8 million degrees of rotation.
+REFERENCES
+[1] I. P . Prikhodko, S. A. Zotov, A. A. Trusov, and A. M. Shkel, “Foucault
+pendulum on a chip: Rate integrating silicon MEMS gyroscope,” in
+Sensors and Actuators A: Physical , vol. 177, 2012, pp. 67–78.
+[2] A. A. Trusov, G. Atikyan, D. M. Rozelle, A. D. Meyer, S. A. Zotov,
+B. R. Simon, and A. M. Shkel, “Flat is not dead: Current and future
+performance of Si-MEMS quad mass gyro (QMG) system,” in IEEE/ION
+PLANS, Monterey, CA, USA , May 2014.
+[3] P . Taheri-Tehrani, O. Izyumin, I. Izyumin, C. H. Ahn, E. J. Ng, V . A.
+Hong, Y . Y ang, T. W. Kenny, B. E. Boser, and D. A. Horsley, “Disk
+resonator gyroscope with whole-angle mode operation,” in IEEE Int.
+Symposium on Inertial Sensors and Systems, Hapuna Beach, HI, USA ,
+Mar 2015.
+[4] D. Senkal, A. Eﬁmovskaya, and A. M. Shkel, “Minimal realization
+of dynamically balanced lumped mass W A gyroscope: dual foucault
+pendulum,” in IEEE Int. Symposium on Inertial Sensors and Systems,
+Hapuna Beach, HI, USA , Mar 2015.
+[5] D. Senkal, E. Ng, V . Hong, Y . Y ang, C. Ahn, T. Kenny, and A. M.
+Shkel, “Parametric drive of a toroidal MEMS rate integrating gyroscope
+demonstrating <20 PPM scale factor stability,” in IEEE Int. Micro
+Electro Mechanical Systems (MEMS), Estoril, Portugal , Jan 2015.
+[6] P . Leger, “Quapason- A new low-cost vibrating gyroscope,” in 3rd St.
+Petersburg Int. Conf. on Integrated Navigation Systems, Saint Peters-
+burg, Russia, May 1996.
+[7] A. A. Trusov, A. R. Schoﬁeld, and A. M. Shkel, “Micromachined tuning
+fork gyroscopes with ultra-high sensitivity and shock rejection,” 2012,
+US Patent 8,322,213.
+[8] S. Askari, M. H. Asadian, K. Kakavand, and A. M. Shkel, “Near-
+Navigation Grade Quad Mass Gyroscope with Q-factor Limited by
+Thermo-Elastic Damping,” in Solid-State Sensors, Actuators, and Mi-
+crosystems Workshop, Hilton Head Island, SC, USA , June 2016.
+[9] B. R. Simon, S. Khan, A. A. Trusov, and A. M. Shkel, “Mode ordering
+in tuning fork structures with negative structural coupling for mitigation
+of common-mode g-sensitivity,” in IEEE Sensors, Busan, South Korea ,
+Nov 2015.
+[10] M. H. Asadian, S. Askari, and A. M. Shkel, “An ultrahigh vacuum
+packaging process demonstrating over 2 million Q-factor in MEMS
+vibratory gyroscopes,” IEEE Sensors Letters , vol. 1, no. 6, 2017.
+[11] D. D. Lynch, “Vibratory gyro analysis by the method of averaging,”
+in The 2nd St. Petersburg Int. Conf. on Gyroscopic Technology and
+Navigation, Saint Petersburg, Russia , May 1995.
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:57:00 UTC from IEEE Xplore.  Restrictions apply. 

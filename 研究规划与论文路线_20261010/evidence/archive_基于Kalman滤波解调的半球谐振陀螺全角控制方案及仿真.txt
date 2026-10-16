@@ -1,0 +1,340 @@
+ARCHIVE: 全角陀螺/基于Kalman滤波解调的半球谐振陀螺全角控制方案及仿真.pdf
+TOTAL PAGES: 9
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+第49卷第2期
+2023年4月
+空间控制技术与应用
+Aerospace
+Contr01 and Application V01．49
+No．2 A
+pr． 2023 hllD：∥www．acabice．cn
+acabice@163．com 礅一善走：杨小龙，马官营．李建聩．等．基于Kalman滤波解调的半球谐振陀螺全角控翻方案及钫真!Jj，空问控翩技术s应用．2023．49
+(2)：107—115．YANG
+X L。MA G Y，L|J P．et a|．VVho|e ang|e contro|scheme and slmu|ation of hemisphenca|resonalor gyro baSed
+on Ka|man自|ter demodulationiJj，Aerospace controI and App||catlon．2023．49(2)：107—115(1n ch|nese)．doi：10． 3969／j．issn．1674—1579．2023．02．013
+基于Kalman滤波解调的半球谐振陀螺
+全角控制方案及仿真
+杨小龙，马官营+，李建朋，王琪伟
+北京控制工程研究所．北京100094
+摘
+要：针对半球谐振陀螺金角模式控制中的信号处理与控制环节复杂、高精度数字解算对全角控制效果 和陀螺精度有直接影响的问题，对半球谐振陀螺全角控制方法进行研究．以非理想半球谐振子为控制对象，
+给出一种半球谐振陀螺的全角控制方案．针对振型信号的高精度解算问题，提出一种基于Kalman滤波的数
+字解调方法．仿真结果表明，基于Kalman滤波解调的全角控制系统能实现快速解调和稳定控制．
+关键词：半球谐振陀螺；全角模式；Kalman滤波解调；系统仿真
+中图分类号：U666．1
+文献标志码：A 文章编号：1674．1579(2023)02-0107．09 O
+引 言 半球谐振陀螺(hemispherical
+resonator gyro， HRG)作为一种基于科氏振动效应的新型固体振动
+陀螺。具有结构简单、高可靠、长寿命和独特的抗辐
+射能力等特点。其在陆海空天等领域的导航定位系
+统中得到广泛应用。1’3
+J． 半球谐振陀螺的控制方式主要可分为力平衡
+模式和全角模式两种H。5]．全角模式与目前主要使
+用的力平衡模式相比．最大的特点在于其速率积分
+特性．工作在全角模式下的半球谐振陀螺在外界载
+体发生转动时，其驻波振型在外界输入角速度的激
+励下可以自由进动．理想情况下，驻波振型的进动
+角度口与载体实际转角妒之间满足
+p=后妒
+(1) 其中，五为角度增益因子(约为0．3)．载体的实际转
+角可根据半球谐振子驻波振型的进动角得到．全角
+模式在实现控制时由于不施加反馈力，因而具有较
+宽的测量宽带和较大的动态测量范围¨J．
+收稿日期：2023_01-13：录用日期：2023_03-20
+基金项目：“十四五”装备预研共用技术项目(50917010704)
+：}=通信作者：E-mail：ma—guanying@163．com
+半球谐振陀螺处于全角模式下，半球谐振子驻
+波振型不再被约束在固定位置，而是处于自由进动
+状态，这使得全角模式控制中的信号处理和控制环
+路更为复杂[7-8]．此外，半球谐振子的振型信号包含
+幅值、频率和相位信息，是实现全角控制和角度计
+算的基础．因此实现振型信号的高精度数字解算成
+为全角控制的关键所在。其解算精度将直接影响全
+角控制效果和角度检测精度．
+LYNCH在文献『9]中提出了带有频率裂解和
+阻尼不均匀等非理想因素的半球谐振陀螺动力学
+模型，并给出了基于乘法相干解调的信号解调方
+案，实现了半球谐振陀螺的全角模式控制．在此基
+础上．后续学者进行了针对半球谐振陀螺全角控制
+的研究．文献[10]从理论上分析了全角模式的控制
+方法，使用乘法相干解调的方法提取谐振子的振型
+参数，采用参数激励的方法对陀螺进行驱动和控
+制．文献f
+11]针对PID控制下陀螺椭圆参数的控制 精度和收敛快速性难以提升的问题．提出了将离散
+滑模控制引入到控制系统中的方法．文献『12]针对
+一种金属筒状科氏振动陀螺，提出了全数字控制技
+万方数据
+
+--- PAGE 2 ---
+·108·
+空间控制技术与应用 第49卷 术方案，其中采用Kalman滤波方法对振动信号进行
+数字解算．
+上述研究多集中于对控制环节进行改进．而在
+信号解调方法上基本沿用乘法相干解调方法．缺少
+新的数字解调方法的研究．
+本文针对半球谐振陀螺全角控制方案及数字
+解调方法开展研究．以非理想半球谐振子动力学模
+型为控制对象提出一种半球谐振陀螺的全角控制
+方案．针对振型信号的高精度数字解算问题。提出
+一种基于Kalman滤波的数字解调方法．在此基础上
+搭建全角模式控制系统模型，对基于Kalman滤波解
+调的全角模式控制方案进行仿真实现．验证全角控
+制方案和数字解调方法的可行性．
+半球谐振子动力学模型
+半球谐振陀螺正常工作时，作为敏感结构的半
+球谐振子处于四波幅振动状态．谐振子的振动振型
+可以沿着相距45。的2个电极轴(x轴、l，轴)进行正
+交分解和合成[1
+3】． 1．1理想半球谐振子动力学模型
+全角控制下的半球谐振子在理想状态下的振
+动特性可以用二维简谐振动表示，如图l所示．其
+中，Ⅱ表示半球谐振子的主振型振幅；q表示谐振子
+的正交振型振幅，其在理想情况下趋于0：2日表示主
+振型波腹轴与0。电极轴(x轴)的夹角；妒。表示驻波
+振型的初始相位；∞表示谐振子处于四波腹振动状
+态下的谐振角频率．
+．．．．．．：』
+．，
+／
+～、。、、《勿 ／／父
+少■力；。‘
+石八j ：／
+／ ：X ＼}
+／≯ i V／乙￡岬o．／ ’’---。
+_-●●●●● 图l
+半球谐振子振动特性 Fig．1
+Vibration characteristics of resonator 上述变量都是规范变量，完整清晰地表征了半
+球谐振子驻波振型的特征．理想状态下，半球谐振
+子的动力学模型可表示为…1
+[弘[于匿：黝
+(2)
+式(2)中，戈和)，表示谐振子2个正交模态的振动位
+移，力是外界载体输入角速度，六工分别表示施加在
+00和45。电极轴的作用力．据此。可以得到在x方向
+上和y方向上的振动位移信号
+fz=ocos(2日)cos(妒)一qsin(2口)sin(妒)…
+【y=osin(2日)cos(妒)+gcos(2p)sin(9)
+式(3)中，9=ccJ￡+妒o，p=日。一矗J
+nd￡． 1．2
+非理想半球谐振子动力学模型 实际上，由于半球谐振子存在各向异性。因此
+理想的半球谐振子并不存在．在式(2)的基础上，给
+出带有频率裂解和阻尼不均匀等非理想因素的半
+球谐振子动力学模型
+[M州；]=陵：黝㈩
+式(4)中，C和K分别表示半球谐振子的阻尼矩阵
+和刚度矩阵。可表示为
+C=
+善+△({)cos(4p，) r r △(÷)sin(4p，)
+r
+△({)。in(4日，)
+下 吾一△(÷)cos(4p，)
+丁 下 K：『∞2一∞△∞c。s(4pm)
+一∞△∞sin(4pm’ ] L
+一∞△甜sin(4p。) ∞2+∞△∞cos(4p。)J (5)
+式(5)中：∞2=(∞l
+2+∞2 2)／2，∞△∞=(∞l 2一山2 2)／ 2；∞．、∞：分别为两主振型的谐振频率，由于不理想
+的半球谐振子存在频率裂解。因此两主振型的谐振
+频率不一致；2／7-=(1／rl+1／Jr2)，△(1／丁)=(1／丁．一
+1／下：)；r。、7-：为两阻尼轴的时间衰减常数；口。是频率
+最小轴与驻波方位角的夹角，p，是阻尼最小轴与驻
+波方位角的夹角．
+2半球谐振陀螺全角控制方案
+由于全角模式控制下的半球谐振子驻波振型
+处于自由进动的状态，因此全角控制的目的在于维
+持驻波振型在实时进动过程中的稳定并解算出实
+时进动角度[15。1
+6|，需要完成以下控制： 1)维持主振型振幅。为一设定值o。．
+2)促使正交振型振幅q到0．
+3)使参考信号的频率与相位妒同步跟踪到谐
+振子的谐振频率与初始相位妒。．
+4)获取振型进动角9．
+万方数据
+
+--- PAGE 3 ---
+第2期
+杨小龙等：基于Kalman滤波解调的半球谐振陀螺全角控制方案及仿真 ’109· 根据以上要求，给出一种半球谐振陀螺全角模
+式控制方案，如图2所示，其中主要包括：数字解调、
+参数解算、幅度控制环路、正交控制环路、频相控制
+环路、角度解算、信号调制和驱动重构．
+图2
+HRG全角控制方案不意图 Fig．2
+Schematic diagram of WA control scheme 2．1
+信号解调 在相距45。的2个电极轴方向上．通过电容／电
+压转换电路获取半球谐振子振动时的驻波振型信
+号．由于得到的振型信号耦合了振动幅度、频率和
+进动角度等信息．需要通过解调方法对其进行数字
+解调．
+采用锁相环(PLL)作为外部参考信号发生器以
+跟踪半球谐振子的振动，振型输出信号与参考信号
+的同相部分和正交部分分别在x，y方向上的分量
+为C；、S，、C，、Js，，可表示为
+f戈=c，cos(∞t)+．s，sin((￡，f)
+… ly=C，cos(cE，f)+．s，sin(∞￡)
+上述同相分量和正交分量可以通过对驻波振
+型信号进行解调获得．是振型的直接检测量．
+2．2参数解算
+对获取的解调结果进行组合运算。得到半球谐
+振陀螺谐振状态参数，如式(7)所示．根据理想的无
+阻尼二维简谐振动运动方程，还可以得到振型检测
+量和振型规范量之间的关系
+E=c：+s：+c；+s；=02+92
+Q=2(C，S，一C，|s，)=2口g
+R=c：+s：一c；一．s；=(口2一92)cos(2口)
+(7) S=2(C。C，+S。S，)=(02一92)sin(2臼)
+L=2(C，S，+C，Js，)=(Ⅱ2一92)sin(2却)
+式(7)中，69=妒一妒。．
+在此基础上，得到半球谐振子驻波振型的规范
+变量
+。=÷(厕+厕)(8)
+q=÷(仃可一万可)
+2．3
+控制环路 (1)幅度控制环路
+半球谐振陀螺在正常工作时需要通过施加持
+续不断的激励以维持主振型振幅不衰减．幅度控制
+环路采用参数n作为控制判断量，并将。与振幅设
+定值o。进行比较，得到的误差信号作为PI控制器的
+控制信号．
+，。=AKP(oo一。)+AK，J(oo一口)d￡
+(9) (2)正交控制环路
+正交控制环路用于抑制各向异性引起的谐振
+子正交误差．正交控制环路采用参数口作为控制判
+断量，通过PI控制器将其控制到0．
+广
+F。=QKP(o—g)+QK，I(o—g)dt
+(10) (3)频相控制环路
+频相控制环路用于实时跟踪谐振子的谐振频
+率及初始相位，并利用锁相环产生同频同相的参考
+信号。实现半球谐振陀螺检测信号解调和驱动信号
+的调制与重构．频相控制环路采用参数三作为控制
+判断量，通过PI控制器将其控制到0．
+Fr=LKP(o一￡)+￡K，J(o—L)d￡
+(11) (4)角度解算
+全角模式下，由5、R参数根据式(12)可直接计
+算出半球谐振子驻波振型的进动角．
+p
+2寺眦tan(素) (12) 2．4信号调制与驱动重构
+根据式(9)一(12)可得各控制环路的控制参数
+及振型进动角，通过正交分解将控制作用分别分解
+到两电极轴上．同时将该控制信号与谐振子谐振频
+率进行调制．得到重构的驱动作用为
+k～即s(∞￡+詈)c。s(2日)．．。sin(∞￡+詈)sin(2口)
+j
+-
+- I‘～。c。s(∞f+詈)sin(29)"。sin(∞t+詈)c。s(2一)
+(13)
+万方数据
+
+--- PAGE 8 ---
+空间控制技术与应用
+第49卷 [9]
+[10]
+[12]
+[13]
+[14]
+cessing
+and contI‘oI method of whole angle mode hemi- spherical
+resonator gyros[J]． Navigation Positioning＆ Timing，2019，6(2)：98—104．
+LYNCH
+D D．Vibratory gyro analysis by the melhod of averaging[c]∥Proceedings
+o“he 2甜Saint Petersbu唱 Intemational
+Conference on Gyrosc叩ic TechnoIogy and Navigation．St
+Petersburg：Elekropribor，1995． 赵万良，杨浩，王伟，等．半球谐振陀螺全角模式控
+制技术研究[J]．导航定位与授时，2019，6(6)：
+8—1
+3． ZHA0
+W L，YANG H，WANG W，et a1．Study on whole
+angle mode control method of hemispherical re· sonator
+gyros[J]． Navigation Positioning&Timing， 2019，6(6)：8-13．
+郜中星，彭斌，陈小炜，等．振动陀螺椭圆参数的离
+散滑模控制[J]．系统工程与电子技术，2022，44
+(1)：226．232．
+GA0
+Z X，PENG B，CHEN X W，et a1．Discrete slid— ing
+mode control for ellipse parameters of vibrating gyro— scope[J]．systems
+Engineering and EIectronics，2022， 44(1)：226．232．
+李建朋，夏悦，付明睿，等．面向商业航天的基于新
+型固态谐振陀螺的敏感器设计[J]．中国惯性技术学
+报，2020，28(5)：666-671+676．
+LI
+J P，XIA Y，FU M R，et a1．A novel solid state re— sonator
+gyroscope sensor design for commercial aero— space[J]．
+Journal of Chinese Inertial Technology， 2020，28(5)：666-671+676．
+李建朋，武志忠，刘吉利，等．一种半球谐振陀螺振
+幅控制方法[J]．中国惯性技术学报，2021，29(1)：
+90-94．
+LI
+J P，WU Z Z，LIU J L，et a1．An amplitude control method
+of hemispherical resonator gyro[J]． Journal of Chinese
+Inertial Techn0109y，202 1，29(1)：90一94． 郜中星，徐睿东，张勇刚．基于最小均方算法的半球
+谐振子特征参数辨识方法[J]．中国惯性技术学报，
+2021，29(1)：101—106．
+GA0
+Z X，XU R D，ZHANG Y G．Identification meth— od
+fbr characteristio parameters of hemi5pherical shell [15]
+[16]
+[17]
+[18]
+[19]
+[20]
+resonator
+based on least mean square algorithm[J]． Journal
+of Chinese Inertial Techn0109y，202 1，29(1)： 101．106．
+SONG
+M，ZHOU B，ZHANG Y，et a1．Contml scheme and
+error suppression method fbr micro rate integrating gyroscopes[c]∥chinese
+Guidance，Navigation and Control
+Conference(CGNCC)．New York：IEEE，2016． 赵明洋．全角模式半球谐振陀螺控制电路设计与实
+现[D]．哈尔滨：哈尔滨工业大学，2021．
+ZHA0
+M Y．Des培n and realization of control circuit for hemispherical
+resonator gyro in whole angle mode[D]． Harbin：Harbin
+Institute of Technology，202 1． 彭丁聪．卡尔曼滤波的基本原理及应用[J]．软件导
+刊，2009，8(11)：32—34．
+PENG
+D C． Basic principle and application of kalman filter[J]．soflware
+Guide，2009，8(11)：32．34． 童余德，周永余，陈永冰，等．基于MATLAB的卡尔
+曼滤波法参数辨识与仿真[J]．船电技术，2009，29
+(8)：47-50．
+TONG
+Y D，ZHOU Y Y，CHEN Y B，et a1．Kalman filter
+parameter identification and emulate based on MATLAB[J]．
+Marine Electric&Electronic Engineer— ing，2009，29(8)：47—50．
+HU
+Z， GALLACHER B． Extended Kalman filtering based
+parameter estimation and drift compensation for a MEMs
+mte integrating gyroscope[J]．sensors and Actu- ators
+A：Physical，2016，250：96—105． 曹慧亮，李宏生，王寿荣，等．MEMs陀螺仪结构模
+型及系统仿真[J]．中国惯性技术学报，2013，21
+(4)：524—529．
+CA0
+H L，LI H S，WANG S R，et a1．Structure model and
+system simulation of MEMs gyroscope[J]． Journal of
+Chinese Inertial Technolog)r，2013，21(4)：524—529． 作者简介：杨小龙(1997一)，男，硕士研究生，研究方
+向为惯性敏感器；马官营(1978一)，男，研究员，研究
+方向为惯性敏感器设计；李建朋(1987一)，男，高级
+工程师，研究方向为惯性姿态敏感器：王琪伟
+(1992一)，男，工程师，研究方向为惯性器件．
+万方数据
+
+--- PAGE 9 ---
+∑ho?An91e
+control
+scheme and Simulation 0f Hemispherical Resonator Gyro Based
+on Kalman Filter Demodulation YANG
+X㈧。ng，MA Guanying+，LI Jianpeng，WANG Qiwei Beijjng
+Insti￡ule of Control Engineering，Beijing 100094，China Abstract：In
+View of the complex signal processing and control process in the whole an91e mode contml method of heml8phe。1cal。e80na‘o。gyro(HRG)，a
+high。precision digital solution has a direct impact on the whole angle mode con‘r01
+and gyro accuracy· 。rhe whole an甜e mode contr01 method of HRG is studied． Taking the non．ideal hemi— spnencal
+resona‘or as‘he control 0bject，a whole angle mode control scheme of HRG js proposed．A digital demod． ula‘10n
+me‘hod ba8ed on Kalman filter i8 proposed t0 s01ve the pmblem of hi曲．precision demodulation of signals． 廿y
+bulJdlng the whole angle control system model， the simulation results show that the contr01 svstem can realize 1as‘demodula‘10n
+and s‘abIe control，and Verify the fea8ibility of the digital demodulation scheme and wh01e an91e Keyw。rds：hemispherical
+res。nat。r gyro(HRG)；wh。1e angel(wA) m。de； Kalman filter dem。dulati。n： system
+simulation ReceiVed：2023旬1-1
+3；Accepted：2023旬3-20 Foundation
+item：Equipment Pre¨minary R&D Project(5091 701 0704 1 木COrrespOndIng
+authOr．E-ma¨：ma—guanying@1 63．cOm 
+万方数据

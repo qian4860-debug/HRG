@@ -1,0 +1,213 @@
+ARCHIVE: 全角陀螺/US7912664.pdf
+TOTAL PAGES: 24
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+USOO791.2664B2 
+ (12) United States Patent (10) Patent No.: US 7,912,664 B2 
+ ROZelle (45) Date of Patent: Mar. 22, 2011 
+ (54) SELF CALIBRATING GYROSCOPE SYSTEM 5,562,266 A * 10/1996 Achkar et al. ................ 244,171 7,437,230 B2 * 10/2008 McClure et al. ................ 7O1, 50 
+ 7,728,587 B2* 6/2010 Stewart et al. ... ... 324/304 
+ (75) Inventor: past M. Rozelle, Woodland Hills, CA 2008/0269988 A1 ck 10, 2008 Feller et al. . . . . . . . . . . . . . . . . . . . . 70 1/41 
+ * cited by examiner 
+ (73) Assignee: Northrop Grumman Guidance and 
+ Electronics Company, Inc., Woodland Primary Examiner — Cindy Hien-Dieu Khuu 
+ Hills, CA (US) (74) Attorney, Agent, or Firm — Carmen Patti Law Group, 
+ (*) Notice: Subject to any disclaimer, the term of this LLC 
+ patent is extended or adjusted under 35 U.S.C. 154(b) by 78 days. (57) ABSTRACT 
+ (21) Appl. No.: 12/283,364 A self-calibrating gyroscope system provides improved esti mates of, and compensation or calibration for, Scale factor 
+ (22) Filed: Sep. 11, 2008 errors and bias errors. The gyroscope system employs a plu rality of gyroscope units having sense or input axes in a 
+ (65) Prior Publication Data mutually non-parallel arrangement. A Mode Reversal tech 
+ nique is used to obtain an estimate of bias error for a selected US 201O/OO63763 A1 Mar. 11, 2010 gyroscope. A Random Closed-Loop Scale Factor technique is 
+ (51) Int. Cl used to obtain an estimate of scale factor error for a selected 
+ coi C ioMO (2006.01) gyroscope. Because the Mode Reversal technique tempo 
+ 52) U.S. C 7O2A104 rarily disrupts operation of the affected gyroscope, each of the (52) ir grgrrr. f gyroscopes may be taken offline temporarily, in turn, for (58) Field of Classification Search ............... ... 702/104 calibration, and thereafter returned to normal operation. 
+ See application file for complete search history. Because at least one redundant gyroscope is provided, when 
+ (56) Ref Cited a selected gyroscope is offline, rate information from the eerees e 
+ U.S. PATENT DOCUMENTS 
+ 4,179,818 A * 12, 1979 Craig .............................. 33,321 4.321,678 A * 3/1982 Krogmann .................... TO1,220 
+ 100- Gyros 
+ 110a 
+ 11Ob 
+ 110C 
+ 11 Od 
+ Gyro Contollers 
+ remaining operating gyroscopes can be used to derive a ref 
+ erence rate about the axis of the offline gyroscope. 
+ 24 Claims, 13 Drawing Sheets 
+ 120 
+ System 
+ Processor 
+ 122 
+ 124 
+ Vehicle 
+ navigation & propulsion 
+ Control 
+   
+   
+     
+       
+   
+--- PAGE 2 ---
+US 7,912,664 B2 Sheet 1 of 13 Mar. 22, 2011 U.S. Patent 
+ ZZ ). 
+ JOSS300Jeff uu??SÁS 
+ ... 
+ oyl? º CIZI, ? 
+  
+  
+--- PAGE 3 ---
+U.S. Patent Mar. 22, 2011 Sheet 2 of 13 US 7,912,664 B2 
+ 126 
+ FIG. 2 
+   
+--- PAGE 23 ---
+US 7,912,664 B2 
+ 17 
+ 4. The system of claim 1 wherein the arrangement of said 
+ sense axes defines a reference axis and each of said sense axes 
+ makes an angle of about 54.7 degrees with respect to said 
+ reference axis. 
+ 5. The system of claim 1 wherein the resonator exhibits the 5 pattern of a standing wave having an orientation aligned with 
+ a first control axis wherein mode reversal comprises aligning 
+ the standing wave around a second control axis, wherein said 
+ mode reversal unit is a mode reversal bias estimator. 
+ 6. The system of claim 1 wherein said scale factor error 
+ estimator is a random closed-loop scale factor errorestimator 
+ where a closed-loop scale factor estimator determines an 
+ angular rate based on an amount of force needed to maintain 
+ a vibration pattern in a desired position where the vibration 
+ pattern occurs in the resonator. 
+ 7. The system of claim 1 wherein said system is further 
+ adapted to transform a selection of said rate outputs for said 
+ gyroscopes to rate outputs about a number of coordinate axes 
+ sufficient for navigation, and the number of said plurality of 
+ gyroscopes is at least one greater than said number of coor 
+ dinate axes. 
+ 8. The system of claim 1 being further adapted to: 
+ Select each of said gyroscopes in turn for bias error cali 
+ bration, and during said selection to: take said selected gyroscope offline wherein rate estimates of an offline gyroscope are not used for navigation pur 
+ poses; 
+ calibrate said selected gyroscope using said mode reversal 
+ bias’ error estimator; and 
+ return said selected gyroscope online wherein rate esti 
+ mates for an online gyroscope are used for navigation 
+ purposes. 
+ 9. The system of claim 8 being further adapted to calculate 
+ a reference rate estimate about the sense axis of said selected 
+ gyroscope responsive to rate estimates sensed about axes of 
+ gyroscopes other than said selected gyroscope while said selected gyroscope is offline; and wherein the gyroscope sys 
+ tem comprises a number of gyroscopes at least one greater 
+ than the number of rate estimate axes required for navigation 
+ of a vehicle. 
+ 10. A gyroscope system comprising: 
+ a plurality of gyroscopes; 
+ a controller coupled to the plurality of gyroscopes; 
+ said controller having: a rate error compensator responsive to at least an uncom pensated gyroscope rate signal of a gyroscope for pro 
+ ducing a compensated gyroscope rate signal wherein the 
+ gyroscope has a resonator exhibiting a pattern of stand 
+ ing waves having an orientation, wherein an expected 
+ position of the pattern and a measured position of the 
+ pattern is used to determine a scale factor error of the 
+ gyroscope. 
+ 11. The system of claim 10 wherein each of said gyro 
+ Scopes have a sense axis and said sense axes are arranged to 
+ form an octahedral tetrad. 
+ 12. The system of claim 10 wherein said system is used for 
+ vehicle navigation requiring rate information in a number of dimensions; and said plurality of gyroscopes numbers at least 
+ one more than said number of dimensions. 
+ 13. The system of claim 10 wherein said system is used for 
+ vehicle navigation requiring rate information about a number of axes; and said plurality of gyroscopes numbers at least one 
+ more than said number of axes. 
+ 14. The system of claim 10 wherein said rate error com pensator is further responsive to a signal representing scale 
+ factor error of said gyroscope. 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 45 
+ 50 
+ 55 
+ 60 
+ 65 
+ 18 
+ 15. The system of claim 14 further comprising: 
+ a scale factor error determinator having a signal generator adapted to produce signals instructing said gyroscope to 
+ displace said pattern of standing waves to positions cor 
+ responding to values of said signals; 
+ an integrator adapted to integrate said instructing signals 
+ and responsively produce signals describing an 
+ expected position of said pattern; 
+ and a scale factor estimator responsive to said signals 
+ describing the expected position of said pattern and the 
+ measured position of said pattern to determine the scale 
+ factor error of said gyroscope. 
+ 16. The system of claim 10 wherein said rate error com pensator is further responsive to a signal representing bias 
+ error of said gyroscope. 
+ 17. The system of claim 16 wherein said gyroscope has a 
+ resonator exhibiting a pattern of standing waves, and further 
+ comprising a bias error determinator having: 
+ a bias error extractor, and 
+ mode sequencing logic adapted to produce signals to alter 
+ nately in time represent a first mode and a second mode, 
+ Such that when in said first mode, said signals instruct said gyroscope to align said pattern of standing waves 
+ along a first axis of said resonator, and when in said second mode, said signals instruct said gyroscope to 
+ align said pattern of standing waves along a second axis 
+ of said gyroscope different from said first axis; 
+ said bias error extractor responsive to a comparison of rate 
+ estimate signals from said gyroscope when in said first 
+ mode and said second mode to produce said signal rep 
+ resenting bias error of said gyroscope. 
+ 18. A method of operating a gyroscope system having a 
+ plurality of gyroscopes, comprising: 
+ operating the gyroscope system wherein each of the plu 
+ rality of gyroscopes is adapted to sense rate about a 
+ respective axis, each of said rates exhibiting bias error 
+ and scale factor error, 
+ selecting one gyroscope for calibration; 
+ taking the selected gyroscope offline; 
+ determining an estimate of bias error of said selected gyro 
+ Scope; 
+ determining an estimate of Scale factor error of said Selected gyroscope wherein said selected gyroscope has a resonator exhibitingapattern of standing waves having 
+ an orientation, wherein an expected position of the pat 
+ tern and a measured position of the pattern is used to 
+ determine a scale factor error of the gyroscope; compensating a rate output of said selected gyroscope with 
+ said bias error estimate and scale factor error estimate; 
+ and returning said selected gyroscope online. 
+ 19. The method of claim 18 wherein said selecting step further comprises selecting in turn for calibration each of said plurality of gyroscopes. 
+ 20. The method of claim 18 further comprising: operating said selected gyroscope in a first mode where 
+ maximum vibration amplitude of the resonator of the gyroscope is aligned along a first axis thereof; 
+ recording a first-mode rate estimate from said selected 
+ gyroscope; 
+ operating the selected gyroscope in a second mode where 
+ maximum vibration amplitude of the resonator of the gyroscope is aligned along a second axis thereof differ 
+ ent from said first axis; 
+ recording a second-mode rate estimate from said selected gyroscope; and 
+--- PAGE 24 ---
+US 7,912,664 B2 
+ 19 
+ comparing said first-mode rate estimate with said second 
+ moderate estimate to determine an estimate of bias error 
+ affecting said selected gyroscope. 
+ 21. The method of claim 18 wherein the gyroscope system comprises a number of gyroscopes at least one greater than 
+ the number of rate estimate axes required for navigation of a 
+ vehicle. 
+ 22. The method of claim 20 further comprising: 
+ operating said gyroscope Such that maximum vibration 
+ amplitude of the resonator of the gyroscope is driven to alignment with a control axis having a position respon 
+ sive to an instruction signal; 
+ producing instruction signals from time to time so as to change the position of said control axis; 
+ 5 
+ 10 
+ 20 
+ comparing an instructed position of said control axis as 
+ defined by said instructions signals with information from said gyroscope of the actual position of maximum 
+ vibration amplitude of the resonator to produce said 
+ estimate of scale factor error of said gyroscope. 
+ 23. The method of claim 22 wherein said instruction sig nals command movement of the position of maximum vibra tion amplitude of the resonator in a Substantially random 
+ a. 
+ 24. The method of claim 22 wherein said instruction sig 
+ nals command movement of the position of maximum vibra tion amplitude of the resonator according to a pseudo random 
+ Sequence. 

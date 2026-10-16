@@ -1,0 +1,80 @@
+ARCHIVE: 全角陀螺/US10520331.pdf
+TOTAL PAGES: 53
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+US010520331B2 
+ ( 12 ) United States Patent Weinberg et al . ( 10 ) Patent No .: US 10,520,331 B2 ( 45 ) Date of Patent : Dec. 31 , 2019 
+ ( 54 ) CALIBRATION SYSTEM AND METHOD FOR 
+ WHOLE ANGLE GYROSCOPE ( 58 ) Field of Classification Search CPC .. GO1C 25/00 ; G01C 25/005 ; G01C 19/5684 ; G01C 19/5776 
+ See application file for complete search history . ( 71 ) Applicant : THE CHARLES STARK DRAPER LABORATORY , INC . , Cambridge , MA ( US ) ( 56 ) References Cited 
+ U.S. PATENT DOCUMENTS ( 72 ) Inventors : Marc Steven Weinberg , Needham , MA ( US ) ; Ralph Cohn , Brookline , MA ( US ) ; Eugene H. Cook , Acton , MA ( US ) 6,805,007 B2 * 10/2004 Fell G01C 19/5691 73 / 504.12 7,318,347 B2 8,322,213 B2 10,365,102 B1 * 1/2008 Lynch et al . 12/2012 Trusov et al . 7/2019 Challoner 
+ ( Continued ) ( 73 ) Assignee : THE CHARLES STARK DRAPER LABORATORY , INC . , Cambridge , MA ( US ) G01C 19/5677 
+ OTHER PUBLICATIONS ( * ) Notice : Subject to any disclaimer , the term of this patent is extended or adjusted under 35 U.S.C. 154 ( b ) by 117 days . Notification of Transmittal of the International Search Report and the Written Opinion of the International Searching Authority from corresponding PCT / US2018 / 019916 dated May 30 , 2018 . 
+ ( Continued ) ( 21 ) Appl . No .: 15 / 906,177 
+ ( 22 ) Filed : Feb. 27 , 2018 Primary Examiner — Jamel E Williams ( 74 ) Attorney , Agent , or Firm Lando & Anastasi , LLP ( 65 ) Prior Publication Data 
+ US 2018/0245946 A1 Aug. 30 , 2018 
+ ( 60 ) 
+ Related U.S. Application Data 
+ Provisional application No. 62 / 464,275 , filed on Feb. 27 , 2017 . 
+ ( 57 ) ABSTRACT 
+ According to one aspect , embodiments herein provide a whole angle gyroscope comprising a central point , at least one mass arranged symmetrically about the central point , a plurality of transducers , each configured to perform at least one of driving and sensing motion of the at least one mass , and a processor coupled to the plurality of transducers , the processor configured to operate the plurality of transducers to drive the at least one mass in at least a first vibratory mode and a second vibratory mode , identify a rate dead zone of the whole angle gyroscope , and operate the plurality of trans ducers to apply a force to the at least one mass to reduce the identified rate dead zone of the whole angle gyroscope . ( 51 ) Int . CI . G01C 25/00 ( 2006.01 ) GOIC 19/5776 ( 2012.01 ) GOIC 19/5684 ( 2012.01 ) ( 52 ) U.S. CI . CPC G01C 25/00 ( 2013.01 ) ; GOIC 19/5684 ( 2013.01 ) ; GOIC 19/5776 ( 2013.01 ) ; GOIC 25/005 ( 2013.01 ) 20 Claims , 34 Drawing Sheets 
+ , 100 
+ 102 112 
+ 106 118 Drive / Sense 
+ -109 
+ 104 
+ 117 
+ Controller 
+ 110 
+ 109 
+ 109 
+ 118 118 
+ 106 106 
+ 102 112 X 
+--- PAGE 2 ---
+US 10,520,331 B2 Page 2 
+ ( 56 ) References Cited 
+ U.S. PATENT DOCUMENTS 
+ 2016/0341551 A1 * 11/2016 Cook 
+ 2016/0341552 A1 * 11/2016 Kub G01C 19/5726 G01C 19/5684 
+ OTHER PUBLICATIONS 
+ Painter , C. C. et al . , “ Active Structural Error Suppression in MEMS Vibratory Gyroscopes , ” IEEE Sensors Journal , vol . 3 , No. 5 , Oct. 2003. pp . 595-606 . 
+ Painter , C. et al . , “ Experimental Evaluation of a Control System for an Absolute Angle Measuring Micromachined Gyroscope , ” IEEE Sensors Conf . , Irvine , CA , Oct. 20 - Nov . 3 , 2005 , pp . 1084-1087 . Ragout , V. et al . , “ A New Control Model for Axisymmetrical Vibrating Gyroscopes , Greatly Improving Performance , ” 18th Saint Petersburg International Conference on Integrated Navigations Sys tems , May 30 - Jun . 1 , p . 86-98 . Taheri - Tehrani , P. et al . , “ A New Electronic Feedback Compensa tion Method for Rate Integrating Gyroscopes , ” 2016 IEEE Inertial Sensors and System Symposium , Laguna Beach , CA , Feb. 22-25 , 
+ 2016 . 
+ Taheri - Tehrani , P. et al . , “ Disk Resonator Gyroscope with Whole Angle Mode Operation , ” in IEEE International Symposium on Inertial Sensors and Systems , Hapuna Beach , HI , 2015 . 
+ Bryan , G. H. , “ On the Beats in the Vibrations of a Revolving Cylinder or Bell , ” Proceedings of the Philosophical Society , vol . 
+ VII , 1890 , p . 101-111 . 
+ Friedland , B. et al . , “ Theory and Error Analysis of Vibrating Member Gyroscope , ” IEEE Transactions on Automatic Control , vol . AC - 23 , No. 4 , Aug. 1978 , pp . 545-556 . Lynch , D. D. , “ Vibratory Gyro Analysis by Method of Averaging , " in Second St. Petersburg Conference on Gyroscope Technology and Navigation , St. Petersburg , Russia , 1995 , pp . 26-34 . * cited by examiner 
+--- PAGE 3 ---
+U.S. Patent Dec. 31 , 2019 Sheet 1 of 34 US 10,520,331 B2 
+ 102 , 
+ 106 Drive / Sense 118 
+ 100 . 108 173 104 . TL 
+ 117 
+ Controller Z 
+ K 
+ 108 
+ 109 104 
+ I 109 
+ Y 106 106 
+ X 102 112 
+ FIG . 1 
+--- PAGE 52 ---
+10 
+ 25 
+ 30 
+ US 10,520,331 B2 
+ 31 32 
+ may encompass the field of precision inertial guidance and vibratory mode and the second vibratory mode and to sense navigation , particularly in GPS denied environments . For a distribution of energy between the first vibratory mode and example , embodiments may be used to guide platforms such the second vibratory mode . as strategic missiles , submarines , Unmanned Underwater 9. The whole angle gyroscope of claim 8 , wherein the Vehicles ( UUV ) , Unmanned Aerial Vehicles ( UAV ) , cruise 5 plurality of transducers is further configured to provide missiles , aircraft , and tactical munitions . Other examples of signals to the processor based on the sensed distribution of applications may include commercial aviation , self - driving motion between the first vibratory mode and the second vehicles , robotic machinery , personal navigation and con vibratory mode , and sumer electronics such as various computing devices and wherein the processor is further configured to calculate an mobile communication devices . angle of rotation of the whole angle gyroscope based on the signals . Having described above several aspects of at least one 10. The whole angle gyroscope of claim 1 , wherein the at embodiment , it is to be appreciated various alterations , least one mass comprises a plurality of masses , wherein the modifications , and improvements will readily occur to those central point comprises a central anchor , wherein the whole skilled in the art . Such alterations , modifications , and 15 angle gyroscope further comprises : improvements are intended to be part of this disclosure and a plurality of internal flexures , wherein each mass of the are intended to be within the scope of the disclosure . plurality of masses is coupled to the central anchor via Accordingly , the foregoing description and drawings are by at least one of the plurality of internal flexures and is way of example only , and the scope of the disclosure should configured to translate in a plane of the whole angle be determined from proper construction of the appended 20 gyroscope ; claims , and their equivalents . a plurality of mass - to - mass couplers , each mass - to - mass coupler coupled between two adjacent masses of the 
+ What is claimed is : plurality of masses ; and 1. A whole angle gyroscope comprising : a plurality of transducers , each configured to perform at a central point ; least one of driving and sensing motion of a corre at least one mass arranged symmetrically about the central sponding one of the plurality of masses , and point ; wherein the processor is further configured to : a plurality of transducers , each configured to perform at operate the plurality of transducers to drive the plurality least one of driving and sensing motion of the at least of masses in at least the first vibratory mode and the one mass ; and second vibratory mode ; and a processor coupled to the plurality of transducers , the operate the plurality of transducers to apply the force to processor configured to : the plurality of masses to reduce the identified rate operate the plurality of transducers to drive the at least dead zone of the whole angle gyroscope . one mass in at least a first vibratory mode and a 11. The whole angle gyroscope of claim 10 , wherein each second vibratory mode ; 35 mass - to - mass coupler includes a bar coupled to each adja identify a rate dead zone of the whole angle gyroscope ; cent mass via a flexural hinge , wherein the bar is configured and to operate such that circumferential motion of one of the two operate the plurality of transducers to apply a force to adjacent masses of the plurality of masses to which it is the at least one mass to reduce the identified rate coupled depends on radial motion of the other one of the two 
+ dead zone of the whole angle gyroscope . 40 adjacent masses . 2. The whole angle gyroscope of claim 1 , wherein in 12. The whole angle gyroscope of claim 11 , further identifying the rate dead zone of the whole angle gyroscope , comprising : the processor is further configured to generate a motion a plurality of outside anchors ; model of the whole angle gyroscope and identify the rate a plurality of outside shuttles , each located at a periphery dead zone based on the motion model . of a corresponding one of the plurality of masses ; and 3. The whole angle gyroscope of claim 2 , wherein in a plurality of outside flexures ; operating the plurality of transducers to apply the force to wherein each mass of the plurality of masses is suspended the at least one mass , the processor is further configured to between the central anchor and the plurality of outside calibrate coefficients of the motion model to operate the anchors via the plurality of internal flexures and the plurality of transducers to apply the force to the at least one 50 plurality of outside flexures ; and wherein each one of the plurality of outside shuttles is 4. The whole angle gyroscope of claim 3 , wherein in configured to restrict rotation of its corresponding one calibrating the coefficients of the motion model , the proces of the plurality of masses . sor is further configured to perform multiple iterations of the 13. The whole angle gyroscope of claim 12 , further coefficient calibration . 55 comprising a plurality of internal shuttles , each one of the 5. The whole angle gyroscope of claim 1 , wherein the plurality of internal shuttles coupled between the central processor is a Field Programmable Gate Array ( FPGA ) . anchor and a corresponding one of the plurality of masses 6. The whole angle gyroscope of claim 1 , wherein each and configured to restrict rotation of its corresponding one of transducer is located at a periphery of the at least one mass . the plurality of masses . 7. The whole angle gyroscope of claim 1 , wherein the 60 14. The whole angle gyroscope of claim 10 , further processor is further configured to operate the plurality of comprising a plurality of angled electrodes , each angled transducers to drive the at least one mass in an n = 2 vibratory electrode coupled to a corresponding one of the plurality of mode . masses and configured to trim the cross spring term of the 8. The whole angle gyroscope of claim 7 , wherein the corresponding one of the plurality of masses . processor is further configured to operate the plurality of 65 15. The whole angle gyroscope of claim 1 , wherein the transducers to drive motion of the at least one mass such that whole angle gyroscope is a Microelectromechanical System a total vibrational energy is maintained across the first ( MEMS ) based gyroscope . 45 mass . 
+--- PAGE 53 ---
+US 10,520,331 B2 
+ 33 34 
+ 16. A method of operating a whole angle gyroscope 18. The method of claim 17 , wherein applying the force comprising a central point , at least one mass arranged to the at least one mass comprises calibrating coefficients of symmetrically about the central point , and a plurality of the motion model to operate the plurality of transducers to transducers , each configured to perform at least one of apply the force to the at least one mass . driving and sensing motion of the at least one mass , wherein 5 19. The whole angle gyroscope of claim 18 , wherein the method comprises : calibrating the coefficients of the motion model comprises performing multiple iterations of the coefficient calibration . driving , with the plurality of transducers , the at least one 20. A whole angle gyroscope comprising : mass in at least a first vibratory mode and a second a central point ; vibratory mode ; at least one mass arranged symmetrically about the central identifying a rate dead zone of the whole angle gyroscope ; point ; and a plurality of transducers , each configured to perform at applying , with the plurality of transducers , a force to the least one of driving and sensing motion of the at least 
+ at least one mass to reduce the identified rate dead zone one mass ; and 
+ of the whole angle gyroscope . means for driving the at least one mass in an n = 2 vibratory 
+ 17. The method of claim 16 , wherein identifying the rate mode , for identifying an angle of rotation of the whole dead zone comprises generating a motion model of the angle gyroscope , and for reducing a rate dead zone of the whole angle gyroscope . whole angle gyroscope and identifying the rate dead zone based on the motion model . 
+ 10 
+ 15 

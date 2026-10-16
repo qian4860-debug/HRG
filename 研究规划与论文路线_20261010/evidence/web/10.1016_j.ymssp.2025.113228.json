@@ -1,0 +1,764 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          13
+        ]
+      ],
+      "date-time": "2026-09-13T03:13:13Z",
+      "timestamp": 1789269193666,
+      "version": "build-2803163510"
+    },
+    "reference-count": 30,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100012542",
+        "name": "Sichuan Province Science and Technology Support Program",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2024ZHCG0050"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2024ZHCG0050"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100012542",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "52075082"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52075082"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "52205604"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52205604"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Mechanical Systems and Signal Processing"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ymssp.2025.113228",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2025-09-04T01:35:49Z",
+      "timestamp": 1756949749000
+    },
+    "page": "113228",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "special_numbering": "C",
+    "title": [
+      "Propagation mechanism of 1/f noise in FTR system of micro hemispherical resonator gyroscopes"
+    ],
+    "prefix": "10.1016",
+    "volume": "239",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-9128-5137",
+        "authenticated-orcid": false,
+        "given": "Zhaoli",
+        "family": "Wei",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Longqi",
+        "family": "Ran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lili",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiangbo",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tao",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ting",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhongrui",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8676-0980",
+        "authenticated-orcid": false,
+        "given": "Wu",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0005",
+        "article-title": "An accurate thermoelastic model and thermal output error analysis of a hemispherical resonator gyroscope under varying temperatures",
+        "volume": "170",
+        "author": "Zeyuan",
+        "year": "2022",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "847",
+        "DOI": "10.1016/j.ijmecsci.2017.08.021",
+        "article-title": "Trimming of imperfect hemispherical shell including point mass distributions",
+        "volume": "131",
+        "author": "Kim",
+        "year": "2017",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1016/j.ymssp.2019.01.013",
+        "article-title": "A method for measuring the inertia properties of a rigid body using 3-URU parallel mechanism",
+        "volume": "123",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "1938",
+        "DOI": "10.1109/TUFFC.2014.006511",
+        "article-title": "An analytical formulation for phase noise in MEMS oscillators",
+        "volume": "61",
+        "author": "Agrawal",
+        "year": "2014",
+        "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0025",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Kim and R. M'Closkey, “Noise analysis of closed-Loop vibratory rate gyros, in: 2012 American Control Conference, ACC, Canada, (2012) 92-97.",
+        "DOI": "10.1109/ACC.2012.6314985"
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "1390",
+        "DOI": "10.1109/JSEN.2017.2785859",
+        "article-title": "Mechanical thermal Noise in Micro-Machined Levitated Two-Axis Rate Gyroscopes",
+        "volume": "18",
+        "author": "Poletkin",
+        "year": "2018",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1016/j.ymssp.2016.06.043",
+        "article-title": "Autonomous execution of the precision immobilization technique",
+        "volume": "87",
+        "author": "Mascareñas",
+        "year": "2017",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0040",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S.A.M. Lajimi, G.R. Heppler, E.M. Abdel-Rahman, A mechanical–thermal noise analysis of a nonlinear microgyroscope, Mechanical Systems and Signal Processing, Volume 83, 2017, Pages 163-175, ISSN 0888-3270.",
+        "DOI": "10.1016/j.ymssp.2016.06.005"
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0045",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physa.2022.126917",
+        "article-title": "1/f noise under drift and thermal agitation in semiconductor materials",
+        "volume": "593",
+        "author": "Grüneis",
+        "year": "2022",
+        "journal-title": "Physica A"
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0050",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2022.112396",
+        "article-title": "Maximizing modulation efficiency to minimize 1/f noise in magnetoresistance",
+        "volume": "207",
+        "author": "Hou",
+        "year": "2023",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "1209",
+        "DOI": "10.1016/j.ymssp.2015.08.002",
+        "article-title": "An improved interface and noise analysis of a turning fork micro gyroscope structure",
+        "volume": "70–71",
+        "author": "Cao",
+        "year": "2016",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0060",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2021.107941",
+        "article-title": "The impact of thermal-noise on bifurcation MEMS sensors",
+        "volume": "161",
+        "author": "Qiao",
+        "year": "2021",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "10554",
+        "DOI": "10.1109/JSEN.2019.2933183",
+        "article-title": "Sources of Bias Instabilities (1/f Noise) in Optical Gyros",
+        "volume": "19",
+        "author": "Tehrani",
+        "year": "2019",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "586",
+        "DOI": "10.1109/JMEMS.2019.2921607",
+        "article-title": "Origins and mechanisms of bias instability noise in a three-axis mode-matched MEMS gyroscope",
+        "volume": "28",
+        "author": "Hiller",
+        "year": "2019",
+        "journal-title": "J. Microelectromech."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "416",
+        "DOI": "10.1109/JMEMS.2023.3296751",
+        "article-title": "A Silicon MEMS Quatrefoil Suspension Gyroscope",
+        "volume": "32",
+        "author": "Parajuli",
+        "year": "2023",
+        "journal-title": "J. Microelectromech."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1109/JMEMS.2022.3228268",
+        "article-title": "Analysis and compensation of bias drift of force-to-rebalanced micro-hemispherical resonator gyroscope caused by assembly eccentricity error",
+        "volume": "32",
+        "author": "Ruan",
+        "year": "2023",
+        "journal-title": "J. Microelectromech."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0085",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andreas Wagner, Martin Putnik, Tobias Hiller, Peter Degenfeld-Schonburg, André Zimmermann, A. Zimmermann, Influence of Parametric Nonlinearities on Closed-Loop Operated MEMS Gyroscopes, J. Microelectromech. 31 (2022) 348-357.",
+        "DOI": "10.1109/JMEMS.2022.3156817"
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "7388",
+        "DOI": "10.1109/JSEN.2021.3050206",
+        "article-title": "High precision hemispherical resonator gyroscopes with oven control systems",
+        "volume": "21",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "5347",
+        "DOI": "10.1109/TIE.2022.3187598",
+        "article-title": "“Calibration of coupling errors for scale factor nonlinearity improvement in navigation-grade honeycomb disk resonator gyroscope",
+        "volume": "70",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "13384",
+        "DOI": "10.1109/JSEN.2021.3068152",
+        "article-title": "Design of Force-to-Rebalanced System with Adaptive Fuzzy-PID Controller for N = 3 MEMS disk Gyroscope",
+        "volume": "21",
+        "author": "Zhou",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "15802",
+        "DOI": "10.1109/JSEN.2022.3188287",
+        "article-title": "Bias modulation of force-to-rebalanced micro hemispherical resonator gyroscope based on mode-rotation",
+        "volume": "22",
+        "author": "Ding",
+        "year": "2022",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "2659",
+        "DOI": "10.1109/TIM.2013.2258769",
+        "article-title": "Not fully overlapping allan variance and total variance for inertial sensor stochastic error analysis",
+        "volume": "62",
+        "author": "Li",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0115",
+        "unstructured": "IEEE Standard Specification Format Guide and Test Procedure for Single-Axis Laser Gyros, IEEE Std., 2006 1-96."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "897",
+        "DOI": "10.1016/j.ymssp.2015.11.004",
+        "article-title": "Temperature drift modeling of MEMS gyroscope based on genetic-Elman neural network",
+        "volume": "72",
+        "author": "Chong",
+        "year": "2016",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "3880",
+        "DOI": "10.1109/TIE.2009.2020707",
+        "article-title": "Automatic mode matching in MEMS vibrating gyroscopes using extremum-seeking control",
+        "volume": "56",
+        "author": "Antonello",
+        "year": "2009",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0130",
+        "first-page": "1",
+        "article-title": "Vector Brillouin Optical Time-Domain Analysis with Heterodyne Detection and IQ Demodulation Algorithm",
+        "volume": "6",
+        "author": "Xiaobo",
+        "year": "2014",
+        "journal-title": "IEEE Photonics J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "1842",
+        "DOI": "10.1109/JSEN.2021.3135909",
+        "article-title": "Phase demodulation methods for optical fiber vibration sensing system: a review",
+        "volume": "22",
+        "author": "Yan Li",
+        "year": "2022",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/JPHOT.2017.2732918",
+        "article-title": "Polarization-Modulation, I/Q-Demodulation Photonic Bandpass Sampling for Wideband, Multicarrier RF Application",
+        "volume": "9",
+        "author": "Ning",
+        "year": "2017",
+        "journal-title": "IEEE Photonics J."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "284",
+        "DOI": "10.1109/JMEMS.2014.2299234",
+        "article-title": "Said Emre Alper, Tayfun Akin, An Automatically Mode-Matched MEMS Gyroscope With Wide and Tunable Bandwidth",
+        "volume": "23",
+        "author": "Sonmezoglu",
+        "year": "2014",
+        "journal-title": "J. Microelectromech."
+      },
+      {
+        "key": "10.1016/j.ymssp.2025.113228_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "395",
+        "DOI": "10.1016/j.ymssp.2017.12.043",
+        "article-title": "Effect of nonlinear electrostatic forces on the dynamic behaviour of a capacitive ring-based Coriolis Vibrating Gyroscope under severe shock",
+        "volume": "106",
+        "author": "Chouvion",
+        "year": "2018",
+        "journal-title": "Mech. Syst. Signal Process."
+      }
+    ],
+    "container-title": [
+      "Mechanical Systems and Signal Processing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S088832702500929X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S088832702500929X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2025-12-08T12:15:49Z",
+      "timestamp": 1765196149000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S088832702500929X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "references-count": 30,
+    "alternative-id": [
+      "S088832702500929X"
+    ],
+    "URL": "https://doi.org/10.1016/j.ymssp.2025.113228",
+    "relation": {},
+    "ISSN": [
+      "0888-3270"
+    ],
+    "issn-type": [
+      {
+        "value": "0888-3270",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Propagation mechanism of 1/f noise in FTR system of micro hemispherical resonator gyroscopes",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Mechanical Systems and Signal Processing",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ymssp.2025.113228",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "113228"
+  }
+}

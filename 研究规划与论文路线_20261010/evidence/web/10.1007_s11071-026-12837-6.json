@@ -1,0 +1,623 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2026-08-10T23:29:20Z",
+      "timestamp": 1786404560618,
+      "version": "build-2736575974"
+    },
+    "reference-count": 31,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "14",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U2541224"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U2541224"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nonlinear Dyn"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11071-026-12837-6",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ],
+      "date-time": "2026-07-21T08:49:18Z",
+      "timestamp": 1784623758000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Novel Bias Drift Mechanism of Whole-Angle Mode Gyroscopes: Oscillatory Rectification Errors"
+    ],
+    "prefix": "10.1007",
+    "volume": "114",
+    "author": [
+      {
+        "given": "Xiangrui",
+        "family": "Meng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaomin",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "4",
+        "key": "12837_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "3105",
+        "DOI": "10.1109/JSEN.2022.3140799",
+        "volume": "22",
+        "author": "J Sun",
+        "year": "2022",
+        "unstructured": "Sun, J., Sheng, Yu., Xi, X., Kun, L., Shi, Y., Xuezhong, W., Xiao, D., Zhang, Y.: Investigation of angle drift induced by actuation electrode errors for whole-angle micro-shell resonator gyroscope. IEEE Sens. J. 22(4), 3105–3112 (2022)",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "issue": "6",
+        "key": "12837_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "4613",
+        "DOI": "10.1109/TMECH.2024.3519588",
+        "volume": "30",
+        "author": "J Jia",
+        "year": "2025",
+        "unstructured": "Jia, J., Song, Z., Gao, S., Gao, Y., Cao, H.: Bandwidth expansion for force-to-rebalance measurement of mems gyroscopes based on equivalent unit negative feedback loop. IEEE/ASME Trans. Mechatron. 30(6), 4613–4624 (2025)",
+        "journal-title": "IEEE/ASME Trans. Mechatron."
+      },
+      {
+        "key": "12837_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sna.2020.112181",
+        "volume": "313",
+        "author": "C Li",
+        "year": "2020",
+        "unstructured": "Li, C., Wen, H., Chen, H., Ayazi, F.: A digital force-to-rebalance scheme for high-frequency bulk-acoustic-wave micro-gyroscopes. Sens. Actuators, A 313, 112181 (2020)",
+        "journal-title": "Sens. Actuators, A"
+      },
+      {
+        "key": "12837_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xuan, L., Lu, M., Liu, J., Guo, S., Xu, D.: Automatic rate and rate-integrating mode-switchable axisymmetric gyroscope. Sensors 22(12), (2022)",
+        "DOI": "10.3390/s22124334"
+      },
+      {
+        "key": "12837_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prikhodko, I.P., Zotov, S.A., Trusov, A.A., Shkel, A.M.: Foucault pendulum on a chip: Rate integrating silicon mems gyroscope. Sens. Actuators, A 177, 67–78 (2012) 24th IEEE International Conference on Micro Electro Mechanical Systems",
+        "DOI": "10.1016/j.sna.2012.01.029"
+      },
+      {
+        "key": "12837_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taheri-Tehrani, P., Izyumin, O., Izyumin, I., Ahn, C. H., Ng, E. J., Hong, V. A., Horsley, D. A.. Disk resonator gyroscope with whole-angle mode operation. In: 2015 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL) Proceedings, pp. 1–4, (2015)",
+        "DOI": "10.1109/ISISS.2015.7102360"
+      },
+      {
+        "issue": "7",
+        "key": "12837_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1513",
+        "DOI": "10.2514/1.G000336",
+        "volume": "39",
+        "author": "JL Crassidis",
+        "year": "2016",
+        "unstructured": "Crassidis, J.L., Markley, F.L.: Three-axis attitude estimation using rate-integrating gyroscopes. J. Guid. Control. Dyn. 39(7), 1513–1526 (2016)",
+        "journal-title": "J. Guid. Control. Dyn."
+      },
+      {
+        "issue": "4",
+        "key": "12837_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "545",
+        "DOI": "10.1109/TAC.1978.1101785",
+        "volume": "23",
+        "author": "B Friedland",
+        "year": "1978",
+        "unstructured": "Friedland, B., Hutton, M.: Theory and error analysis of vibrating-member gyroscope. IEEE Trans. Autom. Control 23(4), 545–556 (1978)",
+        "journal-title": "IEEE Trans. Autom. Control"
+      },
+      {
+        "key": "12837_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prikhodko, I.P., Gregory, J.A., Bugrov, D.I., Judy, M.W.: Overcoming limitations of rate integrating gyroscopes by virtual rotation. In: 2016 IEEE International Symposium on Inertial Sensors and Systems, pp. 5–8, (2016)",
+        "DOI": "10.1109/ISISS.2016.7435531"
+      },
+      {
+        "key": "12837_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "314",
+        "DOI": "10.1016/j.dt.2022.03.008",
+        "volume": "24",
+        "author": "XR Meng",
+        "year": "2023",
+        "unstructured": "Meng, X.R., Li, C., Wang, Y.C.: Online asymmetry estimation for whole angle mode coriolis vibratory gyroscopes by high frequency injection. Defence Technology 24, 314–325 (2023)",
+        "journal-title": "Defence Technology"
+      },
+      {
+        "key": "12837_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, L., Li, Q., Zhao, W., Zhang, T., He, X.: Research of frequency splitting caused by uneven mass of micro-hemispherical resonator gyro. Micromachines 13(11), (2022)",
+        "DOI": "10.3390/mi13112015"
+      },
+      {
+        "issue": "6",
+        "key": "12837_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1291",
+        "DOI": "10.3390/s19061291",
+        "volume": "19",
+        "author": "Z Xu",
+        "year": "2019",
+        "unstructured": "Xu, Z., Yi, G., Er, M.J., Huang, C.: Effect of uneven electrostatic forces on the dynamic characteristics of capacitive hemispherical resonator gyroscopes. Sensors 19(6), 1291 (2019)",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "20",
+        "key": "12837_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "31827",
+        "DOI": "10.1109/JSEN.2024.3442207",
+        "volume": "24",
+        "author": "X Yi",
+        "year": "2024",
+        "unstructured": "Yi, X., Yang, G., Cai, Q., Cheng, R., Yongqiang, T., Wang, Y., Song, N.: A novel self-modulation method for whole-angle resonator gyroscope based on high harmonic compensation. IEEE Sens. J. 24(20), 31827–31836 (2024)",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "issue": "18",
+        "key": "12837_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "19847",
+        "DOI": "10.1109/JSEN.2021.3097585",
+        "volume": "21",
+        "author": "Y Wei",
+        "year": "2021",
+        "unstructured": "Wei, Y., Yang, J., Li, P., Zhang, X., Liang, P.: Analysis and optimization method of the vibration rectification error of a pendulous accelerometer. IEEE Sens. J. 21(18), 19847–19856 (2021)",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "issue": "1",
+        "key": "12837_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "16390",
+        "DOI": "10.1038/s41598-021-95793-y",
+        "volume": "11",
+        "author": "G Gobat",
+        "year": "2021",
+        "unstructured": "Gobat, G., Zega, V., Fedeli, P., Guerinoni, L., Touzé, C., Frangi, A.: Reduced order modelling and experimental validation of a mems gyroscope test-structure exhibiting 1: 2 internal resonance. Sci. Rep. 11(1), 16390 (2021)",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "17",
+        "key": "12837_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "5854",
+        "DOI": "10.3390/s24175854",
+        "volume": "24",
+        "author": "WA Gill",
+        "year": "2024",
+        "unstructured": "Gill, W.A., Howard, I., Mazhar, I., McKee, K.: Design and modelling of mems vibrating internal ring gyroscopes for harsh environments. Sensors 24(17), 5854 (2024)",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "1",
+        "key": "12837_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "56",
+        "DOI": "10.1016/j.sna.2007.12.033",
+        "volume": "144",
+        "author": "S Park",
+        "year": "2008",
+        "unstructured": "Park, S., Horowitz, R., Tan, C.-W.: Dynamics and control of a mems angle measuring gyroscope. Sens. Actuators, A 144(1), 56–63 (2008)",
+        "journal-title": "Sens. Actuators, A"
+      },
+      {
+        "issue": "1",
+        "key": "12837_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "164",
+        "DOI": "10.1038/s41378-024-00818-x",
+        "volume": "10",
+        "author": "Yu Sheng",
+        "year": "2024",
+        "unstructured": "Sheng, Yu., Sun, J., Zhang, Y., Xi, X., Kun, L., Shi, Y., Xiao, D., Xuezhong, W.: Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscope. Microsystems & Nanoengineering 10(1), 164 (2024)",
+        "journal-title": "Microsystems & Nanoengineering"
+      },
+      {
+        "issue": "9",
+        "key": "12837_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "3533",
+        "DOI": "10.1109/JSEN.2018.2810843",
+        "volume": "18",
+        "author": "P Taheri-Tehrani",
+        "year": "2018",
+        "unstructured": "Taheri-Tehrani, P., Challoner, A.D., Horsley, D.A.: Micromechanical rate integrating gyroscope with angle-dependent bias compensation using a self-precession method. IEEE Sens. J. 18(9), 3533–3543 (2018)",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "12837_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kline, M. H., Yeh, Y.-C., Eminoglu, B., Izyumin, I. I., Daneman, M., Horsley, D.A., Boser, B.E.: Mems gyroscope bias drift cancellation using continuous-time mode reversal. In: 2013 Transducers & Eurosensors XXVII: The 17th International Conference on Solid-State Sensors, Actuators and Microsystems (TRANSDUCERS & EUROSENSORS XXVII), pp. 1855–1858, (2013)",
+        "DOI": "10.1109/Transducers.2013.6627152"
+      },
+      {
+        "issue": "1",
+        "key": "12837_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "144",
+        "DOI": "10.1109/JSEN.2023.3332067",
+        "volume": "24",
+        "author": "W Chen",
+        "year": "2023",
+        "unstructured": "Chen, W., Ding, X., Qin, Z., Ge, X., Li, H.: Identification and compensation of gain mismatches for whole-angle microhemispherical resonator gyroscope based on modal reversal. IEEE Sens. J. 24(1), 144–157 (2023)",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "12837_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding, X., Ruan, Z., Jia, J., Huang, L., Li, H., Zhao, L.: In-run mode-matching of mems gyroscopes based on power symmetry of readout signal in sense mode. IEEE Sens. J. 21(21), 23806–23817 (2021)",
+        "DOI": "10.1109/JSEN.2021.3112915"
+      },
+      {
+        "issue": "1",
+        "key": "12837_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1038/s41378-021-00306-6",
+        "volume": "7",
+        "author": "J Sun",
+        "year": "2021",
+        "unstructured": "Sun, J., Yu, S., Zhang, Y., Li, Q., Xi, X., Lu, K., Xiao, D.: 0.79 ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive displacement detection. Microsystems & nanoengineering 7(1), 79 (2021)",
+        "journal-title": "Microsystems & nanoengineering"
+      },
+      {
+        "issue": "4",
+        "key": "12837_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "546",
+        "DOI": "10.1109/JMEMS.2022.3170121",
+        "volume": "31",
+        "author": "M Hosseini-Pishrobat",
+        "year": "2022",
+        "unstructured": "Hosseini-Pishrobat, M., Tatar, E.: Modeling and analysis of a mems vibrating ring gyroscope subject to imperfections. J. Microelectromech. Syst. 31(4), 546–560 (2022)",
+        "journal-title": "J. Microelectromech. Syst."
+      },
+      {
+        "key": "12837_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xing, C., Yuan, J., Xia, T., Xiao, P., Tang, X., Pan, Y., Luo, H.: Online calibration of the virtual rotation rate for whole-angle hemispherical resonator gyroscopes based on a dual-gyro configuration. IEEE Sensors Journal, (2025)",
+        "DOI": "10.1109/JSEN.2025.3595162"
+      },
+      {
+        "key": "12837_CR26",
+        "first-page": "1",
+        "volume": "74",
+        "author": "R Wang",
+        "year": "2025",
+        "unstructured": "Wang, R., Yi, G., Xie, W.: Virtual precession self-calibration method for hemispherical resonator gyro based on sinusoidal injection. IEEE Trans. Instrum. Meas. 74, 1–11 (2025)",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "12837_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruan, Z., Ding, X., Qin, Z., Jia, J., Li, H.: Automatic mode-matching method for mems disk resonator gyroscopes based on virtual coriolis force. Micromachines, 11(2), (2020)",
+        "DOI": "10.3390/mi11020210"
+      },
+      {
+        "key": "12837_CR28",
+        "unstructured": "Lynch, D. D.: Vibration-induced drift in the hemispherical resonator gyro. In: Proceedings of the 43rd Annual Meeting of The Institute of Navigation (1987), pp. 34–37, (1987)"
+      },
+      {
+        "key": "12837_CR29",
+        "unstructured": "Edward, L.: Ince: Ordinary differential equations. Courier Corporation, (1956)"
+      },
+      {
+        "key": "12837_CR30",
+        "volume-title": "Protter and Charles B",
+        "author": "H Murray",
+        "year": "1970",
+        "unstructured": "Murray, H.: Protter and Charles B, 2nd edn. Morrey. A first course in real analysis. Springer, New York (1970)",
+        "edition": "2"
+      },
+      {
+        "issue": "11",
+        "key": "12837_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "2763",
+        "DOI": "10.1109/JSEN.2011.2160338",
+        "volume": "11",
+        "author": "AA Trusov",
+        "year": "2011",
+        "unstructured": "Trusov, A.A., Prikhodko, I.P., Zotov, S.A., Shkel, A.M.: Low-dissipation silicon tuning fork gyroscopes for rate and whole angle measurements. IEEE Sens. J. 11(11), 2763–2770 (2011)",
+        "journal-title": "IEEE Sens. J."
+      }
+    ],
+    "container-title": [
+      "Nonlinear Dynamics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11071-026-12837-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s11071-026-12837-6",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11071-026-12837-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2026-08-10T23:02:25Z",
+      "timestamp": 1786402945000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s11071-026-12837-6"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "14",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "12837"
+    ],
+    "URL": "https://doi.org/10.1007/s11071-026-12837-6",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.21203/rs.3.rs-8837107/v1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0924-090X",
+      "1573-269X"
+    ],
+    "issn-type": [
+      {
+        "value": "0924-090X",
+        "type": "print"
+      },
+      {
+        "value": "1573-269X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "10 February 2026",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "22 May 2026",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "6 July 2026",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "21 July 2026",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "label": "Conflict of Interest",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 2,
+        "name": "Ethics",
+        "label": "Competing interests",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      }
+    ],
+    "article-number": "935"
+  }
+}

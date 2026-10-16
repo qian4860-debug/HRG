@@ -1,0 +1,2155 @@
+[
+  {
+    "DOI": "10.1109/tim.2025.3650265",
+    "title": [
+      "Real-Time Elimination of Harmonic Drift for Hemispherical Resonator Gyro Based on FRP Control Scheme"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2026-01-02T18:16:17Z",
+      "timestamp": 1767377777000
+    },
+    "URL": "https://doi.org/10.1109/tim.2025.3650265",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2025.3555670",
+    "title": [
+      "Separation, Identification, and Compensation of Damping, Detection, and Actuation Errors for Rate-Integrating Hemispherical Resonator Gyroscopes"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          14
+        ]
+      ],
+      "date-time": "2025-04-14T13:37:43Z",
+      "timestamp": 1744637863000
+    },
+    "URL": "https://doi.org/10.1109/tim.2025.3555670",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2026.3674286",
+    "title": [
+      "Modeling, Decoupling Identification, and Compensation of Imbalance Errors for Whole-Angle Hemispherical Resonator Gyroscopes"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ],
+      "date-time": "2026-03-16T20:14:23Z",
+      "timestamp": 1773692063000
+    },
+    "URL": "https://doi.org/10.1109/tim.2026.3674286",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2026.3667313",
+    "title": [
+      "Identification and Compensation of Detection Electrode Errors in Hemispherical Resonator Gyroscopes via Bidirectional Turntable Rotations"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          23
+        ]
+      ],
+      "date-time": "2026-02-23T20:47:22Z",
+      "timestamp": 1771879642000
+    },
+    "URL": "https://doi.org/10.1109/tim.2026.3667313",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tii.2026.3698512",
+    "title": [
+      "A Novel Hybrid Mode for Hemispherical Resonator Gyroscope Inertial Navigation Systems: Principle and System-Level Calibration Method"
+    ],
+    "container-title": [
+      "IEEE Transactions on Industrial Informatics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          26
+        ]
+      ],
+      "date-time": "2026-06-26T19:48:54Z",
+      "timestamp": 1782503334000
+    },
+    "URL": "https://doi.org/10.1109/tii.2026.3698512",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.ast.2025.111283",
+    "title": [
+      "Forgetting filter-based real-time identification and compensation of whole-angle hemispherical resonator gyroscope errors for extensive aerospace applications"
+    ],
+    "container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          28
+        ]
+      ],
+      "date-time": "2025-11-28T04:35:05Z",
+      "timestamp": 1764304505000
+    },
+    "URL": "https://doi.org/10.1016/j.ast.2025.111283",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1038/s41378-026-01321-1",
+    "title": [
+      "Manufacturing of 8 million Q-factor micro hemispherical resonator gyroscopes via patterned coating technology"
+    ],
+    "container-title": [
+      "Microsystems &amp; Nanoengineering"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "published-print": null,
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ],
+      "date-time": "2026-05-22T01:57:10Z",
+      "timestamp": 1779415030000
+    },
+    "URL": "https://doi.org/10.1038/s41378-026-01321-1",
+    "abstract": null
+  },
+  {
+    "DOI": "10.3390/mi17010143",
+    "title": [
+      "Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resonator Gyroscope"
+    ],
+    "container-title": [
+      "Micromachines"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          22
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          22
+        ]
+      ]
+    },
+    "published-print": null,
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          23
+        ]
+      ],
+      "date-time": "2026-01-23T10:41:34Z",
+      "timestamp": 1769164894000
+    },
+    "URL": "https://doi.org/10.3390/mi17010143",
+    "abstract": "<jats:p>The whole-angle hemispherical resonator gyroscope (WA-HRG) is critical to high-precision attitude control and navigational positioning, boasting significant deployment potential in both highly dynamic inertial navigation systems and industrial instrumentation. This paper presents a mechanistic analysis of quantization error inherent to the HRG’s hardware detection and driving circuits, focusing specifically on its impact on parameter calculation and driving control in whole-angle mode. Furthermore, a simulation platform was constructed to verify and elucidate the correlations between the effects of quantization error and key resonator parameters, such as the major axis amplitude and the standing wave azimuth. Compared to existing HRG error studies which frame quantization error as isolated circuit noise, this work uniquely uncovers the azimuth-modulated periodic behavior of quantization error within the WA-HRG. It also formalizes a quantitative relationship between quantization error and the resonator’s key parameters, laying a critical theoretical foundation for suppressing quantization error and enhancing accuracy in high-performance WA-HRGs.</jats:p>"
+  },
+  {
+    "DOI": "10.1016/j.sna.2025.116976",
+    "title": [
+      "Virtual precession-enabled phase error mitigation in high-precision hemispherical resonator gyroscopes"
+    ],
+    "container-title": [
+      "Sensors and Actuators A: Physical"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2025-08-21T01:35:03Z",
+      "timestamp": 1755740103000
+    },
+    "URL": "https://doi.org/10.1016/j.sna.2025.116976",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.measurement.2024.115599",
+    "title": [
+      "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro"
+    ],
+    "container-title": [
+      "Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2024-08-26T18:55:00Z",
+      "timestamp": 1724698500000
+    },
+    "URL": "https://doi.org/10.1016/j.measurement.2024.115599",
+    "abstract": null
+  },
+  {
+    "DOI": "10.3390/act14060275",
+    "title": [
+      "Identification and Compensation of Detection Gain Asymmetry Errors for Hemispherical Resonant Gyroscopes in Whole-Angle Mode"
+    ],
+    "container-title": [
+      "Actuators"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          3
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          3
+        ]
+      ]
+    },
+    "published-print": null,
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2025-06-03T06:21:51Z",
+      "timestamp": 1748931711000
+    },
+    "URL": "https://doi.org/10.3390/act14060275",
+    "abstract": "<jats:p>Detection gain asymmetry error is one of the primary errors of the hemispherical resonator gyroscope (HRG) in whole-angle (WA) mode. This paper analyzes the influence of detection gain asymmetry error and its coupling error with damping and stiffness asymmetry on the performance of HRG and proposes a novel compensation method for detection gain asymmetry error. Firstly, the nonlinear error model of HRG considering the detection gain asymmetry error and its coupling error is established by using the average method. The influence of the angle-dependent scale factor error (ADS) and angle-dependent bias error (ADB) caused by the detection gain asymmetry error is analyzed by numerical simulation. Secondly, a parameter estimation algorithm based on force-to-rebalance (FTR) mode is proposed to decouple and identify the detection gain asymmetry error and damping asymmetry error. The identified parameters are used for the calibration of the HRG. Finally, the method is applied to the HRG operating in WA mode. The effectiveness of the proposed method is verified by experiments. After compensation, the bias instability is reduced from 3.6°/h to 0.6°/h, the scale factor nonlinearity is reduced from 646.57 ppm to 207.43 ppm, and the maximum pattern angle deviation is reduced from 0.6° to 0.05°.</jats:p>"
+  },
+  {
+    "DOI": "10.1016/j.ijmecsci.2026.111465",
+    "title": [
+      "Equivalent Bryan’s factor in hemispherical resonator gyroscopes with nonuniformities coupling"
+    ],
+    "container-title": [
+      "International Journal of Mechanical Sciences"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          12
+        ]
+      ],
+      "date-time": "2026-03-12T08:26:08Z",
+      "timestamp": 1773303968000
+    },
+    "URL": "https://doi.org/10.1016/j.ijmecsci.2026.111465",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.ymssp.2025.113228",
+    "title": [
+      "Propagation mechanism of 1/f noise in FTR system of micro hemispherical resonator gyroscopes"
+    ],
+    "container-title": [
+      "Mechanical Systems and Signal Processing"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2025-09-04T01:35:49Z",
+      "timestamp": 1756949749000
+    },
+    "URL": "https://doi.org/10.1016/j.ymssp.2025.113228",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1007/s11071-026-12837-6",
+    "title": [
+      "Novel Bias Drift Mechanism of Whole-Angle Mode Gyroscopes: Oscillatory Rectification Errors"
+    ],
+    "container-title": [
+      "Nonlinear Dynamics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ],
+      "date-time": "2026-07-21T08:49:18Z",
+      "timestamp": 1784623758000
+    },
+    "URL": "https://doi.org/10.1007/s11071-026-12837-6",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2026.3682829",
+    "title": [
+      "Modeling, Characterization, and Compensation of Detection Errors for Differential Frequency Modulation Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2026-04-10T19:58:19Z",
+      "timestamp": 1775851099000
+    },
+    "URL": "https://doi.org/10.1109/tim.2026.3682829",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/jsen.2026.3728523",
+    "title": [
+      "Asymmetric Phase-Delay Modeling and Online Compensation for Whole-Angle Micro-Hemispherical Resonator Gyroscopes"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2026-09-03T19:05:47Z",
+      "timestamp": 1788462347000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2026.3728523",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.measurement.2026.121170",
+    "title": [
+      "Whole-chain multi-mode error compensation for high-precision rate-integrating micro-hemispherical resonator gyroscopes"
+    ],
+    "container-title": [
+      "Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          17
+        ]
+      ],
+      "date-time": "2026-03-17T06:23:46Z",
+      "timestamp": 1773728626000
+    },
+    "URL": "https://doi.org/10.1016/j.measurement.2026.121170",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1063/5.0268634",
+    "title": [
+      "Joint compensation of time delay and damping asymmetry errors for whole-angle hemispherical resonator gyroscopes"
+    ],
+    "container-title": [
+      "AIP Advances"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T14:38:57Z",
+      "timestamp": 1767710337000
+    },
+    "URL": "https://doi.org/10.1063/5.0268634",
+    "abstract": "<jats:p>In whole-angle mode hemispherical resonator gyroscope (HRG) systems, time delay and damping asymmetry are critical factors affecting measurement accuracy and long-term stability. Time delay originates from signal acquisition and processing latency, resulting in misalignment between the input angular velocity and the output signal. Damping asymmetry, caused by non-uniform damping distribution within the resonator, further contributes to angle drift bias (ADB). To address these issues, this paper proposes a joint compensation method integrating cross-correlation time delay estimation with a recursive least squares algorithm. The method first estimates the system delay by analyzing the time lag between excitation and output signals, then iteratively identifies damping asymmetry parameters based on angular velocity data. Experimental results show that the proposed method reduces ADB to 1.2132°/h, representing an eightfold improvement over damping-asymmetry-only compensation (9.72°/h) and a 51.5-fold improvement compared to the uncompensated case (62.52°/h). These results underscore the non-negligible impact of time delay and the effectiveness of joint compensation in enhancing HRG performance.</jats:p>"
+  },
+  {
+    "DOI": "10.1109/i2mtc66907.2026.11694669",
+    "title": [
+      "High-Precision Identification Method for Phase Errors in Whole-Angle Mode Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "2026 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T19:13:09Z",
+      "timestamp": 1790363589000
+    },
+    "URL": "https://doi.org/10.1109/i2mtc66907.2026.11694669",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.sna.2025.116402",
+    "title": [
+      "A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope"
+    ],
+    "container-title": [
+      "Sensors and Actuators A: Physical"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          4
+        ]
+      ],
+      "date-time": "2025-03-04T19:20:07Z",
+      "timestamp": 1741116007000
+    },
+    "URL": "https://doi.org/10.1016/j.sna.2025.116402",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/ecitech69277.2026.11601300",
+    "title": [
+      "Implementation of a Digital Measurement and Control Circuit for Whole-Angle Mode Micro-Hemispherical Resonator Gyroscope Based on Zynq"
+    ],
+    "container-title": [
+      "2026 International Conference on Electrical, Control and Information Technology (ECITech)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          20
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          20
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2026-07-20T20:18:07Z",
+      "timestamp": 1784578687000
+    },
+    "URL": "https://doi.org/10.1109/ecitech69277.2026.11601300",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/jsen.2025.3529863",
+    "title": [
+      "Modeling and Compensation of Readout, Actuation, and Damping Errors for Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2025-01-31T18:38:23Z",
+      "timestamp": 1738348703000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2025.3529863",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/jsen.2025.3572313",
+    "title": [
+      "Suppression and Compensation of Damping Asymmetry Errors in Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          28
+        ]
+      ],
+      "date-time": "2025-05-28T18:11:24Z",
+      "timestamp": 1748455884000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2025.3572313",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2026.3682829",
+    "title": [
+      "Modeling, Characterization, and Compensation of Detection Errors for Differential Frequency Modulation Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2026-04-10T19:58:19Z",
+      "timestamp": 1775851099000
+    },
+    "URL": "https://doi.org/10.1109/tim.2026.3682829",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.ast.2025.111283",
+    "title": [
+      "Forgetting filter-based real-time identification and compensation of whole-angle hemispherical resonator gyroscope errors for extensive aerospace applications"
+    ],
+    "container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          28
+        ]
+      ],
+      "date-time": "2025-11-28T04:35:05Z",
+      "timestamp": 1764304505000
+    },
+    "URL": "https://doi.org/10.1016/j.ast.2025.111283",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/jsen.2024.3504581",
+    "title": [
+      "Online Identification and Compensation of Drive and Phase Errors for Whole-Angle Hemispherical Resonator Gyroscope Based on Sinusoidal Self-Excitation"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          15
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          15
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          28
+        ]
+      ],
+      "date-time": "2024-11-28T19:01:01Z",
+      "timestamp": 1732820461000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2024.3504581",
+    "abstract": null
+  },
+  {
+    "DOI": "10.52202/080560-0029",
+    "title": [
+      "Development of Hydroxyl-Catalysis Bonding for Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "Navigation, Guidance and Control for Deep Space Missions"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2025-08-03T21:46:58Z",
+      "timestamp": 1754257618000
+    },
+    "URL": "https://doi.org/10.52202/080560-0029",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1063/5.0268634",
+    "title": [
+      "Joint compensation of time delay and damping asymmetry errors for whole-angle hemispherical resonator gyroscopes"
+    ],
+    "container-title": [
+      "AIP Advances"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T14:38:57Z",
+      "timestamp": 1767710337000
+    },
+    "URL": "https://doi.org/10.1063/5.0268634",
+    "abstract": "<jats:p>In whole-angle mode hemispherical resonator gyroscope (HRG) systems, time delay and damping asymmetry are critical factors affecting measurement accuracy and long-term stability. Time delay originates from signal acquisition and processing latency, resulting in misalignment between the input angular velocity and the output signal. Damping asymmetry, caused by non-uniform damping distribution within the resonator, further contributes to angle drift bias (ADB). To address these issues, this paper proposes a joint compensation method integrating cross-correlation time delay estimation with a recursive least squares algorithm. The method first estimates the system delay by analyzing the time lag between excitation and output signals, then iteratively identifies damping asymmetry parameters based on angular velocity data. Experimental results show that the proposed method reduces ADB to 1.2132°/h, representing an eightfold improvement over damping-asymmetry-only compensation (9.72°/h) and a 51.5-fold improvement compared to the uncompensated case (62.52°/h). These results underscore the non-negligible impact of time delay and the effectiveness of joint compensation in enhancing HRG performance.</jats:p>"
+  },
+  {
+    "DOI": "10.1109/jsen.2025.3543642",
+    "title": [
+      "Characterization and Compensation of Phase Delay and Modulation Pattern Angle Error for Rate-Integrating Micro-Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2025-02-25T18:55:26Z",
+      "timestamp": 1740509726000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2025.3543642",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1007/978-981-96-2252-8_50",
+    "title": [
+      "Real-Time Identification and Compensation of Phase Error for Whole-Angle Hemispherical Resonator Gyroscope Based on Forgetting Filter and Virtual Rotation"
+    ],
+    "container-title": [
+      "Lecture Notes in Electrical Engineering",
+      "Advances in Guidance, Navigation and Control"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          27
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          26
+        ]
+      ],
+      "date-time": "2025-02-26T14:33:14Z",
+      "timestamp": 1740580394000
+    },
+    "URL": "https://doi.org/10.1007/978-981-96-2252-8_50",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/jsen.2026.3710725",
+    "title": [
+      "The Electrode Nonlinearity Error Suppression of Hemispherical Resonator Gyro Under Whole-Angle Mode"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2026-07-13T20:06:44Z",
+      "timestamp": 1783973204000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2026.3710725",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2025.3547107",
+    "title": [
+      "Analysis, Identification, and Compensation of Damping Asymmetry for Whole-Angle Mode Hemispherical Resonator Gyro"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2025-03-03T13:30:15Z",
+      "timestamp": 1741008615000
+    },
+    "URL": "https://doi.org/10.1109/tim.2025.3547107",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/led.2025.3604433",
+    "title": [
+      "0.08 ppm Scale Factor Nonlinearity in Whole-Angle Hemispherical Resonator Gyroscopes Enabled by Rapid Detection Signal Nonlinearity Suppression"
+    ],
+    "container-title": [
+      "IEEE Electron Device Letters"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2025-09-01T19:31:30Z",
+      "timestamp": 1756755090000
+    },
+    "URL": "https://doi.org/10.1109/led.2025.3604433",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.sna.2025.116402",
+    "title": [
+      "A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope"
+    ],
+    "container-title": [
+      "Sensors and Actuators A: Physical"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          4
+        ]
+      ],
+      "date-time": "2025-03-04T19:20:07Z",
+      "timestamp": 1741116007000
+    },
+    "URL": "https://doi.org/10.1016/j.sna.2025.116402",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/isa67150.2025.11279614",
+    "title": [
+      "Identification and Compensation for Actuation Nonlinearity for Whole-Angle Hemispherical Resonator Gyroscopes"
+    ],
+    "container-title": [
+      "2025 DGON Inertial Sensors and Applications (ISA)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T18:33:40Z",
+      "timestamp": 1767724420000
+    },
+    "URL": "https://doi.org/10.1109/isa67150.2025.11279614",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/i2mtc66907.2026.11694669",
+    "title": [
+      "High-Precision Identification Method for Phase Errors in Whole-Angle Mode Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "2026 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T19:13:09Z",
+      "timestamp": 1790363589000
+    },
+    "URL": "https://doi.org/10.1109/i2mtc66907.2026.11694669",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.measurement.2026.121170",
+    "title": [
+      "Whole-chain multi-mode error compensation for high-precision rate-integrating micro-hemispherical resonator gyroscopes"
+    ],
+    "container-title": [
+      "Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          17
+        ]
+      ],
+      "date-time": "2026-03-17T06:23:46Z",
+      "timestamp": 1773728626000
+    },
+    "URL": "https://doi.org/10.1016/j.measurement.2026.121170",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/ccdc65474.2025.11090247",
+    "title": [
+      "Detection Error Compensation Method for Frequency Modulation Hemispherical Resonator Gyro"
+    ],
+    "container-title": [
+      "2025 37th Chinese Control and Decision Conference (CCDC)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2025-08-05T18:00:15Z",
+      "timestamp": 1754416815000
+    },
+    "URL": "https://doi.org/10.1109/ccdc65474.2025.11090247",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/jsen.2025.3572313",
+    "title": [
+      "Suppression and Compensation of Damping Asymmetry Errors in Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          28
+        ]
+      ],
+      "date-time": "2025-05-28T18:11:24Z",
+      "timestamp": 1748455884000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2025.3572313",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.measurement.2024.115599",
+    "title": [
+      "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro"
+    ],
+    "container-title": [
+      "Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2024-08-26T18:55:00Z",
+      "timestamp": 1724698500000
+    },
+    "URL": "https://doi.org/10.1016/j.measurement.2024.115599",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.ifacol.2025.11.309",
+    "title": [
+      "Drive Error Compensation Method for Frequency Modulation Hemispherical Resonator Gyro"
+    ],
+    "container-title": [
+      "IFAC-PapersOnLine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          28
+        ]
+      ],
+      "date-time": "2025-11-28T12:49:11Z",
+      "timestamp": 1764334151000
+    },
+    "URL": "https://doi.org/10.1016/j.ifacol.2025.11.309",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/ecitech69277.2026.11601300",
+    "title": [
+      "Implementation of a Digital Measurement and Control Circuit for Whole-Angle Mode Micro-Hemispherical Resonator Gyroscope Based on Zynq"
+    ],
+    "container-title": [
+      "2026 International Conference on Electrical, Control and Information Technology (ECITech)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          20
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          20
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2026-07-20T20:18:07Z",
+      "timestamp": 1784578687000
+    },
+    "URL": "https://doi.org/10.1109/ecitech69277.2026.11601300",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2026.3682829",
+    "title": [
+      "Modeling, Characterization, and Compensation of Detection Errors for Differential Frequency Modulation Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2026-04-10T19:58:19Z",
+      "timestamp": 1775851099000
+    },
+    "URL": "https://doi.org/10.1109/tim.2026.3682829",
+    "abstract": null
+  },
+  {
+    "DOI": "10.3390/act14060275",
+    "title": [
+      "Identification and Compensation of Detection Gain Asymmetry Errors for Hemispherical Resonant Gyroscopes in Whole-Angle Mode"
+    ],
+    "container-title": [
+      "Actuators"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          3
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          3
+        ]
+      ]
+    },
+    "published-print": null,
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2025-06-03T06:21:51Z",
+      "timestamp": 1748931711000
+    },
+    "URL": "https://doi.org/10.3390/act14060275",
+    "abstract": "<jats:p>Detection gain asymmetry error is one of the primary errors of the hemispherical resonator gyroscope (HRG) in whole-angle (WA) mode. This paper analyzes the influence of detection gain asymmetry error and its coupling error with damping and stiffness asymmetry on the performance of HRG and proposes a novel compensation method for detection gain asymmetry error. Firstly, the nonlinear error model of HRG considering the detection gain asymmetry error and its coupling error is established by using the average method. The influence of the angle-dependent scale factor error (ADS) and angle-dependent bias error (ADB) caused by the detection gain asymmetry error is analyzed by numerical simulation. Secondly, a parameter estimation algorithm based on force-to-rebalance (FTR) mode is proposed to decouple and identify the detection gain asymmetry error and damping asymmetry error. The identified parameters are used for the calibration of the HRG. Finally, the method is applied to the HRG operating in WA mode. The effectiveness of the proposed method is verified by experiments. After compensation, the bias instability is reduced from 3.6°/h to 0.6°/h, the scale factor nonlinearity is reduced from 646.57 ppm to 207.43 ppm, and the maximum pattern angle deviation is reduced from 0.6° to 0.05°.</jats:p>"
+  },
+  {
+    "DOI": "10.1109/jsen.2025.3529863",
+    "title": [
+      "Modeling and Compensation of Readout, Actuation, and Damping Errors for Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          15
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2025-01-31T18:38:23Z",
+      "timestamp": 1738348703000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2025.3529863",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/tim.2026.3674286",
+    "title": [
+      "Modeling, Decoupling Identification, and Compensation of Imbalance Errors for Whole-Angle Hemispherical Resonator Gyroscopes"
+    ],
+    "container-title": [
+      "IEEE Transactions on Instrumentation and Measurement"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ],
+      "date-time": "2026-03-16T20:14:23Z",
+      "timestamp": 1773692063000
+    },
+    "URL": "https://doi.org/10.1109/tim.2026.3674286",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1063/5.0268634",
+    "title": [
+      "Joint compensation of time delay and damping asymmetry errors for whole-angle hemispherical resonator gyroscopes"
+    ],
+    "container-title": [
+      "AIP Advances"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T14:38:57Z",
+      "timestamp": 1767710337000
+    },
+    "URL": "https://doi.org/10.1063/5.0268634",
+    "abstract": "<jats:p>In whole-angle mode hemispherical resonator gyroscope (HRG) systems, time delay and damping asymmetry are critical factors affecting measurement accuracy and long-term stability. Time delay originates from signal acquisition and processing latency, resulting in misalignment between the input angular velocity and the output signal. Damping asymmetry, caused by non-uniform damping distribution within the resonator, further contributes to angle drift bias (ADB). To address these issues, this paper proposes a joint compensation method integrating cross-correlation time delay estimation with a recursive least squares algorithm. The method first estimates the system delay by analyzing the time lag between excitation and output signals, then iteratively identifies damping asymmetry parameters based on angular velocity data. Experimental results show that the proposed method reduces ADB to 1.2132°/h, representing an eightfold improvement over damping-asymmetry-only compensation (9.72°/h) and a 51.5-fold improvement compared to the uncompensated case (62.52°/h). These results underscore the non-negligible impact of time delay and the effectiveness of joint compensation in enhancing HRG performance.</jats:p>"
+  },
+  {
+    "DOI": "10.1109/jsen.2025.3572313",
+    "title": [
+      "Suppression and Compensation of Damping Asymmetry Errors in Whole-Angle Hemispherical Resonator Gyroscope"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          28
+        ]
+      ],
+      "date-time": "2025-05-28T18:11:24Z",
+      "timestamp": 1748455884000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2025.3572313",
+    "abstract": null
+  },
+  {
+    "DOI": "10.21203/rs.3.rs-8837107/v1",
+    "title": [
+      "Novel Bias Drift Mechanism of Whole-Angle Mode Gyroscopes: Oscillatory Rectification Errors"
+    ],
+    "container-title": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": null,
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2026-03-02T06:41:56Z",
+      "timestamp": 1772433716000
+    },
+    "URL": "https://doi.org/10.21203/rs.3.rs-8837107/v1",
+    "abstract": "<title>Abstract</title>\n                <p>This work originally identifies a novel error mechanism, Oscillatory Rectification Errors(ORE), of the whole-angle mode gyroscope (WAMG) under oscillatory rotation and conducts important insights for WAMG based inertial navigation applications. Conventionally, WAMG is widely recognized as an ideal solution for high-dynamic measurement, but this study reveals significant inherent measurement risks in such scenarios with periodic motions.\nThe dominant dynamic equation is firstly solved by using equivalent transformation and superposition principle. The conducted analytical solution clearly proves that the output of WAMG will drift to 3 attraction regions under oscillatory angular rates. There is a complex relation between the final bias state with its initial states, asymmetry parameters, and input signals, but the overall insight is that larger amplitude and lower frequency of oscillatory rotation, larger frequency difference, higher damping anisotropy degree, and less vibration energy will accelerate the drift process.\nThis ORE is fatal for long term inertial navigation applications: the measurement outputs of WAMG will drift to certain bias attraction points under periodic motions. To intuitively demonstrate this phenomenon, a typical high precision hemispherical resonator gyro can drift 5.8156 deg in 60 minutes, which is a severe hazard in navigation missions.</p>"
+  },
+  {
+    "DOI": "10.1109/jsen.2026.3728523",
+    "title": [
+      "Asymmetric Phase-Delay Modeling and Online Compensation for Whole-Angle Micro-Hemispherical Resonator Gyroscopes"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2026-09-03T19:05:47Z",
+      "timestamp": 1788462347000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2026.3728523",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/eftf/ifcs64367.2025.11194677",
+    "title": [
+      "Differential Detection of Doppler-Free Spectroscopy with Modulation Transfer"
+    ],
+    "container-title": [
+      "2025 Joint Conference of the European Frequency and Time Forum and IEEE International Frequency Control Symposium (EFTF/IFCS)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          12
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          12
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2025-10-15T17:34:32Z",
+      "timestamp": 1760549672000
+    },
+    "URL": "https://doi.org/10.1109/eftf/ifcs64367.2025.11194677",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/ccdc65474.2025.11090247",
+    "title": [
+      "Detection Error Compensation Method for Frequency Modulation Hemispherical Resonator Gyro"
+    ],
+    "container-title": [
+      "2025 37th Chinese Control and Decision Conference (CCDC)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          16
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2025-08-05T18:00:15Z",
+      "timestamp": 1754416815000
+    },
+    "URL": "https://doi.org/10.1109/ccdc65474.2025.11090247",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1109/jsen.2026.3658728",
+    "title": [
+      "Compensation of Misalignment Errors in Solid Dielectrics Characterization With Machine Learning-Enhanced Differential Microwave Sensor"
+    ],
+    "container-title": [
+      "IEEE Sensors Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          15
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          15
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          4
+        ]
+      ],
+      "date-time": "2026-02-04T20:49:48Z",
+      "timestamp": 1770238188000
+    },
+    "URL": "https://doi.org/10.1109/jsen.2026.3658728",
+    "abstract": null
+  },
+  {
+    "DOI": "10.1016/j.ast.2025.111283",
+    "title": [
+      "Forgetting filter-based real-time identification and compensation of whole-angle hemispherical resonator gyroscope errors for extensive aerospace applications"
+    ],
+    "container-title": [
+      "Aerospace Science and Technology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          28
+        ]
+      ],
+      "date-time": "2025-11-28T04:35:05Z",
+      "timestamp": 1764304505000
+    },
+    "URL": "https://doi.org/10.1016/j.ast.2025.111283",
+    "abstract": null
+  }
+]

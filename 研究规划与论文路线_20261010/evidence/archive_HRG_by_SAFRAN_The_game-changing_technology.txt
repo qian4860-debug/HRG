@@ -1,0 +1,303 @@
+ARCHIVE: 全角陀螺/HRG_by_SAFRAN_The_game-changing_technology.pdf
+TOTAL PAGES: 4
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+HRG by SAFRAN 
+ The game-changing technology 
+Fabrice Delhaye 
+Safran Electronics & Defense, Boulogne-Billancourt, France 
+fabrice.delhaye@safrangroup.com 
+ 
+ 
+Abstract—Whereas the world inertial navigation community 
+was wondering, for decades, if FOG would ultimately replace 
+RLG, Safran is demonstrating with its HRG that technology 
+prospective is not such an easy game. With its HRG, Safran is 
+proving that the HRG innovative approach is a real game 
+changer in high end navigation. This paper sums up the overall 
+principles of HRG, how it works and its intrinsic properties. 
+Current applications of HRG are described to illustrate how 
+HRG benefits are capitalized in valued-added products. More 
+prospective aspects of the HRG are also addressed with the latest 
+tests results of performance limits exploration.  
+Keywords—Hemispherical Resonator Gyro, Inertial System, 
+Navigation 
+I. HRG PRINCIPLES 
+The Coriolis Vibratory Gyroscopes (CVG) [1] are based 
+upon the following principle: a resonating structure tends to 
+continue to resonate in the same plane even if its support 
+rotates. 
+The HRG is a CVG that follows theses few key principles: 
+• The resonator is perfectly axisymmetric in order to 
+exhibit excellent characteristics in terms of balancing, 
+natural frequency and damping isotropies. In a 
+practical way, the resonator must be finely tuned in 
+order to be perfectly balanced.  
+• The resonator is interfaced to its support through a 
+vibration node in order to ensure an optimal 
+decoupling between the resonator and the outer world.  
+• The flexural waves are controlled through electrostatic 
+forces thanks to electrodes located at immediate 
+proximity of the resonator. 
+• The flexural waves are controlled in Whole Angle 
+mode in order to minimize the requested energy. This 
+mode minimizes the errors induced by the electronics, 
+the detectors and actuators defects. Furthermore, this 
+mode leads to a very good scale factor (based on the 
+Bryan coefficient) and allows high measurement range.  
+The HRG resonator is optimized for performances: 
+• Its topology is a hemispherical shell for optimal 
+contribution of each gram of resonator material to the 
+flexural energy storage. A stem, anchored at the top of 
+the hemisphere, is used to hold this shell. 
+• It is made of amorphous fused quartz for optimal 
+isotropy (no crystallographic direction) and minimal 
+energy dissipation (no internal friction). 
+•  Its metallic coating, requested to create the electrode 
+and ensure electrical continuity, is as thin as possible in 
+order to minimize the energy dissipation inside the 
+metal. 
+As a result of these optimizations, the HRG exhibits 
+outstanding performances. But the most interesting fact is that 
+these performances are not linked to the size of the resonator. 
+They are linked to the quality of the resonator rated through the 
+Q-factor and the quality of the way the flexural waves are 
+driven, therefore from the electronics. 
+The major drawback of the HRG is its manufacturing cost 
+mainly linked to the precise manufacturing and assembly of the 
+electrodes support which must perfectly match the resonator 
+shape in order to create the isotropic hemispherical gap 
+between both parts. Safran solved this drawback with an 
+innovative design [2], the electrodes are deposited on a plan 
+and electrostatic forces are generated on the equatorial plan of 
+the resonator. The assembly of the hemispherical shell and the 
+electrodes plate is a basic 2D issue. 
+ 
+Fig. 1.   Hemispherical electrodes   /          Flat electrodes  
+With its disruptive design, Safran HRG can be 
+manufactured in a cost effective way and makes the intrinsic 
+performances quite affordable for the mass market. 
+ 
+Fig. 2. Safran HRG 
+978-1-5386-0895-1/18/$31.00 ©2018 IEEEAuthorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:28:03 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 2 ---
+II. SAFRAN HRG APPLICATIONS 
+The need for extremely reliable space rate gyro dedicated to 
+AOCS (Attitude & Orbital Control System) is fulfilled by 
+Regys 20 which takes benefit of the natural space radiation 
+hardening of the fused quartz of the HRG resonator. Low 
+angular random walk and ultra-high reliability are the key 
+characteristics of the Safran HRG which are valued. To date, 
+more than 100 gyros have been delivered and no failure or 
+performance degradation is recorded. 
+ 
+Fig. 3. Regys 20 ultra-high reliability HRG space rate gyro unit 
+The need for ultra-lightweight True North Finder for man 
+portable observation and targeting systems was fulfilled by 
+Sterna. Thanks to the excellent bias stability and outstanding 
+random-walk of Safran HRG, Sterna is able to deliver azimuth 
+measurement in less than 100 seconds and has an accuracy up 
+to 0.7 mils. Thanks to the outstanding SWaP (Size Weight and 
+Power consumption) characteristics of Safran HRG, Sterna 
+weighs only 1.8 kg (tripod excluded) and is able to operate for 
+3 days only powered by 4 CR123 cells. 
+ 
+Fig. 4. Sterna ultra lightweight true northfinder 
+The commercial marine market is expecting high reliability, 
+maintenance free, IMO (International Maritime Organization) 
+certified gyrocompass for 24/7 operations. FOG based products 
+are only marginally able to fulfil such a need. BlueNaute was 
+developed in order to address this key requirement. Operational 
+feedback over 5 years and millions of operation hours, exhibits 
+a product MTBF in excess of 250.000 hr. BlueNaute takes 
+benefits of the HRG scalability to address a wide range of 
+performances in order to fulfil more demanding requirements 
+of the Offshore Oil & Gas industry such as Dynamic 
+Positioning. The Titanium version is delivering an azimuth 
+accuracy of 0.1° rms. No wonder that the paramilitary 
+organizations (such as maritime polices and cost guards) make 
+now use of BlueNaute instead of their traditional compass. 
+  
+Fig. 5. BlueNaute Compass and AHRS 
+The military land applications are requesting rugged and 
+compact INS, Sigma 20 takes benefit of the mechanical 
+robustness of Safran HRG to offer a 4.5 kg INS able to meet 
+the requirements for azimuth accuracy up to 1mils rms. 
+ 
+Fig. 6. Sigma 20 HRG based Tactical Land INS 
+For OEM applications, Safran takes benefits of SWaP 
+characteristics of HRG to offer Primus [5] which with its 420 
+grams (0.9 lbs) is by far the lightest navigation grade IMU of 
+the market. 
+ 
+Fig. 7. HRG based Primus IMU 
+Hammer, Safran Air to Ground Weapon, designed for 
+stand-off operations in GPS denied environment, takes benefit 
+of the HRG accuracy to ensure precision strikes at range up to 
+80 km. The high reliability of HRG contributes to the Hammer 
+99 % mission success ratio. Hammer is the main Air to Ground 
+weapon of the Rafale Multirole fighter and is currently in mass 
+production. 
+ 
+Fig. 8. Hammer Weapons, using HRG for guidance 
+Firing accurately on inaccurate coordinates would be 
+nonsense.  Joint Terminal Attack Controllers (JTAC) need on 
+locate theirs targets accurately with theirs man portable target 
+locators and the only dependable way, in GPS-denied 
+environment, is through inertial heading measurement. 
+Therefore the challenge is to design an INS compact enough to 
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:28:03 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 3 ---
+be integrated into a handheld observation multifunction google. 
+The HRG outstanding SWaP  characteristics allowed Safran to 
+design a highly ruggedized PAVAM (Precision Azimuth & 
+Vertical Angle Module) that weights only 420g, consumes less 
+than 5 W and that gives to hand held devices the ability to 
+locate target with the highest accuracy (TLE CAT I ie 6 m 
+CEP90). 
+ 
+Fig. 9. Light weight long range multi-function infrared binoculars 
+To some extent, artillery forward observation vehicles are 
+subject to similar accuracy requirements except they are 
+operating at longer distance from the target and therefore need 
+higher azimuth accuracy. An autonomous inertial position is 
+also a great benefit since, in combat situation, the GPS is most 
+likely jammed. The HRG SWaP allowed Safran to integrate an 
+INS inside the PASEO sight in order to sense the orientation of 
+the line of sight with an accuracy better than 0.5 mils and to 
+deliver a positon with accuracy better than 10 meters in GPS 
+denied environment. 
+ 
+Fig. 10. Paseo modular advanced stabilized sight 
+The commercials airliners are currently using RLG INS, 
+typically in triplex or quadruplex configuration. ARINC 
+704/738 standards define the requested navigation accuracy in 
+pure inertial mode: 2 Nm/h 95 %. This market is always 
+looking for weight saving, higher reliability and lower 
+operation cost. SkyNaute is the Safran answer. This HRG 
+based INS, currently under development, weighs only 3 kg and 
+takes benefit of Safran HRG outstanding reliability to offer 
+disruptive MTBF and ownership cost.  
+Flight tests campaigns exhibited comfortable inertial 
+performances margins. 
+ 
+Fig. 11. SkyNaute HRG INS for Commercial Aircrafts 
+Advanced Space launchers are demanding highly accurate 
+INS especially to place satellite into a supersynchronous 
+elliptical geostationary transfer orbit. Safran HRG is well 
+suitable for this mission since it is able to deliver high accuracy 
+even under the huge vibration level (above 30 g rms) induced 
+by the lightened structure of modern launchers. 
+In 2016, after a deep selection process and analysis of all 
+potential technological solutions, ArianeGroup decided to 
+select Safran SpaceNaute and awarded a development and 
+production contract for the new European space launcher 
+Ariane 6. The first flight is expected in July 2020. SpaceNaute 
+takes also benefit of HRG resonator natural space radiation 
+hardening. SWaP characteristic of Safran HRG allows 
+SpaceNaute to be twice lighter than its closest competitor. 
+Further HRG based INS are also currently under 
+development in order to expand the product portfolio. Some of 
+them will be unveiled later this year. 
+ 
+III. EXPLORING HRG ACCURACY LIMITS 
+In the mass production configuration, Safran HRG has 
+widely proven its ability to fulfil performances requirements 
+usually achieved by optical technologies (RLG and FOG), with 
+better SWaP characteristics, much higher reliability and always 
+in a cost effective way. 
+The Safran HRG design offers quite significant growth 
+potential. Without change in architecture and size, the 
+resonator manufacturing can be further improved for better 
+isotropy and lower damping characteristics. This leads to more 
+refined fused quartz grinding, metal coating and resonator 
+balancing. The digital electronics can take benefit of the 
+semiconductor industry progress (Moore’s law continues to roll 
+on!) in order to design more efficient and sophisticated digital 
+control laws. Such R&T activities already lead to interesting 
+results which are unveiled hereafter. 
+A preliminary assessment of the grade of a gyro can be 
+made through the Allan variance analysis techniques. Angle 
+Random Walk (ARW) and bias instability can be obtained 
+from the plot below. 
+ 
+ 
+Fig. 12. Allan deviation plot of Safran HRG 
+It can be noted that ARW = 0.0002 °/ ¥h and that the test is 
+too short (even if the time requested to collect the requested 
+data was 2000 test hours!) to evidence the bias instability 
+(minimum value not reached over the test time slot). 
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:28:03 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 4 ---
+As Safran HRG works in Whole Angle mode, its scale 
+factor error is intrinsically excellent: 1 ppm is commonly 
+achieved. Recent improvements lead to the following results 
+(fig.13). 
+ 
+Fig. 13. Scale Factor Stability of Safran HRG 
+It can be noted that Scale Factor error can be reduced down 
+to 0.1 ppm (rms). 
+The bias optimization is currently subject to intensive R&T 
+activities. Multiples axes are simultaneous pursued including 
+improvements on control electronics and implementation of 
+more sophisticated calibration/compensation models. Progress 
+perspectives in this area are quite significant and the results 
+obtained on an HRG triad integrated inside a strapdown INS, 
+during year 2017 (fig. 14), are already extremely promising. 
+ 
+ 
+Fig. 14. Biais Stability of Safran HRG 
+It can be noted that Bias Stability of Safran HRG, measured 
+over a 2000 h period, can be reduced down to 0.0001 °/h (rms).  
+It is known that the ultimate performance technology is the 
+Electrostatically Suspended Gyroscope (ESG). Today, R&T 
+studies are conducted on Cold Atoms especially with the aim to 
+replace ESG in the future. From the 80’s, Safran developed 
+ESG and therefore has a deep knowledge how to use it in 
+systems. Inspired by the way ESG short-medium-long term 
+errors are compensated, Safran designed a prototype of 
+navigation system based on its HRG and assessed 
+performances, in operational conditions, at sea. 
+Technical data as well as actual performances are 
+unfortunately classified but it was proven that HRG was able to 
+reach performances ESG actually achieves and Cold Atom 
+gyros are still contemplating. 
+IV. CONCLUSION  
+If the scientific community always regarded the HRG as a 
+premier gyro with outstanding accuracy and reliability 
+characteristics, few anticipated that HRG would be capable to 
+successfully address the mass market. Safran, thanks to 
+innovative design [2] and massive industrial investments, was 
+capable to achieve it. With its 20 mm diameter resonator 
+(fig. 2), Safran is able to address an unmatched range of 
+applications. From very cost effective marine compass to ESG 
+grade strategic submarine navigation, from tripod mounted 
+north finder to space launcher navigation, Safran HRG is able 
+to fulfill needs for accuracy even in harsh environmental 
+conditions and always in a very cost effective way. 
+Safran has proven that HRG is much more than an 
+innovative gyro technology; it is a disruptive technological 
+breakthrough. HRG is a technology not only able to replace 
+RLG and FOG but also to replace ESG as well as the 
+promising Cold Atom technology for ultimate performances 
+level. HRG is therefore able to recompose the inertial gyro 
+technology landscape which could be soon pictured as per the 
+fig 15. 
+ 
+Fig. 15. Future gyro technology applications 
+[1] G. Remillieux, F. Delhaye, Sagem Coriolis Vibrating Gyros: a vision 
+realized, in Proceedings of Karlsruhe Conference on Inertial Sensors and 
+Systems, 2014 
+[2] A. Jeanroy, P. Leger, HRG flat electrodes, Patent US 6474161 
+[3] A. Jeanroy, A. Bouvet, G. Remillieux, HRG and Marine applications, in 
+Proceedings of 20th Saint Petersburg International Conference on 
+Integrated Navigation Systems, 2013 
+[4] Alain Jeanroy, Gilles Grosset, Jean-Claude Goudon, Fabrice Delhaye 
+HRG by SAFRAN - From Laboratory to Mass Production, in 
+Proceedings of Inertial Sensors, 2016 
+[5] PRIMUS : SWAP-oriented IMUs for multiple applications A. Lenoble, 
+T. Rouilleault, in Proceedings of Karlsruhe Conference on Inertial 
+Sensors and Systems, 2016 
+ 
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 17:28:03 UTC from IEEE Xplore.  Restrictions apply. 

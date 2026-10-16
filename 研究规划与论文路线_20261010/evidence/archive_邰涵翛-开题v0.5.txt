@@ -1,0 +1,349 @@
+
+
+哈尔滨工业大学
+
+硕士学位论文开题报告
+
+题 目：半球陀螺信号处理电路关键技术研究
+
+院     （系）        航天学院            
+学        科   微电子学与固体电子学        
+导        师           付强             
+研   究   生          邰涵翛           
+学       号         24S021041          
+开题报告日期          2025/9/13           
+
+
+
+
+
+
+研究生院制
+
+目  录
+ TOC \o "1-3" \h \z \u 1 课题来源及研究背景和意义 PAGEREF _Toc208609500 \h 1
+1.1 课题来源 PAGEREF _Toc208609501 \h 1
+1.2 课题研究的背景和意义 PAGEREF _Toc208609502 \h 1
+2 国内外研究现状 PAGEREF _Toc208609503 \h 2
+2.1 国外研究现状 PAGEREF _Toc208609504 \h 2
+2.2 国内研究现状 PAGEREF _Toc208609505 \h 5
+2.3 国内外文献综述简析 PAGEREF _Toc208609506 \h 7
+3 主要研究内容及研究方案 PAGEREF _Toc208609507 \h 7
+3.1 主要研究内容 PAGEREF _Toc208609508 \h 7
+3.2 研究方案 PAGEREF _Toc208609509 \h 8
+3.2.1 陀螺驱动模态 PAGEREF _Toc208609510 \h 8
+3.2.2 陀螺检测模态和正交矫正 PAGEREF _Toc208609511 \h 9
+3.2.4 环路滤波器 PAGEREF _Toc208609512 \h 10
+3.2.5 锁相环 PAGEREF _Toc208609513 \h 10
+3.2.6 总体系统框图 PAGEREF _Toc208609514 \h 11
+4 已完成的研究工作 PAGEREF _Toc208609515 \h 12
+4.1 半球陀螺表头二维运动学建模 PAGEREF _Toc208609516 \h 12
+4.2 电路结构 PAGEREF _Toc208609517 \h 17
+4.2.1 CV转换器 PAGEREF _Toc208609518 \h 17
+4.2.2 开关电容滤波器 PAGEREF _Toc208609519 \h 19
+4.2.2 锁相环 PAGEREF _Toc208609520 \h 20
+5 预期达到的目标与进度安排 PAGEREF _Toc208609521 \h 24
+6 为完成课题已具备和所需的条件和经费 PAGEREF _Toc208609522 \h 26
+7 预计研究过程中可能遇到的困难和问题，以及解决的措施 PAGEREF _Toc208609523 \h 26
+8 参考文献 PAGEREF _Toc208609524 \h 26
+
+
+
+1 课题来源及研究背景和意义
+1.1 课题来源
+本课题来源于实验室合作项目。 MACROBUTTON MTEditEquationSection2 公式章 1 节 1 SEQ MTEqn \r \h \* MERGEFORMAT  SEQ MTSec \r 1 \h \* MERGEFORMAT  SEQ MTChap \r 1 \h \* MERGEFORMAT 
+1.2 课题研究的背景和意义
+陀螺仪是用于检测物体旋转速率或旋转角度的惯性传感器，在测量运动体的姿态角，如航向、俯仰和滚动，以及角运动方面发挥着至关重要的作用。在现代科技中，陀螺仪已成为惯性导航系统（Inertial Navigation System，INS）和全球定位系统（Global Positioning System，GPS）不可或缺的一部分，它们在汽车的自动驾驶或辅助驾驶系统、飞机的飞行导航系统、卫星精确姿态控制以及石油勘探的地下寻北等应用中扮演着关键角色。
+在众多陀螺仪中，半球陀螺（Hemispherical Resonator Gyroscope,HRG）具有长寿命、高可靠性、高精度的特点，适用于太空应用和石油勘探等应用场景。例如，我国天宫空间站的使用寿命要求至少为10年、北斗卫星导航系统中的单个微型使用寿命需要达到10至12年；石油勘探中，需要利用陀螺仪检测小于1%°/s的角速度信号。在半球陀螺发展历程中，最大也是时间最长的一次应用验证是卡西尼号土星探测器项目，卡西尼号土星探测器利用半球陀螺进行惯性导航在太空中停留了近20年，充分证明了半球陀螺寿命长、可靠性高、精度高以及适应复杂应用环境的卓越性能 ADDIN NE.Ref.{98BD2A3F-DC58-46A1-AD57-5308AB54B3A6}[1-4]。由于国际上半球陀螺仪属于敏感产品，受到西方世界的技术封锁而无法进口，我国从“十五”到“十四五”期间，投入了大量精力研发长寿命、高精度、高可靠性半球陀螺，相关理论和技术也得到了较快的发展。
+半球陀螺基于科里奥利力效应工作，外部旋转时科氏力使半球谐振子发生进动，通过测量动角得到外部旋转的角速度 ADDIN NE.Ref.{F1900208-126F-4548-AD67-F6F1BCFE77D4}[5]。主要结构有半球谐振子、激励电极和检测基座（或压电材料）构成。当处于谐振状态下，半球陀螺可以将受到的角速度转换为半球谐振子的进动，通过测量进动的角度从而检测出外部旋转角度或角速度的大小。上述半球陀螺的工作原理与传统陀螺仪具有较大区别，因此使得其具有如下几个优势 ADDIN NE.Ref.{F82297A0-FF1B-41CF-8173-CE2663143303}[6]：
+高对称性：半球陀螺敏感结构一般为水浴型或高脚杯型，结构高度对称，频率失配以及频率分裂都很小；
+抗干扰能力强：对环境扰动、尤其是空间辐射不敏感，适合于太空应用场景；
+稳定性好：表头自身的角速度增益因子只取决于半球谐振子的几何形状，对材料密度、弹性系数等物理量不敏感，具有工艺稳定性。
+高品质因数（Q值）：半球陀螺的谐振器具有较高的Q值，有些使用多晶硅或石英制作的谐振器Q值可以超过1000万 ADDIN NE.Ref.{7462C89F-A51A-4421-ABD3-3BC7B9886E56}[7]。高Q值意味着能量耗散更小，是低功耗高精度角度检测的关键 ADDIN NE.Ref.{30C65669-95B9-4395-A254-C711AFE6726F}[8]。
+半球陀螺根据将进动转换为电学量的原理划分，可分为压电式和电容式两种。其中电容式半球陀螺使用谐振子周围的金属电极作为激励和检测机构，利用静电力和电容变化导致的电荷变化实现驱动和角度检测输出；压电式半球陀螺由于直接使用谐振器边缘的压电材料作为激励和检测机构，直接通过电荷注入产生压力、通过形变的压力产生电荷，理论具有更高的换能效率，结构紧凑、没有悬浮的活动部件，能承受极高的冲击和振动，在复杂工况下具有更好的适应性，并且压电结构不需要极高真空度的封装，工艺良率也相对较高。虽然压电式半球陀螺Q值与理论上的极限精度低于电容式，但压电式半球陀螺在稳定性、使用寿命、成本以及工况适应性等方面的绝对优势使其成为目前工程应用的主流方案。
+根据驱动模式，可分为全角（速率积分）和力平衡（速率）两种。速率积分模式下，通过驱动电极周期性变化使半球谐振子旋转，驻波停留在任意方位角的位置，通过检测驻波方位角而直接测量角运动，该模式下陀螺的测量范围很大、但是控制电路和检测算法更加复杂，而且谐振子转动时会产生与转动速率有关的正弦扰动，传统PID算法并不能对其进行有效消除、并且可能会存在测试精度与使用精度不一致的问题 ADDIN NE.Ref.{7A5E340F-E34D-4C07-9413-F48D11A24170}[9, 10]。速率模式下，可通过数学方法计算出等效的二维弹簧振子模型 ADDIN NE.Ref.{6A76C78A-27CC-4B80-984E-D753596B6A9F}[11]，可以搭配传统MEMS陀螺测控电路使用。
+2 国内外研究现状
+2.1 国外研究现状
+美国在半球陀螺领域具有领先地位。美国最早的半球陀螺专利出现在1970年，Delco公司申请了酒杯型半球谐振器Block 10 HRG专利，并在美国海军的支持下于1975年研制出了性能更高的Block 20HRG，零偏稳定性优于1°/h。随后的1983年，Delco公司又推出了性能更高的Block 30 HRG双基振子半球陀螺，Block系列产品如图2-1所示 ADDIN NE.Ref.{4827F242-83A5-47AA-A2D6-F220829BDF29}[12, 13]。此后，以飞机导航用惯性导航系统为目标的HRG158Y研制成功，由德国汉沙航空公司飞行测试验证通过。在1991年，波音747飞机上成功采用了基于半球陀螺的惯导系统，连续飞行3000小时无故障。 REF _Ref208330318 \h 图2- 1所示为Block系列半球陀螺的实物照片。 MACROBUTTON MTEditEquationSection2 公式章 (下一章) 节 1 SEQ MTEqn \r \h \* MERGEFORMAT  SEQ MTSec \r 1 \h \* MERGEFORMAT  SEQ MTChap \h \* MERGEFORMAT 
+
+图2-  SEQ 图2- \* ARABIC 1 Block系列半球陀螺 ADDIN NE.Ref.{FB0E455F-8938-43F1-9676-30FD8F65BCD0}[12, 13]
+1995年，Draper实验室对HRG130Y进一步升级，并在1996年正式应用在太空项目中，在15年中的任务成功率高达99.8%。由于表现良好，此后NEAR小行星登陆、CASSINI土星环绕任务、詹姆斯韦伯太空望远镜等项目的惯导系统都采用了基于HRG130Y的空间惯性基准单元（Space Inertial Reference Unit, SIRU）。2002年，Northrop Grumman公司量产了HRG130Y的改进型号HRG130P，该型号采用数字电路控制，零偏稳定性为0.0005°/h，角度随机游走小于0.0003°/√h。截至到2018年，超过125套半球陀螺系统在空间飞行超过4000万小时，100%任务成功，充分证明了半球陀螺极高的可靠性 ADDIN NE.Ref.{110F38A3-5234-4696-907F-DB8869C847F3}[14]。
+2012年，密西根大学J.A.Gregory等人提出了一种基于FPGA的全数字半球陀螺控制系统，如 REF _Ref208330289 \h 图2-2所示。该系统在每个控制参数之间都有一个IIR滤波器和PID控制器被多路复用，通过半球陀螺力反馈模式工作，实现了驱动幅度控制、检测力反馈和正交补偿。陀螺零偏稳定性为203°/h，角度随机游走2.6°/√h ADDIN NE.Ref.{2AEE84F7-5892-4661-9C13-5E737AD8018F}[15]。
+
+图2- SEQ 图2- \* ARABIC 2 密西根大学基于FPGA的全数字HRG控制系统 ADDIN NE.Ref.{0EC27F19-63F7-40DE-8A35-F3924D7B0262}[15]
+2013年，密西根大学的Najafi和J.Cho等人又利用三闭环系统对一种高Q值半球陀螺进行了性能评估，包括幅度控制环路、正交反馈环路以及检测力平衡环路。幅值控制环路应用了自动增益控制器和锁相驱动方案，分别提供幅度控制信号和相位频率控制信号，通过调制反馈实现驱动；正交和力平衡反馈环路使用相同的调制解调原理，并通过加法器将两路信号相加反馈实现闭环。该控制算法采用了苏黎世仪器公司的HF2LI锁相放大器，如 REF _Ref208330276 \h 图2-3所示。最终测试零偏稳定性为1°/h，角度随机游走0.106°/√h ADDIN NE.Ref.{C0BE1D00-A404-4142-A8AD-ABD8BAE318AE}[16]。
+
+图2- SEQ 图2- \* ARABIC 3 密歇根大学三闭环微半球陀螺系统 ADDIN NE.Ref.{5CE14ECE-294D-45A7-B198-977E7D0AC633}[16]
+2016年，韩国的Jungshin Lee等人提出了一种两片式HRG微分控制算法如 REF _Ref208330256 \h 图2-4所示，有效消除了共模干扰。该控制系统分为锁相环路、幅度环路、正交环路和速率控制环路四个闭环，各个控制环路均基于数字PI控制器设计，并通过了FPGA板级验证。最终测试结果表明，该控制系统配合半球陀螺零偏稳定性达到0.07°/h，角度随机游走0.006°/√h ADDIN NE.Ref.{F88D0506-2FE5-48A1-8CC8-B2B141523CBB}[17]。
+
+图2- SEQ 图2- \* ARABIC 4 J.Lee提出的两片式HRG微分控制算法 ADDIN NE.Ref.{1064D50F-C00E-4280-B832-AC77DB0E3ED8}[17]
+2017年，Medicon公司研制出了新一代微型积分速率HRG，命名为HRG-30ig。测试结果表明，室温下零偏稳定性小于0.005°/h，角度随机游走小于0.003°/√h。该研究中为了更快实现驱动起振、减小达到适当的驻波抑制和正交抑制所需的时间，提出了多通道数字单元和创新型算法，实际激励时间小于3秒、测量前的稳态建立时间在25~30秒内 ADDIN NE.Ref.{8B84BD21-9C2C-4F21-BDA7-6C44D8B90ADB}[18]。
+2018年，法国的Sagem公司开始研发HRG双核自校准技术，并在之后推出了Black OnyxTMDual Core。该型号半球陀螺利用双核自校准技术将零偏稳定性提高到了0.00001°/h的水平，已经与静电陀螺相当，且成本仅为激光陀螺的三分之一 ADDIN NE.Ref.{361DF31C-4A22-4356-AE9D-C7A57E1ADB3F}[19]。
+2.2 国内研究现状
+国内对半球陀螺的研究起步相对较晚，大约在20世纪80年代后期，国内才逐渐开始半球陀螺的研发工作。国内杂志最早关于半球陀螺的报道出现在1985年的《导航》杂志，引起了多家单位的关注。2000年前后是国内半球陀螺技术快速发展的第一阶段，这一时期内，作为中坚力量的四川压声与声光技术研究所引入了俄罗斯技术，初步掌握了半球结构的谐振子机械加工、真空封装和振动测试等技术，截至2003年，该所成功研制了两批力平衡模式半球陀螺样机，初步解决了国内半球陀螺自主研发的困境 ADDIN NE.Ref.{0B7A2EC4-A2AC-4767-8DF6-7B64ED512702}[20]。
+2013年，北京大学提出一种数模混合的半球陀螺控制系统，并被诸多陀螺系统借鉴。该系统使用了电荷泵锁相环实现驱动环路的相位控制，结合数字电路中的算法实现了0.004°的相位分辨率以及85°到95°的相位控制范围；同时使用了开环检测的系统结构，通过前级CV、模拟放大和ADC之后产生14位数字信号，并在数字域中进行解调滤波等操作得到输出角速度信号。其系统框图如 REF _Ref208330215 \h 图2-5所示 ADDIN NE.Ref.{FDBC4683-EC87-46FF-9F0F-F9DE308D6EC4}[21]。
+
+图2- SEQ 图2- \* ARABIC 5 北京大学基于电荷泵锁相环的闭环控制系统 ADDIN NE.Ref.{F1C1A91B-DED8-4022-9C76-323BE11821C7}[21]
+2014年，中电26所开发了一种半球陀螺全数字控制系统，基于数字信号处理和FPGA实现了力平衡模式下半球陀螺全数字电控策略。该系统中不需要高精度的移相器和锁相环，所有相位控制方案都由软件算法实现，电路复杂度大大降低。其算法框图如 REF _Ref208331648 \h 图2-6所示，测试结果表明，该控制系统配合半球陀螺零偏稳定性优于0.02°/h ADDIN NE.Ref.{13447245-6297-42AC-8EAD-41B91CE0B8CD}[22]。
+
+图2- SEQ 图2- \* ARABIC 6 中电26所软件框架 ADDIN NE.Ref.{6C869506-CB06-4967-8568-20A11CD5D2FF}[22]
+2016年，上海交通大学提出一种压电式半球陀螺，引用体声波的简并形态，利用压电检测技术检测陀螺运动状态，实现角速度测量功能。该研究中采用了闭环驱动与开环检测方案，均使用纯模拟电路实现，总体系统架构如 REF _Ref208332971 \h 图2-7所示。利用差分电极实现了共模信号的去除，通过调相电路实现90°相移解调，最终使半球陀螺稳定工作与90kHz的频率下。 ADDIN NE.Ref.{F647B33F-3C5F-4762-A8E1-5B4E1F4BB745}[23]
+
+图2- SEQ 图2- \* ARABIC 7 上海交通大学压电半球谐振微陀螺仪控制系统原理框图 ADDIN NE.Ref.{F35AD476-212F-4DA2-B09D-5DCB121E6881}[23]
+2020年哈尔滨工业大学提出一种力平衡模式下全闭环半球陀螺控制系统，采用数模混合架构，由驱动闭环和检测闭环两个部分组成，用于精确识别补偿谐振子变形、检测误差和品质因数不均匀引起的输出误差。此研究中构建了半球陀螺驱动环路的动力学方程，构建出了驱动和检测环路系统模型，并利用FPGA进行了板级验证，零偏稳定性达到0.0275°/h ADDIN NE.Ref.{72EAE442-87B5-440B-A227-DE03FD69EF2A}[24]。
+
+
+图2- SEQ 图2- \* ARABIC 8 哈尔滨工业大学HRG数字闭环系统框图 ADDIN NE.Ref.{14A95144-8811-4A69-B2DD-5CE8A4F5D7B2}[24]
+2022年东南大学提出一种半球陀螺全角模式分时复用测控系统，如 REF _Ref208334450 \h 图2-9所示。该系统具有多个由FPGA控制的模拟开关，控制陀螺电极在激励、读出、卸荷三种状态之间循环切换。系统架构中主要包含幅度、正交、相位控制闭环，并使用静电负刚度效应设计了频差抑制闭环，测试结果验证了该系统设计的可行性，连续控制环路和分时复用系统共同实现了半球陀螺全角工作模式的功能。最终验证零偏稳定性达到4.33°/h，角度随机游走为0.851°/√h ADDIN NE.Ref.{5737CE03-E07C-4AD8-948C-EF2DE836B9BB}[25]。
+
+图2- SEQ 图2- \* ARABIC 9 东南大学半球陀螺全角模式分时复用测控系统框图 ADDIN NE.Ref.{CE1BCDA9-A36A-455B-ACEB-9403CFDFF5EC}[25]
+2.3 国内外文献综述简析
+综上，半球陀螺已经成为了高性能陀螺研究的热点。国内外的半球陀螺主要在火箭制导、航空航天、船舶等领域应用，这些领域通常对小型化的追求不高，但是要求系统极高的稳定性以及较长的使用寿命，同时低成本也是该领域的研究方向之一。
+国外对于半球陀螺的研究起步很早，并且主要从军用的应用场景开始研发，逐步进行量产型号和系列产品的探索；之后再逐步下放到民用领域，以小型化、批量化和低成本为目标开拓更广泛的市场，例如飞机导航、石油勘探等，目前在尖端型号和低成本市场中均有较好的表现。
+我国在此领域的研究起步较晚，在零偏稳定性、角度随机游走等性能指标上与国外最高水平有着两个数量级左右的差距，并且工艺上也并不成熟，成功应用并通过时间检验的案例相对较少。对半球陀螺的误差建模、测控电路、微弱信号处理等方面的关键技术上也有待进一步研究。
+3 主要研究内容及研究方案
+3.1 主要研究内容 
+利用实验室现有资源，本课题将完成半球陀螺信号处理电路的关键技术研究，主要包含以下几个方面： MACROBUTTON MTEditEquationSection2 公式章 (下一章) 节 1 SEQ MTEqn \r \h \* MERGEFORMAT  SEQ MTSec \r 1 \h \* MERGEFORMAT  SEQ MTChap \h \* MERGEFORMAT 
+半球陀螺力平衡模式基本理论和建模
+首先理解半球陀螺的基本结构。半球陀螺的检测机构，其物理结构和检测原理与其他微机械陀螺存在很大差别，对半球陀螺的基本结构有所了解才能更好地对半球陀螺进行理论分析与建模，以便更好地了解其工作原理和误差来源。
+其次进行半球陀螺的理论分析和建模。半球陀螺工作在力平衡模式中，基于对半球陀螺结构的理解，可将其从三维简化到二位振动模态，从而参考经典MEMS陀螺的动力学模型建立半球陀螺的二维动力学模型，并根据半球陀螺的动力学模型分析半球陀螺谐振子的误差来源，从而才能够尝试建立误差传递模型。
+半球陀螺测控系统的系统级设计和验证
+半球陀螺驱动、检测、正交三闭环系统级设计。驱动模态主要基于巴特豪森判据，利用自动增益控制器和调制原理实现半球陀螺在驱动模态上的自激振荡，需根据表头的特点建立对应的闭环驱动系统模型；检测和正交环路均采用力反馈的方式，通过PID控制器、调制解调原理和模拟加法器实现两个相位互相正交的闭环的稳定工作，因此也需要建立对应的系统模型，并通过传递函数分析环路的稳定性。
+环路滤波器选取和设计。针对多模态表头（除主谐振峰以外，还存在其他谐振频率，通常与工艺误差有关），需要针对性地设计滤波器来控制其谐振频率，可选的有无源滤波器、有源滤波器、开关电容滤波器等，不同种类和结构的滤波器有不同的特性，需要根据应用场景选取合适的结构。
+半球陀螺测控系统的电路实现
+ 设计与表头相匹配的驱动闭环、检测闭环和正交闭环的接口电路。需要设计和实现的电路包括CV转换电路、自动增益控制电路、PID控制器、锁相环、模拟乘法器、滤波器以及各部分涉及到的运放等。为低噪声需求，需要着重设计CV转换电路中的低噪声运放、较低相位噪声的锁相环等单元电路。
+以上电路并非既有固定方案，需要经过广泛的调研，并针对本课题中测控系统的实现情况选定合适的电路结构。
+3.2 研究方案
+3.2.1 陀螺驱动模态
+本课题中的半球陀螺驱动模态闭环采用自激驱动原理，电路中主要使用自动增益控制器与非线性乘法器，在满足巴特豪森判据前提下利用初始上电的噪声实现驱动模态的起振与频率对准。
+在驱动模态中，陀螺驱动输入的驱动力与位移输出相位差为90°，而位移与速度信号相差90°，可以使用跨阻放大器作为CV直接得到相位与速度相位相同的电压信号，以节省了一个90°移相器，在电路中作反相即可满足相位的起振条件；利用自动增益控制器，当振幅检测较小时调整环路增益大于1，达到振幅目标值后调整环路增益等于1，以满足稳幅震荡的条件。
+驱动闭环系统框图如 REF _Ref208389633 \h 图3-1所示，谐振状态下，驱动模态上谐振子位移变化引起检测电极上电荷量变化，通过CV转换电路转化为电压信号，经过幅值检测电路进入自动增益控制器（包含PI控制器和可变增益放大器VGA），闭环增益由自动增益控制器控制，当振动幅度大于参考值Vref时减小驱动力，反之则增大驱动力，直到驱动幅值等于参考值Vref。
+
+图3- SEQ 图3- \* ARABIC 1 半球陀螺驱动闭环
+3.2.2 陀螺检测模态和正交矫正
+半球陀螺正常工作时，外加角速度引起的科里奥利力施加到检测轴引起检测轴振动，使得检测电极上的电荷发生变化，使用CV转换电路可将这种变化转化为电压信号，再通过解调后得到科氏力信号。环路中主要使用PI控制器进行增益补偿，使用参考信号进行调制后得到频率为陀螺谐振频率的信号，相位与参考信号的相位相同，最终反馈回表头中。该方法称为力反馈闭环。
+由于加工工艺误差，半球陀螺的谐振子刚度不均匀、模态之间存在弹性耦合刚度，导致检测模态出现正交误差。刚度不均匀的程度越大，正交误差越大，同时也意味着检测模态和驱动模态的频差越大。本课题中的半球陀螺谐振子频差可控制在100mHz以内，因此正交闭环采用力反馈方式即可实现误差校正，不需要额外的正交反馈电极和额外的模态匹配电路。
+检测模态和正交矫正闭环系统框图如 REF _Ref208403912 \h 图3-2所示，以驱动CV跨阻运放输出信号的相位为零相位（即陀螺驱动模态的速度信号相位为零相位），由于半球陀螺的模态匹配特性，检测模态的位移与反馈驱动力也有90°的相位差，因此电路中需要额外引入90°移相以构成负反馈，可在调制解调部分实现，具体表现为解调信号与调制信号相差90°相位。这一组调制解调信号可以来自锁相环，因此能保证精准的相位控制。
+
+图3- SEQ 图3- \* ARABIC 2 半球陀螺检测和正交闭环
+3.2.4 环路滤波器
+由于课题中所涉及到的半球陀螺中的谐振子存在多谐振峰，表头在多个频点处均有较高的增益，而只有所期望的谐振频率点上表头才具有正常的功能，若不加以频率选择会导致陀螺可能无法在所期望的频率点处谐振。
+从巴特豪森判据入手，环路增益由陀螺驱动模态的增益与电路增益共同决定，为保证每次上电后陀螺均在所期望的频率处谐振，需要保证电路增益最大时只有所期望的频点处环路增益大于1、其他谐振峰的频点处环路增益小于1，同时在主谐振峰处的相移接近于0。这与带通滤波器的特性相同，因此可以在环路中添加一个中心频率固定的带通滤波器（BPF）以达到目的，在前两节的系统框图中有所体现。后文中称所期望的谐振峰为主谐振峰，对应频率为主频率。
+带通滤波器有多种形式，考虑到系统中存在锁相环、且带通滤波器的中心频率应跟随陀螺主谐振峰变化，而锁相环的时钟在调节范围内也应该严格按照所设置的倍频关系跟随主谐振峰的变化，因此可以考虑利用锁相环产生的时钟设计一个开关电容滤波器达到目的。
+    开关电容滤波器（SCF）利用开关电容电路等效阻抗与固定电容共同实现实现RC滤波，对于一个开关电容电路来说，设电容值为，开关时钟频率为，则等效出的阻抗（实际上是电阻）的值R如式 GOTOBUTTON ZEqnNum546220  \* MERGEFORMAT  REF ZEqnNum546220 \* Charformat \! \* MERGEFORMAT (3-1)，与该阻抗形成一个极点的电容值为，且与成比例，比例系数n如式 GOTOBUTTON ZEqnNum966086  \* MERGEFORMAT  REF ZEqnNum966086 \* Charformat \! \* MERGEFORMAT (3-2)，则最终该极点频率如式 GOTOBUTTON ZEqnNum863691  \* MERGEFORMAT (3-3)。只要控制好电容的比值，极点位置就只与时钟频率有关，该时钟频率由锁相环产生、严格跟随陀螺仪谐振频率的倍频，因此在表头谐振频率变化时极点位置也随之变化以保持相对位置不变。
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (3-1)
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (3-2)
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (3-3)
+3.2.5 锁相环
+锁相环用于为系统提供高频时钟（例如后续涉及到的滤波器等），并提供精确的零相位和正交相位时钟。为了实现高集成设计，本课题所设计的锁相环中使用有源滤波器代替电荷泵结构，如 REF _Ref208426419 \h 图3-3所示。
+
+图3- SEQ 图3- \* ARABIC 3 锁相环系统框图
+考虑到本设计中开关电容滤波器的时钟来自于锁相环，因此同样的设计参数下，初始上电时的滤波器传递函数完全取决于锁相环的输出时钟频率。需要保证该频率下滤波器的传递函数满足上一节所说的巴特豪森判据，即主谐振峰处增益大于1、其余谐振峰处增益小于1，且主谐振峰处的环路相移应保证尽量接近于0。
+根据工程经验，最大能允许的相移应不大于30°，否则可能会导致驱动模态起振时间长或无法起振，需设计一种可调节初始频率的锁相环以达到目的。可以预见的是，为了保证距离主谐振峰较近的谐振峰处增益衰减足够大，可能需要阶数比较高的带通滤波器提供更快的滚降，这也会导致通带两侧更多的共轭极点、通带内相位变化更为剧烈，这意味着即使初始时钟频率偏移较小的时候也会导致很大的相位偏差，很有可能使主谐振峰频率处不满足巴特豪森判据，增加滤波器阶数将对锁相环的设计提出更严格的要求，在实际设计中应折中考虑。
+3.2.6 总体系统框图
+课题所设计的总体系统框图如 REF _Ref208563545 \h  \* MERGEFORMAT 图3-4所示，系统采用5V电源电压供电，由CV转换电路、自动增益控制电路、调制解调电路、低通滤波电路、锁相环电路、开关电容滤波器电路构成，使用检测PI控制器输出作为最终的模拟输出信号。
+完整的半球陀螺三闭环系统框图如 REF _Ref208563545 \h  \* MERGEFORMAT 图3-4所示。
+
+图3- SEQ 图3- \* ARABIC 4 完整的三闭环系统框图
+4 已完成的研究工作
+4.1 半球陀螺表头二维运动学建模
+半球陀螺基于半球形谐振子振动时的科氏力效应工作，理想情况下半球谐振子的剖面图是一个圆形，谐振子振动时候驻波在球壳表面在与轴线垂直的平面上传播，在剖面图上表现为沿着圆的切线方向，根据驻波的波腹与波节数量可分为n=1、n=2、n=3的振型，如 REF _Ref208532703 \h 图4-1所示。其中n=2的二阶振型表现为4波腹、4波节，是本课题中的陀螺振型。 MACROBUTTON MTEditEquationSection2 公式章 (下一章) 节 1 SEQ MTEqn \r \h \* MERGEFORMAT  SEQ MTSec \r 1 \h \* MERGEFORMAT  SEQ MTChap \h \* MERGEFORMAT 
+
+图4- SEQ 图4- \* ARABIC 1 半球陀螺常见的三种振形（n=1,2,3）
+本课题中的半球陀螺谐振子周围的电极分布如 REF _Ref208609072 \h 图4-2所示，在竖直和水平方向上相对的一对电极分别是驱动模态的驱动位移检测端和驱动反馈电极，两个45°的方向上则分别是检测位移检测端和检测反馈电极，谐振子自身的电位应接地或参考电平。
+
+图4- SEQ 图4- \* ARABIC 2 半球陀螺谐振子电极分布
+下面以二阶振型为例说明其工作原理，如 REF _Ref208533486 \h 图4-3。谐振子受到激励产生谐振,在无角速度输入时处于二阶振型，产生了唤醒波数为2的驻波，波腹和波节的位置保持不变。关注四个波腹的位置，假设分别为A、B、C、D，其速度分别为VA、VB、VC、VD。当角速度方向沿垂直于平面向外的方向输入，即当整个系统在平面上逆时针旋转时，在波腹的位置A、B、C、D处产生了科氏加速度aA、aB、aC、aD，相应的惯性力为FA、FB、FC、FD，方向与对应科氏加速度的方向相反。在球壳接近于完全对称的情况下，VA、VC与VB、VD大小不同，因此惯性力FA、FB、FC、FD不等，两组力偶FA-FB和FC-FD不为0，使得驻波的波腹在惯性空间发生进动。波腹轴的进动量与输入角速度大小成正比，可通过检测电极检测波腹相对于ABCD位置的进动量，解算出输入的角速度大小。
+
+图4- SEQ 图4- \* ARABIC 3 半球陀螺二阶振动模态
+如 REF _Ref208602580 \h  \* MERGEFORMAT 图4-4所示为理想半球陀螺谐振子的曲面坐标系，{xr,yr,zr}为空间坐标系，{u,v,w}为球壳上一点P处的笛卡尔坐标系，当半球谐振子在周向谐波数n的振型时，球面上任意一点P的位移可以分解为沿径向w的位移、沿母线方向u的位移和沿环向v的位移，其表达式如式 GOTOBUTTON ZEqnNum771659  \* MERGEFORMAT  REF ZEqnNum771659 \* Charformat \! \* MERGEFORMAT (4-1) ADDIN NE.Ref.{F0B11560-4F79-4F94-B5A7-1B18AE14FC1E}[26] ：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-1)
+其中x(t)、y(t)是位移的函数，Uφ、Vφ、W(φ)是振型函数。当有角速度输入时振型不变，考虑位移函数x(t)、y(t)，可将半球陀螺等效为二阶阻尼系统。曲面坐标系与等效的二阶阻尼系统如 REF _Ref208602580 \h  \* MERGEFORMAT 图4-4所示。其中m为理想质量块的质量，kx和ky分别为x方向和y方向弹簧弹性系数，bx和by为弹簧机械阻尼，Ω是沿z轴方向的旋转速度，x、y是质量块在x轴和y轴上的位移。在之后的计算中认为x轴为驱动模态，y轴为检测模态。
+不考虑模态耦合，由牛顿第二定律可知半球陀螺位移函数的力学方程如式 GOTOBUTTON ZEqnNum127307  \* MERGEFORMAT  REF ZEqnNum127307 \* Charformat \! \* MERGEFORMAT (4-2)：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-2)
+
+                         (b)
+图4- SEQ 图4- \* ARABIC 4 半球陀螺力学模型
+式 GOTOBUTTON ZEqnNum127307  \* MERGEFORMAT  REF ZEqnNum127307 \* Charformat \! \* MERGEFORMAT (4-2)中，fx为驱动力，fy为检测反馈力，η’为向心力增益系数，η为进动系数，不考虑模态耦合时，式 GOTOBUTTON ZEqnNum127307  \* MERGEFORMAT (4-2)可变为
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-3)
+现在假设检测开环，则反馈力只有fx，驱动激励为正弦信号，令fx=Fdsinωdt，可进一步简化式 GOTOBUTTON ZEqnNum936819  \* MERGEFORMAT (4-3)得到式 GOTOBUTTON ZEqnNum742957  \* MERGEFORMAT  REF ZEqnNum742957 \* Charformat \! \* MERGEFORMAT (4-4)
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-4)
+其中，ωx=kxm是谐振子驱动模态的谐振频率，ωy=kym是谐振子检测模态的谐振频率，根据品质因数的定义，Qx=mxωxbx、Qy=myωyby分别为驱动模态和检测模态的品质因数。
+求解式 GOTOBUTTON ZEqnNum742957  \* MERGEFORMAT (4-4)可得x(t)的解析解如式 GOTOBUTTON ZEqnNum297705  \* MERGEFORMAT  REF ZEqnNum297705 \* Charformat \! \* MERGEFORMAT (4-5)：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-5)
+其中Ax1、Ax2、Ax3均为与驱动模态谐振频率ωx、反馈驱动力Fd及其频率ωd和驱动模态Q值有关的多项式，具体表达式如式 GOTOBUTTON ZEqnNum446555  \* MERGEFORMAT (4-6)所示。
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-6)
+式 GOTOBUTTON ZEqnNum297705  \* MERGEFORMAT (4-5)的稳态解如式 GOTOBUTTON ZEqnNum597717  \* MERGEFORMAT (4-7)，由于驱动模态使用闭环技术，驱动反馈力的频率与谐振频率相等，则式可以化简为式 GOTOBUTTON ZEqnNum251676  \* MERGEFORMAT (4-8)。
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-7)
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-8)
+将化简后的式子代入式 GOTOBUTTON ZEqnNum742957  \* MERGEFORMAT (4-4)中可以解算出检测模态的振动方程如式 GOTOBUTTON ZEqnNum921618  \* MERGEFORMAT  REF ZEqnNum921618 \* Charformat \! \* MERGEFORMAT (4-9)，其中右侧物理量为质量块受到的力，在这里是由于角速度输入产生的科氏力。
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-9)
+对上式求解得到y轴运动方程为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-10)
+其稳态解为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-11)
+式 GOTOBUTTON ZEqnNum160857  \* MERGEFORMAT (4-10)和式 GOTOBUTTON ZEqnNum619272  \* MERGEFORMAT  REF ZEqnNum619272 \* Charformat \! \* MERGEFORMAT (4-11)中：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-12)
+综合式 GOTOBUTTON ZEqnNum446555  \* MERGEFORMAT (4-6)、式 GOTOBUTTON ZEqnNum251676  \* MERGEFORMAT (4-8)、式 GOTOBUTTON ZEqnNum619272  \* MERGEFORMAT (4-11)、式 GOTOBUTTON ZEqnNum717459  \* MERGEFORMAT (4-12)，可整理得：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-13)
+可以根据式 GOTOBUTTON ZEqnNum744590  \* MERGEFORMAT (4-13)计算出半球陀螺的机械灵敏度为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-14)
+在检测闭环工作模式下，检测力反馈抵消半球陀螺的进动位移，因此在有效控制范围内（主要受电源电压影响，更高的电源电压可以允许更大的正弦反馈幅值，从而产生更大的反馈力）施加在反馈电极上的反馈力与科氏力大小相等、方向相反：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-15)
+在力平衡工作模式下，反馈正弦信号可以作为陀螺输出；而该信号由检测PI输出经过调制产生，载波的幅值一定，包络即反馈信号的幅值取决于PI控制器的输出电平，因此也可以使用PI控制器的输出电平直接作为角速度检测输出信号（一般为了保证更好地消除解调后的高频分量，需要额外加一级低通滤波器）。
+半球陀螺的正交误差（也称频率裂解）是影响精度的核心误差 ADDIN NE.Ref.{713B9336-21FD-4DE2-AB01-6E012AB91D8D}[27]，主要源于半球结构的非理想对称性导致旋转对称性破坏，原本应正交的驱动和检测两个模态的简并状态分裂，导致频率裂解，二者的频率之差称为频差，两个方向上的驻波会产生误差方位角 ADDIN NE.Ref.{52DEDD96-4D41-4EBE-B24E-4FE79865E345}[28]。等效到二维模型中，会导致两模态之间的刚度耦合 ADDIN NE.Ref.{1CEF285C-F5CA-4536-A9D1-3191B837E212}[29]。除此之外，在装配时定位柱的歪斜也会导致谐振子相对于基座存在非理想位姿也会导致此类问题 ADDIN NE.Ref.{132F235F-EC88-4BC9-B2D8-0A59BEDA5AC9}[30]。
+当存在工艺误差导致的两模态刚度不同时，设驱动模态位移为
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-16)
+耦合为刚度耦合，耦合系数为kxy，则正交耦合力为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-17)
+将式 GOTOBUTTON ZEqnNum890753  \* MERGEFORMAT  REF ZEqnNum890753 \* Charformat \! \* MERGEFORMAT (4-17)代入到式 GOTOBUTTON ZEqnNum921618  \* MERGEFORMAT (4-9)等号右端，可计算出正交耦合力作用在陀螺检测模态时产生的输出为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-18)
+与式 GOTOBUTTON ZEqnNum744590  \* MERGEFORMAT  REF ZEqnNum744590 \* Charformat \! \* MERGEFORMAT (4-13)中的y(t)对比，可以发现正交刚度耦合导致的位移与科氏力导致的位移相差90°相位，在理想情况下该信号可以通过相敏解调加低通滤波的方式去除，如式 GOTOBUTTON ZEqnNum807492  \* MERGEFORMAT  REF ZEqnNum807492 \* Charformat \! \* MERGEFORMAT (4-19)：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-19)
+但在实际用于解调的信号会与驱动轴的位移相差一个微小的相位差，该相位差会使正交误差信号部分泄露到检测闭环中，如式 GOTOBUTTON ZEqnNum550202  \* MERGEFORMAT  REF ZEqnNum550202 \* Charformat \! \* MERGEFORMAT (4-20)：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-20)
+其中(Ad/2)sinφ分量不能通过滤波去除，当相位差φ是一个随着时间变化的函数时，正交误差除了会增大零位以外还会引入额外的噪声因素。因此，大多数情况下陀螺的零位变大时信噪比都会有所劣化。
+4.2 电路结构
+4.2.1 CV转换器
+常见的CV转换器有电荷放大器、跨阻放大器和开关电容积分器。跨阻放大器的输出信号容易受到运放输入端对地寄生电容的影响；开关电容积分器会引入开关时钟噪声，同时需要配置时钟电路，电路实现更加复杂。在驱动模态，为了便于在电路上实现90°移相，采用跨阻放大器进行CV转换，节省了额外的90°移相器；而在检测轴，为了实现高精度的电容检测，采用电荷放大器作为信号提取电路。
+电荷放大器实现了电容到电压的转换。电荷放大器的结构如 REF _Ref208557502 \h 图4-5所示，半球陀螺检测电极上压电材料的电荷变化可等效成一个电流输入，若运放栅极存在对地寄生电容Cg，这里默认运放输入为MOS管的栅极，则运放的负相输入端是一个电荷守恒的节点；通常选择电阻R为几百M欧的量级，R≫1ωC1，因此输出信号的表达式可写为如式 GOTOBUTTON ZEqnNum780297  \* MERGEFORMAT  REF ZEqnNum780297 \* Charformat \! \* MERGEFORMAT (4-21)。输出信号与注入电流成正比，而根据式 GOTOBUTTON ZEqnNum683435  \* MERGEFORMAT  REF ZEqnNum683435 \* Charformat \! \* MERGEFORMAT (4-22)，注入电流是注入电荷对时间的导数，在S域中表示为电荷变化量的S域函数与s的乘积。
+
+图4- SEQ 图4- \* ARABIC 5 电荷放大器
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-21)
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-22)
+将式 GOTOBUTTON ZEqnNum683435  \* MERGEFORMAT (4-22)代入到式 GOTOBUTTON ZEqnNum780297  \* MERGEFORMAT  REF ZEqnNum780297 \* Charformat \! \* MERGEFORMAT (4-21)，可得到：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-23)
+输出电压与注入电荷量Q线性相关。在半球陀螺敏感电极的设计上，压电材料的注入电荷量Q在一定范围内与三维模型中的进动量、二维模型中的质量块位移线性相关，因此输出电压与质量块位移线性相关，且输出电压的相位与质量块位移的相位相同。
+在驱动模态上，采用跨阻放大器，如 REF _Ref208559492 \h 图4-6所示。根据相同的计算，可计算出输出电压的表达式为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-24)
+因此，跨阻放大器输出信号相位与二阶等效力学模型中质量块位移成90°相位，即与质量块的速度相位相同。定义该相位为整个系统中所有谐振频率处信号的参考相位，相位值为0；相位为正的信号代表超前，相位为负的信号代表滞后。
+当输入端存在对地的寄生电容时，由寄生电容和反馈电阻在该电路中产生的极点pg为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-25)
+其中Av0为运放开环增益。通常跨阻运放的开环增益在80~100dB左右即可，为了低噪声设计输入MOS管可能尺寸很大，因此Cg可能出现比较大的值， 由此产生的pg频率可能会接近运放的次主极点，影响稳定性。
+
+图4- SEQ 图4- \* ARABIC 6 跨阻放大器
+4.2.2 开关电容滤波器
+在集成电路中，为了保证流片后实际电路传递函数与设计值基本相同，无论是电阻还是电容都要尽量设计成比例形式，以阻容各自的比例决定整体电路的功能比依靠阻容的绝对值更可靠。因此，在开关电容滤波器中，可以考虑使用处于闭环中的开关电容积分器实现零极点的构建。开关电容滤波器电路如图所示。
+
+图4- SEQ 图4- \* ARABIC 7 开关电容滤波器
+其中，开关电容积分器的电路如 REF _Ref208602975 \h  \* MERGEFORMAT 图4-8所示。
+
+图4- SEQ 图4- \* ARABIC 8 开关电容积分器
+其中Φ1为采样相位，Φ2为积分相位，控制两个相位的时钟是两相不交叠时钟。假设第n个周期结束时输出为Voutn，则第n+1个周期采样结束时电容C1上积累电荷Qn+1为
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-26)
+则第n+1个周期结束时，输出Voutn+1为
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-27)
+在时域和S域中，可分别表示为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-28)
+其中fclk是时钟频率。在设计时可令C1C2=n，则S域传递函数可写为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-29)
+结合开关电容积分器的传递函数，可计算出 REF _Ref208568619 \h 图4-7中开关电容滤波器的传递函数如式 GOTOBUTTON ZEqnNum393822  \* MERGEFORMAT  REF ZEqnNum393822 \* Charformat \! \* MERGEFORMAT (4-30)所示。
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-30)
+可以看出，该滤波器的极点仅与时钟频率与电阻比例有关。电阻比例通常非常精准，时钟频率由锁相环产生、严格跟随陀螺谐振频率，因此通过设计合理的参数，可以使得对于主谐振峰的频点处的信号相移为零。
+4.2.2 锁相环
+锁相环中包含鉴频鉴相器（PFD）、有源低通滤波器（LPF）、压控振荡器（VCO）和分频器网络。首先考察鉴频鉴相器PFD，可以根据输入和对应的输出画出其状态转换图如 REF _Ref208577880 \h 图4-9所示。Vref是参考时钟输入，Vdiv是分频器网络产生的反馈时钟信号，两时钟相差相位或频率时会出现只有Vref为高或只Vdiv为高的情况，PFD将按照状态转换图中的规则在各个输出状态中转换；当两信号对齐时，此时误差非常小，PFD输出一系列很窄的短脉冲信号。当UP端输出高时，通过滤波器会在VCO产生一个上拉电流，控制VCO的频率升高，反之则会令VCO频率下降，其时序图如 REF _Ref208578455 \h 图4-10所示。
+
+图4- SEQ 图4- \* ARABIC 9 PFD状态转换图
+
+图4- SEQ 图4- \* ARABIC 10 PFD时序图
+实现这一功能可以利用一定的数字逻辑门组合，具体来说就是通过RS锁存器构成两个D触发器的形式，两个D触发器的输出分别为UP和DOWN信号；UP和DOWN信号再通过与非门后串联奇数个反相器连接至D触发器的复位端。通过改变反相器数量可以控制延迟的大小，以便于缓解死区现象（输入量信号相位差小于一定值后输出的信号时间不足，以至于不足以在VCO中产生足够的上拉或下拉电流，导致锁频出现误差），但是延迟过大会使环路稳定时间变长。在本课题中，PFD的输入时钟频率低于10k，因此不会有门电路速度的问题。
+PFD的电路结构如 REF _Ref208578902 \h  \* MERGEFORMAT 图4-11所示。其中fref是输入参考时钟，clk是反馈时钟。
+有源滤波器的电路如 REF _Ref208579659 \h  \* MERGEFORMAT 图4-12所示，将输入的误差电压进行分压，使其进入运算放大器的输入摆幅之内，其传递函数如式 GOTOBUTTON ZEqnNum466047  \* MERGEFORMAT  REF ZEqnNum466047 \* Charformat \! \* MERGEFORMAT (4-31)。由传递函数可知，这个有源滤波器有一个零点和两个极点，其中零点和极点位于左半平面，如式 GOTOBUTTON ZEqnNum509975  \* MERGEFORMAT  REF ZEqnNum509975 \* Charformat \! \* MERGEFORMAT (4-32)，还有一个极点位于原点处。
+
+图4- SEQ 图4- \* ARABIC 11 PFD电路结构
+
+
+图4- SEQ 图4- \* ARABIC 12 有源滤波器电路结构
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-31)
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-32)
+本课题中VCO的频率不高（约200kHz~1.7MHz），可使用反相器级联构成的环形振荡器，如 REF _Ref208609278 \h  \* MERGEFORMAT 图4-13。环形振荡器本质上是利用反相器依次对电容充放电，振荡周期与输出电阻和负载电容值密切相关。
+
+图4- SEQ 图4- \* ARABIC 13 环形振荡器
+单级反相器的传递函数为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-33)
+其中低频增益A0可以表示为；为。则整个环路的增益为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-34)
+由巴特豪森判据，在振荡频率附近的振荡器环路增益幅值为1并且相位为0；可以解出：；。闭环反馈系数为-1，因此可以根据环路增益表达式推导出环形振荡器的闭环传递函数为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT ( SEQ MTChap \c \* Arabic \* MERGEFORMAT 4- SEQ MTEqn \c \* Arabic \* MERGEFORMAT 35)
+该传递函数有一个实极点，两个虚极点：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-36)
+起振时应使极点位于右半平面，因此要满足延迟单元（反相器）的小信号低频增益A0>2，使得各极点实数部分均大于0。反相器为电容充电的速度与电流直接相关，因此可以通过控制反相器的电流来控制环形振荡器的频率，以达到压控振荡的效果，实现VCO的功能。本课题中的VCO结构如 REF _Ref208581644 \h 图4-14所示。
+
+图4- SEQ 图4- \* ARABIC 14 VCO电路结构
+VCO通过将控制电压转化为电流，通过电流镜将电流复制到环形振荡器中以控制反相器中流过的总电流。输入控制电压采用源极负反馈结构，电阻R1用于提高输入控制N管的线性度，流过控制N管的电流表达式为：
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-37)
+
+当R1远大于1/gm时，电流近似于控制电压呈线性关系，比例系数为1/R1。根据转换速率SR的计算方法，各级反相器的转换速率与电流线性相关，因此最终输出的频率与Vctrl也线性相关，如式 GOTOBUTTON ZEqnNum231854  \* MERGEFORMAT  REF ZEqnNum231854 \* Charformat \! \* MERGEFORMAT (4-38)。
+ MACROBUTTON MTPlaceRef \* MERGEFORMAT  SEQ MTEqn \h \* MERGEFORMAT (4-38)
+其中Rout是反相器输出电阻，Cl是反相器负载电容，Vswing是输出波形的摆幅。本课题中需要VCO上电时有一个初始频率输出，因此在左侧的电流镜下方额外添加一路电流源，可通过N管电流镜复制实现。
+5 预期达到的目标与进度安排
+本课题基于0.18umBCD工艺，实现半球陀螺驱动闭环、检测闭环和力反馈正交闭环的系统和关键电路设计，验证CV电路（电荷放大器）等效电荷分辨率小于1个电子/sqrt(Hz)，在完成半球陀螺系统级板级验证的基础上设计ASIC接口电路模块，整机达到工作温度范围-40℃~150℃、角度随机游走≤0.004°/h、零偏不稳定性≤0.03°/h。
+主要指标整理如表5-1：
+表5-1 指标要求
+性能参数
+指标要求
+工作温度
+-40℃~150℃
+角度随机游走（常温）
+<0.004°/sqrt(h)
+零偏不稳定性（常温）
+<0.03°/h
+CV等效电荷分辨率
+<1个电子/sqrt(Hz)
+项目进度安排如下：
+2025.7.1-2025.7.9：与导师沟通，确定研究方向为半球陀螺接口ASIC关键电路单元设计。
+2025.7.10-2025.7.31：查阅文献，调研半球陀螺发展历史、性能特点、使用场景等研究背景。
+2025.8.1-2025.8.31：研究半球陀螺物理结构和工作原理，研究半球陀螺与其他MEMS陀螺的区别，确定半球陀螺工作振形与系统方案。
+2025.9.1-2025.9.13：整理文献，撰写开题报告，准备开题答辩。
+2025.10.1-2025.10.31：建立驱动闭环系统模型，分析环路稳定性，利用simulink软件仿真验证模型的可行性并根据结果对系统结构和参数进行适当优化。
+2025.11.1-2025.12.10：建立检测和正交闭环系统模型，分析环路稳定性，并与驱动闭环系统模型在simulink软件中联合仿真，验证整体系统的可行性。
+2025.12.11-2026.1.31：根据前阶段系统模型分析和仿真结果，确定测试电路框架，设计板级验证方案并进行初代方案的板级别验证。
+2026.2.1-2026.3.31：进行初代板级验证并适当迭代，确定系统性能的主要约束项以指导后续电路设计，方便进行针对性优化。
+2026.4.1-2026.4.31：进行运算放大器管级电路设计，预计包含三级运放、AB类输出运放、低噪声运放等；并进行低通滤波器、PI控制器等基于运放的核心单元模块设计。
+2026.5.1-2026.5.31：锁相环管级电路设计和优化。
+2026.6.1-2026.7.10：开关电容滤波器管级设计和优化。
+2026.7.11-2026.8.10：其他单元电路的管级设计和优化，如带隙基准源、可变增益放大器、电流偏置源等。
+2026.8.11-2026.9.10：完成整体电路前仿验证。
+2026.9.11-2026.10.30：完成版图绘制和后仿真验证。
+2026.11.1-2027.3.31：半球陀螺整机测试，整理实验数据。
+2027.4.1-2027.6.1 撰写毕业论文，准备结题答辩。
+6 为完成课题已具备和所需的条件和经费
+近年来，哈尔滨工业大学MEMS研究中心模拟集成电路组在微机械陀螺的接口ASIC电路设计方面有着十分丰富的经验，硬件方面课题组拥有温度控制转台、动态频谱分析仪、逻辑分析仪、示波器等测试设备。课题组有充足的经费支持本课题。
+7 预计研究过程中可能遇到的困难和问题，以及解决的措施
+（1）本课题的研究中涉及大量的理论推导，对于数学和物理基础要求高。
+解决措施：广泛查阅多方文献，掌握多种数学物理计算方法；对于难以求出解析解的方程，可利用数学软件和数值方法得到可用于工程参考的数值解。
+（2）由于控制系统规模很大，涉及到多个闭环以及时钟的仿真，仿真速度可能很慢。
+解决措施：电路系统整体仿真时，可在单元电路的仿真结果上用VerilogA编写理想电路单元代替实际一些确认无误的实际电路，大大缩短仿真时间同时还能验证出电路系统的可行性。
+（3）提取版图寄生参数并后仿时，可能由于某些寄生电容或寄生电阻导致整体性能下降，甚至导致电路功能出错。
+解决措施：通过合理布线，例如多层金属交叉走线、避免长平行线等，尽量降低版图中的寄生；注意器件之间的对称性、善于利用共质心画法等版图技巧。
+8 参考文献 ADDIN NE.Bib
+ [1] Rozelle D M. The hemispherical resonator gyro: From wineglass to the planets[J]. Advances in the Astronautical Sciences. 2013, 134: 1157-1178.
+ [2] Ermakov R V, Skripal E N, Kondratov D V, et al. Development of a vibrational error model of a hemispherical resonator gyroscope[Z]. 20181-3.
+ [3] Zhbanov Y K. Eight-Point Model of the Hemispherical Resonator Gyro[Z]. 1996.
+ [4] 李建朋，何刚，方海滨，等. 长寿命半球谐振陀螺惯性姿态敏感器设计与在轨应用[J]. 中国惯性技术学报. 2024, 32(08): 812-820.
+ [5] 刘付成，赵万良，杨浩，等. 半球谐振陀螺技术[J]. 导航与控制. 2020, 19(Z1): 208-215.
+ [6] Ranji A, Damodaran V, Li K, et al. Recent Advances in MEMS-Based 3D Hemispherical Resonator Gyroscope (HRG)—A Sensor of Choice[J]. Micromachines. 2022, 13: 1676.
+ [7] 周强，李维志，方海斌，等. 半球谐振陀螺工作寿命特性研究[J]. 压电与声光. 2024, 46(04): 596-602.
+ [8] Sorenson L D, Gao X, Ayazi F. 3-D micromachined hemispherical shell resonators with integrated capacitive transducers[Z]. 2012168-171.
+ [9] 徐海刚，梁文伟，邱丽玲，等. 速率积分半球谐振陀螺测试方法探讨[J]. 导航定位与授时. 2024, 11(02): 1-8.
+[10] 蒋丹. 全角半球谐振陀螺比例-积分-谐振控制方法研究[D]. 哈尔滨工程大学, 2024.
+[11] 宫必. 力平衡模式下半球谐振陀螺的正交控制技术研究[D]. 哈尔滨工程大学, 2020.
+[12] Remillieux G, Goudon J C, Roberfroid D. Coriolis Vibrating Gyros for Aeronautical Applications[J]. 2011.
+[13] Jeanroy A, Bouvet A, Remillieux G. HRG and Marine applications[J]. Gyroscopy and Navigation. 2014, 5(2): 67-74.
+[14] 帅鹏，魏学宝，邓亮. 半球谐振陀螺发展综述[J]. 导航定位与授时. 2018, 5(06): 17-24.
+[15] Gregory J A, Cho J, Najafi K. Characterization and control of a high-Q MEMS inertial sensor using low-cost hardware[Z]. 2012239-247.
+[16] Cho J, Woo J K, Yan J, et al. A high-Q birdbath resonator gyroscope (BRG)[Z]. 20131847-1850.
+[17] Lee J, Yun S, Rhim J. Design and Verification of a Digital Controller for a 2-Piece Hemispherical Resonator Gyroscope[J]. Sensors. 2016, 16(4): 555.
+[18] Perelyaev S E, Bodunov B P, Bodunov S B. Solid-state wave gyroscope: A new-generation inertial sensor[Z]. 20171-3.
+[19] Foloppe Y, Lenoir Y. HRG Crystal™ DUAL CORE: Rebooting the INS revolution[Z]. 20191-24.
+[20] 吕志清. 半球谐振陀螺(HRG)研究现状及发展趋势[Z]. 2003.
+[21] Tao T, Lu W, Fang R, et al. A novel PLL-based phase control technique in the digitalized closed-loop gyroscope interface circuit[Z]. 20131-2.
+[22] Qiu B, Wang J, Li P. Full Digital Control of Hemispherical Resonator Gyro Under Force-to-Rebalance Mode[J]. IEEE Sensors Journal. 2015, 15(1): 71-75.
+[23] 汪濙海. 压电半球谐振微陀螺仪数字控制检测电路探究[D]. 上海交通大学, 2016.
+[24] Xu Z, Xi B, Yi G, et al. A Novel Model for Fully Closed-Loop System of Hemispherical Resonator Gyroscope Under Force-to-Rebalance Mode[J]. IEEE Transactions on Instrumentation and Measurement. 2020, 69(12): 9918-9930.
+[25] 浦云飞. 半球谐振陀螺全角模式控制技术研究与实现[Z]. 2022.
+[26] Rodriguez J, Chandorkar S A, Watson C A, et al. Direct Detection of Akhiezer Damping in a Silicon MEMS Resonator[J]. Scientific Reports. 2019, 9(1): 2244.
+[27] 彭凯，方针，徐思宇，等. 熔融石英半球谐振子精密磨削工艺研究[J]. 压电与声光. 2021, 43(02): 294-298.
+[28] 梅思龙，王亚龙，苏晓龙，等. 微半球陀螺频率裂解的测试与修调研究[J]. 传感器与微系统. 2025, 44(09): 21-24.
+[29] 李航，汤戈，孙鹏，等. 微半球谐振陀螺正交误差补偿方法研究[J]. 自动化仪表. 2025, 46(08): 9-15.
+[30] 段杰，杨浩，苏定宁，等. 半球陀螺装配误差对电容的影响分析[J]. 压电与声光. 2025, 47(04): 632-636.

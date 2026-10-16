@@ -1,0 +1,333 @@
+ARCHIVE: 全角陀螺/EP2356404B1.pdf
+TOTAL PAGES: 16
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+Note: Within nine months of the publication of the mention of the grant of the European patent in the European Patent
+Bulletin, any person may give notice to the European Patent Office of opposition to that patent, in accordance with the
+Implementing Regulations. Notice of opposition shall not be deemed to have been filed until the opposition fee has been
+paid. (Art. 99(1) European Patent Convention).
+Printed by Jouve, 75001 PARIS (FR)
+(19)
+EP 2 356 404 B1
+TEPZZ ¥564Z4B_T
+(11) EP 2 356 404 B1
+(12) EUROPEAN PATENT SPECIFICATION
+(45) Date of publication and mention 
+of the grant of the patent: 
+11.11.2015 Bulletin 2015/46
+(21) Application number: 09765073.3
+(22) Date of filing: 27.11.2009
+(51) Int Cl.:
+G01C 19/56(2012.01) G01C 25/00(2006.01)
+G01C 19/567(2012.01)
+(86) International application number: 
+PCT/EP2009/066000
+(87) International publication number: 
+WO 2010/060993 (03.06.2010 Gazette 2010/22)
+(54) CALIBRATION OF VIBRATORY GYROSCOPE
+KALIBRIERUNG EINES VIBRATIONSKREISELS
+ETALONNAGE D’UN GYROSCOPE VIBRANT
+(84) Designated Contracting States: 
+AT BE BG CH CY CZ DE DK EE ES FI FR GB GR 
+HR HU IE IS IT LI LT LU LV MC MK MT NL NO PL 
+PT RO SE SI SK SM TR
+(30) Priority: 28.11.2008 FR 0858146
+(43) Date of publication of application: 
+17.08.2011 Bulletin 2011/33
+(73) Proprietor: SAGEM DEFENSE SECURITE
+92100 Boulogne-Billancourt (FR)
+(72) Inventor: CARON, Jean-Michel
+F-75015 Paris (FR)
+(74) Representative: Cabinet Plasseraud
+52, rue de la Victoire
+75440 Paris Cedex 09 (FR)
+(56) References cited:  
+EP-A2- 1 571 417 WO- A1-2009/083519
+FR-A1- 2 904 870 US- B2- 7 117 605
+• ARTHUR GELB: "Synthesis of a Very Accurate 
+Inertial Navigation System" IEEE 
+TRANSACTIONS ON AEROSPACE AND 
+NAVIGATIONAL ELECTRONICS, IEEE, USA, vol. 
+12, no. 2, 1 June 1965 (1965-06-01), pages 119-128, 
+XP011201715 ISSN: 0096-1957
+--- PAGE 2 ---
+EP 2 356 404 B1
+2
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+Description
+[0001] The present invention relates to vibratory gyro-
+scopes the principle of which is based on the Coriolis
+effect and relates more particularly to the calibration of
+this type of gyroscope.
+[0002] As with any measurement device, a calibration
+step is required on a vibratory gyroscope, i.e. a step dur-
+ing which the corrections to be made to the rough meas-
+urement value of the device are defined, in order to im-
+prove its precision as a function of various parameters
+measured in addition, such as the temperature, the
+measured value or the vibration position in the particular
+case of axisymmetric vibratory gyroscopes used in whole
+angle mode (free vibration) in such a way that this meas-
+urement device operates correctly.
+[0003] Conventionally, a vibratory gyroscope is cali-
+brated before being used. It can thus be calibrated on
+leaving the factory, for example.
+[0004] The calibration of a gyroscope can make it pos-
+sible to provide relevant measurement values over a cer-
+tain period of time. But, in the course of time, such a
+vibratory gyroscope exhibits measurement deviations
+that can result in particular from a degradation of its cal-
+ibration parameters. As a result, after a certain period of
+time of use of the vibratory gyroscope, it is possible for
+the measurement values provided by the gyroscope to
+be impaired by a drift error as a function of the temper-
+ature or as a function of the vibration position. In the par-
+ticular case of axisymmetric vibratory gyroscopes used
+in whole angle mode, the changes over time in the meas-
+urement deviation dependent on the vibration position is
+one of the major causes of errors of the device.
+[0005] It is therefore preferable to make provision to
+implement a gyroscope calibration step, with respect to
+this type of deviation, several times during a use of a
+gyroscope. However, while such a calibration step is be-
+ing implemented, the gyroscope cannot be used as a
+precise measurement device.
+[0006] The document WO2009/083519 discloses a
+calibration method of at least three gyroscopes in a sys-
+tem comprising at least four vibratory gyroscopes capa-
+ble of changing vibration position among a plurality of
+vibration positions. The method performs a full calibration
+by establishing the table of drift vs. vibration position for
+each gyroscope one after the other.
+[0007] The document FR-A-2904870 discloses a cal-
+ibration method for a single gyroscope capable of chang-
+ing vibration position among a plurality of vibration posi-
+tions wherein a drift model as a function of the vibration
+position of the gyroscope is determined based on meas-
+urements of drift of the gyroscope performed in several
+vibration positions.
+[0008] The literature document "ARTHUR
+GELB: "Synthesis of a Very Accurate Inertial Navigation
+System", IEEE TRANSACTIONS ON AEROSPACE
+AND NAVIGATIONAL ELECTRONICS, 1 June 1965
+(1965-06-01), vol. 12, no. 2, pages 119-128" discloses
+a method for correcting drift of a gyroscopic system
+wherein the system includes four gyroscopes including
+three measurement gyros and a monitor gyro which is
+configured for continuously determining drift which
+serves to correct the measurement gyros by means of a
+closed loop circuit.
+[0009] The present invention will improve the situation.
+[0010] According to claim 1, the present invention pro-
+poses a method of calibrating at least three gyroscopes
+to be calibrated in a gyroscopic system comprising at
+least four vibratory gyroscopes capable of changing vi-
+bration position among a plurality of vibration positions;
+a first measurement being provided by each of said at
+least three gyroscopes to be calibrated and a second
+measurement being provided by a combination of the
+respective measurements from the other gyroscopes of
+said system, said first and second measurements being
+carried out along the same measurement axis;
+said calibration method comprising the following steps
+for each of the at least three gyroscopes to be calibrated,
+which vibrates in one of the vibration positions:
+/1/ determining a measurement drift value between
+said first measurement and said second measure-
+ment;
+/2/ commanding the change in vibration position of
+the gyroscope to be calibrated to another vibration
+position of said plurality of vibration positions and
+iterating step /1/;
+/3/ iterating step /2/ K times, K being a positive inte-
+ger; and
+/4/ generating a drift model as a function of the vi-
+bration position of the gyroscope to be calibrated on
+the basis of the drift values obtained in the iterations
+of step /1/, wherein the implementation of steps /1/
+to /4/ on the set of the three gyroscopes of the system
+are overlapped, i.e. each step from /1/ to /4/ is applied
+on all of the at least three gyroscopes successively.
+[0011] Thus, the at least three gyroscopes in the set
+are calibrated by generation of a drift model by applying
+step /1/ to each of the gyroscopes successively, then
+step /2/ to each of the gyroscopes successively, then
+step /3/ to each of the gyroscopes successively and finally
+step /4/ to each of the gyroscopes successively.
+[0012] The combination of the measurements can be
+a linear combination.
+[0013] Here, the term ’drift model’ corresponds to a
+modelling of the drift values (or "discrepancy values")
+affecting the measurement values of a vibratory gyro-
+scope as a function of its vibration position.
+[0014] It should be noted that the first measurement
+and the second measurement can correspond to angle
+values or rotational speed values. A vibratory gyroscope
+can be used either in a "whole angle" mode wherein it
+provides angle measurement values, or in a "rate" mode
+wherein it provides angular rate measurement values.
+[0015] Due to the arrangements of such a method, it
+1 2 
+--- PAGE 3 ---
+EP 2 356 404 B1
+3
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+is advantageously possible to implement a step of cali-
+brating a vibratory gyroscope even while the gyroscopic
+system considered continues to provide relevant gyro-
+scopic information.
+[0016] Due to this calibration step, a drift model is ob-
+tained on the basis of which it is possible to correct the
+values measured by the corresponding vibratory gyro-
+scope. This drift model makes it possible to correspond
+a measurement drift value to a vibration position of the
+gyroscope. Thus, the value measured by the vibratory
+gyroscope, which vibrates in a specific vibration position,
+can be easily corrected by taking the associated drift error
+into account.
+[0017] It is thus possible to update the drift model at
+any time, and therefore, regularly, without disturbing the
+information provided by the gyroscopic system.
+[0018] Such a calibration method is based on the in-
+troduction into a gyroscopic system of an additional vi-
+bratory gyroscope with respect to the number of vibratory
+gyroscopes used by the gyroscopic system in order to
+provide the gyroscopic information, or the navigation in-
+dications, to a user. This additional gyroscope, associat-
+ed with the other gyroscopes of the system not in cali-
+bration phase, constitutes a measurement reference
+making it possible to measure the errors of one of the
+other gyroscopes that one wishes to calibrate.
+[0019] Advantageously, such a method can be imple-
+mented by using an additional gyroscope of the same
+kind as the gyroscopes used to provide the navigation
+indications, i.e. with performance similar to that of the
+gyroscopes that one wishes to calibrate. There is there-
+fore no need to introduce, as an additional gyroscope, a
+better-quality and therefore more expensive gyroscope.
+[0020] This advantage is based on the fact that an ax-
+isymmetric vibratory gyroscope has an average drift over
+one rotation of the vibration position that is more than
+one order of magnitude more stable than its drift for any
+position of this vibration. As a result, identification is
+sought, during the calibration steps of a method accord-
+ing to an embodiment of the present invention, of a drift
+component that is dependent on the vibration position,
+its average value being a priori considered as stable and
+requiring no calibration.
+[0021] Such an implementation makes it possible to
+calibrate a vibratory gyroscope with a precision more
+than ten times greater than the absolute precision of the
+additional vibratory gyroscope used for this calibration.
+[0022] The gyroscopic system can for example com-
+prise four vibratory gyroscopes, three vibratory gyro-
+scopes that are arranged respectively along three orthog-
+onal axes, the fourth vibratory gyroscope being arranged
+along the trisectrix of said three orthogonal axes.
+[0023] Advantageously, measurements provided by
+the vibratory gyroscope, for which a drift model has been
+generated in step /4/, are corrected on the basis of this
+drift model.
+[0024] In an embodiment of the present invention, it is
+possible to obtain a specific drift value by also carrying
+out step /1/ over a period of time corresponding to the
+change in vibration position of the gyroscope to be cali-
+brated, this specific drift value being used in order to cal-
+ibrate a scale factor of the gyroscope to be calibrated.
+[0025] In the gyroscopic system considered, a meas-
+urement provided by the gyroscope to be calibrated can
+easily be replaced by a combination of measurements
+from the other gyroscopes of the system, which are not
+undergoing calibration. The first and second measure-
+ments are provided along the same axis.
+[0026] When the gyroscopic system provides naviga-
+tion information on the basis of respective measurements
+from a set of at least three specific vibratory gyroscopes,
+during the implementation of steps /1/ to /4/ on a gyro-
+scope to be calibrated among this set of three gyro-
+scopes, the measurement from the gyroscope to be cal-
+ibrated, on the basis of which the navigation information
+is provided, can advantageously be replaced by a meas-
+urement along the same measurement axis as this gy-
+roscope to be calibrated, obtained by combining the re-
+spective measurements from the other two vibratory gy-
+roscopes of this set of three gyroscopes and at least one
+fourth vibratory gyroscope.
+[0027] Then, on completion of the application of the
+calibration method according to an embodiment of the
+present invention, provision can then be made to return
+to the trio of the first three gyroscopes in order again to
+base the navigation indications of the gyroscopic system
+on these first three gyroscopes.
+[0028] In the latter case, when the gyroscopes are
+used in whole angle mode and not in rate mode, it is then
+possible to envisage that the calibration method also
+comprises the following steps:
+/a/ over a first period of time, simultaneously provid-
+ing, on the same measurement axis, first angle val-
+ues by the vibratory gyroscope to be calibrated and
+second angle values on the basis of a combination
+of the measurements provided respectively by the
+other gyroscopes of the system; and deducing from
+these, second angle values modified by adapting the
+zero reference of the second values and of the first
+values;
+/b/ over a second period of time, carrying out steps
+/1/ to /4/ on the gyroscope to be calibrated;
+/c/ over a third period of time, providing both first
+angle values by the gyroscope to be calibrated and
+second angle values; and deducing from these, first
+angle values modified by adapting the zero reference
+of the first angle values and of the second angle val-
+ues.
+[0029] Due to these arrangements, it is possible to ro-
+tate the vibration position of the vibratory gyroscope to
+be calibrated, while continuing to provide relevant anglo
+measurement values.
+[0030] Here, provision is made to adapt the zero ref-
+erence of the first values provided by the gyroscope to
+3 4 
+--- PAGE 15 ---
+EP 2 356 404 B1
+15
+
+--- PAGE 16 ---
+EP 2 356 404 B1
+16
+REFERENCES CITED IN THE DESCRIPTION
+This list of references cited by the applicant is for the reader’s convenience only. It does not form part of the European
+patent document. Even though great care has been taken in compiling the references, errors or omissions cannot be
+excluded and the EPO disclaims all liability in this regard.
+Patent documents cited in the description
+• WO 2009083519 A [0006]
+• FR 2904870 A [0007]
+• FR 2755227 [0051]
+Non-patent literature cited in the description
+• ARTHUR GELB.  Synthesis of a Very Accurate Iner-
+tial Navigation System. IEEE TRANSACTIONS ON
+AEROSPACE AND NAVIGATIONAL ELECTRON-
+ICS, 01 June 1965, vol. 12 (2), 119-128  [0008]
+• ANDREI M. SHKEL.  Type I and Type II microma-
+chined vibratory gyroscopes. IEEE, 2006, 586-593
+[0049]

@@ -1,0 +1,197 @@
+ARCHIVE: 全角陀螺/EP1722193A2.pdf
+TOTAL PAGES: 14
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+Printed by Jouve, 75001 PARIS (FR)
+Europäisches Patentamt
+European Patent Office
+Office européen des brevets
+(19)
+EP 1 722 193 A2
+&/G13/G13/G13
+(11) EP 1 722 193 A2
+(12) EUROPEAN PATENT APPLICATION
+(43) Date of publication: 
+15.11.2006 Bulletin 2006/46
+(21) Application number: 06252102.6
+(22) Date of filing: 18.04.2006
+(51) Int Cl.:
+G01C 19/56 (2006.01)
+(84) Designated Contracting States: 
+AT BE BG CH CY CZ DE DK EE ES FI FR GB GR 
+HU IE IS IT LI LT LU LV MC NL PL PT RO SE SI 
+SK TR
+Designated Extension States: 
+AL BA HR MK YU
+(30) Priority: 09.05.2005 US 125024
+(71) Applicant: Northrop Grumman Corporation
+Los Angeles, CA 90067-2199 (US)
+(72) Inventors:  
+• Lynch, David B
+Santa Barbara, CA 93111-1614 (US)
+• Savaya, Ryan R
+Camarillo, CA 93012 (US)
+• Campanile, James J. 
+Oak Park, CA 91377 (US)
+(74) Representative: Mackenzie, Andrew Bryan et al
+Marks & Clerk 
+45 Grosvenor Road
+St. Albans, Hertfordshire AL1 3AW (GB)
+(54) Hemispherical resonator gyro control
+(57) Embodiments of the present system encom-
+pass: a hemispherical resonator gyro (HRG); digital con-
+trol loop algorithms which operate in two, distinct modes,
+Force to Rebalance (FTR) and Whole Angle (WA); and
+a closed-loop slewing-voltage phase control that reduces
+quadrature error when the hemispherical resonator gyro
+transitions from WA to FTR.
+
+--- PAGE 2 ---
+EP 1 722 193 A2
+2
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+Description
+TECHNICAL FIELD
+[0001] The invention relates generally to control of gyros, and in particular to control of a Hemispherical Resonator
+Gyro (HRG).
+BACKGROUND
+[0002] Known legacy inertial reference unit products may employ a Hemispherical Resonator Gyro (HRG), and use
+digital control loop algorithms, which operate in two, distinct modes: Force to Rebalance (FTR) and Whole Angle (WA).
+The former mode provides the highest performance angular rate data by caging the HRG resonant standing wave by
+rebalancing it with electrical force. FTR mode is only effective over a limited angular rate range. The latter mode allows
+the standing wave to precess with inertial motion, but yields lesser performance. It is effective over a large angular rate
+range, and is the reversionary mode of operation once the FTR authority range has been exceeded.
+[0003] Amplitude, phase lock and quadrature control are essential for generating and maintaining the standing wave
+in either WA or FTR modes. The operation/interaction is as follows: the phase lock loop is a feedback loop, which detects
+and converges on the unique resonant frequency and phase of the gyro. The output of this control loop generates a
+specific frequency control to the digital signal processing which maintains the correct rate and phase of the nodal and
+antinodal sampling. It also is essential for the active controls (rate, and amplitude) to apply their respective outputs with
+the correct phase offset. In FTR mode, the rate drive is applied with an optimized phase correction, which remains
+essentially fixed. This optimized value ensures minimal rate energy is introduced into the quadrature. In the case of the
+forced rotation of the standing wave, as occurs when the rate drive slews the pattern to recover rebalance operation
+(WA to FTR transition), this rate phase relationship is no longer fixed and large quadrature errors are introduced. These
+errors are beyond the authority of the standard quadrature control function to null.
+[0004] Thus, there is a need for an improved hemispherical resonator gyro and, in particular, for improved compensation
+regarding the above-identified error.
+SUMMARY
+[0005] The invention in one implementation encompasses an apparatus. The apparatus comprises a hemispherical
+resonator gyro (HRG); digital control loop algorithms which operate in two, distinct modes, Force to Rebalance (FTR)
+and Whole Angle (WA); and a closed-loop slewing-voltage phase control that reduces quadrature error when the hem-
+ispherical resonator gyro transitions from WA to FTR.
+[0006] Another implementation of the invention encompasses a method. The method comprises: developing a standing
+wave on a quartz shell of a HRG with a high Q resonant mode; allowing, in open loop operation (Whole Angle Mode),
+the standing wave to precess freely; recovering rebalance operation when rate drive slews the standing wave pattern;
+and holding, in closed loop operation (Force to Rebalance), the standing wave to null position.
+DESCRIPTION OF THE DRAWINGS
+[0007] Features of exemplary implementations of the invention will become apparent from the description, the claims,
+and the accompanying drawings in which:
+[0008] FIG. 1 depicts a hemispherical resonator gyro for use with the present control system;
+[0009] FIGs. 2 and 3 depict standing wave patterns of the FIG. 1 HRG;
+[0010] FIG. 4 depicts control loops for controlling the FIG. 1 HRG;
+[0011] FIG. 5 depicts a rate control/rebalance loop for controlling the FIG. 1 HRG;
+[0012] FIG. 6 depicts a block diagram of the present method;
+[0013] FIG. 7 depicts residual rate change without compensation; and
+[0014] FIG. 8 depicts residual rate change with compensation.
+DETAILED DESCRIPTION
+[0015] FIG. 1 depicts a hemispherical resonator gyro (HRG) 10 for use with the present control system. The HRG 10
+may have a number of electrodes 20 and 22 that are metalized on the inside surface of the outer housing 12, which is
+concentric with the hemispherical shell resonator 14. The electrodes 20 and 22 in the outer housing 12 together with
+the surface of the resonator form a series of forcing electrostatic capacitors. Voltage is applied to combinations of the
+electrodes 20 and 22 to control the amplitude of the standing wave and to suppress unwanted quadrature effects.
+--- PAGE 3 ---
+EP 1 722 193 A2
+3
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+[0016] The HRG 10 may be rotated about an axis normal to the plane of the rim 34 of shell resonator 14. This rotation
+causes the standing wave to rotate in the opposite direction with respect to the HRG 10 by an angle proportional to the
+angle of rotation of the HRG 10. Thus, by measuring the angle of rotation of the standing wave with respect to the HRG
+10, the angle of rotation of the HRG 10 may be determined.
+[0017] The vibrational mode of the shell resonator 14 may be excited by placing a DC bias voltage on the resonator
+and an AC voltage on the ring forcing electrode 20. The frequency of the AC voltage is twice the resonant frequency of
+the hemispherical shell resonator 14.
+[0018] Signals from the HRG 10 contain information about the amplitude and location of the standing wave on the
+shell resonator 14. These signals may be obtained capacitively. Capacitor electrodes 24 are formed by metalized interior
+surface 30 of the shell resonator 14 and a plurality of electrodes 24 which are located on an inner concentric housing
+held in close proximity to the inner metalized shell resonator 14. Because of the shell’s oscillating deformation the
+capacitance of each of the electrodes 24 is modulated at the resonator flexing frequency. Electronic circuits, for example,
+may be used to measure these capacitance changes from which the location and amplitude of the standing wave may
+be determined.
+[0019] It is to be noted that the example depicted in FIG. 1 is only one of many different configurations. For example,
+a common electrode structure may replace the 16 discrete electrodes (22) and the ring electrode (20) by 32 discrete
+electrodes located approximately where the 16 electrodes are located in FIG 1. Every other electrode of the 32 electrodes
+(for example, the odd-numbered ones) perform the same function as the 16 electrodes in FIG 1. The other 16 electrodes
+(for example, the even-numbered ones) are connected together and essentially simulate a single ring electrode (that is,
+they play the role of the ring electrode in FIG 1).
+[0020] FIGs. 2 and 3 depict standing wave patterns of the FIG. 1 HRG 10. The standing-wave patterns shown in FIGs.
+2 and 3 are only two out of an infinite number of possible standing-wave patterns.
+[0021] In FIG 2 the standing wave pattern has four lobes 202, 204, 206, 208 and four nodes 210, 212, 214, 216. Also
+depicted are electrodes 218.
+[0022] In FIG. 3 there is a rotation of the HRG that causes the standing wave pattern to move from initial position 302
+to new position 304.
+[0023] In a HRG a standing wave is developed on a quartz shell with a high Q resonant mode. In open loop operation
+(Whole Angle Mode), the standing wave precesses a freely measured angle. In closed loop operation, the standing
+wave is held to null position, measured rate proportional to volts applied to the rate drive pads. This is a limited dynamic
+range application and is a force-rebalance mechanization.
+[0024] The resonator is manufactured with tight tolerances for mechanical balance and material purity. However, small
+imperfections in the resonator and vacuum (the resonator is in a hermetically sealed enclosure) create damping and
+frequency errors (amplitude and quadrature degradation) in the standing wave. These errors degrade performance of
+the end product (angle/angle rate) and must be controlled by signal processing and feedback control loops.
+[0025] FIG. 4 depicts control loops for controlling the FIG. 1 HRG 400.
+[0026] Before going into the basic description of the control loops, it is necessary to elaborate the previous discussion
+of the possible standing waves that can exist on the quartz shell of an HRG. FIGs. 2 and 3 show two possible standing
+waves. For the small amplitudes of shell deformation employed in the HRG, the point-by-point addition (superposition)
+of the displacements of the shell corresponding to the standing waves of Figures 2 and 3 also gives a "standing" wave.
+Standing is put in parenthesis here because the result of the superposition of the standing waves of Figures 2 and 3 is
+a true standing wave only if the Figure 2 and Figure 3 standing waves are exactly in phase.
+[0027] When the standing waves of FIGs. 2 and 3 are exactly in phase (and in the special case in which they are of
+equal amplitude), the result of superposing them is a similar standing wave whose lobes (antinodes) and nodes are
+midway between the antinodes and nodes of Figures 2 and 3. (For example, with reference to Figure 3, the antinode of
+the resultant standing wave near the top of the figure would be midway between 302 and 304.) The most general wave
+(of the type being considered) that can exist on the quartz shell of an HRG consists of the superposition of two standing
+waves oscillating exactly 90° out of phase, the nodes of the second lying exactly opposite the antinodes of the first (i.e.,
+the system of antinodes and nodes of the second being displaced 45° with respect to the system of antinodes and nodes
+of the first).
+[0028] The control problem of the HRG may now be simply stated as that of maintaining one of the waves (the principal
+standing wave or antinodal wave) at a prescribed amplitude and driving the other wave (the secondary standing wave
+or nodal-quadrature wave) to null. When this control is accomplished, the standing wave takes the simple form of FIGs.
+2 or 3. In force-rebalance mode, additional forces are developed to maintain the standing wave in a fixed location such
+as that shown in FIG. 2.
+[0029] The first step in implementing these controls is processing the outputs of the readout electrodes to provide
+signals proportional to the oscillating amplitudes of the principal (antinodal) wave and the nodal- quadrature wave. In
+force-rebalance operation, the readout signals themselves provide the desired signals because the readout electrodes
+lie directly over the antinodes and nodes of the antinodal and nodal-quadrature waves. Obtaining the desired signals is
+--- PAGE 13 ---
+EP 1 722 193 A2
+13
+
+--- PAGE 14 ---
+EP 1 722 193 A2
+14
+REFERENCES CITED IN THE DESCRIPTION
+This list of references cited by the applicant is for the reader’s convenience only. It does not form part of the European
+patent document. Even though great care has been taken in compiling the references, errors or omissions cannot be
+excluded and the EPO disclaims all liability in this regard.
+Patent documents cited in the description
+• US 4951508 A, Edward J. Loper, Jr. and David D.
+Lynch [0029]
