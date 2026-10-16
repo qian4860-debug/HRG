@@ -12,7 +12,11 @@ try {
         if ($LASTEXITCODE -ne 0) { throw 'Vector generation failed' }
         & $Matlab -batch "export_model_vectors"
         if ($LASTEXITCODE -ne 0) { throw 'MATLAB reference generation failed' }
+        python reference_guard.py --record
+        if ($LASTEXITCODE -ne 0) { throw 'Reference provenance recording failed' }
     }
+    python reference_guard.py
+    if ($LASTEXITCODE -ne 0) { throw 'MATLAB reference is stale; regenerate with MATLAB' }
     $src = Join-Path $PSScriptRoot '..\..\src'
     $files = @('hrg_nco.v','hrg_dsp_core.v','hrg_pi_aw.v','hrg_controller.v','hrg_cordic.v') | ForEach-Object { Join-Path $src $_ }
     & (Join-Path $VivadoBin 'xvlog.bat') --sv $files tb_hrg_scoreboard.sv 2>&1 | Tee-Object compile.log

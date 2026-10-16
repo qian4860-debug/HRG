@@ -1,0 +1,9 @@
+{
+  "model_source": "8b586777640dc25e88cadd33f022f90a7e170d26af0085eac15545b3be5de01d",
+  "model_parameters": "11d521eafd4b883802329faaa53212ad2f6adfa6c04547633c5fe5c662401b4f",
+  "reference_adapter": "ff3b4b5022f8d7d9b3fa071edbb304f980b0a6d51e02c52d4da08c6d606989b9",
+  "adc_inputs": "31c0cc6605177277ecac793cdc9324186e85c55f85a7c02bd9ed003fd984521b",
+  "pi_inputs": "eeddab84e9a24e8037ee28ea1033004561e0d37897bb06366eb1505b856f62d1",
+  "adc_matlab_expected": "96d1e8f1f5a4e9634e2d9b447a4c066a2ad988a999eddfe6c0fb4e1226509415",
+  "pi_matlab_expected": "c6ed4b442d5d8a751062188f25da100cd9d83e6e20e193d3bbcccf92b3d14d1a"
+}

@@ -11,8 +11,11 @@ by the V4.6.5 MATLAB model. The top level is `src/hrg_sensor_if_top.v`.
   `[1 2 3 2 1]/9` FIR;
 - V4.6.5 E/Q/R/S/L invariant equations and Q formats;
 - 18-iteration vectoring CORDIC and continuous angle/rate code generation;
-- energy and quadrature PI control, anti-windup by conditional integration,
-  command limiting, and three-control-cycle actuator pipeline;
+- energy and quadrature PI with integral limits, conditional integration,
+  back-calculation, slew limiting/tracking, bumpless entry and actuator pipeline;
+- optional L/E DPLL with invalid-measurement freeze and frequency limiting;
+- optional STARTUP/ACQUIRE/RUN sequencer, Bryan conversion, delivered virtual
+  motion cancellation, phase reacquisition and 45 Hz rate low-pass filtering;
 - three signed 16-bit DAC interfaces;
 - status/snapshot/realtime telemetry through the supplied SPIRegPG2 protocol.
 
@@ -29,6 +32,9 @@ fixed-point formats and safety requirements are frozen.
 40 kS/s. The default FCW is `0x20000000`, corresponding to 5 kHz at 40 kS/s.
 The control output rate is therefore 1 kHz. ADC input codes use Q2.16, demodulated
 outputs Q6.22, invariants Q8.24, and control commands Q6.22.
+Navigation outputs now use signed degrees Q24 (`angle_o`) and degrees/s Q16
+(`rate_o`); `nav_valid_o` is aligned with these registered outputs. This replaces
+the previous undocumented phase-code output convention.
 
 ## SPI protocol and register adaptation
 
@@ -44,14 +50,18 @@ Page-0 implemented fields (little-endian 32-bit words):
 
 | Byte offset | Name | Encoding |
 |---:|---|---|
-| `0x00` | CTRL | bit0 global, bit1 energy PI, bit2 quadrature PI, bit3 virtual |
+| `0x00` | CTRL | bit0 global, bit1 energy PI, bit2 quadrature PI, bit3 virtual, bit4 DPLL, bit5 sequencer |
 | `0x28` | ENERGY_KP | signed Q16.16; zero selects model default 2.4 |
 | `0x2C` | ENERGY_KI | signed Q16.16; zero selects model default 0.35 |
 | `0x30` | QUAD_KP | signed Q16.16; zero selects model default 7.0 |
 | `0x34` | QUAD_KI | signed Q16.16; zero selects model default 1.4 |
 | `0x40` | ENERGY_REF | signed Q8.24; zero selects model default 1.0 |
-| `0x44` | VIRTUAL_RATE | signed Q6.22 |
+| `0x44` | VIRTUAL_RATE | signed Q6.22 radians/s |
 | `0x50` | NCO_FCW | unsigned; zero selects `0x20000000` |
+| `0x54` | ENERGY_HOLD | signed Q6.22; zero selects nominal `0.015708` RUN feedforward |
+| `0x58` | QUAD_HOLD | signed Q6.22 RUN feedforward; zero is literal zero |
+| `0x5C` | BRYAN | unsigned Q30; zero selects `0.277` |
+| `0x60` | RATE_ALPHA | unsigned Q30 in bits30:0; zero selects 45 Hz at 1 kHz |
 
 Snapshot read-only bytes `0x71..0x7F` carry `{phase4[23:0], Q, E, STATUS}`
 from least-significant byte upward. Command `0xF0` uses the original realtime
@@ -73,13 +83,15 @@ cd HRG_WA/testbench
 
 For another simulator, compile `testbench/filelist.f` with SystemVerilog enabled.
 
-## Model equivalence scoreboard (2026-10-15)
+## Model equivalence scoreboard (updated 2026-10-16)
 
 An executed XSim scoreboard is available under `testbench/scoreboard/`.
-See [the verification report](testbench/scoreboard/README_等价性验证报告.md)
-for coverage, numeric differences, logs and reproduction commands.
-The existing implementation checks pass in the tested scenarios, but strict
-comparison against the original MATLAB front end fails (1698 differing fields
-across 350 transactions). The original coherent-carrier smoke test passing does
-not establish model equivalence. `run_scoreboard.ps1` defaults to strict mode
-and reports this failure; `-ImplementationOnly` is an explicitly narrower check.
+See [the current implementation and verification report](testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md)
+for coverage, fixed-point contracts and commands. The strict original MATLAB
+front-end comparison now passes all 350 transactions (zero differing fields).
+PI is also checked against the original MATLAB helper, within one Q30 LSB in
+5000 tests. Separate loop and integrated top-level scoreboards pass, including
+a four-second independent nominal plant trajectory. This is not an equivalence
+claim for the full MATLAB model with Kalman, compensation and online estimators.
+The [2026-10-15 audit](testbench/scoreboard/README_等价性验证报告.md) is retained
+as a historical baseline; its 1698 differences describe the prior RTL.

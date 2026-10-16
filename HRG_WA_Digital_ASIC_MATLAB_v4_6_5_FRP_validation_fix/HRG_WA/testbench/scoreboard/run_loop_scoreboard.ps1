@@ -4,6 +4,8 @@ Push-Location $PSScriptRoot
 try {
     python generate_loop_vectors.py
     if($LASTEXITCODE -ne 0) { throw 'Loop reference generation failed' }
+    python reference_guard.py
+    if($LASTEXITCODE -ne 0) {throw 'MATLAB reference is stale; regenerate with MATLAB'}
     $src=Join-Path $PSScriptRoot '..\..\src'
     $files=@('hrg_pi_aw.v','hrg_controller.v','hrg_dpll.v','hrg_navigation.v') | ForEach-Object {Join-Path $src $_}
     & (Join-Path $VivadoBin 'xvlog.bat') --sv $files tb_hrg_loop_scoreboard.sv 2>&1 | Tee-Object loop_compile.log

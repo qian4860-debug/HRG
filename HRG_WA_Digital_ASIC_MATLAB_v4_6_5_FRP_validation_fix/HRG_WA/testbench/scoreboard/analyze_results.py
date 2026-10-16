@@ -48,6 +48,8 @@ summary={
 }
 files=list((root.parents[1]/'src').rglob('*.v'))
 files += list(root.glob('*.py'))+list(root.glob('*.sv'))
+files += list(root.glob('*.ps1'))+list(root.glob('*.tcl'))
+files += list((root/'evidence_20261016').glob('*.txt'))
 files += [root/f for f in ['export_model_vectors.m','dsp_vectors.txt','ctrl_vectors.txt','model_vectors.txt',
     'pi_vectors.txt','model_pi_vectors.txt','pll_vectors.txt','nav_vectors.txt','control_extended_vectors.txt']]
 files += [root.parents[2]/f for f in ['HRG_WA_v46_simulate.m','HRG_WA_v46_params.m']]
