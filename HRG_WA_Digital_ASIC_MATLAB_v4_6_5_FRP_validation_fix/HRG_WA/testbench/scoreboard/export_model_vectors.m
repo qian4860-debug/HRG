@@ -31,6 +31,16 @@ for k=1:size(a,1)
  end
 end
 fprintf('MATLAB_GOLDEN_OUTPUTS=%d\n',outputs);
+if isfile('pi_vectors.txt')
+ a=readmatrix('pi_vectors.txt','FileType','text');
+ fp=fopen('model_pi_vectors.txt','w');assert(fp>=0);piCleanup=onCleanup(@() fclose(fp));
+ for k=1:size(a,1)
+  [command,integrator]=local_pi_aw(a(k,1)/2^24,a(k,2)/2^30,a(k,3)/2^16,a(k,4)/2^16,...
+   a(k,5)/2^30,a(k,6)/2^30,a(k,7),true,.001);
+  fprintf(fp,'%.0f %.0f\n',round(integrator*2^30),round(command*2^30));
+ end
+ fprintf('MATLAB_PI_OUTPUTS=%d\n',size(a,1));
+end
 end
 
 function [ncoCos, ncoSin, st] = local_integer_nco_step(st, p, TsAdc) % 执行V4.4整数NCO相位累加和幅度量化。
@@ -136,4 +146,29 @@ function [y, saturated] = local_clip(x, lower, upper) % 将标量或向量限制
 y = min(max(x, lower), upper); % 执行逐元素上下界限制。
 saturated = any(x(:) < lower(:)) || any(x(:) > upper(:)); % 判断任一元素是否发生限幅。
 end % 结束通用限幅函数。
+
+
+function [output, integrator, integratorSaturated, outputSaturated, antiWindupActive] = local_pi_aw(errorSignal, integrator, kp, ki, integratorLimit, outputLimit, backCalculationGain, antiWindupEnable, Ts) % 执行条件积分、反算、积分限幅和输出限幅完整PI抗饱和算法。
+candidateIntegrator = integrator + errorSignal * Ts; % 先按常规离散积分生成候选积分器状态。
+[candidateIntegrator, firstIntegratorSaturation] = local_clip(candidateIntegrator, -abs(integratorLimit), abs(integratorLimit)); % 对候选积分器施加物理状态限幅。
+unsaturatedOutput = kp * errorSignal + ki * candidateIntegrator; % 计算尚未执行输出限幅的候选PI控制量。
+[saturatedOutput, firstOutputSaturation] = local_clip(unsaturatedOutput, -abs(outputLimit), abs(outputLimit)); % 对候选PI控制量施加执行范围限幅。
+drivesPositiveSaturation = unsaturatedOutput > abs(outputLimit) && errorSignal > 0; % 判断当前误差是否会把正向饱和进一步推深。
+drivesNegativeSaturation = unsaturatedOutput < -abs(outputLimit) && errorSignal < 0; % 判断当前误差是否会把负向饱和进一步推深。
+conditionalHold = antiWindupEnable && (drivesPositiveSaturation || drivesNegativeSaturation); % 形成饱和方向条件积分冻结标志。
+if conditionalHold % 判断是否应撤销本拍常规误差积分。
+    candidateIntegrator = integrator; % 撤销会加深输出饱和的误差积分增量。
+    unsaturatedOutput = kp * errorSignal + ki * candidateIntegrator; % 使用冻结后的积分器重新计算未限幅输出。
+    [saturatedOutput, firstOutputSaturation] = local_clip(unsaturatedOutput, -abs(outputLimit), abs(outputLimit)); % 重新计算冻结后的输出饱和状态。
+end % 结束条件积分冻结处理。
+backCalculationActive = antiWindupEnable && firstOutputSaturation && abs(ki) > eps; % 判断输出饱和时是否允许执行反算泄放。
+if backCalculationActive % 判断是否执行输出饱和误差反算。
+    candidateIntegrator = candidateIntegrator + backCalculationGain * (saturatedOutput - unsaturatedOutput) / ki * Ts; % 把执行器无法实现的输出差值反算到积分器状态。
+end % 结束反算抗饱和处理。
+[integrator, secondIntegratorSaturation] = local_clip(candidateIntegrator, -abs(integratorLimit), abs(integratorLimit)); % 对条件积分与反算后的积分器执行最终限幅。
+unsaturatedOutput = kp * errorSignal + ki * integrator; % 使用最终积分器重新计算PI控制量。
+[output, outputSaturated] = local_clip(unsaturatedOutput, -abs(outputLimit), abs(outputLimit)); % 对最终PI控制量执行输出限幅。
+integratorSaturated = firstIntegratorSaturation || secondIntegratorSaturation; % 汇总候选与最终积分器限幅事件。
+antiWindupActive = conditionalHold || backCalculationActive; % 汇总条件积分冻结与反算抗饱和动作状态。
+end % 结束完整PI抗饱和算法函数。
 

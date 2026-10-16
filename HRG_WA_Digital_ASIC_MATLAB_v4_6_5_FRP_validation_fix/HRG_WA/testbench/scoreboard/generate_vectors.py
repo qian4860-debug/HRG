@@ -18,6 +18,9 @@ def signed(v, bits):
 def div(v, d):
     return (abs(v) // d) * (-1 if v < 0 else 1)
 
+def nearest(v,d):
+    return (abs(v)+d//2)//d * (-1 if v<0 else 1)
+
 def clamp(v, lim):
     return max(-lim, min(lim, v))
 
@@ -39,30 +42,33 @@ class DSP:
     def step(self, valid, x, y, fcw):
         cv, wrap = 0, 0
         if valid:
-            mixed = [(2*a*b) >> 9 for a,b in [(x,self.co),(x,self.si),(y,self.co),(y,self.si)]]
+            phase = (self.phase+fcw) & 0xffffffff
+            self.co=int(math.floor(abs(math.cos(phase*2*math.pi/2**32))*131071+.5)) * (-1 if math.cos(phase*2*math.pi/2**32)<0 else 1)
+            self.si=int(math.floor(abs(math.sin(phase*2*math.pi/2**32))*131071+.5)) * (-1 if math.sin(phase*2*math.pi/2**32)<0 else 1)
+            mixed = [nearest(a*b*512,131071) for a,b in [(x,self.co),(x,self.si),(y,self.co),(y,self.si)]]
             dec = self.count == 39
             demod = []
             for ch, value in enumerate(mixed):
                 old = self.ints[ch][:]
-                self.ints[ch] = [signed(old[0]+value,96), signed(old[1]+old[0],96), signed(old[2]+old[1],96)]
+                n0=old[0]+value; n1=old[1]+n0; n2=old[2]+n1
+                self.ints[ch] = [n0,n1,n2]
                 if dec:
-                    c = old[2]
+                    c = n2
                     for j in range(3):
                         c, self.combs[ch][j] = c-self.combs[ch][j], c
-                    n = div(c,64000)
+                    n = nearest(c*4,64000)
                     z = self.fir[ch]
-                    demod.append(signed(div(n+2*z[0]+3*z[1]+2*z[2]+z[3],9) >> 2,32))
-                    self.fir[ch] = [signed(n,32)] + z[:3]
+                    demod.append(nearest(nearest(n+2*z[0]+3*z[1]+2*z[2]+z[3],9),16))
+                    self.fir[ch] = [n] + z[:3]
             if dec:
                 a,b,c,d = demod
                 inv = [a*a+b*b+c*c+d*d, 2*(a*d-c*b), a*a+b*b-c*c-d*d, 2*(a*c+b*d),2*(a*b+c*d)]
-                self.out = [signed(v,28) for v in demod] + [max(-(1<<31),min((1<<31)-1,v>>20)) for v in inv]
+                self.out = [signed(v,28) for v in demod] + [max(-(1<<31),min((1<<31)-1,nearest(v,1<<20))) for v in inv]
                 cv = 1
             self.count = (self.count+1) % 40
             phase = (self.phase+fcw) & 0xffffffff
             wrap = int(phase < self.phase)
             self.phase = phase
-            self.co, self.si = lut(phase+0x40000000), lut(phase)
         return [cv,self.phase,wrap,*self.out,0]
 
 def generate_dsp():
@@ -102,55 +108,28 @@ def generate_dsp():
     return len(rows), sum(r[5] for r in rows)
 
 def generate_ctrl():
+    from loop_reference import Controller
+    oracle=Controller()
     rows=[]
-    ei=qi=0
-    pipe=[[0,0,0] for _ in range(3)]
-    outputs=[0,0,0]
     for k in range(2400):
-        reset = k in (0,1201)
-        update = int(k%7 != 2)
-        control = [15,3,5,9,0,1,7,15][(k//40)%8]
-        e = RNG.randrange(0,2<<24)
-        q = RNG.randrange(-(1<<23),1<<23)
-        if k < 320:
-            e = (1<<24) + (1000 if k%80<40 else -1000)
-            q = 500 if k%80<40 else -500
+        reset=k in (0,1201)
+        update=int(k%7 != 2)
+        control=[15,3,5,9,0,1,7,15][(k//40)%8]
+        e=RNG.randrange(0,2<<24);q=RNG.randrange(-(1<<23),1<<23)
+        if k<320:
+            e=(1<<24)+(1000 if k%80<40 else -1000)
+            q=500 if k%80<40 else -500
         gains=[157286,22938,458752,91750]
-        if k>1600:
-            gains=[RNG.randrange(-500000,500001) for _ in range(4)]
+        if k>1600: gains=[RNG.randrange(-500000,500001) for _ in range(4)]
         virt=RNG.randrange(-(1<<27),1<<27)
-        lim=0
-        if reset:
-            ei=qi=0
-            pipe=[[0,0,0] for _ in range(3)]
-            outputs=[0,0,0]
-        elif update:
-            commands=[]
-            for idx,(err,integ,kp,ki,limit,enable) in enumerate([
-                ((1<<24)-e,ei,*gains[:2],2306867,control&3==3),
-                (-q,qi,*gains[2:],1887437,control&5==5)]):
-                step=div((err*ki)>>18,1000)
-                total=((err*kp)>>18)+integ+step
-                if enable:
-                    if not ((total>limit and err>0) or (total < -limit and err<0)):
-                        integ=signed(integ+step,40)
-                    commands.append(clamp(total,limit))
-                    lim |= int(abs(total)>limit)
-                else:
-                    integ=0
-                    commands.append(0)
-                if idx==0: ei=integ
-                else: qi=integ
-            commands.append(virt if control&9==9 else 0)
-            outputs=[p[-1] for p in pipe]
-            pipe=[[v,*p[:2]] for v,p in zip(commands,pipe)]
-        rows.append([int(not reset),update,control,e,q,*gains,virt,int(not reset and update),lim,*outputs])
+        outputs=oracle.step(reset,update,control,e,q,gains,virt)
+        rows.append([int(not reset),update,control,e,q,*gains,virt,*outputs])
     (HERE/'ctrl_vectors.txt').write_text(''.join(' '.join(map(str,r))+'\n' for r in rows))
     return len(rows)
 
 def matlab_adapter():
     source=(MODEL/'HRG_WA_v46_simulate.m').read_text(encoding='utf-8-sig')
-    names=['local_integer_nco_step','local_cic_update','local_fir_update','local_invariants','local_fixed_vector','local_fixed','local_clip']
+    names=['local_integer_nco_step','local_cic_update','local_fir_update','local_invariants','local_fixed_vector','local_fixed','local_clip','local_pi_aw']
     chunks=[]
     for name in names:
         matches=list(re.finditer(r'^function .*\b'+name+r'\(',source,re.M))
@@ -192,6 +171,16 @@ for k=1:size(a,1)
  end
 end
 fprintf('MATLAB_GOLDEN_OUTPUTS=%d\\n',outputs);
+if isfile('pi_vectors.txt')
+ a=readmatrix('pi_vectors.txt','FileType','text');
+ fp=fopen('model_pi_vectors.txt','w');assert(fp>=0);piCleanup=onCleanup(@() fclose(fp));
+ for k=1:size(a,1)
+  [command,integrator]=local_pi_aw(a(k,1)/2^24,a(k,2)/2^30,a(k,3)/2^16,a(k,4)/2^16,...
+   a(k,5)/2^30,a(k,6)/2^30,a(k,7),true,.001);
+  fprintf(fp,'%.0f %.0f\\n',round(integrator*2^30),round(command*2^30));
+ end
+ fprintf('MATLAB_PI_OUTPUTS=%d\\n',size(a,1));
+end
 end
 '''
     (HERE/'export_model_vectors.m').write_text(header+'\n'+'\n'.join(chunks),encoding='utf-8')

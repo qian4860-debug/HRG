@@ -10,5 +10,8 @@ spi_original/spiRegPG2.v
 hrg_nco.v
 hrg_dsp_core.v
 hrg_cordic.v
+hrg_pi_aw.v
 hrg_controller.v
+hrg_dpll.v
+hrg_navigation.v
 hrg_sensor_if_top.v

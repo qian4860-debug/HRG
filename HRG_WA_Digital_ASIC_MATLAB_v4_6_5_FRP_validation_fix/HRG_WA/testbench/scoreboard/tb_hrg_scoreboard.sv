@@ -21,7 +21,8 @@ module tb_hrg_scoreboard;
   wire signed [27:0] ecmd,qcmd,vcmd;
   wire command_valid,limit_event;
   hrg_controller controller(clk,crst,update,ctrl,ce,cq,32'sd16777216,
-       kp,ki,qkp,qki,virt,ecmd,qcmd,vcmd,command_valid,limit_event);
+       kp,ki,qkp,qki,virt,ecmd,qcmd,vcmd,command_valid,limit_event,
+       2'd3,1'b0,1'b0,28'sd0,28'sd0,28'sd0,28'sd0,28'sd0,28'sd0);
   reg arst=0,start=0;
   reg signed [31:0] vx=0,vy=0;
   wire busy,av;

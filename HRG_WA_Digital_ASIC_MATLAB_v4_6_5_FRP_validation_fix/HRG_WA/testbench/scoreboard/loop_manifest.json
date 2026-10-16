@@ -1,0 +1,10 @@
+{
+  "seed": 466,
+  "pi": 5000,
+  "pll": 6000,
+  "navigation": 6000,
+  "controller": 3200,
+  "pi_float_max_abs": 9.619859353549032e-10,
+  "navigation_float_max_angle_deg": 2.982637781201447e-08,
+  "navigation_float_max_rate_dps": 7.6270682143331214e-06
+}

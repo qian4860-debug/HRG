@@ -15,9 +15,9 @@ module hrg_sensor_if_top (
     output reg signed [15:0]           dac_quad_o,
     output reg signed [15:0]           dac_virtual_o,
     output wire                       nav_valid_o,
-    output reg signed [47:0]           angle_o,
-    output reg signed [31:0]           rate_o,
-    output reg [31:0]                 status_o
+    output wire signed [47:0]          angle_o,
+    output wire signed [31:0]          rate_o,
+    output wire [31:0]                status_o
 );
     wire [895:0] cfg_pg0, cfg_pg1, cfg_pg2;
     wire [119:0] ext_cfg;
@@ -50,7 +50,13 @@ module hrg_sensor_if_top (
     wire [31:0] cfg_energy_ref= cfg_pg0[8'h40*8 +: 32];
     wire [27:0] cfg_virtual   = cfg_pg0[8'h44*8 +: 28];
     wire [31:0] cfg_nco_fcw   = cfg_pg0[8'h50*8 +: 32];
-    wire [31:0] nco_fcw = (cfg_nco_fcw == 0) ? 32'h20000000 : cfg_nco_fcw;
+    wire [31:0] base_fcw = (cfg_nco_fcw == 0) ? 32'h20000000 : cfg_nco_fcw;
+    wire [31:0] pll_fcw;
+    wire [31:0] nco_fcw = ctrl_byte[4] && ctrl_byte[0] ? pll_fcw:base_fcw;
+    wire signed [27:0] energy_hold = cfg_pg0[8'h54*8 +: 28]==0 ? 28'sd65884:cfg_pg0[8'h54*8 +: 28];
+    wire signed [27:0] quad_hold = cfg_pg0[8'h58*8 +: 28];
+    wire [31:0] bryan_q30 = cfg_pg0[8'h5c*8 +: 32]==0 ? 32'd297426485:cfg_pg0[8'h5c*8 +: 32];
+    wire [30:0] rate_alpha = cfg_pg0[8'h60*8 +: 31]==0 ? 31'd264448425:cfg_pg0[8'h60*8 +: 31];
     wire signed [31:0] energy_kp = (cfg_energy_kp == 0) ? 32'sd157286 : cfg_energy_kp;
     wire signed [31:0] energy_ki = (cfg_energy_ki == 0) ? 32'sd22938  : cfg_energy_ki;
     wire signed [31:0] quad_kp   = (cfg_quad_kp == 0)   ? 32'sd458752 : cfg_quad_kp;
@@ -70,19 +76,44 @@ module hrg_sensor_if_top (
         .nco_wrap_o(nco_wrap)
     );
 
-    wire phase_valid = (energy > 32'sd1342177) &&
-                       (($signed(inv_r) > 32'sd1342177) || ($signed(inv_r) < -32'sd1342177) ||
-                        ($signed(inv_s) > 32'sd1342177) || ($signed(inv_s) < -32'sd1342177));
+    wire [63:0] r_squared=$signed(inv_r)*$signed(inv_r),s_squared=$signed(inv_s)*$signed(inv_s);
+    wire [64:0] magnitude_squared={1'b0,r_squared}+{1'b0,s_squared};
+    // Compare against the unrounded real 0.08 threshold in Q24 code units.
+    wire phase_valid=energy>=1342178 && magnitude_squared>65'd1801439850948 && !dsp_overflow;
+    wire pll_frozen,pll_limited,pll_locked;
+    hrg_dpll u_dpll(clk,nrst,dsp_valid,ctrl_byte[4] && ctrl_byte[0],phase_valid,
+        energy,inv_l,base_fcw,pll_fcw,pll_frozen,pll_limited,pll_locked);
+    // CTRL[5] enables STARTUP(250 ms)/ACQUIRE(>=500 ms)/RUN sequencing.
+    // Otherwise software manages loop enables and the controller uses RUN math.
+    reg [1:0] mode;
+    reg [31:0] mode_ticks;
+    wire energy_locked=energy>=32'sd15435039 && energy<=32'sd18119393;
+    wire quad_locked=quad<=32'sd503316 && quad>= -32'sd503316;
+    wire entering_run=ctrl_byte[0] && ctrl_byte[5] && mode==2 && mode_ticks>=499 && energy_locked && quad_locked && pll_locked;
+    wire [1:0] control_mode=!ctrl_byte[0] ? 2'd0:(ctrl_byte[5] ? (entering_run ? 2'd3:mode):2'd3);
+    always @(posedge clk or negedge nrst) begin
+        if(!nrst) begin mode<=1;mode_ticks<=0;end
+        else if(dsp_valid) begin
+            if(!ctrl_byte[0]) begin mode<=1;mode_ticks<=0;end
+            else begin
+                if(mode_ticks!=32'hffffffff) mode_ticks<=mode_ticks+1;
+                if(mode==1 && mode_ticks>=249) begin mode<=2;mode_ticks<=0;end
+                if(entering_run) begin mode<=3;mode_ticks<=0;end
+            end
+        end
+    end
     wire cordic_busy, cordic_valid;
     wire signed [23:0] phase4;
     hrg_cordic u_cordic (
-        .clk(clk), .nrst(nrst), .start_i(dsp_valid && phase_valid),
+        .clk(clk), .nrst(nrst), .start_i(dsp_valid),
         .x_i(inv_r), .y_i(inv_s), .busy_o(cordic_busy),
         .valid_o(cordic_valid), .angle_o(phase4)
     );
 
     wire signed [27:0] energy_cmd, quad_cmd, virtual_cmd;
     wire command_valid, control_limit;
+    reg signed [27:0] actual_e,actual_q,actual_v,delivered_e,delivered_q;
+    reg actuator_saturated;
     hrg_controller u_controller (
         .clk(clk), .nrst(nrst), .update_i(dsp_valid), .ctrl_i(ctrl_byte[4:0]),
         .energy_i(energy), .quad_i(quad), .energy_ref_i(energy_ref),
@@ -90,58 +121,85 @@ module hrg_sensor_if_top (
         .quad_kp_i(quad_kp), .quad_ki_i(quad_ki),
         .virtual_cmd_i(cfg_virtual), .energy_cmd_o(energy_cmd),
         .quad_cmd_o(quad_cmd), .virtual_cmd_o(virtual_cmd),
-        .command_valid_o(command_valid), .limit_event_o(control_limit)
+        .command_valid_o(command_valid), .limit_event_o(control_limit),
+        .mode_i(control_mode),.run_entry_i(entering_run),.tracking_valid_i(actuator_saturated),
+        .energy_actual_i(actual_e),.quad_actual_i(actual_q),
+        .energy_delivered_i(delivered_e),.quad_delivered_i(delivered_q),
+        .energy_hold_i(energy_hold),.quad_hold_i(quad_hold)
     );
-
-    reg signed [23:0] phase4_prev;
-    reg phase_seen;
-    reg signed [24:0] phase_delta;
+    reg snapshot_valid,snapshot_zero;
+    reg signed [27:0] snapshot_virtual;
+    reg signed [31:0] snapshot_energy,snapshot_quad;
+    reg signed [13:0] snapshot_temperature;
+    wire nav_measurement_valid,nav_unwrap_fault;
+    reg [31:0] status_base;
+    reg status_seen;
+    assign status_o=status_seen ? ((status_base & 32'hfffbffbf) |
+        (nav_measurement_valid ? 32'h40:32'h40000) |
+        (nav_unwrap_fault ? 32'h20:32'd0)):32'd0;
+    hrg_navigation u_navigation(clk,nrst,cordic_valid,snapshot_valid,snapshot_zero,phase4,
+        snapshot_virtual,bryan_q30,rate_alpha,nav_valid_o,angle_o,rate_o,
+        nav_measurement_valid,nav_unwrap_fault);
     reg [31:0] sample_count;
     reg [31:0] overflow_count;
     reg [31:0] limit_count;
     reg [31:0] nco_wrap_count;
-    reg signed [63:0] dac_tmp;
-    assign nav_valid_o = cordic_valid;
+    reg signed [63:0] de,dq,dv;
+    function signed [63:0] nearest;
+        input signed [63:0] n,d;
+        begin nearest=n<0 ? -((-n+d/2)/d):(n+d/2)/d;end
+    endfunction
+    function signed [15:0] sat_dac;
+        input signed [63:0] code;
+        begin sat_dac=code>32767 ? 16'sd32767:(code< -32768 ? -16'sd32768:code);end
+    endfunction
+    wire [31:0] next_status=32'h00c00001 |
+        (snapshot_valid ? 32'h40:32'h40000) |
+        (dsp_overflow ? 32'h10:32'd0) |
+        (control_limit ? 32'h400:32'd0) |
+        (pll_frozen ? 32'h800:32'd0);
 
     always @(posedge clk or negedge nrst) begin
         if (!nrst) begin
-            phase4_prev<=0; phase_seen<=0; phase_delta<=0;
-            angle_o<=0; rate_o<=0; status_o<=0;
+            status_base<=0;status_seen<=0;snapshot_valid<=0;snapshot_zero<=0;snapshot_virtual<=0;
+            snapshot_energy<=0;snapshot_quad<=0;snapshot_temperature<=0;
+            actual_e<=0;actual_q<=0;actual_v<=0;delivered_e<=0;delivered_q<=0;actuator_saturated<=0;
             sample_count<=0; overflow_count<=0; limit_count<=0; nco_wrap_count<=0;
             dac_energy_o<=0; dac_quad_o<=0; dac_virtual_o<=0;
             ro_wen<=0; readout_wen<=0; ro_data<=0; readout_data<=0;
         end else begin
             ro_wen <= 1'b0;
             readout_wen <= 1'b0;
-            if (dsp_valid) sample_count <= sample_count + 1'b1;
+            if (dsp_valid) begin
+                sample_count <= sample_count + 1'b1;
+                snapshot_valid<=phase_valid;snapshot_zero<=entering_run;
+                snapshot_virtual<=actual_v;
+                snapshot_energy<=energy;snapshot_quad<=quad;snapshot_temperature<=temperature_i;
+            end
             if (dsp_valid && dsp_overflow) overflow_count <= overflow_count + 1'b1;
             if (control_limit) limit_count <= limit_count + 1'b1;
             if (nco_wrap) nco_wrap_count <= nco_wrap_count + 1'b1;
 
             if (command_valid) begin
-                dac_tmp = $signed(energy_cmd) * 32767;
-                dac_energy_o <= dac_tmp / 2516582;
-                dac_tmp = $signed(quad_cmd) * 32767;
-                dac_quad_o <= dac_tmp / 2097152;
-                dac_tmp = $signed(virtual_cmd) * 32767;
-                dac_virtual_o <= dac_tmp / 2928177;
+                de=nearest($signed(energy_cmd)*64'sd32768,2516582);
+                dq=nearest($signed(quad_cmd)*64'sd32768,2097152);
+                dv=nearest($signed(virtual_cmd)*64'sd32768,2928177);
+                dac_energy_o<=sat_dac(de);dac_quad_o<=sat_dac(dq);dac_virtual_o<=sat_dac(dv);
+                actual_e<=nearest($signed(sat_dac(de))*64'sd2516582,32768);
+                actual_q<=nearest($signed(sat_dac(dq))*64'sd2097152,32768);
+                actual_v<=nearest($signed(sat_dac(dv))*64'sd2928177,32768);
+                delivered_e<=energy_cmd;delivered_q<=quad_cmd;
+                actuator_saturated<=de>32767 || de< -32768 || dq>32767 || dq< -32768;
             end
 
             if (cordic_valid) begin
-                if (phase_seen) begin
-                    phase_delta = $signed(phase4 - phase4_prev);
-                    angle_o <= angle_o + (phase_delta >>> 2);
-                    rate_o <= (phase_delta >>> 2) * 1000;
-                end else begin
-                    phase_seen <= 1'b1;
-                end
-                phase4_prev <= phase4;
-                status_o <= 32'h00c00001 |
-                            (phase_valid ? 32'h00000040 : 32'h00040000) |
-                            (dsp_overflow ? 32'h00000010 : 32'h00000000) |
-                            (control_limit ? 32'h00000400 : 32'h00000000);
-                ro_data <= {phase4, quad, energy, status_o};
-                readout_data <= {8'h00, phase4, temperature_i, 2'b11, 8'h00};
+                status_base<=next_status;status_seen<=1;
+            end
+            // Navigation flags/data have now been registered together. Publish
+            // the SPI snapshot one clock later using that same result status.
+            if(nav_valid_o) begin
+                ro_data <= {phase4, snapshot_quad, snapshot_energy, status_o};
+                readout_data <= {8'h00, phase4, snapshot_temperature, 2'b11, 8'h00};
                 if (!ro_full) ro_wen <= 1'b1;
                 if (!readout_full) readout_wen <= 1'b1;
             end

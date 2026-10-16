@@ -5,3 +5,9 @@
 *.m text eol=lf
 *.md text eol=lf
 *.ps1 text eol=crlf
+*.f text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

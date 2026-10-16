@@ -10,6 +10,9 @@
 ../src/hrg_nco.v
 ../src/hrg_dsp_core.v
 ../src/hrg_cordic.v
+../src/hrg_pi_aw.v
 ../src/hrg_controller.v
+../src/hrg_dpll.v
+../src/hrg_navigation.v
 ../src/hrg_sensor_if_top.v
 tb_hrg_sensor_if.sv

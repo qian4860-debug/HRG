@@ -1,65 +1,57 @@
 {
-  "scope": "V4.6.5 sensor interface DSP/PI/CORDIC; top smoke separately",
+  "scope": "2026-10-16 front end, PI anti-windup, DPLL and direct navigation profile; online estimators excluded",
   "implementation_pass": true,
-  "implementation_summary": "SCOREBOARD_SUMMARY dsp=350 controller=2055 cordic=132 implementation_errors=0 model_field_mismatches=1698",
-  "matlab_bit_equivalence_pass": false,
-  "strict_fatal_observed": true,
+  "implementation_summary": "SCOREBOARD_SUMMARY dsp=350 controller=2055 cordic=132 implementation_errors=0 model_field_mismatches=0",
+  "matlab_bit_equivalence_pass": true,
+  "strict_fatal_observed": false,
   "negative_control_detected": true,
   "top_smoke_pass": true,
+  "loop_scoreboard_pass": true,
+  "loop_summary": "LOOP_SCOREBOARD_SUMMARY pi=5000 pll=6000 nav=6000 controller=3200 errors=0",
+  "matlab_pi_max_error_q30_lsb": 1,
+  "top_scoreboard_pass": true,
+  "top_summary": "TOP_SCOREBOARD_SUMMARY cycles=182889 updates=4000 nav=4000 modes=e errors=0 final_rate=79.914627",
+  "rtl_elaboration_pass": true,
+  "loop_numeric_checks": {
+    "seed": 466,
+    "pi": 5000,
+    "pll": 6000,
+    "navigation": 6000,
+    "controller": 3200,
+    "pi_float_max_abs": 9.619859353549032e-10,
+    "navigation_float_max_angle_deg": 2.982637781201447e-08,
+    "navigation_float_max_rate_dps": 7.6270682143331214e-06
+  },
+  "top_scenario": {
+    "cycles": 182889,
+    "control_updates": 4000,
+    "navigation_outputs": 4000,
+    "mode_seen": [
+      1,
+      2,
+      3
+    ],
+    "run_entry_seconds": 1.413,
+    "final_plant_energy": 0.9750527956863213,
+    "final_plant_quad": -8.4825113193078e-06,
+    "final_expected_rate_dps": 79.91462707519531,
+    "final_expected_fcw_hz": 5001.499988138676,
+    "dropout_samples": 400
+  },
   "transactions_compared": 350,
-  "transactions_with_difference": 192,
-  "field_mismatches": 1698,
-  "first_mismatch": {
-    "transaction": "41",
-    "field": "Cx",
-    "rtl_code": "10237",
-    "matlab_code": "8444",
-    "difference_lsb": "1793"
-  },
-  "fields": {
-    "Cx": {
-      "mismatches": 192,
-      "max_abs_lsb": 1093912
-    },
-    "Sx": {
-      "mismatches": 190,
-      "max_abs_lsb": 2681738
-    },
-    "Cy": {
-      "mismatches": 192,
-      "max_abs_lsb": 1363293
-    },
-    "Sy": {
-      "mismatches": 192,
-      "max_abs_lsb": 1366513
-    },
-    "E": {
-      "mismatches": 186,
-      "max_abs_lsb": 548646
-    },
-    "Q": {
-      "mismatches": 176,
-      "max_abs_lsb": 467155
-    },
-    "R": {
-      "mismatches": 188,
-      "max_abs_lsb": 353585
-    },
-    "S": {
-      "mismatches": 192,
-      "max_abs_lsb": 589604
-    },
-    "L": {
-      "mismatches": 190,
-      "max_abs_lsb": 14078464
-    }
-  },
+  "transactions_with_difference": 0,
+  "field_mismatches": 0,
+  "first_mismatch": null,
+  "fields": {},
   "sha256": {
-    "HRG_WA\\src\\hrg_controller.v": "b8cf5e574c9a48dcd09d5e84697d1100b6cbd0bc7c044d7a45e13917540889e0",
+    "HRG_WA\\src\\hrg_controller.v": "1ce64f10859930c2575a20fad036aa96367722dc1ff120541bd5c204a58d6e07",
     "HRG_WA\\src\\hrg_cordic.v": "2df12b8a70f96b3f27b3aebf12c83b371b84fe903da9364af2e95bafb3a957b7",
-    "HRG_WA\\src\\hrg_dsp_core.v": "404e516d59e4093fef55ae713d68d727883ced934fc2ca52a8eb9ca2a2fd4165",
-    "HRG_WA\\src\\hrg_nco.v": "2aed061d2bea356bb816d2b20f33d0f41c66f61736344e01a62c54810a513d8c",
-    "HRG_WA\\src\\hrg_sensor_if_top.v": "3f2c336dab6fc80ee8169dc5c536df24ef1d8c4a7d4408305e04185df1b93b17",
+    "HRG_WA\\src\\hrg_dpll.v": "17d8513ec903f7376e2ae04e28f6f0fa73f35943fdd1cf4569c59f95382e6cfa",
+    "HRG_WA\\src\\hrg_dsp_core.v": "afc0583dde572d975d6a2e5d252c1c5c38917fd0376a61890d2d1dc47bcfb7cb",
+    "HRG_WA\\src\\hrg_navigation.v": "c853017b3df50c1bf64209490ddbd8ce8b2f153510882b21729de6717172354c",
+    "HRG_WA\\src\\hrg_nco.v": "fd705486d88438a41ba36aa24b912e2849dfe05fa6cf00deb1a3d961a3493f87",
+    "HRG_WA\\src\\hrg_pi_aw.v": "6f6f7f37681f75991cb8f64357410dbba3f230841d4cfe499538a62b0a02d2ed",
+    "HRG_WA\\src\\hrg_sensor_if_top.v": "b27686781899a8eb21938bd86717f5d0dcd85ce78fc1ddc1e90f33ca83cd3661",
     "HRG_WA\\src\\spi_original\\asyncFifo.v": "93c4b495f9cc6e72dd4028d7f50b5011e4e8be383ed24d39ec560da86fa6ba8f",
     "HRG_WA\\src\\spi_original\\crc8_param.v": "ff6e73932b095192da22c4178db7fc2b0e7d053ec83186285fdc25b39a996841",
     "HRG_WA\\src\\spi_original\\fifoTPRAM.v": "b584609398d4e96df072fab38fe2743aaad06a8db542a9146ad6b95789db40bf",
@@ -69,12 +61,24 @@
     "HRG_WA\\src\\spi_original\\spiRegPG2.v": "143d5570a8f21a159a773ed6e3f97a5ad70fda9b2aa5b40f4d1de89be282e3c3",
     "HRG_WA\\src\\spi_original\\spiRegSlave.v": "b8fe8280886240b5fefb1a82de3eccdee00c5e37c56daf7d48ee4289d680b1b5",
     "HRG_WA\\src\\spi_original\\wCtlr.v": "0855d6a297e758f3865a5437c57ffd6add0cbb9dcf9337e05293becf4b40b28e",
-    "HRG_WA\\testbench\\scoreboard\\generate_vectors.py": "095d9d1bde82ec15b02752cb5f37df3b8a4085a0ba465558e72ed1c300aed8da",
-    "HRG_WA\\testbench\\scoreboard\\export_model_vectors.m": "bdfaa9b9bfb3f39d9a3951840aa2e357dd6ca9602b868aa40a56542429c5d5a1",
-    "HRG_WA\\testbench\\scoreboard\\tb_hrg_scoreboard.sv": "eda99965960068a276a1c27dcb5c59b09bc32f5c02420a91e92c8b04cf709027",
-    "HRG_WA\\testbench\\scoreboard\\dsp_vectors.txt": "33213ff3047ec5411858d12d8a5a450c74a1a2f067280a9ffcf3c09aafeee5ba",
-    "HRG_WA\\testbench\\scoreboard\\ctrl_vectors.txt": "fe77177bc23aa33eaef14bfacbd065f49de7c458aabde5775f8c9fab5609cdeb",
+    "HRG_WA\\testbench\\scoreboard\\analyze_results.py": "93bbc5ff5aa6c68bdc9ae034d6551722a73f6b58b9bb8b270abfacc4be050560",
+    "HRG_WA\\testbench\\scoreboard\\generate_loop_vectors.py": "2c9371aa5c58fa8d84d68c503d2c6f21c322121ee06fd9a4aa3f468350882038",
+    "HRG_WA\\testbench\\scoreboard\\generate_nco.py": "7213642a7734e4a5697fa3dd0e3e7484c44884c1c1069bf3c38f89e4799ba116",
+    "HRG_WA\\testbench\\scoreboard\\generate_top_vectors.py": "405f914e0690d767265e1155ede07286f4c041f53033cb24acb92426242129f5",
+    "HRG_WA\\testbench\\scoreboard\\generate_vectors.py": "405462f5411103bbd68baa6a528fe7bd9e804c65730ab20e2f5fa2b0b2508b80",
+    "HRG_WA\\testbench\\scoreboard\\loop_reference.py": "4ccfbdb59729928b3db3e29a043c30d8a70c332d95208e5f1dfa8d36cd8de253",
+    "HRG_WA\\testbench\\scoreboard\\tb_hrg_loop_scoreboard.sv": "e49bd2120e48a004a756becfca33fc94bab257b79ae3224568bbee76f4c9ad67",
+    "HRG_WA\\testbench\\scoreboard\\tb_hrg_scoreboard.sv": "6a09b1cbeb6c8bf22ee4c0fb3c2ea023c6b1eeebb6caa5ce2d01ce778806c33c",
+    "HRG_WA\\testbench\\scoreboard\\tb_hrg_top_scoreboard.sv": "ba9ba95a8c5aaa46dc6b6ac30099121c96bc5669b1e03c4c0bdc3156952e79f4",
+    "HRG_WA\\testbench\\scoreboard\\export_model_vectors.m": "56e9ccb0919bbbe84dca3a26d1f31bff6b5e9357b166cd2b4e0b041a5753129e",
+    "HRG_WA\\testbench\\scoreboard\\dsp_vectors.txt": "a5ae7661fed762252e95924fb60279224ba70a76041ee1e72945152366c1ea04",
+    "HRG_WA\\testbench\\scoreboard\\ctrl_vectors.txt": "3cbe8d714b812c05b5253646ae3daacb64f2c32feb2908995598f825a37a1e30",
     "HRG_WA\\testbench\\scoreboard\\model_vectors.txt": "96d1e8f1f5a4e9634e2d9b447a4c066a2ad988a999eddfe6c0fb4e1226509415",
+    "HRG_WA\\testbench\\scoreboard\\pi_vectors.txt": "2be26edb994b3ffe8fd48088608601fe2267ebcaaec9ccdb6504894412ff8a17",
+    "HRG_WA\\testbench\\scoreboard\\model_pi_vectors.txt": "c6ed4b442d5d8a751062188f25da100cd9d83e6e20e193d3bbcccf92b3d14d1a",
+    "HRG_WA\\testbench\\scoreboard\\pll_vectors.txt": "c7c2c3459f65e891fb13b5e2f92887192abd9d958448dda19796b584cfd8534c",
+    "HRG_WA\\testbench\\scoreboard\\nav_vectors.txt": "e53a349d43f7a37617a07aac6eb0ffff16778fa3ca9eca8216386d4a0a4d4f54",
+    "HRG_WA\\testbench\\scoreboard\\control_extended_vectors.txt": "614d151991fd6a426b18a85f44170147e67701e1d62b0e8857948f56948c34d8",
     "HRG_WA_v46_simulate.m": "8b586777640dc25e88cadd33f022f90a7e170d26af0085eac15545b3be5de01d",
     "HRG_WA_v46_params.m": "11d521eafd4b883802329faaa53212ad2f6adfa6c04547633c5fe5c662401b4f"
   }
