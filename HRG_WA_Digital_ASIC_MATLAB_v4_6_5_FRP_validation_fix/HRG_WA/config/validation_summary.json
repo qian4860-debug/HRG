@@ -1,0 +1,392 @@
+{
+  "default_build_compatible": {
+    "compatible": true,
+    "recompile_required": false,
+    "reasons": [],
+    "changes": [],
+    "built_head_id": "nominal_unmeasured",
+    "build_sha256": "4b8e6a411a481a6e98f303a4af9edf61f7ba5b62d24a402c46e8e7f6df26936b"
+  },
+  "tests_passed": 12,
+  "runtime_only_change": {
+    "compatible": true,
+    "recompile_required": false,
+    "reasons": [],
+    "changes": [],
+    "built_head_id": "nominal_unmeasured",
+    "build_sha256": "4b8e6a411a481a6e98f303a4af9edf61f7ba5b62d24a402c46e8e7f6df26936b"
+  },
+  "compile_change": {
+    "compatible": false,
+    "recompile_required": true,
+    "reasons": [
+      "Compile-time configuration changed",
+      "Generated header differs from completed build"
+    ],
+    "changes": [
+      {
+        "parameter": "build.startup_seconds",
+        "built": 0.25,
+        "requested": 0.3
+      }
+    ],
+    "built_head_id": "nominal_unmeasured",
+    "build_sha256": "53f5d265ae16ddc3ff0e2dc128927cfb1239ac30396f5d8b8ced34dae384dee4"
+  },
+  "baseline": {
+    "scope": "2026-10-16 front end, PI anti-windup, DPLL and direct navigation profile; online estimators excluded",
+    "implementation_pass": true,
+    "implementation_summary": "SCOREBOARD_SUMMARY dsp=350 controller=2055 cordic=132 implementation_errors=0 model_field_mismatches=0",
+    "matlab_bit_equivalence_pass": true,
+    "strict_fatal_observed": false,
+    "negative_control_detected": true,
+    "top_smoke_pass": true,
+    "loop_scoreboard_pass": true,
+    "loop_summary": "LOOP_SCOREBOARD_SUMMARY pi=5000 pll=6000 nav=6000 controller=3200 errors=0",
+    "matlab_pi_max_error_q30_lsb": 1,
+    "top_scoreboard_pass": true,
+    "top_summary": "TOP_SCOREBOARD_SUMMARY cycles=182889 updates=4000 nav=4000 modes=e errors=0 final_rate=79.914627",
+    "rtl_elaboration_pass": true,
+    "loop_numeric_checks": {
+      "seed": 466,
+      "pi": 5000,
+      "pll": 6000,
+      "navigation": 6000,
+      "controller": 3200,
+      "pi_float_max_abs": 9.619859353549032e-10,
+      "navigation_float_max_angle_deg": 2.982637781201447e-08,
+      "navigation_float_max_rate_dps": 7.6270682143331214e-06
+    },
+    "top_scenario": {
+      "cycles": 182889,
+      "control_updates": 4000,
+      "navigation_outputs": 4000,
+      "mode_seen": [
+        1,
+        2,
+        3
+      ],
+      "run_entry_seconds": 1.413,
+      "final_plant_energy": 0.9750527956863213,
+      "final_plant_quad": -8.4825113193078e-06,
+      "final_expected_rate_dps": 79.91462707519531,
+      "final_expected_fcw_hz": 5001.499988138676,
+      "dropout_samples": 400
+    },
+    "transactions_compared": 350,
+    "transactions_with_difference": 0,
+    "field_mismatches": 0,
+    "first_mismatch": null,
+    "fields": {},
+    "sha256": {
+      "HRG_WA\\src\\hrg_controller.v": "11cdde7a76536dae9e7c1f03401bede60330116ca72d2270d8e8ee516dffb070",
+      "HRG_WA\\src\\hrg_cordic.v": "2df12b8a70f96b3f27b3aebf12c83b371b84fe903da9364af2e95bafb3a957b7",
+      "HRG_WA\\src\\hrg_dpll.v": "8faa89404826b8b2ac574c0974792666ccc455633173d247e2d60de7566def37",
+      "HRG_WA\\src\\hrg_dsp_core.v": "1431d0a392676cfcc50e6eb74a00e217f4d44f1867b23173dc35be4355b601c8",
+      "HRG_WA\\src\\hrg_navigation.v": "1d7859e375925a25c751e294a428ebfa49aff446bd67157b84d412a7056b6b47",
+      "HRG_WA\\src\\hrg_nco.v": "fd705486d88438a41ba36aa24b912e2849dfe05fa6cf00deb1a3d961a3493f87",
+      "HRG_WA\\src\\hrg_pi_aw.v": "3aee3547c4084836a72e49a445c4b6499c252a1d3800c96e84946e9eed3f76cd",
+      "HRG_WA\\src\\hrg_sensor_if_top.v": "7db0ac74c9d559f3fee757ea597485c4997c715a50635bf6affb92a8ded4e38f",
+      "HRG_WA\\src\\spi_original\\asyncFifo.v": "93c4b495f9cc6e72dd4028d7f50b5011e4e8be383ed24d39ec560da86fa6ba8f",
+      "HRG_WA\\src\\spi_original\\crc8_param.v": "ff6e73932b095192da22c4178db7fc2b0e7d053ec83186285fdc25b39a996841",
+      "HRG_WA\\src\\spi_original\\fifoTPRAM.v": "b584609398d4e96df072fab38fe2743aaad06a8db542a9146ad6b95789db40bf",
+      "HRG_WA\\src\\spi_original\\rCtrl.v": "2634c8b3de12feddb19fb16324b7949589dc09eeb5e395dde290c690b0d767ff",
+      "HRG_WA\\src\\spi_original\\roReg.v": "d20aa3248c733e3114d0659960cca26156542a8d7c054f3b0eb696121e49d809",
+      "HRG_WA\\src\\spi_original\\rwRegPG2.v": "9e10345a341638ef9bd9cf6f9ab928df1f8fa4d68704740f0a3162d1d3433395",
+      "HRG_WA\\src\\spi_original\\spiRegPG2.v": "143d5570a8f21a159a773ed6e3f97a5ad70fda9b2aa5b40f4d1de89be282e3c3",
+      "HRG_WA\\src\\spi_original\\spiRegSlave.v": "b8fe8280886240b5fefb1a82de3eccdee00c5e37c56daf7d48ee4289d680b1b5",
+      "HRG_WA\\src\\spi_original\\wCtlr.v": "0855d6a297e758f3865a5437c57ffd6add0cbb9dcf9337e05293becf4b40b28e",
+      "HRG_WA\\testbench\\scoreboard\\analyze_results.py": "d2d3f41ff08c5b60ec4c627a5afd41c84679dd6610944e4ad0ac340e1616abd0",
+      "HRG_WA\\testbench\\scoreboard\\baseline_guard.py": "cc3a51ac353312d64f57cafba7332d6a29040a1e26a1d1110860d51f14841634",
+      "HRG_WA\\testbench\\scoreboard\\generate_loop_vectors.py": "2c9371aa5c58fa8d84d68c503d2c6f21c322121ee06fd9a4aa3f468350882038",
+      "HRG_WA\\testbench\\scoreboard\\generate_nco.py": "7213642a7734e4a5697fa3dd0e3e7484c44884c1c1069bf3c38f89e4799ba116",
+      "HRG_WA\\testbench\\scoreboard\\generate_top_vectors.py": "405f914e0690d767265e1155ede07286f4c041f53033cb24acb92426242129f5",
+      "HRG_WA\\testbench\\scoreboard\\generate_vectors.py": "405462f5411103bbd68baa6a528fe7bd9e804c65730ab20e2f5fa2b0b2508b80",
+      "HRG_WA\\testbench\\scoreboard\\loop_reference.py": "4ccfbdb59729928b3db3e29a043c30d8a70c332d95208e5f1dfa8d36cd8de253",
+      "HRG_WA\\testbench\\scoreboard\\reference_guard.py": "28d9fd0c6b01662ff80c1c148d863cc938ca001577072d599752e44a2aa19ccd",
+      "HRG_WA\\testbench\\scoreboard\\tb_hrg_loop_scoreboard.sv": "e49bd2120e48a004a756becfca33fc94bab257b79ae3224568bbee76f4c9ad67",
+      "HRG_WA\\testbench\\scoreboard\\tb_hrg_scoreboard.sv": "6a09b1cbeb6c8bf22ee4c0fb3c2ea023c6b1eeebb6caa5ce2d01ce778806c33c",
+      "HRG_WA\\testbench\\scoreboard\\tb_hrg_top_scoreboard.sv": "ba9ba95a8c5aaa46dc6b6ac30099121c96bc5669b1e03c4c0bdc3156952e79f4",
+      "HRG_WA\\testbench\\scoreboard\\run_all.ps1": "a2b3abf53d1f023948592be7253e1b2ec9c44190b933e7e1cf4d1a4e59d699b7",
+      "HRG_WA\\testbench\\scoreboard\\run_loop_scoreboard.ps1": "5f4ecfcd390daf2c2e6c96ae24969235f804fbfce68d9a832cfc79d309974ffd",
+      "HRG_WA\\testbench\\scoreboard\\run_scoreboard.ps1": "37711913ae5e615dfb47c3f94212d295d869c49d4d430e405b4682e86a835301",
+      "HRG_WA\\testbench\\scoreboard\\run_top_scoreboard.ps1": "a4dc480048223c9ca2ed79fa3e2ebad0b750997e73b74a7906e86634eeb5241a",
+      "HRG_WA\\testbench\\scoreboard\\run_top_smoke.ps1": "8c1e193641a901d86cafe4b1bafbc1c80fd9a7ae734d83554a1191746331718e",
+      "HRG_WA\\testbench\\scoreboard\\verify_scoreboard_detection.ps1": "23677383bf58cdac837bc25ab7884940c1b341d2072912b4b5361c2c778bc4b1",
+      "HRG_WA\\testbench\\scoreboard\\check_rtl_elaboration.tcl": "1c539e44bbb4d88de6ba5338f4dc829e6e42b2a09771e56ed69cc2ce5fb97714",
+      "HRG_WA\\testbench\\scoreboard\\evidence_20261016\\frontend.txt": "744b46df67e5cd40034189ceb53ed6703b6b434c5edd6c2cb5296f4d740b0efd",
+      "HRG_WA\\testbench\\scoreboard\\evidence_20261016\\loop.txt": "2dd61d594aaa5b310bcaa939a7dd7a09973d30b413def8487c0c1ebf3215d294",
+      "HRG_WA\\testbench\\scoreboard\\evidence_20261016\\negative_control.txt": "3788db9e04e24bc27247895bba3a78a3e6d43f5558dfb182ff68c8987f0afadd",
+      "HRG_WA\\testbench\\scoreboard\\evidence_20261016\\rtl_elaboration.txt": "c7f3e177ce54d6157583fb95fe7618144b5e0eed47e14f50cb5be4b1029c92da",
+      "HRG_WA\\testbench\\scoreboard\\evidence_20261016\\smoke.txt": "70dffde741ba89e9b8d84bdf17ada28b0a3ea2dbe87333ee56122bf23dfa0115",
+      "HRG_WA\\testbench\\scoreboard\\evidence_20261016\\top.txt": "b6f9ea94369cab253b3bd8933f6ef70c3a51588794028bdf8789f64ced97b3e0",
+      "HRG_WA\\testbench\\scoreboard\\export_model_vectors.m": "56e9ccb0919bbbe84dca3a26d1f31bff6b5e9357b166cd2b4e0b041a5753129e",
+      "HRG_WA\\testbench\\scoreboard\\dsp_vectors.txt": "a5ae7661fed762252e95924fb60279224ba70a76041ee1e72945152366c1ea04",
+      "HRG_WA\\testbench\\scoreboard\\ctrl_vectors.txt": "3cbe8d714b812c05b5253646ae3daacb64f2c32feb2908995598f825a37a1e30",
+      "HRG_WA\\testbench\\scoreboard\\model_vectors.txt": "96d1e8f1f5a4e9634e2d9b447a4c066a2ad988a999eddfe6c0fb4e1226509415",
+      "HRG_WA\\testbench\\scoreboard\\pi_vectors.txt": "2be26edb994b3ffe8fd48088608601fe2267ebcaaec9ccdb6504894412ff8a17",
+      "HRG_WA\\testbench\\scoreboard\\model_pi_vectors.txt": "c6ed4b442d5d8a751062188f25da100cd9d83e6e20e193d3bbcccf92b3d14d1a",
+      "HRG_WA\\testbench\\scoreboard\\pll_vectors.txt": "c7c2c3459f65e891fb13b5e2f92887192abd9d958448dda19796b584cfd8534c",
+      "HRG_WA\\testbench\\scoreboard\\nav_vectors.txt": "e53a349d43f7a37617a07aac6eb0ffff16778fa3ca9eca8216386d4a0a4d4f54",
+      "HRG_WA\\testbench\\scoreboard\\control_extended_vectors.txt": "614d151991fd6a426b18a85f44170147e67701e1d62b0e8857948f56948c34d8",
+      "HRG_WA_v46_simulate.m": "8b586777640dc25e88cadd33f022f90a7e170d26af0085eac15545b3be5de01d",
+      "HRG_WA_v46_params.m": "11d521eafd4b883802329faaa53212ad2f6adfa6c04547633c5fe5c662401b4f"
+    }
+  },
+  "runtime_fixture_words": [
+    {
+      "name": "ENERGY_KP",
+      "address": 40,
+      "address_hex": "0x28",
+      "requested": 2.4,
+      "signed_code": 157286,
+      "word": 157286,
+      "word_hex": "0x00026666",
+      "bytes_le": [
+        102,
+        102,
+        2,
+        0
+      ],
+      "fractional_bits": 16,
+      "decoded": 2.399993896484375
+    },
+    {
+      "name": "ENERGY_KI",
+      "address": 44,
+      "address_hex": "0x2C",
+      "requested": 0,
+      "signed_code": 0,
+      "word": 0,
+      "word_hex": "0x00000000",
+      "bytes_le": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fractional_bits": 16,
+      "decoded": 0.0
+    },
+    {
+      "name": "QUAD_KP",
+      "address": 48,
+      "address_hex": "0x30",
+      "requested": 7.0,
+      "signed_code": 458752,
+      "word": 458752,
+      "word_hex": "0x00070000",
+      "bytes_le": [
+        0,
+        0,
+        7,
+        0
+      ],
+      "fractional_bits": 16,
+      "decoded": 7.0
+    },
+    {
+      "name": "QUAD_KI",
+      "address": 52,
+      "address_hex": "0x34",
+      "requested": 1.4,
+      "signed_code": 91750,
+      "word": 91750,
+      "word_hex": "0x00016666",
+      "bytes_le": [
+        102,
+        102,
+        1,
+        0
+      ],
+      "fractional_bits": 16,
+      "decoded": 1.399993896484375
+    },
+    {
+      "name": "ENERGY_REF",
+      "address": 64,
+      "address_hex": "0x40",
+      "requested": 1.2,
+      "signed_code": 20132659,
+      "word": 20132659,
+      "word_hex": "0x01333333",
+      "bytes_le": [
+        51,
+        51,
+        51,
+        1
+      ],
+      "fractional_bits": 24,
+      "decoded": 1.199999988079071
+    },
+    {
+      "name": "VIRTUAL_RATE",
+      "address": 68,
+      "address_hex": "0x44",
+      "requested": 0.1,
+      "signed_code": 419430,
+      "word": 419430,
+      "word_hex": "0x00066666",
+      "bytes_le": [
+        102,
+        102,
+        6,
+        0
+      ],
+      "fractional_bits": 22,
+      "decoded": 0.09999990463256836
+    },
+    {
+      "name": "NCO_FCW",
+      "address": 80,
+      "address_hex": "0x50",
+      "requested": 0.155,
+      "signed_code": 665719931,
+      "word": 665719931,
+      "word_hex": "0x27AE147B",
+      "bytes_le": [
+        123,
+        20,
+        174,
+        39
+      ],
+      "fractional_bits": 32,
+      "decoded": 0.15500000002793968
+    },
+    {
+      "name": "ENERGY_HOLD",
+      "address": 84,
+      "address_hex": "0x54",
+      "requested": 0,
+      "signed_code": 0,
+      "word": 0,
+      "word_hex": "0x00000000",
+      "bytes_le": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fractional_bits": 22,
+      "decoded": 0.0
+    },
+    {
+      "name": "QUAD_HOLD",
+      "address": 88,
+      "address_hex": "0x58",
+      "requested": -0.02,
+      "signed_code": -83886,
+      "word": 4294883410,
+      "word_hex": "0xFFFEB852",
+      "bytes_le": [
+        82,
+        184,
+        254,
+        255
+      ],
+      "fractional_bits": 22,
+      "decoded": -0.019999980926513672
+    },
+    {
+      "name": "BRYAN",
+      "address": 92,
+      "address_hex": "0x5C",
+      "requested": 0.3,
+      "signed_code": 322122547,
+      "word": 322122547,
+      "word_hex": "0x13333333",
+      "bytes_le": [
+        51,
+        51,
+        51,
+        19
+      ],
+      "fractional_bits": 30,
+      "decoded": 0.2999999998137355
+    },
+    {
+      "name": "RATE_ALPHA",
+      "address": 96,
+      "address_hex": "0x60",
+      "requested": 0.24628678804353288,
+      "signed_code": 264448425,
+      "word": 264448425,
+      "word_hex": "0x0FC329A9",
+      "bytes_le": [
+        169,
+        41,
+        195,
+        15
+      ],
+      "fractional_bits": 30,
+      "decoded": 0.24628678802400827
+    }
+  ],
+  "nondefault_test_configuration": {
+    "acquire_seconds": 0.5,
+    "actuator_tracking_gain_per_s": 10,
+    "dac_full_scale_energy": 0.6,
+    "dac_full_scale_quad": 0.5,
+    "dac_full_scale_virtual_dps": 40.0,
+    "energy_back_gain_per_s": 3,
+    "energy_limit": 0.55,
+    "energy_lock_relative": 0.08,
+    "energy_slew_per_s": 3,
+    "energy_valid_threshold": 0.08,
+    "fs_adc_hz": 80000,
+    "fs_ctrl_hz": 2000,
+    "integrator_limit": 1.5,
+    "legacy_defaults": {
+      "bryan_q30": 297426485,
+      "energy_hold_q22": 65884,
+      "energy_ki_q16": 22938,
+      "energy_kp_q16": 157286,
+      "energy_ref_q24": 16777216,
+      "nco_fcw": 536870912,
+      "quad_ki_q16": 91750,
+      "quad_kp_q16": 458752,
+      "rate_alpha_q30": 264448425
+    },
+    "phase_valid_threshold": 0.08,
+    "pipeline_delay_ctrl": 4,
+    "pll_back_gain_per_s": 12,
+    "pll_frequency_limit_hz": 1200.0,
+    "pll_integral_limit_hz": 800.0,
+    "pll_ki_hz_per_s": 20,
+    "pll_kp_hz": 4,
+    "pll_lock_phase_error": 0.025,
+    "quad_back_gain_per_s": 8,
+    "quad_limit": 0.45,
+    "quad_lock_absolute": 0.03,
+    "quad_slew_per_s": 6,
+    "slew_tracking_gain_per_s": 10,
+    "startup_drive": 0.2,
+    "startup_seconds": 0.25,
+    "unwrap_limit_pi": 0.8
+  },
+  "limitations": [
+    "RTL build identity only; hardware image not read back",
+    "Nondefault profile tested at selected numeric points, not full per-head closed-loop performance"
+  ],
+  "rtl_sources": {
+    "src/hrg_controller.v": "11cdde7a76536dae9e7c1f03401bede60330116ca72d2270d8e8ee516dffb070",
+    "src/hrg_cordic.v": "2df12b8a70f96b3f27b3aebf12c83b371b84fe903da9364af2e95bafb3a957b7",
+    "src/hrg_dpll.v": "8faa89404826b8b2ac574c0974792666ccc455633173d247e2d60de7566def37",
+    "src/hrg_dsp_core.v": "1431d0a392676cfcc50e6eb74a00e217f4d44f1867b23173dc35be4355b601c8",
+    "src/hrg_navigation.v": "1d7859e375925a25c751e294a428ebfa49aff446bd67157b84d412a7056b6b47",
+    "src/hrg_nco.v": "d91c022db07194f634e605612548d6bdb989a6a51aaed3e15cc88dd999cb744f",
+    "src/hrg_pi_aw.v": "3aee3547c4084836a72e49a445c4b6499c252a1d3800c96e84946e9eed3f76cd",
+    "src/hrg_sensor_if_top.v": "7db0ac74c9d559f3fee757ea597485c4997c715a50635bf6affb92a8ded4e38f",
+    "src/spi_original/asyncFifo.v": "93c4b495f9cc6e72dd4028d7f50b5011e4e8be383ed24d39ec560da86fa6ba8f",
+    "src/spi_original/crc8_param.v": "ff6e73932b095192da22c4178db7fc2b0e7d053ec83186285fdc25b39a996841",
+    "src/spi_original/fifoTPRAM.v": "b584609398d4e96df072fab38fe2743aaad06a8db542a9146ad6b95789db40bf",
+    "src/spi_original/rCtrl.v": "2634c8b3de12feddb19fb16324b7949589dc09eeb5e395dde290c690b0d767ff",
+    "src/spi_original/roReg.v": "d20aa3248c733e3114d0659960cca26156542a8d7c054f3b0eb696121e49d809",
+    "src/spi_original/rwRegPG2.v": "9e10345a341638ef9bd9cf6f9ab928df1f8fa4d68704740f0a3162d1d3433395",
+    "src/spi_original/spiRegPG2.v": "143d5570a8f21a159a773ed6e3f97a5ad70fda9b2aa5b40f4d1de89be282e3c3",
+    "src/spi_original/spiRegSlave.v": "b8fe8280886240b5fefb1a82de3eccdee00c5e37c56daf7d48ee4289d680b1b5",
+    "src/spi_original/wCtlr.v": "0855d6a297e758f3865a5437c57ffd6add0cbb9dcf9337e05293becf4b40b28e",
+    "src/hrg_head_config.vh": "3c34180fe8c80b37e3280d0746f0e5d55d460f17bbde00c653cff676c0e5fb23"
+  },
+  "generator_sha256": "fbbb89ceac7dd1b1a810f1098f465468a003b26684508bda15655ca6feaf01ae"
+}

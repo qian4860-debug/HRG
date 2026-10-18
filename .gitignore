@@ -23,3 +23,6 @@ elaborate_console.txt
 simulation_console.txt
 *.asv
 top_vectors.txt
+**/tools/tests/_work/
+**/generated/**/build_pending.json
+**/generated/compile_fixture/

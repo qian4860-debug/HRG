@@ -1,0 +1,286 @@
+{
+  "head_id": "nominal_unmeasured",
+  "profile_sha256": "8d4d1a44d9dca199cc0b88f42a6e488e34de158c1a740d38e4fcd8cf2563a161",
+  "build_sha256": "4b8e6a411a481a6e98f303a4af9edf61f7ba5b62d24a402c46e8e7f6df26936b",
+  "compile_configuration": {
+    "build": {
+      "fs_adc_hz": 40000,
+      "fs_ctrl_hz": 1000,
+      "pipeline_delay_ctrl": 3,
+      "energy_limit": 0.55,
+      "quad_limit": 0.45,
+      "integrator_limit": 1.5,
+      "energy_slew_per_s": 2.0,
+      "quad_slew_per_s": 4.0,
+      "energy_back_gain_per_s": 3,
+      "quad_back_gain_per_s": 8,
+      "actuator_tracking_gain_per_s": 10,
+      "slew_tracking_gain_per_s": 10,
+      "startup_drive": 0.35,
+      "startup_seconds": 0.25,
+      "acquire_seconds": 0.5,
+      "energy_lock_relative": 0.08,
+      "quad_lock_absolute": 0.03,
+      "energy_valid_threshold": 0.08,
+      "phase_valid_threshold": 0.08,
+      "unwrap_limit_pi": 0.8,
+      "pll_kp_hz": 8.0,
+      "pll_ki_hz_per_s": 35.0,
+      "pll_integral_limit_hz": 800.0,
+      "pll_frequency_limit_hz": 1200.0,
+      "pll_back_gain_per_s": 12,
+      "pll_lock_phase_error": 0.025,
+      "dac_full_scale_energy": 0.6,
+      "dac_full_scale_quad": 0.5,
+      "dac_full_scale_virtual_dps": 40.0,
+      "legacy_defaults": {
+        "nco_fcw": 536870912,
+        "energy_kp_q16": 157286,
+        "energy_ki_q16": 22938,
+        "quad_kp_q16": 458752,
+        "quad_ki_q16": 91750,
+        "energy_ref_q24": 16777216,
+        "energy_hold_q22": 65884,
+        "bryan_q30": 297426485,
+        "rate_alpha_q30": 264448425
+      }
+    },
+    "architecture": {
+      "adc_bits": 18,
+      "adc_full_scale": 2.0,
+      "dac_bits": 16,
+      "nco_phase_bits": 32,
+      "nco_amplitude_bits": 18,
+      "cic_stages": 3,
+      "fir_coefficients": [
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "fir_divisor": 9
+    }
+  },
+  "compile_values": {
+    "ADC_HZ": [
+      40000,
+      32,
+      true
+    ],
+    "CTRL_HZ": [
+      1000,
+      32,
+      true
+    ],
+    "DECIMATION": [
+      40,
+      32,
+      true
+    ],
+    "CIC_GAIN": [
+      64000,
+      32,
+      true
+    ],
+    "PIPELINE_DELAY": [
+      3,
+      32,
+      true
+    ],
+    "I_LIMIT_Q30": [
+      1610612736,
+      40,
+      true
+    ],
+    "E_LIMIT_Q30": [
+      590558003,
+      64,
+      true
+    ],
+    "Q_LIMIT_Q30": [
+      483183821,
+      64,
+      true
+    ],
+    "E_SLEW_Q22": [
+      8389,
+      64,
+      true
+    ],
+    "Q_SLEW_Q22": [
+      16777,
+      64,
+      true
+    ],
+    "STARTUP_DRIVE_Q30": [
+      375809638,
+      64,
+      true
+    ],
+    "STARTUP_TICKS": [
+      250,
+      32,
+      false
+    ],
+    "ACQUIRE_TICKS": [
+      500,
+      32,
+      false
+    ],
+    "ENERGY_TOL_Q30": [
+      85899346,
+      64,
+      true
+    ],
+    "QUAD_LOCK_Q24": [
+      503316,
+      32,
+      true
+    ],
+    "ENERGY_VALID_Q24": [
+      1342178,
+      32,
+      true
+    ],
+    "ENERGY_DENOM_Q24": [
+      1342177,
+      32,
+      true
+    ],
+    "PHASE_VALID_SQUARED_Q48": [
+      1801439850948,
+      65,
+      false
+    ],
+    "UNWRAP_CODE": [
+      6710886,
+      32,
+      true
+    ],
+    "PLL_KP_Q16": [
+      524288,
+      32,
+      true
+    ],
+    "PLL_KI_Q16": [
+      2293760,
+      32,
+      true
+    ],
+    "PLL_I_LIMIT_Q30": [
+      24542670263,
+      40,
+      true
+    ],
+    "PLL_OUT_LIMIT_Q30": [
+      1288490188800,
+      64,
+      true
+    ],
+    "PLL_LOCK_Q24": [
+      419430,
+      32,
+      true
+    ],
+    "DAC_E_FS_Q22": [
+      2516582,
+      64,
+      true
+    ],
+    "DAC_Q_FS_Q22": [
+      2097152,
+      64,
+      true
+    ],
+    "DAC_V_FS_Q22": [
+      2928177,
+      64,
+      true
+    ],
+    "E_BACK_GAIN": [
+      3,
+      16,
+      false
+    ],
+    "Q_BACK_GAIN": [
+      8,
+      16,
+      false
+    ],
+    "ACTUATOR_TRACK_GAIN": [
+      10,
+      16,
+      false
+    ],
+    "SLEW_TRACK_GAIN": [
+      10,
+      16,
+      false
+    ],
+    "PLL_BACK_GAIN": [
+      12,
+      16,
+      false
+    ],
+    "DEFAULT_NCO_FCW": [
+      536870912,
+      32,
+      false
+    ],
+    "DEFAULT_ENERGY_KP_Q16": [
+      157286,
+      32,
+      true
+    ],
+    "DEFAULT_ENERGY_KI_Q16": [
+      22938,
+      32,
+      true
+    ],
+    "DEFAULT_QUAD_KP_Q16": [
+      458752,
+      32,
+      true
+    ],
+    "DEFAULT_QUAD_KI_Q16": [
+      91750,
+      32,
+      true
+    ],
+    "DEFAULT_ENERGY_REF_Q24": [
+      16777216,
+      32,
+      true
+    ],
+    "DEFAULT_ENERGY_HOLD_Q22": [
+      65884,
+      28,
+      true
+    ],
+    "DEFAULT_BRYAN_Q30": [
+      297426485,
+      32,
+      false
+    ],
+    "DEFAULT_RATE_ALPHA_Q30": [
+      264448425,
+      32,
+      false
+    ]
+  },
+  "compatibility": {
+    "compatible": true,
+    "recompile_required": false,
+    "reasons": [],
+    "changes": [],
+    "built_head_id": "nominal_unmeasured",
+    "build_sha256": "4b8e6a411a481a6e98f303a4af9edf61f7ba5b62d24a402c46e8e7f6df26936b"
+  },
+  "warnings": [
+    "Measured/assumed status: assumed",
+    "Detection/drive matrices and mechanical error terms affect MATLAB only; no RTL online calibration is generated.",
+    "Manual RUN hold values and CTRL loop enables are exported in p.head; the original MATLAB state machine retains its own feedforward/enable behavior.",
+    "Automatic energy hold compensates mean damping in normalized model units only; it is not a drive voltage."
+  ]
+}

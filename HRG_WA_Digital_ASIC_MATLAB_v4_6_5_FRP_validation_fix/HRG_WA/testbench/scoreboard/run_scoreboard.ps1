@@ -7,6 +7,8 @@ param(
 $ErrorActionPreference = 'Stop'
 Push-Location $PSScriptRoot
 try {
+    python baseline_guard.py
+    if ($LASTEXITCODE -ne 0) { throw 'Incompatible baseline build' }
     if (-not $SkipGeneration) {
         & python generate_vectors.py
         if ($LASTEXITCODE -ne 0) { throw 'Vector generation failed' }
@@ -19,7 +21,7 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'MATLAB reference is stale; regenerate with MATLAB' }
     $src = Join-Path $PSScriptRoot '..\..\src'
     $files = @('hrg_nco.v','hrg_dsp_core.v','hrg_pi_aw.v','hrg_controller.v','hrg_cordic.v') | ForEach-Object { Join-Path $src $_ }
-    & (Join-Path $VivadoBin 'xvlog.bat') --sv $files tb_hrg_scoreboard.sv 2>&1 | Tee-Object compile.log
+    & (Join-Path $VivadoBin 'xvlog.bat') --sv -i $src $files tb_hrg_scoreboard.sv 2>&1 | Tee-Object compile.log
     if ($LASTEXITCODE -ne 0) { throw 'xvlog failed' }
     & (Join-Path $VivadoBin 'xelab.bat') tb_hrg_scoreboard -s hrg_scoreboard --timescale 1ns/1ps 2>&1 | Tee-Object elaborate.log
     if ($LASTEXITCODE -ne 0) { throw 'xelab failed' }

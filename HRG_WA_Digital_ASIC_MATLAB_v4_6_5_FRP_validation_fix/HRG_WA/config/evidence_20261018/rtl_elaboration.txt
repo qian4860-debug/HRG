@@ -1,0 +1,172 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Oct 18 14:03:10 2026
+# Process ID         : 29504
+# Current directory  : C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard
+# Command line       : vivado.exe -mode batch -source check_rtl_elaboration.tcl -log rtl_elaboration.log -journal rtl_elaboration.jou
+# Log file           : C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/rtl_elaboration.log
+# Journal file       : C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard\rtl_elaboration.jou
+# Running On         : LAPTOP-3SL35HPD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 8845HS w/ Radeon 780M Graphics
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 25028 MB
+# Swap memory        : 14016 MB
+# Total Virtual      : 39045 MB
+# Available Virtual  : 3605 MB
+#-----------------------------------------------------------
+source check_rtl_elaboration.tcl
+# set src [file normalize [file join [file dirname [info script]] .. .. src]]
+# set_property include_dirs [list $src] [current_fileset]
+# foreach f [glob [file join $src spi_original *.v]] {read_verilog $f}
+# foreach f [glob [file join $src *.v]] {read_verilog $f}
+# synth_design -rtl -top hrg_sensor_if_top -part xc7a35tcpg236-1
+Command: synth_design -rtl -top hrg_sensor_if_top -part xc7a35tcpg236-1
+Starting synth_design
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20764
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1176.281 ; gain = 493.246
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hrg_sensor_if_top' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:4]
+INFO: [Synth 8-6157] synthesizing module 'SPIRegPG2' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/spiRegPG2.v:1]
+	Parameter READ_OUT_SIZE bound to: 56 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'SPIRegSlave' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/spiRegSlave.v:1]
+	Parameter READ_OUT_SIZE bound to: 56 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SPIRegSlave' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/spiRegSlave.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RWRegPG2' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rwRegPG2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'AsyncFifo' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/asyncFifo.v:1]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FIFO_TPRAM' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/fifoTPRAM.v:1]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FIFO_TPRAM' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/fifoTPRAM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WCtrl' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/wCtlr.v:1]
+	Parameter DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'WCtrl' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/wCtlr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RCtrl' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rCtrl.v:1]
+	Parameter DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'RCtrl' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rCtrl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AsyncFifo' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/asyncFifo.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RWRegPG2' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rwRegPG2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROReg' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/roReg.v:1]
+	Parameter READ_OUT_SIZE bound to: 56 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'AsyncFifo__parameterized0' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/asyncFifo.v:1]
+	Parameter WIDTH bound to: 120 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FIFO_TPRAM__parameterized0' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/fifoTPRAM.v:1]
+	Parameter WIDTH bound to: 120 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FIFO_TPRAM__parameterized0' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/fifoTPRAM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WCtrl__parameterized0' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/wCtlr.v:1]
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'WCtrl__parameterized0' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/wCtlr.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RCtrl__parameterized0' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rCtrl.v:1]
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'RCtrl__parameterized0' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rCtrl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AsyncFifo__parameterized0' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/asyncFifo.v:1]
+INFO: [Synth 8-6157] synthesizing module 'AsyncFifo__parameterized1' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/asyncFifo.v:1]
+	Parameter WIDTH bound to: 56 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FIFO_TPRAM__parameterized1' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/fifoTPRAM.v:1]
+	Parameter WIDTH bound to: 56 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FIFO_TPRAM__parameterized1' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/fifoTPRAM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AsyncFifo__parameterized1' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/asyncFifo.v:1]
+INFO: [Synth 8-6157] synthesizing module 'crc8_param' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/crc8_param.v:23]
+	Parameter POLYNOMIAL bound to: 8'b00000111 
+	Parameter INIT_VALUE bound to: 8'b00000000 
+	Parameter BYTES bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'crc8_param' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/crc8_param.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ROReg' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/roReg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SPIRegPG2' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/spiRegPG2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hrg_dsp_core' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:7]
+INFO: [Synth 8-6157] synthesizing module 'hrg_nco' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_nco.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_nco' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_nco.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_dsp_core' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:7]
+INFO: [Synth 8-6157] synthesizing module 'hrg_dpll' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dpll.v:3]
+INFO: [Synth 8-6157] synthesizing module 'hrg_pi_aw' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_pi_aw.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_pi_aw' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_pi_aw.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_dpll' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dpll.v:3]
+INFO: [Synth 8-6157] synthesizing module 'hrg_cordic' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_cordic.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_cordic' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_cordic.v:5]
+INFO: [Synth 8-6157] synthesizing module 'hrg_controller' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_controller.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_controller' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'hrg_navigation' [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_navigation' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'hrg_sensor_if_top' (0#1) [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:4]
+WARNING: [Synth 8-6014] Unused sequential element n0_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:124]
+WARNING: [Synth 8-6014] Unused sequential element n1_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:125]
+WARNING: [Synth 8-6014] Unused sequential element n2_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:126]
+WARNING: [Synth 8-6014] Unused sequential element c0_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:132]
+WARNING: [Synth 8-6014] Unused sequential element c1_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:132]
+WARNING: [Synth 8-6014] Unused sequential element c2_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:132]
+WARNING: [Synth 8-6014] Unused sequential element normalized_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:134]
+WARNING: [Synth 8-6014] Unused sequential element fir_sum_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:135]
+WARNING: [Synth 8-6014] Unused sequential element aa_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:149]
+WARNING: [Synth 8-6014] Unused sequential element bb_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:150]
+WARNING: [Synth 8-6014] Unused sequential element cc_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:151]
+WARNING: [Synth 8-6014] Unused sequential element dd_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:152]
+WARNING: [Synth 8-6014] Unused sequential element e_w_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:153]
+WARNING: [Synth 8-6014] Unused sequential element q_w_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:154]
+WARNING: [Synth 8-6014] Unused sequential element r_w_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:157]
+WARNING: [Synth 8-6014] Unused sequential element s_w_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:158]
+WARNING: [Synth 8-6014] Unused sequential element l_w_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v:161]
+WARNING: [Synth 8-6014] Unused sequential element modular_delta_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:36]
+WARNING: [Synth 8-6014] Unused sequential element theta_step_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:47]
+WARNING: [Synth 8-6014] Unused sequential element virtual_step_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:49]
+WARNING: [Synth 8-6014] Unused sequential element step_q40_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:50]
+WARNING: [Synth 8-6014] Unused sequential element next_angle_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:51]
+WARNING: [Synth 8-6014] Unused sequential element raw_rate_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:52]
+WARNING: [Synth 8-6014] Unused sequential element next_rate_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v:53]
+WARNING: [Synth 8-6014] Unused sequential element sample_count_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:175]
+WARNING: [Synth 8-6014] Unused sequential element overflow_count_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:175]
+WARNING: [Synth 8-6014] Unused sequential element limit_count_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:175]
+WARNING: [Synth 8-6014] Unused sequential element nco_wrap_count_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:175]
+WARNING: [Synth 8-6014] Unused sequential element de_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:192]
+WARNING: [Synth 8-6014] Unused sequential element dq_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:193]
+WARNING: [Synth 8-6014] Unused sequential element dv_reg was removed.  [C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v:194]
+WARNING: [Synth 8-7129] Port ctrl_i[4] in module hrg_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port intWData[15] in module RWRegPG2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rAddr[7] in module RWRegPG2 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1510.543 ; gain = 827.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1510.543 ; gain = 827.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1510.543 ; gain = 827.508
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.652 . Memory (MB): peak = 1510.543 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1663.332 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1663.332 ; gain = 980.297
+53 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1663.332 ; gain = 1168.793
+# puts "HRG_RTL_ELABORATION_PASS"
+HRG_RTL_ELABORATION_PASS
+# close_design
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 18 14:03:40 2026...

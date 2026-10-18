@@ -1,0 +1,189 @@
+[
+  {
+    "name": "ENERGY_KP",
+    "address": 40,
+    "address_hex": "0x28",
+    "requested": 2.4,
+    "signed_code": 157286,
+    "word": 157286,
+    "word_hex": "0x00026666",
+    "bytes_le": [
+      102,
+      102,
+      2,
+      0
+    ],
+    "fractional_bits": 16,
+    "decoded": 2.399993896484375
+  },
+  {
+    "name": "ENERGY_KI",
+    "address": 44,
+    "address_hex": "0x2C",
+    "requested": 0.35,
+    "signed_code": 22938,
+    "word": 22938,
+    "word_hex": "0x0000599A",
+    "bytes_le": [
+      154,
+      89,
+      0,
+      0
+    ],
+    "fractional_bits": 16,
+    "decoded": 0.350006103515625
+  },
+  {
+    "name": "QUAD_KP",
+    "address": 48,
+    "address_hex": "0x30",
+    "requested": 7.0,
+    "signed_code": 458752,
+    "word": 458752,
+    "word_hex": "0x00070000",
+    "bytes_le": [
+      0,
+      0,
+      7,
+      0
+    ],
+    "fractional_bits": 16,
+    "decoded": 7.0
+  },
+  {
+    "name": "QUAD_KI",
+    "address": 52,
+    "address_hex": "0x34",
+    "requested": 1.4,
+    "signed_code": 91750,
+    "word": 91750,
+    "word_hex": "0x00016666",
+    "bytes_le": [
+      102,
+      102,
+      1,
+      0
+    ],
+    "fractional_bits": 16,
+    "decoded": 1.399993896484375
+  },
+  {
+    "name": "ENERGY_REF",
+    "address": 64,
+    "address_hex": "0x40",
+    "requested": 1.0,
+    "signed_code": 16777216,
+    "word": 16777216,
+    "word_hex": "0x01000000",
+    "bytes_le": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "fractional_bits": 24,
+    "decoded": 1.0
+  },
+  {
+    "name": "VIRTUAL_RATE",
+    "address": 68,
+    "address_hex": "0x44",
+    "requested": 0.0,
+    "signed_code": 0,
+    "word": 0,
+    "word_hex": "0x00000000",
+    "bytes_le": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "fractional_bits": 22,
+    "decoded": 0.0
+  },
+  {
+    "name": "NCO_FCW",
+    "address": 80,
+    "address_hex": "0x50",
+    "requested": 0.125,
+    "signed_code": 536870912,
+    "word": 536870912,
+    "word_hex": "0x20000000",
+    "bytes_le": [
+      0,
+      0,
+      0,
+      32
+    ],
+    "fractional_bits": 32,
+    "decoded": 0.125
+  },
+  {
+    "name": "ENERGY_HOLD",
+    "address": 84,
+    "address_hex": "0x54",
+    "requested": 0.015707963267948967,
+    "signed_code": 65884,
+    "word": 65884,
+    "word_hex": "0x0001015C",
+    "bytes_le": [
+      92,
+      1,
+      1,
+      0
+    ],
+    "fractional_bits": 22,
+    "decoded": 0.015707969665527344
+  },
+  {
+    "name": "QUAD_HOLD",
+    "address": 88,
+    "address_hex": "0x58",
+    "requested": 0.0,
+    "signed_code": 0,
+    "word": 0,
+    "word_hex": "0x00000000",
+    "bytes_le": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "fractional_bits": 22,
+    "decoded": 0.0
+  },
+  {
+    "name": "BRYAN",
+    "address": 92,
+    "address_hex": "0x5C",
+    "requested": 0.277,
+    "signed_code": 297426485,
+    "word": 297426485,
+    "word_hex": "0x11BA5E35",
+    "bytes_le": [
+      53,
+      94,
+      186,
+      17
+    ],
+    "fractional_bits": 30,
+    "decoded": 0.276999999769032
+  },
+  {
+    "name": "RATE_ALPHA",
+    "address": 96,
+    "address_hex": "0x60",
+    "requested": 0.24628678804353288,
+    "signed_code": 264448425,
+    "word": 264448425,
+    "word_hex": "0x0FC329A9",
+    "bytes_le": [
+      169,
+      41,
+      195,
+      15
+    ],
+    "fractional_bits": 30,
+    "decoded": 0.24628678802400827
+  }
+]

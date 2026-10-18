@@ -3,6 +3,15 @@
 This directory implements the synthesizable sensor-side digital chain specified
 by the V4.6.5 MATLAB model. The top level is `src/hrg_sensor_if_top.v`.
 
+## Per-head configuration (2026-10-18)
+
+Edit [config/head_default.json](config/head_default.json) or copy it for each
+mechanical head. It is an assumed simulation baseline, not measured calibration.
+The [configuration guide](config/README_表头配置.md) explains how to generate
+MATLAB parameters, SPI word/byte plans and the RTL configuration header, and how
+to check a profile against a completed RTL build receipt. Build-only changes
+are reported explicitly; generating files never silently marks a rebuild done.
+
 ## Implemented hardware boundary
 
 - signed 18-bit, two-channel ADC interface with `adc_valid_i`;

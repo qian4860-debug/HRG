@@ -1,0 +1,45 @@
+test_build_receipt_requires_fresh_passed_evidence (test_head_config.HeadConfigTests.test_build_receipt_requires_fresh_passed_evidence) ... HEAD_CONFIG_ERROR: Build evidence did not pass: C:\Users\11725\AppData\Local\Temp\hrg_config_rgb7plur\sim.log
+HEAD_CONFIG_ERROR: Stale build evidence: C:\Users\11725\AppData\Local\Temp\hrg_config_rgb7plur\sim.log
+ok
+test_cli_check_exit_codes (test_head_config.HeadConfigTests.test_cli_check_exit_codes) ... ok
+test_constant_virtual_command_model_mapping (test_head_config.HeadConfigTests.test_constant_virtual_command_model_mapping) ... ok
+test_default_words (test_head_config.HeadConfigTests.test_default_words) ... ok
+test_deterministic_generation_and_spi_order (test_head_config.HeadConfigTests.test_deterministic_generation_and_spi_order) ... ok
+test_every_compile_field_is_fingerprinted (test_head_config.HeadConfigTests.test_every_compile_field_is_fingerprinted) ... ok
+test_model_only_change (test_head_config.HeadConfigTests.test_model_only_change) ... ok
+test_non_finite_and_duplicate_json (test_head_config.HeadConfigTests.test_non_finite_and_duplicate_json) ... ok
+test_reject_invalid_values (test_head_config.HeadConfigTests.test_reject_invalid_values) ... ok
+test_runtime_change_does_not_recompile (test_head_config.HeadConfigTests.test_runtime_change_does_not_recompile) ... ok
+test_sources_and_header_staleness (test_head_config.HeadConfigTests.test_sources_and_header_staleness) ... ok
+test_unknown_keys_and_architecture (test_head_config.HeadConfigTests.test_unknown_keys_and_architecture) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.242s
+
+OK
+COMPLETED_RTL_BUILD_RECORDED
+{
+  "compatible": true,
+  "recompile_required": false,
+  "reasons": [],
+  "changes": [],
+  "built_head_id": "unit_test_fixture",
+  "build_sha256": "4b8e6a411a481a6e98f303a4af9edf61f7ba5b62d24a402c46e8e7f6df26936b"
+}
+{
+  "compatible": false,
+  "recompile_required": true,
+  "reasons": [
+    "Compile-time configuration changed",
+    "Generated header differs from completed build"
+  ],
+  "changes": [
+    {
+      "parameter": "build.startup_seconds",
+      "built": 0.25,
+      "requested": 0.3
+    }
+  ],
+  "built_head_id": "unit_test_fixture",
+  "build_sha256": "53f5d265ae16ddc3ff0e2dc128927cfb1239ac30396f5d8b8ced34dae384dee4"
+}

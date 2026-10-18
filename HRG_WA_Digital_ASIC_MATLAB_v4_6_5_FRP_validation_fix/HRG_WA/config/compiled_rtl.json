@@ -1,0 +1,93 @@
+{
+  "head_id": "nominal_unmeasured",
+  "profile_path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+  "profile_sha256": "8d4d1a44d9dca199cc0b88f42a6e488e34de158c1a740d38e4fcd8cf2563a161",
+  "started_ns": 1792303384291741600,
+  "build_sha256": "4b8e6a411a481a6e98f303a4af9edf61f7ba5b62d24a402c46e8e7f6df26936b",
+  "header_sha256": "3c34180fe8c80b37e3280d0746f0e5d55d460f17bbde00c653cff676c0e5fb23",
+  "compile_configuration": {
+    "build": {
+      "fs_adc_hz": 40000,
+      "fs_ctrl_hz": 1000,
+      "pipeline_delay_ctrl": 3,
+      "energy_limit": 0.55,
+      "quad_limit": 0.45,
+      "integrator_limit": 1.5,
+      "energy_slew_per_s": 2.0,
+      "quad_slew_per_s": 4.0,
+      "energy_back_gain_per_s": 3,
+      "quad_back_gain_per_s": 8,
+      "actuator_tracking_gain_per_s": 10,
+      "slew_tracking_gain_per_s": 10,
+      "startup_drive": 0.35,
+      "startup_seconds": 0.25,
+      "acquire_seconds": 0.5,
+      "energy_lock_relative": 0.08,
+      "quad_lock_absolute": 0.03,
+      "energy_valid_threshold": 0.08,
+      "phase_valid_threshold": 0.08,
+      "unwrap_limit_pi": 0.8,
+      "pll_kp_hz": 8.0,
+      "pll_ki_hz_per_s": 35.0,
+      "pll_integral_limit_hz": 800.0,
+      "pll_frequency_limit_hz": 1200.0,
+      "pll_back_gain_per_s": 12,
+      "pll_lock_phase_error": 0.025,
+      "dac_full_scale_energy": 0.6,
+      "dac_full_scale_quad": 0.5,
+      "dac_full_scale_virtual_dps": 40.0,
+      "legacy_defaults": {
+        "nco_fcw": 536870912,
+        "energy_kp_q16": 157286,
+        "energy_ki_q16": 22938,
+        "quad_kp_q16": 458752,
+        "quad_ki_q16": 91750,
+        "energy_ref_q24": 16777216,
+        "energy_hold_q22": 65884,
+        "bryan_q30": 297426485,
+        "rate_alpha_q30": 264448425
+      }
+    },
+    "architecture": {
+      "adc_bits": 18,
+      "adc_full_scale": 2.0,
+      "dac_bits": 16,
+      "nco_phase_bits": 32,
+      "nco_amplitude_bits": 18,
+      "cic_stages": 3,
+      "fir_coefficients": [
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "fir_divisor": 9
+    }
+  },
+  "rtl_sources": {
+    "src/hrg_controller.v": "11cdde7a76536dae9e7c1f03401bede60330116ca72d2270d8e8ee516dffb070",
+    "src/hrg_cordic.v": "2df12b8a70f96b3f27b3aebf12c83b371b84fe903da9364af2e95bafb3a957b7",
+    "src/hrg_dpll.v": "8faa89404826b8b2ac574c0974792666ccc455633173d247e2d60de7566def37",
+    "src/hrg_dsp_core.v": "1431d0a392676cfcc50e6eb74a00e217f4d44f1867b23173dc35be4355b601c8",
+    "src/hrg_navigation.v": "1d7859e375925a25c751e294a428ebfa49aff446bd67157b84d412a7056b6b47",
+    "src/hrg_nco.v": "d91c022db07194f634e605612548d6bdb989a6a51aaed3e15cc88dd999cb744f",
+    "src/hrg_pi_aw.v": "3aee3547c4084836a72e49a445c4b6499c252a1d3800c96e84946e9eed3f76cd",
+    "src/hrg_sensor_if_top.v": "7db0ac74c9d559f3fee757ea597485c4997c715a50635bf6affb92a8ded4e38f",
+    "src/spi_original/asyncFifo.v": "93c4b495f9cc6e72dd4028d7f50b5011e4e8be383ed24d39ec560da86fa6ba8f",
+    "src/spi_original/crc8_param.v": "ff6e73932b095192da22c4178db7fc2b0e7d053ec83186285fdc25b39a996841",
+    "src/spi_original/fifoTPRAM.v": "b584609398d4e96df072fab38fe2743aaad06a8db542a9146ad6b95789db40bf",
+    "src/spi_original/rCtrl.v": "2634c8b3de12feddb19fb16324b7949589dc09eeb5e395dde290c690b0d767ff",
+    "src/spi_original/roReg.v": "d20aa3248c733e3114d0659960cca26156542a8d7c054f3b0eb696121e49d809",
+    "src/spi_original/rwRegPG2.v": "9e10345a341638ef9bd9cf6f9ab928df1f8fa4d68704740f0a3162d1d3433395",
+    "src/spi_original/spiRegPG2.v": "143d5570a8f21a159a773ed6e3f97a5ad70fda9b2aa5b40f4d1de89be282e3c3",
+    "src/spi_original/spiRegSlave.v": "b8fe8280886240b5fefb1a82de3eccdee00c5e37c56daf7d48ee4289d680b1b5",
+    "src/spi_original/wCtlr.v": "0855d6a297e758f3865a5437c57ffd6add0cbb9dcf9337e05293becf4b40b28e",
+    "src/hrg_head_config.vh": "3c34180fe8c80b37e3280d0746f0e5d55d460f17bbde00c653cff676c0e5fb23"
+  },
+  "verification_scope": "closed-loop baseline scoreboard + RTL elaboration",
+  "evidence": {
+    "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\testbench\\scoreboard\\top_scoreboard_simulation.log": "538285b01cc01196aaa0a10dfe32a38e76be3618908fc0290e47c6d9a00e2955",
+    "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\testbench\\scoreboard\\rtl_elaboration.log": "3109c793488b6f2a20db5bc7fed12ed05eb28c953725afb0977f6c25e1afcceb"
+  }
+}

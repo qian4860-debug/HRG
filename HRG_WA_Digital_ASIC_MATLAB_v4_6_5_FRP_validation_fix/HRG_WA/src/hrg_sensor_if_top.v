@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+`include "hrg_head_config.vh"
 
 module hrg_sensor_if_top (
     input  wire                       clk,
@@ -43,6 +44,10 @@ module hrg_sensor_if_top (
 
     // Native SPI register bytes are little-endian within each 32-bit word.
     wire [7:0] ctrl_byte = cfg_pg0[0*8 +: 8];
+    // New generated profiles write the explicit-value marker before parameters.
+    // Legacy clients retain zero-selects-default semantics; explicit mode allows
+    // literal zero Ki, zero hold command and other representable zero values.
+    wire explicit_profile=cfg_pg0[4*8 +: 32]==32'h48524731;
     wire [31:0] cfg_energy_kp = cfg_pg0[8'h28*8 +: 32];
     wire [31:0] cfg_energy_ki = cfg_pg0[8'h2c*8 +: 32];
     wire [31:0] cfg_quad_kp   = cfg_pg0[8'h30*8 +: 32];
@@ -50,18 +55,18 @@ module hrg_sensor_if_top (
     wire [31:0] cfg_energy_ref= cfg_pg0[8'h40*8 +: 32];
     wire [27:0] cfg_virtual   = cfg_pg0[8'h44*8 +: 28];
     wire [31:0] cfg_nco_fcw   = cfg_pg0[8'h50*8 +: 32];
-    wire [31:0] base_fcw = (cfg_nco_fcw == 0) ? 32'h20000000 : cfg_nco_fcw;
+    wire [31:0] base_fcw = (!explicit_profile && cfg_nco_fcw == 0) ? `HRG_DEFAULT_NCO_FCW : cfg_nco_fcw;
     wire [31:0] pll_fcw;
     wire [31:0] nco_fcw = ctrl_byte[4] && ctrl_byte[0] ? pll_fcw:base_fcw;
-    wire signed [27:0] energy_hold = cfg_pg0[8'h54*8 +: 28]==0 ? 28'sd65884:cfg_pg0[8'h54*8 +: 28];
+    wire signed [27:0] energy_hold = !explicit_profile && cfg_pg0[8'h54*8 +: 28]==0 ? `HRG_DEFAULT_ENERGY_HOLD_Q22:cfg_pg0[8'h54*8 +: 28];
     wire signed [27:0] quad_hold = cfg_pg0[8'h58*8 +: 28];
-    wire [31:0] bryan_q30 = cfg_pg0[8'h5c*8 +: 32]==0 ? 32'd297426485:cfg_pg0[8'h5c*8 +: 32];
-    wire [30:0] rate_alpha = cfg_pg0[8'h60*8 +: 31]==0 ? 31'd264448425:cfg_pg0[8'h60*8 +: 31];
-    wire signed [31:0] energy_kp = (cfg_energy_kp == 0) ? 32'sd157286 : cfg_energy_kp;
-    wire signed [31:0] energy_ki = (cfg_energy_ki == 0) ? 32'sd22938  : cfg_energy_ki;
-    wire signed [31:0] quad_kp   = (cfg_quad_kp == 0)   ? 32'sd458752 : cfg_quad_kp;
-    wire signed [31:0] quad_ki   = (cfg_quad_ki == 0)   ? 32'sd91750  : cfg_quad_ki;
-    wire signed [31:0] energy_ref= (cfg_energy_ref == 0)? 32'sd16777216 : cfg_energy_ref;
+    wire [31:0] bryan_q30 = !explicit_profile && cfg_pg0[8'h5c*8 +: 32]==0 ? `HRG_DEFAULT_BRYAN_Q30:cfg_pg0[8'h5c*8 +: 32];
+    wire [30:0] rate_alpha = !explicit_profile && cfg_pg0[8'h60*8 +: 31]==0 ? `HRG_DEFAULT_RATE_ALPHA_Q30:cfg_pg0[8'h60*8 +: 31];
+    wire signed [31:0] energy_kp = (!explicit_profile && cfg_energy_kp == 0) ? `HRG_DEFAULT_ENERGY_KP_Q16 : cfg_energy_kp;
+    wire signed [31:0] energy_ki = (!explicit_profile && cfg_energy_ki == 0) ? `HRG_DEFAULT_ENERGY_KI_Q16 : cfg_energy_ki;
+    wire signed [31:0] quad_kp   = (!explicit_profile && cfg_quad_kp == 0)   ? `HRG_DEFAULT_QUAD_KP_Q16 : cfg_quad_kp;
+    wire signed [31:0] quad_ki   = (!explicit_profile && cfg_quad_ki == 0)   ? `HRG_DEFAULT_QUAD_KI_Q16 : cfg_quad_ki;
+    wire signed [31:0] energy_ref= (!explicit_profile && cfg_energy_ref == 0)? `HRG_DEFAULT_ENERGY_REF_Q24 : cfg_energy_ref;
 
     wire dsp_valid, dsp_overflow, nco_wrap;
     wire signed [27:0] cx, sx, cy, sy;
@@ -79,7 +84,7 @@ module hrg_sensor_if_top (
     wire [63:0] r_squared=$signed(inv_r)*$signed(inv_r),s_squared=$signed(inv_s)*$signed(inv_s);
     wire [64:0] magnitude_squared={1'b0,r_squared}+{1'b0,s_squared};
     // Compare against the unrounded real 0.08 threshold in Q24 code units.
-    wire phase_valid=energy>=1342178 && magnitude_squared>65'd1801439850948 && !dsp_overflow;
+    wire phase_valid=energy>=`HRG_ENERGY_VALID_Q24 && magnitude_squared>`HRG_PHASE_VALID_SQUARED_Q48 && !dsp_overflow;
     wire pll_frozen,pll_limited,pll_locked;
     hrg_dpll u_dpll(clk,nrst,dsp_valid,ctrl_byte[4] && ctrl_byte[0],phase_valid,
         energy,inv_l,base_fcw,pll_fcw,pll_frozen,pll_limited,pll_locked);
@@ -87,9 +92,12 @@ module hrg_sensor_if_top (
     // Otherwise software manages loop enables and the controller uses RUN math.
     reg [1:0] mode;
     reg [31:0] mode_ticks;
-    wire energy_locked=energy>=32'sd15435039 && energy<=32'sd18119393;
-    wire quad_locked=quad<=32'sd503316 && quad>= -32'sd503316;
-    wire entering_run=ctrl_byte[0] && ctrl_byte[5] && mode==2 && mode_ticks>=499 && energy_locked && quad_locked && pll_locked;
+    wire signed [127:0] energy_window_product=$signed(energy_ref)*`HRG_ENERGY_TOL_Q30;
+    wire signed [63:0] energy_window=energy_window_product>>>30;
+    wire signed [63:0] energy_error=$signed({energy_ref[31],energy_ref})-$signed({energy[31],energy});
+    wire energy_locked=energy_error<=energy_window && energy_error>= -energy_window;
+    wire quad_locked=quad<=`HRG_QUAD_LOCK_Q24 && quad>= -`HRG_QUAD_LOCK_Q24;
+    wire entering_run=ctrl_byte[0] && ctrl_byte[5] && mode==2 && mode_ticks>=(`HRG_ACQUIRE_TICKS-1) && energy_locked && quad_locked && pll_locked;
     wire [1:0] control_mode=!ctrl_byte[0] ? 2'd0:(ctrl_byte[5] ? (entering_run ? 2'd3:mode):2'd3);
     always @(posedge clk or negedge nrst) begin
         if(!nrst) begin mode<=1;mode_ticks<=0;end
@@ -97,7 +105,7 @@ module hrg_sensor_if_top (
             if(!ctrl_byte[0]) begin mode<=1;mode_ticks<=0;end
             else begin
                 if(mode_ticks!=32'hffffffff) mode_ticks<=mode_ticks+1;
-                if(mode==1 && mode_ticks>=249) begin mode<=2;mode_ticks<=0;end
+                if(mode==1 && mode_ticks>=(`HRG_STARTUP_TICKS-1)) begin mode<=2;mode_ticks<=0;end
                 if(entering_run) begin mode<=3;mode_ticks<=0;end
             end
         end
@@ -181,13 +189,13 @@ module hrg_sensor_if_top (
             if (nco_wrap) nco_wrap_count <= nco_wrap_count + 1'b1;
 
             if (command_valid) begin
-                de=nearest($signed(energy_cmd)*64'sd32768,2516582);
-                dq=nearest($signed(quad_cmd)*64'sd32768,2097152);
-                dv=nearest($signed(virtual_cmd)*64'sd32768,2928177);
+                de=nearest($signed(energy_cmd)*64'sd32768,`HRG_DAC_E_FS_Q22);
+                dq=nearest($signed(quad_cmd)*64'sd32768,`HRG_DAC_Q_FS_Q22);
+                dv=nearest($signed(virtual_cmd)*64'sd32768,`HRG_DAC_V_FS_Q22);
                 dac_energy_o<=sat_dac(de);dac_quad_o<=sat_dac(dq);dac_virtual_o<=sat_dac(dv);
-                actual_e<=nearest($signed(sat_dac(de))*64'sd2516582,32768);
-                actual_q<=nearest($signed(sat_dac(dq))*64'sd2097152,32768);
-                actual_v<=nearest($signed(sat_dac(dv))*64'sd2928177,32768);
+                actual_e<=nearest($signed(sat_dac(de))*`HRG_DAC_E_FS_Q22,32768);
+                actual_q<=nearest($signed(sat_dac(dq))*`HRG_DAC_Q_FS_Q22,32768);
+                actual_v<=nearest($signed(sat_dac(dv))*`HRG_DAC_V_FS_Q22,32768);
                 delivered_e<=energy_cmd;delivered_q<=quad_cmd;
                 actuator_saturated<=de>32767 || de< -32768 || dq>32767 || dq< -32768;
             end

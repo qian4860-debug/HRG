@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "head_id": "nominal_unmeasured",
+  "measurement_status": "assumed",
+  "notes": "仿真基线，尚未测量实际机械表头；不要当作器件标定数据。",
+  "mechanical": {
+    "f0_hz": 5000.0,
+    "quality_factor": 2000000.0,
+    "bryan": 0.277,
+    "energy_target": 1.0,
+    "initial_energy": 0.25,
+    "initial_quadrature": 0.015,
+    "initial_theta_deg": 8.0,
+    "damping_anisotropy_per_s": 0.00025,
+    "damping_axis_deg": 17.0,
+    "frequency_split_hz": 0.008,
+    "stiffness_axis_deg": 41.0,
+    "duffing_hz_per_energy": 0.015
+  },
+  "detection": {
+    "cross_matrix": [[1.0, 0.003], [-0.002, 1.0]],
+    "offset": [0.0008, -0.0005],
+    "phase_delay_deg": [0.0, 0.0]
+  },
+  "drive": {
+    "cross_matrix": [[1.0, 0.0], [0.0, 1.0]],
+    "dac_gain": [1.0, 0.995, 1.002],
+    "dac_offset": [0.0002, -0.0002, 0.0]
+  },
+  "runtime": {
+    "energy_kp": 2.4,
+    "energy_ki": 0.35,
+    "quad_kp": 7.0,
+    "quad_ki": 1.4,
+    "virtual_rate_rad_s": 0.0,
+    "energy_hold": null,
+    "quad_hold": 0.0,
+    "rate_lpf_hz": 45.0,
+    "enable_mask": 63
+  },
+  "build": {
+    "fs_adc_hz": 40000,
+    "fs_ctrl_hz": 1000,
+    "pipeline_delay_ctrl": 3,
+    "energy_limit": 0.55,
+    "quad_limit": 0.45,
+    "integrator_limit": 1.5,
+    "energy_slew_per_s": 2.0,
+    "quad_slew_per_s": 4.0,
+    "energy_back_gain_per_s": 3,
+    "quad_back_gain_per_s": 8,
+    "actuator_tracking_gain_per_s": 10,
+    "slew_tracking_gain_per_s": 10,
+    "startup_drive": 0.35,
+    "startup_seconds": 0.25,
+    "acquire_seconds": 0.5,
+    "energy_lock_relative": 0.08,
+    "quad_lock_absolute": 0.03,
+    "energy_valid_threshold": 0.08,
+    "phase_valid_threshold": 0.08,
+    "unwrap_limit_pi": 0.8,
+    "pll_kp_hz": 8.0,
+    "pll_ki_hz_per_s": 35.0,
+    "pll_integral_limit_hz": 800.0,
+    "pll_frequency_limit_hz": 1200.0,
+    "pll_back_gain_per_s": 12,
+    "pll_lock_phase_error": 0.025,
+    "dac_full_scale_energy": 0.6,
+    "dac_full_scale_quad": 0.5,
+    "dac_full_scale_virtual_dps": 40.0,
+    "legacy_defaults": {
+      "nco_fcw": 536870912,
+      "energy_kp_q16": 157286,
+      "energy_ki_q16": 22938,
+      "quad_kp_q16": 458752,
+      "quad_ki_q16": 91750,
+      "energy_ref_q24": 16777216,
+      "energy_hold_q22": 65884,
+      "bryan_q30": 297426485,
+      "rate_alpha_q30": 264448425
+    }
+  },
+  "architecture": {
+    "adc_bits": 18,
+    "adc_full_scale": 2.0,
+    "dac_bits": 16,
+    "nco_phase_bits": 32,
+    "nco_amplitude_bits": 18,
+    "cic_stages": 3,
+    "fir_coefficients": [1, 2, 3, 2, 1],
+    "fir_divisor": 9
+  }
+}

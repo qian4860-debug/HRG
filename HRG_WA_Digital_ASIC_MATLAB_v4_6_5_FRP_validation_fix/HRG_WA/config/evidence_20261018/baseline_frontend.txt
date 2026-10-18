@@ -1,0 +1,28 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sun Oct 18 14:03:45 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/hrg_scoreboard/xsim_script.tcl
+# xsim {hrg_scoreboard} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+MODEL_MAX_ERROR field=Cx lsb=0
+MODEL_MAX_ERROR field=Sx lsb=0
+MODEL_MAX_ERROR field=Cy lsb=0
+MODEL_MAX_ERROR field=Sy lsb=0
+MODEL_MAX_ERROR field=E lsb=0
+MODEL_MAX_ERROR field=Q lsb=0
+MODEL_MAX_ERROR field=R lsb=0
+MODEL_MAX_ERROR field=S lsb=0
+MODEL_MAX_ERROR field=L lsb=0
+SCOREBOARD_SUMMARY dsp=350 controller=2055 cordic=132 implementation_errors=0 model_field_mismatches=0
+IMPLEMENTATION_SCOREBOARD_PASS
+MATLAB_EQUIVALENCE_PASS
+$finish called at time : 203986 ns : File "C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/tb_hrg_scoreboard.sv" Line 147
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Oct 18 14:03:47 2026...

@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+`include "hrg_head_config.vh"
 // Navigation profile: Kalman/online calibration disabled. angle Q24 degrees,
 // rate Q16 degrees/s, virtual_actual Q22 radians/s, Bryan Q30.
 // One valid output for every CORDIC result, including invalid measurements.
@@ -40,15 +41,15 @@ module hrg_navigation (
                 else begin
                     previous_phase<=phase4_i;anchored<=1;
                     if(anchored) begin
-                        if(modular_delta>6710886 || modular_delta< -6710886) begin
+                        if(modular_delta>`HRG_UNWRAP_CODE || modular_delta< -`HRG_UNWRAP_CODE) begin
                             unwrap_fault_o<=1;measurement_valid_o<=0;
                         end else begin
                             theta_step=$signed(modular_delta)*128'sd5898240; // 90*2^16, degree Q40
                             // 180/pi represented Q40; Ts=1/1000.
-                            virtual_step=nearest($signed(virtual_actual_i)*128'sd62997375797124,128'sd4194304000);
+                            virtual_step=nearest($signed(virtual_actual_i)*128'sd62997375797124,128'sd4194304*`HRG_CTRL_HZ);
                             step_q40=nearest((virtual_step-theta_step)*128'sd1073741824,$signed({1'b0,bryan_q30_i}));
                             next_angle=$signed(angle_q40)+step_q40;
-                            raw_rate=nearest(step_q40*1000,256); // Q32 deg/s
+                            raw_rate=nearest(step_q40*`HRG_CTRL_HZ,256); // Q32 deg/s
                             next_rate=$signed(rate_q32)+nearest((raw_rate-$signed(rate_q32))*$signed({1'b0,rate_alpha_q30_i}),128'sd1073741824);
                             // Saturate public rate and internal filter coherently.
                             if(next_rate>128'sd140737488289792) next_rate=128'sd140737488289792;

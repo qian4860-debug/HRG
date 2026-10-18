@@ -1,10 +1,12 @@
 * text=auto
 *.v text eol=lf
 *.sv text eol=lf
+*.vh text eol=lf
 *.py text eol=lf
 *.m text eol=lf
 *.md text eol=lf
 *.ps1 text eol=crlf
+*.tcl text eol=lf
 *.f text eol=lf
 *.json text eol=lf
 *.txt text eol=lf

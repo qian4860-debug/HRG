@@ -1,0 +1,17 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sun Oct 18 14:03:08 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/hrg_profile_spi/xsim_script.tcl
+# xsim {hrg_profile_spi} -testplusarg PLAN_C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/tools/tests/_work/selected/spi_commands.txt -testplusarg EXPECTED_C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/tools/tests/_work/selected/spi_expected.txt -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+HEAD_PROFILE_SCOREBOARD_PASS commands=52
+$finish called at time : 138650 ns : File "C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/tools/tests/tb_hrg_profile_spi.sv" Line 44
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Oct 18 14:03:09 2026...

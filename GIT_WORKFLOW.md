@@ -6,6 +6,8 @@
 
 实现提交 `59842c9` 包含本轮RTL和scoreboard；随后提交验证记录、参考向量溯源与使用文档。标签 `rtl-closed-loop-20261016` 标记交付版本。
 
+2026-10-18增加单文件表头配置、MATLAB/SPI生成和RTL构建参数核对。使用说明位于 `HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/README_表头配置.md`；默认参数仍标为未实测。配置文件、生成的默认输出、已完成构建清单与验证记录一并纳入Git。
+
 常用命令（在项目根目录执行）：
 
 ```powershell

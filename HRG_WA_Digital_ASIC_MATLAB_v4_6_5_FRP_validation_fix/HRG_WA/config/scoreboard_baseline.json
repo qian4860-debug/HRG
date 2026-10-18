@@ -1,0 +1,4 @@
+{
+  "build_sha256": "4b8e6a411a481a6e98f303a4af9edf61f7ba5b62d24a402c46e8e7f6df26936b",
+  "description": "The existing 2026-10-16 numerical oracles exercise this build contract. Other builds require their own profile-specific numerical verification."
+}

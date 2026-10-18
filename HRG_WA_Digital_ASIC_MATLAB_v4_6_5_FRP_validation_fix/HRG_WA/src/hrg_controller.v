@@ -1,4 +1,5 @@
 `timescale 1ns/1ps
+`include "hrg_head_config.vh"
 module hrg_controller (
     input wire clk,nrst,update_i,
     input wire [4:0] ctrl_i,
@@ -13,17 +14,19 @@ module hrg_controller (
     input wire signed [27:0] energy_delivered_i,quad_delivered_i,
     input wire signed [27:0] energy_hold_i,quad_hold_i
 );
-    localparam signed [39:0] I_LIMIT=40'sd1610612736;
-    localparam signed [63:0] E_LIMIT=64'sd590558003,Q_LIMIT=64'sd483183821;
+    localparam signed [39:0] I_LIMIT=`HRG_I_LIMIT_Q30;
+    localparam signed [63:0] E_LIMIT=`HRG_E_LIMIT_Q30,Q_LIMIT=`HRG_Q_LIMIT_Q30;
     reg signed [39:0] energy_int,quad_int;
     reg signed [27:0] previous_e,previous_q;
-    reg signed [27:0] e_pipe[0:2],q_pipe[0:2],v_pipe[0:2];
+    reg signed [27:0] e_pipe[0:`HRG_PIPELINE_DELAY-1],q_pipe[0:`HRG_PIPELINE_DELAY-1],v_pipe[0:`HRG_PIPELINE_DELAY-1];
     reg signed [39:0] e_initial,q_initial;
     wire signed [39:0] e_next,q_next;
     wire signed [63:0] e_raw,q_raw;
     wire e_limit,q_limit;
     wire signed [63:0] e_err=$signed({energy_ref_i[31],energy_ref_i})-$signed({energy_i[31],energy_i});
     wire signed [63:0] q_err=-$signed({quad_i[31],quad_i});
+    wire signed [127:0] acquire_window=$signed(energy_ref_i)*`HRG_ENERGY_TOL_Q30;
+    wire signed [63:0] acquire_window_q24=acquire_window>>>30;
     reg signed [63:0] target_e,target_q,limited_e,limited_q,initial_command_e,initial_command_q;
     reg signed [39:0] final_e,final_q;
     reg e_pi_active,q_pi_active;
@@ -48,26 +51,27 @@ module hrg_controller (
         input signed [39:0] state;
         input signed [63:0] actual,delivered;
         input signed [31:0] ki;
-        begin tracking=i_clip($signed(state)+nearest((actual-delivered)*128'sd655360, $signed(ki)*128'sd1000));end
+        input [15:0] gain;
+        begin tracking=i_clip($signed(state)+nearest((actual-delivered)*128'sd65536*$signed({1'b0,gain}), $signed(ki)*`HRG_CTRL_HZ));end
     endfunction
     always @* begin
         e_initial=energy_int;q_initial=quad_int;
         if(tracking_valid_i) begin
-            e_initial=tracking(energy_int,$signed(energy_actual_i)*64'sd256,$signed(energy_delivered_i)*64'sd256,energy_ki_i);
-            q_initial=tracking(quad_int,$signed(quad_actual_i)*64'sd256,$signed(quad_delivered_i)*64'sd256,quad_ki_i);
+            e_initial=tracking(energy_int,$signed(energy_actual_i)*64'sd256,$signed(energy_delivered_i)*64'sd256,energy_ki_i,`HRG_ACTUATOR_TRACK_GAIN);
+            q_initial=tracking(quad_int,$signed(quad_actual_i)*64'sd256,$signed(quad_delivered_i)*64'sd256,quad_ki_i,`HRG_ACTUATOR_TRACK_GAIN);
         end
         if(run_entry_i) begin
             e_initial=i_clip(nearest($signed(energy_hold_i)*128'sd16777216,energy_ki_i));
             q_initial=i_clip(nearest($signed(quad_hold_i)*128'sd16777216,quad_ki_i));
         end
     end
-    hrg_pi_aw e_pi(e_err,e_initial,energy_kp_i,energy_ki_i,I_LIMIT,E_LIMIT,16'd3,e_next,e_raw,e_limit);
-    hrg_pi_aw q_pi(q_err,q_initial,quad_kp_i,quad_ki_i,I_LIMIT,Q_LIMIT,16'd8,q_next,q_raw,q_limit);
+    hrg_pi_aw e_pi(e_err,e_initial,energy_kp_i,energy_ki_i,I_LIMIT,E_LIMIT,`HRG_E_BACK_GAIN,e_next,e_raw,e_limit);
+    hrg_pi_aw q_pi(q_err,q_initial,quad_kp_i,quad_ki_i,I_LIMIT,Q_LIMIT,`HRG_Q_BACK_GAIN,q_next,q_raw,q_limit);
     always @* begin
         target_e=e_raw;target_q=q_raw;e_pi_active=1;q_pi_active=1;
-        if(mode_i==1) begin target_e=64'sd375809638;target_q=0;e_pi_active=0;q_pi_active=0;end
-        if(mode_i==2 && e_err>1342177) begin target_e=E_LIMIT;e_pi_active=0;end
-        if(mode_i==2 && e_err< -1342177) begin target_e=-E_LIMIT;e_pi_active=0;end
+        if(mode_i==1) begin target_e=`HRG_STARTUP_DRIVE_Q30;target_q=0;e_pi_active=0;q_pi_active=0;end
+        if(mode_i==2 && e_err>acquire_window_q24) begin target_e=E_LIMIT;e_pi_active=0;end
+        if(mode_i==2 && e_err< -acquire_window_q24) begin target_e=-E_LIMIT;e_pi_active=0;end
         if(!ctrl_i[0] || !ctrl_i[1] || mode_i==0) begin target_e=0;e_pi_active=0;end
         if(!ctrl_i[0] || !ctrl_i[2] || mode_i==0) begin target_q=0;q_pi_active=0;end
         initial_command_e=nearest(target_e,256);initial_command_q=nearest(target_q,256);
@@ -75,14 +79,14 @@ module hrg_controller (
             initial_command_e=nearest(clip(nearest(e_err*$signed(energy_kp_i),1024)+nearest($signed(e_initial)*$signed(energy_ki_i),65536),E_LIMIT),256);
             initial_command_q=nearest(clip(nearest(q_err*$signed(quad_kp_i),1024)+nearest($signed(q_initial)*$signed(quad_ki_i),65536),Q_LIMIT),256);
         end
-        limited_e=$signed(previous_e)+clip(initial_command_e-$signed(previous_e),8389);
-        limited_q=$signed(previous_q)+clip(initial_command_q-$signed(previous_q),16777);
+        limited_e=$signed(previous_e)+clip(initial_command_e-$signed(previous_e),`HRG_E_SLEW_Q22);
+        limited_q=$signed(previous_q)+clip(initial_command_q-$signed(previous_q),`HRG_Q_SLEW_Q22);
         if(run_entry_i) begin limited_e=initial_command_e;limited_q=initial_command_q;end
         if(!ctrl_i[0] || !ctrl_i[1] || mode_i==0) limited_e=0;
         if(!ctrl_i[0] || !ctrl_i[2] || mode_i==0) limited_q=0;
         final_e=e_pi_active ? e_next:e_initial;final_q=q_pi_active ? q_next:q_initial;
-        if(e_pi_active && limited_e!=initial_command_e) final_e=tracking(final_e,limited_e*256,initial_command_e*256,energy_ki_i);
-        if(q_pi_active && limited_q!=initial_command_q) final_q=tracking(final_q,limited_q*256,initial_command_q*256,quad_ki_i);
+        if(e_pi_active && limited_e!=initial_command_e) final_e=tracking(final_e,limited_e*256,initial_command_e*256,energy_ki_i,`HRG_SLEW_TRACK_GAIN);
+        if(q_pi_active && limited_q!=initial_command_q) final_q=tracking(final_q,limited_q*256,initial_command_q*256,quad_ki_i,`HRG_SLEW_TRACK_GAIN);
         if(!ctrl_i[0] || !ctrl_i[1] || mode_i==0) final_e=0;
         if(!ctrl_i[0] || !ctrl_i[2] || mode_i==0) final_q=0;
     end
@@ -90,22 +94,22 @@ module hrg_controller (
         if(!nrst) begin
             energy_int<=0;quad_int<=0;previous_e<=0;previous_q<=0;
             energy_cmd_o<=0;quad_cmd_o<=0;virtual_cmd_o<=0;command_valid_o<=0;limit_event_o<=0;
-            for(i=0;i<3;i=i+1) begin e_pipe[i]<=0;q_pipe[i]<=0;v_pipe[i]<=0;end
+            for(i=0;i<`HRG_PIPELINE_DELAY;i=i+1) begin e_pipe[i]<=0;q_pipe[i]<=0;v_pipe[i]<=0;end
         end else begin
             command_valid_o<=0;limit_event_o<=0;
             if(update_i) begin
                 energy_int<=final_e;quad_int<=final_q;previous_e<=limited_e;previous_q<=limited_q;
                 e_pipe[0]<=limited_e;q_pipe[0]<=limited_q;
                 v_pipe[0]<=(ctrl_i[0] && ctrl_i[3] && mode_i!=0) ? virtual_cmd_i:28'sd0;
-                for(i=1;i<3;i=i+1) begin e_pipe[i]<=e_pipe[i-1];q_pipe[i]<=q_pipe[i-1];v_pipe[i]<=v_pipe[i-1];end
-                energy_cmd_o<=e_pipe[2];quad_cmd_o<=q_pipe[2];virtual_cmd_o<=v_pipe[2];
+                for(i=1;i<`HRG_PIPELINE_DELAY;i=i+1) begin e_pipe[i]<=e_pipe[i-1];q_pipe[i]<=q_pipe[i-1];v_pipe[i]<=v_pipe[i-1];end
+                energy_cmd_o<=e_pipe[`HRG_PIPELINE_DELAY-1];quad_cmd_o<=q_pipe[`HRG_PIPELINE_DELAY-1];virtual_cmd_o<=v_pipe[`HRG_PIPELINE_DELAY-1];
                 if(run_entry_i) begin
-                    for(i=0;i<3;i=i+1) begin e_pipe[i]<=limited_e;q_pipe[i]<=limited_q;end
+                    for(i=0;i<`HRG_PIPELINE_DELAY;i=i+1) begin e_pipe[i]<=limited_e;q_pipe[i]<=limited_q;end
                     energy_cmd_o<=limited_e;quad_cmd_o<=limited_q;
                 end
                 // Disable flushes pending commands immediately on the next control update.
                 if(!ctrl_i[0] || mode_i==0) begin
-                    for(i=0;i<3;i=i+1) begin e_pipe[i]<=0;q_pipe[i]<=0;v_pipe[i]<=0;end
+                    for(i=0;i<`HRG_PIPELINE_DELAY;i=i+1) begin e_pipe[i]<=0;q_pipe[i]<=0;v_pipe[i]<=0;end
                     energy_cmd_o<=0;quad_cmd_o<=0;virtual_cmd_o<=0;
                 end
                 limit_event_o<=(e_pi_active && e_limit)||(q_pi_active && q_limit)||limited_e!=initial_command_e||limited_q!=initial_command_q;

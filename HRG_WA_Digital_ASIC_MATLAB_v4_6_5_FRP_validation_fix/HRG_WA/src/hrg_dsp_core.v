@@ -1,11 +1,12 @@
 `timescale 1ns/1ps
+`include "hrg_head_config.vh"
 
 // Fixed-point front end derived from HRG_WA_v46_simulate.m.
 // ADC: Q2.16, NCO: signed code/131071, mixer/CIC: Q6.24, demod: Q6.22,
 // invariants: Q8.24.  CIC is three-stage, R=40, M=1.
 module hrg_dsp_core #(
-    parameter integer DECIMATION = 40,
-    parameter integer CIC_GAIN   = 64000
+    parameter integer DECIMATION = `HRG_DECIMATION,
+    parameter integer CIC_GAIN   = `HRG_CIC_GAIN
 ) (
     input  wire                       clk,
     input  wire                       nrst,
