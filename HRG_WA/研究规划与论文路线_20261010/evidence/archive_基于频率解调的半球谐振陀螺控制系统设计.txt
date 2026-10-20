@@ -1,0 +1,383 @@
+ARCHIVE: 全角陀螺/基于频率解调的半球谐振陀螺控制系统设计.pdf
+TOTAL PAGES: 5
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+第4
+5卷第4期 202
+3年8月 压电与声光
+PIEZOELECTRICS&ACOUSTOOPTICS
+V01．45
+No．4 Aug．2023
+文章编号：1004—2474(2023)04—0494—05
+DOI：10．11977／j．issn．1004—2474．2023．04．002 基于频率解调的半球谐振陀螺控制系统设计
+关泽源，魏振楠，孙一为，王瑞祺，伊国兴
+(哈尔滨工业大学空间控制与惯性技术研究中心，黑龙江哈尔滨150080)
+摘要：与力平衡模式相比，半球谐振陀螺的全角模式具有测量范围大及线性度高等优点。该文针对现有全
+角模式解调方案里驻波方位角计算过程中存在的精度损失，以及输出对温度变化敏感等问题，以行波线性叠加原
+理为基础，提出基于顺时针、逆时针行波同步频率解调的半球谐振子驻波信息解算方法。设计基于频率解调的全
+角模式半球谐振陀螺多回路控制方法，实现驻波的频率、幅度及正交控制。针对现场可编程门阵列(FPGA)电路算
+法优化难及浮点运算精度低等问题，设计并实现了现场可编程门阵列+数字信号处理(FPGA+DSP)双核心半球
+谐振陀螺数字控制电路。通过实物实验验证了该文提出的控制方案及数字控制电路的有效性。实验结果表明，此
+方法可减小由温度波动引起的谐振频率改变对陀螺输出的影响。
+关键词：半球谐振陀螺；全角模式；频率解调；多回路控制
+中图分类号：TN384
+文献标志码：A Design
+of Hemispherical Resonator Gyro Control System Based on Frequency
+Demodulation GUAN
+Zeyuan，WEI Zhennan，SUN Yiwei，WANG Ruiqi，YI Guoxing (Space
+Control and Inertial Technology Research Center，Harbin Institute of Technology，Harbin 150080，China) Abstract：Compared
+with the force—to—rebalance mode，the whole angle mode of the hemispherical resonator gyro
+has the advantages of large measurement range and high linearity．In order to address the problems that the ac— curacy
+loss during the calculation of standing wave azimuth angle in the existing whole angle mode demodulation scheme
+and the sensitivity of the output to temperature change，based on the principle of linear superposition of traveling
+waves，the paper proposes a standing wave information solution method of hemispherical resonator gyro based
+on clockwise and counterclockwise traveling wave synchronous frequency demodulation．A multi loop control method
+based on frequency demodulation for whole angle mode hemispherical resonator gyro is designed to achieve frequency，amplitude，and
+orthogonal control of standing waves．In response to the difficulties in optimizing FPGA circuit
+algorithms and low floating point accuracy。a“FPGA+DSP”dual core hemispherical resonator gyro digital control
+circuit is designed and implemented．The effectiveness of the control scheme and digital control circuit pro posed
+in this paper is verified through physical experiments．The experimental results show that this scheme can re duce
+the influence of resonant frequency changes caused by temperature fluctuations on the output of the gyroscope． Key
+words：hemispherical resonator gyro；whole angle mode；frequency demodulation；multi—loop control 0
+引言 半球谐振陀螺是一种哥式振动陀螺，利用哥式
+效应引发驻波环向进动效应实现角速度或角增量的
+测量[1]。作为一种高精度固态陀螺仪，半球谐振陀
+螺精度高，可靠性好，寿命长，目前已广泛应用于海
+洋勘探及航空航天等领域。作为一种固态陀螺，半
+球谐振陀螺不受工作机械损耗的影响，具备长寿命
+特性，无需维护即可适用于长期空间应用[2]。
+半球谐振陀螺分为力平衡模式和全角模式两种
+工作模式。力平衡模式下，通过向谐振子的特定方
+向施力，可将驻波锁定在该方向上，其控制力的大小
+随着谐振子沿着对称轴转的角速率而发生变化[3]。
+全角模式下，不再利用闭环产生与驻波进动速率相
+关的控制力，而是让驻波环向自由进动，驻波方位角
+收稿日期：2023
+07 24 作者简介：关泽源(2000)，男，黑龙江省哈尔滨市人，硕士生，主要从事半球谐振陀螺控制电路的研究。
+万方数据
+
+--- PAGE 2 ---
+第4期
+关泽源等：基于频率解调的半球谐振陀螺控制系统设计495 不固定，理论上具有更大的测量范同。同时，随着制
+造工艺的改进，半球谐振陀螺的品质凶数(Q)可以
+达到较高的水平，全角模式仅需产生远小于力平衡
+模式的控制力。|1。…。
+对半球谐振陀螺的控制主要依托于数字控制电
+路。文献[6]给出的半球谐振陀螺驻波解调方法需
+要利用三角函数求解驻波方位角，但解箅信号受噪
+声干扰，使得方位角计算的结果有误差。在进行控
+制量分配时，实际施力方向将偏离期望的施力方向。
+文献ET]给出了基于现场可编程门阵列(FPGA)的
+全角模式控制方案，但FPGA程序的编译过程长，
+不利于算法优化及参数调节，且FPGA的浮点数运
+算能力不足，在误差参数的辨识与补偿过程中
+FPGA的精度不够。文献E8]提出了一种正旋、反旋
+模式分离器，通过分别控制正、反旋行波实现对全角
+模式半球陀螺的控制。文献[9]提出了一种利用独
+立控制的正旋、反旋模式对全角模式半球陀螺进行
+虚拟进动的方法。该方法不需要任何用于虚拟旋转
+的附加机制，仅改变2个锁相环的目标相位值即可
+完成虚拟进动。文献[10]表明，与调幅(AM)陀螺
+相比，调频(FM)陀螺在稳定性方面具有极大优势。
+针对在解算方法、硬件实现等方面存在的问题，
+本文开展了半球谐振陀螺数字控制系统设计的研
+究，设计了基于行波同步频率解渊的半球谐振陀螺
+多回路控制方案，实现了基于数字信号处理+现场
+可编程门阵列(DSP+FPGA)的半球谐振陀螺数字
+电路。通过分析数学模型、设计和优化数字控制电
+路、实验验证及性能测试，为进一步更新控制算法、
+研究补偿方案做好基础。
+1
+基于频率解调的全角模式控制方案 图1为陀螺在主坐标系』’0y形成稳定的椭圆
+轨迹。图巾，“为主驻波振幅，q为正交波振幅，臼为
+0。电极与主驻波波腹轴间夹角，03。为谐振子名义本
+征振动网频率，‰为谐振子振动时问相位。
+I，
+0
+∥． 彰
+q
+～ ‘
+冈1谐振子运动轨迹
+谐振子工1、y方向振动检测信号‘61为
+X一“cos(20)cos(oJ(，t+舻())一
+q
+sin(20)sin(co ot+妒o) (1) Y一(z
+sin(20)COS(∞()l+妒())+ qcos(20)sin(co
+ot+妒o) (2) 将式(1)、(2)整理为
+x一生去里c。s(洲。￡+垆。+2臼)+
+!旱c。s(叫。f+垆。20)
+(3) y一生去!sin(叫。f+59。+20>
+!罕sin(∞。f+0—20>
+(4) 根据式(3)、(4)可将谐振子驻波视为正旋
+(CW)和反旋(CCW)行波叠加的结果，通过施加角
+谏度，牛成两种本征模式。8。“，如图2所示。
+图2半球谐振陀螺频率解调技术示意图
+CW模式的参考信号为sin(㈨。t+叭。)与
+cos(oJ哪t+妒c、V)，CCW模式的参考信号为
+sin(叫CCWt+P“w)与COS((￡J(【w
+t+P“w)，分别与检 测信号进行如下运算：
+rl—X。·COS(叫【twt+舻(w)+Y。·
+[
+S1‘YI(叫cwt+妒L、w)] (5) ／-2一X。·sin(叫(，wt+9(w)+Y。·
+COS(洲CWt+妒cw)
+(6) Hl—X。·COS(叫('L1wt+妒(【tw)+Y。·
+sin(叫CCWt+妒叫w)
+(7) H
+2一X。·L—sin(叫“wf+妒“w)J+ Y，·COS(洲CCWt+妒∽w)
+(8) 利用滤波器对4个乘积信号滤波，过滤掉其巾
+高频分量，得到4个一次解调信号为
+／-。一LPF{F，)一!掣．
+二
+COS(dO()t一60(、wf一2臼+妒()一妒t，w)
+(9) 
+万方数据
+
+--- PAGE 3 ---
+压电与声光
+r。一LPF{工]。}一掣．
+用于维持谐振子稳定的驻波振动状态，确保谐振子 一
+2
+驻波可随陀螺敏感轴方向的角运动而进动。 sin(03
+0f+COCWt+20 垆(1 4-妒哪)(10) H。一LPF{H，)一半．
+COS(叫ot
+cocowt+20 4-妒n 9cow) (11)
+H。一LPF{H。)一生芸．
+sin(co()f
+coc(Tw z_+2臼+驴() 垆㈦w)(12) 通过锁相环控制，得到：
+r
+孔w—arctan
+1≠z co ot∞clw‘～2臼+ 垆。一妒【·w一0
+(13) H
+孔cw—arctan紊Z
+CO
+ot 叫“、w‘+2臼+ 垆(j一9(、【tw一0
+(14) 若要满足式(13)、(1
+4)，需要式中与时间有关的 量和与时间无关的量分别为0，即：
+60()f一60(．wf一20—0
+(15) 60
+rlf 60CCWf+2臼一0 (16) p()一9cw一驴t，cw
+(17) 由此得到满足条件式(15)～(17)的参考信号为
+Scw—sin(wcwt+妒cw)一sin(co。f
+28+妒。)(18) (：cw—COS(COcwt+垆cw)一cos(oo。￡
+20-4-妒。)(19) S(CW—sin(coCCWt+p【I【'w)一
+sin(叫(jf+2矽+妒。)
+(20) Cccw—cos(60CCWt+妒c、cw)一
+cos(m()t+2臼+妒())
+(21) 整理式(9)、(11)可得二次解调量正交波振幅及
+主驻波波幅：
+“一H。+r，
+(22) q—H。一r。
+(23) 设陀螺进动系数为足，输入角速率为n，则输出
+角速率臼为
+；：：／e12：：—COC(W—COCW
+4
+(24)
+依据频率解调的全角模式控制方案如图3所
+示。在半球谐振陀螺表头内部，镀有导电膜层的半
+球谐振子端面与激励电极构成驻波激励电容的同
+时，也与检测电极构成驻波检测电容，根据设计的激
+励与检测方法完成激励与检测。频率、幅度及正交
+控制回路为全角模式半球谐振陀螺基本控制回路，
+图3半球谐振陀螺控制方案示意图
+解测量“用于幅度控制以维持主驻波的振幅，
+补充谐振子能量衰减。q用于正交控制以抑制正交
+波幅。nw、f眦、V用于频率控制，产生解调与调制所
+需的参考信号，并输出角速率。虚拟进动通过在谐
+振子驻波方位角正交方向施加控制力实现。频率控
+制回路收敛时产生的正旋与反旋参考信号包含谐振
+子方位角信息，在进行幅度、正交控制及虚拟进动
+时，可直接利用参考信号组合运算完成控制量分配，
+避免了解算i角函数时带来的误差。
+2
+数字控制电路设计 硬件电路包括表头与控制电路。表头电路用于
+信号激励与检测，控制电路用于控制量的计算及时
+序逻辑控制等功能，总体结构如图4所示。
+：黧嚣
+：燃茎 电源电路 ’驱动信号’检测信号 吧脲‘嘲 分时复用切换电路
+·J 串口通讯电路 一——1角位■输出 D／A柑～A／D芯片一7魏 时序
+时序 角速牢输出输入 驱动鹪检黼++
+谔制
+一次解调 艺 ；。麓
+i茹器器 勰信号 oos 翟 。” 一 “” FPGA芯片
+驱动信号
+分配
+DSP芯片
+图4控制电路总体结构框图
+2．1
+表头电路 由熔融石英制成的半球谐振子作为表头核心部
+件。经过金属化镀膜工艺后，半球谐振子球壳内表
+面、唇沿端面形成均匀的铬金复合金属薄膜。唇沿
+端面与检测／激励电极形成了平行电容器，检测和激
+励均需要依托于检测和激励电容来完成振动信号的
+读取和驱动力的施加。谐振子导电表面分别与检测
+万方数据
+
+--- PAGE 4 ---
+第4期
+关泽源等：基于频率解调的半球谐振陀螺控制系统设计497 电极和激励电极构成检测电容和激励电容。在处于
+检测阶段时，FPGA向多路复用芯片发卅信号，断开
+施加在。r、v方向上的振动激励，同时配合外罔的运
+算放大器和模数转换芯片，将电容信号转换为电压
+信号。在处于激励阶段时，FPGA向多路复用芯片
+发出信号，使得经过矢量分配后的激励信号通过激
+励电极来维持谐振子的驻波振动状态。
+2．2
+控制电路 以现有FPGA单核心半球谐振陀螺数字控制
+电路为基础，针对其控制算法参数不易调整、难以实
+现复杂控制算法等问题，本文设计了采用FPGA+
+DSP的双核心陀螺数字控制电路。该电路保留了
+FPGA芯片在信号处理实时性方面的优势，通过增
+加DSP。出片有效提升了数字控制电路对复杂控制
+算法的适用性。
+检测信号由陀螺表头电路采集，并经过A／D芯
+片将模拟信号转换为数字信号，然后传送至FPGA。
+在FPGA内部，将检测信号与参考信号进行解调处
+理，解调后的数据通过EMIF传送给DSP进行后续
+处理。在DSP中，每个环路都利用控制器计算相应
+的控制量。其中，正交和幅度控制量需要进行分配，
+分别用于工，、y方向的控制。频率控制量需要回传
+给FPGA内部的DDS信号发生器，以产生准确的
+参考信号。同时，参考信号参与信号调制过程，其结
+果经过D／A转换器，将数字信号转换为模拟信号，
+并输出至陀螺表头，完成信号激励的过程。
+3
+实验平台搭建与测试 通过实物实验的方法对控制方案以及电路设计
+进行验证，搭建的实验平台如图5所示。
+图6为在锁相环收敛后，半球谐振子驻波的正、
+反旋行波频率。由于谐振子的本征频率受温度影响
+后发生漂移，因此，相位检测环路跟踪的正、反旋行
+波频率也将随着温度的缓慢变化而改变。设计的频
+率解调控制方案能避免温度漂移对测量结果的影
+响，并削弱半球谐振陀螺在温度变化时对精度的影
+响。根据式(24)可知，实际输出角速率通过对正、反
+旋行波频率进行差分得到，使测量值不再受温度漂
+移的十扰，从而提高了半球谐振陀螺在温度变化情
+况下的精度。图7为角速率的输出结果。频率解调
+方案使半球谐振陀螺在温度变化环境中提供了更稳
+定和可靠的角速率输出，从而增强了其在相关领域
+中的实用性和可靠性。
+N
+4 725．1 蒋4
+725．1 聪4
+725．1 ≥
+o
+4 725．1 ，
+叩
+f
+∑
+槲
+瑙
+援
+丑
+簿
+4
+725．148 4
+725．147 4
+725．146 时间／s
+时间／s
+图7角速率输出结果
+通过改变多次转台转速进行角速率输出测试，
+实验结果如表1所示。实验得到陀螺的标度因数为
+o．275
+l，标度因数非线性为3．84×10 ，测试结 果及拟合曲线如图8所示。
+表l
+驻波进动角速率输出测试结果 实验次数转台转速／[(。)·s
+1]驻波转速／[(。)·s 1] lO
+10
+30
+30
+2．750
+6 2．752
+3 8．252
+5 8．253
+8 NH／斟曝事u
+●
+莽
+频舳
+波
+，
+旋
+6旭旋反∞赧礁波2
+产
+振
+万方数据
+
+--- PAGE 5 ---
+498
+压电与声光 2023正 续表
+图8标度因数测试曲线
+4
+结束语 本文依据行波线性叠加原理提出了一种基于行
+波同步频率解调的信息解算方法，并据此设计了多
+回路控制方案，包括幅度控制回路、正交控制回路及
+频率控制回路。与已有驻波控制方案相比，本文提
+出的基于行波同步频率解调的陀螺控制方案减小了
+温度变化对角速率输出的影响，同时利用参考信号
+组合进行调制，避免了驻波方位角计算过程中带来
+的精度损失，能够有效地提升陀螺检测及激励精度。
+最终通过实物实验验证了该控制方案的有效性，并
+可依靠设计的DSP+FPGA双核心数字电路进一
+步优化控制算法。
+参考文献：
+[1]
+[2]
+RC}ZELLE
+D M．The hemispherical resonator gyro： From
+wineglass tO the planets[C]／／[s．1．]：Proc 19th AAS／AIAA
+Space Flight Mechanics Meeting，2009， 134：1157
+1178． DELHAYE
+F．HRG by SAFRAN：The game—changing technology[c]／／[s．1．]：2018
+IEEE international sym— posium
+on inertial sensors and systems(INERTIAL)， IEEE，2018：1
+4． [3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+严隆辉，江黎，蒋春桥，等．力反馈模式半球谐振陀螺幅
+度控制方法优化[J]．压电与声光，2020，42(2)：
+197—199．
+YAN
+Longhui，JIANG Li，JIANG Chunqiao，et a1．Opti mization
+of amplitude control method of hemispherical resonator
+gyroscopes under force——tO——rebalance mode [J]．Piezoelectrics&Acoustooptics，2020，42(2)：
+197—199．
+ASKARI
+S，ASADIAN M H，SHKEL A M．High quality
+factor MEMS gyroscope with whole angle mode of
+operation[c]／／[S．1．]：2018 IEEE International Symposium
+on Inertial Sensors and Systems(INER— TIAL)，IEEE，2018：1
+4． 伊国兴，魏振楠，王常虹，等．半球谐振陀螺控制及补偿
+技术EJ]．宇航学报，2020，41(6)：780—789．
+YI
+Guoxing，WEI Zhennan，WANG Changhong，et a1． Hemispherical
+resonator gyro control and compensation
+technology[J]．Journal of Astronautics， 2020，41(6)：780—789．
+吕志清．半球谐振陀螺(HRG)信号处理技术[J]．中国
+惯性技术学报，2000(3)：59—62．
+赵万良，杨浩，王伟，等．半球谐振陀螺全角模式控制技
+术研究[J]．导航定位与授时，2019，6(6)：8
+13． ZHAO
+Wanliang。YANG Hao，WANG Wei，et a1． Study
+on whole angle mode control method of hemi spherical
+resonator gyros[J]．Navigation Positioning and
+Timing，2019，6(6)：8-13． TSUKAMOTO
+T，TANAKA S．Fully—differential single
+resonator FM／whole angle gyroscope using cw／ ccw
+mode separator[C]／／[s．1．]：2017 IEEE 30th In— ternational
+Conference on Micro Electro Mechanical Systems(MEMS)，IEEE，2017：1118
+1121． TSUKAMOT0
+T。TANAKA S．Virtually rotated MEMS
+whole angle gyroscope using independently controlled
+CW／CCW oscillations[C]／／[S．1．]：2018 IEEE
+International Symposium on Inertial Sensors and Systems(INERTIAL)，IEEE，2018：1-4．
+EMINoGLU
+B。YEH Y C，IZYUMIN I I，et a1．Corn— parison
+of long——term stability of AM versus FM gyro—— scopes[C]／／Is．1．]：2016
+IEEE 29th International Con一 {erenee
+on Micro Electro Mechanical Systems (MEMS)．IEEE，2016：954—957．
+万方数据

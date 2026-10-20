@@ -1,0 +1,16 @@
+{
+  "cycles": 182889,
+  "control_updates": 4000,
+  "navigation_outputs": 4000,
+  "mode_seen": [
+    1,
+    2,
+    3
+  ],
+  "run_entry_seconds": 1.413,
+  "final_plant_energy": 0.9750527956863213,
+  "final_plant_quad": -8.4825113193078e-06,
+  "final_expected_rate_dps": 79.91462707519531,
+  "final_expected_fcw_hz": 5001.499988138676,
+  "dropout_samples": 400
+}

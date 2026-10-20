@@ -1,0 +1,3 @@
+﻿Source: C:\Users\11725\Downloads\HRG_WA_Digital_ASIC_MATLAB_v4_6_4_20260825\HRG_WA_Digital_ASIC_MATLAB_v4_6_4
+Created: 2026-08-25 15:56:36
+Purpose: V4.6.5 FRP independent validation fix

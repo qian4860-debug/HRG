@@ -1,0 +1,88 @@
+{
+  "head_id": "nominal_unmeasured",
+  "measurement_status": "assumed",
+  "compatible_with_recorded_rtl_build": true,
+  "hardware_image_identity_verified": false,
+  "spi_protocol": "Each write8 is a separate CS transaction: 7-bit address (MSB=0), then data byte. Select page0 before executing.",
+  "steps": [
+    {
+      "op": "write8",
+      "address": 112,
+      "value": 0
+    },
+    {
+      "op": "write8",
+      "address": 0,
+      "value": 0
+    },
+    {
+      "op": "write32",
+      "address": 4,
+      "value": 1213351729
+    },
+    {
+      "op": "write32",
+      "address": 40,
+      "value": 157286
+    },
+    {
+      "op": "write32",
+      "address": 44,
+      "value": 22938
+    },
+    {
+      "op": "write32",
+      "address": 48,
+      "value": 458752
+    },
+    {
+      "op": "write32",
+      "address": 52,
+      "value": 91750
+    },
+    {
+      "op": "write32",
+      "address": 64,
+      "value": 16777216
+    },
+    {
+      "op": "write32",
+      "address": 68,
+      "value": 0
+    },
+    {
+      "op": "write32",
+      "address": 80,
+      "value": 536870912
+    },
+    {
+      "op": "write32",
+      "address": 84,
+      "value": 65884
+    },
+    {
+      "op": "write32",
+      "address": 88,
+      "value": 0
+    },
+    {
+      "op": "write32",
+      "address": 92,
+      "value": 297426485
+    },
+    {
+      "op": "write32",
+      "address": 96,
+      "value": 264448425
+    },
+    {
+      "op": "wait_adc_samples",
+      "count": 42
+    },
+    {
+      "op": "write8",
+      "address": 0,
+      "value": 63
+    }
+  ]
+}

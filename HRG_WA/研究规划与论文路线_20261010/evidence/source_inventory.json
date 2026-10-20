@@ -1,0 +1,2900 @@
+[
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix.zip",
+    "bytes": 2657576,
+    "sha256": "8ac5582db864bd010b49c3d298b893157306dfaba375b311ac2f21eb30611932",
+    "extension": ".zip"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation.zip",
+    "bytes": 250844,
+    "sha256": "c9e606b0153a57a39378f747a9f8301bf839c2c734927944f615ba3db70fbebe",
+    "extension": ".zip"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2).zip",
+    "bytes": 370295,
+    "sha256": "6e32d98bf55c9f8b39757c01051e87103c5918281fa998f85608aafa0c07d2ce",
+    "extension": ".zip"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\全角陀螺.zip",
+    "bytes": 212766465,
+    "sha256": "b8c0c3b0a4a84fb72b8af9e128a3ea1ab45d7ea30696243e5a2e72c0733c13dd",
+    "extension": ".zip"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\集成电路科学与工程学科顶刊及高水平清单列表.pdf",
+    "bytes": 127783,
+    "sha256": "1289b1025fdbe5e647bee1d179a3d174d62e365e57fd509c61e68a2268a6805d",
+    "extension": ".pdf"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\demo_angle_output.png",
+    "bytes": 58983,
+    "sha256": "f34541d74c00c24b0424904166fd48c62a5e39e89867f79f7052883a094f4cac",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\demo_energy_quadrature.png",
+    "bytes": 35993,
+    "sha256": "55b184c28681d62e2320ce65e100c77290b93313ff522fed769588b16f76cde4",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\demo_expected_result.txt",
+    "bytes": 170,
+    "sha256": "bee81d7cd3dc75beee1e399b05d15b33c92577cc120619ccdbc0d96359a5b533",
+    "extension": ".txt"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_adc_model.m",
+    "bytes": 2553,
+    "sha256": "a6df5efee686a75fad28b87ca149feaf851e6c3cb7b2d30fe9436285944f0aac",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_allan_dev.m",
+    "bytes": 1150,
+    "sha256": "75e6b4585f674e5e8cbe4543441891e9efaff71e1ed8d79aa44c274bdfd861e2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_ASIC_FPGA_result.mat",
+    "bytes": 6134346,
+    "sha256": "68703c94e21d48363a04da5b92d71930b918e371f83b15755721483d87bcff9c",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_clip.m",
+    "bytes": 597,
+    "sha256": "1bcf26b5e3efacbdde7b16ac0244573b9aba780581eff91f1b2578afe6c57f80",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_dac_model.m",
+    "bytes": 1489,
+    "sha256": "17a5c9293b908f2e7f900509c642f9f60d69061480dff0c78824cc83c668b943",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_digital_controller_step.m",
+    "bytes": 8464,
+    "sha256": "44e90bc9c4561adc6b9ae8b9381dd4a35f3af2abc735fc56c9c6b357c79e5303",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_digital_init.m",
+    "bytes": 1863,
+    "sha256": "f63728518c4480b672852b6093247c6f04aae98c13af3f74fbe96018218ab1e5",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_export_test_vectors.m",
+    "bytes": 1215,
+    "sha256": "41a747d8d4329b00b87c91dfc96c7040ec974c50e37316e979389b0559cb9230",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_fast_rhs.m",
+    "bytes": 4003,
+    "sha256": "2bc5824ce4d8e88ac15596b1568bec4add8e2aea6b2ca543622ae87297b33cd8",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_fixed_quantize.m",
+    "bytes": 1183,
+    "sha256": "df0a63de4aa51ae6d8f7b0280aa11f95ab6c9b09356d85f7288e50ee3f7689bc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_output.m",
+    "bytes": 5502,
+    "sha256": "b816c791f1a1c13dd7fc9c5061f54d9f2a4ae3d044c878d0b62b11f0c61dfac5",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_params.m",
+    "bytes": 16448,
+    "sha256": "d04ccef3bfa963809943f0a7c2582b7defc4c4f1f850a3e5416dd43382abb246",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_performance_metrics.m",
+    "bytes": 2635,
+    "sha256": "99985729466184bb9490c0cc9c480b3c65dfd2095fdc69cd608a37ec7f1bb6d2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_print_metrics.m",
+    "bytes": 2135,
+    "sha256": "c0251e60ba0e437d23bbdbbe903b2214670e9f4bb89798504482f80b76df0d04",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_regmap.m",
+    "bytes": 3764,
+    "sha256": "aa2528085c5cbdc9dd4b4b766bfa42c3fac299b3f20fd2b3c76ae8fac84c9fdb",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_rhs.m",
+    "bytes": 6313,
+    "sha256": "44d27143997fb2f162c25a069c96e74e96b758d23cbecac4410a093712c4a048",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_rhs_digital.m",
+    "bytes": 2724,
+    "sha256": "ba2f07c408a412d6a6d65578da248b8f8b7fdf43853a200906a6f5cc5881f18b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_rk4_step.m",
+    "bytes": 496,
+    "sha256": "9deb77b20e12217fc83a23bdcea84e4a2190f4155c0b3f1fc5ef7bcdd5f6c83d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_run_coverage_tests.m",
+    "bytes": 5073,
+    "sha256": "772b6729fae9b1265622778d93537941da115aa1534f34edf8b0e4c2534a2aba",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\HRG_WA_wrap_pi.m",
+    "bytes": 300,
+    "sha256": "fa6ffc9036f686ac70355a5489a0204b75abc25aae51079ae01f27f0f85a509e",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\README_ASIC_FPGA_EXTENSION.md",
+    "bytes": 4410,
+    "sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\README_HRG_WA_model.md",
+    "bytes": 3259,
+    "sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\run_HRG_WA_ASIC_FPGA_demo.m",
+    "bytes": 7733,
+    "sha256": "68c01da68c283549b4934247c35cd3d32f2baea15be7d07f6655fb081ffb5f53",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full\\run_HRG_WA_demo.m",
+    "bytes": 7104,
+    "sha256": "a80f65e14b30f0922bddd992c5fcef8f9c44927ff4721192310423a621d192b6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\demo_angle_output.png",
+    "bytes": 58983,
+    "sha256": "f34541d74c00c24b0424904166fd48c62a5e39e89867f79f7052883a094f4cac",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\demo_energy_quadrature.png",
+    "bytes": 35993,
+    "sha256": "55b184c28681d62e2320ce65e100c77290b93313ff522fed769588b16f76cde4",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\demo_expected_result.txt",
+    "bytes": 170,
+    "sha256": "bee81d7cd3dc75beee1e399b05d15b33c92577cc120619ccdbc0d96359a5b533",
+    "extension": ".txt"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_adc_model.m",
+    "bytes": 2553,
+    "sha256": "a6df5efee686a75fad28b87ca149feaf851e6c3cb7b2d30fe9436285944f0aac",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_allan_dev.m",
+    "bytes": 1150,
+    "sha256": "75e6b4585f674e5e8cbe4543441891e9efaff71e1ed8d79aa44c274bdfd861e2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_ASIC_FPGA_result.mat",
+    "bytes": 6136754,
+    "sha256": "47040a6f8d71a47945d0df18d7a5bf5022895199cfd51c220b03c1c06b02221d",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_clip.m",
+    "bytes": 597,
+    "sha256": "1bcf26b5e3efacbdde7b16ac0244573b9aba780581eff91f1b2578afe6c57f80",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_dac_model.m",
+    "bytes": 1489,
+    "sha256": "17a5c9293b908f2e7f900509c642f9f60d69061480dff0c78824cc83c668b943",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_digital_controller_step.m",
+    "bytes": 9461,
+    "sha256": "fb6f7b23a817472a925e4224371c960b6fa7dcddb9e49e30d84d8a90e3232733",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_digital_init.m",
+    "bytes": 2527,
+    "sha256": "ed2cea15646b4c71abf7ef318f6eaa43c4db6e2b0986e44e14bc182c0dcef2d4",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_export_test_vectors.m",
+    "bytes": 1215,
+    "sha256": "41a747d8d4329b00b87c91dfc96c7040ec974c50e37316e979389b0559cb9230",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_fast_rhs.m",
+    "bytes": 4003,
+    "sha256": "2bc5824ce4d8e88ac15596b1568bec4add8e2aea6b2ca543622ae87297b33cd8",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_fixed_quantize.m",
+    "bytes": 1183,
+    "sha256": "df0a63de4aa51ae6d8f7b0280aa11f95ab6c9b09356d85f7288e50ee3f7689bc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_output.m",
+    "bytes": 5502,
+    "sha256": "b816c791f1a1c13dd7fc9c5061f54d9f2a4ae3d044c878d0b62b11f0c61dfac5",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_params.m",
+    "bytes": 16448,
+    "sha256": "d04ccef3bfa963809943f0a7c2582b7defc4c4f1f850a3e5416dd43382abb246",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_performance_metrics.m",
+    "bytes": 2948,
+    "sha256": "9ba174fd6f1155ebe3764b58bcb28db501b9277b279ec2b06b536ded287b7088",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_print_metrics.m",
+    "bytes": 2135,
+    "sha256": "c0251e60ba0e437d23bbdbbe903b2214670e9f4bb89798504482f80b76df0d04",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_regmap.m",
+    "bytes": 3764,
+    "sha256": "aa2528085c5cbdc9dd4b4b766bfa42c3fac299b3f20fd2b3c76ae8fac84c9fdb",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_rhs.m",
+    "bytes": 6313,
+    "sha256": "44d27143997fb2f162c25a069c96e74e96b758d23cbecac4410a093712c4a048",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_rhs_digital.m",
+    "bytes": 2724,
+    "sha256": "ba2f07c408a412d6a6d65578da248b8f8b7fdf43853a200906a6f5cc5881f18b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_rk4_step.m",
+    "bytes": 496,
+    "sha256": "9deb77b20e12217fc83a23bdcea84e4a2190f4155c0b3f1fc5ef7bcdd5f6c83d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_run_coverage_tests.m",
+    "bytes": 5073,
+    "sha256": "772b6729fae9b1265622778d93537941da115aa1534f34edf8b0e4c2534a2aba",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\HRG_WA_wrap_pi.m",
+    "bytes": 300,
+    "sha256": "fa6ffc9036f686ac70355a5489a0204b75abc25aae51079ae01f27f0f85a509e",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\README_ASIC_FPGA_EXTENSION.md",
+    "bytes": 4410,
+    "sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\README_HRG_WA_model.md",
+    "bytes": 3259,
+    "sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\run_HRG_WA_ASIC_FPGA_demo.m",
+    "bytes": 7733,
+    "sha256": "68c01da68c283549b4934247c35cd3d32f2baea15be7d07f6655fb081ffb5f53",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed\\run_HRG_WA_demo.m",
+    "bytes": 7104,
+    "sha256": "a80f65e14b30f0922bddd992c5fcef8f9c44927ff4721192310423a621d192b6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\demo_angle_output.png",
+    "bytes": 58983,
+    "sha256": "f34541d74c00c24b0424904166fd48c62a5e39e89867f79f7052883a094f4cac",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\demo_energy_quadrature.png",
+    "bytes": 35993,
+    "sha256": "55b184c28681d62e2320ce65e100c77290b93313ff522fed769588b16f76cde4",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\demo_expected_result.txt",
+    "bytes": 170,
+    "sha256": "bee81d7cd3dc75beee1e399b05d15b33c92577cc120619ccdbc0d96359a5b533",
+    "extension": ".txt"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_adc_model.m",
+    "bytes": 2553,
+    "sha256": "a6df5efee686a75fad28b87ca149feaf851e6c3cb7b2d30fe9436285944f0aac",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_allan_dev.m",
+    "bytes": 1150,
+    "sha256": "75e6b4585f674e5e8cbe4543441891e9efaff71e1ed8d79aa44c274bdfd861e2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_ASIC_FPGA_result.mat",
+    "bytes": 6089657,
+    "sha256": "15cc7ee84f7837347c089410f18a51d4f694c43e22bae737479f4d8a04cd9092",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_clip.m",
+    "bytes": 597,
+    "sha256": "1bcf26b5e3efacbdde7b16ac0244573b9aba780581eff91f1b2578afe6c57f80",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_dac_model.m",
+    "bytes": 1489,
+    "sha256": "17a5c9293b908f2e7f900509c642f9f60d69061480dff0c78824cc83c668b943",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_digital_controller_step.m",
+    "bytes": 9809,
+    "sha256": "9ed7b7cc8137db6f2b0acd75c07714cafc1b48f39515185b95022c5ec7ad5060",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_digital_init.m",
+    "bytes": 2527,
+    "sha256": "ed2cea15646b4c71abf7ef318f6eaa43c4db6e2b0986e44e14bc182c0dcef2d4",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_export_test_vectors.m",
+    "bytes": 1215,
+    "sha256": "41a747d8d4329b00b87c91dfc96c7040ec974c50e37316e979389b0559cb9230",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_fast_rhs.m",
+    "bytes": 4003,
+    "sha256": "2bc5824ce4d8e88ac15596b1568bec4add8e2aea6b2ca543622ae87297b33cd8",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_fixed_quantize.m",
+    "bytes": 1183,
+    "sha256": "df0a63de4aa51ae6d8f7b0280aa11f95ab6c9b09356d85f7288e50ee3f7689bc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_output.m",
+    "bytes": 5502,
+    "sha256": "b816c791f1a1c13dd7fc9c5061f54d9f2a4ae3d044c878d0b62b11f0c61dfac5",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_params.m",
+    "bytes": 17421,
+    "sha256": "23202f726c738486ba6c8215f897f6f4dd95e50da2ff394ead0bc9ad9b20d5c1",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_performance_metrics.m",
+    "bytes": 5265,
+    "sha256": "7e666216d7593ac54f4e9a8da4f958a7b3384669efaf1e4c63ca11de49653860",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_print_metrics.m",
+    "bytes": 2262,
+    "sha256": "33f71c0ad8acdbb023619da5463de8ec415b84ddae0c4d4df54de0e8be5c06e3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_regmap.m",
+    "bytes": 3764,
+    "sha256": "aa2528085c5cbdc9dd4b4b766bfa42c3fac299b3f20fd2b3c76ae8fac84c9fdb",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_rhs.m",
+    "bytes": 6313,
+    "sha256": "44d27143997fb2f162c25a069c96e74e96b758d23cbecac4410a093712c4a048",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_rhs_digital.m",
+    "bytes": 2724,
+    "sha256": "ba2f07c408a412d6a6d65578da248b8f8b7fdf43853a200906a6f5cc5881f18b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_rk4_step.m",
+    "bytes": 496,
+    "sha256": "9deb77b20e12217fc83a23bdcea84e4a2190f4155c0b3f1fc5ef7bcdd5f6c83d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_run_coverage_tests.m",
+    "bytes": 5089,
+    "sha256": "7d776007aec8a0d04264fc8fa5b4eaeed5e7f101a3c232ff3dde9b5b688fcd08",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\HRG_WA_wrap_pi.m",
+    "bytes": 300,
+    "sha256": "fa6ffc9036f686ac70355a5489a0204b75abc25aae51079ae01f27f0f85a509e",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\README_ASIC_FPGA_EXTENSION.md",
+    "bytes": 4410,
+    "sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\README_HRG_WA_model.md",
+    "bytes": 3259,
+    "sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\run_HRG_WA_ASIC_FPGA_demo.m",
+    "bytes": 7941,
+    "sha256": "f38d23de5b75d90137044ea875478f7b752e4bd385b740d7e0c9fb2408dbecc2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_ASIC_FPGA_model_full_fixed_v2\\run_HRG_WA_demo.m",
+    "bytes": 7104,
+    "sha256": "a80f65e14b30f0922bddd992c5fcef8f9c44927ff4721192310423a621d192b6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_autotune.m",
+    "bytes": 4862,
+    "sha256": "fd70aafa2ec2406de235435586dc71941b828e3c35410dea0f06988b99563571",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_export_vectors.m",
+    "bytes": 3711,
+    "sha256": "623db5a5e9fdc1ff979d0bb8116de9b90995d2819cabb346b9040704ddab296a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_full_regression_console.log",
+    "bytes": 13094,
+    "sha256": "6cdfbdb723352554f41a4b753cbf0d133ae88bd5ebffda484cb11776c49c0514",
+    "extension": ".log"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_metrics.m",
+    "bytes": 25722,
+    "sha256": "89c8a658e44b3e82e6caee863c934afd5e5a6c9207c548d14d42c115cb61c999",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_monte_carlo_result.mat",
+    "bytes": 23339,
+    "sha256": "ff9bc184f91f79e581ac722aaf372c105b791c4ca2cf64e3f1a24dadff7f2bf1",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "e4c649e3d9a368485f8ae353ba408599c387e77437955490338e3daa68c6a78a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_params.m",
+    "bytes": 35038,
+    "sha256": "6466a58736968519ea63d3e6b78a043babb59a32a17ad843489e9367f2909ecf",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_regmap.m",
+    "bytes": 19288,
+    "sha256": "2385f12d6070272c1f1a001819eeab40fc719582ef70a806ce8545ffe26ed9d1",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_simulate.m",
+    "bytes": 136366,
+    "sha256": "e35ecff5448a1b2e9e452b1ffa99db7c63474abd646e67d7e2fbc89ccecb8b22",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_test_result.mat",
+    "bytes": 210801,
+    "sha256": "1938f7f31dfc0079e5bc84ecabb1ef44ff5626a374c9310e6be5ac5ea2008968",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_user_config.m",
+    "bytes": 22480,
+    "sha256": "bd7c0c941366023b95a7ceefcf1331083deaa70270c533b9985a0ca46e0bcfe0",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v45_validate_params.m",
+    "bytes": 27725,
+    "sha256": "1a1ac5799aad644d01dbf09eaae3446409d57b42601435e663cd1cb527a6e754",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_V45_参数与控制器修调指南.md",
+    "bytes": 26771,
+    "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v465_revalidation_console.log",
+    "bytes": 16956,
+    "sha256": "a79340c56b1f9c632672ee85f7fe3ef0cee2323c9030cc4c4af86eb9b185dee9",
+    "extension": ".log"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_ab_console_v2.log",
+    "bytes": 1464,
+    "sha256": "a5e29b103351faef474e6907728f3afe4e5eaeb96d801c8b3a38c0f1be2afa13",
+    "extension": ".log"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_ab_result_v2.mat",
+    "bytes": 2324,
+    "sha256": "b97ad2af1796b35c552cd3edd089afb71b56d69fd308ab2a3c2da176be960282",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_advanced.m",
+    "bytes": 9685,
+    "sha256": "51833ba223bb0d8d447b0c6b7db6b924cdfeff0e4ff375f8ab33e3fa264f3556",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_advanced_full_console.log",
+    "bytes": 1592,
+    "sha256": "cc64c1b9348bc39b52aa3aa6a9103590055688b96d4ed733fef854d5cf34f4d1",
+    "extension": ".log"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_advanced_full_result.mat",
+    "bytes": 3010,
+    "sha256": "caf3cec340d11e369efcea01b24660a7be64d0c81026f3c6af858be89a52ebad",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_autotune.m",
+    "bytes": 4862,
+    "sha256": "729869250c8aaa61b56c712f848a864e612945c42de25310d01f75b46c62ead6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_baseline_console.log",
+    "bytes": 188,
+    "sha256": "b0e8049deb5e4a994827e7964fdd88db83d8c6e5872e63f91eaef4da151cd830",
+    "extension": ".log"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_baseline_result.mat",
+    "bytes": 2162111,
+    "sha256": "04f6ae307d79f4d7552ad12b23f23301507a78b7546453d2d369244c77925c69",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_compute_frp_truth.m",
+    "bytes": 2116,
+    "sha256": "2d350a71316ba1bcc55baf0090701cd3ca9d3b0e067d86978f507764928e837a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_frp_basis.m",
+    "bytes": 954,
+    "sha256": "ee0ff8edc2d56dd1b68d8fa7cb338da4615380f572a41d1c73e19e8d3bf747d9",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_metrics.m",
+    "bytes": 27345,
+    "sha256": "32620d4a42235685576054b69bab7d675ab002b465b8840bf88fcf7ce82c829e",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "711520a8f5c5a4b23f12e717076abd2634102e23149e8cc199e29641e52f98b5",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_params.m",
+    "bytes": 37963,
+    "sha256": "11d521eafd4b883802329faaa53212ad2f6adfa6c04547633c5fe5c662401b4f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_regmap.m",
+    "bytes": 21140,
+    "sha256": "f1052346f4a47b75148656def51393133a8c0b785fbe8ad8eb4e0fadc8fa13db",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_simulate.m",
+    "bytes": 138817,
+    "sha256": "8b586777640dc25e88cadd33f022f90a7e170d26af0085eac15545b3be5de01d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_user_config.m",
+    "bytes": 22604,
+    "sha256": "edf3d8fb9ebfd3343467770587acc828fde50840bf873a2d995b406d2ad6df69",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_validate_params.m",
+    "bytes": 29256,
+    "sha256": "d1918f0a4af39723e72c03ae0049bfe128f92f04aa2163108da28dac47e441c2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\PACKAGE_MANIFEST.md",
+    "bytes": 1749,
+    "sha256": "f9c0fc30987c4f7c01e2901f7372a2e60fe7933dee4e692b7f597da2e7d7ad65",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\README.md",
+    "bytes": 5921,
+    "sha256": "d7dac8153b4db9fb3a35f3219f6af642f9093848d6d43b584799c0434e0d2197",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\run_HRG_WA_v45_demo.m",
+    "bytes": 9146,
+    "sha256": "fab9913e2c0b263e623a4e0cb571f55f7bee9e6dc8dc6c40e3ff6622dc665c4a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\run_HRG_WA_v45_frp_demo.m",
+    "bytes": 7272,
+    "sha256": "4d8a552723568b0b52d5a61775e100845fbbe6a2586d5d03371bd75f9b9404c8",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\run_HRG_WA_v45_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "23e6f5ed3d2da3d7596e0136fd857e8735b7748d1e496202d77dfeae88ab5fac",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\run_HRG_WA_v45_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ddbeb4be0791faf468d3e7c595c5996982957cece79fec1c6349be66b590c07d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\run_HRG_WA_v45_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "961c2d77bcf5d309b34714f6238c866b9f7c699f9f80067b198fc0fca53aab70",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\run_HRG_WA_v46_ab_validation.m",
+    "bytes": 19521,
+    "sha256": "48b0189e995c6ae5ef9382c2a56f44ccbd99bb2df48006c1ecf7da83b10d7e20",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\SHA256SUMS.txt",
+    "bytes": 5893,
+    "sha256": "b50cd3907211b65edaf896d5d223b72cd71d735097ddef51e8a28d56904d8f43",
+    "extension": ".txt"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\SOURCE_ORIGIN.txt",
+    "bytes": 192,
+    "sha256": "b6e52dc859b359a7d114504a09999c04caf036eb74b63b5923f0cd5869011704",
+    "extension": ".txt"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\test_HRG_WA_v45.m",
+    "bytes": 32129,
+    "sha256": "2cb75f5bc1bb19b9631b47df17ce4f773036d5c386e80da094cb34fd2f56e40a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\test_HRG_WA_v46_advanced.m",
+    "bytes": 3186,
+    "sha256": "16b6845b2730da9565de2dcd76bee343843b521b0c344f6405b2eaec178a6652",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\THIS_IS_V4_6_5.txt",
+    "bytes": 403,
+    "sha256": "1fbcddbbf8f71d0ff03375f07dcb5727f05f4581880da613a0a7c66d431e4df3",
+    "extension": ".txt"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.3.1_在线标定安全释放修复说明.md",
+    "bytes": 3413,
+    "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.3_在线标定功能说明.md",
+    "bytes": 4474,
+    "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.4_位真ASIC功能说明.md",
+    "bytes": 2770,
+    "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.5.1_FRP回归Bug修复说明.md",
+    "bytes": 3769,
+    "sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.5_多误差FRP联合辨识说明.md",
+    "bytes": 5644,
+    "sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.5_静态审计报告.md",
+    "bytes": 1738,
+    "sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.6.1_FRP门控与A_B验收修复说明.md",
+    "bytes": 1322,
+    "sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.6.2_Oracle_ABC与RLS修复说明.md",
+    "bytes": 1362,
+    "sha256": "dafd920f89feb833acb41a13073789ef18d07de77df119ef2e163c1353181592",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.6.3_零速符号与配置覆盖修复说明.md",
+    "bytes": 1095,
+    "sha256": "4e6c91bbc05dcf166630bfe1e741301baede9ee82802bcd864fb099b874ad0a0",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.6.4_RLS等价批量LS与独立角扫说明.md",
+    "bytes": 1003,
+    "sha256": "c6f13c1c6d52f0efaf956ce25d792f416d0e7d2ee6231195f909c46bef9680de",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.6.5_FRP可观测基函数与独立验证修复报告.md",
+    "bytes": 1890,
+    "sha256": "6542651b0790ad40a66b3588079232cb57af09556347d25cae468fd572be68b2",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.6_独立真值与先进算法说明.md",
+    "bytes": 2834,
+    "sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\V4.6_静态验证报告.md",
+    "bytes": 2734,
+    "sha256": "e5af54aa5e4ae2916aff89e25cd65b17e6cb732779e926fc4c80de287f86a4ff",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\verify_HRG_WA_v45_install.m",
+    "bytes": 6700,
+    "sha256": "1a2ada87ff91ca5ae679a0f1b26c971124fbfbcb388fd4b1554570d70c4889b2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\仿真验证结果汇总.md",
+    "bytes": 1912,
+    "sha256": "af73f7c07d444d1beb992770efcbf149bd9006738c6584d3a3c3fcd686055e6e",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\验证与使用说明.md",
+    "bytes": 3920,
+    "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\README_HRG_WA_RTL.md",
+    "bytes": 5539,
+    "sha256": "40765794be21c35dc9dec91b67b49937b44807bc0599de65658c4da6551aa563",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl_filelist.f",
+    "bytes": 238,
+    "sha256": "421a7ef3fd00e1c22c1a049206adcf3642cc8ab7ddc5720b406fc94aae0a7a06",
+    "extension": ".f"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\tb_filelist.f",
+    "bytes": 340,
+    "sha256": "7e19edda94fea90853510f4c49041e8576f40d9e9474d2e6358b9b0bd366ff92",
+    "extension": ".f"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_autotune.m",
+    "bytes": 4861,
+    "sha256": "32389eb784c3e2e09eb6c1a1d620b7958bf1e31c1312f54ab6a41f826fd697f6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_export_vectors.m",
+    "bytes": 1732,
+    "sha256": "646ffdc6135a739bc9555634d6fe266aa6e4356d6f422f5d701c1fac07444af6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_metrics.m",
+    "bytes": 7610,
+    "sha256": "ac9f206ce5c3ed81efcd674fa331239c4c2178b90eb29c637bb7aa452dd97489",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_params.m",
+    "bytes": 17582,
+    "sha256": "7e35f3169b3e35a97dea7f2b25ea85deb45e7a80293c5a7914453c07ec6dcb4c",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_regmap.m",
+    "bytes": 5727,
+    "sha256": "42aa8a6b408bf607a4a90dd920a04e32659c9f61422b88c2d66bbc7da7e23aa6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_simulate.m",
+    "bytes": 34047,
+    "sha256": "b5f4ec790c1ecbdfe3c5cf2f447cd60c6bf8de16a92c5cf9675e737cd672d1b1",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_test_result.mat",
+    "bytes": 52996,
+    "sha256": "86d5b26931cc0a27a388cbd52a59f49c6e9da2224211f586deecd1d263629660",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_user_config.m",
+    "bytes": 10640,
+    "sha256": "d1dc408ec75b6e1d39204238c0792ca45e30830699e01d266c262f438f7acdf3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_v4_validate_params.m",
+    "bytes": 9921,
+    "sha256": "1b9dc145d4cb4cb8dfa88fa887a779fc650bf0d42a8c756d7fc9c136fd140d5f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_V4_参数与控制器修调指南.docx",
+    "bytes": 37308,
+    "sha256": "d0f15cca17741b8427ee410148372aec5fbc263c0c09fb1a90cbc99e87f172c9",
+    "extension": ".docx"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_V4_参数与控制器修调指南.md",
+    "bytes": 15530,
+    "sha256": "4eda5dd304d8e79a221f49019d081a913e5ba265988d55a73bc697bf53915cd9",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\HRG_WA_V4_参数与控制器修调指南.pdf",
+    "bytes": 397792,
+    "sha256": "a7fac9077745717576b76b9df4dee6ef6a9a24137e1455bde40bf55e3c0e281b",
+    "extension": ".pdf"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\README.md",
+    "bytes": 2653,
+    "sha256": "47ce58aa30c3fbc76fc8f1fbae63319ed45efc8390bac5429ea9ff36b62b62b9",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\run_HRG_WA_v4_demo.m",
+    "bytes": 6414,
+    "sha256": "08cfec0604a6d6cfc57b1f30ac21200c5a698ad6b92cdc298c2e5932cb4d3397",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\test_HRG_WA_v4.m",
+    "bytes": 10041,
+    "sha256": "36b561c69398bdd991afcae874bd2f1312f59a7b85f126fdd2693c1b278b2ef3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4\\验证与使用说明.md",
+    "bytes": 2458,
+    "sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_autotune.m",
+    "bytes": 4862,
+    "sha256": "bdddf9c2a2d71cfcf48f2992a06346b7c561d217a247395aae3bb808fb24f6db",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_export_vectors.m",
+    "bytes": 2736,
+    "sha256": "5d5d7d5b152fe0e23951380278cc79f5f1786a1ec1f4262e5cf8b68353771539",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_metrics.m",
+    "bytes": 12649,
+    "sha256": "3feaf1e45479fc427b457307a0f5d25d34636b11447161c743f338c1de34235d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "0939b182aeeeef7583149eff4ab2d6b7b0304c8684f8f82d458e7d444d1ca3f4",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_monte_carlo_result.mat",
+    "bytes": 17048,
+    "sha256": "fd2bceb83a7f8e97877c4b843bbea5fc87c49c85bf6d48d235d2b43324f6f406",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "c161d641d20a0d0469a8920d0468f940ae58b7dda386a3214ef358f0e5e74efc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_params.m",
+    "bytes": 22695,
+    "sha256": "b4fea9e590a25b1731f58ff9abd8299955d2a02ee43ee362f823c18e78137fb9",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_regmap.m",
+    "bytes": 8759,
+    "sha256": "4dd4fa9dd6ab8a5704173ad2b26edc26e09f68999e8d0668e0462c87c27d21c2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_simulate.m",
+    "bytes": 67976,
+    "sha256": "980aa2785eb685ebe9db1e01bc693d75e75715bad0c8ef33d7fde4b22fbdedf5",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_test_result.mat",
+    "bytes": 115592,
+    "sha256": "13130cb5986f1513055f39d6b487a184ea680265397c40484d19cb6606c56d9d",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_user_config.m",
+    "bytes": 15465,
+    "sha256": "1ba7ba7ad06d4d5362bfa0174d53ad56079d0e0ddfd21f43bda4c961fa4c1a73",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_v42_validate_params.m",
+    "bytes": 15580,
+    "sha256": "8caf8dcf162bd0f4ddf5c1a291b79433c9d95354d437106881c9df55de4e8c52",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\HRG_WA_V42_参数与控制器修调指南.md",
+    "bytes": 25162,
+    "sha256": "765df8768584f59c32d64d40d01c43a134ea625c621ceb5066f1565d6a44d727",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\PACKAGE_MANIFEST.md",
+    "bytes": 488,
+    "sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\README.md",
+    "bytes": 4771,
+    "sha256": "24fa8ae2371640044cb037c922f491bff3a9e997f6e4a7fde0ad507f8bda7f47",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\run_HRG_WA_v42_demo.m",
+    "bytes": 8111,
+    "sha256": "3ee7369ba490b42d0d00f28062d414781cdc4091c5b4340c532652bcf09cffaf",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\run_HRG_WA_v42_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "ddf92821bd54fd3a3d10317352e97842028c7221702b556b583b299746a75f87",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\run_HRG_WA_v42_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ae09868f6ba83ccc5a5b0ec9877b508711b4a2f24d4c7ca42e8131261db9ae2f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\run_HRG_WA_v42_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "9edb7bed757a883cf73e84358ce7f28a3fe550f23d23f316e85dda13ebd1a852",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\test_HRG_WA_v42.m",
+    "bytes": 18457,
+    "sha256": "0885f614ed85b55c516b553fa32f80d6dbcc7f448c069325bbd8908d5318a6d4",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "2e9ac997f9774d39f3a973fe3d3a2647fce765413a034e522b776d2b0b7b7de6",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\verify_HRG_WA_v42_install.m",
+    "bytes": 4265,
+    "sha256": "2b98d953d25f1045cd090bed663a5e6f36b3a9861a566a5c739316904b68d586",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版\\HRG_WA_Digital_ASIC_MATLAB_v4_2\\验证与使用说明.md",
+    "bytes": 3912,
+    "sha256": "293ddb30e0e75d3783c108c016c359181708c1d3a2481891bb307dc0a5a8902b",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_autotune.m",
+    "bytes": 4861,
+    "sha256": "32389eb784c3e2e09eb6c1a1d620b7958bf1e31c1312f54ab6a41f826fd697f6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_export_vectors.m",
+    "bytes": 1732,
+    "sha256": "646ffdc6135a739bc9555634d6fe266aa6e4356d6f422f5d701c1fac07444af6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_metrics.m",
+    "bytes": 7610,
+    "sha256": "ac9f206ce5c3ed81efcd674fa331239c4c2178b90eb29c637bb7aa452dd97489",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_params.m",
+    "bytes": 17712,
+    "sha256": "d89bc37547ca0565fa739fbda974e62cc6afa3754e9903ae83b65fd06cbf18a2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_regmap.m",
+    "bytes": 5727,
+    "sha256": "42aa8a6b408bf607a4a90dd920a04e32659c9f61422b88c2d66bbc7da7e23aa6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_simulate.m",
+    "bytes": 34212,
+    "sha256": "59b0708a1ebebfef8d0f24b7cd1ff45764ebb57ae34099ff7e7021c5f94f3bce",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_test_result.mat",
+    "bytes": 53692,
+    "sha256": "785dc623ed92a7a577bfd795a42d1c6aeccd47b54c02273fb9ba20ef07b6c5d6",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_user_config.m",
+    "bytes": 10640,
+    "sha256": "d1dc408ec75b6e1d39204238c0792ca45e30830699e01d266c262f438f7acdf3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_v4_validate_params.m",
+    "bytes": 9921,
+    "sha256": "1b9dc145d4cb4cb8dfa88fa887a779fc650bf0d42a8c756d7fc9c136fd140d5f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_V4_参数与控制器修调指南.docx",
+    "bytes": 37439,
+    "sha256": "6d33cfbf6a4542776c7ec18e5befeb3fe27228c8274fd00b5cc510b4edcc8bf6",
+    "extension": ".docx"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_V4_参数与控制器修调指南.md",
+    "bytes": 15722,
+    "sha256": "6506a82d280b91a37bb737a6617041e89ca397922dafd6bd04c1da69a8fabffd",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\HRG_WA_V4_参数与控制器修调指南.pdf",
+    "bytes": 399435,
+    "sha256": "6654781dc20dfa21f0f78899b0a63014e4fd33ad25a5c06ae233423e42171e79",
+    "extension": ".pdf"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\README.md",
+    "bytes": 3071,
+    "sha256": "0962f0ede1611520bdd8c375738d90d3ff96d335a9f80fc88fd6ed7586dcedef",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\run_HRG_WA_v4_demo.m",
+    "bytes": 6536,
+    "sha256": "d6fa375cf65a6717405ca33045a7addc8fa5736fe5bab086b87866c8db6b90cc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\test_HRG_WA_v4.m",
+    "bytes": 10332,
+    "sha256": "8a6dc5d250218a748612aa28948a5fdb4c0a32fb1a8e40518188a3035d26e393",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\verify_HRG_WA_v4_install.m",
+    "bytes": 2720,
+    "sha256": "ddaa5b141594da456e21dfa00d192edbee35863e7e84bcb7022dea0154cc31df",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v4_1\\验证与使用说明.md",
+    "bytes": 2458,
+    "sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\半球谐振陀螺全角模式与数字ASIC技术综述_V3.docx",
+    "bytes": 141656,
+    "sha256": "dd5e249f8a319be3007e4173148023bf558f2d44932fb9b69ee6f0f7f30a11cf",
+    "extension": ".docx"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\半球谐振陀螺全角模式与数字ASIC技术综述_V3.pdf",
+    "bytes": 875874,
+    "sha256": "357544d06fb35ecf9122619e2a19dbd97cf5aa3843bba65489ce29d2a2981d13",
+    "extension": ".pdf"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_export_vectors.m",
+    "bytes": 1324,
+    "sha256": "932a226c0e0d6cd5652218001aa1777788caa4285a9d1132d41fc0397753d00b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_metrics.m",
+    "bytes": 3351,
+    "sha256": "2d75a2733a95733d2eaf18eabf8f3d532798d34f71bed8e21ac3489f14faeab3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_params.m",
+    "bytes": 9381,
+    "sha256": "d26db95fad80d61114721979ec7254dd292ee59c2a97f55cf539852492905096",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_regmap.m",
+    "bytes": 3971,
+    "sha256": "cc4ad51d82e29bbec8f33a7189ee76f74abb642c0e71400435b28e7b52ce4e3a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_result.mat",
+    "bytes": 1441727,
+    "sha256": "27b4c75cd3d92d3e5829c227df1111f3e61010617ef45fd8d3f24d50a5e9893b",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_simulate.m",
+    "bytes": 32501,
+    "sha256": "8d6a2f7f2358870bc7b13bd93c9f973b811e9bc86fbcf0f98da7f190580a187d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_summary.png",
+    "bytes": 148298,
+    "sha256": "c97f0429189a9bca436657a4e926f3ba7131fa04bc4e896e4bd08062c8f06e4e",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_test_result.mat",
+    "bytes": 681,
+    "sha256": "db08bf9a5dd45b092221eb6874be7d90e932b98d6b4782e67da1465a1abc9666",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\HRG_WA_v3_vectors.csv",
+    "bytes": 2335114,
+    "sha256": "53ddd52075b1384545433995d242f0af0b3d903ab150e737e844d60dd1ee3409",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\README.md",
+    "bytes": 2417,
+    "sha256": "784dfc830b50929fcc80569976ec582957d187b3e320cfaca0a22867ffc1075f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\run_HRG_WA_v3_demo.m",
+    "bytes": 4770,
+    "sha256": "cf1e2256ee187f7775c459a628d78893979462ff236dacf4ee3cf0720effcbb3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\test_HRG_WA_v3.m",
+    "bytes": 4510,
+    "sha256": "a0c28d75d61965b9b701e0a8419470994f8ebc345853d298e26178d002db3088",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包\\deliverables\\HRG_WA_Digital_ASIC_MATLAB_v3\\验证与使用说明.md",
+    "bytes": 1270,
+    "sha256": "5e35c7682d358dceb10f2297def4b528e3cebf5900cf85b5cd4997d86a5e5f58",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_cic_decimator.v",
+    "bytes": 3745,
+    "sha256": "1a7496ecd8bd9a8530f6748fd32f66cd435f6913abd19254916cf9ccfb3eef68",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_cordic_atan2.v",
+    "bytes": 6094,
+    "sha256": "0ecd15867aa49fb1401940692f7299f60f2085f52fd2778b307d36264ab56d08",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_demod_frontend.v",
+    "bytes": 6484,
+    "sha256": "b7957d3302815cdb1e5b9ce03a5f7a84217a372d771a5fab3fe0997b5233a121",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_eqsr_calc.v",
+    "bytes": 3609,
+    "sha256": "68f25ea39bd2931c5b0dd6bac45d51aa20c89d38c0414d3a04f8e6d20e9be211",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_fir5_lpf.v",
+    "bytes": 2254,
+    "sha256": "cccb00453ae54525dd67e835b791086af2acbc198afe081e7cf4ec14e8f93013",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_iq_mixer.v",
+    "bytes": 2699,
+    "sha256": "cf5d7b92ff7b9b2955b88f2a250c193267e6e236e5705ab1542d6341db8fcbd5",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_nco_sincos.v",
+    "bytes": 14598,
+    "sha256": "f95da544445aa99a7fbf19d5730f058e527e0ffd221b480c7f7d154c1108badb",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_phase_angle_rate.v",
+    "bytes": 5540,
+    "sha256": "3d7413b4a02797b0871d161299309bff28a57c048d6d5935d1df9308aeb4a3a1",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_pi_ctrl.v",
+    "bytes": 4574,
+    "sha256": "ba029d082a214c7cfda2f2f8cfc3699aec3ec545ae2a925a4e399e68e2f587cc",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_wa_full_top.v",
+    "bytes": 6105,
+    "sha256": "c509e809afff8af9fd35eaf5f0b56e858ef2e272ae01d0639233585076858c9c",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\rtl\\hrg_wa_if_top.v",
+    "bytes": 10504,
+    "sha256": "0b4437fae4a469d8dd5ebe83b20b07d4e968a915da9bbb0d16547181848c3903",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\tb\\hrg_wa_plant_model.sv",
+    "bytes": 3309,
+    "sha256": "e86a6f37ce245a364725d3bedc311064068150b9c1aae740faa12234f5e642b4",
+    "extension": ".sv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\tb\\hrg_wa_raw_plant_model.sv",
+    "bytes": 5047,
+    "sha256": "f5cd84c3e7bd891baaf240d67dba969aec59a70372d616bc841a237b60d7c32b",
+    "extension": ".sv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\tb\\tb_hrg_wa_full_top.sv",
+    "bytes": 11587,
+    "sha256": "4c44e91dfaed08a5111dbd4976066d94f1b32617e5f74fe43e6472875d257718",
+    "extension": ".sv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam\\tb\\tb_hrg_wa_if_top.sv",
+    "bytes": 11776,
+    "sha256": "ee820ac582b177e957de21ecf8498f08f1cbdd415190dba6378349e7eb156329",
+    "extension": ".sv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_autotune.m",
+    "bytes": 4862,
+    "sha256": "fd70aafa2ec2406de235435586dc71941b828e3c35410dea0f06988b99563571",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_export_vectors.m",
+    "bytes": 3711,
+    "sha256": "623db5a5e9fdc1ff979d0bb8116de9b90995d2819cabb346b9040704ddab296a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_frp_result.mat",
+    "bytes": 6028301,
+    "sha256": "b28cc9580edb6becc20cd11844562709cdf4602da6a39111499cb2187eb8b29f",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_frp_summary.png",
+    "bytes": 140479,
+    "sha256": "a2117923ed463c138d20ef089384340e2a1e171f8c9eb04087b50202982c6dfa",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_metrics.m",
+    "bytes": 25722,
+    "sha256": "89c8a658e44b3e82e6caee863c934afd5e5a6c9207c548d14d42c115cb61c999",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_monte_carlo_result.mat",
+    "bytes": 23350,
+    "sha256": "fdbcf8cd93c5fe960e7783ff429a351d1997deda5aeee84a9cd65e5f53028321",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "e4c649e3d9a368485f8ae353ba408599c387e77437955490338e3daa68c6a78a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_params.m",
+    "bytes": 35038,
+    "sha256": "6466a58736968519ea63d3e6b78a043babb59a32a17ad843489e9367f2909ecf",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_regmap.m",
+    "bytes": 19288,
+    "sha256": "2385f12d6070272c1f1a001819eeab40fc719582ef70a806ce8545ffe26ed9d1",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_result.mat",
+    "bytes": 2158350,
+    "sha256": "1bbf30a25a564e325087d5c5100a8a581a691c5f58e1c622a4a3a0b6986c73af",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_simulate.m",
+    "bytes": 136366,
+    "sha256": "e35ecff5448a1b2e9e452b1ffa99db7c63474abd646e67d7e2fbc89ccecb8b22",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_summary.png",
+    "bytes": 144308,
+    "sha256": "c3ed5517ed1e13950c6ab2967319ad22c138d92b70c971cbb0ad0aa11923850f",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_test_result.mat",
+    "bytes": 210839,
+    "sha256": "0ab561a6bcd4b92385e368053752102bc9fcf46746f5a5d7ae5f5d80ebef1133",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_user_config.m",
+    "bytes": 22480,
+    "sha256": "bd7c0c941366023b95a7ceefcf1331083deaa70270c533b9985a0ca46e0bcfe0",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_validate_params.m",
+    "bytes": 27725,
+    "sha256": "1a1ac5799aad644d01dbf09eaae3446409d57b42601435e663cd1cb527a6e754",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v45_vectors.csv",
+    "bytes": 4691393,
+    "sha256": "69662277b13eca9a6553923c7709611196ca47dd98e6fa814c0457f15eb93c0c",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_V45_参数与控制器修调指南.md",
+    "bytes": 26771,
+    "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_advanced.m",
+    "bytes": 9685,
+    "sha256": "51833ba223bb0d8d447b0c6b7db6b924cdfeff0e4ff375f8ab33e3fa264f3556",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_autotune.m",
+    "bytes": 4862,
+    "sha256": "729869250c8aaa61b56c712f848a864e612945c42de25310d01f75b46c62ead6",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_compute_frp_truth.m",
+    "bytes": 1884,
+    "sha256": "a193778113f8a67c4ea2feb1e12bd0d299f87ac890a5dd3076b200bbd41b94e3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_metrics.m",
+    "bytes": 27345,
+    "sha256": "32620d4a42235685576054b69bab7d675ab002b465b8840bf88fcf7ce82c829e",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "711520a8f5c5a4b23f12e717076abd2634102e23149e8cc199e29641e52f98b5",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_params.m",
+    "bytes": 37761,
+    "sha256": "4d6f6a071fe26dfb31a34af6f134c71f98c40ebdbbc16973121544053acd77bd",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_regmap.m",
+    "bytes": 21131,
+    "sha256": "89867b9034640abcdc4e23a47b92d2cc7a90dd85bbd70fd62dc7467713c4309f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_simulate.m",
+    "bytes": 139136,
+    "sha256": "3d4d93c04d1cccb4d7398496aec0267172070370a739d145ad0b7eb0bdc4f3e1",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_user_config.m",
+    "bytes": 22480,
+    "sha256": "7ca8456a50499f2c755650cde2ee8f5b180e8012bfeb1e3cdd5362e176fb7b82",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\HRG_WA_v46_validate_params.m",
+    "bytes": 28988,
+    "sha256": "643d2ee6643349120bee1090fd580fe43f360467a2a1633b46909a0b5ce199f8",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\PACKAGE_MANIFEST.md",
+    "bytes": 1330,
+    "sha256": "40e106ac502a6625a669e3cbff490e95516ca747640c26750d47de76cf51a42f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\README.md",
+    "bytes": 4376,
+    "sha256": "c5cf5109847b71dc60229a526c0ebfe744d4977e20d9471f47b6e0b9d26ebcb6",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\run_HRG_WA_v45_demo.m",
+    "bytes": 9146,
+    "sha256": "fab9913e2c0b263e623a4e0cb571f55f7bee9e6dc8dc6c40e3ff6622dc665c4a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\run_HRG_WA_v45_frp_demo.m",
+    "bytes": 7272,
+    "sha256": "4d8a552723568b0b52d5a61775e100845fbbe6a2586d5d03371bd75f9b9404c8",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\run_HRG_WA_v45_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "23e6f5ed3d2da3d7596e0136fd857e8735b7748d1e496202d77dfeae88ab5fac",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\run_HRG_WA_v45_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ddbeb4be0791faf468d3e7c595c5996982957cece79fec1c6349be66b590c07d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\run_HRG_WA_v45_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "961c2d77bcf5d309b34714f6238c866b9f7c699f9f80067b198fc0fca53aab70",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\run_HRG_WA_v46_ab_validation.m",
+    "bytes": 3691,
+    "sha256": "69c31dfcb80134a9d221ce6d7b775e712a23f7c1a5af31bc8da84aeb7948b39b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\test_HRG_WA_v45.m",
+    "bytes": 32129,
+    "sha256": "2cb75f5bc1bb19b9631b47df17ce4f773036d5c386e80da094cb34fd2f56e40a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\test_HRG_WA_v46_advanced.m",
+    "bytes": 2166,
+    "sha256": "f5c6dfaa9c71ae892a7c41728b6b836730d56d72c2a7c28725e6dc617a5a0d2f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.3.1_在线标定安全释放修复说明.md",
+    "bytes": 3413,
+    "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.3_在线标定功能说明.md",
+    "bytes": 4474,
+    "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.4_位真ASIC功能说明.md",
+    "bytes": 2770,
+    "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.5.1_FRP回归Bug修复说明.md",
+    "bytes": 3769,
+    "sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.5_多误差FRP联合辨识说明.md",
+    "bytes": 5644,
+    "sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.5_静态审计报告.md",
+    "bytes": 1738,
+    "sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.6.1_FRP门控与A_B验收修复说明.md",
+    "bytes": 1322,
+    "sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.6_独立真值与先进算法说明.md",
+    "bytes": 2834,
+    "sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\V4.6_静态验证报告.md",
+    "bytes": 1829,
+    "sha256": "903e4c15c9057472543f894451117e07d7843c7a20bdf1f8e537bb350e9880e2",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\verify_HRG_WA_v45_install.m",
+    "bytes": 6700,
+    "sha256": "1a2ada87ff91ca5ae679a0f1b26c971124fbfbcb388fd4b1554570d70c4889b2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation\\HRG_WA_Digital_ASIC_MATLAB_v4_6\\验证与使用说明.md",
+    "bytes": 3920,
+    "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\deliverables_hrg_whitepaper\\convert_md_to_html.ps1",
+    "bytes": 5623,
+    "sha256": "ff4b32b8f70d97f29e85786df03ed2bf467f14f9dbe88110439773d1039b6eb2",
+    "extension": ".ps1"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\deliverables_hrg_whitepaper\\HRG_whitepaper_20260825.pdf",
+    "bytes": 781147,
+    "sha256": "27ea783d3d8cb8e7e620269e46f11f4e59aa8d010e9951b40a80742637307b38",
+    "extension": ".pdf"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\deliverables_hrg_whitepaper\\半球谐振陀螺技术详解白皮书_V1.0_20260825.html",
+    "bytes": 42887,
+    "sha256": "fd457d7131bf19ff398f16d69b26cd2059b0b1a0853d7f9fe3c6547de7f76633",
+    "extension": ".html"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\deliverables_hrg_whitepaper\\半球谐振陀螺技术详解白皮书_V1.0_20260825.md",
+    "bytes": 36343,
+    "sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\deliverables_hrg_whitepaper\\半球谐振陀螺资料索引_20260825.md",
+    "bytes": 7336,
+    "sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\README.md",
+    "bytes": 3454,
+    "sha256": "8593ea299c898e37169fc2761934d72aa4ba5cd4eaa1212fc23e9b9adcdce03d",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\patent\\一种面向全角模式半球谐振陀螺的多速率定点传感器接口电路_发明专利申请草案.md",
+    "bytes": 21763,
+    "sha256": "9cf9651d1ee07578694ed50cec93d1093c02e4d7b154a8b46fedcaf7aa736bd5",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\patent\\附图绘制与申请前审查清单.md",
+    "bytes": 4885,
+    "sha256": "60808088ada24380303088ce6836cde50a8f90c70cd8b0318ededcc7af40154e",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\filelist.f",
+    "bytes": 290,
+    "sha256": "b0ffd5ddc6567733d0dd8f688e178d0027a5ad7d0d787c340bb8481ce6feca47",
+    "extension": ".f"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\hrg_controller.v",
+    "bytes": 4207,
+    "sha256": "b8cf5e574c9a48dcd09d5e84697d1100b6cbd0bc7c044d7a45e13917540889e0",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\hrg_cordic.v",
+    "bytes": 2843,
+    "sha256": "2df12b8a70f96b3f27b3aebf12c83b371b84fe903da9364af2e95bafb3a957b7",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\hrg_dsp_core.v",
+    "bytes": 6605,
+    "sha256": "404e516d59e4093fef55ae713d68d727883ced934fc2ca52a8eb9ca2a2fd4165",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\hrg_nco.v",
+    "bytes": 4121,
+    "sha256": "2aed061d2bea356bb816d2b20f33d0f41c66f61736344e01a62c54810a513d8c",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\hrg_sensor_if_top.v",
+    "bytes": 6878,
+    "sha256": "3f2c336dab6fc80ee8169dc5c536df24ef1d8c4a7d4408305e04185df1b93b17",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\testbench\\filelist.f",
+    "bytes": 408,
+    "sha256": "112da5677eeb61fcbb4e73087ccf1c1656d004a44a1677def76a9e7487660412",
+    "extension": ".f"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\testbench\\run_iverilog.ps1",
+    "bytes": 184,
+    "sha256": "1d29d51d451eeaf7c8c7ccff86ca825ff17c739cbda6338cb7caea9ac1ca3bec",
+    "extension": ".ps1"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\testbench\\tb_hrg_sensor_if.sv",
+    "bytes": 4396,
+    "sha256": "6d03038e00c7be7bcf91935576ee1284ab399c22fbc74c6fe049254689760d90",
+    "extension": ".sv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\testbench\\VERIFICATION.md",
+    "bytes": 910,
+    "sha256": "298f473421d63749aac23fd252d527a03b77e2b5618564366b0e9cc0191039d2",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\asyncFifo.v",
+    "bytes": 1930,
+    "sha256": "93c4b495f9cc6e72dd4028d7f50b5011e4e8be383ed24d39ec560da86fa6ba8f",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\crc8_param.v",
+    "bytes": 3944,
+    "sha256": "ff6e73932b095192da22c4178db7fc2b0e7d053ec83186285fdc25b39a996841",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\fifoTPRAM.v",
+    "bytes": 718,
+    "sha256": "b584609398d4e96df072fab38fe2743aaad06a8db542a9146ad6b95789db40bf",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\rCtrl.v",
+    "bytes": 674,
+    "sha256": "2634c8b3de12feddb19fb16324b7949589dc09eeb5e395dde290c690b0d767ff",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\roReg.v",
+    "bytes": 7511,
+    "sha256": "d20aa3248c733e3114d0659960cca26156542a8d7c054f3b0eb696121e49d809",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\rwRegPG2.v",
+    "bytes": 4267,
+    "sha256": "9e10345a341638ef9bd9cf6f9ab928df1f8fa4d68704740f0a3162d1d3433395",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\SHA256SUMS.txt",
+    "bytes": 692,
+    "sha256": "2a9894d2bacd63bf54643a2a19be8ca52ff32965d7aa2249b2421f9f885d569a",
+    "extension": ".txt"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\spiRegPG2.v",
+    "bytes": 3426,
+    "sha256": "143d5570a8f21a159a773ed6e3f97a5ad70fda9b2aa5b40f4d1de89be282e3c3",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\spiRegSlave.v",
+    "bytes": 9881,
+    "sha256": "b8fe8280886240b5fefb1a82de3eccdee00c5e37c56daf7d48ee4289d680b1b5",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\src\\spi_original\\wCtlr.v",
+    "bytes": 947,
+    "sha256": "0855d6a297e758f3865a5437c57ffd6add0cbb9dcf9337e05293becf4b40b28e",
+    "extension": ".v"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_autotune.m",
+    "bytes": 4862,
+    "sha256": "fd70aafa2ec2406de235435586dc71941b828e3c35410dea0f06988b99563571",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_export_vectors.m",
+    "bytes": 3711,
+    "sha256": "623db5a5e9fdc1ff979d0bb8116de9b90995d2819cabb346b9040704ddab296a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_metrics.m",
+    "bytes": 25722,
+    "sha256": "89c8a658e44b3e82e6caee863c934afd5e5a6c9207c548d14d42c115cb61c999",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_monte_carlo_result.mat",
+    "bytes": 23422,
+    "sha256": "6239e146eb5fb035c6ccd1077b8b07614b6fd391e352c5b3b1a1ddb88c448ed5",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "e4c649e3d9a368485f8ae353ba408599c387e77437955490338e3daa68c6a78a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_params.m",
+    "bytes": 35038,
+    "sha256": "6466a58736968519ea63d3e6b78a043babb59a32a17ad843489e9367f2909ecf",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_regmap.m",
+    "bytes": 19288,
+    "sha256": "2385f12d6070272c1f1a001819eeab40fc719582ef70a806ce8545ffe26ed9d1",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_simulate.m",
+    "bytes": 136366,
+    "sha256": "e35ecff5448a1b2e9e452b1ffa99db7c63474abd646e67d7e2fbc89ccecb8b22",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_test_result.mat",
+    "bytes": 211707,
+    "sha256": "0e1655142754abfc65c58c6fc27b6b9c723df06542f0a4ab0c26cf6065cc05cd",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_user_config.m",
+    "bytes": 22480,
+    "sha256": "bd7c0c941366023b95a7ceefcf1331083deaa70270c533b9985a0ca46e0bcfe0",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_validate_params.m",
+    "bytes": 27725,
+    "sha256": "1a1ac5799aad644d01dbf09eaae3446409d57b42601435e663cd1cb527a6e754",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_V45_参数与控制器修调指南.md",
+    "bytes": 26771,
+    "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\PACKAGE_MANIFEST.md",
+    "bytes": 835,
+    "sha256": "7e10216fc084f2c3139885e39ca02c62bf8c5be10ffa041e1640a08a46faaf4c",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\README.md",
+    "bytes": 3610,
+    "sha256": "670daf6f840940114669917374f0dce7df57bcb00c57b05ae7ee21fb51d02c31",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_demo.m",
+    "bytes": 9146,
+    "sha256": "fab9913e2c0b263e623a4e0cb571f55f7bee9e6dc8dc6c40e3ff6622dc665c4a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_frp_demo.m",
+    "bytes": 7272,
+    "sha256": "4d8a552723568b0b52d5a61775e100845fbbe6a2586d5d03371bd75f9b9404c8",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "23e6f5ed3d2da3d7596e0136fd857e8735b7748d1e496202d77dfeae88ab5fac",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ddbeb4be0791faf468d3e7c595c5996982957cece79fec1c6349be66b590c07d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "961c2d77bcf5d309b34714f6238c866b9f7c699f9f80067b198fc0fca53aab70",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\test_HRG_WA_v45.m",
+    "bytes": 32129,
+    "sha256": "2cb75f5bc1bb19b9631b47df17ce4f773036d5c386e80da094cb34fd2f56e40a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.3.1_在线标定安全释放修复说明.md",
+    "bytes": 3413,
+    "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.3_在线标定功能说明.md",
+    "bytes": 4474,
+    "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.4_位真ASIC功能说明.md",
+    "bytes": 2770,
+    "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.5.1_FRP回归Bug修复说明.md",
+    "bytes": 3769,
+    "sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.5_多误差FRP联合辨识说明.md",
+    "bytes": 5644,
+    "sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.5_静态审计报告.md",
+    "bytes": 1738,
+    "sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\verify_HRG_WA_v45_install.m",
+    "bytes": 6700,
+    "sha256": "1a2ada87ff91ca5ae679a0f1b26c971124fbfbcb388fd4b1554570d70c4889b2",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\验证与使用说明.md",
+    "bytes": 3920,
+    "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_autotune.m",
+    "bytes": 4862,
+    "sha256": "fd70aafa2ec2406de235435586dc71941b828e3c35410dea0f06988b99563571",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_export_vectors.m",
+    "bytes": 3566,
+    "sha256": "03aeab45a1dfa6d818dd39c19b61c0482a96062d272f997f8e979418d6baf626",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_metrics.m",
+    "bytes": 22937,
+    "sha256": "bacd8fa837c226c77aa98c7d7a7b2b1247d8a6dd96c42b7a056b014ef8770351",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_monte_carlo_result.mat",
+    "bytes": 23124,
+    "sha256": "42a885310aeb60e23a2c51216e8b2157bc27e9d39ef05b9adeb2242a534f5a7a",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "e4c649e3d9a368485f8ae353ba408599c387e77437955490338e3daa68c6a78a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_params.m",
+    "bytes": 34463,
+    "sha256": "6f70618b19b4abb2a78ede9e04caa4fc5e8f5910c271eb6d28894be8f4062826",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_regmap.m",
+    "bytes": 18648,
+    "sha256": "532f24f10b926bf8ec5a23b282608db26a49dc202f5291e425719648e2b53847",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_simulate.m",
+    "bytes": 132798,
+    "sha256": "94d71542992d28fdb14afe3d1a7e21a889d7b9b498cb4f60264e9125b882b92f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_test_result.mat",
+    "bytes": 208594,
+    "sha256": "d8c688591bf403fadd82f9f5e7e54283b51836dbeaf88057a63fb4e8f18766c3",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_user_config.m",
+    "bytes": 21927,
+    "sha256": "1ba69494a4ee34bf0e66f1c509053f7875d4fad86b20167953d39b2553462c03",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_v45_validate_params.m",
+    "bytes": 27239,
+    "sha256": "70d3708baa33a792add723da4604fa294e234806376b2fbfff6b849f447ed4bb",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\HRG_WA_V45_参数与控制器修调指南.md",
+    "bytes": 26771,
+    "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\PACKAGE_MANIFEST.md",
+    "bytes": 798,
+    "sha256": "96db41561e6d294ca712b7b319930cdd795805ff1421e112460b0ab6ea0b188f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\README.md",
+    "bytes": 3175,
+    "sha256": "8a23d592f082259955cb8661ebf92bb8c399fbddcbb0f16e82f591e96fcd3471",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_demo.m",
+    "bytes": 8990,
+    "sha256": "5a0bdd97da08695f2cce2b4c0dc99fbe9abb111c7c0824f3dee0237e7b87c81a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_frp_demo.m",
+    "bytes": 7107,
+    "sha256": "6661f47c5bc2ff6005c97b3c1a07b8bf937632fd25a5d049b592cbcc284f3aef",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "23e6f5ed3d2da3d7596e0136fd857e8735b7748d1e496202d77dfeae88ab5fac",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ddbeb4be0791faf468d3e7c595c5996982957cece79fec1c6349be66b590c07d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\run_HRG_WA_v45_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "961c2d77bcf5d309b34714f6238c866b9f7c699f9f80067b198fc0fca53aab70",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\test_HRG_WA_v45.m",
+    "bytes": 31286,
+    "sha256": "d9cc4a023535ce5b8b90c0df4943abe92ee911fa7d2454bea99e4aff5e28b908",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.3.1_在线标定安全释放修复说明.md",
+    "bytes": 3413,
+    "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.3_在线标定功能说明.md",
+    "bytes": 4474,
+    "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.4_位真ASIC功能说明.md",
+    "bytes": 2770,
+    "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.5_多误差FRP联合辨识说明.md",
+    "bytes": 5125,
+    "sha256": "958bf19c27f8931012689c30436ad98a28f7d18c63fdcf53e623e9ba632f73b7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\V4.5_静态审计报告.md",
+    "bytes": 1524,
+    "sha256": "fb262f75eb1888ca8ac0bd87531aa15fa26e3801ff7e1fa8243935329c24b8a3",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\verify_HRG_WA_v45_install.m",
+    "bytes": 5956,
+    "sha256": "af102bc91c1482a8358161234fa3ffe19f21b466d3be846da5e909653fce7b7c",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification\\HRG_WA_Digital_ASIC_MATLAB_v4_5\\验证与使用说明.md",
+    "bytes": 3920,
+    "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_autotune.m",
+    "bytes": 4862,
+    "sha256": "bdddf9c2a2d71cfcf48f2992a06346b7c561d217a247395aae3bb808fb24f6db",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_export_vectors.m",
+    "bytes": 2736,
+    "sha256": "5d5d7d5b152fe0e23951380278cc79f5f1786a1ec1f4262e5cf8b68353771539",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_metrics.m",
+    "bytes": 19213,
+    "sha256": "de22dd748d7807d04f2cfdebba0f27e94640e191a38bd13863d3145a94cbef8a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_monte_carlo_result.mat",
+    "bytes": 20635,
+    "sha256": "e8008429bbdf6842c4e381c1a309fe719f32f8dd9e3713402b24f118738c16b2",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "c161d641d20a0d0469a8920d0468f940ae58b7dda386a3214ef358f0e5e74efc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_params.m",
+    "bytes": 29647,
+    "sha256": "bf2bc7d8ecdfb71a35b6a4289564b3e93cd98ccd43d79ca525f483e9ad052688",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_regmap.m",
+    "bytes": 13287,
+    "sha256": "d03b56bd6e3b05fa1969ebdc04cb4f7cfc1a63e73ac940df77ffb1c84555bafa",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_result.mat",
+    "bytes": 2150583,
+    "sha256": "4d851009983415fb92776da2638cc6aa571d4dec1835efe32290eb6a5eff0326",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_simulate.m",
+    "bytes": 114787,
+    "sha256": "279a4407b7155c2d0f3b790a4bf2cf3ee3558f78a66289f3fa75d866fb899e9a",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_summary.png",
+    "bytes": 144308,
+    "sha256": "177080a3ec0f0eddbdd92e4accfb4d16972dc5bb27699b291da9c1ffef25adff",
+    "extension": ".png"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_test_result.mat",
+    "bytes": 168287,
+    "sha256": "a04064f9ea07c0a106a5eeeecd655e6db7b9a1bb017c15adbfce4defb7fd3c87",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_user_config.m",
+    "bytes": 18415,
+    "sha256": "5a7a3f5a4af17abb9b8e31f599293d705b63b2533bace7c0c13e0039acd38618",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_validate_params.m",
+    "bytes": 23027,
+    "sha256": "25f0c4a8570f703d2117e42f43ba38411dc8c088b1c5a4280c2197239d147200",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_v42_vectors.csv",
+    "bytes": 4140468,
+    "sha256": "d86e5ab68aba4de57a46ee9ee20cb3a2a9c6500c81a16c0bee55a7b3ab06fec3",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\HRG_WA_V42_参数与控制器修调指南.md",
+    "bytes": 25162,
+    "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\PACKAGE_MANIFEST.md",
+    "bytes": 700,
+    "sha256": "109e25eb53e046ee84254fbf469c2c8b362b43bcf364d14e922903de3175e6bb",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\README.md",
+    "bytes": 1645,
+    "sha256": "9f06bf026e7bbbed74f7aab6ff3e80e58e33cff108707babcc781a0143173346",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\run_HRG_WA_v42_demo.m",
+    "bytes": 8126,
+    "sha256": "065250794ceb24bc9c41cd142954375fae2358ddc6a67cc6768642735b8cb58b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\run_HRG_WA_v42_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "ddf92821bd54fd3a3d10317352e97842028c7221702b556b583b299746a75f87",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\run_HRG_WA_v42_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ae09868f6ba83ccc5a5b0ec9877b508711b4a2f24d4c7ca42e8131261db9ae2f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\run_HRG_WA_v42_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "9edb7bed757a883cf73e84358ce7f28a3fe550f23d23f316e85dda13ebd1a852",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\test_HRG_WA_v42.m",
+    "bytes": 26295,
+    "sha256": "9f943f66a50eab34497893f1ac69b97ebb74b91ee6a3ecee8691f3f008e81fd9",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\V4.3.1_在线标定安全释放修复说明.md",
+    "bytes": 3413,
+    "sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\V4.3_在线标定功能说明.md",
+    "bytes": 4474,
+    "sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\V4.4_位真ASIC功能说明.md",
+    "bytes": 2770,
+    "sha256": "ca2f9a29f149cb4093955cad7333bafa87f36f71306aa86925b81350966b30e5",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\verify_HRG_WA_v42_install.m",
+    "bytes": 5130,
+    "sha256": "19250ecccf4034c0b62a3ee4c4732c988f9c368da1934d346991ea485ef90317",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic\\HRG_WA_Digital_ASIC_MATLAB_v4_4\\验证与使用说明.md",
+    "bytes": 3920,
+    "sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_autotune.m",
+    "bytes": 4862,
+    "sha256": "bdddf9c2a2d71cfcf48f2992a06346b7c561d217a247395aae3bb808fb24f6db",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_export_vectors.m",
+    "bytes": 2736,
+    "sha256": "5d5d7d5b152fe0e23951380278cc79f5f1786a1ec1f4262e5cf8b68353771539",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_metrics.m",
+    "bytes": 16402,
+    "sha256": "ef35ae7b7c0dac6cedbd5880944730c98a01e0588230f0f6415c32d22414a1b9",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_monte_carlo_result.mat",
+    "bytes": 18802,
+    "sha256": "6e285bf3df62eb4c6fc1d68507cfea7bb04cf88e064db36761aab42aa7f653a2",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "c161d641d20a0d0469a8920d0468f940ae58b7dda386a3214ef358f0e5e74efc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_params.m",
+    "bytes": 26389,
+    "sha256": "f9b6d145ebdb72b109be8fdae0e19375a008a8b256d284a534db20d702cb5ce1",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_regmap.m",
+    "bytes": 10949,
+    "sha256": "1b89950a21066a39353a081da821f8dfc325b3c523293822feda48abb7747334",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_simulate.m",
+    "bytes": 93982,
+    "sha256": "fdb12d9af9da962dd763f8a8edc3064360293fb6653b9c81750e042205768f10",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_test_result.mat",
+    "bytes": 140081,
+    "sha256": "397b1aab82ff2e3a1204e3c136a240491296237b0c5fff5181eee61ebc9db481",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_user_config.m",
+    "bytes": 18415,
+    "sha256": "5a7a3f5a4af17abb9b8e31f599293d705b63b2533bace7c0c13e0039acd38618",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_v42_validate_params.m",
+    "bytes": 18766,
+    "sha256": "9efb66d72ef89a93cf7c1070a2cae1771d5be11241194cd6a4e032f3c731ac67",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\HRG_WA_V42_参数与控制器修调指南.md",
+    "bytes": 25162,
+    "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\PACKAGE_MANIFEST.md",
+    "bytes": 617,
+    "sha256": "838338fab557be11694c516eebd32a7eba44da84c4905bc491f110e6ef08a6c6",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\README.md",
+    "bytes": 1214,
+    "sha256": "584e1bb45c1768a96b76e788c7ead4a2ddc2f33d9ac0b4e60c6b561f0ae31c68",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\run_HRG_WA_v42_demo.m",
+    "bytes": 8126,
+    "sha256": "065250794ceb24bc9c41cd142954375fae2358ddc6a67cc6768642735b8cb58b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\run_HRG_WA_v42_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "ddf92821bd54fd3a3d10317352e97842028c7221702b556b583b299746a75f87",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\run_HRG_WA_v42_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ae09868f6ba83ccc5a5b0ec9877b508711b4a2f24d4c7ca42e8131261db9ae2f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\run_HRG_WA_v42_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "9edb7bed757a883cf73e84358ce7f28a3fe550f23d23f316e85dda13ebd1a852",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\test_HRG_WA_v42.m",
+    "bytes": 22656,
+    "sha256": "ee69ca46bfcd5e72e3da4db95569553563248a6607a54c4909f921fbb6dcdd6c",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\V4.3_在线标定功能说明.md",
+    "bytes": 4463,
+    "sha256": "8375b7c9bea0ae676a428b0398bb6265139eb35f3726597d5922310272953d4b",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\verify_HRG_WA_v42_install.m",
+    "bytes": 4623,
+    "sha256": "5d02577ac668c7062c5e1f9f968263fad37c763710a1ec20d1ea5292c4573871",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration\\HRG_WA_Digital_ASIC_MATLAB_v4_3\\验证与使用说明.md",
+    "bytes": 3913,
+    "sha256": "87fe86eed766c98d96c2497b8075a7fe96e3b5c935270e67c3bc17be5d58e89f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_autotune.m",
+    "bytes": 4862,
+    "sha256": "bdddf9c2a2d71cfcf48f2992a06346b7c561d217a247395aae3bb808fb24f6db",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_export_vectors.m",
+    "bytes": 2736,
+    "sha256": "5d5d7d5b152fe0e23951380278cc79f5f1786a1ec1f4262e5cf8b68353771539",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_metrics.m",
+    "bytes": 16859,
+    "sha256": "4af8973aef1a37360e674ca773f55a61f06c98920887066ce70854637ffa7a26",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_monte_carlo_result.mat",
+    "bytes": 19206,
+    "sha256": "01e7402be615b2958ad3eb68e4a4ed7ccddbef49c72ce2f374db819db236118b",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "c161d641d20a0d0469a8920d0468f940ae58b7dda386a3214ef358f0e5e74efc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_params.m",
+    "bytes": 27251,
+    "sha256": "1f4ef5ef644aa744e666b2fc00ed0d6e47dab67ca75c8a69d9044cb59e0a1063",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_regmap.m",
+    "bytes": 11164,
+    "sha256": "61b5d39fb5916512033ef96829800d124e7499c20fe8b5224e63215595f5a2ba",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_simulate.m",
+    "bytes": 97251,
+    "sha256": "21689321e8834bac154fb240b465d2938a14c4e03dedb3caea70baa3f8f59a08",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_test_result.mat",
+    "bytes": 142474,
+    "sha256": "c52ce73a80a0f2e11c854f32f4d06bd5fc8790c287ab7c6153d7aa074bee9656",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_user_config.m",
+    "bytes": 18415,
+    "sha256": "5a7a3f5a4af17abb9b8e31f599293d705b63b2533bace7c0c13e0039acd38618",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_v42_validate_params.m",
+    "bytes": 18766,
+    "sha256": "9efb66d72ef89a93cf7c1070a2cae1771d5be11241194cd6a4e032f3c731ac67",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\HRG_WA_V42_参数与控制器修调指南.md",
+    "bytes": 25162,
+    "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\PACKAGE_MANIFEST.md",
+    "bytes": 667,
+    "sha256": "4d34a7bc28e842d3d46ccf54b02a10b40d8401fc4b8fc75d26190af69a51f551",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\README.md",
+    "bytes": 1295,
+    "sha256": "348b8b6a2d5204017234c9b915daa898016273dcbe280a227b384446987d9390",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\run_HRG_WA_v42_demo.m",
+    "bytes": 8126,
+    "sha256": "065250794ceb24bc9c41cd142954375fae2358ddc6a67cc6768642735b8cb58b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\run_HRG_WA_v42_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "ddf92821bd54fd3a3d10317352e97842028c7221702b556b583b299746a75f87",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\run_HRG_WA_v42_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ae09868f6ba83ccc5a5b0ec9877b508711b4a2f24d4c7ca42e8131261db9ae2f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\run_HRG_WA_v42_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "9edb7bed757a883cf73e84358ce7f28a3fe550f23d23f316e85dda13ebd1a852",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\test_HRG_WA_v42.m",
+    "bytes": 23573,
+    "sha256": "8d8a18860fd450d565daf10536f389ca177d856da83ff3980db4894095d3be09",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\V4.3.1_在线标定安全释放修复说明.md",
+    "bytes": 3413,
+    "sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\V4.3_在线标定功能说明.md",
+    "bytes": 4474,
+    "sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\verify_HRG_WA_v42_install.m",
+    "bytes": 4652,
+    "sha256": "ea310acbc350c30b822d550beffe2dc9e847fada2d132109c6cbaef5710387dd",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release\\HRG_WA_Digital_ASIC_MATLAB_v4_3_1\\验证与使用说明.md",
+    "bytes": 3920,
+    "sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_autotune.m",
+    "bytes": 4862,
+    "sha256": "bdddf9c2a2d71cfcf48f2992a06346b7c561d217a247395aae3bb808fb24f6db",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_export_vectors.m",
+    "bytes": 2736,
+    "sha256": "5d5d7d5b152fe0e23951380278cc79f5f1786a1ec1f4262e5cf8b68353771539",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_metrics.m",
+    "bytes": 12649,
+    "sha256": "3feaf1e45479fc427b457307a0f5d25d34636b11447161c743f338c1de34235d",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_monte_carlo_result.csv",
+    "bytes": 337,
+    "sha256": "719a6a5a1b912d64fc9a6d23feab10d0b09f077ec2ab4042f19104b2d2afb762",
+    "extension": ".csv"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_monte_carlo_result.mat",
+    "bytes": 16946,
+    "sha256": "e4bed0291be8f91a422332a7949b55cf867633c490983bec666de140c3e644ee",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_noise_analysis.m",
+    "bytes": 12241,
+    "sha256": "c161d641d20a0d0469a8920d0468f940ae58b7dda386a3214ef358f0e5e74efc",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_params.m",
+    "bytes": 23037,
+    "sha256": "d9c0946c564c12df256352c6a78056bf38656b1f55c7c85f7d465d532fbdd7ff",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_regmap.m",
+    "bytes": 8759,
+    "sha256": "12a8638856f16cfa96f69acb5c823cf439c66a99581174aae503fa2c82c286f3",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_simulate.m",
+    "bytes": 72050,
+    "sha256": "2f17e7c6c3b589120b40f6bce0b9e3c32971bc364e1307018e62bfdbd6502e4b",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_test_result.mat",
+    "bytes": 115091,
+    "sha256": "1b300930c165c8533a6281b936c2d34a72cf8c8a3965db762af3110ef11fe6af",
+    "extension": ".mat"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_user_config.m",
+    "bytes": 15798,
+    "sha256": "186b84213c2b2eef54056224ed0470c05ab99f099a96bc1c8ed109f1eaea0c3f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_v42_validate_params.m",
+    "bytes": 15580,
+    "sha256": "8caf8dcf162bd0f4ddf5c1a291b79433c9d95354d437106881c9df55de4e8c52",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\HRG_WA_V42_参数与控制器修调指南.md",
+    "bytes": 25162,
+    "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\PACKAGE_MANIFEST.md",
+    "bytes": 488,
+    "sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\README.md",
+    "bytes": 5365,
+    "sha256": "8528c352ed0ec01f48bd1bec4ad4e53520a27203d69797e639dca096a56da4d9",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\run_HRG_WA_v42_demo.m",
+    "bytes": 8111,
+    "sha256": "3ee7369ba490b42d0d00f28062d414781cdc4091c5b4340c532652bcf09cffaf",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\run_HRG_WA_v42_monte_carlo.m",
+    "bytes": 10277,
+    "sha256": "ddf92821bd54fd3a3d10317352e97842028c7221702b556b583b299746a75f87",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\run_HRG_WA_v42_noise_demo.m",
+    "bytes": 5117,
+    "sha256": "ae09868f6ba83ccc5a5b0ec9877b508711b4a2f24d4c7ca42e8131261db9ae2f",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\run_HRG_WA_v42_selftest_demo.m",
+    "bytes": 3968,
+    "sha256": "9edb7bed757a883cf73e84358ce7f28a3fe550f23d23f316e85dda13ebd1a852",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\test_HRG_WA_v42.m",
+    "bytes": 19355,
+    "sha256": "ebdb024a36c82bad7895fd87d3898eece887e535ae69159ce870ab3821ad8bcf",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\V4.2.2_能量入口可信度修复说明.md",
+    "bytes": 3121,
+    "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\V4.2_静态验证报告.md",
+    "bytes": 2001,
+    "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+    "extension": ".md"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\verify_HRG_WA_v42_install.m",
+    "bytes": 4272,
+    "sha256": "bf0dd69a314cc11c031fe17e7ec22b8f87fec8f693a8d63fac42196241787d8e",
+    "extension": ".m"
+  },
+  {
+    "path": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix\\HRG_WA_Digital_ASIC_MATLAB_v4_2_2\\验证与使用说明.md",
+    "bytes": 3913,
+    "sha256": "4656de5078f853c678f612e5779d4f95ea6bd74a79d4c96fefd63058156003c5",
+    "extension": ".md"
+  }
+]

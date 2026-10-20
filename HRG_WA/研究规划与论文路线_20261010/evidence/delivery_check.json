@@ -1,0 +1,22 @@
+{
+  "markdown_files": {
+    "00_总览与阅读指南.md": 1934,
+    "01_已有研究工作与证据审计.md": 3455,
+    "02_全角陀螺技术进展_截至20261010.md": 2438,
+    "03_创新候选与已有文献对照.md": 1683,
+    "04_小论文选题与实验设计.md": 3009,
+    "05_2025中科院分区与附件期刊匹配.md": 2685,
+    "06_博士研究路线与阶段验收.md": 1864,
+    "07_网页版GPT讨论继承与结论差异.md": 947,
+    "08_参考文献与检索记录.md": 5924,
+    "09_本轮验证与交付检查.md": 1802
+  },
+  "reference_title_doi_alignment": true,
+  "original_files_hash_unchanged": 483,
+  "matlab_executed": "25.1.0.2943329 (R2025a)",
+  "matlab_ab_pass": true,
+  "sensor_rtl_tb_pass": true,
+  "raw_rtl_completed_but_performance_not_pass": true,
+  "limitations_explicit": true,
+  "status": "PASS"
+}

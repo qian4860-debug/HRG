@@ -1,0 +1,20 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sun Oct 18 14:03:59 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/hrg_top_scoreboard/xsim_script.tcl
+# xsim {hrg_top_scoreboard} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+TOP_SCOREBOARD_SUMMARY cycles=182889 updates=4000 nav=4000 modes=e errors=0 final_rate=79.914627
+TOP_SCOREBOARD_PASS
+$finish called at time : 1831676 ns : File "C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/tb_hrg_top_scoreboard.sv" Line 51
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 167.277 ; gain = 0.031
+exit
+INFO: xsimkernel Simulation Memory Usage: 14464 KB (Peak: 14464 KB), Simulation CPU Usage: 10296 ms
+INFO: [Common 17-206] Exiting xsim at Sun Oct 18 14:04:11 2026...

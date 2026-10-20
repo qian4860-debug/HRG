@@ -1,0 +1,277 @@
+ARCHIVE: 全角陀螺/半球谐振陀螺全角模式信号处理控制方法.pdf
+TOTAL PAGES: 7
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+第6卷第2期
+导航定位与授时 V01．6 NO．2 2019年3月
+Navigation Positioning&Timing March 2019 doi：10．19306／j．cnki．2095—8110．2019．02．015
+半球谐振陀螺全角模式信号处理控制方法
+张岚昕1’2，赵万良1’2，李绍良1’2，成宇翔1’2，王
+伟1’2 (1．上海航天控制技术研究所，上海201109
+5 2．上海惯性工程技术研究中心，上海201109)
+摘
+要：介绍了在信号处理的过程中，施加对波腹点、波节点的控制以及谐振频率实时跟踪，从而在谐 振振型实时进动的情况下保证谐振振型的稳定，降低陀螺敏感误差；同时对两路相互正交的谐振子谐
+振信号进行提取和信号处理，得到谐振滞后角度以及陀螺所在载体的转动角度。对该方法进行了数
+值建模仿真，验证了该方法的可行性。
+关键词：半球谐振陀螺；全角模式；波腹点控制；波节点控制；频率跟踪
+中图分类号：U666．1
+文献标志码：A 文章编号：2095—8110(2019)02—0098—07 Signal
+Processing and Control Method of Whole Angle
+Mode Hemispherical Resonator Gyros ZHANG
+Lan—xinl“，ZHAO Wan-lian91“，LI Shao-lian91“，CHENG Yu-xian91“，WANG Weil’2 (1．Shanghai
+Aerospace Control Technology Institute，Shanghai 201 109，China； 2．Shanghai
+Engineer Research Center of Inertia，Shanghai 201 109，China) Abstract：In
+the method proposed by this paper，by the control of antinode and wave node and the real—time
+tracking of resonant frequency in the process of signal processing，the stability of reso— nant
+mode is ensured and the error of gyroscope is reduced during real—time precession．And the resonance
+signal of tWO orthogonal harmonic oscillator is extracted and processed，the resonance lagging
+angle of the resonator vibrating pattern as well as the rotation angle of the gyro carrier are obtained．A
+numerical simulation is performed and the simulation results show the feasibility of the
+proposed method． Key
+words：HRG；Whole angle mode；Antinode control；Wave node control；Frequency tracking 0
+引言 半球谐振陀螺具有结构简单、可靠性高、寿命
+长、精度高且无累积误差等特点，在空间探测、航空
+航海、精密设备等领域发挥着越来越重要的作用。
+半球谐振陀螺与其他类型的固体波动陀螺的工作
+原理类似，当谐振子在外加特殊频率的激励作用下
+会产生四波腹的谐振振型，陀螺随载体在惯性空间
+中绕敏感轴转动时，四波腹振型在科里奥利力的作
+用下会发生实时进动。通过外部电路将陀螺谐振
+子振动信号转换为电信号，并通过信号处理的方法
+从电信号中得到谐振振型的进动特性，就可以获取
+载体的角度或角速度信息。半球谐振子的结构图
+以及四波腹振动示意图如图1所示。
+收稿日期：2018—05—23；修订日期：2018—07—19
+基金项目：上海市科技人才计划项目(18XDl421700)
+作者简介：张岚昕(1994一)，男，硕士研究生，主要从事固体振动陀螺控制技术研究。E—mail：lancezhan91994@qq．corn
+万方数据
+
+--- PAGE 2 ---
+第2期
+半球谐振陀螺全角模式信号处理控制方法 99 ④嘭9
+俞
+8 9臼。④
+(h)
+图1
+(a)半球谐振子结构图，(b)四波腹振型示意图 Fig．1
+(a)Structure of hemispherical resonator； (b)Transformation
+of four-wave vibrating pattern 按照工作原理，半球谐振陀螺可以分为力平衡
+(Force—to—Rebalanced)工作模式和全角(WhoIe—
+Angle)工作模式。较之于力平衡工作模式，全角模
+式半球谐振陀螺具有较大的动态范围和响应速度，
+同时其信号处理和振型控制算法也更为复杂。全
+角模式的工作原理为，当有角速度输入时，谐振子
+受到沿着与角速度和振动方向均垂直的方向产生
+的科里奥利力为：
+F一2too×口一一2m．0A(cJsin(wt)
+(1) 在科里奥利力的作用下，谐振子振型转动角度
+与载体的转动角度会相差一个滞后角度0，称臼为
+进动角或滞后角(见图2)，进动角与载体转动角度
+口。。存在固定的比例关系如下：
+0
+reaI—kO (2) 其中，比例系数k称为进动因子，是的大小仅与
+陀螺谐振子的材料和结构有关，当陀螺表头的物理
+状态确定时，k可以被视为常数。因此，在全角工作
+模式下，一般通过外部电路在陀螺表头输出的振动
+信号的基础上进行一系列的处理和解算，最终得到
+谐振振型的进动角，并用它来表征陀螺所在载体的
+实时转动角度。
+(a)陀螺未发生进动的状态
+(b)陀螺所在载体发生转动时谐振振型发生进动
+图2振型进动状态下示意图
+Fig．2
+Vibrating pattern under real—time precession 进动角度的解算精度与陀螺谐振振型的稳定
+性有很大关系，振动振型的频率、波腹点幅度、波节
+点幅度的不稳定均会导致进度角的解算误差。因
+此，为了保证全角模式下半球谐振陀螺的敏感精
+度，陀螺外部信号处理电路须包含波腹点幅度检测
+与控制、波节点幅度检测与控制、频率跟踪回路和
+角度信号解算等几个部分。其中频率跟踪和波节
+点控制的效果对角度敏感的精度影响较大，频率跟
+踪回路的参数不合理时，会导致解调载波的相位与
+陀螺谐振相位差不收敛至0。，而是收敛至90。或
+一90。，并最终导致驱动力的相位混乱，振动状态发
+散；而当波节点的幅度未被抑制到0且存在波动时，
+会造成幅度检测量的波动和解调载波相位的波动，
+并最终影响角度敏感的精度。
+本文介绍了一种半球谐振陀螺全角模式的控
+制方法，并分析了该方法的误差来源和误差抑制的
+方法。
+1半球谐振陀螺动力学模型
+半球谐振陀螺的谐振子四波腹振型的振动参
+数耦合了振动幅度、振动频率和进动角度等信息。
+万方数据
+
+--- PAGE 3 ---
+100
+导航定位与授时 2019年3月 全角模式下半球谐振陀螺通过陀螺敏感电极将陀
+螺的物理振动信号转换为电信号；并通过信号处理
+算法将振动幅度、振动频率和进动角度等信息分离
+和解算出来；并通过控制算法稳定谐振子的谐振振
+型，保证陀螺的进动角度稳定收敛。
+当半球谐振陀螺谐振子振动的物理模型被简
+化为弹簧质量阻尼系统时，其二阶动力学模型如式
+(3)[1
+2I： 星一2k92y—kf2y+与+(∞2一是79-2
+2)z—f。 (3)
+y一2愚n主一kg]x+与+(co
+2一是7n 2)y—f， 其中，力为载体平台转动速度，k为谐振子进动
+因子，后7为向心力增益系数，叫为陀螺谐振子固有振
+动频率，z和Y为2个相互正交的信号轴向上的振动
+信号，厂，和，。为从z和Y两方向上施加的控制作
+用，在半球谐振陀螺中，z和y的几何放置位置相
+差45。。
+在式(1)的基础上，通过平均法可以得到陀螺
+谐振子在z和Y位置上的振动位移表达式如下睁4|：
+z—n
+COS(cot)cos(O)一口sin(∞t)sin(O) 1 (4)
+Y—ncos(wt)sin(O)+qsin(wt)cos(O)
+其中，n和q为谐振振型的长轴和短轴，0为进
+动角，z和Y为陀螺通过相隔45。的2个电极读出的
+信号，这2个电极的信号的物理意义是陀螺振动信
+号向2个电极方向的正交变换，如图3所示。
+图3谐振振型正交分解示意图
+Fig．3
+Orthogonal decomposition of vibrating pattern 2
+半球谐振陀螺信号处理与控制 全角模式半球谐振陀螺信号处理与控制的目
+的是维持实时进动过程中的振型稳定并解算出实
+时进动角度，其主要包括以下4个部分：维持谐振能
+量不发生衰减的波腹点控制回路；抑制波节点幅度
+进而抑制陀螺敏感误差的波节点控制回路；实时跟
+踪陀螺谐振频率和相位，产生解调参考信号的锁相
+环回路；进动角度动态检测部分。陀螺信号处理与
+控制的结构框图如图4所示。
+图4全角模式半球谐振陀螺控制框图
+Fig．4
+Control scheme of whole angle mode HRG 电极读出的陀螺信号如式(4)，相对于检测电
+极输出的陀螺谐振信号而言，半球谐振陀螺谐振振
+型的长轴振幅口、短轴振幅q以及陀螺动态进动角
+度0等振动状态量均为低频慢变信号，需要通过信
+号处理的方法将他们从陀螺高频的谐振信号中提
+取出来。
+可以通过锁相环得到与实时谐振振动信号同
+频同相的解调参考信号V。与V。，该信号与真实谐
+振信号有相位差p。
+Vc—c。s(叫f+垆)
+(5)
+V。一sin(oJt+9)
+使用参考信号通过乘法解调的方法将陀螺信
+号的频谱特征向低频和二倍频方向进行频谱搬移，
+并经低通滤波将包含振动状态量的低频慢变信号
+C，、C。、S。、S。提取出来。
+万方数据
+
+--- PAGE 6 ---
+第2期
+半球谐振陀螺全角模式信号处理控制方法 103 3．3频率跟踪
+通过锁相环进行频率跟踪的输出信号被用于
+乘法解调和驱动调制的参考信号，其与陀螺半球谐
+振子实时振动信号的相位差会影响波腹点信号解
+调、波节点信号解调以及角度解算的精度。数值仿
+真结果显示(见图8)，频率跟踪稳定工作的情况下，
+相位误差小于0．5×10一。
+可—_7rT_『广—7——而——玎—]丁T_7r—7■—雨—]r—1丁广T_了——1丌—]
+I』
+1』 1』 {J }f 1／
+＼f ＼f 1』 I』 l_7 ＼J ＼f ＼f
+¨ ＼f ¨ ＼／ ＼／ ＼／ ＼f ¨ ＼』 ＼f ＼f I／ ＼／ 2．7965
+2．797 2．7975 2．798 2．7985 2．799 tls
+图8频率跟踪仿真结果图(上图红线为陀螺实时谐振信号，蓝线为跟踪振动信号；下图为实时频率跟踪误差)
+Fig．8
+Simulation of frequency tracking result(In the first graph，the red thread represents vibrating signal of gyro，the blue
+thread represents frequency track’S output．The second graph shows error of frequency control loop) 3．4角度跟踪
+角度敏感是全角模式下半球谐振陀螺的最终
+目的，并且角度敏感的精度也直接影响了驱动作用
+的施加效果。将30。角度阶跃信号和10
+o)s斜坡 速率输入作为激励输入对角度解算进行仿真分析，
+仿真结果显示，经角度解算的动态响应时间小于
+0．05s，稳态误差小于0．05。，如图9所示。
+0
+0．5 l 1．5 2 2．5 3 tls
+(a)30。阶跃角度输入
+?
+一一一一一一一一一 6。 一 i4
+i
+2 l
+0—
+0．5
+0．55 0 6 065 0．7 0．75 tls
+(b)10(。)Is速率斜坡输入
+图9角度解算仿真结果图
+Fig．9
+Results of simulation for angle solution 4
+结论 全角模式下半球谐振陀螺的性能指标受谐振
+波形的稳定性和频率跟踪精度的影响，本文针对半
+球谐振陀螺全角工作模式的动力学过程进行了分
+析和建模，并介绍了一种全角模式下半球谐振陀螺
+控制和信号处理方法。该方法通过离散电极取得
+相互正交的谐振子振动信号oZ"和Y；通过乘法解调
+与低频信号组合运算，实现了波腹点、波节点、谐振
+频率和进动角度的实时检测；通过波腹点控制、波
+节点控制、频率跟踪等3个回路，实现了谐振子四波
+腹振型状态的稳定。最后针对数值仿真模型的仿
+真结果加以分析，验证了此方法的可行性。
+参考文献
+[1]Apostolyuk
+V．Theory and design of micromechanical vibratory
+gyroscopes[M]／／MEMS／NEMS．Sprin- ger，Boston，MA，2006：173—195．
+[2]Zhang
+F，Keikha E，Shahsavari B，et a1．Adaptive mis— match
+compensation for vibratory gyroscopes[C]／／2014 International
+Symposium on Inertial Sensors and Systems (ISISS)．IEEE，2014：1-4．
+[3]Lynch
+D D．Vibratory gyro analysis by the method of averaging[C
+3／／Proceedings of 2”St．Petersburg Conference
+on Gyroscopic Technology and Naviga— tion．St．Petersburg，1995：26—34．
+厂irrrr卜卜L卜L
+筋b，巧¨篮A／。g日二兰 
+万方数据
+
+--- PAGE 7 ---
+104
+导航定位与授时 2019年3月 [4]Loveday
+P W．Analysis and compensation of imper [5]
+[6]
+[7]
+[8]
+fection
+effects in piezoelectric vibratory gyroscopes [D]．Virginia
+Polytechnic Institute and State Univer— sity．Blaeksburg。VA，USA，1999．
+Lynch
+D D．MRIG frequency mismatch and quadrature control[C]／／2014
+International Symposium on Inertial Sensors
+and Systems(ISISS)．IEEE，2014：1-4． Taheri—Tehrani
+P。Izyumin 0，Izyumin I，et a1．Disk resonator
+gyroscope with whole-angle mode operation [C]／／2015
+IEEE International Symposium on Inertial
+Sensors and Systems(ISISS)．IEEE，2015： 1—4．
+Prikhodko
+I P。Zotov S A，Trusov A A，et a1．Fou— cault
+pendulum on a chip：Rate integrating silicon MEMS
+gyroscope[J]．Sensors and Actuators A： Physical，2012，177：67—78．
+Hu
+Z，Gallacher tK Control and damping imperfection compensation
+for a rate integrating MEMS gyroscope [9]
+[10]
+[11]
+[c]／／2015
+DGON Inertial Sensors and Systems Sympo— sium(ISS)．IEEE，2015：1—15．
+赵万良，成宇翔，孙殿竣，等．MEMS半球谐振陀螺
+的角速度积分及其FPGA设计[J]．半导体光电，
+2017，38(1)：40—42．
+Zhao
+Wanliang，Cheng Yuxiang，Sun Dianjun，et a1． Design
+of MEMS RIG with hemispherical resonator and
+its FPGA platform[J]．Semiconductor Optoelec— tronics，2017，38(1)：40—42(in
+Chinese)． Taheri—Tehrani
+P，Challoner A D，Izyumin O，et a1． A
+new electronic feedback compensation method for rate
+integrating gyroscopes[c]／／20 1 6 IEEE Interna— tional
+Symposium on Inertial Sensors and Systems． IEEE，2016：9-12．
+Chen
+F，Yuan W，Chang H，et a1．Design and imple— mentation
+of an optimized double closed-loop control system
+for MEMS vibratory gyroscope[J]．IEEE Sensors
+Journal，2014，14(1)：184—196． 
+万方数据

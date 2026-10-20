@@ -1,0 +1,399 @@
+ARCHIVE: 全角陀螺/Si-MEMS_gyro_by_Safran_Towards_the_navigation_grade.pdf
+TOTAL PAGES: 4
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+Si-MEMS gyro by Safran: 
+ Towards the navigation grade 
+ 
+Jean-Daniel Emerard  
+Safran Electronics & Defense 
+Paris, France 
+jean-daniel.emerard@safrangroup.com 
+Frédéric Fretouly 
+Safran Electronics & Defense 
+Paris, France 
+frederic.fretouly@safrangroup.com 
+Julien Auger 
+Safran Electronics & Defense 
+Paris, France 
+julien.auger@safrangroup.com 
+Yan Lenoir 
+Safran Electronics & Defense 
+Paris, France 
+yan.lenoir@safrangroup.com 
+Jean-Sébastien Macé 
+Safran Electronics & Defense 
+Paris, France 
+jean-sebastien.mace@safrangroup.com  
+Fabrice Delhaye 
+Safran Electronics & Defense 
+Paris, France 
+fabrice.delhaye@safrangroup.com 
+Christophe Kergueris 
+Safran Colibrys 
+Yverdon, Switzerland 
+christophe.kergueris@colibrys.com 
+Abstract— Prolonging the pioneering works initiated in the 
+60’s [1, 2] and bringing radical innovations such as planar 
+electrodes, Safran Electronics & Defense has successfully 
+achieved a major technological breakthrough by developing 
+and industrializing a navigation-grade Inertial Navigation 
+System (INS) technology based on HRG Crystal TM. Further 
+optimization of the Cost Size Weight And Power (CSWAP) 
+implies the development of a navigation grade MEMS 
+gyroscope. Safran decided to take up the challenge. In this 
+paper, we introduce a design evolution which has brought 
+great performance results. While keeping an axisymmetric 
+design and a fully balanced gyro mode [3], the innovation relies 
+on electrostatic transducers now located between the vibrating 
+masses. In the first part of this paper, we describe the key 
+design rules and the innovation brought on electrostatic 
+transducers location. The second part deals with the 
+technological implementation of this new design on a silicon 
+MEMS die. Finally, test results are presented with a special 
+focus on performances under external vibrations. 
+Keywords—MEMS, gyroscope, performance, navigation 
+I. GYRO DESCRIPTION 
+A. Design rules 
+Safran MEMS Coriolis Vibrating Gyroscope (CVG) 
+architecture relies on physical principles already applied on 
+macroscopic sensors [4], which have notably contributed to 
+the great success of HRG CrystalTM [5]. Namely: 
+• An axisymmetric design of the resonator giving 
+rise to degenerated vibrating modes minimizing 
+frequency and damping anisotropies and enabling 
+whole-angle mode of control. 
+• Fully balanced gyro mode, resulting in zero 
+parasitic force and torque on substrate at gyro 
+frequency. This point is fundamental in order to 
+reduce sensitivity to external vibrations and 
+dissipation of energy in the substrate or with 
+coupling with spurious modes.  
+• High quality factor modes (long time constant of 
+the resonator) to minimize the electrostatic energy 
+required by the resonator and ensure low 
+fundamental noise limit of the resonator 
+(thermomechanical noise). 
+B. Safran MEMS gyro architecture 
+Safran MEMS gyro uses an axisymmetric design based 
+on two equal concentric masses (m1, m2) linked together by  
+ 
+Fig. 1. Safran MEMS CVG mechanical design. At gyro mode, m 1 and m 2 
+vibrate in phase opposition 
+2D-springs of stiffness k 0 and connected to a fixed frame by 
+2D-springs of equal stiffness (k 1, k2).  This design gives rise 
+to two in-plane translational modes of vibration, an 
+unbalanced in-phase mode (frequency f 1) and a fully 
+balanced gyro mode (frequency f 0) where m 1 and m 2 vibrate 
+in antiphase. With the axisymmetric design, both modes ω 0 
+and ω 1 are degenerated i.e. have two components with same 
+frequencies and same mode shapes but in orthogonal 
+directions. Gyro mode is fully balanced, as the center of 
+gravity (COG) of the resonator remains fixed during 
+vibration (Fig. 1). The frequency split between in-phase and 
+anti-phase gyro modes depends on the ratio k 0/k1,2, which 
+defines the degree of mechanical coupling between masses. 
+Typical gyro mode is set above 10 kHz while in-phase mode 
+is below 5 kHz. Thus, Safran MEMS gyro is set with a high 
+coupling ratio to enhance isolation of gyro mode. That means 
+that k1 and k 2 act as a suspension stage in order to limit the 
+amplitude of external forces applied at the gyro mode 
+frequency under external mechanical vibrations. External 
+white noise vibrations applied in the vicinity of the gyro 
+mode frequency are filtered and Angular Random Walk 
+(ARW) performance is improved. Moreover, a high coupling 
+ratio limits stress transmitted to the resonator under thermal 
+environment, which is a source of transducer gain 
+instabilities. Electrostatic transducers also follow 
+axisymmetric implementation in order to nullify resultant 
+quasi-static electrostatic forces on substrate. Electrostatic 
+transducers are capacitive combs that allow the command 
+and detection of the gyro mode vibration and the 
+compensation of stiffness anisotropies due to imperfection of 
+fabrication. 
+ 
+ 
+978-1-6654-0282-8/22/$31.00 ©2022 IEEE
+2022 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL) | 978-1-6654-0282-8/22/$31.00 ©2022 IEEE | DOI: 10.1109/INERTIAL53425.2022.9787731
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 03,2026 at 13:05:34 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 2 ---
+V0 
+Top device 
+Bottom device 
+Handle 
+Device 
+Handle 
+V1 
+V2 
+V1 
+V0 
+V2 
+V0 
+Former implementation New implementation 
+Fig. 2.  Improvement of Safran Si-MEMS CVG. The electrostati c 
+transducers  are located between the two vibrating masses.  
+C.  The innovation: electrostatic transducers « between 
+masses » 
+ Usual detection of the gyro mode in CVG is made by  
+differential sensing between electrostatic transduc ers 
+measuring displacement of each mass relative to the  fixed 
+frame. These transducers are composed of a fixed el ectrode 
+mounted on the fixed frame and an electrode mounted on the 
+vibrating masses (Fig.2 and Fig.3, left scheme). Ea sy to 
+implement, this type of detection suffers from comm on 
+modes errors under mechanical vibration, even for l ow gain 
+anisotropies, due to partial rejection of non-linea r 
+electrostatic terms excited by in-phase mode. An ea sy way 
+would be to use higher frequency for the in-phase m ode, but 
+this would imply a severe degradation of the decoup ling and 
+filtering of the gyro mode. 
+ To break this trade-off, Safran has developed a un ique 
+transducer implementation greatly improving MEMS gy ro 
+sensitivity to in-phase mode modulations. Electrost atic 
+transducers have now been placed ‘between vibrating  
+masses’ so that they directly detect the relative d isplacement 
+between masses (amplitude and angle of the gyro mod e) 
+giving an edge under harsh mechanical environments.  
+Common-mode errors due to in-phase modes are elimin ated 
+and noise performance is only limited by residual i mbalance 
+of the gyro mode due to fabrication imperfections. As a 
+result, the in-phase mode frequency can be kept low  for 
+optimum effectiveness as a filtering and decoupling  stage, 
+ensuring low bias and angular random walk with a gr eat 
+robustness to external vibrations.  
+II.  TECHNOLOGICAL IMPLEMENTATION  
+A.  MEMS DIE 
+Typical MEMS gyro dies are fabricated starting from  a 
+SOI wafer. The single device layer is etched by Dee p 
+Reactive Ion Etching (DRIE) to define the suspended  
+masses and the transducers. The suspended masses an d the 
+transducers are then released by etching the buried  oxide 
+layer. Since both masses are electrically connected  by 
+coupling springs and since detection requires at le ast two 
+electric potentials, this implementation enables on ly the 
+detection of the gap variation between an electrode  attached 
+to the fixed frame and an electrode attached to the  mobile 
+masses (Fig.2 and Fig. 3, left scheme). To enable a  direct 
+capacitive detection between the suspended masses, at least 
+two different electrical domains have to be defined  on each 
+mass. The relative motion is then detected by the g ap 
+variation between two electrodes located on each ma ss. To 
+implement the new architecture, several technologic al 
+solutions have been investigated. As required, the suspended 
+masses have to be defined by a unique mechanical do main 
+including or supporting multiple electrical domains . The 
+adopted solution uses a two device layer configurat ion (Fig. 
+3, right scheme). The bottom device layer provides the 
+mechanical domain supporting multiple electrical do mains 
+in the top device layer. The intermediate oxide lay er 
+electrically isolates bottom and top device layers.  Trenches 
+etched by DRIE isolate electrical domains in the to p device 
+layer. The whole process leading to the MEMS resona tor 
+can be summed up as follows. The mechanical device layer 
+is etched before direct bonding of the top device l ayer. 
+Then, the top device layer is etched to define the electrical 
+domains. The release of the 2-layers suspended mass es is 
+the key step of this process. A 2-step release is u sed in order 
+to fully release the suspended mechanical domain fr om the 
+handle wafer without releasing the electrical domai ns from 
+the mechanical one. 
+B.  MEMS assembly and packaging  
+The MEMS die is attached and wired to a ceramic 
+package using standard die attach and wire-bonding 
+techniques compatible with the vacuum package. A si licon 
+interposer is used between the MEMS die and the pac kage 
+in order to reduce the impact of Coefficient of The rmal 
+Expansion (CTE) mismatch between silicon and cerami c on 
+the MEMS die. The ceramic package is a 44-Leaded Ch ip 
+Carrier. U-shaped leads have been chosen to ensure both 
+decoupling and alignment stability of the package w hen 
+assembled on a printed circuit board. The MEMS reso nator 
+has to operate at high and stable vacuum level (< 1 0 -3 mbar) 
+to reduce gas damping. This is achieved at the pack age level 
+using a custom vacuum sealing process of ceramic pa ckage 
+and lid enclosing the MEMS die. The lid has a PaGeL id 
+getter deposited on its inner surface. Prior to the  vacuum 
+sealing, all the assembled parts have been baked at  a 
+temperature below the getter activation temperature  to 
+drastically reduce any outgassing sources. Inside a  chamber 
+at ultra-low vacuum (<10 -5 mbar), the getter is then 
+activated at high temperature just before the eutec tic lid 
+sealing with the package.  
+Fig. 3.   Evolution from a simple SOI to a double device lay er. On right 
+scheme, top device layer has electric domains. Bott om device ensure 
+mechanical integrity.  
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 03,2026 at 13:05:34 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 3 ---
+ 
+ 
+ 
+III.  CHARACTERIZATION RESULTS  
+A.  Mode of control 
+Safran MEMS gyro uses electronics derived from well -
+proven HRG Crystal TM  electronics enabling both whole-
+angle (WA) and Force-To-Rebalance (FTR) modes. WA 
+mode is promising for high performance as it provid es 
+several advantages:  
+• Low amplitude control signals are required which 
+minimizes the impact of transducer gain variations 
+on sensor performances 
+• Low scale factor errors, only dependent on the 
+instabilities of the gyroscopic coupling coefficien t 
+of the two vibrating modes 
+• High dynamic range, with no electronic limitation  
+B.  Allan Variance 
+Fig. 4 shows typical Allan deviation for a gyro at room 
+temperature in static conditions. The signal was re corded for 
+17 hours after warm-up. Gyro ARW is approximately 0 .004 
+°/√h close to the expected thermomechanical noise. Bias 
+instability is approximately 0.007 °/h at integrati on times of 
+about 1000 s. This ARW complies with navigation-gra de 
+application requirements. 
+C.  Angular Random Walk (ARW) under random vibrations 
+Fig. 5 shows the excellent stability of ARW under 
+random vibrations. For the corresponding tests, a c onstant 
+power spectral density (PSD) is applied from 10 Hz to 2 
+kHz. Gyros have been vibrated in and out of the pla ne of the 
+dies. The vibration levels are increased up to 14 g  RMS, 
+corresponding to a PSD of 0.1 g²/Hz. Gyros are moun ted on 
+a suspended IMU. The IMU suspensions have a resonan ce 
+frequency of 500 Hz and a Q-factor of 10.  
+Fig. 4.  Typical Allan deviation at room temperature 
+Fig. 5.  ARW stability under vibrations at room temperature.  Vibrations 
+are applied on the range [10 Hz-2000 Hz] 
+Under such high vibration levels, the ARW does not 
+exceed 50 m°/√h. These levels are outstanding for M EMS 
+and meet the requirements of high-end tactical or m id-end 
+navigation applications. Further performance improv ements 
+under vibrations are expected with slight chip desi gn tuning. 
+An advantage of a fully balanced gyroscope is the r educed 
+sensitivity of the ARW to vibration levels applied at the 
+gyro mode frequency f 0. In Safran MEMS gyro, this 
+characteristic is enhanced by the additional filter ing brought 
+by the low-frequency in-phase mode that acts as a 
+suspension stage. Therefore, ARW sensitivity to vib ration 
+levels applied at gyro frequency remains below 50 m °/√h 
+under harsh environments, typically a PSD of 10 -3 g²/Hz at 
+10 kHz. 
+D.  Thermal bias repeatability 
+Bias has been measured over the -40 °C to 90 °C 
+temperature range under a temperature ramp rate of 
+0.5 °C/min. The data is binned in time intervals of  300 s at 
+which noise is drastically reduced. A first thermal  cycle is 
+used to compute a compensation model. This model is  then 
+applied to correct the raw data obtained during the following 
+cycles to obtain the compensated bias. Fig. 6 shows  the 
+compensated bias of three gyros on a thermal cycle 
+performed immediately after the calibration cycle. The 
+following figure shows a compensated bias better th an 
+0.1 °/h RMS overall temperature range for all three gyros. 
+Fig. 6.  Compensated bias residuals of 3 gyros on a temperat ure cycle ([-
+40 °C; 90 °C], 0.5 °C/min) 
+E.  Bias rectification 
+Bias rectification under random vibrations has been  
+evaluated at room temperature. To perform these 
+measurements, gyros are mounted on a suspended IMU (500 
+Hz, Q=10) and have been vibrated in all directions.  A 
+constant power spectral density (PSD) from 10 Hz to  2 kHz 
+is applied up to 0.1 g²/Hz. The gyro bias has been 
+compensated at room temperature. In Fig. 7, bias 
+rectification is the slope of the integrated rate d uring shaker 
+“ON” phase. It remains below 0.1 °/h up to 14 g RMS  for 
+in-plane vibrations and below 1.1 °/h under 14 g RM S for 
+out of plane vibrations. In the last OFF phase, we notice a 
+slight slope on the integrated rate. It can be expl ained by a 
+slight change in set up temperature. We also can no tice that 
+the noise remains low even during ON phase, which i s 
+coherent with our ARW measurement.  
+ 
+ 
+ 
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 03,2026 at 13:05:34 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 4 ---
+ 
+Fig. 7.  Integrated rate under vibration. Bias rectification  (°/h) is indicated 
+in legend. Vibrations are applied over the [10 Hz; 2000 Hz] range 
+F.  Scale Factor  
+Scale factor error has been measured on three gyros  over 
+the full temperature range [-40 °C; +85 °C] at an a ngular 
+rate of 180 °/s. The same method of calibration is applied on 
+scale factor as on the bias. Fig. 8 shows the compe nsated 
+scale factor error of three gyros during two therma l cycles 
+performed immediately after the calibration cycle.  We 
+measure a scale factor error below 15 ppm RMS over the 
+full temperature range. Fig. 9 shows the scale fact or error 
+measured at different angular rates at room tempera ture. 
+Scale factor error remains below 20 ppm RMS. 
+Fig. 8.  Scale factor error on three gyros at 180 °/s on two  thermal cycles 
+([-40 °C; 85 °C], 0.5 °C/min)  
+Fig. 9.  Scale factor error function of angular rate measure d on two gyros 
+between -180°/s and +180°/s at room temperature 
+ 
+Table 1 summarizes the performances of Safran Si- 
+MEMS gyro. 
+TABLE I.  SAFRAN SI-MEMS GYRO PERFORMANCE RESULTS  
+Performance metric Unit Performance 
+Operating range °/s 1000 
+Bandwidth Hz 250 
+Bias instability at room 
+temperature (Allan Variance) °/h 0.007 
+Static ARW at room temperature 
+(Allan Variance) °/√h 0.004 
+ARW under 14 g RMS 
+[10Hz;2000Hz] °/√h 0.05 
+Compensated bias [-40 °C; 90 °C] °/h RMS 0.1 
+Bias rectification under 9 g RMS 
+[10Hz; 2000Hz] °/h 0.3 
+Scale factor error [-40 °C; 85 °C]  ppm RMS 15 
+Scale factor error vs angular rate  ppm RMS 20 
+IV.  CONCLUSION  
+The performances shown above are ranking Safran gyr o 
+as one of the leading high performance MEMS gyros. The 
+location of electrostatic transducers between the v ibrating 
+masses has led to great performance under vibration s. Noise 
+and bias remain low under random vibrations. Bias e rrors 
+during temperature cycles are under 0.1 °/h RMS. Th ese 
+levels of performance are already suitable for appl ications 
+such as gyrocompassing AHRS, high-end tactical guid ance 
+or high-end hybrid navigation applications even in harsh 
+environments. Taking into account that the suitable  MEMS 
+accelerometer [6] is already available, this gyro d esign 
+opens the gate to navigation related applications w ith a 
+disruptive CSWAP soon. 
+ 
+[1]  EJ Loper, DD Lynch, “Sonic Gyro Fabrication and Testing”, 1977 
+[2]  VF Zhuravlev, “Theoretical principles of a solid st ate wave 
+gyroscope”, Mekhanika Tverdogo Tela, 1993  
+[3]  J-S Macé, A. Jeanroy, J. Auger, F. Fretouly, M. Col in, A. Berthelot, 
+C. Poulain, 5èmes Journées Micro & Nano Technologie s pour 
+l'Inertiel (2019). 
+[4]  G. Remillieux, F. Delhaye. Inertial “Sagem Coriolis  Vibrating gyros: 
+a vision realized” Inertial Sensors and Systems 2014, Karlsruhe. 
+[5]  Fabrice Delhaye “HRG by SAFRAN - The game-changing 
+technology”, 5th IEEE International Symposium on In ertial Sensors 
+and Systems, Lake Como, Italy, 2018 
+[6]  Daniel Marjoux, “Silicon MEMS by Safran - Navigatio n grade 
+accelerometer ready for mass production”, IEEE - DG ON - Inertial 
+Sensors and Systems 2020, Braunschweig, Germany 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 03,2026 at 13:05:34 UTC from IEEE Xplore.  Restrictions apply. 

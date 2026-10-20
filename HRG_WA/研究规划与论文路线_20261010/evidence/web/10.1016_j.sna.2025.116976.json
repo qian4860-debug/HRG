@@ -1,0 +1,722 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2026-05-12T02:12:29Z",
+      "timestamp": 1778551949479,
+      "version": "3.51.4"
+    },
+    "reference-count": 30,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014718",
+        "name": "Innovative Research Group Project of the National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014718",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2022YFB3205000"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022YFB3205000"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U2230206"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U2230206"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "52475586"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52475586"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Sensors and Actuators A: Physical"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.sna.2025.116976",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2025-08-21T01:35:03Z",
+      "timestamp": 1755740103000
+    },
+    "page": "116976",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "special_numbering": "C",
+    "title": [
+      "Virtual precession-enabled phase error mitigation in high-precision hemispherical resonator gyroscopes"
+    ],
+    "prefix": "10.1016",
+    "volume": "395",
+    "author": [
+      {
+        "given": "Yida",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Heng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Feng",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yanhu",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9862-4329",
+        "authenticated-orcid": false,
+        "given": "Huiliang",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8393-0021",
+        "authenticated-orcid": false,
+        "given": "Huikai",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.sna.2025.116976_b1",
+        "series-title": "2018 IEEE International Symposium on Inertial Sensors and Systems",
+        "first-page": "1",
+        "article-title": "HRG by SAFRAN: The game-changing technology",
+        "author": "Delhaye",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b2",
+        "series-title": "2018 IEEE/ION Position, Location and Navigation Symposium",
+        "first-page": "20",
+        "article-title": "Milli-HRG inertial sensor assembly—A reality",
+        "author": "Meyer",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b3",
+        "first-page": "1157",
+        "article-title": "The hemispherical resonator gyro: From wineglass to the planets",
+        "volume": "vol. 134",
+        "author": "Rozelle",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2021.109704",
+        "article-title": "Overview and analysis of MEMS coriolis vibratory ring gyroscope",
+        "volume": "182",
+        "author": "Jia",
+        "year": "2021",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b5",
+        "series-title": "2018 25th Saint Petersburg International Conference on Integrated Navigation Systems",
+        "first-page": "1",
+        "article-title": "SpaceNaute®: HRG technological breakthrough for advanced space launcher inertial reference system",
+        "author": "Delhaye",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b6",
+        "series-title": "2019 DGON Inertial Sensors and Systems",
+        "first-page": "1",
+        "article-title": "HRG crystal™ dual core: Rebooting the INS revolution",
+        "author": "Foloppe",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2020.112181",
+        "article-title": "A digital force-to-rebalance scheme for high-frequency bulk-acoustic-wave micro-gyroscopes",
+        "volume": "313",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Sensors Actuators A: Phys."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b8",
+        "series-title": "2018 25th Saint Petersburg International Conference on Integrated Navigation Systems",
+        "first-page": "1",
+        "article-title": "SpaceNaute®: HRG technological breakthrough for advanced space launcher inertial reference system",
+        "author": "Delhaye",
+        "year": "2018"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.sna.2025.116976_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "5347",
+        "DOI": "10.1109/TIE.2022.3187598",
+        "article-title": "Calibration of coupling errors for scale factor nonlinearity improvement in navigation-grade honeycomb disk resonator gyroscope",
+        "volume": "70",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Trusov, D. Rozelle, G. Atikyan, S. Zotov, B. Simon, A. Shkel, A. Meyer, Non-axisymmetric coriolis vibratory gyroscope with whole angle, force rebalance, and self-calibration, in: Solid-State Sensors, Actuators and Microsystems.–Workshop Hilton Head Island, South Carolina, 2014, pp. 419–422.",
+        "DOI": "10.31438/trf.hh2014.112"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b11",
+        "series-title": "2014 International Symposium on Inertial Sensors and Systems",
+        "first-page": "1",
+        "article-title": "Adaptive mismatch compensation for vibratory gyroscopes",
+        "author": "Zhang",
+        "year": "2014"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.sna.2025.116976_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "595",
+        "DOI": "10.1109/JSEN.2003.817165",
+        "article-title": "Active structural error suppression in MEMS vibratory rate integrating gyroscopes",
+        "volume": "3",
+        "author": "Painter",
+        "year": "2003",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "3533",
+        "DOI": "10.1109/JSEN.2018.2810843",
+        "article-title": "Micromechanical rate integrating gyroscope with angle-dependent bias compensation using a self-precession method",
+        "volume": "18",
+        "author": "Taheri-Tehrani",
+        "year": "2018",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2023.114986",
+        "article-title": "Self-calibration of hemispherical resonator gyroscopes under drastic changes of ambient temperature based on mode reversal",
+        "volume": "366",
+        "author": "Zeng",
+        "year": "2024",
+        "journal-title": "Sensors Actuators A: Phys."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "13945",
+        "DOI": "10.1109/JSEN.2022.3181302",
+        "article-title": "In-run automatic mode-matching of whole-angle micro-hemispherical resonator gyroscope based on standing wave self-precession",
+        "volume": "22",
+        "author": "Ruan",
+        "year": "2022",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.sna.2025.116976_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1109/JMEMS.2004.839325",
+        "article-title": "Electrostatic correction of structural imperfections present in a microring gyroscope",
+        "volume": "14",
+        "author": "Gallacher",
+        "year": "2005",
+        "journal-title": "J. Microelectromech. Syst."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.sna.2025.116976_b17",
+        "first-page": "69",
+        "article-title": "A systematic method for tuning the dynamics of electrostatically actuated vibratory gyros",
+        "volume": "14",
+        "author": "Kim",
+        "year": "2005",
+        "journal-title": "IEEE Trans. Control Syst. Technol."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2025.116402",
+        "article-title": "A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope",
+        "volume": "387",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "Sensors Actuators A: Phys."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b19",
+        "unstructured": "A.R. Parrish, L.M. Lopez, M.H. Asadian, E. Wong, A.M. Shkel, Laser Patterned Self-Aligned Electrodes For Dual-Shell Hemispherical Resonator Gyroscope."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b20",
+        "series-title": "Design and Fabrication of Fused Silica Dual-Shell Resonators for High Frequency Symmetry and High Quality Factor",
+        "author": "López",
+        "year": "2025"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b21",
+        "series-title": "2020 IEEE International Symposium on Inertial Sensors and Systems",
+        "first-page": "1",
+        "article-title": "Electronic gain error compensation for whole-angle mode coriolis vibrating gyroscopes with high q factor",
+        "author": "Zhang",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b22",
+        "doi-asserted-by": "crossref",
+        "first-page": "21342",
+        "DOI": "10.1109/JSEN.2021.3103115",
+        "article-title": "Single-channel control for hemispherical resonator gyro based on time division multiplexing and demultiplexing",
+        "volume": "21",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.1109/JSEN.2023.3332067",
+        "article-title": "Identification and compensation of gain mismatches for whole-angle microhemispherical resonator gyroscope based on modal reversal",
+        "volume": "24",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b24",
+        "doi-asserted-by": "crossref",
+        "first-page": "19228",
+        "DOI": "10.1109/JSEN.2022.3204631",
+        "article-title": "Identification and correction of phase error for whole-angle micro-shell resonator gyroscope",
+        "volume": "22",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2024.115494",
+        "article-title": "A rate hemispherical resonator gyroscope with bias stability of 0.0056°/h with compensation of phase delay",
+        "volume": "375",
+        "author": "Tang",
+        "year": "2024",
+        "journal-title": "Sensors Actuators A: Phys."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b26",
+        "first-page": "1",
+        "article-title": "Self-excitation enabled decoupling, calibration, and compensation of errors for whole-angle hemispherical resonator gyroscope",
+        "volume": "73",
+        "author": "Yan",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b27",
+        "article-title": "Real-time detection and dynamic compensation of mismatch in rate-integrating MEMS gyroscopes using virtual rotation",
+        "author": "Tsukamoto",
+        "year": "2024",
+        "journal-title": "IEEE Sensors Lett."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b28",
+        "article-title": "Virtual precession self calibration method for hemispherical resonator gyro based on sinusoidal injection",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.sna.2025.116976_b29",
+        "unstructured": "D.D. Lynch, Vibratory gyro analysis by the method of averaging, in: Proc. 2nd St. Petersburg Conf. on Gyroscopic Technology and Navigation, 1995, pp. 26–34."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.sna.2025.116976_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "2195",
+        "DOI": "10.1038/s41598-020-80885-y",
+        "article-title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+        "volume": "11",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      }
+    ],
+    "container-title": [
+      "Sensors and Actuators A: Physical"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0924424725007824?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0924424725007824?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2026-05-12T01:27:09Z",
+      "timestamp": 1778549229000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0924424725007824"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 30,
+    "alternative-id": [
+      "S0924424725007824"
+    ],
+    "URL": "https://doi.org/10.1016/j.sna.2025.116976",
+    "relation": {},
+    "ISSN": [
+      "0924-4247"
+    ],
+    "issn-type": [
+      {
+        "value": "0924-4247",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Virtual precession-enabled phase error mitigation in high-precision hemispherical resonator gyroscopes",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Sensors and Actuators A: Physical",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.sna.2025.116976",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "116976"
+  }
+}

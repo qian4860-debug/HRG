@@ -1,0 +1,11 @@
+rtl/hrg_nco_sincos.v
+rtl/hrg_iq_mixer.v
+rtl/hrg_cic_decimator.v
+rtl/hrg_fir5_lpf.v
+rtl/hrg_eqsr_calc.v
+rtl/hrg_demod_frontend.v
+rtl/hrg_cordic_atan2.v
+rtl/hrg_pi_ctrl.v
+rtl/hrg_phase_angle_rate.v
+rtl/hrg_wa_if_top.v
+rtl/hrg_wa_full_top.v

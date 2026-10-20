@@ -1,0 +1,537 @@
+ARCHIVE: 全角陀螺/1-s2.0-S0924424725002080-main.pdf
+TOTAL PAGES: 10
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+Sensors & Actuators: A. Physical 387 (2025) 116402
+Available online 4 March 2025
+0924-4247/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+A drive error identification and compensation method for whole angle
+mode hemispherical resonator gyroscope
+Qi Wang
+ , Weinan Xie*, Boqi Xi, Hanshi Li, Guoxing Yi
+Space Control and Inertial Technology Research Center, Harbin Institute of Technology, Harbin 150001, China
+ARTICLE INFO
+Keywords:
+Hemispherical resonator gyroscope
+Whole angle mode
+Drive error
+Error compensation
+ABSTRACT
+The standing wave of the whole angle mode hemispherical resonator gyroscope is in a free precession state. To
+achievehighaccuracyandawidemeasurementrange,itisnecessarytocompensateforthedriveerrortoreduce
+the control force output error and standing wave drift. In this paper, we propose an error parameter identifi-
+cation and compensation method for the drive error, including gain mismatch, electrode angle alignment error,
+andX/Y channel phase delay. Firstly, we fully elucidate the mechanism of drive error caused by manufacturing
+andX/Ycircuitchannelparametermismatch.Secondly,thedriveerrorismodeledanditsimpactonthestanding
+waveazimuthandeachcontrolloopisanalyzed.Thirdly,wepresentahigh-precisionerroridentificationmethod
+based on the error model that is not affected by the inherent error of the resonator, such as damping anisotropy
+drift. Finally, a series of experiments are carried out to verify the accuracy of the proposed method for error
+parameter identification and the effectiveness of the method for HRG performance enhancement. The bias
+instabilityofthetestedHRGdecreasesby4timesfrom0.0277◦/hto0.0071◦/h,andthescalefactornonlinearity
+decreases by 5 times from 3.92ppm to 0.72ppm.
+1. Introduction
+Compared with the mechanical gyroscope and optical gyroscope,
+hemispherical resonator gyroscope (HRG) has the characteristics of
+simple structure, ultra-high accuracy, miniaturization, and no need for
+post-maintenanceonceinuse[1–5].Meanwhile,thewholeanglemode
+HRG has become the main focus of research nowadays due to its
+advantage of a wide dynamic measurement range [6,7]. The whole
+angle mode HRG error sources are mainly the inherent drift caused by
+the circumferential inhomogeneity of damping and stiffness in the ma-
+terial properties of the resonator [8–11]. As well as non-inherent drift
+due to the detection and drive system error caused by the mismatch of
+the X/Y channel circuit parameters and the limitations of the flat elec-
+trode manufacturing and assembly technology.
+The HRG detection system as the feedback of the gyroscope closed-
+loop control loop, the comprehensive modeling, accurate identifica-
+tion,andcompensationofitserrorhavebeenofgreatconcern[12].The
+drivesystemactsasaforwardchannelofthecontrolloop.Theeffectof
+itserrorontheamplitudeloop,quadratureloop,andphase-lockedloop
+canbesuppressedtosomeextentbytheclosed-loopcharacteristics[13].
+However, unlike the force to rebalance (FTR) mode, the standing wave
+azimuth is in open loop control in the whole angle mode [14,15]. Any
+erroneousprojectionofthecontrolforceintherateloopthatisinphase
+withthemainwaveofvibrationwillresultindriftinthestandingwave.
+In [16], a method for the identification of gain errors as well as
+electrodemisalignmentangleisgiven.Theidentificationmethodneeds
+the drift caused by the damping of the standing wave at special
+azimuthal angles as known. However, under the influence of multiple
+drive errors, the quadrature control force will have component in the
+rate loop which causes the standing wave drift. Therefore, this method
+only has an accurate identification effect for the HRG with a small
+quadrature control force, i.e., a small frequency split. The method also
+lacks the modeling and compensation for the phase error of the X/Y
+drive channels. In [17], the drive electrode misalignment angle is
+modeled,andusetheautomaticgaincontrolbyadjustingtheparametric
+pump voltage to fix the drive voltage. It should be noted that only the
+angle error is considered, and that the gain mismatch and phase error
+havenotbeenmodeledorcompensated.In[18]and[19],theformation
+mechanism of the electrode misalignment angle and its effect on the
+detectionsystemandthedrivesystemintheFTRmodeareelaboratedin
+* Corresponding author.
+E-mailaddresses:wangqi95@stu.hit.edu.cn(Q.Wang),xieweinan@hit.edu.cn(W.Xie),xibq@hit.edu.cn(B.Xi), lihanshi99@stu.hit.edu.cn(H.Li),ygx@hit.edu.
+cn (G. Yi).
+Contents lists available at ScienceDirect
+Sensors and Actuators: A. Physical
+journal homepage: www.journals.elsevier.com/sensors-and-actuators-a-physical
+https://doi.org/10.1016/j.sna.2025.116402
+Received 23 May 2024; Received in revised form 23 February 2025; Accepted 25 February 2025
+--- PAGE 2 ---
+Sensors and Actuators: A. Physical 387 (2025) 116402
+2
+detail. Nevertheless, the method is not applicable to the whole angle
+modeHRGwhosestandingwaveisintheopenloopprecession.In[20],
+thestandingwaveiscontrolledintheX/Yaxes,andtheX/Ydrivegain
+asymmetry is identified by the HRG amplitude control force in both
+axes. Similarly, in [21], the standing wave is driven to rotate continu-
+ously, and the gain mismatch is recognized by observing the output of
+theamplitudecontrolforceasthestandingwavepassesthroughtheX/Y
+axes. Both methods work in whole angle mode but only consider the
+effectofthegainmismatch.In[22],theeffectofthephasedelayerroris
+introduced. When the phase error exists, the quadrature loop control
+forcewillhaveacomponentonthestandingwaverateloop.Theoutput
+ofthephase-lockedloopistreatedasphasedelaycharacterization.The
+delay is eliminated by dynamically adjusting the phase of the output.
+The method lacks the analysis and compensation for the X/Y channel
+mismatch error. Similarly, in [23], and [24], only phase delay is
+analyzed.In[25],anewcontrolschemeisgiven,whichpassestheX/Y
+drive signals through the same analog circuit sequentially. The
+time-sharingschemeseemstoavoidgainandphaseerrorsonthecontrol
+circuit in principle. Unfortunately, this scheme neglects the gain
+mismatchandelectrodeanglealignmenterrorcausedbymanufacturing
+limitations. At the same time, due to the continuous switching of the
+analogswitches,thesignal-to-noiseratio(SNR)ofthecircuitwillalsobe
+reduced.
+In summary, the main problem with previous studies is that each of
+themonlyconsiderspartialdriveerrorsandlacksoverallmodelingand
+analysis. The provided identification and compensation method may
+enhancetheHRGperformancewhentheanalyzederrortermisthemain
+error. If other errors are not modeled, on the one hand, the drive error
+willnotbefullycompensatedandcontinuetoaffecttheHRGaccuracyin
+the drive system. On the other hand, the unmodeled error will be
+mistakenlyidentifiedasoneoftheerrortermsconsidered,andtheHRG
+may obtain a satisfactory performance under the specific conditions of
+compensation experiments. The consistency of performance cannot be
+guaranteedwhentheHRGisinactualworkingconditionwithdynamic
+speedinputsorwhenotheroptimizationalgorithmstoenhancetheHRG
+performance are added, such as damping or nonlinear compensation.
+Therefore,onlybyseparatingthedriveerroritembyitemandmodeling
+comprehensively can we accurately identify the error parameters,
+compensate for the effects of the errors, improve the accuracy of the
+whole angle mode HRG, and satisfy the needs of the HRG in high-
+precision navigation.
+In this paper, we address the problem of modeling, identifying, and
+compensatingtheerrorofthewholeanglemodeHRGdrivesystem.The
+formation mechanism of each error is introduced. The control force
+erroractsonthestandingprimaryandquadraturewavesandtheeffect
+on the HRG drift is derived. A drive error identification and compen-
+sation method that avoids the effect of resonator damping drift is pro-
+posed. Based on actual HRG experiments, the validity and reliability of
+the proposed method are verified.
+2. Whole angle mode HRG detection and drive
+2.1. HRG detection principle
+ThestructureoftheHRGisshowninFig.1.Itismainlycomposedof
+thehemisphericalresonatorandflatplateelectrode.Thediameterofthe
+harmonic oscillator ranges from 20mm to 30mm, which can simulta-
+neously meet the requirements for detectable capacitance and minia-
+turization. The support rod, the inner surface, and the lip edge of the
+hemisphericalresonatorarecoatedwithametalfilmwhichisconnected
+asaconductor.Theflatelectrodesarealsocoatedwithametalfilmlayer
+andareuniformlyetchedintoeightmutuallyisolatedelectrodesectors.
+They form eight capacitors with the resonator to detect and drive
+standing wave. When assembling the resonator with the flat plate
+electrode, the assembly gap is typically between 20 μm and 70 μm.
+The HRG standing wave vibration detection is performed by
+applying a DC high voltage source at the resonator support rod. As the
+resonator vibrates, the change in detection capacitance reflects the vi-
+bration information. Vibration control involves applying a voltage
+signal of the same frequency and phase as the resonator to the corre-
+sponding flat electrodes. The electrostatic control force is generated
+throughcapacitancetomaintaintheresonatorstandingwavetoachieve
+thedesiredvibrationstate.ThewholeanglemodeHRGcontroldiagram
+is shown in Fig. 2.
+The standing wave azimuth θ is defined as the angle between the
+primary wave antinode axis and theX axis electrode. The HRGX/Y vi-
+bration signals can be expressed as follows:
+{
+Dx =GC/V[acos2θcos(ωt+ ψ0)  qsin2θsin(ωt+ ψ0)]
+Dy =GC/V[asin2θcos(ωt+ ψ0)+qcos2θsin(ωt+ ψ0)] (1)
+where Dx and Dy are the vibration signals of the X/Y axes, GC/V is the
+amplification factor forC/V conversion circuits,a andq are the ampli-
+tude of the primary wave and quadrature wave respectively, ω is the
+vibrationangularfrequencyoftheresonator,and ψ0 istheinitialphase
+of the vibration.
+There are some almost constant slow variables in a period of reso-
+nator vibration, such as a, q, and θ. A pair of reference signals Rc and
+Rswith the same vibration frequency as the resonator is required to
+demodulatethesevariables,describingthestateofgyroscopicvibration
+[26].
+{
+Rc =2cos(ωt+ ψ)
+Rs =2sin(ωt+ ψ) (2)
+where ψ is the initial phase of the demodulation signals.
+After multiplying the vibration signal by the reference signals and
+subsequentlyapplyingalow-passfilter,thefirstdemodulationvariables
+of the HRG are as follows [27]:
+Fig. 1. (a) Structure of the HRG. (b) Resonator and flat electrode.
+Q. Wang et al.
+--- PAGE 3 ---
+Sensors and Actuators: A. Physical 387 (2025) 116402
+3
+⎧
+⎪⎪⎪⎪⎨
+⎪⎪⎪⎪⎩
+Cx =LPF(RcDx)=GC/V(acos2θcos δ+qsin2θsin δ)
+Sx =LPF(RsDx)=GC/V(acos2θsin δ  qsin2θcos δ)
+Cy =LPF
+ 
+RcDy
+)
+=GC/V(asin2θcos δ  qcos2θsin δ)
+Sy =LPF
+ 
+RsDy
+)
+=GC/V(asin2θsin δ+qcos2θcos δ)
+(3)
+whereLPF(⋅) is the low-pass filter, δ= ψ  ψ0.
+The second demodulation variables are obtained by combining the
+first demodulation variables:
+⎧
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩
+E=Cx2+Sx2+Cy2+Sy2 =G2C/V a2+q2)
+Q=2
+(
+CxSy  CySx
+)
+=2G2C/Vaq
+S=2
+(
+CxCy+SxSy
+)
+=G2C/V a2  q2)sin4θ
+R=Cx2+Sx2  Cy2  Sy2 =G2C/V a2  q2)cos4θ
+L=2
+(
+CxSx+CySy
+)
+=G2C/V a2  q2)sin2δ
+(4)
+E is the energy of the resonator andQ characterizes the quadrature
+wave vibration amplitude. The normal operating condition of the HRG
+requires constant replenishment of E to maintain the amplitude of the
+mainwaveoftheresonator.Atthesametime,Qissuppressedtozeroto
+reducethequadraturewaveamplitudeq.SandRcanbeusedtosolvefor
+the standing wave azimuthal angle θ as the HRG output as well as to
+provideareferenceforthecontrolforcevectorassignment.Inthephase-
+lockedloop,Lisameasureofthephaseerrorbetweenreferencesignals
+and the primary wave vibration signal.
+2.2. HRG Drive Principle
+The aboveE andQ are closed-loop controlled by the corresponding
+amplitude control force fa and quadrature control force fq generated
+fromthedigitalcontroller.Therateloopcontrolforcefθ implementsthe
+whole angle mode standing wave precession. The controller output
+needs to be modulated by a carrier wave of the same frequency and
+phase as the resonator.
+InFig.3, Fad actsinthedirectionoftheprimarywaveand Fqd actsin
+thedirectionofthequadraturewave,whichisorthogonalinthespatial
+domain. The carrier used by Fad and Fqd is orthogonal in the temporal
+domain. Fθd is in the same direction as Fqd and with the same carrier
+wave as Fad [28]. The modulated control force can be expressed as
+follows:
+⎡
+⎢⎣FadFqd
+Fθd
+⎤
+⎥⎦=
+⎡
+⎢⎢⎣ Re
+[
+fae  i(ωt+ψ)]nad
+Re
+[
+ifqe  i(ωt+ψ)
+]
+nqd
+Re
+[
+fθe  i(ωt+ψ)]nqd
+⎤
+⎥⎥⎦ (5)
+which nad and nqd are the directional vectors of the primary wave and
+the quadrature wave, respectively, Re[⋅] is the real part, andi is imag-
+inary unit.
+The structure of the HRG fixed electrodes precludes the electrodes
+fromcontinuouslytrackingthedirectionsoftheprimaryandquadrature
+standing waves to exert control. Similar to detecting the projection of
+thevibrationsignalontheX/Yelectrodes,thecontrolforceneedstobe
+applied to the standing wave through the X/Y electrodes using vector
+control based on the solved standing wave azimuth. With the analog
+circuitamplified,thecontrolforceassignedtotheX/Yelectrodescanbe
+expressed as follows:
+[
+Fxd
+Fyd
+]
+=Gd
+[
+cos2θ   sin2θ   sin2θ
+sin2θ cos2θ cos2θ
+]⎡
+⎢⎣FadFqd
+Fθd
+⎤
+⎥⎦
+=
+⎡
+⎢⎣GdRe
+[(
+fa cos2θ  ifq sin2θ  fθ sin2θ
+)
+e  i(ωt+ψ)
+]
+nxd
+GdRe
+[(
+fa sin2θ+ifq cos2θ+fθ cos2θ
+)
+e  i(ωt+ψ)
+]
+nyd
+⎤
+⎥⎦ (6)
+whereGd is drive analog amplifier circuit gain, nxd and nyd are the di-
+rection vectors of the idealX/Y drive force.
+3. Drive Error Sources and Formation Mechanisms
+3.1. Gain Mismatch
+As shown in Fig. 4, within the constraints of the assembly process,
+theresonatorandtheflatelectroderotaryaxishaveaninclinationangle
+ϑ.Supposetheanglebetweentheprojectionoftheresonatorrotaryaxis
+on the flat electrode and the X electrode axis is defined as ϑψ. In that
+case,thecircumferentialgapbetweentheresonatorlipedgeandtheflat
+electrode can be expressed as follows:
+dr(θ)=d0  R0 sin ϑcos(θ  ϑψ) (7)
+whered0 istheaveragegapbetweentheresonatorlipedgeandtheflat
+Fig. 2. Whole angle mode HRG control diagram.
+Fig. 3. HRG drive force.
+Q. Wang et al.
+--- PAGE 9 ---
+Sensors and Actuators: A. Physical 387 (2025) 116402
+9
+the drift of damping anisotropy at the speed of 8◦/s, for example. The
+fluctuationcausedbythedriveerrordecreasesfromthepeaktopeakof
+1.118◦/s to 0.00106◦/s with a decrease of 99.91%.
+The residual fluctuation is mainly due to the following reasons.
+Firstly, the control and compensation scheme is realized with digital
+circuits. The number of registers and DAC bits limits the quantization
+accuracyofthecompensation.Theactualcompensationparametersare
+slightly different from the recognized results. Secondly, drive error
+parameter identificationisaffected whenthedetectionchannelerroris
+not fully compensated. Thirdly, insufficiently low circuit noise also af-
+fects identification accuracy.
+Drive error drift is mainly caused by external temperature changes.
+Atthesametemperature,theerrorisstable.Inordertoensurethehigh
+precision performance of the HRG in different environments, the drive
+errorcanbeidentifiedunderdifferenttemperature gradientsaccording
+tothemethodgiveninthispaper.Theerrorparametersattemperatures
+betweenexperimentalsetpointsareobtainedbylinearinterpolation.In
+actualoperation,thecurrentambienttemperaturecanbeobtainedfrom
+the resonant frequency or by integrating a temperature sensor into the
+control circuit. Dynamic compensation of the drive error according to
+the ambient temperature avoids the situation where one-time adjust-
+ments cannot counteract parameter drift.
+Table 2 shows the identification results of drive error parameters at
+different temperatures and the comparison between interpolation and
+identification. The identification experiment in Table 1 is conducted
+under 22℃ condition. To verify the above dynamic compensation
+method,22℃errorparametersareobtainedthroughinterpolation.The
+relativeerrorofinterpolationparametersisabout1%,whichmeetsthe
+compensation requirements for temperature changes.
+Fig.11andFig.12showthetestresultsofAllandeviationandscale
+factor nonlinearity, respectively. After compensation with identifica-
+tion, the bias instability decreases by 4 times from 0.0277◦/h to
+0.0071◦/h, and the scale factor nonlinearity decreases by 5 times from
+3.92ppm to 0.72ppm. The performance of interpolation parameters is
+slightly worse than that of identification parameters, indicating the
+implementation of dynamic compensation. In the initial experiment
+before compensation, the initial azimuth is randomly selected. For the
+subsequent compensated experiments, to ensure consistency, the same
+azimuthasthatintheexperimentbeforecompensationischosen.Since
+the circumferential drift of the standing wave caused by damping
+anisotropy has been compensated, the overall performance of the gy-
+roscope is independent of the azimuth.
+We will continue to improve performance in the following areas.
+Firstly, the drive error parameters may be affected by temperature.
+Modeling and compensation will be carried out under variable tem-
+perature conditions. Secondly, the damping and stiffness of the reso-
+nator vary with ambient temperature. Improving the stability of the
+above parameters will reduce HRG drift over time. Thirdly, the
+manufacturing process is optimized to produce resonators with high-
+quality factor and low frequency split. Small amplitude and quadra-
+turecontrolforceislessdetrimentaltoperformancewhensystemerrors
+are present.
+7. Conclusion
+Anaccurateerrormodelisestablishedbycomprehensivelyanalyzing
+thecausesofdriveerrorinthewholeanglemodeHRG.Acompletesetof
+errorparameteridentificationandcompensationmethodisgiven,which
+can eliminatethedamageofthedriveerrorontheHRGbiasinstability
+and scale factor nonlinearity. This method requires neither a specially
+designed control scheme for parameter identification nor multiple iter-
+ations to improve identification accuracy. It can be completed using a
+conventionalHRGcontrolloop,significantlyimprovingtheefficiencyof
+error compensation. Based on the above advantages, the proposed
+method can be applied to the manufacture of large-scale HRG or other
+Coriolis vibratory gyroscopes.
+CRediT authorship contribution statement
+Yi Guoxing: Investigation. Wang Qi: Writing – original draft. Xie
+Weinan: Software. Xi Boqi: Data curation. Li Hanshi: Methodology.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interestsorpersonalrelationshipsthatcouldhaveappearedtoinfluence
+the work reported in this paper.
+Acknowledgments
+This work was supported by the Heilongjiang post-doctor general
+funding under Grant LBH-Z22134.
+Data Availability
+No data was used for the research described in the article.
+Fig. 11. Allan deviation before and after compensation.
+Fig. 12. Scale factor nonlinearity before and after compensation.
+Q. Wang et al.
+--- PAGE 10 ---
+Sensors and Actuators: A. Physical 387 (2025) 116402
+10
+References
+[1] S.E. Perelyaev, B.P. Bodunov, and S.B. Bodunov, Solid-state wave gyroscope: A
+new-generation inertial sensor, in 2017 24th Saint Petersburg International
+Conference on Integrated Navigation Systems (ICINS), Saint Petersburg, Russia, May
+2017, pp. 1–3. doi: 10.23919/ICINS.2018.8405891.
+[2] F. Delhaye, HRG by SAFRAN: The game-changing technology, in 2018 IEEE
+InternationalSymposiumonInertialSensorsandSystems(INERTIAL),Moltrasio,Mar.
+2018, pp. 1–4. doi: 10.1109/ISISS.2018.8358163.
+[3] A.D.Meyer,D.M.Rozelle,A.A.Trusov,andD.K.Sakaida,milli-HRGinertialsensor
+assembly — A reality, in 2018 IEEE/ION Position, Location and Navigation
+Symposium (PLANS), Monterey, CA, Apr. 2018, pp. 20–23. doi: 10.1109/
+PLANS.2018.8373359.
+[4] X. Tang, et al., A rate hemispherical resonator gyroscope with bias stability of
+0.0056◦/h with compensation of phase delay, Sens. Actuators A: Phys. (2024)
+115494, https://doi.org/10.1016/j.sna.2024.115494.
+[5] L.Zeng,etal.,Self-calibrationofhemisphericalresonatorgyroscopesunderdrastic
+changes of ambient temperature based on mode reversal, Sens. Actuators A: Phys.
+366 (2024) 114986, https://doi.org/10.1016/j.sna.2023.114986.
+[6] J. Jia, et al., Overview and analysis of MEMS Coriolis vibratory ring gyroscope,
+Measurement 182 (2021) 109704, https://doi.org/10.1016/j.
+measurement.2021.109704.
+[7] S.E.Perelyaev,Currentstateofwavesolid-stategyroscopes.developmentprospects
+in applied gyroscopy. 2023 30th Saint Petersburg International Conference on
+IntegratedNavigationSystems(ICINS),IEEE,SaintPetersburg,RussianFederation,
+2023, pp. 1–4, https://doi.org/10.23919/ICINS51816.2023.10168310.
+[8] W. Zhao, H. Yang, F. Liu, Y. Su, C. Li, High sensitivity rate-integrating
+hemispherical resonator gyroscope with dead area compensation for damping
+asymmetry, Sci. Rep. 11 (1) (2021) 2195, https://doi.org/10.1038/s41598-020-
+80885-y.
+[9] Z. Wei, G. Yi, Y. Huo, B. Xi, Y. Zhao, High-precision synchronous test method of
+vibration performance parameters for fused quartz hemispherical resonator,
+Measurement 185 (2021) 109924, https://doi.org/10.1016/j.
+measurement.2021.109924.
+[10] Y. Huo,Z.Wei,S.Ren,G.Yi,Highprecisionmassbalancingmethodfor thefourth
+harmonic of mass defect of fused quartz hemispherical resonator based on ion
+beam etching process, IEEE Trans. Ind. Electron. 70 (9) (2023) 9601–9613,
+https://doi.org/10.1109/TIE.2022.3212381.
+[11] Y. Huo, Z. Wang, S. Ren, Z. Wei, G. Yi, C. Wang, Standing wave drift of
+hemispherical resonator with quality factor non-uniformity under a ring electrode
+excitation, Chin. J. Aeronaut. 35 (1) (2022) 160–172, https://doi.org/10.1016/j.
+cja.2021.05.012.
+[12] Q. Wang, W. Xie, B. Xi, Y. Sun, G. Yi, Rate integrating hemispherical resonator
+gyroscope detection error analysis and compensation, IEEE Sens. J. 23 (7) (2023)
+7068–7076, https://doi.org/10.1109/JSEN.2023.3246044.
+[13] J.Sun,etal.,Ultra-fastcharacterizationofdetectionelectrodeerrorsunderwhole-
+anglemodein10 seconds.2022IEEE InternationalSymposiumonInertial Sensors
+and Systems (INERTIAL), IEEE, Avignon, France, 2022, pp. 1–4, https://doi.org/
+10.1109/INERTIAL53425.2022.9787737.
+[14] X. Ding, Z. Ruan, Y. Pu, H. Zhang, H. Li, L. Zhao, Bias modulation of force-to-
+rebalancedmicrohemisphericalresonatorgyroscopebasedonmode-rotation,IEEE
+Sens. J. 22 (16) (2022) 15802–15816, https://doi.org/10.1109/
+JSEN.2022.3188287.
+[15] Y.Sun,Z.Wei,G.Yi,B.Xi,Arateintegratinghemisphericalresonantgyroangular
+rate output method based on frequency demodulation. in 2023 2nd International
+Symposium on Sensor Technology and Control (ISSTC), IEEE, Hangzhou, China,
+2023, pp. 119–123, https://doi.org/10.1109/ISSTC59603.2023.10281165.
+[16] J. Sun, et al., Investigation of angle drift induced by actuation electrode errors for
+whole-angle micro-shell resonator gyroscope, IEEE Sens. J. 22 (4) (2022)
+3105–3112, https://doi.org/10.1109/JSEN.2022.3140799.
+[17] X.Zheng,etal.,Identificationandsuppressionofdrivingforcemisalignmentangle
+foraMEMSgyroscopeusingparametricexcitation,J.Micromech.Microeng.33(5)
+(2023) 055002, https://doi.org/10.1088/1361-6439/acbfc6.
+[18] P.Wang,etal.,Calibrationandcompensationofthemisalignment angleerrors for
+the disk resonator gyroscopes. 2020 IEEE International Symposium on Inertial
+Sensors and Systems (INERTIAL), IEEE, Hiroshima, Japan, 2020, pp. 1–3, https://
+doi.org/10.1109/INERTIAL48129.2020.9090094.
+[19] Z. Ruan, X. Ding, Y. Gao, Z. Qin, H. Li, Analysis and compensation of bias drift of
+force-to-rebalanced micro-hemispherical resonator gyroscope caused by assembly
+eccentricity error, J. Micro Syst. 32 (1) (2023) 16–28, https://doi.org/10.1109/
+JMEMS.2022.3228268.
+[20] D. Vatanparvar, A.M. Shkel, Identification of gain mismatches in control
+electronics of rate integrating CVGs. 2021 IEEE International Symposium on
+Inertial Sensors and Systems (INERTIAL), IEEE, Kailua-Kona, HI, USA, 2021,
+pp. 1–4, https://doi.org/10.1109/INERTIAL51137.2021.9430479.
+[21] Q. Fan, Y. Zhou, M. Liu, C. Lin, Y. Su, Rate-integration gyroscope (RIG) with gain
+self calibration, IEEE Sens. J. 21 (3) (2021) 3241–3249, https://doi.org/10.1109/
+JSEN.2020.3027739.
+[22] J. Sun, et al., Identification and correction of phase error for whole-angle micro-
+shellresonator gyroscope,IEEE Sens.J.22(20)(2022) 19228–19236, https://doi.
+org/10.1109/JSEN.2022.3204631.
+[23] R.Xu,Z.Gao,F.Nan,Y.Zhang,Single-channelcontrolforhemisphericalresonator
+gyrobasedontimedivisionmultiplexinganddemultiplexing,IEEESens.J.21(19)
+(2021) 21342–21348, https://doi.org/10.1109/JSEN.2021.3103115.
+[24] X. Tang, et al., Investigation on influences of phase delay on performance of
+resonator gyroscopes. 2022 DGON Inertial Sensors and Systems (ISS), IEEE,
+Braunschweig, Germany, 2022, pp. 1–16, https://doi.org/10.1109/
+ISS55898.2022.9926385.
+[25] F.Bu,S.Guo,M.Cheng,F.Zheng,D.Xu,H.Zhao, “Effectofcircuitphasedelayon
+bias stability of MEMS gyroscope under force rebalance detection and self-
+compensation method,”, J. Micromech. Microeng. 29 (9) (2019) 095002 https://
+doi.org/10.1088/1361-6439/ab27e8.
+[26] C. Li, et al., An FPGA-Based Interface System for High-Frequency Bulk-Acoustic-
+Wave Microgyroscopes With In-Run Automatic Mode-Matching, IEEE Trans.
+Instrum. Meas. 69 (4) (2020) 1783–1793, https://doi.org/10.1109/
+TIM.2019.2914295.
+[27] V. Ragot, G. Remillieux, A new control mode greatly improving performance of
+axisymmetrical vibrating gyroscopes, Gyroscopy Navig. 2 (4) (2011) 229–238,
+https://doi.org/10.1134/S2075108711040134.
+[28] P. Taheri-Tehrani, A.D. Challoner, D.A. Horsley, Micromechanical rate integrating
+gyroscope with angle-dependent bias compensation using a self-precession
+method, IEEE Sens. J. 18 (9) (2018) 3533–3543, https://doi.org/10.1109/
+JSEN.2018.2810843.
+[29] L. Yuan, Q. Zeng, C. Wang, S. Ren, Z. Wei, Y. Huo, High precision assembly and
+welding method for flat-electrode hemispherical resonator gyro, IEEE Trans.
+Instrum. Meas. 72 (2023) 1–10, https://doi.org/10.1109/TIM.2023.3295462.
+[30] D.D. Lynch. “Vibratory gyro analysis by the method of averaging”, Proceedings of
+the Second Saint Petersburg International Conference on Integrated Navigation
+Systems, Sr. Petersburg, Russia, 1995, pp.26-34.
+Qi WangreceivedtheB.S.degreeinautomationfromtheHarbinEngineeringUniversity,
+Harbin, China, in 2017, and the M.S. degree in control engineering from the Harbin
+InstituteofTechnology,Harbin,China,in2020.HeiscurrentlypursuingthePh.D.degree
+in the School of Aeronautics, Harbin Institute of Technology, and his research interests
+include the hemispherical resonator gyroscope.
+Weinan XiereceivedtheB.S.,M.S.,andPh.D.degreesincontrolscienceandengineering
+from the Harbin Institute of Technology, Harbin, China, in 2002, 2004, and 2008,
+respectively. He is an Associate Professor at Space Control and Inertial Technology
+ResearchCenter,HarbinInstituteofTechnology,andhiscurrentresearchinterestsinclude
+the Coriolis vibration gyroscope.
+Boqi XireceivedtheB.S.,M.S.,andPh.D.degreesincontrolscienceandengineeringfrom
+theHarbinInstituteofTechnology,Harbin,China,in2000,2005,and2010,respectively.
+He is an Associate Professor at Space Control and Inertial Technology Research Center,
+Harbin Institute of Technology, and his current research interests include the Coriolis
+vibration gyroscope.
+Hanshi Li received the B.S. degree in control science and engineering from the Harbin
+InstituteofTechnology,Harbin,China,in2022.HeiscurrentlypursuingthePh.D.degree
+in the School of Aeronautics, Harbin Institute of Technology, and his research interests
+include the hemispherical resonator gyroscope.
+Guoxing Yireceivedthe B.S.,M.S.,andPh.D. degreesin controlscienceandengineering
+from the Harbin Institute of Technology, Harbin, China, in 1997, 1999, and 2005,
+respectively. He is a Professor at SpaceControl and Inertial Technology ResearchCenter,
+Harbin Institute of Technology, and his current research interests include inertial
+technology.
+Q. Wang et al.

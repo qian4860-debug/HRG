@@ -1,0 +1,417 @@
+ARCHIVE: 全角陀螺/Vibrational_Error_Model_Update_for_a_Hemispherical_Resonator_Gyroscope.pdf
+TOTAL PAGES: 3
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+Vibrational Error Model Update 
+for a Hemispherical Resonator Gyroscope
+R.V. Ermakov 
+Yuri Gagarin State Technical University of Saratov, 
+Saratov, Russia 
+roma-ermakov@yandex.ru 
+D.V. Kondratov 
+Yuri Gagarin State Technical University of Saratov, 
+Institute of Precise Mechanics and Control of the Russian 
+Academy of Sciences,  
+Saratov, Russia 
+kondratovdv@yandex.ru 
+A.A. L’vov 
+Yuri Gagarin State Technical University of Saratov, 
+Saratov, Russia 
+alvova@mail.ru 
+D.Yu. Livshits,  
+Yuri Gagarin State Technical University of Saratov, 
+Saratov, Russia 
+d.livshits@kbpa.ru 
+ 
+ 
+ 
+Abstract—The problem statement for operation of a 
+hemispherical resonator gyroscope under the impact of 
+conventional vibration acceleration on the device housing in a 
+non-axially symmetric formulation is considered. The necessity to 
+take into account the non -axially symmetry of the gyroscope is 
+shown, since it is the main source of the vibration error. The 
+three-dimensional problem formulation is presented, which 
+allows one to carry out  more sophisticated treatment of the 
+effects caused by vibration in different planes. 
+Keywords—hemispherical resonator gyroscope, vibration error, 
+general error model. 
+I. INTRODUCTION 
+The experimental research aimed at creating a 
+hemispherical resonator gyroscope (HRG) began in the sixties 
+of the last century;  but they are still of practical interest and 
+continue to be relevant due to the great importance of HRG 
+[1], [2]. A generally accepted HRG error model still does not 
+exist [3]–[6], despite the fact that an attempt has already been 
+made in [7] to develop an adequate error model. 
+The main operation principle of the HRG consists in using 
+the inertial properties of the standing wave, which is excited in 
+an elastic axisymmetric shell (resonator). 
+Considerable interest in technology to HRG is due to the 
+fact that  it has a set of remarkable properties, namely: 
+comparative simplicity of design, small dimensions, low 
+power consumption, and potentially high accuracy [3]–[7]. 
+In addition, HRG has a number of advantages traditionally 
+noted in the specialized literature: 
+ High accuracy of HRG, although somewhat less than 
+that of conventional gyroscopes: with a rotating 
+disk/rotor, fiber -optic gyroscopes, laser gyroscopes, 
+and some other types of gyroscopes; 
+ Sufficiently wide dynamic range of measurements; 
+ Low sensitivity to linear overloads; 
+ Resistance to mechanical shock and radiation; 
+ Weak influence of temperature on the accuracy of the 
+device; 
+ Low power consumption; 
+ High reliability, including the ability to work after 
+short-term power outages; 
+ Relatively short indication setting time. 
+Nevertheless, the HRG has a number of disadvantages, 
+namely: 
+ Decrease in the resonator Q-factor due to metallization 
+of the outer and inner surfaces; 
+ Possibility of current leakage, leading to additional 
+drift of the gyroscope; 
+ The relatively small size of the working gaps between 
+the surfaces of the upper base, the resonator, and the 
+lower base significantly complicates the design 
+features of the system necessary to maintain a high 
+vacuum in the device; 
+ High demands on the precision of manufacturing the 
+resonator and the quality of the material, due to the 
+sensitivity of the HRG to vibration. 
+In modern literature, one can find publications on HRG, but 
+their number is very small. In these publications, the following 
+main areas of research can be distinguished. One group of authors 
+studies the mechanism of excitation of wave effects in a resonator 
+[8]–[10]. Other researchers consider methods used to extract 
+information from the processes in the resonator itself [11], [12]. 
+At the same time, there are practically no works devoted to the 
+general model of HRG errors, apart from [7]. The authors of the 
+presented work aim to build such an error model that would take 
+into account the influence of various external inter ferences, in 
+particular, vibrations. 
+In the literature, as a rule, qualitative estimates of the HRG 
+errors are given when exposed to vibration. To obtain qualitative 
+estimates, most authors consider a two-dimensional (flat) model 
+of a HRG resonator in the form of an elastic ring. At the same 
+time, the issues of error model building for a considered 
+gyroscope, which can take into account the influence of an 
+external vibration source, remainson the agenda. 
+II. PROPOSED MATHEMATICAL MODEL 
+Consider the model of a hemispherical resonator shown in 
+Fig. 1, similar to the model described in [13].  
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 11,2026 at 15:09:13 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 2 ---
+ 
+Fig. 1. Coordinate system for a hemispherical resonator 
+The mathematical model of HRG in terms of moments 
+developed in [13] is used: 
+ 
+,)(
+;)(
+)(
+02
+2
+0
+2
+21
+12
+2
+2
+2
+22
+1
+2
+02
+2
+0
+2
+12
+122
+02
+2
+0
+221
+12
+1
+sin
+cot2
+sin
+1
+cot2
+sin
+1
+sin
+1cot
+r
+t
+temZR
+MMMMM
+r
+t
+temYRMMM
+r
+t
+temXRMMMM
+z
+y
+x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ (1) 
+where M1, M2 are the bending moments; M12, M21are the spin 
+moments; Θ and φ are spherical coordinates;  ex(t), e y(t), ez(t) 
+are the components of bulk vibration acceleration;  X, Y, Z  are 
+the inertia forces: 
+ 
+   
+    
+   ,
+;
+;
+
+
+
+sin2-
+cossin2-
+cos2-
+ttt
+tttt
+ttt
+whZ
+uwvhY
+uhX
+  
+ρ(φ) is the resonator cover density; Ω is the angular velocity of 
+resonator cover rotation; u, v, w are the local coordinates; 
+   
+
+dWVUhRm sin)(
+0
+0
+2222
+0 ; 
+U, V, W  are the Rayleigh functions for spherical resonator 
+cover. 
+Basing on the model (1) and some assumptions concerning 
+the vibration acceleration components of the gyroscope 
+support frame the standing wave precession coefficient in the 
+resonator was determined. They can be represented as: 
+ 
+ 
+
+
+
+
+
+
+0
+0
+0
+222
+0
+sin
+sinsincos
+dWVU
+dWUV
+BF  (2) 
+  100 UUU  ;   100 VVV  ;   100 WWW  , 
+where U, V, W  represent the expressions for spherical 
+resonator cover, being the functions of the angular frequency 
+0  of the base vibration;       000 ,,  ooo WVU  are the 
+functions defining the effect of translation al vibration 
+acceleration; 111 ,, WVU  are the functions defining the standing 
+wave behavior without taking into consideration the base 
+vibration.  
+To study wave phenomena in HRG, it is necessary to know 
+the dependence of the precession coefficien t (2) on the 
+uncertainties caused by the HRG vibration error. Th erefore, 
+the inclusion of the expression for the uncertainty caused by 
+the vibration error in the general error model is mandatory.  
+The transition to the system of equations that define this 
+dependence can be carried out by applying the standard 
+procedure for non-dimensionalization the variables included in 
+(1) and (2), when a certain wavelength assumed to be the 
+reference one is used to normalize them. 
+Based on the systems approach adopted to study the errors 
+of high -accuracy angular velocity and acceleration meters 
+[14]-[17] a general mode l of HRG errors has been obtained, 
+which can be represented as: 
+     
+       
+     
+         ,ˆ,,,,
+,
+;
+;,,
+
+
+
+
+tttt
+t
+tt
+G
+I
+T
+I
+A
+I
+B
+I
+d
+I
+E
+II
+d
+S
+D
+S
+E
+SS
+IS
+ (3) 
+where   S  are the uncertainties arising at the 
+manufacturing stage of a spherical resonator (system errors);  
+ tI ,  are the uncertainties that arise after the resonator 
+installation (including those during its operation);   ES  is 
+the uncertainty caused by the eccentric ity of the resonator 
+sphere at the manufacturing stage;   dS  is the uncertainty 
+arising due to the non -homogeneity of the spherical resonator 
+material at the manufacturing stage,   DS  are the 
+uncertainties associated wit h the manufacturing and 
+calibration errors of devices for reading information from the 
+spherical resonator;   EI  is the uncertainty caused by the 
+eccentricity of the spherical resonator after installation, 
+  dI  is the uncertainty due to deformations and damages 
+occurring after installation,  tBI ,  is the uncertainty  
+appearing due to external vibration impact;   tTI ,  are the 
+temperature uncertainties,  tAI ,  are the uncertainties 
+associated with information processing algorithms;  tGI ,  
+is the uncertainty of verification tools;   ˆ  is the estimate 
+of the HRG constant error component obtained at the HRG 
+calibration stage. 
+The proposed error model, first of all, takes into account 
+the uncertainties that arise at the HRG  manufacturing stage. It 
+is assumed that this model takes into account all the 
+uncertainties associated with the deterioration of the HRG 
+accuracy due to the complexity o f its production, installation 
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 11,2026 at 15:09:13 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 3 ---
+and operation. Of course, further studies of each component of 
+the general error model are required in order to obtain 
+estimates of the influence of these factors on the accuracy of 
+the developed model. 
+III. CONCLUSION 
+The main result of this work is the developed mathematical 
+model of the hemispherical resonator gyroscope, which can be 
+used as a basis for verifying the compliance of a particular 
+model of an HRG of this type with experimental data. In 
+addition, the proposed model makes it possible to evaluate the 
+influence of vibrations on the readings of a measuring device 
+based on HRG at the stage of its design and development, 
+using information on the vibrations level at the target object 
+where this device will be operated. 
+The paper considers the main ideas of a vibration error 
+model development for HRG. The main result of the work is 
+the obtained total error model (1) -(3) that takes into account 
+the main source of uncertainties, namely, the vibration error. It 
+should be noted that each component of the general error 
+model requires additional theoretical and experimental studies. 
+REFERENCES 
+[1] L.Ya. Kalihman, D.M. Kalihman, A.V. Polushkin, Yu.V. Sadomtsev, R.V. 
+Ermakov, S.F. Nakhov “Technique for Arranging of Miniature Paks of High 
+Performance Rate Gyros for Space Vehicles on the Basis of Floating Rate – 
+of Turn Gyros and Modern Element Base”. 14th St.Petersburg Int. Conf. on 
+Integrated Navigation Systems, CSRI Elektropribor, 2017, pp. 33‒40. 
+[2] L.Ya. Kalihman, D.M. Kalihman, A.V. Polushkin, Yu.V. Sadomtsev, R.V. 
+Ermakov, S.F. Nakhov, V.Yu. Chebotarevskiy “Microprocessors in Circuit 
+Design of High-precision Quartz Pendulous Accelerometers”. Jubilee 14th 
+St. Petersburg Int. Conf. on Integrated Navigation Systems , CSRI 
+Elektropribor, 2017, pp. 179‒182. 
+[3] V.F. Zhuravlyov, D.M. Klimov Volnovoy tverdotel'ny'i giroskop 
+[Hemispherical resonator gyroscope]. М.: Nauka, 1985. (in Russian). 
+[4] V.A. Matveev, B.S. Lunin, M.A. Besarab Navigatsionny'e sistems na 
+volnovy'kh tverdotel'ny'kh guroskopakh [Navigation systems based on 
+hemispherical resonator gyroscopes], М.: Fismatlit, 2008. 240 s. (in Russian). 
+[5] B.S. Lunin, V.A. Matveev, M.A. Besarab Volnovoy tverdotel'ny'i giroskop. 
+Teoriya i tekhnologii [Hemispher ical resonator gyroscpe. Theory and 
+technologies]. М.: Radiotehnika, 2014. 176 s. (in Russian). 
+[6] A.V. Trebukhov, K.A. Bakhonin, S.P. Redkin, A.V. Nekrasov Razrabotka 
+BINS na osnovetverdotel'nogo volnovogo giroskopa [Strapdown INS design 
+basing on hemispherical resonator gyroscope] Proc. oftheconf. "Navigation, 
+hydrography and Oceanology, St. Petersburg, 2011. 
+[7] R.R. Ragan, D.D. Lynch “Inertial technology for the future, Part 
+X: Hemispherical resonator gyro”. IEEE Trans. Aerosp. Electron. Syst., vol. 
+AES-20, July. pp. 432–433, (1984). 
+[8] D.D. Lynch “Vibration-included drift in the hemispherical resonator gyro” 
+Proc. of the Annual Meeting of the Institute of Navigation, 23-25 June, 1987. 
+Dayton, Ohio. Pp. 34–37.  
+[9] I.V. Merkuriev, V.V. Polpalkov Dinamika m icromehanicheskogo i 
+volnovogo tverdotel'nogo giroskopov [Dynamics of micromechanical and 
+hemesperical resonator gyroscopes]. М.: Fizmatlit, 2009. 228 s. ISBN 978-5-
+9221-1125-6 (in Russian). 
+[10] Yu.G. Martynenko, I.V. Merkuriev, V.V. Podpalkov “Control of non-linear 
+oscilations of vibration ring microgyroscope”. Bulletine of RAS. SSM, 2008, 
+No. 3, pp.77‒89. 
+[11] R.V. Ermakov, D.V. Kondratov, A.A. L'vov, E.N. Skripal “Features of the 
+application of micromechanical inertial sensors in operation on helicopter 
+type aircraft”. Proc. of Int. Symp. "Reliability and Quality" , Penza, 2017, 
+Vol. 2, p. 122–124. (in Russian). 
+[12] R.V. Ermakov, A.N. Popov, E.N. Skripal, D.M. Kalihman, D.V. Kondratov, 
+A.A. L'vov “Methods for Testing and Test Results of Inertial Senso rs 
+Intended for Operation in Helicopter-Type Aircraft”. Proc. of the 24-th St. 
+Petersburg Int. Conf. on Integrated Navigation Systems, CSRI Elektropribor, 
+2017, pp. 335–338. 
+[13] R.V. Ermakov, E.N. Skripal, D.V. Kondratov, A.A. L'vov, A.A. Seranova, 
+D.E. Gutsevich “Development of a vibrational error model of a 
+hemispherical resonator gyroscope”. Proc. of the 25-th Anniv. St. Petersburg 
+Int. Conf. on Integrated Navigation Systems , CSRI Elektropribor, 2018. 
+pp. 285‒287. 
+[14] R.V. Ermakov, D.M. Kalihman, D.V. Kondratov, A.A. Lvov. “Investigation 
+of the distribution of errors laws for sensors included in the test benches for 
+setting angular velocities” Mathematical modeling, computer and full-scale 
+experiment in the natural sciences. 2016. № 3. pp. 9‒16. 
+[15] R.V. Ermakov, A.A. Lvov “Error analysis of an angle measuring stand based 
+on an optical non -contact angle sensor.” Proc. of the IV Int . Sci. Conf. 
+“Problems of control, information processing and transmission”. Saratov, 
+Wright-Expo, 2015. Vol. 2. pp. 116‒123. (in Russian). 
+[16] A.A. Severov, A.A. L’vov “Algorithm for Estimating the Parameters of 
+Mathematical Models of Linear and Nonlinear Systems ”. Bulletin of the 
+Saratov State Technical University , 2009.  Vol. 4. No.2 (43).  pp. 
+77‒81.(in Russian). 
+[17] R.V. Ermakov, A.A. Seranova, A.A. Lvov, D.M. Kalihman, “Method for 
+evaluating angular velocity of a precision rotary table”. Caspian J.: Control 
+and High Technologies, 2019. No. 4. pp. 144–164. (in Russian). 
+ 
+ 
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 11,2026 at 15:09:13 UTC from IEEE Xplore.  Restrictions apply. 

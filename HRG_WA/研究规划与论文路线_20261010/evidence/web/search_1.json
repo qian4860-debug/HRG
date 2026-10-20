@@ -1,0 +1,5629 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 5686,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2026-09-07T19:09:47Z",
+          "timestamp": 1788808187381,
+          "version": "build-2803163510"
+        },
+        "reference-count": 23,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "17",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2026-09-01T00:00:00Z",
+              "timestamp": 1788220800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "62573149"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "62573149"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "Hubei Key Laboratory of Aerospace Intelligent Control Technology",
+            "award": [
+              "2025004"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "2025004"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Sensors J."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/jsen.2026.3710725",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T20:06:44Z",
+          "timestamp": 1783973204000
+        },
+        "page": "25475-25482",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "The Electrode Nonlinearity Error Suppression of Hemispherical Resonator Gyro Under Whole-Angle Mode"
+        ],
+        "prefix": "10.1109",
+        "volume": "26",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-4744-0675",
+            "authenticated-orcid": false,
+            "given": "Gang",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Harbin Engineering University",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kai",
+            "family": "Qin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Engineering University",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinye",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Engineering University",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Suning",
+            "family": "An",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Engineering University",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-6912-7558",
+            "authenticated-orcid": false,
+            "given": "Xiang",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Engineering University",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qifan",
+            "family": "Tong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua University",
+                "place": [
+                  "Beijing, China"
+                ],
+                "department": [
+                  "Department of Precision Instrument"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8555-3370",
+            "authenticated-orcid": false,
+            "given": "Zhongxing",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Engineering University",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2018.8358163"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/iss46986.2019.8943660"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2016.7435531"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2016.7435532"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2018.2810843"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2017.7935661"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JMEMS.2020.3039241"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/INERTIAL51137.2021.9430479"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2021.3103115"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2024.3451567"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2024.3428603"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2024.116043"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIE.2019.2939971"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2020.3044148"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41378-021-00306-6"
+          },
+          {
+            "issue": "5",
+            "key": "ref16",
+            "first-page": "683",
+            "article-title": "Whole-angle hemispherical resonator gyroscope drift model caused by nonlinear detection",
+            "volume": "30",
+            "author": "Xu",
+            "year": "2022",
+            "journal-title": "J. Chin. Inertial Technol."
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2022.3210723"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2023.3346525"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2024.114945"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41378-024-00818-x"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/act14020068"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAC.1978.1101785"
+          },
+          {
+            "key": "ref23",
+            "first-page": "26",
+            "article-title": "Vibratory gyro analysis by the method of averaging",
+            "volume-title": "Proc. Int. Conf. Gyroscopic Technol. Navigat.",
+            "author": "Lynch"
+          }
+        ],
+        "container-title": [
+          "IEEE Sensors Journal"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/7361/11676268/11606273.pdf?arnumber=11606273",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2026-09-07T19:03:47Z",
+          "timestamp": 1788807827000
+        },
+        "score": 74.03675,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11606273/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "references-count": 23,
+        "journal-issue": {
+          "issue": "17"
+        },
+        "URL": "https://doi.org/10.1109/jsen.2026.3710725",
+        "ISSN": [
+          "1530-437X",
+          "1558-1748",
+          "2379-9153"
+        ],
+        "issn-type": [
+          {
+            "value": "1530-437X",
+            "type": "print"
+          },
+          {
+            "value": "1558-1748",
+            "type": "electronic"
+          },
+          {
+            "value": "2379-9153",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2026-10-08T17:25:25Z",
+          "timestamp": 1791480325332,
+          "version": "4.3.4"
+        },
+        "reference-count": 36,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2025-01-01T00:00:00Z",
+              "timestamp": 1735689600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2025-01-01T00:00:00Z",
+              "timestamp": 1735689600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2025-01-01T00:00:00Z",
+              "timestamp": 1735689600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Touyan Innovation Program of Heilongjiang Province, China"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Trans. Instrum. Meas."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.1109/tim.2025.3547107",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              3
+            ]
+          ],
+          "date-time": "2025-03-03T13:30:15Z",
+          "timestamp": 1741008615000
+        },
+        "page": "1-12",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "Analysis, Identification, and Compensation of Damping Asymmetry for Whole-Angle Mode Hemispherical Resonator Gyro"
+        ],
+        "prefix": "10.1109",
+        "volume": "74",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-4465-0673",
+            "authenticated-orcid": false,
+            "given": "Ronghao",
+            "family": "Xie",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Research Center of Space Control and Inertial Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9534-6711",
+            "authenticated-orcid": false,
+            "given": "Changhong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Center of Space Control and Inertial Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-2488-8547",
+            "authenticated-orcid": false,
+            "given": "Baohua",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Center of Space Control and Inertial Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-8588-7882",
+            "authenticated-orcid": false,
+            "given": "Zhen",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Center of Space Control and Inertial Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8992-4936",
+            "authenticated-orcid": false,
+            "given": "Lishan",
+            "family": "Yuan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Center of Space Control and Inertial Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5648-3668",
+            "authenticated-orcid": false,
+            "given": "Youhuan",
+            "family": "Ning",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Center of Space Control and Inertial Technology, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2023.3277998"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2014.08.030"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MIM.2012.6174574"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2022.112064"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2018.8358163"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/InertialSensors.2014.7049409"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1134/s207510871702002x"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cja.2020.04.011"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijmecsci.2024.109413"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IAEAC.2017.8054399"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/PLANS.2018.8373357"
+          },
+          {
+            "key": "ref12",
+            "first-page": "1157",
+            "article-title": "The hemispherical resonator gyro: From wineglass to the planets",
+            "volume-title": "Proc. 19th AAS/AIAA Space Flight Mech. Meeting",
+            "author": "Rozelle"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2016.7435532"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2021.3091459"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cja.2021.05.012"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2023.3295462"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIE.2022.3212381"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2021.109924"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sna.2017.12.024"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2022.111426"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2012.2200818"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2022.3181302"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2020.3027739"
+          },
+          {
+            "issue": "4",
+            "key": "ref24",
+            "doi-asserted-by": "crossref",
+            "first-page": "229",
+            "DOI": "10.1134/S2075108711040134",
+            "article-title": "A new control mode greatly improving performance of axisymmetrical vibrating gyroscopes",
+            "volume": "2",
+            "author": "Ragot",
+            "year": "2011",
+            "journal-title": "Gyroscopy Navig."
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SENSORS43011.2019.8956688"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TMAG.2012.2197183"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/SENSOR.2009.5285418"
+          },
+          {
+            "issue": "3",
+            "key": "ref28",
+            "doi-asserted-by": "crossref",
+            "first-page": "230",
+            "DOI": "10.1103/PhysRev.52.230",
+            "article-title": "Internal friction in solids. I. Theory of internal friction in reeds",
+            "volume": "52",
+            "author": "Zener",
+            "year": "1937",
+            "journal-title": "Phys. Rev."
+          },
+          {
+            "issue": "1",
+            "key": "ref29",
+            "doi-asserted-by": "crossref",
+            "first-page": "266",
+            "DOI": "10.1016/j.jsv.2005.09.037",
+            "article-title": "Thermoelastic damping of the in-plane vibration of thin silicon rings",
+            "volume": "293",
+            "author": "Wong",
+            "year": "2006",
+            "journal-title": "J. Sound Vib."
+          },
+          {
+            "issue": "2",
+            "key": "ref30",
+            "doi-asserted-by": "crossref",
+            "first-page": "67",
+            "DOI": "10.1134/S2075108714020047",
+            "article-title": "HRG and marine applications",
+            "volume": "5",
+            "author": "Jeanroy",
+            "year": "2014",
+            "journal-title": "Gyroscopy Navig."
+          },
+          {
+            "key": "ref31",
+            "first-page": "26",
+            "article-title": "Vibratory gyro analysis by the method of averaging",
+            "volume-title": "Proc. Conf. Gyroscopic Technol. Navig.",
+            "author": "Lynch"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1017/CBO9781139020411",
+            "volume-title": "Matrix Analysis",
+            "author": "Horn",
+            "year": "2012"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2021.3103115"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.ijmecsci.2023.108682",
+            "article-title": "Frequency splitting of hemispherical resonators trimmed with focused ion beams",
+            "volume": "261",
+            "author": "Wang",
+            "year": "2024",
+            "journal-title": "Int. J. Mech. Sci."
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/IMCSIT.2009.5352756"
+          },
+          {
+            "issue": "3",
+            "key": "ref36",
+            "first-page": "3",
+            "article-title": "Theoretical foundations of solid-state wave gyroscopes",
+            "volume": "28",
+            "author": "Zhuravlev",
+            "year": "1993",
+            "journal-title": "Mech. Solids"
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Instrumentation and Measurement"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/19/10764799/10908954.pdf?arnumber=10908954",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              25
+            ]
+          ],
+          "date-time": "2026-05-25T19:53:29Z",
+          "timestamp": 1779738809000
+        },
+        "score": 43.865887,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/10908954/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "references-count": 36,
+        "URL": "https://doi.org/10.1109/tim.2025.3547107",
+        "ISSN": [
+          "0018-9456",
+          "1557-9662"
+        ],
+        "issn-type": [
+          {
+            "value": "0018-9456",
+            "type": "print"
+          },
+          {
+            "value": "1557-9662",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              13
+            ]
+          ],
+          "date-time": "2026-09-13T03:13:26Z",
+          "timestamp": 1789269206092,
+          "version": "build-2803163510"
+        },
+        "reference-count": 20,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "11",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2025-11-01T00:00:00Z",
+              "timestamp": 1761955200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2025-11-01T00:00:00Z",
+              "timestamp": 1761955200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  1
+                ]
+              ],
+              "date-time": "2025-11-01T00:00:00Z",
+              "timestamp": 1761955200000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "62203459"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "62203459"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "National Natural Science Foundation of China",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "52305562"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "52305562"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001809",
+            "name": "Graduate Innovation Program of the National University of Defense Technology",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "XJQY2024023"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "XJQY2024023"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Electron Device Lett."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1109/led.2025.3604433",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2025-09-01T19:31:30Z",
+          "timestamp": 1756755090000
+        },
+        "page": "2134-2137",
+        "source": "Crossref",
+        "is-referenced-by-count": 8,
+        "title": [
+          "0.08 ppm Scale Factor Nonlinearity in Whole-Angle Hemispherical Resonator Gyroscopes Enabled by Rapid Detection Signal Nonlinearity Suppression"
+        ],
+        "prefix": "10.1109",
+        "volume": "46",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1919-8542",
+            "authenticated-orcid": false,
+            "given": "Libin",
+            "family": "Zeng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Advanced Interdisciplinary Studied, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-1629-4835",
+            "authenticated-orcid": false,
+            "given": "Lituo",
+            "family": "Shang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligent Systems Science and Engineering, Harbin Engineering University, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8731-3664",
+            "authenticated-orcid": false,
+            "given": "Yao",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Advanced Interdisciplinary Studied, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-3764-6988",
+            "authenticated-orcid": false,
+            "given": "Xingyuan",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Advanced Interdisciplinary Studied, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-0606-4640",
+            "authenticated-orcid": false,
+            "given": "Pengbo",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Advanced Interdisciplinary Studied, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9770-0112",
+            "authenticated-orcid": false,
+            "given": "Jingyu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Advanced Interdisciplinary Studied, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Advanced Interdisciplinary Studied, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9120-3844",
+            "authenticated-orcid": false,
+            "given": "Hui",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanhu Laser Laboratory, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2020.2983578"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.23919/icins.2018.8405894"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/isiss.2015.7102362"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/iecon.2017.8217080"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/led.2021.3062897"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2022.3204631"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/led.2025.3554794"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2024.3428603"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/plans.2012.6236889"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2018.2810843"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2022.3140799"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2024.3408638"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2025.3566834"
+          },
+          {
+            "issue": "5",
+            "key": "ref14",
+            "first-page": "683",
+            "article-title": "Whole-angle hemispherical resonator gyroscope drift model caused by nonlinear detection",
+            "volume": "30",
+            "author": "Xu",
+            "year": "2022",
+            "journal-title": "J. Chin. Inert. Technol."
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tie.2019.2939971"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/1361-6439/aa73af"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2019.2929352"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41378-021-00306-6"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2024.3451567"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2024.114945"
+          }
+        ],
+        "container-title": [
+          "IEEE Electron Device Letters"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/55/11219673/11145770.pdf?arnumber=11145770",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              29
+            ]
+          ],
+          "date-time": "2025-10-29T17:37:21Z",
+          "timestamp": 1761759441000
+        },
+        "score": 43.163776,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11145770/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        },
+        "references-count": 20,
+        "journal-issue": {
+          "issue": "11"
+        },
+        "URL": "https://doi.org/10.1109/led.2025.3604433",
+        "ISSN": [
+          "0741-3106",
+          "1558-0563"
+        ],
+        "issn-type": [
+          {
+            "value": "0741-3106",
+            "type": "print"
+          },
+          {
+            "value": "1558-0563",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              18
+            ]
+          ],
+          "date-time": "2026-08-18T15:55:10Z",
+          "timestamp": 1787068510286,
+          "version": "build-2736575974"
+        },
+        "reference-count": 30,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2025-06-01T00:00:00Z",
+              "timestamp": 1748736000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2025-06-01T00:00:00Z",
+              "timestamp": 1748736000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2025-06-01T00:00:00Z",
+              "timestamp": 1748736000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2025-06-01T00:00:00Z",
+              "timestamp": 1748736000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2025-06-01T00:00:00Z",
+              "timestamp": 1748736000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2025-06-01T00:00:00Z",
+              "timestamp": 1748736000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2025-06-01T00:00:00Z",
+              "timestamp": 1748736000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100004027",
+            "name": "Heilongjiang Postdoctoral",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "LBH-Z22134"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "LBH-Z22134"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100004027",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Sensors and Actuators A: Physical"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.sna.2025.116402",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              4
+            ]
+          ],
+          "date-time": "2025-03-04T19:20:07Z",
+          "timestamp": 1741116007000
+        },
+        "page": "116402",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "special_numbering": "C",
+        "title": [
+          "A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope"
+        ],
+        "prefix": "10.1016",
+        "volume": "387",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4207-189X",
+            "authenticated-orcid": false,
+            "given": "Qi",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weinan",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Boqi",
+            "family": "Xi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hanshi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guoxing",
+            "family": "Yi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.sna.2025.116402_bib1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "S.E. Perelyaev, B.P. Bodunov, and S.B. Bodunov, Solid-state wave gyroscope: A new-generation inertial sensor, in 2017 24th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS), Saint Petersburg, Russia, May 2017, pp. 1–3. doi: 10.23919/ICINS.2018.8405891.",
+            "DOI": "10.23919/ICINS.2017.7995651"
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "F. Delhaye, HRG by SAFRAN: The game-changing technology, in 2018 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL), Moltrasio, Mar. 2018, pp. 1–4. doi: 10.1109/ISISS.2018.8358163.",
+            "DOI": "10.1109/ISISS.2018.8358163"
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib3",
+            "doi-asserted-by": "crossref",
+            "unstructured": "A.D. Meyer, D.M. Rozelle, A.A. Trusov, and D.K. Sakaida, milli-HRG inertial sensor assembly — A reality, in 2018 IEEE/ION Position, Location and Navigation Symposium (PLANS), Monterey, CA, Apr. 2018, pp. 20–23. doi: 10.1109/PLANS.2018.8373359.",
+            "DOI": "10.1109/PLANS.2018.8373359"
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib4",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.sna.2024.115494",
+            "article-title": "A rate hemispherical resonator gyroscope with bias stability of 0.0056°/h with compensation of phase delay",
+            "author": "Tang",
+            "year": "2024",
+            "journal-title": "Sens. Actuators A: Phys."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib5",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.sna.2023.114986",
+            "article-title": "Self-calibration of hemispherical resonator gyroscopes under drastic changes of ambient temperature based on mode reversal",
+            "volume": "366",
+            "author": "Zeng",
+            "year": "2024",
+            "journal-title": "Sens. Actuators A: Phys."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib6",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.measurement.2021.109704",
+            "article-title": "Overview and analysis of MEMS Coriolis vibratory ring gyroscope",
+            "volume": "182",
+            "author": "Jia",
+            "year": "2021",
+            "journal-title": "Measurement"
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib7",
+            "series-title": "2023 30th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS)",
+            "first-page": "1",
+            "article-title": "Current state of wave solid-state gyroscopes. development prospects in applied gyroscopy",
+            "author": "Perelyaev",
+            "year": "2023"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.sna.2025.116402_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "2195",
+            "DOI": "10.1038/s41598-020-80885-y",
+            "article-title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+            "volume": "11",
+            "author": "Zhao",
+            "year": "2021",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib9",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.measurement.2021.109924",
+            "article-title": "High-precision synchronous test method of vibration performance parameters for fused quartz hemispherical resonator",
+            "volume": "185",
+            "author": "Wei",
+            "year": "2021",
+            "journal-title": "Measurement"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.sna.2025.116402_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "9601",
+            "DOI": "10.1109/TIE.2022.3212381",
+            "article-title": "High precision mass balancing method for the fourth harmonic of mass defect of fused quartz hemispherical resonator based on ion beam etching process",
+            "volume": "70",
+            "author": "Huo",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Ind. Electron."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.sna.2025.116402_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "160",
+            "DOI": "10.1016/j.cja.2021.05.012",
+            "article-title": "Standing wave drift of hemispherical resonator with quality factor non-uniformity under a ring electrode excitation",
+            "volume": "35",
+            "author": "Huo",
+            "year": "2022",
+            "journal-title": "Chin. J. Aeronaut."
+          },
+          {
+            "issue": "7",
+            "key": "10.1016/j.sna.2025.116402_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "7068",
+            "DOI": "10.1109/JSEN.2023.3246044",
+            "article-title": "Rate integrating hemispherical resonator gyroscope detection error analysis and compensation",
+            "volume": "23",
+            "author": "Wang",
+            "year": "2023",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib13",
+            "series-title": "2022 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)",
+            "first-page": "1",
+            "article-title": "Ultra-fast characterization of detection electrode errors under whole-angle mode in 10 seconds",
+            "author": "Sun",
+            "year": "2022"
+          },
+          {
+            "issue": "16",
+            "key": "10.1016/j.sna.2025.116402_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "15802",
+            "DOI": "10.1109/JSEN.2022.3188287",
+            "article-title": "Bias modulation of force-to-rebalanced micro hemispherical resonator gyroscope based on mode-rotation",
+            "volume": "22",
+            "author": "Ding",
+            "year": "2022",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib15",
+            "series-title": "in 2023 2nd International Symposium on Sensor Technology and Control (ISSTC)",
+            "first-page": "119",
+            "article-title": "A rate integrating hemispherical resonant gyro angular rate output method based on frequency demodulation",
+            "author": "Sun",
+            "year": "2023"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.sna.2025.116402_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "3105",
+            "DOI": "10.1109/JSEN.2022.3140799",
+            "article-title": "Investigation of angle drift induced by actuation electrode errors for whole-angle micro-shell resonator gyroscope",
+            "volume": "22",
+            "author": "Sun",
+            "year": "2022",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.sna.2025.116402_bib17",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1088/1361-6439/acbfc6",
+            "article-title": "Identification and suppression of driving force misalignment angle for a MEMS gyroscope using parametric excitation",
+            "volume": "33",
+            "author": "Zheng",
+            "year": "2023",
+            "journal-title": "J. Micromech. Microeng."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib18",
+            "series-title": "2020 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)",
+            "first-page": "1",
+            "article-title": "Calibration and compensation of the misalignment angle errors for the disk resonator gyroscopes",
+            "author": "Wang",
+            "year": "2020"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.sna.2025.116402_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "16",
+            "DOI": "10.1109/JMEMS.2022.3228268",
+            "article-title": "Analysis and compensation of bias drift of force-to-rebalanced micro-hemispherical resonator gyroscope caused by assembly eccentricity error",
+            "volume": "32",
+            "author": "Ruan",
+            "year": "2023",
+            "journal-title": "J. Micro Syst."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib20",
+            "series-title": "2021 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)",
+            "first-page": "1",
+            "article-title": "Identification of gain mismatches in control electronics of rate integrating CVGs",
+            "author": "Vatanparvar",
+            "year": "2021"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.sna.2025.116402_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "3241",
+            "DOI": "10.1109/JSEN.2020.3027739",
+            "article-title": "Rate-integration gyroscope (RIG) with gain self calibration",
+            "volume": "21",
+            "author": "Fan",
+            "year": "2021",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "issue": "20",
+            "key": "10.1016/j.sna.2025.116402_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "19228",
+            "DOI": "10.1109/JSEN.2022.3204631",
+            "article-title": "Identification and correction of phase error for whole-angle micro-shell resonator gyroscope",
+            "volume": "22",
+            "author": "Sun",
+            "year": "2022",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "issue": "19",
+            "key": "10.1016/j.sna.2025.116402_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "21342",
+            "DOI": "10.1109/JSEN.2021.3103115",
+            "article-title": "Single-channel control for hemispherical resonator gyro based on time division multiplexing and demultiplexing",
+            "volume": "21",
+            "author": "Xu",
+            "year": "2021",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib24",
+            "series-title": "2022 DGON Inertial Sensors and Systems (ISS)",
+            "first-page": "1",
+            "article-title": "Investigation on influences of phase delay on performance of resonator gyroscopes",
+            "author": "Tang",
+            "year": "2022"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.sna.2025.116402_bib25",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1088/1361-6439/ab27e8",
+            "article-title": "“Effect of circuit phase delay on bias stability of MEMS gyroscope under force rebalance detection and self-compensation method,”",
+            "volume": "29",
+            "author": "Bu",
+            "year": "2019",
+            "journal-title": "J. Micromech. Microeng."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.sna.2025.116402_bib26",
+            "doi-asserted-by": "crossref",
+            "first-page": "1783",
+            "DOI": "10.1109/TIM.2019.2914295",
+            "article-title": "An FPGA-Based Interface System for High-Frequency Bulk-Acoustic-Wave Microgyroscopes With In-Run Automatic Mode-Matching",
+            "volume": "69",
+            "author": "Li",
+            "year": "2020",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.sna.2025.116402_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "229",
+            "DOI": "10.1134/S2075108711040134",
+            "article-title": "A new control mode greatly improving performance of axisymmetrical vibrating gyroscopes",
+            "volume": "2",
+            "author": "Ragot",
+            "year": "2011",
+            "journal-title": "Gyroscopy Navig."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.sna.2025.116402_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "3533",
+            "DOI": "10.1109/JSEN.2018.2810843",
+            "article-title": "Micromechanical rate integrating gyroscope with angle-dependent bias compensation using a self-precession method",
+            "volume": "18",
+            "author": "Taheri-Tehrani",
+            "year": "2018",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib29",
+            "first-page": "1",
+            "article-title": "High precision assembly and welding method for flat-electrode hemispherical resonator gyro",
+            "volume": "72",
+            "author": "Yuan",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Instrum. Meas."
+          },
+          {
+            "key": "10.1016/j.sna.2025.116402_bib30",
+            "unstructured": "D.D. Lynch. “Vibratory gyro analysis by the method of averaging”, Proceedings of the Second Saint Petersburg International Conference on Integrated Navigation Systems, Sr. Petersburg, Russia, 1995, pp.26-34."
+          }
+        ],
+        "container-title": [
+          "Sensors and Actuators A: Physical"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0924424725002080?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0924424725002080?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              10
+            ]
+          ],
+          "date-time": "2025-04-10T03:01:01Z",
+          "timestamp": 1744254061000
+        },
+        "score": 42.226616,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0924424725002080"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "references-count": 30,
+        "alternative-id": [
+          "S0924424725002080"
+        ],
+        "URL": "https://doi.org/10.1016/j.sna.2025.116402",
+        "ISSN": [
+          "0924-4247"
+        ],
+        "issn-type": [
+          {
+            "value": "0924-4247",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Sensors and Actuators A: Physical",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.sna.2025.116402",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "116402"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              7
+            ]
+          ],
+          "date-time": "2026-01-07T19:45:58Z",
+          "timestamp": 1767815158983,
+          "version": "3.49.0"
+        },
+        "reference-count": 21,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  10,
+                  21
+                ]
+              ],
+              "date-time": "2025-10-21T00:00:00Z",
+              "timestamp": 1761004800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  10,
+                  21
+                ]
+              ],
+              "date-time": "2025-10-21T00:00:00Z",
+              "timestamp": 1761004800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              21
+            ]
+          ]
+        },
+        "DOI": "10.1109/isa67150.2025.11279614",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              6
+            ]
+          ],
+          "date-time": "2026-01-06T18:33:40Z",
+          "timestamp": 1767724420000
+        },
+        "page": "i-xiii",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Identification and Compensation for Actuation Nonlinearity for Whole-Angle Hemispherical Resonator Gyroscopes"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "P.",
+            "family": "Xiao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "X.",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Y.",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "C.",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Y.",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "X.",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "H.",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National University of Defense Technology,Changsha,China,410005"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2015.7102362"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/InertialSensors.2014.7049409"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2018.8358163"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2022.3204631"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIE.2022.3187598"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2021.3139919"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LED.2021.3062897"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/s18093001"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/5.0202421"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2016.7435532"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/PLANS.2012.6236889"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TIM.2025.3566834"
+          },
+          {
+            "issue": "5",
+            "key": "ref13",
+            "first-page": "683",
+            "article-title": "Whole-Angle Hemispherical Resonator Gyroscope Drift Model Caused by Nonlinear Detection",
+            "volume": "30",
+            "author": "Xu",
+            "year": "2022",
+            "journal-title": "Journal of Chinese Inertial Technology"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/LED.2025.3604433"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41378-021-00306-6"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41378-024-00818-x"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2024.114945"
+          },
+          {
+            "key": "ref18",
+            "first-page": "26",
+            "article-title": "Vibratory gyro analysis by the method of averaging",
+            "volume-title": "Proc. 2nd Saint Petersburg Int. Conf. Integr. Navigat. Syst",
+            "author": "Lynch"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/PLANS.2012.6236889"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2019.2929352"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2024.3408638"
+          }
+        ],
+        "event": {
+          "name": "2025 DGON Inertial Sensors and Applications (ISA)",
+          "location": "Braunschweig, Germany",
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                21
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                22
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2025 DGON Inertial Sensors and Applications (ISA)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11278898/11279280/11279614.pdf?arnumber=11279614",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              7
+            ]
+          ],
+          "date-time": "2026-01-07T18:30:23Z",
+          "timestamp": 1767810623000
+        },
+        "score": 39.164238,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11279614/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              21
+            ]
+          ]
+        },
+        "references-count": 21,
+        "URL": "https://doi.org/10.1109/isa67150.2025.11279614",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              21
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2026-09-26T05:00:52Z",
+          "timestamp": 1790398852808,
+          "version": "4.1.0"
+        },
+        "reference-count": 19,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "name": "National Natural Science Foundation of China",
+            "award": [
+              "62403161"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "62403161"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "https://ror.org/01h0zpd94",
+                "id-type": "ROR",
+                "asserted-by": "crossref"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1109/i2mtc66907.2026.11694669",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2026-09-25T19:13:09Z",
+          "timestamp": 1790363589000
+        },
+        "page": "1-6",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "High-Precision Identification Method for Phase Errors in Whole-Angle Mode Hemispherical Resonator Gyroscope"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Ruiqi",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guoxing",
+            "family": "Yi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weinan",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zihao",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Longkai",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology",
+                "place": [
+                  "Harbin, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/iss58390.2023.10361936"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISS46986.2019.8943660"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2020.3005282"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijmecsci.2025.110811"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.dt.2022.03.008"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2024.114945"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2025.3586357"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41598-025-86288-1"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2025.3543642"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2024.3504581"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2021.3103115"
+          },
+          {
+            "issue": "05",
+            "key": "ref12",
+            "first-page": "644",
+            "article-title": "Asymmetric analysis and suppression method of gain of hemispherical resonant gyro circuit",
+            "volume": "30",
+            "author": "Zhao",
+            "year": "2022",
+            "journal-title": "Journal of Chinese Inertial Technology"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/mi16030273"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2025.3602801"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2023.3246044"
+          },
+          {
+            "key": "ref16",
+            "first-page": "26",
+            "article-title": "Vibratory gyro analysis by the method of averaging",
+            "volume-title": "The 2nd Saint Petersburg International Coference on Gyroscopic Technology and Navigation",
+            "author": "Lynch"
+          },
+          {
+            "issue": "06",
+            "key": "ref17",
+            "first-page": "871",
+            "article-title": "Influence of Gravity Fieldon Performance of Hemispherical Resonator Gyro",
+            "volume": "42",
+            "author": "Fang",
+            "year": "2020",
+            "journal-title": "Piezoelectrics & Acoustooptics"
+          },
+          {
+            "key": "ref18",
+            "article-title": "Allan Variance: Noise Analysis for Gyroscopes",
+            "author": "Semiconductor",
+            "year": "2015",
+            "journal-title": "Freescale Semiconductor"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2024.3502765"
+          }
+        ],
+        "event": {
+          "name": "2026 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)",
+          "location": "Centre Prouvé, Nancy, France",
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                25
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                28
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2026 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11694386/11694387/11694669.pdf?arnumber=11694669",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2026-09-26T04:41:19Z",
+          "timestamp": 1790397679000
+        },
+        "score": 37.74953,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11694669/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "references-count": 19,
+        "URL": "https://doi.org/10.1109/i2mtc66907.2026.11694669",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              13
+            ]
+          ],
+          "date-time": "2026-09-13T03:11:55Z",
+          "timestamp": 1789269115094,
+          "version": "build-2803163510"
+        },
+        "reference-count": 31,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-017"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-012"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  1
+                ]
+              ],
+              "date-time": "2026-05-01T00:00:00Z",
+              "timestamp": 1777593600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-004"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100008081",
+            "name": "Southeast University",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100008081",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Measurement"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.measurement.2026.121170",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              17
+            ]
+          ],
+          "date-time": "2026-03-17T06:23:46Z",
+          "timestamp": 1773728626000
+        },
+        "page": "121170",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "special_numbering": "C",
+        "title": [
+          "Whole-chain multi-mode error compensation for high-precision rate-integrating micro-hemispherical resonator gyroscopes"
+        ],
+        "prefix": "10.1016",
+        "volume": "273",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-2520-6927",
+            "authenticated-orcid": false,
+            "given": "Bei",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-3561-5848",
+            "authenticated-orcid": false,
+            "given": "ZhuoNan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xi",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-7683-3396",
+            "authenticated-orcid": false,
+            "given": "ZiHao",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-2815-2061",
+            "authenticated-orcid": false,
+            "given": "YongPeng",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peng",
+            "family": "Ji",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2855-3662",
+            "authenticated-orcid": false,
+            "given": "Bo",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0005",
+            "doi-asserted-by": "crossref",
+            "unstructured": "B. Li et al. Full Symmetric MEMS Rate Gyroscope Automatic Mode-Matching Method Based on Pendulum Variable Demodulation and Phase-Shifted Virtual Coriolis Force Modulation. in IEEE Sensors Journal. 25(9), pp. 15317–15330.",
+            "DOI": "10.1109/JSEN.2025.3545282"
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0010",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.ijmecsci.2025.110811",
+            "article-title": "Self-calibration method for assembly errors of hemispherical resonator gyroscope",
+            "author": "Wang",
+            "year": "2025",
+            "journal-title": "Int. J. Mech. Sci."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0015",
+            "doi-asserted-by": "crossref",
+            "unstructured": "H. Li, H. Yi, A. Li, K. Yang, X. Wang. A Novel Method for Observing Blowtorch Reflow of Micro Hemispherical Gyroscope Resonators. 2025 IEEE 3rd International Conference on Sensors, Electronics and Computer Engineering (ICSECE), Jinzhou, China, 2025, pp. 249-254.",
+            "DOI": "10.1109/ICSECE65727.2025.11256864"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.measurement.2026.121170_b0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "5347",
+            "DOI": "10.1109/TIE.2022.3187598",
+            "article-title": "Calibration of coupling errors for scale factor nonlinearity improvement in navigation-grade honeycomb disk resonator gyroscope",
+            "volume": "70",
+            "author": "Wang",
+            "year": "2023",
+            "journal-title": "IEEE Trans. Ind. Electron."
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.measurement.2026.121170_b0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "5304",
+            "DOI": "10.1109/TIE.2021.3078375",
+            "article-title": "A wafer-level vacuum packaged MEMS disk resonator gyroscope with 0.42°/h bias instability within ±300°/s full scale",
+            "volume": "69",
+            "author": "Wang",
+            "year": "2022",
+            "journal-title": "IEEE Trans. Ind. Electron."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0030",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Senkal et al. Whole-angle MEMS gyroscopes: challenges and opportunities. (2020).",
+            "DOI": "10.1002/9781119441908"
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0035",
+            "doi-asserted-by": "crossref",
+            "unstructured": "J.Y. Cho, et al. 0.00016 deg/√hr Angle Random Walk (ARW) and 0.0014 deg/hr Bias Instability (BI) from a 5.2M-Q and 1-cm Precision Shell Integrating (PSI) Gyroscope[C]// 2020 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL). IEEE, 2020.",
+            "DOI": "10.1109/INERTIAL48129.2020.9090086"
+          },
+          {
+            "issue": "11",
+            "key": "10.1016/j.measurement.2026.121170_b0040",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1088/1361-6501/ad6fc3",
+            "article-title": "4.11-million Q-factor whole-angle MEMS hemispherical resonator gyroscope with 0.013°/h bias instability",
+            "volume": "35",
+            "author": "Li",
+            "year": "2024",
+            "journal-title": "Meas. Sci. Technol."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.measurement.2026.121170_b0045",
+            "first-page": "14748",
+            "article-title": "Online mode-matching method countering for stiffness nonlinearity in whole-angle MEMS gyroscope",
+            "volume": "25",
+            "author": "Yu",
+            "year": "2025",
+            "journal-title": "IEEE Sens. J.14740"
+          },
+          {
+            "issue": "14",
+            "key": "10.1016/j.measurement.2026.121170_b0050",
+            "doi-asserted-by": "crossref",
+            "first-page": "13945",
+            "DOI": "10.1109/JSEN.2022.3181302",
+            "article-title": "In-run automatic mode-matching of whole-angle micro-hemispherical resonator gyroscope based on standing wave self-precession",
+            "volume": "22",
+            "author": "Ruan",
+            "year": "2022",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.measurement.2026.121170_b0055",
+            "doi-asserted-by": "crossref",
+            "first-page": "2282",
+            "DOI": "10.1109/JSEN.2021.3137245",
+            "article-title": "A MEMS rate-integrating gyroscope (RIG) with in-run automatic mode-matching",
+            "volume": "22",
+            "author": "Fan",
+            "year": "2022",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0060",
+            "doi-asserted-by": "crossref",
+            "unstructured": "J. Sun, Y. Zhang, S. Yu, et al. Identification and compensation of anisodamping for high Q factor resonator under whole-angle mode[C]//2021 IEEE Sensors. IEEE, 2021: 1–4.",
+            "DOI": "10.1109/SENSORS47087.2021.9639786"
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0065",
+            "first-page": "1",
+            "article-title": "Analysis, identification, and compensation of damping asymmetry for whole-angle mode hemispherical resonator gyro",
+            "volume": "74",
+            "author": "Xie",
+            "year": "2025",
+            "journal-title": "IEEE Trans. Instrument. Measure."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0070",
+            "unstructured": "Y. Ning et al. Suppression and compensation of damping asymmetry errors in whole-angle hemispherical resonator gyroscope. in IEEE Sensors Journal."
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.measurement.2026.121170_b0075",
+            "doi-asserted-by": "crossref",
+            "first-page": "3533",
+            "DOI": "10.1109/JSEN.2018.2810843",
+            "article-title": "Micromechanical velocity integrating gyroscope with angle-dependent bias compensation using a self-precession method",
+            "volume": "18",
+            "author": "Taheri-Tehrani",
+            "year": "2018",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.measurement.2026.121170_b0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "2195",
+            "DOI": "10.1038/s41598-020-80885-y",
+            "article-title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+            "volume": "11",
+            "author": "Zhao",
+            "year": "2021",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0085",
+            "first-page": "1",
+            "article-title": "Virtual precession self-calibration method for hemispherical resonator gyro based on sinusoidal injection",
+            "volume": "74",
+            "author": "Wang",
+            "year": "2025",
+            "journal-title": "IEEE Trans. Instrument. Measure."
+          },
+          {
+            "issue": "20",
+            "key": "10.1016/j.measurement.2026.121170_b0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "19228",
+            "DOI": "10.1109/JSEN.2022.3204631",
+            "article-title": "Identification and correction of phase error for whole-angle micro shell resonator gyroscope",
+            "volume": "22",
+            "author": "Sun",
+            "year": "2022",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0095",
+            "doi-asserted-by": "crossref",
+            "unstructured": "W. Chen, et al. A Novel Phase Error Quantitative Characterization Method for Whole-Angle Micro Hemispherical Resonant Gyroscope[C]//2024 IEEE SENSORS. IEEE, 2024: 1-4.",
+            "DOI": "10.1109/SENSORS60989.2024.10784886"
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0100",
+            "doi-asserted-by": "crossref",
+            "unstructured": "W. Chen et al. Characterization and compensation of phase delay and modulation pattern angle error for rate-integrating micro-hemispherical resonator gyroscope. IEEE Sens. J. 25(7), 10820–10830.",
+            "DOI": "10.1109/JSEN.2025.3543642"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.measurement.2026.121170_b0105",
+            "doi-asserted-by": "crossref",
+            "first-page": "19",
+            "DOI": "10.1109/JMEMS.2021.3123082",
+            "article-title": "Characterization and compensation of detection electrode errors for whole-angle micro-shell resonator gyroscope",
+            "volume": "31",
+            "author": "Sun",
+            "year": "2022",
+            "journal-title": "J. Microelectromech. Syst."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.measurement.2026.121170_b0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "3105",
+            "DOI": "10.1109/JSEN.2022.3140799",
+            "article-title": "Investigation of angle drift induced by actuation electrode errors for whole-angle micro-shell resonator gyroscope",
+            "volume": "22",
+            "author": "Sun",
+            "year": "2022",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.measurement.2026.121170_b0115",
+            "doi-asserted-by": "crossref",
+            "first-page": "2362",
+            "DOI": "10.1109/JSEN.2024.3504581",
+            "article-title": "Online identification and compensation of drive and phase errors for whole-angle hemispherical resonator gyroscope based on sinusoidal self-excitation",
+            "volume": "25",
+            "author": "Chen",
+            "year": "2025",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0120",
+            "first-page": "1",
+            "article-title": "Modeling, characterization, and compensation of detection and actuation coupling errors for whole-angle micro hemispherical resonant gyroscope",
+            "volume": "73",
+            "author": "Chen",
+            "year": "2024",
+            "journal-title": "IEEE Trans. Instrum. Measure."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0125",
+            "first-page": "1",
+            "article-title": "An investigation on influences of the phase delay and the electrode errors on a mode-reversal hemispherical resonator gyroscope",
+            "volume": "74",
+            "author": "Zeng",
+            "year": "2024",
+            "journal-title": "IEEE Trans. Instrum. Measure."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0130",
+            "first-page": "1",
+            "article-title": "Self-excitation enabled decoupling, calibration, and compensation of errors for whole-angle hemispherical resonator gyroscope",
+            "volume": "73",
+            "author": "Yan",
+            "year": "2024",
+            "journal-title": "IEEE Trans. Instrum. Measure."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0135",
+            "first-page": "1",
+            "article-title": "Separation, identification, and compensation of damping, detection, and actuation errors for rate-integrating hemispherical resonator gyroscopes",
+            "volume": "74",
+            "author": "Deng",
+            "year": "2025",
+            "journal-title": "IEEE Trans. Instrum. Measure."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.measurement.2026.121170_b0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "9421",
+            "DOI": "10.1109/JSEN.2025.3529863",
+            "article-title": "Modeling and compensation of readout, actuation, and damping errors for whole-angle hemispherical resonator gyroscope",
+            "volume": "25",
+            "author": "Gu",
+            "year": "2025",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0145",
+            "unstructured": "D.D. Lynch, (1995, May). Vibratory gyro analysis by the method of averaging. In Proc. 2nd St. Petersburg Conf. on Gyroscopic Technology and Navigation, St. Petersburg (pp. 26-34)."
+          },
+          {
+            "key": "10.1016/j.measurement.2026.121170_b0150",
+            "doi-asserted-by": "crossref",
+            "first-page": "535",
+            "DOI": "10.1016/j.sna.2017.12.024",
+            "article-title": "Investigation of cylindrical resonators’ damping asymmetry via analyzing q factor circumferential distribution",
+            "volume": "269",
+            "author": "Sun",
+            "year": "2018",
+            "journal-title": "Sens. Actuat., A"
+          },
+          {
+            "issue": "13",
+            "key": "10.1016/j.measurement.2026.121170_b0155",
+            "doi-asserted-by": "crossref",
+            "first-page": "23888",
+            "DOI": "10.1109/JSEN.2025.3572313",
+            "article-title": "Suppression and compensation of damping asymmetry errors in whole-angle hemispherical resonator gyroscope",
+            "volume": "25",
+            "author": "Ning",
+            "year": "2025",
+            "journal-title": "IEEE Sens. J."
+          }
+        ],
+        "container-title": [
+          "Measurement"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0263224126008791?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0263224126008791?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2026-04-15T05:38:08Z",
+          "timestamp": 1776231488000
+        },
+        "score": 37.005737,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0263224126008791"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "references-count": 31,
+        "alternative-id": [
+          "S0263224126008791"
+        ],
+        "URL": "https://doi.org/10.1016/j.measurement.2026.121170",
+        "ISSN": [
+          "0263-2241"
+        ],
+        "issn-type": [
+          {
+            "value": "0263-2241",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Whole-chain multi-mode error compensation for high-precision rate-integrating micro-hemispherical resonator gyroscopes",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Measurement",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.measurement.2026.121170",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "121170"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              15
+            ]
+          ],
+          "date-time": "2025-08-15T00:41:14Z",
+          "timestamp": 1755218474539,
+          "version": "3.43.0"
+        },
+        "reference-count": 12,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2025-05-16T00:00:00Z",
+              "timestamp": 1747353600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  5,
+                  16
+                ]
+              ],
+              "date-time": "2025-05-16T00:00:00Z",
+              "timestamp": 1747353600000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ]
+        },
+        "DOI": "10.1109/ccdc65474.2025.11090247",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              5
+            ]
+          ],
+          "date-time": "2025-08-05T18:00:15Z",
+          "timestamp": 1754416815000
+        },
+        "page": "3409-3414",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Detection Error Compensation Method for Frequency Modulation Hemispherical Resonator Gyro"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Zeyuan",
+            "family": "Guan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology,Space Control and Inertial Technology, Research Center,Harbin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhennan",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology,Space Control and Inertial Technology, Research Center,Harbin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ning",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology,Space Control and Inertial Technology, Research Center,Harbin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Guoxing",
+            "family": "Yi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology,Space Control and Inertial Technology, Research Center,Harbin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hongbo",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology,Space Control and Inertial Technology, Research Center,Harbin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yiwen",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harbin Institute of Technology,Space Control and Inertial Technology, Research Center,Harbin,China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3390/mi13101676"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MEMSYS.2002.984372"
+          },
+          {
+            "key": "ref3",
+            "first-page": "373",
+            "volume-title": "Spin-exchange-pumped NMR gyros, Advances in atomic, molecular, and optical physics",
+            "volume": "65",
+            "author": "Walker",
+            "year": "2016"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2019.8739669"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/JSEN.2021.3117939"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/MEMSYS.2017.7863610"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2018.8358135"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2019.8739625"
+          },
+          {
+            "key": "ref9",
+            "article-title": "Modeling, testing and error compenzation technology of whole angle hemispherical resonator gyro",
+            "author": "WEI",
+            "year": "2022",
+            "journal-title": "Harbin Institute of Technology"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2022.112064"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2023.3346525"
+          },
+          {
+            "key": "ref12",
+            "first-page": "2",
+            "article-title": "Vibratory gyro analysis by the method of averaging",
+            "volume-title": "Proc. 2nd St. Petersburg Conf. on Gyroscopic Technology and Navigation",
+            "author": "Lynch",
+            "year": "1995"
+          }
+        ],
+        "event": {
+          "name": "2025 37th Chinese Control and Decision Conference (CCDC)",
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                16
+              ]
+            ]
+          },
+          "location": "Xiamen, China",
+          "end": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2025 37th Chinese Control and Decision Conference (CCDC)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11090124/11090125/11090247.pdf?arnumber=11090247",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              6
+            ]
+          ],
+          "date-time": "2025-08-06T05:30:24Z",
+          "timestamp": 1754458224000
+        },
+        "score": 36.433273,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11090247/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ]
+        },
+        "references-count": 12,
+        "URL": "https://doi.org/10.1109/ccdc65474.2025.11090247",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              16
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2026-09-06T04:43:35Z",
+          "timestamp": 1788669815909,
+          "version": "build-2803163510"
+        },
+        "reference-count": 39,
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "issue": "13",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2025-07-01T00:00:00Z",
+              "timestamp": 1751328000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2025-07-01T00:00:00Z",
+              "timestamp": 1751328000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2025-07-01T00:00:00Z",
+              "timestamp": 1751328000000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Touyan Innovation Program of Heilongjiang Province, China"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IEEE Sensors J."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/jsen.2025.3572313",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              28
+            ]
+          ],
+          "date-time": "2025-05-28T18:11:24Z",
+          "timestamp": 1748455884000
+        },
+        "page": "23888-23898",
+        "source": "Crossref",
+        "is-referenced-by-count": 7,
+        "title": [
+          "Suppression and Compensation of Damping Asymmetry Errors in Whole-Angle Hemispherical Resonator Gyroscope"
+        ],
+        "prefix": "10.1109",
+        "volume": "25",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5648-3668",
+            "authenticated-orcid": false,
+            "given": "Youhuan",
+            "family": "Ning",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Astronautics and the Space Control and Inertial Technology Research Center, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9534-6711",
+            "authenticated-orcid": false,
+            "given": "Changhong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Astronautics and the Space Control and Inertial Technology Research Center, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3609-741X",
+            "authenticated-orcid": false,
+            "given": "Boqi",
+            "family": "Xi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Astronautics and the Space Control and Inertial Technology Research Center, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-8588-7882",
+            "authenticated-orcid": false,
+            "given": "Zhen",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Astronautics and the Space Control and Inertial Technology Research Center, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Boda",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Astronautics and the Space Control and Inertial Technology Research Center, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-5429-2320",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Astronautics and the Space Control and Inertial Technology Research Center, Harbin Institute of Technology, Harbin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/isiss.2018.8358163"
+          },
+          {
+            "issue": "2",
+            "key": "ref2",
+            "first-page": "1",
+            "article-title": "Review on the current advances, key technology and future trends of hemispherical resonator gyroscope",
+            "volume": "20",
+            "author": "Qu",
+            "year": "2022",
+            "journal-title": "Opt. Optoelectron. Technol."
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1134/s2075108723010054"
+          },
+          {
+            "issue": "6",
+            "key": "ref4",
+            "first-page": "780",
+            "article-title": "Hemispherical resonator gyro control and compensation technology",
+            "volume": "41",
+            "author": "Guo-Xing",
+            "year": "2020",
+            "journal-title": "J. Astronaut."
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sna.2023.114456"
+          },
+          {
+            "key": "ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sna.2017.03.041"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sna.2022.113365"
+          },
+          {
+            "key": "ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3901/cjme.2016.0520.070"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijmecsci.2024.109165"
+          },
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2023.3295462"
+          },
+          {
+            "key": "ref11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2023.3344598"
+          },
+          {
+            "key": "ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2021.3072046"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2022.3204631"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jsv.2021.115964"
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/tim.2023.3346525"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2020.3027739"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2023.3332067"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2022.3188287"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2022.3181302"
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2023.3246044"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jmems.2021.3123082"
+          },
+          {
+            "key": "ref22",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2022.3140799"
+          },
+          {
+            "key": "ref23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2021.3103115"
+          },
+          {
+            "key": "ref24",
+            "first-page": "26",
+            "article-title": "Vibratory gyro analysis by the method of averaging",
+            "volume-title": "Proc. Int. Conf. Gyroscopic Technol. Navigat.",
+            "author": "Lynch"
+          },
+          {
+            "key": "ref25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2018.2810843"
+          },
+          {
+            "key": "ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/isiss.2016.7435531"
+          },
+          {
+            "key": "ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/plans.2012.6236889"
+          },
+          {
+            "key": "ref28",
+            "article-title": "Control and self-calibration of microscale rate integrating gyroscopes (MRIGs)",
+            "author": "Zhang",
+            "year": "2015"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/isiss.2016.7435532"
+          },
+          {
+            "key": "ref30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2021.3139920"
+          },
+          {
+            "key": "ref31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/access.2020.3014661"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.3901/jme.2022.16.145"
+          },
+          {
+            "key": "ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sna.2016.09.019"
+          },
+          {
+            "key": "ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/iss58390.2023.10361913"
+          },
+          {
+            "key": "ref35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/5.0026821"
+          },
+          {
+            "key": "ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/isiss.2015.7102362"
+          },
+          {
+            "key": "ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sna.2023.114986"
+          },
+          {
+            "key": "ref38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.measurement.2024.114945"
+          },
+          {
+            "key": "ref39",
+            "first-page": "199",
+            "volume-title": "A New Theory of System Identification",
+            "volume": "2013",
+            "author": "Ding",
+            "year": "2013"
+          }
+        ],
+        "container-title": [
+          "IEEE Sensors Journal"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/7361/11069360/11017437.pdf?arnumber=11017437",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              4
+            ]
+          ],
+          "date-time": "2025-07-04T17:54:24Z",
+          "timestamp": 1751651664000
+        },
+        "score": 36.11342,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11017437/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ]
+        },
+        "references-count": 39,
+        "journal-issue": {
+          "issue": "13"
+        },
+        "URL": "https://doi.org/10.1109/jsen.2025.3572313",
+        "ISSN": [
+          "1530-437X",
+          "1558-1748",
+          "2379-9153"
+        ],
+        "issn-type": [
+          {
+            "value": "1530-437X",
+            "type": "print"
+          },
+          {
+            "value": "1558-1748",
+            "type": "electronic"
+          },
+          {
+            "value": "2379-9153",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2026-10-08T17:25:24Z",
+          "timestamp": 1791480324767,
+          "version": "4.3.4"
+        },
+        "reference-count": 26,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2025-01-01T00:00:00Z",
+              "timestamp": 1735689600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2025-01-01T00:00:00Z",
+              "timestamp": 1735689600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  8,
+                  25
+                ]
+              ],
+              "date-time": "2024-08-25T00:00:00Z",
+              "timestamp": 1724544000000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/100010097",
+            "name": "China Association for Science and Technology",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/100010097",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100020225",
+            "name": "Heilongjiang Human Resources and Social Security Bureau",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100020225",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Measurement"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.measurement.2024.115599",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              26
+            ]
+          ],
+          "date-time": "2024-08-26T18:55:00Z",
+          "timestamp": 1724698500000
+        },
+        "page": "115599",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 17,
+        "special_numbering": "C",
+        "title": [
+          "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro"
+        ],
+        "prefix": "10.1016",
+        "volume": "240",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0084-7303",
+            "authenticated-orcid": false,
+            "given": "Yiwei",
+            "family": "Sun",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9881-0092",
+            "authenticated-orcid": false,
+            "given": "Guoxing",
+            "family": "Yi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0721-9377",
+            "authenticated-orcid": false,
+            "given": "Zhennan",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4207-189X",
+            "authenticated-orcid": false,
+            "given": "Qi",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0005",
+            "doi-asserted-by": "crossref",
+            "first-page": "81",
+            "DOI": "10.1016/j.sna.2017.03.041",
+            "article-title": "Observation and analysis of the quality factor variation behavior in a monolithic fused silica cylindrical resonator",
+            "volume": "260",
+            "author": "Pan",
+            "year": "2017",
+            "journal-title": "Sens. Actuators a: Phys."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0010",
+            "series-title": "Navigation, and Control (GNC) Conference",
+            "article-title": "In-flight performance of the cassini hemispherical quartz resonator gyro inertial reference units, AIAA guidance",
+            "author": "Brown",
+            "year": "2013"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0015",
+            "article-title": "The hemispherical resonator gyro: from wineglass to the planets",
+            "volume": "134",
+            "author": "Rozelle",
+            "year": "2009",
+            "journal-title": "Adv. Astronaut. Sci."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0020",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.ymssp.2021.108760",
+            "article-title": "An accurate thermoelastic model and thermal output error analysis of a hemispherical resonator gyroscope under varying temperatures",
+            "volume": "170",
+            "author": "Xu",
+            "year": "2022",
+            "journal-title": "Mech. Syst. Sig. Process."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0025",
+            "doi-asserted-by": "crossref",
+            "first-page": "1690",
+            "DOI": "10.3390/s19071690",
+            "article-title": "the synthesis model of flat-electrode hemispherical resonator gyro",
+            "volume": "19",
+            "author": "Wei",
+            "year": "2019",
+            "journal-title": "Sensors"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0030",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/ISS46986.2019.8943660",
+            "article-title": "HRG CrystalTM DUAL CORE: Rebooting the INS revolution",
+            "author": "Foloppe",
+            "year": "2019",
+            "journal-title": "2019 DGON Inertial Sensors and Systems"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0035",
+            "series-title": "IEEE International Symposium on Inertial Sensors and Systems (ISS)",
+            "article-title": "HRG by Sagem from laboratory to mass production",
+            "author": "Jeanroy",
+            "year": "2016"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0040",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.sna.2022.113365",
+            "article-title": "Fundamental investigation of subsurface damage on the quality factor of hemispherical fused silica shell resonator",
+            "volume": "335",
+            "author": "Chu",
+            "year": "2022",
+            "journal-title": "Sens. Actuators a: Phys."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0045",
+            "doi-asserted-by": "crossref",
+            "first-page": "555",
+            "DOI": "10.3390/s16040555",
+            "article-title": "Design and verification of a digital controller for a 2-piece hemispherical resonator gyroscope",
+            "volume": "16",
+            "author": "Lee",
+            "year": "2016",
+            "journal-title": "Sensors"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0050",
+            "series-title": "2018 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)",
+            "article-title": "HRG by SAFRAN: The game-changing technology",
+            "author": "Delhaye",
+            "year": "2018"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0055",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1109/InertialSensors.2018.8577108",
+            "article-title": "The world smallest, most accurate and reliable pure inertial navigator: ONYXTM",
+            "author": "Deleaux",
+            "year": "2018",
+            "journal-title": "2018 DGON Inertial Sensors and Systems (ISS)"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0060",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1063/5.0026821",
+            "article-title": "Adaptive compensation of damping asymmetry in whole-angle hemispherical resonator gyroscope",
+            "volume": "10",
+            "author": "Guo",
+            "year": "2020",
+            "journal-title": "AIP Adv."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0065",
+            "article-title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+            "volume": "11",
+            "author": "Zhao",
+            "year": "2021",
+            "journal-title": "Sci. Rep."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0070",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Y. Zhang, T. Miao, K. Guo, J. Sun, X. Wu, D. Xiao, Electronic Gain Error Compensation For WholeAngle Mode Coriolis Vibrating Gyroscopes With High Q Factor, 2020 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL) (2020), DOI: 10.1109/INERTIAL48129.2020.9090062.",
+            "DOI": "10.1109/INERTIAL48129.2020.9090062"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0075",
+            "doi-asserted-by": "crossref",
+            "first-page": "14726",
+            "DOI": "10.1109/JSEN.2021.3072046",
+            "article-title": "Modeling and compensation of assembly inclination error of micro hemispherical resonator gyroscope under force-to-rebalance mode",
+            "volume": "21",
+            "author": "Ruan",
+            "year": "2021",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "19",
+            "DOI": "10.1109/JMEMS.2021.3123082",
+            "article-title": "Characterization and compensation of detection electrode errors for whole-angle micro-shell resonator gyroscope",
+            "volume": "31",
+            "author": "Sun",
+            "year": "2022",
+            "journal-title": "J. Microelectromech. Syst."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0085",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.measurement.2022.112064",
+            "article-title": "Modeling, identification and compensation for assembly error of whole-angle mode hemispherical resonator gyro",
+            "volume": "204",
+            "author": "Wang",
+            "year": "2022",
+            "journal-title": "Measurement"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "21342",
+            "DOI": "10.1109/JSEN.2021.3103115",
+            "article-title": "Single-channel control for hemispherical resonator gyro based on time division multiplexing and demultiplexing",
+            "volume": "21",
+            "author": "Xu",
+            "year": "2021",
+            "journal-title": "IEEE Sens. J."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0095",
+            "doi-asserted-by": "crossref",
+            "first-page": "23",
+            "DOI": "10.1016/j.sna.2014.07.016",
+            "article-title": "A study on Q factor of the trimmed resonator for vibratory cupped gyroscopes",
+            "volume": "218",
+            "author": "Xi",
+            "year": "2014",
+            "journal-title": "Sens. Actuators a: Phys."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "150",
+            "DOI": "10.1016/j.sna.2014.02.001",
+            "article-title": "Electrostatic and mechanical characterization of 3-D micro-wineglass resonators",
+            "volume": "215",
+            "author": "Senkal",
+            "year": "2014",
+            "journal-title": "Sens. Actuators a: Phys."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0105",
+            "unstructured": "D. D. Lynch, Vibratory gyro analysis by the method of averaging, THE 2nd SAINT Petersbg Int. Conf. GYROSCOPIC Technol. Navig. Part 1 (1995) 26-34."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0110",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.measurement.2021.109924",
+            "article-title": "High-precision synchronous test method of vibration performance parameters for fused quartz hemispherical resonator",
+            "volume": "185",
+            "author": "Wei",
+            "year": "2021",
+            "journal-title": "Measurement"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0115",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016/j.measurement.2022.111426",
+            "article-title": "Pose error identification algorithm based on hemispherical resonant gyroscope assembly capacitance uniformity",
+            "volume": "198",
+            "author": "Yu",
+            "year": "2022",
+            "journal-title": "Measurement"
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "292",
+            "DOI": "10.1134/S0020168520030103",
+            "article-title": "Silica glass for high-Q mechanical resonators",
+            "volume": "56",
+            "author": "Lunin",
+            "year": "2020",
+            "journal-title": "Inorg. Mater."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0125",
+            "doi-asserted-by": "crossref",
+            "first-page": "879",
+            "DOI": "10.1007/s11018-020-01708-0",
+            "article-title": "Development of an algorithm to suppress frequency splitting of an axisymmetric resonator of a wave solid-state gyroscope with optical detection",
+            "volume": "62",
+            "author": "Busurin",
+            "year": "2020",
+            "journal-title": "Meas. Tech."
+          },
+          {
+            "key": "10.1016/j.measurement.2024.115599_b0130",
+            "first-page": "683",
+            "article-title": "Whole-angle hemispherical resonator gyroscope drift model caused by nonlinear detection",
+            "volume": "30",
+            "author": "Xu",
+            "year": "2022",
+            "journal-title": "Journal of Chinese Inertial Technology"
+          }
+        ],
+        "container-title": [
+          "Measurement"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0263224124014842?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0263224124014842?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              10
+            ]
+          ],
+          "date-time": "2024-11-10T15:02:16Z",
+          "timestamp": 1731250936000
+        },
+        "score": 36.110535,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0263224124014842"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "references-count": 26,
+        "alternative-id": [
+          "S0263224124014842"
+        ],
+        "URL": "https://doi.org/10.1016/j.measurement.2024.115599",
+        "ISSN": [
+          "0263-2241"
+        ],
+        "issn-type": [
+          {
+            "value": "0263-2241",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Measurement",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.measurement.2024.115599",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2024 The Author(s). Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "article-number": "115599"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2026-09-04T17:13:55Z",
+          "timestamp": 1788542035864,
+          "version": "build-2803163510"
+        },
+        "reference-count": 13,
+        "publisher": "Elsevier BV",
+        "issue": "20",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2025-01-01T00:00:00Z",
+              "timestamp": 1735689600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2025-01-01T00:00:00Z",
+              "timestamp": 1735689600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "IFAC-PapersOnLine"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.ifacol.2025.11.309",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              28
+            ]
+          ],
+          "date-time": "2025-11-28T12:49:11Z",
+          "timestamp": 1764334151000
+        },
+        "page": "1141-1146",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Drive Error Compensation Method for Frequency Modulation Hemispherical Resonator Gyro"
+        ],
+        "prefix": "10.1016",
+        "volume": "59",
+        "author": [
+          {
+            "given": "Zeyuan",
+            "family": "Guan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhennan",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ning",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guoxing",
+            "family": "Yi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongbo",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yiwei",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "1",
+            "key": "10.1016/j.ifacol.2025.11.309_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "144",
+            "DOI": "10.1109/JSEN.2023.3332067",
+            "article-title": "Identification and compensation of gain mismatches for whole-angle microhemispherical resonator gyroscope based on modal reversal",
+            "volume": "24",
+            "author": "Chen",
+            "year": "2024",
+            "journal-title": "IEEE Sensors Journal"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.ifacol.2025.11.309_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "195",
+            "DOI": "10.3390/mi16020195",
+            "article-title": "Design, Analysis, and Simulation of a MEMS Tuning Fork Gyroscope with a Mechanical Amplification Structure",
+            "volume": "16",
+            "author": "Hu",
+            "year": "2025",
+            "journal-title": "Micromachines"
+          },
+          {
+            "key": "10.1016/j.ifacol.2025.11.309_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "662",
+            "DOI": "10.1109/SCSET58950.2023.00150",
+            "article-title": "Hemispherical Resonator Gyro Error Self-Calibration Method Based on Standing Wave Precession",
+            "author": "Jia",
+            "year": "2023",
+            "journal-title": "2023 International Seminar on Computer Science and Engineering Technology (SCSET)"
+          },
+          {
+            "key": "10.1016/j.ifacol.2025.11.309_bib4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Li, B., Li, Z., Wang, X., Huang, C. and Yang, B. (2024). 4.11-Million Q-factor Whole-Angle MEMS Hemispherical Resonator Gyroscope with 0.013°/h Bias Instability. Measurement Science and Technology, 35(11)",
+            "DOI": "10.1088/1361-6501/ad6fc3"
+          },
+          {
+            "key": "10.1016/j.ifacol.2025.11.309_bib5",
+            "first-page": "1",
+            "article-title": "A Novel Wide-Bandwidth In-Run Mode-Matching Technique for MEMS Vibratory Gyroscopes",
+            "author": "Liu",
+            "year": "2025",
+            "journal-title": "IEEE/ASME Transactions on Mechatronics"
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.ifacol.2025.11.309_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "3105",
+            "DOI": "10.1109/JSEN.2022.3140799",
+            "article-title": "Investigation of angle drift induced by actuation electrode errors for whole-angle micro-shell resonator gyroscope",
+            "volume": "22",
+            "author": "Sun",
+            "year": "2022",
+            "journal-title": "IEEE Sensors Journal"
+          },
+          {
+            "issue": "13",
+            "key": "10.1016/j.ifacol.2025.11.309_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "4328",
+            "DOI": "10.3390/s24134328",
+            "article-title": "Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hemispherical Resonator Gyro",
+            "volume": "24",
+            "author": "Sun",
+            "year": "2024",
+            "journal-title": "Sensors"
+          },
+          {
+            "key": "10.1016/j.ifacol.2025.11.309_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "1118",
+            "DOI": "10.1109/MEMSYS.2017.7863610",
+            "article-title": "Fully-differential single resonator FM/whole angle gyroscope using CW/CCW mode separator",
+            "author": "Tsukamoto",
+            "year": "2017",
+            "journal-title": "2017 IEEE 30th International Conference on Micro Electro Mechanical Systems (MEMS)"
+          },
+          {
+            "key": "10.1016/j.ifacol.2025.11.309_bib9",
+            "first-page": "1",
+            "article-title": "Virtually rotated MEMS whole angle gyroscope using independently controlled CW/CCW oscillations",
+            "author": "Tsukamoto",
+            "year": "2018",
+            "journal-title": "2018 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)"
+          },
+          {
+            "key": "10.1016/j.ifacol.2025.11.309_bib10",
+            "first-page": "1",
+            "article-title": "MEMS rate integrating gyroscope with temperature corrected virtual rotation",
+            "author": "Tsukamoto",
+            "year": "2019",
+            "journal-title": "2019 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)"
+          },
+          {
+            "key": "10.1016/j.ifacol.2025.11.309_bib11",
+            "first-page": "1",
+            "article-title": "Identification of gain mismatches in control electronics of rate integrating CVGs",
+            "author": "Vatanparvar",
+            "year": "2021",
+            "journal-title": "2021 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.ifacol.2025.11.309_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "14027",
+            "DOI": "10.1109/JSEN.2024.3378916",
+            "article-title": "Control System Based on Double-frequency Drive and Single-channel Detection for Rate Integrating Vibratory Gyroscope",
+            "volume": "24",
+            "author": "Xu",
+            "year": "2024",
+            "journal-title": "IEEE Sensors Journal"
+          },
+          {
+            "issue": "20",
+            "key": "10.1016/j.ifacol.2025.11.309_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "31827",
+            "DOI": "10.1109/JSEN.2024.3442207",
+            "article-title": "A Novel Self-modulation Method for Whole Angle Resonator Gyroscope Based on High Harmonic Compensation",
+            "volume": "24",
+            "author": "Yi",
+            "year": "2024",
+            "journal-title": "IEEE Sensors Journal"
+          }
+        ],
+        "container-title": [
+          "IFAC-PapersOnLine"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2405896325019810?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2405896325019810?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2026-09-04T16:23:48Z",
+          "timestamp": 1788539028000
+        },
+        "score": 36.0216,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405896325019810"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "references-count": 13,
+        "journal-issue": {
+          "issue": "20",
+          "published-print": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S2405896325019810"
+        ],
+        "URL": "https://doi.org/10.1016/j.ifacol.2025.11.309",
+        "ISSN": [
+          "2405-8963"
+        ],
+        "issn-type": [
+          {
+            "value": "2405-8963",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Drive Error Compensation Method for Frequency Modulation Hemispherical Resonator Gyro",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "IFAC-PapersOnLine",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.ifacol.2025.11.309",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2025. The Authors. Peer review under responsibility of International Federation of Automatic Control.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ],
+          "date-time": "2026-07-21T06:02:01Z",
+          "timestamp": 1784613721991,
+          "version": "3.55.0"
+        },
+        "reference-count": 7,
+        "publisher": "IEEE",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  3,
+                  20
+                ]
+              ],
+              "date-time": "2026-03-20T00:00:00Z",
+              "timestamp": 1773964800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-029"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  3,
+                  20
+                ]
+              ],
+              "date-time": "2026-03-20T00:00:00Z",
+              "timestamp": 1773964800000
+            },
+            "content-version": "stm-asf",
+            "delay-in-days": 0,
+            "URL": "https://doi.org/10.15223/policy-037"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              20
+            ]
+          ]
+        },
+        "DOI": "10.1109/ecitech69277.2026.11601300",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2026-07-20T20:18:07Z",
+          "timestamp": 1784578687000
+        },
+        "page": "509-513",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Implementation of a Digital Measurement and Control Circuit for Whole-Angle Mode Micro-Hemispherical Resonator Gyroscope Based on Zynq"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "Chen",
+            "family": "Xu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Zhejiang University,College of Information Science and Electronic Engineering,Hangzhou,China,310027"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Baoyin",
+            "family": "Hou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University,College of Information Science and Electronic Engineering,Hangzhou,China,310027"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ziqi",
+            "family": "Liao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University,Polytechnic Institute,Hangzhou,China,310015"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lufeng",
+            "family": "Che",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University,Zhejiang Key Laboratory of Advanced Micro-Nano Transducers Technology, College of Information Science and Electronic Engineering,Hangzhou,China,310027"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/jsen.2022.3181302"
+          },
+          {
+            "key": "ref2",
+            "article-title": "High-performance micromachined vibratory rate- and rate-integrating gyroscopes",
+            "volume-title": "Ph.D. dissertation",
+            "author": "Cho",
+            "year": "2012"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/1361-6501/ad6fc3"
+          },
+          {
+            "key": "ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/ISISS.2015.7102360"
+          },
+          {
+            "key": "ref5",
+            "first-page": "427",
+            "article-title": "Research on control technology and implementation methods of hemispherical resonator gyroscopes based on frequency demodulation",
+            "volume-title": "Proc. Workshop Dev. Dyn. Directions Inertial Technol",
+            "author": "Wang"
+          },
+          {
+            "key": "ref7",
+            "first-page": "26",
+            "article-title": "Vibratory gyro analysis by the method of averaging",
+            "volume-title": "Proc. 2nd St. Petersburg Int. Conf. Gyrosc. Technol. Navig",
+            "author": "Lynch"
+          },
+          {
+            "key": "ref8",
+            "article-title": "Calculating damping from ring-down using Hilbert transform and curve fitting",
+            "volume-title": "Proc. Int. Oper. Modal Anal. Conf. (IOMAC)",
+            "author": "Sumali"
+          }
+        ],
+        "event": {
+          "name": "2026 International Conference on Electrical, Control and Information Technology (ECITech)",
+          "location": "Nanjing, China",
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                20
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                22
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "2026 International Conference on Electrical, Control and Information Technology (ECITech)"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/11601120/11601214/11601300.pdf?arnumber=11601300",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ],
+          "date-time": "2026-07-21T05:09:45Z",
+          "timestamp": 1784610585000
+        },
+        "score": 35.869045,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/11601300/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              20
+            ]
+          ]
+        },
+        "references-count": 7,
+        "URL": "https://doi.org/10.1109/ecitech69277.2026.11601300",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              20
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 12,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

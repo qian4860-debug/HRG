@@ -1,0 +1,268 @@
+ARCHIVE: 全角陀螺/US8991249.pdf
+TOTAL PAGES: 15
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+US00899 1249B2 
+ (12) United States Patent (10) Patent No.: US 8,991,249 B2 
+ Jeanroy (45) Date of Patent: *Mar. 31, 2015 
+ (54) VIBRATING GYROSCOPE AND TREATMENT (56) References Cited 
+ PROCESS U.S. PATENT DOCUMENTS 
+ (75) Inventor: Alain Jeanroy, Paris (FR) 4,157,041 A * 6/1979 Loper et al. ................ T3,504.13 
+ 4,644,793 A * 2/1987 Church .......... ... 73,504.13 
+ (73) Assignee: Sagem Defense Securite, Paris (FR) 6,640,630 B1 * 1 1/2003 de Salaberry ...... ... 73,504.13 7,123,111 B2 * 10/2006 Brunson et al. .......... 331/1 16 M 
+ c 7,281,425 B2 * 10/2007 Chikovani et al. ......... 73/504.13 (*) Notice: Subject to any disclaimer, the term of this 7,281,426 B1 * 10/2007 Chikovani et al. ......... T3,504.13 
+ patent is extended or adjusted under 35 7,617,727 B2 * 1 1/2009 Watson .............. ... 73,504.13 
+ U.S.C. 154(b) by 225 days. 2010, O154542 A1* 6, 2010 Okon et al. ... 73,504.12 
+ 2013/0269433 A1* 10/2013 Jeanroy ...................... T3,504.12 This patent is Subject to a terminal dis 
+ claimer. FOREIGN PATENT DOCUMENTS 
+ FR 27 17267 9, 1995 (21) Appl. No.: 13/478,086 FR 2723 635 2, 1996 
+ FR 2814234 3, 2002 
+ (22) Filed: May 22, 2012 FR 2.946 135 12/2010 
+ GB 2272 054 5, 1994 
+ (65) Prior Publication Data (Continued) 
+ OTHER PUBLICATIONS US 2012/O297875 A1 Nov. 29, 2012 
+ French Preliminary Search Report Based on Application No. 
+ 1005072 Mailed August 11, 2011. 
+ Related U.S. Application Data Primary Examiner — Helen Kwok 
+ (60) Provisional application No. 61/489,070, filed on May (74) Attorney, Agent, or Firm — Miles & Stockbridge PC 
+ 23, 2011. (57) ABSTRACT 
+ A vibrating gyroscope has a base and a resonator. The reso (51) Int. Cl. nator includes a body of generally cylindrical shape terminat 
+ GOIC 9/56 (2012.01) ing in a face. The resonator is capable of vibrating according 
+ GOIC 9/569 (2012.01) to a first vibration mode having antinodes distributed on n 
+ (52) U.S. Cl. axes, and a second vibration mode having antinodes distrib 
+ CPC .................................. G0IC 19/5691 (2013.01) uted on n other axes. The face of the resonator has two 
+ USPC ..................................... 73/504.13: 73/504.12 piezoelectric assemblies on each axis of the first and of the 
+ (58) Field of Classification Search second vibration modes. Each piezoelectric assembly has at CPC ........... G01C 19/5691; G01C 1975684; G01C least one piezoelectric element capable of exciting the reso 
+ 19/5677; G01C 19/5719; G01C 19/567; nator in vibration and at least one piezoelectric element GO1C 19756 capable of detecting vibrations of the resonator at the same 
+ USPC ............................. 73/504.13,504.12,504.04 time. 
+ See application file for complete search history. 18 Claims, 7 Drawing Sheets 
+ s 
+ 13272% Ca nn as 
+ Allis A N NIE 3|WS7 N (4H4. N 1R1, C N A N 15 s 3 18 
+     
+   
+   
+--- PAGE 2 ---
+US 8,991.249 B2 
+ Page 2 
+ (56) References Cited GB 2424 706 10, 2006 
+ JP 2009092595 4/2009 
+ WO 2010, 1398.93 12/2010 FOREIGN PATENT DOCUMENTS 
+ GB 2310 284 8, 1997 * cited by examiner 
+--- PAGE 3 ---
+U.S. Patent Mar. 31, 2015 Sheet 1 of 7 US 8,991,249 B2 
+ FIG. 1 
+   
+--- PAGE 14 ---
+US 8,991,249 B2 
+ excite the resonator with amplitude of signequal to the sign of 
+ the amplitude of the antinodes of the vibration modes, said 
+ sign being measured via the detection elements 24 belonging 
+ to the corresponding piezoelectric assemblies. 
+ There are therefore: 
+ four piezoelectric excitation elements 23 for a first vibra 
+ tion mode (x,y); 
+ four piezoelectric detection elements 24 for a first vibration 
+ mode (x,y); 
+ four piezoelectric excitation elements 23 for a second 
+ vibration mode (x, y); 
+ four piezoelectric detection elements 24 for a second vibra 
+ tion mode (x, y). 
+ Of course, there can be more than four elements for each of 
+ the functions described hereinabove. So, each function (ex 
+ citation/detection) has at least four piezoelectric elements. 
+ The adapted combination of measurements of these ele 
+ ments rejects parasite vibration modes. 
+ FIG. 8 shows an embodiment of control and processing of 
+ the vibration of the resonator. 
+ Each of the piezoelectric assemblies Ei at the same time comprises a piezoelectric element 23 capable of exciting the 
+ resonator in vibration and a piezoelectric element 24 capable 
+ of detecting vibrations of the resonator. The elements 23, 24 are shaped as rectangular pellets. 
+ Alternatively, the elements 23 and 24 can be made in the form of contiguous Zones of a piezoelectric assembly. 
+ The face 5 of the resonator 3 comprises on each axis (x, y, 
+ x, y) of the first and of the second vibration mode two 
+ piezoelectric assemblies (E. E. . . . ), each piezoelectric 
+ assembly (E. E. . . . ) at the same time comprising a piezo 
+ electric element 23 capable of exciting the resonator in vibra 
+ tion and at least one piezoelectric element 24 capable of 
+ detecting vibrations of the resonator. 
+ Here there are therefore sixteen piezoelectric elements 23, 
+ 24, eight in excitation and eight in measurements. 
+ This embodiment rejects parasite vibration modes which 
+ might occur in the resonator, something not possible with 
+ only eight piezoelectric elements. 
+ The four piezoelectric elements 24a, 24c, 24e and 24g, 
+ arranged according to the axes x,y of the antinodes of the first vibration mode, Supply output signals each proportional to 
+ elongation of the vibration of the resonator and which are combined in a Subtractor 28 to Supply the input signal of a slave excitation circuit 29 of amplitude and phase. The circuit shown by way of example comprises an ampli 
+ fier 30 which attacks a multiplier 31 by way of a filter 32 piloted by a phase regulation chain. 
+ The gain of the multiplier 31 is controlled by the amplitude 
+ regulation chain 33 which receives both the output signal of 
+ the amplifier 30 and a reference signal REF, representative of 
+ the amplitude to be maintained. 
+ The filter 32 (active in general) is controlled for its part by a phase comparator 40 which receives both the output signal 
+ of the amplifier 30 and also the output signal of the circuit, coming from the multiplier 31. The phase comparator 40 
+ controls the filter 32 so as to maintain the phase difference at a constant value, generally Zero. The output signal of the circuit 29 attacks the piezoelectric 
+ elements 23a, 23c. 23e. 23g by way of an inverter 34, invert ing the polarity of signals applied to the elements 23c and 23g. 
+ The four piezoelectric elements 24b, 24.d. 24f. 24h supply 
+ signals which are combined in a subtractor 41 to constitute the input signal of the measuring circuit 42, in closed-loop 
+ gyrometer mode. 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 45 
+ 50 
+ 55 
+ 60 
+ 65 
+ 10 
+ The circuit 42 can have a constitution of known type. The circuit illustrated comprises an input amplifier 43 fol 
+ lowed by a synchronous demodulator 44 which receives a 
+ reference signal constituted by an output signal of the circuit 
+ 29. 
+ The demodulated signal is applied to a low-pass filter 45 whereofthe output 46 is representative of the angular rotation 
+ speed Q. Looping in gyrometer mode is ensured by a link between the output of the amplifier 43 and the piezoelectric 
+ elements 23b, 23d, 23f 23h, by way of a modulator 47, an amplifier 48 and an inverter 49 inverting the polarity of the 
+ signals applied to the elements 23d and 23h. 
+ The subtractors 28 and 41 and inverters 34 and 49 can be 
+ dispensed by appropriately orienting the polarisation vectors 
+ of the piezoelectric pellets 23, 24 relative to each other. 
+ The invention rejects parasite vibration modes which may 
+ occur in the resonator. These are parasite modes such as 
+ flexion mode or drum mode, illustrated in FIG. 2. 
+ As indicated earlier, the invention may have numerous 
+ variant embodiments, especially related to the constitution of the control and processing modules 18 linked to the mechani 
+ cal resonator. 
+ The person skilled in the art understands that the vibration control and processing modules 18just now described are not limiting for the invention, and that various implementations 
+ and variants are possible. 
+ As the person skilled in the art can understand, the gyro Scope according to the invention is more efficient than gyro Scopes of the prior art. 
+ The invention claimed is: 
+ 1. A vibrating gyroscope comprising: 
+ a base comprising vibration control and processing mod ules; and a resonator comprising a body of generally 
+ cylindrical shape terminating in a face, the resonator being capable of vibrating according to a first vibration 
+ mode comprising antinodes distributed on n axes, and a 
+ second vibration mode comprising antinodes distributed 
+ on n other axes, 
+ wherein the face of the resonator comprises on each axis of 
+ the first and of the second vibration modes two piezo 
+ electric assemblies (E), each piezoelectric assembly (E.) comprising at least one 
+ piezoelectric element capable of exciting the resonator 
+ in vibration and at least one piezoelectric element capable of detecting vibration of the resonator at the 
+ same time, and 
+ said face of the resonator further comprises a plurality of through holes for connecting the piezoelectric assem 
+ blies (E) to said vibration control and processing mod 
+ ules. 
+ 2. The gyroscope as claimed in claim 1, wherein said resonator is capable of vibrating according to a first vibration 
+ mode comprising antinodes distributed on two axes (x,y), and 
+ a second vibration mode comprising antinodes distributed on two other axes (x,y), the face of said resonator comprising 
+ on each axis of the first and of the second vibration modes, 
+ two piezoelectric assemblies (E), each piezoelectric assem 
+ bly (E.) at the same time comprising at least one piezoelectric 
+ element capable of exciting said resonator in vibration and at least one piezoelectric element capable of detecting vibration 
+ of the resonator. 
+ 3. The gyroscope as claimed in claim 1, wherein said piezoelectric assemblies (E.) are arranged on each axis of the 
+ first and of the second vibration modes on either side of a 
+ centre of the face of the resonator. 
+ 4. The gyroscope as claimed in claim 2, wherein said piezoelectric assemblies (E.) are arranged on each axis of the 
+--- PAGE 15 ---
+US 8,991,249 B2 
+ 11 
+ first and of the second vibration modes on either side of a 
+ centre of the face of said resonator. 
+ 5. The gyroscope as claimed in claim 1, wherein each said assembly comprises two piezoelectric elements, a piezoelec 
+ tric element capable of exciting said resonator in vibration and a piezoelectric element capable of detecting vibration of 
+ said resonator. 
+ 6. The gyroscope as claimed in claim 2, wherein each said assembly comprises two piezoelectric elements, a piezoelec 
+ tric element capable of exciting said resonator in vibration and a piezoelectric element capable of detecting vibration of 
+ said resonator. 
+ 7. The gyroscope as claimed in claim3, wherein each said assembly comprises two piezoelectric elements, a piezoelec 
+ tric element capable of exciting said resonator in vibration and a piezoelectric element capable of detecting vibration of 
+ said resonator. 
+ 8. The gyroscope as claimed in claim 1, wherein, said piezoelectric elements capable of exciting said reso 
+ nator in vibration are arranged uniformly over a circum 
+ ference of the face, and 
+ said piezoelectric elements capable of detecting vibration 
+ of said resonator are arranged uniformly over the cir 
+ cumference of the face. 
+ 9. The gyroscope as claimed in claim 2, wherein, said piezoelectric elements capable of exciting said reso 
+ nator in vibration are arranged uniformly over a circum 
+ ference of the face, and 
+ said piezoelectric elements capable of detecting vibration 
+ of said resonator are arranged uniformly over the cir 
+ cumference of the face. 
+ 10. The gyroscope as claimed in claim 3, wherein, said piezoelectric elements capable of exciting said reso 
+ nator in vibration are arranged uniformly over a circum 
+ ference of the face, and 
+ said piezoelectric elements capable of detecting vibration 
+ of said resonator are arranged uniformly over the cir 
+ cumference of the face. 
+ 11. The gyroscope as claimed in claim 5, wherein, said piezoelectric elements capable of exciting said reso 
+ nator in vibration are arranged uniformly over a circum 
+ ference of the face, and 
+ said piezoelectric elements capable of detecting vibration 
+ of said resonator are arranged uniformly over the cir 
+ cumference of the face. 
+ 12. The gyroscope as claimed in claim 1, wherein said piezoelectric elements of each assembly comprise distinct 
+ elements and/or Zones of the same piezoelectric element. 13. The gyroscope as claimed in claim 1, 
+ wherein an electrical connection passes through one of the 
+ plurality of through holes to connect one or more of said 
+ vibration control and processing modules to one of said piezoelectric elements. 
+ 14. The gyroscope as claimed in claim 1, wherein, said through holes are arranged substantially uniformly over a 
+ circumference of said face, and said piezoelectric elements are arranged between said through holes. 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 45 
+ 50 
+ 55 
+ 12 
+ 15. A treatment process in a vibrating gyroscope, wherein the gyroscope comprises: 
+ a base comprising vibration control and processing mod 
+ ules, 
+ a resonator, comprising a body of generally cylindrical 
+ shape terminating in a face, the resonator being capable 
+ of vibrating according to a first vibration mode compris 
+ ing antinodes distributed on n axes, and a second vibra 
+ tion mode comprising antinodes distributed on n other 
+ aXeS, 
+ the face of said resonator comprising two piezoelectric 
+ assemblies (E.) on each axis of the first and of the second 
+ vibration modes, 
+ each piezoelectric assembly (E.) comprising at least one 
+ piezoelectric element capable of exciting said resonator 
+ in vibration and at least one piezoelectric element 
+ capable of detecting vibration of the resonator at the 
+ same time, 
+ said face of the resonator further comprising a plurality of through holes for connecting the piezoelectric assem 
+ blies (E.) to side vibration control and processing mod 
+ ules, said process comprising: 
+ measuring vibration of said resonator with said piezoelec 
+ tric elements, and 
+ combining the measurements of said piezoelectric ele 
+ ments for rejecting parasite vibration modes appearing 
+ in said resonator. 
+ 16. The process as claimed in claim 15, wherein said com 
+ bination of measurements of said piezoelectric elements 
+ comprises obtaining for each vibration mode, a treated signal 
+ equal to a sum of measurements of the piezoelectric elements 
+ located on the antinodes having amplitude of a given sign, 
+ minus the Sum of measurements of said piezoelectric ele ments located on the antinodes having amplitude of a sign opposite the given sign, said signs being defined at a given 
+ instant of vibration, said treated signal rejecting parasite 
+ vibration modes of said resonator. 
+ 17. The process as claimed in claim 15, comprising excit 
+ ing in vibration the first and/or the second modes via said piezoelectric elements capable of exciting said resonator in 
+ vibration arranged on the axes of said mode, said excitation 
+ being calibrated from one or more measurements of said piezoelectric elements capable of detecting vibration of said 
+ resonator arranged on said axes of said mode, to execute a closed-loop processing. 
+ 18. The process as claimed in claim 16, comprising excit 
+ ing in vibration the first and/or the second modes via said piezoelectric elements capable of exciting said resonator in 
+ vibration arranged on the axes of said mode, said excitation 
+ being calibrated from one or more measurements of said piezoelectric elements capable of detecting vibrations of said 
+ resonator arranged on said axes of said mode, to execute a closed-loop processing. 
+ k k k k k 

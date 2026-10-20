@@ -1,0 +1,546 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2026-10-08T17:25:24Z",
+      "timestamp": 1791480324767,
+      "version": "4.3.4"
+    },
+    "reference-count": 26,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              25
+            ]
+          ],
+          "date-time": "2024-08-25T00:00:00Z",
+          "timestamp": 1724544000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100010097",
+        "name": "China Association for Science and Technology",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100010097",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100020225",
+        "name": "Heilongjiang Human Resources and Social Security Bureau",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100020225",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Measurement"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.measurement.2024.115599",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2024-08-26T18:55:00Z",
+      "timestamp": 1724698500000
+    },
+    "page": "115599",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 17,
+    "special_numbering": "C",
+    "title": [
+      "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro"
+    ],
+    "prefix": "10.1016",
+    "volume": "240",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0084-7303",
+        "authenticated-orcid": false,
+        "given": "Yiwei",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9881-0092",
+        "authenticated-orcid": false,
+        "given": "Guoxing",
+        "family": "Yi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0721-9377",
+        "authenticated-orcid": false,
+        "given": "Zhennan",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4207-189X",
+        "authenticated-orcid": false,
+        "given": "Qi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1016/j.sna.2017.03.041",
+        "article-title": "Observation and analysis of the quality factor variation behavior in a monolithic fused silica cylindrical resonator",
+        "volume": "260",
+        "author": "Pan",
+        "year": "2017",
+        "journal-title": "Sens. Actuators a: Phys."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0010",
+        "series-title": "Navigation, and Control (GNC) Conference",
+        "article-title": "In-flight performance of the cassini hemispherical quartz resonator gyro inertial reference units, AIAA guidance",
+        "author": "Brown",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0015",
+        "article-title": "The hemispherical resonator gyro: from wineglass to the planets",
+        "volume": "134",
+        "author": "Rozelle",
+        "year": "2009",
+        "journal-title": "Adv. Astronaut. Sci."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0020",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2021.108760",
+        "article-title": "An accurate thermoelastic model and thermal output error analysis of a hemispherical resonator gyroscope under varying temperatures",
+        "volume": "170",
+        "author": "Xu",
+        "year": "2022",
+        "journal-title": "Mech. Syst. Sig. Process."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "1690",
+        "DOI": "10.3390/s19071690",
+        "article-title": "the synthesis model of flat-electrode hemispherical resonator gyro",
+        "volume": "19",
+        "author": "Wei",
+        "year": "2019",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0030",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ISS46986.2019.8943660",
+        "article-title": "HRG CrystalTM DUAL CORE: Rebooting the INS revolution",
+        "author": "Foloppe",
+        "year": "2019",
+        "journal-title": "2019 DGON Inertial Sensors and Systems"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0035",
+        "series-title": "IEEE International Symposium on Inertial Sensors and Systems (ISS)",
+        "article-title": "HRG by Sagem from laboratory to mass production",
+        "author": "Jeanroy",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0040",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.sna.2022.113365",
+        "article-title": "Fundamental investigation of subsurface damage on the quality factor of hemispherical fused silica shell resonator",
+        "volume": "335",
+        "author": "Chu",
+        "year": "2022",
+        "journal-title": "Sens. Actuators a: Phys."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "555",
+        "DOI": "10.3390/s16040555",
+        "article-title": "Design and verification of a digital controller for a 2-piece hemispherical resonator gyroscope",
+        "volume": "16",
+        "author": "Lee",
+        "year": "2016",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0050",
+        "series-title": "2018 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)",
+        "article-title": "HRG by SAFRAN: The game-changing technology",
+        "author": "Delhaye",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0055",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/InertialSensors.2018.8577108",
+        "article-title": "The world smallest, most accurate and reliable pure inertial navigator: ONYXTM",
+        "author": "Deleaux",
+        "year": "2018",
+        "journal-title": "2018 DGON Inertial Sensors and Systems (ISS)"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0060",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/5.0026821",
+        "article-title": "Adaptive compensation of damping asymmetry in whole-angle hemispherical resonator gyroscope",
+        "volume": "10",
+        "author": "Guo",
+        "year": "2020",
+        "journal-title": "AIP Adv."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0065",
+        "article-title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+        "volume": "11",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0070",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Zhang, T. Miao, K. Guo, J. Sun, X. Wu, D. Xiao, Electronic Gain Error Compensation For WholeAngle Mode Coriolis Vibrating Gyroscopes With High Q Factor, 2020 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL) (2020), DOI: 10.1109/INERTIAL48129.2020.9090062.",
+        "DOI": "10.1109/INERTIAL48129.2020.9090062"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "14726",
+        "DOI": "10.1109/JSEN.2021.3072046",
+        "article-title": "Modeling and compensation of assembly inclination error of micro hemispherical resonator gyroscope under force-to-rebalance mode",
+        "volume": "21",
+        "author": "Ruan",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1109/JMEMS.2021.3123082",
+        "article-title": "Characterization and compensation of detection electrode errors for whole-angle micro-shell resonator gyroscope",
+        "volume": "31",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "J. Microelectromech. Syst."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0085",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2022.112064",
+        "article-title": "Modeling, identification and compensation for assembly error of whole-angle mode hemispherical resonator gyro",
+        "volume": "204",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "21342",
+        "DOI": "10.1109/JSEN.2021.3103115",
+        "article-title": "Single-channel control for hemispherical resonator gyro based on time division multiplexing and demultiplexing",
+        "volume": "21",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.1016/j.sna.2014.07.016",
+        "article-title": "A study on Q factor of the trimmed resonator for vibratory cupped gyroscopes",
+        "volume": "218",
+        "author": "Xi",
+        "year": "2014",
+        "journal-title": "Sens. Actuators a: Phys."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "150",
+        "DOI": "10.1016/j.sna.2014.02.001",
+        "article-title": "Electrostatic and mechanical characterization of 3-D micro-wineglass resonators",
+        "volume": "215",
+        "author": "Senkal",
+        "year": "2014",
+        "journal-title": "Sens. Actuators a: Phys."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0105",
+        "unstructured": "D. D. Lynch, Vibratory gyro analysis by the method of averaging, THE 2nd SAINT Petersbg Int. Conf. GYROSCOPIC Technol. Navig. Part 1 (1995) 26-34."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0110",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2021.109924",
+        "article-title": "High-precision synchronous test method of vibration performance parameters for fused quartz hemispherical resonator",
+        "volume": "185",
+        "author": "Wei",
+        "year": "2021",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0115",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2022.111426",
+        "article-title": "Pose error identification algorithm based on hemispherical resonant gyroscope assembly capacitance uniformity",
+        "volume": "198",
+        "author": "Yu",
+        "year": "2022",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "292",
+        "DOI": "10.1134/S0020168520030103",
+        "article-title": "Silica glass for high-Q mechanical resonators",
+        "volume": "56",
+        "author": "Lunin",
+        "year": "2020",
+        "journal-title": "Inorg. Mater."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "879",
+        "DOI": "10.1007/s11018-020-01708-0",
+        "article-title": "Development of an algorithm to suppress frequency splitting of an axisymmetric resonator of a wave solid-state gyroscope with optical detection",
+        "volume": "62",
+        "author": "Busurin",
+        "year": "2020",
+        "journal-title": "Meas. Tech."
+      },
+      {
+        "key": "10.1016/j.measurement.2024.115599_b0130",
+        "first-page": "683",
+        "article-title": "Whole-angle hemispherical resonator gyroscope drift model caused by nonlinear detection",
+        "volume": "30",
+        "author": "Xu",
+        "year": "2022",
+        "journal-title": "Journal of Chinese Inertial Technology"
+      }
+    ],
+    "container-title": [
+      "Measurement"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0263224124014842?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0263224124014842?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2024-11-10T15:02:16Z",
+      "timestamp": 1731250936000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0263224124014842"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "references-count": 26,
+    "alternative-id": [
+      "S0263224124014842"
+    ],
+    "URL": "https://doi.org/10.1016/j.measurement.2024.115599",
+    "relation": {},
+    "ISSN": [
+      "0263-2241"
+    ],
+    "issn-type": [
+      {
+        "value": "0263-2241",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Measurement",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.measurement.2024.115599",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 The Author(s). Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "115599"
+  }
+}

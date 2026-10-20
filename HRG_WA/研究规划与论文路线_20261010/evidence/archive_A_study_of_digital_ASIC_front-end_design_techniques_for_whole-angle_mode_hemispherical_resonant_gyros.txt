@@ -1,0 +1,402 @@
+ARCHIVE: 全角陀螺/A_study_of_digital_ASIC_front-end_design_techniques_for_whole-angle_mode_hemispherical_resonant_gyros.pdf
+TOTAL PAGES: 6
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+A study of digital ASIC front-end design techniques
+for whole-angle mode hemispherical resonant gyros
+Yun Zhou1,a
+College of Mechanical Engineering
+Nanjing University of Science and Technology
+Nanjing, China
+yunzhz@foxmail.com
+Yi Zhou3,c
+College of Mechanical Engineering
+Nanjing University of Science and Technology
+Nanjing, China
+Tong Zhou2,b*
+College of Mechanical Engineering
+Nanjing University of Science and Technology
+Nanjing, China
+zhoutong@njust.edu.cn
+Yan Su4,d
+College of Mechanical Engineering
+Nanjing University of Science and Technology
+Nanjing, China
+Abstract—This study addresses the demand for the integration
+and localization of control circuits for whole-angle mode
+hemispherical resonator gyros, and carries out digital ASIC
+(application specific integrated circuit) front-end design and
+simulation verification work. Initially, focusing on the
+requirement of whole-angle control, an investigation was
+conducted into a whole-angle control scheme based on the
+amplitude demodulation algorithm. Subsequently, to meet the
+needs of frequency-phase control, a digital phase-locked loop
+circuit based on the CORDIC algorithm was devised. Furthermore,
+in response to the control requirements of energy and quadrature
+signals, a study was carried out on a circuit based on the PI control
+algorithm. Furthermore, to fulfill the requirement for detecting
+the precession angle of the gyro resonator, an approach for
+precession angle detection and whole-angle expansion method was
+explored. Ultimately, the front-end design of the aforementioned
+circuits and core modules functional verification were
+accomplished on the IC (integrated circuit) design platform. The
+validation results indicate that the designed circuits have
+successfully fulfilled the intended functions and achieved favorable
+performance metrics, thus laying a solid groundwork for the
+subsequent back-end design and fabrication of digital ASICs.
+Keywords-digital ASIC; hemispherical resonant gyro; whole-
+angle mode; amplitude demodulation
+I. INTRODUCTION
+The hemispherical resonator gyro is a solid-state wave gyro
+that operates based on the Coriolis effect, primarily used for
+sensing angles and angular velocities. It is widely employed in
+aerospace, navigation, weapon guidance, and various
+specialized fields due to its advantages of high reliability,
+precision, and long lifespan[1].
+The whole-angle mode hemispherical resonator gyro refers
+to the standing wave freely precessing in the resonator, directly
+outputting angular information, which is equivalent to
+integrating angular velocity [2]. Compared to traditional force
+balance control modes, the whole-angle mode hemispherical
+resonator gyro has a larger dynamic range and is suitable for
+high-speed and high-dynamic applications [3], such as missile
+guidance and aircraft navigation. However, the control scheme
+for the whole-angle mode hemispherical resonator gyro is more
+complex, making research on the control circuit of the whole-
+angle mode hemispherical resonator gyro critically important.
+Currently, the control circuits for whole-angle mode gyros
+are primarily implemented using FPGA+CPU (ARM or DSP)
+architectures[4][5],the first demodulation is done through FPGA
+and the second demodulation and closed-loop control is done
+through CPU. This circuit architecture exhibits robust
+computational capabilities, yet it is concomitant with significant
+power consumption, relatively low integration density, and
+reliance on imported chips, consequently resulting in high circuit
+costs.
+Therefore, in order to achieve the integration and localization
+of control circuit and reduce circuit costs, this study proposes a
+digital ASIC as a new control circuit implementation scheme
+that integrates demodulation and control in a single chip without
+the aid of a CPU.
+II. AMPLITUDE DEMODULATION ALGORITHM FOR THE WHOLE-
+ANGLE MODE HEMISPHERICAL RESONANT GYRO
+A. Wholel-angle mode hemispherical resonant gyro detection
+principle
+The schematic diagram of the two-piece hemispherical
+resonator gyro structure is shown in Fig. 1. The cross-section of
+the gyro resonator forms a flat capacitor with the flat electrode
+below it. When an external angular velocity is applied, the gyro
+resonator starts to precess freely, causing a change in the
+capacitance of the flat capacitor. At this point, the amplified
+circuit converts the slight change in capacitance into a voltage
+variation, thereby extracting the detection signal from the gyro.
+Figure 1.  Hemispherical resonant gyro structure
+2024 4th International Conference on Electronics, Circuits and Information Engineering (ECIE)
+979-8-3503-8831-2/24/$31.00 ©2024 IEEE
+650
+2024 4th International Conference on Electronics, Circuits and Information Engineering (ECIE) | 979-8-3503-8831-2/24/$31.00 ©2024 IEEE | DOI: 10.1109/ECIE61885.2024.10627746
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 18:07:18 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 2 ---
+In the Cartesian coordinate system, with the 0° electrode and
+the 45° electrode designated as the x-axis and y-axis,
+respectively, the standing wave precession of the resonator is
+illustrated in Fig. 2. According to D.D Lynch's averaging
+method[6], the detection signals for the x-axis and y-axis at this
+moment can be expressed as shown in Eq. (1) and Eq. (2). Where
+a is the amplitude of the main standing wave of the resonator, q
+is the amplitude of the quadrature wave of the resonator , 2q is
+the angle of the resonator's precession, w is the resonance
+frequency of the gyro resonator, and j is the phase of the detected
+signal of the gyro.
+c o s ( 2 ) c o s () s i n ( 2 s i n ()x a t qt π ϖι π ϖι< ∗ ,∗ ）  (1)
+sin(2 ) cos( ) cos(2 ) sin( )y at qt π ϖι π ϖι<∗ ∗∗  (2)
+Figure 2.  Standing wave precession of the resonator
+B. Amplitude demodulation algorithm
+Reference carrier signals, Vs and Vc, are as shown in Eq. (3)
+and Eq. (4). Where w is the gyro resonant frequency, and f is the
+carrier signals phase.
+2 s i n ()V st ϖε<∗ (3)
+2 c o s ()V ct ϖε<∗ (4)
+Multiplying the carrier signal Vs , Vc with x, y respectively,
+and then passed through a low-pass filter. The signals Sx, Sy, Cx
+and Cy are obtained as shown in Eq. (5), Eq. (6), Eq. (7) and  Eq.
+(8).
+{}S x L P F V sx<√ (5)
+{}C x L P F V cx<√ (6)
+{}Sy LPF Vs y<√ (7)
+{}Cy LPF Vc y<√ (8)
+As shown in Eq. (9), Eq. (10), Eq. (11), Eq. (12) and Eq. (13),
+performing combined operations on the Sx, Sy, Cx and Cy signals
+obtain the information containing the resonator main standing
+wave energy information (E), the resonator quadrature wave
+amplitude information (Q), the resonator main standing wave
+and carrier wave phase difference information (L), and the
+precession angle information (R, S). Utilizing this information
+enables the completion of frequency-phase control, energy
+control, quadrature control, and precession angle detection of the
+resonator.
+2 2 2 2 22E Sx Cx Sy Cy a q< ∗ ∗ ∗ <∗ (9)
+2 ( )2Q Cx Sy Cy Sx aq< √ , √< (10)
+2 22 22 2 ( ) c o s ( 4)R Sx Cx Sy Cy a q π<∗ ,, <,  (11)
+222( ) ( )sin(4 )S CxCy SySx a q π< ∗ <,  (12)
+222( ) ( )sin[2( )]L CxSx CySy a q ιε< ∗ < ,,  (13)
+III. ASIC DESIGN FOR HEMISPHERICAL RESONANT GYRO
+WHOLE-ANGLE CONTROL
+The digital ASIC system, as illustrated in Fig. 3, includes the
+following modules: ADC interface modules; a demodulation
+module for extracting the primary standing wave energy
+information, quadrature wave amplitude information, phase
+difference information between the resonator's standing wave
+signal and the carrier signal, and precession angle information of
+the resonator; a frequency-phase control module that outputs a
+carrier signal in phase with the resonator's standing wave signal;
+an energy control module to stabilize the vibrational energy of
+the resonator at a fixed value; an quadrature control module to
+suppress the quadrature wave amplitude to zero; an angle
+detection module for calculating the precession angle of the
+resonator and outputting the angular components for quadrature
+decomposition; a UART interface module for transmitting the
+precession angle detected by the angle detection module to the
+host computer and receiving control parameters; a signal
+modulation, quadrature decomposition, and synthesis module
+for modulating, decomposing, and synthesizing the gyro drive
+signal; and  DAC interface modules.
+This section focuses on the ASIC design of the four core
+modules: frequency-phase control, energy control, quadrature
+control and angle detection.
+Figure 3. Digital ASIC system
+A. Frequency-phase control
+Figure 4. Frequency-phase control principle
+651
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 18:07:18 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 3 ---
+The principle of frequency-phase control, as illustrated in Fig.
+4, embodies a digital phase-locked loop (PLL) module. Its
+primary objective is to track the resonator's primary standing
+wave signal, enabling precise frequency and phase control of the
+output carrier signal to generate a carrier signal that
+synchronizes in both frequency and phase with the resonator.
+The digital PLL module comprises a loop filter and a
+numerically controlled oscillator (NCO). The loop filter module
+is tasked with controlling the phase difference signal, denoted as
+L(n), between the input resonator's standing wave signal and the
+carrier signal to a reference value of zero. Subsequently, it
+outputs the control quantity, lc(n), to the NCO module. The
+detailed process is expressed in Eq. (14). Where lc(n) is the
+frequency-phase control quantity at the n-th clock cycle, Kpl is
+the proportional factor in the frequency-phase control module,
+Kil is the integral factor in the frequency-phase control module,
+L(n) is the n-th clock cycle phase difference information, and L(i)
+is the i-th clock cycle phase difference information.
+0
+( ) [0 ( )] [0 ( )]
+n
+pl il
+i
+l cn K Ln K Li
+<
+< , ∗,   (14)
+The NCO is implemented based on the CORDIC algorithm[7],
+primarily responsible for receiving the frequency-phase control
+quantity, lc(n), from the loop filter output and generating a
+carrier signal that is in phase and frequency with the resonator's
+standing wave.
+B. Energy control
+Figure 5. Energy control principle
+The energy control principle, as illustrated in Fig. 5, is
+primarily responsible for controlling the standing wave energy
+of the resonator to a fixed value. This module utilizes a PI control
+algorithm, as shown in Eq. (15). Where ec(n) is the control
+quantity output by the energy control module at the    expansion
+n-th clock cycle, Kpe is the proportionality factor of the energy
+control module, Kie is the integral factor of the energy control
+module, E0 is the energy reference value of the main standing
+wave of the gyro resonator set by the energy control module, E(n)
+is the energy of the main standing wave of the gyro resonator at
+the n-th clock cycle, and E(i) is the energy of the main standing
+wave of the gyro resonator at the i-th clock cycle.
+00
+0
+( ) [ ( )] [ ( )]
+n
+pe ie
+i
+e cn K E En K E Ei
+<
+< , ∗,   (15)
+C. Quadrature control
+Figure 6. Quadrature control principle
+The principle of quadrature control is shown in Fig. 6, which
+mainly realizes the control of the quadrature wave amplitude of
+the gyro resonator and suppresses the quadrature wave
+amplitude to 0. This quadrature module is realized by using the
+PI control algorithm, and the specific process is shown in Eq.
+(16). Where qc(n) represents the control quantity output by the
+quadrature control module at the n-th clock cycle, where Kpq is
+the proportional factor of the quadrature control module, Kiq is
+the integral factor of the quadrature control module, Q(n)
+denotes the amplitude of the quadrature wave of the resonator at
+the n-th clock cycle, and Q(i) represents the amplitude of the
+quadrature wave of the resonator at the i-th clock cycle.
+0
+( ) [0 ( )] [0 ( )]
+n
+pq iq
+i
+q cn K Qn K Qi
+<
+< , ∗,   (16)
+D. Angle detection
+Figure 7.  Angle detection principle
+The principle of angle detection, as shown in Fig. 7, is
+primarily focused on calculating the precession angle 2q(n) of
+the resonator and outputting 2q_q(n) for quadrature
+decomposition. The precession angle 2q(n) needs to undergo
+whole-angle expansion and 2q_q(n) is transformed from 2q(n)
+to restrict the output range of 2q_q(n) to between 0° and 360°.
+The specific process of calculating the precession angle is
+outlined in Eq. (17), where 2q(n) represents the precession angle
+result of the arctangent operation at the n-th clock cycle. The
+arctangent calculation is realized using the CORDIC algorithm,
+similar to the algorithm used in the NCO but with a distinction
+in that this module takes sine and cosine values as input and
+outputs angle values.
+1 ()2 ( ) arctan2 () Snn Rnπ < (17)
+The output range of 2q(n) is [-45°, 45°], and the range of the
+actual precession angle should be the whole-angle, so expand the
+angle 2q(n) to [0°, 360°] firstly. And then to determine if the gyro
+resonator has completed one full rotation, monitor the difference
+in angles between the current clock and the previous clock. If a
+652
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 18:07:18 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 5 ---
+Figure 10. Energy signal E control process
+C. Quadrature control functional verification
+The main process of quadrature control functional
+verification is as follows: setting the output control signal qc(n)
+of the quadrature control module to pass through a second-order
+gyro system and feedback to the input of the energy control
+module. This setup simulates the closed-loop operation of the
+gyro's quadrature control. The clock frequency is set at 500kHz,
+and the quadrature control reference value is set to 0. The control
+process of the quadrature signal Q is illustrated in Fig. 11.
+In Fig. 11, after 136ms, the quadrature signal Q is suppressed
+to the reference value 0.
+Figure. 11 Quadrature signal Q control process
+D. Angle detection functional verification
+The main process of angle detection functional verification
+involves changing the values of R(n) and S(n) every clock cycle
+to simulate the rotation of the gyro resonator. When a forward
+rotation speed of 22.5°/T (where T is the clock period) is inputted,
+with the clock frequency set at 500kHz, outputs 2q(n) and
+2q_q(n) are obtained as shown in Fig. 12.
+Figure 12. Angle detection output during forward rotation
+Similarly, when a reverse rotation speed of 22.5°/T (where T
+is the clock period) is inputted, with the clock frequency set at
+500kHz, outputs 2q(n) and 2q_q(n) are obtained as illustrated in
+Fig. 13.
+Figure 13. Angle detection output during reverse rotation
+From the simulation results, it can be seen that the angle
+detection module successfully accomplishes the detection of the
+precession angle and the whole-angle expansion of 2q(n) as well
+as the restriction of 2q_q(n) to [0°, 360°], which is in line with
+the expected expectations.
+V. CONCLUSIONS
+This study addresses the demand for integration and
+localization of the whole-angle mode hemisphere resonant gyro
+control circuit. It proposes a digital ASIC front-end design
+scheme, and the results of core module functional verification
+demonstrate:
+∂ The frequency-phase control module, designed with a
+frequency resolution of 0.0001164 Hz, achieves phase
+tracking of the input signal within 100ms, with a phase
+difference of 0.00028° at the 100ms.
+0 50 100 150 200 250 300 350 400 450 500
+0
+200000
+400000
+600000
+800000
+1000000
+1200000
+E
+Time(ms)
+ E control process
+(200,1000000)
+0 80 160 240 320 400 480
+-50000
+-25000
+0
+25000
+50000
+75000
+100000
+Q
+Tims(ms)
+ Q control process
+(136,0)
+0 90 180 270 360 450 540 630 720
+-45
+0
+45
+90
+135
+180
+225
+270
+315
+3602θ_q(°)
+2θ(°)
+ forward rotation
+-720 -630 -540 -450 -360 -270 -180 -90 0
+-45
+0
+45
+90
+135
+180
+225
+270
+315
+3602θ_q(°)
+2θ(°)
+ reverse ratation
+654
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 18:07:18 UTC from IEEE Xplore.  Restrictions apply. 
+--- PAGE 6 ---
+∂ The energy control module stabilizes the energy signal
+to the reference value of 1000000 within 200ms.
+∂ The quadrature control module suppresses the
+quadrature signal to zero within 136ms.
+∂ The angle detection module successfully detects the
+precession angle and expands it to cover the whole-
+angle range.
+These results indicate that this study lays the groundwork for
+ASIC back-end design, ultimately paving the way for chip
+fabrication.
+REFERENCES
+[1] Maslov A A, Maslov D A, Ninalalov I G, et al. Hemispherical Resonator
+Gyros (An Overview of Publications)[J]. Gyroscopy and Navigation,
+2023, 14(1): 1-13.
+[2] Sun Y, Wei Z, Yi G, et al. A Rate Integrating Hemispherical Resonant
+Gyro Angular Rate Output Method Based on Frequency
+Demodulation[C]//2023 2nd International Symposium on Sensor
+Technology and Control (ISSTC). IEEE, 2023: 119-123.
+[3] Senkal D, Shkel A M. Whole-Angle MEMS Gyroscopes: Challenges and
+Opportunities[J]. 2020.
+[4] Taheri-Tehrani P, Challoner A D, Horsley D A. Micromechanical rate
+integrating gyroscope with angle-dependent bias compensation using a
+self-precession method[J]. IEEE Sensors Journal, 2018, 18(9): 3533-3543.
+[5] Wang R, Yi G, **e W, et al. Modeling, identification and compensation
+for assembly error of whole-angle mode hemispherical resonator gyro[J].
+Measurement, 2022, 204: 112064.
+[6] Lynch D D. Vibratory gyro analysis by the method of averaging[C]//Proc.
+2nd St. Petersburg Conf. on Gyroscopic Technology and Navigation, St.
+Petersburg. 1995: 26-34.
+[7] d e C a r v a l h o P R B , P a l a c i o J A A , V a n N o i j e W . A r e a o p t i m i z e d
+CORDIC-based numerically controlled oscillator for electrical bio-
+impedance spectroscopy[C]//2016 IEEE International Frequency Control
+Symposium (IFCS). IEEE, 2016: 1-6.
+655
+Authorized licensed use limited to: Harbin Institute of Technology. Downloaded on February 01,2026 at 18:07:18 UTC from IEEE Xplore.  Restrictions apply. 

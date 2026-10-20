@@ -1,0 +1,551 @@
+{
+  "matlabVersion": "25.1.0.2943329 (R2025a)",
+  "started": "2026-10-10 16:31:20",
+  "source": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix",
+  "resolvedSimulator": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_simulate.m",
+  "resolvedAB": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\run_HRG_WA_v46_ab_validation.m",
+  "baseline": {
+    "lockTime": 1.619,
+    "faultTime": null,
+    "locked": true,
+    "faulted": false,
+    "validSampleCount": 9613,
+    "evaluationStartTime": 1.669,
+    "evaluationEndTime": 12,
+    "rmsAngleErrorDeg": 0.097404201876004515,
+    "finalAngleErrorDeg": -0.10980436141882685,
+    "rmsRateErrorDps": 0.78054364782012109,
+    "maxRateErrorDps": 2.957407499774849,
+    "frpTransitionPeakDps": 0,
+    "meanRateErrorDps": 0.006296858416375218,
+    "energyMean": 0.99988608095904585,
+    "energyStd": 0.0096364065218499922,
+    "energyRelativeError": -0.00011391904095414684,
+    "quadRms": 0.012954899272362414,
+    "phaseErrorRms": 0.0050735289034936444,
+    "finalEnergy": 1.0016502141952515,
+    "finalQuad": -0.010594010353088379,
+    "finalPhaseError": -0.0049220162069377139,
+    "energyLockConditionSeen": true,
+    "quadLockConditionSeen": true,
+    "phaseLockConditionSeen": true,
+    "simultaneousLockConditionSeen": true,
+    "acquireSampleCount": 1370,
+    "ncoFrequencyMinHz": 4998.3605887769481,
+    "ncoFrequencyMaxHz": 5007.8130483727136,
+    "adcSaturationCount": 0,
+    "dacSaturationCount": 0,
+    "fixedOverflowCount": 0,
+    "pllLimitCount": 0,
+    "pllFreezeCount": 0,
+    "antiWindupCount": 1376,
+    "piIntegratorLimitCount": 0,
+    "controlOutputLimitCount": 1370,
+    "controlSlewLimitCount": 279,
+    "actuatorTrackingCount": 32,
+    "unwrapFaultCount": 0,
+    "measurementInvalidCount": 0,
+    "measurementValidFraction": 1,
+    "kalmanUpdateCount": 12001,
+    "kalmanRejectCount": 0,
+    "kalmanAngleVarianceFinal": 1.8125773016691284E-9,
+    "kalmanRateVarianceFinal": 0.0013748057400486478,
+    "kalmanFinite": true,
+    "selftestExecuted": false,
+    "selftestPassed": false,
+    "selftestFailed": false,
+    "selftestGainEstimate": 0,
+    "selftestQuadratureRatio": 0,
+    "calibEnabled": false,
+    "calibActiveCount": 0,
+    "calibUpdateCount": 0,
+    "calibDetectionMatrixHat": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "calibDriveMatrixHat": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "calibDetectionMatrixError": 0.0036055512754639895,
+    "calibDriveMatrixError": 0,
+    "calibDampingAnisotropyFinal": 0.00025,
+    "calibFrequencySplitFinalHz": 0.008,
+    "calibDampingError": 0,
+    "calibSplitErrorHz": 0,
+    "calibDetectionInitialError": 0.0036055512754639895,
+    "calibDriveInitialError": 0,
+    "calibDampingInitialError": 0,
+    "calibSplitInitialErrorHz": 0,
+    "calibErrorRatios": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "calibBoundaryHit": false,
+    "calibAccuracyCredible": false,
+    "calibSafetyFactorFinal": 10,
+    "calibModeMatchFactorFinal": 1,
+    "calibCompensationAlphaFinal": 0,
+    "calibSyncEnergyGainFinal": 0,
+    "calibSyncQuadGainFinal": 0,
+    "bitTrueEnabled": false,
+    "bitTrueCicValidCount": 0,
+    "bitTrueFirValidCount": 0,
+    "bitTrueCordicIterationCount": 0,
+    "bitTrueNcoWrapCount": 0,
+    "bitTruePipelineValidCount": 0,
+    "bitTrueCdcEventCount": 0,
+    "bitTrueCdcErrorCount": 0,
+    "bitTrueSpiTransactionCount": 0,
+    "bitTrueSpiErrorCount": 0,
+    "frpEnabled": false,
+    "frpActiveCount": 0,
+    "frpStableCount": 0,
+    "frpUpdateCount": 0,
+    "frpForwardCount": 0,
+    "frpReverseCount": 0,
+    "frpTransitionCount": 0,
+    "frpCoverageFraction": 0,
+    "frpConditionNumber": null,
+    "frpConfidence": 0,
+    "frpCompensationAlpha": 0,
+    "frpTrustedSampleCount": 0,
+    "frpCompensationReleased": false,
+    "frpResidualRmsDps": 0,
+    "frpCorrectionMaxDps": 0,
+    "frpParameterHatDps": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "frpTemperatureHatDpsPerC": 0,
+    "frpFinite": true,
+    "frpChecks": {
+      "activity": true,
+      "bidirectional": true,
+      "updates": true,
+      "coverage": true,
+      "condition": true,
+      "confidence": true,
+      "residual": true,
+      "transitionPeak": true,
+      "correctionBounded": true,
+      "compensationReleased": true,
+      "finite": true
+    },
+    "allFinite": true,
+    "faultOutputsSafe": true,
+    "performanceChecks": {
+      "lockTime": true,
+      "angleRms": true,
+      "rateRms": true,
+      "rateMax": true,
+      "energy": true,
+      "quad": true,
+      "phase": true,
+      "adc": true,
+      "dac": true,
+      "fixed": true,
+      "kalmanFinite": true,
+      "kalmanReject": true,
+      "measurementValidity": true
+    },
+    "passFunctional": true,
+    "passPerformance": true,
+    "passFaultSafety": false,
+    "passSelftest": false,
+    "passSelftestFailureSafety": false,
+    "passOnlineCalibrationActivity": true,
+    "passOnlineCalibration": true,
+    "passBitTrueAsic": true,
+    "passFrpJointIdentification": true,
+    "advanced": {
+      "physicalFrp": {
+        "enabled": false,
+        "updateCount": 0,
+        "detectionTruth": [
+          [
+            1,
+            0.003
+          ],
+          [
+            -0.002,
+            1
+          ]
+        ],
+        "detectionEstimate": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "detectionError": 0.0036055512754639895,
+        "mechanicalTruth": [
+          9.3651648353978E-5,
+          0.00023179596364169687,
+          -0.00769009356750655,
+          0.0022050988465359975
+        ],
+        "mechanicalEstimate": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mechanicalError": 0.0080039052967910609,
+        "lastCorrectionDps": 0,
+        "correctionClipCount": 0
+      },
+      "phaseSelfCal": {
+        "enabled": false,
+        "truthRad": 0,
+        "estimateRad": 0,
+        "errorDeg": 0,
+        "updateCount": 0
+      },
+      "nonlinearityCorrection": {
+        "enabled": false,
+        "truth": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "estimate": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "error": 0,
+        "updateCount": 0,
+        "clipCount": 0
+      }
+    }
+  },
+  "modules": {
+    "modules": {
+      "physicalFrp": {
+        "enabled": true,
+        "updateCount": 938,
+        "detectionTruth": [
+          [
+            1.0001340981180102,
+            0.0079989272150559169
+          ],
+          [
+            -0.0050006704905900508,
+            0.99986590188198965
+          ]
+        ],
+        "detectionEstimate": [
+          [
+            0.99965798155015373,
+            0.00073008895172977284
+          ],
+          [
+            -0.00013484048152744111,
+            1.0003420184498464
+          ]
+        ],
+        "detectionError": 0.00877300891073659,
+        "mechanicalTruth": [
+          9.3651648353978E-5,
+          0.00023179596364169687,
+          -0.00769009356750655,
+          0.0022050988465359975
+        ],
+        "mechanicalEstimate": [
+          -0.15428664793509997,
+          0.26101120691544077,
+          0.042920036404195366,
+          0.033572832051839009
+        ],
+        "mechanicalError": 0.30884380845021958,
+        "lastCorrectionDps": -0.5,
+        "correctionClipCount": 1745,
+        "finite": true
+      },
+      "phaseSelfCal": {
+        "enabled": true,
+        "truthRad": 0.038397243543875248,
+        "estimateRad": 0.011120243903651105,
+        "errorDeg": 1.5628569571647084,
+        "updateCount": 3751,
+        "finite": true
+      },
+      "nonlinearityCorrection": {
+        "enabled": true,
+        "truth": [
+          [
+            0.035,
+            0.02
+          ],
+          [
+            -0.025,
+            0.015
+          ]
+        ],
+        "estimate": [
+          [
+            -3.91597707961168E-7,
+            -1.651630566312906E-8
+          ],
+          [
+            0.00010834036984528146,
+            -9.0191089013221077E-6
+          ]
+        ],
+        "error": 0.049806901965337831,
+        "updateCount": 938,
+        "clipCount": 0,
+        "finite": true
+      }
+    }
+  },
+  "ab": {
+    "oracleTruth": {
+      "theta": [
+        0.00023572595548402244,
+        0.00033937318984460181,
+        4.52241471161828E-5,
+        -0.00044831689705217466,
+        -0.00010209460395613372,
+        -0.00026408281785347018,
+        2.8468627833916335E-5,
+        0.0062326185361140148,
+        0.10551276301089421
+      ],
+      "thetaDps": [
+        0.013506102370923208,
+        0.019444651457987735,
+        0.0025911527618360077,
+        -0.025686666085490625,
+        -0.0058495899177461,
+        -0.015130830904925908,
+        0.0016311322234120688,
+        0.35710273743433851,
+        6.0454360052883036
+      ],
+      "residualRmsDps": 0.56225889787547179,
+      "conditionNumber": 4.8042168957459932,
+      "sampleCount": 23897,
+      "designRank": 9,
+      "seed": 54020,
+      "angleCoverageFraction": 1,
+      "definition": "independent noise-free full-angle oracle batch LS with unified scan-rate basis; online RLS and validation data are not used",
+      "physical": {
+        "physicalFrp": {
+          "enabled": false,
+          "updateCount": 0,
+          "detectionTruth": [
+            [
+              1.020015962612576,
+              -0.0010231193303974831
+            ],
+            [
+              0.0033944425734307514,
+              0.979984037387424
+            ]
+          ],
+          "detectionEstimate": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectionError": 0.028527995586171695,
+          "mechanicalTruth": [
+            9.3651648353978E-5,
+            0.00023179596364169687,
+            -0.00769009356750655,
+            0.0022050988465359975
+          ],
+          "mechanicalEstimate": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mechanicalError": 0.0080039052967910609,
+          "lastCorrectionDps": 0,
+          "correctionClipCount": 0
+        },
+        "phaseSelfCal": {
+          "enabled": false,
+          "truthRad": 0.00061086523819801506,
+          "estimateRad": 0,
+          "errorDeg": 0.034999999999999983,
+          "updateCount": 0
+        },
+        "nonlinearityCorrection": {
+          "enabled": false,
+          "truth": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "estimate": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "error": 0,
+          "updateCount": 0,
+          "clipCount": 0
+        }
+      }
+    },
+    "onlineTheta": [
+      -1.8717861451697608E-5,
+      0.00056371646974443185,
+      -7.0703961856791484E-5,
+      -0.00042855405671189591,
+      -0.00012839186208405014,
+      -0.00035753985577562021,
+      -0.0012908114897587134,
+      0.0063525241430687036,
+      0.10532563801220196
+    ],
+    "onlineThetaDps": [
+      -0.0010724544626928892,
+      0.032298574558370111,
+      -0.0040510386092481076,
+      -0.024554338742801763,
+      -0.0073563118212418106,
+      -0.020485524743659188,
+      -0.073958050510168571,
+      0.36397282265279668,
+      6.0347145326218463
+    ],
+    "actualRlsLambda": 1,
+    "truthErrorRmsDps": 0.026520378077204396,
+    "batchTrainingThetaDps": [
+      -0.0010724545232027305,
+      0.032298574233420252,
+      -0.0040510388422807121,
+      -0.024554339087105064,
+      -0.0073563117414128425,
+      -0.020485525294522033,
+      -0.073958050797341454,
+      0.36397282223213934,
+      6.0347145323087377
+    ],
+    "batchTrainingTruthErrorRmsDps": 0.026520378173008594,
+    "onlineVsBatchRmsDps": 3.2478768997243231E-10,
+    "equivalentBatchSampleCount": 11949,
+    "onlineUpdateCount": 11949,
+    "onlineVsBatchMaxAbsDps": 5.5086284287249028E-10,
+    "maximumEquivalentBatchErrorDps": 0.01,
+    "rlsEquivalentPass": true,
+    "validation": {
+      "scenario": "unseen seed, 31 deg initial angle, 18..42 C in-domain ramp, nonzero piecewise rates, 0.75 s post-step exclusion",
+      "sampleCount": 9501,
+      "settlingExclusionSec": 0.75,
+      "rmsOffDps": 2.6299182104327259,
+      "rmsOnlineDps": 2.5915490738356124,
+      "rmsOracleDps": 2.5927600267173818,
+      "fullWindowRmsOffDps": 2.6536450867508021,
+      "fullWindowRmsOnlineDps": 2.6099441382030886,
+      "fullWindowRmsOracleDps": 2.6111518455555909,
+      "rmsOnDps": 2.5915490738356124,
+      "improvementFraction": 0.014589479035851949,
+      "oracleImprovementFraction": 0.014129026358287389,
+      "rateLevelsDps": [
+        -10.999999999999998,
+        7,
+        16
+      ],
+      "systematicBiasRmsOffDps": 0.15075403988835462,
+      "systematicBiasRmsOnlineDps": 0.014877989504411712,
+      "systematicBiasRmsOracleDps": 0.014871909402217425,
+      "systematicImprovementFraction": 0.901309513725602,
+      "systematicOracleImprovementFraction": 0.90134984499764481,
+      "maxCorrectionOffDps": 0,
+      "maxCorrectionOnDps": 0.6724797798421055,
+      "maxCorrectionOracleDps": 0.66719515755609593,
+      "maxOutputDifferenceDps": 0.67247977984210672,
+      "compensationPathActive": true,
+      "oraclePathActive": true,
+      "minimumImprovementFraction": 0.05,
+      "minimumSystematicImprovementFraction": 0.05,
+      "maximumRmsDegradationFraction": 0.01,
+      "nonzeroNavigationOraclePass": true,
+      "nonzeroNavigationOnlinePass": true,
+      "nonzeroNavigationPass": true,
+      "zeroRate": {
+        "rmsOffDps": 4.2122553362043158,
+        "rmsOnlineDps": 3.0801130658506324,
+        "rmsOracleDps": 3.0804761839630053,
+        "rmsOracleNegativeDps": 5.6842799220527578,
+        "onlineImprovementFraction": 0.26877341946081135,
+        "oracleImprovementFraction": 0.268687214308609,
+        "oracleNegativeImprovementFraction": -0.34946233510499636,
+        "maxCorrectionOnlineDps": 2,
+        "maxCorrectionOracleDps": 2,
+        "maxCorrectionOracleNegativeDps": 2,
+        "oraclePathActive": true,
+        "onlinePathActive": true,
+        "oracleCorrelation": 0.763750358391785,
+        "onlineCorrelation": 0.76399569904117148,
+        "signSeparationFraction": 0.61814954941360534,
+        "minimumSignSeparationFraction": 0.01,
+        "minimumCorrelation": 0.2,
+        "signSignificant": true,
+        "signCorrect": true,
+        "angleCoverageFraction": 0.77777777777777779,
+        "oracleModelPass": true,
+        "onlineEstimatorPass": true
+      },
+      "oracleModelPass": true,
+      "onlineEstimatorPass": true,
+      "pass": true,
+      "failureCause": "none"
+    },
+    "noDataLeakage": true
+  },
+  "finished": "2026-10-10 16:34:24"
+}

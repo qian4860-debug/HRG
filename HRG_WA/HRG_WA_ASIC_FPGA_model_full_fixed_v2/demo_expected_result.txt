@@ -1,0 +1,6 @@
+Final input angle deg: 450.000000
+Final model angle deg: 449.342669
+Final error deg: -0.657331
+RMS error deg: 0.424541
+Max abs Q: 1.361559e-02
+Mean E after 10s: 0.999389

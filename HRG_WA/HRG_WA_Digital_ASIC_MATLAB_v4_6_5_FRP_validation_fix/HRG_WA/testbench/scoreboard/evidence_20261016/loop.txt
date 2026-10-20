@@ -1,0 +1,19 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri Oct 16 14:32:11 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/hrg_loop_scoreboard/xsim_script.tcl
+# xsim {hrg_loop_scoreboard} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+LOOP_SCOREBOARD_SUMMARY pi=5000 pll=6000 nav=6000 controller=3200 errors=0
+MATLAB_PI_MAX_ERROR_Q30_LSB=1
+LOOP_SCOREBOARD_PASS
+$finish called at time : 157026 ns : File "C:/Users/11725/Desktop/HRG_WA/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/tb_hrg_loop_scoreboard.sv" Line 94
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 14:32:14 2026...

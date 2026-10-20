@@ -1,0 +1,356 @@
+ARCHIVE: 全角陀螺/US8800349.pdf
+TOTAL PAGES: 8
+READING SCOPE: first three and last two pages, not full text.
+
+--- PAGE 1 ---
+(12) United States Patent 
+ Caron 
+ USOO88.00349B2 
+ US 8,800,349 B2 
+ Aug. 12, 2014 
+ (10) Patent No.: 
+ (45) Date of Patent: 
+ (54) CALIBRATION OF GYROSCOPIC SYSTEMS 
+ WITH VIBRATORY GYROSCOPES 
+ (75) Inventor: Jean-Michel Caron, Paris (FR) 
+ (73) Assignee: Sagem Defense Securite, Paris (FR) 
+ (*) Notice: Subject to any disclaimer, the term of this patent is extended or adjusted under 35 
+ U.S.C. 154(b) by 275 days. 
+ 13/125,442 
+ Nov. 27, 2009 
+ (21) Appl. No.: 
+ (22) PCT Filed: 
+ (86). PCT No.: 
+ S371 (c)(1), (2), (4) Date: 
+ PCT/EP2009/066OO1 
+ Jul. 11, 2011 
+ (87) PCT Pub. No.: WO2010/060994 
+ PCT Pub. Date: Jun. 3, 2010 
+ (65) Prior Publication Data 
+ US 2011 FO259.078A1 Oct. 27, 2011 
+ (30) Foreign Application Priority Data 
+ Nov. 28, 2008 
+ (51) Int. Cl. 
+ GI2B I3/00 
+ (52) U.S. Cl. 
+ USPC ........................................................... 73/1.77 
+ (58) Field of Classification Search 
+ None 
+ See application file for complete search history. 
+ (FR) ...................................... O858.145 
+ (2006.01) 
+ (56) References Cited 
+ U.S. PATENT DOCUMENTS 
+ 5,712.427 A 1/1998 Matthews 
+ 6,598.455 B1* 7/2003 Gutierrez et al. .............. 73/177 
+ 7,644,604 B2 * 1/2010 Hotelling et al. .............. 73/177 2009/0158846 A1* 6/2009 Lignon et al. .............. T3,504.12 
+ val 
+ FOREIGN PATENT DOCUMENTS 
+ EP 197O669 A2 9, 2008 
+ FR 2755227 10, 1996 
+ GB 2319085. A 10, 1997 
+ WO WO 2009,053562 A2 4/2009 
+ OTHER PUBLICATIONS 
+ Andrei M. Shkel, “Type I and Type II Micromachined Vibratory 
+ Gyroscopes', pp. 586-593, IEEE/ION Institute of Electrical and 
+ Electronics Engineers. Institute of Navigation) Plans 2006, San 
+ Diego, CA, USA. 
+ * cited by examiner 
+ Primary Examiner — Robert R Raevis 
+ (74) Attorney, Agent, or Firm — Miller, Matthias & Hull 
+ LLP 
+ (57) ABSTRACT 
+ In a gyroscopic system comprising at least four vibratory 
+ gyroscopes, a first measurement is provided by said vibratory 
+ gyroscope to be calibrated, and a second measurement is provided by a combination of the measurements from the other vibratory gyroscopes of the system. At the level of the 
+ vibratory gyroscope to be calibrated, an initial command is 
+ applied in order to command a change in position from a first 
+ vibration position (0) to a second vibration position (0). A calibrated scale factor value of the vibratory gyroscope to be 
+ calibrated is then determined on the basis of a calculated 
+ value in relation to the change in position, based on the period 
+ of time during which the initial command is applied, the 
+ initial command, an angular difference between the first and second vibration positions measured according to the first 
+ measurement and an angular difference between the first and second vibration positions measured according to the second 
+ measurement. 
+ 10 Claims, 1 Drawing Sheet 
+ S. vib. 
+ position 
+   
+--- PAGE 2 ---
+U.S. Patent Aug. 12, 2014 US 8,800,349 B2 
+ 33 34 
+ 1 means of 2"means of 
+ leaSle1llel measurement 
+ scale command leterminatio1 
+ factor 
+ FIG.1 FG.3 
+ val 
+ val 2 wam arous anuma 
+ av. val 
+ wal 3 
+ e 6 vib. 3. position 
+ FG.2 
+   
+   
+--- PAGE 3 ---
+US 8,800,349 B2 
+ 1. 
+ CALIBRATION OF GYROSCOPC SYSTEMS 
+ WITH VIBRATORY GYROSCOPES 
+ CROSS-REFERENCE TO RELATED 
+ APPLICATIONS 
+ This application is a U.S. national stage filing under 35 
+ USC S371 of International Patent Application No. PCT/ 
+ EP2009/066001 filed on Nov. 27, 2009, which claims priority 
+ under the Paris Convention to the French Patent Application 
+ No. 08 58145, filed on Nov. 28, 2008. 
+ FIELD OF THE DISCLOSURE 
+ The present invention relates to gyroscopic systems, such 
+ as in particularinertial navigation units, and more particularly 
+ to gyroscopic systems that are based on the use of vibratory 
+ gyroscopes. 
+ BACKGROUND OF THE DISCLOSURE 
+ An inertial unit is a precision navigation device that com 
+ prises in particular gyroscopes in order to be able to provide 
+ navigation information for carriers such as ships, aircraft, 
+ missiles or all types of space vehicle. 
+ The level of precision required for the measurements pro 
+ vided by the gyroscopes used in these inertial units depends 
+ on the type of inertial unit considered. Certain units, such as strapdown inertial navigation systems, i.e. navigation units in 
+ which the gyroscopes are strapped to the structure of the 
+ carrier, require a level of precision of the measurement pro 
+ vided by the gyroscopes greater than that which is required in 
+ other types of unit. 
+ In order for a strapdown inertial navigation system to be 
+ capable of providing precise and reliable measurements, laser gyroscopes are conventionally used, as they have a high qual 
+ ity scale factor. However, this type of gyroscope is expensive. 
+ It therefore appears advantageous to be able to replace 
+ them with less expensive gyroscopes, such as HRG-type 
+ vibratory gyroscopes (for Hemispherical Resonator Gyro Scope). 
+ An axisymmetric vibratory gyroscope (these Type I gyro 
+ Scopes correspond to the axisymmetric gyroscopes of the 
+ Coriolis Vibratory Gyroscope (CVG) type, such as for 
+ example of the Hemispherical Resonator Gyroscope (HRG) 
+ type, as described in the document Type I and Type II micro machined vibratory gyroscopes by Andrei M. Shkel, pages 
+ 586-593, IEEE/ION (Institute of Electrical and Electronics Engineers/Institute Of Navigation PLANS 2006, San Diego, 
+ Calif., USA)) can be used either in whole angle mode in 
+ which its vibration position is free, or in a rate mode in which its vibration position is fixed and maintained by application of 
+ an electrical command, the measurement values provided being deduced from the electrical command applied, as well 
+ as from a value of the scale factor associated with the vibra 
+ tory gyroscope(s) used. 
+ By the term scale factor is meant here the factor between the rotation of the vibration wave of the vibratory gyroscope and the rotation of the Support of the vibratory gyroscope, i.e. 
+ the ratio relating to the drive of the rotation of the vibration wave of the gyroscope by the mechanical rotation of the Support of the gyroscope. In theory, this scale factor for a 
+ given vibratory gyroscope is a constant value that can corre 
+ spond to a nominal value associated with the gyroscope con 
+ sidered. 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 45 
+ 50 
+ 55 
+ 60 
+ 65 
+ 2 
+ Moreover, Such a gyroscope used in whole angle mode has 
+ a bias error the value of which depends on the vibration 
+ position with respect to the case. 
+ The measurement values provided by such a vibratory 
+ gyroscope can therefore be impaired by certain errors that 
+ relate to the changes in the bias, since the bias value depends 
+ on the vibration position and therefore on the changes in the 
+ attitude of the carrier. 
+ It should moreover be noted that a use of such a vibratory gyroscope in whole angle mode makes it possible to provide 
+ measurement values with errors relating to the scale factor 
+ that are advantageously small. On the other hand, in this 
+ mode, the measurement values, which are angle values, pro vided by the vibratory gyroscope, are impaired by a noise 
+ known as angular noise. 
+ In order to avoid this variable bias as well as this angular 
+ noise, the vibratory gyroscope can be used in a rate mode. 
+ However, such an operating mode can significantly 
+ degrade the level of quality of the measurement as in this case 
+ errors relating to the scale factor appear. Therefore, in Such an operating mode, these vibratory gyroscopes cannot satisfy 
+ the quality criteria required in particular for a strapdown 
+ inertial system. 
+ SUMMARY OF THE DISCLOSURE 
+ The present invention will improve the situation. 
+ An objective of the present invention is to use HRG type vibratory gyroscopes in inertial navigation systems that 
+ require a high level of precision in rate mode. In such an 
+ operating mode, the measurement values provided are not impaired by the variable bias and angular noise. Provision is 
+ then advantageously made to correct the error relating to the 
+ scale factor that affects the measurement values of a gyro Scope operating in this mode. 
+ A first aspect of the present invention proposes a method of calibrating a gyroscope to be calibrated in a gyroscopic sys 
+ tem comprising at least four vibratory gyroscopes capable of 
+ changing vibration position among a plurality of vibration positions; 
+ a first measurement being provided by said vibratory gyro 
+ Scope to be calibrated, and a second measurement being provided by a combination of the respective measurements from the other vibratory gyroscopes of the system, said first 
+ and second measurements being carried out along a same 
+ measurement axis; 
+ said calibration method comprising the following steps at the 
+ level of the vibratory gyroscope to be calibrated: 
+ /1/applying to the gyroscope to be calibrated, over a period 
+ of time, an initial command for a change in vibration position from a first vibration position to a second vibra tion position; and 
+ /2/ determining a calibrated scale factor value of the vibra 
+ tory gyroscope to be calibrated, on the basis of a value 
+ calculated in relation to step /1/, based on the period of 
+ time during which the initial command is applied, the 
+ initial command, an angular difference between the first and second vibration position measured according to the 
+ first measurement and an angular difference, measured over the period of change in vibration position of the 
+ gyroscope to be calibrated, according to the second mea 
+ Surement. 
+ Provision can in particular be made here for the command for a change in vibration position to be determined on the 
+ basis of the nominal scale factor theoretically known for this vibratory gyroscope undergoing calibration. 
+--- PAGE 7 ---
+US 8,800,349 B2 
+ vibratory gyroscope is maintained in order to provide its 
+ measurement values within the gyroscopic system consid 
+ ered. 
+ Whatever the first vibration position considered, by pro ceeding in this way, it is possible to determine a relevant 
+ calibrated scalefactor value in order to calibrate this vibratory gyroscope in the first vibration position. 
+ In the event that an increase in the precision of the cali brated Scale factor value is sought, provision can be made to 
+ reiterate the command steps in order to rotate the vibration position, on one side then on the other symmetrically with respect to the first vibration position, reaching, with each new 
+ iteration, second and third vibration positions that are differ ent from those that have been applied in the previous itera 
+ tions. 
+ Each iteration has a corresponding calibrated scale factor value obtained by calculating the average of the two values 
+ calculated for the two vibration positions, which are sym metrical with respect to the first vibration position, corre 
+ sponding to this iteration. This iteration makes it possible to 
+ refine the determination of the calibrated scale factor values. 
+ Here, the different calibrated scale factor values obtained 
+ on each iteration can be added up in order to find their aver age, by dividing the result of the addition by the number of 
+ iterations of these steps. FIG. 3 illustrates a gyroscopic system according to an 
+ embodiment of the present invention. This gyroscopic system comprises a first means of mea 
+ surement 33, i.e. the vibratory gyroscope to be calibrated, and 
+ a second means of measurement 34, i.e. the set N-1 of other vibratory gyroscopes. It also comprises: 
+ a command unit 31 for applying, over a period of time, an initial command for a change in vibration position from 
+ a first vibration position to a second vibration position; 
+ and 
+ a determination unit 32 capable of determining a calibrated 
+ scale factor value of the vibratory gyroscope to be cali 
+ brated on the basis of a value calculated in relation to the 
+ initial command based on the period of time during which the command is applied, the command, an angu 
+ lar difference between the first and second vibration 
+ positions measured according to the first measurement 
+ and an angular difference measured according to the 
+ second measurement. 
+ It can be noted that this last angular difference is measured during the period of change in vibration position of the gyro 
+ scope to be calibrated. The command unit 31 can moreover be capable of applying, overa period of time, a second command capable of commanding a change in vibration position from 
+ the second vibration position to the first vibration position; 
+ and the determination unit 32 can then moreover be capable of determining a calibrated Scale factor value by calculating 
+ the average between, on the one hand, the value calculated in relation to the command applied and, on the other hand, a 
+ value calculated in relation to the second command based on 
+ the period of time during which the second command is 
+ applied, the second command, an angular difference between 
+ the second and first vibration positions measured according to 
+ the first measurement and an angular difference between the second and first vibration positions measured according to the 
+ second measurement. 
+ In an embodiment of the present invention, the command unit 31 is capable of applying, over a period of time, a second command capable of commanding a change invibration posi 
+ tion from the second vibration position to the first vibration position; and of applying, over a period of time, a third com mand capable of commanding a change in vibration position 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 45 
+ 50 
+ 55 
+ 60 
+ 65 
+ 10 
+ from the first vibration position to a third vibration position; 
+ and the determination unit 32 is moreover capable of deter mining a calibrated Scale factor value by calculating the aver 
+ age between, on the one hand, the value calculated in relation 
+ to the initial command and, on the other hand, a value calcu 
+ lated in relation to the third command based on the period of time during which the third command is applied, the third 
+ command, an angular difference between the first and third vibration positions measured according to the first measure 
+ ment and an angular difference between the first and third vibration positions measured according to the second mea 
+ Surement. 
+ The second and third vibration positions can be situated 90 degrees on either side of the first vibration position respec tively. 
+ The invention claimed is: 
+ 1. A method of calibrating a gyroscope to be calibrated in a gyroscopic system comprising at least four vibratory gyro Scopes capable of changing vibration position among a plu 
+ rality of vibration positions; a first measurement being provided by said vibratory gyro 
+ Scope to be calibrated, and a second measurement being provided by a combination of the respective measure 
+ ments from the other vibratory gyroscopes of the sys 
+ tem, said first and second measurements being carried out along a same measurement axis; said calibration method comprising the following steps at 
+ the level of the vibratory gyroscope to be calibrated: 
+ /1/ applying, to the gyroscope to be calibrated, over a 
+ period of time, an initial command for a change in vibra 
+ tion position from a first vibration position (0) to a 
+ second vibration position (0); and 
+ /2/ determining a calibrated scale factor value of the vibra 
+ tory gyroscope to be calibrated, on the basis of a value 
+ calculated in relation to step /1/, based on the period of 
+ time during which the initial command is applied, the 
+ initial command, an angular difference between the first and second vibration positions measured according to 
+ the first measurement and an angular difference between the first and second vibration positions measured 
+ according to the second measurement. 
+ 2. The calibration method according to claim 1, also com prising the following step, between step /1/and step /2/: 
+ /1-a/applying, over a period of time, a second command capable of commanding a change in vibration position 
+ from the second vibration position to the first vibration position; and 
+ in which, in step /2/, a calibrated scale factor value of the vibratory gyroscope to be calibrated is determined by 
+ calculating the average between, on the one hand, the 
+ value calculated in relation to step /1/and, on the other hand, a value calculated in relation to step / 1-a/based on the period of time during which the second command is applied, the second command, an angular difference 
+ between the second and first vibration positions mea Sured according to the first measurement and an angular 
+ difference between the second and first vibration posi 
+ tions measured according to the second measurement. 3. The calibration method according to claim 1, also com prising the following steps, between step /1/and step /2/: 
+ /1-a/applying, over a period of time, a second command capable of commanding a change in vibration position 
+ from the second vibration position to the first vibration position; and 
+ /1-bf applying, over a period of time, a third command capable of commanding a change in vibration position 
+ from the first vibration position to a third vibration posi 
+--- PAGE 8 ---
+US 8,800,349 B2 
+ 11 
+ tion; and in which, in step /2/, a calibrated scale factor value of the vibratory gyroscope to be calibrated is deter 
+ mined by calculating the average between, on the one 
+ hand, the value calculated in relation to step /1/and, on the other hand, a value calculated in relation to step/1-b/ based on the period of time during which the third com 
+ mand is applied, the third command, an angular differ ence between the first and third vibration positions mea Sured according to the first measurement and an angular difference between the first and third vibration positions measured according to the second measurement. 4. A method of calibrating a gyroscopic system according 
+ to claim3, in which the second and third vibration positions are situated 90 degrees on either side of the first vibration position respectively. 
+ 5. A method of calibrating a gyroscopic system according to claim 3, also comprising the following step: reiterating K times steps /1/, /1-a/ and / 1-b/, during each reiteration the second and third vibration positions being respectively different from the second and third vibra tion positions of the steps previously iterated, K being an integer, 
+ in which a calibrated scale factor value is determined for 
+ each reiteration respectively, by calculating the average 
+ of the values calculated in relation to steps/1/and/1-b/of 
+ each iteration. 
+ 6. A method of calibrating a gyroscopic system according 
+ to claim 1, in which, during the implementation of the steps, the gyroscopic system provides gyroscopic measurements on 
+ the basis of measurement values provided by the second 
+ means of measurement. 
+ 7. The gyroscopic system comprising at least four vibra tory gyroscopes capable of changing vibration position among a plurality of vibration positions; 
+ a first measurement being provided by a vibratory gyro Scope to be calibrated, among the at least four vibratory gyroscopes of the gyroscopic system, and a second mea 
+ surement being provided by a combination of the respective measurements from the other vibratory gyro Scopes of the system, said first and second measure ments being carried out along a same measurement axis; said gyroscopic system comprising: 
+ a command unit for applying, over a period of time, an 
+ initial command for a change in vibration position from a first vibration position (0) to a second vibra tion position (02); and 
+ a determination unit capable of determining a calibrated scale factor value of the vibratory gyroscope to be 
+ calibrated on the basis of a value calculated in relation 
+ 5 
+ 10 
+ 15 
+ 25 
+ 30 
+ 35 
+ 40 
+ 45 
+ 12 
+ to the initial command based on the period of time during which the command is applied, the command, an angular difference between the first and second Vibration positions measured according to the first measurement and an angular difference between the first and second vibration positions measured accord 
+ ing to the second measurement. 8. The gyroscopic system according to claim 7, in which 
+ the command unit is moreover capable of applying, over a period of time, a second command capable of commanding a change in vibration position from the second vibration posi tion to the first vibration position; and 
+ in which the determination unit is moreover capable of determining a calibrated scale factor value by calculat ing the average between, on the one hand, the value 
+ calculated in relation to the initial command and, on the 
+ other hand, a value calculated in relation to the second 
+ command based on the period of time during which the second command is applied, the second command, an angular difference between the second and first vibra 
+ tion positions measured according to the first measure 
+ ment and an angular difference between the second and first vibration positions measured according to the sec 
+ ond measurement. 
+ 9. The gyroscopic system according to claim 7, in which 
+ the command unit is capable of applying, over a period of time, a second command capable of commanding a change in 
+ vibration position from the second vibration position to the first vibration position; and of applying, over a period of time, a third command capable of commanding a change in vibra 
+ tion position from the first vibration position to a third vibra tion position; and 
+ in which the determination unit is moreover capable of determining a calibrated scale factor value by calculat ing the average between, on the one hand, the value 
+ calculated in relation to the initial command and, on the other hand, a value calculated in relation to the third 
+ command based on the period of time during which the third command is applied, the third command, an angu lar difference between the first and third vibration posi tions measured according to the first measurement and an angular difference between the first and third vibra tion positions measured according to the second mea 
+ Surement. 
+ 10. The gyroscopic system according to claim 7, in which 
+ the second and third vibration positions are situated 90 degrees on either side of the first vibration position respec tively. 
+ ck c: ck ci: c 

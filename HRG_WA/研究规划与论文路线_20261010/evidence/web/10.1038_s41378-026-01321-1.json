@@ -1,0 +1,963 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T17:42:34Z",
+      "timestamp": 1791222154685,
+      "version": "4.1.0"
+    },
+    "reference-count": 62,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              22
+            ]
+          ],
+          "date-time": "2026-05-22T00:00:00Z",
+          "timestamp": 1779408000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              22
+            ]
+          ],
+          "date-time": "2026-05-22T00:00:00Z",
+          "timestamp": 1779408000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Microsyst Nanoeng"
+    ],
+    "DOI": "10.1038/s41378-026-01321-1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ],
+      "date-time": "2026-05-22T01:57:10Z",
+      "timestamp": 1779415030000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Manufacturing of 8 million Q-factor micro hemispherical resonator gyroscopes via patterned coating technology"
+    ],
+    "prefix": "10.1038",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Feng",
+        "family": "Zhu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuezhong",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mengxue",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6023-5694",
+        "authenticated-orcid": false,
+        "given": "Jiangkun",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kun",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yongmeng",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1591-7220",
+        "authenticated-orcid": false,
+        "given": "Dingbang",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiang",
+        "family": "Xi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1321_CR1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Miller, J. M. L. et al. Effective quality factor tuning mechanisms in micromechanical resonators. Appl. Phys. Rev. https://doi.org/10.1063/1.5027850 (2018).",
+        "DOI": "10.1063/1.5027850"
+      },
+      {
+        "key": "1321_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "725",
+        "DOI": "10.1038/s41565-023-01597-8",
+        "volume": "19",
+        "author": "NJ Engelsen",
+        "year": "2024",
+        "unstructured": "Engelsen, N. J., Beccari, A. & Kippenberg, T. J. Ultrahigh-quality-factor micro-and nanomechanical resonators using dissipation dilution. Nat. Nanotechnol. 19, 725–737, https://doi.org/10.1038/s41565-023-01597-8 (2024).",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "1321_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-025-58981-2",
+        "volume": "16",
+        "author": "Q-Y Zeng",
+        "year": "2025",
+        "unstructured": "Zeng, Q.-Y. et al. High-quality-factor viscoelastic nanomechanical resonators from moiré superlattices. Nat. Commun. 16, 3793, https://doi.org/10.1038/s41467-025-58981-2 (2025).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "1321_CR4",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhu, F. et al. Fabrication of highly homogeneous metal films for hemispherical resonators by a 3D mask based on a sputter-coating process. Thin Solid Films https://doi.org/10.1016/j.tsf.2025.140684 (2025).",
+        "DOI": "10.1016/j.tsf.2025.140684"
+      },
+      {
+        "key": "1321_CR5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.202312861",
+        "volume": "36",
+        "author": "ZD Zhang",
+        "year": "2024",
+        "unstructured": "Zhang, Z. D., Yu, S. Y., Xu, H., Lu, M. H. & Chen, Y. F. Monolithic strong coupling of topological surface acoustic wave resonators on lithium niobate. Adv. Mater. 36, 2312861, https://doi.org/10.1002/adma.202312861 (2024).",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "1321_CR6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/advs.202203619",
+        "volume": "9",
+        "author": "X Chen",
+        "year": "2022",
+        "unstructured": "Chen, X., Ammu, S. K., Masania, K., Steeneken, P. G. & Alijani, F. Diamagnetic composites for high-Q levitating resonators. Adv. Sci. 9, 2203619, https://doi.org/10.1002/advs.202203619 (2022).",
+        "journal-title": "Adv. Sci."
+      },
+      {
+        "key": "1321_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "32",
+        "DOI": "10.1038/s41378-024-00659-8",
+        "volume": "10",
+        "author": "B Hou",
+        "year": "2024",
+        "unstructured": "Hou, B. et al. A 3D-printed microhemispherical shell resonator with electrostatic tuning for a Coriolis vibratory gyroscope. Microsyst. Nanoeng. 10, 32, https://doi.org/10.1038/s41378-024-00659-8 (2024).",
+        "journal-title": "Microsyst. Nanoeng."
+      },
+      {
+        "key": "1321_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1109/JSEN.2022.3140799",
+        "volume": "7",
+        "author": "J Sun",
+        "year": "2021",
+        "unstructured": "Sun, J. et al. 0.79 ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive displacement detection. Microsyst. Nanoeng. 7, 79, https://doi.org/10.1109/JSEN.2022.3140799 (2021).",
+        "journal-title": "Microsyst. Nanoeng."
+      },
+      {
+        "key": "1321_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41378-025-00872-z",
+        "volume": "11",
+        "author": "S Yu",
+        "year": "2025",
+        "unstructured": "Yu, S. et al. 0.32 mHz frequency mismatch of micro-shell resonator gyroscope without tuning electrodes achieved by ultra-precision mechanical trimming. Microsyst. Nanoeng. 11, 1–10, https://doi.org/10.1038/s41378-025-00872-z (2025).",
+        "journal-title": "Microsyst. Nanoeng."
+      },
+      {
+        "key": "1321_CR10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijmecsci.2023.108682",
+        "volume": "261",
+        "author": "C Wang",
+        "year": "2024",
+        "unstructured": "Wang, C. et al. Frequency splitting of hemispherical resonators trimmed with focused ion beams. Int. J. Mech. Sci. 261, 108682, https://doi.org/10.1016/j.ijmecsci.2023.108682 (2024).",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "1321_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "9601",
+        "DOI": "10.1109/TIE.2022.3212381",
+        "volume": "70",
+        "author": "Y Huo",
+        "year": "2022",
+        "unstructured": "Huo, Y., Wei, Z. & Ren, S. High precision mass balancing method for the fourth harmonic of mass defect of fused quartz hemispherical resonator based on ion beam etching process. IEEE Trans. Ind. Electron. 70, 9601–9613, https://doi.org/10.1109/TIE.2022.3212381 (2022).",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "1321_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/TIM.2023.3295462",
+        "volume": "72",
+        "author": "L Yuan",
+        "year": "2023",
+        "unstructured": "Yuan, L. et al. High precision assembly and welding method for flat-electrode hemispherical resonator gyro. IEEE Trans. Instrum. Meas. 72, 1–10, https://doi.org/10.1109/TIM.2023.3295462 (2023).",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "1321_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "115116",
+        "DOI": "10.1088/1361-6501/ad6fc3",
+        "volume": "35",
+        "author": "B Li",
+        "year": "2024",
+        "unstructured": "Li, B., Li, Z., Wang, X., Huang, C. & Yang, B. 4.11-million Q-factor whole-angle MEMS hemispherical resonator gyroscope with 0.013°/h bias instability. Meas. Sci. Technol. 35, 115116, https://doi.org/10.1088/1361-6501/ad6fc3 (2024).",
+        "journal-title": "Meas. Sci. Technol."
+      },
+      {
+        "key": "1321_CR14",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cho, J. Y., Singh, S., Woo, J.-K., He, G. & Najafi, K. 0.00016 deg/√ hr Angle Random Walk (ARW) and 0.0014 deg/hr Bias Instability (BI) from a 5.2 MQ and 1-cm Precision Shell Integrating (PSI) Gyroscope, 2020 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL), 1-4, https://doi.org/10.1109/INERTIAL48129.2020.9090086 (2020).",
+        "DOI": "10.1109/INERTIAL48129.2020.9090086"
+      },
+      {
+        "key": "1321_CR15",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Senkal, D., Ahamed, M., Askari, S. & Shkel, A. 1 million Q-factor demonstrated on micro-glassblown fused silica wineglass resonators with out-of-plane electrostatic transduction, Hilton Head Workshop, https://doi.org/10.31438/TRF.HH2014.18 68-71, (2014).",
+        "DOI": "10.31438/TRF.HH2014.18"
+      },
+      {
+        "key": "1321_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang, T., Shao, T., Zhao, Q., & Shang, H., Effect of magnetic field on the thickness uniformity of thin film deposited on inner surface. Surf. Coatings Technol. https://doi.org/10.1016/j.surfcoat.2021.127974 (2022).",
+        "DOI": "10.1016/j.surfcoat.2021.127974"
+      },
+      {
+        "key": "1321_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "758",
+        "DOI": "10.1109/JMEMS.2017.2715319",
+        "volume": "26",
+        "author": "A Darvishian",
+        "year": "2017",
+        "unstructured": "Darvishian, A., Nagourney, T., Cho, J. Y., Shiari, B. & Najafi, K. Thermoelastic dissipation in micromachined birdbath shell resonators. J. Microelectromech. Syst. 26, 758–772, https://doi.org/10.1109/JMEMS.2017.2715319 (2017).",
+        "journal-title": "J. Microelectromech. Syst."
+      },
+      {
+        "key": "1321_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.1038/s41378-025-00932-4",
+        "volume": "11",
+        "author": "Y Chen",
+        "year": "2025",
+        "unstructured": "Chen, Y. et al. Identification and trimming of the unbalanced mass in micro hemispherical resonators based on an elastic electrode substrate. Microsyst. Nanoeng. 11, 71, https://doi.org/10.1038/s41378-025-00932-4 (2025).",
+        "journal-title": "Microsyst. Nanoeng."
+      },
+      {
+        "key": "1321_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "877",
+        "DOI": "10.1109/JMEMS.2022.3199231",
+        "volume": "31",
+        "author": "D Wang",
+        "year": "2022",
+        "unstructured": "Wang, D. et al. Effect of metallization on quality factor and noise characteristics in fused silica dual-shell gyroscopes. J. Microelectromech. Syst. 31, 877–887, https://doi.org/10.1109/JMEMS.2022.3199231 (2022).",
+        "journal-title": "J. Microelectromech. Syst."
+      },
+      {
+        "key": "1321_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "37374",
+        "DOI": "10.1021/acsami.7b10136",
+        "volume": "9",
+        "author": "M Todeschini",
+        "year": "2017",
+        "unstructured": "Todeschini, M., Bastos da Silva Fanta, A., Jensen, F., Wagner, J. B. & Han, A. Influence of Ti and Cr adhesion layers on ultrathin Au films. ACS Appl. Mater. interfaces 9, 37374–37385, https://doi.org/10.1021/acsami.7b10136 (2017).",
+        "journal-title": "ACS Appl. Mater. interfaces"
+      },
+      {
+        "key": "1321_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "195",
+        "DOI": "10.1007/s12598-019-01301-7",
+        "volume": "40",
+        "author": "J-J Wang",
+        "year": "2021",
+        "unstructured": "Wang, J.-J. et al. Highly precise Ti/Pt/Cr/Au thin-film temperature sensor embedded in a microfluidic device. Rare Met. 40, 195–201, https://doi.org/10.1007/s12598-019-01301-7 (2021).",
+        "journal-title": "Rare Met."
+      },
+      {
+        "key": "1321_CR22",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Feng, M. L. et al. Q-factor enhancement of micro hemispherical resonators via optimization of film distribution. J. Microelectromech. Syst. https://doi.org/10.1109/JMEMS.2025.3589654 (2025).",
+        "DOI": "10.1109/JMEMS.2025.3589654"
+      },
+      {
+        "key": "1321_CR23",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Nagourney, T., Cho, J. Y., Darvishian, A., Shiari, B. & Najafi, K. Effect of metal annealing on the Q-factor of metal-coated fused silica micro shell resonators. 2015 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL) Proceedings, 10.1109/ISISS.2015.7102361 (2015) 1-5, https://doi.org/10.1109/ISISS.2015.7102361.",
+        "DOI": "10.1109/ISISS.2015.7102361"
+      },
+      {
+        "key": "1321_CR24",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang, F., Wang, J., Yi, Z., Ye, C. & Zhu, Y. Application of conductive graphene films for high-performance hemispherical resonator gyroscopes. Appl. Phys. Lett. https://doi.org/10.1063/5.0230846 (2024).",
+        "DOI": "10.1063/5.0230846"
+      },
+      {
+        "key": "1321_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "875",
+        "DOI": "10.1007/s10909-020-02336-2",
+        "volume": "199",
+        "author": "C Sheagren",
+        "year": "2020",
+        "unstructured": "Sheagren, C., Barry, P., Shirokoff, E. & Tang, Q. Y. Atomic layer deposition niobium nitride films for high-Q resonators. J. Low. Temp. Phys. 199, 875–882, https://doi.org/10.1007/s10909-020-02336-2 (2020).",
+        "journal-title": "J. Low. Temp. Phys."
+      },
+      {
+        "key": "1321_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1038/s41378-024-00812-3",
+        "volume": "11",
+        "author": "N Zhang",
+        "year": "2025",
+        "unstructured": "Zhang, N. et al. 3D printing of micro-nano devices and their applications. Microsyst. Nanoeng. 11, 35, https://doi.org/10.1038/s41378-024-00812-3 (2025).",
+        "journal-title": "Microsyst. Nanoeng."
+      },
+      {
+        "key": "1321_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1038/s41378-022-00440-9",
+        "volume": "8",
+        "author": "S Pagliano",
+        "year": "2022",
+        "unstructured": "Pagliano, S. et al. Micro 3D printing of a functional MEMS accelerometer. Microsyst. Nanoeng. 8, 105, https://doi.org/10.1038/s41378-022-00440-9 (2022).",
+        "journal-title": "Microsyst. Nanoeng."
+      },
+      {
+        "key": "1321_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "47",
+        "DOI": "10.1038/s41378-025-00888-5",
+        "volume": "11",
+        "author": "AÇ Atak",
+        "year": "2025",
+        "unstructured": "Atak, A. Ç, Ünal, E. & Demir, H. V. Micro-3D sculptured metastructures with deep trenches for sub-10 μm resolution. Microsyst. Nanoengineering 11, 47, https://doi.org/10.1038/s41378-025-00888-5 (2025).",
+        "journal-title": "Microsyst. Nanoengineering"
+      },
+      {
+        "key": "1321_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "S15",
+        "DOI": "10.1016/j.ceramint.2018.08.334",
+        "volume": "44",
+        "author": "B Tian",
+        "year": "2018",
+        "unstructured": "Tian, B. et al. Effect of magnetron sputtering parameters on adhesion properties of tungsten-rhenium thin film thermocouples. Ceram. Int. 44, S15–S18, https://doi.org/10.1016/j.ceramint.2018.08.334 (2018).",
+        "journal-title": "Ceram. Int."
+      },
+      {
+        "key": "1321_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "627",
+        "DOI": "10.1016/j.jallcom.2017.03.189",
+        "volume": "709",
+        "author": "D-K Kim",
+        "year": "2017",
+        "unstructured": "Kim, D.-K. & Kim, H.-B. Initial vacuum effects on the properties of sputter deposited Ga-doped ZnO thin films. J. Alloy. Compd. 709, 627–632, https://doi.org/10.1016/j.jallcom.2017.03.189 (2017).",
+        "journal-title": "J. Alloy. Compd."
+      },
+      {
+        "key": "1321_CR31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.surfcoat.2020.126708",
+        "volume": "406",
+        "author": "H Hu",
+        "year": "2021",
+        "unstructured": "Hu, H. et al. Research on the damage mechanism of low current 50 keV electron beam on the micro structure, composition and vacuum tribological performance of MoS2-Ti films deposited by unbalanced magnetron sputtering. Surf. Coat. Technol. 406, 126708. https://doi.org/10.1016/j.surfcoat.2020.126708 (2021).",
+        "journal-title": "Surf. Coat. Technol."
+      },
+      {
+        "key": "1321_CR32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.surfcoat.2022.129196",
+        "volume": "455",
+        "author": "X Bai",
+        "year": "2023",
+        "unstructured": "Bai, X. et al. In-situ crystalline TiNi thin films deposited by HiPIMS at a low substrate temperature. Surf. Coat. Technol. 455, 129196. https://doi.org/10.1016/j.surfcoat.2022.129196 (2023).",
+        "journal-title": "Surf. Coat. Technol."
+      },
+      {
+        "key": "1321_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1020",
+        "DOI": "10.1016/j.jallcom.2016.10.225",
+        "volume": "695",
+        "author": "SS Kumar",
+        "year": "2017",
+        "unstructured": "Kumar, S. S., Sharma, A., Rao, G. M. & Suwas, S. Investigations on the effect of substrate temperature on the properties of reactively sputtered zirconium carbide thin films. J. Alloy. Compd. 695, 1020–1028, https://doi.org/10.1016/j.jallcom.2016.10.225 (2017).",
+        "journal-title": "J. Alloy. Compd."
+      },
+      {
+        "key": "1321_CR34",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Grenadyorov, A. et al, Influence of substrate temperature and bias voltage on the properties of magnetron sputtered TiBx films. Ceramics Int. https://doi.org/10.1016/j.ceramint.2025.05.422.(2025),",
+        "DOI": "10.1016/j.ceramint.2025.05.422"
+      },
+      {
+        "key": "1321_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "679",
+        "DOI": "10.1016/j.actamat.2005.10.003",
+        "volume": "54",
+        "author": "D-h Choi",
+        "year": "2006",
+        "unstructured": "Choi, D. -h & Nix, W. D. Anelastic behavior of copper thin films on silicon substrates: Damping associated with dislocations. Acta Mater. 54, 679–687, https://doi.org/10.1016/j.actamat.2005.10.003 (2006).",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "1321_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "764",
+        "DOI": "10.1109/JMEMS.2011.2140357",
+        "volume": "20",
+        "author": "G Sosale",
+        "year": "2011",
+        "unstructured": "Sosale, G., Prabhakar, S., Frechette, L. G. & Vengallatore, S. A microcantilever platform for measuring internal friction in thin films using thermoelastic damping for calibration. J. Microelectromech. Syst. 20, 764–773, https://doi.org/10.1109/JMEMS.2011.2140357 (2011).",
+        "journal-title": "J. Microelectromech. Syst."
+      },
+      {
+        "key": "1321_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "155701",
+        "DOI": "10.1088/0957-4484/23/15/155701",
+        "volume": "23",
+        "author": "G Sosale",
+        "year": "2012",
+        "unstructured": "Sosale, G., Almecija, D., Das, K. & Vengallatore, S. Mechanical spectroscopy of nanocrystalline aluminum films: effects of frequency and grain size on internal friction. Nanotechnology 23, 155701, https://doi.org/10.1088/0957-4484/23/15/155701 (2012).",
+        "journal-title": "Nanotechnology"
+      },
+      {
+        "key": "1321_CR38",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cheng, J. et al, Research on magnetron sputtering thin films as electrode materials for supercapacitors. Chem. Eng. J. https://doi.org/10.1016/j.cej.2025.161242 (2025).",
+        "DOI": "10.1016/j.cej.2025.161242"
+      },
+      {
+        "key": "1321_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1650",
+        "DOI": "10.1007/s40544-021-0552-y",
+        "volume": "10",
+        "author": "J Cao",
+        "year": "2022",
+        "unstructured": "Cao, J. & Li, Q. Vibration-induced nanoscale friction modulation on piezoelectric materials. Friction 10, 1650–1659, https://doi.org/10.1007/s40544-021-0552-y (2022).",
+        "journal-title": "Friction"
+      },
+      {
+        "key": "1321_CR40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/physrevapplied.13.044007",
+        "volume": "13",
+        "author": "E Romero",
+        "year": "2020",
+        "unstructured": "Romero, E. et al. Engineering the dissipation of crystalline micromechanical resonators. Phys. Rev. Appl. 13, 044007. https://doi.org/10.1103/physrevapplied.13.044007 (2020).",
+        "journal-title": "Phys. Rev. Appl."
+      },
+      {
+        "key": "1321_CR41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.107.147801",
+        "volume": "107",
+        "author": "Y Lei",
+        "year": "2011",
+        "unstructured": "Lei, Y. & Leng, Y. Stick-slip friction and energy dissipation in boundary lubrication. Phys. Rev. Lett. 107, 147801. https://doi.org/10.1103/PhysRevLett.107.147801 (2011).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "1321_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "771",
+        "DOI": "10.1016/j.apsusc.2017.09.164",
+        "volume": "434",
+        "author": "W He",
+        "year": "2018",
+        "unstructured": "He, W. et al. Strain transfer through film-substrate interface and surface curvature evolution during a tensile test. Appl. Surf. Sci. 434, 771–780, https://doi.org/10.1016/j.apsusc.2017.09.164 (2018).",
+        "journal-title": "Appl. Surf. Sci."
+      },
+      {
+        "key": "1321_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "436",
+        "DOI": "10.1016/j.matdes.2016.06.003",
+        "volume": "106",
+        "author": "M Ghidelli",
+        "year": "2016",
+        "unstructured": "Ghidelli, M., Sebastiani, M., Collet, C. & Guillemet, R. Determination of the elastic moduli and residual stresses of freestanding Au-TiW bilayer thin films by nanoindentation. Mater. Des. 106, 436–445, https://doi.org/10.1016/j.matdes.2016.06.003 (2016).",
+        "journal-title": "Mater. Des."
+      },
+      {
+        "key": "1321_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "32457",
+        "DOI": "10.1016/j.ceramint.2024.06.054",
+        "volume": "50",
+        "author": "H Duan",
+        "year": "2024",
+        "unstructured": "Duan, H. et al. Quasistatic nature of subsurface densification of soda lime silicate glass under nano-and Vickers indentation. Ceram. Int. 50, 32457–32464 (2024).",
+        "journal-title": "Ceram. Int."
+      },
+      {
+        "key": "1321_CR45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compstruct.2019.111740",
+        "volume": "235",
+        "author": "H-J Kim",
+        "year": "2020",
+        "unstructured": "Kim, H.-J., Yoon, K. & Lee, P.-S. Continuum mechanics based beam elements for linear and nonlinear analyses of multi-layered composite beams with interlayer slips. Composite Struct. 235, 111740. https://doi.org/10.1016/j.compstruct.2019.111740 (2020).",
+        "journal-title": "Composite Struct."
+      },
+      {
+        "key": "1321_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "1811",
+        "DOI": "10.1016/j.jmps.2006.04.001",
+        "volume": "54",
+        "author": "K Dayal",
+        "year": "2006",
+        "unstructured": "Dayal, K. & Bhattacharya, K. Kinetics of phase transformations in the peridynamic formulation of continuum mechanics. J. Mech. Phys. Solids 54, 1811–1842, https://doi.org/10.1016/j.jmps.2006.04.001 (2006).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "1321_CR47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/zamm.202000202",
+        "volume": "101",
+        "author": "S Kostyrko",
+        "year": "2021",
+        "unstructured": "Kostyrko, S., Grekov, M. & Altenbach, H. Coupled effect of curved surface and interface on stress state of wrinkled thin film coating at the nanoscale. ZAMM-J. Appl. Math. Mech./Z. f.ür. Angew. Mathematik und Mech. 101, e202000202. https://doi.org/10.1002/zamm.202000202 (2021).",
+        "journal-title": "ZAMM-J. Appl. Math. Mech./Z. f.ür. Angew. Mathematik und Mech."
+      },
+      {
+        "key": "1321_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "1401",
+        "DOI": "10.1080/15376494.2022.2137885",
+        "volume": "31",
+        "author": "M Motezaker",
+        "year": "2022",
+        "unstructured": "Motezaker, M., Xiao, S., Khoei, A. R. & Zakeri, J. A. Studies of frictional sliding contact by molecular dynamics assisted continuum mechanics. Mech. Adv. Mater. Struct. 31, 1401–1412 (2022).",
+        "journal-title": "Mech. Adv. Mater. Struct."
+      },
+      {
+        "key": "1321_CR49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6501/adeba6",
+        "author": "Y Yao",
+        "year": "2025",
+        "unstructured": "Yao, Y., Yang, G. & Cheng, R. Mechanism of Frequency Splitting in Micro Hemispherical Resonator with T-Shape Masses: Study on the Harmonic Error Order Characteristics. Meas. Sci. Technol. https://doi.org/10.1088/1361-6501/adeba6 (2025).",
+        "journal-title": "Meas. Sci. Technol."
+      },
+      {
+        "key": "1321_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "164",
+        "DOI": "10.1038/s41378-024-00818-x",
+        "volume": "10",
+        "author": "S Yu",
+        "year": "2024",
+        "unstructured": "Yu, S. et al. Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscope. Microsyst. Nanoeng. 10, 164, https://doi.org/10.1038/s41378-024-00818-x (2024).",
+        "journal-title": "Microsyst. Nanoeng."
+      },
+      {
+        "key": "1321_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "228",
+        "DOI": "10.1016/j.sna.2019.03.025",
+        "volume": "290",
+        "author": "K Lu",
+        "year": "2019",
+        "unstructured": "Lu, K. et al. Research on precise mechanical trimming of a micro shell resonator with T-shape masses using femtosecond laser ablation. Sens. Actuators A: Phys. 290, 228–238 (2019).",
+        "journal-title": "Sens. Actuators A: Phys."
+      },
+      {
+        "key": "1321_CR52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.measurement.2021.109924",
+        "volume": "185",
+        "author": "Z Wei",
+        "year": "2021",
+        "unstructured": "Wei, Z., Yi, G., Huo, Y., Xi, B. & Zhao, Y. High-precision synchronous test method of vibration performance parameters for fused quartz hemispherical resonator. Measurement 185, 109924. https://doi.org/10.1016/j.measurement.2021.109924 (2021).",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "1321_CR53",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang, X. et al, Review of the effect and progress of uniform films prepared by magnetron sputtering method. CrystEngComm https://doi.org/10.1039/d5ce00515a (2025).",
+        "DOI": "10.1039/d5ce00515a"
+      },
+      {
+        "key": "1321_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/tim.2022.3219478",
+        "volume": "72",
+        "author": "C Long",
+        "year": "2023",
+        "unstructured": "Long, C., Fang, C., Li, Z., Jiang, Y. & Duan, L. Reconstruction of 3-D CAD model of workpiece with internal defect based on industry CT image. IEEE Trans. Instrum. Meas. 72, 1–11, https://doi.org/10.1109/tim.2022.3219478 (2023).",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "1321_CR55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/smll.202406518",
+        "volume": "20",
+        "author": "J Wang",
+        "year": "2024",
+        "unstructured": "Wang, J. et al. 3D Printing of Metals with sub-10 µm Resolution. Small 20, 2406518. https://doi.org/10.1002/smll.202406518 (2024).",
+        "journal-title": "Small"
+      },
+      {
+        "key": "1321_CR56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-26353-1",
+        "volume": "12",
+        "author": "S Stassi",
+        "year": "2021",
+        "unstructured": "Stassi, S. et al. Reaching silicon-based NEMS performances with 3D printed nanomechanical resonators. Nat. Commun. 12, 6080. https://doi.org/10.1038/s41467-021-26353-1 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "1321_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "10788",
+        "DOI": "10.1021/acsnano.3c11030",
+        "volume": "18",
+        "author": "L-L Lai",
+        "year": "2024",
+        "unstructured": "Lai, L.-L., Huang, P.-H., Stemme, G., Niklaus, F. & Gylfason, K. B. 3D printing of glass micro-optics with subwavelength features on optical fiber tips. ACS nano 18, 10788–10797, https://doi.org/10.1021/acsnano.3c11030 (2024).",
+        "journal-title": "ACS nano"
+      },
+      {
+        "key": "1321_CR58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/advs.202302614",
+        "volume": "10",
+        "author": "Z Zhang",
+        "year": "2023",
+        "unstructured": "Zhang, Z. et al. Wafer-level manufacturing of MEMS H2 sensing chips based on Pd nanoparticles modified SnO2 film patterns. Adv. Sci. 10, 2302614. https://doi.org/10.1002/advs.202302614 (2023).",
+        "journal-title": "Adv. Sci."
+      },
+      {
+        "key": "1321_CR59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.surfcoat.2024.130768",
+        "volume": "483",
+        "author": "Z-Y Zeng",
+        "year": "2024",
+        "unstructured": "Zeng, Z.-Y. et al. FIB-DIC ring-core measurement of the residual stress on HiPIMS W/Cu and Cr/Cu multilayer thin films. Surf. Coat. Technol. 483, 130768. https://doi.org/10.1016/j.surfcoat.2024.130768 (2024).",
+        "journal-title": "Surf. Coat. Technol."
+      },
+      {
+        "key": "1321_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "15943",
+        "DOI": "10.1021/acsanm.4c00247",
+        "volume": "7",
+        "author": "IA Zaluzhnyy",
+        "year": "2024",
+        "unstructured": "Zaluzhnyy, I. A. et al. Structural changes in YBa2Cu3O7 Thin films modified with He+-focused ion beam for high-temperature superconductive nanoelectronics. ACS Appl. Nano Mater. 7, 15943–15949, https://doi.org/10.1021/acsanm.4c00247 (2024).",
+        "journal-title": "ACS Appl. Nano Mater."
+      },
+      {
+        "key": "1321_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "1022",
+        "DOI": "10.1080/21663831.2023.2278597",
+        "volume": "11",
+        "author": "H Voigt",
+        "year": "2023",
+        "unstructured": "Voigt, H. et al. In situ TEM studies of relaxation dynamics and crystal nucleation in thin film nanoglasses. Mater. Res. Lett. 11, 1022–1030, https://doi.org/10.1080/21663831.2023.2278597 (2023).",
+        "journal-title": "Mater. Res. Lett."
+      },
+      {
+        "key": "1321_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "14339",
+        "DOI": "10.1016/j.ijhydene.2022.02.169",
+        "volume": "47",
+        "author": "D Suthar",
+        "year": "2022",
+        "unstructured": "Suthar, D., Patel, S., Chander, S., Kannan, M. & Dhaka, M. Hydrogen annealing induced physical properties of ZnTe thin films. Int. J. Hydrog. Energy 47, 14339–14345, https://doi.org/10.1016/j.ijhydene.2022.02.169 (2022).",
+        "journal-title": "Int. J. Hydrog. Energy"
+      }
+    ],
+    "container-title": [
+      "Microsystems &amp; Nanoengineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41378-026-01321-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41378-026-01321-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41378-026-01321-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ],
+      "date-time": "2026-05-22T01:57:11Z",
+      "timestamp": 1779415031000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41378-026-01321-1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "references-count": 62,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1321"
+    ],
+    "URL": "https://doi.org/10.1038/s41378-026-01321-1",
+    "relation": {},
+    "ISSN": [
+      "2055-7434"
+    ],
+    "issn-type": [
+      {
+        "value": "2055-7434",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "31 August 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "9 March 2026",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "1 April 2026",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "22 May 2026",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ],
+    "article-number": "198"
+  }
+}
