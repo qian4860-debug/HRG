@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-21",
+  "scope": "Behavioral Simulink, not bit-true RTL or measured head performance",
+  "sources": [
+    {
+      "path": "audit_reference_metadata.m",
+      "sha256": "3dc8ba2055a6f2c4e32ed1fa58ecfb860daf8e7080eb6f10461bcef1f1b87818"
+    },
+    {
+      "path": "build_wa_models.m",
+      "sha256": "686422f77b4b8ec9b4d7ed34a2202df6bcb147a76741329891d7754612e52fe3"
+    },
+    {
+      "path": "run_all.m",
+      "sha256": "e68fdc85536ce991bac79e1636e050f80c327bafcfb45ac483ebad1d4fca3710"
+    },
+    {
+      "path": "run_wa_validation.m",
+      "sha256": "e17c5a9f7a31349d3bfe3ea3a95e9c0ef43f91dbe5e9f5730abca8fe69acb85b"
+    },
+    {
+      "path": "wa_controller.m",
+      "sha256": "45b986c6c88517d5ee637ac255a2156b3d7853dbff6db77a38ed55d4d7b5f798"
+    },
+    {
+      "path": "wa_full_rhs.m",
+      "sha256": "f9b19dacc7a7fc9e19e0279448e1abe7b897236d291018a0d7694290064b37f4"
+    },
+    {
+      "path": "wa_initial.m",
+      "sha256": "afb60a2191483aa02cb28c9f52782fbcc36cdccf1a1124c5b4ed0e1d22f578a5"
+    },
+    {
+      "path": "wa_measure.m",
+      "sha256": "9c350f0b4cab2c7a95cac8e1655013813d8314d529e54653285ec71b5bb8f90e"
+    },
+    {
+      "path": "wa_nav_step.m",
+      "sha256": "f35d1e7427b3ce3358017692241aa94bb6e355ca5596b6d07e868b6253f6f97e"
+    },
+    {
+      "path": "wa_pack.m",
+      "sha256": "911121e0ac22c6c5d60be1edf54d5ff12b000643926b33f788a11c684e17e4d8"
+    },
+    {
+      "path": "wa_parameters.m",
+      "sha256": "b82ee7be7a9aa0bde1ffaba14c1b850a2d4572db2ab5fdeaf7a046b3250d9cad"
+    },
+    {
+      "path": "wa_plant_rhs.m",
+      "sha256": "2f4b410be3f277dcecfd5e817ac31d9a26156c7c8bf0c4361bb7c3a69da801c3"
+    },
+    {
+      "path": "wa_setup.m",
+      "sha256": "3f3dfb95eceb1462132082f11a57479ea9117a5d94f7e2153ed6c7875a10488a"
+    },
+    {
+      "path": "wa_validate_parameters.m",
+      "sha256": "1d859a9251d736e88f172ec099ba795c0a02ec74b6a3cac9ab83fddde177a9d2"
+    },
+    {
+      "path": "hrg_wa_carrier.slx",
+      "sha256": "db116b45cd060742da1fd2528c9dd6c9fa632f311ffc84828ed47cd40e56a32e"
+    },
+    {
+      "path": "hrg_wa_envelope.slx",
+      "sha256": "79f4ef5e7aeefb721619bacae4fb6c36252293347a44d54cdb3c06c79a4e71e9"
+    },
+    {
+      "path": "tools/audit_reference.py",
+      "sha256": "912b1d0477a640e34c7acdb7e4a23723d0fe3ae8c2a66abb9a2f4ce5fe985d11"
+    },
+    {
+      "path": "tools/make_provenance.py",
+      "sha256": "97fc56c9dbad0197aa90ade8fd67d590b6ffb0488c190d0ed6455aeb8593129f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+      "sha256": "ba20fe850b32f1e32c48b7eb5cc2f61a0f79e36ecc9d9f332dce85bfb6aae5a9"
+    }
+  ],
+  "literature": [
+    {
+      "path": "全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Whole_Angle_Control_Vector_Composition.pdf",
+      "sha256": "e290b0614b3cfc54fbd247f1e142c012390f2ec610135588530fcd8dbf99d728"
+    },
+    {
+      "path": "全角陀螺/High_quality_factor_MEMS_gyroscope_with_whole_angle_mode_of_operation.pdf",
+      "sha256": "6983a466d0503ccc98a05ec1c875d59a6af490f9d9cc98ea4de0aaf8b563fab6"
+    },
+    {
+      "path": "全角陀螺/Real-Time_Elimination_of_Harmonic_Drift_for_Hemispherical_Resonator_Gyro_Based_on_FRP_Control_Scheme.pdf",
+      "sha256": "ca664c6204d82409f81d6f93c0f139b81360a538d5cb700ab526e134e1647b80"
+    }
+  ],
+  "validation_sha256": "c3929956b1806f893486ad3e18c49c78b77052602f8db7af34f4784f34761a78"
+}

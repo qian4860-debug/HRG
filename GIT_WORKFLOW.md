@@ -8,11 +8,13 @@
 
 ```powershell
 python tools/sync_github_subproject.py             # 生成并校验本地导入提交，不推送
-python tools/sync_github_subproject.py --push      # 获得该次推送授权后执行
+python tools/sync_github_subproject.py --push      # 用户已持续授权后续工程版本同步
 # 如需使用当前 Windows 系统代理，可追加 --proxy http://127.0.0.1:7897
 ```
 
 脚本保留父仓库其他目录，校验子目录树对象完全相同，并拒绝覆盖本地历史中不存在的远端子项目修改；推送不使用 force，分支和标签原子提交。`codex/github-hrg-wa` 为本地生成的导入分支。GitHub 上直接编辑过子项目时需先协调这些修改，不能直接覆盖。
+
+用户于2026-10-21要求后续版本管理同步到GitHub：每次完成并验证修改后，本地提交、里程碑打标签，并通过上述脚本同步，不再逐次询问推送授权。认证失败或远端存在未整合修改时保留本地提交并如实说明，不强推。
 
 基线提交 `c61523f` 保存2026-10-16开始修改前的模型与RTL，包含此前1698处前端字段差异。标签 `baseline-20261016` 标记此状态。后续修订将RTL/验证和文档证据分开提交。
 

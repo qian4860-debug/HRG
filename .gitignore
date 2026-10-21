@@ -26,3 +26,8 @@ top_vectors.txt
 **/tools/tests/_work/
 **/generated/**/build_pending.json
 **/generated/compile_fixture/
+HRG_WA_simulink/_work/
+HRG_WA_simulink/slprj/
+HRG_WA_simulink/*.slxc
+slprj/
+*.slxc

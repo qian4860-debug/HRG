@@ -1,0 +1,35 @@
+[警告: The model name 'hrg_wa_envelope' is shadowing another name in the MATLAB workspace or path. Type "which -all hrg_wa_envelope" at the command line to find the other uses of
+this name. You should change the name of the model to avoid problems.] 
+[> 位置：build_wa_models>fresh (第 81 行)
+位置: build_wa_models (第 5 行)
+位置: run_all (第 7 行)] 
+[警告: The model name 'hrg_wa_carrier' is shadowing another name in the MATLAB workspace or path. Type "which -all hrg_wa_carrier" at the command line to find the other
+uses of this name. You should change the name of the model to avoid problems.] 
+[> 位置：build_wa_models>fresh (第 81 行)
+位置: build_wa_models (第 57 行)
+位置: run_all (第 7 行)] 
+Built both Simulink models.
+free_decay_relative_error: 2.33146835171e-14 <= 1e-08 : 1
+zero_input_angle_rad: 2.50501584979e-15 <= 1e-08 : 1
+ideal_-300_angle_rad: 1.39799283261e-11 <= 1e-07 : 1
+ideal_-300_rate_rad_s: 3.09618997107e-12 <= 1e-07 : 1
+ideal_+300_angle_rad: 1.40403244586e-11 <= 1e-07 : 1
+ideal_+300_rate_rad_s: 3.09086090056e-12 <= 1e-07 : 1
+split_damping_expm_state_error: 1.2165050634e-15 <= 1e-08 : 1
+closed_energy_error: 3.02093386528e-07 <= 0.005 : 1
+closed_quadrature_ratio: 5.11861383463e-07 <= 0.002 : 1
+pll_frequency_error_hz: 3.06810132855e-13 <= 0.005 : 1
+closed_rate_error_deg_s: 1.52030513774e-11 <= 0.02 : 1
+virtual_cancel_angle_rad: 1.1292225835e-13 <= 1e-07 : 1
+virtual_cancel_rate_rad_s: 3.05180935927e-14 <= 1e-07 : 1
+temperature_pll_error_hz: 1.46063716677e-13 <= 0.005 : 1
+gain_error_observable_inverse_rad: 7.34103991037 <= 572.957795131 : 1
+dropout_reanchor_jump_rad: 0 <= 2.22044604925e-16 : 1
+carrier_matrix_expm_normalized_error: 8.16034999767e-05 <= 0.0002 : 1
+carrier_vs_envelope_error: 8.14118536065e-05 <= 0.002 : 1
+wrong_bryan_negative_control_missed: 0 <= 0 : 1
+rate_reversal_angle_error_rad: 4.4408920985e-15 <= 1e-06 : 1
+nominal_profile_energy_error: 0.000976601297722 <= 0.02 : 1
+nominal_profile_quadrature_ratio: 0.0125413320509 <= 0.03 : 1
+nominal_profile_rate_error_deg_s: 0.0968481884043 <= 1 : 1
+PASS: 23 behavioral scoreboard checks.
