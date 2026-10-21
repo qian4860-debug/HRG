@@ -11,5 +11,8 @@
 *.json text eol=lf
 *.txt text eol=lf
 *.csv text eol=lf
+*.slx binary
+HRG_WA_simulink/evidence/** -text whitespace=cr-at-eol
+HRG_WA_simulink/evidence/simulation_transcript.txt -diff
 .gitignore text eol=lf
 .gitattributes text eol=lf

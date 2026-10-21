@@ -1,0 +1,1504 @@
+{
+  "source_root": "C:\\Users\\11725\\Desktop\\thx_gyro_simulink2024",
+  "total_files": 215,
+  "extensions": {
+    ".slx": 43,
+    ".r2022a": 1,
+    ".slxc": 25,
+    ".mat": 70,
+    ".xml": 31,
+    ".m": 26,
+    ".mlx": 10,
+    ".pdf": 1,
+    ".autosave": 1,
+    ".c": 1,
+    ".mexw64": 1,
+    ".png": 4,
+    ".xlsx": 1
+  },
+  "method": "Read-only ZIP/XML audit; no reference callbacks executed.",
+  "files": [
+    {
+      "path": "simulink2024/analog_gyro/drive/ana_drive.slx",
+      "bytes": 38352,
+      "sha256": "f25e588c0705e915f02cc59c4860fe76c47df8f9f2bff7e07838e49169fb6130",
+      "cache": false,
+      "block_count": 14,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/analog_gyro/drive/ana_drive.slx.r2022a",
+      "bytes": 39909,
+      "sha256": "ee9ac39c1d10f41717ce66a498945486de79e069b4276ad4688da738cafac7d4",
+      "cache": false,
+      "block_count": 13,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/analog_gyro/drive/ana_drive.slxc",
+      "bytes": 5735,
+      "sha256": "c52781d6e8361205e13dd9e31a771080c43633b77d1fb5dbd4e19f18f79e6d06",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/final/analog_final_or.slx",
+      "bytes": 32015,
+      "sha256": "6523ee2b603690f0b988d9359d82d2e436e1d5c4385418da668a28515c24b8ca",
+      "cache": false,
+      "block_count": 21,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/analog_gyro/final/analog_gyro_v01.slx",
+      "bytes": 35924,
+      "sha256": "f4ca44b20e4a9daa1c165f6f15e749c07791c2ac14d89dad51c3873c7d40d6cf",
+      "cache": false,
+      "block_count": 18,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/analog_gyro/or/loop_after_dem.slx",
+      "bytes": 57020,
+      "sha256": "db0a80d89467fe8640b1846885b7916c916506fdcede73db6bcc1c6135d1f64b",
+      "cache": false,
+      "block_count": 51,
+      "reference_subsystems": [
+        "analog_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/analog_gyro/phase90.slx",
+      "bytes": 26011,
+      "sha256": "4413d92b2725e3acc990c7d7ca9be02e24740157e231ba46443085c711d890e1",
+      "cache": false,
+      "block_count": 8,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/analog_gyro/sense/analog_gyro_sense_openloop.slx",
+      "bytes": 40269,
+      "sha256": "a4dcd05c0b729eb21e886a2731df8f63decb539b4065b4a3f4b52b22bae383bc",
+      "cache": false,
+      "block_count": 16,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/analog_gyro/sense/loop_after_dem.slx",
+      "bytes": 51707,
+      "sha256": "22074f93453648a577ddfd8c1caae8a863623788e57859d5db93d4eeca45923e",
+      "cache": false,
+      "block_count": 42,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/analog_gyro/sense/loop_after_dem.slxc",
+      "bytes": 5771,
+      "sha256": "5b68dcea586d8a01aea0114676a4cb676ddead1a5df15fc06b1c54cb12514e3f",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/sense/loop_before_dem.slx",
+      "bytes": 38931,
+      "sha256": "2869974bbc0a90af63d003dcbe7a681c88e8eb41089966e3094cb42e1946c608",
+      "cache": false,
+      "block_count": 21,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/analog_gyro/sense/loop_before_dem.slxc",
+      "bytes": 5159,
+      "sha256": "454cb226b40139bbb731cafcbe30f5e82fcfb6d751ee9999ee49a62bea425e32",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/drive_mode/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "d8e9858136109cb8e4930697279f2a106bfc11f4810970e3ad6d058fabbfcc76",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/drive_mode/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "fd6bf4e2b5aabacec89b36fc3f5bdf2a2cad4c541ded0221ab43344cfb2d36e3",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/drive_mode/varInfo.mat",
+      "bytes": 4104,
+      "sha256": "c0261f071eb1392f8fce5e6e5b85f7633ffd5aa4d30b702b41c140e0e12cc6ba",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_after_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "18b480400f6bc52d233d1aebf529724bbdddda917f26f1d01076b35921f92365",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_after_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "c8439711974db1e9ce8e8fb33eca7d10fa652bf89431d64dcbfaa55601063649",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_after_dem/varInfo.mat",
+      "bytes": 4448,
+      "sha256": "7165fecb616fde730f71402f6bde3ae30c63ceed6449b3512927b305635b994c",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_before_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "83640a28a452488c1cf143b4b023ec7c652031a40e402d7b7ade346c9088d889",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_before_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "5bc90c5c49da8e1e73080a76a9b397e41b5418bedeca3768c683955af8508c08",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_before_dem/varInfo.mat",
+      "bytes": 3760,
+      "sha256": "6b75e4e97a8b6ce5d586b08c293c90887ffb529706a7596bf002c837e064fb1f",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/untitled/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "f8e5798a45768561cb3b496430a385b2ef26c6e7d7c5e33a48fc5161fd247d48",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/untitled/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "fa4af9393284b555802a02821d41d83ffd5624d1e8e358a097f94f63b4f011f0",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/analog_gyro/slprj/sim/varcache/untitled/varInfo.mat",
+      "bytes": 3760,
+      "sha256": "e749610e907a43f798659180ec2486f50990ed555320549acbc3a4d283dcb643",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/CIFFfour.slxc",
+      "bytes": 5666,
+      "sha256": "7697d75477ba1d1bdba239795c636ffb9cae71340121007e9138e237ec5c5cff",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/Copy_of_sense_loop_after_dem_or.slxc",
+      "bytes": 5232,
+      "sha256": "3f2ce3cbf44172a661d1b538781c6438ed158ecdcbda00cec14d99d231f28143",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/drive/ana_drive.slx",
+      "bytes": 39909,
+      "sha256": "ee9ac39c1d10f41717ce66a498945486de79e069b4276ad4688da738cafac7d4",
+      "cache": false,
+      "block_count": 13,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/drive/ana_drive.slxc",
+      "bytes": 5735,
+      "sha256": "c52781d6e8361205e13dd9e31a771080c43633b77d1fb5dbd4e19f18f79e6d06",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/final/analog_gyro_v01.slx",
+      "bytes": 35924,
+      "sha256": "f4ca44b20e4a9daa1c165f6f15e749c07791c2ac14d89dad51c3873c7d40d6cf",
+      "cache": false,
+      "block_count": 18,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/phase90.slx",
+      "bytes": 26011,
+      "sha256": "4413d92b2725e3acc990c7d7ca9be02e24740157e231ba46443085c711d890e1",
+      "cache": false,
+      "block_count": 8,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/sense/analog_gyro_sense_openloop.slx",
+      "bytes": 40269,
+      "sha256": "a4dcd05c0b729eb21e886a2731df8f63decb539b4065b4a3f4b52b22bae383bc",
+      "cache": false,
+      "block_count": 16,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/sense/loop_after_dem.slx",
+      "bytes": 51649,
+      "sha256": "1f651e434f6fca001341213263531843a38b958230c9653f41b6f25bd9a8bc2c",
+      "cache": false,
+      "block_count": 42,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/sense/loop_after_dem.slxc",
+      "bytes": 5771,
+      "sha256": "5b68dcea586d8a01aea0114676a4cb676ddead1a5df15fc06b1c54cb12514e3f",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/sense/loop_before_dem.slx",
+      "bytes": 38931,
+      "sha256": "2869974bbc0a90af63d003dcbe7a681c88e8eb41089966e3094cb42e1946c608",
+      "cache": false,
+      "block_count": 21,
+      "reference_subsystems": [
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/sense/loop_before_dem.slxc",
+      "bytes": 5159,
+      "sha256": "454cb226b40139bbb731cafcbe30f5e82fcfb6d751ee9999ee49a62bea425e32",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/drive_mode/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "d8e9858136109cb8e4930697279f2a106bfc11f4810970e3ad6d058fabbfcc76",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/drive_mode/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "fd6bf4e2b5aabacec89b36fc3f5bdf2a2cad4c541ded0221ab43344cfb2d36e3",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/drive_mode/varInfo.mat",
+      "bytes": 4104,
+      "sha256": "c0261f071eb1392f8fce5e6e5b85f7633ffd5aa4d30b702b41c140e0e12cc6ba",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_after_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "18b480400f6bc52d233d1aebf529724bbdddda917f26f1d01076b35921f92365",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_after_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "c8439711974db1e9ce8e8fb33eca7d10fa652bf89431d64dcbfaa55601063649",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_after_dem/varInfo.mat",
+      "bytes": 4448,
+      "sha256": "7165fecb616fde730f71402f6bde3ae30c63ceed6449b3512927b305635b994c",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_before_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "83640a28a452488c1cf143b4b023ec7c652031a40e402d7b7ade346c9088d889",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_before_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "5bc90c5c49da8e1e73080a76a9b397e41b5418bedeca3768c683955af8508c08",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_before_dem/varInfo.mat",
+      "bytes": 3760,
+      "sha256": "6b75e4e97a8b6ce5d586b08c293c90887ffb529706a7596bf002c837e064fb1f",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/untitled/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "f8e5798a45768561cb3b496430a385b2ef26c6e7d7c5e33a48fc5161fd247d48",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/untitled/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "fa4af9393284b555802a02821d41d83ffd5624d1e8e358a097f94f63b4f011f0",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/untitled/varInfo.mat",
+      "bytes": 3760,
+      "sha256": "e749610e907a43f798659180ec2486f50990ed555320549acbc3a4d283dcb643",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/CIFF_4stage_1bit.mat",
+      "bytes": 2172324,
+      "sha256": "1f46c8953c8edb1abc0ac4c30ef90ce47f414f4b50a26e59bb6597b7b2e3e6bf",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/drive/drive.slx",
+      "bytes": 56974,
+      "sha256": "1fc123b3abd07187940d1cc03d6a8e50cc608b8f4656180a25b9d6d5bea7104e",
+      "cache": false,
+      "block_count": 97,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/drive/driveFFT.m",
+      "bytes": 305,
+      "sha256": "b27261823dc1ad91699135f4e09cf4765adb90e1eccd1cff4311b84433150452",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/drive/driveFFT_plot.mlx",
+      "bytes": 18182,
+      "sha256": "e5919a52f4b9d3c907cfb01d39d3f1b96db0bb414383ffc878f28db3c9ff0393",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/final/digital_final.slx",
+      "bytes": 35918,
+      "sha256": "a166dda2510aadba813399f7e566222a17f51ce7e8a7654a9a9e4992c70ffc4f",
+      "cache": false,
+      "block_count": 18,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/final/digital_final_or.slx",
+      "bytes": 31928,
+      "sha256": "5afb32d597006983a1adc4ba7bc920e5a88daacd182443865a145fec3b2ea245",
+      "cache": false,
+      "block_count": 20,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/final/finalparam.m",
+      "bytes": 434,
+      "sha256": "b688248ae57888fcdfd05c137db6f2fed5874d7658b3fa0eb60fcc4f85f6633d",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/final/or_1.pdf",
+      "bytes": 408494,
+      "sha256": "e128e62574ca1a61e9b9f79c573a4faf18467dbb414b9f11b8df992193bfbf79",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/final_num.mat",
+      "bytes": 738,
+      "sha256": "dc0fda2323d00a900f5c4b4aff489cb274a3d5cf5e73485da55104d11c8650a8",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/Copy_of_sense_loop_after_dem_or.slx",
+      "bytes": 102119,
+      "sha256": "46a4ba370974cacfd9aa7f2b6d435b955ae9d3043acbea1688190e7634eea57f",
+      "cache": false,
+      "block_count": 209,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/nonlinear.mat",
+      "bytes": 952,
+      "sha256": "4b59059c4e487fb4a712c67b668352f532d8c7079a538af1ebe334a2ac6660ca",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/PSD.mlx",
+      "bytes": 73576,
+      "sha256": "6fd63fcc62263a900b533810c7ac5925af0f7d302fb24c1de8cdd9e5dafef607",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/report_figure.slx",
+      "bytes": 200103,
+      "sha256": "a136a5226f547aa61b25bf43f6f6ca2a42153b335024d840400707f09fef2acc",
+      "cache": false,
+      "block_count": 678,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/sense_loop_after_dem_or.slx",
+      "bytes": 196720,
+      "sha256": "40b90b39b714b87e3eef203e27debae90c4316724ec3b8e1e085bd9dc02e9441",
+      "cache": false,
+      "block_count": 684,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/sense_loop_after_dem_or_3_6.slx",
+      "bytes": 101926,
+      "sha256": "21329f1602b5987e724a1249e510847103c411f80b7361d651cbee8ea2327b3d",
+      "cache": false,
+      "block_count": 218,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/sense_loop_after_dem_or_3_8.slx",
+      "bytes": 102715,
+      "sha256": "d951305d6b0e97587151145f694f3dcafd75463f454f826adda317f9d3a6bb16",
+      "cache": false,
+      "block_count": 190,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/sense_loop_after_dem_or_4_2.slx",
+      "bytes": 106229,
+      "sha256": "fa7ce82cea297ba6d26bf775019dbc99a5328ebe0bef26b9f040f71dfc67b51b",
+      "cache": false,
+      "block_count": 209,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/or/sense_loop_after_dem_or_4_9.slx",
+      "bytes": 184648,
+      "sha256": "a6c30c7bba726186051c07dcf8e68a5c6338d1d58c07572fa924b2e3bf213e55",
+      "cache": false,
+      "block_count": 550,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/CICFilter.slx",
+      "bytes": 29329,
+      "sha256": "c7e37df63443306b5a882b71b4ad42de5d69ab980c31ba079d61f5d4eda84272",
+      "cache": false,
+      "block_count": 27,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/CIFFfour.slxc",
+      "bytes": 5155,
+      "sha256": "dbd6c31f4622566dd69ffa215c5afa1aba5e1c1972edb6062c594838af4f3725",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/dataFFT.m",
+      "bytes": 275,
+      "sha256": "a1000974eac9b90b078d47dc88460f99b36d945ee8c09d79f685a7cef375286d",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/lpf.slx",
+      "bytes": 32953,
+      "sha256": "79bed0e328679685687d4a3579b39928584969e58fab3febf6688e2b72003022",
+      "cache": false,
+      "block_count": 7,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/lpf_bck.slx",
+      "bytes": 24205,
+      "sha256": "ac92de9e4c1777ae45d391add8ee50655dacad0d4f3b2de6c12db54891c6a535",
+      "cache": false,
+      "block_count": 5,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/mfiles/dbv.m",
+      "bytes": 57,
+      "sha256": "b1952dd7dc21f8de3074d442c9f9eec02622e2121b24ecba1f31689b677fe83f",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/mfiles/FFT_module.mlx",
+      "bytes": 21241,
+      "sha256": "75b0d15c2c9dbd99c7726b81d5d7a895d3e4cdb986641146272e2ed5a4ed0534",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/mfiles/SNR.m",
+      "bytes": 905,
+      "sha256": "297afff3ec1df3ab4b420825a6bbe19829d063fd1e2d562779b705994775720d",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/mfiles/snr_f.m",
+      "bytes": 2984,
+      "sha256": "ffdbb3a824d9d6c3dca815d03be9c66893314286552f2fa878311cc61d37ca6d",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/REAL_SD_ADC1bit.slx",
+      "bytes": 28059,
+      "sha256": "6a5f64191d1e541fe1fbe42f9276e80d32bcb70541634d8649db47668739de98",
+      "cache": false,
+      "block_count": 9,
+      "reference_subsystems": [
+        "CICFilter",
+        "REAL_CIFF4_1bitSDM",
+        "lpf"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/Realint.slx",
+      "bytes": 27326,
+      "sha256": "a46a2c93b2ad42306c9f307e1471413b8d32b69faf3fa5285dbe503644df3d66",
+      "cache": false,
+      "block_count": 6,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SD_ADC.slx",
+      "bytes": 29219,
+      "sha256": "3eea65ba44d3df5de3724495c6642788295d43a86951f285f74b2b34f19b5ca2",
+      "cache": false,
+      "block_count": 7,
+      "reference_subsystems": [
+        "CICFilter",
+        "CIFF4_1bitSDM",
+        "lpf"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SD_ADC1bit.slx",
+      "bytes": 28847,
+      "sha256": "728bd693a3db237e275605adae558fa0e9eec8e4b8ce7210f14d58607a9275d7",
+      "cache": false,
+      "block_count": 10,
+      "reference_subsystems": [
+        "CICFilter",
+        "CIFF4_1bitSDM",
+        "REAL_CIFF4_1bitSDM",
+        "lpf"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SD_ADC1bit.slx.autosave",
+      "bytes": 17938,
+      "sha256": "a23c28302d6a67e6f81f79689a77cbe9839d22d40cf1bda77371130b97d18e47",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDADCsim.slx",
+      "bytes": 53053,
+      "sha256": "b874b04bcf6cefca0a06406244e297eb0762649a80523f5890f7b019d284cfaa",
+      "cache": false,
+      "block_count": 18,
+      "reference_subsystems": [
+        "REAL_SD_ADC1bit",
+        "SD_ADC1bit"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDADCsim.slxc",
+      "bytes": 5751,
+      "sha256": "c62aa47cc4b7104fc2b3552d685d94e58125870e0b2a38adda0dc6cef6c94862",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDADCsim_冲突文件_Gargantua Infinity_20240504124756.slx",
+      "bytes": 48828,
+      "sha256": "ed5046becda852cddabf1e93a258532419efcf9ae71504d216c50bbe18c552f7",
+      "cache": false,
+      "block_count": 12,
+      "reference_subsystems": [
+        "REAL_SD_ADC1bit",
+        "SD_ADC1bit"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFF4_1bitSDM.slx",
+      "bytes": 33437,
+      "sha256": "53b0fd0e16f248afb2166064d4c20a314f87f93de3d153b868682c011fa92755",
+      "cache": false,
+      "block_count": 37,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFF4_4bitSDM.slx",
+      "bytes": 27576,
+      "sha256": "e42dbf843e27573117b3e35ca97314de43216de866aefcc13a4db13f36cf1f47",
+      "cache": false,
+      "block_count": 25,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFF_4stage_1bit.mat",
+      "bytes": 2172324,
+      "sha256": "1f46c8953c8edb1abc0ac4c30ef90ce47f414f4b50a26e59bb6597b7b2e3e6bf",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFF_4stage_4bit.mat",
+      "bytes": 481137,
+      "sha256": "9e1ae335f54239251a430271e3bd33621a397eb3065d8027eea80463f92583af",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFFfour.slx",
+      "bytes": 36084,
+      "sha256": "68747ec6e43deb3cec181da4f7588a4730a3704069e3f5aad53a74a298b8cb0c",
+      "cache": false,
+      "block_count": 70,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFFfour.slxc",
+      "bytes": 5863,
+      "sha256": "f2f924fd71e1c4f99966258be6afedb68efa696c376efe70070dc8e12cafae51",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFFstable_state.slx",
+      "bytes": 36934,
+      "sha256": "70bac09ba266fc087f5d9943fa6af60a7c496493f615a297beee9d63f4a13ff7",
+      "cache": false,
+      "block_count": 8,
+      "reference_subsystems": [
+        "CIFF4_1bitSDM",
+        "CIFF4_4bitSDM"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFFstable_state.slxc",
+      "bytes": 5792,
+      "sha256": "eff8e3a109049ea62f64b8b199739f86d9045a1c23e8ef8bae72260ae6d1de64",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/PSD.mlx",
+      "bytes": 24599,
+      "sha256": "493a013ec48b7690427431df9de187355c34a2e80af8a8ebcc87cb16d4107168",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/REAL_CIFF4_1bitSDM.slx",
+      "bytes": 34883,
+      "sha256": "d2f1a0b76ef63bd3834bdea394ee7b23a08bb6fa3bdd2ec9c8f5f0146cc92ccc",
+      "cache": false,
+      "block_count": 45,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "5489f76890072cbadb4851ddc844afb69dfa7b6a4d166a8360ea5a8b5b7c9e50",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/slprj/sim/varcache/CIFFfour/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "a94526623168851fb671c3530ed28686771441fe4e0c122a630d6e04c1262f71",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDM/slprj/sim/varcache/CIFFfour/varInfo.mat",
+      "bytes": 3768,
+      "sha256": "ac28fde43872170b31052e7cc92a47c4cb2ff93ff045ff68ec201549489d9b8d",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/SDMparam.m",
+      "bytes": 131,
+      "sha256": "3f5a2264b9d736d2b9b69fddc00de4c19342ecb0c7fcacb1712fd181387ecc5e",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/simulateDSM.c",
+      "bytes": 10166,
+      "sha256": "068378284e30414b92f72c34ada7462140c01bb6740077b1aa610612392db637",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/simulateDSM.mexw64",
+      "bytes": 17920,
+      "sha256": "afd9a0c5fdc44b8beaf7f823ddd40647928ff992c3b1cc0a671b37165b39b697",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/mfiles/dbv.m",
+      "bytes": 57,
+      "sha256": "b1952dd7dc21f8de3074d442c9f9eec02622e2121b24ecba1f31689b677fe83f",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/mfiles/FFT_module.mlx",
+      "bytes": 21241,
+      "sha256": "75b0d15c2c9dbd99c7726b81d5d7a895d3e4cdb986641146272e2ed5a4ed0534",
+      "cache": true,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "8df493c1a7473f8ff7401267064325ca580a91cf6e8f2f0da593711efe3d29c4",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/CIFFfour/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "1d4337a6f76797508ed9f5822e9831be3ebbf9a734f75b1e046ef773fe4d32ad",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/CIFFfour/varInfo.mat",
+      "bytes": 3080,
+      "sha256": "ae18c3e34fd3445da14af7a7055e406dffb87a34ac911e81505476861cbc62d9",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/SDADCsim/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "8ba7a39b2781dbecc59a6e95e25975e9821c02b40a2673ec5d61e117e0cc813c",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/SDADCsim/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "f5dc0aa6082511ce3fa008a9539238ffc9e97496f3bb399d37c09badcfc5ff2e",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/SDADCsim/varInfo.mat",
+      "bytes": 3080,
+      "sha256": "320b54783ca95db3ff7a477b7a0aecba9e3932adb5480023a759d32057bb1e3a",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/SD_ADC/untitled.mlx",
+      "bytes": 27968,
+      "sha256": "a67e3247c2baf11b53267278e9d55473d6d626d1d4af4879f91343230dcd7545",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/sense/sense_loop_after_dem.slx",
+      "bytes": 125545,
+      "sha256": "4175b9054795d6f99577b175e30ab32305d2620218a1cd0a8e7bfb481d560d79",
+      "cache": false,
+      "block_count": 340,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/sense/sense_loop_after_dem_3_6.slx",
+      "bytes": 88451,
+      "sha256": "82710bde36cae4aee858925393e46e03d76f9a735f4265001ab1220397a2218f",
+      "cache": false,
+      "block_count": 183,
+      "reference_subsystems": [
+        "SD_ADC1bit",
+        "digital_final_or"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/sense/sense_loop_before_dem.slx",
+      "bytes": 54148,
+      "sha256": "3ea4d468779024e8e6b3540acc14a122e369d7c8ea5258d4ba48b4b1d925221b",
+      "cache": false,
+      "block_count": 96,
+      "reference_subsystems": [
+        "CIFF4_1bitSDM",
+        "SD_ADC1bit",
+        "digital_final"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/sense/sense_openloop.slx",
+      "bytes": 44893,
+      "sha256": "f30e7de029aa8e4144192b0051560f34d9b344de4bd22bb8c072f3d6a65c3eac",
+      "cache": false,
+      "block_count": 47,
+      "reference_subsystems": [
+        "CIFF4_1bitSDM",
+        "SD_ADC1bit",
+        "analog_gyro_v01"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/sense/senseFFT.m",
+      "bytes": 305,
+      "sha256": "9c9c41e444b4353a3e9feebff645968d009e1fac83b70a5baf49826395d07b78",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/digital_gyro/sense/senseFFT_plot.mlx",
+      "bytes": 51038,
+      "sha256": "5e806eaa138b63bf93d9de28cbdebaf0e4b34b8201cf43b051f5f38cc6240373",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/digital_gyro/sense/sensModeDigitalCode.slx",
+      "bytes": 86284,
+      "sha256": "6980c5d2e5cdb0d08b4ded7d200c5558ff419a590bd8bb7ceee7db94a39699fd",
+      "cache": false,
+      "block_count": 203,
+      "reference_subsystems": [
+        "gyroSens"
+      ]
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "9aefeb8ea764234daba56e8303f9701feb139c30fca408b26136b621cc2e42d1",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFfour/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "5c0808d94ddc37f616824908a88badbf42e445b3bd65ec0af05822ece4640a76",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFfour/varInfo.mat",
+      "bytes": 3768,
+      "sha256": "d70ab501183aa42bfa1a0f03dd4b7529e694a3178296bfb4eefadd51a86c4a63",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFstable_state/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "2ca8242cc8cb0db06dc9f9d02e2211ceca73b5627df723230416551bd4a9002e",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFstable_state/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "1bfee95aa99da5183e8bb2c71e2aebf53675b864be6f2142a186fef2547c019b",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFstable_state/varInfo.mat",
+      "bytes": 3424,
+      "sha256": "78041af046e8d1a4528255f05576081141d8d345e059db9a040a4ffefa566777",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/SDADCsim/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "1c13ecf1b58e3e1d4804c18844ce20d0789d1d1b4d0512734c62f972f5368540",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/SDADCsim/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "837f56bad800dda4e68d1b6dd2ce79281f1ceb6e69529877d74c47a82aded67a",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/SDADCsim/varInfo.mat",
+      "bytes": 2736,
+      "sha256": "da42e053247796519ab31d9b74ac906bcdcac4bfd496b3c96cdf311baffe5324",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/sigma_delta/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "cc9e33d362ee1055929447d8eac344607695417dcc22d7e1f63c6dc582c2f2ad",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/sigma_delta/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "f3930d580e2cec002a1d2574730462c947b04b4e1a544d75951652bfb61a8212",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/sigma_delta/varInfo.mat",
+      "bytes": 2736,
+      "sha256": "7dbfed3f18567189c82cb6aff0ad90b7b7c3bef45a9503aa178307d459d0c4c6",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/test1/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "a1695f8b6539047415e8039dd63360504d6f8a6fdccd1006766522ad599be639",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/test1/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "4444a62801f427a3d0ca22bfe7d47dc58a90dc6ef1050760bdb85f07d782f2e2",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/digital_gyro/slprj/sim/varcache/test1/varInfo.mat",
+      "bytes": 1352,
+      "sha256": "c5b3a0b50a241535f53c2553cf04b590e62c564a4629184cd24bb5abe333d43f",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/drive.slxc",
+      "bytes": 5797,
+      "sha256": "cd9788fa007a03cac2d11016470efec7862f8b768feebf193a56c84930260ea5",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/figure/SDM_ideal.png",
+      "bytes": 79076,
+      "sha256": "8c5e4b98925ae2213203c8bf1276b5d81e4e375c2bf8c9c265c04fa07604de3a",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/figure/SDMnoise.png",
+      "bytes": 78958,
+      "sha256": "97f65f7f00c8864347a256f4a245db1df11ac818649d710d9f1c41025315a057",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/good.mat",
+      "bytes": 842672,
+      "sha256": "360043a73cc1be41d92af1943e800acefee78c421cc7ceabb05f1623caa5c67f",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/loop_after_dem.slxc",
+      "bytes": 5774,
+      "sha256": "0204a9264d5416932dcab4a47d93eb7fd26ebad505719d265d5c8865bca9f5c9",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/SDADCsim.slxc",
+      "bytes": 5705,
+      "sha256": "2ff00eeebe1903dbdd926afd90c660f47365dc427050b60da6c29786d5e66e86",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/SDM_ideal.png",
+      "bytes": 79076,
+      "sha256": "8c5e4b98925ae2213203c8bf1276b5d81e4e375c2bf8c9c265c04fa07604de3a",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/SDM_real.png",
+      "bytes": 78128,
+      "sha256": "62fb6aab369d399f74e058361a13ccce6efd113a33f954e6d5f72728b195fd8a",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/sense_loop_after_dem.slxc",
+      "bytes": 5866,
+      "sha256": "3558fad96394b8b6c63a3595531785b33ce5d11cdb208706d99e4546f802cd35",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_loop_after_dem_or.slxc",
+      "bytes": 5824,
+      "sha256": "2aeeb5f847cb1eb72b921ec18bd220b2d832cad813d164e0fa426cf2978176b0",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_loop_after_dem_or_3_6.slxc",
+      "bytes": 5279,
+      "sha256": "4ad489b6037617de00cbf701173fae60858ea4ce4c4fb7ae8e4cf4f20e24fd82",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_loop_after_dem_or_3_8.slxc",
+      "bytes": 5877,
+      "sha256": "331b92f37d682d70cc803437dbf6500a0d07abe95442382daa287d6e50b8c9b6",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_loop_after_dem_or_4_2.slxc",
+      "bytes": 5823,
+      "sha256": "74e9616a1609a570f8f5e22c457abdfc50d16b0d07aeb92c907bbdd592ed9e9c",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_loop_after_dem_or_4_9.slxc",
+      "bytes": 5833,
+      "sha256": "8ae67a44a201b991ea664b6cc06f38a042c72f6404d454284bc019d1e360de24",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_loop_before_dem.slxc",
+      "bytes": 5885,
+      "sha256": "6292e93e80f3baf81d3f6639d43d0ded868846ea472cbc82ae98f8713d947beb",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_openloop.slxc",
+      "bytes": 5263,
+      "sha256": "a07a774ae6e325fa73bd92bb4a281185bb05c7590eb956508f97a44979821ccb",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_or_after_dem.slxc",
+      "bytes": 5880,
+      "sha256": "6df9a28a17d93a3df7ad5aa73cbab273d1a8c52d082b44ac3da3be1af22bc808",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/sense_or_before_dem_old.slxc",
+      "bytes": 5885,
+      "sha256": "40c112f348a5faa94788d524e032dea1eb55b94ecdc4c02bdd5f76214c9515f2",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "cfe20c7fd280181dfe194d5a3f348745fecbece2d2047ddde9e7d43264a486f4",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/CIFFfour/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "4968a734ad441c82570e65060c88d24f1cfd3711e11f50a4fdf4bc7e55492b26",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/CIFFfour/varInfo.mat",
+      "bytes": 1352,
+      "sha256": "1decc788b2d3b96a5971784f0d435c92ce6c785373fe5f296c025315c685bf28",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/Copy_of_sense_loop_after_dem_or/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "e13396f0b05543048c370e5818de91c9e2c0e3dc357cacf04d38e8dfd8af05f1",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/Copy_of_sense_loop_after_dem_or/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "e09713b089e0a8cc33f96985b64f4a30fcf10346984f7acfac4fca8f473c8387",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/Copy_of_sense_loop_after_dem_or/varInfo.mat",
+      "bytes": 5488,
+      "sha256": "b055acb2def10d49fb9b55ab8f9a9232a9661f88bbda23380c4200c7c3d226ef",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/drive/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "b89426132ded4c4d25856a90f21d7e47e7519ff8801c1003b73cce01b39911a8",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/drive/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "a8483cd5acc46dcf6a33dcba93cf91ba4afe36ef22d9e1654e7a6ec3f16d5fdc",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/drive/varInfo.mat",
+      "bytes": 5136,
+      "sha256": "8e7c9741c4a640a049024c348c815de05b5d9968630e6b33a8389e45259931de",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/loop_after_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "8f2ffb5b2a7a569295b0a8b940dae31e47fee22ef491e26162d14184e429eba4",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/loop_after_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "295bf6903aa1ff9101ac83109aafff2007b680172d33d58e8c9be0ff7c5478e0",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/loop_after_dem/varInfo.mat",
+      "bytes": 4448,
+      "sha256": "e496542b3d39c37c03dda65e261a0fae3a051617bc3000b4bf14cf542b3738ee",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/SDADCsim/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "1768685dabfa1a6ca75141dc5bb295f7d1147ade1c136d68664b5323aedf422c",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/SDADCsim/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "497519321ef26e9ed77491ac5b6e22cd89388b0b768fbe77fe1ef7f2be4266d3",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/SDADCsim/varInfo.mat",
+      "bytes": 2384,
+      "sha256": "f066ca1b18db370af23deaf196e89785cede21b017dcbccd0aceb2f4f7471d1a",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "5e0b0ce8786efa508489334e10a324ec3c72950580a7246ac1abf54dadf5ff4e",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "f5f15fb8f3cd693c6905ccbff55137c8f11281be85b0eb2f4c20c550153edb56",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem/varInfo.mat",
+      "bytes": 5136,
+      "sha256": "829185a14b15624720b99886bed7ffa1067e6918fa784805db37bd33b3c32b53",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "e32136b3d49a8c62d3ddf8b4d5792eadfebe59bdd68fd43ccd272ce6aa51141f",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "392813dc5531dcca9f52a42145e666c9e7622751d342e203101837dd905ba4fc",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or/varInfo.mat",
+      "bytes": 5488,
+      "sha256": "920b9540434d18b15854e88093be083fbd3074013017455a8b5280716c26f15e",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_6/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "acdd15b116049c89f6e47c648be5a7880915ed0c6f2a176d7890ebfacd982b59",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_6/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "bf2983c8704278afe4f587f07ac9faea3d8bc8a3991396cdf0d277d100cacb61",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_6/varInfo.mat",
+      "bytes": 5136,
+      "sha256": "af3817108bbcf7017f0f05d77021394fecb5a609fd7558ec6328057f76d4e72c",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_8/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "e1af5134d068e75a81a54856471c46953c07fe932dee60d09ca72287543354ce",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_8/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "6098a99c5e168a3f3412f7933ef6829325759fc1006f5c3e7d84426cd6d2cf15",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_8/varInfo.mat",
+      "bytes": 5136,
+      "sha256": "d7e1906e5675f7216bd04479165f740e25949e6aafc306f32fedd06e2be2e52d",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_2/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "e1d39748fa2d391137aba3b344879ebcc924136ff79c95a6848cc4b401bfe32d",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_2/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "2259557db311804690f6d2af9693b62d6b758dcb1cdf9f9ff20e553c798b7070",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_2/varInfo.mat",
+      "bytes": 5136,
+      "sha256": "790a19de2a5d5de5cb2c0d4d7ebb409b61f10af431339e10d016bfd31572960a",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_9/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "cf6b53c3a6db12294dcc03a409be6987647a5540e5ff054a321d6c4bad4c1b27",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_9/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "7ea6db323177364027cdb09b93902a6d5eca3ac10029b095a5735a3a67e84e16",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_9/varInfo.mat",
+      "bytes": 5832,
+      "sha256": "c1a9540708f43b170a543f5953558ab937bd4c459dd16b1f598e88333cf7a550",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_before_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "510713cd91eaa59bcc7ff63868366e275cc5e6ea17d2c296bfb2ce8be6d87604",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_before_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "587ca5e86e8eccb1fd2e3481460f9cda65779062d2f9315a824d6aa06e9e6d4a",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_loop_before_dem/varInfo.mat",
+      "bytes": 5488,
+      "sha256": "dc5f7ffcfbf3c56120a5221437798cd5102105dc5dc38cc909ffcc8fdd7afbe9",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_openloop/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "759a7e57a16bda3037ca3d73a717d5acc8e7e2f765b3f8a269423563ef7a0a57",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_openloop/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "4849728f3284a15e0ed2e6ce6fb4aaf8ad2c109a249d3521da9f61d7154099e2",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_openloop/varInfo.mat",
+      "bytes": 5136,
+      "sha256": "1e8659e9f30f32ff6d5fac335229fc1b0d6142d02d2f598be4cc9686d80efe22",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_or_after_dem/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "fe2bc430a5f98f0579c27500df1b4437cd9e7270fd3d9274bdca43852681be01",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_or_after_dem/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "5d267ed9b3a398794d84334408e022e732c2efae77981537bbe465522e717a68",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_or_after_dem/varInfo.mat",
+      "bytes": 5488,
+      "sha256": "94b93dec8eeb68bcf6e264d7618866115d8312355d5cfb7f4dbc52f0c6bbc41b",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_or_before_dem_old/checksumOfCache.mat",
+      "bytes": 392,
+      "sha256": "1a46d28aa84c6981b25ae7b8897023abeb8864b8c7c4d0dd600ee791d21359fa",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_or_before_dem_old/tmwinternal/simulink_cache.xml",
+      "bytes": 376,
+      "sha256": "2d464a6130dfbd8a85513759c6119e1531e1d1d5f38e3e5f184c5b0a5fd92fc6",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/slprj/sim/varcache/sense_or_before_dem_old/varInfo.mat",
+      "bytes": 5488,
+      "sha256": "50494a3c580a1a58056236404fa796e27d822cfffc60582f27383937ae63eb74",
+      "cache": true
+    },
+    {
+      "path": "simulink2024/stableMemoryData.mat",
+      "bytes": 4277,
+      "sha256": "89a9a7ebfd772770cc75cf16706359a07243fb15f746028fb66aec9daa8929c0",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/Amplitude.m",
+      "bytes": 1317,
+      "sha256": "cb05fd5709bc79ba86d406467f65f5ddbee47aa36cd39ce1f932f05f731b9882",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/dataFFT.m",
+      "bytes": 239,
+      "sha256": "34ff0ea5633ca99fc4afc691ba7474d96db344de52cc106f5efcb7a62bd004cd",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/digitalFilter.mlx",
+      "bytes": 53491,
+      "sha256": "b7eb57e0c27562799baf38cbc1edbfb97703f43598b37a480525a7c6c6b5231d",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/tools/drawSimData.mlx",
+      "bytes": 121377,
+      "sha256": "b4fc9196371637471228c5fc73dae8a722a9d6664156ca8fce57c4764c5893fc",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    },
+    {
+      "path": "simulink2024/tools/freqSweep/calRespond.m",
+      "bytes": 1665,
+      "sha256": "13cbbaf0bb56078c17b065159054aecea946c95ae8e8f35612150ee33934d373",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/freqSweep/freqPlot.m",
+      "bytes": 1394,
+      "sha256": "b6dcf7bb8ea0eabd74388916e46369781b707d0b37dcb07e416ddf0e4314c007",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/freqSweep/freqPlotMultiTask.m",
+      "bytes": 2650,
+      "sha256": "d65b598052fd06dd4c0ef7d3bd858101192568e98f5b4b7b0a70ca13e5fda9a0",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/freqSweep/freqSweep.m",
+      "bytes": 1746,
+      "sha256": "b83410cb3dece68d4d168510cb2d20377b255c0d0842852049afb140d3a6a1a4",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/freqSweep/param.m",
+      "bytes": 294,
+      "sha256": "bd9e0d2b312b18cc15ad706ba7ef1f02d9fabf2c6a0195de447b734c84099553",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/nonlinear/ampSweep.m",
+      "bytes": 929,
+      "sha256": "5308d49d114e5956bc9e7f819d5caf86ab68577ce5909f2b8708e7d0c02ca75b",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/nonlinear/nonlinearPlotMultiTask.m",
+      "bytes": 3085,
+      "sha256": "9169760a4aa6452d0f30ec36dd6e1e15ca357f908535256616b54626757d9515",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/paramSweep.m",
+      "bytes": 2309,
+      "sha256": "25b899c2e8a9edf813b93211beb36ae50e02e8889188829118c4fa7e2bbabb29",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/paramSweepDraw.m",
+      "bytes": 2170,
+      "sha256": "8d69c74bca08bcdffa542485dd9a3b777612938538360427637429ff42b822fa",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/tools/PIsweep/PIsweep.m",
+      "bytes": 907,
+      "sha256": "05ce2fff51f30ef4f9d93dfbf1f2acf45c03a0f756093d0de259167062f08e14",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/10s_60frequencies.mat",
+      "bytes": 5319009,
+      "sha256": "2c9d849b9aca2963eb6e06d3fd59659e1bba948f91ead0dd13094d037e2b5dbc",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/amptest.m",
+      "bytes": 1733,
+      "sha256": "8727132c2b747b49aa852f08fdf782cd72a7ad1c38d056a8ae8fa8dfc3fae31a",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/createFit.m",
+      "bytes": 1309,
+      "sha256": "16f7fb5765bdecace6cec2431d3561799a02e3e3c270f046940c4facea62b2b5",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/dataProc.m",
+      "bytes": 614,
+      "sha256": "554b4a386a132a3321825db3d0066062aab2b4176ffb044985c4d7d16cd0f956",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/drive_FFT.m",
+      "bytes": 451,
+      "sha256": "e5b322583c662da73d24a6072618759623b3a163483409955267fa12f09569e0",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/gain_freq.xlsx",
+      "bytes": 12673,
+      "sha256": "56ae0ea073ff10b8789d629b3e4929b7f2b202d4146b848b0197d091d2e8631e",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/PSD_gyro.m",
+      "bytes": 749,
+      "sha256": "0f62817a98ee179626320019580b682c1af4236fc08aab05d029f1831615f6c0",
+      "cache": false
+    },
+    {
+      "path": "simulink2024/Workspace/tf.mlx",
+      "bytes": 21545,
+      "sha256": "dcc2fd3a93053eb019b74ffa1c6fb048ad3ad15850b2898782f8ef986fc950b7",
+      "cache": false,
+      "block_count": 0,
+      "reference_subsystems": []
+    }
+  ],
+  "reference_bytes_unchanged_at_seal": true
+}

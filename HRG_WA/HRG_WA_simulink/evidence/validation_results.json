@@ -1,0 +1,146 @@
+{
+  "matlab": "25.1.0.2943329 (R2025a)",
+  "model": "WA abstraction v1",
+  "tests": [
+    {
+      "name": "free_decay_relative_error",
+      "metric": 2.3314683517128287E-14,
+      "limit": 1E-8,
+      "pass": true
+    },
+    {
+      "name": "zero_input_angle_rad",
+      "metric": 2.5050158497860027E-15,
+      "limit": 1E-8,
+      "pass": true
+    },
+    {
+      "name": "ideal_-300_angle_rad",
+      "metric": 1.3979928326079971E-11,
+      "limit": 1E-7,
+      "pass": true
+    },
+    {
+      "name": "ideal_-300_rate_rad_s",
+      "metric": 3.0961899710746366E-12,
+      "limit": 1E-7,
+      "pass": true
+    },
+    {
+      "name": "ideal_+300_angle_rad",
+      "metric": 1.404032445861958E-11,
+      "limit": 1E-7,
+      "pass": true
+    },
+    {
+      "name": "ideal_+300_rate_rad_s",
+      "metric": 3.0908609005564358E-12,
+      "limit": 1E-7,
+      "pass": true
+    },
+    {
+      "name": "split_damping_expm_state_error",
+      "metric": 1.216505063395608E-15,
+      "limit": 1E-8,
+      "pass": true
+    },
+    {
+      "name": "closed_energy_error",
+      "metric": 3.0209338652831264E-7,
+      "limit": 0.005,
+      "pass": true
+    },
+    {
+      "name": "closed_quadrature_ratio",
+      "metric": 5.1186138346290893E-7,
+      "limit": 0.002,
+      "pass": true
+    },
+    {
+      "name": "pll_frequency_error_hz",
+      "metric": 3.06810132855162E-13,
+      "limit": 0.005,
+      "pass": true
+    },
+    {
+      "name": "closed_rate_error_deg_s",
+      "metric": 1.520305137739561E-11,
+      "limit": 0.02,
+      "pass": true
+    },
+    {
+      "name": "virtual_cancel_angle_rad",
+      "metric": 1.1292225834957925E-13,
+      "limit": 1E-7,
+      "pass": true
+    },
+    {
+      "name": "virtual_cancel_rate_rad_s",
+      "metric": 3.0518093592650645E-14,
+      "limit": 1E-7,
+      "pass": true
+    },
+    {
+      "name": "temperature_pll_error_hz",
+      "metric": 1.4606371667724716E-13,
+      "limit": 0.005,
+      "pass": true
+    },
+    {
+      "name": "gain_error_observable_inverse_rad",
+      "metric": 7.3410399103745076,
+      "limit": 572.95779513082323,
+      "pass": true
+    },
+    {
+      "name": "dropout_reanchor_jump_rad",
+      "metric": 0,
+      "limit": 2.2204460492503131E-16,
+      "pass": true
+    },
+    {
+      "name": "carrier_matrix_expm_normalized_error",
+      "metric": 8.1603499976735263E-5,
+      "limit": 0.0002,
+      "pass": true
+    },
+    {
+      "name": "carrier_vs_envelope_error",
+      "metric": 8.14118536065224E-5,
+      "limit": 0.002,
+      "pass": true
+    },
+    {
+      "name": "wrong_bryan_negative_control_missed",
+      "metric": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "rate_reversal_angle_error_rad",
+      "metric": 4.4408920985006262E-15,
+      "limit": 1E-6,
+      "pass": true
+    },
+    {
+      "name": "nominal_profile_energy_error",
+      "metric": 0.000976601297721591,
+      "limit": 0.02,
+      "pass": true
+    },
+    {
+      "name": "nominal_profile_quadrature_ratio",
+      "metric": 0.012541332050916062,
+      "limit": 0.03,
+      "pass": true
+    },
+    {
+      "name": "nominal_profile_rate_error_deg_s",
+      "metric": 0.096848188404302538,
+      "limit": 1,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "referenceNote": "Analytic/expm checks are independent of plant RHS; all tolerances fixed in source."
+}

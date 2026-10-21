@@ -1,0 +1,3119 @@
+[
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/drive_mode/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/drive_mode/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          11
+        ],
+        "bytes": 7938,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_after_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_after_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          12
+        ],
+        "bytes": 8664,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_before_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/loop_before_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/untitled/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/analog_gyro/slprj/sim/varcache/untitled/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/drive_mode/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/drive_mode/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          11
+        ],
+        "bytes": 7938,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_after_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_after_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          12
+        ],
+        "bytes": 8664,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_before_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/loop_before_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/untitled/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/analog_gyro/slprj/sim/varcache/untitled/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/CIFF_4stage_1bit.mat",
+    "variables": [
+      {
+        "name": "ABCD",
+        "size": [
+          5,
+          6
+        ],
+        "bytes": 240,
+        "class": "double"
+      },
+      {
+        "name": "Mpoints",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "N",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "VDD",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "a",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "a1",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "b",
+        "size": [
+          1,
+          5
+        ],
+        "bytes": 40,
+        "class": "double"
+      },
+      {
+        "name": "b1",
+        "size": [
+          1,
+          5
+        ],
+        "bytes": 40,
+        "class": "double"
+      },
+      {
+        "name": "c",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "c1",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "cicAmp",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "cicFreq",
+        "size": [
+          1,
+          2048
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "cicPhase",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "fin",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "fs",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "g",
+        "size": [
+          1,
+          2
+        ],
+        "bytes": 16,
+        "class": "double"
+      },
+      {
+        "name": "lpAmp",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "lpFreq",
+        "size": [
+          1,
+          2048
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "lpPhase",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "ntf",
+        "size": [],
+        "bytes": 1406,
+        "class": "zpk"
+      },
+      {
+        "name": "order",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "osr",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "out",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 4.422743E+6,
+        "class": "Simulink.SimulationOutput"
+      },
+      {
+        "name": "sdmAmp",
+        "size": [
+          32773,
+          1
+        ],
+        "bytes": 262184,
+        "class": "double"
+      },
+      {
+        "name": "sdmFreq",
+        "size": [
+          1,
+          32773
+        ],
+        "bytes": 262184,
+        "class": "double"
+      },
+      {
+        "name": "sdmPhase",
+        "size": [
+          32773,
+          1
+        ],
+        "bytes": 262184,
+        "class": "double"
+      },
+      {
+        "name": "ts",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "vref",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/final_num.mat",
+    "variables": [
+      {
+        "name": "Bd",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Bs",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Kd",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Kor_ds",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Ks",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Ksc",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Kscd",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Kscs",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Kvfd",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Kvfs",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Md",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "Ms",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/or/nonlinear.mat",
+    "variables": {
+      "name": "result",
+      "size": [
+        48,
+        2
+      ],
+      "bytes": 12288,
+      "class": "cell"
+    },
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFF_4stage_1bit.mat",
+    "variables": [
+      {
+        "name": "ABCD",
+        "size": [
+          5,
+          6
+        ],
+        "bytes": 240,
+        "class": "double"
+      },
+      {
+        "name": "Mpoints",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "N",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "VDD",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "a",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "a1",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "b",
+        "size": [
+          1,
+          5
+        ],
+        "bytes": 40,
+        "class": "double"
+      },
+      {
+        "name": "b1",
+        "size": [
+          1,
+          5
+        ],
+        "bytes": 40,
+        "class": "double"
+      },
+      {
+        "name": "c",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "c1",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "cicAmp",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "cicFreq",
+        "size": [
+          1,
+          2048
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "cicPhase",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "fin",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "fs",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "g",
+        "size": [
+          1,
+          2
+        ],
+        "bytes": 16,
+        "class": "double"
+      },
+      {
+        "name": "lpAmp",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "lpFreq",
+        "size": [
+          1,
+          2048
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "lpPhase",
+        "size": [
+          2048,
+          1
+        ],
+        "bytes": 16384,
+        "class": "double"
+      },
+      {
+        "name": "ntf",
+        "size": [],
+        "bytes": 1406,
+        "class": "zpk"
+      },
+      {
+        "name": "order",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "osr",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "out",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 4.422743E+6,
+        "class": "Simulink.SimulationOutput"
+      },
+      {
+        "name": "sdmAmp",
+        "size": [
+          32773,
+          1
+        ],
+        "bytes": 262184,
+        "class": "double"
+      },
+      {
+        "name": "sdmFreq",
+        "size": [
+          1,
+          32773
+        ],
+        "bytes": 262184,
+        "class": "double"
+      },
+      {
+        "name": "sdmPhase",
+        "size": [
+          32773,
+          1
+        ],
+        "bytes": 262184,
+        "class": "double"
+      },
+      {
+        "name": "ts",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "vref",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/SDM/CIFF_4stage_4bit.mat",
+    "variables": [
+      {
+        "name": "ABCD",
+        "size": [
+          5,
+          6
+        ],
+        "bytes": 240,
+        "class": "double"
+      },
+      {
+        "name": "ABCD1",
+        "size": [
+          5,
+          6
+        ],
+        "bytes": 240,
+        "class": "double"
+      },
+      {
+        "name": "Mpoints",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "N",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "VDD",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "a",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "a1",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "b",
+        "size": [
+          1,
+          5
+        ],
+        "bytes": 40,
+        "class": "double"
+      },
+      {
+        "name": "b1",
+        "size": [
+          1,
+          5
+        ],
+        "bytes": 40,
+        "class": "double"
+      },
+      {
+        "name": "c",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "c1",
+        "size": [
+          1,
+          4
+        ],
+        "bytes": 32,
+        "class": "double"
+      },
+      {
+        "name": "fin",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "fs",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "g",
+        "size": [
+          1,
+          2
+        ],
+        "bytes": 16,
+        "class": "double"
+      },
+      {
+        "name": "g1",
+        "size": [
+          1,
+          2
+        ],
+        "bytes": 16,
+        "class": "double"
+      },
+      {
+        "name": "ntf",
+        "size": [],
+        "bytes": 1406,
+        "class": "zpk"
+      },
+      {
+        "name": "order",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "osr",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "out",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 1.580914E+6,
+        "class": "Simulink.SimulationOutput"
+      },
+      {
+        "name": "ts",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "vinmax",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "vref",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/SDM/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/SDM/slprj/sim/varcache/CIFFfour/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          9
+        ],
+        "bytes": 6480,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          1
+        ],
+        "bytes": 718,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/CIFFfour/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          8
+        ],
+        "bytes": 5758,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/SDADCsim/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/SD_ADC/slprj/sim/varcache/SDADCsim/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          8
+        ],
+        "bytes": 5758,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFfour/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          9
+        ],
+        "bytes": 6480,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          1
+        ],
+        "bytes": 718,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFstable_state/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/CIFFstable_state/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          9
+        ],
+        "bytes": 6480,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/SDADCsim/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/SDADCsim/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          7
+        ],
+        "bytes": 5038,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/sigma_delta/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/sigma_delta/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          6
+        ],
+        "bytes": 4318,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          1
+        ],
+        "bytes": 720,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/test1/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/digital_gyro/slprj/sim/varcache/test1/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          3
+        ],
+        "bytes": 2154,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/good.mat",
+    "variables": {
+      "name": "data",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 2.00039E+6,
+      "class": "timeseries"
+    },
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/CIFFfour/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/CIFFfour/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          3
+        ],
+        "bytes": 2154,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/Copy_of_sense_loop_after_dem_or/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/Copy_of_sense_loop_after_dem_or/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          15
+        ],
+        "bytes": 10794,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/drive/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/drive/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          14
+        ],
+        "bytes": 10068,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/loop_after_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/loop_after_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          12
+        ],
+        "bytes": 8664,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/SDADCsim/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/SDADCsim/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          6
+        ],
+        "bytes": 4308,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          4
+        ],
+        "bytes": 2872,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          15
+        ],
+        "bytes": 10794,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_6/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_6/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          4
+        ],
+        "bytes": 2872,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_8/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_3_8/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          4
+        ],
+        "bytes": 2872,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_2/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_2/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          14
+        ],
+        "bytes": 10068,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_9/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_after_dem_or_4_9/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          16
+        ],
+        "bytes": 11516,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_before_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_loop_before_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          5
+        ],
+        "bytes": 3598,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_openloop/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_openloop/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          4
+        ],
+        "bytes": 2872,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_or_after_dem/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_or_after_dem/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          5
+        ],
+        "bytes": 3598,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_or_before_dem_old/checksumOfCache.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          4,
+          1
+        ],
+        "bytes": 16,
+        "class": "uint32"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/slprj/sim/varcache/sense_or_before_dem_old/varInfo.mat",
+    "variables": [
+      {
+        "name": "ConfigSetRef",
+        "size": [
+          5,
+          0
+        ],
+        "bytes": 0,
+        "class": "cell"
+      },
+      {
+        "name": "GlobalWorkspace",
+        "size": [
+          5,
+          5
+        ],
+        "bytes": 3598,
+        "class": "cell"
+      },
+      {
+        "name": "ModelWorkspace",
+        "size": [
+          5,
+          10
+        ],
+        "bytes": 7216,
+        "class": "cell"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/stableMemoryData.mat",
+    "variables": [
+      {
+        "name": "curParam",
+        "size": [
+          5,
+          1
+        ],
+        "bytes": 40,
+        "class": "double"
+      },
+      {
+        "name": "endIndex",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "fileName",
+        "size": [],
+        "bytes": 182,
+        "class": "string"
+      },
+      {
+        "name": "i",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "in",
+        "size": [
+          1,
+          5
+        ],
+        "bytes": 3745,
+        "class": "Simulink.SimulationInput"
+      },
+      {
+        "name": "j",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "loopN",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "maxParallel",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "modelName",
+        "size": [
+          1,
+          27
+        ],
+        "bytes": 54,
+        "class": "char"
+      },
+      {
+        "name": "n",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "nParam",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "parCombine",
+        "size": [
+          10,
+          1
+        ],
+        "bytes": 80,
+        "class": "double"
+      },
+      {
+        "name": "parName",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 128,
+        "class": "cell"
+      },
+      {
+        "name": "paramIndex",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "paramSize",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "params",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 200,
+        "class": "cell"
+      },
+      {
+        "name": "path",
+        "size": [],
+        "bytes": 326,
+        "class": "string"
+      },
+      {
+        "name": "saveNumber",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "saveParName",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 128,
+        "class": "cell"
+      },
+      {
+        "name": "saveParam",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "savePath",
+        "size": [
+          1,
+          73
+        ],
+        "bytes": 146,
+        "class": "char"
+      },
+      {
+        "name": "startIndex",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      },
+      {
+        "name": "times",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 8,
+        "class": "double"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "path": "simulink2024/Workspace/10s_60frequencies.mat",
+    "variables": {
+      "name": "data",
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 1.0000408E+7,
+      "class": "timeseries"
+    },
+    "error": ""
+  }
+]
