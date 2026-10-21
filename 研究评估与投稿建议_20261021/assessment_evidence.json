@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-21",
+  "hardware_user_confirmed": "仅模型和RTL，尚未上板",
+  "scope": "审阅现有源代码与已保存证据；本轮未重新运行MATLAB/XSim，未完成222条WoS全文综述",
+  "frp": {
+    "zero_rate": {
+      "rmsOffDps": 4.212255336204316,
+      "rmsOnlineDps": 3.0801130658506324,
+      "rmsOracleDps": 3.0804761839630053,
+      "rmsOracleNegativeDps": 5.684279922052758,
+      "onlineImprovementFraction": 0.26877341946081135,
+      "oracleImprovementFraction": 0.268687214308609,
+      "oracleNegativeImprovementFraction": -0.34946233510499636,
+      "maxCorrectionOnlineDps": 2,
+      "maxCorrectionOracleDps": 2,
+      "maxCorrectionOracleNegativeDps": 2,
+      "oraclePathActive": true,
+      "onlinePathActive": true,
+      "oracleCorrelation": 0.763750358391785,
+      "onlineCorrelation": 0.7639956990411715,
+      "signSeparationFraction": 0.6181495494136053,
+      "minimumSignSeparationFraction": 0.01,
+      "minimumCorrelation": 0.2,
+      "signSignificant": true,
+      "signCorrect": true,
+      "angleCoverageFraction": 0.7777777777777778,
+      "oracleModelPass": true,
+      "onlineEstimatorPass": true
+    },
+    "nonzero_rate": {
+      "scenario": "unseen seed, 31 deg initial angle, 18..42 C in-domain ramp, nonzero piecewise rates, 0.75 s post-step exclusion",
+      "sampleCount": 9501,
+      "settlingExclusionSec": 0.75,
+      "rmsOffDps": 2.629918210432726,
+      "rmsOnlineDps": 2.5915490738356124,
+      "rmsOracleDps": 2.592760026717382,
+      "fullWindowRmsOffDps": 2.653645086750802,
+      "fullWindowRmsOnlineDps": 2.6099441382030886,
+      "fullWindowRmsOracleDps": 2.611151845555591,
+      "rmsOnDps": 2.5915490738356124,
+      "improvementFraction": 0.014589479035851949,
+      "oracleImprovementFraction": 0.014129026358287389,
+      "systematicBiasRmsOffDps": 0.15075403988835462,
+      "systematicBiasRmsOnlineDps": 0.014877989504411712,
+      "systematicBiasRmsOracleDps": 0.014871909402217425,
+      "systematicImprovementFraction": 0.901309513725602,
+      "systematicOracleImprovementFraction": 0.9013498449976448,
+      "maxCorrectionOffDps": 0,
+      "maxCorrectionOnDps": 0.6724797798421055,
+      "maxCorrectionOracleDps": 0.6671951575560959,
+      "maxOutputDifferenceDps": 0.6724797798421067,
+      "compensationPathActive": true,
+      "oraclePathActive": true,
+      "minimumImprovementFraction": 0.05,
+      "minimumSystematicImprovementFraction": 0.05,
+      "maximumRmsDegradationFraction": 0.01,
+      "nonzeroNavigationOraclePass": true,
+      "nonzeroNavigationOnlinePass": true,
+      "nonzeroNavigationPass": true,
+      "oracleModelPass": true,
+      "onlineEstimatorPass": true,
+      "pass": true,
+      "failureCause": "none"
+    },
+    "rls_equivalence_difference_dps": 3.247876899724323e-10
+  },
+  "sources": [
+    {
+      "path": "研究规划与论文路线_20261010/evidence/current_validation_summary.json",
+      "sha256": "11d22af05794290a9f0f6ac07dfaabd006195e7fa13f770425b78ac717b7bec3"
+    },
+    {
+      "path": "集成电路科学与工程学科顶刊及高水平清单列表.pdf",
+      "sha256": "1289b1025fdbe5e647bee1d179a3d174d62e365e57fd509c61e68a2268a6805d"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/validation_summary.json",
+      "sha256": "7074888a1e49cf958b20adc549920e38feca14cc1b39726b80094586873f2f2d"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/compiled_rtl.json",
+      "sha256": "5b0b57fb0eb29c2d890c83f63face1712e4f9a6b2637cb5a8b8bc2076b36a017"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_nco.v",
+      "sha256": "fd705486d88438a41ba36aa24b912e2849dfe05fa6cf00deb1a3d961a3493f87"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_v46_advanced.m",
+      "sha256": "51833ba223bb0d8d447b0c6b7db6b924cdfeff0e4ff375f8ab33e3fa264f3556"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/run_HRG_WA_v46_ab_validation.m",
+      "sha256": "48b0189e995c6ae5ef9382c2a56f44ccbd99bb2df48006c1ecf7da83b10d7e20"
+    }
+  ]
+}
