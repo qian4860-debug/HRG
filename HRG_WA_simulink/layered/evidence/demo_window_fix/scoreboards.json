@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "name": "demo_does_not_save_model_files",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "zero_skew_IQ_equivalence",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "zero_skew_navigation_equivalence",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "zero_skew_uses_wires",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "nineteen_replay_tabs",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "viewer_alive_after_return",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "viewer_survives_model_close",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "replay_reuses_existing_figure",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "replay_no_duplicate_tabs",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_structure_0",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_finite_0",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_structure_5e-07",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_finite_5e-07",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_structure_-5e-07",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_finite_-5e-07",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_structure_0",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "skew_sign_finite_0",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "simulationDurationS": 0.08,
+  "note": "UI handles tested inside a running MATLAB session after simulation return and after model close. Batch MATLAB itself exits at command end."
+}

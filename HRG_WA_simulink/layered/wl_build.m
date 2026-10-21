@@ -1,6 +1,7 @@
-function name=wl_build(c)
+function name=wl_build(c,saveArtifacts)
 % Progressive carrier closed-loop models assembled from MATLAB library blocks.
 if nargin<1,c=wl_config(5);end
+if nargin<2,saveArtifacts=true;end
 root=fileparts(mfilename('fullpath'));addpath(root);c=wl_setup(c);name=c.name;
 work=fullfile(root,'_work');if ~isfolder(work),mkdir(work);end
 Simulink.fileGenControl('set','CacheFolder',fullfile(work,'cache'),'CodeGenFolder',fullfile(work,'codegen'),'createDir',true);
@@ -53,10 +54,14 @@ set_param(name,'Location',[20 40 1470 850]);
 % Keep each delivered test/architecture model's exact clock and scenario.
 assignin(get_param(name,'ModelWorkspace'),'wl_saved_configuration',rmfield(c,'legacyP'));
 set_param(name,'PostLoadFcn',sprintf('addpath(fileparts(fileparts(get_param(''%s'',''FileName'')))); wl_setup(getVariable(get_param(''%s'',''ModelWorkspace''),''wl_saved_configuration''));',name,name));
-folder=fullfile(root,'models');if ~isfolder(folder),mkdir(folder);end
-save_system(name,fullfile(folder,[name '.slx']));
-print(['-s' name],'-dpng','-r120',fullfile(folder,[name '.png']));
-fprintf('Built %s with library scopes and spectrum analyzers.\n',name);
+if saveArtifacts
+ folder=fullfile(root,'models');if ~isfolder(folder),mkdir(folder);end
+ save_system(name,fullfile(folder,[name '.slx']));
+ print(['-s' name],'-dpng','-r120',fullfile(folder,[name '.png']));
+ fprintf('Built %s with library scopes and spectrum analyzers.\n',name);
+else
+ fprintf('Built temporary %s; existing model files retained.\n',name);
+end
 end
 
 function mechanical(s)
@@ -132,8 +137,16 @@ end
 function adc(s)
 % Signed channel skew: delay the appropriate channel, never use future samples.
 blk(s,'simulink/Signal Routing/Demux','Channels','Outputs','2','Position',[70 50 75 140]);wire(s,'In1/1','Channels/1');
-blk(s,'simulink/Continuous/Transport Delay','Skew_X','DelayTime','max(-wl_c.channelSkewS,0)','Position',[100 20 240 55]);
-blk(s,'simulink/Continuous/Transport Delay','Skew_Y','DelayTime','max(wl_c.channelSkewS,0)','Position',[100 120 240 155]);
+if evalin('base','wl_c.channelSkewS')<0
+ blk(s,'simulink/Continuous/Transport Delay','Skew_X','DelayTime','-wl_c.channelSkewS','Position',[100 20 240 55]);
+else
+ gain(s,'Skew_X','1',[100 20 240 55]);
+end
+if evalin('base','wl_c.channelSkewS')>0
+ blk(s,'simulink/Continuous/Transport Delay','Skew_Y','DelayTime','wl_c.channelSkewS','Position',[100 120 240 155]);
+else
+ gain(s,'Skew_Y','1',[100 120 240 155]);
+end
 mux(s,'Skewed_Channels',2,[280 40 285 130]);wire(s,'Channels/1','Skew_X/1');wire(s,'Channels/2','Skew_Y/1');wire(s,'Skew_X/1','Skewed_Channels/1');wire(s,'Skew_Y/1','Skewed_Channels/2');
 blk(s,'simulink/Discrete/Zero-Order Hold','Sample_Hold','SampleTime','wl_Ta','Position',[330 50 460 90]);wire(s,'Skewed_Channels/1','Sample_Hold/1');
 % First-order aperture perturbation from clean mechanical velocity, separate

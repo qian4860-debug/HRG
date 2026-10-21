@@ -1,0 +1,54 @@
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_validate_demo (第 7 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_validate_demo (第 7 行)] 
+Built temporary hrg_wa_v5_demo; existing model files retained.
+Running hrg_wa_v5_demo (0.08 s). Live library windows: 0.
+Simulation data saved; opening persistent logged-data replay.
+Simulation complete. Persistent replay: hrg_wa_viewer (19 signal tabs).
+Replay again: wl_view_results(out_layered,wl_demo_configuration);
+demo_does_not_save_model_files 0 <= 0 : 1
+zero_skew_IQ_equivalence 0 <= 1e-10 : 1
+zero_skew_navigation_equivalence 0 <= 1e-10 : 1
+zero_skew_uses_wires 0 <= 0 : 1
+nineteen_replay_tabs 0 <= 0 : 1
+viewer_alive_after_return 0 <= 0 : 1
+viewer_survives_model_close 0 <= 0 : 1
+replay_reuses_existing_figure 0 <= 0 : 1
+replay_no_duplicate_tabs 0 <= 0 : 1
+skew_sign_structure_0 0 <= 0 : 1
+skew_sign_finite_0 0 <= 0 : 1
+[警告: The specified delay time for 'hrg_wa_v5_demo_skew_test/ADC_Clock_Conversion/Skew_Y' is smaller than the step size of the fixed-step solver. This may cause
+simulation results to be inaccurate. Consider decreasing the step size of the solver to improve accuracy] 
+[> 位置：wl_build>blk (第 319 行)
+位置: wl_build>adc (第 146 行)
+位置: wl_build (第 19 行)
+位置: wl_sim (第 13 行)
+位置: wl_validate_demo (第 38 行)] 
+Built hrg_wa_v5_demo_skew_test with library scopes and spectrum analyzers.
+[警告: The specified delay time for 'hrg_wa_v5_demo_skew_test/ADC_Clock_Conversion/Skew_Y' is smaller than the step size of the fixed-step solver. This may cause
+simulation results to be inaccurate. Consider decreasing the step size of the solver to improve accuracy] 
+[> 位置：wl_sim (第 15 行)
+位置: wl_validate_demo (第 38 行)] 
+skew_sign_structure_5e-07 0 <= 0 : 1
+skew_sign_finite_5e-07 0 <= 0 : 1
+[警告: The specified delay time for 'hrg_wa_v5_demo_skew_test/ADC_Clock_Conversion/Skew_X' is smaller than the step size of the fixed-step solver. This may cause
+simulation results to be inaccurate. Consider decreasing the step size of the solver to improve accuracy] 
+[> 位置：wl_build>blk (第 319 行)
+位置: wl_build>adc (第 141 行)
+位置: wl_build (第 19 行)
+位置: wl_sim (第 13 行)
+位置: wl_validate_demo (第 38 行)] 
+Built hrg_wa_v5_demo_skew_test with library scopes and spectrum analyzers.
+[警告: The specified delay time for 'hrg_wa_v5_demo_skew_test/ADC_Clock_Conversion/Skew_X' is smaller than the step size of the fixed-step solver. This may cause
+simulation results to be inaccurate. Consider decreasing the step size of the solver to improve accuracy] 
+[> 位置：wl_sim (第 15 行)
+位置: wl_validate_demo (第 38 行)] 
+skew_sign_structure_-5e-07 0 <= 0 : 1
+skew_sign_finite_-5e-07 0 <= 0 : 1
+Built hrg_wa_v5_demo_skew_test with library scopes and spectrum analyzers.
+skew_sign_structure_0 0 <= 0 : 1
+skew_sign_finite_0 0 <= 0 : 1
+PASS 17 demo lifecycle, waveform-equivalence and skew-structure checks.
