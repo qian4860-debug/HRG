@@ -1,0 +1,69 @@
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_validate_spectrum (第 8 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_validate_spectrum (第 8 行)] 
+Built hrg_wa_v5_spectrum_fixed with library scopes and spectrum analyzers.
+spectrum_count 0 <= 0 : 1
+adc_actual_sampling 0 <= 2.5e-15 : 1
+adc_physical_units 0 <= 0 : 1
+sample_hold_actual_sampling 0 <= 2.5e-15 : 1
+sample_hold_physical_units 0 <= 0 : 1
+anti_alias_actual_sampling 0 <= 2.5e-16 : 1
+anti_alias_physical_units 0 <= 0 : 1
+cv_actual_actual_sampling 0 <= 2.5e-16 : 1
+cv_actual_physical_units 0 <= 0 : 1
+cv_ideal_actual_sampling 0 <= 2.5e-16 : 1
+cv_ideal_physical_units 0 <= 0 : 1
+pga_actual_sampling 0 <= 2.5e-16 : 1
+pga_physical_units 0 <= 0 : 1
+dac_actual_sampling 0 <= 2.5e-15 : 1
+dac_physical_units 0 <= 0 : 1
+dac_requested_actual_sampling 0 <= 2.5e-16 : 1
+dac_requested_physical_units 0 <= 0 : 1
+driver_actual_sampling 0 <= 2.5e-16 : 1
+driver_physical_units 0 <= 0 : 1
+force_actual_sampling 0 <= 2.5e-16 : 1
+force_physical_units 0 <= 0 : 1
+cic_actual_sampling 0 <= 1e-13 : 1
+cic_physical_units 0 <= 0 : 1
+fir_actual_sampling 0 <= 1e-13 : 1
+fir_physical_units 0 <= 0 : 1
+iq_actual_sampling 0 <= 1e-13 : 1
+iq_physical_units 0 <= 0 : 1
+mixer_actual_sampling 0 <= 2.5e-15 : 1
+mixer_physical_units 0 <= 0 : 1
+head_displacement_actual_sampling 0 <= 2.5e-16 : 1
+head_displacement_physical_units 0 <= 0 : 1
+head_velocity_actual_sampling 0 <= 2.5e-16 : 1
+head_velocity_physical_units 0 <= 0 : 1
+tap_adc_observer_nonintrusive 0 <= 1e-10 : 1
+tap_algorithm_diagnostics_observer_nonintrusive 0 <= 1e-10 : 1
+tap_anti_alias_observer_nonintrusive 0 <= 1e-10 : 1
+tap_cic_observer_nonintrusive 0 <= 1e-10 : 1
+tap_control_commands_observer_nonintrusive 0 <= 1e-10 : 1
+tap_cv_actual_observer_nonintrusive 0 <= 1e-10 : 1
+tap_cv_ideal_observer_nonintrusive 0 <= 1e-10 : 1
+tap_dac_observer_nonintrusive 0 <= 1e-10 : 1
+tap_dac_requested_observer_nonintrusive 0 <= 1e-10 : 1
+tap_driver_observer_nonintrusive 0 <= 1e-10 : 1
+tap_fir_observer_nonintrusive 0 <= 1e-10 : 1
+tap_force_observer_nonintrusive 0 <= 1e-10 : 1
+tap_head_displacement_observer_nonintrusive 0 <= 1e-10 : 1
+tap_head_velocity_observer_nonintrusive 0 <= 1e-10 : 1
+tap_iq_observer_nonintrusive 0 <= 1e-10 : 1
+tap_mixer_observer_nonintrusive 0 <= 1e-10 : 1
+tap_navigation_observer_nonintrusive 0 <= 1e-10 : 1
+tap_pga_observer_nonintrusive 0 <= 1e-10 : 1
+tap_sample_hold_observer_nonintrusive 0 <= 1e-10 : 1
+PSD_known_tone_Hz 1.13686838e-13 <= 1e-09 : 1
+PSD_known_tone_variance 2.22044605e-16 <= 1e-12 : 1
+PSD_removed_constant 0 <= 0 : 1
+two_seconds_cannot_resolve_slow_rotation 0 <= 0 : 1
+PSD_does_not_claim_isolated_noise 0 <= 0 : 1
+driver_native_PSD_carrier_Hz 19.53125 <= 48.828125 : 1
+replay_nineteen_tabs 0 <= 0 : 1
+IQ_quality_axes 0 <= 0 : 1
+driver_PSD_voltage_density_label 0 <= 0 : 1
+PASS 61 sampling, units, observer-equivalence and PSD checks.

@@ -1,0 +1,456 @@
+{
+  "checks": [
+    {
+      "name": "spectrum_count",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "adc_actual_sampling",
+      "value": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "adc_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "sample_hold_actual_sampling",
+      "value": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "sample_hold_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "anti_alias_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "anti_alias_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "cv_actual_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "cv_actual_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "cv_ideal_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "cv_ideal_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "pga_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "pga_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "dac_actual_sampling",
+      "value": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "dac_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "dac_requested_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "dac_requested_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "driver_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "driver_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "force_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "force_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "cic_actual_sampling",
+      "value": 0,
+      "limit": 1E-13,
+      "pass": true
+    },
+    {
+      "name": "cic_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "fir_actual_sampling",
+      "value": 0,
+      "limit": 1E-13,
+      "pass": true
+    },
+    {
+      "name": "fir_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "iq_actual_sampling",
+      "value": 0,
+      "limit": 1E-13,
+      "pass": true
+    },
+    {
+      "name": "iq_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "mixer_actual_sampling",
+      "value": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "mixer_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "head_displacement_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "head_displacement_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "head_velocity_actual_sampling",
+      "value": 0,
+      "limit": 2.5E-16,
+      "pass": true
+    },
+    {
+      "name": "head_velocity_physical_units",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "tap_adc_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_algorithm_diagnostics_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_anti_alias_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_cic_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_control_commands_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_actual_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_ideal_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_requested_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_driver_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_fir_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_force_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_head_displacement_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_head_velocity_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_iq_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_mixer_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_navigation_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_pga_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_sample_hold_observer_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "PSD_known_tone_Hz",
+      "value": 1.1368683772161603E-13,
+      "limit": 1E-9,
+      "pass": true
+    },
+    {
+      "name": "PSD_known_tone_variance",
+      "value": 2.2204460492503131E-16,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "PSD_removed_constant",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "two_seconds_cannot_resolve_slow_rotation",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "PSD_does_not_claim_isolated_noise",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "driver_native_PSD_carrier_Hz",
+      "value": 19.531250001525223,
+      "limit": 48.82812499998505,
+      "pass": true
+    },
+    {
+      "name": "replay_nineteen_tabs",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "IQ_quality_axes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "driver_PSD_voltage_density_label",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "instruments": [
+    {
+      "node": "adc",
+      "compiledSampleTimeS": 2.5E-5,
+      "unit": "dBV"
+    },
+    {
+      "node": "sample_hold",
+      "compiledSampleTimeS": 2.5E-5,
+      "unit": "dBV"
+    },
+    {
+      "node": "anti_alias",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBV"
+    },
+    {
+      "node": "cv_actual",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBV"
+    },
+    {
+      "node": "cv_ideal",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBV"
+    },
+    {
+      "node": "pga",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBV"
+    },
+    {
+      "node": "dac",
+      "compiledSampleTimeS": 2.5E-5,
+      "unit": "dBV"
+    },
+    {
+      "node": "dac_requested",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBV"
+    },
+    {
+      "node": "driver",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBV"
+    },
+    {
+      "node": "force",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBFS"
+    },
+    {
+      "node": "cic",
+      "compiledSampleTimeS": 0.001,
+      "unit": "dBFS"
+    },
+    {
+      "node": "fir",
+      "compiledSampleTimeS": 0.001,
+      "unit": "dBFS"
+    },
+    {
+      "node": "iq",
+      "compiledSampleTimeS": 0.001,
+      "unit": "dBFS"
+    },
+    {
+      "node": "mixer",
+      "compiledSampleTimeS": 2.5E-5,
+      "unit": "dBFS"
+    },
+    {
+      "node": "head_displacement",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBFS"
+    },
+    {
+      "node": "head_velocity",
+      "compiledSampleTimeS": 2.5E-6,
+      "unit": "dBFS"
+    }
+  ],
+  "baselineCommit": "04050e4",
+  "durationS": 0.08,
+  "note": "Discrete sample time checked on each actual selector wired directly into its spectrum analyzer. Desktop DSP windows are not opened by this batch test."
+}

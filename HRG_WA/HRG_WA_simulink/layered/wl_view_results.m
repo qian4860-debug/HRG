@@ -34,20 +34,27 @@ for k=1:numel(names)
   otherwise
    fs=1/median(diff(t));sel=true(size(t));
    if fs>4*c.head.f0,sel=t>=t(end)-6/c.head.f0;end
-   a=panel(tab,t(sel),x(sel,:),1,2,[label ' - native samples'],'none');
+   rows=2+strcmp(label,'iq');
+   a=panel(tab,t(sel),x(sel,:),1,rows,[label ' - native samples'],'none');
    if ismember(label,{'adc','dac','sample_hold'})
     delete(a.Children);set(a,'NextPlot','add');stairs(a,t(sel),x(sel,:));set(a,'NextPlot','replace');
    end
    ylabel(a,units(label));
-   count=size(x,2);legend(a,arrayfun(@(n)sprintf('Ch%d',n),1:count,'UniformOutput',false),'Location','best');
-   a=subplot(2,1,2,'Parent',tab);
-   N=min(8192,2^floor(log2(numel(t))));
-   if N>=8
-    w=.5-.5*cos(2*pi*(0:N-1)'/N);segment=x(end-N+1:end,:);segment=segment-mean(segment,1);
-    X=fft(segment.*w);P=abs(X(1:N/2+1,:)).^2/(fs*sum(w.^2));P(2:end-1,:)=2*P(2:end-1,:);
-    f=(0:N/2)'*fs/N;plot(a,f,10*log10(max(P,1e-30)));grid(a,'on');
-    xlim(a,[0 min(fs/2,2*c.head.f0)]);xlabel(a,'Hz');ylabel(a,'PSD (dB unit^2/Hz)');
-    title(a,sprintf('One-sided Hann PSD, last %d native samples, Fs = %.9g Hz',N,fs));
+   count=size(x,2);channelNames=arrayfun(@(n)sprintf('Ch%d',n),1:count,'UniformOutput',false);
+   if ismember(label,{'mixer','cic','fir','iq'}),channelNames={'Cx','Cy','Sx','Sy'};end
+   legend(a,channelNames,'Location','best');
+   if strcmp(label,'iq')
+    E=sum(x.^2,2);Q=2*(x(:,1).*x(:,4)-x(:,2).*x(:,3));ratio=Q./max(E,eps);ratio(E<c.head.energyThreshold)=NaN;
+    a=panel(tab,t,[E ratio],2,rows,sprintf('Loop quality: E target %.5g, Q/E target 0',c.head.energyTarget));legend(a,{'E','Q/E'},'Location','best');
+   end
+   a=subplot(rows,1,rows,'Parent',tab);
+   if numel(t)>=8
+    [f,P,info]=wl_native_psd(t,x);plot(a,f,10*log10(max(P,1e-30)));grid(a,'on');
+    xlim(a,[0 min(fs/2,2*c.head.f0)]);xlabel(a,'Hz');ylabel(a,['PSD [dB(' units(label) '^2/Hz)]'],'Interpreter','none');
+    title(a,sprintf('Hann PSD: mean removed, trend retained; df=%.4g Hz, window=%.4g s',info.binSpacingHz,info.windowDurationS));
+    if strcmp(label,'iq')
+     title(a,sprintf('Slow IQ signal, NOT isolated noise; df=%.4g Hz; rotation about %.4g Hz',info.binSpacingHz,abs(c.head.bryan*c.inputRate)/pi));
+    end
    end
  end
 end

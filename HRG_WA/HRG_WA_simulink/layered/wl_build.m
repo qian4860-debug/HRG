@@ -260,8 +260,8 @@ wire(s,'One_Bit_Quantizer/1','Feedback_Delay/1');wire(s,'Feedback_Delay/1','Inpu
 gain(s,'Reference_Voltage','wl_c.sdmReferenceV',[830 70 1000 120]);wire(s,'One_Bit_Quantizer/1','Reference_Voltage/1');wire(s,'Reference_Voltage/1','Out1/1');
 end
 function observe(s,from,label,fs,units)
-c=evalin('base','wl_c');persistent serial;if isempty(serial),serial=0;end;serial=serial+1;
-pos=[50+mod(serial,4)*340 800+floor(mod(serial,16)/4)*140];
+c=evalin('base','wl_c');serial=numel(find_system(s,'SearchDepth',1,'BlockType','ToWorkspace'));
+pos=[50+mod(serial,3)*520 700+floor(serial/3)*200];
 logname=['tap_' label];
 blk(s,'simulink/Sinks/To Workspace',logname,'VariableName',logname,'SaveFormat','Timeseries', ...
  'MaxDataPoints',num2str(c.maxLogPoints),'Position',[pos pos+[190 40]]);wire(s,from,[logname '/1']);
@@ -271,14 +271,28 @@ if c.observers
 end
 if c.spectra && ~contains(label,{'diagnostics','navigation','commands'})
  % Select the first physical channel; do not mix vector channels into frames.
+ sample=['Spectrum_Sample_' label];
+ blk(s,'simulink/Discrete/Zero-Order Hold',sample,'SampleTime',num2str(1/fs,17), ...
+  'Position',[pos+[0 60] pos+[100 100]]);wire(s,from,[sample '/1']);
  select=['Spectrum_Channel_' label];
  blk(s,'simulink/Signal Routing/Selector',select,'NumberOfDimensions','1','IndexOptionArray',{'Index vector (dialog)'}, ...
   'IndexParamArray',{'1'},'InputPortWidth',num2str(2+2*ismember(label,{'mixer','cic','fir','iq'})), ...
-  'Position',[pos+[0 60] pos+[80 100]]);wire(s,from,[select '/1']);
+  'Position',[pos+[120 60] pos+[200 100]]);wire(s,[sample '/1'],[select '/1']);
  n=['Spectrum_' label];src=sprintf('dspsnks4/Spectrum\nAnalyzer');
- blk(s,src,n,'Position',[pos+[120 60] pos+[270 110]], ...
+ blk(s,src,n,'Position',[pos+[240 60] pos+[430 110]], ...
   'OpenAtSimulationStart','off','SampleRateSource','Property','SampleRate',num2str(fs), ...
   'Title',[label ' [' units ']'],'RBWSource','Property','RBW',num2str(max(fs/1024,1)));
+ if strcmp(units,'V')
+  set_param([s '/' n],'SpectrumType','Power','SpectrumUnits','dBV', ...
+   'Title',[label ' - voltage power spectrum (first channel)']);
+ else
+  set_param([s '/' n],'SpectrumType','Power','SpectrumUnits','dBFS', ...
+   'FullScaleSource','Property','FullScale','1', ...
+   'Title',[label ' - reference amplitude 1 [' units '], first channel']);
+ end
+ if ismember(label,{'mixer','cic','fir','iq'})
+  set_param([s '/' n],'Title',[label ' Cx: slow signal spectrum, not isolated noise; ref=1']);
+ end
  wire(s,[select '/1'],[n '/1']);
 end
 end
