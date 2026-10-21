@@ -1,0 +1,29 @@
+{
+  "sealedUTC": "2026-10-21T18:50:05.190216+00:00",
+  "baseCommit": "b1c2a776e64876382e3df1f7ebd7a818b949619b",
+  "baseManifestSHA256": "d6201ecc5cb668f7aab8cb6cb0574c4fc6c6fd7e9636ca6dcbd931e3ffbcdd5b",
+  "files": {
+    "HRG_WA_simulink/layered/README.md": "fdc43ca8c37134651130e35258fb399311bb04a26404e996843c6243928c6203",
+    "HRG_WA_simulink/layered/wl_build.m": "c089932770c081a5fdfb144b579c85f4875ef27819945466deffa40086adbe23",
+    "HRG_WA_simulink/layered/wl_demo.m": "a95fece07059cc9e5a7197f685c7814182023269adca53c39b9e6868df1c2852",
+    "HRG_WA_simulink/layered/wl_sim.m": "81bbd422127d0fd7f787f87078518dfa392f5900117dcb3d860a348bb97fb7a6",
+    "HRG_WA_simulink/layered/wl_view_results.m": "25fe5527ca056161c006eb6964d4fee3ff53edb1cc1e960e33ae53378b5b9626",
+    "HRG_WA_simulink/layered/wl_validate_demo.m": "e5d9bc33067f0946c3cf28cd912b91d5f2cac0d6324fcbd817b8259f77587aa3",
+    "HRG_WA_simulink/layered/tools/verify_demo_fix.py": "b6d14c73018fbe0a65bfbb794f80e9ce44ad023442e7bf4cded0c3f0623b4d8c",
+    ".gitattributes": "9315b18f3d218e5701e3c6e16904ec7cd6cf9d1e911c34b3c6fa15ab315373a5",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5_demo_skew_test.slx": "5ab8572f4d34a1b2785a3c68df70586c16237c578ca93645faf05d45b338ce43",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5_demo_skew_test.png": "e4bf623bb886eb116b694c5a847eea6f6381ee9dcec93fc69f260baf0ab9d7c4",
+    "HRG_WA_simulink/layered/evidence/demo_window_fix/navigation_replay.png": "6c589fcaf223b6bdd528a3a21fc0bd876bd17edd6069195f7a90ebf7c796f11c",
+    "HRG_WA_simulink/layered/evidence/demo_window_fix/README.md": "504efb65195b529718a947e5b87032e73d478d6b34e16d296fbe8e9a65d943ed",
+    "HRG_WA_simulink/layered/evidence/demo_window_fix/scoreboards.json": "e43efcfcb090305c7ec30b9c3c3657de1ca65059d7981e707975445d879c25cc",
+    "HRG_WA_simulink/layered/evidence/demo_window_fix/validation_transcript.txt": "d85e06351067e4b1d6f52f1f59a3c364a84ba36e906a0bf2c33a1519f07def0c"
+  },
+  "preservedWorkingChanges": {
+    "HRG_WA_simulink/hrg_wa_carrier.slx": "6f303c76415165a350985cb6bd4debe30fb2ba3e42e1e696a16afaef4b214a72",
+    "HRG_WA_simulink/hrg_wa_envelope.slx": "cd4392ececdbea37bbb8d78b5cb90c669d902d22b86d0b1e62c3c0805497e624",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5.png": "6d14cdce6068455f3c9ea64e0e5cc04346c2fd6650498d6ae63c47bc817773bd",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5.slx": "6ffde5821fc1a5d0eaf2c69cc87e1f5dc000c5e1461c717d9b5df8e8de55ead7",
+    "HRG_WA_simulink/validation_plot.png": "52d4d006ac6be68e5cbcd0b13eab137693a3bf18d026db532029e25d18a79cf7"
+  },
+  "note": "Incremental acceptance; original manifest/tag bytes retained. Demo creates an unsaved runtime model. Baseline comparison retains preexisting user files."
+}

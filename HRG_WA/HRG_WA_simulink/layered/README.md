@@ -11,6 +11,22 @@ addpath(pwd)
 wl_demo(5)                 % 构建、运行 2 秒，并打开模型及选定观察窗口
 ```
 
+窗口修复版建议在 MATLAB 桌面命令窗口执行：
+
+```matlab
+out = wl_demo(5);          % 分号避免打印整个 SimulationOutput
+```
+
+入口现在使用独立的内存模型 `hrg_wa_v5_demo`；桌面模式让库 Scope/Spectrum 在仿真开始时打开，避免结束后才打开导致无缓存可回放。演示不保存或打印模型文件，保留原 V5 文件，并避免模型导出图时的临时窗口闪现。结束后自动打开普通 MATLAB Figure 结果回放窗口，含 19 个信号页签；载波页显示原采样率波形及 PSD，导航页分开显示角度、角速度和有效标志。可随时重新打开：
+
+```matlab
+wl_view_results(out_layered,wl_demo_configuration);
+```
+
+`ErrorMessage` 为空、各 `tap_*` 为 timeseries 说明仿真正常完成；`ans = SimulationOutput` 是函数返回值。旧模型的零延迟 Transport Delay 提示不代表实际存在代数环；新构建模型在零 skew 时直接连通，不增加 Memory 延迟。非零 skew 保留真实因果延迟，`wl_sim` 在 skew 符号跨零时自动重建相应路径。
+
+若使用 `matlab -batch`，整个 MATLAB 进程退出时所有图窗都会关闭，这是进程生命周期；桌面调用不需要额外等待。窗口修复验证见 `evidence/demo_window_fix/`，执行 `wl_validate_demo` 可复查。历史 `acceptance_manifest.json` 对应提交 `b1c2a77`，不覆盖重写；当前增量版本使用 `python tools/verify_demo_fix.py` 验证。
+
 直接打开 `models/hrg_wa_v5.slx` 会初始化模型随附的 V5 配置；按 Run 运行。各模型保存自己的时钟及工况配置，避免 1bit 等专用模型被普通默认参数覆盖。双击各子系统查看信号流及 `Scope_*`、`Spectrum_*`。频谱仪默认看向量第一路，通过前置 Selector 可换另一通道。导航、控制量和诊断量含不同单位，仅配时域观察。
 
 批量验证入口：
