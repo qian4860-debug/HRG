@@ -1,0 +1,18 @@
+{
+  "status": "research assumptions, not board measurements or accepted RTL configuration",
+  "user_confirmed_adc": "AD9215BCPZ, speed suffix not provided",
+  "user_confirmed_dac": "AD9707BCPZRL, reel suffix incomplete; converter resolution confirmed as AD9707 14-bit",
+  "bryan_assumed": 0.277,
+  "f0_hz_assumed": 5000,
+  "motion_design_envelope_assumed": {"rate_max_dps":10000,"motion_bandwidth_hz":100},
+  "external_converter_assumed_profile": {
+    "adc_fs_hz":10000000,"dac_fs_hz":10000000,"dac_deskew_cycles":0,
+    "afe_poles_hz_assumed":[3000000],"reconstruction_poles_hz_assumed":[3000000],
+    "warning":"3 MHz single poles illustrate bandwidth and phase only, not an anti-alias filter design"
+  },
+  "digital_profiles": {
+    "legacy":{"input_fs_hz":40000,"decimation":40,"cic_order":3,"fir":[1,2,3,2,1],"control_fs_hz":1000,"command_cycles":3,"navigation_lpf_hz":45},
+    "candidate_5khz":{"input_fs_hz":40000,"decimation":8,"cic_order":3,"fir":[1,2,3,2,1],"control_fs_hz":5000,"command_cycles":3,"navigation_lpf_hz":300}
+  },
+  "unknowns":["actual ADC/DAC clocks and ADC speed suffix","mechanical resonant frequency and Q of real head","presence and frequencies of electrical carrier(s)","electrode terminal map and HV node function","capacitance, gap, dC/dq and parasitics","drive/HV amplitude, output load and AFE gain/noise","required angle noise, ARW, BI, dynamic transfer and system power","180 nm PDK voltage devices, capacitor/resistor matching and transistor noise"]
+}

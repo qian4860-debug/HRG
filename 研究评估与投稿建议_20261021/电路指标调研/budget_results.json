@@ -1,0 +1,248 @@
+{
+  "status": "analytical budget under assumptions; not measured",
+  "unknowns": [
+    "actual ADC/DAC clocks and ADC speed suffix",
+    "mechanical resonant frequency and Q of real head",
+    "presence and frequencies of electrical carrier(s)",
+    "electrode terminal map and HV node function",
+    "capacitance, gap, dC/dq and parasitics",
+    "drive/HV amplitude, output load and AFE gain/noise",
+    "required angle noise, ARW, BI, dynamic transfer and system power",
+    "180 nm PDK voltage devices, capacitor/resistor matching and transistor noise"
+  ],
+  "motion_terms": [
+    {
+      "rate_dps": 100,
+      "iq_orientation_hz": 0.1538888888888889,
+      "rs_orientation_hz": 0.3077777777777778
+    },
+    {
+      "rate_dps": 1000,
+      "iq_orientation_hz": 1.538888888888889,
+      "rs_orientation_hz": 3.077777777777778
+    },
+    {
+      "rate_dps": 10000,
+      "iq_orientation_hz": 15.388888888888891,
+      "rs_orientation_hz": 30.777777777777782
+    }
+  ],
+  "digital_profiles": {
+    "legacy": {
+      "filter_group_delay_s": 0.0034625000000000003,
+      "command_delay_s": 0.003,
+      "partial_total_delay_s": 0.0064625,
+      "crossover_ceiling_for_30deg_delay_allocation_hz": 12.894906511927788,
+      "warning": "Delay allocation only; NOT a phase margin or complete loop transfer",
+      "responses": [
+        {
+          "frequency_hz": 1,
+          "detection_and_command_db": -0.0002714405762809526,
+          "linear_group_delay_phase_deg": -2.3265000000000002,
+          "navigation_lpf_only_db": -0.0021299039454042647,
+          "navigation_lpf_only_phase_deg": -1.1015010454486092
+        },
+        {
+          "frequency_hz": 5,
+          "detection_and_command_db": -0.006786474179972418,
+          "linear_group_delay_phase_deg": -11.6325,
+          "navigation_lpf_only_db": -0.052932562525212806,
+          "navigation_lpf_only_phase_deg": -5.482547538389588
+        },
+        {
+          "frequency_hz": 10,
+          "detection_and_command_db": -0.027151647076256658,
+          "linear_group_delay_phase_deg": -23.265,
+          "navigation_lpf_only_db": -0.2079159436647872,
+          "navigation_lpf_only_phase_deg": -10.8135234539962
+        },
+        {
+          "frequency_hz": 30,
+          "detection_and_command_db": -0.24491958391905788,
+          "linear_group_delay_phase_deg": -69.795,
+          "navigation_lpf_only_db": -1.5841969840475674,
+          "navigation_lpf_only_phase_deg": -28.54434798559035
+        },
+        {
+          "frequency_hz": 45,
+          "detection_and_command_db": -0.5528435920846754,
+          "linear_group_delay_phase_deg": -104.69250000000001,
+          "navigation_lpf_only_db": -2.981463681529377,
+          "navigation_lpf_only_phase_deg": -37.281702216698214
+        },
+        {
+          "frequency_hz": 100,
+          "detection_and_command_db": -2.795621590052362,
+          "linear_group_delay_phase_deg": -232.65,
+          "navigation_lpf_only_db": -7.593828711612252,
+          "navigation_lpf_only_phase_deg": -48.62495477598462
+        },
+        {
+          "frequency_hz": 200,
+          "detection_and_command_db": -12.461943975076188,
+          "linear_group_delay_phase_deg": -465.3,
+          "navigation_lpf_only_db": -12.5940308765208,
+          "navigation_lpf_only_phase_deg": -43.05991017109633
+        }
+      ]
+    },
+    "candidate_5khz": {
+      "filter_group_delay_s": 0.0006625,
+      "command_delay_s": 0.0006,
+      "partial_total_delay_s": 0.0012625,
+      "crossover_ceiling_for_30deg_delay_allocation_hz": 66.00660066006601,
+      "warning": "Delay allocation only; NOT a phase margin or complete loop transfer",
+      "responses": [
+        {
+          "frequency_hz": 1,
+          "detection_and_command_db": -1.0831875742895368e-05,
+          "linear_group_delay_phase_deg": -0.45449999999999996,
+          "navigation_lpf_only_db": -4.7687204131112315e-05,
+          "navigation_lpf_only_phase_deg": -0.1572418313106943
+        },
+        {
+          "frequency_hz": 5,
+          "detection_and_command_db": -0.0002707976290702008,
+          "linear_group_delay_phase_deg": -2.2725,
+          "navigation_lpf_only_db": -0.0011920192800534653,
+          "navigation_lpf_only_phase_deg": -0.7861242956910942
+        },
+        {
+          "frequency_hz": 10,
+          "detection_and_command_db": -0.0010831997106022441,
+          "linear_group_delay_phase_deg": -4.545,
+          "navigation_lpf_only_db": -0.004766068303146501,
+          "navigation_lpf_only_phase_deg": -1.5717185607835442
+        },
+        {
+          "frequency_hz": 30,
+          "detection_and_command_db": -0.009749680224943904,
+          "linear_group_delay_phase_deg": -13.635,
+          "navigation_lpf_only_db": -0.0427030087442382,
+          "navigation_lpf_only_phase_deg": -4.698292933686419
+        },
+        {
+          "frequency_hz": 45,
+          "detection_and_command_db": -0.021939575041235428,
+          "linear_group_delay_phase_deg": -20.4525,
+          "navigation_lpf_only_db": -0.09548400979710851,
+          "navigation_lpf_only_phase_deg": -7.012318284619406
+        },
+        {
+          "frequency_hz": 100,
+          "detection_and_command_db": -0.10844160863842774,
+          "linear_group_delay_phase_deg": -45.449999999999996,
+          "navigation_lpf_only_db": -0.45189947633829897,
+          "navigation_lpf_only_phase_deg": -15.06066839951444
+        },
+        {
+          "frequency_hz": 200,
+          "detection_and_command_db": -0.43525417621114926,
+          "linear_group_delay_phase_deg": -90.89999999999999,
+          "navigation_lpf_only_db": -1.5742979778268837,
+          "navigation_lpf_only_phase_deg": -26.94186052845759
+        }
+      ]
+    }
+  },
+  "converter": {
+    "adc_pipeline_delay_s": 5e-07,
+    "adc_bits_physical": 10,
+    "dac_bits_physical": 14,
+    "dac_settling_spec": "11 ns typical to 0.1%, NOT a 14-bit half-LSB guarantee",
+    "noise_process_gain_100hz_db": 46.98970004336019,
+    "noise_process_gain_warning": "White uncorrelated noise only; no INL/spur/flicker improvement guarantee",
+    "jitter_80db_at_5khz_s": 3.183098861837907e-09,
+    "jitter_80db_at_1mhz_s": 1.5915494309189536e-11,
+    "skew_for_0p01deg_at_1mhz_s": 2.777777777777778e-11,
+    "raw_minimum_clock_40ksps_compatible": false
+  },
+  "rf_examples": [
+    {
+      "tone_hz": 5000,
+      "amplitude_db": -2.7699366942634918e-05,
+      "wrapped_phase_deg": -1.1881857548717434,
+      "warning": "Assumed poles, uncompensated tone phase; not measured AFE"
+    },
+    {
+      "tone_hz": 10000,
+      "amplitude_db": -0.00011079706917214756,
+      "wrapped_phase_deg": -2.3763704487193746,
+      "warning": "Assumed poles, uncompensated tone phase; not measured AFE"
+    },
+    {
+      "tone_hz": 500000,
+      "amplitude_db": -0.273733179457429,
+      "wrapped_phase_deg": -118.64464441605122,
+      "warning": "Assumed poles, uncompensated tone phase; not measured AFE"
+    },
+    {
+      "tone_hz": 1000000,
+      "amplitude_db": -1.0584999833753814,
+      "wrapped_phase_deg": 123.690102354156,
+      "warning": "Assumed poles, uncompensated tone phase; not measured AFE"
+    }
+  ],
+  "pll_examples": [
+    {
+      "natural_frequency_hz": 1,
+      "damping": 0.707,
+      "reference_gain_at_10hz_db": -16.969752709956026,
+      "vco_gain_at_10hz_db": -0.000408043925593234,
+      "warning": "Natural frequency is NOT the -3dB bandwidth; actual HRG loop requires plant/controller"
+    },
+    {
+      "natural_frequency_hz": 5,
+      "damping": 0.707,
+      "reference_gain_at_10hz_db": -2.7626128623469586,
+      "vco_gain_at_10hz_db": -0.2626721342621954,
+      "warning": "Natural frequency is NOT the -3dB bandwidth; actual HRG loop requires plant/controller"
+    },
+    {
+      "natural_frequency_hz": 20,
+      "damping": 0.707,
+      "reference_gain_at_10hz_db": 1.4978032445094724,
+      "vco_gain_at_10hz_db": -12.303871960821438,
+      "warning": "Natural frequency is NOT the -3dB bandwidth; actual HRG loop requires plant/controller"
+    }
+  ],
+  "electrode_modal_matrices": {
+    "eight_independent": [
+      [
+        1.0,
+        6.123233995736766e-17,
+        -1.0,
+        -1.8369701987210297e-16,
+        1.0,
+        3.061616997868383e-16,
+        -1.0,
+        -4.286263797015736e-16
+      ],
+      [
+        0.0,
+        1.0,
+        1.2246467991473532e-16,
+        -1.0,
+        -2.4492935982947064e-16,
+        1.0,
+        3.6739403974420594e-16,
+        -1.0
+      ]
+    ],
+    "four_opposite_pairs": [
+      [
+        2.0,
+        3.67394039744206e-16,
+        -2.0,
+        -6.123233995736765e-16
+      ],
+      [
+        -2.4492935982947064e-16,
+        2.0,
+        4.898587196589413e-16,
+        -2.0
+      ]
+    ],
+    "warning": "Ideal n=2 mechanical coupling only; not electrical noise/feedthrough equivalence"
+  }
+}

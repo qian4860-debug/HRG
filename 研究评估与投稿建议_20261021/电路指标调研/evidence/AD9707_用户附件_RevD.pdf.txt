@@ -1,0 +1,3707 @@
+PAGE 1
+ 
+8-/10-/12-/14-Bit, 175 MSPS TxDAC 
+Digital-to-Analog Converters 
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+ 
+Rev. D Document Feedback 
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no 
+responsibility is assumed by Analog Devices for its use, nor for any infringements of patents or other 
+rights of third parties that may result from its use. Specifications subject to change without notice. No 
+license is granted by implication or otherwise under any patent or patent rights of Analog Devices. 
+Trademarks and registered trademarks are the property of their respective owners. 
+  
+ 
+One Technology Way, P.O. Box 9106,  Norwood, MA 02062- 9106, U.S.A. 
+Tel: 781.329.4700 ©2006– 2017 Analog Devices, Inc. All rights reserved. 
+Technical Support www.analog.com  
+FEATURES 
+175 MSPS update rate 
+Low power member of pin-compatible 
+TxDAC product family 
+Low power dissipation 
+12 mW at 80 MSPS, 1.8 V 
+50 mW at 175 MSPS, 3.3 V 
+Wide supply voltage: 1.7 V to 3.6 V 
+SFDR to Nyquist 
+AD9707: 84 dBc at 5 MHz output 
+AD9707: 83 dBc at 10 MHz output 
+AD9707: 75 dBc at 20 MHz output 
+Adjustable full-scale current outputs: 1 mA to 5 mA 
+On-chip 1.0 V reference 
+CMOS-compatible digital interface 
+Common-mode output: adjustable 0 V to 1.2 V 
+Power-down mode <2 mW at 3.3 V (SPI controllable) 
+Self-calibration 
+Compact 32-lead LFCSP , RoHS compliant package 
+GENERAL DESCRIPTION 
+The AD9704/AD9705/AD9706/AD9707 are the fourth-generation 
+family in the TxDAC series of high performance, CMOS digital-to-
+analog converters (DACs). This pin-compatible, 8-/10-/12-/14-bit 
+resolution family is optimized for low power operation, while 
+maintaining excellent dynamic performance. The AD9704/ 
+AD9705/AD9706/AD9707 family is pin-compatible with the 
+AD9748/AD9740/AD9742/AD9744 family of TxDAC converters 
+and is specifically optimized for the transmit signal path of 
+communication systems. All of the devices share the same 
+interface, LFCSP package, and pinout, providing an upward or 
+downward component selection path based on performance, 
+resolution, and cost. The AD9704/AD9705/AD9706/AD9707 
+offers exceptional ac and dc performance, while supporting 
+update rates up to 175 MSPS. 
+The flexible power supply operating range of 1.7 V to 3.6 V and low 
+power dissipation of the AD9704/AD9705/AD9706/AD9707 parts 
+make them well suited for portable and low power applications. 
+Power dissipation of the AD9704/AD9705/AD9706/AD9707 can 
+be reduced to 15 mW , with a small trade-off in performance, by 
+lowering the full-scale current output. In addition, a power-down 
+mode reduces the standby power dissipation to approximately 
+2.2 mW . 
+The AD9704/AD9705/AD9706/AD9707 has an optional serial 
+peripheral interface (SPI®) that provides a higher level of program-
+mability to enhance performance of the DAC. An adjustable 
+output, common-mode feature allows for easy interfacing to other 
+components that require common modes from 0 V  t o  1 . 2  V. 
+Edge-triggered input latches and a 1.0 V temperature-compensated 
+band gap reference have been integrated to provide a complete, 
+monolithic DAC solution. The digital inputs support 1.8 V and 
+3.3 V CMOS logic families. 
+PRODUCT HIGHLIGHTS 
+1. Pin Compatible. The AD9704/AD9705/AD9706/AD9707 
+line of TxDAC® converters is pin-compatible with the 
+AD9748/AD9740/AD9742/AD9744 TxDAC line (LFCSP 
+package). 
+2. Low Power. Complete CMOS DAC operates on a single 
+supply of 3.6 V down to 1.7 V , consuming 50 mW (3.3 V) 
+and 12 mW (1.8 V). The DAC full-scale current can be 
+reduced for lower power operation. Sleep and power-down 
+modes are provided for low power idle periods. 
+3. Self-Calibration. Self-calibration enables true 14-bit INL 
+and DNL performance in the AD9707.  
+4. Twos Complement/Binary Data Coding Support. Data 
+input supports twos complement or straight binary data 
+coding. 
+5. Flexible Clock Input. A selectable high speed, single-ended, 
+and differential CMOS clock input supports 175 MSPS 
+conversion rate. 
+6. Device Configuration. Device can be configured through 
+pin strapping, and SPI control offers a higher level of 
+programmability. 
+7. Easy Interfacing to Other Components. Adjustable 
+common-mode output allows for easy interfacing to other 
+signal chain components that accept common-mode levels 
+from 0 V to 1.2 V . 
+8. On-Chip Voltage Reference. The AD9704/AD9705/AD9706/ 
+AD9707 include a 1.0 V temperature-compensated band 
+gap voltage reference. 
+9. Industry-Standard 32-Lead LFCSP Package. 
+ 
+ 
+ 
+
+PAGE 2
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 2 of 42 
+TABLE OF CONTENTS 
+Features .............................................................................................. 1 
+General Description ......................................................................... 1 
+Product Highlights ........................................................................... 1 
+Revision History ............................................................................... 2 
+Functional Block Diagram .............................................................. 4 
+Specifications ..................................................................................... 5 
+DC Specifications (3.3 V) ............................................................ 5 
+Dynamic Specifications (3.3 V) .................................................. 6 
+Digital Specifications (3.3 V) ...................................................... 7 
+DC Specifications (1.8 V) ............................................................ 8 
+Dynamic Specifications (1.8 V) .................................................. 9 
+Digital Specifications (1.8 V) .................................................... 10 
+Timing Diagram ......................................................................... 10 
+Absolute Maximum Ratings .......................................................... 11 
+Thermal Characteristics ............................................................ 11 
+ESD Caution ................................................................................ 11 
+Pin Configurations and Function Descriptions ......................... 12 
+AD9707 ........................................................................................ 12 
+AD9706 ........................................................................................ 13 
+AD9705 ........................................................................................ 14 
+AD9704 ........................................................................................ 15 
+Typical Performance Characteristics ........................................... 16 
+AD9707......................................................................................... 16 
+AD9704, AD9705 and AD9706 .................................................. 23 
+Terminology .................................................................................... 29 
+Theory of Operation ...................................................................... 30 
+Serial Peripheral Interface ......................................................... 30 
+SPI Register Map ........................................................................ 32 
+SPI Register Descriptions .......................................................... 33 
+Reference Operation .................................................................. 34 
+Reference Control Amplifier .................................................... 34 
+DAC Transfer Function ............................................................. 35 
+Analog Outputs .......................................................................... 35 
+Adjustable Output Common Mode ......................................... 36 
+Digital Inputs .............................................................................. 36 
+Clock Input .................................................................................. 36 
+DAC Timing ................................................................................ 36 
+Power Dissipation....................................................................... 37 
+Self-Calibration ........................................................................... 38 
+Applications Information .............................................................. 40 
+Output Configurations .............................................................. 40 
+Differential Coupling Using a Transformer ............................... 40 
+Single-Ended Buffered Output Using an Op Amp ................ 40 
+Differential Buffered Output Using an Op Amp ................... 41 
+Evaluation Board ........................................................................ 41 
+Outline Dimensions ....................................................................... 42 
+Ordering Guide .......................................................................... 42 
+ 
+ 
+REVISION HISTORY 
+11/2017—Rev. C to Rev. D 
+Changed CP-32-7 to CP-32-2 ...................................... Throughout 
+Updated Outline Dimensions ....................................................... 42 
+Changes to Ordering Guide .......................................................... 42 
+ 
+9/2017—Rev. B to Rev. C 
+Changed CP-32-2 to CP-32-7 ...................................... Throughout 
+Changes to Table 9 .......................................................................... 12 
+Changes to Table 10 ........................................................................ 13 
+Changes to Table 11 ........................................................................ 14 
+Changes to Table 12 ........................................................................ 15 
+Changes to Reference Operation Section .................................... 34 
+Updated Outline Dimensions ....................................................... 42 
+Changes to Ordering Guide .......................................................... 42 
+ 
+10/2011—Rev. A to Rev. B 
+Changes to Features Section............................................................ 1 
+Changes to Table 1 ............................................................................ 5 
+Changes to Table 2 ............................................................................. 6 
+Changes to Table 4 ............................................................................. 8 
+Changes to Table 5 ............................................................................. 9 
+Changes to Figure 3 and Table 9 ................................................... 12 
+Changes to Figure 4 and Table 10................................................. 13 
+Changes to Figure 5 and Table 11................................................. 14 
+Changes to Figure 6 and Table 12................................................. 15 
+Changes to Figure 15 and Figure 16............................................. 17 
+Moved Figure 41 to Figure 24 Position........................................ 18 
+Moved Figure 42 to Figure 25 Position and Moved Figure 43 to 
+Figure 26 Position ........................................................................... 19 
+Changes to Figure 27 ...................................................................... 20 
+Changes to Figure 33 to Figure 35 ................................................ 21 
+Moved Figure 24 to Figure 41 Position........................................ 22 
+Moved Figure 25 to Figure 43 Position and Moved Figure 26 to 
+Figure 44 Position ........................................................................... 23 
+Changes to Figure 44 ...................................................................... 23 
+Changes to Figure 57 ...................................................................... 26 
+
+PAGE 3
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 3 of 42 
+Changes to Figure 44 ...................................................................... 23 
+Changes to Figure 57 ...................................................................... 26 
+Changes to Figure 70 ...................................................................... 29 
+Changes to Serial Peripheral Interface Section ........................... 30 
+Changes to Table 15 ........................................................................ 32 
+Deleted Table 23; Renumbered Sequentially ............................... 33 
+Changes to Reference Operation Section and Reference Control 
+Amplifier Section ............................................................................ 34 
+Changes to Adjustable Output Common Mode Section and 
+DAC Timing Section....................................................................... 36 
+Added the Deskew Mode Section ................................................. 36 
+Deleted Figure 80; Renumbered Sequentially ............................. 36 
+Changed Sleep and Power-Down Operation (Pin Mode) Section 
+to Sleep Operation (Pin Mode) Section ....................................... 38 
+Changes to Sleep Operation (Pin Mode) Section ....................... 38 
+Changes to Self-Calibration Section ............................................. 39 
+Changes to Evaluation Board Section .......................................... 41 
+Added Exposed Pad Notation to Outline Dimensions .............. 42 
+Changes to Ordering Guide ........................................................... 42 
+Deleted Evaluation Board Schematics Section ............................ 43 
+Deleted Figure 92 to Figure 102 .................................................... 43 
+ 
+ 
+4/2007— Rev. 0 to Rev. A 
+Changes to Features List ................................................................... 1 
+Changes to Product Highlights ....................................................... 1 
+Changes to General Description ..................................................... 3 
+Changes to Table 3 ............................................................................ 6 
+Changes to Table 4 ............................................................................ 7 
+Changes to Table 6 ............................................................................ 9 
+Changes to Figure 17 and Figure 18 ............................................. 16 
+Deleted Figure 29, Renumbered Sequentially ............................. 19 
+Changes to Figure 44 ...................................................................... 22 
+Changes to Figure 57 Caption ....................................................... 25 
+Changes to Figure 73, Figure 75, and Figure 77 .......................... 31 
+Changes to Table 16 ........................................................................ 32 
+Replaced Single-Ended Buffered Output Using an Op  
+Amp Section .................................................................................... 40 
+Changes to Figure 91 ...................................................................... 41 
+Changes to Figure 93 ...................................................................... 44 
+Changes to Figure 96 ...................................................................... 47 
+ 
+7/2006— Revision 0: Initial Version 
+ 
+ 
+PAGE 4
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 4 of 42 
+FUNCTIONAL BLOCK DIAGRAM 
+ 
+0.1µF
+LSB
+SWITCHES
+SEGMENTED
+SWITCHES
+LATCHES
+CURRENT
+SOURCE
+ARRAY
+DIGITAL INPUTS (DB13 TO DB0) SLEEP/CSB
+CMODE/SCLK
+MODE/SDIOSPI
+IOUTB
+IOUTA
+OTCM
+REFIO
+FS ADJ
+CLKVDD
+CLKCOM
+CLK–
+CLK+
+ACOMAVDD
+DVDD
+DCOM
+1.0V REF
+RSET
+1.7V TO 3.6V
+1.7V
+TO
+3.6V
+1.7V TO
+3.6V
+PIN/SPI/RESET
+AD9707
+05926-001 
+Figure 1.  
+ 
+PAGE 5
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 5 of 42 
+SPECIFICATIONS 
+DC SPECIFICATIONS (3.3 V) 
+TMIN to TMAX, A VDD = 3.3 V , DVDD = 3.3 V , CLKVDD = 3.3 V , IOUTFS = 2 mA, unless otherwise noted. 
+Table 1. 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter Min Typ Max Min Typ Max Min Typ Max Min Typ Max Unit 
+RESOLUTION 14   12   10   8   Bits  
+DC ACCURACY1              
+Integral Nonlinearity (INL) 
+Precalibration 
+ ±1.4 ±6.0  ±0.41 ±1.48  ±0.10 ±0.36  ±0.03 ±0.09 LSB  
+Integral Nonlinearity (INL) 
+Postcalibration 
+ ±0.9   ±0.30   ±0.10     LSB 
+Differential Nonlinearity 
+(DNL) Precalibration 
+ ±1.2 ±4.4  ±0.35 ±1.17  ±0.09 ±0.31  ±0.02 ±0.08 LSB 
+Differential Nonlinearity 
+(DNL) Postcalibration 
+ ±0.4   ±0.13   ±0.03     LSB  
+ANALOG OUTPUT              
+Offset Error −0.03  0 +0.03 −0.03  0 +0.03 −0.03  0 +0.03 −0.03  0 +0.03 % of FSR 
+Gain Error (With External 
+Reference 
+−2.7  −0.1  +2.7 −2.7  −0.1  +2.7 −2.7  −0.1  +2.7 −2.7  −0.1  +2.7 % of FSR 
+Gain Error (With Internal 
+Reference) 
+−2.7  −0.1  +2.7 −2.7  −0.1  +2.7 −2.7  −0.1  +2.7 −2.7  −0.1  +2.7 % of FSR 
+Full-Scale Output Current2  1 2 5  1  2 5  1 2 5  1 2 5 mA  
+Output Compliance Range 
+(From OTCM to 
+IOUTA/IOUTB) 
+−0.8   +0.8 −0.8   +0.8 −0.8   +0.8 −0.8   +0.8 V 
+Output Resistance  200   200   200   200  MΩ 
+Output Capacitance  5    5    5    5   pF 
+REFERENCE OUTPUT              
+Reference Voltage 0.98 1.025 1.08 0.98 1.025 1.08 0.98 1.025 1.08 0.98 1.025 1.08 V 
+Reference Output Current3  100   100   100   100  nA 
+REFERENCE INPUT              
+Input Compliance Range 0.1  1.25 0.1  1.25 0.1  1.25 0.1  1.25 V 
+Reference Input Resistance 
+(Reference Powered Up) 
+ 10   10    10   10   kΩ  
+Reference Input Resistance 
+(Reference Powered Down) 
+ 1    1    1   1   MΩ  
+TEMPERATURE COEFFICIENTS              
+Offset Drift  0   0   0   0   ppm of 
+FSR/°C 
+Gain Drift (Without Internal 
+Reference) 
+ ±29   ±29   ±29   ±29  ppm of 
+FSR/°C 
+Gain Drift (With Internal 
+Reference) 
+ ±40   ±40   ±40   ±40  ppm of 
+FSR/°C 
+Reference Voltage Drift  ±25   ±25   ±25   ±25  ppm/°C 
+POWER SUPPLY              
+Supply Voltage              
+AVDD  3.3 3.6  3.3 3.6  3.3 3.6  3.3 3.6 V 
+DVDD  3.3 3.6  3.3 3.6  3.3 3.6  3.3 3.6 V 
+CLKVDD  3.3 3.6  3.3 3.6  3.3 3.6  3.3 3.6 V 
+Analog Supply Current (IAVDD)  5.2 6.7  5.2 6.7  5.1 6.7  5.1 6.7 mA 
+Digital Supply Current (IDVDD)4  5.9 6.6  5.4 6.6  5.0 6.6  4.6 6.6 mA 
+Clock Supply Current (ICLKVDD)4  4.1 4.7  4.1 4.7  4.1 4.7  4.1 4.7 mA 
+Power Dissipation4  50.2 57  48.5 57  46.9 57  45.5 57 mW  
+Supply Current Sleep Mode 
+(IAVDD) 
+ 0.37 0.4  0.37 0.4  0.37 0.4  0.37 0.4 mA 
+
+PAGE 6
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 6 of 42 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter Min Typ Max Min Typ Max Min Typ Max Min Typ Max Unit 
+Supply Current Power-Down 
+Mode (IAVDD) 
+ 0.7 7.5  0.7 7.5  0.7 7.5  0.7 7.5 µA 
+Supply Current Clock Power-
+Down Mode (IDVDD)5 
+ 0.6 1  0.6 1  0.6 1  0.6 1 mA 
+Supply Current Clock Power-
+Down Mode (ICLKVDD)5 
+ 42.5 64  42.5 64  42.5 64  42.5 64 µA 
+Power Supply Rejection Ratio 
+(AVDD)6 
+−0.2  +0.03 +0.2 −0.2  +0.03 +0.2 −0.2  +0.03 +0.2 −0.2  +0.03 +0.2 % of 
+FSR/V 
+OPERATING RANGE −40   +85 −40   +85 −40   +85 −40   +85 °C  
+ 
+1 Measured at IOUTA, driving a virtual ground. 
+2 Normal full scale current, IOUTFS is 32 × the IREF current. 
+3 Use an external buffer amplifier with an input bias current <100 nA to drive any external load. 
+4 Measured at fCLOCK = 175 MSPS and fOUT = 1.0 MHz, using a differential clock. 
+5 Measured at fCLOCK = 100 MSPS and fOUT = 1.0 MHz, using a differential clock. 
+6 ± 5% power supply variation. 
+DYNAMIC SPECIFICATIONS (3.3 V) 
+TMIN to TMAX, AVDD = 3.3 V , DVDD = 3.3 V , CLKVDD = 3.3 V , IOUTFS = 2 mA, differential transformer coupled output, 453 Ω differentially 
+terminated unless otherwise noted. 
+Table 2. 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter  Min Typ Max Min Typ Max Min Typ Max Min Typ Max Unit 
+DYNAMIC PERFORMANCE               
+Maximum Output Update Rate, fCLOCK 175   175   175   175   MSPS 
+Output Settling Time, tST (to 0.1%)1   11   11   11   11  ns  
+Output Propagation Delay, tPD  4   4   4   4  ns  
+Glitch Impulse   5   5   5   5  pV-s 
+Output Rise Time (10% to 90%)1  2.5   2.5   2.5   2.5  ns  
+Output Fall Time (10% to 90%)1  2.5   2.5   2.5   2.5  ns  
+AC LINEARITY               
+Spurious-Free Dynamic Range to 
+Nyquist  
+             
+fCLOCK = 10 MSPS, fOUT = 2.1 MHz   84   84   84   70  dBc 
+fCLOCK = 25 MSPS, fOUT = 2.1 MHz   84   83   84   68  dBc  
+fCLOCK = 65 MSPS, fOUT = 5.1 MHz   84   84   84   70  dBc  
+fCLOCK = 65 MSPS, fOUT = 10.1 MHz   83   83   83   71  dBc  
+fCLOCK = 80 MSPS, fOUT = 1.0 MHz  74 83  72 82  72 82  66 70  dBc  
+fCLOCK = 125 MSPS, fOUT = 15.1 MHz  78   78   78   68  dBc  
+fCLOCK = 125 MSPS, fOUT = 25.1 MHz  77   77   76   69  dBc  
+fCLOCK = 175 MSPS, fOUT = 20.1 MHz  75   75   75   69  dBc  
+fCLOCK = 175 MSPS, fOUT = 40.1 MHz  72   71   71   67  dBc  
+Noise Spectral Density              
+fCLOCK = 175 MSPS, fOUT = 6.0 MHz, 
+IOUTFS = 2 mA 
+ − 152   − 152   − 144   − 136  dBc/Hz 
+fCLOCK = 175 MSPS, fOUT = 6.0 MHz, 
+IOUTFS = 5 mA 
+ − 161           dBc/Hz 
+fCLOCK = 175 MSPS, fOUT = 6.0 MHz, 
+IOUTFS = 1 mA 
+ − 146           dBc/Hz 
+ 
+1 Measured single-ended into 500 Ω  load. 
+ 
+ 
+ 
+ 
+
+PAGE 7
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 7 of 42 
+DIGITAL SPECIFICATIONS (3.3 V) 
+TMIN to TMAX, A VDD = 3.3 V , DVDD = 3.3 V , CLKVDD = 3.3 V , IOUTFS = 2 mA, unless otherwise noted. 
+Table 3. 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter  Min Typ Max Min Typ Max Min Typ Max Min Typ Max Unit 
+DIGITAL INPUTS1               
+Logic 1 Voltage  2.1 3  2.1 3  2.1  3   2.1 3   V 
+Logic 0 Voltage   0  0.9  0 0.9  0  0.9   0  0.9  V 
+Logic 1 Current  −10   +10 −10   +10  −10   +10  −10   +10  µA 
+Logic 0 Current    10   10    10    10  µA 
+Input Capacitance   5    5   5    5   pF 
+Input Setup Time, tS, +25°C 1.4   1.4   1.4   1.4   ns 
+Input Hold Time, tH, +25°C 0.3   0.3   0.3   0.3   ns 
+Input Setup Time, tS, −40°C to +85°C  1.6   1.6   1.6   1.6   ns 
+Input Hold Time, tH, −40°C to +85°C  0.6   0.6   0.6   0.6   ns 
+Latch Pulse Width, tLPW  2.8   2.8   2.8   2.8   ns 
+CLK INPUTS2               
+Input Voltage Range  0   3 0  3 0  3  0   3  V 
+Common-Mode Voltage  0.75 1.5 2.25 0.75 1.5 2.25 0.75 1.5 2.25 0.75 1.5 2.25 V 
+Differential Voltage  0.5 1.5  0.5 1.5  0.5 1.5  0.5 1.5  V 
+ 
+1 Includes CLK+ pin in single-ended clock input mode. 
+2 Applicable to CLK+ input and CLK− input when configured for differential clock input mode. 
+ 
+
+PAGE 8
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 8 of 42 
+DC SPECIFICATIONS (1.8 V) 
+TMIN to TMAX, A VDD = 1.8 V , DVDD = 1.8 V , CLKVDD = 1.8 V , IOUTFS = 2 mA, unless otherwise noted. 
+Table 4. 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter  Min Typ Max Min  Typ  Max  Min  Typ  Max  Min  Typ  Max  Unit  
+RESOLUTION  14   12   10   8   Bits  
+DC ACCURACY1              
+Integral Nonlinearity (INL) 
+Precalibration 
+ ±1.4 ±6.03  ±0.42 ±1.50  ±0.10 ±0.36  ±0.03 ±0.09 LSB  
+Differential Nonlinearity 
+(DNL) Precalibration 
+ ±1.2 ±4.34  ±0.36 ±1.17  ±0.09 ±0.30  ±0.02 ±0.07 LSB 
+ANALOG OUTPUT               
+Offset Error  −0.03  0 +0.03 −0.03  0 +0.03 −0.03  0 +0.03 −0.03  0 +0.03 % of FSR  
+Gain Error (With Internal 
+Reference)  
+−2.7  −0.2  +2.7 −2.7  −0.2  +2.7 −2.7  −0.2  +2.7 −2.7  −0.2  +2.7 % of FSR  
+Full-Scale Output Current2 1  2 2.5 1  2 2.5 1  2 2.5 1  2 2.5 mA  
+Output Compliance Range 
+(With OTCM = AGND) 
+−0.8   +0.8  −0.8   +0.8  −0.8   +0.8  −0.8   +0.8 V  
+Output Resistance   200    200    200    200   MΩ  
+Output Capacitance   5    5    5    5   pF  
+REFERENCE OUTPUT               
+Reference Voltage  0.98 1.025 1.08 0.98 1.025 1.08 0.98 1.025 1.08 0.98 1.025 1.08 V 
+Reference Output Current3  100    100    100    100   nA  
+REFERENCE INPUT               
+Input Compliance Range  0.1   1.25  0.1   1.25  0.1   1.25  0.1   1.25  V  
+Reference Input Resistance 
+(Reference Powered Up)  
+ 10   10    10   10   kΩ  
+Reference Input Resistance 
+(External Reference)  
+ 1    1    1    1   MΩ  
+TEMPERATURE COEFFICIENTS               
+Offset Drift   0    0    0    0   ppm of 
+FSR/°C  
+Gain Drift (Without Internal 
+Reference)  
+ ±30   ±30   ±30   ±30  ppm of 
+FSR/°C  
+Gain Drift (With Internal 
+Reference)  
+ ±60    ±60    ±60    ±60   ppm of 
+FSR/°C  
+Reference Voltage Drift   ±25    ±25    ±25    ±25  ppm/°C  
+POWER SUPPLY               
+Supply Voltage              
+AVDD  1.7 1.8  1.7 1.8  1.7 1.8  1.7 1.8  V  
+DVDD  1.7 1.8  1.7 1.8  1.7 1.8  1.7 1.8  V  
+CLKVDD  1.7 1.8  1.7 1.8  1.7 1.8  1.7 1.8  V  
+Analog Supply Current 
+(IAVDD)4 
+ 3.8 4.8  3.8 4.8  3.8 4.8  3.8 4.8 mA  
+Digital Supply Current 
+(IDVDD)4, 5 
+ 1.3 1.5  1.2 1.5  1.1 1.5  1.0 1.5 mA  
+Clock Supply Current 
+(ICLKVDD)4, 5 
+ 1.3 1.5  1.3 1.5  1.3 1.5  1.3 1.5 mA  
+Power Dissipation4, 5  11.5 13.2  11.3 13.2  11.1 13.2  11.0 13.2 mW  
+Supply Current Sleep Mode 
+(IAVDD) 
+ 0.3 0.4  0.3 0.4  0.3 0.4  0.3 0.4 mA  
+Supply Current Power-Down 
+Mode (IAVDD) 
+ 5 6  5 6  5 6  5 6 µA 
+Supply Current Clock Power-
+Down Mode (IDVDD)5 
+ 0.22 0.28  0.22 0.28  0.22 0.28  0.22 0.28 mA 
+Supply Current Clock Power-
+Down Mode (ICLKVDD)5 
+ 9.5 16  9.5 16  9.5 16  9.5 16 µA 
+
+PAGE 9
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 9 of 42 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter  Min Typ Max Min  Typ  Max  Min  Typ  Max  Min  Typ  Max  Unit  
+Power Supply Rejection 
+Ratio (AVDD)6  
+−2  −0.1  +2 −2  −0.1  +2 −2  −0.1  +2 −2  −0.1  +2 % of 
+FSR/V  
+OPERATING RANGE  −40   +85  −40   +85  −40   +85  −40   +85  °C  
+ 
+1 Measured at IOUTA, driving a virtual ground. 
+2 Nominal full-scale current, IOUTFS, is 32 × the IREF current. 
+3 Use an external buffer amplifier with an input bias current <100 nA to drive any external load. 
+4 Measured at IOUTFS = 1 mA. 
+5 Measured at fCLOCK = 80 MSPS and fOUT = 1 MHz, using a differential clock. 
+6 ±5% power supply variation. 
+DYNAMIC SPECIFICATIONS (1.8 V) 
+TMIN to TMAX, AVDD = 1.8 V , DVDD = 1.8 V , CLKVDD = 1.8 V , IOUTFS = 1 mA, differential transformer coupled output, 453 Ω differentially 
+terminated unless otherwise noted. 
+Table 5. 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter  Min Typ Max Min Typ Max Min Typ Max Min Typ Max Unit 
+DYNAMIC PERFORMANCE               
+Maximum Output Update Rate, fCLOCK 125   125   125   125   MSPS 
+Output Settling Time, tST, (to 0.1%)1  11   11   11   11  ns 
+Output Propagation Delay (tPD)  5.6   5.6   5.6   5.6  ns 
+Glitch Impulse   5   5   5   5  pV-s 
+Output Rise Time (10% to 90%)1  2.5   2.5   2.5   2.5  ns 
+Output Fall Time (10% to 90%)1  2.5   2.5   2.5   2.5  ns 
+AC LINEARITY               
+Spurious-Free Dynamic Range to 
+Nyquist 
+             
+fCLOCK = 10 MSPS; fOUT = 2.1 MHz  86   86   85   70  dBc 
+fCLOCK = 25 MSPS; fOUT = 2.1 MHz  87   86   84   68  dBc 
+fCLOCK = 25 MSPS; fOUT = 5.1 MHz  82   82   82   68  dBc 
+fCLOCK = 65 MSPS; fOUT = 10.1 MHz  82   79   78   70  dBc 
+fCLOCK = 65 MSPS; fOUT = 15.1 MHz  77   76   74   69  dBc 
+fCLOCK = 80 MSPS; fOUT = 1.0 MHz 74 82  72 82  72 82  66 70  dBc 
+fCLOCK = 80 MSPS; fOUT = 15.1 MHz  77   77   77   68  dBc 
+fCLOCK = 80 MSPS; fOUT = 30.1 MHz  60   59   59   60  dBc 
+Noise Spectral Density              
+fCLOCK = 80 MSPS; fOUT = 10 MHz;  
+IOUTFS = 1 mA 
+ − 145   − 144   − 140   − 128  dBc/Hz 
+fCLOCK = 80 MSPS; fOUT = 10 MHz;  
+IOUTFS = 2 mA 
+ − 151           dBc/Hz 
+ 
+1 Measured single-ended into 500 Ω load.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 10
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 10 of 42 
+DIGITAL SPECIFICATIONS (1.8 V) 
+TMIN to TMAX, A VDD = 1.8 V , DVDD = 1.8 V , CLKVDD = 1.8 V , IOUTFS = 1 mA, unless otherwise noted. 
+Table 6. 
+ AD9707 AD9706 AD9705 AD9704  
+Parameter  Min Typ Max Min Typ Max Min Typ Max Min Typ Max Unit  
+DIGITAL INPUTS1               
+Logic 1 Voltage  1.2 1.8  1.2 1.8  1.2 1.8  1.2 1.8  V  
+Logic 0 Voltage   0  0.5  0  0.5  0  0.5  0  0.5 V  
+Logic 1 Current  −10   +10  −10   +10  −10   +10  −10   +10  µA  
+Logic 0 Current    +10    +10    +10    +10  µA  
+Input Capacitance   5    5    5    5   pF  
+Input Setup Time, tS, 25°C 2.3   2.3   2.3   2.3   ns  
+Input Hold Time, tH, 25°C 0   0   0   0   ns  
+Input Setup Time, tS, − 40°C to +85°C 2.4   2.4   2.4   2.4   ns 
+Input Hold Time, tH, − 40°C to +85°C 0.1   0.1   0.1   0.1   ns 
+Latch Pulse Width, tLPW 6.2   6.2   6.2   6.2   ns  
+CLK INPUTS2               
+Input Voltage Range 0   1.8 0   1.8 0   1.8 0   1.8 V  
+Common-Mode Voltage 0.4 0.9 1.3 0.4 0.9 1.3 0.4 0.9 1.3 0.4 0.9 1.3 V  
+Differential Voltage 0.5 1.5  0.5 1.5  0.5 1.5  0.5 1.5  V  
+ 
+1 Includes CLK+ pin in single-ended clock input mode. 
+2 Applicable to CLK+ input and CLK– input when configured for differential clock input mode. 
+ 
+TIMING DIAGRAM 
+ 
+DB0 TO DB13
+CLOCK
+IOUTA
+OR
+IOUTB
+0.1%
+0.1%
+tLPW
+tST
+tPD
+tHtS
+05926-002 
+Figure 2. Timing Diagram  
+ 
+ 
+
+PAGE 11
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 11 of 42 
+ABSOLUTE MAXIMUM RATINGS 
+Table 7. 
+Parameter  Rating 
+AVDD to ACOM −0.3 V to +3.9 V 
+DVDD to DCOM −0.3 V to +3.9 V 
+CLKVDD to CLKCOM −0.3 V to +3.9 V 
+ACOM to DCOM −0.3 V to +0.3 V 
+ACOM to CLKCOM −0.3 V to +0.3 V 
+DCOM to CLKCOM −0.3 V to +0.3 V 
+AVDD to DVDD −3.9 V to +3.9 V 
+AVDD to CLKVDD −3.9 V to +3.9 V 
+DVDD to CLKVDD −3.9 V to +3.9 V 
+SLEEP to DCOM −0.3 V to DVDD + 0.3 V 
+Digital Inputs, MODE to DCOM −0.3 V to DVDD + 0.3 V 
+IOUTA, IOUTB to ACOM −1.0 V to AVDD + 0.3 V 
+REFIO, FS ADJ, OTCM to ACOM −0.3 V to AVDD + 0.3 V 
+CLK+, CLK–, CMODE to CLKCOM −0.3 V to CLKVDD + 0.3 V 
+Junction Temperature 150°C 
+Storage Temperature Range −65°C to +150°C  
+Lead Temperature (10 sec)  300°C 
+ 
+Stresses at or above those listed under Absolute Maximum 
+Ratings may cause permanent damage to the product. This is a 
+stress rating only; functional operation of the product at these 
+or any other conditions above those indicated in the operational 
+section of this specification is not implied. Operation beyond 
+the maximum operating conditions for extended periods may 
+affect product reliability. 
+THERMAL CHARACTERISTICS 
+Thermal impedance measurements were taken on a 4-layer board 
+in still air, in accordance with EIA/JESD51-7. 
+Table 8. Thermal Resistance 
+Package Type θ JA Unit 
+32-Lead LFCSP 32.5 °C/W 
+ 
+ESD CAUTION 
+  
+ 
+ 
+ 
+PAGE 12
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 12 of 42 
+PIN CONFIGURATIONS AND FUNCTION DESCRIPTIONS 
+AD9707 
+DB1
+DB2
+DB3
+DB4
+DB5
+DVDD
+DB6
+DB7
+PIN/SPI/RESET
+AVDD
+OTCM
+IOUTB
+IOUTA
+ACOM
+REFIO
+FS ADJ
+MODE/SDIO
+CMODE/SCLK
+CLKVDD
+CLKCOM
+CLK–
+CLK+
+DCOM
+DB0 (LSB)
+SLEEP/CSB
+DCOM
+DB13 (MSB)
+DB12
+DB11
+DB10
+DB9
+DB8
+05926-003
+NOTES
+1. IT IS RECOMMENDED THAT THE EXPOSED PAD BE
+THERMALLY CONNECTED TO A COPPER GROUND
+PLANE FOR ENHANCED ELECTRICAL AND THERMAL
+PERFORMANCE.
+PIN 1
+INDICATOR
+1
+2
+3
+4
+5
+6
+7
+8
+24
+23
+22
+21
+20
+19
+18
+17
+9
+10
+11
+12
+13
+14
+15
+16
+32
+31
+30
+29
+28
+27
+26
+25
+AD9707
+TOP VIEW
+(Not to Scale)
+ 
+Figure 3. AD9707 Pin Configuration 
+Table 9. AD9707 Pin Function Descriptions 
+Pin No.  Mnemonic Description  
+28 to 32, 1, 
+2, 4 to 8  
+DB12 to DB1 Data Bit 12 to Data Bit 1.  
+3 DVDD  Digital Supply Voltage (1.7 V to 3.6 V). DVDD, AV DD, and CLKVDD must be at the same supply voltage.  
+9  DB0 (LSB) Least Significant Data Bit (LSB).  
+10, 26  DCOM  Digital Common.  
+11  CLKVDD  Clock Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+12  CLK+  Positive Differential Clock Input.  
+13  CLK−  Negative Differential Clock Input.  
+14  CLKCOM  Clock Common.  
+15  CMODE/SCLK In pin mode, this pin selects the clock input type. Connect to CLKCOM for single-ended clock receiver 
+(drive CLK+ and float CLK–). Connect to CLKVDD for differential receiver. In SPI mode, this pin is the serial 
+data clock input. 
+16  MODE/SDIO In pin mode, this pin selects the input data format. Connect to DCOM for straight binary, and DVDD for twos 
+complement. In SPI mode, this pin acts as SPI data input/output. 
+17 PIN/SPI/RESET Selects SPI Mode or Pin Mode Operation. Active high for pin mode operation and active low for SPI mode 
+operation. Pulse high to reset SPI registers to default values. 
+18  AVDD  Analog Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+19  OTCM Adjustable Output Common Mode. Refer to the Theory of Operation section for details. 
+20  IOUTB  Complementary DAC Current Output. Full-scal e current is sourced when all data bits are 0s. 
+21  IOUTA  DAC Current Output. Full-scale curren t is sourced when all data bits are 1s.  
+22  ACOM  Analog Common.  
+23  REFIO  Reference Input/Output. Serves as reference input when internal reference disabled. Serves as 1.0 V 
+reference output when internal reference is activated. Requires a 0.1 μF capacitor to ACOM when internal 
+reference is activated. 
+24  FS ADJ  Full-Scale Current Output Adjust.  
+25  SLEEP/CSB In pin mode, active high powers down chip. In SP I mode, this pin is the serial port chip select (active low). 
+27 DB13 (MSB) Most Significant Data Bit (MSB).  
+ EPAD It is recommended that the exposed pad be thermally connected to a copper ground plane for enhanced 
+electrical and thermal performance. 
+ 
+
+PAGE 13
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 13 of 42 
+AD9706 
+NC
+ DB0 (LSB)
+DB1
+DB2
+DB3
+DVDD
+DB4
+DB5
+PIN/SPI/RESET
+AVDD
+OTCM
+IOUTB
+IOUTA
+ACOM
+REFIO
+FS ADJ
+MODE/SDIO
+CMODE/SCLK
+CLKVDD
+CLKCOM
+CLK–
+CLK+
+DCOM
+NC
+SLEEP/CSB
+DCOM
+DB11 (MSB)
+DB10
+DB9
+DB8
+DB7
+DB6
+05926-083
+NOTES
+1. NC = NO CONNECT. DO NOT CONNECT TO THIS PIN.
+2. IT IS RECOMMENDED THAT THE EXPOSED PAD BE
+THERMALLY CONNECTED TO A COPPER GROUND
+PLANE FOR ENHANCED ELECTRICAL AND THERMAL
+PERFORMANCE.
+PIN 1
+INDICATOR
+1
+2
+3
+4
+5
+6
+7
+8
+24
+23
+22
+21
+20
+19
+18
+17
+9
+10
+11
+12
+13
+14
+15
+16
+32
+31
+30
+29
+28
+27
+26
+25
+AD9706
+TOP VIEW
+(Not to Scale)
+ 
+Figure 4. AD9706 Pin Configuration  
+Table 10. AD9706 Pin Function Descriptions 
+Pin No.  Mnemonic  Description  
+28 to 32, 1, 
+2, 4 to 6 
+DB10 to DB1 Data Bit 10 to Data Bit 1.  
+3 DVDD  Digital Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+7 DB0 (LSB) Least Significant Data Bit (LSB).  
+8, 9 NC No Connect. 
+10, 26  DCOM  Digital Common.  
+11  CLKVDD  Clock Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+12  CLK+  Positive Differential Clock Input.  
+13  CLK−  Negative Differential Clock Input.  
+14  CLKCOM  Clock Common.  
+15  CMODE/SCLK In pin mode, this pin selects the clock input type. Connect to CLKCOM for single-ended clock receiver (drive 
+CLK+ and float CLK–). Connect to CLKVDD for differential receiver. In SPI mode, this pin is the serial data 
+clock input. 
+16  MODE/SDIO In pin mode, this pin selects the input data format. Connect to DCOM for straight binary, and DVDD for twos 
+complement. In SPI mode, this pin acts as SPI data input/output. 
+17 PIN/SPI/RESET Selects SPI Mode or Pin Mode Operation. Active high for pin mode operation, and active low for SPI mode 
+operation. Pulse high to reset SPI registers to default values. 
+18  AVDD  Analog Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+19  OTCM Adjustable Output Common Mode. Refer to the Theory of Operation section for details. 
+20  IOUTB  Complementary DAC Current Output. Full-scale current is sourced when all data bits are 0s. 
+21  IOUTA  DAC Current Output. Full-scale current is sourced when all data bits are 1s. 
+22  ACOM  Analog Common.  
+23  REFIO  Reference Input/Output. Serves as reference input when internal reference disabled. Serves as 1.0 V 
+reference output when internal reference is activated. Requires a 0.1 µF capacitor to ACOM when internal 
+reference is activated. 
+24  FS ADJ  Full-Scale Current Output Adjust.  
+25  SLEEP/CSB In pin mode, active high powers down chip. In SPI mode, this pin is the serial port chip select (active low). 
+27 DB11 (MSB) Most Significant Data Bit (MSB).  
+ EPAD It is recommended that the exposed pad be thermally connected to a copper ground plane for enhanced 
+electrical and thermal performance. 
+ 
+
+PAGE 14
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 14 of 42 
+AD9705 
+05926-085
+NC
+NC
+NC
+DB0 (LSB)
+DB1
+DVDD
+DB2
+DB3
+PIN/SPI/RESET
+AVDD
+OTCM
+IOUTB
+IOUTA
+ACOM
+REFIO
+FS ADJ
+MODE/SDIO
+CMODE/SCLK
+CLKVDD
+CLKCOM
+CLK–
+CLK+
+DCOM
+NC
+SLEEP/CSB
+DCOM
+DB9 (MSB)
+DB8
+DB7
+DB6
+DB5
+DB4
+NOTES
+1. NC = NO CONNECT. DO NOT CONNECT TO THIS PIN.
+2. IT IS RECOMMENDED THAT THE EXPOSED PAD BE
+THERMALLY CONNECTED TO A COPPER GROUND
+PLANE FOR ENHANCED ELECTRICAL AND THERMAL
+PERFORMANCE.
+PIN 1
+INDICATOR
+1
+2
+3
+4
+5
+6
+7
+8
+24
+23
+22
+21
+20
+19
+18
+17
+9
+10
+11
+12
+13
+14
+15
+16
+32
+31
+30
+29
+28
+27
+26
+25
+AD9705
+TOP VIEW
+(Not to Scale)
+ 
+Figure 5. AD9705 Pin Configuration  
+Table 11. AD9705 Pin Function Descriptions 
+Pin No. Mnemonic  Description  
+28 to 32, 
+1, 2, 4 
+DB8 to DB1 Data Bit 8 to Data Bit 1.  
+3 DVDD  Digital Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+5 DB0 (LSB) Least Significant Data Bit (LSB).  
+6 to 9 NC No Connect. 
+10, 26  DCOM  Digital Common.  
+11  CLKVDD  Clock Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+12  CLK+  Positive Differential Clock Input.  
+13  CLK−  Negative Differential Clock Input.  
+14  CLKCOM  Clock Common.  
+15  CMODE/SCLK In pin mode, this pin selects the clock input type. Connect to CLKCOM for single-ended clock receiver (drive 
+CLK+ and float CLK–). Connect to CLKVDD for differential receiver. In SPI mode, this pin is the serial data clock input. 
+16  MODE/SDIO In pin mode, this pin selects the input data format. Connect to DCOM for straight binary, and DVDD for twos 
+complement. In SPI mode, this pin acts as SPI data input/output. 
+17 PIN/SPI/RESET Selects SPI Mode or Pin Mode Operation. Active high for pin mode operation and active low for SPI mode 
+operation. Pulse high to reset SPI registers to default values. 
+18  AVDD  Analog Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+19  OTCM Adjustable Output Common Mode. Refer to the Theory of Operation section for details. 
+20  IOUTB  Complementary DAC Current Output. Full-scale current is sourced when all data bits are 0s. 
+21  IOUTA  DAC Current Output. Full-scale current is sourced when all data bits are 1s.  
+22  ACOM  Analog Common.  
+23  REFIO  Reference Input/Output. Serves as reference input when internal reference disabled. Serves as 1.0 V reference 
+output when internal reference is activated. Requires a 0.1 µF capacitor to ACOM when internal reference is activated. 
+24  FS ADJ  Full-Scale Current Output Adjust.  
+25  SLEEP/CSB In pin mode, active high powers down chip. In SPI mode, this pin is the serial port chip select (active low). 
+27 DB9 (MSB) Most Significant Data Bit (MSB).  
+ EPAD It is recommended that the exposed pad be thermally connected to a copper ground plane for enhanced 
+electrical and thermal performance. 
+ 
+
+PAGE 15
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 15 of 42 
+AD9704 
+NC
+NC
+NC
+NC
+NC
+DVDD
+DB0 (LSB)
+DB1
+PIN/SPI/RESET
+AVDD
+OTCM
+IOUTB
+IOUTA
+ACOM
+REFIO
+FS ADJ
+MODE/SDIO
+CMODE/SCLK
+CLKVDD
+CLKCOM
+CLK–
+CLK+
+DCOM
+NC
+SLEEP/CSB
+DCOM
+DB7 (MSB)
+DB6
+DB5
+DB4
+DB3
+DB2
+05926-084
+NOTES
+1. NC = NO CONNECT. DO NOT CONNECT TO THIS PIN.
+2. IT IS RECOMMENDED THAT THE EXPOSED PAD BE
+THERMALLY CONNECTED TO A COPPER GROUND
+PLANE FOR ENHANCED ELECTRICAL AND THERMAL
+PERFORMANCE.
+PIN 1
+INDICATOR
+1
+2
+3
+4
+5
+6
+7
+8
+24
+23
+22
+21
+20
+19
+18
+17
+9
+10
+11
+12
+13
+14
+15
+16
+32
+31
+30
+29
+28
+27
+26
+25
+AD9704
+TOP VIEW
+(Not to Scale)
+ 
+Figure 6. AD9704 Pin Configuration  
+Table 12. AD9704 Pin Function Descriptions 
+Pin No. Mnemonic  Description  
+28 to 32, 1 DB6 to DB1 Data Bit 6 to Data Bit 1. 
+2 DB0 (LSB) Least Significant Data Bit (LSB).  
+3 DVDD  Digital Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+4 to 9 NC No Connect. 
+10, 26  DCOM  Digital Common.  
+11  CLKVDD  Clock Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+12  CLK+  Positive Differential Clock Input.  
+13  CLK−  Negative Differential Clock Input.  
+14  CLKCOM  Clock Common.  
+15  CMODE/SCLK In pin mode, this pin selects the clock input type. Connect to CLKCOM for single-ended clock receiver (drive CLK+ 
+and float CLK−). Connect to CLKVDD for differential receiver. In SPI mode, this pin is the serial data clock input. 
+16  MODE/SDIO In pin mode, this pin selects the input data format. Connect to DCOM for straight binary, and DVDD for twos 
+complement. In SPI mode, this pin acts as SPI data input/output. 
+17 PIN/SPI/RESET Selects SPI Mode or Pin Mode Operation. Active high for pin mode operation and active low for SPI mode 
+operation. Pulse high to reset SPI registers to default values. 
+18  AVDD  Analog Supply Voltage (1.7 V to 3.6 V). DVDD, AVDD, and CLKVDD must be at the same supply voltage. 
+19  OTCM Adjustable Output Common Mode. Refer to the Theory of Operation section for details. 
+20  IOUTB  Complementary DAC Current Output. Full-scale current is sourced when all data bits are 0s. 
+21  IOUTA  DAC Current Output. Full-scale current is sourced when all data bits are 1s.  
+22  ACOM  Analog Common.  
+23  REFIO  Reference Input/Output. Serves as reference input when internal reference disabled. Serves as 1.0 V reference output 
+when internal reference is activated. Requires a 0.1 µF capacitor to ACOM when internal reference is activated. 
+24  FS ADJ  Full-Scale Current Output Adjust.  
+25  SLEEP/CSB In pin mode, active high powers down chip. In SPI mode, this pin is the serial port chip select (active low). 
+27 DB7 (MSB) Most Significant Data Bit (MSB).  
+ EPAD It is recommended that the exposed pad be thermally connected to a copper ground plane for enhanced 
+electrical and thermal performance. 
+ 
+
+PAGE 16
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 16 of 42 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+AD9707 
+VDD = 3.3 V , IOUTFS = 2 mA, unless otherwise noted. 
+1 10 100
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-005
+fCLOCK = 125MSPS
+fCLOCK = 65MSPS
+fCLOCK = 175MSPS
+fCLOCK = 10MSPS
+ 
+Figure 7. SFDR vs. fOUT 
+ 
+0 1 2 3 4 5
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-006 
+Figure 8. SFDR vs. fOUT @ 10 MSPS 
+ 
+0 5 10 15 20 3525 30
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-007 
+Figure 9. SFDR vs. fOUT @ 65 MSPS 
+ 
+0 10 20 30 40 6550 605 15 25 35 45 55
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-008 
+Figure 10. SFDR vs. fOUT @ 125 MSPS 
+ 
+SFDR (dBc)
+fOUT (MHz)
+45
+0 10 20 30 40 50 60 70 80
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-009 
+Figure 11. SFDR vs. fOUT @ 175 MSPS 
+ 
+SFDR (dBc)
+fOUT (MHz)
+45
+0 10 20 30 40 50 60 70 80
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-010
+IOUTFS = 5mA
+IOUTFS = 1mA
+IOUTFS = 2mA
+ 
+Figure 12. SFDR vs. fOUT and IOUTFS @ 175 MSPS 
+ 
+
+PAGE 17
+Data Sheet AD9704/AD9705/AD9706/AD9707
+ 
+Rev. D | Page 17 of 42 
+SFDR (dBc)
+fOUT (MHz)
+45
+0 1 02 03 04 05 06 07 08 0
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+OTCM = 1.2V
+OTCM = 0V
+OTCM = 0.3V
+05926-011
+Figure 13. SFDR vs. fOUT and OTCM @ 175 MSPS 
+ 
+SFDR (dBc)
+AOUT (dBFS)
+45
+– 1 0 – 8– 6– 4– 2 0
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+fCLOCK = 125MSPS
+05926-012
+fCLOCK = 65MSPS
+fCLOCK = 175MSPS
+Figure 14. SFDR vs. AOUT and fCLOCK at fOUT = fCLOCK/5 
+ 
+NSD (dBc/Hz)
+FREQUENCY (MHz)
+–160
+–155
+–150
+–145
+–140
+–135
+–130
+–125
+0 1 02 03 04 05 06 07 08 0
+05926-115
+125MSPS
+65MSPS
+175MSPS
+Figure 15. NSD vs. fOUT and fCLOCK @ 0 dBFS 
+ 
+NSD (dBc/Hz)
+FREQUENCY (MHz)
+–165
+–160
+–155
+–150
+–145
+–140
+–135
+–130
+–125
+–120
+0 1 02 03 04 05 06 07 08 0
+05926-116
+1mA
+2mA
+5mA
+Figure 16. NSD vs. fOUT and IOUTFS @ 175 MSPS 
+ 
+IMD (dBc)
+LOWER fOUT (MHz)
+45
+0 1 02 03 04 05 06 07 08 0
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-015
+fCLOCK = 125MSPS
+fCLOCK = 75MSPS
+fCLOCK = 175MSPS
+Figure 17. Dual-Tone IMD vs. Lower fOUT and fCLOCK @ 0 dBFS 
+ 
+IMD (dBc)
+LOWER fOUT (MHz)
+45
+0 1 02 03 04 05 06 07 08 0
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
++25°C
+–40°C
++85°C
+05926-016
+Figure 18. Dual-Tone IMD vs. Lower fOUT and Temperature at 0 dBFS,  
+175 MSPS 
+PAGE 18
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 18 of 42 
+0 10000 150005000
+INL (LSB)
+CODE
+–1.5
+1.0
+–1.0
+–0.5
+0
+0.5
+05926-017 
+Figure 19. Typical Uncalibrated INL 
+ 
+0 10000 150005000
+DNL (LSB)
+CODE
+–0.8
+–0.6
+–0.2
+–0.4
+0
+0.2
+0.4
+0.6
+05926-018 
+Figure 20. Typical Uncalibrated DNL 
+ 
+–1.0
+–0.8
+–0.6
+–0.4
+–0.2
+0
+0.2
+0.4
+0.6
+0 5000 10000 15000
+CODE
+INL (LSB)
+05926-086
+ 
+Figure 21. Typical Calibrated INL 
+ 
+–0.2
+–0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0 5000 10000 15000
+CODE
+DNL (LSB)
+05926-087 
+Figure 22. Typical Calibrated DNL 
+ 
+SFDR (dBc)
+fOUT (MHz)
+45
+0 10 20 30 40 50 60 70 80
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
++85°C
+–40°C
++25°C
+05926-019 
+Figure 23. SFDR vs. fOUT and Temperature @ 175 MSPS 
+ 
+–10
+–30
+–60
+–90
+–100
+–80
+–50
+–20
+–40
+–70
+–110
+1 116 21 3116 26 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT = 15.0MHz
+SFDR = 80dBc
+AMPLITUDE = 0dBFS
+05926-039 
+Figure 24. Single-Tone SFDR 
+ 
+PAGE 19
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 19 of 42 
+–10
+–30
+–60
+–90
+–100
+–80
+–50
+–20
+–40
+–70
+–110
+1 116 21 3116 26 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 77dBc
+AMPLITUDE = 0dBFS
+05926-038 
+Figure 25. Dual-Tone SFDR 
+ 
+–10
+–30
+–60
+–90
+–100
+–80
+–50
+–20
+–40
+–70
+–110
+1 116 21 3116 26 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+fOUT3 = 15.8MHz
+fOUT4 = 16.2MHz
+SFDR = 77dBc
+AMPLITUDE = 0dBFS
+05926-040 
+Figure 26. Four-Tone SFDR 
+ 
+PAGE 20
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 20 of 42 
+VDD = 1.8 V , IOUTFS = 1 mA, unless otherwise noted. 
+1 10 100
+SFDR (dBc)
+FREQUENCY (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-023
+65MSPS
+10MSPS
+80MSPS
+125MSPS
+Figure 27. SFDR vs. fOUT 
+ 
+012345
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-024
+Figure 28. SFDR vs. fOUT at 10 MSPS 
+ 
+0 5 10 15 20 35 40 25 30
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-026
+Figure 29. SFDR vs. fOUT at 80 MSPS 
+ 
+0 5 10 15 20 35 25 30
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-027
+IOUTFS = 1mA
+IOUTFS = 2mA
+Figure 30. SFDR vs. fOUT and IOUTFS at 65 MSPS 
+ 
+0 5 10 15 20 35 40 25 30
+SFDR (dBc)
+fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-028
+IOUTFS = 1mA
+IOUTFS = 2mA
+Figure 31. SFDR vs. fOUT and IOUTFS at 80 MSPS 
+ 
+– 1 0 – 8– 6– 4– 2 0
+SFDR (dBc)
+AOUT (dBFS)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+05926-029
+fCLOCK = 65MSPS
+fCLOCK = 80MSPS
+Figure 32. SFDR vs. AOUT at fOUT = fCLOCK/5 
+ 
+PAGE 21
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 21 of 42 
+NSD (dBc/Hz)
+FREQUENCY (MHz)
+–160
+–155
+–150
+–145
+–140
+–135
+–130
+–125
+–115
+–120
+0 10 20 30 40 50 60 70
+05926-133
+65MSPS, 1mA
+65MSPS, 2mA
+80MSPS, 1mA
+80MSPS, 2mA
+125MSPS, 1mA
+125MSPS, 2mA
+ 
+Figure 33. NSD vs. fOUT, fCLOCK, and IOUTFS at 0 dBFS 
+ 
+IMD (dBc)
+FREQUENCY (MHz)
+45
+95
+90
+85
+80
+75
+70
+65
+60
+55
+50
+0 10 20 30 40 50 60
+05926-134
+125MSPS
+25MSPS
+65MSPS
+80MSPS
+ 
+Figure 34. Dual-Tone IMD vs. Lower fOUT at IOUTFS = 1 mA and 0 dBFS 
+ 
+IMD (dBc/Hz)
+FREQUENCY (MHz)
+45
+95
+90
+85
+80
+75
+70
+65
+60
+55
+50
+0 10 20 30 40 50 60
+05926-135
+25MSPS
+65MSPS
+80MSPS
+125MSPS
+ 
+Figure 35. Dual-Tone IMD vs. Lower fOUT at IOUTFS = 2 mA and 0 dBFS 
+ 
+0 5 10 15 20 35 4025 30
+IMD (dBc)
+LOWER fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
++25°C
++85°C
+–40°C
+05926-033 
+Figure 36. Dual-Tone IMD vs. Lower fOUT and Temperature at 80 MSPS,  
+IOUTFS = 1 mA and 0 dBFS 
+0 5 10 15 20 35 4025 30
+IMD (dBc)
+LOWER fOUT (MHz)
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+–40°C
++80°C
++25°C
+05926-034 
+Figure 37. Dual-Tone IMD vs. Lower fOUT and Temperature at 80 MSPS,  
+IOUTFS = 2 mA and 0 dBFS 
+0 10000 150005000
+INL (LSB)
+CODE
+–1.5
+–1.0
+–0.5
+0.0
+0.5
+1.0
+05926-035 
+Figure 38. Typical Uncalibrated INL 
+ 
+PAGE 22
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 22 of 42 
+0 10000 150005000
+DNL (LSB)
+CODE
+05926-036
+–0.8
+–0.6
+–0.2
+–0.4
+0
+0.2
+0.4
+0.6
+ 
+Figure 39. Typical Uncalibrated DNL 
+ 
+95
+85
+70
+55
+50
+60
+75
+90
+80
+65
+45
+0 105 20 3015 25 35 40
+SFDR (dBc)
+fOUT (MHz)
+–40°C
++85°C
++25°C
+05926-037 
+Figure 40. SFDR vs. Temperature at 80 MSPS  
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT = 15.0MHz
+SFDR = 79dBc
+AMPLITUDE = 0dBFS
+05926-020 
+Figure 41. Single-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 74dBc
+AMPLITUDE = 0dBFS
+05926-021 
+Figure 42. Dual-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+fOUT3 = 15.8MHz
+fOUT4 = 16.2MHz
+SFDR = 69dBc
+AMPLITUDE = 0dBFS
+05926-022 
+Figure 43. Four-Tone SFDR 
+ 
+ 
+ 
+ 
+ 
+PAGE 23
+Data Sheet AD9704/AD9705/AD9706/AD9707
+ 
+Rev. D | Page 23 of 42 
+AD9704, AD9705 AND AD9706  
+VDD = 3.3 V , IOUTFS = 2 mA, unless otherwise noted. 
+NSD (dBc/Hz)
+fOUT (MHz)
+–160
+–155
+–115
+–120
+–125
+–130
+–135
+–140
+–145
+–150
+04 0 20 60 80
+05926-144
+14-BIT
+12-BIT
+10-BIT
+8-BIT
+ 
+Figure 44. AD9704/AD9705/AD9706/AD9707 NSD vs. fOUT at 0 dBFS,  
+175 MSPS 
+0.03
+0.02
+0
+–0.01
+0.01
+–0.02
+0 50 100 150 200 250
+INL (LSB)
+CODE
+05926-043 
+Figure 45. AD9704 Typical Uncalibrated INL 
+ 
+0.01
+0
+–0.01
+–0.03
+–0.02
+0 50 100 150 200 250
+DNL (LSB)
+CODE
+05926-042
+Figure 46. AD9704 Typical Uncalibrated DNL 
+ 
+0.01
+0
+–0.01
+0 200 400 600 800 1000
+INL (LSB)
+CODE
+05926-044 
+Figure 47. AD9705 Typical Uncalibrated INL 
+ 
+0.01
+0
+–0.01
+0 200 400 600 800 1000
+DNL (LSB)
+CODE
+05926-045 
+Figure 48. AD9705 Typical Uncalibrated DNL 
+ 
+0.3
+0.2
+0.1
+0
+–0.1
+–0.2
+–0.3
+–0.4
+–0.5
+0 1000 2000 3000 4000
+INL (LSB)
+CODE
+05926-046
+Figure 49. AD9706 Typical Uncalibrated INL 
+ 
+
+PAGE 24
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 24 of 42 
+0.01
+–0.04
+–0.03
+–0.02
+–0.01
+0
+0 1000 2000 3000 4000
+DNL (LSB)
+CODE
+05926-047
+Figure 50. AD9706 Typical Uncalibrated DNL 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT = 15.0MHz
+SFDR = 67dBc
+AMPLITUDE = 0dBFS
+05926-048
+Figure 51. AD9704Single-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 67dBc
+AMPLITUDE = 0dBFS
+05926-049
+Figure 52. AD9704 Dual-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT = 15.0MHz
+SFDR = 75dBc
+AMPLITUDE = 0dBFS
+05926-050
+Figure 53. AD9705 Single-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 73dBc
+AMPLITUDE = 0dBFS
+05926-061
+Figure 54. AD9705 Dual-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+SFDR = 77dBc
+AMPLITUDE = 0dBFS
+05926-062
+Figure 55. AD9706 Single-Tone SFDR 
+ 
+
+PAGE 25
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 25 of 42 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 77dBc
+AMPLITUDE = 0dBFS
+05926-063 
+Figure 56. AD9706Dual-Tone SFDR 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 26
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 26 of 42 
+VDD = 1.8 V , IOUTFS = 1 mA, unless otherwise noted. 
+NSD (dBc/Hz)
+fOUT (MHz)
+–160
+–155
+–115
+–120
+–125
+–130
+–135
+–140
+–145
+–150
+0 3530252015105
+05926-157
+14-BIT
+12-BIT
+10-BIT
+8-BIT
+ 
+Figure 57. AD9704/AD9705/AD9706/AD9707 NSD vs. fOUT at 0 dBFS, 80 MSPS 
+ 
+0.04
+0
+0.01
+–0.02
+0.02
+0.03
+–0.01
+0 50 100 150 200 250
+INL (LSB)
+CODE
+05926-065 
+Figure 58. AD9704 Typical Uncalibrated INL 
+ 
+0.01
+0
+–0.01
+–0.03
+–0.02
+0 50 100 150 200 250
+DNL (LSB)
+CODE
+05926-066 
+Figure 59. AD9704 Typical Uncalibrated DNL 
+ 
+0.08
+0.06
+0.04
+0.02
+0
+–0.08
+–0.06
+–0.04
+–0.02
+0 200 400 600 800 1000
+INL (LSB)
+CODE
+05926-067 
+Figure 60. AD9705 Typical Uncalibrated INL 
+ 
+0.02
+0
+–0.12
+–0.10
+–0.08
+–0.06
+–0.04
+–0.02
+0 200 400 600 800 1000
+DNL (LSB)
+CODE
+05926-068 
+Figure 61. AD9705Typical Uncalibrated DNL 
+ 
+0.3
+–0.5
+–0.4
+–0.3
+–0.2
+0
+–0.1
+0.1
+0.2
+0 1000 2000 3000 4000
+INL (LSB)
+CODE
+05926-069 
+Figure 62. AD9706 Typical Uncalibrated INL 
+ 
+
+PAGE 27
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 27 of 42 
+0.1
+–0.4
+–0.3
+–0.2
+–0.1
+0
+0 1000 2000 3000 4000
+DNL (LSB)
+CODE
+05926-070 
+Figure 63. AD9706 Typical Uncalibrated DNL 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT = 15.0MHz
+SFDR = 67dBc
+AMPLITUDE = 0dBFS
+05926-071 
+Figure 64. AD9704Single-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 67dBc
+AMPLITUDE = 0dBFS
+05926-072 
+Figure 65. AD9704 Dual-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT = 15.0MHz
+SFDR = 73dBc
+AMPLITUDE = 0dBFS
+05926-073 
+Figure 66. AD9705 Single-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 71dBc
+AMPLITUDE = 0dBFS
+05926-074 
+Figure 67. AD9705 Dual-Tone SFDR 
+ 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT = 15.0MHz
+SFDR = 73dBc
+AMPLITUDE = 0dBFS
+05926-075 
+Figure 68. AD9706 Single-Tone SFDR 
+ 
+
+PAGE 28
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 28 of 42 
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+–110
+1 6 11 16 21 26 31 36
+MAGNITUDE (dBm)
+FREQUENCY (MHz)
+fCLOCK = 78MSPS
+fOUT1 = 15.0MHz
+fOUT2 = 15.4MHz
+SFDR = 73dBc
+AMPLITUDE = 0dBFS
+05926-076 
+Figure 69. AD9706 Dual-Tone SFDR 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 29
+Data Sheet AD9704/AD9705/AD9706/AD9707
+ 
+Rev. D | Page 29 of 42 
+TERMINOLOGY 
+Linearity Error (Integral Nonlinearity or INL) 
+INL is defined as the maximum deviation of the actual analog 
+output from the ideal output, determined by a straight line 
+drawn from zero to full scale. 
+Differential Nonlinearity (DNL) 
+DNL is the measure of the variation in analog value, normalized 
+to full scale, associated with a 1 LSB change in digital input code. 
+Monotonicity 
+A digital-to-analog converter is monotonic if the output either 
+increases or remains constant as the digital input increases. 
+Offset Error 
+Offset error is the deviation of the output current from the ideal of 
+zero. For IOUTA, 0 mA output is expected when the inputs are all 
+0s. For IOUTB, 0 mA output is expected when all inputs are set to 1. 
+Gain Error 
+Gain error is the difference between the actual and ideal output 
+span. The actual span is determined by the output when all inputs 
+are set to 1, minus the output when all inputs are set to 0. The 
+ideal gain is calculated using the measured VREF. Therefore, 
+the gain error does not include effects of the reference. 
+Output Compliance Range 
+Output compliance range is the range of allowable voltage at the 
+output of a current output DAC. Operation beyond the maximum 
+compliance limits can cause either output stage saturation or 
+breakdown, resulting in nonlinear performance. 
+Temp er atu re D r i ft 
+Temperature drift is specified as the maximum change from the 
+ambient (25°C) value to the value at either T
+MIN or TMAX. For 
+offset and gain drift, the drift is reported in ppm of full-scale 
+range (FSR) per °C. For reference drift, the drift is reported in 
+ppm per °C. 
+Power Supply Rejection 
+Power supply rejection is the maximum change in the full-scale 
+output as the supplies are varied from nominal to minimum 
+and maximum specified voltages. 
+Settling Time 
+Settling time is the time required for the output to reach and 
+remain within a specified error band about its final value, 
+measured from the start of the output transition. 
+Glitch Impulse 
+Asymmetrical switching times in a DAC give rise to undesired 
+output transients that are quantified by a glitch impulse. It is 
+specified as the net area of the glitch in picovolt-seconds (pV-s). 
+Spurious-Free Dynamic Range (SFDR) 
+SFDR is the difference, in decibels (dB), between the rms 
+amplitude of the output signal and the peak spurious signal  
+over the specified bandwidth. 
+Total Harmonic Distortion (THD) 
+THD is the ratio of the rms sum of the first six harmonic 
+components to the rms value of the measured input signal.  
+It is expressed as a percentage or in decibels (dB). 
+Multitone Power Ratio 
+Multitone power ratio is the spurious-free dynamic range 
+containing multiple carrier tones of equal amplitude. It is 
+measured as the difference between the rms amplitude of  
+a carrier tone to the peak spurious signal in the region of  
+a removed tone. 
+Noise Spectral Density (NSD) 
+Noise spectral density is the average noise power normalized to 
+a 1 Hz bandwidth, with the DAC converting and producing an 
+output tone. 
+0.1µF
+DIGITAL DATA
+SOURCE DPG
+DIGITAL
+DATA
+LATCHES
+CURRENT
+SOURCE
+ARRAY
+SLEEP/CSB
+SPI
+IOUTB
+IOUTA
+OTCM
+REFIO
+FS ADJ
+CLKVDD
+CLKCOM
+CLOCK
+OUTPUT
+CLK–
+CLK+
+ACOMAVDD
+DVDD
+DCOM
+1.0V REF
+1.7V TO 3.6V
+AD9707
+50Ω
+JTX-4-10T+
+ADT4-6T+
+1kΩ
+LSB
+SWITCHES
+SEGMENTED
+SWITCHES
+RSET
+16kΩ 1.7V TO 3.6V
+AD9512
+CLK1
+CLKB
+1.7V TO 3.6V
+LOW JITTER
+RF SOURCE
+05926-200 
+Figure 70. Basic AC Characterization Test Setup 
+ 
+PAGE 30
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 30 of 42 
+THEORY OF OPERATION 
+Figure 71 shows a simplified block diagram of the AD9707. The 
+AD9704/AD9705/AD9706/AD9707 consist of a DAC, digital 
+control logic, and full-scale output current control. The DAC 
+contains a PMOS current source array capable of providing a 
+nominal full-scale current (IOUTFS) of 2 mA and a maximum of 
+5 mA. The array is divided into 31 equal currents that make up the 
+five most significant bits (MSBs). The next four bits, or middle 
+bits, consist of 15 equal current sources whose value is 1/16 of an 
+MSB current source. The remaining LSBs are binary weighted frac-
+tions of the current sources of the middle bits. Implementing the 
+middle and lower bits with current sources, instead of an R-2R 
+ladder, enhances the AD9704/AD9705/AD9706/AD9707 dynamic 
+performance for multitone or low amplitude signals and helps 
+maintain the high output impedance of the DAC (that is, 
+>200 MΩ).  
+All of these current sources are switched to one of the two 
+output nodes (IOUTA or IOUTB) via PMOS differential current 
+switches. The switches are based on the architecture pioneered 
+in the AD9764 family, with further refinements made to reduce 
+distortion contributed by the switching transient. This switch 
+architecture also reduces various timing errors and provides 
+matching complementary drive signals to the inputs of the 
+differential current switches. 
+The analog and digital sections of the AD9704/AD9705/AD9706/ 
+AD9707 have separate power supply inputs (AVDD and DVDD) 
+that can operate independently over a 1.7 V to 3.6 V range. The 
+digital section, capable of operating at a rate of up to 175 MSPS, 
+consists of edge-triggered latches and segment decoding logic 
+circuitry. The analog section includes the PMOS current 
+sources, the associated differential switches, a 1.0 V band gap 
+voltage reference, and a reference control amplifier. 
+The DAC full-scale output current is regulated by the reference 
+control amplifier and can be set from 1 mA to 5 mA via an external 
+resistor, R
+SET, connected to the full-scale adjust (FS ADJ) pin.  
+The external resistor, in combination with both the reference 
+control amplifier and voltage reference, VREFIO, sets the reference 
+current, IREF, which is replicated to the segmented current sources 
+with the proper scaling factor. The full-scale current, IOUTFS, is 
+32 × IREF. 
+The AD9704/AD9705/AD9706/AD9707 provide the option of 
+setting the output common mode to a value other than ACOM 
+via the output common mode (OTCM) pin. This facilitates 
+interfacing the output of the AD9704/AD9705/AD9706/AD9707 
+directly to components that require common-mode levels greater 
+than 0 V . 
+SERIAL PERIPHERAL INTERFACE 
+The AD9704/AD9705/AD9706/AD9707 serial port is a flexible, 
+synchronous serial communications port allowing easy interfacing 
+to many industry-standard microcontrollers and microprocessors. 
+The serial I/O is compatible with most synchronous transfer 
+formats, including the Motorola SPI and Intel® SSR protocols. 
+The interface allows read/write access to all registers that configure 
+the AD9704/AD9705/AD9706/AD9707. Single or multiple byte 
+transfers are supported, as well as MSB first or LSB first transfer 
+formats. The serial interface port of the AD9704/AD9705/AD9706/ 
+AD9707 is configured as a single pin I/O. SPI terminal voltages 
+are referenced to ACOM. 
+General Operation of the Serial Interface 
+There are two phases to a communication cycle with the AD9704/ 
+AD9705/AD9706/AD9707. Phase 1 is the instruction cycle, which 
+is the writing of an instruction byte into the AD9704/AD9705/ 
+AD9706/AD9707, coincident with the first eight SCLK rising 
+edges. The instruction byte provides the AD9704/AD9705/ 
+AD9706/AD9707 serial port controller with information regarding 
+the data transfer cycle, which is Phase 2 of the communication 
+cycle. The Phase 1 instruction byte defines whether the upcoming 
+data transfer is read or write, the number of bytes in the data 
+transfer, and the starting register address for the first byte of the 
+data transfer. 
+ 
+0.1µF
+LSB
+SWITCHES
+SEGMENTED
+SWITCHES
+LATCHES
+CURRENT
+SOURCE
+ARRAY
+DIGITAL INPUTS (DB13 TO DB0) SLEEP/CSB
+CMODE/SCLK
+MODE/SDIOSPI
+IOUTB
+IOUTA
+OTCM
+REFIO
+FS ADJ
+CLKVDD
+CLKCOM
+CLK–
+CLK+
+ACOMAVDD
+DVDD
+DCOM
+1.0V REF
+RSET
+1.7V TO 3.6V
+1.7V
+TO
+3.6V
+1.7V TO
+3.6V
+PIN/SPI/RESET
+AD9707
+05926-103 
+Figure 71. Simplified Block Diagram 
+ 
+  
+
+PAGE 31
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 31 of 42 
+A logic high on Pin 17 (PIN/SPI/RESET), followed by a logic 
+low, resets the SPI port timing to the initial state of the instruction 
+cycle. This is true regardless of the present state of the internal 
+registers or the other signal levels present at the inputs to the SPI 
+port. If the SPI port is in the midst of an instruction cycle or a 
+data transfer cycle, none of the present data is written. 
+The remaining SCLK edges are for Phase 2 of the communication 
+cycle. Phase 2 is the actual data transfer between the AD9704/ 
+AD9705/AD9706/AD9707 and the system controller. Phase 2 of 
+the communication cycle is a transfer of one, two, three, or four 
+data bytes, as determined by the instruction byte. Using one 
+multibyte transfer is the preferred method. Single byte data 
+transfers are useful to reduce CPU overhead when register access 
+requires one byte only. Registers change immediately upon 
+writing to the last bit of each transfer byte.  
+Instruction Byte  
+The instruction byte contains the information shown in the bit 
+map in Table 13. 
+Table 13.  
+MSB       LSB 
+7 6 5 4 3 2 1 0 
+R/W N1 N0 A4 A3 A2 A1 A0 
+R/W, Bit 7 of the instruction byte, determines whether a read or 
+a write data transfer occurs after the instruction byte write. Logic 1 
+indicates a read operation. Logic 0 indicates a write operation. 
+N1 and N0, Bit 6 and Bit 5 of the instruction byte, determine the 
+number of bytes to be transferred during the data transfer cycle. 
+The bit decodes are shown in Table 14. 
+A4, A3, A2, A1, and A0, which are Bit 4, Bit 3, Bit 2, Bit 1, and 
+Bit 0 of the instruction byte, respectively, determine which register 
+is accessed during the data transfer portion of the communication 
+cycle. For multibyte transfers, this address is the starting byte 
+address. The remaining register addresses are generated by the 
+AD9704/AD9705/AD9706/AD9707, based on the DATADIR bit 
+(Register 0x00, Bit 6). 
+Table 14. Byte Transfer Count 
+N1 N0 Description 
+0 0 Transfer 1 byte 
+0 1 Transfer 2 bytes 
+1 0 Transfer 3 bytes 
+1 1 Transfer 4 bytes 
+Serial Interface Port Pin Descriptions 
+SCLK— Serial Clock. The serial clock pin is used to synchronize 
+data to and from the AD9704/AD9705/AD9706/AD9707and to 
+run the internal state machines. The SCLK maximum frequency  
+is 20 MHz. All data input to the AD9704/AD9705/AD9706/ 
+AD9707 is registered on the rising edge of SCLK. All data is 
+driven out of the AD9704/AD9705/AD9706/AD9707 on the  
+falling edge of SCLK. 
+CSB— Chip Select. Active low input starts and gates a communica-
+tion cycle. It allows more than one device to be used on the same 
+serial communications lines. The SDIO pin goes to a high imped-
+ance state when this input is high. Chip select must stay low 
+during the entire communication cycle. 
+SDIO— Serial Data I/O. This pin is used as a bidirectional data 
+line to transmit and receive data.  
+MSB/LSB Transfers 
+The AD9704/AD9705/AD9706/AD9707 serial port can support 
+both most significant bit (MSB) first or least significant bit 
+(LSB) first data formats. This functionality is controlled by the 
+DATADIR bit (Register 0x00, Bit 6). The default is MSB first 
+(DATADIR = 0). 
+When DATADIR = 0 (MSB first), the instruction and data bytes 
+must be written from most significant bit to least significant bit. 
+Multibyte data transfers in MSB first format start with an 
+instruction byte that includes the register address of the most 
+significant data byte. Subsequent data bytes should follow in 
+order from high address to low address. In MSB first mode, the 
+serial port internal byte address generator decrements for each 
+data byte of the multibyte communication cycle. 
+When DATADIR = 1 (LSB first), the instruction and data bytes 
+must be written from least significant bit to most significant bit. 
+Multibyte data transfers in LSB first format start with an instruction 
+byte that includes the register address of the least significant data 
+byte followed by multiple data bytes. The serial port internal byte 
+address generator increments for each byte of the multibyte 
+communication cycle. 
+The AD9704/AD9705/AD9706/AD9707 serial port controller 
+data address decrements from the data address written toward 
+0x00 for multibyte I/O operations if the MSB first mode is 
+active. The serial port controller address increments from the 
+data address written toward 0x1F for multibyte I/O operations 
+if the LSB first mode is active. 
+Notes on Serial Port Operation 
+The AD9704/AD9705/AD9706/AD9707 serial port configura -
+tion is controlled by Register 0x00, Bit 7. It is important to note 
+that the configuration changes immediately upon writing to the 
+last bit of the register. For multibyte transfers, writing to this 
+register can occur during the middle of the communication cycle. 
+Care must be taken to compensate for this new configuration 
+for the remaining bytes of the current communication cycle. 
+The same considerations apply to setting the software reset, 
+SWRST (Register 0x00, Bit 5). All registers are set to their default 
+values except Register 0x00, which remains unchanged. 
+Use of single byte transfers is recommended when changing 
+serial port configurations or initiating a software reset to 
+prevent unexpected device behavior. 
+
+PAGE 32
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 32 of 42 
+R / W N 1N 0A 4A 3A 2A 1A 0 D 7 N D6N D5N D00D10D20D30
+INSTRUCTION CYCLE DATA TRANSFER CYCLE
+CSB
+SCLK
+SDIO
+05926--091 
+Figure 72. Serial Register Interface Timing, MSB First Write 
+R/W N1 N0 A4 A3 A2 A1 A0
+D7
+D6N D5N D00D10D20D30
+INSTRUCTION CYCLE DATA TRANSFER CYCLE
+CSB
+SCLK
+SDIO
+SDO
+05926-090 
+Figure 73. Serial Register Interface Timing, MSB First Read 
+A0 A1 A2 A3 A4 N0 N1 R/W D0 0 D10 D20 D7ND6ND5ND4N
+INSTRUCTION CYCLE DATA TRANSFER CYCLE
+CSB
+SCLK
+SDIO
+05926-089 
+Figure 74. Serial Register Interface Timing, LSB First Write 
+INSTRUCTION CYCLE DATA TRANSFER CYCLE
+CSB
+SCLK
+SDIO
+SDO
+A0 A1 A2 A3 A4 N0 N1 R/W D1 0 D20 D7ND6ND5ND4N
+05926-088
+D0
+Figure 75. Serial Register Interface Timing, LSB First Read 
+INSTRUCTION BIT 6INSTRUCTION BIT 7
+CSB
+SCLK
+SDIO
+tDS
+tDS tDH
+tPWH tPWL
+tSCLK
+05926-092
+Figure 76. Timing Diagram for SPI Register Write 
+I1 I0 D7 D6 D5
+tHLD
+tSU
+CSB
+SCLK
+SDIO
+05926-093
+Figure 77. Timing Diagram for SPI Register Read 
+ 
+SPI REGISTER MAP 
+Table 15.  
+Mnemonic Addr Bit 7 Bit 6 Bit 5 Bit 4 Bit 3  Bit 2 Bit 1 Bit 0 
+SPI CTL 0x00 SDIODIR DATADIR SWRST LNGINS PDN Sleep CLKOFF EXREF 
+Data 0x02 DATAFMT   DCLKPOL DESKEW CLKDIFF  CALCLK 
+Version 0x0D     VER[3] VER[2] VER[1] VER[0] 
+CALMEM 0x0E   CALMEM[1] CALMEM[0]  DIVSEL[2] DIVSEL[1] DIVSEL[0] 
+MEMRDWR 0x0F CALSTAT CALEN   SMEMWR SMEMRD  UNCAL 
+MEMADDR 0x10   MEMADDR[5] MEMADDR[4] ME MADDR[3] MEMADDR[2] MEMADDR[1] MEMADDR[0] 
+MEMDATA 0x11   MEMDATA[5] MEMDATA[4] MEMDATA[3] MEMDATA[2] MEMDATA[1] MEMDATA[0] 
+ 
+PAGE 33
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 33 of 42 
+SPI REGISTER DESCRIPTIONS 
+Table 16. SPI CTL— Register 0x00 
+Mnemonic Bit No. Direction (I/O) Default Description 
+SDIODIR 7 I 1 0 = SDIO pin configured for input only during data transfer (4-wire interface). 
+    1 = SDIO pin configured for input or output during data transfer (3-wire interface). 
+DATADIR 6 I 0 0 = Serial data uses MSB first format. 
+    1 = Serial data uses LSB first format. 
+SWRST 5 I 0 1 = initiates a software reset; this bit is set to 0 upon reset completion. 
+LNGINS 4 I 0 0 = uses 1 byte preamble (5 address bits). 
+    1 = uses 2 byte preamble (13 address bits). 
+PDN 3 I 0 1 = shuts down DAC output current internal band gap reference. 
+Sleep 2 I 0 1 = DAC output current off. 
+CLKOFF 1 I 0 1 = disables internal master clock. 
+EXREF 0 I 0 0 = internal band gap reference. 
+    1 = external reference. 
+ 
+Table 17. Data— Register 0x02 
+Mnemonic Bit No. Direction (I/O) Default Description 
+DATAFMT 7 I 0 0 = unsigned binary input data format 
+    1 = twos complement input data format 
+DCLKPOL 4 I 0 0 = data latched on DATACLK rising edge always 
+    1 = data latched on DATACLK falling edge (only active in DESKEW mode) 
+DESKEW 3 I 0 0 = DESKEW mode disabled. 
+    1 = DESKEW mode enabled (adds a register in digital data path to remove 
+skew in received data; one clock cycle of latency is introduced) 
+CLKDIFF 2 I 0 0 = single-ended clock input 
+    1 = differential clock input 
+CALCLK 0 I 0 0 = calibration clock disabled 
+    1 = calibration clock enabled 
+ 
+Table 18. Version— Register 0x0D 
+Mnemonic Bit No. Direction (I/O) Default Description 
+VER[3:0] [3:0] O 0000 Hardware version identifier 
+ 
+Table 19. CALMEM— Register 0x0E 
+Mnemonic Bit No. Direction (I/O) Default Description 
+CALMEM[1:0] [5:4] O 00 Calibration memory 
+    00 = uncalibrated 
+    01 = self-calibration 
+    10 = not used 
+    11 = user input 
+DIVSEL[2:0] [2:0] I 000 Calibration clock divide ratio from DAC clock rate 
+    000 = divide by 256 
+    001 = divide by 128 
+    … 
+    110 = divide by 4 
+    111 = divide by 2 
+ 
+PAGE 34
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 34 of 42 
+Table 20. MEMRDWR—Register 0x0F 
+Mnemonic Bit No. Direction (I/O) Default Description 
+CALSTAT 7 O 0 1 = calibration cycle complete 
+CALEN 6 I 0 1 = initiates device self-calibration 
+SMEMWR 3 I 0 1 = writes to static memory (calibration coefficients) 
+SMEMRD 2 I 0 1 = reads from static memory (calibration coefficients) 
+UNCAL 0 I 0 1 = resets calibration co efficients to default (uncalibrated) 
+ 
+Table 21. MEMADDR—Register 0x10 
+Mnemonic Bit No. Direction (I/O) Default Description 
+MEMADDR[5:0] [5:0] I/O 000000 Address of  static memory to be accessed 
+ 
+Table 22. MEMDATA—Register 0x11 
+Mnemonic Bit No. Direction (I/O) Default Description 
+MEMDATA[5:0] [5:0] I/O 111111 Data  for static memory access 
+ 
+REFERENCE OPERATION 
+The AD9704/AD9705/AD9706/AD9707 contain an internal 1.0 V 
+band gap reference. The internal reference can be disabled by 
+writing a Logic 1 to Register 0x00, Bit 0 (EXREF) in the SPI.  
+The internal 1.0 V band gap reference may on occasion power 
+up in a state that leaves the DAC output nonfunctional. To clear 
+this state, power up again, and check that the voltage on the 
+REFIO pin is within the reference output specifications shown 
+in Table 1 or Table 4. After the internal reference is powered up 
+correctly, it does not fail as long as power is applied. 
+To use the internal reference, decouple the REFIO pin to ACOM 
+with a 0.1 μF capacitor, enable the internal reference by writing 
+a Logic 0 to Register 0x00, Bit 0 in the SPI. (Note that this is the 
+default configuration.) The internal reference voltage is present 
+at REFIO. If the voltage at REFIO is to be used anywhere else in 
+the circuit, an external buffer amplifier with an input bias current of 
+less than 100 nA must be used to avoid loading the reference. An 
+example of the use of the internal reference is shown in Figure 78. 
+CURRENT
+SCALING
+x32
+AD9704/AD9705/
+AD9706/AD9707
+DAC
+IOUTFSRSET
+0.1µF
+REFIO
+IREF
+AVSS
+FS ADJ
+VBG
+1.0V
++
+–
+05926-094 
+Figure 78. Internal Reference Configuration 
+REFIO serves as either an input or an output, depending on 
+whether the internal or an external reference is used. Table 23 
+summarizes the reference operation. 
+ 
+Table 23. Reference Operation 
+Reference 
+Mode REFIO Pin Register Setting 
+Internal Connect 0.1 μF capacitor Register 0x00, Bit 0 = 0 
+(default) 
+External Apply external reference Register 0x00, Bit 0 = 1 
+(for power saving) 
+An external reference can be used in applications requiring 
+tighter gain tolerances or lower temperature drift. Also, a variable 
+external voltage reference can be used to implement a method 
+for gain control of the DAC output. The external reference is 
+applied to the REFIO pin. Note that the 0.1 μF compensation 
+capacitor is not required. The internal reference can be directly 
+overdriven by the external reference, or the internal reference 
+can be powered down. The input impedance of REFIO is 10 kΩ 
+when powered up and 1 MΩ when powered down. 
+REFERENCE CONTROL AMPLIFIER 
+The AD9704/AD9705/AD9706/AD9707 contain a control 
+amplifier that regulates the full-scale output current, IOUTFS. The 
+control amplifier is configured as a V-I converter, as shown in 
+Figure 78. The output current, IREF, is determined by the ratio of 
+the VREFIO and an external resistor, RSET, as stated in Equation 4. 
+IREF is mirrored to the segmented current sources with the 
+proper scale factor to set IOUTFS, as stated in Equation 3. 
+The control amplifier allows a 5:1 adjustment span of IOUTFS from 
+1 mA to 5 mA by setting IREF between 31.25 μA and 156.25 μA 
+(RSET between 6.4 kΩ and 32 kΩ). The wide adjustment span of 
+IOUTFS provides several benefits. The first relates directly to the 
+power dissipation of the AD9704/AD9705/AD9706/AD9707, 
+which is proportional to IOUTFS (see the Power Dissipation section). 
+The second benefit relates to the ability to adjust the output over a 
+14 dB range, which is useful for controlling the transmitted power. 
+ 
+
+PAGE 35
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 35 of 42 
+DAC TRANSFER FUNCTION 
+The AD9704/AD9705/AD9706/AD9707 provide complementary 
+current outputs, IOUTA and IOUTB. IOUTA provides a near 
+full-scale current output, IOUTFS, when all bits are high (that is, 
+DAC CODE = 2N −  1, where N = 8, 10, 12, or 14 for the AD9704, 
+AD9705, AD9706, and AD9707, respectively), while IOUTB, the 
+complementary output, provides no current. The current output 
+appearing at IOUTA and IOUTB is a function of both the input 
+code and IOUTFS and can be expressed as 
+IOUTA = (DAC CODE/2N) × IOUTFS (1) 
+IOUTB = ((2N − 1) −  DAC CODE)/2N × IOUTFS (2) 
+where DAC CODE = 0 to 2N − 1 (that is, decimal representation). 
+IOUTFS is a function of the reference current, IREF, which is 
+nominally set by a reference voltage, VREFIO, and an external 
+resistor, RSET. It can be expressed as 
+IOUTFS = 32 × IREF (3) 
+where 
+IREF = VREFIO/RSET (4) 
+The two current outputs typically drive a resistive load directly 
+or via a transformer. If dc coupling is required, IOUTA and 
+IOUTB should be connected to matching resistive loads (RLOAD) 
+that are tied to analog common (ACOM). The single-ended 
+voltage output appearing at the IOUTA and IOUTB nodes is 
+VIOUTA = IOUTA × RLOAD (5) 
+VIOUTB = IOUTB × RLOAD (6) 
+To achieve the maximum output compliance of 1 V at the 
+nominal 2 mA output current, RLOAD must be set to 500 Ω.  
+Also, the full-scale value of VIOUTA and VIOUTB must not exceed 
+the specified output compliance range to maintain specified 
+distortion and linearity performance. 
+V
+DIFF = (IOUTA – IOUTB) × RLOAD (7) 
+Substituting the values of IOUTA, IOUTB, IREF, and VDIFF can be 
+expressed as 
+VDIFF = {(2 × DAC CODE – (2N − 1))/2 N} ×  
+(32 × VREFIO/RSET) × RLOAD (8) 
+Equation 7 and Equation 8 highlight some of the advantages of 
+operating the AD9704/AD9705/AD9706/AD9707 differentially. 
+First, the differential operation helps cancel common-mode error 
+sources associated with IOUTA and IOUTB, such as noise, 
+distortion, and dc offsets. Second, the differential code dependent 
+current and subsequent voltage, V
+DIFF, is twice the value of the 
+single-ended voltage output (that is, VIOUTA or VIOUTB), thus 
+providing twice the signal power to the load. 
+The gain drift temperature performance for a single-ended 
+output (VIOUTA and VIOUTB) or the differential output (VDIFF) of 
+the AD9704/AD9705/AD9706/AD9707 can be enhanced by 
+selecting temperature tracking resistors for RLOAD and RSET, 
+because of their ratiometric relationship, as shown in Equation 8. 
+ANALOG OUTPUTS 
+The complementary current outputs in each DAC, IOUTA, and 
+IOUTB can be configured for single-ended or differential oper-
+ation. IOUTA and IOUTB can be converted into complementary 
+single-ended voltage outputs, VIOUTA and VIOUTB, via a load resistor, 
+RLOAD, as described in the DAC Transfer Function section by 
+Equation 5 through Equation 8. The differential voltage, VDIFF, 
+existing between VIOUTA and VIOUTB, can also be converted to a 
+single-ended voltage via a transformer or a differential amplifier 
+configuration. The ac performance of the AD9704/AD9705/ 
+AD9706/AD9707 is optimum and is specified using a differential 
+transformer-coupled output in which the voltage swing at 
+IOUTA and IOUTB is limited to ±0.5 V . 
+The distortion and noise performance of the AD9704/AD9705/ 
+AD9706/AD9707 can be enhanced when it is configured for 
+differential operation. The common-mode error sources of both 
+IOUTA and IOUTB can be significantly reduced by the common-
+mode rejection of a transformer or differential amplifier. These 
+common-mode error sources include even-order distortion 
+products and noise. The enhancement in distortion performance 
+becomes more significant as the frequency content of the 
+reconstructed waveform increases and/or its amplitude increases. 
+This is due to the first-order cancellation of various dynamic 
+common-mode distortion mechanisms, digital feedthrough, 
+and noise. 
+Performing a differential-to-single-ended conversion via a 
+transformer also provides the ability to deliver twice the 
+reconstructed signal power to the load (assuming no source 
+termination). Because the output currents of IOUTA and 
+IOUTB are complementary, they become additive when 
+processed differentially.  
+When the AD9704/AD9705/AD9706/AD9707 is being used at its 
+nominal operating point of 2 mA output current and 0.5 V output 
+swing is desired, R
+LOAD must be set to 250 Ω. A properly selected 
+transformer allows the AD9704/AD9705/AD9706/AD9707 to 
+provide the required power and voltage levels to different loads. 
+The output impedance of IOUTA and IOUTB is determined by 
+the equivalent parallel combination of the PMOS switches 
+associated with the current sources and is typically 200 MΩ  in 
+parallel with 5 pF . It is also slightly dependent on the output 
+voltage (that is, V
+IOUTA and VIOUTB) due to the nature of a PMOS 
+device. As a result, maintaining IOUTA and/or IOUTB at a 
+virtual ground via an I-V op amp configuration results in the 
+optimum dc linearity. Note that the INL/DNL specifications for 
+the AD9704/AD9705/AD9706/AD9707 are measured with IOUTA 
+maintained at a virtual ground via an op amp. 
+IOUTA and IOUTB also have a negative and positive voltage 
+compliance range that must be adhered to in order to achieve 
+optimum performance. The absolute maximum negative output 
+compliance range of −1 V is set by the breakdown limits of the 
+CMOS process. Operation beyond this maximum limit can result 
+in a breakdown of the output stage and affect the reliability of 
+the AD9704/AD9705/AD9706/AD9707.  
+
+PAGE 36
+AD9704/AD9705/AD9706/AD9707 Data Sheet 
+ 
+Rev. D | Page 36 of 42 
+The positive output compliance range is slightly dependent on 
+the full-scale output current, IOUTFS. It degrades slightly from its 
+nominal 1.0 V for an IOUTFS = 2 mA to 0.8 V for an IOUTFS = 1 mA. 
+The optimum distortion performance for a single-ended or 
+differential output is achieved when the maximum full-scale 
+signal at IOUTA and IOUTB does not exceed 0.5 V . 
+ADJUSTABLE OUTPUT COMMON MODE  
+The AD9704/AD9705/AD9706/AD9707 provide the ability to set 
+the output common mode to a value other than ACOM via Pin 19 
+(OTCM). This extends the compliance range of the outputs and 
+facilitates interfacing the output of the AD9704/AD9705/AD9706/ 
+AD9707 to components that require common-mode levels other 
+than 0 V . The OTCM pin demands dynamically changing current 
+and should be driven by a low source impedance to prevent a 
+common-mode signal from appearing on the DAC outputs. The 
+OTCM pin also serves to change the DAC bias voltages in the 
+parts, allowing them to run at higher dc output bias voltages. 
+When running the bias voltage below 0.9 V and an AVDD of 
+3.3 V , the parts perform optimally when the OTCM pin is tied 
+to ground. When the dc bias increases above 0.9 V , set the OTCM 
+pin at 0.5 V for optimal performance. Keep the maximum dc 
+bias on the DAC output at or below 1.2 V when the supply is 
+3.3 V . When the supply is 1.8 V , keep the dc bias close to 0 V 
+and connect the OTCM pin directly to ground. Note that setting 
+OTCM to a voltage greater than ACOM allows the peak of the 
+output signal to be closer to the positive supply rail. To prevent 
+distortion in the output signal due to limited available headroom, 
+the common-mode level must be chosen such that the following 
+expression is satisfied: 
+AVDD −  V
+OTCM > 1.8 V (9) 
+DIGITAL INPUTS 
+The  AD9707, AD9706, AD9705, and AD9704 have data inputs of 
+14, 12, 10, and 8 bits, respectively, and each has a clock input. 
+The parallel data inputs can follow standard positive binary or 
+twos complement coding. IOUTA produces a full-scale output 
+current when all data bits are at Logic 1. IOUTB produces a 
+complementary output with the full-scale current split between 
+the two outputs as a function of the input code. 
+DIGITAL
+INPUT
+DVDD
+05926-078 
+Figure 79. Equivalent Digital Input 
+ 
+ 
+ 
+ 
+ 
+The digital interface is implemented using an edge-triggered 
+master/slave latch. The DAC output updates on the rising edge 
+of the clock and is designed to support a clock rate as high as 
+175 MSPS. The clock can be operated at any duty cycle that meets 
+the specified latch pulse width. The setup and hold times can 
+also be varied within the clock cycle, as long as the specified 
+minimum times are met, although the location of these transition 
+edges may affect digital feedthrough and distortion performance. 
+Best performance is typically achieved when the input data 
+transitions on the falling edge of a 50% duty cycle clock. 
+Deskew Mode 
+The AD9704/AD9705/AD9706/AD9707 provides an optional 
+deskew mode. Turning on the deskew mode can improve the skew 
+glitch behavior of the DAC. With the deskew mode enabled, a one 
+CLK+/CLK− clock cycle register delay is added to the digital input 
+path. By default, the DESKEW bit in the data register (0x02) is 
+set to 0, disabling the deskew mode.  
+CLOCK INPUT 
+A configurable clock input allows the device to be operated in a 
+single-ended or a differential clock mode. The mode selection 
+can be controlled either by the CMODE pin, if the device is in 
+pin mode; or through Register 0x02, Bit 2 (CLKDIFF) of the SPI 
+registers, if the SPI is enabled. Connecting CMODE to CLKCOM 
+selects the single-ended clock input. In this mode, the CLK+ 
+input is driven with rail-to-rail swings, and the CLK− input is 
+left floating. If CMODE is connected to CLKVDD, the differential 
+receiver mode is selected. In this mode, both inputs are high 
+impedance. Table 24 gives a summary of clock mode control. 
+There is no significant performance difference between the 
+clock input modes. 
+Table 24. Clock Mode Selection 
+SPI Disabled, 
+CMODE Pin 
+SPI Enabled,  
+Register 0x02, Bit 2 Clock Input Mode 
+CLKCOM 0 Single ended  
+CLKVDD 1 Differential  
+In differential input mode, the clock input functions as a high 
+impedance differential pair. The common-mode level of the 
+CLK+ and CLK− inputs can vary from 0.75 V to 2.25 V , and the 
+differential voltage can be as low as 0.5 V p-p. This mode can be 
+used to drive the clock with a differential sine wave because the 
+high gain bandwidth of the differential inputs converts the sine 
+wave into a single-ended square wave internally. 
+DAC TIMING 
+Input Clock and Data Timing Relationship 
+Dynamic performance in a DAC is dependent on the relationship 
+between the position of the clock edges and the time at which 
+the input data changes. To achieve the DAC performance specified 
+in this data sheet, data input (DB) and clock (CLK+/CLK−) must 
+meet the setup and hold time requirements specified in the relevant 
+digital specifications. 
+ 
+
+PAGE 37
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 37 of 42 
+POWER DISSIPATION 
+The power dissipation, PD, of the AD9704/AD9705/AD9706/ 
+AD9707 is dependent on several factors that include 
+• The power supply voltages (AVDD, CLKVDD, and DVDD) 
+• The full-scale current output, IOUTFS 
+• The update rate, fCLOCK 
+• The reconstructed digital input waveform 
+Power dissipation is directly proportional to the analog supply 
+current, IAVDD, and the digital supply current, IDVDD. IAVDD is equal to 
+a fixed current plus IOUTFS, as shown in Figure 80. IDVDD is proportional 
+to fCLOCK and increases with increasing analog output frequencies. 
+Figure 82 shows IDVDD as a function of full-scale sine wave output 
+ratios (fOUT/fCLOCK) for various update rates with DVDD = 3.3 V . 
+ICLKVDD is directly proportional to fCLOCK and is higher for differential 
+clock operation than for single-ended operation, as shown in 
+Figure 84. This difference in clock current is due primarily to the 
+differential clock receiver, which is disabled in single-ended 
+clock mode. 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+1 2 3 4 5
+IAVDD (mA)
+IOUTFS (mA)
+05926-080 
+Figure 80. IAVDD vs. IOUTFS at AVDD = 3.3 V 
+0
+1.00 1.25 1.50 1.75 2.00
+IAVDD (mA)
+IOUTFS (mA)
+05926-102
+1
+3
+2
+4
+5
+6
+ 
+Figure 81. IAVDD vs. IOUTFS at AVDD = 1.8 V 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+0.01 0.1 1
+IDVDD (mA)
+fOUT/fCLOCK
+05926-081
+fCLOCK = 75MSPS
+fCLOCK = 25MSPS
+fCLOCK = 10MSPS
+fCLOCK = 125MSPS
+fCLOCK = 175MSPS
+ 
+Figure 82. IDVDD vs. fOUT/fCLOCK Ratio at DVDD = 3.3 V 
+2.5
+0
+0.01 0.1 1
+IDVDD (mA)
+fOUT/fCLOCK
+05926-098
+0.5
+1.0
+1.5
+2.0
+2.5
+fCLOCK = 80MSPS
+fCLOCK = 10MSPS
+fCLOCK = 25MSPS
+fCLOCK = 50MSPS
+ 
+Figure 83. IDVDD vs. fOUT/fCLOCK Ratio at DVDD = 1.8 V 
+5
+4
+3
+2
+1
+0
+0 10050 150 200
+ICLKVDD (mA)
+fCLOCK (MSPS)
+DIFF
+SE
+05926-082 
+Figure 84. ICLKVDD vs. fCLOCK at CLKVDD = 3.3 V 
+
+PAGE 38
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 38 of 42 
+0
+0 2 0 3 05 07 09 010 40 60 80
+ICLKVDD (mA)
+fCLOCK (MSPS)
+05926-099
+0.2
+0.6
+0.4
+0.8
+1.0
+1.2
+1.4
+ 
+Figure 85. ICLKVDD vs. fCLOCK (Differential Clock Mode) at CLKVDD = 1.8 V 
+Sleep Operation (Pin Mode) 
+The AD9704/AD9705/AD9706/AD9707 have a sleep mode that 
+turns off the output current and reduces the total power consumed 
+by the device. This mode is activated by applying a Logic 1 to 
+the SLEEP/CSB pin. The SLEEP/CSB pin logic threshold is 
+equal to 0.5 × DVDD. This digital input also contains an active 
+pull-down circuit. 
+The AD9704/AD9705/AD9706/AD9707 take less than 50 ns to 
+power down and approximately 5 μs to power back up, when 
+3.3 V AVDD is used.  
+Sleep and Power-Down Operation (SPI Mode) 
+The AD9704/AD9705/AD9706/AD9707 offer three power-down 
+functions that can be controlled through the SPI. These power-
+down modes can be used to minimize the power dissipation of 
+the device. The power-down functions are controlled through 
+Register 0x00, Bit 1 to Bit 3, of the SPI registers. Table 25 
+summarizes the power-down functions that can be controlled 
+through the SPI. The power-down mode can be enabled by 
+writing a Logic 1 to the corresponding bit in Register 0x00. 
+Table 25. Power-Down Mode Selection 
+Power-Down 
+Mode 
+(Reg. 0x00) 
+Bit Number Functional Description 
+Clock Off 1 Turn off clock 
+Sleep 2 Turn off output current 
+Power Down 3 Turn off output current and 
+internal band gap reference 
+SELF-CALIBRATION 
+The AD9704/AD9705/AD9706/AD9707 have a self-calibration 
+feature that improves the DNL of the device. Performing a self-
+calibration on the device improves device performance in low 
+frequency applications. The device performance in applications 
+where the analog output frequencies are above 1 MHz are generally 
+influenced more by dynamic device behavior than by DNL, and 
+in these cases, self-calibration is unlikely to provide any benefits 
+for single-tones, as shown in Figure 86. Figure 87 shows that 
+self-calibration is helpful up to 20 MHz for two-tone IMD spaced 
+10 kHz apart. 
+88
+86
+84
+82
+80
+78
+00 . 2 0 . 4 0 . 6 0 . 8
+05926-096
+SFDR (dBc)
+fOUT (MHz)
+CALIBRATED
+UNCALIBRATED
+ 
+Figure 86. AD9707 SFDR vs. fOUT at 175 MSPS and IOUTFS = 2 mA 
+88
+87
+86
+85
+84
+83
+82
+81
+80
+78
+79
+0 5 10 15 20
+05926-097
+IMD (dBc)
+LOWER fOUT (MHz)
+CALIBRATED
+UNCALIBRATED
+ 
+Figure 87. IMD vs. Lower fOUT at 175 MSPS and IOUTFS = 2 mA 
+The calibration clock frequency is equal to the DAC clock divided 
+by the division factor chosen by the DIVSEL value. The frequency 
+of the calibration clock must be set to under 10 MHz for reliable 
+calibrations. Best results are obtained by setting DIVSEL[2:0] 
+(Register 0x0E, Bit 2 to Bit 0) to produce the lowest frequency 
+calibration clock frequency that the system requirements of the 
+user allows.  
+To perform a device self-calibration, use the following procedure: 
+1. Enable the calibration clock by setting the CALCLK bit 
+(Register 0x02, Bit 0). 
+2. Enable self-calibration by writing 0x40 to Register 0x0F. 
+3. Wait approximately 4500 calibration clock cycles. Each 
+calibration clock cycle is between 2 DAC clock cycles and 
+256 DAC clock cycles, depending on the value of 
+DIVSEL[2:0]. 
+4. Check if the self-calibration has completed by reading the 
+CALSTAT bit (Register 0x0F, Bit 7). A Logic 1 indicates the 
+calibration has completed. 
+5. When the self-calibration has completed, write 0x00 to 
+Register 0x0F. 
+6. Disable the calibration clock by clearing the CALCLK bit 
+(Register 0x02, Bit 0). 
+
+PAGE 39
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 39 of 42 
+The AD9704/AD9705/AD9706/AD9707 devices allow reading 
+and writing of the calibration coefficients. There are 33 coefficients 
+in total. The read/write feature of the coefficients can be useful 
+for improving the results of the self-calibration routine by averaging 
+the results of several calibration results and loading the averaged 
+results back into the device. The reading and writing routines 
+follow.  
+To read the calibration coefficients to the device: 
+1. Enable the calibration clock by setting the CALCLK bit 
+(Register 0x02, Bit 0). 
+2. Write the address of the first coefficient (0x00) to  
+Register 0x10. 
+3. Set the SMEMRD bit (Register 0x0F , Bit 2) by writing 0x04 
+to Register 0x0F. 
+4. Wait at least 160 CLK+/CLK−  clock cycles. 
+5. Read the value of the first coefficient by reading the 
+contents of Register 0x11. 
+6. Clear the SMEMRD bit by writing 0x00 to Register 0x0F . 
+7. Repeat Step 2 through Step 6 for each of the remaining 32 
+coefficients by incrementing the address by one for each 
+read. 
+8. Disable the calibration clock by clearing the CALCLK Bit 
+(Register 0x02, Bit 0). 
+To write the calibration coefficients to the device: 
+1. Enable the calibration clock by setting the CALCLK bit 
+(Register 0x02, Bit 0). 
+2. Set the SMEMWR bit (Register 0x0F , Bit 3) by writing 0x08  
+to Register 0x0F. 
+3. Write the address of the first coefficient (0x00) to  
+Register 0x10. 
+4. Write the value of the first coefficient to Register 0x11. 
+5. Wait at least 160 CLK+/CLK−  clock cycles 
+6. Repeat Step 3 through Step 5 for each of the remaining 32 
+coefficients by incrementing the address by one for each write.  
+7. Clear the SMEMWR bit by writing 0x00 to Register 0x0F.  
+8. Disable the calibration clock by clearing the CALCLK bit 
+(Register 0x02, Bit 0). 
+ 
+
+PAGE 40
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 40 of 42 
+APPLICATIONS INFORMATION 
+OUTPUT CONFIGURATIONS 
+The following sections illustrate some typical output 
+configurations for the AD9704/AD9705/AD9706/AD9707. 
+Unless otherwise noted, it is assumed that IOUTFS is set to a 
+nominal 2 mA. For applications requiring the optimum 
+dynamic performance, a differential output configuration is 
+suggested. A differential output configuration can consist of 
+either an RF transformer or a differential op amp configuration. 
+The transformer configuration provides the optimum high 
+frequency performance and is recommended for any application 
+that allows ac coupling. The differential op amp configuration is 
+suitable for applications requiring dc coupling, signal gain, 
+and/or a low output impedance. 
+A single-ended output is suitable for applications where low 
+cost and low power consumption are primary concerns.  
+DIFFERENTIAL COUPLING USING A TRANSFORMER 
+An RF transformer can be used to perform a differential-to-single-
+ended signal conversion, as shown in Figure 88. The distortion 
+performance of a transformer typically exceeds that available from 
+standard op amps, particularly at higher frequencies. Transformer 
+coupling provides excellent rejection of common-mode distortion 
+(that is, even-order harmonics) over a wide frequency range. It 
+also provides electrical isolation and can deliver voltage gain 
+without adding noise. Transformers with different impedance 
+ratios can also be used for impedance matching purposes. The 
+main disadvantages of transformer coupling are the low frequency 
+roll-off, lack of power gain, and the higher output impedance.  
+AD9704/AD9705
+AD9706/AD9707
+IOUTB
+IOUTA
+20
+21
+OPTIONAL RDIFF
+RLOAD
+05926-095
+ 
+Figure 88. Differential Output Using a Transformer 
+The center tap on the primary side of the transformer must be 
+connected to a voltage that keeps the voltages on IOUTA and 
+IOUTB within the output common voltage range of the device. 
+Note that the dc component of the DAC output current is equal 
+to I
+FS/2 and flows out of both IOUTA and IOUTB. The center 
+tap of the transformer should provide a path for this dc current. 
+In many applications, AGND provides the most convenient 
+voltage for the transformer center tap. The complementary 
+voltages appearing at IOUTA and IOUTB (that is, V
+IOUTA and 
+VIOUTB) swing symmetrically around AGND and should be 
+maintained with the specified output compliance range of the 
+AD9704/AD9705/AD9706/AD9707.  
+ 
+ 
+A differential resistor, R
+DIFF, can be inserted in applications 
+where the output of the transformer is connected to the load, 
+R
+LOAD, via a passive reconstruction filter or cable. RDIFF, as 
+reflected by the transformer, is chosen to provide a source 
+termination that results in a low VSWR. Note that approxi-
+mately half the signal power is dissipated across RDIFF. 
+SINGLE-ENDED BUFFERED OUTPUT USING AN OP 
+AMP 
+An op amp, such as the ADA4899-1, can be used to perform a 
+single-ended current-to-voltage conversion, as shown in Figure 89. 
+The AD9704/AD9705/AD9706/AD9707 are configured with a 
+pair of series resistors, RS, off each output. The feedback resistor, 
+RFB, determines the peak signal swing by the following formula: 
+2
+FS
+FBOUT
+IRV   
+The common-mode voltage of the output is determined by the 
+following formula: 
+OUT
+B
+FB
+REFCM VR
+RVV 
+
+
+
+
+  1  
+The maximum and minimum voltages out of the amplifier are, 
+respectively, the following: 
+
+
+
+
+
+ 
+B
+FB
+REFMAX
+R
+RVV 1  
+VMIN = VMAX − IFS × RFB 
++5VAD9704/AD9705
+AD9706/AD9707
+IOUTA
+IOUTB 20
+RFB
+VOUT
+REFIO 23
+21
+RS
+OTCM 19
+CF
+C
+RS
+RB
+05926-100
++
+–
+ADA4899-1
+–5V
+ 
+Figure 89. Single-Supply Single-Ended Buffer 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 41
+Data Sheet AD9704/AD9705/AD9706/AD9707 
+ 
+Rev. D | Page 41 of 42 
+DIFFERENTIAL BUFFERED OUTPUT USING AN OP 
+AMP 
+A dual op amp (see the circuit shown in Figure 90) can be used in 
+a differential version of the single-ended buffer shown in Figure 89. 
+The same R-C network is used to form a 1-pole differential, 
+low-pass filter to isolate the op amp inputs from the high 
+frequency images produced by the DAC outputs. The feedback 
+resistors, RFB, determine the peak signal swing by the following 
+formula: 
+VOUT = RFB × IFS 
+The common-mode voltage of the output is determined by the 
+following formula: 
+2
+OUT
+MAXCM
+VVV −=  
+The maximum and minimum voltages out of the amplifier are, 
+respectively, the following: 
+
+
+
+
+
+ +×=
+B
+FB
+REFMAX
+R
+RVV 1  
+VMIN = VMAX − VOUT 
+05926-201
+RS
+AD9704/AD9705
+AD9706/AD9707
+IOUTA
+OTCM 19
+RFB
+VOUT
+REFIO 23
+21
+IOUTB 20
+CF
+C
+RS
+RB
++
+–
+ADA4841-2
+CF
+RFB
+VOUT
+RB
++
+–
+ADA4841-2
+ 
+Figure 90. Single-Supply Differential Buffer  
+EVALUATION BOARD 
+The AD9704/AD9705/AD9706/AD9707 evaluation board 
+connects to the Analog Devices DAC pattern generator (DPG) 
+to allow for quick evaluation. The DPG generates Analog Devices 
+provided and user created digital vectors that are input into the 
+AD9704/AD9705/AD9706/AD9707 at speed. A software suite 
+provided with the evaluation board allows the user to program 
+the registers in the product and the DPG. The AD9704/AD9705/ 
+AD9706/AD9707 evaluation board is powered from a PC USB 
+port that also provides the AD9704/AD9705/AD9706/AD9707 
+SPI port interface. 
+ 
+ 
+
+PAGE 42
+AD9704/AD9705/AD9706/AD9707 Data Sheet
+ 
+Rev. D | Page 42 of 42 
+OUTLINE DIMENSIONS 
+ 
+3.25
+3.10 SQ
+2.95
+FOR PROPER CONNECTION OF
+THE EXPOSED PAD, REFER TO
+THE PIN CONFIGURATION AND
+FUNCTION DESCRIPTIONS
+SECTION OF THIS DATA SHEET.COMPLIANT TO JEDEC STANDARDS MO-220-VHHD-2
+1
+32
+8
+9
+25
+24
+17
+16
+COPLANARITY
+0.08
+3.50 REF
+0.50
+BSC
+PIN 1
+INDICATOR
+PIN 1
+INDICATOR
+0.30
+0.25
+0.18
+0.20 REF
+12° MAX 0.80 MAX
+0.65 TYP1.00
+0.85
+0.80
+0.05 MAX
+0.02 NOM
+SEATING
+PLANE
+0.50
+0.40
+0.30
+4.75
+BSC SQ
+0.60 MAX
+0.60 MAX
+0.25 MIN
+10-02-2013-A
+TOP VIEW
+EXPOSED
+PAD
+BOTTOM VIEW
+5.10
+5.00 SQ
+4.90
+ 
+Figure 91. 32-Lead Lead Frame Chip Scale Package [LFCSP] 
+5 mm × 5 mm and 0.85 mm Package Height 
+(CP-32-2) 
+Dimensions shown in millimeters 
+ 
+ORDERING GUIDE 
+Model1 Temperature Range  Package Description  Package Option 
+AD9704BCPZ −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9704BCPZRL7 −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9704-DPG2-EBZ  Evaluation Board  
+AD9705BCPZ −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9705BCPZRL7 −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9705-DPG2-EBZ  Evaluation Board  
+AD9706BCPZ −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9706BCPZRL7 −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9706-DPG2-EBZ  Evaluation Board  
+AD9707BCPZ −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9707BCPZRL7 −40°C to +85°C 32-Lead Lead Frame Chip Scale Package [LFCSP] CP-32-2 
+AD9707-DPG2-EBZ  Evaluation Board  
+ 
+1 Z = RoHS Compliant Part. 
+ 
+ 
+ 
+ 
+©2006–2017 Analog Devices, Inc. All rights reserved. Trademarks and  
+ registered trademarks are the prop erty of their respective owners. 
+  D05926-0-11/17(D)  

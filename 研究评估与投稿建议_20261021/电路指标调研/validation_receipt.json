@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-21",
+  "scope": "independent analytical bandwidth budget only",
+  "unit_tests_passed": 8,
+  "unit_tests_failed": 0,
+  "attachment_hashes_verified": true,
+  "json_and_reference_ids_checked": true,
+  "existing_MATLAB_RTL_modified": false,
+  "hardware_measured": false,
+  "full_closed_loop_phase_margin_verified": false,
+  "wos_query_result_count": 93,
+  "wos_open_access_filter_count": 16,
+  "wos_fulltext_read_count_claimed": 0,
+  "source_records": 24
+}
