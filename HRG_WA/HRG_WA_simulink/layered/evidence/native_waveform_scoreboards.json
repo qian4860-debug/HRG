@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "name": "v2_nominal_DAC_half_LSB",
+      "peakErrorV": 0.0,
+      "halfLSBV": 0,
+      "samples": 64,
+      "pass": true
+    },
+    {
+      "name": "v3_nominal_DAC_half_LSB",
+      "peakErrorV": 2.4551147625819815e-05,
+      "halfLSBV": 3.0517578125e-05,
+      "samples": 63,
+      "pass": true
+    },
+    {
+      "name": "v4_nominal_DAC_half_LSB",
+      "peakErrorV": 3.039766094430009e-05,
+      "halfLSBV": 3.0517578125e-05,
+      "samples": 63,
+      "pass": true
+    },
+    {
+      "name": "v5_nominal_DAC_half_LSB",
+      "peakErrorV": 3.039766094430009e-05,
+      "halfLSBV": 3.0517578125e-05,
+      "samples": 63,
+      "pass": true
+    },
+    {
+      "name": "v6_nominal_DAC_half_LSB",
+      "peakErrorV": 3.0249356886337988e-05,
+      "halfLSBV": 3.0517578125e-05,
+      "samples": 63,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

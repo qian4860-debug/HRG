@@ -1,0 +1,41 @@
+{
+  "stage": 6,
+  "durationS": 0.3,
+  "validFraction": 0.9800664451827242,
+  "rateRmsErrorDegS": 0.512358084970965,
+  "rateStdErrorDegS": 0.5119148970813316,
+  "rateMeanErrorDegS": -0.046791252255531914,
+  "ratePeakErrorDegS": 1.173574975970876,
+  "settleWindowStartS": 0.15,
+  "finite": true,
+  "supplyAssumptionV": 1.8,
+  "adcBits": 18,
+  "dacBits": 16,
+  "adcArchitecture": "nyquist",
+  "dacArchitecture": "nyquist",
+  "energyMean": 0.9073530133462857,
+  "energyRippleRms": 0.005372562664596099,
+  "quadratureRatioRms": 0.0044887934129393325,
+  "adcErrorRmsV": [
+    9.985503229514825e-06,
+    4.550707674565966e-06
+  ],
+  "adcClipFraction": 0,
+  "dacErrorRmsV": [
+    8.087353260983102e-06,
+    1.4303664231943218e-05
+  ],
+  "afeClipFraction": 0,
+  "driverPeakV": 0.010334512238807016,
+  "driverClipFraction": 0,
+  "kalmanUpdates": 295,
+  "kalmanRejects": 0,
+  "onlineUpdates": 0,
+  "frpUpdates": 0,
+  "frpCoverage": 0,
+  "frpConfidence": 0,
+  "note": "Conditional on assumed head/circuit scales. Not device signoff; no ARW inferred from these short runs.",
+  "dacErrorWindowStartS": 0.29845,
+  "dacErrorWindowEndS": 0.3,
+  "dacReferenceMethod": "native integer-clock alignment over last 8 carrier cycles"
+}

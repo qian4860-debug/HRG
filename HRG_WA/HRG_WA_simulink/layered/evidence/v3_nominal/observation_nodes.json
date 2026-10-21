@@ -1,0 +1,192 @@
+[
+  {
+    "name": "tap_adc",
+    "sampleRateHz": 40000.0000000044,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_algorithm_diagnostics",
+    "sampleRateHz": 999.99999999999909,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 21,
+    "waveformStartS": 0,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_anti_alias",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_cic",
+    "sampleRateHz": 999.99999999999909,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 4,
+    "waveformStartS": 0,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_control_commands",
+    "sampleRateHz": 999.99999999999909,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 3,
+    "waveformStartS": 0,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_cv_actual",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_cv_ideal",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_dac",
+    "sampleRateHz": 40000.0000000044,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_dac_requested",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_driver",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_fir",
+    "sampleRateHz": 999.99999999999909,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 4,
+    "waveformStartS": 0,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_force",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_head_displacement",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_head_velocity",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_iq",
+    "sampleRateHz": 999.99999999999909,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 4,
+    "waveformStartS": 0,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_mixer",
+    "sampleRateHz": 40000.0000000044,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 4,
+    "waveformStartS": 0.2984,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_navigation",
+    "sampleRateHz": 999.99999999999909,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 4,
+    "waveformStartS": 0,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_pga",
+    "sampleRateHz": 399999.99999959994,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984025,
+    "waveformEndS": 0.30000000000000004,
+    "waveformDecimation": 1
+  },
+  {
+    "name": "tap_sample_hold",
+    "sampleRateHz": 40000.0000000044,
+    "psdUnit": "signal-unit squared / Hz",
+    "psdSource": "last single-channel Hann window, one-sided; mean removed",
+    "channelsLogged": 2,
+    "waveformStartS": 0.2984,
+    "waveformEndS": 0.3,
+    "waveformDecimation": 1
+  }
+]

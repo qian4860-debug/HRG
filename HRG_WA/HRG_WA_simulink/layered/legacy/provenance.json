@@ -1,0 +1,6 @@
+{
+  "source": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA_v46_simulate.m",
+  "source_sha256": "8b586777640dc25e88cadd33f022f90a7e170d26af0085eac15545b3be5de01d",
+  "helper_bodies_sha256": "e2d089380db5d217e163240f63eefe6c61d8781e2771ae78d3fbbe91b73e97d4",
+  "note": "Local helpers copied verbatim; dispatcher and measurement/state adapters are new. No original file modified."
+}

@@ -1,0 +1,17 @@
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v2/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_build>blk (第 274 行)
+位置: wl_build>adc (第 123 行)
+位置: wl_build (第 18 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v2/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_build>blk (第 274 行)
+位置: wl_build>adc (第 124 行)
+位置: wl_build (第 18 行)] 
+Built hrg_wa_v2 with library scopes and spectrum analyzers.
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v2/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This may
+cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v2/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This may
+cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+    0.1336    1.3962    1.0000    0.1023
+

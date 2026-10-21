@@ -14,5 +14,7 @@
 *.slx binary
 HRG_WA_simulink/evidence/** -text whitespace=cr-at-eol
 HRG_WA_simulink/evidence/simulation_transcript.txt -diff
+HRG_WA_simulink/layered/evidence/** -text whitespace=cr-at-eol
+HRG_WA_simulink/layered/evidence/*.txt -diff
 .gitignore text eol=lf
 .gitattributes text eol=lf

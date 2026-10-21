@@ -31,3 +31,4 @@ HRG_WA_simulink/slprj/
 HRG_WA_simulink/*.slxc
 slprj/
 *.slxc
+HRG_WA_simulink/layered/_work/

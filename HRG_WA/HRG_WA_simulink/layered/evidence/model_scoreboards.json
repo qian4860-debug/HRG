@@ -1,0 +1,264 @@
+{
+  "checks": [
+    {
+      "name": "v2_nonfinite",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v2_invalid_fraction",
+      "value": 0.009966777408637828,
+      "limit": 0.1,
+      "pass": true
+    },
+    {
+      "name": "v2_rate_tracking_mean_dps",
+      "value": 0.0030289899392226846,
+      "limit": 0.25,
+      "pass": true
+    },
+    {
+      "name": "v2_quadrature_ratio",
+      "value": 2.2966586678969125E-5,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "v2_ADC_clipping",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v2_missing_scope_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v2_missing_spectrum_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v3_nonfinite",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v3_invalid_fraction",
+      "value": 0.009966777408637828,
+      "limit": 0.1,
+      "pass": true
+    },
+    {
+      "name": "v3_rate_tracking_mean_dps",
+      "value": 0.02511215600694558,
+      "limit": 0.25,
+      "pass": true
+    },
+    {
+      "name": "v3_quadrature_ratio",
+      "value": 0.0044724486037768926,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "v3_ADC_clipping",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v3_missing_scope_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v3_missing_spectrum_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v4_nonfinite",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v4_invalid_fraction",
+      "value": 0.019933554817275767,
+      "limit": 0.1,
+      "pass": true
+    },
+    {
+      "name": "v4_rate_tracking_mean_dps",
+      "value": 0.049504782038895259,
+      "limit": 0.25,
+      "pass": true
+    },
+    {
+      "name": "v4_quadrature_ratio",
+      "value": 0.0044775013918295758,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "v4_ADC_clipping",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v4_missing_scope_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v4_missing_spectrum_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v5_nonfinite",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v5_invalid_fraction",
+      "value": 0.019933554817275767,
+      "limit": 0.1,
+      "pass": true
+    },
+    {
+      "name": "v5_rate_tracking_mean_dps",
+      "value": 0.048064738145558436,
+      "limit": 0.25,
+      "pass": true
+    },
+    {
+      "name": "v5_quadrature_ratio",
+      "value": 0.0044775013918295758,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "v5_ADC_clipping",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v5_missing_scope_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v5_missing_spectrum_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v6_nonfinite",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v6_invalid_fraction",
+      "value": 0.019933554817275767,
+      "limit": 0.1,
+      "pass": true
+    },
+    {
+      "name": "v6_rate_tracking_mean_dps",
+      "value": 0.046791252255531914,
+      "limit": 0.25,
+      "pass": true
+    },
+    {
+      "name": "v6_quadrature_ratio",
+      "value": 0.0044887934129393325,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "v6_ADC_clipping",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v6_missing_scope_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v6_missing_spectrum_nodes",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "instrumentation_IQ_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "instrumentation_navigation_nonintrusive",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "library_mechanical_expm",
+      "value": 0.0005976464598094896,
+      "limit": 0.002,
+      "pass": true
+    },
+    {
+      "name": "overrange_not_detected",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "overrange_nonfinite",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "ADC_bitstream_nonbinary",
+      "value": 0,
+      "limit": 2.2204460492503131E-16,
+      "pass": true
+    },
+    {
+      "name": "DAC_bitstream_nonbinary",
+      "value": 0,
+      "limit": 2.2204460492503131E-16,
+      "pass": true
+    },
+    {
+      "name": "bitstream_model_nonfinite",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "scope": "Circuit closure/causality/library instruments. Short-run functional limits, not product noise signoff."
+}
