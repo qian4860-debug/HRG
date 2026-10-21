@@ -78,4 +78,4 @@ out = sim('hrg_wa_envelope');
 
 ## 版本管理
 
-代码、`.slx`、CSV/JSON验收证据和图均入 Git；`.slx` 按二进制保存，`.mat`/Simulink缓存不作为验收依赖。完整验收后运行 `tools/make_provenance.py` 封存哈希。用户已持续授权完成验证后的 GitHub 同步，目标为 HRG 仓库的 `HRG_WA/HRG_WA_simulink/`。
+代码、`.slx`、CSV/JSON验收证据和图均入 Git；`.slx`及验收证据按原始字节保存，`.mat`/Simulink缓存不作为验收依赖。完整验收后运行 `tools/make_provenance.py` 封存哈希：文本源码统一LF后计算，SLX、原参考文件和验收证据按原字节计算，避免Windows换行转换使跨机器核验失效。用户已持续授权完成验证后的 GitHub 同步，目标为 HRG 仓库的 `HRG_WA/HRG_WA_simulink/`。

@@ -1,6 +1,7 @@
 {
   "date": "2026-10-21",
   "scope": "Behavioral Simulink, not bit-true RTL or measured head performance",
+  "source_hash_policy": "Text source CRLF/CR normalized to LF; SLX binary exact bytes. Reference/evidence hashes are exact bytes.",
   "sources": [
     {
       "path": "audit_reference_metadata.m",
@@ -72,7 +73,7 @@
     },
     {
       "path": "tools/make_provenance.py",
-      "sha256": "97fc56c9dbad0197aa90ade8fd67d590b6ffb0488c190d0ed6455aeb8593129f"
+      "sha256": "d37613c7e46dbb34d1e3a16bbb39db6f1a7a295bc5d00d33cf1267233b9294b2"
     },
     {
       "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
