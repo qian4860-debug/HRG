@@ -17,5 +17,6 @@ HRG_WA_simulink/evidence/simulation_transcript.txt -diff
 HRG_WA_simulink/layered/evidence/** -text whitespace=cr-at-eol
 HRG_WA_simulink/layered/evidence/*.txt -diff
 HRG_WA_simulink/layered/evidence/demo_window_fix/validation_transcript.txt -diff -text
+HRG_WA_simulink/layered/evidence/spectrum_fix/validation_transcript.txt -diff -text
 .gitignore text eol=lf
 .gitattributes text eol=lf

@@ -25,7 +25,13 @@ wl_view_results(out_layered,wl_demo_configuration);
 
 `ErrorMessage` 为空、各 `tap_*` 为 timeseries 说明仿真正常完成；`ans = SimulationOutput` 是函数返回值。旧模型的零延迟 Transport Delay 提示不代表实际存在代数环；新构建模型在零 skew 时直接连通，不增加 Memory 延迟。非零 skew 保留真实因果延迟，`wl_sim` 在 skew 符号跨零时自动重建相应路径。
 
-若使用 `matlab -batch`，整个 MATLAB 进程退出时所有图窗都会关闭，这是进程生命周期；桌面调用不需要额外等待。窗口修复验证见 `evidence/demo_window_fix/`，执行 `wl_validate_demo` 可复查。历史 `acceptance_manifest.json` 对应提交 `b1c2a77`，不覆盖重写；当前增量版本使用 `python tools/verify_demo_fix.py` 验证。
+若使用 `matlab -batch`，整个 MATLAB 进程退出时所有图窗都会关闭，这是进程生命周期；桌面调用不需要额外等待。窗口修复验证见 `evidence/demo_window_fix/`。历史清单分别对应 `b1c2a77` 和 `04050e4`，不覆盖重写；当前版本使用 `python tools/verify_spectrum_fix.py` 综合验证历史及增量证据。
+
+频谱观察修复版已给全部 16 个 Spectrum Analyzer 配置独立 `Spectrum_Sample_*` 采样保持支路。驱动/机械/模拟节点按 400 kHz，ADC/混频按 40 kHz，控制 IQ 按 1 kHz 采样后送入仪器；Scope、日志及原反馈仍直接观察原节点。设置频谱仪的显示采样率不能代替这个离散接口。
+
+电压在线功率谱使用 **dBV**；归一化在线谱使用 **dBFS，参考值固定为 1**，不代表 ASIC 的实际满量程。在线谱默认看第一通道。回放窗口的 PSD 使用实际采样率及 `V²/Hz` 或对应归一化平方/Hz；计算去均值但保留趋势，不宣称已隔离噪声。IQ 页增加 `E` 与 `Q/E` 检查，并明确其低频谱主要包含驻波进动。默认约 0.123 Hz 的 IQ 慢变不能靠 2 s 数据充分分辨，调小显示 RBW 或补零不能替代增加有效观测时长。
+
+更新后执行 `clear wl_build wl_view_results wl_native_psd; out=wl_demo(5);` 重建临时模型。原 V5 文件及开工前修改均保留；保存的短时验收模型是 `models/hrg_wa_v5_spectrum_fixed.slx`。编译采样时间、单位、逐点闭环等价性及 PSD 归一化验证见 `evidence/spectrum_fix/`。复查前先运行 `python tools/verify_spectrum_fix.py --prepare-baseline` 导出历史基准，再在 MATLAB 中运行 `wl_validate_spectrum`。
 
 直接打开 `models/hrg_wa_v5.slx` 会初始化模型随附的 V5 配置；按 Run 运行。各模型保存自己的时钟及工况配置，避免 1bit 等专用模型被普通默认参数覆盖。双击各子系统查看信号流及 `Scope_*`、`Spectrum_*`。频谱仪默认看向量第一路，通过前置 Selector 可换另一通道。导航、控制量和诊断量含不同单位，仅配时域观察。
 

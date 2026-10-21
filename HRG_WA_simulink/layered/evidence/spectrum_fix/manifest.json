@@ -1,0 +1,30 @@
+{
+  "sealedUTC": "2026-10-21T19:14:27.708056+00:00",
+  "baseCommit": "04050e4672e203810f762040ee09e5ada4693a63",
+  "previousReceipts": {
+    "HRG_WA_simulink/layered/evidence/acceptance_manifest.json": "d6201ecc5cb668f7aab8cb6cb0574c4fc6c6fd7e9636ca6dcbd931e3ffbcdd5b",
+    "HRG_WA_simulink/layered/evidence/demo_window_fix/manifest.json": "17c9cdd10d558515c11a785a1c6b370083ae19e64a05ee646564eac896b604d8"
+  },
+  "files": {
+    "HRG_WA_simulink/layered/README.md": "96bc7a740059136facfdb849e396c0eeb64787498e129b277f278508237bf2cf",
+    "HRG_WA_simulink/layered/wl_build.m": "d56a1cbe20b34de28070ac81964f5de52e9ebc03bffe8351bd8d28a7e0d35382",
+    "HRG_WA_simulink/layered/wl_view_results.m": "649dc234ad539c10c4439b92f9a0e29245633d760d5d3f0092b787f60eb073b4",
+    "HRG_WA_simulink/layered/wl_native_psd.m": "dcc34f6adc6449c26629d69e38fc75a42d368b66882c6dfeeac39c33e8959c97",
+    "HRG_WA_simulink/layered/wl_validate_spectrum.m": "c63f38d7a29542e49fd4ad0f0e1d4d03397d45ace437bddf0afd485efe5243ac",
+    "HRG_WA_simulink/layered/tools/verify_spectrum_fix.py": "a0b17badf2a595e275508ddf1a2fb47332a40e49819e05ef40d61d32c5098b7c",
+    ".gitattributes": "ec3053f7cfcbdfd068ab4f92b96df797cb7fdee015082b08f693a29423d02e20",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5_spectrum_fixed.slx": "2c2c320ebee7a6939c8c6606cae862ecc72ca226bc6f0c63d4193be1038c6673",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5_spectrum_fixed.png": "d39f1513b30c4f566efc47de5abf6faf3915730b24f2a78772bf1add92ea18cc",
+    "HRG_WA_simulink/layered/evidence/spectrum_fix/driver_psd.png": "a6d187cbf5f1f1378abed80401f6b785fc25f01bcfbfac313afe7c1a1584d02a",
+    "HRG_WA_simulink/layered/evidence/spectrum_fix/README.md": "54934b872247ad4e83e59478977bda06ee935d8a5b3bc05558c069ff4075f2dc",
+    "HRG_WA_simulink/layered/evidence/spectrum_fix/scoreboards.json": "834fc620994924ff98aa9f5726de8fc60f88969035d8aee2144415642bd44257",
+    "HRG_WA_simulink/layered/evidence/spectrum_fix/validation_transcript.txt": "ab917748e15dd3c558606b3e8a45cfad6636d49b86a5a958a77ee906f15cdd49"
+  },
+  "preservedWorkingChanges": {
+    "HRG_WA_simulink/hrg_wa_carrier.slx": "6f303c76415165a350985cb6bd4debe30fb2ba3e42e1e696a16afaef4b214a72",
+    "HRG_WA_simulink/hrg_wa_envelope.slx": "cd4392ececdbea37bbb8d78b5cb90c669d902d22b86d0b1e62c3c0805497e624",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5.png": "6d14cdce6068455f3c9ea64e0e5cc04346c2fd6650498d6ae63c47bc817773bd",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5.slx": "6ffde5821fc1a5d0eaf2c69cc87e1f5dc000c5e1461c717d9b5df8e8de55ead7",
+    "HRG_WA_simulink/validation_plot.png": "52d4d006ac6be68e5cbcd0b13eab137693a3bf18d026db532029e25d18a79cf7"
+  }
+}
