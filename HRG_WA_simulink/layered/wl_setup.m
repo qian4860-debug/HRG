@@ -34,5 +34,7 @@ lp.frp.initialThetaHat=c.frpTheta;lp.frp.applyFrozenCompensation=c.frpFreeze;
 lp.frp.identificationEnable=~c.frpFreeze;lp.calib.maxCompensationAlpha=.1;
 lp.calib.compensationStartUpdates=500;lp.calib.compensationRampUpdates=1000;
 c.legacyP=lp;v.wl_c=c;
+v.wl_env_z0=[real(z);imag(z)];
+v.wl_env_noise=(c.cvEquivalentNoiseVrtHz^2*c.pgaGain^2+c.pgaNoiseVrtHz^2)/detectGain^2/p.Ts*c.noiseEnable;
 for field=fieldnames(v).',assignin('base',field{1},v.(field{1}));end
 end

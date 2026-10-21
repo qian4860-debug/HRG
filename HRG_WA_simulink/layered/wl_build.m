@@ -15,9 +15,9 @@ blk(s,'simulink/Sources/Clock','Time',[30 50 60 70]);mf(s,'Scenario','wl_input(u
 blk(name,'simulink/Signal Routing/Demux','Scenario','Outputs','[2 1 1]','Position',[180 60 185 170]);wire(name,'Environment/1','Scenario/1');
 ss(name,'Mechanical_Head',3,2,[270 60 450 165]);mechanical([name '/Mechanical_Head']);
 ss(name,'Capacitive_CV_PGA_AA',2,1,[530 60 750 165]);frontend([name '/Capacitive_CV_PGA_AA']);
-ss(name,'ADC_Clock_Conversion',2,1,[830 60 1040 165]);adc([name '/ADC_Clock_Conversion']);
+ss(name,'ADC_Clock_Conversion',2,2,[830 60 1040 165]);adc([name '/ADC_Clock_Conversion']);
 ss(name,'NCO_IQ_CIC_FIR',2,1,[1110 60 1320 165]);digital([name '/NCO_IQ_CIC_FIR']);
-ss(name,'Algorithms_Kalman_RLS_FRP',5,3,[1110 300 1360 440]);algorithms([name '/Algorithms_Kalman_RLS_FRP']);
+ss(name,'Algorithms_Kalman_RLS_FRP',6,3,[1110 300 1360 440]);algorithms([name '/Algorithms_Kalman_RLS_FRP']);
 ss(name,'Discrete_PI_AntiWindup',2,3,[760 300 1000 440]);controller([name '/Discrete_PI_AntiWindup']);
 ss(name,'NCO',1,1,[480 330 640 410]);nco([name '/NCO']);
 ss(name,'DAC_Driver_Force',2,3,[270 300 450 440]);driver([name '/DAC_Driver_Force']);
@@ -30,7 +30,7 @@ blk(name,'simulink/Discrete/Zero-Order Hold','Temperature_Sampling','SampleTime'
 blk(name,'simulink/Discrete/Zero-Order Hold','Virtual_Command_Sampling','SampleTime','wl_Tc','Position',[1400 250 1560 290]);
 wire(name,'Scenario/2','Temperature_Sampling/1');wire(name,'Scenario/3','Virtual_Command_Sampling/1');
 wire(name,'Temperature_Sampling/1','Algorithms_Kalman_RLS_FRP/2');wire(name,'Virtual_Command_Sampling/1','Algorithms_Kalman_RLS_FRP/3');
-blk(name,'simulink/Sources/Constant','Calibration_Fixture_Permit','Value','double(wl_c.calibrationPermit)','Position',[1090 490 1270 520]);
+blk(name,'simulink/Sources/Constant','Calibration_Fixture_Permit','Value','double(wl_c.calibrationPermit && wl_c.zeroRateCertified)','Position',[1090 490 1270 520]);
 wire(name,'Calibration_Fixture_Permit/1','Algorithms_Kalman_RLS_FRP/4');
 blk(name,'simulink/Discrete/Unit Delay','Public_Previous_Command','SampleTime','wl_Tc','InitialCondition','zeros(3,1)','Position',[820 490 1010 530]);
 wire(name,'Discrete_PI_AntiWindup/3','Public_Previous_Command/1');wire(name,'Public_Previous_Command/1','Algorithms_Kalman_RLS_FRP/5');
@@ -38,6 +38,7 @@ wire(name,'Algorithms_Kalman_RLS_FRP/1','Discrete_PI_AntiWindup/1');wire(name,'V
 blk(name,'simulink/Discrete/Unit Delay','Control_Clock_Register','SampleTime','wl_Tc','InitialCondition','zeros(4,1)','Position',[490 230 670 270]);
 wire(name,'Discrete_PI_AntiWindup/2','NCO/1');wire(name,'Discrete_PI_AntiWindup/1','Control_Clock_Register/1');
 wire(name,'Control_Clock_Register/1','DAC_Driver_Force/1');wire(name,'NCO/1','DAC_Driver_Force/2');
+wire(name,'ADC_Clock_Conversion/2','Algorithms_Kalman_RLS_FRP/6');
 observe(name,'Mechanical_Head/1','head_displacement',c.fsPlant,'normalized displacement');
 observe(name,'Mechanical_Head/2','head_velocity',c.fsPlant,'normalized displacement/s');
 observe(name,'Algorithms_Kalman_RLS_FRP/2','navigation',1/c.head.Ts,'rad and rad/s');
@@ -49,8 +50,9 @@ annotation=Simulink.Annotation(name,sprintf(['V%d: LIBRARY-BASED WHOLE-ANGLE HRG
  'All circuit scales are assumed. Run wl_setup(wl_config(%d)) before parameter sweeps.'],c.stage,c.stage));
 annotation.Position=[20 560 1150 650];
 set_param(name,'Location',[20 40 1470 850]);
-% Explicit setup callback only initializes this version when opened interactively.
-set_param(name,'PostLoadFcn',sprintf('addpath(fileparts(get_param(''%s'',''FileName''))); wl_setup(wl_config(%d));',name,c.stage));
+% Keep each delivered test/architecture model's exact clock and scenario.
+set_param(name,'UserData',rmfield(c,'legacyP'),'UserDataPersistent','on');
+set_param(name,'PostLoadFcn',sprintf('addpath(fileparts(fileparts(get_param(''%s'',''FileName'')))); wl_setup(get_param(''%s'',''UserData''));',name,name));
 folder=fullfile(root,'models');if ~isfolder(folder),mkdir(folder);end
 save_system(name,fullfile(folder,[name '.slx']));
 print(['-s' name],'-dpng','-r120',fullfile(folder,[name '.png']));
@@ -75,8 +77,18 @@ wire(s,'Euler_Jq/1','Euler/1');wire(s,'Rates/2','Euler/2');
 wire(s,'Coriolis/1','Force_Sum/4');wire(s,'Euler/1','Force_Sum/5');
 % Thermal force and varying stiffness are actual plant perturbations.
 blk(s,'simulink/Sources/Random Number','Brownian_Force','Mean','[0;0]','Variance','wl_brownVariance*[1;1]', ...
- 'Seed','[501;502]','SampleTime','wl_Tp','Position',[230 500 360 540]);
-blk(s,'simulink/Math Operations/Sum','All_Forces','Inputs','+++','Position',[550 90 570 180]);
+ 'Seed','[wl_c.seed+501;wl_c.seed+502]','SampleTime','wl_Tp','Position',[230 500 360 540]);
+blk(s,'simulink/Math Operations/Sum','All_Forces','Inputs','++++','Position',[550 90 570 180]);
+blk(s,'simulink/Math Operations/Dot Product','Q_Norm_Squared','Position',[700 480 760 520]);
+blk(s,'simulink/Math Operations/Dot Product','V_Norm_Squared','Position',[700 560 760 600]);
+wire(s,'Displacement/1','Q_Norm_Squared/1');wire(s,'Displacement/1','Q_Norm_Squared/2');
+wire(s,'Velocity/1','V_Norm_Squared/1');wire(s,'Velocity/1','V_Norm_Squared/2');
+gain(s,'Velocity_Energy_Scale','1/(2*pi*wl_c.head.f0)^2',[820 560 960 600]);wire(s,'V_Norm_Squared/1','Velocity_Energy_Scale/1');
+blk(s,'simulink/Math Operations/Sum','Modal_Energy_Estimate','Inputs','++','Position',[1000 490 1020 570]);
+wire(s,'Q_Norm_Squared/1','Modal_Energy_Estimate/1');wire(s,'Velocity_Energy_Scale/1','Modal_Energy_Estimate/2');
+gain(s,'Energy_Frequency_Coefficient','-2*(2*pi*wl_c.head.f0)*(2*pi*wl_c.head.duffingHz)',[1080 500 1300 550]);wire(s,'Modal_Energy_Estimate/1','Energy_Frequency_Coefficient/1');
+blk(s,'simulink/Math Operations/Product','Energy_Dependent_Stiffness','Inputs','2','Position',[1380 490 1420 540]);
+wire(s,'Energy_Frequency_Coefficient/1','Energy_Dependent_Stiffness/1');wire(s,'Displacement/1','Energy_Dependent_Stiffness/2');wire(s,'Energy_Dependent_Stiffness/1','All_Forces/4');
 if evalin('base','wl_c.temperatureRampCPerS')~=0
  mux(s,'Temperature_Input',2,[120 580 125 650]);mf(s,'Temperature_Stiffness','wl_temperature_force(u,wl_c)',2,[210 580 410 630]);
  wire(s,'Displacement/1','Temperature_Input/1');wire(s,'In3/1','Temperature_Input/2');wire(s,'Temperature_Input/1','Temperature_Stiffness/1');
@@ -128,7 +140,7 @@ blk(s,'simulink/Discrete/Zero-Order Hold','Sample_Hold','SampleTime','wl_Ta','Po
 % from additive front-end noise; approximation is explicitly bounded in validate.
 gain(s,'Velocity_To_Voltage_Derivative','wl_detectGain',[110 200 290 240]);wire(s,'In2/1','Velocity_To_Voltage_Derivative/1');
 blk(s,'simulink/Discrete/Zero-Order Hold','Derivative_Sample','SampleTime','wl_Ta','Position',[330 200 470 240]);wire(s,'Velocity_To_Voltage_Derivative/1','Derivative_Sample/1');
-blk(s,'simulink/Sources/Random Number','Common_Clock_Jitter','Mean','0','Variance','wl_jitterVariance','Seed','621','SampleTime','wl_Ta','Position',[320 300 480 340]);
+blk(s,'simulink/Sources/Random Number','Common_Clock_Jitter','Mean','0','Variance','wl_jitterVariance','Seed','wl_c.seed+621','SampleTime','wl_Ta','Position',[320 300 480 340]);
 blk(s,'simulink/Math Operations/Product','Aperture_Error','Inputs','2','Position',[520 210 560 250]);wire(s,'Derivative_Sample/1','Aperture_Error/1');wire(s,'Common_Clock_Jitter/1','Aperture_Error/2');
 blk(s,'simulink/Math Operations/Sum','Sampled_Input','Inputs','++','Position',[610 80 630 160]);wire(s,'Sample_Hold/1','Sampled_Input/1');wire(s,'Aperture_Error/1','Sampled_Input/2');
 if strcmp(evalin('base','wl_c.adcArchitecture'),'sigma_delta')
@@ -137,14 +149,23 @@ else
  mf(s,'ADC_Quantizer_INL','wl_adc_transfer(u,wl_c)',2,[690 80 900 130]);wire(s,'Sampled_Input/1','ADC_Quantizer_INL/1');
 end
 blk(s,'simulink/Discrete/Delay','Conversion_Latency','DelayLength','wl_c.adcDelay','SampleTime','wl_Ta','InitialCondition','0','Position',[950 85 1110 130]);
-wire(s,'ADC_Quantizer_INL/1','Conversion_Latency/1');wire(s,'Conversion_Latency/1','Out1/1');
+transition(s,'ADC_Clock_Boundary','wl_Ta',[900 180 1090 220]);
+wire(s,'ADC_Quantizer_INL/1','ADC_Clock_Boundary/1');wire(s,'ADC_Clock_Boundary/1','Conversion_Latency/1');wire(s,'Conversion_Latency/1','Out1/1');
+mf(s,'Overrange_Comparator','double(any(abs(u)>=wl_c.adcFsV))',1,[690 380 920 430]);wire(s,'Sampled_Input/1','Overrange_Comparator/1');
+blk(s,'simulink/Discrete/Discrete Filter','CIC_Contamination_Window','Numerator','ones(1,wl_R*wl_c.cicStages)','Denominator','1','SampleTime','wl_Ta','Position',[980 380 1210 430]);wire(s,'Overrange_Comparator/1','CIC_Contamination_Window/1');
+blk(s,'simulink/Discrete/Zero-Order Hold','Overrange_Control_Sample','SampleTime','wl_Tc','Position',[1270 380 1470 430]);wire(s,'CIC_Contamination_Window/1','Overrange_Control_Sample/1');
+blk(s,'simulink/Discrete/Discrete Filter','FIR_Contamination_Window','Numerator','ones(1,numel(wl_fir))','Denominator','1','SampleTime','wl_Tc','Position',[1530 380 1750 430]);wire(s,'Overrange_Control_Sample/1','FIR_Contamination_Window/1');
+blk(s,'simulink/Discrete/Delay','Overrange_Alignment','DelayLength','wl_c.pipelineCtrl','SampleTime','wl_Tc','InitialCondition','0','Position',[1810 380 2000 430]);wire(s,'FIR_Contamination_Window/1','Overrange_Alignment/1');
+mf(s,'Contaminated','double(u>0)',1,[2050 380 2180 430]);wire(s,'Overrange_Alignment/1','Contaminated/1');wire(s,'Contaminated/1','Out2/1');
 observe(s,'Sample_Hold/1','sample_hold',evalin('base','wl_c.fsAdc'),'V');
 observe(s,'Conversion_Latency/1','adc',evalin('base','wl_c.fsAdc'),'V');
 end
 function digital(s)
-blk(s,'simulink/Signal Routing/Mux','Mixer_Input','Inputs','2','Position',[120 50 125 130]);wire(s,'In1/1','Mixer_Input/1');wire(s,'In2/1','Mixer_Input/2');
+transition(s,'ADC_Output_Hold','0',[30 190 180 230]);wire(s,'In1/1','ADC_Output_Hold/1');
+blk(s,'simulink/Signal Routing/Mux','Mixer_Input','Inputs','2','Position',[120 50 125 130]);wire(s,'ADC_Output_Hold/1','Mixer_Input/1');wire(s,'In2/1','Mixer_Input/2');
 mf(s,'IQ_Mixer','wl_mix(u,wl_detectGain)',4,[180 60 350 110]);wire(s,'Mixer_Input/1','IQ_Mixer/1');
-last='IQ_Mixer/1';stages=evalin('base','wl_c.cicStages');
+transition(s,'Mixer_Clock_Boundary','wl_Ta',[180 250 370 290]);wire(s,'IQ_Mixer/1','Mixer_Clock_Boundary/1');
+last='Mixer_Clock_Boundary/1';stages=evalin('base','wl_c.cicStages');
 for k=1:stages
  n=sprintf('CIC_Equivalent_Boxcar_%d',k);
  blk(s,'simulink/Discrete/Discrete Filter',n,'Numerator','wl_boxcar','Denominator','1','SampleTime','wl_Ta','Position',[400+170*(k-1) 60 550+170*(k-1) 110]);
@@ -153,8 +174,9 @@ end
 blk(s,'simulink/Discrete/Zero-Order Hold','Decimate_To_Control','SampleTime','wl_Tc','Position',[1000 60 1170 110]);wire(s,last,'Decimate_To_Control/1');
 blk(s,'simulink/Discrete/Discrete Filter','FIR_Compensation','Numerator','wl_fir','Denominator','1','SampleTime','wl_Tc','Position',[1220 60 1390 110]);wire(s,'Decimate_To_Control/1','FIR_Compensation/1');
 mf(s,'IQ_Fixed_Format','wl_iq_quantize(u,wl_c)',4,[1450 60 1600 110]);wire(s,'FIR_Compensation/1','IQ_Fixed_Format/1');
-blk(s,'simulink/Discrete/Delay','Digital_Pipeline','DelayLength','wl_c.pipelineCtrl','SampleTime','wl_Tc','InitialCondition','0','Position',[1650 60 1800 110]);wire(s,'IQ_Fixed_Format/1','Digital_Pipeline/1');wire(s,'Digital_Pipeline/1','Out1/1');
-observe(s,'IQ_Mixer/1','mixer',evalin('base','wl_c.fsAdc'),'normalized IQ');
+transition(s,'Control_Clock_Boundary','wl_Tc',[1450 250 1630 290]);wire(s,'IQ_Fixed_Format/1','Control_Clock_Boundary/1');
+blk(s,'simulink/Discrete/Delay','Digital_Pipeline','DelayLength','wl_c.pipelineCtrl','SampleTime','wl_Tc','InitialCondition','0','Position',[1650 60 1800 110]);wire(s,'Control_Clock_Boundary/1','Digital_Pipeline/1');wire(s,'Digital_Pipeline/1','Out1/1');
+observe(s,'Mixer_Clock_Boundary/1','mixer',evalin('base','wl_c.fsAdc'),'normalized IQ');
 observe(s,'Decimate_To_Control/1','cic',evalin('base','1/wl_Tc'),'normalized IQ');
 observe(s,'FIR_Compensation/1','fir',evalin('base','1/wl_Tc'),'normalized IQ');
 observe(s,'Digital_Pipeline/1','iq',evalin('base','1/wl_Tc'),'normalized IQ');
@@ -162,8 +184,8 @@ end
 function algorithms(s)
 blk(s,'simulink/User-Defined Functions/Level-2 MATLAB S-Function','Existing_MATLAB_Algorithms', ...
  'FunctionName','wl_algorithms_sfun','Parameters','wl_c','Position',[230 60 470 200]);
-for k=1:5,wire(s,sprintf('In%d/1',k),sprintf('Existing_MATLAB_Algorithms/%d',k));end
-blk(s,'simulink/Signal Routing/Demux','Outputs','Outputs','[10 4 12]','Position',[540 70 545 220]);wire(s,'Existing_MATLAB_Algorithms/1','Outputs/1');
+for k=1:6,wire(s,sprintf('In%d/1',k),sprintf('Existing_MATLAB_Algorithms/%d',k));end
+blk(s,'simulink/Signal Routing/Demux','Outputs','Outputs','[10 4 21]','Position',[540 70 545 220]);wire(s,'Existing_MATLAB_Algorithms/1','Outputs/1');
 for k=1:3,wire(s,sprintf('Outputs/%d',k),sprintf('Out%d/1',k));end
 end
 function controller(s)
@@ -179,7 +201,8 @@ function nco(s)
 blk(s,'simulink/Sources/Constant','Nominal_Hz','Value','wl_c.head.f0','Position',[20 150 140 190]);
 blk(s,'simulink/Math Operations/Sum','Frequency','Inputs','++','Position',[200 60 220 140]);wire(s,'In1/1','Frequency/1');wire(s,'Nominal_Hz/1','Frequency/2');
 gain(s,'Radians_Per_Second','2*pi',[270 70 380 110]);wire(s,'Frequency/1','Radians_Per_Second/1');
-blk(s,'simulink/Continuous/Integrator','Phase','Position',[440 70 480 110]);wire(s,'Radians_Per_Second/1','Phase/1');wire(s,'Phase/1','Out1/1');
+ transition(s,'Frequency_Output_Hold','0',[270 230 450 270]);wire(s,'Radians_Per_Second/1','Frequency_Output_Hold/1');
+ blk(s,'simulink/Continuous/Integrator','Phase','Position',[440 70 480 110]);wire(s,'Frequency_Output_Hold/1','Phase/1');wire(s,'Phase/1','Out1/1');
 end
 function driver(s)
 mux(s,'Modulator_Input',2,[110 60 115 160]);wire(s,'In1/1','Modulator_Input/1');wire(s,'In2/1','Modulator_Input/2');
@@ -190,9 +213,11 @@ if strcmp(evalin('base','wl_c.dacArchitecture'),'sigma_delta')
 else
  mf(s,'DAC_Quantizer_INL','wl_quantize(u,wl_c.dacBits,wl_c.dacFsV,wl_c.dacInlCubic)',2,[640 70 830 120]);wire(s,'DAC_Update_Hold/1','DAC_Quantizer_INL/1');
 end
-blk(s,'simulink/Discrete/Delay','DAC_Latency','DelayLength','wl_c.dacDelay','SampleTime','wl_Ta','InitialCondition','0','Position',[880 70 1030 120]);wire(s,'DAC_Quantizer_INL/1','DAC_Latency/1');
+transition(s,'DAC_Clock_Boundary','wl_Ta',[650 230 840 270]);wire(s,'DAC_Quantizer_INL/1','DAC_Clock_Boundary/1');
+blk(s,'simulink/Discrete/Delay','DAC_Latency','DelayLength','wl_c.dacDelay','SampleTime','wl_Ta','InitialCondition','0','Position',[880 70 1030 120]);wire(s,'DAC_Clock_Boundary/1','DAC_Latency/1');
 gain(s,'Drive_Matrix','diag(wl_c.driverGain)*wl_c.head.drive',[1090 70 1270 120]);wire(s,'DAC_Latency/1','Drive_Matrix/1');
-lowpass(s,'Driver_Output_Pole','wl_c.driverBandwidthHz',[1320 70 1480 120]);wire(s,'Drive_Matrix/1','Driver_Output_Pole/1');
+transition(s,'DAC_Output_Hold','0',[1090 300 1270 340]);wire(s,'Drive_Matrix/1','DAC_Output_Hold/1');
+lowpass(s,'Driver_Output_Pole','wl_c.driverBandwidthHz',[1320 70 1480 120]);wire(s,'DAC_Output_Hold/1','Driver_Output_Pole/1');
 noise(s,'Driver_Noise','wl_driverNoiseVariance',631,[1330 230 1480 270]);
 blk(s,'simulink/Math Operations/Sum','Noisy_Driver','Inputs','++','Position',[1530 80 1550 160]);wire(s,'Driver_Output_Pole/1','Noisy_Driver/1');wire(s,'Driver_Noise/1','Noisy_Driver/2');
 blk(s,'simulink/Discontinuities/Rate Limiter','Driver_Slew','RisingSlewLimit','wl_c.driverSlewVPerS','FallingSlewLimit','-wl_c.driverSlewVPerS','Position',[1610 80 1750 130]);wire(s,'Noisy_Driver/1','Driver_Slew/1');
@@ -253,9 +278,16 @@ else
   'C','eye(2)','D','zeros(2)','Position',pos);
 end
 end
+function transition(s,n,Ts,pos)
+% Single-task, fixed-step scheduling: use the latest available value. Extra
+% deterministic transfer buffers would add undocumented ADC/control latency.
+% Hardware/RTL register latency is modeled explicitly by Delay/Unit Delay.
+blk(s,'built-in/RateTransition',n,'OutPortSampleTimeOpt','Specify','OutPortSampleTime',Ts, ...
+ 'Integrity','off','Deterministic','off','InitialCondition','0','Position',pos);
+end
 function noise(s,n,var,seed,pos)
 blk(s,'simulink/Sources/Random Number',n,'Mean','[0;0]','Variance',[var '*[1;1]'], ...
- 'Seed',sprintf('[%d;%d]',seed,seed+1),'SampleTime','wl_Tp','Position',pos);
+ 'Seed',sprintf('[wl_c.seed+%d;wl_c.seed+%d]',seed,seed+1),'SampleTime','wl_Tp','Position',pos);
 end
 function gain(s,n,v,pos)
 blk(s,'simulink/Math Operations/Gain',n,'Gain',v,'Multiplication','Matrix(K*u)','Position',pos);

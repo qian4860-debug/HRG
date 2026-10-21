@@ -29,7 +29,7 @@ c.virtualRate=0;c.inputRate=c.head.omega;c.inputFrequencyHz=0;
 c.inputRateAmplitude=0;c.temperatureC=25;c.temperatureRampCPerS=0;
 c.observers=true;c.spectra=true;c.maxLogPoints=80000;
 c.sdmLeak=.9999;c.sdmReferenceV=2;c.tdmEnable=stage>=6;
-c.knownPhaseCalibrationRad=0;c.learnStartS=.25;
+c.knownPhaseCalibrationRad=0;c.virtualGainCalibration=1;c.learnStartS=.25;
 if stage>=4,c.pipelineCtrl=3;c.iqFractionBits=22;c.controlFractionBits=22;end
 if stage>=6,c.feedthroughF=2e-15;end
 if stage==2
@@ -42,6 +42,10 @@ if stage>=3
  c.knownPhaseCalibrationRad=atan(1/(2*pi*f*c.rfOhm*c.cfF))-atan(f/c.cvBandwidthHz) ...
   -atan(f/c.pgaBandwidthHz)-atan(f/c.antiAliasHz)-atan(f/c.driverBandwidthHz) ...
   -2*pi*f*(c.adcDelay+c.dacDelay+.5)/c.fsAdc;
+ s=1i*2*pi*f;H=(s*c.rfOhm*c.cfF)/(1+s*c.rfOhm*c.cfF);
+ H=H/(1+s/(2*pi*c.cvBandwidthHz))/(1+s/(2*pi*c.pgaBandwidthHz))/(1+s/(2*pi*c.antiAliasHz))/(1+s/(2*pi*c.driverBandwidthHz));
+ a=pi*f/c.fsAdc;H=H*sin(a)/a;
+ c.virtualGainCalibration=1/abs(H); % Frozen nominal design calibration, not live plant truth.
 end
 c.measurementStatus='assumed';c.scope='Behavioral circuit interfaces, not transistor or bit-true RTL signoff';
 wl_validate(c);

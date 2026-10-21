@@ -1,0 +1,78 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "ADC_half_LSB_bound",
+      "value": 0.00048812500000017245,
+      "limit": 0.000488281250000222,
+      "pass": true
+    },
+    {
+      "name": "ADC_signed_rails",
+      "value": 0,
+      "limit": 2.2204460492503131E-16,
+      "pass": true
+    },
+    {
+      "name": "legacy_RLS_vs_batch_LS",
+      "value": 1.0956258591098089E-15,
+      "limit": 1E-9,
+      "pass": true
+    },
+    {
+      "name": "legacy_RLS_covariance_symmetry",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "parameter_KF_known_coefficients",
+      "value": 2.3073190258417984E-13,
+      "limit": 1E-6,
+      "pass": true
+    },
+    {
+      "name": "parameter_KF_PSD_violation",
+      "value": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "Kalman_rate_noise_ratio",
+      "value": 0.28483496954972587,
+      "limit": 0.3,
+      "pass": true
+    },
+    {
+      "name": "FRP_RLS_vs_independent_batch",
+      "value": 9.2521014507273E-18,
+      "limit": 1E-8,
+      "pass": true
+    },
+    {
+      "name": "FRP_frozen_weights_changed",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "FRP_heldout_residual_ratio",
+      "value": 0.19994886446683097,
+      "limit": 0.35,
+      "pass": true
+    },
+    {
+      "name": "FRP_updates_without_fixture_permission",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "overrange_control_validity_not_zero",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "scope": "Independent synthetic/primitive validation. Does not certify physical online identifiability from ordinary WA data."
+}
