@@ -51,8 +51,8 @@ annotation=Simulink.Annotation(name,sprintf(['V%d: LIBRARY-BASED WHOLE-ANGLE HRG
 annotation.Position=[20 560 1150 650];
 set_param(name,'Location',[20 40 1470 850]);
 % Keep each delivered test/architecture model's exact clock and scenario.
-set_param(name,'UserData',rmfield(c,'legacyP'),'UserDataPersistent','on');
-set_param(name,'PostLoadFcn',sprintf('addpath(fileparts(fileparts(get_param(''%s'',''FileName'')))); wl_setup(get_param(''%s'',''UserData''));',name,name));
+assignin(get_param(name,'ModelWorkspace'),'wl_saved_configuration',rmfield(c,'legacyP'));
+set_param(name,'PostLoadFcn',sprintf('addpath(fileparts(fileparts(get_param(''%s'',''FileName'')))); wl_setup(getVariable(get_param(''%s'',''ModelWorkspace''),''wl_saved_configuration''));',name,name));
 folder=fullfile(root,'models');if ~isfolder(folder),mkdir(folder);end
 save_system(name,fullfile(folder,[name '.slx']));
 print(['-s' name],'-dpng','-r120',fullfile(folder,[name '.png']));

@@ -1,0 +1,113 @@
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_build>blk (第 306 行)
+位置: wl_build>adc (第 135 行)
+位置: wl_build (第 18 行)
+位置: wl_run_joint_candidates (第 6 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This may cause an
+algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_build>blk (第 306 行)
+位置: wl_build>adc (第 136 行)
+位置: wl_build (第 18 行)
+位置: wl_run_joint_candidates (第 6 行)] 
+Built hrg_wa_v5_joint with library scopes and spectrum analyzers.
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+JOINT Rf=1e+09, i_n=2e-16, rate std=0.1881, budget=0
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+JOINT Rf=1e+09, i_n=1e-15, rate std=0.1952, budget=0
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+JOINT Rf=1e+10, i_n=2e-16, rate std=0.08035, budget=1
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+JOINT Rf=1e+10, i_n=1e-15, rate std=0.08424, budget=1
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+JOINT Rf=1e+11, i_n=2e-16, rate std=0.06273, budget=1
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_X' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v5_joint/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct feedthrough. This
+may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_run_joint_candidates (第 9 行)] 
+JOINT Rf=1e+11, i_n=1e-15, rate std=0.07321, budget=1
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_X' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_build>blk (第 306 行)
+位置: wl_build>adc (第 135 行)
+位置: wl_build (第 18 行)
+位置: wl_architecture_study (第 6 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_build>blk (第 306 行)
+位置: wl_build>adc (第 136 行)
+位置: wl_build (第 18 行)
+位置: wl_architecture_study (第 6 行)] 
+Built hrg_wa_v6_architecture with library scopes and spectrum analyzers.
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_X' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_X' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_X' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_X' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+[警告: When delay time is set to zero, the transport delay block 'hrg_wa_v6_architecture/ADC_Clock_Conversion/Skew_Y' is automatically set to support direct
+feedthrough. This may cause an algebraic loop. A Memory Block can be used in place of the Transport Delay to break the loop] 
+[> 位置：wl_sim (第 11 行)
+位置: wl_architecture_study (第 9 行)] 
+Completed four paired architecture cases.

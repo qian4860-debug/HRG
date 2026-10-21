@@ -1,0 +1,63 @@
+Successful scoreboard excerpts from actual MATLAB runs.
+Sources: _work/layered_final_acceptance.txt (algorithm section),
+_work/layered_artifact_acceptance2.txt (model and standalone callback sections).
+Only these successful sections are represented here; JSON files contain full numeric checks.
+
+ADC_half_LSB_bound 0.000488125 <= 0.00048828125 : 1
+ADC_signed_rails 0 <= 2.22044605e-16 : 1
+legacy_RLS_vs_batch_LS 1.09562586e-15 <= 1e-09 : 1
+legacy_RLS_covariance_symmetry 0 <= 1e-10 : 1
+parameter_KF_known_coefficients 2.30731903e-13 <= 1e-06 : 1
+parameter_KF_PSD_violation 0 <= 1e-12 : 1
+Kalman_rate_noise_ratio 0.28483497 <= 0.3 : 1
+FRP_RLS_vs_independent_batch 9.25210145e-18 <= 1e-08 : 1
+FRP_frozen_weights_changed 0 <= 0 : 1
+FRP_heldout_residual_ratio 0.199948864 <= 0.35 : 1
+FRP_updates_without_fixture_permission 0 <= 0 : 1
+overrange_control_validity_not_zero 0 <= 0 : 1
+PASS 12 algorithm and safety scoreboards.
+v2_nonfinite 0 <= 0 : 1
+v2_invalid_fraction 0.00996677741 <= 0.1 : 1
+v2_rate_tracking_mean_dps 0.00302898994 <= 0.25 : 1
+v2_quadrature_ratio 2.29665867e-05 <= 0.05 : 1
+v2_ADC_clipping 0 <= 0 : 1
+v2_missing_scope_nodes 0 <= 0 : 1
+v2_missing_spectrum_nodes 0 <= 0 : 1
+v3_nonfinite 0 <= 0 : 1
+v3_invalid_fraction 0.00996677741 <= 0.1 : 1
+v3_rate_tracking_mean_dps 0.025112156 <= 0.25 : 1
+v3_quadrature_ratio 0.0044724486 <= 0.05 : 1
+v3_ADC_clipping 0 <= 0 : 1
+v3_missing_scope_nodes 0 <= 0 : 1
+v3_missing_spectrum_nodes 0 <= 0 : 1
+v4_nonfinite 0 <= 0 : 1
+v4_invalid_fraction 0.0199335548 <= 0.1 : 1
+v4_rate_tracking_mean_dps 0.049504782 <= 0.25 : 1
+v4_quadrature_ratio 0.00447750139 <= 0.05 : 1
+v4_ADC_clipping 0 <= 0 : 1
+v4_missing_scope_nodes 0 <= 0 : 1
+v4_missing_spectrum_nodes 0 <= 0 : 1
+v5_nonfinite 0 <= 0 : 1
+v5_invalid_fraction 0.0199335548 <= 0.1 : 1
+v5_rate_tracking_mean_dps 0.0480647381 <= 0.25 : 1
+v5_quadrature_ratio 0.00447750139 <= 0.05 : 1
+v5_ADC_clipping 0 <= 0 : 1
+v5_missing_scope_nodes 0 <= 0 : 1
+v5_missing_spectrum_nodes 0 <= 0 : 1
+v6_nonfinite 0 <= 0 : 1
+v6_invalid_fraction 0.0199335548 <= 0.1 : 1
+v6_rate_tracking_mean_dps 0.0467912523 <= 0.25 : 1
+v6_quadrature_ratio 0.00448879341 <= 0.05 : 1
+v6_ADC_clipping 0 <= 0 : 1
+v6_missing_scope_nodes 0 <= 0 : 1
+v6_missing_spectrum_nodes 0 <= 0 : 1
+instrumentation_IQ_nonintrusive 0 <= 1e-10 : 1
+instrumentation_navigation_nonintrusive 0 <= 1e-10 : 1
+library_mechanical_expm 0.00059764646 <= 0.002 : 1
+overrange_not_detected 0 <= 0 : 1
+overrange_nonfinite 0 <= 0 : 1
+ADC_bitstream_nonbinary 0 <= 2.22044605e-16 : 1
+DAC_bitstream_nonbinary 0 <= 2.22044605e-16 : 1
+bitstream_model_nonfinite 0 <= 0 : 1
+PASS 43 layered model scoreboards.
+PASS standalone model callbacks and native-rate evidence

@@ -15,6 +15,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--push", action="store_true", help="publish after verification")
     parser.add_argument("--proxy", help="optional command-local HTTP proxy")
+    parser.add_argument("--committed-only", action="store_true",
+                        help="export HEAD only; leave and omit all working-tree changes")
     args = parser.parse_args()
     base = ["git", "-c", f"safe.directory={ROOT.as_posix()}",
             "-c", "user.name=Codex", "-c", "user.email=codex@local"]
@@ -26,8 +28,11 @@ def main():
                                 stdout=subprocess.PIPE, check=True)
         return result.stdout.decode("utf-8").strip()
 
-    if git("status", "--porcelain"):
-        raise SystemExit("Commit or resolve local changes before publishing.")
+    dirty = git("status", "--porcelain")
+    if dirty:
+        if not args.committed_only:
+            raise SystemExit("Commit or resolve local changes before publishing, or explicitly use --committed-only.")
+        print("Exporting committed HEAD only; these working-tree changes are preserved and omitted:\n" + dirty)
     if git("remote", "get-url", "origin") != URL:
         raise SystemExit("origin does not match the authorized HRG repository.")
     git("fetch", "origin", "main")

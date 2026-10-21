@@ -1,0 +1,38 @@
+{
+  "stage": 4,
+  "durationS": 0.04,
+  "validFraction": 0.87804878048780488,
+  "rateRmsErrorDegS": null,
+  "rateStdErrorDegS": null,
+  "rateMeanErrorDegS": null,
+  "ratePeakErrorDegS": null,
+  "settleWindowStartS": 0.05,
+  "finite": true,
+  "supplyAssumptionV": 1.8,
+  "adcBits": 18,
+  "dacBits": 16,
+  "adcArchitecture": "sigma_delta",
+  "dacArchitecture": "sigma_delta",
+  "energyMean": null,
+  "energyRippleRms": null,
+  "quadratureRatioRms": null,
+  "adcErrorRmsV": [
+    null,
+    null
+  ],
+  "adcClipFraction": 0,
+  "dacErrorRmsV": [
+    null,
+    null
+  ],
+  "afeClipFraction": 0,
+  "driverPeakV": 1.7099254735063645,
+  "driverClipFraction": 0,
+  "kalmanUpdates": 0,
+  "kalmanRejects": 0,
+  "onlineUpdates": 0,
+  "frpUpdates": 0,
+  "frpCoverage": 0,
+  "frpConfidence": 0,
+  "note": "Conditional on assumed head/circuit scales. Not device signoff; no ARW inferred from these short runs."
+}

@@ -21,7 +21,7 @@ for k=1:numel(names)
  writematrix([freq P],fullfile(folder,[n '_psd.csv']));
  % Preserve native-rate samples over a useful carrier window. Arbitrary
  % thinning would alias the carrier and misrepresent waveform quality.
- if fs>4*c.head.f0,selWave=t>=t(end)-8/c.head.f0;else,selWave=true(size(t));end
+ if fs>4*c.head.f0,selWave=round(t*fs)>=round((t(end)-8/c.head.f0)*fs);else,selWave=true(size(t));end
  writematrix([t(selWave) data.Data(selWave,:)],fullfile(folder,[n '_wave.csv']));
  nodes{end+1}=struct('name',n,'sampleRateHz',fs,'psdUnit','signal-unit squared / Hz', ...
   'psdSource','last single-channel Hann window, one-sided; mean removed','channelsLogged',size(data.Data,2), ...

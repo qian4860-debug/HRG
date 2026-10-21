@@ -28,9 +28,15 @@ if any(strcmp(who(out),'tap_adc'))
 end
 if any(strcmp(who(out),'tap_dac'))
  a=out.tap_dac;b=out.tap_dac_requested;
- time=a.Time-c.dacDelay/c.fsAdc;sel=time>=max(cut,b.Time(1)) & time<=b.Time(end);
- ref=interp1(b.Time,b.Data,time(sel),'previous');error=a.Data(sel,:)-ref;
+ % Align clock indices, not floating-point timestamps near a sample edge.
+ % Compare the native last-eight-cycle window exported by wl_save_evidence.
+ ticks=round(a.Time*c.fsPlant)-round(c.dacDelay*c.fsPlant/c.fsAdc);
+ bticks=round(b.Time*c.fsPlant);start=round((c.duration-8/c.head.f0)*c.fsPlant);
+ sel=ticks>=max(start,bticks(1)) & ticks<=bticks(end);
+ ref=interp1(bticks,b.Data,ticks(sel),'nearest');error=a.Data(sel,:)-ref;
  m.dacErrorRmsV=sqrt(mean(error.^2,1));
+ m.dacErrorWindowStartS=a.Time(find(sel,1));m.dacErrorWindowEndS=a.Time(find(sel,1,'last'));
+ m.dacReferenceMethod='native integer-clock alignment over last 8 carrier cycles';
 end
 if any(strcmp(who(out),'tap_pga'))
  x=out.tap_pga.Data;m.afeClipFraction=mean(abs(x(:))>=c.afeLimitV);

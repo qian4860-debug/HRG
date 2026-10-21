@@ -1,0 +1,236 @@
+{
+  "rows": [
+    {
+      "tdm": false,
+      "feedthroughF": 0,
+      "metrics": {
+        "stage": 6,
+        "durationS": 0.3,
+        "validFraction": 0.9800664451827242,
+        "rateRmsErrorDegS": 0.055504744886986555,
+        "rateStdErrorDegS": 0.044796440813823134,
+        "rateMeanErrorDegS": -0.03297491681801785,
+        "ratePeakErrorDegS": 0.1053781499653792,
+        "settleWindowStartS": 0.15,
+        "finite": true,
+        "supplyAssumptionV": 1.8,
+        "adcBits": 18,
+        "dacBits": 16,
+        "adcArchitecture": "nyquist",
+        "dacArchitecture": "nyquist",
+        "energyMean": 0.9073766273803547,
+        "energyRippleRms": 0.0053672214630993064,
+        "quadratureRatioRms": 0.004485001612918247,
+        "adcErrorRmsV": [
+          4.409625492209141e-06,
+          4.415844796841103e-06
+        ],
+        "adcClipFraction": 0,
+        "afeClipFraction": 0,
+        "driverPeakV": 0.005186968302692877,
+        "driverClipFraction": 0,
+        "kalmanUpdates": 295,
+        "kalmanRejects": 0,
+        "onlineUpdates": 0,
+        "frpUpdates": 0,
+        "frpCoverage": 0,
+        "frpConfidence": 0,
+        "note": "Conditional on assumed head/circuit scales. Not device signoff; no ARW inferred from these short runs."
+      },
+      "frequencyHz": [
+        2500,
+        5000,
+        7500
+      ],
+      "feedthroughPeakV": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "tdm": false,
+      "feedthroughF": 2e-14,
+      "metrics": {
+        "stage": 6,
+        "durationS": 0.3,
+        "validFraction": 0.9800664451827242,
+        "rateRmsErrorDegS": 0.04636524043298478,
+        "rateStdErrorDegS": 0.04257367938466682,
+        "rateMeanErrorDegS": -0.01868744968398651,
+        "ratePeakErrorDegS": 0.09616905879494322,
+        "settleWindowStartS": 0.15,
+        "finite": true,
+        "supplyAssumptionV": 1.8,
+        "adcBits": 18,
+        "dacBits": 16,
+        "adcArchitecture": "nyquist",
+        "dacArchitecture": "nyquist",
+        "energyMean": 0.907351055428285,
+        "energyRippleRms": 0.005371829821815232,
+        "quadratureRatioRms": 0.00448172713727083,
+        "adcErrorRmsV": [
+          4.3590642460595985e-06,
+          4.408199437874777e-06
+        ],
+        "adcClipFraction": 0,
+        "afeClipFraction": 0,
+        "driverPeakV": 0.005186968302692877,
+        "driverClipFraction": 0,
+        "kalmanUpdates": 295,
+        "kalmanRejects": 0,
+        "onlineUpdates": 0,
+        "frpUpdates": 0,
+        "frpCoverage": 0,
+        "frpConfidence": 0,
+        "note": "Conditional on assumed head/circuit scales. Not device signoff; no ARW inferred from these short runs."
+      },
+      "frequencyHz": [
+        2500,
+        5000,
+        7500
+      ],
+      "feedthroughPeakV": [
+        [
+          5.9853202657390755e-09,
+          9.020467768038176e-09
+        ],
+        [
+          9.705077008714551e-05,
+          1.5246023997737467e-05
+        ],
+        [
+          4.090215850221177e-09,
+          3.5967120600989177e-09
+        ]
+      ]
+    },
+    {
+      "tdm": true,
+      "feedthroughF": 0,
+      "metrics": {
+        "stage": 6,
+        "durationS": 0.3,
+        "validFraction": 0.9800664451827242,
+        "rateRmsErrorDegS": 0.06187375955153888,
+        "rateStdErrorDegS": 0.05274714559286724,
+        "rateMeanErrorDegS": -0.032627079624467106,
+        "ratePeakErrorDegS": 0.10641755468920569,
+        "settleWindowStartS": 0.15,
+        "finite": true,
+        "supplyAssumptionV": 1.8,
+        "adcBits": 18,
+        "dacBits": 16,
+        "adcArchitecture": "nyquist",
+        "dacArchitecture": "nyquist",
+        "energyMean": 0.9073583609073589,
+        "energyRippleRms": 0.0053679400996330855,
+        "quadratureRatioRms": 0.004488817308447662,
+        "adcErrorRmsV": [
+          4.4472441052669075e-06,
+          4.420193626405753e-06
+        ],
+        "adcClipFraction": 0,
+        "afeClipFraction": 0,
+        "driverPeakV": 0.010312926310350681,
+        "driverClipFraction": 0,
+        "kalmanUpdates": 295,
+        "kalmanRejects": 0,
+        "onlineUpdates": 0,
+        "frpUpdates": 0,
+        "frpCoverage": 0,
+        "frpConfidence": 0,
+        "note": "Conditional on assumed head/circuit scales. Not device signoff; no ARW inferred from these short runs."
+      },
+      "frequencyHz": [
+        2500,
+        5000,
+        7500
+      ],
+      "feedthroughPeakV": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "tdm": true,
+      "feedthroughF": 2e-14,
+      "metrics": {
+        "stage": 6,
+        "durationS": 0.3,
+        "validFraction": 0.9800664451827242,
+        "rateRmsErrorDegS": 0.04269760880836897,
+        "rateStdErrorDegS": 0.03938806563333298,
+        "rateMeanErrorDegS": -0.0167910805596515,
+        "ratePeakErrorDegS": 0.08701859092278288,
+        "settleWindowStartS": 0.15,
+        "finite": true,
+        "supplyAssumptionV": 1.8,
+        "adcBits": 18,
+        "dacBits": 16,
+        "adcArchitecture": "nyquist",
+        "dacArchitecture": "nyquist",
+        "energyMean": 0.9073338207138899,
+        "energyRippleRms": 0.005372911541051686,
+        "quadratureRatioRms": 0.004487484675521204,
+        "adcErrorRmsV": [
+          4.4755624585617835e-06,
+          4.422057658876756e-06
+        ],
+        "adcClipFraction": 0,
+        "afeClipFraction": 0,
+        "driverPeakV": 0.010312926310350681,
+        "driverClipFraction": 0,
+        "kalmanUpdates": 295,
+        "kalmanRejects": 0,
+        "onlineUpdates": 0,
+        "frpUpdates": 0,
+        "frpCoverage": 0,
+        "frpConfidence": 0,
+        "note": "Conditional on assumed head/circuit scales. Not device signoff; no ARW inferred from these short runs."
+      },
+      "frequencyHz": [
+        2500,
+        5000,
+        7500
+      ],
+      "feedthroughPeakV": [
+        [
+          8.30200057148747e-05,
+          9.028583108747615e-06
+        ],
+        [
+          9.705852982506276e-05,
+          1.5239659190417135e-05
+        ],
+        [
+          4.809582128543467e-05,
+          1.0184010551619018e-05
+        ]
+      ]
+    }
+  ],
+  "pairedSeeds": 20261021.0,
+  "noiseEnabled": false,
+  "note": "Mechanism-isolation experiment with fixed nominal phase calibration. Sideband redistribution alone does not prove lower closed-loop navigation error.",
+  "dacDiagnosticScope": "DAC waveform errors are independently audited in nominal native-rate CSVs; screening rows evaluate navigation and ADC budgets."
+}
