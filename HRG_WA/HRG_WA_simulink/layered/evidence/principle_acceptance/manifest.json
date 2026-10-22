@@ -1,0 +1,39 @@
+{
+  "sealedUTC": "2026-10-22T07:20:56.468945+00:00",
+  "baseCommit": "dff5953c01dbf509623b4518104f9426f57dee5f",
+  "previousReceipts": {
+    "HRG_WA_simulink/layered/evidence/acceptance_manifest.json": "d6201ecc5cb668f7aab8cb6cb0574c4fc6c6fd7e9636ca6dcbd931e3ffbcdd5b",
+    "HRG_WA_simulink/layered/evidence/demo_window_fix/manifest.json": "17c9cdd10d558515c11a785a1c6b370083ae19e64a05ee646564eac896b604d8",
+    "HRG_WA_simulink/layered/evidence/spectrum_fix/manifest.json": "5fc882717b84b0a5d1961e99c0560a747aa45b26d5a14f90e70fc972b749b36e"
+  },
+  "files": {
+    "HRG_WA_simulink/layered/wl_setup.m": "bc59435c7347bc94474b58f5c6bd1f56813387af74ac52d72af56f5ce68295b4",
+    "HRG_WA_simulink/layered/wl_acceptance_budget.m": "df5d695d6a841c08403bdd1b3eff70590f5ce419423ee4733d99cb2d1935e841",
+    "HRG_WA_simulink/layered/wl_acceptance_metrics.m": "83522b5ddbf6878e96bccebb95314375e07f1e72a6ead6558b50b70e7b9ede74",
+    "HRG_WA_simulink/layered/wl_acceptance_sim.m": "7a09285be77c2ffaf674ec905ab488700a1736512b6a4c49f3c07ce73101b738",
+    "HRG_WA_simulink/layered/wl_run_acceptance.m": "f7c05cdca10671da0bd1fc3d156aa132b8a47b47a5fad5b80c62219c255901b7",
+    "HRG_WA_simulink/layered/wl_validate_acceptance.m": "85eefbd8d12d072263e4b7c91d5d85679f37f2e7d4ac470eb3b3fb4057451031",
+    "HRG_WA_simulink/layered/wl_run_lock_capture.m": "59936459be59396596849f7c981e172f57a5f8e28498760b5e7a67c12fd0211c",
+    "HRG_WA_simulink/layered/docs/principle_review_acceptance.md": "f01001d2a6f4b3e6f8ef846f119fa773cb13771bfe822148380dce62e1596af8",
+    "HRG_WA_simulink/layered/tools/verify_principle_acceptance.py": "cf18207f773606a108efd1d645b6b3d89a20f7cccccb7acf1a608b54a33add1b",
+    "HRG_WA_simulink/wa_validate_parameters.m": "e9c1571f576791f95b2569ac84688aa621bf51eddf0e72ea3ba06f0d453e912f",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/campaign_quick.csv": "51cb64f7c1c0b2e242f5752b425e2eaccf6fb6b8e60f64baec38d8af0bff8819",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/campaign_quick.json": "9d7e756cab41ce0817946baa3605231cc94c649f2275acc062372be11fa9e99b",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/campaign_transcript.txt": "f926a98607c46599c25fa3c65e93daaef5786e27e4979e923ecc457ffa738eec",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/local_sources.json": "86657b8d59975a5a43b13b4013bb2758f3c588aec5f79da06251cbdbbdea0bfa",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/lock_capture.json": "f1b8c57308e1e8bf840bce4b12afc7156f9d62f2b55e2c1e13e90be42db2d6d1",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/lock_capture.png": "350f1676ab7253db1f0ece2173b90b2bc576ca51acb2e8f7dde043722b5b53c0",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/lock_capture_trace.csv": "fc8770e9c80ee5d4a24d0be1a975ebbe85d28c173f6a144f1196086c3cb52475",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/lock_capture_transcript.txt": "1e221c44f972a453c4201f656b41ac54a0c3901edc9bb5972322edb3b9caddc8",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/README.md": "9c7f8c9081022c648ac5eaeead8b30a0152ec4032453023ec60d1a20e534d848",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/scoreboards.json": "5705d967b70988d0b1dd55205f36d4a1b4dd5ff7b9beafa13c8239024744fc88",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/validation_transcript.txt": "17d00e4ff38a2aa14ddd4c40f78c2610b022833afda036e7f604604c7c29ae4a"
+  },
+  "preservedWorkingChanges": {
+    "HRG_WA_simulink/hrg_wa_carrier.slx": "6f303c76415165a350985cb6bd4debe30fb2ba3e42e1e696a16afaef4b214a72",
+    "HRG_WA_simulink/hrg_wa_envelope.slx": "cd4392ececdbea37bbb8d78b5cb90c669d902d22b86d0b1e62c3c0805497e624",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5.png": "6d14cdce6068455f3c9ea64e0e5cc04346c2fd6650498d6ae63c47bc817773bd",
+    "HRG_WA_simulink/layered/models/hrg_wa_v5.slx": "6ffde5821fc1a5d0eaf2c69cc87e1f5dc000c5e1461c717d9b5df8e8de55ead7",
+    "HRG_WA_simulink/validation_plot.png": "52d4d006ac6be68e5cbcd0b13eab137693a3bf18d026db532029e25d18a79cf7"
+  }
+}

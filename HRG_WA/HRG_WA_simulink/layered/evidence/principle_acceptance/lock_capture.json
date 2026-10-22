@@ -1,0 +1,150 @@
+{
+  "durationS": 5,
+  "captureTimeS": 1.371,
+  "captureHoldS": 0.1,
+  "captureDefinition": "first joint valid/energy/observed-phase interval maintained for 100 ms; precharged, NOT mechanical startup",
+  "physicalRimEquivalentPeriods": 1.231111111111111,
+  "metrics": {
+    "schemaVersion": 1,
+    "budget": {
+      "steadyStartS": 2.5,
+      "holdS": 0.05,
+      "buildTolerance": 0.02,
+      "minSamples": 20,
+      "buildTimeS": 4,
+      "energyRelativeRms": 0.05,
+      "quadratureRatioRms": 0.05,
+      "lockPhaseRmsRad": 0.1,
+      "anglePeakDeg": 0.5,
+      "rateResidualStdDegS": 0.2,
+      "shortRunZeroMeanDegS": 0.25,
+      "minimumHeadroomFraction": 0.05,
+      "validFraction": 0.95,
+      "status": "Illustrative research allocations; replace with instrument requirements"
+    },
+    "windowStartS": 2.5,
+    "recordDurationS": 5,
+    "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+    "validFraction": 1,
+    "steadySamples": 2501,
+    "finite": true,
+    "angle": {
+      "referenceEpochS": 0.006,
+      "reference": "first valid sample; initial absolute azimuth unobservable",
+      "rmsDeg": 0.17981639539526822,
+      "peakDeg": 0.18777819703656456,
+      "endpointDeg": -0.18555506469578475,
+      "steadyIncrementPeakDeg": 0.012593793760215967
+    },
+    "rate": {
+      "meanErrorDegS": -0.0017273170374440662,
+      "residualStdDegS": 0.088011615137493046,
+      "rmsErrorDegS": 0.088028563678263172,
+      "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+    },
+    "zeroBias": {
+      "status": "not_a_zero_input_run",
+      "shortRunMeanDegS": null,
+      "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+    },
+    "energy": {
+      "relativeRms": 0.012517838163497224,
+      "relativeMean": 0.012028554664212158,
+      "mechanicalRelativeRms": 0.152095681295662
+    },
+    "quadrature": {
+      "invariantRatioRms": 3.3881033844186693E-5,
+      "minorMajorRatioRms": 1.6940516940178825E-5,
+      "signConvention": "project complex envelope convention"
+    },
+    "lock": {
+      "phaseRmsRad": 0.0040049545088217961,
+      "phasePeakRad": 0.012767937792916609,
+      "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+      "physicalPhaseExcursionRad": 0.010168834068725596,
+      "physicalMeanFrequencyErrorHz": 0.00079844843850378016,
+      "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+    },
+    "build": {
+      "status": "not_assessed_precharged",
+      "timeS": null,
+      "holdS": 0.05,
+      "relativeBand": 0.02
+    },
+    "saturation": {
+      "rails": [
+        {
+          "name": "ADC",
+          "limit": 2,
+          "peakRequest": 0.19789042781735802,
+          "headroomFraction": 0.901054786091321,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "DAC",
+          "limit": 2,
+          "peakRequest": 0.018549791326857988,
+          "headroomFraction": 0.990725104336571,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "AFE",
+          "limit": 1.8,
+          "peakRequest": 0.20925690088893917,
+          "headroomFraction": 0.88374616617281154,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "driver",
+          "limit": 1.8,
+          "peakRequest": 0.017818658408235932,
+          "headroomFraction": 0.9901007453287578,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "PI1_output",
+          "limit": 1,
+          "peakRequest": 0.71426987648010254,
+          "headroomFraction": 0.28573012351989746,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "PI2_output",
+          "limit": 1,
+          "peakRequest": 0.00022149085998535156,
+          "headroomFraction": 0.99977850914001465,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "PI3_output",
+          "limit": 2,
+          "peakRequest": 1.0294845104217529,
+          "headroomFraction": 0.48525774478912354,
+          "overrangeFraction": 0
+        }
+      ],
+      "minimumHeadroomFraction": 0.28573012351989746,
+      "fullRecord": true,
+      "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+    },
+    "checks": {
+      "validCoverage": true,
+      "energy": true,
+      "quadrature": true,
+      "observedLock": true,
+      "wholeAngle": true,
+      "rateResidual": true,
+      "headroom": true
+    },
+    "assessment": "functional_metrics_only",
+    "pass": true,
+    "notAssessed": [
+      "bias instability",
+      "ARW",
+      "zero-energy startup FSM",
+      "transistor/PVT feasibility"
+    ]
+  },
+  "baselineCase": "same configuration as quick baseline, duration only changed",
+  "notAssessed": "Allan/ARW, multiple initial azimuths, full temperature/rate corners"
+}

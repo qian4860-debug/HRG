@@ -7,5 +7,5 @@ assert(all(isfinite(p.detect(:))) && all(isfinite(p.drive(:))), 'Nonfinite matri
 assert(p.Ts>0 && p.duration>0 && p.fullStep>0, 'Invalid simulation timing');
 assert(4*p.bryan*(abs(p.omega)+abs(p.virtualRate))*p.Ts < .8*pi, 'Angle unwrap sample-rate limit exceeded');
 assert(p.iqBits==0 || (p.iqBits>=4 && p.iqBits<=32 && p.iqBits==fix(p.iqBits)), 'Invalid I/Q quantizer');
-assert(p.initialEnergy>0 && p.energyTarget>0 && abs(p.initialQuadRatio)<1, 'Invalid initial ellipse');
+assert(p.initialEnergy>=0 && p.energyTarget>0 && abs(p.initialQuadRatio)<1, 'Invalid initial ellipse');
 end

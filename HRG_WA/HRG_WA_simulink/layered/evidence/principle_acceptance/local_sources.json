@@ -1,0 +1,30 @@
+[
+  {
+    "path": "D:\\学习资料\\资料\\全角陀螺\\基于Kalman滤波解调的半球谐振陀螺全角控制方案及仿真.pdf",
+    "sha256": "c5eb63b02bd51de9a115ccb9d1f3509bc946d1429ae9abb334deef6e73f98cc9",
+    "pages": 9,
+    "readPdfPages": [
+      2,
+      3
+    ]
+  },
+  {
+    "path": "D:\\学习资料\\资料\\全角陀螺\\半球谐振陀螺通道误差影响分析与全温补偿方法.pdf",
+    "sha256": "39f912bde418b3dcf6f806f1c54ec93d424a64dd4967dcb29ad7915ccde7c60a",
+    "pages": 8,
+    "readPdfPages": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "path": "D:\\学习资料\\资料\\全角陀螺\\半球谐振陀螺量化误差与阻尼误差抑制技术研究.pdf",
+    "sha256": "d8bbbe5ff08ccc00d2933e1cdba105e158c675e7c98b09338c032e8af0c2d0d7",
+    "pages": 88,
+    "readPdfPages": [
+      34,
+      36
+    ]
+  }
+]

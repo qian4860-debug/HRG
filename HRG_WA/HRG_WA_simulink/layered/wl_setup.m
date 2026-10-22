@@ -20,11 +20,11 @@ v.wl_cvGain=c.biasV/c.cfF;
 k=1.380649e-23;f=p.f0;zf=c.rfOhm/sqrt(1+(2*pi*f*v.wl_cvTau)^2);
 noiseGain=(c.c0F+c.cfF)/c.cfF;
 c.cvEquivalentNoiseVrtHz=sqrt((noiseGain*c.cvEnVrtHz)^2+zf^2*(c.cvInArtHz^2+4*k*c.temperatureK/c.rfOhm));
-v.wl_cvNoiseVariance=(c.noiseEnable*c.cvEquivalentNoiseVrtHz)^2*c.fsPlant/2;
-v.wl_pgaNoiseVariance=(c.noiseEnable*c.pgaNoiseVrtHz)^2*c.fsPlant/2;
-v.wl_driverNoiseVariance=(c.noiseEnable*c.driverNoiseVrtHz)^2*c.fsPlant/2;
-v.wl_jitterVariance=(c.noiseEnable*c.jitterRmsS)^2;
-v.wl_brownVariance=4*k*c.temperatureK*(2*p.gamma*c.massKg)*c.fsPlant/2/(c.massKg*c.displacementM)^2*c.noiseEnable;
+v.wl_cvNoiseVariance=(noise_on(c,'cv')*c.cvEquivalentNoiseVrtHz)^2*c.fsPlant/2;
+v.wl_pgaNoiseVariance=(noise_on(c,'pga')*c.pgaNoiseVrtHz)^2*c.fsPlant/2;
+v.wl_driverNoiseVariance=(noise_on(c,'driver')*c.driverNoiseVrtHz)^2*c.fsPlant/2;
+v.wl_jitterVariance=(noise_on(c,'jitter')*c.jitterRmsS)^2;
+v.wl_brownVariance=4*k*c.temperatureK*(2*p.gamma*c.massKg)*c.fsPlant/2/(c.massKg*c.displacementM)^2*noise_on(c,'brownian');
 lp=HRG_WA_v46_params();lp.sim.TsCtrl=p.Ts;lp.sim.fsCtrl=1/p.Ts;
 lp.res.f0=p.f0;lp.res.bryan=p.bryan;lp.res.energyTarget=p.energyTarget;
 lp.kalman.enable=c.kalman;lp.calib.enable=c.online;lp.calib.startTime=c.learnStartS;
@@ -35,6 +35,17 @@ lp.frp.identificationEnable=~c.frpFreeze;lp.calib.maxCompensationAlpha=.1;
 lp.calib.compensationStartUpdates=500;lp.calib.compensationRampUpdates=1000;
 c.legacyP=lp;v.wl_c=c;
 v.wl_env_z0=[real(z);imag(z)];
-v.wl_env_noise=(c.cvEquivalentNoiseVrtHz^2*c.pgaGain^2+c.pgaNoiseVrtHz^2)/detectGain^2/p.Ts*c.noiseEnable;
+v.wl_env_noise=((noise_on(c,'cv')*c.cvEquivalentNoiseVrtHz*c.pgaGain)^2+(noise_on(c,'pga')*c.pgaNoiseVrtHz)^2)/detectGain^2/p.Ts;
 for field=fieldnames(v).',assignin('base',field{1},v.(field{1}));end
+end
+
+function on=noise_on(c,source)
+% Omitted source switches preserve the previously accepted configurations.
+on=double(c.noiseEnable);
+if isfield(c,'noiseSourceEnable')
+ assert(isfield(c.noiseSourceEnable,source),'Missing noise source switch: %s',source);
+ value=c.noiseSourceEnable.(source);
+ assert(isscalar(value)&&ismember(value,[0 1]),'Noise source switch must be Boolean');
+ on=on*double(value);
+end
 end

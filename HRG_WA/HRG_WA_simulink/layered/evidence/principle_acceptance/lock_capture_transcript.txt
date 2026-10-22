@@ -1,0 +1,2 @@
+Built temporary hrg_wa_acceptance_runtime; existing model files retained.
+Long baseline: capture 1.371 s, 1.231 rim periods, illustrative budget pass 1
