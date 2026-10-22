@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "four_theta_ellipse_identity": true,
+    "common_phase_preserves_angle_invariants": true,
+    "common_amplitude_noise_has_zero_first_order_projection": true,
+    "damping_angle_equation_matches_project_matrix": true,
+    "patent_printed_L_fails_zero_phase_counterexample": true,
+    "PI_gain_mapping_matches_desired_characteristic": true
+  },
+  "readoutGain": 0.9370023143072796,
+  "energyGain": 0.877973337017198,
+  "physicalEnergyAtUnitIQ": 1.1389867526015902,
+  "projectDeadZoneThresholdDegS": 0.01292774808508175,
+  "projectDeadZoneThresholdDegH": 46.5398931062943,
+  "maximumAngleIdentityError": 2.9893669801409083e-16,
+  "maximumProjectionError": 8.673617379884035e-19,
+  "assumptions": "B=.277; dgamma=.00025/s; f0=5kHz; Rf=1Gohm; Cf=1pF; readout poles30k/30k/18kHz; project definitions only",
+  "localReadings": [
+    {
+      "path": "D:/学习资料/资料/全角陀螺/基于全角模式的石英半球谐振陀螺自适应控制电路及方法.pdf",
+      "readPdfPages": [
+        1,
+        3,
+        4
+      ],
+      "sha256": "177c419ff6464011aaacc992ea3b6a6a9370f6c247cf96abe57fe182bcb7651b"
+    },
+    {
+      "path": "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf",
+      "readPdfPages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "sha256": "8aae4690a0b6851083541cd73f669fe7a9ef162fc16e7ef95dc1aae0dc9ec97c"
+    },
+    {
+      "path": "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/pdf/算法与补偿/2022_Nonlinear_RIG.pdf",
+      "readPdfPages": [
+        2,
+        3
+      ],
+      "sha256": "2c4892cf17a2bf5270c1bb186776e3fffbcaf7f003d38a355fe432e45c02075d"
+    }
+  ],
+  "priorAcceptanceManifestSHA256": "57b27f3ff14b92af3e578353bdb189e7bd7b108e070a4e410146323fc24b2819"
+}
