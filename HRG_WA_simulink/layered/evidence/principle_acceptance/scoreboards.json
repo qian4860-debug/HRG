@@ -1,0 +1,330 @@
+{
+  "checks": [
+    {
+      "name": "ideal_angle_reference",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "ideal_energy",
+      "value": 7.0736158594771457E-17,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "ideal_quadrature",
+      "value": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "ideal_phase",
+      "value": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "precharged_is_not_startup",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "ideal_budget_pass",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "known_accumulated_angle_error",
+      "value": 6.9388939039072284E-16,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "ellipse_invariant",
+      "value": 2.7755575615628914E-17,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "ellipse_minor_major",
+      "value": 1.3877787807814457E-17,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "known_phase_error",
+      "value": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "known_seeded_build_time",
+      "value": 1.6666666666706464E-6,
+      "limit": 2.5000000002220448E-6,
+      "pass": true
+    },
+    {
+      "name": "hidden_AFE_overload",
+      "value": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "overload_fails_budget",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "corrupt_mechanical_trace_fails_even_with_valid_nav",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "all_invalid_fails_closed",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "known_zero_input_mean",
+      "value": 2.7755575615628914E-17,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "short_record_does_not_claim_bias_instability",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "four_theta_identity",
+      "value": 4.5775667985222375E-16,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "physical_rim_unwrap",
+      "value": 8.8817841970012523E-16,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "RK4_numerical_loss_fraction_400000_Hz",
+      "value": 0.082949143221770508,
+      "limit": 0.1,
+      "pass": true
+    },
+    {
+      "name": "RK4_numerical_loss_fraction_800000_Hz",
+      "value": 0.0025936702501937396,
+      "limit": 0.005,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_afe_request_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_driver_request_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_nco_phase_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_adc_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_algorithm_diagnostics_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_anti_alias_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_cic_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_control_commands_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_actual_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_ideal_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_requested_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_driver_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_fir_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_force_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_head_displacement_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_head_velocity_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_iq_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_mixer_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_navigation_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_pga_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "tap_sample_hold_default_noise_compatibility",
+      "value": 0,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "wl_cvNoiseVariance_off",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "wl_pgaNoiseVariance_off",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "wl_driverNoiseVariance_off",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "wl_jitterVariance_off",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "wl_brownVariance_off",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "CV_independent_enable",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "CV_does_not_enable_jitter",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "zero_state_is_legal_and_stationary",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "zero_state_has_no_feedback_drive",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "zero_state_does_not_claim_startup",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "negative_initial_energy_rejected",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "oracle": "analytic synthetic traces and actual Simulink same-clock comparisons"
+}

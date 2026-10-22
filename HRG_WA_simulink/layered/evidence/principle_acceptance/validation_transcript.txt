@@ -1,0 +1,63 @@
+ideal_angle_reference 0 <= 1e-10 : 1
+ideal_energy 7.07361586e-17 <= 1e-12 : 1
+ideal_quadrature 0 <= 1e-12 : 1
+ideal_phase 0 <= 1e-12 : 1
+precharged_is_not_startup 0 <= 0 : 1
+ideal_budget_pass 0 <= 0 : 1
+known_accumulated_angle_error 6.9388939e-16 <= 1e-10 : 1
+ellipse_invariant 2.77555756e-17 <= 1e-12 : 1
+ellipse_minor_major 1.38777878e-17 <= 1e-12 : 1
+known_phase_error 0 <= 1e-12 : 1
+known_seeded_build_time 1.66666667e-06 <= 2.5e-06 : 1
+hidden_AFE_overload 0 <= 1e-12 : 1
+overload_fails_budget 0 <= 0 : 1
+corrupt_mechanical_trace_fails_even_with_valid_nav 0 <= 0 : 1
+all_invalid_fails_closed 0 <= 0 : 1
+known_zero_input_mean 2.77555756e-17 <= 1e-12 : 1
+short_record_does_not_claim_bias_instability 0 <= 0 : 1
+four_theta_identity 4.5775668e-16 <= 1e-12 : 1
+physical_rim_unwrap 8.8817842e-16 <= 1e-12 : 1
+RK4_numerical_loss_fraction_400000_Hz 0.0829491432 <= 0.1 : 1
+RK4_numerical_loss_fraction_800000_Hz 0.00259367025 <= 0.005 : 1
+Built temporary hrg_wa_acceptance_runtime; existing model files retained.
+Built temporary hrg_wa_acceptance_runtime; existing model files retained.
+tap_accept_afe_request_default_noise_compatibility 0 <= 1e-10 : 1
+tap_accept_driver_request_default_noise_compatibility 0 <= 1e-10 : 1
+tap_accept_nco_phase_default_noise_compatibility 0 <= 1e-10 : 1
+tap_adc_default_noise_compatibility 0 <= 1e-10 : 1
+tap_algorithm_diagnostics_default_noise_compatibility 0 <= 1e-10 : 1
+tap_anti_alias_default_noise_compatibility 0 <= 1e-10 : 1
+tap_cic_default_noise_compatibility 0 <= 1e-10 : 1
+tap_control_commands_default_noise_compatibility 0 <= 1e-10 : 1
+tap_cv_actual_default_noise_compatibility 0 <= 1e-10 : 1
+tap_cv_ideal_default_noise_compatibility 0 <= 1e-10 : 1
+tap_dac_default_noise_compatibility 0 <= 1e-10 : 1
+tap_dac_requested_default_noise_compatibility 0 <= 1e-10 : 1
+tap_driver_default_noise_compatibility 0 <= 1e-10 : 1
+tap_fir_default_noise_compatibility 0 <= 1e-10 : 1
+tap_force_default_noise_compatibility 0 <= 1e-10 : 1
+tap_head_displacement_default_noise_compatibility 0 <= 1e-10 : 1
+tap_head_velocity_default_noise_compatibility 0 <= 1e-10 : 1
+tap_iq_default_noise_compatibility 0 <= 1e-10 : 1
+tap_mixer_default_noise_compatibility 0 <= 1e-10 : 1
+tap_navigation_default_noise_compatibility 0 <= 1e-10 : 1
+tap_pga_default_noise_compatibility 0 <= 1e-10 : 1
+tap_sample_hold_default_noise_compatibility 0 <= 1e-10 : 1
+wl_cvNoiseVariance_off 0 <= 0 : 1
+wl_pgaNoiseVariance_off 0 <= 0 : 1
+wl_driverNoiseVariance_off 0 <= 0 : 1
+wl_jitterVariance_off 0 <= 0 : 1
+wl_brownVariance_off 0 <= 0 : 1
+CV_independent_enable 0 <= 0 : 1
+CV_does_not_enable_jitter 0 <= 0 : 1
+Built temporary hrg_wa_acceptance_runtime; existing model files retained.
+zero_state_is_legal_and_stationary 0 <= 0 : 1
+zero_state_has_no_feedback_drive 0 <= 0 : 1
+zero_state_does_not_claim_startup 0 <= 0 : 1
+negative_initial_energy_rejected 0 <= 0 : 1
+PASS 54 unified acceptance checks.
+ACCEPTANCE 1/24 baseline duration 0.2 s
+Built temporary hrg_wa_acceptance_runtime; existing model files retained.
+ACCEPTANCE 8/24 channel_skew duration 0.2 s
+Built temporary hrg_wa_acceptance_runtime; existing model files retained.
+Completed 24 cases; functional budget pass 0. See retained per-case results.
