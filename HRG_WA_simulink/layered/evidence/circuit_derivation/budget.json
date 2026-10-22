@@ -1,0 +1,82 @@
+{
+  "scenario": {
+    "status": "unmeasured illustrative design, not specification",
+    "angleGoalRad": 1e-06,
+    "demodENBHz": 100.0,
+    "linearRampBuildS": 0.1,
+    "phaseToleranceRad": 0.0017453292519943296,
+    "noiseReference": "ideal 0.2V readout, independent equal channels",
+    "controlRateHz": 1000,
+    "pipelineControlSamples": 3,
+    "assumptions": "small amplitude, slow envelope; white uncorrelated ADC error; no parasitic capacitance; no true-resonance or startup qualification"
+  },
+  "mechanics": {
+    "omega0RadS": 31415.926535897932,
+    "amplitudeDecayPerS": 0.007853981633974483,
+    "amplitudeTauS": 127.32395447351627,
+    "energyTauS": 63.66197723675813,
+    "powerLinewidthHz": 0.0025,
+    "modalStiffnessNPerM": 986.9604401089359,
+    "mechanicalEnergyJ": 4.93480220054468e-12,
+    "holdForcePeakN": 4.9348022005446795e-11,
+    "holdVoltagePeakV": 0.0004934802200544679,
+    "rampBuildForcePeakN": 6.288120109380131e-08,
+    "rampBuildVoltagePeakV": 0.6288120109380131,
+    "constantForceBuildVoltageV": 0.6285653031261904,
+    "modelDeadZoneDegPerH": 46.5398931062943
+  },
+  "readout": {
+    "effectiveHalfDifferentialCapPeakF": 1.9999999999999997e-14,
+    "signalCurrentPeakA": 6.283185307179585e-09,
+    "gainVPerM": 1999999.9999999998,
+    "idealSignalPeakV": 0.19999999999999996,
+    "nominalReadoutGain": 0.9370023143072794,
+    "nominalEnergyGain": 0.8779733370171977,
+    "physicalEnergyAtUnitIQ": 1.1389867526015907,
+    "feedbackImpedanceOhm": 31814875.094938613,
+    "feedbackThermalCurrentASD": 4.057785106927177e-15,
+    "simplifiedOutputNoiseASD": 3.4407107160539065e-07,
+    "simplifiedNoiseAngleRmsRad": 4.391606280546822e-05,
+    "totalWhiteNoiseBudgetASD": 7.834743135546945e-09,
+    "gainMismatchResidualBound": 1.108e-06
+  },
+  "conversion": {
+    "adcStepV": 1.52587890625e-05,
+    "adcOnlyAngleRmsRad": 3.975481034630909e-06,
+    "adcIdealBitsForEntireGoal": 20,
+    "dacStepV": 6.103515625e-05,
+    "holdPeakDacCodes": 8.085179925372403,
+    "rawJitterSNRdB": 84.03640263283769,
+    "fixedSkewForPhaseToleranceS": 5.5555555555555555e-08,
+    "dacZohMagnitude": 0.9744953584044327,
+    "dacZohPhaseDeg": -22.5,
+    "firstImageHz": 35000.0,
+    "firstImageBeforeDriverDBc": -16.901960800285135,
+    "firstImageWithDriverDBc": -18.59060974658145
+  },
+  "bandwidth": {
+    "onePoleForOnePercentDroopHz": 35089.619647912674,
+    "onePoleForPhaseToleranceHz": 2864786.0667714383,
+    "driverSlewForRampPeakVPerS": 19754.711940518864,
+    "aaAttenuationAtFirstImageDB": -6.795064075525938,
+    "cicGroupDelayS": 0.0014625,
+    "illustrativeLoopDelayS": 0.0075250000000000004,
+    "delayOnlyThirtyDegreeCrossoverHz": 11.074197120708748,
+    "temperatureFrequencySlopeHzPerK": -0.09,
+    "finePllTwoHzTemperatureRangeK": 22.22222222222222,
+    "quadPhaseLeakWorstDegPerH": 16.331745202777267
+  },
+  "noiseAndNumerics": {
+    "brownianForceASD": 1.6082330482103608e-14,
+    "rk4LinearNumericalDecayPerS": 0.0006514810474177046,
+    "rk4LinearDecayToPhysicalRatio": 0.08294914322177051,
+    "rk4DoubleRateDecayToPhysicalRatio": 0.0025936702501937396
+  },
+  "provenance": {
+    "HRG_WA_simulink/layered/wl_config.m": "e4e235377f1dbf6d12c25a8a75f425b817d13fcc54676cd9f4064a8157e238f7",
+    "HRG_WA_simulink/wa_parameters.m": "b82ee7be7a9aa0bde1ffaba14c1b850a2d4572db2ab5fdeaf7a046b3250d9cad",
+    "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json": "ba20fe850b32f1e32c48b7eb5cc2f61a0f79e36ecc9d9f332dce85bfb6aae5a9",
+    "HRG_WA_simulink/layered/evidence/principle_acceptance/manifest.json": "57b27f3ff14b92af3e578353bdb189e7bd7b108e070a4e410146323fc24b2819",
+    "HRG_WA_simulink/layered/tools/derive_circuit_budget.py": "49441d01a3617bf3a4d45ae9b788fd350143296244b20702a8243d5869a101d1"
+  }
+}
