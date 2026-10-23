@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-23",
+  "scope": "Literature review and skill-index evidence only; original PDFs and old simulation receipts unchanged",
+  "files": {
+    "HRG_WA_simulink/layered/docs/literature_derivation_comparison.md": "10d835260522d95fa362007c76862e1b95297f34d3af9fb5da3e11eef595795d",
+    "HRG_WA_simulink/layered/docs/literature_method_matrix.html": "07d7ae098a502b5ae6951365cf2f68732073daef0ee118df21f9f6ad01ca8ee7",
+    "HRG_WA_simulink/layered/docs/literature_method_matrix.md": "ed78b8d683f3b35e5e43a553b257e9a03fcb9d3b304e7a4cbe4f14cdf998ecae",
+    "HRG_WA_simulink/layered/evidence/literature_comparison/algebra_checks.json": "9ccb776f69987bb84863e9c510aee342654dbc218808efdc1f390819fbd98ce7",
+    "HRG_WA_simulink/layered/evidence/literature_comparison/comparison_catalog.json": "0afa51c9e05d352015fc631ef8a99fdaba0387962ce1b7b9c05c9c06b8dcbc45",
+    "HRG_WA_simulink/layered/evidence/literature_comparison/local_inventory.json": "f5a33cbc9c0134a15c256e1484fe288afa19d6967f748a44af3cd4d10ec0d57d",
+    "HRG_WA_simulink/layered/evidence/literature_comparison/method_notes.tsv": "59ae2ab3c2d3011e0772c276b6e369489db9811bebc7b3a3def625efbbcd0e13",
+    "HRG_WA_simulink/layered/evidence/literature_comparison/network_access_checks.json": "73b36851a553e185a6f0822d4837532a6b963c4612a7a27f4faefa4281bb45b7",
+    "HRG_WA_simulink/layered/evidence/literature_comparison/skill_install_receipt.json": "d625c1f0679b395715577a8c390bedb6375ef4042231f538a11cb230bc0a2922",
+    "HRG_WA_simulink/layered/evidence/literature_comparison/skill_validation.json": "3be9824a9a4e8cb8860985cb040430530364e009fc08789ec615c820c6edc3ad",
+    "tools/build_gyro_comparison.py": "d3c7669381dbf529c8001edce944e2a10600911c0f64900edd4d50c37f89e99d",
+    "tools/compare_gyro_literature.py": "ef41ff2041d0c9bda38776b1d8d03715146c90ab8321e98eda117828ca585c2f",
+    "tools/index_reference_library.py": "1e0facf07af505756fcd0d0ba8d882f406ff179fcec7084ab0c07f0dcc8fe9e2",
+    "tools/install_gyro_reference_update.py": "f1cbd63dc87ef705984b5386df6b38b7e69b358caab69deab42ced90de706de2",
+    "tools/screen_gyro_library.py": "d39be83952c162c2a00491d0b6939a39f328a266a43a9cd84ef474713c6f3aa6",
+    "tools/verify_gyro_comparison.py": "64585228706379ea5aad7d238bcda5a21c282274d9383de4a4c322e27334fba1",
+    "tools/verify_gyro_comparison_ui.js": "9d6f2002163ab65512d63be71daa1e98c43d42ad373095518324d85e1e5b4330",
+    "tools/verify_reference_library.py": "0821e4a1157b2dcc21128e8a75d6c06dc52bb8fc650fdbbcaa9d6e605eb0bc4f"
+  },
+  "priorAcceptanceManifestSHA256": "57b27f3ff14b92af3e578353bdb189e7bd7b108e070a4e410146323fc24b2819",
+  "privateGlobalIndex": "Stored only in local ic-reference-library Git; not included in HRG GitHub"
+}

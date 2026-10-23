@@ -1,0 +1,3227 @@
+{
+  "date": "2026-10-23",
+  "scope": "Named local HRG corpus, full D:/学习资料 screening, and recovered prior online records; bounded coverage, not universal fulltext equivalence",
+  "localFiles": 139,
+  "localUnique": 73,
+  "onlineRecords": 80,
+  "local": [
+    {
+      "id": "L001",
+      "sha256": "430bd7bfba039cb2ee63ffa0f7c100d9bca04c90eeb9462c292bac4e02d6c3bd",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺技术详解白皮书_V1.0_20260825.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/00_索引与白皮书/半球谐振陀螺技术详解白皮书_V1.0_20260825.pdf"
+      ],
+      "name": "半球谐振陀螺技术详解白皮书_V1.0_20260825.pdf",
+      "evidenceLevel": "derived",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 18,
+      "parser": "pypdf",
+      "title": "项目整理白皮书V1.0",
+      "level": "derived",
+      "method": "工程二次整理",
+      "same": "覆盖全角信号链",
+      "different": "非独立原始论文，不作为自身推导的外部证明"
+    },
+    {
+      "id": "L002",
+      "sha256": "26c79bf15faf20021c692db76d9555fa919a4b40dd620dba4ec642d1df4cc5e4",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/1-s2.0-S0924424725002080-main.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/1-s2.0-S0924424725002080-main.pdf"
+      ],
+      "name": "1-s2.0-S0924424725002080-main.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "error": "",
+      "pages": 10,
+      "parser": "pypdf",
+      "title": "2025驱动误差辨识与补偿",
+      "level": "sections",
+      "method": "电极间隙/安装角/驱动增益与相位→误差模型→专门激励辨识",
+      "same": "都将执行误差放入双模态闭环",
+      "different": "论文有具体辨识工况；本工程驱动力仍为线性kF，不能继承其实验性能"
+    },
+    {
+      "id": "L003",
+      "sha256": "023ec185710eb84e526c53cdfb09d723fee1fcee97c30cda5af86ef65ecdac00",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/1-s2.0-S2405896325018932-main.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/1-s2.0-S2405896325018932-main.pdf"
+      ],
+      "name": "1-s2.0-S2405896325018932-main.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "error": "",
+      "pages": 5,
+      "parser": "pypdf",
+      "title": "2025虚拟进动频裂辨识与调平",
+      "level": "sections",
+      "method": "虚拟进动→频裂观测→参数估计→离子束调平",
+      "same": "都由频裂解释正交及漂移",
+      "different": "论文闭合到实际机械修调；当前splitHz仅配置/扰动"
+    },
+    {
+      "id": "L004",
+      "sha256": "a6df0160b525d7813c54ea61825a71476670d51ff42d68349a7765360269d450",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/14843177.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/14843177.pdf"
+      ],
+      "name": "14843177.pdf",
+      "evidenceLevel": "bibliographic",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "error": "",
+      "pages": 187,
+      "parser": "pypdf",
+      "title": "半球谐振陀螺惯性敏感器及其空间应用",
+      "level": "bibliographic",
+      "method": "封面/前言确认书名；理论章节未逐式读取",
+      "same": "体系包含表头、控制、温度和空间应用",
+      "different": "不能依据前言宣称其具体模型与本文等价；扫描章节列入待核验"
+    },
+    {
+      "id": "L005",
+      "sha256": "73d3d8081679200ee5a5f1a7998d3eb3d40a719970016a4bb0ca7ffe0cdd9e55",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/A_Charge-Domain_Fractional-N_ADPLL_Based_on_Charge-Steering_Sampling.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/A_Charge-Domain_Fractional-N_ADPLL_Based_on_Charge-Steering_Sampling.pdf"
+      ],
+      "name": "A_Charge-Domain_Fractional-N_ADPLL_Based_on_Charge-Steering_Sampling.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 13,
+      "parser": "pypdf",
+      "title": "Charge-Domain Fractional-N ADPLL",
+      "level": "abstract_claims",
+      "method": "电荷域采样鉴相、CDAC校正分数杂散",
+      "same": "同涉及相位数字化",
+      "different": "通用频率综合器；不是HRG机械锁相模型，不直接替换本工程PLL"
+    },
+    {
+      "id": "L006",
+      "sha256": "701e6fe0adb0c5f5c9519ed75dd0335d00c05e3497e308c14c85aaf60895b81f",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/A_study_of_digital_ASIC_front-end_design_techniques_for_whole-angle_mode_hemispherical_resonant_gyros.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/A_study_of_digital_ASIC_front-end_design_techniques_for_whole-angle_mode_hemispherical_resonant_gyros.pdf"
+      ],
+      "name": "A_study_of_digital_ASIC_front-end_design_techniques_for_whole-angle_mode_hemispherical_resonant_gyros.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "error": "",
+      "pages": 6,
+      "parser": "pypdf",
+      "title": "2024全角HRG数字ASIC前端",
+      "level": "sections",
+      "method": "幅度解调→CORDIC DPLL→PI→角度展开→数字模块验证",
+      "same": "与现有RTL功能链直接重叠",
+      "different": "会议前端设计验证不是模拟接口/实测芯片签核；本推导额外反推SI电路预算"
+    },
+    {
+      "id": "L007",
+      "sha256": "0ed04b03f00da597b4356c77158adf87261965e040d14dccf8a558bb0b6203f6",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/C386303_7219C7131563C68C9C0F2E3A73262FAD.pdf"
+      ],
+      "name": "C386303_7219C7131563C68C9C0F2E3A73262FAD.pdf",
+      "evidenceLevel": "adjacent",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 36,
+      "parser": "pypdf",
+      "title": "AD9215 ADC原厂数据手册",
+      "level": "adjacent",
+      "method": "器件量程、噪声、时钟与采样规格",
+      "same": "用于核对转换器接口",
+      "different": "器件数据不是全角动力学推导；10位器件参数不等于当前18位场景"
+    },
+    {
+      "id": "L008",
+      "sha256": "970cad1cec5c88025c5a8422e37f02354527d2916f06271a8fb985d73251219f",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/C514293_E984F0269A928A2F1747C6E18BD8CD31.pdf"
+      ],
+      "name": "C514293_E984F0269A928A2F1747C6E18BD8CD31.pdf",
+      "evidenceLevel": "adjacent",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 42,
+      "parser": "pypdf",
+      "title": "AD9704/05/06/07 TxDAC数据手册",
+      "level": "adjacent",
+      "method": "电流型DAC、更新率与杂散规格",
+      "same": "对应DAC接口要求",
+      "different": "实际输出电流/负载须换算，不能直接套±2V电压型行为接口"
+    },
+    {
+      "id": "L009",
+      "sha256": "e6d971e9ed95a0ba8a79ce8f1d2814ab6e67de971a47dc0674829b1a3d6cd237",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN102812328A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN102812328A.pdf"
+      ],
+      "name": "CN102812328A.pdf",
+      "evidenceLevel": "web_sections",
+      "readPdfPages": [
+        1
+      ],
+      "error": "",
+      "pages": 7,
+      "parser": "pypdf",
+      "title": "CN102812328A 非线性补偿角测量",
+      "level": "web_sections",
+      "method": "谐波频谱分析→补偿表→变偏置分离电极/电子非线性",
+      "same": "同关注电路非线性进入角度",
+      "different": "原PDF文本不可读，改核对公开原文摘要及说明书；当前未实现该谱校准表"
+    },
+    {
+      "id": "L010",
+      "sha256": "af35d2f22c7a7b30bfe43b5257a9991cab33da20f51b104ec1cf7d9590c5f396",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN105547272A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN105547272A.pdf"
+      ],
+      "name": "CN105547272A.pdf",
+      "evidenceLevel": "web_sections",
+      "readPdfPages": [
+        1
+      ],
+      "error": "",
+      "pages": 7,
+      "parser": "pypdf",
+      "title": "CN105547272A 压电HRG全角检测",
+      "level": "web_sections",
+      "method": "双PLL、解调、不变量、PI、调制",
+      "same": "全角多环架构一致",
+      "different": "压电换能及双PLL；不能沿用电容C/V与静电kF参数"
+    },
+    {
+      "id": "L011",
+      "sha256": "4d90fd37451fe74b176cf09cf40e939ed74d95769fd9e97aafba9a0b4e437ade",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN106959106B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN106959106B.pdf"
+      ],
+      "name": "CN106959106B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 12,
+      "parser": "pypdf",
+      "title": "CN106959106B SOI封装微半球HRG",
+      "level": "abstract_claims",
+      "method": "电极/封装结构及工艺",
+      "same": "结构决定有效C、参与因子和间隙",
+      "different": "制造方案，不提供可直接搬用的完整全角电路噪声预算"
+    },
+    {
+      "id": "L012",
+      "sha256": "4934d91a5e5664bf178afb5619764fc57aa44d395b70327b8bb47f0be1bccec4",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN107014366B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN107014366B.pdf"
+      ],
+      "name": "CN107014366B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 11,
+      "parser": "pypdf",
+      "title": "CN107014366B 静电圆柱壳体陀螺",
+      "level": "abstract_claims",
+      "method": "圆柱壳体静电激励检测",
+      "same": "可用双模态抽象讨论",
+      "different": "器件为圆柱壳，不照搬半球Bryan系数与电极积分"
+    },
+    {
+      "id": "L013",
+      "sha256": "7ef0d36c1293a0981e390fda18b8cae89dce831968091e5ff60d6b57c884f45d",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN112504258A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN112504258A.pdf"
+      ],
+      "name": "CN112504258A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 21,
+      "parser": "pypdf",
+      "title": "CN112504258A 自适应控制电路公开本",
+      "level": "abstract_claims",
+      "method": "环形二极管检测→ADC→FPGA→DAC反馈",
+      "same": "多环/不变量路线相近",
+      "different": "与L060属于同一申请的不同版本，不能算两种独立创新"
+    },
+    {
+      "id": "L014",
+      "sha256": "548ac13d3362cee18efefdfab3b866e12fc47f4c3f70a96a6cb7f600cad46313",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN112595304B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN112595304B.pdf"
+      ],
+      "name": "CN112595304B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 16,
+      "parser": "pypdf",
+      "title": "CN112595304B 工作模式自适应控制",
+      "level": "abstract_claims",
+      "method": "SoC判定并切换FTR/WA",
+      "same": "共享检测、幅度、正交状态",
+      "different": "本工程固定WA；模式切换与状态连续性尚未实现"
+    },
+    {
+      "id": "L015",
+      "sha256": "5fdf6204efb304f641e9da852405cac61f690bb717730c911c847deab52196d7",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN112729334B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN112729334B.pdf"
+      ],
+      "name": "CN112729334B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 5,
+      "parser": "pypdf",
+      "title": "CN112729334B 电极间隙检测",
+      "level": "abstract_claims",
+      "method": "开关轮询电容测间隙及周向均匀性",
+      "same": "为C(q)/增益误差提供实测输入",
+      "different": "是标定测量线路，非完整WA导航控制推导"
+    },
+    {
+      "id": "L016",
+      "sha256": "3c8ae90d8ce43cd619d5f58acced0d8e5320a990c95251bcbe801cd9aae47048",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN113587954A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN113587954A.pdf"
+      ],
+      "name": "CN113587954A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 19,
+      "parser": "pypdf",
+      "title": "CN113587954A 阻尼不均补偿",
+      "level": "abstract_claims",
+      "method": "误差拟合、反馈补偿、周期积分",
+      "same": "同识别方位相关阻尼漂移",
+      "different": "周期积分与比例因子残差处理不是当前简单PI或一次冻结标定"
+    },
+    {
+      "id": "L017",
+      "sha256": "d21c405f784a4ea933a716c4e30d98e9db54f29df9bd5530e5ea65f05fb79315",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN113670340B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN113670340B.pdf"
+      ],
+      "name": "CN113670340B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 12,
+      "parser": "pypdf",
+      "title": "CN113670340B X/Y相位差测角",
+      "level": "abstract_claims",
+      "method": "转台与改进测角方程辨识通道相位差",
+      "same": "同区分公共与差分相位",
+      "different": "需要已知转台条件，不能用公共相位校准替代两轴辨识"
+    },
+    {
+      "id": "L018",
+      "sha256": "73ebd1bcd8f9675b710333f17a77eb6c31a0e1713f3d10bcc17b22a08421f9fb",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN114396927B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN114396927B.pdf"
+      ],
+      "name": "CN114396927B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 10,
+      "parser": "pypdf",
+      "title": "CN114396927B SoC时分复用",
+      "level": "abstract_claims",
+      "method": "FPGA采样/锁相、ARM控制、检测激励开关",
+      "same": "与分层接口建模目标相同",
+      "different": "真实切换及处理分区；V6仅门控驱动不等价"
+    },
+    {
+      "id": "L019",
+      "sha256": "8f7df87a133764c67604d9d0c0cf805c6b6b4c76939371497173ac135cf4eab9",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN114608614A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN114608614A.pdf"
+      ],
+      "name": "CN114608614A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 8,
+      "parser": "pypdf",
+      "title": "CN114608614A 主动进动在线调谐",
+      "level": "abstract_claims",
+      "method": "PIR稳态控制→正交控制量识别频裂轴/幅→电调",
+      "same": "频裂、正交和控制力具有同一物理联系",
+      "different": "增加PIR及模态匹配执行器，当前未闭合在线调谐"
+    },
+    {
+      "id": "L020",
+      "sha256": "74a0db9d8d9c4eb243a0bf133337f7aba127d98991e98b02a4976535ab3aa13d",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN114838741A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN114838741A.pdf"
+      ],
+      "name": "CN114838741A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 9,
+      "parser": "pypdf",
+      "title": "CN114838741A 激励电极误差补偿",
+      "level": "abstract_claims",
+      "method": "正交脉冲扰动→PLL响应→增益扫描",
+      "same": "同利用控制环串扰暴露执行误差",
+      "different": "是特定静态方位辨识，不等同普适在线联合估计"
+    },
+    {
+      "id": "L021",
+      "sha256": "c568d7666aa07640e00c31c55fc5584df7ac1c69fb2d9e47823208b7fc378d41",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN115388910B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN115388910B.pdf"
+      ],
+      "name": "CN115388910B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 16,
+      "parser": "pypdf",
+      "title": "CN115388910B 误差自激励",
+      "level": "abstract_claims",
+      "method": "虚拟哥氏力与不同工作模式响应",
+      "same": "同采用虚拟角速度激励",
+      "different": "权利要求包含开环/FTR情形，不可一律当作WA自由进动方程"
+    },
+    {
+      "id": "L022",
+      "sha256": "e653b18ae7519ce39f37f9089fe7f9fff763fb691c1e25cf46219c2e935424f8",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN115574798A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN115574798A.pdf"
+      ],
+      "name": "CN115574798A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 12,
+      "parser": "pypdf",
+      "title": "CN115574798A 提高综合性能",
+      "level": "abstract_claims",
+      "method": "WA选择最佳点→平台伺服维持等效力平衡",
+      "same": "同利用驻波方位",
+      "different": "包含外部惯性平台和电机，当前单表头闭环未建模"
+    },
+    {
+      "id": "L023",
+      "sha256": "ee024c13415051ee5fc7031f33d5f1b698744fa01d1a78ff495d2c4e8ab6a030",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN115876182B.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN115876182B.pdf"
+      ],
+      "name": "CN115876182B.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 17,
+      "parser": "pypdf",
+      "title": "CN115876182B 电极误差建模",
+      "level": "abstract_claims",
+      "method": "理想矩阵→刚度/阻尼不均→检测矩阵变换",
+      "same": "与本工程矩阵链最直接相通",
+      "different": "完整方程还含转动导数等项；平均近似和坐标须逐项映射"
+    },
+    {
+      "id": "L024",
+      "sha256": "e5342bd935c515de120b4a1ca215076c5535af7e7e35fdfdbbeb3a44636667c7",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN116608889A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN116608889A.pdf"
+      ],
+      "name": "CN116608889A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 9,
+      "parser": "pypdf",
+      "title": "CN116608889A 阻尼自校准",
+      "level": "abstract_claims",
+      "method": "输出速率模型→反馈速率→参数估计",
+      "same": "同处理阻尼正弦项",
+      "different": "特定反馈激励和标度条件；不是仅在输出减掉已知仿真真值"
+    },
+    {
+      "id": "L025",
+      "sha256": "6492e3cd065ad4cd51635b66df1b5dd30ab947098daf09e9461c30e32cee6625",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN116929322A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN116929322A.pdf"
+      ],
+      "name": "CN116929322A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 23,
+      "parser": "pypdf",
+      "title": "CN116929322A 精确控制",
+      "level": "abstract_claims",
+      "method": "八电极分时、过零/CORDIC相位跟踪、EQL及SR",
+      "same": "与ASIC前端模块高度重叠",
+      "different": "必须核对过零时序与数据有效窗；当前模型无完整八电极时序"
+    },
+    {
+      "id": "L026",
+      "sha256": "89cdd984cd26123a874cf023261f9e74164ace58b3a50ed7593423f538c0e0cd",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN117330044A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN117330044A.pdf"
+      ],
+      "name": "CN117330044A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 15,
+      "parser": "pypdf",
+      "title": "CN117330044A 驻波电信号解调",
+      "level": "abstract_claims",
+      "method": "滤波、参考信号、乘法解调、相位/角度反演",
+      "same": "同为信号解调路线",
+      "different": "摘要和权利要求不构成已核验的完整噪声、动态预算"
+    },
+    {
+      "id": "L027",
+      "sha256": "a1a17374e9b6812c010cee3922ca82218ae4f988c4ef2905384f40d226f4e09d",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN117705163A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN117705163A.pdf"
+      ],
+      "name": "CN117705163A.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 17,
+      "parser": "pypdf",
+      "title": "CN117705163A 自激解耦标补",
+      "level": "sections",
+      "method": "转台检测→虚拟激励相位→执行→静态阻尼分阶段辨识",
+      "same": "同强调检测、执行、相位与结构误差分开",
+      "different": "具有明确可分离激励条件；当前RLS/EKF接入不代表已复现全过程"
+    },
+    {
+      "id": "L028",
+      "sha256": "dea5ae02bb6059e7e8b80654555280054940e88cf3c5c3a52d856898b4ccd92f",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN118010069A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN118010069A.pdf"
+      ],
+      "name": "CN118010069A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 15,
+      "parser": "pypdf",
+      "title": "CN118010069A 振动误差补偿",
+      "level": "abstract_claims",
+      "method": "加速度曲线统计与振动状态修正",
+      "same": "同要求环境误差验证",
+      "different": "不是两模态静态角度误差模型，须增加振动耦合路径"
+    },
+    {
+      "id": "L029",
+      "sha256": "986f6c039c00feda17b1c69af5388c814d3727860e50ab75e3a36a4131dbcc9d",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/CN118836840A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/CN118836840A.pdf"
+      ],
+      "name": "CN118836840A.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 15,
+      "parser": "pypdf",
+      "title": "CN118836840A 差分调频自补偿",
+      "level": "abstract_claims",
+      "method": "顺逆行波分离→双AGC/PLL→虚拟哥氏调频→阻尼补偿",
+      "same": "同属WA并利用虚拟进动",
+      "different": "观测量是行波幅频；不能直接套幅度IQ的ADC/PLL预算"
+    },
+    {
+      "id": "L030",
+      "sha256": "e83cef8a480cbef93e5073c0982dbdcc5f031d4744a337bd365ea2a2dcb7a2ae",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/EP1722193A2.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/EP1722193A2.pdf"
+      ],
+      "name": "EP1722193A2.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 14,
+      "parser": "pypdf",
+      "title": "EP1722193A2 HRG control",
+      "level": "sections",
+      "method": "波腹/波节时空控制分量及WA/FTR",
+      "same": "与能量/正交/锁相自由度划分一致",
+      "different": "与L067及US7318347B2按控制路线归组，不重复计算方法"
+    },
+    {
+      "id": "L031",
+      "sha256": "684a99925779f24867933b2be269132079077e3af03048ed317ffccdafda6973",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/EP2356404B1.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/EP2356404B1.pdf"
+      ],
+      "name": "EP2356404B1.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 16,
+      "parser": "pypdf",
+      "title": "EP2356404B1 Vibratory gyro calibration",
+      "level": "abstract_claims",
+      "method": "系统冗余参考下重复标定漂移/方位相关误差",
+      "same": "同承认校准随时间退化",
+      "different": "多陀螺参考条件；当前单表头模型不能证明该自校准可观测性"
+    },
+    {
+      "id": "L032",
+      "sha256": "48c7dd40b94a68a2acd7364115fa7b90f82c67f333b1df17343613876a1a4771",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/EP3096111B1.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/EP3096111B1.pdf"
+      ],
+      "name": "EP3096111B1.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 49,
+      "parser": "pypdf",
+      "title": "EP3096111B1 HRG",
+      "level": "sections",
+      "method": "模态提取、频率校正、负刚度正交抑制与幅度控制",
+      "same": "同有双模态、PLL和角度输出",
+      "different": "直流刚度调节与交流力的执行方式不同，不能都简化成同一kF"
+    },
+    {
+      "id": "L033",
+      "sha256": "155fbfaa319aeb219bd065e3b336fc04c1683c042c353e9f6aa0a7200c0c0be1",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/Full_Digital_Control_of_Hemispherical_Resonator_Gyro_Under_Force-to-Rebalance_Mode.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/Full_Digital_Control_of_Hemispherical_Resonator_Gyro_Under_Force-to-Rebalance_Mode.pdf"
+      ],
+      "name": "Full_Digital_Control_of_Hemispherical_Resonator_Gyro_Under_Force-to-Rebalance_Mode.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 5,
+      "parser": "pypdf",
+      "title": "Full digital FTR control",
+      "level": "abstract_claims",
+      "method": "DSP+FPGA力再平衡闭环",
+      "same": "可借鉴数字实现和环路方法",
+      "different": "方位被锁定，输出来自再平衡力；不是WA角度输出公式"
+    },
+    {
+      "id": "L034",
+      "sha256": "ba1d22865d01d746a8d54ab38df8982ecd2e5f664fce734a28bb535d9c065af0",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/Fully_differential_operational_amplifiers_with_accurate_output_balancing.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/Fully_differential_operational_amplifiers_with_accurate_output_balancing.pdf"
+      ],
+      "name": "Fully_differential_operational_amplifiers_with_accurate_output_balancing.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 5,
+      "parser": "pypdf",
+      "title": "全差分运放输出平衡",
+      "level": "abstract_claims",
+      "method": "共模反馈与差分通路共享器件",
+      "same": "为读出共模/匹配提供电路参考",
+      "different": "不是WA机械模型；需在晶体管级另验证"
+    },
+    {
+      "id": "L035",
+      "sha256": "6983a466d0503ccc98a05ec1c875d59a6af490f9d9cc98ea4de0aaf8b563fab6",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/High_quality_factor_MEMS_gyroscope_with_whole_angle_mode_of_operation.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/High_quality_factor_MEMS_gyroscope_with_whole_angle_mode_of_operation.pdf"
+      ],
+      "name": "High_quality_factor_MEMS_gyroscope_with_whole_angle_mode_of_operation.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 4,
+      "parser": "pypdf",
+      "title": "High-Q MEMS whole-angle operation",
+      "level": "sections",
+      "method": "高Q自由衰减与闭环WA对照",
+      "same": "同用两模态与能量/正交/PLL",
+      "different": "平面MEMS，角增益和结构参与因子不作为宏观HRG真值"
+    },
+    {
+      "id": "L036",
+      "sha256": "0396ec017a5c5376e03b19e7d0209ef3f38e696eb7c84cabc835805dfd6fa721",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/HRG_by_SAFRAN_The_game-changing_technology.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/HRG_by_SAFRAN_The_game-changing_technology.pdf"
+      ],
+      "name": "HRG_by_SAFRAN_The_game-changing_technology.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 4,
+      "parser": "pypdf",
+      "title": "Safran HRG技术综述",
+      "level": "abstract_claims",
+      "method": "产品原理和工程实现经验",
+      "same": "驻波进动、对称性要求一致",
+      "different": "产品介绍不能代替本文各参数的推导和独立实验"
+    },
+    {
+      "id": "L037",
+      "sha256": "354fe5b8a7c8db8b8703afc684922c05c8dc550723244aa53fe7d6f05c4338d9",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/JP2008241706A.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/JP2008241706A.pdf"
+      ],
+      "name": "JP2008241706A.pdf",
+      "evidenceLevel": "web_sections",
+      "readPdfPages": [
+        1
+      ],
+      "error": "",
+      "pages": 11,
+      "parser": "pypdf",
+      "title": "JP2008241706A 双谐振子标度自校准",
+      "level": "web_sections",
+      "method": "双谐振子分别闭环/WA，再交换工作方式",
+      "same": "同需校准标度因子",
+      "different": "增加第二个谐振子及参考，非单表头FRP；原PDF日文编码未直接采用"
+    },
+    {
+      "id": "L038",
+      "sha256": "5e75627d9857b2895d0d0fe7f8145fedbf519f893f75ee67f285a6998cf900ad",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/micromachines-16-00273.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/micromachines-16-00273.pdf"
+      ],
+      "name": "micromachines-16-00273.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "error": "",
+      "pages": 17,
+      "parser": "pypdf",
+      "title": "2025闭环单通道TDM检测",
+      "level": "sections",
+      "method": "复用读出闭环→切换误差模型→改进解调",
+      "same": "同处理X/Y增益与相位不一致",
+      "different": "真实单通道时分检测；当前连续双通道及驱动门控未覆盖该机制"
+    },
+    {
+      "id": "L039",
+      "sha256": "ca664c6204d82409f81d6f93c0f139b81360a538d5cb700ab526e134e1647b80",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/Real-Time_Elimination_of_Harmonic_Drift_for_Hemispherical_Resonator_Gyro_Based_on_FRP_Control_Scheme.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/Real-Time_Elimination_of_Harmonic_Drift_for_Hemispherical_Resonator_Gyro_Based_on_FRP_Control_Scheme.pdf"
+      ],
+      "name": "Real-Time_Elimination_of_Harmonic_Drift_for_Hemispherical_Resonator_Gyro_Based_on_FRP_Control_Scheme.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "error": "",
+      "pages": 13,
+      "parser": "pypdf",
+      "title": "2026 FRP谐波漂移消除",
+      "level": "sections",
+      "method": "多误差动力学→正反进动→在线辨识及温度验证",
+      "same": "同用方位谐波与虚拟进动",
+      "different": "特定FRP激励和辨识模型；工程内核接入不等于复现论文性能"
+    },
+    {
+      "id": "L040",
+      "sha256": "7b4f5a49abb50ab260b8f3b6446e3f99276286e3ce1bd9bc5d3562c9299c2250",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/Si-MEMS_gyro_by_Safran_Towards_the_navigation_grade.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/Si-MEMS_gyro_by_Safran_Towards_the_navigation_grade.pdf"
+      ],
+      "name": "Si-MEMS_gyro_by_Safran_Towards_the_navigation_grade.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 4,
+      "parser": "pypdf",
+      "title": "Safran导航级Si-MEMS",
+      "level": "abstract_claims",
+      "method": "产品/技术性能演进",
+      "same": "可参考噪声、环境验证项目",
+      "different": "邻近器件资料，非本项目HRG参数来源"
+    },
+    {
+      "id": "L041",
+      "sha256": "874f9767180533180af480542e93637729e6fb05f690a5ef63d0435dcb8fadcf",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/US10113873.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/US10113873.pdf"
+      ],
+      "name": "US10113873.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 40,
+      "parser": "pypdf",
+      "title": "US10113873 多质量WA MEMS结构",
+      "level": "abstract_claims",
+      "method": "多质量/耦合梁形成两振动模态",
+      "same": "同需简并模态与换能器",
+      "different": "平面多质量结构，m/B/电极模型不同"
+    },
+    {
+      "id": "L042",
+      "sha256": "0340ed83d1a6d370ca7b9e80306a1c6fc8e9368cf1a95e5bceb276056fdb4e40",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/US10520331.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/US10520331.pdf"
+      ],
+      "name": "US10520331.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 53,
+      "parser": "pypdf",
+      "title": "US10520331 WA死区校准",
+      "level": "abstract_claims",
+      "method": "辨识速率死区并施加补偿力",
+      "same": "与阻尼死区和主动补偿有关",
+      "different": "需执行器可用性与辨识条件，不能由已有阈值公式证明已实现"
+    },
+    {
+      "id": "L043",
+      "sha256": "9114768408bb14b4ec459bf4eef0b6c21103dce31ab5ee9d4edb5c0dff3e96e4",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/US7912664.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/US7912664.pdf"
+      ],
+      "name": "US7912664.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 24,
+      "parser": "pypdf",
+      "title": "US7912664 多陀螺自校准",
+      "level": "abstract_claims",
+      "method": "冗余、多轴、模式反转与比例因子估计",
+      "same": "同利用模式变化分离误差",
+      "different": "依赖系统冗余，不是单HRG三环结构"
+    },
+    {
+      "id": "L044",
+      "sha256": "4d998de97a15676484a7b63e93f05ae168c49dfb5a8eea9ef814c53d0c59815d",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/US8800349.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/US8800349.pdf"
+      ],
+      "name": "US8800349.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 8,
+      "parser": "pypdf",
+      "title": "US8800349 多陀螺标度校准",
+      "level": "abstract_claims",
+      "method": "至少四陀螺参考→驻波位置变化→标度估计",
+      "same": "同采用驻波位置和已知激励",
+      "different": "独立参考来自其他陀螺；当前无此系统"
+    },
+    {
+      "id": "L045",
+      "sha256": "328dc024d0ec1d2de8e2bae37746404d48afd4435b5ef53249b92e1d168a9a8b",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/US8991249.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/US8991249.pdf"
+      ],
+      "name": "US8991249.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 15,
+      "parser": "pypdf",
+      "title": "US8991249 压电组件振动陀螺",
+      "level": "abstract_claims",
+      "method": "两模态压电驱动/检测结构",
+      "same": "双模态抽象可以借用",
+      "different": "压电本构和换能系数须重推，电容/静电预算不能复用"
+    },
+    {
+      "id": "L046",
+      "sha256": "7679ebb585df4f7dac30dd3e3d1b0b4ca9ede4e161c1a0caa56d73dc5ca0c801",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/US9080870B2.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/US9080870B2.pdf"
+      ],
+      "name": "US9080870B2.pdf",
+      "evidenceLevel": "adjacent",
+      "readPdfPages": [
+        1
+      ],
+      "error": "",
+      "pages": 17,
+      "parser": "pypdf",
+      "title": "US9080870B2 MEMS angular rate sensor structure",
+      "level": "adjacent",
+      "method": "首页摘要渲染：质量块两转动自由度与哥氏检测结构",
+      "same": "同利用哥氏耦合",
+      "different": "邻近速率MEMS结构，不是WA-HRG完整控制推导；未读正文系数"
+    },
+    {
+      "id": "L047",
+      "sha256": "bc9b339940fdfbdc11fabb1220dceba30aa86ea882594a37e2128470fc562452",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/US9217640.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/US9217640.pdf"
+      ],
+      "name": "US9217640.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 15,
+      "parser": "pypdf",
+      "title": "US9217640 双向驻波控制",
+      "level": "abstract_claims",
+      "method": "周期正反进动、扣除控制量并与参考比较",
+      "same": "与FRP校准思想接近",
+      "different": "具体参考、波形、误差识别条件不同，不认定为同一实现"
+    },
+    {
+      "id": "L048",
+      "sha256": "d090163b5f7f19e38375c048ad3c4d4f1a64964b22dcdbd936fa94aee56cd2f9",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/Vibrational_Error_Model_Update_for_a_Hemispherical_Resonator_Gyroscope.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/Vibrational_Error_Model_Update_for_a_Hemispherical_Resonator_Gyroscope.pdf"
+      ],
+      "name": "Vibrational_Error_Model_Update_for_a_Hemispherical_Resonator_Gyroscope.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 3,
+      "parser": "pypdf",
+      "title": "非轴对称振动误差模型更新",
+      "level": "abstract_claims",
+      "method": "非轴对称三维振动加速度耦合",
+      "same": "同要求结构不均匀性建模",
+      "different": "二维近谐振模型未覆盖完整三维振动误差"
+    },
+    {
+      "id": "L049",
+      "sha256": "398bc72ca455d7b5415e42bac806a423ebfa2432a5a4cf3452fd5499c5d9e80f",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/一种全角模式下的半球谐振陀螺死区补偿与抗干扰控制回路设计方法.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/一种全角模式下的半球谐振陀螺死区补偿与抗干扰控制回路设计方法.pdf"
+      ],
+      "name": "一种全角模式下的半球谐振陀螺死区补偿与抗干扰控制回路设计方法.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 16,
+      "parser": "pypdf",
+      "title": "CN116610030B 死区与抗干扰",
+      "level": "abstract_claims",
+      "method": "随机平均→死区/外扰复合观测器→前馈+PI",
+      "same": "同有慢变量与死区",
+      "different": "扰动观测器和鲁棒性证明未在当前三PI中实现"
+    },
+    {
+      "id": "L050",
+      "sha256": "46fb1b2e84d288b61a7dfcad71192c32dfbb0571531abde78978c2a8d49f3354",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/全角模式半球谐振陀螺特征参数辨识与补偿研究.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/全角模式半球谐振陀螺特征参数辨识与补偿研究.pdf"
+      ],
+      "name": "全角模式半球谐振陀螺特征参数辨识与补偿研究.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "error": "",
+      "pages": 90,
+      "parser": "pypdf",
+      "title": "吴俊恒2023特征参数辨识与补偿",
+      "level": "sections",
+      "method": "薄壳/Lagrange→平均慢变量→LS/RLS→两力前馈",
+      "same": "与频裂/阻尼矩阵、参数辨识链一致",
+      "different": "论文细化控制量观测与输出/力前馈两种补偿；当前未逐工况复现实验"
+    },
+    {
+      "id": "L051",
+      "sha256": "2130b7aaac751e448ebae369f82a794ee98bbee774da123aee2cefcded49a6fc",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/全角陀螺从理论到产品与ASIC设计教材.pdf"
+      ],
+      "name": "全角陀螺从理论到产品与ASIC设计教材.pdf",
+      "evidenceLevel": "derived",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 75,
+      "parser": "pypdf",
+      "title": "项目生成的全角教材",
+      "level": "derived",
+      "method": "二次整理",
+      "same": "与工程解释一致",
+      "different": "不能用项目自身文稿证明推导正确"
+    },
+    {
+      "id": "L052",
+      "sha256": "9e182c4a0fa143164703fae1c88197f6e1eb4cb3aabb67e1b91ffb3fc9f6d33b",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/半球谐振陀螺全角模式信号处理控制方法.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/半球谐振陀螺全角模式信号处理控制方法.pdf"
+      ],
+      "name": "半球谐振陀螺全角模式信号处理控制方法.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "error": "",
+      "pages": 7,
+      "parser": "pypdf",
+      "title": "张岚昕等2019信号处理控制",
+      "level": "sections",
+      "method": "二阶模型→椭圆→相干解调→EQL/SR→PI→Simulink",
+      "same": "基础功能链与本工程一致",
+      "different": "式(4)-(7)角度及SR印刷需独立验算；未展开当前完整接口噪声预算"
+    },
+    {
+      "id": "L053",
+      "sha256": "38e198d397209a03250c39e5a36af9d8496765f4bdfd1755096d761d2384318d",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/半球谐振陀螺全角模式控制与误差补偿系统设计与实.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/半球谐振陀螺全角模式控制与误差补偿系统设计与实.pdf"
+      ],
+      "name": "半球谐振陀螺全角模式控制与误差补偿系统设计与实.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        55,
+        56,
+        57,
+        58,
+        59,
+        62,
+        63,
+        64,
+        65
+      ],
+      "error": "",
+      "pages": 86,
+      "parser": "pypdf",
+      "title": "刘学2024控制与误差补偿系统",
+      "level": "sections",
+      "method": "薄壳/平均→4θ误差→分时电路→主动补偿→样机",
+      "same": "同把检测/控制/驱动放进系统链",
+      "different": "原文有实际切换/拟合和样机测试；本工程尚无同等硬件证据"
+    },
+    {
+      "id": "L054",
+      "sha256": "67f4332ed69bdb7d5f35f29e9bd6d691c038108eaba40f4c37f2019ac6081837",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/半球谐振陀螺全角模式控制技术研究与实现.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/半球谐振陀螺全角模式控制技术研究与实现.pdf"
+      ],
+      "name": "半球谐振陀螺全角模式控制技术研究与实现.pdf",
+      "evidenceLevel": "visual_sections",
+      "readPdfPages": [
+        3,
+        5,
+        9,
+        11,
+        13,
+        14,
+        15,
+        43,
+        44,
+        45,
+        46,
+        55,
+        56,
+        57
+      ],
+      "error": "",
+      "pages": 92,
+      "parser": "pdfplumber",
+      "title": "蒲云飞2022全角控制技术",
+      "level": "visual_sections",
+      "method": "薄壳/平均→PI谐波残差→PIR→卸荷分时→频裂电调",
+      "same": "基础双模态/三环一致",
+      "different": "PIR内模、真实卸荷时序和电调是当前PI/V6模型缺项"
+    },
+    {
+      "id": "L055",
+      "sha256": "0345a85852404c596e7c1fb49601994df4fc3188f6ff7c693c560c381ead68c3",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/半球谐振陀螺误差分析及补偿.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/半球谐振陀螺误差分析及补偿.pdf"
+      ],
+      "name": "半球谐振陀螺误差分析及补偿.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "error": "",
+      "pages": 89,
+      "parser": "pypdf",
+      "title": "何栓2023误差分析及补偿",
+      "level": "sections",
+      "method": "环形/二阶模型→四控制力→检测/执行矩阵→顺序解耦",
+      "same": "与综合误差链和矩阵表达相通",
+      "different": "论文增加可分离条件、两力前馈和双陀螺标度；不能由单轨迹RLS替代"
+    },
+    {
+      "id": "L056",
+      "sha256": "39f912bde418b3dcf6f806f1c54ec93d424a64dd4967dcb29ad7915ccde7c60a",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/半球谐振陀螺通道误差影响分析与全温补偿方法.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/半球谐振陀螺通道误差影响分析与全温补偿方法.pdf"
+      ],
+      "name": "半球谐振陀螺通道误差影响分析与全温补偿方法.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 8,
+      "parser": "pypdf",
+      "title": "2025通道误差与全温补偿",
+      "level": "sections",
+      "method": "检测/执行幅相及非线性→全温补偿",
+      "same": "直接支持接口误差不能独立于控制分析",
+      "different": "本工程温度系数和漂移仍为假设，未复现其全温标定"
+    },
+    {
+      "id": "L057",
+      "sha256": "d8bbbe5ff08ccc00d2933e1cdba105e158c675e7c98b09338c032e8af0c2d0d7",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/半球谐振陀螺量化误差与阻尼误差抑制技术研究.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/半球谐振陀螺量化误差与阻尼误差抑制技术研究.pdf"
+      ],
+      "name": "半球谐振陀螺量化误差与阻尼误差抑制技术研究.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        23,
+        24,
+        25,
+        26,
+        27,
+        34,
+        35,
+        36,
+        49,
+        50,
+        51,
+        52,
+        53,
+        59,
+        60,
+        61,
+        62,
+        63,
+        66,
+        70
+      ],
+      "error": "",
+      "pages": 88,
+      "parser": "pypdf",
+      "title": "陈洋2023量化与阻尼误差",
+      "level": "sections",
+      "method": "平均法→内部截位传播→浮点→偏导测率/TD→虚拟旋转阻尼补偿",
+      "same": "与Jacobian、噪声和死区链同源",
+      "different": "ADC位置/量化类型不同；论文具体浮点/TD/交替旋转不等同当前定点预算和内核"
+    },
+    {
+      "id": "L058",
+      "sha256": "c5eb63b02bd51de9a115ccb9d1f3509bc946d1429ae9abb334deef6e73f98cc9",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/基于Kalman滤波解调的半球谐振陀螺全角控制方案及仿真.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/基于Kalman滤波解调的半球谐振陀螺全角控制方案及仿真.pdf"
+      ],
+      "name": "基于Kalman滤波解调的半球谐振陀螺全角控制方案及仿真.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 9,
+      "parser": "pypdf",
+      "title": "2023 Kalman解调全角控制",
+      "level": "sections",
+      "method": "双模态→状态估计解调→不变量→控制",
+      "same": "物理状态和不变量可对应",
+      "different": "Kalman观测器取代部分传统解调；式(7)局部角度印刷不直接照搬"
+    },
+    {
+      "id": "L059",
+      "sha256": "fcbc375b249c56d45ee18d17605e2e19a197780cd056171629410a77d2428967",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/基于RLS算法的全角模式半球谐振陀螺自补偿控制.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/基于RLS算法的全角模式半球谐振陀螺自补偿控制.pdf"
+      ],
+      "name": "基于RLS算法的全角模式半球谐振陀螺自补偿控制.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "error": "",
+      "pages": 6,
+      "parser": "pdfplumber",
+      "title": "2023 RLS自补偿",
+      "level": "sections",
+      "method": "方位相关漂移参数化→RLS递推→在线补偿",
+      "same": "与工程RLS补偿内核方向一致",
+      "different": "辨识激励、回归量及验证数据需对齐，不能仅以算法名判定等价"
+    },
+    {
+      "id": "L060",
+      "sha256": "177c419ff6464011aaacc992ea3b6a6a9370f6c247cf96abe57fe182bcb7651b",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/基于全角模式的石英半球谐振陀螺自适应控制电路及方法.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/基于全角模式的石英半球谐振陀螺自适应控制电路及方法.pdf"
+      ],
+      "name": "基于全角模式的石英半球谐振陀螺自适应控制电路及方法.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        3,
+        4
+      ],
+      "error": "",
+      "pages": 21,
+      "parser": "pypdf",
+      "title": "CN112504258B 自适应控制电路授权本",
+      "level": "sections",
+      "method": "电容检测/ADC/FPGA/DAC、多环控制",
+      "same": "总体功能链一致",
+      "different": "和L013版本相关；式(8)零相位反例已核对，不能逐字照搬"
+    },
+    {
+      "id": "L061",
+      "sha256": "c971816169cb0fb32b6a28103e0b2f1fe64e8afee0837a29cdf97859220d4811",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/基于频率解调的半球谐振陀螺控制系统设计.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/基于频率解调的半球谐振陀螺控制系统设计.pdf"
+      ],
+      "name": "基于频率解调的半球谐振陀螺控制系统设计.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "error": "",
+      "pages": 5,
+      "parser": "pypdf",
+      "title": "2023频率解调控制",
+      "level": "sections",
+      "method": "顺逆行波分离与频率同步解调→多环→FPGA+DSP",
+      "same": "机械WA目标相同",
+      "different": "状态坐标/观测器/NCO数量及误差传递改变，非换一个atan即可实现"
+    },
+    {
+      "id": "L062",
+      "sha256": "77e528ae6dc2b1011d9f78fe540b47fac077c051f2c4f2783c4a21a2937ae059",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/01_综述与经典理论/2022_Recent_Advances_MEMS_3D_HRG_Review.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/01_综述与经典理论/2022_Recent_Advances_MEMS_3D_HRG_Review.pdf"
+      ],
+      "name": "2022_Recent_Advances_MEMS_3D_HRG_Review.pdf",
+      "evidenceLevel": "unreadable",
+      "readPdfPages": [],
+      "error": "Unexpected EOF",
+      "pages": null,
+      "parser": null,
+      "title": "2022 MEMS 3D HRG综述文件",
+      "level": "unreadable",
+      "method": "原文件解析Unexpected EOF",
+      "same": "仅保存路径与SHA",
+      "different": "本地文件不能读，旧索引的已验证状态需降级；不据文件名总结正文"
+    },
+    {
+      "id": "L063",
+      "sha256": "8aae4690a0b6851083541cd73f669fe7a9ef162fc16e7ef95dc1aae0dc9ec97c",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf"
+      ],
+      "name": "2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "error": "",
+      "pages": 12,
+      "parser": "pypdf",
+      "title": "2021阻尼死区与虚拟进动",
+      "level": "sections",
+      "method": "阻尼不均→锁定阈值→虚拟进动",
+      "same": "与本项目死区机理一致",
+      "different": "Δ衰减及角度定义不同，阈值系数按本项目Γ重新投影"
+    },
+    {
+      "id": "L064",
+      "sha256": "e290b0614b3cfc54fbd247f1e142c012390f2ec610135588530fcd8dbf99d728",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Whole_Angle_Control_Vector_Composition.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Whole_Angle_Control_Vector_Composition.pdf"
+      ],
+      "name": "2021_Whole_Angle_Control_Vector_Composition.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "error": "",
+      "pages": 10,
+      "parser": "pypdf",
+      "title": "2021矢量合成全角控制",
+      "level": "sections",
+      "method": "控制力矢量合成/分解与相位跟踪",
+      "same": "与h的空间/时间分量可映射",
+      "different": "侧重实际电极合力与效率；本推导另做噪声及接口预算"
+    },
+    {
+      "id": "L065",
+      "sha256": "4273593c8a7df559ae98fbfc9757c576ec69ebccbc6cefc0430173161aea2413",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/04_谐振子制造与工艺/2026_8Million_Q_Patterned_Coating_mHRG.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/04_谐振子制造与工艺/2026_8Million_Q_Patterned_Coating_mHRG.pdf"
+      ],
+      "name": "2026_8Million_Q_Patterned_Coating_mHRG.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 13,
+      "parser": "pypdf",
+      "title": "2026图形化薄膜高Q mHRG",
+      "level": "abstract_claims",
+      "method": "薄膜工艺→损耗机制→Q和频裂测试",
+      "same": "为Q/Δf/阻尼均匀性提供器件约束",
+      "different": "制造/器件论文，不是整套控制或电路参数推导"
+    },
+    {
+      "id": "L066",
+      "sha256": "8fda99322f373c85f7b219bada636b20d698ccf46270babd32c71eb02d863fc8",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/05_产品手册与空间应用/NASA_1996_HRG_Hubble_Flight_Project.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/05_产品手册与空间应用/NASA_1996_HRG_Hubble_Flight_Project.pdf"
+      ],
+      "name": "NASA_1996_HRG_Hubble_Flight_Project.pdf",
+      "evidenceLevel": "background",
+      "readPdfPages": [
+        1,
+        2,
+        3,
+        138
+      ],
+      "error": "",
+      "pages": 260,
+      "parser": "pypdf",
+      "title": "NASA R&T汇编中的HRG条目",
+      "level": "background",
+      "method": "PDF138页为HRG/Hubble说明",
+      "same": "确认WA为速率积分、可切换FTR及电容换能",
+      "different": "260页汇编而非260页HRG专著，不含可复用的完整控制推导"
+    },
+    {
+      "id": "L067",
+      "sha256": "f65a0f2224bbd10655f80da8cc7ca6eb0f5aaab4e73ef6441862f7cd3f76c395",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/06_专利/US20060248953A1_HRG_Control.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/06_专利/US20060248953A1_HRG_Control.pdf"
+      ],
+      "name": "US20060248953A1_HRG_Control.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 11,
+      "parser": "pypdf",
+      "title": "US20060248953A1 HRG control",
+      "level": "abstract_claims",
+      "method": "经典WA/FTR时空控制分解",
+      "same": "与US7318347B2/EP1722193A2控制路线一致",
+      "different": "公开版本不同不作为三套独立方法计数"
+    },
+    {
+      "id": "L068",
+      "sha256": "63bb5d8a6e4af4a50a8d3e049e481d5b090e9e19fa3b6055290d061853ef1358",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/06_专利/US20160334214A1_HRG.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/06_专利/US20160334214A1_HRG.pdf"
+      ],
+      "name": "US20160334214A1_HRG.pdf",
+      "evidenceLevel": "abstract_claims",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 35,
+      "parser": "pypdf",
+      "title": "US20160334214A1 HRG",
+      "level": "abstract_claims",
+      "method": "振型提取、频率校正、直流正交及交流维振",
+      "same": "基础全角状态一致",
+      "different": "直流刚度调节和交流力必须分别建模"
+    },
+    {
+      "id": "L069",
+      "sha256": "203bb3178e7e2ac0de9d48df0b844f2cab2d5204ac170899e1ab295c4fb1005c",
+      "paths": [
+        "D:/学习资料/资料/全角陀螺/谐振陀螺仪与系统技术   _14948769.pdf",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/谐振陀螺仪与系统技术   _14948769.pdf"
+      ],
+      "name": "谐振陀螺仪与系统技术   _14948769.pdf",
+      "evidenceLevel": "visual_sections",
+      "readPdfPages": [
+        5,
+        7,
+        27,
+        30
+      ],
+      "error": "",
+      "pages": 235,
+      "parser": "pypdf",
+      "title": "谐振陀螺仪与系统技术",
+      "level": "visual_sections",
+      "method": "薄壳模态积分→Bryan因子→等效二阶→平均慢变量",
+      "same": "给出本工程B/双模态抽象的上游理论",
+      "different": "书中保留形函数积分与结构设计；当前B/m直接参数化"
+    },
+    {
+      "id": "L070",
+      "sha256": "ae895ef3e43a5f8c5d44732130a108de52b1e18cb8f3e713a32653ae1e7b603f",
+      "paths": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/pdf/电路与数字实现/2011_MEMS_Rate_Control.pdf"
+      ],
+      "name": "2011_MEMS_Rate_Control.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 4,
+      "parser": "pypdf",
+      "title": "2011商用SDR控制RIG",
+      "level": "sections",
+      "method": "商业采集/FPGA软件链实现幅度正交转向控制",
+      "same": "与分层数字/模拟接口及延迟预算相近",
+      "different": "具体商业硬件7ms延迟不是当前7.525ms估算的验证证据"
+    },
+    {
+      "id": "L071",
+      "sha256": "2c4892cf17a2bf5270c1bb186776e3fffbcaf7f003d38a355fe432e45c02075d",
+      "paths": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/pdf/算法与补偿/2022_Nonlinear_RIG.pdf"
+      ],
+      "name": "2022_Nonlinear_RIG.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 18,
+      "parser": "pypdf",
+      "title": "2022非线性RIG作者稿",
+      "level": "sections",
+      "method": "平面MEMS非线性、能量/控制耦合",
+      "same": "提示大幅SNR与非线性折中",
+      "different": "器件和角度因子不同，不能移植其数值为HRG设计值"
+    },
+    {
+      "id": "L072",
+      "sha256": "b70c7d9f661ac2ad0d72e0e02966fcaf69f7a2439526c2e69d51ca820c1537a7",
+      "paths": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/pdf/系统与控制/2012_Foucault_Pendulum.pdf"
+      ],
+      "name": "2012_Foucault_Pendulum.pdf",
+      "evidenceLevel": "sections",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 12,
+      "parser": "pypdf",
+      "title": "2012 Foucault pendulum on a chip",
+      "level": "sections",
+      "method": "高Q对称MEMS→自由进动与闭环角测量",
+      "same": "速率积分与对称性机理一致",
+      "different": "平面四质量/2kHz器件，模态质量及角增益不同"
+    },
+    {
+      "id": "L073",
+      "sha256": "37288a7c740f74b7077ef63da8eb5505c6c627f1d65483a90f93d5519abbfa19",
+      "paths": [
+        "D:/学习资料/资料/1-s2.0-S0263224123008953-main.pdf"
+      ],
+      "name": "1-s2.0-S0263224123008953-main.pdf",
+      "evidenceLevel": "adjacent",
+      "readPdfPages": [
+        1,
+        2,
+        3
+      ],
+      "error": "",
+      "pages": 13,
+      "parser": "pypdf",
+      "title": "2023 MEMS接口ASIC片上温补",
+      "level": "adjacent",
+      "method": "MEMS驱动环/系统带宽/温补ASIC",
+      "same": "接口噪声、闭环和温度分析可借鉴",
+      "different": "新根目录筛查发现的邻近技术，不能直接作为WA-HRG方位控制推导"
+    }
+  ],
+  "online": [
+    {
+      "key": "doi:10.1007/s11071-026-12837-6",
+      "title": "Novel Bias Drift Mechanism of Whole-Angle Mode Gyroscopes: Oscillatory Rectification Errors. Nonlinear Dynamics, 2026-07",
+      "url": "https://doi.org/10.1007/s11071-026-12837-6",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:22",
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:129"
+      ],
+      "originalReadingClaim": "元数据；不与3月预印本算两篇独立成果",
+      "level": "primary_abstract",
+      "same": "出版社摘要以等价变换及叠加分析周期转动下的非对称动力学漂移",
+      "different": "订阅预览未提供全文；本工程共同Duffing项不能视为该ORE解析模型，未核对吸引域方程",
+      "id": "W001",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1007/s11071-026-12837-6",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1007/s11071-026-12837-6 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.ast.2025.111283",
+      "title": "Forgetting filter-based real-time identification and compensation of whole-angle hemispherical resonator gyroscope errors for extensive aerospace applications. AST, 2026-01卷",
+      "url": "https://doi.org/10.1016/j.ast.2025.111283",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:12",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:45"
+      ],
+      "originalReadingClaim": "元数据/出版社公开摘要，不是全文",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W002",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.ast.2025.111283",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.ast.2025.111283 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.ifacol.2025.11.223",
+      "title": "Wang N et al. High-precision frequency split Identification and balancing of the hemispherical resonator gyro via Virtual Precession. IFAC-PapersOnLine, 59-20, 640–644, 2025.",
+      "url": "https://doi.org/10.1016/j.ifacol.2025.11.223",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:122"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L003",
+      "id": "W003",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1016/j.ijmecsci.2024.109912",
+      "title": "11. 亚表面损伤和 Q 提升：IJMS 2025.",
+      "url": "https://doi.org/10.1016/j.ijmecsci.2024.109912",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:54"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W004",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.ijmecsci.2024.109912",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.ijmecsci.2024.109912 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.ijmecsci.2026.111465",
+      "title": "Equivalent Bryan’s factor in hemispherical resonator gyroscopes with nonuniformities coupling. IJMS, 2026-04卷",
+      "url": "https://doi.org/10.1016/j.ijmecsci.2026.111465",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:20",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:55"
+      ],
+      "originalReadingClaim": "元数据，不能据题目推断完整系数关系",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W005",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.ijmecsci.2026.111465",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.ijmecsci.2026.111465 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.measurement.2023.113331",
+      "title": "MEMS interface ASIC with on-chip temperature compensation",
+      "url": "https://doi.org/10.1016/j.measurement.2023.113331",
+      "discoveryRecords": [
+        "2026-10-23 primary search / whole-library screening"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L073",
+      "id": "W006",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1016/j.measurement.2024.114945",
+      "title": "Wang R et al. High-precision identification and compensation of nonlinear error in hemispherical resonator gyro. Measurement, 237, 114945, 2024.",
+      "url": "https://doi.org/10.1016/j.measurement.2024.114945",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:114"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W007",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.measurement.2024.114945",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.measurement.2024.114945 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.measurement.2024.115599",
+      "title": "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro. Measurement, 2025-01卷",
+      "url": "https://doi.org/10.1016/j.measurement.2024.115599",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:27",
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:115",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:47"
+      ],
+      "originalReadingClaim": "元数据，DOI含2024而卷为2025",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W008",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.measurement.2024.115599",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.measurement.2024.115599 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.measurement.2026.121170",
+      "title": "Whole-chain multi-mode error compensation for high-precision rate-integrating micro-hemispherical resonator gyroscopes. Measurement, 2026-05卷",
+      "url": "https://doi.org/10.1016/j.measurement.2026.121170",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:13"
+      ],
+      "originalReadingClaim": "元数据及检索可见出版社亮点；直接抓取403",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W009",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.measurement.2026.121170",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.measurement.2026.121170 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.sna.2012.01.029",
+      "title": "Foucault pendulum on a chip: Rate integrating silicon MEMS gyroscope",
+      "url": "https://doi.org/10.1016/j.sna.2012.01.029",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2012_Foucault_Pendulum"
+      ],
+      "originalReadingClaim": "downloaded_verified",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L072",
+      "id": "W010",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1016/j.sna.2025.116402",
+      "title": "Wang Q et al. A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope. Sensors and Actuators A: Physical, 387, 116402, 2025.",
+      "url": "https://doi.org/10.1016/j.sna.2025.116402",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:117"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L002",
+      "id": "W011",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1016/j.sna.2025.116976",
+      "title": "Virtual precession-enabled phase error mitigation in high-precision hemispherical resonator gyroscopes. S&A A, 2025-12卷",
+      "url": "https://doi.org/10.1016/j.sna.2025.116976",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:16",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:46"
+      ],
+      "originalReadingClaim": "元数据",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W012",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.sna.2025.116976",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.sna.2025.116976 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.ymssp.2025.113228",
+      "title": "Propagation mechanism of 1/f noise in FTR system of micro hemispherical resonator gyroscopes. MSSP, 2025-10卷",
+      "url": "https://doi.org/10.1016/j.ymssp.2025.113228",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:28",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:51"
+      ],
+      "originalReadingClaim": "元数据；FTR不能直接替代WA噪声结论",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W013",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.ymssp.2025.113228",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.ymssp.2025.113228 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1016/j.ymssp.2026.114724",
+      "title": "Ren X et al. Noise analysis and suppression of whole-angle MEMS gyroscopes based on detection-axes-rotation. Mechanical Systems and Signal Processing, 258, 114724, 2026.",
+      "url": "https://doi.org/10.1016/j.ymssp.2026.114724",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:130"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W014",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1016/j.ymssp.2026.114724",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1016/j.ymssp.2026.114724 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1038/s41378-024-00818-x",
+      "title": "Yu S et al. Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscope. Microsystems & Nanoengineering, 10, 164, 2024.",
+      "url": "https://doi.org/10.1038/s41378-024-00818-x",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:112",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:218",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:24"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "primary_abstract",
+      "same": "已核验摘要说明非线性执行或参数激励属于相关路线",
+      "different": "未核验全文系数；位移相关驱动增益/2f0刚度调制不能等同当前线性f0驱动",
+      "id": "W015",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1038/s41378-025-00872-z",
+      "title": "Yu S et al. 0.32 mHz frequency mismatch of micro-shell resonator gyroscope without tuning electrodes achieved by ultra-precision mechanical trimming. Microsystems & Nanoengineering, 11, 102, 2025.",
+      "url": "https://doi.org/10.1038/s41378-025-00872-z",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:120"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "primary_sections",
+      "same": "Lynch慢变量→正交控制力随方位变化→频裂及主轴估计，与本项目频裂/控制力机制相通",
+      "different": "核对原文式(5)-(7)、相位误差与修调流程；原文增加自进动探针、实测标度和机械修调，当前仅有参数注入",
+      "id": "W016",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1038/s41378-025-00872-z",
+          "status": "primary_content",
+          "note": "  * 【0†View all journals】"
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1038/s41378-026-01203-6",
+      "title": "Wu K et al. Localized thermal tuning in fused silica inductive vibrating ring gyroscopes. Microsystems & Nanoengineering, 2026.",
+      "url": "https://doi.org/10.1038/s41378-026-01203-6",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:127"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W017",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1038/s41378-026-01203-6",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1038/s41378-026-01203-6 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1038/s41378-026-01321-1",
+      "title": "Manufacturing of 8 million Q-factor micro hemispherical resonator gyroscopes via patterned coating technology. Microsystems & Nanoengineering, 2026-05-22",
+      "url": "https://doi.org/10.1038/s41378-026-01321-1",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:14",
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:128",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:56"
+      ],
+      "originalReadingClaim": "元数据；出版社抓取小HTML未取得全文，不使用内部工艺指标",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L065",
+      "id": "W018",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1038/s41598-020-80885-y",
+      "title": "L2 | `C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf`； | 本轮读PDF2–5；PDF4–5渲染检查；死区机理。不同符号系数不直接搬入项目",
+      "url": "https://doi.org/10.1038/s41598-020-80885-y",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:21",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:112",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2021_Dead_Area_Compensation",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:61"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L063",
+      "id": "W019",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1038/s41598-025-86288-1",
+      "title": "Ning Y et al. Identification and correction of phase delay errors for hemispherical resonator gyroscopes. Scientific Reports, 2025.",
+      "url": "https://doi.org/10.1038/s41598-025-86288-1",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:113",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:23",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:467"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "primary_sections",
+      "same": "电子相位→正交力泄漏→角速率偏差，与本项目链一致",
+      "different": "原文式(1)-(13)/图4含在线正交扰动校相；本工程仅标称相位冻结及接口注入",
+      "id": "W020",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1063/5.0268634",
+      "title": "Joint compensation of time delay and damping asymmetry errors for whole-angle hemispherical resonator gyroscopes. Review of Scientific Instruments, 2026-01-01",
+      "url": "https://doi.org/10.1063/5.0268634",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:26"
+      ],
+      "originalReadingClaim": "元数据/登记摘要",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W021",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1063/5.0268634",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1063/5.0268634 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/ecie61885.2024.10627746",
+      "title": "Zhou et al. A study of digital ASIC front-end design techniques for whole-angle mode hemispherical resonant gyros. ECIE, 2024.",
+      "url": "https://doi.org/10.1109/ecie61885.2024.10627746",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:134"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L006",
+      "id": "W022",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1109/isiss.2015.7102360",
+      "title": "Disk Resonator Gyroscope with Whole-Angle Mode Operation",
+      "url": "https://doi.org/10.1109/isiss.2015.7102360",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2015_Disk_Resonator_WA"
+      ],
+      "originalReadingClaim": "not_acquired",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W023",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/isiss.2015.7102360",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/isiss.2015.7102360 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/jsen.2022.3181302",
+      "title": "In-Run Automatic Mode-Matching of Whole-Angle Micro-Hemispherical Resonator Gyroscope Based on Standing Wave Self-Precession",
+      "url": "https://doi.org/10.1109/jsen.2022.3181302",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2022_Online_Mode_Matching"
+      ],
+      "originalReadingClaim": "not_acquired",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W024",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/jsen.2022.3181302",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/jsen.2022.3181302 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/jsen.2026.3728523",
+      "title": "Asymmetric Phase-Delay Modeling and Online Compensation for Whole-Angle Micro-Hemispherical Resonator Gyroscopes. IEEE Sensors Journal, 2026",
+      "url": "https://doi.org/10.1109/jsen.2026.3728523",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:23"
+      ],
+      "originalReadingClaim": "元数据；2026-09-03注册；精确出版日及全文待复核",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W025",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/jsen.2026.3728523",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/jsen.2026.3728523 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/tii.2026.3698512",
+      "title": "A Novel Hybrid Mode for Hemispherical Resonator Gyroscope Inertial Navigation Systems: Principle and System-Level Calibration Method. IEEE TII, 2026-10卷",
+      "url": "https://doi.org/10.1109/tii.2026.3698512",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:21"
+      ],
+      "originalReadingClaim": "元数据/检索公开摘要；2026-06-26注册，卷期≠首次上线",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W026",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/tii.2026.3698512",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/tii.2026.3698512 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/tim.2025.3555670",
+      "title": "Separation, Identification, and Compensation of Damping, Detection, and Actuation Errors for Rate-Integrating Hemispherical Resonator Gyroscopes. IEEE TIM, 2025",
+      "url": "https://doi.org/10.1109/tim.2025.3555670",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:11",
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:118",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:44",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2025_Damping_Detection_Actuation"
+      ],
+      "originalReadingClaim": "元数据；全文方法/结果待精读",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W027",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/tim.2025.3555670",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/tim.2025.3555670 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/tim.2025.3586357",
+      "title": "Self-Calibration Method for Phase Errors in Hemispherical Resonator Gyroscopes Based on Virtual Precession. IEEE TIM, 75, 9503212, 2026.",
+      "url": "https://doi.org/10.1109/tim.2025.3586357",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:123"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W028",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/tim.2025.3586357",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/tim.2025.3586357 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/tim.2025.3650265",
+      "title": "Real-Time Elimination of Harmonic Drift for Hemispherical Resonator Gyro Based on FRP Control Scheme. IEEE TIM, 2026",
+      "url": "https://doi.org/10.1109/tim.2025.3650265",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:10",
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:111"
+      ],
+      "originalReadingClaim": "本地PDF前3/末2页+出版社登记；PDF注明2026-01-02出版",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L039",
+      "id": "W029",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.1109/tim.2026.3667313",
+      "title": "Identification and Compensation of Detection Electrode Errors in Hemispherical Resonator Gyroscopes via Bidirectional Turntable Rotations. IEEE TIM, 2026",
+      "url": "https://doi.org/10.1109/tim.2026.3667313",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:19",
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:125"
+      ],
+      "originalReadingClaim": "元数据；2026-02-23注册",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W030",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/tim.2026.3667313",
+          "status": "verification_page",
+          "note": "# JavaScript is disabled"
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/tim.2026.3674286",
+      "title": "Modeling, Decoupling Identification, and Compensation of Imbalance Errors for Whole-Angle Hemispherical Resonator Gyroscopes. IEEE TIM, 2026",
+      "url": "https://doi.org/10.1109/tim.2026.3674286",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:18"
+      ],
+      "originalReadingClaim": "元数据；2026-03-16注册，不冒充出版日",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W031",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/tim.2026.3674286",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/tim.2026.3674286 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/tim.2026.3682829",
+      "title": "Modeling, Characterization, and Compensation of Detection Errors for Differential Frequency Modulation Whole-Angle Hemispherical Resonator Gyroscope. IEEE TIM, 2026",
+      "url": "https://doi.org/10.1109/tim.2026.3682829",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:24"
+      ],
+      "originalReadingClaim": "元数据；调频路线，不能强认全部HRG适用",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W032",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/tim.2026.3682829",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/tim.2026.3682829 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1109/tim.2026.3704236",
+      "title": "Modeling, Identifying, and Ultrahigh-Precision Trimming of Mass Imperfection in Hemispherical Resonator. IEEE TIM, 2026",
+      "url": "https://doi.org/10.1109/tim.2026.3704236",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:25"
+      ],
+      "originalReadingClaim": "元数据，质量缺陷修调，不误写成电极非线性",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W033",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.1109/tim.2026.3704236",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.1109/tim.2026.3704236 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.1186/s13638-021-01913-7",
+      "title": "1. WA 矢量合成控制：",
+      "url": "https://doi.org/10.1186/s13638-021-01913-7",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:60"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L064",
+      "id": "W034",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.11977/j.issn.1004-2474.2023.04.002",
+      "title": "关泽源等. 基于频率解调的半球谐振陀螺控制系统设计. 压电与声光, 45(4), 494–498, 2023.",
+      "url": "https://doi.org/10.11977/j.issn.1004-2474.2023.04.002",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:136"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L061",
+      "id": "W035",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.13695/j.cnki.12-1222/o3.2023.04.011",
+      "title": "蒋效雄等. 基于 RLS 算法的全角模式半球谐振陀螺自补偿控制. 中国惯性技术学报, 31(4), 401–406, 2023.",
+      "url": "https://doi.org/10.13695/j.cnki.12-1222/o3.2023.04.011",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:135"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L059",
+      "id": "W036",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.17632/t979rtsdsv.1",
+      "title": "Chen W. HRG simulation, experimental and analysis data, version 1. Mendeley Data, 2026.",
+      "url": "https://doi.org/10.17632/t979rtsdsv.1",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:132"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W037",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.17632/t979rtsdsv.1",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.17632/t979rtsdsv.1 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/act14060275",
+      "title": "Identification and Compensation of Detection Gain Asymmetry Errors for Hemispherical Resonant Gyroscopes in Whole-Angle Mode. Actuators, 2025-06-03",
+      "url": "https://doi.org/10.3390/act14060275",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:17",
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:48",
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2025_Detection_Gain_Asymmetry"
+      ],
+      "originalReadingClaim": "元数据/登记摘要",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W038",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.3390/act14060275",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.3390/act14060275 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/mi16030273",
+      "title": "Wang Q et al. A Novel Closed-Loop Single-Channel Time Division Multiplexing Detection Circuit for Hemispherical Resonator Gyroscope. Micromachines, 16, 273, 2025.",
+      "url": "https://doi.org/10.3390/mi16030273",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:116"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L038",
+      "id": "W039",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.3390/mi16030287",
+      "title": "9. 谐振子结构多目标优化：Micromachines 2025.",
+      "url": "https://doi.org/10.3390/mi16030287",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:52"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W040",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.3390/mi16030287",
+          "status": "429_rate_limited",
+          "note": "Failed to fetch https://doi.org/10.3390/mi16030287: (429) Too Many Requests"
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/mi16040357",
+      "title": "6. 温度偏置：Compensation of Temperature-Induced Bias Drift in HRGs. Micromachines 2025.",
+      "url": "https://doi.org/10.3390/mi16040357",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:49"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W041",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.3390/mi16040357",
+          "status": "403_forbidden",
+          "note": "Failed to fetch https://doi.org/10.3390/mi16040357: (429) Too Many Requests"
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/mi17010143",
+      "title": "Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resonator Gyroscope. Micromachines, 2026-01-22",
+      "url": "https://doi.org/10.3390/mi17010143",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md:15",
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:124"
+      ],
+      "originalReadingClaim": "出版社登记摘要，方位调制量化误差",
+      "level": "primary_sections",
+      "same": "从通道量化误差经解调/参数函数传播，与Jacobian方法一致",
+      "different": "原文§3/§5特别研究方位调制与相干量化；此前独立白噪声位数预算仅是条件近似",
+      "id": "W042",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.3390/s111211761",
+      "title": "3. FPGA FTR 控制和误差抑制：",
+      "url": "https://doi.org/10.3390/s111211761",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:62"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W043",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.3390/s111211761",
+          "status": "429_rate_limited",
+          "note": "Failed to fetch https://doi.org/10.3390/s111211761: (429) Too Many Requests"
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/s20123549",
+      "title": "W3 |  | 原始作者公开摘要，确认2f0参数激励是另一实现路线；未复现其稳定性阈值",
+      "url": "https://doi.org/10.3390/s20123549",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:25",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:220"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "primary_abstract",
+      "same": "已核验摘要说明非线性执行或参数激励属于相关路线",
+      "different": "未核验全文系数；位移相关驱动增益/2f0刚度调制不能等同当前线性f0驱动",
+      "id": "W044",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.3390/s22124334",
+      "title": "Automatic Rate and Rate-Integrating Mode-Switchable Axisymmetric Gyroscope",
+      "url": "https://doi.org/10.3390/s22124334",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2022_Mode_Switchable"
+      ],
+      "originalReadingClaim": "not_acquired",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W045",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.3390/s22124334",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.3390/s22124334 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/s25010074",
+      "title": "10. 能量耗散：Sensors 2025.",
+      "url": "https://doi.org/10.3390/s25010074",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:53"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W046",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.3390/s25010074",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.3390/s25010074 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/s25216639",
+      "title": "7. HRG-INS 角位置相关偏置：Sensors 2025.",
+      "url": "https://doi.org/10.3390/s25216639",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:50"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W047",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.3390/s25216639",
+          "status": "429_rate_limited",
+          "note": "Failed to fetch https://doi.org/10.3390/s25216639: (429) Too Many Requests"
+        }
+      ]
+    },
+    {
+      "key": "doi:10.3390/sym12050801",
+      "title": "Micromachined Rate-Integrating Gyroscopes: Concept, Asymmetry Error Sources and Phenomena",
+      "url": "https://doi.org/10.3390/sym12050801",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2020_RIG_Asymmetry",
+        "2026-10-23 primary search / whole-library screening"
+      ],
+      "originalReadingClaim": "not_acquired",
+      "level": "primary_sections",
+      "same": "理想/非理想二模态，分离刚度/阻尼误差逐项仿真",
+      "different": "平面MEMS结构与λ定义不同；与分层扫参方法相近，但不提供HRG电极SI预算",
+      "id": "W048",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "doi:10.7527/s1000-6893.2025.32079",
+      "title": "王瑞祺等. 全差分频率调制半球谐振陀螺装配误差辨识及补偿方法. 航空学报, 47(5), 332079, 2026.",
+      "url": "https://doi.org/10.7527/s1000-6893.2025.32079",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:133"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "primary_abstract_figures",
+      "same": "官方摘要建立装配倾斜/偏心→通道耦合→动态谐波的链条，与接口闭环思想一致",
+      "different": "原文采用差分调频、TDM和非线性联合辨识；RichHTML未提供正文公式，不能据摘要套用当前AM预算",
+      "id": "W049",
+      "accessChecks20261023": [
+        {
+          "url": "https://doi.org/10.7527/s1000-6893.2025.32079",
+          "status": "tool_fetch_failed",
+          "note": "URL https://doi.org/10.7527/s1000-6893.2025.32079 is not accessible via this tool."
+        }
+      ]
+    },
+    {
+      "key": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2022/09/dgon22_nonlinear_rig_sub.pdf",
+      "title": "Rate-Integrating Gyroscope Operation in The Non-Linear Regime",
+      "url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2022/09/DGON22_NonLinear_RIG_Sub.pdf",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2022_Nonlinear_RIG"
+      ],
+      "originalReadingClaim": "downloaded_verified",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L071",
+      "id": "W050",
+      "accessChecks20261023": [
+        {
+          "url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2022/09/DGON22_NonLinear_RIG_Sub.pdf",
+          "status": "timeout",
+          "note": "Failed to fetch https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2022/09/DGON22_NonLinear_RIG_Sub.pdf: (400) Timeout fetching"
+        }
+      ]
+    },
+    {
+      "key": "https://engineering.purdue.edu/oxidemems/conferences/transducers2011/pdfs/papers/07-085.pdf",
+      "title": "MEMS Rate and Rate-Integrating Gyroscope Control with Commercial Software Defined Radio Hardware",
+      "url": "https://engineering.purdue.edu/oxidemems/conferences/transducers2011/PDFs/Papers/07-085.pdf",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2011_MEMS_Rate_Control"
+      ],
+      "originalReadingClaim": "downloaded_verified",
+      "level": "local_sections",
+      "same": "见对应本地条目的具体推导比较",
+      "different": "本地原文已读范围见localId；不继承旧记录的全文阅读声称",
+      "localId": "L070",
+      "id": "W051",
+      "accessChecks20261023": [
+        {
+          "url": "https://engineering.purdue.edu/oxidemems/conferences/transducers2011/PDFs/Papers/07-085.pdf",
+          "status": "primary_content",
+          "note": "MEMS RATE AND RATE-INTEGRATING GYROSCOPE CONTROL WITH COMMERCIAL"
+        }
+      ]
+    },
+    {
+      "key": "https://ieeexplore.ieee.org/document/10938217",
+      "title": "Online Mode-Matching Method Countering Stiffness Nonlinearity for Whole-Angle Micro-Shell Resonator Gyroscope. IEEE Sensors Journal, 2025.",
+      "url": "https://ieeexplore.ieee.org/document/10938217",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:119"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W052",
+      "accessChecks20261023": [
+        {
+          "url": "https://ieeexplore.ieee.org/document/10938217",
+          "status": "verification_page",
+          "note": "# JavaScript is disabled"
+        }
+      ]
+    },
+    {
+      "key": "https://ieeexplore.ieee.org/document/11145770",
+      "title": "Zeng et al. 0.08 ppm 标度因数非线性 HRG 研究（条目主题简称；完整题名见 IEEE）. IEEE Electron Device Letters, 2025.",
+      "url": "https://ieeexplore.ieee.org/document/11145770",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:121"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W053",
+      "accessChecks20261023": [
+        {
+          "url": "https://ieeexplore.ieee.org/document/11145770",
+          "status": "verification_page",
+          "note": "# JavaScript is disabled"
+        }
+      ]
+    },
+    {
+      "key": "https://ieeexplore.ieee.org/document/11435219",
+      "title": "Modeling, Decoupling Identification, and Compensation of Imbalance Errors for Whole-Angle Hemispherical Resonator Gyroscopes. IEEE TIM, 2026.",
+      "url": "https://ieeexplore.ieee.org/document/11435219",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:126"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W054",
+      "accessChecks20261023": [
+        {
+          "url": "https://ieeexplore.ieee.org/document/11435219",
+          "status": "verification_page",
+          "note": "# JavaScript is disabled"
+        }
+      ]
+    },
+    {
+      "key": "https://ntrs.nasa.gov/api/citations/19960045774/downloads/19960045774.pdf",
+      "title": "1. NASA Hubble/HRG 项目材料：",
+      "url": "https://ntrs.nasa.gov/api/citations/19960045774/downloads/19960045774.pdf",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:68"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W055",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://ntrs.nasa.gov/api/citations/20130014073/downloads/20130014073.pdf",
+      "title": "2. NASA 航天器姿态与 HRG 模型：",
+      "url": "https://ntrs.nasa.gov/api/citations/20130014073/downloads/20130014073.pdf",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:69"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W056",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/cn112504258b/zh",
+      "title": "P2 |  | 权利要求1、7；式(1)–(8)。原始PDF21页，PDF4/权利要求3/4页的式(8)本轮渲染核实",
+      "url": "https://patents.google.com/patent/CN112504258B/zh",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:27",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:329"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W057",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/cn112506040a/en",
+      "title": "3. 单通道时分复用：",
+      "url": "https://patents.google.com/patent/CN112506040A/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:79",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:28",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:515"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W058",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/cn117029882b/zh",
+      "title": "4. 检测增益不对称 FTR 标定、WA 补偿：",
+      "url": "https://patents.google.com/patent/CN117029882B/zh",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:80"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W059",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/cn117170234a/en",
+      "title": "6. 全角鲁棒智能控制：",
+      "url": "https://patents.google.com/patent/CN117170234A/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:82"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W060",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/cn117346821a/en",
+      "title": "7. 全角驻波方位交替解算：",
+      "url": "https://patents.google.com/patent/CN117346821A/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:83"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W061",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/cn117705163a/zh",
+      "title": "P4 |  | 说明书S1–S4：转台、虚拟哥氏激励、静态测漂及分阶段标补；S2解释锁相目标值与真实谐振的区别",
+      "url": "https://patents.google.com/patent/CN117705163A/zh",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:29",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:511"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W062",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/cn120252671a/en",
+      "title": "5. FTR/WA 双模控制：",
+      "url": "https://patents.google.com/patent/CN120252671A/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:81"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W063",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/ep3059549b1/en",
+      "title": "9. 宽边缘谐振敏感结构：",
+      "url": "https://patents.google.com/patent/EP3059549B1/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:85"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W064",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/ep4328545b1/en",
+      "title": "8. 曲面支撑结构制造：",
+      "url": "https://patents.google.com/patent/EP4328545B1/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:84"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W065",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/ep4594706a1/en",
+      "title": "10. 新型谐振器附件：",
+      "url": "https://patents.google.com/patent/EP4594706A1/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:86"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W066",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/us20160334214a1/en",
+      "title": "2. Mitsubishi 多电极 HRG：",
+      "url": "https://patents.google.com/patent/US20160334214A1/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:78"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W067",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://patents.google.com/patent/us7318347b2/en",
+      "title": "1. WA/FTR 经典控制：",
+      "url": "https://patents.google.com/patent/US7318347B2/en",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:77",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md:26",
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:84"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "patent_record",
+      "same": "公开专利条目按控制、校准或结构路线登记",
+      "different": "未读权利要求/说明书的条目不判定公式等价、创新性或已实现；详读条目见本地表",
+      "id": "W068",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://pmc.ncbi.nlm.nih.gov/articles/pmc4851069",
+      "title": "4. 两件式 HRG 数字控制器：",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4851069",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:63"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W069",
+      "accessChecks20261023": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4851069",
+          "status": "tool_fetch_failed",
+          "note": "Failed to fetch https://pmc.ncbi.nlm.nih.gov/articles/PMC4851069: Cache miss"
+        }
+      ]
+    },
+    {
+      "key": "https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download",
+      "title": "Interface Circuits for Readout and Control of a Micro-hemispherical Resonating Gyroscope",
+      "url": "https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#Interface_Circuits_uHRG_Thesis"
+      ],
+      "originalReadingClaim": "not_acquired",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W070",
+      "accessChecks20261023": [
+        {
+          "url": "https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download",
+          "status": "403_forbidden",
+          "note": "Failed to fetch https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download: (403) Forbidden"
+        },
+        {
+          "url": "https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download",
+          "status": "403_forbidden",
+          "note": "Public repository PDF entry returned Forbidden; no full text obtained."
+        }
+      ]
+    },
+    {
+      "key": "https://www.analog.com/media/en/training-seminars/tutorials/mt-007.pdf",
+      "title": "ADI MT-007：孔径时间、固定延迟与随机抖动",
+      "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-007.pdf",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:393"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W071",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://www.analog.com/media/en/training-seminars/tutorials/mt-229.pdf",
+      "title": "ADI MT-229：理想ADC量化噪声推导",
+      "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-229.pdf",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md:376"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W072",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://www.safran-group.com/news/safrans-hrg-crystaltm-and-onyxtm-revolution-high-performance-naval-inertial-reference-systems-2018-10-23",
+      "title": "5. Safran HRG Crystal/Onyx：",
+      "url": "https://www.safran-group.com/news/safrans-hrg-crystaltm-and-onyxtm-revolution-high-performance-naval-inertial-reference-systems-2018-10-23",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:72"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W073",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://www.safran-group.com/pressroom/safrans-spacenaute-navigation-system-chosen-new-ariane-6-launch-vehicle-2016-11-30",
+      "title": "6. Ariane 6 采用 SpaceNaute：",
+      "url": "https://www.safran-group.com/pressroom/safrans-spacenaute-navigation-system-chosen-new-ariane-6-launch-vehicle-2016-11-30",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:73"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W074",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://www.safran-group.com/products-services/skynaute",
+      "title": "4. Safran SkyNaute：",
+      "url": "https://www.safran-group.com/products-services/skynaute",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:71"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W075",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://www.safran-group.com/products-services/spacenaute",
+      "title": "3. Safran SpaceNaute：",
+      "url": "https://www.safran-group.com/products-services/spacenaute",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:70"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W076",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://www.sciencedirect.com/science/article/abs/pii/s0263224124019286",
+      "title": "Self-calibration for phase shift in Coriolis vibratory gyroscope with whole-angle mode operation. Measurement.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263224124019286",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:144"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W077",
+      "accessChecks20261023": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263224124019286",
+          "status": "403_forbidden",
+          "note": "Failed to fetch https://www.sciencedirect.com/science/article/abs/pii/S0263224124019286: (403) Forbidden"
+        }
+      ]
+    },
+    {
+      "key": "https://www.sciencedirect.com/science/article/abs/pii/s1270963826021589",
+      "title": "Chen W et al. Dynamical analysis and unified calibration of assembly and nonlinearity errors for rate-integrating micro hemispherical gyroscope. Aerospace Science and Technology, 2026.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1270963826021589",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md:131"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W078",
+      "accessChecks20261023": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1270963826021589",
+          "status": "403_forbidden",
+          "note": "Failed to fetch https://www.sciencedirect.com/science/article/abs/pii/S1270963826021589: (403) Forbidden"
+        }
+      ]
+    },
+    {
+      "key": "https://www.univelt.com/book%3d1438",
+      "title": "5. HRG 历史和空间应用：Rozelle, *From Wineglass to the Planets*.",
+      "url": "https://www.univelt.com/book%3D1438",
+      "discoveryRecords": [
+        "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md:64"
+      ],
+      "originalReadingClaim": "既往检索记录；正文推导未在本轮核验",
+      "level": "background_or_tutorial",
+      "same": "产品/原理/转换器基础参考",
+      "different": "不是独立完整WA推导；不能用作本项目性能证据",
+      "id": "W079",
+      "accessChecks20261023": []
+    },
+    {
+      "key": "https://www.webofscience.com/wos/woscc/full-record/wos:000393179500417",
+      "title": "Control Scheme and Error Suppression Method for Micro Rate Integrating Gyroscopes",
+      "url": "https://www.webofscience.com/wos/woscc/full-record/WOS:000393179500417",
+      "discoveryRecords": [
+        "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/catalog.json#2016_Control_Scheme_Error_Suppression"
+      ],
+      "originalReadingClaim": "not_acquired",
+      "level": "pending_fulltext",
+      "same": "题录已覆盖；尚不能判定具体推导与项目等价",
+      "different": "未核验正文的公式、系数、实验条件，不根据题目补写方法",
+      "id": "W080",
+      "accessChecks20261023": [
+        {
+          "url": "https://www.webofscience.com/wos/woscc/full-record/WOS:000393179500417",
+          "status": "tool_fetch_failed",
+          "note": "URL https://www.webofscience.com/wos/woscc/full-record/WOS%3A000393179500417 is not accessible via this tool."
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "C:/Users/11725/Desktop/HRG_WA/研究规划与论文路线_20261010/08_参考文献与检索记录.md": "13c6f02243bf4f51de9076a45732c73e14d4b879754165716b9e9298c4586711",
+    "C:/Users/11725/Desktop/HRG_WA/02_最新技术进展与文献对照_20261010.md": "925d216a4f6032ed598803e176f980fe82468af44b7778ac608e4dd47f08b01c",
+    "D:/学习资料/资料/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+    "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md": "7f840b0139a805e13da606bbd02519bfdcfa32226b83730b1a63278d14564304",
+    "C:/Users/11725/Desktop/HRG_WA/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md": "8dce4b8c3edc326f7aeadccdd31cafb5b390130510ce2fcda02971d8bed7828d",
+    "local_inventory.json": "f5a33cbc9c0134a15c256e1484fe288afa19d6967f748a44af3cd4d10ec0d57d",
+    "method_notes.tsv": "59ae2ab3c2d3011e0772c276b6e369489db9811bebc7b3a3def625efbbcd0e13",
+    "network_access_checks.json": "73b36851a553e185a6f0822d4837532a6b963c4612a7a27f4faefa4281bb45b7"
+  }
+}

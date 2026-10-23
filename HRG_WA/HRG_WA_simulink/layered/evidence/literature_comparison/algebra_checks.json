@@ -1,0 +1,21 @@
+{
+  "localObjects": 73,
+  "onlineRecords": 80,
+  "checks": [
+    "all local PDF hashes unchanged",
+    "unique byte/online identity",
+    "four specified references present",
+    "modal angle and Coriolis factor mapping",
+    "continuous azimuth derivative",
+    "PI harmonic residual",
+    "PIR local frequency-response limit",
+    "three printed-equation counterexamples"
+  ],
+  "recoveredAzimuthRate": -0.47,
+  "piUnitPlantResidual": 0.5502734850987508,
+  "pirFrequencyResponseErrors": [
+    0.003195795872790491,
+    3.199995839490504e-06
+  ],
+  "limitations": "Algebra and provenance only; no new Simulink, RTL, empirical paper replication, or silicon qualification"
+}

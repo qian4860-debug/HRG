@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "simple skill frontmatter",
+    "all new routes resolve",
+    "full gzip SHA256",
+    "unique relative paths and exact counts",
+    "four source registrations and original PDF bytes",
+    "installed comparison equals project comparison"
+  ],
+  "counts": {
+    "directory": 8577,
+    "file": 46213
+  },
+  "officialValidator": "Unavailable: PyYAML is not installed; no claim of quick_validate.py passing"
+}
