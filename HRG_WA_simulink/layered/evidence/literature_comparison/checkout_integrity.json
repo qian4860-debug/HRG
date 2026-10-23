@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-23",
+  "protectedReviewCommit": "65570967f6548769e8985ee9d0f8ecd0453865e0",
+  "protectedManifestSHA256": "aab1afb093345c8be8a780d618a6889231dfaed760993b2780713cb3ac40900a",
+  "all18SealedFilesMatchCommittedBytes": true,
+  "checkoutDependencies": {
+    "tools/.gitattributes": "5e725e2f37f845a819d0c461c4414b8f500974c49b4dc9bec85b5b5efb7dc31e",
+    "HRG_WA_simulink/layered/docs/.gitattributes": "d66e00b7f06da6d17bac06250ce05e6570b36c67e205ad82cfae985569bbc677"
+  },
+  "purpose": "Pin LF for the two new HTML/JS files; preserve the original review manifest and all previously accepted bytes"
+}
