@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "skill": "C:/Users/11725/.codex/skills/ic-reference-library",
+  "localCommit": "e4ad338cb855e35d0919c3e3ae246b37354a34b0",
+  "localOnly": true,
+  "preexistingCatalogEditsPreserved": true,
+  "fullIndexCounts": {
+    "files": 46213,
+    "directories": 8577,
+    "traversalErrors": 0,
+    "pdfs": 1054
+  },
+  "installedHashes": {
+    "SKILL.md": "7f95c2bb0658ceedc0ba7a0100bc7c9b10c2bc3eaa0d4763292ce94f3643d4d4",
+    "references/catalog.json": "e5d89ead8d589f59116de18038c86322be95891706ad0f90a4ef88b31ac868de",
+    "references/catalog.md": "909e8e9258e736d57c4b0be264c9e6651c82993205f32909a4a22b171a8d9741",
+    "references/full-library.md": "59a3527a4ef9cc14e6b341fd171be8dda9e7c67a77823bc03b1b3b021b1f64ae",
+    "references/hrg-whole-angle.json": "0afa51c9e05d352015fc631ef8a99fdaba0387962ce1b7b9c05c9c06b8dcbc45",
+    "references/hrg-whole-angle.md": "b58c2352c34d82c6a64628a6481d05e78742a79bdfa8d2013b8d536f4402c6ad",
+    "scripts/index_reference_library.py": "1e0facf07af505756fcd0d0ba8d882f406ff179fcec7084ab0c07f0dcc8fe9e2",
+    "references/full-library/catalog_full.jsonl.gz": "6a9aa52d767a9412d5e9bbbfbb70a8ff66c18ee24dfa03d92015d5384864c100",
+    "references/full-library/catalog_full_summary.json": "eec30fc45ca3f205e22f28d13a3b6128f135e505a86ca9afedcb32295851ee67",
+    "references/full-library/pdf_front_screening.json": "ac36aef4242f639f32b1cc61cbb34c5110864f68ffaa41e8415786adf4a549d0"
+  },
+  "globalListingPolicy": "Full personal listing stays in the local skill repository, not HRG GitHub",
+  "originalSkillPrefixSHA256": "bb2916261a84ef1adc9d4c97e5b964d85cb012c0207627dc492e42f83e3fc59d"
+}

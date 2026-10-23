@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-23",
+  "scope": "Follow-up access checks for all 42 initially pending records; success at a landing page is not fulltext reading.",
+  "checks": [
+    {
+      "url": "https://doi.org/10.1007/s11071-026-12837-6",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1007/s11071-026-12837-6 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ast.2025.111283",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.ast.2025.111283 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijmecsci.2024.109912",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.ijmecsci.2024.109912 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijmecsci.2026.111465",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.ijmecsci.2026.111465 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.measurement.2024.114945",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.measurement.2024.114945 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.measurement.2024.115599",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.measurement.2024.115599 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.measurement.2026.121170",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.measurement.2026.121170 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.sna.2025.116976",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.sna.2025.116976 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ymssp.2025.113228",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.ymssp.2025.113228 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ymssp.2026.114724",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1016/j.ymssp.2026.114724 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1038/s41378-025-00872-z",
+      "status": "primary_content",
+      "note": "  * 【0†View all journals】"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41378-026-01203-6",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1038/s41378-026-01203-6 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1063/5.0268634",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1063/5.0268634 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/isiss.2015.7102360",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/isiss.2015.7102360 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/jsen.2022.3181302",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/jsen.2022.3181302 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/jsen.2026.3728523",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/jsen.2026.3728523 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/tii.2026.3698512",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/tii.2026.3698512 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/tim.2025.3555670",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/tim.2025.3555670 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/tim.2025.3586357",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/tim.2025.3586357 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/tim.2026.3667313",
+      "status": "verification_page",
+      "note": "# JavaScript is disabled"
+    },
+    {
+      "url": "https://doi.org/10.1109/tim.2026.3674286",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/tim.2026.3674286 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/tim.2026.3682829",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/tim.2026.3682829 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1109/tim.2026.3704236",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.1109/tim.2026.3704236 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.17632/t979rtsdsv.1",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.17632/t979rtsdsv.1 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.3390/act14060275",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.3390/act14060275 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.3390/mi16030287",
+      "status": "429_rate_limited",
+      "note": "Failed to fetch https://doi.org/10.3390/mi16030287: (429) Too Many Requests"
+    },
+    {
+      "url": "https://doi.org/10.3390/mi16040357",
+      "status": "403_forbidden",
+      "note": "Failed to fetch https://doi.org/10.3390/mi16040357: (429) Too Many Requests"
+    },
+    {
+      "url": "https://doi.org/10.3390/s111211761",
+      "status": "429_rate_limited",
+      "note": "Failed to fetch https://doi.org/10.3390/s111211761: (429) Too Many Requests"
+    },
+    {
+      "url": "https://doi.org/10.3390/s22124334",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.3390/s22124334 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.3390/s25010074",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.3390/s25010074 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.3390/s25216639",
+      "status": "429_rate_limited",
+      "note": "Failed to fetch https://doi.org/10.3390/s25216639: (429) Too Many Requests"
+    },
+    {
+      "url": "https://doi.org/10.7527/s1000-6893.2025.32079",
+      "status": "tool_fetch_failed",
+      "note": "URL https://doi.org/10.7527/s1000-6893.2025.32079 is not accessible via this tool."
+    },
+    {
+      "url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2022/09/DGON22_NonLinear_RIG_Sub.pdf",
+      "status": "timeout",
+      "note": "Failed to fetch https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2022/09/DGON22_NonLinear_RIG_Sub.pdf: (400) Timeout fetching"
+    },
+    {
+      "url": "https://engineering.purdue.edu/oxidemems/conferences/transducers2011/PDFs/Papers/07-085.pdf",
+      "status": "primary_content",
+      "note": "MEMS RATE AND RATE-INTEGRATING GYROSCOPE CONTROL WITH COMMERCIAL"
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/10938217",
+      "status": "verification_page",
+      "note": "# JavaScript is disabled"
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/11145770",
+      "status": "verification_page",
+      "note": "# JavaScript is disabled"
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/11435219",
+      "status": "verification_page",
+      "note": "# JavaScript is disabled"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4851069",
+      "status": "tool_fetch_failed",
+      "note": "Failed to fetch https://pmc.ncbi.nlm.nih.gov/articles/PMC4851069: Cache miss"
+    },
+    {
+      "url": "https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download",
+      "status": "403_forbidden",
+      "note": "Failed to fetch https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download: (403) Forbidden"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263224124019286",
+      "status": "403_forbidden",
+      "note": "Failed to fetch https://www.sciencedirect.com/science/article/abs/pii/S0263224124019286: (403) Forbidden"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1270963826021589",
+      "status": "403_forbidden",
+      "note": "Failed to fetch https://www.sciencedirect.com/science/article/abs/pii/S1270963826021589: (403) Forbidden"
+    },
+    {
+      "url": "https://www.webofscience.com/wos/woscc/full-record/WOS:000393179500417",
+      "status": "tool_fetch_failed",
+      "note": "URL https://www.webofscience.com/wos/woscc/full-record/WOS%3A000393179500417 is not accessible via this tool."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s11071-026-12837-6",
+      "status": "publisher_abstract_subscription_preview",
+      "note": "Read abstract; equivalent transformation/superposition under oscillatory rotation. Full text requires subscription."
+    },
+    {
+      "url": "https://www.mdpi.com/2076-0825/14/6/275/html",
+      "status": "tool_fetch_failed",
+      "note": "HTML and PDF alternate entries not accessible via this tool."
+    },
+    {
+      "url": "https://hkxb.buaa.edu.cn/CN/10.7527/S1000-6893.2025.32079",
+      "status": "publisher_abstract_figures_tables",
+      "note": "Read assembly tilt/eccentricity, channel coupling, nonlinear identification abstract and displayed figures/tables; RichHTML did not expose body equations."
+    },
+    {
+      "url": "https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download",
+      "status": "403_forbidden",
+      "note": "Public repository PDF entry returned Forbidden; no full text obtained."
+    }
+  ]
+}
