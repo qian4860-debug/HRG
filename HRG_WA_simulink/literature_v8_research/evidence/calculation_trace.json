@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-24",
+  "status": "Unmeasured design examples, not silicon requirements",
+  "inputProfile": "../literature_v7/profile.json",
+  "trace": [
+    {
+      "name": "omega",
+      "formula": "2*pi*f0",
+      "substitution": "2*pi*5000",
+      "value": 31415.926535897932,
+      "unit": "rad/s"
+    },
+    {
+      "name": "gamma",
+      "formula": "omega/(2*Q)",
+      "substitution": "31415.9265/(2*2000000)",
+      "value": 0.007853981633974483,
+      "unit": "1/s"
+    },
+    {
+      "name": "modal_stiffness",
+      "formula": "m*omega^2",
+      "substitution": "1e-6*(31415.9265)^2",
+      "value": 986.9604401089359,
+      "unit": "N/m"
+    },
+    {
+      "name": "mechanical_energy",
+      "formula": "m*omega^2*A^2/2",
+      "substitution": "1e-6*31415.9265^2*(1e-7)^2/2",
+      "value": 4.93480220054468e-12,
+      "unit": "J"
+    },
+    {
+      "name": "hold_force",
+      "formula": "m*omega^2*A/Q",
+      "substitution": "986.96044*1e-7/2000000",
+      "value": 4.9348022005446795e-11,
+      "unit": "N"
+    },
+    {
+      "name": "hold_voltage",
+      "formula": "Fhold/kF",
+      "substitution": "4.9348022005446795e-11/1e-7",
+      "value": 0.0004934802200544679,
+      "unit": "V"
+    },
+    {
+      "name": "ideal_resonant_start_force",
+      "formula": "2*m*omega*gamma*A/(1-exp(-gamma*tb))",
+      "substitution": "2*1e-6*31415.926535897932*0.007853981633974483*1e-7/(1-exp(-0.007853981633974483*0.1))",
+      "value": 6.285653031261904e-08,
+      "unit": "N"
+    },
+    {
+      "name": "ideal_start_voltage",
+      "formula": "Fstart/kF",
+      "substitution": "6.285653031261904e-08/1e-7",
+      "value": 0.6285653031261904,
+      "unit": "V"
+    },
+    {
+      "name": "capacitance_half_difference",
+      "formula": "C0*A/g",
+      "substitution": "1e-12*1e-7/5e-6",
+      "value": 1.9999999999999997e-14,
+      "unit": "F"
+    },
+    {
+      "name": "sense_current",
+      "formula": "Vb*omega*Cpk",
+      "substitution": "10*31415.926535897932*1.9999999999999997e-14",
+      "value": 6.283185307179586e-09,
+      "unit": "A"
+    },
+    {
+      "name": "ADC_peak_voltage",
+      "formula": "Ipk*abs(Zf)*G*abs(Hafe)",
+      "substitution": "6.283185307179586e-09*31814875.094938613*1*0.9374768850453477",
+      "value": 0.18740046286145592,
+      "unit": "V peak"
+    },
+    {
+      "name": "total_input_noise_allowance",
+      "formula": "2*B*Vpk*sigma_psi/sqrt(2*Be)",
+      "substitution": "2*0.277*0.18740046286145592*1e-6/sqrt(200)",
+      "value": 7.341172450010561e-09,
+      "unit": "V/sqrt(Hz)"
+    },
+    {
+      "name": "AFE_noise_at_ADC",
+      "formula": "sqrt((NG*en)^2+|Z|^2*(in^2+4*kT/Rf))*G*|Hafe|",
+      "substitution": "3.439252806349058e-07*0.9374768850453477",
+      "value": 3.224220007779585e-07,
+      "unit": "V/sqrt(Hz)"
+    },
+    {
+      "name": "ADC_quantizer_ASD",
+      "formula": "(2*VFS/2^N)/sqrt(6*fs)",
+      "substitution": "(4/2^18)/sqrt(6*40000)",
+      "value": 3.114687274657158e-08,
+      "unit": "V/sqrt(Hz)"
+    },
+    {
+      "name": "ADC_white_angle_RMS",
+      "formula": "Delta/(2*B*Vpk)*sqrt(Be/(3*fs))",
+      "substitution": "(4/2^18)/(2*0.277*0.18740046286145592)*sqrt(100/120000)",
+      "value": 4.242765438172859e-06,
+      "unit": "rad"
+    },
+    {
+      "name": "ideal_ADC_bits_for_full_noise_allowance",
+      "formula": "ceil(log2(2*VFS/(2*B*Vpk*sigma)*sqrt(Be/(3*fs))))",
+      "substitution": "ceil(log2(4/(2*0.277*0.18740046286145592*1e-6)*sqrt(100/120000)))",
+      "value": 21.0,
+      "unit": "ideal bits"
+    },
+    {
+      "name": "peak_differential_gain_residual",
+      "formula": "4*B*psi_peak",
+      "substitution": "4*.277*1e-6",
+      "value": 1.108e-06,
+      "unit": "relative"
+    },
+    {
+      "name": "damping_lock_threshold",
+      "formula": "abs(dgamma)/(4*B)",
+      "substitution": "0.00025/(4*.277)*180/pi*3600",
+      "value": 46.5398931062943,
+      "unit": "deg/h"
+    },
+    {
+      "name": "digital_chain_ENBW",
+      "formula": "fsADC/2 * sum(h_equivalent^2)",
+      "substitution": "40000/2 * 0.005416907817322533",
+      "value": 108.33815634645066,
+      "unit": "Hz; full-window white demodulated input"
+    },
+    {
+      "name": "chain_group_delay",
+      "formula": "CIC+FIR+registers+converters",
+      "substitution": "0.0014625+0.002+0.004+0.0000625",
+      "value": 0.0075250000000000004,
+      "unit": "s"
+    },
+    {
+      "name": "delay_30deg_crossover_bound",
+      "formula": "1/(12*tau)",
+      "substitution": "1/(12*0.0075250000000000004)",
+      "value": 11.074197120708748,
+      "unit": "Hz"
+    },
+    {
+      "name": "energy_Kp",
+      "formula": "zeta*wn/E0",
+      "substitution": ".8*(2*pi*.8)/1",
+      "value": 4.0212385965949355,
+      "unit": "1/s"
+    },
+    {
+      "name": "energy_Ki",
+      "formula": "wn^2/(2*E0)",
+      "substitution": "(2*pi*.8)^2/2",
+      "value": 12.633093633394378,
+      "unit": "1/s^2"
+    },
+    {
+      "name": "energy_crossover",
+      "formula": "sqrt((a^2+sqrt(a^4+4*b^2))/2)",
+      "substitution": "a=8.042477193189871,b=25.266187266788755",
+      "value": 1.3633641310440305,
+      "unit": "Hz"
+    },
+    {
+      "name": "energy_PI_delay_phase_margin",
+      "formula": "90deg-atan(Ki/(Kp*wc))-wc*tau",
+      "substitution": "90-atan(12.633093633394378/(4.0212385965949355*8.566269476511517))*180/pi-8.566269476511517*0.0075250000000000004*180/pi",
+      "value": 66.1666454651541,
+      "unit": "deg; low-frequency approximation"
+    },
+    {
+      "name": "third_harmonic_at_ADC",
+      "formula": "rho^2/4 * |3Z(3w)H(3w)/(Z(w)H(w))|",
+      "substitution": ".02^2/4*0.6558601008269281",
+      "value": 6.558601008269281e-05,
+      "unit": "relative peak, cubic approximation"
+    },
+    {
+      "name": "third_harmonic_voltage",
+      "formula": "V1*ratio3",
+      "substitution": "0.18740046286145592*6.558601008269281e-05",
+      "value": 1.2290848646732748e-05,
+      "unit": "V peak"
+    },
+    {
+      "name": "DAC_hold_peak_codes",
+      "formula": "Vhold/(2*VFS/2^N)",
+      "substitution": "0.0004934802200544679/(4/2^16)",
+      "value": 8.085179925372403,
+      "unit": "codes"
+    },
+    {
+      "name": "AFE_equivalent_angle_RMS",
+      "formula": "eAFE*sqrt(2*Be)/(2*B*Vpk)",
+      "substitution": "3.224220007779585e-07*sqrt(200)/(2*0.277*0.18740046286145592)",
+      "value": 4.391968762121841e-05,
+      "unit": "rad; approximate white narrowband"
+    },
+    {
+      "name": "input_current_full_allowance",
+      "formula": "e_allow/(|Z|*G*|Hafe|)",
+      "substitution": "7.341172450010561e-09/(31814875.094938613*0.9374768850453477)",
+      "value": 2.4613571477397353e-16,
+      "unit": "A/sqrt(Hz); all noise assigned to current alone"
+    },
+    {
+      "name": "Rf_thermal_lower_bound",
+      "formula": "4*kT/i_allow^2",
+      "substitution": "4*4.1164049935e-21/(2.4613571477397353e-16)^2",
+      "value": 271787085907.96805,
+      "unit": "ohm; noise bound only, not practical R selection"
+    },
+    {
+      "name": "RK4_numerical_damping_fraction",
+      "formula": "-fs*ln(abs(P4(j*w/fs)))/gamma",
+      "substitution": "-800000*ln(abs(P4(j*31415.926535897932/800000)))/0.007853981633974483",
+      "value": 0.0025936702501937396,
+      "unit": "relative; ideal undamped carrier"
+    }
+  ],
+  "ring": {
+    "radiusM": 0.01,
+    "thicknessM": 0.0001,
+    "widthM": 0.001,
+    "youngPa": 72000000000.0,
+    "densityKgM3": 2200,
+    "modalMassKg": 8.63937979737193e-06,
+    "modalStiffnessNPerM": 169.64600329384885,
+    "frequencyHz": 705.2622927088411,
+    "modalAngularGain": 0.8,
+    "physicalBryan": 0.4,
+    "boundary": "Inextensible slender free ring for calculation teaching; not the project HRG head"
+  }
+}
