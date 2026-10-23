@@ -1,0 +1,763 @@
+{
+  "date": "2026-10-23",
+  "unitPass": true,
+  "cases": [
+    {
+      "name": "continuous",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.17323234841856563,
+          "peakDeg": 0.17391918973595835,
+          "endpointDeg": -0.17391918973595835,
+          "steadyIncrementPeakDeg": 0.0012150859846477746
+        },
+        "rate": {
+          "meanErrorDegS": -0.034156042250317688,
+          "residualStdDegS": 0.019675005210226543,
+          "rmsErrorDegS": 0.039417522147237115,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0029647953648239797,
+          "relativeMean": 0.0029374995943788592,
+          "mechanicalRelativeRms": 0.0017045678975344653
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.001577613940642338,
+          "minorMajorRatioRms": 0.0007888074737077463,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.0055041626176583836,
+          "phasePeakRad": 0.0064577956758031458,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.001020159410187166,
+          "physicalMeanFrequencyErrorHz": 0.010302709544270355,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17864377923589095,
+              "headroomFraction": 0.91067811038205448,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.052949225298030367,
+              "headroomFraction": 0.97352538735098482,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19019224846413704,
+              "headroomFraction": 0.89433763974214608,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.050649153050069964,
+              "headroomFraction": 0.97186158163885006,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1,
+              "headroomFraction": 0.95,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.012910842895507812,
+              "headroomFraction": 0.99354457855224609,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.013082742691040039,
+              "headroomFraction": 0.99345862865448,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.89433763974214608,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "finite": true
+    },
+    {
+      "name": "switched",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.18047234941513959,
+          "peakDeg": 0.18116254863574668,
+          "endpointDeg": -0.17937988682389508,
+          "steadyIncrementPeakDeg": 0.001794433543540447
+        },
+        "rate": {
+          "meanErrorDegS": 0.059950095322086533,
+          "residualStdDegS": 0.0506238703780231,
+          "rmsErrorDegS": 0.078465216377565317,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0031083282728899386,
+          "relativeMean": 0.0030835148472137404,
+          "mechanicalRelativeRms": 0.0018604068209639637
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0016861820160629967,
+          "minorMajorRatioRms": 0.0008430916309302099,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.0053077474443875717,
+          "phasePeakRad": 0.0062934842522952414,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0010643494668994852,
+          "physicalMeanFrequencyErrorHz": 0.010745973216032852,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17998245918931755,
+              "headroomFraction": 0.91000877040534123,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.28304221848647482,
+              "headroomFraction": 0.85847889075676265,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19021227442512892,
+              "headroomFraction": 0.8943265142082617,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.27094268160038942,
+              "headroomFraction": 0.8494762879997837,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.0585834980010986,
+              "headroomFraction": 0.94707082509994511,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.013978958129882812,
+              "headroomFraction": 0.99301052093505859,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.0090427398681640625,
+              "headroomFraction": 0.995478630065918,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.8494762879997837,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "finite": true
+    },
+    {
+      "name": "tia",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.17446010822796942,
+          "peakDeg": 0.17506121362659768,
+          "endpointDeg": -0.17506121362659768,
+          "steadyIncrementPeakDeg": 0.0011800501198480397
+        },
+        "rate": {
+          "meanErrorDegS": -0.030739621925659318,
+          "residualStdDegS": 0.030472991741196772,
+          "rmsErrorDegS": 0.043284264829052163,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0029958591672952757,
+          "relativeMean": 0.0029692610537109918,
+          "mechanicalRelativeRms": 0.0017263550188568776
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0015510046111156207,
+          "minorMajorRatioRms": 0.00077550278467528023,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.0056094028115697952,
+          "phasePeakRad": 0.006565407871150777,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0010108533417206344,
+          "physicalMeanFrequencyErrorHz": 0.010213051580893492,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.18084205975285511,
+              "headroomFraction": 0.90957897012357247,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.053490083072447431,
+              "headroomFraction": 0.9732549584637763,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.41181774114127867,
+              "headroomFraction": 0.771212366032623,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.05113729177264735,
+              "headroomFraction": 0.97159039345964038,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1,
+              "headroomFraction": 0.95,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.012757062911987305,
+              "headroomFraction": 0.99362146854400635,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.024918794631958008,
+              "headroomFraction": 0.987540602684021,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.771212366032623,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "finite": true
+    },
+    {
+      "name": "electrostatic",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.75,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.75,
+        "recordDurationS": 1.5,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 751,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.14879181887004683,
+          "peakDeg": 0.17646581376591275,
+          "endpointDeg": -0.11157242204495064,
+          "steadyIncrementPeakDeg": 0.06457797877164892
+        },
+        "rate": {
+          "meanErrorDegS": 0.085968736227104145,
+          "residualStdDegS": 0.054238748531520595,
+          "rmsErrorDegS": 0.10164873560822554,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.00022248653119774696,
+          "relativeMean": -4.8088189649517483E-5,
+          "mechanicalRelativeRms": 0.00053536781475510282
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0011102742782441962,
+          "minorMajorRatioRms": 0.00055513733524713792,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.010491147823090423,
+          "phasePeakRad": 0.0359619872645188,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.03111410910674486,
+          "physicalMeanFrequencyErrorHz": 0.0074892367986589062,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.18718141482010869,
+              "headroomFraction": 0.90640929258994563,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.052947688553172639,
+              "headroomFraction": 0.97352615572341372,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19432440025178557,
+              "headroomFraction": 0.89204199986011912,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.050527035237682635,
+              "headroomFraction": 0.97192942486795408,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1,
+              "headroomFraction": 0.95,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.026139736175537109,
+              "headroomFraction": 0.98693013191223145,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.58090877532958984,
+              "headroomFraction": 0.70954561233520508,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.70954561233520508,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "finite": true
+    },
+    {
+      "name": "zero_state_startup",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 1,
+          "holdS": 0.05,
+          "buildTolerance": 0.05,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 1,
+        "recordDurationS": 2,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 1001,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.043000000000000003,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0,
+          "peakDeg": 0,
+          "endpointDeg": 0,
+          "steadyIncrementPeakDeg": 0
+        },
+        "rate": {
+          "meanErrorDegS": 0,
+          "residualStdDegS": 0,
+          "rmsErrorDegS": 0,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "short_run_zero_input_mean_only",
+          "shortRunMeanDegS": 0,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.032609958160476626,
+          "relativeMean": 0.02132233755614223,
+          "mechanicalRelativeRms": 0.0315366485938078
+        },
+        "quadrature": {
+          "invariantRatioRms": 0,
+          "minorMajorRatioRms": 0,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 9.81641765072763E-6,
+          "phasePeakRad": 3.5297218063717661E-5,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 8.6812221032258057E-6,
+          "physicalMeanFrequencyErrorHz": -1.0100559375302994E-7,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "zero_energy_start_reached_from_seed",
+          "timeS": 0.69943125000000006,
+          "holdS": 0.05,
+          "relativeBand": 0.05
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.1903659297091107,
+              "headroomFraction": 0.90481703514544465,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.25914886305640372,
+              "headroomFraction": 0.87042556847179808,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.20223141335088457,
+              "headroomFraction": 0.88764921480506409,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.24812002379325879,
+              "headroomFraction": 0.86215554233707847,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.5742402076721191,
+              "headroomFraction": 0.921287989616394,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0,
+              "headroomFraction": 1,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.00019097328186035156,
+              "headroomFraction": 0.99990451335906982,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.86215554233707847,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true,
+          "build": true,
+          "shortRunZeroMean": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "finite": true
+    }
+  ],
+  "PI_PIR": {
+    "PI": {
+      "energyRms": 0.00033139561424189672,
+      "quadratureRms": 0.009584733621664206,
+      "recordS": 40,
+      "steadyStartS": 20,
+      "finite": true
+    },
+    "PIR": {
+      "energyRms": 0.00024979885784872665,
+      "quadratureRms": 0.0075444605673363838,
+      "recordS": 40,
+      "steadyStartS": 20,
+      "finite": true
+    },
+    "quadratureRatio": 0.78713304564706643,
+    "energyRatio": 0.75377840597006251
+  },
+  "scope": "short carrier runs plus 40s averaged comparison; no ARW, long-term bias, all-temperature or transistor signoff",
+  "functionalPass": true
+}

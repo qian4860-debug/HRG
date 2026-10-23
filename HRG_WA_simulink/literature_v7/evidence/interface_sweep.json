@@ -1,0 +1,4344 @@
+{
+  "cases": [
+    {
+      "name": "baseline",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.17323234841856563,
+          "peakDeg": 0.17391918973595835,
+          "endpointDeg": -0.17391918973595835,
+          "steadyIncrementPeakDeg": 0.0012150859846477746
+        },
+        "rate": {
+          "meanErrorDegS": -0.034156042250317688,
+          "residualStdDegS": 0.019675005210226543,
+          "rmsErrorDegS": 0.039417522147237115,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0029647953648239797,
+          "relativeMean": 0.0029374995943788592,
+          "mechanicalRelativeRms": 0.0017045678975344653
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.001577613940642338,
+          "minorMajorRatioRms": 0.0007888074737077463,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.0055041626176583836,
+          "phasePeakRad": 0.0064577956758031458,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.001020159410187166,
+          "physicalMeanFrequencyErrorHz": 0.010302709544270355,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17864377923589095,
+              "headroomFraction": 0.91067811038205448,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.052949225298030367,
+              "headroomFraction": 0.97352538735098482,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19019224846413704,
+              "headroomFraction": 0.89433763974214608,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.050649153050069964,
+              "headroomFraction": 0.97186158163885006,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1,
+              "headroomFraction": 0.95,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.012910842895507812,
+              "headroomFraction": 0.99354457855224609,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.013082742691040039,
+              "headroomFraction": 0.99345862865448,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.89433763974214608,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_1",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 0,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "continuous",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.22870711933343602,
+            1.0424393537121435
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "cv_pole_20pct_low",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.17598147422558164,
+          "peakDeg": 0.17770599940408055,
+          "endpointDeg": -0.17770599940408055,
+          "steadyIncrementPeakDeg": 0.0032356257003079382
+        },
+        "rate": {
+          "meanErrorDegS": -0.1028133554978977,
+          "residualStdDegS": 0.015943277910178171,
+          "rmsErrorDegS": 0.10404217500253571,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0066969985902988419,
+          "relativeMean": -0.0066794557008436738,
+          "mechanicalRelativeRms": 0.0077933586048757712
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0015798337142869563,
+          "minorMajorRatioRms": 0.00078991736258480106,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.019555507871395157,
+          "phasePeakRad": 0.024396814204543042,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0048527564953929382,
+          "physicalMeanFrequencyErrorHz": 0.049866918608768823,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17946515596017776,
+              "headroomFraction": 0.91026742201991118,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.055049383117255317,
+              "headroomFraction": 0.97247530844137231,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.189463807401449,
+              "headroomFraction": 0.89474232922141717,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.051929988750106994,
+              "headroomFraction": 0.97115000624994052,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.0232629776000977,
+              "headroomFraction": 0.94883685111999516,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.012892723083496094,
+              "headroomFraction": 0.993553638458252,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.063907861709594727,
+              "headroomFraction": 0.96804606914520264,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.89474232922141717,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_2",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 24000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 0,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "continuous",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.22870711933343602,
+            1.0424393537121435
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "adc_14_bits",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.17099948368585319,
+          "peakDeg": 0.17699786349423066,
+          "endpointDeg": -0.1716997435895333,
+          "steadyIncrementPeakDeg": 0.0068352344768311977
+        },
+        "rate": {
+          "meanErrorDegS": 0.077246479300247486,
+          "residualStdDegS": 0.76454197399287993,
+          "rmsErrorDegS": 0.768434413962059,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0029674220648067975,
+          "relativeMean": 0.0029438477300378703,
+          "mechanicalRelativeRms": 0.0017534583926345181
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0015688097526119608,
+          "minorMajorRatioRms": 0.00078440538054898865,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.0055173419374935778,
+          "phasePeakRad": 0.0065600111996774292,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0010126568970853936,
+          "physicalMeanFrequencyErrorHz": 0.010268429708073153,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17864833825967014,
+              "headroomFraction": 0.9106758308701649,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.052920233923835366,
+              "headroomFraction": 0.97353988303808237,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19019695605808187,
+              "headroomFraction": 0.89433502441217672,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.050649153059307929,
+              "headroomFraction": 0.97186158163371783,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1,
+              "headroomFraction": 0.95,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.013160943984985352,
+              "headroomFraction": 0.99341952800750732,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.013016939163208008,
+              "headroomFraction": 0.993491530418396,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.89433502441217672,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": false,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": false,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_3",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 14,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 0,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "continuous",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.22870711933343602,
+            1.0424393537121435
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "adc_extra_3_samples",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.20304524822144804,
+          "peakDeg": 0.22194446367962897,
+          "endpointDeg": -0.22194446367962897,
+          "steadyIncrementPeakDeg": 0.034215281421442693
+        },
+        "rate": {
+          "meanErrorDegS": -1.0448182991082609,
+          "residualStdDegS": 0.24342848043726473,
+          "rmsErrorDegS": 1.0728013344694698,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0041110512525883705,
+          "relativeMean": -0.0040932277727132307,
+          "mechanicalRelativeRms": 0.0053344220678266038
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0026773552802986621,
+          "minorMajorRatioRms": 0.0013386803552196361,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.51263700133796308,
+          "phasePeakRad": 0.58852672573563669,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.075136455599301072,
+          "physicalMeanFrequencyErrorHz": -0.775979238047668,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17808245066333683,
+              "headroomFraction": 0.91095877466833164,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.056926208498731361,
+              "headroomFraction": 0.97153689575063429,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.18949090111050645,
+              "headroomFraction": 0.89472727716082978,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.054554737728020213,
+              "headroomFraction": 0.96969181237332214,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.0657646656036377,
+              "headroomFraction": 0.94671176671981816,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.0243375301361084,
+              "headroomFraction": 0.9878312349319458,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 1.0073134899139404,
+              "headroomFraction": 0.49634325504302979,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.49634325504302979,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": false,
+          "wholeAngle": true,
+          "rateResidual": false,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": false,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_4",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 4,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 0,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "continuous",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.22870711933343602,
+            1.0424393537121435
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "feedthrough_2fF",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.17262764956725615,
+          "peakDeg": 0.1730379836832216,
+          "endpointDeg": -0.1730379836832216,
+          "steadyIncrementPeakDeg": 0.00068701906376788407
+        },
+        "rate": {
+          "meanErrorDegS": -0.023217730069576666,
+          "residualStdDegS": 0.015424037502316787,
+          "rmsErrorDegS": 0.027874072584690584,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0029671246026602865,
+          "relativeMean": 0.0029398198610509165,
+          "mechanicalRelativeRms": 0.0017052621275797074
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0015778145011993213,
+          "minorMajorRatioRms": 0.00078890775424934434,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.00548876525046654,
+          "phasePeakRad": 0.0064466510273689945,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0010217231453176672,
+          "physicalMeanFrequencyErrorHz": 0.010319618353514736,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17864451017667474,
+              "headroomFraction": 0.91067774491166265,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.052949225298030367,
+              "headroomFraction": 0.97352538735098482,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19019263246983736,
+              "headroomFraction": 0.894337426405646,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.050649153050069964,
+              "headroomFraction": 0.97186158163885006,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1,
+              "headroomFraction": 0.95,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.012906789779663086,
+              "headroomFraction": 0.99354660511016846,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.013082742691040039,
+              "headroomFraction": 0.99345862865448,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.894337426405646,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_5",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 2E-15,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "continuous",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.22870711933343602,
+            1.0424393537121435
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.5,
+              0
+            ],
+            [
+              0,
+              0.5
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "switched_baseline",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.18047234941513959,
+          "peakDeg": 0.18116254863574668,
+          "endpointDeg": -0.17937988682389508,
+          "steadyIncrementPeakDeg": 0.001794433543540447
+        },
+        "rate": {
+          "meanErrorDegS": 0.059950095322086533,
+          "residualStdDegS": 0.0506238703780231,
+          "rmsErrorDegS": 0.078465216377565317,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0031083282728899386,
+          "relativeMean": 0.0030835148472137404,
+          "mechanicalRelativeRms": 0.0018604068209639637
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0016861820160629967,
+          "minorMajorRatioRms": 0.0008430916309302099,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.0053077474443875717,
+          "phasePeakRad": 0.0062934842522952414,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0010643494668994852,
+          "physicalMeanFrequencyErrorHz": 0.010745973216032852,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17998245918931755,
+              "headroomFraction": 0.91000877040534123,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.28304221848647482,
+              "headroomFraction": 0.85847889075676265,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19021227442512892,
+              "headroomFraction": 0.8943265142082617,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.27094268160038942,
+              "headroomFraction": 0.8494762879997837,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.0585834980010986,
+              "headroomFraction": 0.94707082509994511,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.013978958129882812,
+              "headroomFraction": 0.99301052093505859,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.0090427398681640625,
+              "headroomFraction": 0.995478630065918,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.8494762879997837,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_6",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 0,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "switched",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.18177381464318346,
+            1.0537065323808541
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.18750000000000006,
+              0.012499999999999886
+            ],
+            [
+              0.012499999999999886,
+              0.16249999999999995
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "slow_read_20us",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.20990479621963595,
+          "peakDeg": 0.22139362343694732,
+          "endpointDeg": -0.22139362343694732,
+          "steadyIncrementPeakDeg": 0.022660482517505007
+        },
+        "rate": {
+          "meanErrorDegS": -0.73030399591526085,
+          "residualStdDegS": 0.10276430143781239,
+          "rmsErrorDegS": 0.73749876481238874,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.22266519848465693,
+          "relativeMean": -0.22238886387411722,
+          "mechanicalRelativeRms": 0.099818644762557682
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.00199294954641772,
+          "minorMajorRatioRms": 0.00099647580723462737,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.32638001582508269,
+          "phasePeakRad": 0.37124700718434817,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.044548705194897342,
+          "physicalMeanFrequencyErrorHz": 0.46137610769822096,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.15471699115147303,
+              "headroomFraction": 0.92264150442426351,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.33897400054623006,
+              "headroomFraction": 0.830512999726885,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.20152897754839247,
+              "headroomFraction": 0.8880394569175597,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.33895018436941321,
+              "headroomFraction": 0.81169434201699264,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.5,
+              "headroomFraction": 0.925,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.016718864440917969,
+              "headroomFraction": 0.991640567779541,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.63576054573059082,
+              "headroomFraction": 0.68211972713470459,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.68211972713470459,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": false,
+          "quadrature": true,
+          "observedLock": false,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": false,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_7",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 0,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "switched",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-5,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.18177381464318346,
+            1.0537065323808541
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.18750000000000006,
+              0.012499999999999886
+            ],
+            [
+              0.012499999999999886,
+              0.16249999999999995
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "switch_charge_2fC",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.18047234941513959,
+          "peakDeg": 0.18116254863574668,
+          "endpointDeg": -0.17937988682389508,
+          "steadyIncrementPeakDeg": 0.001794433543540447
+        },
+        "rate": {
+          "meanErrorDegS": 0.059950095322086533,
+          "residualStdDegS": 0.0506238703780231,
+          "rmsErrorDegS": 0.078465216377565317,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0031083282728899386,
+          "relativeMean": 0.0030835148472137404,
+          "mechanicalRelativeRms": 0.0018604068209639637
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0016861820160629967,
+          "minorMajorRatioRms": 0.0008430916309302099,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.0053077474443875717,
+          "phasePeakRad": 0.0062934842522952414,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0010643494668994852,
+          "physicalMeanFrequencyErrorHz": 0.010745973216032852,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.17998245918931755,
+              "headroomFraction": 0.91000877040534123,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.28304221848647482,
+              "headroomFraction": 0.85847889075676265,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.19021227442512892,
+              "headroomFraction": 0.8943265142082617,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.27094268160038942,
+              "headroomFraction": 0.8494762879997837,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.0585834980010986,
+              "headroomFraction": 0.94707082509994511,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.013978958129882812,
+              "headroomFraction": 0.99301052093505859,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.0090427398681640625,
+              "headroomFraction": 0.995478630065918,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.8494762879997837,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_8",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 0,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "switched",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            2E-15,
+            -2E-15
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.18177381464318346,
+            1.0537065323808541
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.18750000000000006,
+              0.012499999999999886
+            ],
+            [
+              0.012499999999999886,
+              0.16249999999999995
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    },
+    {
+      "name": "switched_feedthrough_2fF",
+      "metrics": {
+        "schemaVersion": 1,
+        "budget": {
+          "steadyStartS": 0.05,
+          "holdS": 0.05,
+          "buildTolerance": 0.02,
+          "minSamples": 20,
+          "buildTimeS": 4,
+          "energyRelativeRms": 0.05,
+          "quadratureRatioRms": 0.05,
+          "lockPhaseRmsRad": 0.1,
+          "anglePeakDeg": 0.5,
+          "rateResidualStdDegS": 0.2,
+          "shortRunZeroMeanDegS": 0.25,
+          "minimumHeadroomFraction": 0.05,
+          "validFraction": 0.95,
+          "status": "Illustrative research allocations; replace with instrument requirements"
+        },
+        "windowStartS": 0.05,
+        "recordDurationS": 0.08,
+        "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+        "validFraction": 1,
+        "steadySamples": 31,
+        "finite": true,
+        "angle": {
+          "referenceEpochS": 0.006,
+          "reference": "first valid sample; initial absolute azimuth unobservable",
+          "rmsDeg": 0.18049725276052486,
+          "peakDeg": 0.18117335804406606,
+          "endpointDeg": -0.17957729131321126,
+          "steadyIncrementPeakDeg": 0.0015960667308547623
+        },
+        "rate": {
+          "meanErrorDegS": 0.051998916265607938,
+          "residualStdDegS": 0.051903197417203957,
+          "rmsErrorDegS": 0.073469920341095743,
+          "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+        },
+        "zeroBias": {
+          "status": "not_a_zero_input_run",
+          "shortRunMeanDegS": null,
+          "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+        },
+        "energy": {
+          "relativeRms": 0.0031086050684252572,
+          "relativeMean": 0.0030836892366855571,
+          "mechanicalRelativeRms": 0.0018609285439314986
+        },
+        "quadrature": {
+          "invariantRatioRms": 0.0016880145254458843,
+          "minorMajorRatioRms": 0.00084400788851167149,
+          "signConvention": "project complex envelope convention"
+        },
+        "lock": {
+          "phaseRmsRad": 0.005307830827181041,
+          "phasePeakRad": 0.0062929375491799586,
+          "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+          "physicalPhaseExcursionRad": 0.0010643961849232985,
+          "physicalMeanFrequencyErrorHz": 0.010746830632018702,
+          "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+        },
+        "build": {
+          "status": "not_assessed_precharged",
+          "timeS": null,
+          "holdS": 0.05,
+          "relativeBand": 0.02
+        },
+        "saturation": {
+          "rails": [
+            {
+              "name": "ADC",
+              "limit": 2,
+              "peakRequest": 0.1799823717990616,
+              "headroomFraction": 0.91000881410046919,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "DAC",
+              "limit": 2,
+              "peakRequest": 0.28304221848647482,
+              "headroomFraction": 0.85847889075676265,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "AFE",
+              "limit": 1.8,
+              "peakRequest": 0.190212216996283,
+              "headroomFraction": 0.89432654611317608,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "driver",
+              "limit": 1.8,
+              "peakRequest": 0.27094268160038942,
+              "headroomFraction": 0.8494762879997837,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI1_output",
+              "limit": 20,
+              "peakRequest": 1.0585834980010986,
+              "headroomFraction": 0.94707082509994511,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI2_output",
+              "limit": 2,
+              "peakRequest": 0.013997077941894531,
+              "headroomFraction": 0.99300146102905273,
+              "overrangeFraction": 0
+            },
+            {
+              "name": "PI3_output",
+              "limit": 2,
+              "peakRequest": 0.0090420246124267578,
+              "headroomFraction": 0.99547898769378662,
+              "overrangeFraction": 0
+            }
+          ],
+          "minimumHeadroomFraction": 0.8494762879997837,
+          "fullRecord": true,
+          "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+        },
+        "checks": {
+          "validCoverage": true,
+          "energy": true,
+          "quadrature": true,
+          "observedLock": true,
+          "wholeAngle": true,
+          "rateResidual": true,
+          "headroom": true
+        },
+        "assessment": "functional_metrics_only",
+        "pass": true,
+        "notAssessed": [
+          "ARW",
+          "long-term Allan bias instability",
+          "wide-range startup search",
+          "all-temperature robustness",
+          "transistor/PVT feasibility",
+          "full physical-resonance signoff"
+        ]
+      },
+      "configuration": {
+        "stage": 5,
+        "name": "hrg_wa_v7_sweep_9",
+        "head": {
+          "sourceProfile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix\\HRG_WA\\config\\head_default.json",
+          "measurementStatus": "assumed, not a measured head",
+          "f0": 5000,
+          "Q": 2.0E+6,
+          "bryan": 0.277,
+          "gamma": 0.0078539816339744835,
+          "dgamma": 0.00025,
+          "dampingAxis": 0.29670597283903605,
+          "splitHz": 0.008,
+          "stiffnessAxis": 0.715584993317675,
+          "detuningHz": 0,
+          "duffingHz": 0.015,
+          "temperatureCoeff": -1.8E-5,
+          "referenceTemperature": 25,
+          "detect": [
+            [
+              1,
+              0.003
+            ],
+            [
+              -0.002,
+              1
+            ]
+          ],
+          "detectPhase": [
+            0,
+            0
+          ],
+          "drive": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "detectCubic": 0,
+          "iqBits": 0,
+          "iqFullScale": 2,
+          "energyTarget": 1,
+          "initialEnergy": 1,
+          "initialTheta": 0.13962634015954636,
+          "initialQuadRatio": 0,
+          "energyKp": 4.0212385965949355,
+          "energyKi": 12.633093633394378,
+          "quadKp": 6.0318578948924033,
+          "quadKi": 28.42446067513735,
+          "pllKp": 1.28,
+          "pllKi": 4.0212385965949347,
+          "energyLimit": 20,
+          "quadLimit": 2,
+          "pllLimitHz": 2,
+          "antiWindup": 5,
+          "loopEnable": 1,
+          "Ts": 0.001,
+          "rateTau": 0.00353677651315323,
+          "energyThreshold": 0.02,
+          "angleThreshold": 0.01,
+          "duration": 12,
+          "omega": 1.3962634015954636,
+          "virtualRate": 0,
+          "temperature": 25,
+          "fullStep": 2E-6
+        },
+        "fsAdc": 40000,
+        "fsPlant": 800000,
+        "duration": 0.08,
+        "seed": 2.0261021E+7,
+        "massKg": 1E-6,
+        "displacementM": 1E-7,
+        "gapM": 5E-6,
+        "c0F": 1E-12,
+        "cfF": 1E-12,
+        "rfOhm": 1.0E+9,
+        "biasV": 10,
+        "cvBandwidthHz": 30000,
+        "pgaBandwidthHz": 30000,
+        "pgaGain": 1,
+        "cvEnVrtHz": 1E-8,
+        "cvInArtHz": 1E-14,
+        "temperatureK": 298.15,
+        "pgaNoiseVrtHz": 1E-8,
+        "afeOffsetV": [
+          0,
+          0
+        ],
+        "afeLimitV": 1.8,
+        "adcBits": 18,
+        "adcFsV": 2,
+        "adcOffsetV": [
+          0,
+          0
+        ],
+        "adcGain": [
+          1,
+          1
+        ],
+        "adcInlCubic": 0,
+        "jitterRmsS": 2E-9,
+        "channelSkewS": 0,
+        "adcDelay": 1,
+        "adcArchitecture": "nyquist",
+        "cicStages": 3,
+        "fir": [
+          0.1111111111111111,
+          0.22222222222222221,
+          0.33333333333333331,
+          0.22222222222222221,
+          0.1111111111111111
+        ],
+        "dacBits": 16,
+        "dacFsV": 2,
+        "dacDelay": 1,
+        "dacInlCubic": 0,
+        "dacArchitecture": "nyquist",
+        "driveNPerV": 1E-7,
+        "driverBandwidthHz": 50000,
+        "driverGain": [
+          1,
+          1
+        ],
+        "driverSlewVPerS": 200000,
+        "driverNoiseVrtHz": 2E-8,
+        "driverLimitV": 1.8,
+        "feedthroughF": 2E-15,
+        "pipelineCtrl": 3,
+        "iqFractionBits": 22,
+        "controlFractionBits": 22,
+        "antiAliasHz": 18000,
+        "noiseEnable": false,
+        "circuitEnable": true,
+        "kalman": true,
+        "online": false,
+        "frp": false,
+        "calibrationPermit": false,
+        "frpSequence": false,
+        "frpFreeze": false,
+        "frpTheta": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "matrixApply": false,
+        "compensationApply": false,
+        "temperatureCompensate": false,
+        "temperatureBiasCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "zeroRateCertified": false,
+        "virtualRate": 0,
+        "inputRate": 1.3962634015954636,
+        "inputFrequencyHz": 0,
+        "inputRateAmplitude": 0,
+        "temperatureC": 25,
+        "temperatureRampCPerS": 0,
+        "observers": false,
+        "spectra": false,
+        "maxLogPoints": 64001,
+        "sdmLeak": 0.9999,
+        "sdmReferenceV": 2,
+        "tdmEnable": false,
+        "knownPhaseCalibrationRad": 0,
+        "virtualGainCalibration": 1,
+        "learnStartS": 0.25,
+        "measurementStatus": "unmeasured research assumptions; replace with measured head and interface data",
+        "scope": "Behavioral circuit interfaces, not transistor or bit-true RTL signoff",
+        "v7": {
+          "schemaVersion": 1,
+          "status": "unmeasured research assumptions; replace with measured head and interface data",
+          "mechanicalProfile": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json",
+          "headSimulation": {
+            "Ts": 0.001,
+            "initialEnergy": 1,
+            "initialQuadRatio": 0,
+            "rateTau": 0.00353677651315323
+          },
+          "circuit": {
+            "fsAdc": 40000,
+            "massKg": 1E-6,
+            "displacementM": 1E-7,
+            "gapM": 5E-6,
+            "c0F": 1E-12,
+            "biasV": 10,
+            "cvBandwidthHz": 30000,
+            "pgaBandwidthHz": 30000,
+            "cvEnVrtHz": 1E-8,
+            "cvInArtHz": 1E-14,
+            "temperatureK": 298.15,
+            "pgaNoiseVrtHz": 1E-8,
+            "afeOffsetV": [
+              0,
+              0
+            ],
+            "afeLimitV": 1.8,
+            "adcBits": 18,
+            "adcFsV": 2,
+            "adcOffsetV": [
+              0,
+              0
+            ],
+            "adcGain": [
+              1,
+              1
+            ],
+            "adcInlCubic": 0,
+            "jitterRmsS": 2E-9,
+            "channelSkewS": 0,
+            "adcDelay": 1,
+            "adcArchitecture": "nyquist",
+            "cicStages": 3,
+            "fir": [
+              0.1111111111111111,
+              0.22222222222222221,
+              0.33333333333333331,
+              0.22222222222222221,
+              0.1111111111111111
+            ],
+            "dacBits": 16,
+            "dacFsV": 2,
+            "dacDelay": 1,
+            "dacInlCubic": 0,
+            "dacArchitecture": "nyquist",
+            "driveNPerV": 1E-7,
+            "driverBandwidthHz": 50000,
+            "driverGain": [
+              1,
+              1
+            ],
+            "driverSlewVPerS": 200000,
+            "driverNoiseVrtHz": 2E-8,
+            "driverLimitV": 1.8,
+            "feedthroughF": 0,
+            "pipelineCtrl": 3,
+            "iqFractionBits": 22,
+            "controlFractionBits": 22,
+            "antiAliasHz": 18000
+          },
+          "fsPlant": 800000,
+          "duration": 2,
+          "readoutMode": "charge",
+          "charge": {
+            "rfOhm": 1.0E+9,
+            "cfF": 1E-12,
+            "pgaGain": 1
+          },
+          "tia": {
+            "rfOhm": 1.0E+6,
+            "cfF": 1E-12,
+            "pgaGain": 31.830988618379067
+          },
+          "loopNaturalHz": [
+            0.8,
+            1.2,
+            0.8
+          ],
+          "dampingRatio": 0.8,
+          "controlMode": "PI",
+          "resonantGain": [
+            0.4,
+            1.2,
+            0
+          ],
+          "resonantLeakRadS": 0.04,
+          "resonantMinimumRadS": 0.15,
+          "resonantMaximumRadS": 25,
+          "frequencyEstimateTauS": 0.1,
+          "slewPerS": [
+            500,
+            100,
+            100
+          ],
+          "startupEnable": false,
+          "startupAmplitudePerS": 4,
+          "startupSwitchEnergy": 0.25,
+          "startupTimeoutS": 1.5,
+          "startupDirectionRad": 0,
+          "tdmMode": "switched",
+          "slotCycles": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "readBlankCycles": 0.25,
+          "acquisitionTauS": 2E-6,
+          "unloadTauS": 2E-6,
+          "sampleCapF": 1E-11,
+          "switchChargeC": [
+            0,
+            0
+          ],
+          "actuationMode": "linear",
+          "driveBiasV": 10,
+          "electrostaticForceScale": 0.025,
+          "budget": {
+            "angleRmsRad": 1E-6,
+            "noiseBandwidthHz": 100,
+            "startupTimeS": 0.1
+          },
+          "profile": "C:\\Users\\11725\\Desktop\\HRG_WA\\HRG_WA_simulink\\literature_v7\\profile.json",
+          "senseCalibration": [
+            0.18177381464318346,
+            1.0537065323808541
+          ],
+          "driveCalibration": [
+            0.29789313680187218,
+            0.98732935713839221
+          ],
+          "nominalGram": [
+            [
+              0.18750000000000006,
+              0.012499999999999886
+            ],
+            [
+              0.012499999999999886,
+              0.16249999999999995
+            ]
+          ],
+          "complexEncoding": "[real, imaginary]"
+        },
+        "cvEquivalentNoiseVrtHz": 3.4392528063490579E-7
+      }
+    }
+  ],
+  "finite": true,
+  "scope": "80ms single-factor screens, no calibration refit; not steady-state joint PVT qualification"
+}

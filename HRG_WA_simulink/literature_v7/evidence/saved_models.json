@@ -1,0 +1,52 @@
+{
+  "carrierModels": [
+    {
+      "name": "hrg_wa_v7_continuous",
+      "scopes": 20,
+      "spectra": 16,
+      "compiled": true
+    },
+    {
+      "name": "hrg_wa_v7_pir",
+      "scopes": 20,
+      "spectra": 16,
+      "compiled": true
+    },
+    {
+      "name": "hrg_wa_v7_switched",
+      "scopes": 23,
+      "spectra": 18,
+      "compiled": true
+    },
+    {
+      "name": "hrg_wa_v7_tia",
+      "scopes": 20,
+      "spectra": 16,
+      "compiled": true
+    },
+    {
+      "name": "hrg_wa_v7_electrostatic",
+      "scopes": 20,
+      "spectra": 16,
+      "compiled": true
+    }
+  ],
+  "envelopeModel": "hrg_wa_v7_pir_study_envelope",
+  "reopenedAndCompiled": true,
+  "environment": {
+    "matlab": "25.1.0.2943329 (R2025a)",
+    "release": "2025a",
+    "simulink": {
+      "Name": "Simulink",
+      "Version": "25.1",
+      "Release": "(R2025a)",
+      "Date": "21-Nov-2024"
+    },
+    "dsp": {
+      "Name": "DSP System Toolbox",
+      "Version": "25.1",
+      "Release": "(R2025a)",
+      "Date": "21-Nov-2024"
+    }
+  }
+}

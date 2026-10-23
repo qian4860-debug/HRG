@@ -1,0 +1,120 @@
+{
+  "checks": [
+    {
+      "name": "ellipse_four_theta",
+      "error": 1.1957467920563633E-15,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "charge_exact_transfer",
+      "error": 2.7769124835677133E-17,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tia_exact_transfer",
+      "error": 8.6736173798840355E-19,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "masked_IQ_phase_0.00",
+      "error": 4.4408920985006262E-16,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "masked_IQ_phase_0.43",
+      "error": 3.3306690738754696E-16,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "masked_IQ_phase_1.70",
+      "error": 9.43689570931383E-16,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "drive_and_read_disjoint",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "read_valid_is_subset",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "unload_present",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "electrostatic_voltage_gradient",
+      "error": 2.3305801732931286E-12,
+      "limit": 1E-9,
+      "pass": true
+    },
+    {
+      "name": "electrostatic_negative_stiffness",
+      "error": 7.9703021960142451E-10,
+      "limit": 1E-8,
+      "pass": true
+    },
+    {
+      "name": "resonator_exact_matrix_oracle",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "PIR_uses_measured_four_theta_rate",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "PI_disables_resonant_output",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "zero_energy_start_command",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "startup_timeout_stops_force",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "startup_timeout_status",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "noncoherent_frame_rejected",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "envelope_cannot_silently_ignore_noise_enable",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "scope": "algebra, causal timing, matrix oracle, and startup safety; not physical performance"
+}

@@ -1,0 +1,540 @@
+{
+  "checks": [
+    {
+      "name": "switched_spectrum_count",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "adc_compiled_rate",
+      "error": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "adc_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "sample_hold_compiled_rate",
+      "error": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "sample_hold_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v7_acquisition_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "v7_acquisition_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "anti_alias_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "anti_alias_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "cv_actual_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "cv_actual_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "cv_ideal_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "cv_ideal_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "pga_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "pga_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "dac_compiled_rate",
+      "error": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "dac_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "dac_requested_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "dac_requested_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "driver_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "driver_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "force_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "force_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "v7_electrode_voltage_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "v7_electrode_voltage_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "cic_compiled_rate",
+      "error": 0,
+      "limit": 1E-13,
+      "pass": true
+    },
+    {
+      "name": "cic_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "fir_compiled_rate",
+      "error": 0,
+      "limit": 1E-13,
+      "pass": true
+    },
+    {
+      "name": "fir_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "iq_compiled_rate",
+      "error": 0,
+      "limit": 1E-13,
+      "pass": true
+    },
+    {
+      "name": "iq_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "mixer_compiled_rate",
+      "error": 0,
+      "limit": 2.5000000000000004E-15,
+      "pass": true
+    },
+    {
+      "name": "mixer_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "head_displacement_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "head_displacement_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "head_velocity_compiled_rate",
+      "error": 0,
+      "limit": 1.25E-16,
+      "pass": true
+    },
+    {
+      "name": "head_velocity_units",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_afe_request_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_afe_request_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_driver_request_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_driver_request_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_nco_phase_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_accept_nco_phase_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_adc_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_adc_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_algorithm_diagnostics_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_algorithm_diagnostics_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_anti_alias_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_anti_alias_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_cic_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_cic_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_control_commands_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_control_commands_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_actual_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_actual_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_ideal_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_cv_ideal_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_requested_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_dac_requested_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_driver_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_driver_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_fir_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_fir_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_force_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_force_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_head_displacement_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_head_displacement_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_head_velocity_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_head_velocity_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_iq_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_iq_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_mixer_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_mixer_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_navigation_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_navigation_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_pga_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_pga_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_sample_hold_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_sample_hold_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_acquisition_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_acquisition_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_controller_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_controller_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_electrode_voltage_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_electrode_voltage_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_timing_timestamps",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "tap_v7_timing_nonintrusive",
+      "error": 0,
+      "limit": 1E-12,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "spectra": 18
+}

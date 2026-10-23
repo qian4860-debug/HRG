@@ -1,0 +1,19 @@
+{
+  "cases": [
+    {
+      "fsPlant": 400000,
+      "qError": 2.5337374454426076E-5,
+      "vOverOmegaError": 0.00038525921421667634,
+      "numericalDampingFraction": 0.082949143221770508
+    },
+    {
+      "fsPlant": 800000,
+      "qError": 7.9045158318802322E-7,
+      "vOverOmegaError": 2.4119191228666918E-5,
+      "numericalDampingFraction": 0.0025936702501937396
+    }
+  ],
+  "halfStepErrorRatio": 0.031197059687845544,
+  "pass": true,
+  "scope": "free linear carrier convergence only, not all nonlinear cases"
+}
