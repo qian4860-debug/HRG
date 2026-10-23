@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-24",
+  "checks": [
+    {
+      "name": "IQ_before_rounding_6000_samples",
+      "error": 4.4408920985006262E-16,
+      "limit": 2E-14,
+      "pass": true
+    },
+    {
+      "name": "IQ_after_rounding_6000_samples",
+      "error": 0,
+      "limit": 2.384185791015625E-7,
+      "pass": true
+    },
+    {
+      "name": "calibration_range_boundary_matches",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "multiple_phase_wraps_both_directions",
+      "error": 7.1054273576010019E-15,
+      "limit": 1E-9,
+      "pass": true
+    },
+    {
+      "name": "known_virtual_rotation_removed",
+      "error": 1.3933298959045715E-14,
+      "limit": 1E-10,
+      "pass": true
+    },
+    {
+      "name": "gap_latches_continuity_invalid",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "carrier_timestamp_CSV_roundtrip",
+      "error": 1.1102230246251565E-16,
+      "limit": 1E-12,
+      "pass": true
+    },
+    {
+      "name": "actual_carrier_IQ_codes_match_sealed_V8",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "direct_angle_reduces_noise_free_dynamic_error",
+      "error": 0.085559703060908154,
+      "limit": 0.2,
+      "pass": true
+    },
+    {
+      "name": "instrumented_model_has_21_scopes",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "instrumented_model_retains_16_spectra",
+      "error": 16,
+      "limit": 0,
+      "pass": false
+    }
+  ],
+  "pass": false,
+  "legacyAcceptance": {
+    "schemaVersion": 1,
+    "budget": {
+      "steadyStartS": 0.5,
+      "holdS": 0.05,
+      "buildTolerance": 0.02,
+      "minSamples": 20,
+      "buildTimeS": 4,
+      "energyRelativeRms": 0.05,
+      "quadratureRatioRms": 0.05,
+      "lockPhaseRmsRad": 0.1,
+      "anglePeakDeg": 0.5,
+      "rateResidualStdDegS": 0.2,
+      "shortRunZeroMeanDegS": 0.25,
+      "minimumHeadroomFraction": 0.05,
+      "validFraction": 0.95,
+      "status": "Illustrative research allocations; replace with instrument requirements"
+    },
+    "windowStartS": 0.5,
+    "recordDurationS": 1,
+    "angleConvention": "physical rim theta; modal azimuth=2theta; atan2 phase=4theta",
+    "validFraction": 1,
+    "steadySamples": 501,
+    "finite": true,
+    "angle": {
+      "referenceEpochS": 0.012,
+      "reference": "first valid sample; initial absolute azimuth unobservable",
+      "rmsDeg": 0.052002811551615513,
+      "peakDeg": 0.053226378027910283,
+      "endpointDeg": -0.053220672918369905,
+      "steadyIncrementPeakDeg": 0.0026497139922156579
+    },
+    "rate": {
+      "meanErrorDegS": -0.0053179783385098938,
+      "residualStdDegS": 0.016490676677433227,
+      "rmsErrorDegS": 0.0173269533065828,
+      "noiseStatus": "Tracking residual includes deterministic drift; use paired_noise for stochastic increment"
+    },
+    "zeroBias": {
+      "status": "not_a_zero_input_run",
+      "shortRunMeanDegS": null,
+      "biasInstabilityStatus": "not_assessed; requires long zero-rate records and Allan analysis"
+    },
+    "energy": {
+      "relativeRms": 3.8148687020935267E-6,
+      "relativeMean": -1.6210049347641721E-6,
+      "mechanicalRelativeRms": 4.1840436972411623E-5
+    },
+    "quadrature": {
+      "invariantRatioRms": 3.2015873963414038E-6,
+      "minorMajorRatioRms": 1.6007936981857213E-6,
+      "signConvention": "project complex envelope convention"
+    },
+    "lock": {
+      "phaseRmsRad": 1.2451361085852326E-5,
+      "phasePeakRad": 2.4434220708730609E-5,
+      "definition": "calibrated observed IQ phase modulo pi; not independent proof of physical resonance lock",
+      "physicalPhaseExcursionRad": 1.3926105995255453E-5,
+      "physicalMeanFrequencyErrorHz": 6.7290603318242392E-6,
+      "physicalReference": "q-j*v/omega0 carrier phasor vs logged NCO; slow-envelope approximation; no fitted phase slope"
+    },
+    "build": {
+      "status": "not_assessed_precharged",
+      "timeS": null,
+      "holdS": 0.05,
+      "relativeBand": 0.02
+    },
+    "saturation": {
+      "rails": [
+        {
+          "name": "ADC",
+          "limit": 2,
+          "peakRequest": 0.74525963097000392,
+          "headroomFraction": 0.627370184514998,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "DAC",
+          "limit": 2,
+          "peakRequest": 0.0020532018749469462,
+          "headroomFraction": 0.99897339906252658,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "AFE",
+          "limit": 1.8,
+          "peakRequest": 0.79217066167663563,
+          "headroomFraction": 0.55990518795742461,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "driver",
+          "limit": 1.8,
+          "peakRequest": 0.0019878942508843641,
+          "headroomFraction": 0.99889561430506424,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "PI1_output",
+          "limit": 20,
+          "peakRequest": 0.0083560943603515625,
+          "headroomFraction": 0.99958219528198244,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "PI2_output",
+          "limit": 2,
+          "peakRequest": 0.00034546852111816406,
+          "headroomFraction": 0.99982726573944092,
+          "overrangeFraction": 0
+        },
+        {
+          "name": "PI3_output",
+          "limit": 2,
+          "peakRequest": 0.00012111663818359375,
+          "headroomFraction": 0.9999394416809082,
+          "overrangeFraction": 0
+        }
+      ],
+      "minimumHeadroomFraction": 0.55990518795742461,
+      "fullRecord": true,
+      "note": "PI values are limited outputs; occupancy at limit is included. Other branches use pre-limit requests."
+    },
+    "checks": {
+      "validCoverage": true,
+      "energy": true,
+      "quadrature": true,
+      "observedLock": true,
+      "wholeAngle": true,
+      "rateResidual": true,
+      "headroom": true
+    },
+    "assessment": "functional_metrics_only",
+    "pass": true,
+    "notAssessed": [
+      "ARW",
+      "long-term Allan bias instability",
+      "wide-range startup search",
+      "all-temperature robustness",
+      "transistor/PVT feasibility",
+      "full physical-resonance signoff"
+    ]
+  },
+  "directAngle": {
+    "rmsDeg": 0.004449345114688588,
+    "peakDeg": 0.0056050454314120982,
+    "referenceEpochS": 0.012,
+    "validSamples": 989,
+    "windowStartS": 0.5
+  },
+  "scopes": 21,
+  "spectra": 0,
+  "sourceConfiguration": "Sealed V8 carrier case 2 synthetic fixture; noise disabled",
+  "limits": [
+    "Direct branch rejects loss of phase continuity; no automatic absolute-angle recovery",
+    "Online, FRP and temperature compensation are not applied to the direct branch",
+    "Noise-free dynamic improvement is not an ARW or long-term bias result",
+    "Three-step Newton is an implementation simplification, not a new compensation theory"
+  ]
+}

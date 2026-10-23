@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-24",
+  "sha256": {
+    "HRG_WA_simulink/literature_zotero_research/docs/paper_comparison.md": "c24eb343c080dbdef30e0d3cdf276bd4e30c8e0b44e31ddf7ec5ffa2e7614ba4",
+    "HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md": "8bb0d6707a7fa2f867b474399f29cf4cb1c1a8c8a7cd829dbfd89f7f4e555ce3",
+    "HRG_WA_simulink/literature_zotero_research/evidence/carrier_direct_navigation.csv": "82ea557d880a67c529e8c642efb7800e694beaf68d99fcd5ae4be4e5ad925e81",
+    "HRG_WA_simulink/literature_zotero_research/evidence/carrier_iq.csv": "e85ce0b92924132e1320788acf0fe1813a45bb64ae7ce0e0419b976bf4c88695",
+    "HRG_WA_simulink/literature_zotero_research/evidence/carrier_legacy_navigation.csv": "38234b5fa1b4d01068211f7d8edd4aed5d3887c6cae5406779eafabdcdc75977",
+    "HRG_WA_simulink/literature_zotero_research/evidence/carrier_study.json": "3c926a6a387664477a2cedf77e7df5631ab880908e14dad4aaf2f593d495820d",
+    "HRG_WA_simulink/literature_zotero_research/evidence/coherent_adc_azimuth.csv": "5e3804f34077facca1227cb9fee6b3efe1caa5267228d4dc8508afb8ebcee876",
+    "HRG_WA_simulink/literature_zotero_research/evidence/phase_probe_study.json": "c8758e3d54e2aeaa7dd77069acf265a42e0bcd1144feeee3c87be42eefb2b9fc",
+    "HRG_WA_simulink/literature_zotero_research/evidence/pilot_csv_timestamp_check.txt": "fe01f98aa432fffcc69e0632da920ee271779c08844105091be8a87bc4d1c2a0",
+    "HRG_WA_simulink/literature_zotero_research/evidence/pilot_spectrum_count.json": "f5b74d02a23d15eabe3ff5dfb29836f0b9f773393c9636a55f64e6df20d00593",
+    "HRG_WA_simulink/literature_zotero_research/evidence/quantization_audit.json": "5a6612d713772da6a119cdaa0c3e9af71d0e7cdb29c6cd5272e13d8df0a2f6b1",
+    "HRG_WA_simulink/literature_zotero_research/evidence/source_reading.json": "40c588b7e5000dbea45b3c763683460d185e89dc49ebe502e959648c8118df9b",
+    "HRG_WA_simulink/literature_zotero_research/evidence/verification.json": "78826803198d2d7e50f998e0ebe4524e1b226ad7d38c71d1faf7567494ac644c",
+    "HRG_WA_simulink/literature_zotero_research/evidence/zotero_model_comparison.png": "28d7764872137de0824a8a50e943037b518bc6b52c801ca4e8a780ebe928c3ed",
+    "HRG_WA_simulink/literature_zotero_research/models/hrg_wa_wz_calibrated.png": "031e2e6ff2c11eeebe7a44311a1067c901b2c6bfe5fba55a708091c2b2aa2a90",
+    "HRG_WA_simulink/literature_zotero_research/models/hrg_wa_wz_calibrated.slx": "8c4377edb670c7cf49e5e473dc8e0da6546f0f9f76ae3d1a90cd8c4230856a26",
+    "HRG_WA_simulink/literature_zotero_research/README.md": "25cb38cbf9419a8a9345a94566ca54ea8689d4580fb357d0f3d3399cb867c2f8",
+    "HRG_WA_simulink/literature_zotero_research/tools/phase_probe_study.py": "46667e0f39b4ae58d66a346897ba5bbb7a9e3a098acf5f71a593f2955f3971bd",
+    "HRG_WA_simulink/literature_zotero_research/tools/quantization_audit.py": "1491f614b9833736fefc53dfdce188058dc9da2807a01c97dd124f688b89b9f2",
+    "HRG_WA_simulink/literature_zotero_research/tools/verify_study.py": "43d7a2efb4242cd90d2c2b9a8e86765a134f8dbf681b2c19d81c770ba5222f67",
+    "HRG_WA_simulink/literature_zotero_research/wz_build.m": "4e77f4847729c790b514af823ea5533ed7f6ad52241569ae7d6423a6aa33467f",
+    "HRG_WA_simulink/literature_zotero_research/wz_demo.m": "c9009b0fcb0bc9018487ab85d3e175cdbf9104dbf433fe5cee5f043a839a77ad",
+    "HRG_WA_simulink/literature_zotero_research/wz_iq.m": "2586f6914d4ba32ace3ca20cf69f334ea4b217c2df794ee00d2a3f5d971ac1fb",
+    "HRG_WA_simulink/literature_zotero_research/wz_navigation_sfun.m": "047debdd36424b75b63c19ff6990f5c86c52efa66cd1faff562fd84edbac3f4b",
+    "HRG_WA_simulink/literature_zotero_research/wz_navigation_tick.m": "f79c744583684b4874e5d9fe69d309266806a22bc3a0694b509e7f571efd067e",
+    "HRG_WA_simulink/literature_zotero_research/wz_plot_results.m": "86f0cc7462882768aec08b3fe55d8846016cdaf882ac6c8a2aade60b957aa917",
+    "HRG_WA_simulink/literature_zotero_research/wz_run_study.m": "d1c0e237fe908f9887a27f3462d366b77762e95ed9ee3d7749156c8691d87dde",
+    "HRG_WA_simulink/literature_zotero_research/wz_setup.m": "8778cfcede93519f326951d3b50d6f759cd6bb69cc39a002dd65c24ebe9104e3"
+  }
+}

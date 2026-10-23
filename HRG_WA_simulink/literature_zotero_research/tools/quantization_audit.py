@@ -81,6 +81,21 @@ def main():
     examples['TDM_window']=dict(eigenvalues=eigen.tolist(),condition_number=float(eigen[-1]/eigen[0]),
         samples_per_detection_window=2,rank_after_one_sample_guard=1,
         boundary='Illustrative four-slot schedule at 8 ADC samples per carrier cycle; not a validation of the paper hardware')
+    # An isotropic stiffness must retain omega0^2 I. Dead-area paper PDF4
+    # Eq(8), as printed, cancels stiffness at beta=0, omega_x=omega_y.
+    omega=2*np.pi*5000;mass=1e-6;gap=5e-6;quality=2e6;cap=1e-12;bias=10.
+    printed_stiffness=omega**2-((omega**2+omega**2)/2)
+    check('dead_area_printed_stiffness_isotropic_counterexample',abs(printed_stiffness),0)
+    examples['dead_area_eq8']=dict(omega0_squared=omega**2,printed_x_stiffness_per_mass=printed_stiffness,
+        boundary='Rendered local PDF4 equation; not a claim about the authors simulation code')
+    # Independent eigenvalue derivation of the double-frequency pump threshold.
+    gamma=omega/(2*quality);vcrit=mass*omega**2*gap**2/(4*quality*cap*bias)
+    delta=8*cap*bias*vcrit/(mass*gap**2)
+    matrix=np.array([[-gamma,delta/(4*omega)],[delta/(4*omega),-gamma]])
+    check('parametric_threshold_has_zero_growth_eigenvalue',abs(max(np.linalg.eigvalsh(matrix))),1e-14)
+    examples['parametric_pump']=dict(critical_voltage_v=vcrit,critical_delta_per_s2=delta,
+        damping_per_s=gamma,growth_eigenvalues_per_s=np.linalg.eigvalsh(matrix).tolist(),
+        boundary='Eight identical electrodes, small signal, resonant ideal pump; not implemented in the carrier model')
     np.savetxt(e/'coherent_adc_azimuth.csv',np.column_stack((theta,error)),delimiter=',',header='physical_pattern_azimuth_rad,error_rad',comments='')
     result=dict(date='2026-10-24',checks=checks,examples=examples,pass_=all(x['pass_'] for x in checks),
                 boundary='Printed-equation tests and isolated RF ADC test; no claim of reproducing the source closed-loop simulation')

@@ -9,7 +9,7 @@ SOURCE=ROOT/'research/zotero_integration_20261024/hrg_pdf_sources.json'
 def main():
     data=json.loads(SOURCE.read_text(encoding='utf-8'))
     refs=SKILL/'references';name='zotero-wa-files-20261024'
-    data['boundary']='Accessible attachment files only; live library item/collection enumeration still requires the official Local API'
+    data['boundary']='File-level extraction and selected-section reading; the complete live-library metadata is indexed separately through the official Local API'
     (refs/(name+'.json')).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     count=len(data['records']);different=sum(not x['same_bytes_in_head_folder'] for x in data['records'])
     text=f'''# Zotero全角陀螺PDF补充
@@ -18,7 +18,7 @@ def main():
 
 [文件路径、SHA256、页数及提取状态]({name}.json)。已提取全部可解析正文，但全文提取不等于逐式通读。已核对公式与独立数值反例记录在工程`HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md`。原PDF保留Zotero原位，未复制或上传到工程GitHub。
 
-这份补充是文件级索引。完整现用Zotero题录、分类、父条目关系与用户后续更名，需要通过已启用的官方Local API更新；不能把旧SQLite备份当现用资料库。现用数据库不被本脚本写入。
+这份补充是文件级索引。[现用Zotero完整题录与分类](zotero-library-20261024.md)由官方Local API另外登记；不能把旧SQLite备份当现用资料库。现用数据库不被本脚本写入。工程中的`docs/paper_comparison.md`与`evidence/source_reading.json`逐份记录实际审读范围。
 '''
     (refs/(name+'.md')).write_text(text,encoding='utf-8',newline='\n')
     for target in ('full-library.md','hrg-whole-angle.md'):

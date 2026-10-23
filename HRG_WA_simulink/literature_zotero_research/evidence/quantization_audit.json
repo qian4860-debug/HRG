@@ -60,6 +60,18 @@
       "error": 0.0,
       "limit": 0.0,
       "pass_": true
+    },
+    {
+      "name": "dead_area_printed_stiffness_isotropic_counterexample",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "parametric_threshold_has_zero_growth_eigenvalue",
+      "error": 0.0,
+      "limit": 1e-14,
+      "pass_": true
     }
   ],
   "examples": {
@@ -122,6 +134,21 @@
       "samples_per_detection_window": 2,
       "rank_after_one_sample_guard": 1,
       "boundary": "Illustrative four-slot schedule at 8 ADC samples per carrier cycle; not a validation of the paper hardware"
+    },
+    "dead_area_eq8": {
+      "omega0_squared": 986960440.1089358,
+      "printed_x_stiffness_per_mass": 0.0,
+      "boundary": "Rendered local PDF4 equation; not a claim about the authors simulation code"
+    },
+    "parametric_pump": {
+      "critical_voltage_v": 0.0003084251375340425,
+      "critical_delta_per_s2": 986.9604401089358,
+      "damping_per_s": 0.007853981633974483,
+      "growth_eigenvalues_per_s": [
+        -0.015707963267948967,
+        0.0
+      ],
+      "boundary": "Eight identical electrodes, small signal, resonant ideal pump; not implemented in the carrier model"
     }
   },
   "pass_": true,

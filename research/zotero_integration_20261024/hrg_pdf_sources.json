@@ -9,7 +9,7 @@
       "same_bytes_in_head_folder": [
         "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Whole_Angle_Control_Vector_Composition.pdf"
       ],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 10,
       "parser": "pypdf",
       "characters": 22302,
@@ -27,7 +27,16 @@
         8,
         9,
         10
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "33LLJK89",
@@ -35,7 +44,7 @@
       "filename": "Sun 等 - 2024 - Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hem.pdf",
       "sha256": "319f5be698131aee80d4e8bdbe9350d1901e670b6ab0b2d7f8a55bb641af1c52",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 26,
       "parser": "pypdf",
       "characters": 121724,
@@ -69,7 +78,15 @@
         24,
         25,
         26
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "3JGQXTFY",
@@ -77,7 +94,7 @@
       "filename": "Hu和Gallacher - 2019 - Effects of nonlinearity on the angular drift error of an electrostatic MEMS rate integrating gyrosco.pdf",
       "sha256": "d164c4b52e5b8596697e9bfe61b9f0a9edeead696a70985553722d683e32c797",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 11,
       "parser": "pypdf",
       "characters": 48674,
@@ -94,6 +111,21 @@
         9,
         10,
         11
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visually_checked_pdf_pages": [
+        4
       ]
     },
     {
@@ -102,7 +134,7 @@
       "filename": "Yan 等 - 2026 - Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resona.pdf",
       "sha256": "6048bd5fcfbdef566ef48cc505ca6bd5a113fcf8be12ff286cbffed3de830bd7",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 17,
       "parser": "pypdf",
       "characters": 43432,
@@ -127,6 +159,27 @@
         15,
         16,
         17
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "visually_checked_pdf_pages": [
+        5,
+        6,
+        7
       ]
     },
     {
@@ -135,7 +188,7 @@
       "filename": "Prikhodko 等 - 2012 - Foucault pendulum on a chip Rate integrating silicon MEMS gyroscope.pdf",
       "sha256": "b70c7d9f661ac2ad0d72e0e02966fcaf69f7a2439526c2e69d51ca820c1537a7",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 12,
       "parser": "pypdf",
       "characters": 62094,
@@ -155,7 +208,12 @@
         10,
         11,
         12
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "ETBPGUEC",
@@ -163,7 +221,7 @@
       "filename": "Senkal 等 - 2014 - Achieving Sub-Hz Frequency Symmetry in Micro-Glassblown Wineglass Resonators.pdf",
       "sha256": "3eddedede625547dffb9f3516ad3d847eb881d7e72a6ac6e793ab0a6e6c35f6a",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 10,
       "parser": "pypdf",
       "characters": 39594,
@@ -181,7 +239,13 @@
         8,
         9,
         10
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "HJ8QJI38",
@@ -189,7 +253,7 @@
       "filename": "Liu 等 - 2025 - An Angle-Dependent Bias Compensation Method for Hemispherical Resonator Gyro Inertial Navigation Sys.pdf",
       "sha256": "bf349658af5d4436bc6986abbb9666794572fb51b223282286e515091517715c",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 16,
       "parser": "pypdf",
       "characters": 42736,
@@ -213,7 +277,17 @@
         14,
         15,
         16
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "JB87VLBY",
@@ -221,7 +295,7 @@
       "filename": "Wu 等 - 2026 - Localized thermal tuning in fused silica inductive vibrating ring gyroscopes.pdf",
       "sha256": "82d49092a0df7f15752396f6e7630a3c360cccd53f0edac41136a2d6626386b7",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 15,
       "parser": "pypdf",
       "characters": 63433,
@@ -244,7 +318,16 @@
         13,
         14,
         15
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "L6NHMEWD",
@@ -252,7 +335,7 @@
       "filename": "Prikhodko 等 - 2013 - What is MEMS gyrocompassing Comparative analysis of maytagging and carouseling.pdf",
       "sha256": "3d6794b5868e4f49615b85ff63023c1e7cb8b83a7c981c580653c45eca3777c0",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 11,
       "parser": "pypdf",
       "characters": 53583,
@@ -271,7 +354,13 @@
         9,
         10,
         11
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "QCCBYZZ5",
@@ -281,7 +370,7 @@
       "same_bytes_in_head_folder": [
         "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1262_Identification and correction of phase delay errors for hemispherical resonator gyroscopes.pdf"
       ],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 16,
       "parser": "pypdf",
       "characters": 59111,
@@ -305,7 +394,13 @@
         14,
         15,
         16
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "RDFG3T5L",
@@ -315,7 +410,7 @@
       "same_bytes_in_head_folder": [
         "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0547_The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discrete Electrode.pdf"
       ],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 18,
       "parser": "pypdf",
       "characters": 80780,
@@ -341,7 +436,16 @@
         16,
         17,
         18
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "UYU9ZQYT",
@@ -351,7 +455,7 @@
       "same_bytes_in_head_folder": [
         "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf"
       ],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 12,
       "parser": "pypdf",
       "characters": 37823,
@@ -371,6 +475,17 @@
         10,
         11,
         12
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "visually_checked_pdf_pages": [
+        4
       ]
     },
     {
@@ -381,7 +496,7 @@
       "same_bytes_in_head_folder": [
         "D:/学习资料/资料/全角陀螺/micromachines-16-00273.pdf"
       ],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 17,
       "parser": "pypdf",
       "characters": 61899,
@@ -406,7 +521,17 @@
         15,
         16,
         17
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "WNMNLLT2",
@@ -414,7 +539,7 @@
       "filename": "Prikhodko 等 - 2013 - Compensation of drifts in high-Q MEMS gyroscopes using temperature self-sensing.pdf",
       "sha256": "f0aa0f5fd2eb5e1893f5535cc6d8cff1d69199e43dd0b733d54a36671af90505",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 9,
       "parser": "pypdf",
       "characters": 43708,
@@ -431,7 +556,14 @@
         7,
         8,
         9
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "XQVCEDVX",
@@ -441,7 +573,7 @@
       "same_bytes_in_head_folder": [
         "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0490_0.79_ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive.pdf"
       ],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 11,
       "parser": "pypdf",
       "characters": 46903,
@@ -460,7 +592,15 @@
         9,
         10,
         11
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "ZAMWMKAD",
@@ -468,7 +608,7 @@
       "filename": "Wang 等 - 2022 - Effect of metallization on quality factor and noise characteristics in fused silica dual-shell gyros.pdf",
       "sha256": "fd58dcf55fc5e737c2267b8dd0de02eb5c5c79c4fd0b1964b8e19594f43af8cb",
       "same_bytes_in_head_folder": [],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 11,
       "parser": "pypdf",
       "characters": 54635,
@@ -487,7 +627,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "visually_checked_pdf_pages": []
     },
     {
       "attachment_key": "ZN9RFGQS",
@@ -497,7 +647,7 @@
       "same_bytes_in_head_folder": [
         "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0489_Substrate-decoupled_ bulk-acoustic wave gyroscopes_ Design and evaluation of next-generation environmentally robust.pdf"
       ],
-      "reading_level": "extracted_not_yet_reviewed",
+      "reading_level": "selected_sections_reviewed_not_all_equations",
       "pages": 10,
       "parser": "pypdf",
       "characters": 46760,
@@ -515,7 +665,13 @@
         8,
         9,
         10
-      ]
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "visually_checked_pdf_pages": []
     }
   ],
   "boundary": "Local attachment files only; current parent-item and collection metadata require the official Local API"

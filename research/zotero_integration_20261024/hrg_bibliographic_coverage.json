@@ -1,0 +1,1205 @@
+{
+  "date": "2026-10-24",
+  "hrg_bibliographic_records": 133,
+  "with_original_zotero_pdf": 17,
+  "boundary": "HRG collection projection only; neither a complete Scholar roster nor scientific reading of every record",
+  "records": [
+    {
+      "key": "JXDJX9IF",
+      "title": "Modern inertial navigation technology and its application",
+      "doi": "10.1049/ecej:20000202",
+      "date": "04/2000",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "RBIUL6E4",
+      "title": "Quapason(TM) - A new low-cost vibrating gyroscope",
+      "doi": "",
+      "date": "1996",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "WFTC2MZR",
+      "title": "Dynamically tuned gyroscopes in stabilized electro-optical sights",
+      "doi": "10.1117/12.352851",
+      "date": "1999",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "34Z7SJXQ",
+      "title": "Identification of anisoelasticity for electrostatic \"trimming\" of rate integrating gyroscopes",
+      "doi": "10.1117/12.475027",
+      "date": "2002",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "476TQE6L",
+      "title": "The application and future development of a MEMS SiVSG® for commercial and military inertial products",
+      "doi": "10.1109/PLANS.2002.998885",
+      "date": "2002",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "7JLWUC5T",
+      "title": "Adaptive control of a MEMS gyroscope using Lyapunov methods",
+      "doi": "",
+      "date": "2006",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "NJJCUKTR",
+      "title": "Ultra-High Q Silicon Gyroscopes with Interchangeable Rate and Whole Angle Modes of Operation",
+      "doi": "10.1109/ICSENS.2010.5690867",
+      "date": "2010",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "JM4CEU3G",
+      "title": "Foucault Pendulum on a Chip: Angle Measuring Silicon Mems Gyroscope",
+      "doi": "",
+      "date": "2011",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "F5LHJVE4",
+      "title": "Sub-degree-per-hour silicon MEMS rate sensor with 1 million Q-factor",
+      "doi": "",
+      "date": "2011",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "TZP3ANMX",
+      "title": "Foucault pendulum on a chip: Rate integrating silicon MEMS gyroscope",
+      "doi": "",
+      "date": "2012",
+      "item_type": "journalArticle",
+      "original_pdf": "DEA2DW82",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "3NJHL6XR",
+      "title": "Foucault pendulum on a chip: Rate integrating silicon MEMS gyroscope",
+      "doi": "",
+      "date": "2012",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "ABKNWYCE",
+      "title": "High-range angular rate sensor based on mechanical frequency modulation",
+      "doi": "",
+      "date": "2012",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "TFSDPBZF",
+      "title": "Compensation of drifts in high-Q MEMS gyroscopes using temperature self-sensing",
+      "doi": "",
+      "date": "2013",
+      "item_type": "journalArticle",
+      "original_pdf": "WNMNLLT2",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "FHC77ZWN",
+      "title": "What is MEMS gyrocompassing? Comparative analysis of maytagging and carouseling",
+      "doi": "",
+      "date": "2013",
+      "item_type": "journalArticle",
+      "original_pdf": "L6NHMEWD",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "QYQ7PKW5",
+      "title": "100k Q-Factor Toroidal Ring Gyroscope Implemented in Wafer-Level Epitaxial Silicon Encapsulation Process",
+      "doi": "",
+      "date": "2014",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "3QDLZZKQ",
+      "title": "Force Rebalance, Whole Angle, and Self-Calibration Mechanization of Silicon MEMS Quad Mass Gyro",
+      "doi": "",
+      "date": "2014",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "J5G8K7X4",
+      "title": "The Application of Parametric Excitation in Mems Gyroscopes",
+      "doi": "",
+      "date": "2014",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "3DZG44HK",
+      "title": "Whole-Angle-Mode Micromachined Fused-Silica Birdbath Resonator Gyroscope (wa-Brg)",
+      "doi": "",
+      "date": "2014",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "892PIPJG",
+      "title": "Disk resonator gyroscope with whole-angle mode operation",
+      "doi": "",
+      "date": "2015",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "XXTX5QF6",
+      "title": "Modal parameter tuning of an axisymmetric resonator via mass perturbation",
+      "doi": "",
+      "date": "2015",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "KRHXGWFC",
+      "title": "PARAMETRIC DRIVE OF A TOROIDAL MEMS RATE INTEGRATING GYROSCOPE DEMONSTRATING &lt; 20 PPM SCALE FACTOR STABILITY",
+      "doi": "",
+      "date": "2015",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "S3KYQ8WE",
+      "title": "A New Electronic Feedback Compensation Method for Rate Integrating Gyroscopes",
+      "doi": "",
+      "date": "2016",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "IAQRRVCS",
+      "title": "Control Scheme and Error Suppression Method for Micro Rate Integrating Gyroscopes",
+      "doi": "",
+      "date": "2016",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "WP8K95PZ",
+      "title": "Coriolis Vibratory Gyroscopes: Theory and Design",
+      "doi": "10.1007/978-3-319-22198-4",
+      "date": "2016",
+      "item_type": "book",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "KFIMNIH9",
+      "title": "Overcoming Limitations of Rate Integrating Gyroscopes by Virtual Rotation",
+      "doi": "",
+      "date": "2016",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "AD4JX7CT",
+      "title": "Overcoming limitations of rate integrating gyroscopes by virtual rotation",
+      "doi": "",
+      "date": "2016",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6C4CPHF6",
+      "title": "Substrate-decoupled, bulk-acoustic wave gyroscopes: Design and evaluation of next-generation environmentally robust devices",
+      "doi": "",
+      "date": "2016",
+      "item_type": "journalArticle",
+      "original_pdf": "ZN9RFGQS",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "835ALW9X",
+      "title": "Ориентация и навигация подвижных объектов. Современные информационные технологии",
+      "doi": "",
+      "date": "2016",
+      "item_type": "book",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "HV3EU6TK",
+      "title": "3D-Calibration for IMU of the Strapdown Inertial Navigation Systems",
+      "doi": "10.1051/matecconf/201711401013",
+      "date": "2017",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "RI973HGF",
+      "title": "3D-Calibration of the IMU",
+      "doi": "",
+      "date": "2017",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "FNEWP4YR",
+      "title": "A Universal Electronics Approach for Rate Integrating Gyroscopes",
+      "doi": "",
+      "date": "2017",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "K4QE7DDU",
+      "title": "Expanded Calibration of the MEMS Inertial Sensors",
+      "doi": "",
+      "date": "2017",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "7ETRWAKK",
+      "title": "High scale-factor stability frequency-modulated MEMS gyroscope: 3-axis sensor and integrated electronics design",
+      "doi": "",
+      "date": "2017",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "2ZXEV3DM",
+      "title": "MEMS and FOG technologies for tactical and navigation grade inertial sensors—Recent improvements and comparison",
+      "doi": "",
+      "date": "2017",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "TJMFQGPX",
+      "title": "Parametric Drive of a Micro Rate Integrating Gyroscope Using Discrete Electrodes",
+      "doi": "",
+      "date": "2017",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "5IHN4HW7",
+      "title": "Virtually Rotated Mems Gyroscope with Angle Output",
+      "doi": "",
+      "date": "2017",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "9GS4MCWP",
+      "title": "A mode-matched force-rebalance control for a MEMS vibratory gyroscope",
+      "doi": "",
+      "date": "2018",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6ITUNBLJ",
+      "title": "Fully differential single resonator FM gyroscope using CW/CCW mode separator",
+      "doi": "",
+      "date": "2018",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6KKGKP7K",
+      "title": "High Quality Factor Mems Gyroscope with Whole Angle Mode of Operation",
+      "doi": "",
+      "date": "2018",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "IAUYEPM4",
+      "title": "The Operation and Mechanization of the Hemispherical Resonator Gyroscope",
+      "doi": "",
+      "date": "2018",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "JQYU59XG",
+      "title": "Effects of nonlinearity on the angular drift error of an electrostatic MEMS rate integrating gyroscope",
+      "doi": "",
+      "date": "2019",
+      "item_type": "journalArticle",
+      "original_pdf": "3JGQXTFY",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "IHIDABG4",
+      "title": "Self-Compensation for Disturbances in Differential Vibratory Gyroscope for Space Navigation",
+      "doi": "10.1155/2019/5234061",
+      "date": "2019",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "3NSLRN6P",
+      "title": "The synthesis model of flat-electrode hemispherical resonator gyro",
+      "doi": "",
+      "date": "2019",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "54HHG9YN",
+      "title": "Concepts, roadmaps and challenges of ovenized MEMS gyroscopes: A review",
+      "doi": "",
+      "date": "2020",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "YS7FZNXY",
+      "title": "Electronic Gain Error Compensation For Whole Angle Mode Coriolis Vibrating Gyroscopes With High Q Factor",
+      "doi": "",
+      "date": "2020",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "IDA8E89I",
+      "title": "Motion equations of hemispherical resonator and analysis of frequency split caused by slight mass non-uniformity",
+      "doi": "",
+      "date": "2020",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "TEICPCM7",
+      "title": "Whole-angle MEMS gyroscopes: challenges and opportunities",
+      "doi": "",
+      "date": "2020",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "MLLHG26F",
+      "title": "A 0.1 Deg/H Module-Level Silicon Mems Rate Integrating Gyroscope Using Virtually Rotated Donut-Mass Structure and Demonstration of the Earth's Rotation Detection",
+      "doi": "10.1109/TRANSDUCERS50396.2021.9495598",
+      "date": "2021",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "ZEWTMAT5",
+      "title": "A rate-integrating honeycomb disk resonator gyroscope with 0.038°/h bias instability and° 7000°/s measurement range",
+      "doi": "",
+      "date": "2021",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "HG2YFNA3",
+      "title": "Characterization and compensation of detection electrode errors for whole-angle micro-shell resonator gyroscope",
+      "doi": "",
+      "date": "2021",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "56I4VUTB",
+      "title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+      "doi": "",
+      "date": "2021",
+      "item_type": "journalArticle",
+      "original_pdf": "UYU9ZQYT",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "Z57BP6KY",
+      "title": "Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs",
+      "doi": "10.1109/INERTIAL51137.2021.9430479",
+      "date": "2021",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "XL5FT3I2",
+      "title": "Calibration of coupling errors for scale factor nonlinearity improvement in navigation-grade honeycomb disk resonator gyroscope",
+      "doi": "",
+      "date": "2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "AFSMSLMG",
+      "title": "Effect of metallization on quality factor and noise characteristics in fused silica dual-shell gyroscopes",
+      "doi": "",
+      "date": "2022",
+      "item_type": "journalArticle",
+      "original_pdf": "ZAMWMKAD",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "HWG2B2ES",
+      "title": "Ultra-fast Characterization of Detection Electrode Errors under Whole-angle Mode in 10 Seconds",
+      "doi": "10.1109/INERTIAL53425.2022.9787737",
+      "date": "2022",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "LYCFC5QE",
+      "title": "Identification and compensation of gain mismatches for whole-angle microhemispherical resonator gyroscope based on modal reversal",
+      "doi": "",
+      "date": "2023",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "ELY97S5T",
+      "title": "Virtually Rotated Multiple Mass Resonator Enabled by Electrostatic Frequency and Q-factor Tuning",
+      "doi": "10.1109/INERTIAL56358.2023.10103981",
+      "date": "2023",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "PWM6QXR3",
+      "title": "A Fast Start Method for Whole-Angle Micro-Shell Resonator Gyroscope",
+      "doi": "10.1109/SENSORS60989.2024.10784714",
+      "date": "2024",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "888MKUMI",
+      "title": "A Novel Phase Error Quantitative Characterization Method for Whole-Angle Micro Hemispherical Resonant Gyroscope",
+      "doi": "10.1109/SENSORS60989.2024.10784886",
+      "date": "2024",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "MER6M36S",
+      "title": "A low-complexity in-run modal frequency tuning method for MEMS disk gyroscopes without gain calibration and phase shifting",
+      "doi": "",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "UD63WZF3",
+      "title": "Achieving sub-5-mHz frequency split trimming of micro hemispherical resonator gyroscope with method of mass–stiffness decoupling",
+      "doi": "",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "R8UNEVSJ",
+      "title": "Adaptive Fuzzy Control Method for Rate-Integrating Hemispherical Resonant Gyro",
+      "doi": "10.23919/CCC63176.2024.10662148",
+      "date": "2024",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "IWN7MMUD",
+      "title": "High-precision identification and compensation of nonlinear error in hemispherical resonator gyro",
+      "doi": "",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "UPHB7RHR",
+      "title": "Identification and Calibration of the Detection Signal Distortion in Whole Angle Mode Hemispherical Resonator Gyro",
+      "doi": "10.1109/TIM.2024.3451567",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "KGVNN8X5",
+      "title": "Modeling, Characterization, and Compensation of Detection and Actuation Coupling Errors for Whole-Angle Micro Hemispherical Resonant Gyroscope",
+      "doi": "10.1109/TIM.2024.3418096",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "2QSQRZPQ",
+      "title": "Online identification and compensation of drive and phase errors for whole-angle hemispherical resonator gyroscope based on sinusoidal self-excitation",
+      "doi": "",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "I6FNAM5N",
+      "title": "Self-Excitation Enabled Decoupling, Calibration, and Compensation of Errors for Whole-Angle Hemispherical Resonator Gyroscope",
+      "doi": "10.1109/TIM.2023.3346525",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "9F38JDQT",
+      "title": "Separation of mass and gap errors of hemispherical resonator gyroscopes by varying bias voltage",
+      "doi": "",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "Q8AMR399",
+      "title": "Separation of mass and gap errors of hemispherical resonator gyroscopes by varying bias voltage",
+      "doi": "",
+      "date": "2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "2MJYTI9J",
+      "title": "A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope",
+      "doi": "",
+      "date": "2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "EHQB2E4I",
+      "title": "An Investigation on Influences of the Phase Delay and the Electrode Errors on a Mode-Reversal Hemispherical Resonator Gyroscope",
+      "doi": "10.1109/TIM.2025.3566834",
+      "date": "2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "8979BEYM",
+      "title": "Calibration of Channel Error in Dual-Channel Synchronous Control Circuit for Rate Integrating Hemispherical Resonator Gyro",
+      "doi": "10.1109/CCDC65474.2025.11090788",
+      "date": "2025",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "2XLT6UES",
+      "title": "Characterization and compensation of phase delay and modulation pattern angle error for rate-integrating micro-hemispherical resonator gyroscope",
+      "doi": "",
+      "date": "2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "V8RPP9TY",
+      "title": "Mechanical modeling and frequency splitting mechanism analysis of variable density hemispherical resonators",
+      "doi": "",
+      "date": "2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "D676A7MN",
+      "title": "Separation, Identification, and Compensation of Damping, Detection, and Actuation Errors for Rate-Integrating Hemispherical Resonator Gyroscopes",
+      "doi": "10.1109/TIM.2025.3555670",
+      "date": "2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "VAVY692G",
+      "title": "Separation, identification, and compensation of damping, detection, and actuation errors for rate-integrating hemispherical resonator gyroscopes",
+      "doi": "",
+      "date": "2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "WBGXNSMV",
+      "title": "半球谐振陀螺研究现状, 关键技术和发展趋势分析",
+      "doi": "",
+      "date": "2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "R8U598D2",
+      "title": "4.7ppm Scale Factor Nonlinearity and 0.007°/H Bias Instability Honeycomb Disk Resonator Gyroscope Realized by Calibration of Mode Deflection",
+      "doi": "10.1109/MEMS64181.2026.11419570",
+      "date": "2026",
+      "item_type": "conferencePaper",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "U9KUL3CP",
+      "title": "Identification and Compensation of Detection Electrode Errors in Hemispherical Resonator Gyroscopes via Bidirectional Turntable Rotations",
+      "doi": "10.1109/TIM.2026.3667313",
+      "date": "2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "ME694B7B",
+      "title": "Modeling, Characterization, and Compensation of Detection Errors for Differential Frequency Modulation Whole-Angle Hemispherical Resonator Gyroscope",
+      "doi": "10.1109/TIM.2026.3682829",
+      "date": "2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "M3I45X3H",
+      "title": "Modeling, Decoupling Identification, and Compensation of Imbalance Errors for Whole-Angle Hemispherical Resonator Gyroscopes",
+      "doi": "10.1109/TIM.2026.3674286",
+      "date": "2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "TE2HJDBQ",
+      "title": "Real-Time Elimination of Harmonic Drift for Hemispherical Resonator Gyro Based on FRP Control Scheme",
+      "doi": "10.1109/TIM.2025.3650265",
+      "date": "2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "7AVNPLF6",
+      "title": "Nonlinearity Calibration for Micro Hemispherical Resonator Gyroscope Based on the First Developed Rate-Integrating Nonlinear Model",
+      "doi": "10.1109/TMECH.2026.3670820",
+      "date": "2026 MAR 27",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6PBF3RUY",
+      "title": "Rate Integrating Hemispherical Resonator Gyroscope Detection Error Analysis and Compensation",
+      "doi": "10.1109/JSEN.2023.3246044",
+      "date": "APR 1 2023",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "B6LJDB54",
+      "title": "Characterization and Compensation of Phase Delay and Modulation Pattern Angle Error for Rate-Integrating Micro-Hemispherical Resonator Gyroscope",
+      "doi": "10.1109/JSEN.2025.3543642",
+      "date": "APR 1 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "7R273RP3",
+      "title": "Foucault pendulum on a chip: Rate integrating silicon MEMS gyroscope",
+      "doi": "10.1016/j.sna.2012.01.029",
+      "date": "APR 2012",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "LZXXXI2R",
+      "title": "Calibration and Compensation of Asymmetric Phase Error for Whole-Angle Hemispherical Resonant Gyroscope",
+      "doi": "10.1109/JSEN.2025.3583295",
+      "date": "AUG 15 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "V6MDN8DY",
+      "title": "Noise analysis and suppression of whole-angle MEMS gyroscopes based on detection-axes-rotation",
+      "doi": "10.1016/j.ymssp.2026.114724",
+      "date": "AUG 15 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "4PJIUUKV",
+      "title": "Virtual Rotating MEMS Gyrocompassing With Honeycomb Disk Resonator Gyroscope",
+      "doi": "10.1109/LED.2022.3185985",
+      "date": "AUG 2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "P3CV8SU6",
+      "title": "A 0.017 °/h Rate-Integrating Micro-Shell Resonator Gyroscope Using Virtual Rotation Modulation",
+      "doi": "10.1109/JMEMS.2024.3474054",
+      "date": "DEC 2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "4S2NVQEM",
+      "title": "A MEMS Rate-Integrating Gyroscope (RIG) With In-Run Automatic Mode-Matching",
+      "doi": "10.1109/JSEN.2021.3137245",
+      "date": "FEB 1 2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "XCGDXNKD",
+      "title": "The control algorithm of whole angle mode for HRG based on the vector composition",
+      "doi": "10.1186/s13638-021-01913-7",
+      "date": "FEB 15 2021",
+      "item_type": "journalArticle",
+      "original_pdf": "2F6FA5W9",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "8NDSE3KT",
+      "title": "Investigation of Angle Drift Induced by Actuation Electrode Errors for Whole-Angle Micro-Shell Resonator Gyroscope",
+      "doi": "10.1109/JSEN.2022.3140799",
+      "date": "FEB 15 2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "358J26MX",
+      "title": "Achieving Sub-Hz Frequency Symmetry in Micro-Glassblown Wineglass Resonators",
+      "doi": "10.1109/JMEMS.2013.2286820",
+      "date": "FEB 2014",
+      "item_type": "journalArticle",
+      "original_pdf": "ETBPGUEC",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "YFSXKRJ9",
+      "title": "Characterization and Compensation of Detection Electrode Errors for Whole-Angle Micro-Shell Resonator Gyroscope",
+      "doi": "10.1109/JMEMS.2021.3123082",
+      "date": "FEB 2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "D3QDRTQ7",
+      "title": "Real-Time Detection and Dynamic Compensation of Mismatch in Rate-Integrating MEMS Gyroscopes Using Virtual Rotation",
+      "doi": "10.1109/LSENS.2024.3520910",
+      "date": "FEB 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "57CXSLG9",
+      "title": "A Novel Closed-Loop Single-Channel Time Division Multiplexing Detection Circuit for Hemispherical Resonator Gyroscope",
+      "doi": "10.3390/mi16030273",
+      "date": "FEB 27 2025",
+      "item_type": "journalArticle",
+      "original_pdf": "VGZ48WAL",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "PVRX549F",
+      "title": "Identification and Compensation of Gain Mismatches for Whole-Angle Microhemispherical Resonator Gyroscope Based on Modal Reversal",
+      "doi": "10.1109/JSEN.2023.3332067",
+      "date": "JAN 1 2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "SI85TPZ2",
+      "title": "Identification and correction of phase delay errors for hemispherical resonator gyroscopes",
+      "doi": "10.1038/s41598-025-86288-1",
+      "date": "JAN 15 2025",
+      "item_type": "journalArticle",
+      "original_pdf": "QCCBYZZ5",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "4YEB9UDA",
+      "title": "Online Identification and Compensation of Drive and Phase Errors for Whole-Angle Hemispherical Resonator Gyroscope Based on Sinusoidal Self-Excitation",
+      "doi": "10.1109/JSEN.2024.3504581",
+      "date": "JAN 15 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "3D5JGUMK",
+      "title": "GYTRIX Quartz MEMS Gyro: From Concept to Northfinding Measurements",
+      "doi": "10.1109/LSENS.2025.3638591",
+      "date": "JAN 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6P8IINW5",
+      "title": "Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resonator Gyroscope",
+      "doi": "10.3390/mi17010143",
+      "date": "JAN 22 2026",
+      "item_type": "journalArticle",
+      "original_pdf": "3WWC87NP",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "SYIDN5TJ",
+      "title": "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro",
+      "doi": "10.1016/j.measurement.2024.115599",
+      "date": "JAN 30 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "Y6KV9CPZ",
+      "title": "Tss Core Equipment .2. Dynamic Package and Rationale for System Dynamics Analysis",
+      "doi": "10.1007/BF02506684",
+      "date": "JAN-FEB 1994",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "FPFQTQPM",
+      "title": "Suppression and Compensation of Damping Asymmetry Errors in Whole-Angle Hemispherical Resonator Gyroscope",
+      "doi": "10.1109/JSEN.2025.3572313",
+      "date": "JUL 1 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "P4GRK6J8",
+      "title": "Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hemispherical Resonator Gyro",
+      "doi": "10.3390/s24134328",
+      "date": "JUL 2024",
+      "item_type": "journalArticle",
+      "original_pdf": "33LLJK89",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "3LXBHTCP",
+      "title": "A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope",
+      "doi": "10.1016/j.sna.2025.116402",
+      "date": "JUN 1 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "MTGCXEIK",
+      "title": "Micro Hemispherical Resonator Gyroscope With Teeth-Like Tines",
+      "doi": "10.1109/JSEN.2021.3065818",
+      "date": "JUN 15 2021",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "U57PDHER",
+      "title": "The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discrete Electrode",
+      "doi": "10.3390/s20123549",
+      "date": "JUN 2020",
+      "item_type": "journalArticle",
+      "original_pdf": "RDFG3T5L",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "PGKBMPCM",
+      "title": "Modeling and Validation of Rate-Integrating Gyroscopes With 0.01 ° / √ h ARW and 100 µ ° / √ Hz AWN",
+      "doi": "10.1109/JMEMS.2026.3681956",
+      "date": "JUN 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "GQLNAX6N",
+      "title": "Localized thermal tuning in fused silica inductive vibrating ring gyroscopes",
+      "doi": "10.1038/s41378-026-01203-6",
+      "date": "MAR 3 2026",
+      "item_type": "journalArticle",
+      "original_pdf": "JB87VLBY",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "RNT96Z9C",
+      "title": "Micromechanical Rate Integrating Gyroscope With Angle-Dependent Bias Compensation Using a Self-Precession Method",
+      "doi": "10.1109/JSEN.2018.2810843",
+      "date": "MAY 1 2018",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "BYZGX4C9",
+      "title": "Control System Based on Double-Frequency Drive and Single-Channel Detection for Rate Integrating Vibratory Gyroscope",
+      "doi": "10.1109/JSEN.2024.3378916",
+      "date": "MAY 1 2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "N9R57TSH",
+      "title": "Online Mode-Matching Method Countering for Stiffness Nonlinearity in Whole-Angle MEMS Gyroscope",
+      "doi": "10.1109/JSEN.2025.3548851",
+      "date": "MAY 1 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "VW9VS3MS",
+      "title": "Whole-chain multi-mode error compensation for high-precision rate-integrating micro-hemispherical resonator gyroscopes",
+      "doi": "10.1016/j.measurement.2026.121170",
+      "date": "MAY 12 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "GF2WKED6",
+      "title": "4.11-million Q-factor whole-angle MEMS hemispherical resonator gyroscope with 0.013°/h bias instability",
+      "doi": "10.1088/1361-6501/ad6fc3",
+      "date": "NOV 1 2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6JPCV2XA",
+      "title": "Fast Identification and Compensation for Actuation Electrode Errors of Rate Integrating Gyroscopes",
+      "doi": "10.1109/JSEN.2024.3408638",
+      "date": "NOV 15 2024",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6IRKSTRE",
+      "title": "Self-calibration method for assembly errors of hemispherical resonator gyroscope",
+      "doi": "10.1016/j.ijmecsci.2025.110811",
+      "date": "NOV 15 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "WETV4LQF",
+      "title": "Modeling and compensation of higher-order harmonics in equivalent angle gain for whole-angle mode honeycomb disk resonator gyroscope",
+      "doi": "10.1016/j.measurement.2026.122902",
+      "date": "NOV 15 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "AR33ZFLW",
+      "title": "Low-Dissipation Silicon Tuning Fork Gyroscopes for Rate and Whole Angle Measurements",
+      "doi": "10.1109/JSEN.2011.2160338",
+      "date": "NOV 2011",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "PTUU49BZ",
+      "title": "0.08 ppm Scale Factor Nonlinearity in Whole-Angle Hemispherical Resonator Gyroscopes Enabled by Rapid Detection Signal Nonlinearity Suppression",
+      "doi": "10.1109/LED.2025.3604433",
+      "date": "NOV 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "6VJI24DG",
+      "title": "Modeling, identification and compensation for assembly error of whole-angle mode hemispherical resonator gyro",
+      "doi": "10.1016/j.measurement.2022.112064",
+      "date": "NOV 30 2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "5WW7RGGQ",
+      "title": "Single-Channel Control for Hemispherical Resonator Gyro Based on Time Division Multiplexing and Demultiplexing",
+      "doi": "10.1109/JSEN.2021.3103115",
+      "date": "OCT 1 2021",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "J95N9ADV",
+      "title": "0.79 ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive displacement detection",
+      "doi": "10.1038/s41378-021-00306-6",
+      "date": "OCT 13 2021",
+      "item_type": "journalArticle",
+      "original_pdf": "XQVCEDVX",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "I2MJG37Z",
+      "title": "Identification and Correction of Phase Error for Whole-Angle Micro-Shell Resonator Gyroscope",
+      "doi": "10.1109/JSEN.2022.3204631",
+      "date": "OCT 15 2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "ZRLAC8K8",
+      "title": "Dual-Channel Phase Delay Compensation for Hemispherical Resonator Gyroscopes With Angle-Dependent Bias Reduction to 3.190 x 10-5°/s",
+      "doi": "10.1109/JSEN.2025.3602801",
+      "date": "OCT 15 2025",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "YZJQCIQW",
+      "title": "Phase error self-calibration in hemispherical resonator gyroscopes via virtual rotation",
+      "doi": "10.1016/j.sna.2026.118075",
+      "date": "OCT 16 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "JLCYMY3K",
+      "title": "Active structural error suppression in MEMS vibratory rate integrating gyroscopes",
+      "doi": "10.1109/JSEN.2003.817165",
+      "date": "OCT 2003",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "V2N2GPDW",
+      "title": "Nonlinear Dynamics of the Hemispherical Resonator of a Rate-Integrating Gyroscope under Parametric Excitation of the Free Precession Mode",
+      "doi": "10.3103/S1052618822040082",
+      "date": "OCT 2022",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "FBZ4XUIE",
+      "title": "A Novel Hybrid Mode for Hemispherical Resonator Gyroscope Inertial Navigation Systems: Principle and System-Level Calibration Method",
+      "doi": "10.1109/TII.2026.3698512",
+      "date": "OCT 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "794XMQRQ",
+      "title": "An Angle-Dependent Bias Compensation Method for Hemispherical Resonator Gyro Inertial Navigation Systems",
+      "doi": "10.3390/s25216639",
+      "date": "OCT 29 2025",
+      "item_type": "journalArticle",
+      "original_pdf": "HJ8QJI38",
+      "reading_evidence": "See source reading ledger"
+    },
+    {
+      "key": "Y8XJLQZ5",
+      "title": "High-Order Fourier-Basis LSTM-PINN for angle-dependent bias waveform reconstruction in whole-angle vibratory gyroscopes",
+      "doi": "10.1016/j.ymssp.2026.114836",
+      "date": "SEP 1 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    },
+    {
+      "key": "BJ5YKJLK",
+      "title": "The Electrode Nonlinearity Error Suppression of Hemispherical Resonator Gyro Under Whole-Angle Mode",
+      "doi": "10.1109/JSEN.2026.3710725",
+      "date": "SEPT 1 2026",
+      "item_type": "journalArticle",
+      "original_pdf": null,
+      "reading_evidence": "Bibliography only in this projection; local D: match not inferred"
+    }
+  ]
+}

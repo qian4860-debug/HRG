@@ -1,7 +1,11 @@
 {
-  "status": "waiting_for_local_api_enable",
+  "status": "verified",
   "source_unique_files": 206,
-  "source_paths": 207,
-  "setting": "Zotero Settings > Advanced > Allow other applications on this computer to communicate with Zotero",
-  "boundary": "No Zotero collection or item has been changed"
+  "new_linked_files": 199,
+  "existing_memberships_extended": 0,
+  "all_source_files_accessible_in_target": true,
+  "source_hashes_preserved": true,
+  "private_zotero_items_indexed": 799,
+  "private_file_attachments_indexed": 216,
+  "boundary": "File/collection verification, not automatic scientific reading or bibliographic equivalence"
 }
