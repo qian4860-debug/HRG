@@ -1,0 +1,564 @@
+{
+  "date": "2026-10-23",
+  "catalog_sha256": "0afa51c9e05d352015fc631ef8a99fdaba0387962ce1b7b9c05c9c06b8dcbc45",
+  "local_unique": 73,
+  "online_records": 80,
+  "scope": "Formula comparison of selected full-text evidence; exhaustive record mapping with original reading levels preserved",
+  "local": [
+    {
+      "id": "L002",
+      "title": "2025驱动误差辨识与补偿",
+      "path": "D:/学习资料/资料/全角陀螺/1-s2.0-S0924424725002080-main.pdf",
+      "sha256": "26c79bf15faf20021c692db76d9555fa919a4b40dd620dba4ec642d1df4cc5e4",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.7 电极/驱动误差",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L003",
+      "title": "2025虚拟进动频裂辨识与调平",
+      "path": "D:/学习资料/资料/全角陀螺/1-s2.0-S2405896325018932-main.pdf",
+      "sha256": "023ec185710eb84e526c53cdfb09d723fee1fcee97c30cda5af86ef65ecdac00",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.8 频裂识别/物理调平",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L009",
+      "title": "CN102812328A 非线性补偿角测量",
+      "path": "D:/学习资料/资料/全角陀螺/CN102812328A.pdf",
+      "sha256": "e6d971e9ed95a0ba8a79ce8f1d2814ab6e67de971a47dc0674829b1a3d6cd237",
+      "catalog_evidence_level": "web_sections",
+      "previously_recorded_pdf_pages": [
+        1
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.12 观测非线性专利",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L010",
+      "title": "CN105547272A 压电HRG全角检测",
+      "path": "D:/学习资料/资料/全角陀螺/CN105547272A.pdf",
+      "sha256": "af35d2f22c7a7b30bfe43b5257a9991cab33da20f51b104ec1cf7d9590c5f396",
+      "catalog_evidence_level": "web_sections",
+      "previously_recorded_pdf_pages": [
+        1
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.12 压电换能专利",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L027",
+      "title": "CN117705163A 自激解耦标补",
+      "path": "D:/学习资料/资料/全角陀螺/CN117705163A.pdf",
+      "sha256": "a1a17374e9b6812c010cee3922ca82218ae4f988c4ef2905384f40d226f4e09d",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.12 分阶段标补",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L030",
+      "title": "EP1722193A2 HRG control",
+      "path": "D:/学习资料/资料/全角陀螺/EP1722193A2.pdf",
+      "sha256": "e83cef8a480cbef93e5073c0982dbdcc5f031d4744a337bd365ea2a2dcb7a2ae",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.10 经典时空控制专利",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L032",
+      "title": "EP3096111B1 HRG",
+      "path": "D:/学习资料/资料/全角陀螺/EP3096111B1.pdf",
+      "sha256": "48c7dd40b94a68a2acd7364115fa7b90f82c67f333b1df17343613876a1a4771",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.10 刚度/频率控制专利",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L038",
+      "title": "2025闭环单通道TDM检测",
+      "path": "D:/学习资料/资料/全角陀螺/micromachines-16-00273.pdf",
+      "sha256": "5e75627d9857b2895d0d0fe7f8145fedbf519f893f75ee67f285a6998cf900ad",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.9 检测跟踪闭环与TDM",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L039",
+      "title": "2026 FRP谐波漂移消除",
+      "path": "D:/学习资料/资料/全角陀螺/Real-Time_Elimination_of_Harmonic_Drift_for_Hemispherical_Resonator_Gyro_Based_on_FRP_Control_Scheme.pdf",
+      "sha256": "ca664c6204d82409f81d6f93c0f139b81360a538d5cb700ab526e134e1647b80",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.5 往返进动/FRP",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L050",
+      "title": "吴俊恒2023特征参数辨识与补偿",
+      "path": "D:/学习资料/资料/全角陀螺/全角模式半球谐振陀螺特征参数辨识与补偿研究.pdf",
+      "sha256": "46fb1b2e84d288b61a7dfcad71192c32dfbb0571531abde78978c2a8d49f3354",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.4、8.6 参数辨识",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L052",
+      "title": "张岚昕等2019信号处理控制",
+      "path": "D:/学习资料/资料/全角陀螺/半球谐振陀螺全角模式信号处理控制方法.pdf",
+      "sha256": "9e182c4a0fa143164703fae1c88197f6e1eb4cb3aabb67e1b91ffb3fc9f6d33b",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "comparison_section": "7.4；1–6 基线公式",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L053",
+      "title": "刘学2024控制与误差补偿系统",
+      "path": "D:/学习资料/资料/全角陀螺/半球谐振陀螺全角模式控制与误差补偿系统设计与实.pdf",
+      "sha256": "38e198d397209a03250c39e5a36af9d8496765f4bdfd1755096d761d2384318d",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        55,
+        56,
+        57,
+        58,
+        59,
+        62,
+        63,
+        64,
+        65
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        62,
+        63,
+        64,
+        65
+      ],
+      "comparison_section": "7.3 数字实现与补偿",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L054",
+      "title": "蒲云飞2022全角控制技术",
+      "path": "D:/学习资料/资料/全角陀螺/半球谐振陀螺全角模式控制技术研究与实现.pdf",
+      "sha256": "67f4332ed69bdb7d5f35f29e9bd6d691c038108eaba40f4c37f2019ac6081837",
+      "catalog_evidence_level": "visual_sections",
+      "previously_recorded_pdf_pages": [
+        3,
+        5,
+        9,
+        11,
+        13,
+        14,
+        15,
+        43,
+        44,
+        45,
+        46,
+        55,
+        56,
+        57
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "comparison_section": "7.2 PI/PR/PIR",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L055",
+      "title": "何栓2023误差分析及补偿",
+      "path": "D:/学习资料/资料/全角陀螺/半球谐振陀螺误差分析及补偿.pdf",
+      "sha256": "0345a85852404c596e7c1fb49601994df4fc3188f6ff7c693c560c381ead68c3",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.6 误差分离",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L056",
+      "title": "2025通道误差与全温补偿",
+      "path": "D:/学习资料/资料/全角陀螺/半球谐振陀螺通道误差影响分析与全温补偿方法.pdf",
+      "sha256": "39f912bde418b3dcf6f806f1c54ec93d424a64dd4967dcb29ad7915ccde7c60a",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.6 通道全温误差",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L057",
+      "title": "陈洋2023量化与阻尼误差",
+      "path": "D:/学习资料/资料/全角陀螺/半球谐振陀螺量化误差与阻尼误差抑制技术研究.pdf",
+      "sha256": "d8bbbe5ff08ccc00d2933e1cdba105e158c675e7c98b09338c032e8af0c2d0d7",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        23,
+        24,
+        25,
+        26,
+        27,
+        34,
+        35,
+        36,
+        49,
+        50,
+        51,
+        52,
+        53,
+        59,
+        60,
+        61,
+        62,
+        63,
+        66,
+        70
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [
+        24,
+        25,
+        26,
+        49,
+        50,
+        51,
+        59,
+        60,
+        66,
+        70
+      ],
+      "comparison_section": "7.1；1–6、8.3–8.5",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L058",
+      "title": "2023 Kalman解调全角控制",
+      "path": "D:/学习资料/资料/全角陀螺/基于Kalman滤波解调的半球谐振陀螺全角控制方案及仿真.pdf",
+      "sha256": "c5eb63b02bd51de9a115ccb9d1f3509bc946d1429ae9abb334deef6e73f98cc9",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "additionally_read_pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "key_comparison_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "comparison_section": "8.1 载波 Kalman 解调",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L059",
+      "title": "2023 RLS自补偿",
+      "path": "D:/学习资料/资料/全角陀螺/基于RLS算法的全角模式半球谐振陀螺自补偿控制.pdf",
+      "sha256": "fcbc375b249c56d45ee18d17605e2e19a197780cd056171629410a77d2428967",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.4 RLS",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L060",
+      "title": "CN112504258B 自适应控制电路授权本",
+      "path": "D:/学习资料/资料/全角陀螺/基于全角模式的石英半球谐振陀螺自适应控制电路及方法.pdf",
+      "sha256": "177c419ff6464011aaacc992ea3b6a6a9370f6c247cf96abe57fe182bcb7651b",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        3,
+        4
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.12 控制电路实施例",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L061",
+      "title": "2023频率解调控制",
+      "path": "D:/学习资料/资料/全角陀螺/基于频率解调的半球谐振陀螺控制系统设计.pdf",
+      "sha256": "c971816169cb0fb32b6a28103e0b2f1fe64e8afee0837a29cdf97859220d4811",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "comparison_section": "8.2 行波/频率解调",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L063",
+      "title": "2021阻尼死区与虚拟进动",
+      "path": "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf",
+      "sha256": "8aae4690a0b6851083541cd73f669fe7a9ef162fc16e7ef95dc1aae0dc9ec97c",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.3 阻尼死区",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L064",
+      "title": "2021矢量合成全角控制",
+      "path": "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Whole_Angle_Control_Vector_Composition.pdf",
+      "sha256": "e290b0614b3cfc54fbd247f1e142c012390f2ec610135588530fcd8dbf99d728",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.10 电极矢量合成",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L069",
+      "title": "谐振陀螺仪与系统技术",
+      "path": "D:/学习资料/资料/全角陀螺/谐振陀螺仪与系统技术   _14948769.pdf",
+      "sha256": "203bb3178e7e2ac0de9d48df0b844f2cab2d5204ac170899e1ab295c4fb1005c",
+      "catalog_evidence_level": "visual_sections",
+      "previously_recorded_pdf_pages": [
+        5,
+        7,
+        27,
+        30
+      ],
+      "additionally_read_pdf_pages": [],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "2.1 连续体投影背景",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    },
+    {
+      "id": "L071",
+      "title": "2022非线性RIG作者稿",
+      "path": "C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20261021_WoS/pdf/算法与补偿/2022_Nonlinear_RIG.pdf",
+      "sha256": "2c4892cf17a2bf5270c1bb186776e3fffbcaf7f003d38a355fe432e45c02075d",
+      "catalog_evidence_level": "sections",
+      "previously_recorded_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "additionally_read_pdf_pages": [
+        4,
+        5,
+        6
+      ],
+      "key_comparison_pdf_pages": [],
+      "comparison_section": "8.11 轴向非线性RIG",
+      "scope": "Selected formula pages; not a new claim that every page was read"
+    }
+  ],
+  "web": [
+    {
+      "title": "Identification and correction of phase delay errors for hemispherical resonator gyroscopes",
+      "url": "https://www.nature.com/articles/s41598-025-86288-1",
+      "access": "2026-10-23 primary publisher search excerpt, phase decomposition/equations 6-12; not complete new full-text review",
+      "use": "Section 9.1 qualitative phase decomposition; coefficient in equation 57 derived independently"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "scope": "Additive formula review; no V7 source/model mutations",
+  "algebra_checks": 25,
+  "all_passed": true,
+  "files": [
+    {
+      "path": "formula_by_formula_comparison.md",
+      "sha256": "313eafaf912788f752332c621c50b3e04ca9a2f831003519c5f5cdcde387e043"
+    },
+    {
+      "path": "corpus_mapping.md",
+      "sha256": "25fa656f32b3d296a8b75dd481737f988f19b324f100b28e8aa846ceab7f397d"
+    },
+    {
+      "path": "verify_formulas.py",
+      "sha256": "24b2c8a2d329ea7ecc61eef67e45df63bb37311a010bb5fbb56b714391480d36"
+    },
+    {
+      "path": "build_evidence.py",
+      "sha256": "b6fd05f495cff073238e7eb547a0b48303366d5a213b6a5aeef345146f966929"
+    },
+    {
+      "path": "evidence/algebra_checks.json",
+      "sha256": "b8ba34b96117ee8de0a60b609c620d13e0ad6963aab8d815eb445dc4ab161ea3"
+    },
+    {
+      "path": "evidence/sources.json",
+      "sha256": "6c328067555d370c5f12d23db0861f9b56524d039549731e13cfcf01dfdfbea1"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "3ed77a80cf8c5ef7f346015f557db30e7ee4c1bd080c3f0e278ed0cca8aaf1b5"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "62bdf8aeabd0a21cf229e7ebc30b9f3a0c3951e5e2015185c5190b4636fbcae1"
+    }
+  ]
+}
