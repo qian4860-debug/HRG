@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24",
+  "requested_scholar_url": "https://scholar.google.com/scholar?cites=15957943393310504435&as_sdt=2005&sciodt=0,5&hl=zh-CN&scioq=%22Vibratory+gyro+analysis+by+the+method+of+averaging%22",
+  "scholar_status": "Browser tab visible but DOM reads time out; exact Scholar enumeration unavailable",
+  "target": {
+    "author": "D. D. Lynch",
+    "title": "Vibratory gyro analysis by the method of averaging",
+    "year": 1995,
+    "pages": "26–34"
+  },
+  "relation": "citing paper -> Lynch 1995, not references cited by Lynch",
+  "complete_scholar_set": false,
+  "boundary": "Verified recoverable subset plus explicitly marked candidates"
+}

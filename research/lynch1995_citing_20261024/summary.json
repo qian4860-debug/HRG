@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-24",
+  "records": 114,
+  "statuses": {
+    "existing_local_verified": 40,
+    "local_present_needs_parse_or_identity_review": 6,
+    "fulltext_unavailable_from_checked_sources": 42,
+    "downloaded_verified": 24,
+    "candidate_pdf_citation_unconfirmed": 1,
+    "excluded_incorrect_manual_seed_doi": 1
+  },
+  "confirmed_citing_records": 84,
+  "confirmed_citing_fulltexts": 64,
+  "new_confirmed_citing_fulltexts": 24,
+  "existing_confirmed_citing_fulltexts": 40,
+  "unique_confirmed_fulltext_hashes": 62,
+  "new_unique_confirmed_fulltext_hashes": 24,
+  "existing_unique_confirmed_fulltext_hashes": 38,
+  "unique_fulltext_hashes": 62,
+  "complete_scholar_set": false,
+  "library": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024",
+  "boundary": "PDF identity checked and citation evidence recorded; not scientific full-text reading"
+}
