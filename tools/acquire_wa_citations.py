@@ -69,6 +69,7 @@ def clean_doi(text):
 
 
 def dois(text):
+    text=unicodedata.normalize('NFKC',text)
     text=re.sub(r'(10\.)\s+(\d{4,9})',r'\1\2',text)
     text=re.sub(r'(10\.1016/j\.)\s+',r'\1',text,flags=re.I)
     text=re.sub(r'(10\.\d{4,9}/[^\s]*[-/])\s+(?=[a-zA-Z0-9])',r'\1',text)
@@ -289,9 +290,10 @@ def candidates(row):
     urls.extend(x['url'] for x in row.get('manual_urls',[]))
     ds=row.get('doi') or ''
     # Open publisher endpoint patterns, identified by DOI journal code.
-    match=re.fullmatch(r'10\.3390/(s|mi)(\d{2})\d{2}(\d{4,6})',ds)
+    match=re.fullmatch(r'10\.3390/(s|mi|act|sym|math|ma|nano)(\d{1,2})\d{2}(\d{4,6})',ds)
     if match:
-        prefix,vol,article=match.groups();journal='sensors' if prefix=='s' else 'micromachines'
+        prefix,vol,article=match.groups()
+        journal={'s':'sensors','mi':'micromachines','act':'actuators','sym':'symmetry','math':'mathematics','ma':'materials','nano':'nanomaterials'}[prefix]
         stem=f'{journal}-{int(vol):02d}-{int(article):05d}'
         urls.append(f'https://mdpi-res.com/d_attachment/{journal}/{stem}/article_deploy/{stem}.pdf')
     if ds.startswith('10.1038/'):
@@ -332,14 +334,48 @@ def augment(args):
                           name='Recent Advances in MEMS-Based 3D Hemispherical Resonator Gyroscope',
                           title='Recent Advances in MEMS-Based 3D Hemispherical Resonator Gyroscope',head=head,dois=[record['doi']]))
     net=Network(args.proxy);bydoi={x['doi']:x for x in rows if x.get('doi')};additions=0
-    for seed in local:
+    parents=list(local);online_coverage=[]
+    if args.include_online:
+        catalog=json.loads(CATALOG.read_text(encoding='utf-8-sig'))
+        held={d for seed in local for d in seed['dois']}
+        for record_online in catalog['online']:
+            rec=dict(id=record_online['id'],url=record_online.get('url'),title=record_online.get('title'),level=record_online.get('level'))
+            key=record_online.get('key','')
+            if key.startswith('doi:'):
+                doi=clean_doi(key[4:]);rec['doi']=doi
+                known_alias={'W035':'L061','W036':'L059'}.get(record_online['id'])
+                if known_alias:
+                    rec.update(status='already_covered_by_local_seed',local_source=known_alias,matching='Existing catalogue correspondence; Chinese publisher DOI absent from Crossref')
+                    alias=next((x for x in source_doc['sources'] if x['id']=='O'+record_online['id']),None)
+                    if alias:alias.update(status='duplicate_local_seed',duplicate_of=known_alias)
+                elif doi.startswith('10.17632/'):
+                    rec['status']='dataset_DOI_not_academic_seed_paper'
+                    ds_source=next((x for x in source_doc['sources'] if x['id']=='O'+record_online['id']),None)
+                    if ds_source:ds_source.update(status='dataset_not_paper',kind='dataset')
+                elif doi in held:rec['status']='already_covered_by_local_seed'
+                else:
+                    ident='O'+record_online['id']
+                    if not any(x['id']==ident for x in source_doc['sources']):
+                        source_doc['sources'].append(dict(id=ident,kind='online_seed_metadata',doi=doi,
+                            catalogue_title=record_online.get('title'),url=record_online.get('url'),
+                            status='publisher_references_pending',original_reading_level=record_online.get('level'),
+                            boundary='Publisher-deposited first-level references; no claim of seed full-text reading'))
+                    parents.append(dict(source_id=ident,dois=[doi],head='',online=True))
+                    rec['status']='publisher_reference_lookup_requested'
+                    held.add(doi)
+            else:rec['status']='non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper'
+            online_coverage.append(rec)
+    for seed in parents:
         for ds in seed['dois'][:3]:
             try:
                 msg=cached_json(net,'https://api.crossref.org/works/'+urllib.parse.quote(ds,safe=''))['message']
-                if title_score(' '.join(msg.get('title',[])),seed['head'][:12000])<.85:continue
+                if not seed.get('online') and title_score(' '.join(msg.get('title',[])),seed['head'][:12000])<.85:continue
                 ref_list=msg.get('reference',[])
                 sr=next(x for x in source_doc['sources'] if x['id']==seed['source_id'])
                 sr['publisher_reference_count']=len(ref_list);sr['publisher_reference_doi']=ds
+                if seed.get('online'):
+                    sr.update(status='publisher_references_retrieved' if ref_list else 'publisher_metadata_has_no_reference_list',title=' '.join(msg.get('title',[])))
+                    next(x for x in online_coverage if 'O'+x['id']==seed['source_id'])['status']=sr['status']
                 if seed['source_id']=='L062':
                     sr.update(status='references_recovered_from_publisher_metadata',replacement_pdf=seed['path'],replacement_sha256=seed['sha256'],replacement_pages=record['pages'])
                 for j,ref in enumerate(ref_list,1):
@@ -362,9 +398,16 @@ def augment(args):
                         pdf_page=None,raw=raw,provenance='Crossref reference deposit of the same seed paper',parent_doi=ds))
                 print('PUBLISHER REFERENCES',seed['source_id'],len(ref_list),flush=True)
                 break
-            except Exception as e:print('PARENT LOOKUP',seed['source_id'],str(e)[:90],flush=True)
+            except Exception as e:
+                print('PARENT LOOKUP',seed['source_id'],str(e)[:90],flush=True)
+                if seed.get('online'):
+                    sr=next(x for x in source_doc['sources'] if x['id']==seed['source_id'])
+                    sr.update(status='publisher_reference_lookup_failed',error=str(e)[:250])
+                    cr=next(x for x in online_coverage if 'O'+x['id']==seed['source_id'])
+                    cr.update(status='publisher_reference_lookup_failed',error=str(e)[:250])
     save(REPORT/'references.json',rows);save(REPORT/'sources.json',source_doc)
     save(WORK/'existing_local.json',local)
+    if args.include_online:save(REPORT/'online_seed_coverage.json',online_coverage)
     print('ADDED RECORDS',additions,'TOTAL',len(rows),flush=True)
 
 
@@ -397,6 +440,7 @@ def download(args):
     downloaded_by_doi={r.get('doi'):r['acquisition'] for r in rows if r.get('doi') and r.get('acquisition',{}).get('status')=='downloaded_verified'}
     todo=[];scheduled={}
     for row in rows:
+        if args.only_ids and row['id'] not in args.only_ids.split(','):continue
         if row.get('acquisition',{}).get('status') in ['downloaded_verified','downloaded_verified_container','existing_local','duplicate_of_download']:continue
         if row.get('resolved') and compatibility_error(row,row['resolved']):
             row['acquisition']=dict(status='needs_bibliographic_version_review',reason=compatibility_error(row,row['resolved']));continue
@@ -527,6 +571,8 @@ if __name__=='__main__':
     p.add_argument('--isolated',action='store_true',help='Write acquisition sidecars without changing an actively resolving master register')
     p.add_argument('--openalex',action='store_true',help='Query public OA locations in addition to publisher links')
     p.add_argument('--new-only',action='store_true',help='Skip failed records unless the metadata now exposes a new base URL')
+    p.add_argument('--include-online',action='store_true',help='Also cover DOI-bearing academic seeds in the original 80-record online catalogue, without recursively adding new downloads as seeds')
+    p.add_argument('--only-ids',default='',help='Comma-separated acquisition record IDs for focused source retries')
     a=p.parse_args()
     if a.workers<1 or a.workers>6:p.error('workers must be 1..6')
     {'extract':extract,'augment':augment,'enrich':enrich,'download':download,'report':report}[a.command](*([] if a.command=='extract' else [a]))

@@ -21,6 +21,13 @@ class AcquisitionBoundaries(unittest.TestCase):
     def test_split_doi(self):
         self.assertEqual(a.dois('https://doi.org/10.1016/j. measurement.2021.109704.'),['10.1016/j.measurement.2021.109704'])
 
+    def test_fullwidth_doi(self):
+        self.assertEqual(a.dois('ＤＯＩ：１０．１１９７７／j.issn.1004-2474.2023.04.002'),['10.11977/j.issn.1004-2474.2023.04.002'])
+
+    def test_additional_publisher_journal_codes(self):
+        self.assertIn('https://mdpi-res.com/d_attachment/actuators/actuators-14-00275/article_deploy/actuators-14-00275.pdf',a.candidates(dict(doi='10.3390/act14060275')))
+        self.assertIn('https://mdpi-res.com/d_attachment/mathematics/mathematics-09-00292/article_deploy/mathematics-09-00292.pdf',a.candidates(dict(doi='10.3390/math9030292')))
+
     def test_title_not_author_only(self):
         self.assertLess(a.title_score('Coriolis Vibratory Gyros','Lynch D D. Vibratory gyro analysis by the method of averaging'),.8)
 
