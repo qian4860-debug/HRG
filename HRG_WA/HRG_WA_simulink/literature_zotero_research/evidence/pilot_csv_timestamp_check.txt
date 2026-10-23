@@ -1,0 +1,18 @@
+IQ_before_rounding_6000_samples: 4.44089e-16 <= 2e-14: 1
+IQ_after_rounding_6000_samples: 0 <= 2.38419e-07: 1
+calibration_range_boundary_matches: 0 <= 0: 1
+multiple_phase_wraps_both_directions: 7.10543e-15 <= 1e-09: 1
+known_virtual_rotation_removed: 1.39333e-14 <= 1e-10: 1
+gap_latches_continuity_invalid: 0 <= 0: 1
+Built temporary hrg_wa_wz_carrier; existing model files retained.
+{错误使用 assert
+断言失败。
+
+出错 wz_run_study (第 49 行)
+assert(isequal(iq.Time,base(:,1)));rfIQ=max(abs(iq.Data(:)-reshape(base(:,2:5),[],1)));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+}
+[警告: 无法关闭模型 'hrg_wa_wz_carrier'，因为它已更改。要保存更改，请使用 close_system('hrg_wa_wz_carrier',1)。要放弃更改，请使用 close_system('hrg_wa_wz_carrier',0)。]
+[警告: 关闭前是否保存模型工作区的内容?
+
+模型工作区的数据源是文件 ""。]

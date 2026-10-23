@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-24",
+  "checks": [
+    {
+      "name": "source_eq7_counterexample_is_nonzero",
+      "error": 0.0,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "physical_amplitude_requires_inverse_K",
+      "error": 0.0,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "voltage_error_demodulation",
+      "error": 6.938893903907228e-18,
+      "limit": 1e-13,
+      "pass_": true
+    },
+    {
+      "name": "single_cubic_subtraction_residual_expansion",
+      "error": 3.1468968056391766e-17,
+      "limit": 1e-15,
+      "pass_": true
+    },
+    {
+      "name": "three_Newton_steps_in_declared_small_cubic_region",
+      "error": 2.220446049250313e-16,
+      "limit": 2e-15,
+      "pass_": true
+    },
+    {
+      "name": "equal_channel_RF_quantizer_pi_over_4_symmetry",
+      "error": 5.001577087606138e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "four_theta_term_is_not_mandatory",
+      "error": 5.544097959909129e-18,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "isotropic_IQ_noise_variance_independent_of_theta",
+      "error": 1.7763568394002505e-15,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "TDM_two_sample_Gram_eigenvalues",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "TDM_one_guarded_sample_is_rank_one",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "dead_area_printed_stiffness_isotropic_counterexample",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "parametric_threshold_has_zero_growth_eigenvalue",
+      "error": 0.0,
+      "limit": 1e-14,
+      "pass_": true
+    }
+  ],
+  "examples": {
+    "source_eq7": {
+      "theta_rad": 0,
+      "Fa": 1,
+      "Fq": 0,
+      "matrix_result": [
+        1.0,
+        0.0
+      ],
+      "printed_expansion": [
+        0.0,
+        0.0
+      ]
+    },
+    "source_eq6": {
+      "K": 3.0,
+      "physical_amplitude": 2.0,
+      "printed_result": 6.0
+    },
+    "source_eq10": {
+      "k0": 3.0,
+      "Aref": 2.0,
+      "error_voltage_peak": 0.01,
+      "correct_IQ_error": 0.010000000000000007,
+      "printed_IQ_error": 0.03000000000000002
+    },
+    "Hu_manuscript_eq17": {
+      "rho": 0.1,
+      "actual_relative_residual": -0.00017001878906253154,
+      "printed_relative_residual": -3.1640625000000016e-09,
+      "boundary": "Equation checked in the locally supplied author manuscript; published-version equation not asserted identical"
+    },
+    "Newton_simplification": {
+      "gate": "beta*r^2 <= 0.05",
+      "samples": 12961,
+      "maximum_absolute_error": 2.220446049250313e-16,
+      "analytic_relative_bound": 6.674194335937506e-17,
+      "boundary": "Three iterations only inside this gate; retain the original fallback outside it"
+    },
+    "RF_quantization": {
+      "fs_hz": 40000,
+      "f0_hz": 5000,
+      "window_samples": 40,
+      "bits": 10,
+      "full_scale_peak_v": 2,
+      "signal_peak_v": 0.2,
+      "peak_physical_pattern_error_rad": 0.005421715727732752,
+      "four_theta_amplitude_rad": 5.544097959909129e-18,
+      "eight_theta_amplitude_rad": 3.289053470710741e-05,
+      "interpretation": "The angular weights in a first-order Jacobian do not imply a universal pure 4-theta error. This symmetric coherent example has 8-theta symmetry."
+    },
+    "TDM_window": {
+      "eigenvalues": [
+        0.29289321881345254,
+        1.7071067811865475
+      ],
+      "condition_number": 5.828427124746189,
+      "samples_per_detection_window": 2,
+      "rank_after_one_sample_guard": 1,
+      "boundary": "Illustrative four-slot schedule at 8 ADC samples per carrier cycle; not a validation of the paper hardware"
+    },
+    "dead_area_eq8": {
+      "omega0_squared": 986960440.1089358,
+      "printed_x_stiffness_per_mass": 0.0,
+      "boundary": "Rendered local PDF4 equation; not a claim about the authors simulation code"
+    },
+    "parametric_pump": {
+      "critical_voltage_v": 0.0003084251375340425,
+      "critical_delta_per_s2": 986.9604401089358,
+      "damping_per_s": 0.007853981633974483,
+      "growth_eigenvalues_per_s": [
+        -0.015707963267948967,
+        0.0
+      ],
+      "boundary": "Eight identical electrodes, small signal, resonant ideal pump; not implemented in the carrier model"
+    }
+  },
+  "pass_": true,
+  "boundary": "Printed-equation tests and isolated RF ADC test; no claim of reproducing the source closed-loop simulation"
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-24",
+  "pass_": true,
+  "truth": {
+    "split_hz": 0.002,
+    "phase_rad": 0.017453292519943295,
+    "background_rad_s": 1e-05
+  },
+  "cases": [
+    {
+      "name": "integer_cycles",
+      "duration_s": 10,
+      "samples": 10000,
+      "fixture_zero_motion_permit": true,
+      "normalized_design_rank": 3,
+      "normalized_condition": 1.0000000000000018,
+      "update_allowed": true,
+      "unguarded_joint_phase_error_rad": -1.0408340855860843e-17,
+      "omitted_split_phase_error_rad": -3.469446951953614e-18,
+      "joint_frequency_split_error_rad_s": 1.5612511283791264e-17
+    },
+    {
+      "name": "short_noninteger",
+      "duration_s": 0.31,
+      "samples": 310,
+      "fixture_zero_motion_permit": true,
+      "normalized_design_rank": 3,
+      "normalized_condition": 13.321514715598926,
+      "update_allowed": true,
+      "unguarded_joint_phase_error_rad": 3.469446951953614e-18,
+      "omitted_split_phase_error_rad": 0.0008442475611043637,
+      "joint_frequency_split_error_rad_s": 3.469446951953614e-18
+    },
+    {
+      "name": "too_short",
+      "duration_s": 0.005,
+      "samples": 5,
+      "fixture_zero_motion_permit": true,
+      "normalized_design_rank": 3,
+      "normalized_condition": 72946.88169996903,
+      "update_allowed": false,
+      "unguarded_joint_phase_error_rad": -5.096617572419859e-15,
+      "omitted_split_phase_error_rad": 0.010828398512686785,
+      "joint_frequency_split_error_rad_s": 8.278100427361323e-15
+    },
+    {
+      "name": "collinear_probe",
+      "duration_s": 1,
+      "samples": 1000,
+      "fixture_zero_motion_permit": true,
+      "normalized_design_rank": 2,
+      "normalized_condition": 1.0057603904024056e+16,
+      "update_allowed": false,
+      "unguarded_joint_phase_error_rad": 0.003839724354387508,
+      "omitted_split_phase_error_rad": 0.025132741228718312,
+      "joint_frequency_split_error_rad_s": -0.0019198621771937697
+    },
+    {
+      "name": "unknown_motion",
+      "duration_s": 10,
+      "samples": 10000,
+      "fixture_zero_motion_permit": false,
+      "normalized_design_rank": 3,
+      "normalized_condition": 1.0000000000000018,
+      "update_allowed": false,
+      "unguarded_joint_phase_error_rad": 0.009999999999999974,
+      "omitted_split_phase_error_rad": 0.009999999999999981,
+      "joint_frequency_split_error_rad_s": 1.3877787807814457e-17
+    }
+  ],
+  "boundary": "Noiseless averaged linear calibration model; requires externally known zero motion, not an online unknown-motion estimator"
+}

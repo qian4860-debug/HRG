@@ -1,0 +1,678 @@
+{
+  "date": "2026-10-24",
+  "records": [
+    {
+      "attachment_key": "2F6FA5W9",
+      "path": "C:/Users/11725/Zotero/storage/2F6FA5W9/Zhao 等 - 2021 - The control algorithm of whole angle mode for HRG based on the vector composition.pdf",
+      "filename": "Zhao 等 - 2021 - The control algorithm of whole angle mode for HRG based on the vector composition.pdf",
+      "sha256": "e290b0614b3cfc54fbd247f1e142c012390f2ec610135588530fcd8dbf99d728",
+      "same_bytes_in_head_folder": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Whole_Angle_Control_Vector_Composition.pdf"
+      ],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 10,
+      "parser": "pypdf",
+      "characters": 22302,
+      "first_page_dois": [
+        "10.1186/s13638-021-01913-7"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "33LLJK89",
+      "path": "C:/Users/11725/Zotero/storage/33LLJK89/Sun 等 - 2024 - Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hem.pdf",
+      "filename": "Sun 等 - 2024 - Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hem.pdf",
+      "sha256": "319f5be698131aee80d4e8bdbe9350d1901e670b6ab0b2d7f8a55bb641af1c52",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 26,
+      "parser": "pypdf",
+      "characters": 121724,
+      "first_page_dois": [
+        "10.3390/s24134328"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "reviewed_pdf_pages": [
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "3JGQXTFY",
+      "path": "C:/Users/11725/Zotero/storage/3JGQXTFY/Hu和Gallacher - 2019 - Effects of nonlinearity on the angular drift error of an electrostatic MEMS rate integrating gyrosco.pdf",
+      "filename": "Hu和Gallacher - 2019 - Effects of nonlinearity on the angular drift error of an electrostatic MEMS rate integrating gyrosco.pdf",
+      "sha256": "d164c4b52e5b8596697e9bfe61b9f0a9edeead696a70985553722d683e32c797",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 11,
+      "parser": "pypdf",
+      "characters": 48674,
+      "first_page_dois": [],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visually_checked_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "attachment_key": "3WWC87NP",
+      "path": "C:/Users/11725/Zotero/storage/3WWC87NP/Yan 等 - 2026 - Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resona.pdf",
+      "filename": "Yan 等 - 2026 - Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resona.pdf",
+      "sha256": "6048bd5fcfbdef566ef48cc505ca6bd5a113fcf8be12ff286cbffed3de830bd7",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 17,
+      "parser": "pypdf",
+      "characters": 43432,
+      "first_page_dois": [
+        "10.3390/mi17010143"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "visually_checked_pdf_pages": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "attachment_key": "DEA2DW82",
+      "path": "C:/Users/11725/Zotero/storage/DEA2DW82/Prikhodko 等 - 2012 - Foucault pendulum on a chip Rate integrating silicon MEMS gyroscope.pdf",
+      "filename": "Prikhodko 等 - 2012 - Foucault pendulum on a chip Rate integrating silicon MEMS gyroscope.pdf",
+      "sha256": "b70c7d9f661ac2ad0d72e0e02966fcaf69f7a2439526c2e69d51ca820c1537a7",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 12,
+      "parser": "pypdf",
+      "characters": 62094,
+      "first_page_dois": [
+        "10.1016/j.sna.2012.01.029"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "ETBPGUEC",
+      "path": "C:/Users/11725/Zotero/storage/ETBPGUEC/Senkal 等 - 2014 - Achieving Sub-Hz Frequency Symmetry in Micro-Glassblown Wineglass Resonators.pdf",
+      "filename": "Senkal 等 - 2014 - Achieving Sub-Hz Frequency Symmetry in Micro-Glassblown Wineglass Resonators.pdf",
+      "sha256": "3eddedede625547dffb9f3516ad3d847eb881d7e72a6ac6e793ab0a6e6c35f6a",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 10,
+      "parser": "pypdf",
+      "characters": 39594,
+      "first_page_dois": [
+        "10.1109/jmems.2013.2286820"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "HJ8QJI38",
+      "path": "C:/Users/11725/Zotero/storage/HJ8QJI38/Liu 等 - 2025 - An Angle-Dependent Bias Compensation Method for Hemispherical Resonator Gyro Inertial Navigation Sys.pdf",
+      "filename": "Liu 等 - 2025 - An Angle-Dependent Bias Compensation Method for Hemispherical Resonator Gyro Inertial Navigation Sys.pdf",
+      "sha256": "bf349658af5d4436bc6986abbb9666794572fb51b223282286e515091517715c",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 16,
+      "parser": "pypdf",
+      "characters": 42736,
+      "first_page_dois": [
+        "10.3390/s25216639"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "JB87VLBY",
+      "path": "C:/Users/11725/Zotero/storage/JB87VLBY/Wu 等 - 2026 - Localized thermal tuning in fused silica inductive vibrating ring gyroscopes.pdf",
+      "filename": "Wu 等 - 2026 - Localized thermal tuning in fused silica inductive vibrating ring gyroscopes.pdf",
+      "sha256": "82d49092a0df7f15752396f6e7630a3c360cccd53f0edac41136a2d6626386b7",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 15,
+      "parser": "pypdf",
+      "characters": 63433,
+      "first_page_dois": [
+        "10.1038/s41378-026-01203-6"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "L6NHMEWD",
+      "path": "C:/Users/11725/Zotero/storage/L6NHMEWD/Prikhodko 等 - 2013 - What is MEMS gyrocompassing Comparative analysis of maytagging and carouseling.pdf",
+      "filename": "Prikhodko 等 - 2013 - What is MEMS gyrocompassing Comparative analysis of maytagging and carouseling.pdf",
+      "sha256": "3d6794b5868e4f49615b85ff63023c1e7cb8b83a7c981c580653c45eca3777c0",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 11,
+      "parser": "pypdf",
+      "characters": 53583,
+      "first_page_dois": [
+        "10.1109/jmems.2013.2282936"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "QCCBYZZ5",
+      "path": "C:/Users/11725/Zotero/storage/QCCBYZZ5/Ning 等 - 2025 - Identification and correction of phase delay errors for hemispherical resonator gyroscopes.pdf",
+      "filename": "Ning 等 - 2025 - Identification and correction of phase delay errors for hemispherical resonator gyroscopes.pdf",
+      "sha256": "471ad95582c9daa681d21cdf81b9d8a70dec808edfe0753bf8c43bab7aed7231",
+      "same_bytes_in_head_folder": [
+        "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1262_Identification and correction of phase delay errors for hemispherical resonator gyroscopes.pdf"
+      ],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 16,
+      "parser": "pypdf",
+      "characters": 59111,
+      "first_page_dois": [
+        "10.1038/s41598-025-86288-1"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "reviewed_pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "RDFG3T5L",
+      "path": "C:/Users/11725/Zotero/storage/RDFG3T5L/Zhao 等 - 2020 - The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discre.pdf",
+      "filename": "Zhao 等 - 2020 - The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discre.pdf",
+      "sha256": "52681175a79005a3af37d54e5b4e7ec8e88af08f352cf3745dd937f67ba0c158",
+      "same_bytes_in_head_folder": [
+        "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0547_The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discrete Electrode.pdf"
+      ],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 18,
+      "parser": "pypdf",
+      "characters": 80780,
+      "first_page_dois": [
+        "10.3390/s20123549"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "UYU9ZQYT",
+      "path": "C:/Users/11725/Zotero/storage/UYU9ZQYT/Zhao 等 - 2021 - High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for.pdf",
+      "filename": "Zhao 等 - 2021 - High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for.pdf",
+      "sha256": "8aae4690a0b6851083541cd73f669fe7a9ef162fc16e7ef95dc1aae0dc9ec97c",
+      "same_bytes_in_head_folder": [
+        "D:/学习资料/资料/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf"
+      ],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 12,
+      "parser": "pypdf",
+      "characters": 37823,
+      "first_page_dois": [
+        "10.1038/s41598-020-80885-y"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "visually_checked_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "attachment_key": "VGZ48WAL",
+      "path": "C:/Users/11725/Zotero/storage/VGZ48WAL/Wang 等 - 2025 - A Novel Closed-Loop Single-Channel Time Division Multiplexing Detection Circuit for Hemispherical Re.pdf",
+      "filename": "Wang 等 - 2025 - A Novel Closed-Loop Single-Channel Time Division Multiplexing Detection Circuit for Hemispherical Re.pdf",
+      "sha256": "5e75627d9857b2895d0d0fe7f8145fedbf519f893f75ee67f285a6998cf900ad",
+      "same_bytes_in_head_folder": [
+        "D:/学习资料/资料/全角陀螺/micromachines-16-00273.pdf"
+      ],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 17,
+      "parser": "pypdf",
+      "characters": 61899,
+      "first_page_dois": [
+        "10.3390/mi16030273"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "WNMNLLT2",
+      "path": "C:/Users/11725/Zotero/storage/WNMNLLT2/Prikhodko 等 - 2013 - Compensation of drifts in high-Q MEMS gyroscopes using temperature self-sensing.pdf",
+      "filename": "Prikhodko 等 - 2013 - Compensation of drifts in high-Q MEMS gyroscopes using temperature self-sensing.pdf",
+      "sha256": "f0aa0f5fd2eb5e1893f5535cc6d8cff1d69199e43dd0b733d54a36671af90505",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 9,
+      "parser": "pypdf",
+      "characters": 43708,
+      "first_page_dois": [
+        "10.1016/j.sna.2012.12.024"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "XQVCEDVX",
+      "path": "C:/Users/11725/Zotero/storage/XQVCEDVX/Sun 等 - 2021 - 0.79 ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibratio.pdf",
+      "filename": "Sun 等 - 2021 - 0.79 ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibratio.pdf",
+      "sha256": "3ac7284d26538e33bf380de9b762cacde86571c8ad40841753e48edeaa544a97",
+      "same_bytes_in_head_folder": [
+        "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0490_0.79_ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive.pdf"
+      ],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 11,
+      "parser": "pypdf",
+      "characters": 46903,
+      "first_page_dois": [
+        "10.1038/s41378-021-00306-6"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reviewed_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "ZAMWMKAD",
+      "path": "C:/Users/11725/Zotero/storage/ZAMWMKAD/Wang 等 - 2022 - Effect of metallization on quality factor and noise characteristics in fused silica dual-shell gyros.pdf",
+      "filename": "Wang 等 - 2022 - Effect of metallization on quality factor and noise characteristics in fused silica dual-shell gyros.pdf",
+      "sha256": "fd58dcf55fc5e737c2267b8dd0de02eb5c5c79c4fd0b1964b8e19594f43af8cb",
+      "same_bytes_in_head_folder": [],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 11,
+      "parser": "pypdf",
+      "characters": 54635,
+      "first_page_dois": [
+        "10.1109/jmems.2022.3199231"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "visually_checked_pdf_pages": []
+    },
+    {
+      "attachment_key": "ZN9RFGQS",
+      "path": "C:/Users/11725/Zotero/storage/ZN9RFGQS/Serrano 等 - 2016 - Substrate-decoupled, bulk-acoustic wave gyroscopes Design and evaluation of next-generation environ.pdf",
+      "filename": "Serrano 等 - 2016 - Substrate-decoupled, bulk-acoustic wave gyroscopes Design and evaluation of next-generation environ.pdf",
+      "sha256": "56eb111f7f654c9298125ab80bb3a207949b90954ace5db8d27b609a90b9280a",
+      "same_bytes_in_head_folder": [
+        "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0489_Substrate-decoupled_ bulk-acoustic wave gyroscopes_ Design and evaluation of next-generation environmentally robust.pdf"
+      ],
+      "reading_level": "selected_sections_reviewed_not_all_equations",
+      "pages": 10,
+      "parser": "pypdf",
+      "characters": 46760,
+      "first_page_dois": [
+        "10.1038/micronano.2016.15"
+      ],
+      "extracted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "reviewed_pdf_pages": [
+        3,
+        4,
+        5
+      ],
+      "visually_checked_pdf_pages": []
+    }
+  ],
+  "boundary": "Local attachment files only; current parent-item and collection metadata require the official Local API"
+}

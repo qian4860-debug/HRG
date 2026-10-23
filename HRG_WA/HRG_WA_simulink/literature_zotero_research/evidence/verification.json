@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-24",
+  "pass_": true,
+  "checks": [
+    {
+      "name": "same_public_sample_timestamps",
+      "error": 0.0,
+      "limit": 1e-12
+    },
+    {
+      "name": "sealed_V8_22bit_IQ_codes",
+      "error": 0.0,
+      "limit": 0.0
+    },
+    {
+      "name": "IQ_geometry_equals_direct_navigation",
+      "error": 6.217248937900877e-15,
+      "limit": 1e-11
+    },
+    {
+      "name": "direct_RMS_from_CSV",
+      "error": 5.464378949326942e-16,
+      "limit": 1e-10
+    },
+    {
+      "name": "direct_peak_from_CSV",
+      "error": 3.9473632695852245e-14,
+      "limit": 1e-10
+    },
+    {
+      "name": "legacy_RMS_from_CSV",
+      "error": 1.0227929614359255e-14,
+      "limit": 1e-10
+    },
+    {
+      "name": "legacy_peak_from_CSV",
+      "error": 1.7543605457248646e-13,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_adc",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_sample_hold",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_anti_alias",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_cv_actual",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_cv_ideal",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_pga",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_dac",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_dac_requested",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_driver",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_force",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_cic",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_fir",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_iq",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_mixer",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_head_displacement",
+      "error": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "spectrum_rate_head_velocity",
+      "error": 0.0,
+      "limit": 1e-10
+    }
+  ],
+  "original_v7": {
+    "pass": true,
+    "hashes": 217,
+    "unitChecks": 19,
+    "carrierCases": 5,
+    "PIR_Q_Ratio": 0.7871330456470664,
+    "coldBuildTimeS": 0.6994312500000001
+  },
+  "sealed_v8_dependencies": 84,
+  "matlab_checks": 12,
+  "formula_checks": 12,
+  "averaged_probe_cases": 5,
+  "direct_rms_deg": 0.004449345114688588,
+  "legacy_rms_deg": 0.05200281155161551,
+  "scope_count": 21,
+  "spectrum_count": 16,
+  "boundary": "Independent replay and byte preservation; synthetic fixture, noise disabled, no hardware qualification"
+}
