@@ -1,0 +1,6 @@
+{
+  "url": "https://api.openalex.org/works?search=%22Vibratory+gyro+analysis+by+the+method+of+averaging%22&per-page=100",
+  "count": 67,
+  "returned": 67,
+  "boundary": "Keyword candidates; not the Scholar citing set, not verified citation edges"
+}

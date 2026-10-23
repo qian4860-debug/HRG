@@ -1,0 +1,10 @@
+{
+  "pass_": true,
+  "verified_files": 64,
+  "unique_hashes": 62,
+  "offline_regression": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK",
+  "python_version": "3.12.14",
+  "script_sha256": "36e529f6ef73115b10a934e7aea1c0186d38f9113ccd3b434c183b6bb6420d36",
+  "shared_identity_checker_sha256": "d1764719a1d7f23f3da6184b5369244ffb0e34a37d9892792ecec69b61656fa5",
+  "original_reference_register_sha256": "93979df66375c7b8733d55ff3d2998f2f43783a9e0f1f99d9f917d19d9a76d5e"
+}
