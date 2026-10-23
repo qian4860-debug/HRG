@@ -1,0 +1,26 @@
+[
+  {
+    "doi": "10.1109/inertial51137.2021.9430479",
+    "url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2021/04/5057.pdf",
+    "source": "UC Irvine author laboratory publication PDF discovered by public web search",
+    "expected_title": "Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs"
+  },
+  {
+    "doi": "10.1109/inertial51137.2021.9430479",
+    "url": "https://cpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2021/04/5057.pdf",
+    "source": "Alternative UC Irvine author CDN URL actually returned by public search",
+    "expected_title": "Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs"
+  },
+  {
+    "doi": "10.1109/jsen.2003.817165",
+    "url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2014/04/Supression_MEMS-Sensors_2003.pdf",
+    "source": "Author laboratory PDF found in public search",
+    "expected_title": "Active structural error suppression in MEMS vibratory rate integrating gyroscopes"
+  },
+  {
+    "doi": "10.1109/jsen.2003.817165",
+    "url": "https://cpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2014/04/Supression_MEMS-Sensors_2003.pdf",
+    "source": "CDN alias based on the bpb/cpb author-host pair validated with the 2021 gain-mismatch paper; PDF work identity checked independently",
+    "expected_title": "Active structural error suppression in MEMS vibratory rate integrating gyroscopes"
+  }
+]

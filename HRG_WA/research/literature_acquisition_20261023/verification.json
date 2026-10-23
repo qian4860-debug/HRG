@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "date": "2026-10-23",
+    "scope": "First-level references of the pre-existing local academic seeds plus DOI-bearing academic seeds from the original 80-record online catalogue; no recursive harvesting",
+    "completed": "2026-10-24",
+    "seeds": 63,
+    "local_seed_count": 26,
+    "additional_online_seed_count": 37,
+    "original_online_catalogue_records": 80,
+    "seed_details": "sources.json",
+    "raw_variant_records": 1412,
+    "canonical_groups": 1170,
+    "grouping_boundary": "DOI groups deduplicated; no-DOI spelling variants may remain",
+    "unique_resolved_dois": 844,
+    "unique_new_verified_article_files": 109,
+    "unique_verified_files_including_existing": 119,
+    "recovered_seed_pdfs": 1,
+    "original_container_volumes": 1,
+    "status_counts": {
+      "needs_search_no_verified_identifier": 295,
+      "existing_local": 11,
+      "downloaded_verified": 104,
+      "fulltext_unavailable_from_checked_sources": 733,
+      "needs_bibliographic_version_review": 5,
+      "nonpaper_reference_not_downloaded": 21,
+      "related_version_not_cited_work": 1
+    },
+    "file_audit_issues": [],
+    "library": "D:/学习资料/资料/全角陀螺/引用文献_20261023",
+    "scholar": "Home page read after user reopened; query submission/reattachment failed; search results not harvested",
+    "wos": "User-open result query visible in tab inventory; page body/export could not be read; not claimed as searched/exported",
+    "fulltext_boundary": "Downloaded/available does not mean scientific reading, equation validation, license to redistribute, or coverage of every online catalogue abstract"
+  },
+  "offline_tests": 12,
+  "verified_files": 120,
+  "page_excerpt_streams_unchanged": true,
+  "provenance": "References and acquisition register only; no inference that missing papers were obtained"
+}

@@ -1,0 +1,616 @@
+[
+  {
+    "id": "W001",
+    "url": "https://doi.org/10.1007/s11071-026-12837-6",
+    "title": "Novel Bias Drift Mechanism of Whole-Angle Mode Gyroscopes: Oscillatory Rectification Errors. Nonlinear Dynamics, 2026-07",
+    "level": "primary_abstract",
+    "doi": "10.1007/s11071-026-12837-6",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W002",
+    "url": "https://doi.org/10.1016/j.ast.2025.111283",
+    "title": "Forgetting filter-based real-time identification and compensation of whole-angle hemispherical resonator gyroscope errors for extensive aerospace applications. AST, 2026-01卷",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.ast.2025.111283",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W003",
+    "url": "https://doi.org/10.1016/j.ifacol.2025.11.223",
+    "title": "Wang N et al. High-precision frequency split Identification and balancing of the hemispherical resonator gyro via Virtual Precession. IFAC-PapersOnLine, 59-20, 640–644, 2025.",
+    "level": "local_sections",
+    "doi": "10.1016/j.ifacol.2025.11.223",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W004",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2024.109912",
+    "title": "11. 亚表面损伤和 Q 提升：IJMS 2025.",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.ijmecsci.2024.109912",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W005",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2026.111465",
+    "title": "Equivalent Bryan’s factor in hemispherical resonator gyroscopes with nonuniformities coupling. IJMS, 2026-04卷",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.ijmecsci.2026.111465",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W006",
+    "url": "https://doi.org/10.1016/j.measurement.2023.113331",
+    "title": "MEMS interface ASIC with on-chip temperature compensation",
+    "level": "local_sections",
+    "doi": "10.1016/j.measurement.2023.113331",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W007",
+    "url": "https://doi.org/10.1016/j.measurement.2024.114945",
+    "title": "Wang R et al. High-precision identification and compensation of nonlinear error in hemispherical resonator gyro. Measurement, 237, 114945, 2024.",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.measurement.2024.114945",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W008",
+    "url": "https://doi.org/10.1016/j.measurement.2024.115599",
+    "title": "Identification and compensation method for unbalance error in signal detection chain of Rate-Integrating hemispherical resonator gyro. Measurement, 2025-01卷",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.measurement.2024.115599",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W009",
+    "url": "https://doi.org/10.1016/j.measurement.2026.121170",
+    "title": "Whole-chain multi-mode error compensation for high-precision rate-integrating micro-hemispherical resonator gyroscopes. Measurement, 2026-05卷",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.measurement.2026.121170",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W010",
+    "url": "https://doi.org/10.1016/j.sna.2012.01.029",
+    "title": "Foucault pendulum on a chip: Rate integrating silicon MEMS gyroscope",
+    "level": "local_sections",
+    "doi": "10.1016/j.sna.2012.01.029",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W011",
+    "url": "https://doi.org/10.1016/j.sna.2025.116402",
+    "title": "Wang Q et al. A drive error identification and compensation method for whole angle mode hemispherical resonator gyroscope. Sensors and Actuators A: Physical, 387, 116402, 2025.",
+    "level": "local_sections",
+    "doi": "10.1016/j.sna.2025.116402",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W012",
+    "url": "https://doi.org/10.1016/j.sna.2025.116976",
+    "title": "Virtual precession-enabled phase error mitigation in high-precision hemispherical resonator gyroscopes. S&A A, 2025-12卷",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.sna.2025.116976",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W013",
+    "url": "https://doi.org/10.1016/j.ymssp.2025.113228",
+    "title": "Propagation mechanism of 1/f noise in FTR system of micro hemispherical resonator gyroscopes. MSSP, 2025-10卷",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.ymssp.2025.113228",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W014",
+    "url": "https://doi.org/10.1016/j.ymssp.2026.114724",
+    "title": "Ren X et al. Noise analysis and suppression of whole-angle MEMS gyroscopes based on detection-axes-rotation. Mechanical Systems and Signal Processing, 258, 114724, 2026.",
+    "level": "pending_fulltext",
+    "doi": "10.1016/j.ymssp.2026.114724",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W015",
+    "url": "https://doi.org/10.1038/s41378-024-00818-x",
+    "title": "Yu S et al. Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscope. Microsystems & Nanoengineering, 10, 164, 2024.",
+    "level": "primary_abstract",
+    "doi": "10.1038/s41378-024-00818-x",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W016",
+    "url": "https://doi.org/10.1038/s41378-025-00872-z",
+    "title": "Yu S et al. 0.32 mHz frequency mismatch of micro-shell resonator gyroscope without tuning electrodes achieved by ultra-precision mechanical trimming. Microsystems & Nanoengineering, 11, 102, 2025.",
+    "level": "primary_sections",
+    "doi": "10.1038/s41378-025-00872-z",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W017",
+    "url": "https://doi.org/10.1038/s41378-026-01203-6",
+    "title": "Wu K et al. Localized thermal tuning in fused silica inductive vibrating ring gyroscopes. Microsystems & Nanoengineering, 2026.",
+    "level": "pending_fulltext",
+    "doi": "10.1038/s41378-026-01203-6",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W018",
+    "url": "https://doi.org/10.1038/s41378-026-01321-1",
+    "title": "Manufacturing of 8 million Q-factor micro hemispherical resonator gyroscopes via patterned coating technology. Microsystems & Nanoengineering, 2026-05-22",
+    "level": "local_sections",
+    "doi": "10.1038/s41378-026-01321-1",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W019",
+    "url": "https://doi.org/10.1038/s41598-020-80885-y",
+    "title": "L2 | `C:/Users/11725/Desktop/HRG_WA/全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf`； | 本轮读PDF2–5；PDF4–5渲染检查；死区机理。不同符号系数不直接搬入项目",
+    "level": "local_sections",
+    "doi": "10.1038/s41598-020-80885-y",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W020",
+    "url": "https://doi.org/10.1038/s41598-025-86288-1",
+    "title": "Ning Y et al. Identification and correction of phase delay errors for hemispherical resonator gyroscopes. Scientific Reports, 2025.",
+    "level": "primary_sections",
+    "doi": "10.1038/s41598-025-86288-1",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W021",
+    "url": "https://doi.org/10.1063/5.0268634",
+    "title": "Joint compensation of time delay and damping asymmetry errors for whole-angle hemispherical resonator gyroscopes. Review of Scientific Instruments, 2026-01-01",
+    "level": "pending_fulltext",
+    "doi": "10.1063/5.0268634",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W022",
+    "url": "https://doi.org/10.1109/ecie61885.2024.10627746",
+    "title": "Zhou et al. A study of digital ASIC front-end design techniques for whole-angle mode hemispherical resonant gyros. ECIE, 2024.",
+    "level": "local_sections",
+    "doi": "10.1109/ecie61885.2024.10627746",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W023",
+    "url": "https://doi.org/10.1109/isiss.2015.7102360",
+    "title": "Disk Resonator Gyroscope with Whole-Angle Mode Operation",
+    "level": "pending_fulltext",
+    "doi": "10.1109/isiss.2015.7102360",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W024",
+    "url": "https://doi.org/10.1109/jsen.2022.3181302",
+    "title": "In-Run Automatic Mode-Matching of Whole-Angle Micro-Hemispherical Resonator Gyroscope Based on Standing Wave Self-Precession",
+    "level": "pending_fulltext",
+    "doi": "10.1109/jsen.2022.3181302",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W025",
+    "url": "https://doi.org/10.1109/jsen.2026.3728523",
+    "title": "Asymmetric Phase-Delay Modeling and Online Compensation for Whole-Angle Micro-Hemispherical Resonator Gyroscopes. IEEE Sensors Journal, 2026",
+    "level": "pending_fulltext",
+    "doi": "10.1109/jsen.2026.3728523",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W026",
+    "url": "https://doi.org/10.1109/tii.2026.3698512",
+    "title": "A Novel Hybrid Mode for Hemispherical Resonator Gyroscope Inertial Navigation Systems: Principle and System-Level Calibration Method. IEEE TII, 2026-10卷",
+    "level": "pending_fulltext",
+    "doi": "10.1109/tii.2026.3698512",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W027",
+    "url": "https://doi.org/10.1109/tim.2025.3555670",
+    "title": "Separation, Identification, and Compensation of Damping, Detection, and Actuation Errors for Rate-Integrating Hemispherical Resonator Gyroscopes. IEEE TIM, 2025",
+    "level": "pending_fulltext",
+    "doi": "10.1109/tim.2025.3555670",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W028",
+    "url": "https://doi.org/10.1109/tim.2025.3586357",
+    "title": "Self-Calibration Method for Phase Errors in Hemispherical Resonator Gyroscopes Based on Virtual Precession. IEEE TIM, 75, 9503212, 2026.",
+    "level": "pending_fulltext",
+    "doi": "10.1109/tim.2025.3586357",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W029",
+    "url": "https://doi.org/10.1109/tim.2025.3650265",
+    "title": "Real-Time Elimination of Harmonic Drift for Hemispherical Resonator Gyro Based on FRP Control Scheme. IEEE TIM, 2026",
+    "level": "local_sections",
+    "doi": "10.1109/tim.2025.3650265",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W030",
+    "url": "https://doi.org/10.1109/tim.2026.3667313",
+    "title": "Identification and Compensation of Detection Electrode Errors in Hemispherical Resonator Gyroscopes via Bidirectional Turntable Rotations. IEEE TIM, 2026",
+    "level": "pending_fulltext",
+    "doi": "10.1109/tim.2026.3667313",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W031",
+    "url": "https://doi.org/10.1109/tim.2026.3674286",
+    "title": "Modeling, Decoupling Identification, and Compensation of Imbalance Errors for Whole-Angle Hemispherical Resonator Gyroscopes. IEEE TIM, 2026",
+    "level": "pending_fulltext",
+    "doi": "10.1109/tim.2026.3674286",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W032",
+    "url": "https://doi.org/10.1109/tim.2026.3682829",
+    "title": "Modeling, Characterization, and Compensation of Detection Errors for Differential Frequency Modulation Whole-Angle Hemispherical Resonator Gyroscope. IEEE TIM, 2026",
+    "level": "pending_fulltext",
+    "doi": "10.1109/tim.2026.3682829",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W033",
+    "url": "https://doi.org/10.1109/tim.2026.3704236",
+    "title": "Modeling, Identifying, and Ultrahigh-Precision Trimming of Mass Imperfection in Hemispherical Resonator. IEEE TIM, 2026",
+    "level": "pending_fulltext",
+    "doi": "10.1109/tim.2026.3704236",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W034",
+    "url": "https://doi.org/10.1186/s13638-021-01913-7",
+    "title": "1. WA 矢量合成控制：",
+    "level": "local_sections",
+    "doi": "10.1186/s13638-021-01913-7",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W035",
+    "url": "https://doi.org/10.11977/j.issn.1004-2474.2023.04.002",
+    "title": "关泽源等. 基于频率解调的半球谐振陀螺控制系统设计. 压电与声光, 45(4), 494–498, 2023.",
+    "level": "local_sections",
+    "doi": "10.11977/j.issn.1004-2474.2023.04.002",
+    "status": "already_covered_by_local_seed",
+    "local_source": "L061",
+    "matching": "Existing catalogue correspondence; Chinese publisher DOI absent from Crossref"
+  },
+  {
+    "id": "W036",
+    "url": "https://doi.org/10.13695/j.cnki.12-1222/o3.2023.04.011",
+    "title": "蒋效雄等. 基于 RLS 算法的全角模式半球谐振陀螺自补偿控制. 中国惯性技术学报, 31(4), 401–406, 2023.",
+    "level": "local_sections",
+    "doi": "10.13695/j.cnki.12-1222/o3.2023.04.011",
+    "status": "already_covered_by_local_seed",
+    "local_source": "L059",
+    "matching": "Existing catalogue correspondence; Chinese publisher DOI absent from Crossref"
+  },
+  {
+    "id": "W037",
+    "url": "https://doi.org/10.17632/t979rtsdsv.1",
+    "title": "Chen W. HRG simulation, experimental and analysis data, version 1. Mendeley Data, 2026.",
+    "level": "pending_fulltext",
+    "doi": "10.17632/t979rtsdsv.1",
+    "status": "dataset_DOI_not_academic_seed_paper"
+  },
+  {
+    "id": "W038",
+    "url": "https://doi.org/10.3390/act14060275",
+    "title": "Identification and Compensation of Detection Gain Asymmetry Errors for Hemispherical Resonant Gyroscopes in Whole-Angle Mode. Actuators, 2025-06-03",
+    "level": "pending_fulltext",
+    "doi": "10.3390/act14060275",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W039",
+    "url": "https://doi.org/10.3390/mi16030273",
+    "title": "Wang Q et al. A Novel Closed-Loop Single-Channel Time Division Multiplexing Detection Circuit for Hemispherical Resonator Gyroscope. Micromachines, 16, 273, 2025.",
+    "level": "local_sections",
+    "doi": "10.3390/mi16030273",
+    "status": "already_covered_by_local_seed"
+  },
+  {
+    "id": "W040",
+    "url": "https://doi.org/10.3390/mi16030287",
+    "title": "9. 谐振子结构多目标优化：Micromachines 2025.",
+    "level": "pending_fulltext",
+    "doi": "10.3390/mi16030287",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W041",
+    "url": "https://doi.org/10.3390/mi16040357",
+    "title": "6. 温度偏置：Compensation of Temperature-Induced Bias Drift in HRGs. Micromachines 2025.",
+    "level": "pending_fulltext",
+    "doi": "10.3390/mi16040357",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W042",
+    "url": "https://doi.org/10.3390/mi17010143",
+    "title": "Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resonator Gyroscope. Micromachines, 2026-01-22",
+    "level": "primary_sections",
+    "doi": "10.3390/mi17010143",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W043",
+    "url": "https://doi.org/10.3390/s111211761",
+    "title": "3. FPGA FTR 控制和误差抑制：",
+    "level": "pending_fulltext",
+    "doi": "10.3390/s111211761",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W044",
+    "url": "https://doi.org/10.3390/s20123549",
+    "title": "W3 |  | 原始作者公开摘要，确认2f0参数激励是另一实现路线；未复现其稳定性阈值",
+    "level": "primary_abstract",
+    "doi": "10.3390/s20123549",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W045",
+    "url": "https://doi.org/10.3390/s22124334",
+    "title": "Automatic Rate and Rate-Integrating Mode-Switchable Axisymmetric Gyroscope",
+    "level": "pending_fulltext",
+    "doi": "10.3390/s22124334",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W046",
+    "url": "https://doi.org/10.3390/s25010074",
+    "title": "10. 能量耗散：Sensors 2025.",
+    "level": "pending_fulltext",
+    "doi": "10.3390/s25010074",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W047",
+    "url": "https://doi.org/10.3390/s25216639",
+    "title": "7. HRG-INS 角位置相关偏置：Sensors 2025.",
+    "level": "pending_fulltext",
+    "doi": "10.3390/s25216639",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W048",
+    "url": "https://doi.org/10.3390/sym12050801",
+    "title": "Micromachined Rate-Integrating Gyroscopes: Concept, Asymmetry Error Sources and Phenomena",
+    "level": "primary_sections",
+    "doi": "10.3390/sym12050801",
+    "status": "publisher_references_retrieved"
+  },
+  {
+    "id": "W049",
+    "url": "https://doi.org/10.7527/s1000-6893.2025.32079",
+    "title": "王瑞祺等. 全差分频率调制半球谐振陀螺装配误差辨识及补偿方法. 航空学报, 47(5), 332079, 2026.",
+    "level": "primary_abstract_figures",
+    "doi": "10.7527/s1000-6893.2025.32079",
+    "status": "publisher_reference_lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "W050",
+    "url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2022/09/DGON22_NonLinear_RIG_Sub.pdf",
+    "title": "Rate-Integrating Gyroscope Operation in The Non-Linear Regime",
+    "level": "local_sections",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W051",
+    "url": "https://engineering.purdue.edu/oxidemems/conferences/transducers2011/PDFs/Papers/07-085.pdf",
+    "title": "MEMS Rate and Rate-Integrating Gyroscope Control with Commercial Software Defined Radio Hardware",
+    "level": "local_sections",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W052",
+    "url": "https://ieeexplore.ieee.org/document/10938217",
+    "title": "Online Mode-Matching Method Countering Stiffness Nonlinearity for Whole-Angle Micro-Shell Resonator Gyroscope. IEEE Sensors Journal, 2025.",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W053",
+    "url": "https://ieeexplore.ieee.org/document/11145770",
+    "title": "Zeng et al. 0.08 ppm 标度因数非线性 HRG 研究（条目主题简称；完整题名见 IEEE）. IEEE Electron Device Letters, 2025.",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W054",
+    "url": "https://ieeexplore.ieee.org/document/11435219",
+    "title": "Modeling, Decoupling Identification, and Compensation of Imbalance Errors for Whole-Angle Hemispherical Resonator Gyroscopes. IEEE TIM, 2026.",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W055",
+    "url": "https://ntrs.nasa.gov/api/citations/19960045774/downloads/19960045774.pdf",
+    "title": "1. NASA Hubble/HRG 项目材料：",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W056",
+    "url": "https://ntrs.nasa.gov/api/citations/20130014073/downloads/20130014073.pdf",
+    "title": "2. NASA 航天器姿态与 HRG 模型：",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W057",
+    "url": "https://patents.google.com/patent/CN112504258B/zh",
+    "title": "P2 |  | 权利要求1、7；式(1)–(8)。原始PDF21页，PDF4/权利要求3/4页的式(8)本轮渲染核实",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W058",
+    "url": "https://patents.google.com/patent/CN112506040A/en",
+    "title": "3. 单通道时分复用：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W059",
+    "url": "https://patents.google.com/patent/CN117029882B/zh",
+    "title": "4. 检测增益不对称 FTR 标定、WA 补偿：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W060",
+    "url": "https://patents.google.com/patent/CN117170234A/en",
+    "title": "6. 全角鲁棒智能控制：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W061",
+    "url": "https://patents.google.com/patent/CN117346821A/en",
+    "title": "7. 全角驻波方位交替解算：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W062",
+    "url": "https://patents.google.com/patent/CN117705163A/zh",
+    "title": "P4 |  | 说明书S1–S4：转台、虚拟哥氏激励、静态测漂及分阶段标补；S2解释锁相目标值与真实谐振的区别",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W063",
+    "url": "https://patents.google.com/patent/CN120252671A/en",
+    "title": "5. FTR/WA 双模控制：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W064",
+    "url": "https://patents.google.com/patent/EP3059549B1/en",
+    "title": "9. 宽边缘谐振敏感结构：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W065",
+    "url": "https://patents.google.com/patent/EP4328545B1/en",
+    "title": "8. 曲面支撑结构制造：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W066",
+    "url": "https://patents.google.com/patent/EP4594706A1/en",
+    "title": "10. 新型谐振器附件：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W067",
+    "url": "https://patents.google.com/patent/US20160334214A1/en",
+    "title": "2. Mitsubishi 多电极 HRG：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W068",
+    "url": "https://patents.google.com/patent/US7318347B2/en",
+    "title": "1. WA/FTR 经典控制：",
+    "level": "patent_record",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W069",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4851069",
+    "title": "4. 两件式 HRG 数字控制器：",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W070",
+    "url": "https://repository.gatech.edu/bitstreams/5e2a1570-b53c-4ad8-b8d6-1c4e9fe0e8fc/download",
+    "title": "Interface Circuits for Readout and Control of a Micro-hemispherical Resonating Gyroscope",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W071",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-007.pdf",
+    "title": "ADI MT-007：孔径时间、固定延迟与随机抖动",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W072",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-229.pdf",
+    "title": "ADI MT-229：理想ADC量化噪声推导",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W073",
+    "url": "https://www.safran-group.com/news/safrans-hrg-crystaltm-and-onyxtm-revolution-high-performance-naval-inertial-reference-systems-2018-10-23",
+    "title": "5. Safran HRG Crystal/Onyx：",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W074",
+    "url": "https://www.safran-group.com/pressroom/safrans-spacenaute-navigation-system-chosen-new-ariane-6-launch-vehicle-2016-11-30",
+    "title": "6. Ariane 6 采用 SpaceNaute：",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W075",
+    "url": "https://www.safran-group.com/products-services/skynaute",
+    "title": "4. Safran SkyNaute：",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W076",
+    "url": "https://www.safran-group.com/products-services/spacenaute",
+    "title": "3. Safran SpaceNaute：",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W077",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263224124019286",
+    "title": "Self-calibration for phase shift in Coriolis vibratory gyroscope with whole-angle mode operation. Measurement.",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W078",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1270963826021589",
+    "title": "Chen W et al. Dynamical analysis and unified calibration of assembly and nonlinearity errors for rate-integrating micro hemispherical gyroscope. Aerospace Science and Technology, 2026.",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W079",
+    "url": "https://www.univelt.com/book%3D1438",
+    "title": "5. HRG 历史和空间应用：Rozelle, *From Wineglass to the Planets*.",
+    "level": "background_or_tutorial",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  },
+  {
+    "id": "W080",
+    "url": "https://www.webofscience.com/wos/woscc/full-record/WOS:000393179500417",
+    "title": "Control Scheme and Error Suppression Method for Micro Rate Integrating Gyroscopes",
+    "level": "pending_fulltext",
+    "status": "non_DOI_record_patent_background_or_needs_identification_not_silently_assumed_paper"
+  }
+]

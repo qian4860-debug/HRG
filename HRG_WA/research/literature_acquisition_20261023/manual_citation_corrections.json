@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "scope": "Reference entries whose numeric labels were missing in extracted text; positions checked against neighboring entries, not new seed papers",
+  "entries": [
+    {
+      "source": "L058",
+      "reference_number": 1,
+      "pdf_page": 7,
+      "raw": "Rozelle D M. The hemispherical resonator gyro: From wineglass to the planets[C]. Proceedings of the 19th AAS/AIAA Space Flight Mechanics Meeting, 2009.",
+      "note": "First entry following the reference heading; extracted label absent"
+    },
+    {
+      "source": "L058",
+      "reference_number": 6,
+      "pdf_page": 7,
+      "raw": "于翔宇, 张岚昕, 段杰, 等. 全角模式半球谐振陀螺振型控制与角度检测[J]. 导航与控制, 2019, 18(2): 33-38+76.",
+      "note": "Entry between extracted reference labels 5 and 7"
+    },
+    {
+      "source": "L058",
+      "reference_number": 11,
+      "pdf_page": 8,
+      "raw": "郜中星, 彭斌, 陈小炜, 等. 振动陀螺椭圆参数的离散滑模控制[J]. 系统工程与电子技术, 2022, 44(1): 226-232.",
+      "note": "Entry between extracted reference labels 10 and 12"
+    }
+  ]
+}

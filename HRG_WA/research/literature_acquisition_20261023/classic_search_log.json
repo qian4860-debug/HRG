@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23",
+  "boundary": "Discovery and acquisition evidence only, not a claim that bibliographic records or citing papers are the requested original full text",
+  "classics": [
+    {
+      "author": "G. H. Bryan",
+      "title": "On the beats in the vibrations of a revolving cylinder or bell",
+      "year": 1890,
+      "status": "original_fulltext_obtained",
+      "source": "https://archive.org/metadata/proceedingscambr07camb",
+      "original_download": "https://ia600502.us.archive.org/31/items/proceedingscambr07camb/proceedingscambr07camb.pdf",
+      "verification": "Original volume matched archive byte count and MD5; article PDF175-185 / printed101-111; 11-page excerpt content streams unchanged",
+      "receipt": "bryan_original_receipt.json"
+    },
+    {
+      "author": "D. D. Lynch",
+      "title": "Vibratory gyro analysis by the method of averaging",
+      "year": 1995,
+      "status": "original_fulltext_not_obtained",
+      "bibliographic_record": "https://www.scienceopen.com/document?vid=d12e66c2-0990-4050-ba12-3fee9e1a40ab",
+      "result": "Record found, no proceedings full text at the checked record; no confident Crossref/OpenAlex original-fulltext match; citing papers not used as substitutes"
+    },
+    {
+      "author": "D. D. Lynch",
+      "title": "Coriolis Vibratory Gyros",
+      "year": 1998,
+      "status": "original_fulltext_not_obtained",
+      "university_contents_record": "https://www.tu-braunschweig.de/index.php?eID=dumpFile&f=177401&t=f&token=535e2fe0f690dfe51fd898b4828c2d6c8952a483",
+      "reprint_lead": "IEEE Std1431-2004 Annex B; confirmed as a reprint lead by the Zurich Instruments author application note, not acquired full text",
+      "reprint_lead_source": "https://www.zhinst.com/sites/default/files/zi_appnote_mems_gyroscope.pdf",
+      "official_standard_record": "https://standards.ieee.org/ieee/1431/3519/",
+      "result": "University record is a table of contents; IEEE record offers purchase/subscription; no verified original/reprint full text obtained"
+    }
+  ],
+  "browser_channels": {
+    "GoogleScholar": "User-open home page successfully read after reopening; exact-title query action timed out and subsequent attach reported unavailable debugger; no result list harvested",
+    "WebOfScience": "User-open search tab for whole-angle/rate-integrating circuit terms showed 93 in tab title; page body/export could not be read, therefore no claim to 93-record search/export completion"
+  },
+  "other_channels": ["Crossref publisher metadata and references", "OpenAlex public version locations", "Publisher-hosted PDFs", "Author laboratory public PDFs", "University repositories", "Internet Archive historical scans"],
+  "not_done": ["No requests or messages sent to authors", "No CAPTCHA solving", "No subscription purchase", "No browser-cookie or credential export", "No paywall bypass", "No recursive harvesting of newly downloaded papers"]
+}
