@@ -1,0 +1,136 @@
+[
+  {
+    "record": "R0005",
+    "title": "Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs",
+    "doi": "10.1109/inertial51137.2021.9430479",
+    "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0005_Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs.pdf",
+    "sha256": "f909d4335fd168a527a9653165d43c98f08da8c83065553745cf531d0e27bbdc",
+    "pages": 4,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "boundary": "Text extraction only; formula reading and visual checks logged separately"
+  },
+  {
+    "record": "R0037",
+    "title": "Damping Asymmetry Trimming Based on the Resistance Heat Dissipation for Coriolis Vibratory Gyroscope in Whole-Angle Mode",
+    "doi": "10.3390/mi11100945",
+    "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0037_Damping Asymmetry Trimming Based on the Resistance Heat Dissipation for Coriolis Vibratory Gyroscope in Whole-Angle.pdf",
+    "sha256": "0df4e8beb622f62385d42a31a99de4fb029aa087d0773a5e0df914ba20872fb0",
+    "pages": 14,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "boundary": "Text extraction only; formula reading and visual checks logged separately"
+  },
+  {
+    "record": "R0039",
+    "title": "Effect of Uneven Electrostatic Forces on the Dynamic Characteristics of Capacitive Hemispherical Resonator Gyroscopes",
+    "doi": "10.3390/s19061291",
+    "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0039_Effect of Uneven Electrostatic Forces on the Dynamic Characteristics of Capacitive Hemispherical Resonator Gyroscop.pdf",
+    "sha256": "807368b53711b3b9ca768046953c951e6637fa12ad60c8467c46ee7dd57e53ab",
+    "pages": 16,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "boundary": "Text extraction only; formula reading and visual checks logged separately"
+  },
+  {
+    "record": "R0125",
+    "title": "Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscope",
+    "doi": "10.1038/s41378-024-00818-x",
+    "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0496_Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscop.pdf",
+    "sha256": "87e8e5010f4fb0d3f7ee31ed029c86867d05dd611ba0802c18fcff772bced954",
+    "pages": 11,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "boundary": "Text extraction only; formula reading and visual checks logged separately"
+  },
+  {
+    "record": "R0152",
+    "title": "0.79 ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive displacement detection",
+    "doi": "10.1038/s41378-021-00306-6",
+    "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0490_0.79_ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive.pdf",
+    "sha256": "3ac7284d26538e33bf380de9b762cacde86571c8ad40841753e48edeaa544a97",
+    "pages": 11,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "boundary": "Text extraction only; formula reading and visual checks logged separately"
+  },
+  {
+    "record": "R0252",
+    "title": "Active structural error suppression in MEMS vibratory rate integrating gyroscopes",
+    "doi": "10.1109/jsen.2003.817165",
+    "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0252_Active structural error suppression in MEMS vibratory rate integrating gyroscopes.pdf",
+    "sha256": "b579055752a3eabfca78962f75e3d75d86df68fd0144588ab6bb2d520dce6165",
+    "pages": 12,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "boundary": "Text extraction only; formula reading and visual checks logged separately"
+  }
+]

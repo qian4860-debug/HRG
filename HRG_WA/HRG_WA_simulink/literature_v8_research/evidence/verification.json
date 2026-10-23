@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-24",
+  "independent_csv_checks": [
+    {
+      "name": "linear_matrix_0_angle_csv_recompute",
+      "error": 1.2715789428619142
+    },
+    {
+      "name": "linear_matrix_1_angle_csv_recompute",
+      "error": 0.03874615817019668
+    },
+    {
+      "name": "diagonal_cubic_0_angle_csv_recompute",
+      "error": 1.2933123145839924
+    },
+    {
+      "name": "diagonal_cubic_1_angle_csv_recompute",
+      "error": 0.018137549195557996
+    },
+    {
+      "name": "calibration_drift_0_angle_csv_recompute",
+      "error": 1.3945858675470002
+    },
+    {
+      "name": "calibration_drift_1_angle_csv_recompute",
+      "error": 0.12145150940429861
+    },
+    {
+      "name": "hrg_wa_v8_carrier_0_angle_csv_recompute",
+      "error": 1.359439597074964
+    },
+    {
+      "name": "hrg_wa_v8_carrier_1_angle_csv_recompute",
+      "error": 1.5406798251381015
+    },
+    {
+      "name": "hrg_wa_v8_carrier_2_angle_csv_recompute",
+      "error": 0.05200281155162574
+    }
+  ],
+  "original_v7": {
+    "pass": true,
+    "hashes": 217,
+    "unitChecks": 19,
+    "carrierCases": 5,
+    "PIR_Q_Ratio": 0.7871330456470664,
+    "coldBuildTimeS": 0.6994312500000001
+  },
+  "derivation_checks": 10,
+  "matlab_checks": 12,
+  "carrier_all_assessed_metrics_pass": [
+    false,
+    false,
+    true
+  ],
+  "zero_startup_pass": true,
+  "zero_startup_time_s": 0.7111287500000001,
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "boundary": "Research checks and per-case acceptance are separate; no claim of hardware qualification"
+}

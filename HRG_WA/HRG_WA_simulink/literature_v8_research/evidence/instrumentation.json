@@ -1,0 +1,108 @@
+{
+  "pass": true,
+  "observerMaxDifference": 0,
+  "comparedTaps": 23,
+  "scopes": 20,
+  "spectra": 16,
+  "rates": [
+    {
+      "name": "adc",
+      "sampleTimeS": 2.5E-5,
+      "specifiedSampleRateHz": 40000,
+      "units": "dBV"
+    },
+    {
+      "name": "sample_hold",
+      "sampleTimeS": 2.5E-5,
+      "specifiedSampleRateHz": 40000,
+      "units": "dBV"
+    },
+    {
+      "name": "anti_alias",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBV"
+    },
+    {
+      "name": "cv_actual",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBV"
+    },
+    {
+      "name": "cv_ideal",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBV"
+    },
+    {
+      "name": "pga",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBV"
+    },
+    {
+      "name": "dac",
+      "sampleTimeS": 2.5E-5,
+      "specifiedSampleRateHz": 40000,
+      "units": "dBV"
+    },
+    {
+      "name": "dac_requested",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBV"
+    },
+    {
+      "name": "driver",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBV"
+    },
+    {
+      "name": "force",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBFS"
+    },
+    {
+      "name": "cic",
+      "sampleTimeS": 0.001,
+      "specifiedSampleRateHz": 1000,
+      "units": "dBFS"
+    },
+    {
+      "name": "fir",
+      "sampleTimeS": 0.001,
+      "specifiedSampleRateHz": 1000,
+      "units": "dBFS"
+    },
+    {
+      "name": "iq",
+      "sampleTimeS": 0.001,
+      "specifiedSampleRateHz": 1000,
+      "units": "dBFS"
+    },
+    {
+      "name": "mixer",
+      "sampleTimeS": 2.5E-5,
+      "specifiedSampleRateHz": 40000,
+      "units": "dBFS"
+    },
+    {
+      "name": "head_displacement",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBFS"
+    },
+    {
+      "name": "head_velocity",
+      "sampleTimeS": 1.25E-6,
+      "specifiedSampleRateHz": 800000,
+      "units": "dBFS"
+    }
+  ],
+  "reopenedAndCompiled": true,
+  "savedModel": "hrg_wa_v8_calibrated.slx",
+  "scope": "Observer noninterference and discrete input sample rates; no hardware spectrum signoff"
+}

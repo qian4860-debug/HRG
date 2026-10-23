@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-24",
+  "selected_sources": [
+    {
+      "record": "R0005",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0005_Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs.pdf",
+      "sha256": "f909d4335fd168a527a9653165d43c98f08da8c83065553745cf531d0e27bbdc",
+      "relevant_text_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rendered_and_visually_checked_pages": [
+        2
+      ],
+      "scope": "Selected equations and method conditions used in mechanics_to_algorithms.md; not whole-paper experimental replication"
+    },
+    {
+      "record": "R0037",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0037_Damping Asymmetry Trimming Based on the Resistance Heat Dissipation for Coriolis Vibratory Gyroscope in Whole-Angle.pdf",
+      "sha256": "0df4e8beb622f62385d42a31a99de4fb029aa087d0773a5e0df914ba20872fb0",
+      "relevant_text_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "rendered_and_visually_checked_pages": [
+        3
+      ],
+      "scope": "Selected equations and method conditions used in mechanics_to_algorithms.md; not whole-paper experimental replication"
+    },
+    {
+      "record": "R0039",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0039_Effect of Uneven Electrostatic Forces on the Dynamic Characteristics of Capacitive Hemispherical Resonator Gyroscop.pdf",
+      "sha256": "807368b53711b3b9ca768046953c951e6637fa12ad60c8467c46ee7dd57e53ab",
+      "relevant_text_pages": [
+        2,
+        3,
+        4
+      ],
+      "rendered_and_visually_checked_pages": [
+        3
+      ],
+      "scope": "Selected equations and method conditions used in mechanics_to_algorithms.md; not whole-paper experimental replication"
+    },
+    {
+      "record": "R0125",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0496_Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscop.pdf",
+      "sha256": "87e8e5010f4fb0d3f7ee31ed029c86867d05dd611ba0802c18fcff772bced954",
+      "relevant_text_pages": [
+        2,
+        3,
+        4
+      ],
+      "rendered_and_visually_checked_pages": [
+        4
+      ],
+      "scope": "Selected equations and method conditions used in mechanics_to_algorithms.md; not whole-paper experimental replication"
+    },
+    {
+      "record": "R0152",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0490_0.79_ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive.pdf",
+      "sha256": "3ac7284d26538e33bf380de9b762cacde86571c8ad40841753e48edeaa544a97",
+      "relevant_text_pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "rendered_and_visually_checked_pages": [
+        4
+      ],
+      "scope": "Selected equations and method conditions used in mechanics_to_algorithms.md; not whole-paper experimental replication"
+    },
+    {
+      "record": "R0252",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0252_Active structural error suppression in MEMS vibratory rate integrating gyroscopes.pdf",
+      "sha256": "b579055752a3eabfca78962f75e3d75d86df68fd0144588ab6bb2d520dce6165",
+      "relevant_text_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rendered_and_visually_checked_pages": [
+        4
+      ],
+      "scope": "Selected equations and method conditions used in mechanics_to_algorithms.md; not whole-paper experimental replication"
+    }
+  ],
+  "boundary": "Six selected primary sources; no claim of all 109 files scientifically reviewed"
+}

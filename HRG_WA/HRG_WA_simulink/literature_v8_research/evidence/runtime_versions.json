@@ -1,0 +1,21 @@
+{
+  "MATLAB": {
+    "Name": "MATLAB",
+    "Version": "25.1",
+    "Release": "(R2025a)",
+    "Date": "21-Nov-2024"
+  },
+  "Simulink": {
+    "Name": "Simulink",
+    "Version": "25.1",
+    "Release": "(R2025a)",
+    "Date": "21-Nov-2024"
+  },
+  "DSP_System_Toolbox": {
+    "Name": "DSP System Toolbox",
+    "Version": "25.1",
+    "Release": "(R2025a)",
+    "Date": "21-Nov-2024"
+  },
+  "platform": "PCWIN64"
+}

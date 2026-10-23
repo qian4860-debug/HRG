@@ -1,0 +1,2079 @@
+{
+  "date": "2026-10-24",
+  "files": 109,
+  "selected_sections_checked": 6,
+  "boundary": "Title-only topic triage and front-page extraction are not method comparison or scientific verification",
+  "records": [
+    {
+      "record": "R0003",
+      "title": "On the beats in the vibrations of a revolving cylinder or bell",
+      "doi": null,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/Bryan_1890_On_the_beats_original_pages_101-111.pdf",
+      "sha256": "17ba35b0f9f2562b59da984c014e5b792e8e596bcedb500da1409549f6b1d188",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 4859
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0005",
+      "title": "Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs",
+      "doi": "10.1109/inertial51137.2021.9430479",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0005_Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs.pdf",
+      "sha256": "f909d4335fd168a527a9653165d43c98f08da8c83065553745cf531d0e27bbdc",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10659
+      },
+      "method_review": "selected_equations_checked",
+      "checked_source_record": "R0005",
+      "model_action": "See mechanics_to_algorithms.md with explicit equations and conditions"
+    },
+    {
+      "record": "R0014",
+      "title": "Decreasing Frequency Splits of Hemispherical Resonators by Chemical Etching",
+      "doi": "10.3390/s18113772",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0014_Decreasing Frequency Splits of Hemispherical Resonators by Chemical Etching.pdf",
+      "sha256": "93a614a9b7f44d69d50ac1dc84e92196eed56ac891e494dea63b88d302003ff8",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8776
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0017",
+      "title": "A Novel Compensation Method for Eliminating Precession Angular-Rate Bias in MEMS Rate-Integrating Gyroscopes",
+      "doi": "10.1109/access.2020.3014661",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0017_A Novel Compensation Method for Eliminating Precession Angular-Rate Bias in MEMS Rate-Integrating Gyroscopes.pdf",
+      "sha256": "e75e3c08f1d27f7a4058a49d30c5cf752241ba4b344bf246437567e45808f32c",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9105
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0033",
+      "title": "The Synthesis Model of Flat-Electrode Hemispherical Resonator Gyro",
+      "doi": "10.3390/s19071690",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0033_The Synthesis Model of Flat-Electrode Hemispherical Resonator Gyro.pdf",
+      "sha256": "055c94a5c85e45fc45701a316de8c342c5eb6d48211dac8dde10d5e1ddab4575",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8143
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0037",
+      "title": "Damping Asymmetry Trimming Based on the Resistance Heat Dissipation for Coriolis Vibratory Gyroscope in Whole-Angle Mode",
+      "doi": "10.3390/mi11100945",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0037_Damping Asymmetry Trimming Based on the Resistance Heat Dissipation for Coriolis Vibratory Gyroscope in Whole-Angle.pdf",
+      "sha256": "0df4e8beb622f62385d42a31a99de4fb029aa087d0773a5e0df914ba20872fb0",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7804
+      },
+      "method_review": "selected_equations_checked",
+      "checked_source_record": "R0037",
+      "model_action": "See mechanics_to_algorithms.md with explicit equations and conditions"
+    },
+    {
+      "record": "R0038",
+      "title": "Design and Verification of a Digital Controller for a 2-Piece Hemispherical Resonator Gyroscope",
+      "doi": "10.3390/s16040555",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0038_Design and Verification of a Digital Controller for a 2-Piece Hemispherical Resonator Gyroscope.pdf",
+      "sha256": "5feeb30e19b115eec1177e16e9db0848580a7e8f287a1478edd5ce98addf45af",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8167
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0039",
+      "title": "Effect of Uneven Electrostatic Forces on the Dynamic Characteristics of Capacitive Hemispherical Resonator Gyroscopes",
+      "doi": "10.3390/s19061291",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0039_Effect of Uneven Electrostatic Forces on the Dynamic Characteristics of Capacitive Hemispherical Resonator Gyroscop.pdf",
+      "sha256": "807368b53711b3b9ca768046953c951e6637fa12ad60c8467c46ee7dd57e53ab",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10761
+      },
+      "method_review": "selected_equations_checked",
+      "checked_source_record": "R0039",
+      "model_action": "See mechanics_to_algorithms.md with explicit equations and conditions"
+    },
+    {
+      "record": "R0089",
+      "title": "Diamagnetic Composites for High‐Q Levitating Resonators",
+      "doi": "10.1002/advs.202203619",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0089_Diamagnetic Composites for High_Q Levitating Resonators.pdf",
+      "sha256": "4517211c1c23bf0dbda8819ef3f4566c955e67e7d9d492fa6124dd3e97664e56",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9297
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0094",
+      "title": "Atomic Layer Deposition Niobium Nitride Films for High-Q Resonators",
+      "doi": "10.1007/s10909-020-02336-2",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0094_Atomic Layer Deposition Niobium Nitride Films for High-Q Resonators.pdf",
+      "sha256": "80ea83cc6857570784087db20e1641153097447b6e8d45367c934a2c3cbe59eb",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 5083
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0096",
+      "title": "Vibration-induced nanoscale friction modulation on piezoelectric materials",
+      "doi": "10.1007/s40544-021-0552-y",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0096_Vibration-induced nanoscale friction modulation on piezoelectric materials.pdf",
+      "sha256": "98ee3dfc700abe0e4891c70ca8f091f5e59a3319593e40df8432a9063205810b",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7632
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0122",
+      "title": "Micro 3D printing of a functional MEMS accelerometer",
+      "doi": "10.1038/s41378-022-00440-9",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0122_Micro 3D printing of a functional MEMS accelerometer.pdf",
+      "sha256": "3f6c422a875068d2c3fe4cfbb4322bfbefa5a4963134783ab3e05bef2ab1d367",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10924
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0123",
+      "title": "A 3D-printed microhemispherical shell resonator with electrostatic tuning for a Coriolis vibratory gyroscope",
+      "doi": "10.1038/s41378-024-00659-8",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0123_A 3D-printed microhemispherical shell resonator with electrostatic tuning for a Coriolis vibratory gyroscope.pdf",
+      "sha256": "15fee17ef2d353be51a896b970e57bef2b23f0e6e17c6cd3154a76c170605c0c",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7745
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0126",
+      "title": "0.32 mHz frequency mismatch of micro-shell resonator gyroscope without tuning electrodes achieved by ultra-precision mechanical trimming",
+      "doi": "10.1038/s41378-025-00872-z",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0126_Yu_ S. et al. 0.32 mHz frequency mismatch of micro-shell resonator gyroscope without tuning electrodes achieved by.pdf",
+      "sha256": "ef1ec2efe978911b4849bcf6f798762d78268a31cbd48f81a0d25b70cd50a9be",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10557
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0127",
+      "title": "Micro-3D sculptured metastructures with deep trenches for sub-10 μm resolution",
+      "doi": "10.1038/s41378-025-00888-5",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0127_Micro-3D sculptured metastructures with deep trenches for sub-10_μm resolution.pdf",
+      "sha256": "4adf0328f4e752b3f9ec9de00aabb851b5314e07ef0fdd4a55e502a2fb373fe1",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 11077
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0128",
+      "title": "Identification and trimming of the unbalanced mass in micro hemispherical resonators based on an elastic electrode substrate",
+      "doi": "10.1038/s41378-025-00932-4",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0128_Identification and trimming of the unbalanced mass in micro hemispherical resonators based on an elastic electrode.pdf",
+      "sha256": "c49e094660914439a037436db9934937430001f71ae965d2362c46d26ece8048",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 11289
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0137",
+      "title": "Engineering the Dissipation of Crystalline Micromechanical Resonators",
+      "doi": "10.1103/physrevapplied.13.044007",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0137_Engineering the Dissipation of Crystalline Micromechanical Resonators.pdf",
+      "sha256": "2b7a5bfbd4135b60119403c6a188f2f75b82f31b783c4563842da97a7e875c66",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10618
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0138",
+      "title": "Stick-Slip Friction and Energy Dissipation in Boundary Lubrication",
+      "doi": "10.1103/physrevlett.107.147801",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0138_Stick-Slip Friction and Energy Dissipation in Boundary Lubrication.pdf",
+      "sha256": "84055feb8161075a7db72c4847183fb7882e4d22de3b5be3737d5fca774705d8",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 2308
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0164",
+      "title": "基于分次吹制工艺的微半球陀螺制作",
+      "doi": "10.11977/j.issn.1004-2474.2021.01.030",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0164_基于分次吹制工艺的微半球陀螺制作.pdf",
+      "sha256": "7f4a240202ded5ba53c74c5c7de2a36ade20d475edfdd4cc0c12242a8b840e5b",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 4301
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0182",
+      "title": "Automatic Mode-Matching Method for MEMS Disk Resonator Gyroscopes Based on Virtual Coriolis Force",
+      "doi": "10.3390/mi11020210",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0182_Automatic Mode-Matching Method for MEMS Disk Resonator Gyroscopes Based on Virtual Coriolis Force.pdf",
+      "sha256": "e6db71d2c79be0b8b5cac8f61383246346a0cd0db6a325d33e28f935f2bddcee",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8086
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0183",
+      "title": "The Recent Progress of MEMS/NEMS Resonators",
+      "doi": "10.3390/mi12060724",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0183_The Recent Progress of MEMS_NEMS Reso- nators.pdf",
+      "sha256": "85dfbe8245857cf40edc082411682e2f5f3446dd4d2003835056d11f14c371f6",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9169
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0184",
+      "title": "A Review of Symmetric Silicon MEMS Gyroscope Mode-Matching Technologies",
+      "doi": "10.3390/mi13081255",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0184_Microm- achines 2022_ 13_ 1255. https___doi.org_10.3390_mi13081255.pdf",
+      "sha256": "ea381316070334be306d8d51810628cdedf1a073eda9cff6664e7ff683c4c63e",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 6760
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0186",
+      "title": "A Digital Closed-Loop Sense MEMS Disk Resonator Gyroscope Circuit Design Based on Integrated Analog Front-end",
+      "doi": "10.3390/s20030687",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0186_A Digital Closed-Loop Sense MEMS Disk Resonator Gyroscope Circuit Design Based on Integrated Analog Front-end.pdf",
+      "sha256": "71d766fe21d7b9e0666e1e1aff4e71f0623f77310747cf75013da0f1de423e1b",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7785
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0187",
+      "title": "Influence of Temperature Variation on the Vibrational Characteristics of Fused Silica Cylindrical Resonators for Coriolis Vibratory Gyroscopes",
+      "doi": "10.3390/s20041032",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0187_Influence of Temperature Variation on the Vibrational Characteristics of Fused Silica Cylindrical Resonators for Co.pdf",
+      "sha256": "6c64c47a2de7fc77955ec7fca3da948fbf5ed13eeb3f3e7983dddf54236ee556",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8646
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0219",
+      "title": "Automated Frequency and Quality-Factor Matching Method for Frequency Modulated / Rate Integrating Gyroscope",
+      "doi": "10.1541/ieejsmas.139.219",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0219_Automated Frequency and Quality-Factor Matching Method for Frequency Modulated _ Rate Integrating Gyroscope.pdf",
+      "sha256": "3367c110567bb6be804621f3aac12557bd9c8353ba0c8434bbbcb7f233a6049d",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 3619
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0220",
+      "title": "Automatic Rate and Rate-Integrating Mode-Switchable Axisymmetric Gyroscope",
+      "doi": "10.3390/s22124334",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0220_Automatic Rate and Rate-Integrating Mode-Switchable Axisymmetric Gyroscope.pdf",
+      "sha256": "6dbfc93092a55fae1aa52d04eb119a52c26d6e9b0f9896db10da24cb7c3a49aa",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8443
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0224",
+      "title": "Imperfection Parameter Observer and Drift Compensation Controller Design of Hemispherical Resonator Gyros",
+      "doi": "10.5139/ijass.2013.14.4.379",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0224_Imperfection Parameter Observer and Drift Compensation Controller Design of Hemispherical Resonator Gyros.pdf",
+      "sha256": "6e5e2279bf18bff5ee6a486948e8bb72597d0757090b97135174bdaacb0f959f",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 17393
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0252",
+      "title": "Active structural error suppression in MEMS vibratory rate integrating gyroscopes",
+      "doi": "10.1109/jsen.2003.817165",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0252_Active structural error suppression in MEMS vibratory rate integrating gyroscopes.pdf",
+      "sha256": "b579055752a3eabfca78962f75e3d75d86df68fd0144588ab6bb2d520dce6165",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7845
+      },
+      "method_review": "selected_equations_checked",
+      "checked_source_record": "R0252",
+      "model_action": "See mechanics_to_algorithms.md with explicit equations and conditions"
+    },
+    {
+      "record": "R0262",
+      "title": "Demonstration of a Three-dimensional Negative Index Medium Operated at Multiple-angle Incidences by Monolithic Metallic Hemispherical Shells",
+      "doi": "10.1038/srep45549",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0262_Demonstration of a Three-dimensional Negative Index Medium Operated at Multiple-angle Incidences by Monolithic Meta.pdf",
+      "sha256": "d26eb5cbc1bf7aaf73a11b3741261c957c56ead35f9aab5f60f5efe21a334dde",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9105
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0278",
+      "title": "Effective bias warm-up time reduction for MEMS gyroscopes based on active suppression of the coupling stiffness",
+      "doi": "10.1038/s41378-019-0057-2",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0278_Effective bias warm-up time reduction for MEMS gyroscopes based on active suppression of the coupling stiffness.pdf",
+      "sha256": "5f1247791427972100cef9262194f0848bd269219098f26565e71bac81783210",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9817
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0296",
+      "title": "Force-To-Rebalance Mode of a Resonator Gyro and Angular Rate Measurement Tests",
+      "doi": "10.5302/j.icros.2014.13.1983",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0296_Force-To-Rebalance Mode of a Resonator Gyro and Angular Rate Measurement Tests.pdf",
+      "sha256": "ab6f762fb6ed92e8c4b8577344f8915bd4a1ef6570b51dce147313213cf1b628",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 6350
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0313",
+      "title": "Optimization and Experimentation of Dual-Mass MEMS Gyroscope Quadrature Error Correction Methods",
+      "doi": "10.3390/s16010071",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0313_Optimization and Experimentation of Dual-Mass MEMS Gyroscope Quadrature Error Correction Methods.pdf",
+      "sha256": "1f52c28a5c9491f921fb5ff92b19a90c02a3331bd952c32d977a1a3224168faf",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8467
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0314",
+      "title": "Design, Fabrication and Experiment of Double U-Beam MEMS Vibration Ring Gyroscope",
+      "doi": "10.3390/mi10030186",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0314_Design_ Fabrication and Experiment of Double U-Beam MEMS Vibration Ring Gyroscope.pdf",
+      "sha256": "fb7c52e4564f70a6c805f6af53a623323cd753c78d220d5f1e47907d8a06ef5b",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8428
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0330",
+      "title": "High-quality-factor viscoelastic nanomechanical resonators from moiré superlattices",
+      "doi": "10.1038/s41467-025-58981-2",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0330_High-quality-factor viscoelastic nanomechanical resonators from moiré superlattices.pdf",
+      "sha256": "502e816e8aa6c1867f289fb99816f3e0bf64d1d79e3ec4bb582f01bf8938e028",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9856
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0342",
+      "title": "Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hemispherical Resonator Gyro",
+      "doi": "10.3390/s24134328",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0342_Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hemispherical Reso.pdf",
+      "sha256": "da60ed3fa3906813da4c1c99a0c198143f25904a231153cda78c1f3398b413e9",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8831
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0397",
+      "title": "MEMS Gyroscope Temperature Compensation Based on Drive Mode Vibration Characteristic Control",
+      "doi": "10.3390/mi10040248",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0397_MEMS Gyroscope Temperature Compensation Based on Drive Mode Vibration Characteristic Control.pdf",
+      "sha256": "0012ff8a2ab1b4e58457cd7a89698539439688543c8c49c40d412fdb29fe5b6d",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8171
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0404",
+      "title": "An Ultrahigh Vacuum Packaging Process Demonstrating Over 2 Million Q-Factor in MEMS Vibratory Gyroscopes",
+      "doi": "10.1109/lsens.2017.2762287",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0404_An Ultrahigh Vacuum Packaging Process Demonstrating Over 2 Million Q-Factor in MEMS Vibratory Gyroscopes.pdf",
+      "sha256": "010b7822be1caf9d8cd474076df89324c343023282e744d132d4957840ec49b6",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10153
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0410",
+      "title": "An In-Run Automatic Demodulation Phase Error Compensation Method for MEMS Gyroscope in Full Temperature Range",
+      "doi": "10.3390/mi15070825",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0410_An In-Run Automatic Demodulation Phase Error Compensation Method for MEMS Gyroscope in Full Temperature Range.pdf",
+      "sha256": "c0a54cd266e1c1a00aefc3fc7d2f8c6b2948d51aa8600e03f9d41982e6dcacd0",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8783
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0450",
+      "title": "Resonant pitch and roll silicon gyroscopes with sub-micron-gap slanted electrodes: Breaking the barrier toward high-performance monolithic inertial measurement units",
+      "doi": "10.1038/micronano.2016.92",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0450_Resonant pitch and roll silicon gyroscopes with sub-micron-gap slanted electrodes_ Breaking the barrier toward high.pdf",
+      "sha256": "09808b5aff521de11a224f064c9f8751f8f491c94f4f0b81f12c8aef2f961799",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 12002
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0467",
+      "title": "1 MILLION Q-FACTOR DEMONSTRATED ON MICRO-GLASSBLOWN FUSED SILICA WINEGLASS RESONATORS WITH OUT-OF-PLANE ELECTROSTATIC TRANSDUCTION",
+      "doi": "10.31438/trf.hh2014.18",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0467_1 MILLION Q-FACTOR DEMONSTRATED ON MICRO-GLASSBLOWN FUSED SILICA WINEGLASS RESONATORS WITH OUT-OF-PLANE ELECTROSTAT.pdf",
+      "sha256": "de500e51e6478ce3f522a4bfdb7de4ffbc25af00a4c30bc1543f48bc7eaef940",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9933
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0478",
+      "title": "Solving the Coriolis Vibratory Gyroscope Motion Equations by Means of the Angular Rate B-Spline Approximation",
+      "doi": "10.3390/math9030292",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0478_Solving the Coriolis Vibratory Gyroscope Motion Equations by Means of the Angular Rate B-Spline Approximation.pdf",
+      "sha256": "c33879d632cd8c3678b3ae34259e4bc2c2e3f62abfe21d1ca529498331f1700d",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7866
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0484",
+      "title": "Standing Wave Binding of Hemispherical Resonator Containing First–Third Harmonics of Mass Imperfection under Linear Vibration Excitation",
+      "doi": "10.3390/s20195454",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0484_Standing Wave Binding of Hemispherical Resonator Containing First_Third Harmonics of Mass Imperfection under Linear.pdf",
+      "sha256": "597c362245c3c8ac13e78b451b529ce28d47a479d7546f6c0b3a540eac6edd8b",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8737
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0489",
+      "title": "Substrate-decoupled, bulk-acoustic wave gyroscopes: Design and evaluation of next-generation environmentally robust devices",
+      "doi": "10.1038/micronano.2016.15",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0489_Substrate-decoupled_ bulk-acoustic wave gyroscopes_ Design and evaluation of next-generation environmentally robust.pdf",
+      "sha256": "56eb111f7f654c9298125ab80bb3a207949b90954ace5db8d27b609a90b9280a",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 11110
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0490",
+      "title": "0.79 ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive displacement detection",
+      "doi": "10.1038/s41378-021-00306-6",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0490_0.79_ppm scale-factor nonlinearity whole-angle microshell gyroscope realized by real-time calibration of capacitive.pdf",
+      "sha256": "3ac7284d26538e33bf380de9b762cacde86571c8ad40841753e48edeaa544a97",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10514
+      },
+      "method_review": "selected_equations_checked",
+      "checked_source_record": "R0152",
+      "model_action": "See mechanics_to_algorithms.md with explicit equations and conditions"
+    },
+    {
+      "record": "R0496",
+      "title": "Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscope",
+      "doi": "10.1038/s41378-024-00818-x",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0496_Real-time correction of gain nonlinearity in electrostatic actuation for whole-angle micro-shell resonator gyroscop.pdf",
+      "sha256": "87e8e5010f4fb0d3f7ee31ed029c86867d05dd611ba0802c18fcff772bced954",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10627
+      },
+      "method_review": "selected_equations_checked",
+      "checked_source_record": "R0125",
+      "model_action": "See mechanics_to_algorithms.md with explicit equations and conditions"
+    },
+    {
+      "record": "R0504",
+      "title": "Temperature Drift Compensation for Hemispherical Resonator Gyro Based on Natural Frequency",
+      "doi": "10.3390/s120506434",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0504_Temperature Drift Compensation for Hemispherical Resonator Gyro Based on Natural Frequency.pdf",
+      "sha256": "2b0b070fc17ed625ed95a4aa737a6abfe2d801b6447cb37f2075238598ceb05f",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 5960
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0515",
+      "title": "NON-AXISYMMETRIC CORIOLIS VIBRATORY GYROSCOPE WITH WHOLE ANGLE, FORCE REBALANCE,",
+      "doi": "10.31438/trf.hh2014.112",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0515_NON-AXISYMMETRIC CORIOLIS VIBRATORY GYROSCOPE WITH WHOLE ANGLE_ FORCE REBALANCE_.pdf",
+      "sha256": "5138e4b39f1170b0f7322400c7a54fb57657b878b51c992659034b15847db6eb",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10478
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0523",
+      "title": "Weak Capacitance Detection Circuit of Micro-Hemispherical Gyroscope Based on Common-Mode Feedback Fusion Modulation and Demodulation",
+      "doi": "10.3390/mi14061161",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0523_Weak Capacitance Detection Circuit of Micro-Hemispherical Gyroscope Based on Common-Mode Feedback Fusion Modulation.pdf",
+      "sha256": "b822a18a841496240e9aa7192199535a32c847a4724b3d9d83d264a140f38221",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10913
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0531",
+      "title": "Force to Rebalance Control of HRG and Suppression of Its Errors on the Basis of FPGA",
+      "doi": "10.3390/s111211761",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0531_Force to Rebalance Control of HRG and Suppression of Its Errors on the Basis of FPGA.pdf",
+      "sha256": "26b18d035ca6314be54c2eda5974917fc216798667ec59592659405f78731ff1",
+      "title_only_triage": "control_or_circuit_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 5977
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0533",
+      "title": "Nonlinearity Harmonic Error Compensation Method Based on Intelligent Identification for Rate Integrating Resonator Gyroscope",
+      "doi": "10.3390/act14020068",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0533_Nonlinearity Harmonic Error Compensation Method Based on Intelligent Identification for Rate Integrating Resonator.pdf",
+      "sha256": "8b494adfbcdfefdf4511be0d0693bd71ee290e355cf2dcce806bbc05b852c206",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8055
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0547",
+      "title": "The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discrete Electrode",
+      "doi": "10.3390/s20123549",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0547_The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discrete Electrode.pdf",
+      "sha256": "52681175a79005a3af37d54e5b4e7ec8e88af08f352cf3745dd937f67ba0c158",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8044
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0697",
+      "title": "3D printing of micro-nano devices and their applications",
+      "doi": "10.1038/s41378-024-00812-3",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0697_3D printing of micro-nano devices and their applications.pdf",
+      "sha256": "b660cda93819ed7cb5671d5d4135c04f92588427e19360cbfa7c9ad7e6bb9f7a",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10313
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0769",
+      "title": "Investigation on the Quality Factor Limit of the (111) Silicon Based Disk Resonator",
+      "doi": "10.3390/mi9010025",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0769_Investigation on the Quality Factor Limit of the _111_ Silicon Based Disk Resonator.pdf",
+      "sha256": "460dc8da814cbfb74205024f79d834708d3622c5d79fc7f3707be06e943e8240",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9106
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0879",
+      "title": "Research of Frequency Splitting Caused by Uneven Mass of Micro-Hemispherical Resonator Gyro",
+      "doi": "10.3390/mi13112015",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0879_Micromachines 13_11__ _2022_.pdf",
+      "sha256": "f8de72cdfe5a3a630f44fb84f20bcf8acfe6c68b4aff10b52149ebfe9075c0e0",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7165
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0882",
+      "title": "Reduced order modelling and experimental validation of a MEMS gyroscope test-structure exhibiting 1:2 internal resonance",
+      "doi": "10.1038/s41598-021-95793-y",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0882_Gobat_ G._ Zega_ V._ Fedeli_ P._ Guerinoni_ L._ Touzé_ C._ Frangi_ A._ Reduced order modelling and experimental val.pdf",
+      "sha256": "65e86fd4cc1fa047ee9b7bf478dd78f3492695e45860f781f576a1ed4cf05967",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10864
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0883",
+      "title": "Design and Modelling of MEMS Vibrating Internal Ring Gyroscopes for Harsh Environments",
+      "doi": "10.3390/s24175854",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0883_Sensors 24_17__ 5854 _2024_.pdf",
+      "sha256": "75c4eb423d1243ea805eff704878e1f3d819625ab7fb7c328c80e05c1f1aebf7",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8914
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0901",
+      "title": "New General Approach to Airplane Rotation Analysis",
+      "doi": "10.2322/tjsass.53.130",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0901_New general approach to airplane rotation analysis.pdf",
+      "sha256": "1f5f547304d44800c30f728b861a16f9bf13702fcb7f650e84598f3ae8e5e42e",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10540
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0910",
+      "title": "Review on piezoelectric actuators: materials, classifications, applications, and recent trends",
+      "doi": "10.1007/s11465-023-0772-0",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0910_Review on piezoelectric actuators_ materials_ classifications_ applications_ and recent trends.pdf",
+      "sha256": "c6bc4e0a4af26c935257ba23e67443fe690e72c7f522202c59931698ac01c750",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7782
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0971",
+      "title": "The formation of microcrystalline defects on the surface of silica glass arising from mechanochemical processing",
+      "doi": "10.1111/ijag.16558",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0971_The formation of microcrystalline defects on the surface of silica glass arising from mechanochemical processing.pdf",
+      "sha256": "8bf7ee1169317c8f282b75c7e4e9074d9c97a5d65461e157c4c74ec6160b8c98",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7562
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0983",
+      "title": "A micromechanical model on specific damping capacity caused by micro cracks",
+      "doi": "10.21595/jve.2015.15501",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0983_A micromechanical model on specific damping capacity caused by micro cracks.pdf",
+      "sha256": "6af45f88e7188d28694370bc12b394f416110c14f30bc92ac4328872488ba316",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8521
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R0997",
+      "title": "The Influence of Nonlinear High-Intensity Dynamic Processes on the Standing Wave Precession of a Non-Ideal Hemispherical Resonator",
+      "doi": "10.3390/s24092709",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0997_The influence of nonlinear high-intensity dynamic processes on the standing wave precession of a non-ideal hemisphe.pdf",
+      "sha256": "08f82c4420e0d29abe9bbf01fdbca882a9a33ce3a880059d82dc91337648fa5e",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10996
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1002",
+      "title": "0.003°/h bias instability of honeycomb disk resonator gyroscope achieved by mode reversal combined mode deflection control method",
+      "doi": "10.1038/s41378-025-01011-4",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1002_0.003__h bias instability of honeycomb disk resonator gyroscope achieved by mode reversal combined mode deflection.pdf",
+      "sha256": "2a8b18a4c2ece9a4034a72e6a83b84cd68054507292c8e6910f60e6931f616d4",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10470
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1012",
+      "title": "Low-Damage Trimming of Micro Hemispherical Resonators by Chemical Etching",
+      "doi": "10.3390/mi15091094",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1012_Low-damage trimming of micro hemispherical resonators by chemical etching.pdf",
+      "sha256": "72be4eed5b88725d99b89aec9ff02b004cfe7afb2b294a5a4fd3eb7a9d1c4a63",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8583
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1045",
+      "title": "Synchrotron X-ray and neutron diffraction study on the deformation and phase transformation mechanisms in TiAl alloys: a review",
+      "doi": "10.20517/microstructures.2025.54",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1045_Synchrotron X-ray and neutron diffraction study on the deformation and phase transformation mechanisms in TiAl allo.pdf",
+      "sha256": "2f4a8544a08f41da00a06b2d9b733393e58883f2a54e33851737fb5797a59992",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8370
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1052",
+      "title": "Dynamic modulation of modal coupling in microelectromechanical gyroscopic ring resonators",
+      "doi": "10.1038/s41467-019-12796-0",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1052_Dynamic modulation of modal coupling in microelectromechanical gyroscopic ring resonators.pdf",
+      "sha256": "aaeac88b94b4fcdbd0854541c40793c84cead075a4549e25de3e51b9200cf330",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10307
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1059",
+      "title": "Nonlinear damping in mechanical resonators made from carbon nanotubes and graphene",
+      "doi": "10.1038/nnano.2011.71",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1059_Nonlinear damping in mechanical resonators made from carbon nanotubes and graphene.pdf",
+      "sha256": "6451f66c898d158fc848a759f523b187b00667853f0d1a55423b1ff770966e5e",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 3659
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1100",
+      "title": "An analytical formulation for phase noise in MEMS oscillators",
+      "doi": "10.1109/tuffc.2014.006511",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1100_An analytical formulation for phase noise in MEMS oscillators.pdf",
+      "sha256": "b64323187ed91f29e02bc89b3cbdd42391d27f6cf937c9548a4dd80032d2e5a1",
+      "title_only_triage": "control_or_circuit_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 11553
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1119",
+      "title": "Polarization-Modulation, I/Q-Demodulation Photonic Bandpass Sampling for Wideband, Multicarrier RF Application",
+      "doi": "10.1109/jphot.2017.2732918",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1119_Polarization-Modulation_ I_Q-Demodulation Photonic Bandpass Sampling for Wideband_ Multicarrier RF Application.pdf",
+      "sha256": "a05390863149297e816ec26201a6479777024459138edae23e2cac0e1c85b4aa",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 3699
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1122",
+      "title": "MEMS and MOEMS Gyroscopes: A Review",
+      "doi": "10.1007/s13320-023-0693-x",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1122_MEMS and MOEMS Gyroscopes_ A Review.pdf",
+      "sha256": "cda83b526ce9e8702f0a9962a6b26e6b558f7757a34b2e0074264d9c58201646",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7407
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1130",
+      "title": "A 0.82 μVrms ultralow 1/f noise bandgap reference for a MEMS gyroscope",
+      "doi": "10.1038/s41378-023-00505-3",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1130_A 0.82 μVrms ultralow 1_f noise bandgap reference for a MEMS gyroscope.pdf",
+      "sha256": "11037f5a0f46ef5bfb817c4edb074b174de0cb02f172f6fcc183d6b853a2dab5",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7959
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1132",
+      "title": "Gyroscope Technology and Applications: A Review in the Industrial Perspective",
+      "doi": "10.3390/s17102284",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1132_Gyroscope Technology and Applications_ A Review in the Industrial Perspective.pdf",
+      "sha256": "f19126e0fb1538e1c908c95b5f25c8b55fd91f551d6241ca24810a2575e53f4e",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7063
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1133",
+      "title": "A Review of MEMS Vibrating Gyroscopes and Their Reliability Issues in Harsh Environments",
+      "doi": "10.3390/s22197405",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1133_A Review of MEMS Vibrating Gyroscopes and Their Reliability Issues in Harsh Environments.pdf",
+      "sha256": "a57ca5408de8dfc159237caec1b08aaf1a7fc4541ba0a7c826fb9543c1bfc269",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9480
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1135",
+      "title": "Nonlinear Dynamics of a Microscale Rate Integrating Gyroscope with a Disk Resonator under Parametric Excitation",
+      "doi": "10.20537/nd230102",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1135_Nonlinear Dynamics of a Microscale Rate Integrating Gyroscope with a Disk Resonator under Parametric Excitation.pdf",
+      "sha256": "205e3703f6c62ff9fc7272dad54b31876bdeac12367ddd1156c8810f95e89b85",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 5918
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1139",
+      "title": "Vibration-Induced Errors in MEMS Tuning Fork Gyroscopes with Imbalance",
+      "doi": "10.3390/s18061755",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1139_Vibration-Induced Errors in MEMS Tuning Fork Gyroscopes with Imbalance.pdf",
+      "sha256": "6eac829313f2131105b6352b4bed6c96a7332f62956fda2aa2ea8a9a7fbeb18c",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7293
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1154",
+      "title": "BotanicGarden: A High-Quality Dataset for Robot Navigation in Unstructured Natural Environments",
+      "doi": "10.1109/lra.2024.3359548",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1154_BotanicGarden_ A High-Quality Dataset for Robot Navigation in Unstructured Natural Environments.pdf",
+      "sha256": "6f3cb4f9dc24b4e3837f29454f63f5fb65564b1790a182ea8c13c4e841d0b844",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 13393
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1155",
+      "title": "Quadrotor with wheels: design and experimental evaluation",
+      "doi": "10.1038/s41598-024-66396-0",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1155_Quadrotor with wheels_ design and experimental evaluation.pdf",
+      "sha256": "3c21f038178f72fefcee6a6ab9abe21f397905cd787c877de24f2923f7261294",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9982
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1156",
+      "title": "GNSS/MEMS-INS Integration for Drone Navigation Using EKF on Lie Groups",
+      "doi": "10.1109/taes.2023.3290575",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1156_GNSS_MEMS-INS Integration for Drone Navigation Using EKF on Lie Groups.pdf",
+      "sha256": "0a7919babf3df9c5ed7ba050ae5b6331ff054d762740a0168bc62186a9a7cfa2",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 5109
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1157",
+      "title": "Analytical quaternion-based bias estimation algorithm for fast and accurate stationary gyro-compassing",
+      "doi": "10.1038/s41598-024-66282-9",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1157_Analytical quaternion-based bias estimation algorithm for fast and accurate stationary gyro-compassing.pdf",
+      "sha256": "d0e0f1e369366c529867db0fd143bb9aee0919ae9af7f15be8907576fbf28f86",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10584
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1158",
+      "title": "Removal of the rate table: MEMS gyrocompass with virtual maytagging",
+      "doi": "10.1038/s41378-023-00610-3",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1158_Removal of the rate table_ MEMS gyrocompass with virtual maytagging.pdf",
+      "sha256": "3e3c1b36f3f5e3cd9036ff1bc39fe618c87fb2657f4bfdb0b157305b3dbd99ec",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9655
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1167",
+      "title": "Trimming of Imperfect Cylindrical Fused Silica Resonators by Chemical Etching",
+      "doi": "10.3390/s19163596",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1167_Trimming of Imperfect Cylindrical Fused Silica Resonators by Chemical Etching.pdf",
+      "sha256": "e73a495009c4e912d52cff02b21023110421cf6347bfbc7a98c444b399823cbe",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8461
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1172",
+      "title": "Novel resonant pressure sensor based on piezoresistive detection and symmetrical in-plane mode vibration",
+      "doi": "10.1038/s41378-020-00207-0",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1172_Novel resonant pressure sensor based on piezoresistive detection and symmetrical in-plane mode vibration.pdf",
+      "sha256": "fa8995c7e05edb2875523c6bfa95fd9166058a62c27c71dcc9e732d60adcf64f",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10360
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1176",
+      "title": "0.04 degree-per-hour MEMS disk resonator gyroscope with high-quality factor (510 k) and long decaying time constant (74.9 s)",
+      "doi": "10.1038/s41378-018-0035-0",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1176_0.04 degree-per-hour MEMS disk resonator gyroscope with high-quality factor _510_k_ and long decaying time constant.pdf",
+      "sha256": "310aa152bf6efb571e06974ea3fa8da612cb39d94543c5b9682f14814075ec5a",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10393
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1181",
+      "title": "Research on the Mass Adding and Removing Combined Mechanical Trimming Method of the Ring MEMS Gyroscope",
+      "doi": "10.3390/mi14101957",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1181_Research on the Mass Adding and Removing Combined Mechanical Trimming Method of the Ring MEMS Gyroscope.pdf",
+      "sha256": "db08bc9893397110ac24e39469e909dedb77ac2a9c8d719f0ce6d49dfd18d175",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9745
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1190",
+      "title": "Extreme mechanical tunability in suspended MoS2 resonator controlled by Joule heating",
+      "doi": "10.1038/s41699-023-00383-3",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1190_Extreme mechanical tunability in suspended MoS2 resonator controlled by Joule heating.pdf",
+      "sha256": "f0ed970ab1e727c25cb2dd7c67067851b52d52d81ff08d06db5cc0948b025c67",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10553
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1191",
+      "title": "Programmable Mechanical Resonances in MEMS by Localized Joule Heating of Phase Change Materials",
+      "doi": "10.1002/adma.201302087",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1191_Programmable Mechanical Resonances in MEMS by Localized Joule Heating of Phase Change Materials.pdf",
+      "sha256": "c9b77a88a7d9b6a2289a293a0aa466dd6e2cf4e534fe341bc9d6e228cbb0bc0d",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8010
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1195",
+      "title": "Cylindrical Fused Silica Resonators Driven by PZT Thin Film Electrodes with Q Factor Achieving 2.89 Million after Coating",
+      "doi": "10.1038/s41598-019-45180-5",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1195_Cylindrical Fused Silica Resonators Driven by PZT Thin Film Electrodes with Q Factor Achieving 2.89 Million after C.pdf",
+      "sha256": "4499d949b5bb16f330488b053a256f537494cf68bec7e987f738d5ffbf0293b7",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 11178
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1196",
+      "title": "Self-induced parametric amplification arising from nonlinear elastic coupling in a micromechanical resonating disk gyroscope",
+      "doi": "10.1038/srep09036",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1196_Self-induced parametric amplification arising from nonlinear elastic coupling in a micromechanical resonating disk.pdf",
+      "sha256": "275c1c65ae2a16dbf804da6de92580867ecefc75def377053b2560ae3717c281",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 9779
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1199",
+      "title": "A Real-Time Circuit Phase Delay Correction System for MEMS Vibratory Gyroscopes",
+      "doi": "10.3390/mi12050506",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1199_A Real-Time Circuit Phase Delay Correction System for MEMS Vibratory Gyroscopes.pdf",
+      "sha256": "019e55946d84d84dd0bce949c7624f969d617b4169f8fa3a1c9deed58280cd27",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8854
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1208",
+      "title": "Online Compensation of Phase Delay Error Based on P-F Characteristic for MEMS Vibratory Gyroscopes",
+      "doi": "10.3390/mi13050647",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1208_Online Compensation of Phase Delay Error Based on P-F Characteristic for MEMS Vibratory Gyroscopes.pdf",
+      "sha256": "0d2883b8c2736a91d868a45af2e0f86a9443733641c1fb4bac03dc36f2adab41",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8859
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1222",
+      "title": "MEMS Gyroscope Automatic Real-Time Mode-Matching Method Based on Phase-Shifted 45° Additional Force Demodulation",
+      "doi": "10.3390/s18093001",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1222_MEMS Gyroscope Automatic Real-Time Mode-Matching Method Based on Phase-Shifted 45_ Additional Force Demodulation.pdf",
+      "sha256": "0256bccd84f15adef709ca0d2403e8463754df105a8821b8dbf74bf12773573a",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7689
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1224",
+      "title": "A Lumped Mass Model for Circular Micro-Resonators in Coriolis Vibratory Gyroscopes",
+      "doi": "10.3390/mi10060378",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1224_A Lumped Mass Model for Circular Micro-Resonators in Coriolis Vibratory Gyroscopes.pdf",
+      "sha256": "5bae7a888c83ca572c026d68bf33115d76f67bcf07a478355ed31c10b1dfeccf",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8444
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1231",
+      "title": "A Study of the Temperature Characteristics of Vibration Mode Axes for Vibratory Cylinder Gyroscopes",
+      "doi": "10.3390/s110807665",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1231_A Study of the Temperature Characteristics of Vibration Mode Axes for Vibratory Cylinder Gyroscopes.pdf",
+      "sha256": "902bc953a065d4ad17732ce6046b144783d076095110f2c34156807a95fb9f12",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 6054
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1235",
+      "title": "Micromachined Rate-Integrating Gyroscopes: Concept, Asymmetry Error Sources and Phenomena",
+      "doi": "10.3390/sym12050801",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1235_Micromachined Rate-Integrating Gyroscopes_ Concept_ Asymmetry Error Sources and Phenomena.pdf",
+      "sha256": "ec3bf2291aeb69fd5eb3d9dbaff9ecfa9ae3bbf027c8d6258b262f10d3978ff8",
+      "title_only_triage": "direct_WA_or_RIG_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7396
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1243",
+      "title": "Low-Cost Inertial Measurement Unit Calibration With Nonlinear Scale Factors",
+      "doi": "10.1109/tii.2021.3077296",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1243_Low-Cost Inertial Measurement Unit Calibration With Nonlinear Scale Factors.pdf",
+      "sha256": "54eb4918ad702183423cb53525c4f58e64cd51a8fc4b219de80bf20720a936ff",
+      "title_only_triage": "control_or_circuit_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 12125
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1247",
+      "title": "Collaborative Calibration Method for Redundant Dual-Axis RINSs Based on Geometric Constraint in GNSS-Denied Environments",
+      "doi": "10.1109/tii.2024.3507210",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1247_Collaborative Calibration Method for Redundant Dual-Axis RINSs Based on Geometric Constraint in GNSS-Denied Environ.pdf",
+      "sha256": "cef5829c622bd1decefc1476748b3207b34b84a187f720d4e9930ae8bf19ddb5",
+      "title_only_triage": "control_or_circuit_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 11525
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1262",
+      "title": "Identification and correction of phase delay errors for hemispherical resonator gyroscopes",
+      "doi": "10.1038/s41598-025-86288-1",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1262_Identification and correction of phase delay errors for hemispherical resonator gyroscopes.pdf",
+      "sha256": "471ad95582c9daa681d21cdf81b9d8a70dec808edfe0753bf8c43bab7aed7231",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 11379
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1268",
+      "title": "Design of a Shock-Protected Structure for MEMS Gyroscopes over a Full Temperature Range",
+      "doi": "10.3390/mi15020206",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1268_Design of a Shock-Protected Structure for MEMS Gyroscopes over a Full Temperature Range.pdf",
+      "sha256": "a9bf174c11670c4b0442fd8cbac58d8c4689017a3234dc8b610bd274d840a6a0",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8113
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1279",
+      "title": "Interactive Errors Analysis and Scale Factor Nonlinearity Reduction Methods for Lissajous Frequency Modulated MEMS Gyroscope",
+      "doi": "10.3390/s23249701",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1279_Interactive Errors Analysis and Scale Factor Nonlinearity Reduction Methods for Lissajous Frequency Modulated MEMS.pdf",
+      "sha256": "1891b9d4e2c6ba572792d876ac98eb9bad4aa11d98d3982b723c95601ece1e9e",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8958
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1325",
+      "title": "Study on the Mechanism of Energy Dissipation in Hemispherical Resonator Gyroscope",
+      "doi": "10.3390/s25010074",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1325_Study on the Mechanism of Energy Dissipation in Hemispherical Resonator Gyroscope.pdf",
+      "sha256": "2f5ff64e9de1a34857255f897b551869f83f6b4bc386ecd348a07d8eabd0e06c",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8316
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1326",
+      "title": "Research on the Configuration Optimization of All-Metal Micro Resonant Hemisphere",
+      "doi": "10.3390/s24227132",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1326_Research on the Configuration Optimization of All-Metal Micro Resonant Hemisphere.pdf",
+      "sha256": "a3bb1734d45d08891f423ac51fbf18e1cb5811b2ceb3027f0a7c31255bf712d7",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8742
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1334",
+      "title": "Novel nondelay-based reservoir computing with a single micromechanical nonlinear resonator for high-efficiency information processing",
+      "doi": "10.1038/s41378-021-00313-7",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1334_Novel nondelay-based reservoir computing with a single micromechanical nonlinear resonator for high-efficiency info.pdf",
+      "sha256": "fea6f33db69eabf433da7e9135a8f0b78837bf7d1520a9941c27bcc95b1d0418",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 10492
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1335",
+      "title": "Comparative Noise Analysis of Readout Circuit in Hemispherical Resonator Gyroscope",
+      "doi": "10.3390/mi16070802",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1335_Comparative Noise Analysis of Readout Circuit in Hemispherical Resonator Gyroscope.pdf",
+      "sha256": "74074767f2f87e80911dfc540396355e2e25351d974889c29bd1998d602bfa39",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 6712
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1349",
+      "title": "Adaptive Control of a Vibratory Angle Measuring Gyroscope",
+      "doi": "10.3390/s100908478",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1349_Adaptive Control of a Vibratory Angle Measuring Gyroscope.pdf",
+      "sha256": "5a743bf1563ca48e2039affa65cadadffc398deb39b00656ff41953eb7e8ff63",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 6503
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1400",
+      "title": "MEMS IMU Error Mitigation Using Rotation Modulation Technique",
+      "doi": "10.3390/s16122017",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1400_MEMS IMU Error Mitigation Using Rotation Modulation Technique.pdf",
+      "sha256": "a6dbdbced7f2beb88d76148294f52b8a0328b9822a47a57abf4184ea1a3c9487",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8312
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1401",
+      "title": "Research on Initial Alignment and Self-Calibration of Rotary Strapdown Inertial Navigation Systems",
+      "doi": "10.3390/s150203154",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1401_Research on Initial Alignment and Self-Calibration of Rotary Strapdown Inertial Navigation Systems.pdf",
+      "sha256": "e3e6726ae4b7a4e9e094c6a59e7504f75e819e66bd2606a672c3ecf5ac3daa3e",
+      "title_only_triage": "control_or_circuit_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 5869
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1402",
+      "title": "A Combination Scheme of Pure Strapdown and Dual-Axis Rotation Inertial Navigation Systems",
+      "doi": "10.3390/s23063091",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1402_A Combination Scheme of Pure Strapdown and Dual-Axis Rotation Inertial Navigation Systems.pdf",
+      "sha256": "aee7154b77f406ca1a8c409c0d4268a99c2fce33613287769f93fa97a65c5934",
+      "title_only_triage": "other_or_unclassified_background",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8554
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1408",
+      "title": "MEMS Gyroscope Bias Drift Self-Calibration Based on Noise-Suppressed Mode Reversal",
+      "doi": "10.3390/mi10120823",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1408_MEMS Gyroscope Bias Drift Self-Calibration Based on Noise-Suppressed Mode Reversal.pdf",
+      "sha256": "b90d396805360e4927202820bf933e5284edc6fb23b62951cc2e2b88c303cb4b",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8107
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1409",
+      "title": "Design of a 1-bit MEMS Gyroscope using the Model Predictive Control Approach",
+      "doi": "10.3390/s19030730",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1409_Design of a 1-bit MEMS Gyroscope using the Model Predictive Control Approach.pdf",
+      "sha256": "118cad93035f8d946e18e8ff67cdb1f3b5250cbcb11e22550ad8384f0f2084db",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 7529
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    },
+    {
+      "record": "R1411",
+      "title": "Performance Analysis of a Deep Simple Recurrent Unit Recurrent Neural Network (SRU-RNN) in MEMS Gyroscope De-Noising",
+      "doi": "10.3390/s18124471",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1411_Performance Analysis of a Deep Simple Recurrent Unit Recurrent Neural Network _SRU-RNN_ in MEMS Gyroscope De-Noisin.pdf",
+      "sha256": "c9b38a945d37e453e0341aab45a6cff66b5ea3daecfbf385357d37348de8b17f",
+      "title_only_triage": "resonator_or_gyro_background_candidate",
+      "screening": {
+        "status": "front_pages_extracted_only",
+        "pages": [
+          1,
+          2
+        ],
+        "characters": 8150
+      },
+      "method_review": "not_scientifically_reviewed",
+      "checked_source_record": null,
+      "model_action": "No formula imported; read relevant primary sections before changing the model"
+    }
+  ]
+}
