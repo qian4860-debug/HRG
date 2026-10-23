@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-23",
+  "seed": 20261023,
+  "scope": "algebra_only",
+  "numpy_version": "2.3.5",
+  "checks": [
+    {
+      "name": "full_ellipse_chain_rule",
+      "residual": 9.930136612989092e-16,
+      "tolerance": 2e-13,
+      "passed": true,
+      "detail": "300 signed, noncircular ellipses: chain rule versus complex ODE"
+    },
+    {
+      "name": "E_Q_derivatives",
+      "residual": 1.7763568394002505e-15,
+      "tolerance": 2e-13,
+      "passed": true,
+      "detail": "Quadratic invariant derivative versus a,b equations"
+    },
+    {
+      "name": "IQ_angle_phase_Q_invariants",
+      "residual": 1.4043333874306805e-15,
+      "tolerance": 2e-13,
+      "passed": true,
+      "detail": "R+jS, M+jL and signed Q identities"
+    },
+    {
+      "name": "four_force_components",
+      "residual": 5.632511157154734e-17,
+      "tolerance": 2e-13,
+      "passed": true,
+      "detail": "Cos/sin physical force to complex slow forcing"
+    },
+    {
+      "name": "positive_sine_half_gain_mapping",
+      "residual": 5.551115123125783e-17,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Unscaled +sin paper mixer to project 2cos/-2sin mixer"
+    },
+    {
+      "name": "physical_modal_four_angle",
+      "residual": 3.3306690738754696e-16,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "alpha=2 theta converts cos2(alpha-alpha_d) to cos4(theta-beta)"
+    },
+    {
+      "name": "L052_printed_gyro_nonzero_work_detected",
+      "residual": 0.0,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Printed same-sign off diagonals yield v^T G v=-4.8; a skew gyro yields 0"
+    },
+    {
+      "name": "skew_gyro_zero_work",
+      "residual": 0.0,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Physical gyroscopic energy identity"
+    },
+    {
+      "name": "L057_printed_L_real_part_counterexample",
+      "residual": 0.0,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "a=1,q=0,alpha=pi/4,phase=0: printed real part=0, claimed D exp(2j phase)=1"
+    },
+    {
+      "name": "L053_missing_angle_scale_counterexample",
+      "residual": 0.0,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Under R=D cos4theta,S=D sin4theta, atan2(S,R)=0.4 for theta=0.1"
+    },
+    {
+      "name": "L052_printed_R_counterexample",
+      "residual": 0.0,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "a=1,q=0,theta=phase=0 and unscaled mixers: R=.25, printed RHS proportional sin2theta=0"
+    },
+    {
+      "name": "traveling_wave_reconstruction",
+      "residual": 4.965068306494546e-16,
+      "tolerance": 3e-15,
+      "passed": true,
+      "detail": "CW/CCW decomposition from paper signed ellipse"
+    },
+    {
+      "name": "FM_common_frequency_cancellation",
+      "residual": 4.3653969328261155e-13,
+      "tolerance": 2e-12,
+      "passed": true,
+      "detail": "Differential frequency measures physical theta rate; differential errors remain"
+    },
+    {
+      "name": "quadrature_phase_leak_exact",
+      "residual": 2.168404344971009e-19,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Carrier phase error rotates quadrature force into pattern torque"
+    },
+    {
+      "name": "phase_leak_linear_remainder",
+      "residual": 8.188215012729094e-07,
+      "tolerance": 8.188333343333335e-07,
+      "passed": true,
+      "detail": "Small-angle approximation has an explicit cubic bound"
+    },
+    {
+      "name": "damping_regression_rank",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true,
+      "detail": "Angle coverage provides rank 3"
+    },
+    {
+      "name": "fixed_angle_unidentifiable",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true,
+      "detail": "Repeated fixed azimuth has rank 1"
+    },
+    {
+      "name": "gain_mismatch_leaks_energy_into_angle",
+      "residual": 8.673617379884035e-19,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Electrode drive gain mismatch creates the same 4theta harmonic family as damping"
+    },
+    {
+      "name": "fourth_mass_harmonic_projection",
+      "residual": 4.336808689942018e-17,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Squared n=2 mode shapes select the fourth circumferential density harmonic"
+    },
+    {
+      "name": "Duffing_fundamental_coefficient",
+      "residual": 0.0,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Direct carrier integration gives the 3/4 coefficient used by the slow nonlinear model"
+    },
+    {
+      "name": "tracking_detector_finite_gain",
+      "residual": 6.206335383118183e-17,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Finite closed-loop tracker obeys the error-node equation; inverse-Gfb is only a high-loop-gain limit"
+    },
+    {
+      "name": "radians_to_Hz",
+      "residual": 0.0,
+      "tolerance": 2e-15,
+      "passed": true,
+      "detail": "Frequency in Hz is phase rate in rad/s divided by 2pi, not multiplied by 2pi"
+    },
+    {
+      "name": "detector_mechanical_similarity_ambiguity",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 2e-13,
+      "passed": true,
+      "detail": "Equivalent observed dynamics do not identify G and A separately"
+    },
+    {
+      "name": "virtual_reversal_retains_earth",
+      "residual": 4.336808689942018e-18,
+      "tolerance": 2e-16,
+      "passed": true,
+      "detail": "Even mean contains damping plus projected Earth/input rate"
+    },
+    {
+      "name": "circular_ellipse_degeneracy",
+      "residual": 0.0,
+      "tolerance": 0.0,
+      "passed": true,
+      "detail": "a=|b| implies D=0: orientation/phase inversion must be rejected, not divided by epsilon silently"
+    }
+  ],
+  "passed": true,
+  "source_sha256": "24b2c8a2d329ea7ecc61eef67e45df63bb37311a010bb5fbb56b714391480d36"
+}
