@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://mems.eng.uci.edu/publications/",
+    "status": "unavailable",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://memslab.ucdavis.edu/publications/",
+    "final_url": "https://memslab.ucdavis.edu/publications/",
+    "sha256": "df995c30a0e353218b844ebefafc58295d26bea74fb16186c02a2d9560f9b5ea",
+    "matched_links": 0,
+    "status": "author_page_matched"
+  }
+]

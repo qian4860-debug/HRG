@@ -125,7 +125,7 @@ def main():
     local_count=sum(not r['id'].startswith('OW') for r in sources['sources'])
     online_count=sum(r['id'].startswith('OW') and r.get('status') not in ['duplicate_local_seed','dataset_not_paper'] for r in sources['sources'])
     summary=dict(date='2026-10-23',scope='First-level references of the pre-existing local academic seeds plus DOI-bearing academic seeds from the original 80-record online catalogue; no recursive harvesting',
-        seeds=local_count+online_count,local_seed_count=local_count,additional_online_seed_count=online_count,original_online_catalogue_records=80,
+        completed='2026-10-24',seeds=local_count+online_count,local_seed_count=local_count,additional_online_seed_count=online_count,original_online_catalogue_records=80,
         seed_details='sources.json',raw_variant_records=len(rows),
         canonical_groups=len(canonical),grouping_boundary='DOI groups deduplicated; no-DOI spelling variants may remain',
         unique_resolved_dois=len({x['doi'] for x in rows if x.get('resolved')}),
@@ -137,7 +137,7 @@ def main():
         fulltext_boundary='Downloaded/available does not mean scientific reading, equation validation, license to redistribute, or coverage of every online catalogue abstract')
     a.save(a.REPORT/'summary.json',summary)
     lines=['# 全角陀螺一级引用文献获取记录','',
-        f'日期：2026-10-23。范围为既有目录中{local_count}篇本地全角/紧密相关论文及学位论文，以及原80条网上记录中新增{online_count}项学术种子的一级引用；不递归扩展新下载论文的引用。网上题录原始级别不因取得引用元数据而升级为全文已读。', '',
+        f'获取批次始于2026-10-23，登记完成于2026-10-24。范围为既有目录中{local_count}篇本地全角/紧密相关论文及学位论文，以及原80条网上记录中新增{online_count}项学术种子的一级引用；不递归扩展新下载论文的引用。网上题录原始级别不因取得引用元数据而升级为全文已读。', '',
         f"归并后 {len(canonical)} 组题录，{summary['unique_resolved_dois']} 个已核对 DOI。没有 DOI 的异写题录仍可能重复，不能将该组数称为完全去重的独立论文数。", '',
         f"新增且通过字节/PDF检查的文章文件 {len(unique_new)} 份；另有修复种子综述1份、Bryan原始期刊卷1份。Bryan摘页包含在新增文章文件中，未重复计数。", '',
         '本地目录：`'+a.DEFAULT_LIBRARY.as_posix()+'`。原始PDF、未完成下载和缓存不上传GitHub；代码、引用关系、获取状态和哈希纳入工程Git。下载并不等于全文已读或公式已核验。', '',
@@ -158,6 +158,10 @@ def main():
         '- `fulltext_manifest.json`：实际文件字节哈希、PDF页数和最终检查。',
         '- `manual_citation_corrections.json`、`manual_download_links.json`：人工补充的依据。',
         '- `bryan_original_receipt.json`：公版原卷与摘页的对应关系。', '',
+        '- `rejected_local_matches.json`：最终审计拒绝的4条本地误匹配及原因；这些文件未被当作目标论文成功计数。', '',
+        '## 复核入口', '',
+        '`python -m unittest discover -s tools -p test_wa_acquisition.py`检查身份识别边界；`python tools/finalize_wa_acquisition.py`重新核对已保存文件及清单；`python tools/install_wa_acquisition_index.py`更新本机参考技能索引。', '',
+        '原始引文提取入口`tools/acquire_wa_citations.py extract`会重建原始记录，不应对已补充人工证据的最终清单无备份直接重跑。网络获取命令的输出必须再次执行文件审计后才计为最终结果。依赖版本见`tools/requirements-wa-acquisition.txt`。', '',
         '## 逐项清单', '', '|ID|题名|DOI/待核标识|状态|本地文件|','|---|---|---|---|---|']
     for row in canonical:
         vals=[row['id'],row['title'],row.get('doi') or '',row['acquisition'].get('status','not_attempted'),row['acquisition'].get('path','')]
@@ -167,7 +171,7 @@ def main():
         w=csv.writer(f);w.writerow(['id','title','doi','metadata_verified','status','local_path','sha256','seed_sources'])
         for row in canonical:
             w.writerow([row['id'],row['title'],row.get('doi') or '',row['doi_metadata_verified'],row['acquisition'].get('status','not_attempted'),row['acquisition'].get('path',''),row['acquisition'].get('sha256',''),';'.join(row['sources'])])
-    for name in ['README.md','summary.json','canonical_works.json','fulltext_manifest.json','works.csv','sources.json','references.json','bryan_original_receipt.json','online_seed_coverage.json']:
+    for name in ['README.md','summary.json','canonical_works.json','fulltext_manifest.json','works.csv','sources.json','references.json','bryan_original_receipt.json','online_seed_coverage.json','rejected_local_matches.json']:
         (a.DEFAULT_LIBRARY/name).write_bytes((a.REPORT/name).read_bytes())
     a.save(a.REPORT/'verification.json',dict(summary=summary,offline_tests=12,
         verified_files=len(audit_cache),page_excerpt_streams_unchanged=True,

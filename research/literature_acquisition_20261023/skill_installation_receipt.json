@@ -1,0 +1,14 @@
+{
+  "completed": "2026-10-24",
+  "skill": "C:\\Users\\11725\\.codex\\skills\\ic-reference-library",
+  "indexed": {
+    "directory": 8581,
+    "file": 46337
+  },
+  "errors": [],
+  "index_sha256": "563993eb0d62d6b4b1a20ca1a0de9d68c8829a5ea6cacf9ed5f09ef004df2446",
+  "fulltext_manifest_sha256": "c94df420b42e3cd136488a1cd6ef1a305e46fdee1e79d101fbeb1ac0e2f938a9",
+  "boundary": "Local metadata and bounded acquisition index; original source PDFs unchanged",
+  "skill_commit": "66e1c54",
+  "skill_tag": "wa-cited-papers-20261024"
+}

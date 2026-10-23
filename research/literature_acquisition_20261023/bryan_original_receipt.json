@@ -1,0 +1,50 @@
+{
+  "status": "downloaded_verified",
+  "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/Bryan_1890_On_the_beats_original_pages_101-111.pdf",
+  "sha256": "17ba35b0f9f2562b59da984c014e5b792e8e596bcedb500da1409549f6b1d188",
+  "bytes": 610532,
+  "pages": 11,
+  "title": "On the beats in the vibrations of a revolving cylinder or bell",
+  "author": "G. H. Bryan",
+  "year": 1890,
+  "identity": "Original article title/author and printed page range checked in archive-verified volume",
+  "date": "2026-10-23",
+  "url": "https://ia600502.us.archive.org/31/items/proceedingscambr07camb/proceedingscambr07camb.pdf",
+  "derived_excerpt": true,
+  "original_container": {
+    "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/original_containers/Bryan_1890_Cambridge_Proceedings_Vol7_complete.pdf",
+    "url": "https://ia600502.us.archive.org/31/items/proceedingscambr07camb/proceedingscambr07camb.pdf",
+    "sha256": "e5c5a296eacd7509e73902fb3a935dca4dd6c633fb0590a3d7f0ff99c8b40139",
+    "bytes": 25555176,
+    "pages": 450,
+    "title_hit_pdf_pages": [
+      13,
+      175,
+      176,
+      182,
+      184
+    ],
+    "archive_md5_verified": true,
+    "status": "downloaded_verified_container",
+    "article_pdf_pages": [
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
+    ],
+    "article_printed_pages": "101-111",
+    "article_title": "On the beats in the vibrations of a revolving cylinder or bell",
+    "article_author": "G. H. Bryan",
+    "article_year": 1890,
+    "verification": "Archive byte-size and MD5 match; PDF parse; first-page rendered and checked; final article page checked; final physical page also starts the next article"
+  },
+  "page_content_streams_unchanged": true,
+  "notes": "Original printed page 111 also contains the beginning of the following article; complete page retained"
+}

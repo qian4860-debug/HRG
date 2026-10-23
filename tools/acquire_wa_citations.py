@@ -451,6 +451,9 @@ def download(args):
             wanted=row.get('resolved',{}).get('title') or row['title']
             match=next((x for x in local if title_score(wanted,x['head'][:10000])>=.96),None)
         if match:
+            try:pdf_check(Path(match['path']).read_bytes(),row)
+            except Exception:match=None  # A DOI in a reference list is not the paper's identity.
+        if match:
             row['acquisition']=dict(status='existing_local',path=match['path'],sha256=match['sha256'],source_id=match['source_id']);continue
         if row.get('doi') in downloaded_by_doi:
             row['acquisition']=dict(downloaded_by_doi[row['doi']],status='duplicate_of_download');continue
