@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "status": "research assumptions and synthetic-fixture exploration, not measured head calibration",
+  "enabled": false,
+  "senseInverse": [[1, 0], [0, 1]],
+  "driveInverse": [[1, 0], [0, 1]],
+  "cubicCoefficient": [0, 0],
+  "maximumCalibratedAmplitude": 1.5,
+  "correlatedThermalNoise": true,
+  "extraWarmupControlFrames": 1,
+  "calibrationSource": "none; identity defaults; replace only from independently referenced fixture data"
+}
