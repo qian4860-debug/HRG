@@ -1,0 +1,8 @@
+*.m text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+profile.json text eol=lf
+evidence/*.json -text
+evidence/*.csv -text
+*.png binary
+*.slx binary

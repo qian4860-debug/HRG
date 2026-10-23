@@ -1,0 +1,18 @@
+{
+  "source": "CV only; identical scenario and seed, source-on minus source-off",
+  "recordS": 0.2,
+  "windowStartS": 0.1,
+  "rateIncrementStdRadS": 0.0055199513488917726,
+  "psd": {
+    "sampleRateHz": 999.99999999999909,
+    "samples": 64,
+    "binSpacingHz": 15.624999999999986,
+    "windowDurationS": 0.064000000000000057,
+    "meanRemoved": true,
+    "trendRemoved": false,
+    "noiseIsolated": true,
+    "method": "one-sided periodic Hann"
+  },
+  "pass": true,
+  "limitation": "short paired response includes nonlinear interaction/quantizer changes; not intrinsic noise, ARW or bias instability"
+}
