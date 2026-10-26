@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "source_sha256": "e6c842d4299465dbe065b78fbdc0eb867264be92f9ee9ea79db206b7d1452e90",
+  "source_records": 365,
+  "missing_titles": 27,
+  "new_items": 336,
+  "reused_existing_items": 29,
+  "duplicate_source_rows": 0,
+  "reasons": {
+    "title_year_or_url": 24,
+    "doi": 5,
+    "new": 309,
+    "new_incomplete_title": 27
+  },
+  "collection": "JSON导入_2026-10-26_18-24-36",
+  "status": "verified",
+  "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input",
+  "created_items": 336,
+  "existing_memberships_extended": 29,
+  "unique_target_items": 365,
+  "all_source_rows_resolved": true,
+  "existing_metadata_preserved": true,
+  "source_bytes_preserved": true,
+  "total_library_items": 1141
+}
