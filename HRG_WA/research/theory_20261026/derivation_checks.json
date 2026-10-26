@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-26",
+  "checks": [
+    {
+      "name": "capacitor_gradient_vs_finite_difference",
+      "error": 1.0413225837169193e-10,
+      "limit": 1e-08,
+      "pass_": true
+    },
+    {
+      "name": "gain_angle_first_order_remainder",
+      "error": 1.6236889324482476e-09,
+      "limit": 2e-09,
+      "pass_": true
+    },
+    {
+      "name": "gain_exact_angle_jacobian",
+      "error": 3.878272147872508e-10,
+      "limit": 1e-09,
+      "pass_": true
+    },
+    {
+      "name": "corrected_energy_recovers_damping",
+      "error": 8.69863834312028e-20,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "state_scaling_input_output_indistinguishability",
+      "error": 1.3877787807814457e-17,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "voltage_squared_vector_fit_recovers_structure_and_electrode",
+      "error": 2.1640062186634168e-08,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "differential_phase_static_angle_is_second_order",
+      "error": 1.5936475544993698e-14,
+      "limit": 2e-13,
+      "pass_": true
+    },
+    {
+      "name": "differential_phase_false_quadrature",
+      "error": 2.168404344971009e-19,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "cubic_sensing_physical_eight_theta_error",
+      "error": 8.856396789980875e-13,
+      "limit": 2e-12,
+      "pass_": true
+    },
+    {
+      "name": "amplitude_tradeoff_stationary_point_vs_grid",
+      "error": 7.593074896150576e-05,
+      "limit": 0.00036,
+      "pass_": true
+    },
+    {
+      "name": "ADC_two_white_noise_forms_agree",
+      "error": 0.0,
+      "limit": 1e-18,
+      "pass_": true
+    },
+    {
+      "name": "energy_PI_target_natural_frequency",
+      "error": 8.881784197001252e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "FTR_amplitude_equilibrium_rederived",
+      "error": 0.0,
+      "limit": 1e-14,
+      "pass_": true
+    }
+  ],
+  "examples": {
+    "electrode": {
+      "gradient_F_per_m": 2.1256244021681368e-07,
+      "force_N": 1.0628122010840684e-05
+    },
+    "gain": {
+      "ratio_error": 0.0001,
+      "peak_inertial_angle_error_rad": 9.024818524104038e-05,
+      "first_order_peak_rad": 9.025270758122743e-05,
+      "residual_gain_for_1urad": 1.108e-06
+    },
+    "false_damping": {
+      "true_anisotropic_coefficient_per_s": 0.000125,
+      "uncalibrated_fitted_sine_per_s": 0.007696815168993901,
+      "first_order_false_sine_per_s": 0.007735299244838871,
+      "ratio_to_true_anisotropy": 61.57452135195121
+    },
+    "bias_sweep": {
+      "voltage_V": [
+        5.0,
+        7.0,
+        9.0,
+        11.0
+      ],
+      "recovered_intercept_per_s2": [
+        800.0000000216401,
+        -600.0000000174748
+      ],
+      "recovered_slope_per_s2_V2": [
+        -11.000000000384233,
+        8.00000000026546
+      ],
+      "boundary": "Synthetic fixed-shape mass-normalized model; not a unique reconstruction of mass distribution"
+    },
+    "double_counted_spring": {
+      "reference_voltage_V": 10,
+      "correct_frequencies_Hz": [
+        5000,
+        5000
+      ],
+      "wrong_frequencies_Hz": [
+        4999.994933938251,
+        4999.996960363567
+      ],
+      "false_split_Hz": 0.0020264253162167734
+    },
+    "phase_budget": {
+      "split_Hz": 0.002,
+      "residual_phase_deg": 1,
+      "worst_rate_bias_deg_h": 40.82936300694317,
+      "phase_allowance_for_point1deg_h_rad": 4.274691358024692e-05,
+      "equivalent_residual_delay_s": 1.3606765196436734e-09,
+      "boundary": "Quadrature force estimated from stiffness split; maximum spatial factor, small phase; equivalent residual loop delay, not raw ADC jitter"
+    },
+    "amplitude_tradeoff": {
+      "assumed_noise_at_rho_point02_rad": 1e-05,
+      "assumed_fractional_cubic_calibration_error": 0.01,
+      "optimum_rho": 0.03895048138502077,
+      "optimum_amplitude_m": 1.9475240692510385e-07,
+      "combined_objective_RMS_rad": 6.288727778664069e-06,
+      "boundary": "Illustrative unconstrained spatial-RMS objective; not actual-head optimum or actual AFE performance"
+    },
+    "ADC": {
+      "white_18bit_angle_RMS_rad": 4.242765438172859e-06,
+      "ADC_only_ideal_lower_bound_bits": 21,
+      "total_voltage_noise_allowance_V_sqrtHz": 7.341172450010561e-09
+    },
+    "energy_PI": {
+      "kp": 4.0212385965949355,
+      "ki": 12.633093633394378,
+      "poles_real": [
+        -4.0212385965949355,
+        -4.0212385965949355
+      ],
+      "poles_imag": [
+        3.0159289474462003,
+        -3.0159289474462003
+      ]
+    },
+    "source_equilibrium_counterexample": {
+      "a": 2.0,
+      "omega": 10.0,
+      "decay": 0.01,
+      "correct_A": 0.4,
+      "printed_A_if_same_definition": 0.8,
+      "nonzero_adot_if_printed_used": 0.02,
+      "boundary": "Only the displayed amplitude-channel equations under the same definitions; not the authors implementation"
+    }
+  },
+  "preserved": {
+    "literature_v7": 217,
+    "literature_v8_research": 84,
+    "literature_zotero_research": 28
+  },
+  "pass_": true,
+  "boundary": "Independent equation tests and synthetic examples; no new RF, Simulink, hardware or long-term noise validation"
+}

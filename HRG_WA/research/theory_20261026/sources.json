@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-26",
+  "scope": "Selected relevant sources from the imported bibliography; not scientific review of all 365 records",
+  "sources": [
+    {
+      "id": "C2025",
+      "title": "Identification and Compensation of Detection Gain Asymmetry Errors for Hemispherical Resonant Gyroscopes in Whole-Angle Mode",
+      "doi": "10.3390/act14060275",
+      "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0023_Identification and Compensation of Detection Gain Asymmetry Errors for Hemispherical Resonant Gyroscopes in Wh.pdf",
+      "sha256": "7a365ea304f57683068c24c81e268ad68d8368f5d4454e6cced10123777f2c76",
+      "pdf_pages_reviewed": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "visually_reviewed_pages": [
+        6,
+        11
+      ],
+      "level": "selected_full_text_sections",
+      "source_state": "Previously acquired PDF, newly reviewed sections this turn",
+      "url": "https://www.mdpi.com/2076-0825/14/6/275"
+    },
+    {
+      "id": "D2025",
+      "title": "Separation, Identification, and Compensation of Damping, Detection, and Actuation Errors for Rate-Integrating Hemispherical Resonator Gyroscopes",
+      "doi": "10.1109/TIM.2025.3555670",
+      "level": "publisher_abstract_only",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10964523/",
+      "boundary": "No full text; no original equation or experiment replication claimed"
+    },
+    {
+      "id": "D2024",
+      "title": "Separation of mass and gap errors of hemispherical resonator gyroscopes by varying bias voltage",
+      "doi": "10.1016/j.measurement.2024.114308",
+      "level": "publisher_abstract_and_highlights_only",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263224124001921",
+      "boundary": "Vector regression derived independently from C(q), not asserted to be the exact paper formula"
+    },
+    {
+      "id": "W2024",
+      "title": "High-precision identification and compensation of nonlinear error in hemispherical resonator gyro",
+      "doi": "10.1016/j.measurement.2024.114945",
+      "level": "publisher_abstract_and_section_previews_only",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0263224124008303",
+      "boundary": "No access to full derivation or optimizer"
+    }
+  ]
+}
