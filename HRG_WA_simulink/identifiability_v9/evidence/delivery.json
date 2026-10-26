@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-26",
+  "models": [
+    {
+      "name": "hrg_wa_v9_identification",
+      "reopenedCompiled": true,
+      "scopes": 3
+    },
+    {
+      "name": "hrg_wa_v9_bias_reference",
+      "reopenedCompiled": true,
+      "scopes": 2
+    },
+    {
+      "name": "hrg_wa_v9_frozen_calibration",
+      "reopenedCompiled": true,
+      "scopes": 21
+    }
+  ],
+  "MATLAB": {
+    "Name": "MATLAB",
+    "Version": "25.1",
+    "Release": "(R2025a)",
+    "Date": "21-Nov-2024"
+  },
+  "Simulink": {
+    "Name": "Simulink",
+    "Version": "25.1",
+    "Release": "(R2025a)",
+    "Date": "21-Nov-2024"
+  },
+  "DSP": {
+    "Name": "DSP System Toolbox",
+    "Version": "25.1",
+    "Release": "(R2025a)",
+    "Date": "21-Nov-2024"
+  },
+  "platform": "PCWIN64",
+  "pass": true
+}

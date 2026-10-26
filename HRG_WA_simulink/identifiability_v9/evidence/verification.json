@@ -1,0 +1,536 @@
+{
+  "date": "2026-10-26",
+  "checks": [
+    {
+      "name": "fixture_matrix_recomputed",
+      "error": 4.440892098500626e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_0_closed_form_state",
+      "error": 1.2073271202228675e-11,
+      "limit": 1e-07,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_0_passive_energy_never_increases",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_0_independent_estimator",
+      "error": 3.258027528318941e-17,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_0_physical_damping",
+      "error": 0.0004338133296260478,
+      "limit": 0.01,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_0_uncalibrated_error_is_detected",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_1_closed_form_state",
+      "error": 7.535782978532191e-13,
+      "limit": 1e-07,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_1_passive_energy_never_increases",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_1_independent_estimator",
+      "error": 6.980906738091042e-17,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_1_physical_damping",
+      "error": 0.00040082678590272974,
+      "limit": 0.01,
+      "pass_": true
+    },
+    {
+      "name": "envelope_-40_1_uncalibrated_error_is_detected",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_0_closed_form_state",
+      "error": 3.712096185992664e-10,
+      "limit": 1e-07,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_0_passive_energy_never_increases",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_0_independent_estimator",
+      "error": 6.388661301370835e-17,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_0_physical_damping",
+      "error": 0.0007840832697723941,
+      "limit": 0.01,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_0_uncalibrated_error_is_detected",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_1_closed_form_state",
+      "error": 2.3194826268002622e-11,
+      "limit": 1e-07,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_1_passive_energy_never_increases",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_1_independent_estimator",
+      "error": 9.601965490074749e-17,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_1_physical_damping",
+      "error": 0.0007290777427145632,
+      "limit": 0.01,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+80_1_uncalibrated_error_is_detected",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_0_closed_form_state",
+      "error": 1.2340909273655942e-08,
+      "limit": 1e-07,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_0_passive_energy_never_increases",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_0_independent_estimator",
+      "error": 1.332891045799367e-16,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_0_physical_damping",
+      "error": 0.0013595374281728568,
+      "limit": 0.01,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_0_uncalibrated_error_is_detected",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_1_closed_form_state",
+      "error": 7.711446637498343e-10,
+      "limit": 1e-07,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_1_passive_energy_never_increases",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_1_independent_estimator",
+      "error": 1.8596777763557615e-16,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_1_physical_damping",
+      "error": 0.0013487866794542533,
+      "limit": 0.01,
+      "pass_": true
+    },
+    {
+      "name": "envelope_+160_1_uncalibrated_error_is_detected",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "envelope_rate_-40_step_halving",
+      "error": 0.06241707696536393,
+      "limit": 0.2,
+      "pass_": true
+    },
+    {
+      "name": "envelope_rate_80_step_halving",
+      "error": 0.06248444303659663,
+      "limit": 0.2,
+      "pass_": true
+    },
+    {
+      "name": "envelope_rate_160_step_halving",
+      "error": 0.06248685948903228,
+      "limit": 0.2,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V10_0_RK4_prediction",
+      "error": 2.794653397586444e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V10_0_crossing_frequency_recomputed",
+      "error": 9.094947017729282e-13,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V10_0_frequency_split",
+      "error": 0.0,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V10_1_RK4_prediction",
+      "error": 1.6822765402935147e-11,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V10_1_crossing_frequency_recomputed",
+      "error": 2.7284841053187847e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V10_1_frequency_split",
+      "error": 0.0,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V10_0_RK4_prediction",
+      "error": 2.76667577736589e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V10_0_crossing_frequency_recomputed",
+      "error": 1.8189894035458565e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V10_0_frequency_split",
+      "error": 0.0,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V10_1_RK4_prediction",
+      "error": 1.6829759807990285e-11,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V10_1_crossing_frequency_recomputed",
+      "error": 2.7284841053187847e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V10_1_frequency_split",
+      "error": 0.0,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V10_0_RK4_prediction",
+      "error": 7.24920123928996e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V10_0_crossing_frequency_recomputed",
+      "error": 1.8189894035458565e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V10_0_frequency_split",
+      "error": 1.5623118088115007e-07,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V10_1_RK4_prediction",
+      "error": 1.3643641771921011e-11,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V10_1_crossing_frequency_recomputed",
+      "error": 1.8189894035458565e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V10_1_frequency_split",
+      "error": 2.4259861675091088e-08,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V12_0_RK4_prediction",
+      "error": 9.253597887948217e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V12_0_crossing_frequency_recomputed",
+      "error": 9.094947017729282e-13,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V12_0_frequency_split",
+      "error": 1.5088335203472525e-07,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V12_1_RK4_prediction",
+      "error": 8.43902725478074e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V12_1_crossing_frequency_recomputed",
+      "error": 9.094947017729282e-13,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_bare_V12_1_frequency_split",
+      "error": 2.2075255401432514e-08,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V12_0_RK4_prediction",
+      "error": 9.238609877115778e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V12_0_crossing_frequency_recomputed",
+      "error": 9.094947017729282e-13,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V12_0_frequency_split",
+      "error": 1.5088335203472525e-07,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V12_1_RK4_prediction",
+      "error": 8.448020061280204e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V12_1_crossing_frequency_recomputed",
+      "error": 9.094947017729282e-13,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_reference_V12_1_frequency_split",
+      "error": 2.2075255401432514e-08,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V12_0_RK4_prediction",
+      "error": 4.1707748366093256e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V12_0_crossing_frequency_recomputed",
+      "error": 1.8189894035458565e-12,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V12_0_frequency_split",
+      "error": 4.434878064785153e-08,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V12_1_RK4_prediction",
+      "error": 1.7218448888911553e-11,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V12_1_crossing_frequency_recomputed",
+      "error": 9.094947017729282e-13,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_double_count_V12_1_frequency_split",
+      "error": 8.85784174897708e-08,
+      "limit": 1e-05,
+      "pass_": true
+    },
+    {
+      "name": "bias_V10_h1.25e-06_equivalent_representation",
+      "error": 7.499556531342932e-14,
+      "limit": 1e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_V10_h6.25e-07_equivalent_representation",
+      "error": 4.7004067305067565e-14,
+      "limit": 1e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_V10_bare_physical_convergence",
+      "error": 0.06252606886658266,
+      "limit": 0.12,
+      "pass_": true
+    },
+    {
+      "name": "bias_V10_reference_physical_convergence",
+      "error": 0.0625260692881186,
+      "limit": 0.12,
+      "pass_": true
+    },
+    {
+      "name": "bias_V10_double_count_physical_convergence",
+      "error": 0.06253261131954721,
+      "limit": 0.12,
+      "pass_": true
+    },
+    {
+      "name": "bias_V12_h1.25e-06_equivalent_representation",
+      "error": 7.299716386910404e-14,
+      "limit": 1e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_V12_h6.25e-07_equivalent_representation",
+      "error": 6.166985325184449e-14,
+      "limit": 1e-08,
+      "pass_": true
+    },
+    {
+      "name": "bias_V12_bare_physical_convergence",
+      "error": 0.06252894798919548,
+      "limit": 0.12,
+      "pass_": true
+    },
+    {
+      "name": "bias_V12_reference_physical_convergence",
+      "error": 0.06252894856545674,
+      "limit": 0.12,
+      "pass_": true
+    },
+    {
+      "name": "bias_V12_double_count_physical_convergence",
+      "error": 0.06253548877703757,
+      "limit": 0.12,
+      "pass_": true
+    },
+    {
+      "name": "double_count_mutant_detected",
+      "error": 0.0,
+      "limit": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "RF_0_angle_CSV_recompute",
+      "error": 6.661338147750939e-15,
+      "limit": 1e-09,
+      "pass_": true
+    },
+    {
+      "name": "RF_1_angle_CSV_recompute",
+      "error": 6.735497576348948e-15,
+      "limit": 1e-09,
+      "pass_": true
+    },
+    {
+      "name": "RF_fixture_axis0_inverse",
+      "error": 4.514027931988507e-16,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "RF_fixture_axis0_cubic",
+      "error": 1.2766480581016815e-16,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "RF_fixture_axis1_inverse",
+      "error": 6.687873706118687e-16,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "RF_fixture_axis1_cubic",
+      "error": 1.0997604736606714e-15,
+      "limit": 1e-11,
+      "pass_": true
+    }
+  ],
+  "pass_": true,
+  "false_split_hz": 0.002026401053626614,
+  "rf_improvement_ratio": 0.003162689213533041,
+  "preserved": {
+    "literature_v7": 217,
+    "literature_v8_research": 84,
+    "literature_zotero_research": 28
+  },
+  "evidence_level": "Independent model and numerical consistency; no physical metrology or outside certification"
+}

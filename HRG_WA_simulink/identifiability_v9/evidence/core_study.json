@@ -1,0 +1,447 @@
+{
+  "date": "2026-10-26",
+  "profile": {
+    "schemaVersion": 1,
+    "status": "synthetic research fixtures; no measured head or certified instrument data",
+    "bryan": 0.277,
+    "f0_hz": 5000,
+    "quality_factor": 2.0E+6,
+    "damping_anisotropy_per_s": 0.00025,
+    "damping_axis_rad": 0.17,
+    "sense_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1.01
+      ]
+    ],
+    "fixture_adc_step": 9.5367431640625E-7,
+    "envelope_step_s": 0.01,
+    "envelope_duration_s": 20,
+    "holdout_rates_deg_s": [
+      -40,
+      80,
+      160
+    ],
+    "reference_bias_v": 10,
+    "bias_holdout_v": 12,
+    "electrostatic_P_per_s2_v2": [
+      [
+        20,
+        0
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "carrier_reference_step_s": 1.25E-6,
+    "carrier_duration_s": 0.2,
+    "rf_closed_loop_duration_s": 1,
+    "acceptance": {
+      "fixture_gain_relative_error": 2E-5,
+      "envelope_damping_relative_error": 0.01,
+      "envelope_angle_improvement_ratio": 0.05,
+      "rf_angle_improvement_ratio": 0.2,
+      "bias_representation_state_difference": 1E-8,
+      "bias_frequency_split_error_hz": 1E-5,
+      "bias_mutant_minimum_false_split_hz": 0.001,
+      "oracle_envelope_state_error": 1E-7
+    }
+  },
+  "checks": [
+    {
+      "name": "independent_fixture_matrix_fit",
+      "error": 5.0636854648343891E-8,
+      "limit": 2E-5,
+      "pass": true
+    },
+    {
+      "name": "directionally_unexcited_fixture_rejected",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "fixed_angle_damping_fit_rejected",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "name": "envelope_-40_0_damping",
+      "error": 0.00043381332967519883,
+      "limit": 0.01,
+      "pass": true
+    },
+    {
+      "name": "envelope_-40_0_angle",
+      "error": 0.00013327965420763577,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "envelope_-40_1_damping",
+      "error": 0.00040082678521710375,
+      "limit": 0.01,
+      "pass": true
+    },
+    {
+      "name": "envelope_-40_1_angle",
+      "error": 0.00013073848073700452,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "envelope_+80_0_damping",
+      "error": 0.00078408326917907311,
+      "limit": 0.01,
+      "pass": true
+    },
+    {
+      "name": "envelope_+80_0_angle",
+      "error": 0.00012042130478753244,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "envelope_+80_1_damping",
+      "error": 0.00072907774200250692,
+      "limit": 0.01,
+      "pass": true
+    },
+    {
+      "name": "envelope_+80_1_angle",
+      "error": 0.00011981963662071267,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "envelope_+160_0_damping",
+      "error": 0.0013595374275060768,
+      "limit": 0.01,
+      "pass": true
+    },
+    {
+      "name": "envelope_+160_0_angle",
+      "error": 0.00012017941078159779,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "envelope_+160_1_damping",
+      "error": 0.0013487866774938529,
+      "limit": 0.01,
+      "pass": true
+    },
+    {
+      "name": "envelope_+160_1_angle",
+      "error": 0.00012110101502506257,
+      "limit": 0.05,
+      "pass": true
+    },
+    {
+      "name": "frozen_calibration_drift_is_detectable",
+      "error": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "detectionFit": {
+    "matrix": [
+      [
+        1.000000030862926,
+        2.0694799053143654E-8
+      ],
+      [
+        2.7425500282107221E-8,
+        1.0099999792361354
+      ]
+    ],
+    "inverse": [
+      [
+        0.99999996913707556,
+        -2.0489899841476379E-8
+      ],
+      [
+        -2.7153960395541821E-8,
+        0.99009903025572565
+      ]
+    ],
+    "condition": 1.0340815196669135,
+    "relativeResidual": 5.38629344854277E-7
+  },
+  "trueDampingCoefficients": [
+    0.0078539816339744835,
+    9.7196589843865993E-5,
+    7.8599128002308579E-5
+  ],
+  "envelopeCases": [
+    {
+      "name": "envelope_-40_0",
+      "rateDegS": -40,
+      "stepS": 0.01,
+      "raw": {
+        "gamma": 0.0078539772727660249,
+        "dc": 9.7215732200133434E-5,
+        "ds": -0.0037699372009017133,
+        "condition": 2.5801347620956543,
+        "residualRms": 2.9483452318129935E-7,
+        "samples": 2001
+      },
+      "corrected": {
+        "gamma": 0.0078539770662705809,
+        "dc": 9.7234459570052245E-5,
+        "ds": 7.8560585152805435E-5,
+        "condition": 2.5419577301679595,
+        "residualRms": 2.9497509133185755E-7,
+        "samples": 2001
+      },
+      "angleRmsRawRad": 0.0020157157278286454,
+      "angleRmsCorrectedRad": 2.6865389518589473E-7
+    },
+    {
+      "name": "envelope_-40_1",
+      "rateDegS": -40,
+      "stepS": 0.005,
+      "raw": {
+        "gamma": 0.0078539776018391079,
+        "dc": 9.7208165081580467E-5,
+        "ds": -0.0037699239094307418,
+        "condition": 2.5795616463689495,
+        "residualRms": 2.9393697766381971E-7,
+        "samples": 4001
+      },
+      "corrected": {
+        "gamma": 0.0078539774315420311,
+        "dc": 9.72268757760302E-5,
+        "ds": 7.85594360967045E-5,
+        "condition": 2.5413910727040512,
+        "residualRms": 2.9401176878349153E-7,
+        "samples": 4001
+      },
+      "angleRmsRawRad": 0.0020158327719354244,
+      "angleRmsCorrectedRad": 2.6354691402270189E-7
+    },
+    {
+      "name": "envelope_+80_0",
+      "rateDegS": 80,
+      "stepS": 0.01,
+      "raw": {
+        "gamma": 0.0078539785510994067,
+        "dc": 9.7156186620313E-5,
+        "ds": 0.0077757807150806409,
+        "condition": 2.616631652510458,
+        "residualRms": 2.9515258105692669E-7,
+        "samples": 2001
+      },
+      "corrected": {
+        "gamma": 0.007853978755185332,
+        "dc": 9.7118628290659341E-5,
+        "ds": 7.8658455474847486E-5,
+        "condition": 2.6683164937012376,
+        "residualRms": 2.9533287479986923E-7,
+        "samples": 2001
+      },
+      "angleRmsRawRad": 0.0022034795385679614,
+      "angleRmsCorrectedRad": 2.6534588110698383E-7
+    },
+    {
+      "name": "envelope_+80_1",
+      "rateDegS": 80,
+      "stepS": 0.005,
+      "raw": {
+        "gamma": 0.0078539782009323777,
+        "dc": 9.7159138904497587E-5,
+        "ds": 0.0077756573711948449,
+        "condition": 2.6170620673862346,
+        "residualRms": 2.9528963242090717E-7,
+        "samples": 4001
+      },
+      "corrected": {
+        "gamma": 0.0078539783098831844,
+        "dc": 9.7121322461520153E-5,
+        "ds": 7.8650404784103752E-5,
+        "condition": 2.6687879734658204,
+        "residualRms": 2.9548570611338663E-7,
+        "samples": 4001
+      },
+      "angleRmsRawRad": 0.0022037383113836305,
+      "angleRmsCorrectedRad": 2.6405112367712956E-7
+    },
+    {
+      "name": "envelope_+160_0",
+      "rateDegS": 160,
+      "stepS": 0.01,
+      "raw": {
+        "gamma": 0.0078539780638606036,
+        "dc": 9.7182639135708258E-5,
+        "ds": 0.015473906805462623,
+        "condition": 2.4935271508471724,
+        "residualRms": 2.9455168043621742E-7,
+        "samples": 2001
+      },
+      "corrected": {
+        "gamma": 0.0078539780913573515,
+        "dc": 9.7107950448482522E-5,
+        "ds": 7.8744079206036766E-5,
+        "condition": 2.6103342202632644,
+        "residualRms": 2.946703321205048E-7,
+        "samples": 2001
+      },
+      "angleRmsRawRad": 0.0022020841358934549,
+      "angleRmsCorrectedRad": 2.6464517394317933E-7
+    },
+    {
+      "name": "envelope_+160_1",
+      "rateDegS": 160,
+      "stepS": 0.005,
+      "raw": {
+        "gamma": 0.0078539779636388526,
+        "dc": 9.71723909130118E-5,
+        "ds": 0.015472974939369291,
+        "condition": 2.4936600378889526,
+        "residualRms": 2.9732837843894721E-7,
+        "samples": 4001
+      },
+      "corrected": {
+        "gamma": 0.007853978071076597,
+        "dc": 9.7096702029235966E-5,
+        "ds": 7.8734904026356374E-5,
+        "condition": 2.6105406086781944,
+        "residualRms": 2.9751892794873689E-7,
+        "samples": 4001
+      },
+      "angleRmsRawRad": 0.0022023193398975813,
+      "angleRmsCorrectedRad": 2.6670310747092286E-7
+    }
+  ],
+  "biasCases": [
+    {
+      "name": "bias_bare_V10_0",
+      "voltageV": 10,
+      "mode": "bare",
+      "stepS": 1.25E-6,
+      "frequencyHz": [
+        4999.9999009395387,
+        4999.9999009395378
+      ]
+    },
+    {
+      "name": "bias_bare_V10_1",
+      "voltageV": 10,
+      "mode": "bare",
+      "stepS": 6.25E-7,
+      "frequencyHz": [
+        4999.9999938071951,
+        4999.9999938071951
+      ]
+    },
+    {
+      "name": "bias_reference_V10_0",
+      "voltageV": 10,
+      "mode": "reference",
+      "stepS": 1.25E-6,
+      "frequencyHz": [
+        4999.9999009395369,
+        4999.9999009395369
+      ]
+    },
+    {
+      "name": "bias_reference_V10_1",
+      "voltageV": 10,
+      "mode": "reference",
+      "stepS": 6.25E-7,
+      "frequencyHz": [
+        4999.9999938071951,
+        4999.9999938071951
+      ]
+    },
+    {
+      "name": "bias_double_count_V10_0",
+      "voltageV": 10,
+      "mode": "double_count",
+      "stepS": 1.25E-6,
+      "frequencyHz": [
+        4999.994834168614,
+        4999.9968607501623
+      ]
+    },
+    {
+      "name": "bias_double_count_V10_1",
+      "voltageV": 10,
+      "mode": "double_count",
+      "stepS": 6.25E-7,
+      "frequencyHz": [
+        4999.9949276754305,
+        4999.9969540764841
+      ]
+    },
+    {
+      "name": "bias_bare_V12_0",
+      "voltageV": 12,
+      "mode": "bare",
+      "stepS": 1.25E-6,
+      "frequencyHz": [
+        4999.9976714276991,
+        4999.9985632053176
+      ]
+    },
+    {
+      "name": "bias_bare_V12_1",
+      "voltageV": 12,
+      "mode": "bare",
+      "stepS": 6.25E-7,
+      "frequencyHz": [
+        4999.9977646537627,
+        4999.9986563025723
+      ]
+    },
+    {
+      "name": "bias_reference_V12_0",
+      "voltageV": 12,
+      "mode": "reference",
+      "stepS": 1.25E-6,
+      "frequencyHz": [
+        4999.9976714276991,
+        4999.9985632053176
+      ]
+    },
+    {
+      "name": "bias_reference_V12_1",
+      "voltageV": 12,
+      "mode": "reference",
+      "stepS": 6.25E-7,
+      "frequencyHz": [
+        4999.9977646537627,
+        4999.9986563025723
+      ]
+    },
+    {
+      "name": "bias_double_count_V12_0",
+      "voltageV": 12,
+      "mode": "double_count",
+      "stepS": 1.25E-6,
+      "frequencyHz": [
+        4999.9926050914337,
+        4999.99552318928
+      ]
+    },
+    {
+      "name": "bias_double_count_V12_1",
+      "voltageV": 12,
+      "mode": "double_count",
+      "stepS": 6.25E-7,
+      "frequencyHz": [
+        4999.992698681056,
+        4999.9956166459715
+      ]
+    }
+  ],
+  "frozenDriftResidual": 0.00099997430673770711,
+  "scope": "Envelope identification and native carrier mechanics; RF control assessed separately"
+}
