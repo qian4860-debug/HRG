@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-26",
+  "sha256": {
+    "research/theory_20261026/check_derivations.py": "fc4f20cacc09f6fdfaa2d2dc612ed8ac81c80af4130285f034254172c32b09a2",
+    "research/theory_20261026/derivation_academic_and_intuitive.md": "cfad2562a16001d2ad9b78a6fbbceaf40ca99ebdb306f488f5d1badf2993f761",
+    "research/theory_20261026/derivation_checks.json": "4de85a83bf3591094676f8c8bc855bae7dc96271096fd4add862a28fbe43a57f",
+    "research/theory_20261026/README.md": "a78c50917ab45336260b42e95b3c91de26e4a2f769352b1e5cdc22cef50cecf9",
+    "research/theory_20261026/sources.json": "7edbb6a100c53b53fef3b6dbe681d7c49fded822ed173c0a9afc5dcab0e0a7e3"
+  }
+}
