@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-26",
+  "all_source_rows": 365,
+  "unique_resolved_items": 365,
+  "replay_would_create": 0,
+  "source_sha256": "e6c842d4299465dbe065b78fbdc0eb867264be92f9ee9ea79db206b7d1452e90",
+  "pass_": true,
+  "boundary": "Independent reconciliation against the completed API inventory; no further Zotero writes"
+}
