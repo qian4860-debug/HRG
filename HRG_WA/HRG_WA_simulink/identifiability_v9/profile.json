@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "status": "synthetic research fixtures; no measured head or certified instrument data",
+  "bryan": 0.277,
+  "f0_hz": 5000,
+  "quality_factor": 2000000,
+  "damping_anisotropy_per_s": 0.00025,
+  "damping_axis_rad": 0.17,
+  "sense_matrix": [[1, 0], [0, 1.01]],
+  "fixture_adc_step": 0.00000095367431640625,
+  "envelope_step_s": 0.01,
+  "envelope_duration_s": 20,
+  "holdout_rates_deg_s": [-40, 80, 160],
+  "reference_bias_v": 10,
+  "bias_holdout_v": 12,
+  "electrostatic_P_per_s2_v2": [[20, 0], [0, 12]],
+  "carrier_reference_step_s": 0.00000125,
+  "carrier_duration_s": 0.2,
+  "rf_closed_loop_duration_s": 1,
+  "acceptance": {
+    "fixture_gain_relative_error": 0.00002,
+    "envelope_damping_relative_error": 0.01,
+    "envelope_angle_improvement_ratio": 0.05,
+    "rf_angle_improvement_ratio": 0.2,
+    "bias_representation_state_difference": 0.00000001,
+    "bias_frequency_split_error_hz": 0.00001,
+    "bias_mutant_minimum_false_split_hz": 0.001,
+    "oracle_envelope_state_error": 0.0000001
+  }
+}
