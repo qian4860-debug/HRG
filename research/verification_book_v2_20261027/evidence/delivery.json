@@ -1,0 +1,524 @@
+{
+  "date": "2026-10-27",
+  "pass_": true,
+  "scope": "Delivery structure, source identities and actual worksheet receipts; no full RF/RTL rerun",
+  "python_checks": 145,
+  "matlab_checks": 12,
+  "numerical_checkpoints": 116,
+  "shared_checkpoints": 53,
+  "steps": 274,
+  "checks": [
+    {
+      "name": "all_40_ordered_units",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R00_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R00_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R01_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R01_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R02_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R02_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R03_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R03_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R04_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R04_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R05_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R05_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R06_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R06_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R07_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R07_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R08_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R08_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R09_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R09_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R10_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R10_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R11_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R11_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R12_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R12_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R13_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R13_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R14_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R14_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R15_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R15_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R16_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R16_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R17_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R17_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R18_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R18_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R19_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R19_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R20_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R20_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R21_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R21_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R22_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R22_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R23_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R23_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R24_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R24_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R25_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R25_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R26_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R26_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R27_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R27_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R28_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R28_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R29_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R29_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R30_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R30_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R31_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R31_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R32_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R32_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R33_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R33_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R34_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R34_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R35_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R35_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R36_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R36_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R37_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R37_explicit_derivation_steps",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R38_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "R39_plain_explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "unique_equation_tags",
+      "pass_": true,
+      "detail": 39
+    },
+    {
+      "name": "balanced_display_math",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "balanced_code_fences",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "unique_internal_anchors",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "all_links_resolve",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "embedded_code_matches_run_reproduction.m",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "embedded_code_matches_tools/reproduce.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "embedded_code_matches_parameters.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "independent_python_pass",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "actual_MATLAB_pass",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "all_numerical_nodes_printed",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "all_46_V1_chapters_mapped",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_omitted_numeric_inputs",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "T05_source_original_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "P59_source_original_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "D153_source_original_bytes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "V1_accepted_book_bytes_preserved",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "literature_v7_sealed_bytes",
+      "pass_": true,
+      "detail": {
+        "dependencies": 217,
+        "changed": []
+      }
+    },
+    {
+      "name": "literature_v8_research_sealed_bytes",
+      "pass_": true,
+      "detail": {
+        "dependencies": 84,
+        "changed": []
+      }
+    },
+    {
+      "name": "literature_zotero_research_sealed_bytes",
+      "pass_": true,
+      "detail": {
+        "dependencies": 28,
+        "changed": []
+      }
+    },
+    {
+      "name": "identifiability_v9_sealed_bytes",
+      "pass_": true,
+      "detail": {
+        "dependencies": 80,
+        "changed": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+evidence/matlab_results.json -text whitespace=cr-at-eol
+evidence/matlab_oscillator.csv -text whitespace=cr-at-eol

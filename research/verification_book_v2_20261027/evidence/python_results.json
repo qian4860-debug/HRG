@@ -1,0 +1,1460 @@
+{
+  "date": "2026-10-27",
+  "pass_": true,
+  "check_matlab": true,
+  "statement": "New derivation/ODE worksheet only; no new full RF or RTL runs",
+  "values": {
+    "R01_omega0": {
+      "value": 31415.926535897932,
+      "unit": "rad/s",
+      "formula": "2*pi*f0"
+    },
+    "R02_gamma": {
+      "value": 0.007853981633974483,
+      "unit": "1/s",
+      "formula": "omega0/(2*Qm)"
+    },
+    "R02_stiffness": {
+      "value": 986.9604401089359,
+      "unit": "N/m",
+      "formula": "mass*omega0^2"
+    },
+    "R02_u": {
+      "value": -1.7855835998412727e-10,
+      "unit": "m",
+      "formula": "forced sin/cos and homogeneous coefficients"
+    },
+    "R02_v": {
+      "value": -3.1887653249008487e-13,
+      "unit": "m",
+      "formula": "forced sin/cos and homogeneous coefficients"
+    },
+    "R02_C": {
+      "value": 3.1887653249008487e-13,
+      "unit": "m",
+      "formula": "forced sin/cos and homogeneous coefficients"
+    },
+    "R02_S": {
+      "value": 1.7858335823424975e-10,
+      "unit": "m",
+      "formula": "forced sin/cos and homogeneous coefficients"
+    },
+    "R06_ring_mass": {
+      "value": 8.63937979737193e-06,
+      "unit": "kg",
+      "formula": "rho*Ac*pi*radius*(1+1/n^2)"
+    },
+    "R06_ring_stiffness": {
+      "value": 169.64600329384885,
+      "unit": "N/m",
+      "formula": "pi*E*I*(n^2-1)^2/radius^3"
+    },
+    "R06_ring_frequency": {
+      "value": 705.2622927088411,
+      "unit": "Hz",
+      "formula": "sqrt(k/m)/(2*pi)"
+    },
+    "R06_ring_B": {
+      "value": 0.4,
+      "unit": "1",
+      "formula": "2/(n^2+1)"
+    },
+    "R09_dead_zone_deg_h": {
+      "value": 46.5398931062943,
+      "unit": "deg/h",
+      "formula": "dgamma/(4*B)"
+    },
+    "R10_capacitance_peak": {
+      "value": 1.9999999999999997e-14,
+      "unit": "F",
+      "formula": "C0*A/gap"
+    },
+    "R11_current_peak": {
+      "value": 6.283185307179586e-09,
+      "unit": "A",
+      "formula": "Vb*omega0*Cpeak"
+    },
+    "R11_Zf_magnitude": {
+      "value": 31814875.094938613,
+      "unit": "ohm",
+      "formula": "Rf/sqrt(1+(omega*Rf*Cf)^2)"
+    },
+    "R11_analog_magnitude": {
+      "value": 0.9374768850453479,
+      "unit": "1",
+      "formula": "product of three analog pole magnitudes"
+    },
+    "R11_ADC_peak": {
+      "value": 0.18740046286145595,
+      "unit": "V",
+      "formula": "Ipeak*abs(Zf)*abs(Hanalog)"
+    },
+    "R12_Rf_current_ASD": {
+      "value": 4.057785106927177e-15,
+      "unit": "A/sqrt(Hz)",
+      "formula": "R12 node transfer and independent PSD sum"
+    },
+    "R12_voltage_noise": {
+      "value": 1.999240716164034e-08,
+      "unit": "V/sqrt(Hz)",
+      "formula": "R12 node transfer and independent PSD sum"
+    },
+    "R12_current_noise": {
+      "value": 3.181487509493861e-07,
+      "unit": "V/sqrt(Hz)",
+      "formula": "R12 node transfer and independent PSD sum"
+    },
+    "R12_resistor_noise": {
+      "value": 1.2909792633899027e-07,
+      "unit": "V/sqrt(Hz)",
+      "formula": "R12 node transfer and independent PSD sum"
+    },
+    "R12_AFE_ASD": {
+      "value": 3.439252806349058e-07,
+      "unit": "V/sqrt(Hz)",
+      "formula": "R12 node transfer and independent PSD sum"
+    },
+    "R13_allowed_ASD": {
+      "value": 7.341172450010562e-09,
+      "unit": "V/sqrt(Hz)",
+      "formula": "2*B*Vpk*angle/sqrt(2*Be)"
+    },
+    "R13_ADC_step": {
+      "value": 1.52587890625e-05,
+      "unit": "V",
+      "formula": "2*VFS/2^N"
+    },
+    "R13_ADC_angle": {
+      "value": 4.242765438172858e-06,
+      "unit": "rad",
+      "formula": "Delta/(2*B*Vpk)*sqrt(Be/(3*fs))"
+    },
+    "R13_ideal_bits": {
+      "value": 21.0,
+      "unit": "bits",
+      "formula": "R13.3"
+    },
+    "R13_gain_error_deg": {
+      "value": 0.5171099234032701,
+      "unit": "deg",
+      "formula": "epsilon/(4*B)"
+    },
+    "R15_NCO_FCW": {
+      "value": 536870912.0,
+      "unit": "code",
+      "formula": "round(f/fs*2^32)"
+    },
+    "R15_NCO_step_hz": {
+      "value": 9.313225746154785e-06,
+      "unit": "Hz",
+      "formula": "fs/2^32"
+    },
+    "R15_skew_limit": {
+      "value": 3.183098861837907e-09,
+      "unit": "s",
+      "formula": "Q/E budget / omega0"
+    },
+    "R17_ENBW": {
+      "value": 108.33815634645066,
+      "unit": "Hz",
+      "formula": "fs/2*sum(h^2)"
+    },
+    "R17_delay": {
+      "value": 0.0075250000000000004,
+      "unit": "s",
+      "formula": "CIC+FIR+pipeline+converters"
+    },
+    "R18_hold_voltage": {
+      "value": 0.0004934802200544679,
+      "unit": "V",
+      "formula": "m*w0^2*A/(Q*kF)"
+    },
+    "R18_start_voltage": {
+      "value": 0.6285653031261904,
+      "unit": "V",
+      "formula": "2*m*w0*gamma*A/((1-exp(-gamma*tb))*kF)"
+    },
+    "R18_start_denominator": {
+      "value": 0.0007850898189895747,
+      "unit": "1",
+      "formula": "1-exp(-gamma*.1)"
+    },
+    "R18_DAC_hold_codes": {
+      "value": 8.085179925372403,
+      "unit": "code",
+      "formula": "Vhold/DACstep"
+    },
+    "R19_Kp": {
+      "value": 4.0212385965949355,
+      "unit": "1/s",
+      "formula": "zeta*wn/E0"
+    },
+    "R19_Ki": {
+      "value": 12.633093633394378,
+      "unit": "1/s^2",
+      "formula": "wn^2/(2*E0)"
+    },
+    "R20_crossover_hz": {
+      "value": 1.3633641310440305,
+      "unit": "Hz",
+      "formula": "R20 gain=1 equation"
+    },
+    "R20_phase_margin_deg": {
+      "value": 66.16664546515409,
+      "unit": "deg",
+      "formula": "90-atan(Ki/(Kp*wc))-wc*tau"
+    },
+    "R23_gain_angle": {
+      "value": 0.9900990491126768,
+      "unit": "1",
+      "formula": "P11/(P11+R)"
+    },
+    "R23_gain_rate": {
+      "value": 0.003960380354929288,
+      "unit": "1/s",
+      "formula": "P21/(P11+R)"
+    },
+    "R26_false_damping": {
+      "value": 0.007735299244838869,
+      "unit": "1/s",
+      "formula": "-2*epsilon*theta_dot"
+    },
+    "R26_true_ds": {
+      "value": 7.859912800230858e-05,
+      "unit": "1/s",
+      "formula": "d*sin(4*beta)"
+    },
+    "R29_false_split_mHz": {
+      "value": 2.0264253155044893,
+      "unit": "mHz",
+      "formula": "exact effective stiffness eigenfrequencies"
+    },
+    "R31_Gram_condition": {
+      "value": 5.828427124746191,
+      "unit": "1",
+      "formula": "(1+1/sqrt(2))/(1-1/sqrt(2))"
+    },
+    "R31_pump_threshold_v": {
+      "value": 0.00030842513753404256,
+      "unit": "V",
+      "formula": "m*w0^2*g^2/(4*Q*C0*V0)"
+    },
+    "R32_IQ_bound": {
+      "value": 3.043093755299208e-07,
+      "unit": "rad",
+      "formula": "sqrt(2)*DeltaIQ/(4*B*sqrt(E))"
+    },
+    "R33_FCW_6200": {
+      "value": 665719931.0,
+      "unit": "code",
+      "formula": "round(6200/40000*2^32)"
+    },
+    "R33_Bryan_03_code": {
+      "value": 322122547.0,
+      "unit": "code",
+      "formula": "round(.3*2^30)"
+    },
+    "R33_Eref_12_code": {
+      "value": 20132659.0,
+      "unit": "code",
+      "formula": "round(1.2*2^24)"
+    },
+    "R35_num_damping_ratio_400000": {
+      "value": 0.082949144117538,
+      "unit": "1",
+      "formula": "-fs/2*log1p(-r^6/72+r^8/576)/gamma"
+    },
+    "R35_num_damping_ratio_800000": {
+      "value": 0.0025936609453919056,
+      "unit": "1",
+      "formula": "-fs/2*log1p(-r^6/72+r^8/576)/gamma"
+    },
+    "R02_drive_omega": {
+      "value": 31420.324765612957,
+      "unit": "rad/s",
+      "formula": "2*pi*forced_frequency_hz"
+    },
+    "R02_force": {
+      "value": 4.9348022005446795e-11,
+      "unit": "N",
+      "formula": "m*omega0^2*Aref/Qm"
+    },
+    "R02_force_acceleration": {
+      "value": 4.93480220054468e-05,
+      "unit": "m/s^2",
+      "formula": "force/m"
+    },
+    "R02_D": {
+      "value": -276368.2676551342,
+      "unit": "1/s^2",
+      "formula": "omega0^2-drive_omega^2"
+    },
+    "R02_b": {
+      "value": 493.5493072852756,
+      "unit": "1/s^2",
+      "formula": "2*gamma*drive_omega"
+    },
+    "R02_denominator": {
+      "value": 76379662957.6186,
+      "unit": "1/s^4",
+      "formula": "D^2+b^2"
+    },
+    "R02_damped_omega": {
+      "value": 31415.92653589695,
+      "unit": "rad/s",
+      "formula": "sqrt(omega0^2-gamma^2)"
+    },
+    "R02_homogeneous_P": {
+      "value": 5.610361660316507e-06,
+      "unit": "m/s",
+      "formula": "-gamma*C+wd*S"
+    },
+    "R02_homogeneous_T": {
+      "value": -1.0019204309145768e-08,
+      "unit": "m/s",
+      "formula": "-gamma*S-wd*C"
+    },
+    "R11_omega_Rf_Cf": {
+      "value": 31.415926535897935,
+      "unit": "1",
+      "formula": "omega0*Rf*Cf"
+    },
+    "R11_noise_gain": {
+      "value": 1.999240716164034,
+      "unit": "1",
+      "formula": "abs(1+j*omega0*Ci*Zf)"
+    },
+    "R11_pre_filter_voltage": {
+      "value": 0.19989875574627206,
+      "unit": "V",
+      "formula": "Ipeak*abs(Zf)"
+    },
+    "R11_pole_1_magnitude": {
+      "value": 0.9863939238321439,
+      "unit": "1",
+      "formula": "1/sqrt(1+(f0/fpole)^2)"
+    },
+    "R11_pole_1_phase_deg": {
+      "value": -9.462322208025617,
+      "unit": "deg",
+      "formula": "-atan(f0/fpole)"
+    },
+    "R11_pole_2_magnitude": {
+      "value": 0.9863939238321439,
+      "unit": "1",
+      "formula": "1/sqrt(1+(f0/fpole)^2)"
+    },
+    "R11_pole_2_phase_deg": {
+      "value": -9.462322208025617,
+      "unit": "deg",
+      "formula": "-atan(f0/fpole)"
+    },
+    "R11_pole_3_magnitude": {
+      "value": 0.9635179096299405,
+      "unit": "1",
+      "formula": "1/sqrt(1+(f0/fpole)^2)"
+    },
+    "R11_pole_3_phase_deg": {
+      "value": -15.524110996754256,
+      "unit": "deg",
+      "formula": "-atan(f0/fpole)"
+    },
+    "R13_ADC_variance": {
+      "value": 1.9402553637822468e-11,
+      "unit": "V^2",
+      "formula": "Delta^2/12"
+    },
+    "R13_ADC_ASD": {
+      "value": 3.114687274657158e-08,
+      "unit": "V/sqrt(Hz)",
+      "formula": "Delta/sqrt(6*fs)"
+    },
+    "R12_one_electron_current_ASD": {
+      "value": 5.033386343127622e-15,
+      "unit": "A/sqrt(Hz)",
+      "formula": "qe*omega0"
+    },
+    "R13_charge_allowance": {
+      "value": 7.834743135546946e-21,
+      "unit": "C/sqrt(Hz)",
+      "formula": "eADC/(Ha*omega0*abs(Zf))"
+    },
+    "R13_charge_allowance_electrons": {
+      "value": 0.048900620376585435,
+      "unit": "electron/sqrt(Hz)",
+      "formula": "charge_allowance/qe"
+    },
+    "R15_phase_step": {
+      "value": 1.4629180792671596e-09,
+      "unit": "rad",
+      "formula": "2*pi/2^32"
+    },
+    "R15_sample_phase_deg": {
+      "value": 45.0,
+      "unit": "deg",
+      "formula": "360*f0/fs"
+    },
+    "R17_impulse_squared_sum": {
+      "value": 0.005416907817322533,
+      "unit": "1",
+      "formula": "sum(h^2)"
+    },
+    "R17_CIC_delay": {
+      "value": 0.0014625,
+      "unit": "s",
+      "formula": "N*(R-1)/(2*fs)"
+    },
+    "R17_FIR_delay": {
+      "value": 0.002,
+      "unit": "s",
+      "formula": "(L-1)/(2*fctrl)"
+    },
+    "R17_support_time": {
+      "value": 0.010950000000000001,
+      "unit": "s",
+      "formula": "CICsupport+FIRsupport+pipeline+ADC"
+    },
+    "R17_delay_crossover_bound": {
+      "value": 11.074197120708748,
+      "unit": "Hz",
+      "formula": "1/(12*tau)"
+    },
+    "R18_mechanical_energy": {
+      "value": 4.93480220054468e-12,
+      "unit": "J",
+      "formula": "m*w0^2*A^2/2"
+    },
+    "R18_loss_power": {
+      "value": 7.751569170074954e-14,
+      "unit": "W",
+      "formula": "2*gamma*mechanical_energy"
+    },
+    "R18_hold_force": {
+      "value": 4.9348022005446795e-11,
+      "unit": "N",
+      "formula": "m*w0^2*A/Qm"
+    },
+    "R18_start_force": {
+      "value": 6.285653031261904e-08,
+      "unit": "N",
+      "formula": "2*m*w0*gamma*A/(1-exp(-gamma*tb))"
+    },
+    "R18_DAC_step": {
+      "value": 6.103515625e-05,
+      "unit": "V",
+      "formula": "4/2^16"
+    },
+    "R18_start_over_hold": {
+      "value": 1273.7396101850088,
+      "unit": "1",
+      "formula": "Fstart/Fhold"
+    },
+    "R18_start_20percent_v": {
+      "value": 3.142826515630952,
+      "unit": "V",
+      "formula": "Vstart/duty"
+    },
+    "R19_natural_omega": {
+      "value": 5.026548245743669,
+      "unit": "rad/s",
+      "formula": "2*pi*fn"
+    },
+    "R20_a": {
+      "value": 8.042477193189871,
+      "unit": "1/s",
+      "formula": "2*E0*Kp"
+    },
+    "R20_b": {
+      "value": 25.266187266788755,
+      "unit": "1/s^2",
+      "formula": "2*E0*Ki"
+    },
+    "R20_crossover_omega": {
+      "value": 8.566269476511517,
+      "unit": "rad/s",
+      "formula": "positive root of gain=1 equation"
+    },
+    "R20_PI_phase_loss_deg": {
+      "value": 20.14000110384762,
+      "unit": "deg",
+      "formula": "atan(Ki/(Kp*wc))"
+    },
+    "R20_delay_phase_loss_deg": {
+      "value": 3.693353430998279,
+      "unit": "deg",
+      "formula": "wc*tau*180/pi"
+    },
+    "R23_predicted_P11": {
+      "value": 1.000004,
+      "unit": "rad^2",
+      "formula": "1+4*Ts^2"
+    },
+    "R23_predicted_P12": {
+      "value": 0.004,
+      "unit": "rad^2/s",
+      "formula": "4*Ts"
+    },
+    "R23_innovation_variance": {
+      "value": 1.010004,
+      "unit": "rad^2",
+      "formula": "P11+R"
+    },
+    "R24_Gram_determinant": {
+      "value": 3.0,
+      "unit": "1",
+      "formula": "2*2-1*1"
+    },
+    "R25_scalar_gain": {
+      "value": 0.49875311720698257,
+      "unit": "1",
+      "formula": "200/(1+2*100*2)"
+    },
+    "R25_scalar_beta": {
+      "value": 2.9925187032418954,
+      "unit": "1",
+      "formula": "K*y"
+    },
+    "R25_scalar_covariance": {
+      "value": 0.24937655860349128,
+      "unit": "1",
+      "formula": "1/(.01+2^2)"
+    },
+    "R26_theta_rate": {
+      "value": -0.3867649622419435,
+      "unit": "rad/s",
+      "formula": "-B*Omega"
+    },
+    "R26_false_over_true": {
+      "value": 98.41456822029464,
+      "unit": "1",
+      "formula": "false_ds/true_ds"
+    },
+    "R29_fault_frequency_x": {
+      "value": 4999.994933938251,
+      "unit": "Hz",
+      "formula": "sqrt(omega0^2-20*100)/(2*pi)"
+    },
+    "R29_fault_frequency_y": {
+      "value": 4999.996960363567,
+      "unit": "Hz",
+      "formula": "sqrt(omega0^2-12*100)/(2*pi)"
+    },
+    "R30_omega_RC": {
+      "value": 0.00015707963267948965,
+      "unit": "1",
+      "formula": "omega0*R*C0"
+    },
+    "R30_electrical_damping": {
+      "value": 4.999999876629948e-10,
+      "unit": "kg/s",
+      "formula": "Vb^2*p^2*R/(1+(omega*R*C0)^2)"
+    },
+    "R31_Gram_min_eigenvalue": {
+      "value": 0.29289321881345254,
+      "unit": "1",
+      "formula": "1-1/sqrt(2)"
+    },
+    "R31_Gram_max_eigenvalue": {
+      "value": 1.7071067811865475,
+      "unit": "1",
+      "formula": "1+1/sqrt(2)"
+    },
+    "R33_decoded_frequency": {
+      "value": 6200.000001117587,
+      "unit": "Hz",
+      "formula": "FCW*fs/2^32"
+    },
+    "R33_decoded_frequency_error": {
+      "value": 1.1175870895385742e-06,
+      "unit": "Hz",
+      "formula": "decoded-requested"
+    },
+    "R28_Newton_step_1": {
+      "value": 0.9565217391304347,
+      "unit": "1",
+      "formula": "a_next=a-f(a)/fprime(a); beta=.05,r=1"
+    },
+    "R28_Newton_step_2": {
+      "value": 0.9562760175763183,
+      "unit": "1",
+      "formula": "a_next=a-f(a)/fprime(a); beta=.05,r=1"
+    },
+    "R28_Newton_step_3": {
+      "value": 0.9562760099588581,
+      "unit": "1",
+      "formula": "a_next=a-f(a)/fprime(a); beta=.05,r=1"
+    }
+  },
+  "checks": [
+    {
+      "name": "R02_initial_position",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R02_initial_velocity",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R02_differential_residual",
+      "error": 1.6145592855116732e-12,
+      "limit": 1e-11,
+      "pass_": true
+    },
+    {
+      "name": "R02_fraction_sin_-3",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R02_fraction_cos_-3",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R02_fraction_sin_0",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R02_fraction_cos_0",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R02_fraction_sin_2/3",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R02_fraction_cos_2/3",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R03_cos_coefficient",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R03_sin_coefficient",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R04_rotation_xx",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R04_rotation_xy",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R05_coriolis_power",
+      "error": 1.509903313490213e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-1.0_0.1",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-1.0_0.1",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-1.0_-0.2",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-1.0_-0.2",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-0.75_0.1",
+      "error": 2.1510571102112408e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-0.75_0.1",
+      "error": 1.5959455978986625e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-0.75_-0.2",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-0.75_-0.2",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-0.5_0.1",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-0.5_0.1",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-0.5_-0.2",
+      "error": 1.942890293094024e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-0.5_-0.2",
+      "error": 2.7755575615628914e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-0.25_0.1",
+      "error": 6.938893903907228e-18,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-0.25_0.1",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_-0.25_-0.2",
+      "error": 8.326672684688674e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_-0.25_-0.2",
+      "error": 2.7755575615628914e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.0_0.1",
+      "error": 6.938893903907228e-18,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.0_0.1",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.0_-0.2",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.0_-0.2",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.25_0.1",
+      "error": 2.1510571102112408e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.25_0.1",
+      "error": 4.440892098500626e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.25_-0.2",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.25_-0.2",
+      "error": 0.0,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.5_0.1",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.5_0.1",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.5_-0.2",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.5_-0.2",
+      "error": 8.326672684688674e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.75_0.1",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.75_0.1",
+      "error": 2.7755575615628914e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_0.75_-0.2",
+      "error": 8.326672684688674e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_0.75_-0.2",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_1.0_0.1",
+      "error": 2.1510571102112408e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_1.0_0.1",
+      "error": 3.3306690738754696e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_invariants_1.0_-0.2",
+      "error": 8.326672684688674e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R08_energy_identity_1.0_-0.2",
+      "error": 1.3877787807814457e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R09_full_ellipse_chain_rule",
+      "error": 1.6653345369377348e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R11_finite_A_KCL",
+      "error": 1.9062607596416347e-16,
+      "limit": 1e-13,
+      "pass_": true
+    },
+    {
+      "name": "R13_angle_jacobian_finite_difference",
+      "error": 7.859513040386901e-11,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "R14_closed_loop_node_equation",
+      "error": 2.0816681711721685e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R16_CIC_small_hand_trace",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R21_SC_low_frequency_limit",
+      "error": 0.005000006944464213,
+      "limit": 0.006,
+      "pass_": true
+    },
+    {
+      "name": "R21_ring_poles",
+      "error": 2.6645352591003757e-15,
+      "limit": 1e-13,
+      "pass_": true
+    },
+    {
+      "name": "R22_wrap_crossing",
+      "error": 2.3592239273284576e-16,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "R24_external_reference_fit",
+      "error": 4.440892098500626e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R25_RLS_vs_weighted_batch",
+      "error": 1.6653345369377348e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R25_information_inverse",
+      "error": 4.440892098500626e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R28_Newton_residual_0.001",
+      "error": 0.0,
+      "limit": 4e-16,
+      "pass_": true
+    },
+    {
+      "name": "R28_Newton_residual_0.01",
+      "error": 0.0,
+      "limit": 4e-16,
+      "pass_": true
+    },
+    {
+      "name": "R28_Newton_residual_0.05",
+      "error": 0.0,
+      "limit": 4e-16,
+      "pass_": true
+    },
+    {
+      "name": "R28_one_step_error_identity",
+      "error": 1.1102230246251565e-16,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R29_reference_equivalence_10.0",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R29_reference_equivalence_12.0",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R30_passive_power_balance",
+      "error": 4.795699357098674e-16,
+      "limit": 1e-14,
+      "pass_": true
+    },
+    {
+      "name": "R32_ties_away_positive",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R32_ties_away_negative",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R33_little_endian",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R35_traceless_matrix_square",
+      "error": 2.8604686320855263e-21,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R35_RK4_magnitude_identity_400000",
+      "error": 0.0,
+      "limit": 3e-16,
+      "pass_": true
+    },
+    {
+      "name": "R35_RK4_magnitude_identity_800000",
+      "error": 1.1102230246251565e-16,
+      "limit": 3e-16,
+      "pass_": true
+    },
+    {
+      "name": "R36_RMS_decomposition",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R36_Allan_hand",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "R09_full_expanded_dynamics",
+      "error": 5.551115123125783e-17,
+      "limit": 1e-12,
+      "pass_": true
+    },
+    {
+      "name": "R23_nonlinear_measurement_jacobian",
+      "error": 3.450684182837449e-11,
+      "limit": 1e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R01_omega0",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R02_gamma",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R02_stiffness",
+      "error": 1.151888496250851e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R02_u",
+      "error": 1.4476720185254818e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R02_v",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R02_C",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R02_S",
+      "error": 1.4474693721670964e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R06_ring_mass",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R06_ring_stiffness",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R06_ring_frequency",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R06_ring_B",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R09_dead_zone_deg_h",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R10_capacitance_peak",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R11_current_peak",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R11_Zf_magnitude",
+      "error": 1.1709272116723054e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R11_analog_magnitude",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R11_ADC_peak",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R12_Rf_current_ASD",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R12_voltage_noise",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R12_current_noise",
+      "error": 1.6639876487151714e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R12_resistor_noise",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R12_AFE_ASD",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R13_allowed_ASD",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R13_ADC_step",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R13_ADC_angle",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R13_ideal_bits",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R13_gain_error_deg",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R15_NCO_FCW",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R15_NCO_step_hz",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R15_skew_limit",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R17_ENBW",
+      "error": 2.623425613734394e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R17_delay",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R18_hold_voltage",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R18_start_voltage",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R18_start_denominator",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R18_DAC_hold_codes",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R19_Kp",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R19_Ki",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R20_crossover_hz",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R20_phase_margin_deg",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R23_gain_angle",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R23_gain_rate",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R26_false_damping",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R26_true_ds",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R29_false_split_mHz",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R31_Gram_condition",
+      "error": 1.5238732520633558e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R31_pump_threshold_v",
+      "error": 1.7576423587812054e-16,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R32_IQ_bound",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R33_FCW_6200",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R33_Bryan_03_code",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R33_Eref_12_code",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R35_num_damping_ratio_400000",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_checkpoint_R35_num_damping_ratio_800000",
+      "error": 0.0,
+      "limit": 2e-10,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_ODE_position_vs_independent_closed_form",
+      "error": 8.847213639137477e-15,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_ODE_velocity_vs_independent_closed_form",
+      "error": 8.637011712943556e-15,
+      "limit": 2e-08,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_initial_position",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_initial_velocity",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_ode_position",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_ode_velocity",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_invariant_energy",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_invariant_quadrature",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_invariant_direction",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_filter_dc_gain",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_crossover_equation",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_ring_one_negative_real",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_external_reference_fit",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    },
+    {
+      "name": "MATLAB_executed_RLS_batch",
+      "error": 0.0,
+      "limit": 0,
+      "pass_": true
+    }
+  ]
+}

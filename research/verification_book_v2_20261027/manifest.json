@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "scope": "V2 derivation and scalar ODE verification; not RF/RTL rerun",
+  "sha256": {
+    "HRG_WA_simulink/identifiability_v9/evidence/manifest.json": "b096106c7a46367d02f6a6902fb2090e14192de16a3e2c0c080db40109cd55ef",
+    "HRG_WA_simulink/literature_v7/evidence/manifest.json": "20e034d98577d43f8e3fb20e854938d9f8acf637dceb251b239d0c2a6e1789b0",
+    "HRG_WA_simulink/literature_v8_research/evidence/manifest.json": "e1691c2ec04b17d2ee95be6ecbf32405e80b813608dc6e3ba906eff21d18fd84",
+    "HRG_WA_simulink/literature_zotero_research/evidence/manifest.json": "1ed9f28d826b9731203e3920181d59f344098773426a13552abb90ac6376296c",
+    "research/complete_book_20261027/manifest.json": "5784bb4a5ec0f31237fad5248e2bd3d61f725a746227814acaff47e1a3f1e1fd",
+    "research/verification_book_v2_20261027/.gitattributes": "6d823872a843296c29ec01091128becd3dfcd6fd9504093ce2d285be936a123e",
+    "research/verification_book_v2_20261027/book_structure.json": "148e02bfdd6998b0816c6e4cac896edb2a9e28653ecb211f31ebad8f9a916fd3",
+    "research/verification_book_v2_20261027/evidence/delivery.json": "80ab95386e2a71b50638aa577ec9a262bf4b104ba5bb3c7e635084d644000ede",
+    "research/verification_book_v2_20261027/evidence/forced_response.png": "4a5809c3a51f23f073d039dbc3ce065a4a0cd258d0e047c117d0f958c9458ba8",
+    "research/verification_book_v2_20261027/evidence/matlab_oscillator.csv": "8baead2deee66613ace9087a98708c9046ec10072d369ced8b2388e566011680",
+    "research/verification_book_v2_20261027/evidence/matlab_results.json": "62db69a5ddd6d17c9d6b5d82c0087f2f9886f7acf3682be42cefe38f03d1693a",
+    "research/verification_book_v2_20261027/evidence/python_results.json": "cb20be110b9518dff41cc9230773aa62d3a0692b11fd73ddeadf99bbc3eaf329",
+    "research/verification_book_v2_20261027/evidence/trace.csv": "6ab2f0d940f21a57619939fe3f004883f5b455d9834e3a373b4a5498fb479c12",
+    "research/verification_book_v2_20261027/parameters.json": "0cbd6f4ee8aaeb4f7ad62b4be69df0c518fb8bba671dc09cf486791bb20cb1b5",
+    "research/verification_book_v2_20261027/reading.json": "ed5f46cc5066b6120fe6c4b8ecf19b57295a05ba78bf5a93ac198570e503267e",
+    "research/verification_book_v2_20261027/README.md": "ae57126c13049155824718a7f92cdbbfc867df13ec52aaf04ad84f47276be1f4",
+    "research/verification_book_v2_20261027/run_reproduction.m": "bc3adfcd083a1fd13f4c309d36b162646e863c6d779ee0bd1131bfcb4bd03476",
+    "research/verification_book_v2_20261027/sources.json": "7a38a9c0c3e5e1fef768137855fc98f25138a77b9f5f5036412fc2b5551fd10b",
+    "research/verification_book_v2_20261027/tools/build_book.py": "0df140c84b388b0bc558f4ea56081eb3f4f854e3601e4779f7d5c7519955129a",
+    "research/verification_book_v2_20261027/tools/check_delivery.py": "2747e6c046d7c1146297d27327d1d315d2a20522232b2a3e698d96fdf6ab1bb8",
+    "research/verification_book_v2_20261027/tools/read_sources.py": "703f7b55f3679c9c61ff853d238f8dfbe6cb70dcf130d7ab3fec57462d02ca7a",
+    "research/verification_book_v2_20261027/tools/reproduce.py": "05d90e35adc937fe522a14428431d635a16c1ce613cedefebaf9a5c311fc0361",
+    "research/verification_book_v2_20261027/tools/seal.py": "440361ce1c198acd67976d09382ffd99a08dac61af4621cfa2432da81c6a728e",
+    "全角HRG从零到当前_完整推导与验证总书.md": "9cca4a1c03f78f746d3b426bc975a8f938ada61bc529a210ea0fe38880a270a6",
+    "全角HRG验证总书第二版_逐行推导与复算.md": "e201c28712fa841b0fe8554aabce5e7e064738f99e6edecab210e28279a34e98"
+  }
+}

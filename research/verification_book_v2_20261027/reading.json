@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-27",
+  "boundary": "Relevant derivation sections read; not a claim of complete reading of all three documents or whole literature corpus",
+  "T05": {
+    "sections": ["3.2", "4.1", "4.2"],
+    "paragraphs_reviewed": ["149-205", "207-278"],
+    "math_objects": "86 OMML extracted structurally; 54 OLE objects identified; selected fallback images inspected",
+    "visually_reviewed_relationships": ["rId49", "rId53", "rId57", "rId67", "rId69", "rId84", "rId88", "rId97", "rId99", "rId101", "rId138"],
+    "limitation": "Several WMF previews show overlapping glyphs; do not claim exact reconstruction of all OLE formulae. DOCX cached page numbers and app Pages=1 are unreliable."
+  },
+  "P59": {
+    "text_pages_reviewed": [19,20,21,22,23,24,43],
+    "visual_pages_reviewed": [22,24,43],
+    "used_for": ["IQ phase and frequency detector", "TDM signal-flow approach", "integrator-based mechanical model"],
+    "boundary": "Scheme analysis, not evidence that the present project implements every proposed circuit"
+  },
+  "D153": {
+    "text_pages_reviewed": [35,36,37,38,39,40,41,69,70,71,72,73,74],
+    "visual_pages_reviewed": [35,39,70,71,74],
+    "used_for": ["forced oscillator to force rebalance", "node-by-node closed-loop noise", "C/V input-noise model"],
+    "boundary": "MEMS comb-capacitance and FTR scale-factor conclusions are not copied as HRG WA geometry or B"
+  }
+}

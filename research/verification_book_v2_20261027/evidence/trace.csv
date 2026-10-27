@@ -1,0 +1,117 @@
+checkpoint,value,unit,formula
+R01_omega0,31415.92653589793,rad/s,2*pi*f0
+R02_gamma,0.007853981633974483,1/s,omega0/(2*Qm)
+R02_stiffness,986.9604401089359,N/m,mass*omega0^2
+R02_u,-1.785583599841273e-10,m,forced sin/cos and homogeneous coefficients
+R02_v,-3.188765324900849e-13,m,forced sin/cos and homogeneous coefficients
+R02_C,3.188765324900849e-13,m,forced sin/cos and homogeneous coefficients
+R02_S,1.785833582342497e-10,m,forced sin/cos and homogeneous coefficients
+R06_ring_mass,8.639379797371931e-06,kg,rho*Ac*pi*radius*(1+1/n^2)
+R06_ring_stiffness,169.6460032938488,N/m,pi*E*I*(n^2-1)^2/radius^3
+R06_ring_frequency,705.2622927088411,Hz,sqrt(k/m)/(2*pi)
+R06_ring_B,0.4,1,2/(n^2+1)
+R09_dead_zone_deg_h,46.5398931062943,deg/h,dgamma/(4*B)
+R10_capacitance_peak,2e-14,F,C0*A/gap
+R11_current_peak,6.283185307179586e-09,A,Vb*omega0*Cpeak
+R11_Zf_magnitude,31814875.09493861,ohm,Rf/sqrt(1+(omega*Rf*Cf)^2)
+R11_analog_magnitude,0.9374768850453479,1,product of three analog pole magnitudes
+R11_ADC_peak,0.187400462861456,V,Ipeak*abs(Zf)*abs(Hanalog)
+R12_Rf_current_ASD,4.057785106927177e-15,A/sqrt(Hz),R12 node transfer and independent PSD sum
+R12_voltage_noise,1.999240716164034e-08,V/sqrt(Hz),R12 node transfer and independent PSD sum
+R12_current_noise,3.181487509493861e-07,V/sqrt(Hz),R12 node transfer and independent PSD sum
+R12_resistor_noise,1.290979263389903e-07,V/sqrt(Hz),R12 node transfer and independent PSD sum
+R12_AFE_ASD,3.439252806349058e-07,V/sqrt(Hz),R12 node transfer and independent PSD sum
+R13_allowed_ASD,7.341172450010562e-09,V/sqrt(Hz),2*B*Vpk*angle/sqrt(2*Be)
+R13_ADC_step,1.52587890625e-05,V,2*VFS/2^N
+R13_ADC_angle,4.242765438172858e-06,rad,Delta/(2*B*Vpk)*sqrt(Be/(3*fs))
+R13_ideal_bits,21,bits,R13.3
+R13_gain_error_deg,0.5171099234032701,deg,epsilon/(4*B)
+R15_NCO_FCW,536870912,code,round(f/fs*2^32)
+R15_NCO_step_hz,9.313225746154785e-06,Hz,fs/2^32
+R15_skew_limit,3.183098861837907e-09,s,Q/E budget / omega0
+R17_ENBW,108.3381563464507,Hz,fs/2*sum(h^2)
+R17_delay,0.007525,s,CIC+FIR+pipeline+converters
+R18_hold_voltage,0.0004934802200544679,V,m*w0^2*A/(Q*kF)
+R18_start_voltage,0.6285653031261904,V,2*m*w0*gamma*A/((1-exp(-gamma*tb))*kF)
+R18_start_denominator,0.0007850898189895747,1,1-exp(-gamma*.1)
+R18_DAC_hold_codes,8.085179925372403,code,Vhold/DACstep
+R19_Kp,4.021238596594936,1/s,zeta*wn/E0
+R19_Ki,12.63309363339438,1/s^2,wn^2/(2*E0)
+R20_crossover_hz,1.363364131044031,Hz,R20 gain=1 equation
+R20_phase_margin_deg,66.16664546515409,deg,90-atan(Ki/(Kp*wc))-wc*tau
+R23_gain_angle,0.9900990491126768,1,P11/(P11+R)
+R23_gain_rate,0.003960380354929288,1/s,P21/(P11+R)
+R26_false_damping,0.007735299244838869,1/s,-2*epsilon*theta_dot
+R26_true_ds,7.859912800230858e-05,1/s,d*sin(4*beta)
+R29_false_split_mHz,2.026425315504489,mHz,exact effective stiffness eigenfrequencies
+R31_Gram_condition,5.828427124746191,1,(1+1/sqrt(2))/(1-1/sqrt(2))
+R31_pump_threshold_v,0.0003084251375340426,V,m*w0^2*g^2/(4*Q*C0*V0)
+R32_IQ_bound,3.043093755299208e-07,rad,sqrt(2)*DeltaIQ/(4*B*sqrt(E))
+R33_FCW_6200,665719931,code,round(6200/40000*2^32)
+R33_Bryan_03_code,322122547,code,round(.3*2^30)
+R33_Eref_12_code,20132659,code,round(1.2*2^24)
+R35_num_damping_ratio_400000,0.082949144117538,1,-fs/2*log1p(-r^6/72+r^8/576)/gamma
+R35_num_damping_ratio_800000,0.002593660945391906,1,-fs/2*log1p(-r^6/72+r^8/576)/gamma
+R02_drive_omega,31420.32476561296,rad/s,2*pi*forced_frequency_hz
+R02_force,4.93480220054468e-11,N,m*omega0^2*Aref/Qm
+R02_force_acceleration,4.93480220054468e-05,m/s^2,force/m
+R02_D,-276368.2676551342,1/s^2,omega0^2-drive_omega^2
+R02_b,493.5493072852756,1/s^2,2*gamma*drive_omega
+R02_denominator,76379662957.61861,1/s^4,D^2+b^2
+R02_damped_omega,31415.92653589695,rad/s,sqrt(omega0^2-gamma^2)
+R02_homogeneous_P,5.610361660316507e-06,m/s,-gamma*C+wd*S
+R02_homogeneous_T,-1.001920430914577e-08,m/s,-gamma*S-wd*C
+R11_omega_Rf_Cf,31.41592653589793,1,omega0*Rf*Cf
+R11_noise_gain,1.999240716164034,1,abs(1+j*omega0*Ci*Zf)
+R11_pre_filter_voltage,0.1998987557462721,V,Ipeak*abs(Zf)
+R11_pole_1_magnitude,0.9863939238321439,1,1/sqrt(1+(f0/fpole)^2)
+R11_pole_1_phase_deg,-9.462322208025617,deg,-atan(f0/fpole)
+R11_pole_2_magnitude,0.9863939238321439,1,1/sqrt(1+(f0/fpole)^2)
+R11_pole_2_phase_deg,-9.462322208025617,deg,-atan(f0/fpole)
+R11_pole_3_magnitude,0.9635179096299405,1,1/sqrt(1+(f0/fpole)^2)
+R11_pole_3_phase_deg,-15.52411099675426,deg,-atan(f0/fpole)
+R13_ADC_variance,1.940255363782247e-11,V^2,Delta^2/12
+R13_ADC_ASD,3.114687274657158e-08,V/sqrt(Hz),Delta/sqrt(6*fs)
+R12_one_electron_current_ASD,5.033386343127622e-15,A/sqrt(Hz),qe*omega0
+R13_charge_allowance,7.834743135546946e-21,C/sqrt(Hz),eADC/(Ha*omega0*abs(Zf))
+R13_charge_allowance_electrons,0.04890062037658544,electron/sqrt(Hz),charge_allowance/qe
+R15_phase_step,1.46291807926716e-09,rad,2*pi/2^32
+R15_sample_phase_deg,45,deg,360*f0/fs
+R17_impulse_squared_sum,0.005416907817322533,1,sum(h^2)
+R17_CIC_delay,0.0014625,s,N*(R-1)/(2*fs)
+R17_FIR_delay,0.002,s,(L-1)/(2*fctrl)
+R17_support_time,0.01095,s,CICsupport+FIRsupport+pipeline+ADC
+R17_delay_crossover_bound,11.07419712070875,Hz,1/(12*tau)
+R18_mechanical_energy,4.93480220054468e-12,J,m*w0^2*A^2/2
+R18_loss_power,7.751569170074954e-14,W,2*gamma*mechanical_energy
+R18_hold_force,4.93480220054468e-11,N,m*w0^2*A/Qm
+R18_start_force,6.285653031261904e-08,N,2*m*w0*gamma*A/(1-exp(-gamma*tb))
+R18_DAC_step,6.103515625e-05,V,4/2^16
+R18_start_over_hold,1273.739610185009,1,Fstart/Fhold
+R18_start_20percent_v,3.142826515630952,V,Vstart/duty
+R19_natural_omega,5.026548245743669,rad/s,2*pi*fn
+R20_a,8.042477193189871,1/s,2*E0*Kp
+R20_b,25.26618726678876,1/s^2,2*E0*Ki
+R20_crossover_omega,8.566269476511517,rad/s,positive root of gain=1 equation
+R20_PI_phase_loss_deg,20.14000110384762,deg,atan(Ki/(Kp*wc))
+R20_delay_phase_loss_deg,3.693353430998279,deg,wc*tau*180/pi
+R23_predicted_P11,1.000004,rad^2,1+4*Ts^2
+R23_predicted_P12,0.004,rad^2/s,4*Ts
+R23_innovation_variance,1.010004,rad^2,P11+R
+R24_Gram_determinant,3,1,2*2-1*1
+R25_scalar_gain,0.4987531172069826,1,200/(1+2*100*2)
+R25_scalar_beta,2.992518703241895,1,K*y
+R25_scalar_covariance,0.2493765586034913,1,1/(.01+2^2)
+R26_theta_rate,-0.3867649622419435,rad/s,-B*Omega
+R26_false_over_true,98.41456822029464,1,false_ds/true_ds
+R29_fault_frequency_x,4999.994933938251,Hz,sqrt(omega0^2-20*100)/(2*pi)
+R29_fault_frequency_y,4999.996960363567,Hz,sqrt(omega0^2-12*100)/(2*pi)
+R30_omega_RC,0.0001570796326794897,1,omega0*R*C0
+R30_electrical_damping,4.999999876629948e-10,kg/s,Vb^2*p^2*R/(1+(omega*R*C0)^2)
+R31_Gram_min_eigenvalue,0.2928932188134525,1,1-1/sqrt(2)
+R31_Gram_max_eigenvalue,1.707106781186547,1,1+1/sqrt(2)
+R33_decoded_frequency,6200.000001117587,Hz,FCW*fs/2^32
+R33_decoded_frequency_error,1.117587089538574e-06,Hz,decoded-requested
+R28_Newton_step_1,0.9565217391304347,1,"a_next=a-f(a)/fprime(a); beta=.05,r=1"
+R28_Newton_step_2,0.9562760175763183,1,"a_next=a-f(a)/fprime(a); beta=.05,r=1"
+R28_Newton_step_3,0.9562760099588581,1,"a_next=a-f(a)/fprime(a); beta=.05,r=1"
