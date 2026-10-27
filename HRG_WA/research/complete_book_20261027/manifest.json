@@ -1,0 +1,1119 @@
+{
+  "date": "2026-10-27",
+  "scope": "Complete book, compilation tools, source MD and sealed-model identities",
+  "sha256": {
+    "HRG_WA_simulink/identifiability_v9/evidence/manifest.json": "b096106c7a46367d02f6a6902fb2090e14192de16a3e2c0c080db40109cd55ef",
+    "HRG_WA_simulink/literature_v7/evidence/manifest.json": "20e034d98577d43f8e3fb20e854938d9f8acf637dceb251b239d0c2a6e1789b0",
+    "HRG_WA_simulink/literature_v8_research/evidence/manifest.json": "e1691c2ec04b17d2ee95be6ecbf32405e80b813608dc6e3ba906eff21d18fd84",
+    "HRG_WA_simulink/literature_zotero_research/evidence/manifest.json": "1ed9f28d826b9731203e3920181d59f344098773426a13552abb90ac6376296c",
+    "research/complete_book_20261027/coverage.json": "f5ec13e19e74c14f660685ce0fefeb5854f75216e8ad9ac35ab202b588a89e65",
+    "research/complete_book_20261027/inventory.json": "7ca1b3b97c63a9ddf2bbf7d506f2260d649404a4ff529df106c3c0b0666ce393",
+    "research/complete_book_20261027/README.md": "0c9f2331a8478fd9fd9bbea123cf8d319bbeaab9a083e7056486fa5fc569d5b3",
+    "research/complete_book_20261027/tools/build_book.py": "e643ded4558abc96b886cea0ae21a87b8d0f3722dab5e7c3713851cf15ee5525",
+    "research/complete_book_20261027/tools/inventory.py": "00ab6c3216e439b64751eac9b649323d2fc988b173c253333b66987161147e21",
+    "research/complete_book_20261027/tools/seal_book.py": "f5cf6b980a8c88beaafab42b99fae50afd29d2d979b8ac508dee6ca2ef8af489",
+    "research/complete_book_20261027/tools/validate_book.py": "9057d7782e53033b66f3c87b3e03d94fb2f8c2debe820d39718f481f63d254d7",
+    "research/complete_book_20261027/validation.json": "5f3b83032732bed8aa8fe9fc8449f130f31823476d189ffe290cd1e739416ce2",
+    "全角HRG从零到当前_完整推导与验证总书.md": "9cca4a1c03f78f746d3b426bc975a8f938ada61bc529a210ea0fe38880a270a6"
+  },
+  "source_md": [
+    {
+      "path": "00_全角陀螺研究总览与资料审阅清单_20261010.md",
+      "sha256": "bb77293d5f7217fe015594d8cc1e8bfb7377bf37fbc22289e808b1819618ee12",
+      "git_sha256": "bb77293d5f7217fe015594d8cc1e8bfb7377bf37fbc22289e808b1819618ee12",
+      "normalized_sha256": "bb77293d5f7217fe015594d8cc1e8bfb7377bf37fbc22289e808b1819618ee12"
+    },
+    {
+      "path": "01_已有研究工作与创新点审计_20261010.md",
+      "sha256": "9d4d0a1df69ad40cac9e42663043f1c7c526d13634a8cf07d4412af8d4f7a508",
+      "git_sha256": "9d4d0a1df69ad40cac9e42663043f1c7c526d13634a8cf07d4412af8d4f7a508",
+      "normalized_sha256": "9d4d0a1df69ad40cac9e42663043f1c7c526d13634a8cf07d4412af8d4f7a508"
+    },
+    {
+      "path": "02_最新技术进展与文献对照_20261010.md",
+      "sha256": "925d216a4f6032ed598803e176f980fe82468af44b7778ac608e4dd47f08b01c",
+      "git_sha256": "925d216a4f6032ed598803e176f980fe82468af44b7778ac608e4dd47f08b01c",
+      "normalized_sha256": "925d216a4f6032ed598803e176f980fe82468af44b7778ac608e4dd47f08b01c"
+    },
+    {
+      "path": "03_小论文选题与2025二区期刊匹配_20261010.md",
+      "sha256": "abddfaa0f0c0d0e4cb254cb0e0b0c93d7e26ebdf7d4904bb23f8a4c1a0175352",
+      "git_sha256": "abddfaa0f0c0d0e4cb254cb0e0b0c93d7e26ebdf7d4904bb23f8a4c1a0175352",
+      "normalized_sha256": "abddfaa0f0c0d0e4cb254cb0e0b0c93d7e26ebdf7d4904bb23f8a4c1a0175352"
+    },
+    {
+      "path": "04_博士研究路线与后续进展台账_20261010.md",
+      "sha256": "81fe3a02d0a0166f752f04a0f672a52ccce16a6c05a7b77cad03371e6d879b21",
+      "git_sha256": "81fe3a02d0a0166f752f04a0f672a52ccce16a6c05a7b77cad03371e6d879b21",
+      "normalized_sha256": "81fe3a02d0a0166f752f04a0f672a52ccce16a6c05a7b77cad03371e6d879b21"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "86f8f9fd2c460b7664ae184463cc92e9156cefd694f86166d5d07b0f326a2a29",
+      "git_sha256": "86f8f9fd2c460b7664ae184463cc92e9156cefd694f86166d5d07b0f326a2a29",
+      "normalized_sha256": "86f8f9fd2c460b7664ae184463cc92e9156cefd694f86166d5d07b0f326a2a29"
+    },
+    {
+      "path": "GIT_WORKFLOW.md",
+      "sha256": "4d374e48e79b6e259b951a4f0efe356499cfed861dcc8b9d4edbc5921132b37d",
+      "git_sha256": "4d374e48e79b6e259b951a4f0efe356499cfed861dcc8b9d4edbc5921132b37d",
+      "normalized_sha256": "4d374e48e79b6e259b951a4f0efe356499cfed861dcc8b9d4edbc5921132b37d"
+    },
+    {
+      "path": "HRG_WA_ASIC_FPGA_model_full/README_ASIC_FPGA_EXTENSION.md",
+      "sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "git_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "normalized_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd"
+    },
+    {
+      "path": "HRG_WA_ASIC_FPGA_model_full/README_HRG_WA_model.md",
+      "sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "git_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "normalized_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977"
+    },
+    {
+      "path": "HRG_WA_ASIC_FPGA_model_full_fixed/README_ASIC_FPGA_EXTENSION.md",
+      "sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "git_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "normalized_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd"
+    },
+    {
+      "path": "HRG_WA_ASIC_FPGA_model_full_fixed/README_HRG_WA_model.md",
+      "sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "git_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "normalized_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977"
+    },
+    {
+      "path": "HRG_WA_ASIC_FPGA_model_full_fixed_v2/README_ASIC_FPGA_EXTENSION.md",
+      "sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "git_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "normalized_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd"
+    },
+    {
+      "path": "HRG_WA_ASIC_FPGA_model_full_fixed_v2/README_HRG_WA_model.md",
+      "sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "git_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "normalized_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/HRG_WA_V42_参数与控制器修调指南.md",
+      "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "git_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "normalized_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/PACKAGE_MANIFEST.md",
+      "sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+      "git_sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+      "normalized_sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/README.md",
+      "sha256": "8528c352ed0ec01f48bd1bec4ad4e53520a27203d69797e639dca096a56da4d9",
+      "git_sha256": "8528c352ed0ec01f48bd1bec4ad4e53520a27203d69797e639dca096a56da4d9",
+      "normalized_sha256": "8528c352ed0ec01f48bd1bec4ad4e53520a27203d69797e639dca096a56da4d9"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "git_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "normalized_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/V4.2_静态验证报告.md",
+      "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "git_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "normalized_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/验证与使用说明.md",
+      "sha256": "4656de5078f853c678f612e5779d4f95ea6bd74a79d4c96fefd63058156003c5",
+      "git_sha256": "4656de5078f853c678f612e5779d4f95ea6bd74a79d4c96fefd63058156003c5",
+      "normalized_sha256": "4656de5078f853c678f612e5779d4f95ea6bd74a79d4c96fefd63058156003c5"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/HRG_WA_V42_参数与控制器修调指南.md",
+      "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "git_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "normalized_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/PACKAGE_MANIFEST.md",
+      "sha256": "4d34a7bc28e842d3d46ccf54b02a10b40d8401fc4b8fc75d26190af69a51f551",
+      "git_sha256": "4d34a7bc28e842d3d46ccf54b02a10b40d8401fc4b8fc75d26190af69a51f551",
+      "normalized_sha256": "4d34a7bc28e842d3d46ccf54b02a10b40d8401fc4b8fc75d26190af69a51f551"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/README.md",
+      "sha256": "348b8b6a2d5204017234c9b915daa898016273dcbe280a227b384446987d9390",
+      "git_sha256": "348b8b6a2d5204017234c9b915daa898016273dcbe280a227b384446987d9390",
+      "normalized_sha256": "348b8b6a2d5204017234c9b915daa898016273dcbe280a227b384446987d9390"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "git_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "normalized_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.2_静态验证报告.md",
+      "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "git_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "normalized_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.3.1_在线标定安全释放修复说明.md",
+      "sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+      "git_sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+      "normalized_sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.3_在线标定功能说明.md",
+      "sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+      "git_sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+      "normalized_sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/验证与使用说明.md",
+      "sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+      "git_sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+      "normalized_sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/HRG_WA_V42_参数与控制器修调指南.md",
+      "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "git_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "normalized_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/PACKAGE_MANIFEST.md",
+      "sha256": "838338fab557be11694c516eebd32a7eba44da84c4905bc491f110e6ef08a6c6",
+      "git_sha256": "838338fab557be11694c516eebd32a7eba44da84c4905bc491f110e6ef08a6c6",
+      "normalized_sha256": "838338fab557be11694c516eebd32a7eba44da84c4905bc491f110e6ef08a6c6"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/README.md",
+      "sha256": "584e1bb45c1768a96b76e788c7ead4a2ddc2f33d9ac0b4e60c6b561f0ae31c68",
+      "git_sha256": "584e1bb45c1768a96b76e788c7ead4a2ddc2f33d9ac0b4e60c6b561f0ae31c68",
+      "normalized_sha256": "584e1bb45c1768a96b76e788c7ead4a2ddc2f33d9ac0b4e60c6b561f0ae31c68"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "git_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "normalized_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.2_静态验证报告.md",
+      "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "git_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "normalized_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.3_在线标定功能说明.md",
+      "sha256": "8375b7c9bea0ae676a428b0398bb6265139eb35f3726597d5922310272953d4b",
+      "git_sha256": "8375b7c9bea0ae676a428b0398bb6265139eb35f3726597d5922310272953d4b",
+      "normalized_sha256": "8375b7c9bea0ae676a428b0398bb6265139eb35f3726597d5922310272953d4b"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/验证与使用说明.md",
+      "sha256": "87fe86eed766c98d96c2497b8075a7fe96e3b5c935270e67c3bc17be5d58e89f",
+      "git_sha256": "87fe86eed766c98d96c2497b8075a7fe96e3b5c935270e67c3bc17be5d58e89f",
+      "normalized_sha256": "87fe86eed766c98d96c2497b8075a7fe96e3b5c935270e67c3bc17be5d58e89f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/HRG_WA_V42_参数与控制器修调指南.md",
+      "sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "git_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "normalized_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/PACKAGE_MANIFEST.md",
+      "sha256": "109e25eb53e046ee84254fbf469c2c8b362b43bcf364d14e922903de3175e6bb",
+      "git_sha256": "109e25eb53e046ee84254fbf469c2c8b362b43bcf364d14e922903de3175e6bb",
+      "normalized_sha256": "109e25eb53e046ee84254fbf469c2c8b362b43bcf364d14e922903de3175e6bb"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/README.md",
+      "sha256": "9f06bf026e7bbbed74f7aab6ff3e80e58e33cff108707babcc781a0143173346",
+      "git_sha256": "9f06bf026e7bbbed74f7aab6ff3e80e58e33cff108707babcc781a0143173346",
+      "normalized_sha256": "9f06bf026e7bbbed74f7aab6ff3e80e58e33cff108707babcc781a0143173346"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "git_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "normalized_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.2_静态验证报告.md",
+      "sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "git_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "normalized_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.3.1_在线标定安全释放修复说明.md",
+      "sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+      "git_sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+      "normalized_sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.3_在线标定功能说明.md",
+      "sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+      "git_sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+      "normalized_sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.4_位真ASIC功能说明.md",
+      "sha256": "ca2f9a29f149cb4093955cad7333bafa87f36f71306aa86925b81350966b30e5",
+      "git_sha256": "ca2f9a29f149cb4093955cad7333bafa87f36f71306aa86925b81350966b30e5",
+      "normalized_sha256": "ca2f9a29f149cb4093955cad7333bafa87f36f71306aa86925b81350966b30e5"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/验证与使用说明.md",
+      "sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+      "git_sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+      "normalized_sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/HRG_WA_V45_参数与控制器修调指南.md",
+      "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "git_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "normalized_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/PACKAGE_MANIFEST.md",
+      "sha256": "7e10216fc084f2c3139885e39ca02c62bf8c5be10ffa041e1640a08a46faaf4c",
+      "git_sha256": "7e10216fc084f2c3139885e39ca02c62bf8c5be10ffa041e1640a08a46faaf4c",
+      "normalized_sha256": "7e10216fc084f2c3139885e39ca02c62bf8c5be10ffa041e1640a08a46faaf4c"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/README.md",
+      "sha256": "670daf6f840940114669917374f0dce7df57bcb00c57b05ae7ee21fb51d02c31",
+      "git_sha256": "670daf6f840940114669917374f0dce7df57bcb00c57b05ae7ee21fb51d02c31",
+      "normalized_sha256": "670daf6f840940114669917374f0dce7df57bcb00c57b05ae7ee21fb51d02c31"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "git_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "normalized_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2_静态验证报告.md",
+      "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "git_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "normalized_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3.1_在线标定安全释放修复说明.md",
+      "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "git_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "normalized_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3_在线标定功能说明.md",
+      "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "git_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "normalized_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.4_位真ASIC功能说明.md",
+      "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "git_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "normalized_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5.1_FRP回归Bug修复说明.md",
+      "sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "git_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "normalized_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_多误差FRP联合辨识说明.md",
+      "sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "git_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "normalized_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_静态审计报告.md",
+      "sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "git_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "normalized_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/验证与使用说明.md",
+      "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "git_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "normalized_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/HRG_WA_V45_参数与控制器修调指南.md",
+      "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "git_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "normalized_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/PACKAGE_MANIFEST.md",
+      "sha256": "96db41561e6d294ca712b7b319930cdd795805ff1421e112460b0ab6ea0b188f",
+      "git_sha256": "96db41561e6d294ca712b7b319930cdd795805ff1421e112460b0ab6ea0b188f",
+      "normalized_sha256": "96db41561e6d294ca712b7b319930cdd795805ff1421e112460b0ab6ea0b188f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/README.md",
+      "sha256": "8a23d592f082259955cb8661ebf92bb8c399fbddcbb0f16e82f591e96fcd3471",
+      "git_sha256": "8a23d592f082259955cb8661ebf92bb8c399fbddcbb0f16e82f591e96fcd3471",
+      "normalized_sha256": "8a23d592f082259955cb8661ebf92bb8c399fbddcbb0f16e82f591e96fcd3471"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "git_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "normalized_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2_静态验证报告.md",
+      "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "git_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "normalized_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3.1_在线标定安全释放修复说明.md",
+      "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "git_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "normalized_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3_在线标定功能说明.md",
+      "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "git_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "normalized_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.4_位真ASIC功能说明.md",
+      "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "git_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "normalized_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_多误差FRP联合辨识说明.md",
+      "sha256": "958bf19c27f8931012689c30436ad98a28f7d18c63fdcf53e623e9ba632f73b7",
+      "git_sha256": "958bf19c27f8931012689c30436ad98a28f7d18c63fdcf53e623e9ba632f73b7",
+      "normalized_sha256": "958bf19c27f8931012689c30436ad98a28f7d18c63fdcf53e623e9ba632f73b7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_静态审计报告.md",
+      "sha256": "fb262f75eb1888ca8ac0bd87531aa15fa26e3801ff7e1fa8243935329c24b8a3",
+      "git_sha256": "fb262f75eb1888ca8ac0bd87531aa15fa26e3801ff7e1fa8243935329c24b8a3",
+      "normalized_sha256": "fb262f75eb1888ca8ac0bd87531aa15fa26e3801ff7e1fa8243935329c24b8a3"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/验证与使用说明.md",
+      "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "git_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "normalized_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/README.md",
+      "sha256": "d6c832ff1546c4822de9410e296d36c2235ca4596a15ddff5ae192bf02755f3e",
+      "git_sha256": "d6c832ff1546c4822de9410e296d36c2235ca4596a15ddff5ae192bf02755f3e",
+      "normalized_sha256": "d6c832ff1546c4822de9410e296d36c2235ca4596a15ddff5ae192bf02755f3e"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/README_表头配置.md",
+      "sha256": "24c6631956298cbe0cf53a3be9fa4ab53c32dbe4ab87b41d192d1e5b532b0a9d",
+      "git_sha256": "24c6631956298cbe0cf53a3be9fa4ab53c32dbe4ab87b41d192d1e5b532b0a9d",
+      "normalized_sha256": "24c6631956298cbe0cf53a3be9fa4ab53c32dbe4ab87b41d192d1e5b532b0a9d"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/patent/一种面向全角模式半球谐振陀螺的多速率定点传感器接口电路_发明专利申请草案.md",
+      "sha256": "9cf9651d1ee07578694ed50cec93d1093c02e4d7b154a8b46fedcaf7aa736bd5",
+      "git_sha256": "9cf9651d1ee07578694ed50cec93d1093c02e4d7b154a8b46fedcaf7aa736bd5",
+      "normalized_sha256": "9cf9651d1ee07578694ed50cec93d1093c02e4d7b154a8b46fedcaf7aa736bd5"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/patent/附图绘制与申请前审查清单.md",
+      "sha256": "60808088ada24380303088ce6836cde50a8f90c70cd8b0318ededcc7af40154e",
+      "git_sha256": "60808088ada24380303088ce6836cde50a8f90c70cd8b0318ededcc7af40154e",
+      "normalized_sha256": "60808088ada24380303088ce6836cde50a8f90c70cd8b0318ededcc7af40154e"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/VERIFICATION.md",
+      "sha256": "298f473421d63749aac23fd252d527a03b77e2b5618564366b0e9cc0191039d2",
+      "git_sha256": "298f473421d63749aac23fd252d527a03b77e2b5618564366b0e9cc0191039d2",
+      "normalized_sha256": "298f473421d63749aac23fd252d527a03b77e2b5618564366b0e9cc0191039d2"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/README_等价性验证报告.md",
+      "sha256": "f2330ab4370e0e32afc4a181d881fe39e85483e1ccf9ca25878c5f51f5875f42",
+      "git_sha256": "f2330ab4370e0e32afc4a181d881fe39e85483e1ccf9ca25878c5f51f5875f42",
+      "normalized_sha256": "f2330ab4370e0e32afc4a181d881fe39e85483e1ccf9ca25878c5f51f5875f42"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md",
+      "sha256": "f1a8ed78b8dfa49aadda99bdf134d7436fc702718c9d63ad5c4a406bcaed86cb",
+      "git_sha256": "f1a8ed78b8dfa49aadda99bdf134d7436fc702718c9d63ad5c4a406bcaed86cb",
+      "normalized_sha256": "f1a8ed78b8dfa49aadda99bdf134d7436fc702718c9d63ad5c4a406bcaed86cb"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_V45_参数与控制器修调指南.md",
+      "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "git_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "normalized_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/PACKAGE_MANIFEST.md",
+      "sha256": "f9c0fc30987c4f7c01e2901f7372a2e60fe7933dee4e692b7f597da2e7d7ad65",
+      "git_sha256": "f9c0fc30987c4f7c01e2901f7372a2e60fe7933dee4e692b7f597da2e7d7ad65",
+      "normalized_sha256": "f9c0fc30987c4f7c01e2901f7372a2e60fe7933dee4e692b7f597da2e7d7ad65"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/README.md",
+      "sha256": "d7dac8153b4db9fb3a35f3219f6af642f9093848d6d43b584799c0434e0d2197",
+      "git_sha256": "d7dac8153b4db9fb3a35f3219f6af642f9093848d6d43b584799c0434e0d2197",
+      "normalized_sha256": "d7dac8153b4db9fb3a35f3219f6af642f9093848d6d43b584799c0434e0d2197"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "git_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "normalized_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.2_静态验证报告.md",
+      "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "git_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "normalized_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.3.1_在线标定安全释放修复说明.md",
+      "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "git_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "normalized_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.3_在线标定功能说明.md",
+      "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "git_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "normalized_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.4_位真ASIC功能说明.md",
+      "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "git_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "normalized_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5.1_FRP回归Bug修复说明.md",
+      "sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "git_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "normalized_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5_多误差FRP联合辨识说明.md",
+      "sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "git_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "normalized_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5_静态审计报告.md",
+      "sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "git_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "normalized_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.1_FRP门控与A_B验收修复说明.md",
+      "sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+      "git_sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+      "normalized_sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.2_Oracle_ABC与RLS修复说明.md",
+      "sha256": "dafd920f89feb833acb41a13073789ef18d07de77df119ef2e163c1353181592",
+      "git_sha256": "dafd920f89feb833acb41a13073789ef18d07de77df119ef2e163c1353181592",
+      "normalized_sha256": "dafd920f89feb833acb41a13073789ef18d07de77df119ef2e163c1353181592"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.3_零速符号与配置覆盖修复说明.md",
+      "sha256": "4e6c91bbc05dcf166630bfe1e741301baede9ee82802bcd864fb099b874ad0a0",
+      "git_sha256": "4e6c91bbc05dcf166630bfe1e741301baede9ee82802bcd864fb099b874ad0a0",
+      "normalized_sha256": "4e6c91bbc05dcf166630bfe1e741301baede9ee82802bcd864fb099b874ad0a0"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.4_RLS等价批量LS与独立角扫说明.md",
+      "sha256": "c6f13c1c6d52f0efaf956ce25d792f416d0e7d2ee6231195f909c46bef9680de",
+      "git_sha256": "c6f13c1c6d52f0efaf956ce25d792f416d0e7d2ee6231195f909c46bef9680de",
+      "normalized_sha256": "c6f13c1c6d52f0efaf956ce25d792f416d0e7d2ee6231195f909c46bef9680de"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.5_FRP可观测基函数与独立验证修复报告.md",
+      "sha256": "6542651b0790ad40a66b3588079232cb57af09556347d25cae468fd572be68b2",
+      "git_sha256": "6542651b0790ad40a66b3588079232cb57af09556347d25cae468fd572be68b2",
+      "normalized_sha256": "6542651b0790ad40a66b3588079232cb57af09556347d25cae468fd572be68b2"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6_独立真值与先进算法说明.md",
+      "sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+      "git_sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+      "normalized_sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6_静态验证报告.md",
+      "sha256": "e5af54aa5e4ae2916aff89e25cd65b17e6cb732779e926fc4c80de287f86a4ff",
+      "git_sha256": "e5af54aa5e4ae2916aff89e25cd65b17e6cb732779e926fc4c80de287f86a4ff",
+      "normalized_sha256": "e5af54aa5e4ae2916aff89e25cd65b17e6cb732779e926fc4c80de287f86a4ff"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/deliverables_hrg_whitepaper/半球谐振陀螺技术详解白皮书_V1.0_20260825.md",
+      "sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c",
+      "git_sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c",
+      "normalized_sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/deliverables_hrg_whitepaper/半球谐振陀螺资料索引_20260825.md",
+      "sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+      "git_sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+      "normalized_sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/仿真验证结果汇总.md",
+      "sha256": "af73f7c07d444d1beb992770efcbf149bd9006738c6584d3a3c3fcd686055e6e",
+      "git_sha256": "af73f7c07d444d1beb992770efcbf149bd9006738c6584d3a3c3fcd686055e6e",
+      "normalized_sha256": "af73f7c07d444d1beb992770efcbf149bd9006738c6584d3a3c3fcd686055e6e"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/验证与使用说明.md",
+      "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "git_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "normalized_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/HRG_WA_V45_参数与控制器修调指南.md",
+      "sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "git_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "normalized_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/PACKAGE_MANIFEST.md",
+      "sha256": "40e106ac502a6625a669e3cbff490e95516ca747640c26750d47de76cf51a42f",
+      "git_sha256": "40e106ac502a6625a669e3cbff490e95516ca747640c26750d47de76cf51a42f",
+      "normalized_sha256": "40e106ac502a6625a669e3cbff490e95516ca747640c26750d47de76cf51a42f"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/README.md",
+      "sha256": "c5cf5109847b71dc60229a526c0ebfe744d4977e20d9471f47b6e0b9d26ebcb6",
+      "git_sha256": "c5cf5109847b71dc60229a526c0ebfe744d4977e20d9471f47b6e0b9d26ebcb6",
+      "normalized_sha256": "c5cf5109847b71dc60229a526c0ebfe744d4977e20d9471f47b6e0b9d26ebcb6"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.2.2_能量入口可信度修复说明.md",
+      "sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "git_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "normalized_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.2_静态验证报告.md",
+      "sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "git_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "normalized_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.3.1_在线标定安全释放修复说明.md",
+      "sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "git_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "normalized_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.3_在线标定功能说明.md",
+      "sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "git_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "normalized_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.4_位真ASIC功能说明.md",
+      "sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "git_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "normalized_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5.1_FRP回归Bug修复说明.md",
+      "sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "git_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "normalized_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5_多误差FRP联合辨识说明.md",
+      "sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "git_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "normalized_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5_静态审计报告.md",
+      "sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "git_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "normalized_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6.1_FRP门控与A_B验收修复说明.md",
+      "sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+      "git_sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+      "normalized_sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6_独立真值与先进算法说明.md",
+      "sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+      "git_sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+      "normalized_sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6_静态验证报告.md",
+      "sha256": "903e4c15c9057472543f894451117e07d7843c7a20bdf1f8e537bb350e9880e2",
+      "git_sha256": "903e4c15c9057472543f894451117e07d7843c7a20bdf1f8e537bb350e9880e2",
+      "normalized_sha256": "903e4c15c9057472543f894451117e07d7843c7a20bdf1f8e537bb350e9880e2"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/验证与使用说明.md",
+      "sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "git_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "normalized_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695"
+    },
+    {
+      "path": "HRG_WA_simulink/README.md",
+      "sha256": "47b2dbab5c02d1adc219fc57e50b6a859c7c07fa8d0f0408d9df2ae1f2ee584a",
+      "git_sha256": "47b2dbab5c02d1adc219fc57e50b6a859c7c07fa8d0f0408d9df2ae1f2ee584a",
+      "normalized_sha256": "47b2dbab5c02d1adc219fc57e50b6a859c7c07fa8d0f0408d9df2ae1f2ee584a"
+    },
+    {
+      "path": "HRG_WA_simulink/identifiability_v9/README.md",
+      "sha256": "f0482b9dd1bdbb0be269d934b4fe0302f934b2663726bbc0b9814d52c6c74b11",
+      "git_sha256": "f0482b9dd1bdbb0be269d934b4fe0302f934b2663726bbc0b9814d52c6c74b11",
+      "normalized_sha256": "f0482b9dd1bdbb0be269d934b4fe0302f934b2663726bbc0b9814d52c6c74b11"
+    },
+    {
+      "path": "HRG_WA_simulink/identifiability_v9/docs/from_zero.md",
+      "sha256": "87ce487af1e63f667825dfd97b0fa61ead309ddabfcf95dc27bc01e7e8d18c78",
+      "git_sha256": "87ce487af1e63f667825dfd97b0fa61ead309ddabfcf95dc27bc01e7e8d18c78",
+      "normalized_sha256": "87ce487af1e63f667825dfd97b0fa61ead309ddabfcf95dc27bc01e7e8d18c78"
+    },
+    {
+      "path": "HRG_WA_simulink/identifiability_v9/docs/protocol.md",
+      "sha256": "485429afa06bfec766da2ca14749e08dfc2846d9700ac0e564789d29d96d156f",
+      "git_sha256": "485429afa06bfec766da2ca14749e08dfc2846d9700ac0e564789d29d96d156f",
+      "normalized_sha256": "485429afa06bfec766da2ca14749e08dfc2846d9700ac0e564789d29d96d156f"
+    },
+    {
+      "path": "HRG_WA_simulink/identifiability_v9/docs/results.md",
+      "sha256": "60a7db9fffc5b6a583383ba663321affb57b6d69478ecea16d0e91b5d5272484",
+      "git_sha256": "60a7db9fffc5b6a583383ba663321affb57b6d69478ecea16d0e91b5d5272484",
+      "normalized_sha256": "60a7db9fffc5b6a583383ba663321affb57b6d69478ecea16d0e91b5d5272484"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/README.md",
+      "sha256": "96bc7a740059136facfdb849e396c0eeb64787498e129b277f278508237bf2cf",
+      "git_sha256": "96bc7a740059136facfdb849e396c0eeb64787498e129b277f278508237bf2cf",
+      "normalized_sha256": "96bc7a740059136facfdb849e396c0eeb64787498e129b277f278508237bf2cf"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/docs/literature_derivation_comparison.md",
+      "sha256": "10d835260522d95fa362007c76862e1b95297f34d3af9fb5da3e11eef595795d",
+      "git_sha256": "10d835260522d95fa362007c76862e1b95297f34d3af9fb5da3e11eef595795d",
+      "normalized_sha256": "10d835260522d95fa362007c76862e1b95297f34d3af9fb5da3e11eef595795d"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/docs/literature_method_matrix.md",
+      "sha256": "ed78b8d683f3b35e5e43a553b257e9a03fcb9d3b304e7a4cbe4f14cdf998ecae",
+      "git_sha256": "ed78b8d683f3b35e5e43a553b257e9a03fcb9d3b304e7a4cbe4f14cdf998ecae",
+      "normalized_sha256": "ed78b8d683f3b35e5e43a553b257e9a03fcb9d3b304e7a4cbe4f14cdf998ecae"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/docs/methodology.md",
+      "sha256": "478278912ec4a960ebeb80a49489a53af3719d847e6c5a7cd6c3cbf47e8ecfaf",
+      "git_sha256": "478278912ec4a960ebeb80a49489a53af3719d847e6c5a7cd6c3cbf47e8ecfaf",
+      "normalized_sha256": "478278912ec4a960ebeb80a49489a53af3719d847e6c5a7cd6c3cbf47e8ecfaf"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md",
+      "sha256": "7f840b0139a805e13da606bbd02519bfdcfa32226b83730b1a63278d14564304",
+      "git_sha256": "7f840b0139a805e13da606bbd02519bfdcfa32226b83730b1a63278d14564304",
+      "normalized_sha256": "7f840b0139a805e13da606bbd02519bfdcfa32226b83730b1a63278d14564304"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/docs/principle_review_acceptance.md",
+      "sha256": "f01001d2a6f4b3e6f8ef846f119fa773cb13771bfe822148380dce62e1596af8",
+      "git_sha256": "f01001d2a6f4b3e6f8ef846f119fa773cb13771bfe822148380dce62e1596af8",
+      "normalized_sha256": "f01001d2a6f4b3e6f8ef846f119fa773cb13771bfe822148380dce62e1596af8"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/docs/results.md",
+      "sha256": "4bf7e6bb5c9a512f9981d0cf323ff2d9d8387ccd9d6ca67d3ee79c569546f050",
+      "git_sha256": "4bf7e6bb5c9a512f9981d0cf323ff2d9d8387ccd9d6ca67d3ee79c569546f050",
+      "normalized_sha256": "4bf7e6bb5c9a512f9981d0cf323ff2d9d8387ccd9d6ca67d3ee79c569546f050"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md",
+      "sha256": "8dce4b8c3edc326f7aeadccdd31cafb5b390130510ce2fcda02971d8bed7828d",
+      "git_sha256": "8dce4b8c3edc326f7aeadccdd31cafb5b390130510ce2fcda02971d8bed7828d",
+      "normalized_sha256": "8dce4b8c3edc326f7aeadccdd31cafb5b390130510ce2fcda02971d8bed7828d"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/evidence/demo_window_fix/README.md",
+      "sha256": "504efb65195b529718a947e5b87032e73d478d6b34e16d296fbe8e9a65d943ed",
+      "git_sha256": "504efb65195b529718a947e5b87032e73d478d6b34e16d296fbe8e9a65d943ed",
+      "normalized_sha256": "504efb65195b529718a947e5b87032e73d478d6b34e16d296fbe8e9a65d943ed"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/evidence/principle_acceptance/README.md",
+      "sha256": "9c7f8c9081022c648ac5eaeead8b30a0152ec4032453023ec60d1a20e534d848",
+      "git_sha256": "9c7f8c9081022c648ac5eaeead8b30a0152ec4032453023ec60d1a20e534d848",
+      "normalized_sha256": "9c7f8c9081022c648ac5eaeead8b30a0152ec4032453023ec60d1a20e534d848"
+    },
+    {
+      "path": "HRG_WA_simulink/layered/evidence/spectrum_fix/README.md",
+      "sha256": "54934b872247ad4e83e59478977bda06ee935d8a5b3bc05558c069ff4075f2dc",
+      "git_sha256": "54934b872247ad4e83e59478977bda06ee935d8a5b3bc05558c069ff4075f2dc",
+      "normalized_sha256": "54934b872247ad4e83e59478977bda06ee935d8a5b3bc05558c069ff4075f2dc"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_formula_review/corpus_mapping.md",
+      "sha256": "25fa656f32b3d296a8b75dd481737f988f19b324f100b28e8aa846ceab7f397d",
+      "git_sha256": "25fa656f32b3d296a8b75dd481737f988f19b324f100b28e8aa846ceab7f397d",
+      "normalized_sha256": "25fa656f32b3d296a8b75dd481737f988f19b324f100b28e8aa846ceab7f397d"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_formula_review/formula_by_formula_comparison.md",
+      "sha256": "313eafaf912788f752332c621c50b3e04ca9a2f831003519c5f5cdcde387e043",
+      "git_sha256": "313eafaf912788f752332c621c50b3e04ca9a2f831003519c5f5cdcde387e043",
+      "normalized_sha256": "313eafaf912788f752332c621c50b3e04ca9a2f831003519c5f5cdcde387e043"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_formula_review/source_provenance_note.md",
+      "sha256": "d637fc953bc85ba5d1bfe881ebd27e83ec3413e1ac47e63fa647ea84260423df",
+      "git_sha256": "d637fc953bc85ba5d1bfe881ebd27e83ec3413e1ac47e63fa647ea84260423df",
+      "normalized_sha256": "d637fc953bc85ba5d1bfe881ebd27e83ec3413e1ac47e63fa647ea84260423df"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v7/README.md",
+      "sha256": "262d5bb074239f73269e8ff1292ba0e5910624bf758a2e0ef07ced2958c3c273",
+      "git_sha256": "262d5bb074239f73269e8ff1292ba0e5910624bf758a2e0ef07ced2958c3c273",
+      "normalized_sha256": "262d5bb074239f73269e8ff1292ba0e5910624bf758a2e0ef07ced2958c3c273"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v7/docs/mechanics_to_circuits.md",
+      "sha256": "7d009707a6edce3620d4bdca13eca1ba012bc5485805cf8623cf4a0c1d441752",
+      "git_sha256": "7d009707a6edce3620d4bdca13eca1ba012bc5485805cf8623cf4a0c1d441752",
+      "normalized_sha256": "7d009707a6edce3620d4bdca13eca1ba012bc5485805cf8623cf4a0c1d441752"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v7/docs/results.md",
+      "sha256": "25b944ca43d38aa3890834a6de5dee6f7c20b20280ea4cc89f65005852efecd1",
+      "git_sha256": "25b944ca43d38aa3890834a6de5dee6f7c20b20280ea4cc89f65005852efecd1",
+      "normalized_sha256": "25b944ca43d38aa3890834a6de5dee6f7c20b20280ea4cc89f65005852efecd1"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v8_research/README.md",
+      "sha256": "620244680e48f66e5029fe13b7338895d2c62b09b18e46d8e53832ccccd613f0",
+      "git_sha256": "620244680e48f66e5029fe13b7338895d2c62b09b18e46d8e53832ccccd613f0",
+      "normalized_sha256": "620244680e48f66e5029fe13b7338895d2c62b09b18e46d8e53832ccccd613f0"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v8_research/docs/calculation_trace.md",
+      "sha256": "764d7fa35bd139c5fc6eea192113a082703ab9797bf5c73c9de4fe1bf93060ef",
+      "git_sha256": "764d7fa35bd139c5fc6eea192113a082703ab9797bf5c73c9de4fe1bf93060ef",
+      "normalized_sha256": "764d7fa35bd139c5fc6eea192113a082703ab9797bf5c73c9de4fe1bf93060ef"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md",
+      "sha256": "92c08e6b49b026399c90aeb7eb5baed028678d22c7a13d33ec970306a7637223",
+      "git_sha256": "92c08e6b49b026399c90aeb7eb5baed028678d22c7a13d33ec970306a7637223",
+      "normalized_sha256": "92c08e6b49b026399c90aeb7eb5baed028678d22c7a13d33ec970306a7637223"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v8_research/docs/model_exploration.md",
+      "sha256": "78054a976d66e8597c6dfb740e85be8e3499842fdac0ab74ec06b2b0d2c6770f",
+      "git_sha256": "78054a976d66e8597c6dfb740e85be8e3499842fdac0ab74ec06b2b0d2c6770f",
+      "normalized_sha256": "78054a976d66e8597c6dfb740e85be8e3499842fdac0ab74ec06b2b0d2c6770f"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_v8_research/docs/new_source_coverage.md",
+      "sha256": "3c813784fdccbaea73346c84fc03c9c8f78a52687e49724c2a868260898f3ddf",
+      "git_sha256": "3c813784fdccbaea73346c84fc03c9c8f78a52687e49724c2a868260898f3ddf",
+      "normalized_sha256": "3c813784fdccbaea73346c84fc03c9c8f78a52687e49724c2a868260898f3ddf"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_zotero_research/README.md",
+      "sha256": "25cb38cbf9419a8a9345a94566ca54ea8689d4580fb357d0f3d3399cb867c2f8",
+      "git_sha256": "25cb38cbf9419a8a9345a94566ca54ea8689d4580fb357d0f3d3399cb867c2f8",
+      "normalized_sha256": "25cb38cbf9419a8a9345a94566ca54ea8689d4580fb357d0f3d3399cb867c2f8"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_zotero_research/docs/paper_comparison.md",
+      "sha256": "c24eb343c080dbdef30e0d3cdf276bd4e30c8e0b44e31ddf7ec5ffa2e7614ba4",
+      "git_sha256": "c24eb343c080dbdef30e0d3cdf276bd4e30c8e0b44e31ddf7ec5ffa2e7614ba4",
+      "normalized_sha256": "c24eb343c080dbdef30e0d3cdf276bd4e30c8e0b44e31ddf7ec5ffa2e7614ba4"
+    },
+    {
+      "path": "HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md",
+      "sha256": "8bb0d6707a7fa2f867b474399f29cf4cb1c1a8c8a7cd829dbfd89f7f4e555ce3",
+      "git_sha256": "8bb0d6707a7fa2f867b474399f29cf4cb1c1a8c8a7cd829dbfd89f7f4e555ce3",
+      "normalized_sha256": "8bb0d6707a7fa2f867b474399f29cf4cb1c1a8c8a7cd829dbfd89f7f4e555ce3"
+    },
+    {
+      "path": "HRG_WA_simulink/原工程分析与建模依据.md",
+      "sha256": "4db2b3fc9d888c1f120a4080a25de0da6532276729722f14b6ec63a6fe6d7569",
+      "git_sha256": "4db2b3fc9d888c1f120a4080a25de0da6532276729722f14b6ec63a6fe6d7569",
+      "normalized_sha256": "4db2b3fc9d888c1f120a4080a25de0da6532276729722f14b6ec63a6fe6d7569"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包/deliverables/HRG_WA_Digital_ASIC_MATLAB_v3/README.md",
+      "sha256": "784dfc830b50929fcc80569976ec582957d187b3e320cfaca0a22867ffc1075f",
+      "git_sha256": "784dfc830b50929fcc80569976ec582957d187b3e320cfaca0a22867ffc1075f",
+      "normalized_sha256": "784dfc830b50929fcc80569976ec582957d187b3e320cfaca0a22867ffc1075f"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包/deliverables/HRG_WA_Digital_ASIC_MATLAB_v3/验证与使用说明.md",
+      "sha256": "5e35c7682d358dceb10f2297def4b528e3cebf5900cf85b5cd4997d86a5e5f58",
+      "git_sha256": "5e35c7682d358dceb10f2297def4b528e3cebf5900cf85b5cd4997d86a5e5f58",
+      "normalized_sha256": "5e35c7682d358dceb10f2297def4b528e3cebf5900cf85b5cd4997d86a5e5f58"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/HRG_WA_V4_参数与控制器修调指南.md",
+      "sha256": "6506a82d280b91a37bb737a6617041e89ca397922dafd6bd04c1da69a8fabffd",
+      "git_sha256": "6506a82d280b91a37bb737a6617041e89ca397922dafd6bd04c1da69a8fabffd",
+      "normalized_sha256": "6506a82d280b91a37bb737a6617041e89ca397922dafd6bd04c1da69a8fabffd"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/README.md",
+      "sha256": "0962f0ede1611520bdd8c375738d90d3ff96d335a9f80fc88fd6ed7586dcedef",
+      "git_sha256": "0962f0ede1611520bdd8c375738d90d3ff96d335a9f80fc88fd6ed7586dcedef",
+      "normalized_sha256": "0962f0ede1611520bdd8c375738d90d3ff96d335a9f80fc88fd6ed7586dcedef"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/验证与使用说明.md",
+      "sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+      "git_sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+      "normalized_sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/HRG_WA_V42_参数与控制器修调指南.md",
+      "sha256": "765df8768584f59c32d64d40d01c43a134ea625c621ceb5066f1565d6a44d727",
+      "git_sha256": "765df8768584f59c32d64d40d01c43a134ea625c621ceb5066f1565d6a44d727",
+      "normalized_sha256": "765df8768584f59c32d64d40d01c43a134ea625c621ceb5066f1565d6a44d727"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/PACKAGE_MANIFEST.md",
+      "sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+      "git_sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+      "normalized_sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/README.md",
+      "sha256": "24fa8ae2371640044cb037c922f491bff3a9e997f6e4a7fde0ad507f8bda7f47",
+      "git_sha256": "24fa8ae2371640044cb037c922f491bff3a9e997f6e4a7fde0ad507f8bda7f47",
+      "normalized_sha256": "24fa8ae2371640044cb037c922f491bff3a9e997f6e4a7fde0ad507f8bda7f47"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/V4.2_静态验证报告.md",
+      "sha256": "2e9ac997f9774d39f3a973fe3d3a2647fce765413a034e522b776d2b0b7b7de6",
+      "git_sha256": "2e9ac997f9774d39f3a973fe3d3a2647fce765413a034e522b776d2b0b7b7de6",
+      "normalized_sha256": "2e9ac997f9774d39f3a973fe3d3a2647fce765413a034e522b776d2b0b7b7de6"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/验证与使用说明.md",
+      "sha256": "293ddb30e0e75d3783c108c016c359181708c1d3a2481891bb307dc0a5a8902b",
+      "git_sha256": "293ddb30e0e75d3783c108c016c359181708c1d3a2481891bb307dc0a5a8902b",
+      "normalized_sha256": "293ddb30e0e75d3783c108c016c359181708c1d3a2481891bb307dc0a5a8902b"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/HRG_WA_V4_参数与控制器修调指南.md",
+      "sha256": "4eda5dd304d8e79a221f49019d081a913e5ba265988d55a73bc697bf53915cd9",
+      "git_sha256": "4eda5dd304d8e79a221f49019d081a913e5ba265988d55a73bc697bf53915cd9",
+      "normalized_sha256": "4eda5dd304d8e79a221f49019d081a913e5ba265988d55a73bc697bf53915cd9"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/README.md",
+      "sha256": "47ce58aa30c3fbc76fc8f1fbae63319ed45efc8390bac5429ea9ff36b62b62b9",
+      "git_sha256": "47ce58aa30c3fbc76fc8f1fbae63319ed45efc8390bac5429ea9ff36b62b62b9",
+      "normalized_sha256": "47ce58aa30c3fbc76fc8f1fbae63319ed45efc8390bac5429ea9ff36b62b62b9"
+    },
+    {
+      "path": "HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/验证与使用说明.md",
+      "sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+      "git_sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+      "normalized_sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682"
+    },
+    {
+      "path": "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/README_HRG_WA_RTL.md",
+      "sha256": "40765794be21c35dc9dec91b67b49937b44807bc0599de65658c4da6551aa563",
+      "git_sha256": "40765794be21c35dc9dec91b67b49937b44807bc0599de65658c4da6551aa563",
+      "normalized_sha256": "40765794be21c35dc9dec91b67b49937b44807bc0599de65658c4da6551aa563"
+    },
+    {
+      "path": "research/literature_acquisition_20261023/README.md",
+      "sha256": "1a6f58b6194e09feac47d5b05dea99895176336968306e43b0872d9a22a8d65e",
+      "git_sha256": "1a6f58b6194e09feac47d5b05dea99895176336968306e43b0872d9a22a8d65e",
+      "normalized_sha256": "1a6f58b6194e09feac47d5b05dea99895176336968306e43b0872d9a22a8d65e"
+    },
+    {
+      "path": "research/lynch1995_citing_20261024/README.md",
+      "sha256": "3dfdd28ed71f51844d928d28ade5aa1897f2a33358d7aa187f963e2062bb9eea",
+      "git_sha256": "3dfdd28ed71f51844d928d28ade5aa1897f2a33358d7aa187f963e2062bb9eea",
+      "normalized_sha256": "3dfdd28ed71f51844d928d28ade5aa1897f2a33358d7aa187f963e2062bb9eea"
+    },
+    {
+      "path": "research/lynch1995_citing_20261024/audit_notes.md",
+      "sha256": "29d0d842e769879e64332167328ebc03f0c069367e408da9965fbdca6270125c",
+      "git_sha256": "29d0d842e769879e64332167328ebc03f0c069367e408da9965fbdca6270125c",
+      "normalized_sha256": "29d0d842e769879e64332167328ebc03f0c069367e408da9965fbdca6270125c"
+    },
+    {
+      "path": "research/theory_20261026/README.md",
+      "sha256": "a78c50917ab45336260b42e95b3c91de26e4a2f769352b1e5cdc22cef50cecf9",
+      "git_sha256": "a78c50917ab45336260b42e95b3c91de26e4a2f769352b1e5cdc22cef50cecf9",
+      "normalized_sha256": "a78c50917ab45336260b42e95b3c91de26e4a2f769352b1e5cdc22cef50cecf9"
+    },
+    {
+      "path": "research/theory_20261026/derivation_academic_and_intuitive.md",
+      "sha256": "cfad2562a16001d2ad9b78a6fbbceaf40ca99ebdb306f488f5d1badf2993f761",
+      "git_sha256": "cfad2562a16001d2ad9b78a6fbbceaf40ca99ebdb306f488f5d1badf2993f761",
+      "normalized_sha256": "cfad2562a16001d2ad9b78a6fbbceaf40ca99ebdb306f488f5d1badf2993f761"
+    },
+    {
+      "path": "research/zotero_import_20261026/README.md",
+      "sha256": "31ba3387168093532c4f49bcdf6e5fbcebc72b085e71a97d8b9c1ef35c67e605",
+      "git_sha256": "31ba3387168093532c4f49bcdf6e5fbcebc72b085e71a97d8b9c1ef35c67e605",
+      "normalized_sha256": "31ba3387168093532c4f49bcdf6e5fbcebc72b085e71a97d8b9c1ef35c67e605"
+    },
+    {
+      "path": "research/zotero_integration_20261024/README.md",
+      "sha256": "bd8bbfe362b994439420300901fe8f8b9f10528b96425c039c1100819b7e8ed4",
+      "git_sha256": "bd8bbfe362b994439420300901fe8f8b9f10528b96425c039c1100819b7e8ed4",
+      "normalized_sha256": "bd8bbfe362b994439420300901fe8f8b9f10528b96425c039c1100819b7e8ed4"
+    },
+    {
+      "path": "research/zotero_integration_20261024/hrg_bibliographic_coverage.md",
+      "sha256": "225c27233761b6bd8087f646694099c07f9c243594e855579fd8e7da24d6aaac",
+      "git_sha256": "225c27233761b6bd8087f646694099c07f9c243594e855579fd8e7da24d6aaac",
+      "normalized_sha256": "225c27233761b6bd8087f646694099c07f9c243594e855579fd8e7da24d6aaac"
+    },
+    {
+      "path": "全角陀螺/00_索引与白皮书/半球谐振陀螺技术详解白皮书_V1.0_20260825.md",
+      "sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c",
+      "git_sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c",
+      "normalized_sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c"
+    },
+    {
+      "path": "全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md",
+      "sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+      "git_sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+      "normalized_sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0"
+    },
+    {
+      "path": "全角陀螺/新增资料_20261021_WoS/README.md",
+      "sha256": "90090b0b1c23da83cdec49cb96cfcae7b75fe6af516fb2cba120de1712877a2f",
+      "git_sha256": "9a6aa6ea6502829f37321c4162e11198a5f0d0928eb25daae3927c2fc4ab1a3d",
+      "normalized_sha256": "9a6aa6ea6502829f37321c4162e11198a5f0d0928eb25daae3927c2fc4ab1a3d"
+    },
+    {
+      "path": "全角陀螺/新增资料_20261021_WoS/检索记录与后续清单.md",
+      "sha256": "cf475031fa226c42773c613ee708f554c506f9d817156bb4df8bad0526cb8055",
+      "git_sha256": "cf475031fa226c42773c613ee708f554c506f9d817156bb4df8bad0526cb8055",
+      "normalized_sha256": "cf475031fa226c42773c613ee708f554c506f9d817156bb4df8bad0526cb8055"
+    },
+    {
+      "path": "全角陀螺从理论到产品与ASIC设计教材.md",
+      "sha256": "0fd96823e0506b4835be993c374973b10345205d2e89a5b287271214c3b57ee5",
+      "git_sha256": "0fd96823e0506b4835be993c374973b10345205d2e89a5b287271214c3b57ee5",
+      "normalized_sha256": "0fd96823e0506b4835be993c374973b10345205d2e89a5b287271214c3b57ee5"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/00_总览与阅读指南.md",
+      "sha256": "fe5aa985796139ff167327e62a0cd551e28cd57b4e51d4dcfb90850228b26673",
+      "git_sha256": "1f6308b785f6d4fe46c377371de6891626bd9048467f4b04d04c6708e4704b7e",
+      "normalized_sha256": "1f6308b785f6d4fe46c377371de6891626bd9048467f4b04d04c6708e4704b7e"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/01_已有研究工作与证据审计.md",
+      "sha256": "cca541e23823b1ef3bdc85b94d74b3294d9cb00fa450488566ea09e97e4de8c2",
+      "git_sha256": "1c163e61b8a821f20f1e773933b8c1037c3b5407a774de064784821b2a6ceb52",
+      "normalized_sha256": "1c163e61b8a821f20f1e773933b8c1037c3b5407a774de064784821b2a6ceb52"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/02_全角陀螺技术进展_截至20261010.md",
+      "sha256": "2975755b12af0674810a214f491c63d993a428e93b6777fb2822629dffd2e50d",
+      "git_sha256": "b68be58310080bc1fbbd1c7710a78eb937cdcacbac109d8ecb224e5407baf841",
+      "normalized_sha256": "b68be58310080bc1fbbd1c7710a78eb937cdcacbac109d8ecb224e5407baf841"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/03_创新候选与已有文献对照.md",
+      "sha256": "652144874db55c2c923c019693603536dec65d5d0ce720a51ade29800a4446e9",
+      "git_sha256": "08b67f02a1cc59bc4a68ee51b2db2701570f2104e55df9e14f99ebc432205e66",
+      "normalized_sha256": "08b67f02a1cc59bc4a68ee51b2db2701570f2104e55df9e14f99ebc432205e66"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/04_小论文选题与实验设计.md",
+      "sha256": "f4c4d164a76997678fcdd3d4db94d4fc5d18532045efb6279d459102c06e4669",
+      "git_sha256": "ce7ff7df3504d147430aae20629224b682540564deae49369f70cc83a30957a3",
+      "normalized_sha256": "ce7ff7df3504d147430aae20629224b682540564deae49369f70cc83a30957a3"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/05_2025中科院分区与附件期刊匹配.md",
+      "sha256": "cc7a020955cb4664e3208ba58ed5dcf04cf52980f0011c6bb27d330f46e9c67d",
+      "git_sha256": "037eb1cc192c0bd5e4394c75ee6e6da5af47bc802fbf4a48b84b1d5150579915",
+      "normalized_sha256": "037eb1cc192c0bd5e4394c75ee6e6da5af47bc802fbf4a48b84b1d5150579915"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/06_博士研究路线与阶段验收.md",
+      "sha256": "c12e6e81810afabe1c53171fa4f05fec73960061d2a4de12b5c3fee73fc4766f",
+      "git_sha256": "c4a3ec0ba8205e0dd3b9fcde7491fb655053dd7c695e8e96c6b4b88c67022777",
+      "normalized_sha256": "c4a3ec0ba8205e0dd3b9fcde7491fb655053dd7c695e8e96c6b4b88c67022777"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/07_网页版GPT讨论继承与结论差异.md",
+      "sha256": "ff03ecb7b1cb463f2c72c813db9854c30028b0ab02391b35b7a4f219381827f0",
+      "git_sha256": "ae06ec2e23e154d2477278dc6c7c5e78e3700eb5fad6740d44b112c55af2e8b0",
+      "normalized_sha256": "ae06ec2e23e154d2477278dc6c7c5e78e3700eb5fad6740d44b112c55af2e8b0"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/08_参考文献与检索记录.md",
+      "sha256": "13c6f02243bf4f51de9076a45732c73e14d4b879754165716b9e9298c4586711",
+      "git_sha256": "c21e7cd19f5fb602add2870c5361cce62dc054663b948f1c9ef82006a75b03f4",
+      "normalized_sha256": "c21e7cd19f5fb602add2870c5361cce62dc054663b948f1c9ef82006a75b03f4"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/09_本轮验证与交付检查.md",
+      "sha256": "35cdd994d69c4e33f49c49c7ae485d7691de027c49d20c6592c77f68c9314fb9",
+      "git_sha256": "cb454f40dd51cf10bc52b73f2008bbefc2588dee0ccdce0e0f8226ef520407f5",
+      "normalized_sha256": "cb454f40dd51cf10bc52b73f2008bbefc2588dee0ccdce0e0f8226ef520407f5"
+    },
+    {
+      "path": "研究评估与投稿建议_20261021/完成度与创新选题评估.md",
+      "sha256": "a6d59c931e5d937c1543b0354987e1a1660c95257d2a3364e7315c24a5afc805",
+      "git_sha256": "a6d59c931e5d937c1543b0354987e1a1660c95257d2a3364e7315c24a5afc805",
+      "normalized_sha256": "a6d59c931e5d937c1543b0354987e1a1660c95257d2a3364e7315c24a5afc805"
+    },
+    {
+      "path": "研究评估与投稿建议_20261021/电路指标调研/README.md",
+      "sha256": "85b778706290b45150588b4baa21cd768f2842d9188ef4e10ef2b2549f5502a4",
+      "git_sha256": "85b778706290b45150588b4baa21cd768f2842d9188ef4e10ef2b2549f5502a4",
+      "normalized_sha256": "85b778706290b45150588b4baa21cd768f2842d9188ef4e10ef2b2549f5502a4"
+    },
+    {
+      "path": "研究评估与投稿建议_20261021/电路指标调研/从表头模型推导电路指标.md",
+      "sha256": "5748632b4dafecb0a191b0a13a16f647ddcbe161f940451d35d165ef771750f7",
+      "git_sha256": "5748632b4dafecb0a191b0a13a16f647ddcbe161f940451d35d165ef771750f7",
+      "normalized_sha256": "5748632b4dafecb0a191b0a13a16f647ddcbe161f940451d35d165ef771750f7"
+    },
+    {
+      "path": "研究评估与投稿建议_20261021/电路指标调研/调研结论与模块指标.md",
+      "sha256": "e8068df45005fc6e4f074b60aaa96449629abed56a696e0c76f632b39ae7b309",
+      "git_sha256": "e8068df45005fc6e4f074b60aaa96449629abed56a696e0c76f632b39ae7b309",
+      "normalized_sha256": "e8068df45005fc6e4f074b60aaa96449629abed56a696e0c76f632b39ae7b309"
+    },
+    {
+      "path": "研究评估与投稿建议_20261021/第一创新方向_研究步骤与阶段验收.md",
+      "sha256": "73b578257d98670bf26bd9b7bb3fc84b4b5d370f190ba83f6885e6d47ba7a10a",
+      "git_sha256": "73b578257d98670bf26bd9b7bb3fc84b4b5d370f190ba83f6885e6d47ba7a10a",
+      "normalized_sha256": "73b578257d98670bf26bd9b7bb3fc84b4b5d370f190ba83f6885e6d47ba7a10a"
+    }
+  ]
+}
