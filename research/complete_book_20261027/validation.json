@@ -1,0 +1,2749 @@
+{
+  "date": "2026-10-27",
+  "pass_": true,
+  "checks": [
+    {
+      "name": "one_generated_archive_boundary",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_main_equation_numbers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "balanced_main_display_math",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_00_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_01_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_02_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_03_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_04_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_05_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_06_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_07_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_08_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_09_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_10_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_11_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_12_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_13_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_14_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_15_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_16_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_17_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_18_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_19_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_20_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_21_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_22_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_23_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_24_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_25_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_26_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_27_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_28_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_29_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_30_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_31_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_32_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_33_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_34_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_35_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_36_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_37_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_38_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_39_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_40_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_41_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_42_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_43_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_44_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter_45_paired_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_explicit_anchors",
+      "passed": true,
+      "detail": 1427
+    },
+    {
+      "name": "internal_links_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "MD001_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD001_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD001_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD002_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD002_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD002_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD002_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD003_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD003_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD003_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD004_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD004_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD004_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD005_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD005_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD005_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD005_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD006_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD007_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD007_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD007_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD008_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD008_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD008_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD009_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD009_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD009_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD010_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD011_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD012_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD013_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD014_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD014_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD014_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD014_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD015_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD015_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD015_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD016_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD016_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD016_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD017_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD017_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD017_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD018_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD018_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD018_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD019_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD019_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD019_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD020_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD020_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD021_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD021_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD021_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD022_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD022_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD022_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD023_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD024_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD025_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD025_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD025_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD026_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD026_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD026_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD027_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD027_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD027_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD028_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD028_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD029_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD029_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD029_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD030_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD030_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD030_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD031_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD032_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD033_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD033_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD033_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD034_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD034_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD034_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD035_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD035_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD036_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD036_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD036_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD037_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD037_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD037_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD038_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD039_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD040_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD041_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD042_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD042_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD042_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD043_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD044_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD044_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD044_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD044_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD045_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD045_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD045_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD046_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD046_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD046_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD047_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD047_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD047_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD048_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD048_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD048_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD049_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD049_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD049_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD050_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD050_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD050_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD051_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD051_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD051_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD052_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD052_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD052_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD053_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD053_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD053_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD054_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD054_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD054_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD055_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD055_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD055_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD056_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD056_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD057_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD057_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD057_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD058_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD058_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD058_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD059_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD060_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD061_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD062_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD063_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD064_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD064_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD064_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD065_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD065_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD065_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD066_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD067_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD067_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD067_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD068_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD068_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD068_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD069_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD069_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD069_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD070_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD070_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD070_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD071_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD071_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD071_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD072_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD072_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD072_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD073_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD073_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD073_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD074_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD074_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD075_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD075_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD075_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD076_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD076_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD076_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD077_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD078_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD079_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD080_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD081_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD082_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD083_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD084_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD085_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD085_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD085_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD086_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD086_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD086_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD087_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD087_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD087_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD088_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD088_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD088_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD089_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD089_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD089_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD090_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD090_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD090_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD091_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD091_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD091_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD092_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD092_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD092_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD093_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD094_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD094_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD094_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD095_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD096_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD096_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD097_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD097_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD097_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD098_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD098_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD098_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD099_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD100_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD101_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD102_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD103_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD104_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD105_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD106_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD107_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD108_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD109_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD109_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD109_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD110_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD111_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD111_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD111_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD112_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD112_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD112_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD113_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD113_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD113_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD113_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD114_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD114_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD114_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD115_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD115_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD115_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD116_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD116_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD116_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD117_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD117_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD117_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD117_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD118_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD118_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD118_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD119_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD119_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD119_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD120_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD120_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD120_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD121_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD121_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD121_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD122_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD122_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD122_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD123_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD123_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD123_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD123_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD124_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD124_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD124_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD125_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD125_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD125_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD126_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD126_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD126_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD127_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD127_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD127_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD128_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD128_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD128_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD128_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD129_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD129_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD129_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD130_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD130_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD130_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD131_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD131_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD131_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD131_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD132_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD132_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD132_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD133_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD133_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD133_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD134_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD134_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD134_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD135_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD135_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD135_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD135_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD136_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD136_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD136_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD137_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD137_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD137_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD138_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD138_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD138_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD139_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD139_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD139_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD140_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD140_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD140_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD140_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD141_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD141_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD141_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD142_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD142_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD142_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD143_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD143_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD143_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD144_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD144_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD144_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD144_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD145_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD145_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD145_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD146_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD146_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD146_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD147_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD147_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD147_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD147_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD148_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD149_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD149_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD149_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD150_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD150_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD150_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD151_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD151_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD151_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD152_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD152_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD152_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD152_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD153_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD153_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD153_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD154_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD155_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD155_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD155_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD156_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD157_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD158_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD159_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD159_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD159_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD160_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD160_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD160_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD160_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD161_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD162_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD163_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD164_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD165_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD166_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD167_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD168_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD168_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD168_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD168_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD169_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD169_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD169_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD170_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD170_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD170_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD170_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD171_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD171_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD171_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD172_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD172_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD172_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD173_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD173_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD173_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD174_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD174_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD174_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD175_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD175_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD175_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD176_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD176_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD176_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD177_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD177_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD177_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD178_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD178_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD178_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD179_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD179_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD179_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD179_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD180_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD180_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD180_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD181_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD181_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD181_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD182_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD182_theory_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD182_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD182_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD183_source_bytes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD183_display_equations_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MD183_code_fences_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "example_gamma",
+      "passed": true,
+      "detail": {
+        "actual": 0.007853981633974483,
+        "expected": 0.007853981633974483,
+        "tolerance": 1e-15
+      }
+    },
+    {
+      "name": "example_stiffness",
+      "passed": true,
+      "detail": {
+        "actual": 986.9604401089359,
+        "expected": 986.9604401089358,
+        "tolerance": 1e-09
+      }
+    },
+    {
+      "name": "example_hold_voltage",
+      "passed": true,
+      "detail": {
+        "actual": 0.0004934802200544679,
+        "expected": 0.0004934802200544679,
+        "tolerance": 1e-14
+      }
+    },
+    {
+      "name": "example_start_voltage",
+      "passed": true,
+      "detail": {
+        "actual": 0.6285653031261904,
+        "expected": 0.6285653031261904,
+        "tolerance": 1e-11
+      }
+    },
+    {
+      "name": "example_ADC_peak",
+      "passed": true,
+      "detail": {
+        "actual": 0.18740046286145595,
+        "expected": 0.18740046286145592,
+        "tolerance": 1e-12
+      }
+    },
+    {
+      "name": "example_noise_allowance_nV",
+      "passed": true,
+      "detail": {
+        "actual": 7.341172450010562,
+        "expected": 7.341172450010561,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "name": "example_ADC_angle_urad",
+      "passed": true,
+      "detail": {
+        "actual": 4.2427654381728575,
+        "expected": 4.242765438,
+        "tolerance": 1e-08
+      }
+    },
+    {
+      "name": "example_ideal_ADC_lower_bound_21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "example_dead_zone_deg_h",
+      "passed": true,
+      "detail": {
+        "actual": 46.5398931062943,
+        "expected": 46.53989311,
+        "tolerance": 1e-07
+      }
+    },
+    {
+      "name": "example_NCO_FCW",
+      "passed": true,
+      "detail": {
+        "actual": 536870912,
+        "expected": 536870912,
+        "tolerance": 0
+      }
+    },
+    {
+      "name": "example_gain_error_deg",
+      "passed": true,
+      "detail": {
+        "actual": 0.5171099234032701,
+        "expected": 0.5171099234032701,
+        "tolerance": 1e-14
+      }
+    },
+    {
+      "name": "example_false_damping",
+      "passed": true,
+      "detail": {
+        "actual": 0.007735299244838871,
+        "expected": 0.007735299245,
+        "tolerance": 1e-11
+      }
+    },
+    {
+      "name": "example_bias_fault_split_mHz",
+      "passed": true,
+      "detail": {
+        "actual": 2.0264253162167734,
+        "expected": 2.02642534,
+        "tolerance": 1e-05
+      }
+    },
+    {
+      "name": "example_energy_Kp",
+      "passed": true,
+      "detail": {
+        "actual": 4.0212385965949355,
+        "expected": 4.0212385965949355,
+        "tolerance": 1e-14
+      }
+    },
+    {
+      "name": "example_energy_Ki",
+      "passed": true,
+      "detail": {
+        "actual": 12.633093633394378,
+        "expected": 12.633093633394378,
+        "tolerance": 1e-14
+      }
+    },
+    {
+      "name": "historical_V9_87_checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "historical_V9_improvement_ratio",
+      "passed": true,
+      "detail": {
+        "actual": 0.003162689213533041,
+        "expected": 0.003162689213533041,
+        "tolerance": 1e-14
+      }
+    },
+    {
+      "name": "historical_V9_instruments",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_183_historical_paths_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_25_display_math_sources_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_124_unique_sources_archived",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "literature_v7_sealed_bytes_preserved",
+      "passed": true,
+      "detail": {
+        "dependencies": 217,
+        "changed": []
+      }
+    },
+    {
+      "name": "literature_v8_research_sealed_bytes_preserved",
+      "passed": true,
+      "detail": {
+        "dependencies": 84,
+        "changed": []
+      }
+    },
+    {
+      "name": "literature_zotero_research_sealed_bytes_preserved",
+      "passed": true,
+      "detail": {
+        "dependencies": 28,
+        "changed": []
+      }
+    },
+    {
+      "name": "identifiability_v9_sealed_bytes_preserved",
+      "passed": true,
+      "detail": {
+        "dependencies": 80,
+        "changed": []
+      }
+    }
+  ],
+  "statement": "Documentation, retention, independent worked examples and receipt checks only; no new MATLAB/RTL runs",
+  "main_characters": 46966,
+  "book_bytes": 1451353,
+  "historical_paths": 183,
+  "unique_archived_texts": 124,
+  "original_working_source_bytes_unchanged": 183
+}
