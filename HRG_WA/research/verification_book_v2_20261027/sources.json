@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "id": "T05",
+      "path": "D:/学习资料/资料/全角陀螺/邰涵翛-开题v0.5.docx",
+      "sha256": "4ce91cae73f37fb60812ce50926340d546d7459b944559bfb7117632898b4035",
+      "bytes": 2822668,
+      "paragraphs": 350,
+      "omml": 86,
+      "ole": 54,
+      "cached_pages": 28
+    },
+    {
+      "id": "P59",
+      "path": "C:/Users/11725/xwechat_files/wxid_qvgyt57csh8y22_a935/msg/file/2026-10/开题报告(1).pdf",
+      "sha256": "2d5b751992c9aed71108b8463ccce9454ef3f6da559a812511d01757f845c1b9",
+      "bytes": 4808693,
+      "pages": 59
+    },
+    {
+      "id": "D153",
+      "path": "C:/Users/11725/xwechat_files/wxid_qvgyt57csh8y22_a935/msg/file/2026-10/MEMS硅陀螺数字闭环接口ASIC技术研究.pdf",
+      "sha256": "2d981091444364471aeeffb5c84d70f7f77b22deaf23ea8925af281af3cb1d3a",
+      "bytes": 17218112,
+      "pages": 153
+    }
+  ],
+  "reading": "Extraction only; reviewed locations tracked separately"
+}
