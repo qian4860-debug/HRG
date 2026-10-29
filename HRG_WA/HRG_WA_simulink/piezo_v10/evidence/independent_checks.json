@@ -1,0 +1,29 @@
+{
+  "scope": "Independent linear piezo/circuit plant only, not independent controller proof",
+  "checks": {
+    "continuous_A": {
+      "passed": true,
+      "relative_max_error": 7.549016449029579e-16
+    },
+    "continuous_B": {
+      "passed": true,
+      "relative_max_error": 1.4551915228366853e-16
+    },
+    "discrete_A": {
+      "passed": true,
+      "relative_max_error": 1.99032772129444e-13
+    },
+    "discrete_B": {
+      "passed": true,
+      "relative_max_error": 3.708144902248023e-14
+    },
+    "passive_energy_balance_100_states": {
+      "passed": true,
+      "max_absolute_residual_W": 1.8039154798556428e-20
+    },
+    "passive_stable_poles": {
+      "passed": true,
+      "largest_real_pole": -0.3146453743481743
+    }
+  }
+}

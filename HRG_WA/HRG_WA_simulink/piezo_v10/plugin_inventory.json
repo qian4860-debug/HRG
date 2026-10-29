@@ -1,0 +1,35 @@
+{
+  "scope": "Read-only installed plugin inventory, not plugin execution or mathematical evidence",
+  "plugins": [
+    {
+      "name": "Jasminum",
+      "version": "1.1.43",
+      "active": true
+    },
+    {
+      "name": "Sci-Hub Plugin for Zotero",
+      "version": "2.0.0",
+      "active": true
+    },
+    {
+      "name": "Translate for Zotero",
+      "version": "2.4.8",
+      "active": true
+    },
+    {
+      "name": "AI4Paper",
+      "version": "8.2.408",
+      "active": true
+    },
+    {
+      "name": "Better BibTeX for Zotero",
+      "version": "9.0.71",
+      "active": true
+    },
+    {
+      "name": "Awesome GPT",
+      "version": "3.1.196",
+      "active": true
+    }
+  ]
+}

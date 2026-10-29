@@ -1,0 +1,37 @@
+{
+  "scope": "Synthetic V10 piezo research model; not measured-head acceptance",
+  "files": {
+    "HRG_WA_simulink/piezo_v10/check_delivery.py": "48f5c10e8f0c66430e6d2611d1572069385f1c257c2ef9d9414ad2c23e41a3aa",
+    "HRG_WA_simulink/piezo_v10/p10_adc_sfun.m": "02ec1d1df91bbeb0086169501d5dee94df99fd34ec8d1469dbbfb1994d3f51ae",
+    "HRG_WA_simulink/piezo_v10/p10_build.m": "a4a026cd66d2cac23d60c1e6ad8c805dbe2277ea63dab5417548a371e20133bc",
+    "HRG_WA_simulink/piezo_v10/p10_config.m": "be0347ea139b02a0df96c69fedc32ba18d1dc2941fd35d5818831bf6109c7fe9",
+    "HRG_WA_simulink/piezo_v10/p10_controller_sfun.m": "a959dc4f4a10b3e15c296ef28ee0b309e4848ebe5baa8b242cb33a42d8f69b9a",
+    "HRG_WA_simulink/piezo_v10/p10_demo.m": "4a973b8c78be1a8e4f87cdfc9d54db0fbef2020488d852f49b0d20d16956fb27",
+    "HRG_WA_simulink/piezo_v10/p10_finalize.m": "b5919b979f487e1bb5d1446403aa8215a2d25ff61b6c0a60f67197a52c8be9f9",
+    "HRG_WA_simulink/piezo_v10/p10_metrics.m": "595e803a221780d798d88e85301044d54327c7546e68658be78df0d833c1bfd2",
+    "HRG_WA_simulink/piezo_v10/p10_plant.m": "a6118868a5d360a3a829b7ba8f96ce3c417ef8bb625c498f984a134b5fde0fba",
+    "HRG_WA_simulink/piezo_v10/p10_reference.m": "c62ce3c9a93c22718d5ffa480dfaad5be37cb5dbb9a50375e5b12534a51a4272",
+    "HRG_WA_simulink/piezo_v10/p10_run.m": "57d366fca70236057f7cee579223e5a1bcdcf6e93dd824b1f517e276bbf2068e",
+    "HRG_WA_simulink/piezo_v10/p10_tick.m": "64629529ca142a9d8e2aae2b35427c24ddc11ce59646d91b6fed98ebaaa7516e",
+    "HRG_WA_simulink/piezo_v10/plugin_inventory.json": "3dd843a1ef3cee3557c54b6bfbcd914f3a77c7e1d865ffd1d0bc736c8386c408",
+    "HRG_WA_simulink/piezo_v10/README.md": "d38804bd1edacbbc7da373e496b161110889ed8b883742554687e3d9a281591d",
+    "HRG_WA_simulink/piezo_v10/sources.json": "de200f476fe6984b92001b04acf4d622e3c73fc8dce5f13c375e49013403321d",
+    "HRG_WA_simulink/piezo_v10/verify_independent.py": "03a5afdf01748c0ef32ddf877be77ac0623b56f92ab67fa3f8f1e702ef79a745",
+    "HRG_WA_simulink/piezo_v10/docs/implementation.md": "d571b012c76777038a43b6ccfa810c43e0d39a4916fa0d991e4b9320f72d9818",
+    "HRG_WA_simulink/piezo_v10/evidence/continuous_A.csv": "615df21c52b81f4aa7975af4267221a8a03af3579d7629aa9db2c4860f7c6d10",
+    "HRG_WA_simulink/piezo_v10/evidence/continuous_B.csv": "73c45bf83e59bdfbb762e7a4b060b0e7dc5523e5e086a523e34e948803299d5a",
+    "HRG_WA_simulink/piezo_v10/evidence/discrete_A.csv": "084b021e917b87a797a535caf8830ce2295a3e74813f7109ac42cdc19125e857",
+    "HRG_WA_simulink/piezo_v10/evidence/discrete_B.csv": "998ef7bd71729a118b6b37f6e06bf155cd4a1bfbe630743ce4a1149a3aae71c3",
+    "HRG_WA_simulink/piezo_v10/evidence/independent_checks.json": "8bbe00d2a3b5fd7f82dcdd48eaafe59e134993e2c42f935ad2c8d3aea6cd34e3",
+    "HRG_WA_simulink/piezo_v10/evidence/parameters.json": "779708ed1421ee28884e90528e05d048d59a6e40ea9c14ac395ad83bf445131c",
+    "HRG_WA_simulink/piezo_v10/evidence/results.json": "6cb6cef2eaf1dfbaa64ae8092174ad686aff9cfbf17c463d37acee2261e73fda",
+    "HRG_WA_simulink/piezo_v10/evidence/traces.csv": "dcc67d1c8ac1dbd07a8e772889fb13d3c4a0e002e5b0372085989d66e5ac3d7e",
+    "HRG_WA_simulink/piezo_v10/evidence/waveforms.png": "9ce13f6e52576e93dfa59fd92d9eba32d0b326a857a3c404c8971def3d5a1fd5",
+    "HRG_WA_simulink/piezo_v10/models/hrg_wa_v10_piezo.slx": "45a42f8dd5600b4f84f25ea7be91e6d66508a2be7202a1921d7cdbd93177449e"
+  },
+  "book_sha256": "5d642747bdd75a1740d422ae675190271d2b45c8e33653f61303aaf2bd21e39e",
+  "previous_books": {
+    "全角HRG验证总书第二版_逐行推导与复算.md": "e201c28712fa841b0fe8554aabce5e7e064738f99e6edecab210e28279a34e98",
+    "压电式半球全角陀螺_逐步推导与文献审读.md": "38706f5e0af9a38116b75c89bdfafe1f09b6c3883cca526bb8f918255f6dde0f"
+  }
+}
