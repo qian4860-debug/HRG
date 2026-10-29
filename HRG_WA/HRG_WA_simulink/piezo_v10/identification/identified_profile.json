@@ -1,0 +1,31 @@
+{
+  "schema": "hrg_piezo_identification_v1",
+  "status": "synthetic_identification_only",
+  "reference_boundary": "intrinsic mechanical poles at short-circuit sensing boundary; fixture deembedded",
+  "electrical": {
+    "f0_Hz": 1000.0000000544976,
+    "Q": 10000.015461484003,
+    "gamma_per_s": 0.31415877964000566,
+    "Cs_F": 1.0000000060647678e-09,
+    "leakage_S": 1.0013187060728013e-10,
+    "kappa_s": 9.99998939716435e-07,
+    "cross_b": 1.0999988680057505e-06,
+    "Cds_F": 1.5001887506252527e-13,
+    "motional_L_H": 1000001.0602846891,
+    "motional_R_ohm": 628318.2254754993,
+    "motional_C_F": 2.5330269050527118e-14,
+    "fit_relative_residual": 2.4551362473133735e-07,
+    "cross_residual": 2.2711365199048906e-06,
+    "scaled_condition": 1.550704231136553,
+    "cross_scaled_condition": 1.000004093878239
+  },
+  "physical": {
+    "theta_s_C_per_m": 1.0000034275563447e-05,
+    "mass_kg": 0.0001000007915416395,
+    "theta_d_N_per_V": 1.100003804629805e-05
+  },
+  "physical_calibration": "synthetic independent charge/LDV fixture",
+  "bryan_factor": null,
+  "drive_voltage_limit_V": null,
+  "displacement_limit_m": null
+}

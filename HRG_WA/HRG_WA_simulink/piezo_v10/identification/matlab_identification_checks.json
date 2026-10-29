@@ -1,0 +1,35 @@
+{
+  "scope": "Synthetic offline identification followed by V10 MATLAB closed-loop replay; not new full Simulink acceptance",
+  "checks": {
+    "blocks_missing_independent_limits": true,
+    "energy_within_5percent": true,
+    "angle_within_01degree": true,
+    "angle_vs_original_under_002degree": true
+  },
+  "baseline": {
+    "energy_relative_mean": -4.05441132889095E-8,
+    "quadrature_rms": 3.9047648852200167E-6,
+    "pattern_angle_rms_deg": 0.020732971900898633,
+    "angle_rms_deg": 0.074850716261878836,
+    "angle_drift_deg_s": 0.0022487371107423404,
+    "pll_phase_rms": 0.00081681409332974217,
+    "drive_margin_V": 0.3489227294921875,
+    "max_displacement_m": 9.9056887522454076E-7,
+    "build_time_s": 0.126,
+    "bias_equivalent_deg_s": -0.0081184494064951984,
+    "rate_noise_status": "not_estimated: deterministic short fixture, no Allan/ARW claim"
+  },
+  "identified": {
+    "energy_relative_mean": -5.4576194785660448E-8,
+    "quadrature_rms": 3.82932445070459E-6,
+    "pattern_angle_rms_deg": 0.020838724310596076,
+    "angle_rms_deg": 0.075232506371377336,
+    "angle_drift_deg_s": 0.0023195096522847869,
+    "pll_phase_rms": 0.000822443772834591,
+    "drive_margin_V": 0.34894561767578125,
+    "max_displacement_m": 9.9128512536950635E-7,
+    "build_time_s": 0.115,
+    "bias_equivalent_deg_s": -0.008373954283048669,
+    "rate_noise_status": "not_estimated: deterministic short fixture, no Allan/ARW claim"
+  }
+}

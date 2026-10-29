@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "parameter_recovery": true,
+    "gauge_ambiguity": true,
+    "impedance_residual": true,
+    "acceptable_condition": true,
+    "holdout_frequency_grid": true
+  },
+  "relative_errors": {
+    "f0": 5.449751760977506e-11,
+    "Q": 1.5461484001999537e-06,
+    "Cs": 6.064767799074389e-09,
+    "mass": 7.915416394999042e-06,
+    "theta_s": 3.4275563445262947e-06,
+    "theta_d": 3.458754368246275e-06
+  },
+  "holdout_relative_error": 1.3169543560156193e-07
+}
