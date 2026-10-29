@@ -1,0 +1,17 @@
+{
+  "scope": "Synthetic stationary charge-domain closed loop; no physical amplitude or navigation scale acceptance",
+  "checks": {
+    "state_scoreboard": true,
+    "dac_scoreboard": true,
+    "charge_amplitude_within_5percent": true,
+    "no_clipping": true,
+    "no_physical_head_fields": true,
+    "blocks_rotation_without_B": true,
+    "two_physical_gauges_same_electrical_model": true,
+    "reopened_compiled": true
+  },
+  "charge_target_C": 1E-11,
+  "charge_relative_mean_error": -7.775671763798897E-6,
+  "peak_DAC_V": 0.6444091796875,
+  "matlab": "25.1.0.2943329 (R2025a)"
+}

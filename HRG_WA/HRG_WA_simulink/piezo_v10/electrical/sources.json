@@ -1,0 +1,22 @@
+[
+  {
+    "path": "D:\\学习资料\\资料\\全角陀螺\\A-12-Bit-600-MS-s-Pipelined-ADC-With-Two-Stage-High-Gain-Dynamic-Amplifier-in-28-nm-CMOS.pdf",
+    "sha256": "291423a223b575b0d3810e59c9e4376888e4516b03dd712e23dc3d1799cfd4dd",
+    "pages": 12,
+    "text_pages_reviewed": [
+      1
+    ],
+    "reading_boundary": "Abstract and opening introduction only; no circuit reproduction"
+  },
+  {
+    "path": "D:\\学习资料\\资料\\全角陀螺\\引用文献_20261023\\pdf\\R0005_Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs.pdf",
+    "sha256": "f909d4335fd168a527a9653165d43c98f08da8c83065553745cf531d0e27bbdc",
+    "pages": 4,
+    "text_pages_reviewed": [
+      1,
+      2,
+      3
+    ],
+    "reading_boundary": "Relevant extracted excerpts; not full-paper or every-equation verification"
+  }
+]

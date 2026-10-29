@@ -1,0 +1,25 @@
+{
+  "A": {
+    "passed": true,
+    "relative_error": 2.384185805475158e-16
+  },
+  "B": {
+    "passed": true,
+    "relative_error": 1.4551915228366853e-16
+  },
+  "Ad": {
+    "passed": true,
+    "relative_error": 4.9125752576359184e-11
+  },
+  "Bd": {
+    "passed": true,
+    "relative_error": 1.3704593015972932e-12
+  },
+  "closed_form_loaded_transfer_3points": {
+    "passed": true,
+    "relative_error": 2.2170354988942746e-12
+  },
+  "no_physical_mass_or_piezo_constants": {
+    "passed": true
+  }
+}
