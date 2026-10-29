@@ -1,0 +1,2037 @@
+{
+  "scope": "Publisher-deposited first-level citations of six V10 core papers; not all 808 Scholar records or recursive citation closure",
+  "edges": [
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 1,
+      "citation": {
+        "issue": "4",
+        "key": "1913_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "762",
+        "DOI": "10.1109/JMEMS.2014.2327107",
+        "volume": "23",
+        "author": "P Shao",
+        "year": "2014",
+        "unstructured": "P. Shao, C.L. Mayberry, X. Gao, V. Tavassoli, F. Ayazi, A Polysilicon micro hemispherical resonating gyroscope. J. Microelectromech. Syst. 23(4), 762–764 (2014)",
+        "journal-title": "J. Microelectromech. Syst."
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 2,
+      "citation": {
+        "key": "1913_CR2",
+        "unstructured": "D.D. Lynch, Vibratory Gyro Analysis by the Method of Averaging, Proceedings 2nd Saint Petersburg Int. Conf. on Gyroscopic Technology and Navigation, pp. 26–34, 1995."
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 3,
+      "citation": {
+        "key": "1913_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Song, et al. Control scheme and error suppression method for micro rate integrating gyroscopes. Guidance, Navigation & Control Conference IEEE, 2017.",
+        "DOI": "10.1109/CGNCC.2016.7829163"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 4,
+      "citation": {
+        "key": "1913_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Taheri-Tehrani, et al. \"Disk resonator gyroscope with whole-angle mode operation.\" IEEE International Symposium on Inertial Sensors & Systems IEEE, 2015.",
+        "DOI": "10.1109/ISISS.2015.7102360"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 5,
+      "citation": {
+        "key": "1913_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J.-K. Woo, J.Y. Cho, C. Boyd, and K Najafi, Whole-angle-mode micro-machined fused-silica birdbath resonator gyroscope (WA-BRG), MEMS 2014, San Francisco, CA, USA, January 26 - 30, 2014",
+        "DOI": "10.1109/MEMSYS.2014.6765563"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 6,
+      "citation": {
+        "key": "1913_CR6",
+        "unstructured": "D.D. Lynch, R.R. Savava, J.J. Campanile, Hemispherical Resonator Gyro Control. USA: 7,318,347 B2, Jan. 15, 2008"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 7,
+      "citation": {
+        "key": "1913_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Taheri-Tehrani, O. Izyumin, I. Izyumin, C.H. Ahn, E.J. Ng, V.A. Hong, Y. Yang, T.W. Kenny, B.E. Boser, D.A. Horsley. Disk resonator gyroscope with whole-angle mode operation. IEEE International Symposium on Inertial Sensor & System.2015:1–4",
+        "DOI": "10.1109/ISISS.2015.7102360"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 8,
+      "citation": {
+        "key": "1913_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "V. Apostolyuk. Whole Angle Force Rebalance Control for Coriolis Vibratory Gyroscopes. 2014 IEEE 3rd International Conference on Methods and Systems of Navigation and Motion Control(MSNMC) Proceedings: pp.59–61",
+        "DOI": "10.1109/MSNMC.2014.6979730"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 9,
+      "citation": {
+        "issue": "4",
+        "key": "1913_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "6125",
+        "DOI": "10.1109/JIOT.2018.2869671",
+        "volume": "6",
+        "author": "M Zhou",
+        "year": "2019",
+        "unstructured": "M. Zhou, Y. Wang, Z. Tian, Y. Lian, Y. Wang, B. Wang, Calibrated data simplification for energy-efficient location sensing in internet of things. IEEE Internet Things J. 6(4), 6125–6133 (2019)",
+        "journal-title": "IEEE Internet Things J."
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 10,
+      "citation": {
+        "key": "1913_CR10",
+        "unstructured": "H.H. Ge, J.Y. Liu, Bryan Buchanan, Bias Self-calibration Techniques using Silicon Disc Resonator Gyroscope,The Boeing Company"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 11,
+      "citation": {
+        "key": "1913_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J.-K. Woo, J.Y. Cho, C. Boyd, K. Najafi. Whole Angle Mode Micro-Machined Fused-Silica Birdbath Resonator Gyroscope. MEMS 2014, San Francisco, CA, USA, January 26–30, 2014",
+        "DOI": "10.1109/MEMSYS.2014.6765563"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 12,
+      "citation": {
+        "key": "1913_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A.A. Trusov, G. Atikyan, D.M. Rozelle, A.D. Meyer S. A. Zotov, B.R. Simon, A.M. Shkel. Force Rebalance, Whole Angle, and Self-Calibration Mechanization of Silicon MEMS Quad Mass Gyro. International Symposium on Inertial Sensor & System.2014:1–2",
+        "DOI": "10.1109/ISISS.2014.6782537"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 13,
+      "citation": {
+        "key": "1913_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "2763",
+        "DOI": "10.1109/JSEN.2011.2160338",
+        "volume": "11",
+        "author": "AA Trusov",
+        "year": "2011",
+        "unstructured": "A.A. Trusov, I.P. Prikhodko, S.A. Zotov, A.M. Shkel, Low-dissipation silicon tuning fork gyroscopes for rate and whole angle measurements. IEEE Sens. J. 11, 2763–2770 (2011)",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 14,
+      "citation": {
+        "key": "1913_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Song, Z. Duan, B. He, Z. Li. Application of Federal Kalman Filter with neural networks in the velocity and attitude matching of Transfer Alignment. Complexity, Volume 2018 (2018), Article ID 3039061, 7 pages",
+        "DOI": "10.1155/2018/3039061"
+      }
+    },
+    {
+      "parent_doi": "10.1186/s13638-021-01913-7",
+      "reference_index": 15,
+      "citation": {
+        "key": "1913_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D.D. Lynch. CVGs Utilizing Non-Axisymmetric Structures Operating in Whole-Angle Mode. IEEE International Symposium on Inertial Sensor & System.2014:1–4",
+        "DOI": "10.1109/ISISS.2014.6782508"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 1,
+      "citation": {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Delhaye, F. (2018, January 26–29). HRG by SAFRAN, The game-changing technology. Proceedings of the 5th IEEE International Symposium on Inertial Sensors and Systems, Lake Como, Italy.",
+        "DOI": "10.1109/ISISS.2018.8358163"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 2,
+      "citation": {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jeanroy, A., Grosset, G., Goudon, J.C., and Delhaye, F. (2016, January 22–25). HRG by Sagem from laboratory to mass production. Proceedings of the IEEE 3rd International Symposium on Inertial Sensors and Systems, Laguna Beach, CA, USA.",
+        "DOI": "10.1109/ISISS.2016.7435530"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 3,
+      "citation": {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "8825017",
+        "DOI": "10.1155/2021/8825017",
+        "article-title": "Research on the Precession Characteristics of Hemispherical Resonator Gyro",
+        "volume": "2021",
+        "author": "Song",
+        "year": "2021",
+        "journal-title": "Complexity"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 4,
+      "citation": {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Y., Pan, Y., Qu, T., Jia, Y., Yang, K., and Luo, H. (2018). Decreasing Frequency Splits of Hemispherical Resonators by Chemical Etching. Sensors, 18.",
+        "DOI": "10.3390/s18113772"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 5,
+      "citation": {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Askari, S., Asadian, M.H., and Shkel, A.M. (2018, January 26–29). High quality factor MEMS gyroscope with whole angle mode of operation. Proceedings of the 5th IEEE International Symposium on Inertial Sensors and Systems, Lake Como, Italy.",
+        "DOI": "10.1109/ISISS.2018.8358148"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 6,
+      "citation": {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X., Xue, J., and Wang, Q. (2017, January 25–26). The error analysis of Hemispherical Resonator Gyro based on a vibration model. Proceedings of the 2017 IEEE 2nd Advanced Information Technology, Electronic and Automation Control Conference (IAEAC), Chongqing, China.",
+        "DOI": "10.1109/IAEAC.2017.8054399"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 7,
+      "citation": {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anthony, M. (2018, January 23–26). The operation and mechanization of the hemispherical resonator gyroscope. Proceedings of the 2018 IEEE/ION Position, Location and Navigation Symposium (PLANS), Monterey, CA, USA.",
+        "DOI": "10.1109/PLANS.2018.8373357"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 8,
+      "citation": {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brown, T.S. (2013, January 19–22). In-flight performance of the Cassini hemispherical quartz resonator gyro inertial reference units. Proceedings of the AIAA Guidance, Navigation, and Control (GNC) Conference, Boston, MA, USA.",
+        "DOI": "10.2514/6.2013-4630"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 9,
+      "citation": {
+        "key": "ref_9",
+        "first-page": "1157",
+        "article-title": "The hemispherical resonator gyro: From wineglass to the planets",
+        "volume": "134",
+        "author": "Rozelle",
+        "year": "2009",
+        "journal-title": "Adv. Astronaut. Sci."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 10,
+      "citation": {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Foloppe, Y., and Lenoir, Y. (2019, January 10–11). HRG Crystal TM DUAL CORE: Rebooting the INS revolution. Proceedings of the 2019 DGON Inertial Sensors and Systems (ISS), Braunschweig, Germany.",
+        "DOI": "10.1109/ISS46986.2019.8943660"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 11,
+      "citation": {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kou, Z., Kong, Z., Jing, G., Cui, X., Ge, L., and Lu, P. (2022, January 3–5). Design of Capacitive MEMS Ring Solid-state Vibrating Gyroscope Interface Circuit. Proceedings of the 2022 6th IEEE Advanced Information Technology, Electronic and Automation Control Conference (IAEAC), Beijing, China.",
+        "DOI": "10.1109/IAEAC54830.2022.9929668"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 12,
+      "citation": {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "7614",
+        "DOI": "10.1109/JSEN.2024.3360032",
+        "article-title": "A Fusion Algorithm for Real-Time Temperature Compensation and Noise Suppression With a Double U-Beam Vibration Ring Gyroscope",
+        "volume": "24",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 13,
+      "citation": {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1016/j.jsv.2018.12.020",
+        "article-title": "Vibration modeling of disk resonator gyroscope by wave propagation",
+        "volume": "444",
+        "author": "Lin",
+        "year": "2019",
+        "journal-title": "J. Sound Vib."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 14,
+      "citation": {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1038/s41378-018-0035-0",
+        "article-title": "0.04 degree-per-hour MEMS disk resonator gyroscope with high-quality factor (510 k) and long decaying time constant (74.9 s)",
+        "volume": "4",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Microsyst. Nanoeng."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 15,
+      "citation": {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "11761",
+        "DOI": "10.3390/s111211761",
+        "article-title": "Force to rebalance control of HRG and suppression of its errors on the basis of FPGA",
+        "volume": "11",
+        "author": "Wang",
+        "year": "2011",
+        "journal-title": "Sensors"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 16,
+      "citation": {
+        "key": "ref_16",
+        "unstructured": "You, J., Wen, J., Xu, L., Zhu, M., and He, T. (2021, January 29–31). Linearity analysis of a hemispherical resonator gyro (HRG) based on force-rebalance mode. Proceedings of the 2021 7th International Symposium on Sensors, Mechatronics and Automation System (ISSMAS), Xiamen, China."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 17,
+      "citation": {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsukamoto, T., and Tanaka, S. (2019, January 1–5). MEMS Rate Integrating Gyroscope with Temperature Corrected Virtual Rotation. Proceedings of the 6th IEEE International Symposium on Inertial Sensors and Systems, Naples, FL, USA.",
+        "DOI": "10.1109/ISISS.2019.8739625"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 18,
+      "citation": {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tsukamoto, T., and Tanaka, S. (2018, January 26–29). Virtually rotated MEMS whole angle gyroscope using independently controlled CW/CCW oscillations. Proceedings of the 5th IEEE International Symposium on Inertial Sensors and Systems, Lake Como, Italy.",
+        "DOI": "10.1109/ISISS.2018.8358135"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 19,
+      "citation": {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1186/s13638-021-01913-7",
+        "article-title": "The control algorithm of whole angle mode for HRG based on the vector composition",
+        "volume": "2021",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "EURASIP J. Wirel. Commun. Netw."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 20,
+      "citation": {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Delhaye, F., and De Leprevier, C. (2019, January 10–11). SkyNaute by Safran-How the HRG technological breakthrough benefits to a disruptive IRS (Inertial Reference System) for commercial aircraft. Proceedings of the 2019 DGON Inertial Sensors and Systems (ISS), Braunschweig, Germany.",
+        "DOI": "10.1109/ISS46986.2019.8943759"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 21,
+      "citation": {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, W., Yang, H., Liu, F., Su, Y., and Song, L. (2020). The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discrete Electrode. Sensors, 20.",
+        "DOI": "10.3390/s20123549"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 22,
+      "citation": {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "7068",
+        "DOI": "10.1109/JSEN.2023.3246044",
+        "article-title": "Rate Integrating Hemispherical Resonator Gyroscope Detection Error Analysis and Compensation",
+        "volume": "23",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 23,
+      "citation": {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1109/JMEMS.2021.3123082",
+        "article-title": "Characterization and Compensation of Detection Electrode Errors for Whole-Angle Micro-Shell Resonator Gyroscope",
+        "volume": "31",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "J. Microelectromechanical Syst."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 24,
+      "citation": {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "10271",
+        "DOI": "10.1109/JSEN.2019.2929352",
+        "article-title": "Effects of Nonlinearity on the Angular Drift Error of an Electrostatic MEMS Rate Integrating Gyroscope",
+        "volume": "19",
+        "author": "Hu",
+        "year": "2019",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 25,
+      "citation": {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Asadian, M.H., Wang, D., Wang, Y., and Shkel, A.M. (2020, January 20–23). 3D Dual-Shell Micro-Resonators for Harsh Environments. Proceedings of the 2020 IEEE/ION Position, Location and Navigation Symposium (PLANS), Portland, OR, USA.",
+        "DOI": "10.1109/PLANS46316.2020.9109972"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 26,
+      "citation": {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vatanparvar, D., and Shkel, A.M. (2021, January 22–25). Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs. Proceedings of the 8th IEEE International Symposium on Inertial Sensors and Systems, Kailua-Kona, HI, USA.",
+        "DOI": "10.1109/INERTIAL51137.2021.9430479"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 27,
+      "citation": {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.1109/JSEN.2023.3332067",
+        "article-title": "Identification and Compensation of Gain Mismatches for Whole-Angle Microhemispherical Resonator Gyroscope Based on Modal Reversal",
+        "volume": "24",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 28,
+      "citation": {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1001613",
+        "DOI": "10.1109/TIM.2023.3346525",
+        "article-title": "Self-Excitation Enabled Decoupling, Calibration, and Compensation of Errors for Whole-Angle Hemispherical Resonator Gyroscope",
+        "volume": "73",
+        "author": "Yan",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 29,
+      "citation": {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "21342",
+        "DOI": "10.1109/JSEN.2021.3103115",
+        "article-title": "Single-Channel Control for Hemispherical Resonator Gyro Based on Time Division Multiplexing and Demultiplexing",
+        "volume": "21",
+        "author": "Xu",
+        "year": "2019",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 30,
+      "citation": {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y., Yu, S., Guo, K., Sun, J., Wu, X., and Xiao, D. (2021, January 22–25). A High-Performance Rate-Integrating Hemispherical Resonant Gyros with 0.00753°/h Bias Instability. Proceedings of the 8th IEEE International Symposium on Inertial Sensors and Systems, Kailua-Kona, HI, USA.",
+        "DOI": "10.1109/INERTIAL51137.2021.9430490"
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 31,
+      "citation": {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2195",
+        "DOI": "10.1038/s41598-020-80885-y",
+        "article-title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+        "volume": "11",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "Sci. Rep."
+      }
+    },
+    {
+      "parent_doi": "10.3390/s24134328",
+      "reference_index": 32,
+      "citation": {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee, J., Yun, S., and Rhim, J. (2016). Design and verification of a digital controller for a 2-Piece hemispherical resonator gyroscope. Sensors, 16.",
+        "DOI": "10.3390/s16040555"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 1,
+      "citation": {
+        "key": "86288_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jeanroy, A., Grosset, G., Goudon, J. C. & Delhaye, F. HRG by Sagem from laboratory to mass production. In 2016 IEEE International Symposium on Inertial Sensors and Systems, 1–4 (2016).",
+        "DOI": "10.1109/ISISS.2016.7435530"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 2,
+      "citation": {
+        "key": "86288_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "9461",
+        "DOI": "10.1038/s41598-019-45180-5",
+        "volume": "9",
+        "author": "YM Luo",
+        "year": "2019",
+        "unstructured": "Luo, Y. M. et al. Cylindrical fused silica resonators driven by PZT thin film electrodes with Q factor achieving 2.89 million after coating. Sci. Rep. 9, 9461 (2019).",
+        "journal-title": "Sci. Rep."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 3,
+      "citation": {
+        "key": "86288_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "9036",
+        "DOI": "10.1038/srep09036",
+        "volume": "5",
+        "author": "S Nitzan",
+        "year": "2015",
+        "unstructured": "Nitzan, S. et al. Self-induced parametric amplification arising from nonlinear elastic coupling in a micromechanical resonating disk gyroscope. Sci. Rep. 5, 9036 (2015).",
+        "journal-title": "Sci. Rep."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 4,
+      "citation": {
+        "key": "86288_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y. M., Yu, S., Guo, K. C., Sun, J. K., Wu, X. Z., & Xiao, D. B. A high-performance rate-integrating hemispherical resonant gyros with 0.00753◦/h bias instability. In Proceedings of the IEEE International Symposium Inertial Sensors System (INERTIAL) (2021).",
+        "DOI": "10.1109/INERTIAL51137.2021.9430490"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 5,
+      "citation": {
+        "key": "86288_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "581",
+        "DOI": "10.1109/LED.2021.3062897",
+        "volume": "42",
+        "author": "Y Zhang",
+        "year": "2021",
+        "unstructured": "Zhang, Y. et al. A rate-integrating honeycomb disk resonator gyroscope with 0.038°/h bias instability and ±7000°/s measurement range. IEEE Electron Device Lett. 42, 581–584 (2021).",
+        "journal-title": "IEEE Electron Device Lett."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 6,
+      "citation": {
+        "key": "86288_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "723",
+        "DOI": "10.1109/JSEN.2015.2489241",
+        "volume": "16",
+        "author": "Q Shen",
+        "year": "2016",
+        "unstructured": "Shen, Q., Li, H., Hao, Y. C., Yuan, W. Z. & Chang, H. L. Bias contribution modeling for a symmetrical micromachined Coriolis vibratory gyroscope. IEEE Sens. J. 16, 723–733 (2016).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 7,
+      "citation": {
+        "key": "86288_CR7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sna.2023.114456",
+        "volume": "359",
+        "author": "CH Wang",
+        "year": "2023",
+        "unstructured": "Wang, C. H., Ning, Y. H., Zhao, W. Y., Yi, G. X. & Huo, Y. Surface evolution of fused silica hemispherical resonators and its influence on the quality factor. Sens. Actuators A Phys. 359, 114456 (2023).",
+        "journal-title": "Sens. Actuators A Phys."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 8,
+      "citation": {
+        "key": "86288_CR8",
+        "unstructured": "Lynch, D. D. Vibratory gyro analysis by the method of averaging. In Proceedings of the 2nd Saint Petersburg International Conference on Gyroscopic and Navigation. Saint Petersburg, Russia, 26–34 (1995)."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 9,
+      "citation": {
+        "key": "86288_CR9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijmecsci.2023.108682",
+        "volume": "261",
+        "author": "CH Wang",
+        "year": "2024",
+        "unstructured": "Wang, C. H. et al. Frequency splitting of hemispherical resonators trimmed with focused ion beams. Int. J. Mech. Sci. 261, 108682 (2024).",
+        "journal-title": "Int. J. Mech. Sci."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 10,
+      "citation": {
+        "key": "86288_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "2050198",
+        "DOI": "10.1142/S0218126620501984",
+        "volume": "29",
+        "author": "T Yin",
+        "year": "2020",
+        "unstructured": "Yin, T., Lin, Y. S., Yang, H. G. & Wu, H. M. A phase self-correction method for bias temperature drift suppression of MEMS gyroscopes. J. Circuits Syst. Comput. 29, 2050198 (2020).",
+        "journal-title": "J. Circuits Syst. Comput."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 11,
+      "citation": {
+        "key": "86288_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "506",
+        "DOI": "10.3390/mi12050506",
+        "volume": "12",
+        "author": "P Xu",
+        "year": "2021",
+        "unstructured": "Xu, P., Wei, Z., Guo, Z., Jia, L. & Yang, F. A real-time circuit phase delay correction system for MEMS vibratory gyroscopes. Micromachines 12, 506 (2021).",
+        "journal-title": "Micromachines"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 12,
+      "citation": {
+        "key": "86288_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "19228",
+        "DOI": "10.1109/JSEN.2022.3204631",
+        "volume": "22",
+        "author": "J Sun",
+        "year": "2022",
+        "unstructured": "Sun, J. et al. Identification and correction of phase error for whole-angle micro-shell resonator gyroscope. IEEE Sens. J. 22, 19228–19236 (2022).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 13,
+      "citation": {
+        "key": "86288_CR13",
+        "first-page": "1",
+        "volume": "72",
+        "author": "LS Yuan",
+        "year": "2023",
+        "unstructured": "Yuan, L. S. et al. High precision assembly and welding method for flat-electrode hemispherical resonator gyro. IEEE Trans. Instrum. Meas. 72, 1–10 (2023).",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 14,
+      "citation": {
+        "key": "86288_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gregory, J. A., Cho, J. & Najafi, K. Novel mismatch compensation methods for rate-integrating gyroscopes. In Proceedings of the 2012 IEEE/ION Position, Location and Navigation Symposium (2012).",
+        "DOI": "10.1109/PLANS.2012.6236889"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 15,
+      "citation": {
+        "key": "86288_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "144",
+        "DOI": "10.1109/JSEN.2023.3332067",
+        "volume": "24",
+        "author": "WY Chen",
+        "year": "2024",
+        "unstructured": "Chen, W. Y., Ding, X. K., Qin, Z. C., Ge, X. & Li, H. S. Identification and compensation of gain mismatches for whole-angle micro-hemispherical resonator gyroscope based on modal reversal. IEEE Sens. J. 24, 144–157 (2024).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 16,
+      "citation": {
+        "key": "86288_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "3105",
+        "DOI": "10.1109/JSEN.2022.3140799",
+        "volume": "22",
+        "author": "JK Sun",
+        "year": "2022",
+        "unstructured": "Sun, J. K. et al. Investigation of angle drift induced by actuation electrode errors for whole-angle micro-shell resonator gyroscope. IEEE Sens. J. 22, 3105–3112 (2022).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 17,
+      "citation": {
+        "key": "86288_CR17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6439/abec1b",
+        "volume": "31",
+        "author": "H Wu",
+        "year": "2021",
+        "unstructured": "Wu, H. et al. Effects of both the drive- and sense-mode circuit phase delay on MEMS gyroscope performance and real-time suppression of the residual fluctuation phase error. J. Micromech. Microeng. 31, 055006 (2021).",
+        "journal-title": "J. Micromech. Microeng."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 18,
+      "citation": {
+        "key": "86288_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "95002",
+        "DOI": "10.1088/1361-6439/ab27e8",
+        "volume": "29",
+        "author": "F Bu",
+        "year": "2019",
+        "unstructured": "Bu, F. et al. Effect of circuit phase delay on bias stability of MEMS gyroscope under force rebalance detection and self-compensation method. J. Micromech. Microeng. 29, 95002–95002 (2019).",
+        "journal-title": "J. Micromech. Microeng."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 19,
+      "citation": {
+        "key": "86288_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "13945",
+        "DOI": "10.1109/JSEN.2022.3181302",
+        "volume": "22",
+        "author": "ZH Ruan",
+        "year": "2022",
+        "unstructured": "Ruan, Z. H., Ding, X. K., Pu, Y. F., Gao, Y. & Li, H. S. In-run automatic mode-matching of whole-angle micro-hemispherical resonator gyroscope based on standing wave self-precession. IEEE Sens. J. 22, 13945–13957 (2022).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 20,
+      "citation": {
+        "key": "86288_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "3533",
+        "DOI": "10.1109/JSEN.2018.2810843",
+        "volume": "18",
+        "author": "P Taheri-Tehrani",
+        "year": "2018",
+        "unstructured": "Taheri-Tehrani, P., Challoner, A. D. & Horsley, D. A. Micromechanical rate integrating gyroscope with angle-dependent bias compensation using a self-precession method. IEEE Sens. J. 18, 3533–3543 (2018).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 21,
+      "citation": {
+        "key": "86288_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Facchinetti, S., Guerinoni, L., Falorni, L. G., Donadel, A. & Valzasina, C. Development of a complete model to evaluate the zero rate level drift over temperature in MEMS Coriolis vibrating gyroscopes. In 2017 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL) (2017).",
+        "DOI": "10.1109/ISISS.2017.7935673"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 22,
+      "citation": {
+        "key": "86288_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1639",
+        "DOI": "10.1109/JSEN.2007.908921",
+        "volume": "7",
+        "author": "M Saukoski",
+        "year": "2007",
+        "unstructured": "Saukoski, M., Aaltonen, L. & Halonen, K. A. I. Zero-rate output and quadrature compensation in vibratory MEMS gyroscopes. IEEE Sens. J. 7, 1639–1652 (2007).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 23,
+      "citation": {
+        "key": "86288_CR23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/JMEMS.2021.3123768",
+        "volume": "30",
+        "author": "LG Pagani",
+        "year": "2021",
+        "unstructured": "Pagani, L. G., Guerinoni, L., Falorni, L., Fedeli, P. & Langfelder, G. Direct phase measurement and compensation to enhance MEMS gyroscopes ZRO stability. J. Microelectromech. Syst. 30, 1–9 (2021).",
+        "journal-title": "J. Microelectromech. Syst."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 24,
+      "citation": {
+        "key": "86288_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shirazi, A. N., Casinovi, G., Dalal, M. & Ayazi, F. Combined phase-readout and self-calibration of MEMS gyroscopes. In 2013 Transducers and Eurosensors XXVII: The 17th International Conference on Solid-State Sensors, Actuators and Microsystems (TRANSDUCERS & EUROSENSORS XXVII), 960–963 (2013).",
+        "DOI": "10.1109/Transducers.2013.6626928"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 25,
+      "citation": {
+        "key": "86288_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Furuta, Y. et al. A backgournd calibration technique for I/Q phase mismatch in MEMS vibratory gyroscope. In International Conference on Solid-State Sensors, Actuators and Microsystems (2019).",
+        "DOI": "10.1109/TRANSDUCERS.2019.8808674"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 26,
+      "citation": {
+        "key": "86288_CR26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sna.2024.115494",
+        "volume": "375",
+        "author": "X Tang",
+        "year": "2024",
+        "unstructured": "Tang, X. et al. A rate hemispherical resonator gyroscope with bias stability of 0.0056°/h with compensation of phase delay. Sens. Actuators A Phys. 375, 115494 (2024).",
+        "journal-title": "Sens. Actuators A Phys."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 27,
+      "citation": {
+        "key": "86288_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/TIM.2024.3518732",
+        "volume": "73",
+        "author": "K Yan",
+        "year": "2024",
+        "unstructured": "Yan, K. et al. Self-excitation enabled decoupling, calibration, and compensation of errors for whole-angle hemispherical resonator gyroscope. IEEE Trans. Instrum. Meas. 73, 1–13 (2024).",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 28,
+      "citation": {
+        "key": "86288_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "7068",
+        "DOI": "10.1109/JSEN.2023.3246044",
+        "volume": "23",
+        "author": "Q Wang",
+        "year": "2023",
+        "unstructured": "Wang, Q., Xie, W. N., Xi, B. Q., Sun, Y. W. & Yi, G. X. Rate integrating hemispherical resonator gyroscope detection error analysis and compensation. IEEE Sens. J. 23, 7068–7076 (2023).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 29,
+      "citation": {
+        "key": "86288_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, W., Liu, S., Lin, Y., Liu, Y., & Jin, Z. One-time frequency sweep to eliminate IQ coupling in MEMS vibratory gyroscopes. In 2016 IEEE International Conference on Manipulation, Manufacturing and Measurement on the Nanoscale (3M-NANO), 273–277 (2016).",
+        "DOI": "10.1109/3M-NANO.2016.7824917"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 30,
+      "citation": {
+        "key": "86288_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "647",
+        "DOI": "10.3390/mi13050647",
+        "volume": "13",
+        "author": "X Liu",
+        "year": "2022",
+        "unstructured": "Liu, X., Qin, Z. & Li, H. Online compensation of phase delay error based on P–F characteristic for MEMS vibratory gyroscopes. Micromachines 13, 647 (2022).",
+        "journal-title": "Micromachines"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 31,
+      "citation": {
+        "key": "86288_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "2195",
+        "DOI": "10.1038/s41598-020-80885-y",
+        "volume": "11",
+        "author": "W Zhao",
+        "year": "2021",
+        "unstructured": "Zhao, W., Yang, H., Liu, F., Su, Y. & Li, C. High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry. Sci. Rep. 11, 2195 (2021).",
+        "journal-title": "Sci. Rep."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 32,
+      "citation": {
+        "key": "86288_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "4175",
+        "DOI": "10.1109/JSEN.2021.3139920",
+        "volume": "22",
+        "author": "D Vatanparvar",
+        "year": "2022",
+        "unstructured": "Vatanparvar, D. & Shkel, A. M. On correlation of anisoelasticity, angular gain, and temperature in whole-angle CVGs. IEEE Sens. J. 22, 4175–4185 (2022).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 33,
+      "citation": {
+        "key": "86288_CR33",
+        "unstructured": "Matveyev, V., Lunin, B. & Basarab, M. Solid-state wave gyro navigation system (2013)."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 34,
+      "citation": {
+        "key": "86288_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "15802",
+        "DOI": "10.1109/JSEN.2022.3188287",
+        "volume": "22",
+        "author": "XK Ding",
+        "year": "2022",
+        "unstructured": "Ding, X. K. et al. Bias modulation of force-to-rebalanced micro hemispherical resonator gyroscope based on mode-rotation. IEEE Sens. J. 22, 15802–15816 (2022).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-025-86288-1",
+      "reference_index": 35,
+      "citation": {
+        "key": "86288_CR35",
+        "first-page": "601",
+        "volume": "31",
+        "author": "Q Hu",
+        "year": "2023",
+        "unstructured": "Hu, Q. et al. A method for balancing the fourth harmonic mass of hemispherical resonator gyro. J. Chin. Inert. Technol. 31, 601–610 (2023).",
+        "journal-title": "J. Chin. Inert. Technol."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 1,
+      "citation": {
+        "key": "80885_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1690",
+        "DOI": "10.3390/s19071690",
+        "volume": "19",
+        "author": "Z Wei",
+        "year": "2019",
+        "unstructured": "Wei, Z., Yi, G., Huo, Y., Qi, Z. & Xu, Z. The synthesis model of flat-electrode hemispherical resonator gyro. Sensors 19, 1690 (2019).",
+        "journal-title": "Sensors"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 2,
+      "citation": {
+        "key": "80885_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rozelle, D. M., Meyer, A. D., Trusov, A. A. & Sakaida, D. K. Milli-hrg inertial sensor assembly—a reality. In 2015 IEEE International Symposium on Inertial Sensors and Systems (ISISS) (2015).",
+        "DOI": "10.1109/ISISS.2015.7102386"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 3,
+      "citation": {
+        "key": "80885_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "227",
+        "DOI": "10.1134/S2075108712040086",
+        "volume": "3",
+        "author": "D Meyer",
+        "year": "2012",
+        "unstructured": "Meyer, D. & Rozelle, D. Milli-HRG inertial navigation system. Gyrosc. Navig. 2012;3:227-34.",
+        "journal-title": "Gyrosc. Navig."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 4,
+      "citation": {
+        "key": "80885_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "6434",
+        "DOI": "10.3390/s120506434",
+        "volume": "12",
+        "author": "X Wang",
+        "year": "2012",
+        "unstructured": "Wang, X. et al. Temperature drift compensation for hemispherical resonator gyro based on natural frequency. Sensors 12, 6434–6446 (2012).",
+        "journal-title": "Sensors"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 5,
+      "citation": {
+        "key": "80885_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "45549",
+        "DOI": "10.1038/srep45549",
+        "volume": "7",
+        "author": "T Yeh",
+        "year": "2017",
+        "unstructured": "Yeh, T., Huang, T., Tanaka, T. & Yen, T. Demonstration of a three-dimensional negative index medium operated at multiple-angle incidences by monolithic metallic hemispherical shells. Scientific Reports 7, 45549–45549 (2017).",
+        "journal-title": "Sci. Rep."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 6,
+      "citation": {
+        "key": "80885_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X., Xue, J. & Wang, Q. The error analysis of hemispherical resonator gyro based on a vibration model. In 2017 IEEE 2nd Advanced Information Technology, Electronic and Automation Control Conference (IAEAC), 2158–2162 (2017).",
+        "DOI": "10.1109/IAEAC.2017.8054399"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 7,
+      "citation": {
+        "key": "80885_CR7",
+        "first-page": "563",
+        "volume": "20",
+        "author": "JKD Jin",
+        "year": "2014",
+        "unstructured": "Jin, J. K. D. Force-to-rebalance mode of a resonator gyro and angular rate measurement tests. J. Inst. Control 20, 563–569 (2014).",
+        "journal-title": "J. Inst. Control"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 8,
+      "citation": {
+        "key": "80885_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.1109/JSEN.2014.2339229",
+        "volume": "15",
+        "author": "B Qiu",
+        "year": "2015",
+        "unstructured": "Qiu, B., Wang, J. & Li, P. Full digital control of hemispherical resonator gyro under force-to-rebalance mode. IEEE Sens. J. 15, 71–75 (2015).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 9,
+      "citation": {
+        "key": "80885_CR9",
+        "unstructured": "Rozelle, D. M. The hemispherical resonator gyro: From wineglass to the planets. 19th AAS AIAA Space Flight Mechanics Meeting, Vol 134, 1157–1178 (2013)."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 10,
+      "citation": {
+        "key": "80885_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "545",
+        "DOI": "10.1109/TAC.1978.1101785",
+        "volume": "23",
+        "author": "B Friedland",
+        "year": "1978",
+        "unstructured": "Friedland, B. & Hutton, M. Theory and error analysis of vibrating-member gyroscope. IEEE Trans. Autom. Control 23, 545–556 (1978).",
+        "journal-title": "IEEE Trans. Autom. Control"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 11,
+      "citation": {
+        "key": "80885_CR11",
+        "unstructured": "Lynch, D. D. & Lynch, D. Vibratory gyro analysis by the method of averaging. Proceedings of the 2nd St. Petersburg Conference on Gyroscopic Technology and Navigation (1995)."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 12,
+      "citation": {
+        "key": "80885_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.1016/j.sna.2012.01.029",
+        "volume": "177",
+        "author": "IP Prikhodko",
+        "year": "2012",
+        "unstructured": "Prikhodko, I. P., Zotov, S. A., Trusov, A. A. & Shkel, A. M. Foucault pendulum on a chip: Rate integrating silicon mems gyroscope. Sens. Actuators A Phys. 177, 67–78 (2012).",
+        "journal-title": "Sens. Actuators A Phys."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 13,
+      "citation": {
+        "key": "80885_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "248",
+        "DOI": "10.3390/mi10040248",
+        "volume": "10",
+        "author": "M Cui",
+        "year": "2019",
+        "unstructured": "Cui, M., Huang, Y., Wang, W. & Cao, H. Mems gyroscope temperature compensation based on drive mode vibration characteristic control. Micromachines 10, 248. https://doi.org/10.3390/mi10040248 (2019).",
+        "journal-title": "Micromachines"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 14,
+      "citation": {
+        "key": "80885_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "555",
+        "DOI": "10.3390/s16040555",
+        "volume": "16",
+        "author": "J Lee",
+        "year": "2016",
+        "unstructured": "Lee, J., Yun, S. & Rhim, J. Design and verification of a digital controller for a 2-piece hemispherical resonator gyroscope. Sensors 16, 555. https://doi.org/10.3390/s16040555 (2016).",
+        "journal-title": "Sensors"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 15,
+      "citation": {
+        "key": "80885_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "210",
+        "DOI": "10.3390/mi11020210",
+        "volume": "11",
+        "author": "Z Ruan",
+        "year": "2020",
+        "unstructured": "Ruan, Z., Ding, X., Qin, Z., Jia, J. & Li, H. Automatic mode-matching method for mems disk resonator gyroscopes based on virtual coriolis force. Micromachines 11, 210. https://doi.org/10.3390/mi11020210 (2020).",
+        "journal-title": "Micromachines"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 16,
+      "citation": {
+        "key": "80885_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1032",
+        "DOI": "10.3390/s20041032",
+        "volume": "20",
+        "author": "P Xiao",
+        "year": "2020",
+        "unstructured": "Xiao, P. et al. Influence of temperature variation on the vibrational characteristics of fused silica cylindrical resonators for coriolis vibratory gyroscopes. Sensors 20, 1032. https://doi.org/10.3390/s20041032 (2020).",
+        "journal-title": "Sensors"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 17,
+      "citation": {
+        "key": "80885_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gregory, J. A., Cho, J. & Najafi, K. Mems rate and rate-integrating gyroscope control with commercial software defined radio hardware. In 2011 16th International Solid-State Sensors, Actuators and Microsystems Conference, 2394–2397 (2011).",
+        "DOI": "10.1109/TRANSDUCERS.2011.5969596"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 18,
+      "citation": {
+        "key": "80885_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "499",
+        "DOI": "10.3390/electronics9030499",
+        "volume": "9",
+        "author": "T Ma",
+        "year": "2020",
+        "unstructured": "Ma, T., Cao, H. & Shen, C. A temperature error parallel processing model for mems gyroscope based on a novel fusion algorithm. Electronics 9, 499. https://doi.org/10.3390/electronics9030499 (2020).",
+        "journal-title": "Electronics"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 19,
+      "citation": {
+        "key": "80885_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "3533",
+        "DOI": "10.1109/JSEN.2018.2810843",
+        "volume": "18",
+        "author": "P Taheri-Tehrani",
+        "year": "2018",
+        "unstructured": "Taheri-Tehrani, P., Challoner, A. D. & Horsley, D. A. Micromechanical rate integrating gyroscope with angle-dependent bias compensation using a self-precession method. IEEE Sens. J. 18, 3533–3543 (2018).",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 20,
+      "citation": {
+        "key": "80885_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "687",
+        "DOI": "10.3390/s20030687",
+        "volume": "20",
+        "author": "Y Wang",
+        "year": "2020",
+        "unstructured": "Wang, Y. et al. A digital closed-loop sense mems disk resonator gyroscope circuit design based on integrated analog front-end. Sensors 20, 687. https://doi.org/10.3390/s20030687 (2020).",
+        "journal-title": "Sensors"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 21,
+      "citation": {
+        "key": "80885_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1038/s41378-019-0057-2",
+        "volume": "5",
+        "author": "J Cui",
+        "year": "2019",
+        "unstructured": "Cui, J., Zhao, Q. & Yan, G. Effective bias warm-up time reduction for mems gyroscopes based on active suppression of the coupling stiffness. Microsyst. Nanoeng. 5, 18 (2019).",
+        "journal-title": "Microsyst. Nanoeng."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 22,
+      "citation": {
+        "key": "80885_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "16015",
+        "DOI": "10.1038/micronano.2016.15",
+        "volume": "2",
+        "author": "DE Serrano",
+        "year": "2016",
+        "unstructured": "Serrano, D. E. et al. Substrate-decoupled, bulk-acoustic wave gyroscopes: Design and evaluation of next-generation environmentally robust devices. Microsyst. Nanoeng. 2, 16015 (2016).",
+        "journal-title": "Microsyst. Nanoeng."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 23,
+      "citation": {
+        "key": "80885_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gregory, J. A., Cho, J. & Najafi, K. Novel mismatch compensation methods for rate-integrating gyroscopes. In Proceedings of the 2012 IEEE/ION Position, Location and Navigation Symposium, 252–258 (2012).",
+        "DOI": "10.1109/PLANS.2012.6236889"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 24,
+      "citation": {
+        "key": "80885_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Singh, S., Woo, J., He, G., Cho, J. Y. & Najafi, K. $$0.0062\\ {}^{\\circ }/\\sqrt{hr}$$ angle random walk and $$0.027\\ {}^{\\circ }/hr$$ bias instability from a micro-shell resonator gyroscope with surface electrodes. In 2020 IEEE 33rd International Conference on Micro Electro Mechanical Systems (MEMS), 737–740 (2020).",
+        "DOI": "10.1109/MEMS46641.2020.9056391"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 25,
+      "citation": {
+        "key": "80885_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "218",
+        "DOI": "10.1134/S2075108715030025",
+        "volume": "6",
+        "author": "MA Basarab",
+        "year": "2015",
+        "unstructured": "Basarab, M. A., Lunin, B. S., Matveev, V. A. & Chumankin, E. A. Balancing of hemispherical resonator gyros by chemical etching. Gyrosc. Navig. 6, 218–223 (2015).",
+        "journal-title": "Gyrosc. Navig."
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 26,
+      "citation": {
+        "key": "80885_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prikhodko, I. P., Gregory, J. A., Bugrov, D. I. & Judy, M. W. Overcoming limitations of rate integrating gyroscopes by virtual rotation. In 2016 IEEE International Symposium on Inertial Sensors and Systems, 5–8 (2016).",
+        "DOI": "10.1109/ISISS.2016.7435531"
+      }
+    },
+    {
+      "parent_doi": "10.1038/s41598-020-80885-y",
+      "reference_index": 27,
+      "citation": {
+        "key": "80885_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "16092",
+        "DOI": "10.1038/micronano.2016.92",
+        "volume": "3",
+        "author": "H Wen",
+        "year": "2017",
+        "unstructured": "Wen, H., Daruwalla, A. & Ayazi, F. Resonant pitch and roll silicon gyroscopes with sub-micron-gap slanted electrodes: Breaking the barrier toward high-performance monolithic inertial measurement units. Microsyst. Nanoeng. 3, 16092 (2017).",
+        "journal-title": "Microsyst. Nanoeng."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 1,
+      "citation": {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei, L., Kuai, X., Bao, Y., Wei, J., Yang, L., Song, P., Zhang, M., Yang, F., and Wang, X. (2021). The Recent Progress of MEMS/NEMS Resonators. Micromachines, 12.",
+        "DOI": "10.3390/mi12060724"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 2,
+      "citation": {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, H., Zhang, C., Chen, J., and Li, A. (2022). A Review of Symmetric Silicon MEMS Gyroscope Mode-Matching Technologies. Micromachines, 13.",
+        "DOI": "10.3390/mi13081255"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 3,
+      "citation": {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perelyaev, S.E. (2023, January 29–31). Current State of Wave Solid-State Gyroscopes. Development Prospects in Applied Gyroscopy. Proceedings of the 2023 30th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS), Saint Petersburg, Russia.",
+        "DOI": "10.23919/ICINS51816.2023.10168310"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 4,
+      "citation": {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guérard, J., Duquesnoy, M., Le Traon, O., Lavenus, P., Ledier, A.A., Levy, R., and Bonhomme, J. (2024, January 25–28). The GYTRIX Quartz Crystal Axisymmetric Mems GYRO: Preliminary Measurements. Proceedings of the 2024 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL), Hiroshima, Japan.",
+        "DOI": "10.1109/INERTIAL60399.2024.10502036"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 5,
+      "citation": {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lenoble, A., Lenoir, Y., Chenilleau, J.-A., Morin, P., and Baudry, H. (2023, January 24–25). NavkiteTM—Protection of Inertial Navigation System Based on Interference Detection and Mitigation Solution. Proceedings of the 2023 DGON Inertial Sensors and Systems (ISS), Braunschweig, Germany.",
+        "DOI": "10.1109/ISS58390.2023.10361936"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 6,
+      "citation": {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei, J., Yu, F., Zhang, Y., Fan, S., Chang, L., and Guo, K. (2023, January 6–9). A System-Level Calibration and Integrated Navigation Technology of HRG-Based SINSDVL System for Underwater Vehicles. Proceedings of the 2023 IEEE International Conference on Mechatronics and Automation (ICMA), Harbin, China.",
+        "DOI": "10.1109/ICMA57826.2023.10216258"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 7,
+      "citation": {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2077",
+        "DOI": "10.1016/j.ijmachtools.2007.05.007",
+        "article-title": "A Study on the Fabrication of Curved Surfaces Using Magnetorheological Fluid Finishing",
+        "volume": "47",
+        "author": "Seok",
+        "year": "2007",
+        "journal-title": "Int. J. Mach. Tools Manuf."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 8,
+      "citation": {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1134/S2075108715030025",
+        "article-title": "Balancing of Hemispherical Resonator Gyros by Chemical Etching",
+        "volume": "6",
+        "author": "Basarab",
+        "year": "2015",
+        "journal-title": "Gyroscopy Navig."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 9,
+      "citation": {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2094",
+        "DOI": "10.1016/j.jsv.2010.11.014",
+        "article-title": "Natural Frequency Split Estimation for Inextensional Vibration of Imperfect Hemispherical Shell",
+        "volume": "330",
+        "author": "Choi",
+        "year": "2011",
+        "journal-title": "J. Sound Vib."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 10,
+      "citation": {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "109924",
+        "DOI": "10.1016/j.measurement.2021.109924",
+        "article-title": "High-Precision Synchronous Test Method of Vibration Performance Parameters for Fused Quartz Hemispherical Resonator",
+        "volume": "185",
+        "author": "Wei",
+        "year": "2021",
+        "journal-title": "Measurement"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 11,
+      "citation": {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "9601",
+        "DOI": "10.1109/TIE.2022.3212381",
+        "article-title": "High Precision Mass Balancing Method for the Fourth Harmonic of Mass Defect of Fused Quartz Hemispherical Resonator Based on Ion Beam Etching Process",
+        "volume": "70",
+        "author": "Huo",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 12,
+      "citation": {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "7505010",
+        "DOI": "10.1109/TIM.2023.3295462",
+        "article-title": "High Precision Assembly and Welding Method for Flat-Electrode Hemispherical Resonator Gyro",
+        "volume": "72",
+        "author": "Yuan",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 13,
+      "citation": {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "3241",
+        "DOI": "10.1109/JSEN.2020.3027739",
+        "article-title": "Rate-Integration Gyroscope (RIG) With Gain Self Calibration",
+        "volume": "21",
+        "author": "Fan",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 14,
+      "citation": {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vatanparvar, D., and Shkel, A.M. (2021, January 22–26). Identification of Gain Mismatches in Control Electronics of Rate Integrating CVGs. Proceedings of the 2021 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL), Kailua-Kona, HI, USA.",
+        "DOI": "10.1109/INERTIAL51137.2021.9430479"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 15,
+      "citation": {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.1109/JSEN.2023.3332067",
+        "article-title": "Identification and Compensation of Gain Mismatches for Whole-Angle Microhemispherical Resonator Gyroscope Based on Modal Reversal",
+        "volume": "24",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 16,
+      "citation": {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, Y., Wei, Z., Yi, G., and Wang, N. (2024). Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hemispherical Resonator Gyro. Sensors, 24.",
+        "DOI": "10.3390/s24134328"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 17,
+      "citation": {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1109/JMEMS.2021.3123082",
+        "article-title": "Characterization and Compensation of Detection Electrode Errors for Whole-Angle Micro-Shell Resonator Gyroscope",
+        "volume": "31",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "J. Microelectromech. Syst."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 18,
+      "citation": {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "19228",
+        "DOI": "10.1109/JSEN.2022.3204631",
+        "article-title": "Identification and Correction of Phase Error for Whole-Angle Micro-Shell Resonator Gyroscope",
+        "volume": "22",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "IEEE Sensors J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 19,
+      "citation": {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang, X., Pan, Y., Zeng, L., Li, J., Tao, Y., Jia, Y., Yang, K., and Luo, H. (2022, January 13–14). Investigation on Influences of Phase Delay on Performance of Resonator Gyroscopes. Proceedings of the 2022 DGON Inertial Sensors and Systems (ISS), Braunschweig, Germany.",
+        "DOI": "10.1109/ISS55898.2022.9926385"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 20,
+      "citation": {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, J., Yang, G., Zhou, Y., Zhang, J., Liu, F., and Cai, Q. (2024). An In-Run Automatic Demodulation Phase Error Compensation Method for MEMS Gyroscope in Full Temperature Range. Micromachines, 15.",
+        "DOI": "10.3390/mi15070825"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 21,
+      "citation": {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "115494",
+        "DOI": "10.1016/j.sna.2024.115494",
+        "article-title": "A Rate Hemispherical Resonator Gyroscope with Bias Stability of 0.0056°/h with Compensation of Phase Delay",
+        "volume": "375",
+        "author": "Tang",
+        "year": "2024",
+        "journal-title": "Sens. Actuators A Phys."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 22,
+      "citation": {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "21342",
+        "DOI": "10.1109/JSEN.2021.3103115",
+        "article-title": "Single-Channel Control for Hemispherical Resonator Gyro Based on Time Division Multiplexing and Demultiplexing",
+        "volume": "21",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "IEEE Sensors J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 23,
+      "citation": {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "14027",
+        "DOI": "10.1109/JSEN.2024.3378916",
+        "article-title": "Control System Based on Double-Frequency Drive and Single-Channel Detection for Rate Integrating Vibratory Gyroscope",
+        "volume": "24",
+        "author": "Xu",
+        "year": "2024",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 24,
+      "citation": {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, Y., Wei, Z., Yi, G., and Xi, B. (2023, January 11–13). A Rate Integrating Hemispherical Resonant Gyro Angular Rate Output Method Based on Frequency Demodulation. Proceedings of the 2023 2nd International Symposium on Sensor Technology and Control (ISSTC), Hangzhou, China.",
+        "DOI": "10.1109/ISSTC59603.2023.10281165"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 25,
+      "citation": {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "15802",
+        "DOI": "10.1109/JSEN.2022.3188287",
+        "article-title": "Bias Modulation of Force-to-Rebalanced Micro Hemispherical Resonator Gyroscope Based on Mode-Rotation",
+        "volume": "22",
+        "author": "Ding",
+        "year": "2022",
+        "journal-title": "IEEE Sensors J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 26,
+      "citation": {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, W., Yang, H., Liu, F., Su, Y., and Li, C. (2021). High Sensitivity Rate-Integrating Hemispherical Resonator Gyroscope with Dead Area Compensation for Damping Asymmetry. Sci. Rep., 11.",
+        "DOI": "10.1038/s41598-020-80885-y"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 27,
+      "citation": {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, X., Li, P., Zhuang, X., Sheng, Y., Liu, J., Gao, Z., and Yu, Z. (2023). Weak Capacitance Detection Circuit of Micro-Hemispherical Gyroscope Based on Common-Mode Feedback Fusion Modulation and Demodulation. Micromachines, 14.",
+        "DOI": "10.3390/mi14061161"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi16030273",
+      "reference_index": 28,
+      "citation": {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1054",
+        "DOI": "10.1109/TIE.2024.3409884",
+        "article-title": "A MEMS-Based Three-Ring Capacitive Angular Position Sensor with an Absolute Zero Position Feature",
+        "volume": "72",
+        "author": "Xie",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 1,
+      "citation": {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deleaux, B., and Lenoir, Y. (2018, January 11–12). The World Smallest, Most Accurate and Reliable Pure Inertial Navigator: ONYX™. Proceedings of the 2018 DGON Inertial Sensors and Systems (ISS), Braunschweig, Germany.",
+        "DOI": "10.1109/InertialSensors.2018.8577108"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 2,
+      "citation": {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Foloppe, Y., and Lenoir, Y. (2019, January 10–11). HRG Crystal™ DUAL CORE: Rebooting the INS Revolution. Proceedings of the 2019 DGON Inertial Sensors and Systems (ISS), Braunschweig, Germany.",
+        "DOI": "10.1109/ISS46986.2019.8943660"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 3,
+      "citation": {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "21342",
+        "DOI": "10.1109/JSEN.2021.3103115",
+        "article-title": "Single-Channel Control for Hemispherical Resonator Gyro Based on Time Division Multiplexing and Demultiplexing",
+        "volume": "21",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 4,
+      "citation": {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Delhaye, F., and Girault, J.-P. (2018, January 28–30). SpaceNaute®: HRG Technological Breakthrough for Advanced Space Launcher Inertial Reference System. Proceedings of the 2018 25th Saint Petersburg International Conference on Integrated Navigation Systems (ICINS), St. Petersburg, Russia.",
+        "DOI": "10.23919/ICINS.2018.8405891"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 5,
+      "citation": {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, K., Wu, Y., Zhang, Y., Sun, J., Xiao, D., and Wu, X. (2020). Damping Asymmetry Trimming Based on the Resistance Heat Dissipation for Coriolis Vibratory Gyroscope in Whole-Angle Mode. Micromachines, 11.",
+        "DOI": "10.3390/mi11100945"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 6,
+      "citation": {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, W., Yang, H., Liu, F., Su, Y., and Song, L. (2020). The Energy Compensation of the HRG Based on the Double-Frequency Parametric Excitation of the Discrete Electrode. Sensors, 20.",
+        "DOI": "10.3390/s20123549"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 7,
+      "citation": {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1038/s41378-021-00313-7",
+        "article-title": "0.79 ppm Scale-Factor Nonlinearity Whole-Angle Microshell Gyroscope Realized by Real-Time Calibration of Capacitive Displacement Detection",
+        "volume": "7",
+        "author": "Sun",
+        "year": "2021",
+        "journal-title": "Microsyst. Nanoeng."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 8,
+      "citation": {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1134/S2075108723010054",
+        "article-title": "Hemispherical Resonator Gyros (An Overview of Publications)",
+        "volume": "14",
+        "author": "Maslov",
+        "year": "2023",
+        "journal-title": "Gyroscopy Navig."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 9,
+      "citation": {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Delhaye, F. (2018, January 26–29). HRG by SAFRAN: The Game-Changing Technology. Proceedings of the 2018 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL), Moltrasio, Italy.",
+        "DOI": "10.1109/ISISS.2018.8358163"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 10,
+      "citation": {
+        "key": "ref_10",
+        "first-page": "1157",
+        "article-title": "The Hemispherical Resonator Gyro: From Wineglass to the Planets",
+        "volume": "Volume 134",
+        "author": "Rozelle",
+        "year": "2009",
+        "journal-title": "Advances in the Astronautical Sciences"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 11,
+      "citation": {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jeanroy, A., Grosset, G., Goudon, J.-C., and Delhaye, F. (2016, January 22–25). HRG by SAGEM: From Laboratory to Mass Production. Proceedings of the 2016 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL), Laguna Beach, CA, USA.",
+        "DOI": "10.1109/ISISS.2016.7435530"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 12,
+      "citation": {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, Z., Zeng, L., Xing, C., Shang, L., Yan, X., and Li, J. (2025). Comparative Noise Analysis of Readout Circuit in Hemispherical Resonator Gyroscope. Micromachines, 16.",
+        "DOI": "10.3390/mi16070802"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 13,
+      "citation": {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, S., Tang, M., Chen, G., Zhao, X., and Jia, C. (2023, January 3–6). Key Technologies of Hemispherical Resonant Gyro Inertial Navigation System. Proceedings of the 2023 International Conference on Ocean Studies (ICOS), Vladivostok, Russia.",
+        "DOI": "10.1109/ICOS60708.2023.10425165"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 14,
+      "citation": {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "114308",
+        "DOI": "10.1016/j.measurement.2024.114308",
+        "article-title": "Separation of Mass and Gap Errors of Hemispherical Resonator Gyroscopes by Varying Bias Voltage",
+        "volume": "228",
+        "author": "Deng",
+        "year": "2024",
+        "journal-title": "Measurement"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 15,
+      "citation": {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "7068",
+        "DOI": "10.1109/JSEN.2023.3246044",
+        "article-title": "Rate Integrating Hemispherical Resonator Gyroscope Detection Error Analysis and Compensation",
+        "volume": "23",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 16,
+      "citation": {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, H., Wei, Z., Wang, N., Yi, G., Guan, Z., and Sun, Y. (2025, January 16–19). Calibration of Channel Error in Dual-Channel Synchronous Control Circuit for Rate Integrating Hemispherical Resonator Gyro. Proceedings of the 2025 37th Chinese Control and Decision Conference (CCDC), Xi’an, China.",
+        "DOI": "10.1109/CCDC65474.2025.11090788"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 17,
+      "citation": {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "115494",
+        "DOI": "10.1016/j.sna.2024.115494",
+        "article-title": "A Rate Hemispherical Resonator Gyroscope with Bias Stability of 0.0056°/h with Compensation of Phase Delay",
+        "volume": "375",
+        "author": "Tang",
+        "year": "2024",
+        "journal-title": "Sens. Actuators A"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 18,
+      "citation": {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "2134",
+        "DOI": "10.1109/LED.2025.3604433",
+        "article-title": "0.08 ppm Scale Factor Nonlinearity in Whole-Angle Hemispherical Resonator Gyroscopes Enabled by Rapid Detection Signal Nonlinearity Suppression",
+        "volume": "46",
+        "author": "Zeng",
+        "year": "2025",
+        "journal-title": "IEEE Electron Device Lett."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 19,
+      "citation": {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "114945",
+        "DOI": "10.1016/j.measurement.2024.114945",
+        "article-title": "High-Precision Identification and Compensation of Nonlinear Error in Hemispherical Resonator Gyro",
+        "volume": "237",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Measurement"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 20,
+      "citation": {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "339",
+        "DOI": "10.1038/nnano.2011.71",
+        "article-title": "Nonlinear Damping in Mechanical Resonators Made from Carbon Nanotubes and Graphene",
+        "volume": "6",
+        "author": "Eichler",
+        "year": "2011",
+        "journal-title": "Nat. Nanotechnol."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 21,
+      "citation": {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "10271",
+        "DOI": "10.1109/JSEN.2019.2929352",
+        "article-title": "Effects of Nonlinearity on the Angular Drift Error of an Electrostatic MEMS Rate Integrating Gyroscope",
+        "volume": "19",
+        "author": "Hu",
+        "year": "2019",
+        "journal-title": "IEEE Sens. J."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 22,
+      "citation": {
+        "key": "ref_22",
+        "first-page": "615",
+        "article-title": "Noise identification of hemispherical resonant gyroscope circuit based on Allan varian",
+        "volume": "33",
+        "author": "Xia",
+        "year": "2025",
+        "journal-title": "J. Chin. Inert. Technol."
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 23,
+      "citation": {
+        "key": "ref_23",
+        "first-page": "496",
+        "article-title": "Research on Noise Characteristics of Hemispherical Resonator Gyro",
+        "volume": "47",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "Piezoelectrics Acoustooptics"
+      }
+    },
+    {
+      "parent_doi": "10.3390/mi17010143",
+      "reference_index": 24,
+      "citation": {
+        "key": "ref_24",
+        "first-page": "62",
+        "article-title": "Quantization Noise Suppression Technology of MEMS Gyroscopes with Dither Signal Injection",
+        "volume": "22",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Navig. Control"
+      }
+    }
+  ],
+  "errors": []
+}

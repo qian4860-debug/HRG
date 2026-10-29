@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-29",
+  "source_sha256": "80e9a4e4354dadba6e3468717a708131b439ecba9ffacb661205cd9072f6bd3b",
+  "source_records": 161,
+  "missing_titles": 0,
+  "new_items": 87,
+  "reused_existing_items": 45,
+  "duplicate_source_rows": 29,
+  "reasons": {
+    "new": 87,
+    "title_year_or_url": 46,
+    "doi": 28
+  },
+  "collection": "V10核心论文_一级引用_20261029",
+  "status": "planned",
+  "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input"
+}
