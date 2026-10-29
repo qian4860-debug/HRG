@@ -1,0 +1,27 @@
+{
+  "synthetic_only": true,
+  "matlab": "25.1.0.2943329 (R2025a)",
+  "original_metrics": {
+    "energy_relative_mean": -4.05441132889095E-8,
+    "quadrature_rms": 3.9047648852200167E-6,
+    "pattern_angle_rms_deg": 0.020732971900898633,
+    "angle_rms_deg": 0.074850716261878836,
+    "angle_drift_deg_s": 0.0022487371107423404,
+    "pll_phase_rms": 0.00081681409332974217,
+    "drive_margin_V": 0.3489227294921875,
+    "max_displacement_m": 9.9056887522454076E-7,
+    "build_time_s": 0.126,
+    "bias_equivalent_deg_s": -0.0081184494064951984,
+    "rate_noise_status": "not_estimated: deterministic short fixture, no Allan/ARW claim"
+  },
+  "state_ellipse_vs_truth_carrier_rms_deg": 0.044537736101223788,
+  "iq_vs_current_state_carrier_rms_deg": 0.031211346969201713,
+  "iq_vs_window_mid_state_carrier_rms_deg": 0.0020085251949237722,
+  "window_age_min_s": 0.0005124999999999158,
+  "window_age_max_s": 0.001487500000000086,
+  "checks": {
+    "finite": true,
+    "baseline_reproduced": true,
+    "window_mid_reduces_iq_state_disagreement": true
+  }
+}
