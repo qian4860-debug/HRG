@@ -1,0 +1,10 @@
+{
+  "status": "template_not_measured",
+  "sweep_columns": ["frequency_Hz", "V_port_real_V", "V_port_imag_V", "I_port_real_A", "I_port_imag_A", "drive_port", "sense_port"],
+  "ringdown_columns": ["time_s", "I", "Q"],
+  "required_metadata": ["IQ_units", "carrier_reference_frequency_Hz", "terminal_polarity", "load_impedance", "fixture_deembedding", "temperature_C", "pressure", "mounting", "input_amplitude", "clock_calibration", "instrument_calibration", "modal_normalization"],
+  "physical_calibration_columns": ["displacement_m", "motion_charge_C"],
+  "rotation_columns": ["time_s", "encoder_angle_rad", "measured_pattern_angle_rad"],
+  "never_inferred_from_small_signal_fit": ["maximum_voltage_rating", "maximum_displacement_or_strain", "fatigue_lifetime"],
+  "before_physical_import": ["independent_displacement_scale", "independent_B_calibration", "confirmed_operating_limits", "reference_boundary_consistent", "holdout_validation"]
+}
