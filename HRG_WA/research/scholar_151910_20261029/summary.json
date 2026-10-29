@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "source_sha256": "c3b5d3b11c041233f80f1810ba6a1011857c742c4812566076280119f860e864",
+  "source_records": 808,
+  "missing_titles": 14,
+  "new_items": 198,
+  "reused_existing_items": 607,
+  "duplicate_source_rows": 3,
+  "reasons": {
+    "title_year_or_url": 208,
+    "source_identity": 401,
+    "doi": 1,
+    "new": 196,
+    "new_incomplete_title": 2
+  },
+  "collection": "Scholar多关键词_20261029_151910",
+  "status": "verified",
+  "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input",
+  "created_items": 198,
+  "existing_memberships_extended": 0,
+  "unique_target_items": 805,
+  "all_source_rows_resolved": true,
+  "existing_metadata_preserved": true,
+  "source_bytes_preserved": true,
+  "total_library_items": 2162
+}
