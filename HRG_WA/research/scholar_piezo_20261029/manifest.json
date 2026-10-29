@@ -1,0 +1,4239 @@
+{
+  "source_sha256": "4b1ee00a0d7c269586b37f709f7bcfc2162cd106607ca289514c02c36e25e05c",
+  "source_records": 203,
+  "records": [
+    {
+      "row": 1,
+      "source_id": "2HlbKRBOmK0J",
+      "title": "Non-metallized dual-shell hemispherical resonator gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11028339/",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P06_Non-Metallized Dual-Shell Hemispherical Resonator Gyroscope.pdf",
+      "pages": 5,
+      "parser": "pypdf",
+      "tail_characters": 6930,
+      "sha256": "3a82e75f7e2eda66b5b13c83fd81d136c6c509b66bb30baad170d3184e55a547",
+      "bytes": 1055501,
+      "text_extraction_pages": 5
+    },
+    {
+      "row": 2,
+      "source_id": "xZ2uLtw79oAJ",
+      "title": "Experimental studies on dynamic response of piezoelectric based hemispherical resonator gyroscope",
+      "url": "https://www.emerald.com/sr/article-abstract/44/6/638/1216131",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.emerald.com/sr/article-abstract/44/6/638/1216131",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 3,
+      "source_id": "7jwG_aYPCJcJ",
+      "title": "Hemispherical resonator gyros (an overview of publications)",
+      "url": "https://link.springer.com/article/10.1134/S2075108723010054",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.1134/S2075108723010054",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1134/S2075108723010054.pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1134/S2075108723010054.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1134/s2075108723010054",
+      "metadata_title": "Hemispherical Resonator Gyros (An Overview of Publications)",
+      "public_pdf_candidates": [
+        "https://link.springer.com/content/pdf/10.1134/S2075108723010054.pdf"
+      ]
+    },
+    {
+      "row": 4,
+      "source_id": "BKFGV4xiQcgJ",
+      "title": "Analysis of Dual-Shell Hemispherical Resonator Gyroscope Geometry for Indirect Piezoelectric Actuation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11695064/",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11695064/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jmems.2026.3732062",
+      "metadata_title": "Analysis of Dual-Shell Hemispherical Resonator Gyroscope Geometry for Indirect Piezoelectric Actuation",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 5,
+      "source_id": "hyZFj9CNjukJ",
+      "title": "Precision Balancing of Hemispherical Resonator Gyros via Vibration-Excitation-Based Unbalanced Mass Identification",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11435278/",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11435278/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2026.3672464",
+      "metadata_title": "Precision Balancing of Hemispherical Resonator Gyros Via Vibration-Excitation-Based Unbalanced Mass Identification",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 6,
+      "source_id": "KsXtI86Wu0oJ",
+      "title": "Experimental and numerical studies on mechanical resonance of piezoelectric hemispherical resonator gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9622701/",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9622701/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/conecct52877.2021.9622701",
+      "metadata_title": "Experimental And Numerical Studies on Mechanical Resonance of Piezoelectric Hemispherical Resonator Gyroscope",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 7,
+      "source_id": "UrxCFVxXBUQJ",
+      "title": "Recent advances in MEMS-based 3D hemispherical resonator gyroscope (HRG)—A sensor of choice",
+      "url": "https://www.mdpi.com/2072-666X/13/10/1676",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2072-666X/13/10/1676/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/13/10/1676",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/mi13101676",
+      "metadata_title": "Recent Advances in MEMS-Based 3D Hemispherical Resonator Gyroscope (HRG)—A Sensor of Choice",
+      "public_pdf_candidates": [],
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/seed_replacements/L062_2022_Recent_Advances_MEMS_3D_HRG_verified.pdf",
+      "pages": 30,
+      "parser": "pypdf",
+      "tail_characters": 3505,
+      "sha256": "8de41d67c4661fcec01adfab456bfebbb3846e458eb7d11ae4585fc85386624f",
+      "bytes": 2716899,
+      "identity_basis": "manually_reviewed_opening_title",
+      "text_extraction_pages": 30
+    },
+    {
+      "row": 8,
+      "source_id": "LSWzxr3D4d8J",
+      "title": "Hemispherical vibratory gyroscope performance evaluation and sensitivity analysis with capacitive excitation",
+      "url": "https://www.sid.ir/en/VEWSSID/J_pdf/54006020190106.pdf",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sid.ir/en/VEWSSID/J_pdf/54006020190106.pdf",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 9,
+      "source_id": "sgvMAE2x77wJ",
+      "title": "A 3D-printed microhemispherical shell resonator with electrostatic tuning for a Coriolis vibratory gyroscope",
+      "url": "https://www.nature.com/articles/s41378-024-00659-8",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0123_A 3D-printed microhemispherical shell resonator with electrostatic tuning for a Coriolis vibratory gyroscope.pdf",
+      "pages": 11,
+      "parser": "pypdf",
+      "tail_characters": 943,
+      "sha256": "15fee17ef2d353be51a896b970e57bef2b23f0e6e17c6cd3154a76c170605c0c",
+      "bytes": 2137902,
+      "text_extraction_pages": 11
+    },
+    {
+      "row": 10,
+      "source_id": "p0R83KZU5J0J",
+      "title": "Vibratory Gyroscopes",
+      "url": "https://link.springer.com/article/10.1134/S2075108726700161",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/content/pdf/10.1134/S2075108726700161.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "candidate_identity_rejected",
+      "identity_complete": true,
+      "pages": 8,
+      "parser": "pypdf",
+      "tail_characters": 4737,
+      "bytes": 718313,
+      "text_extraction_pages": 8,
+      "rejected_candidate_path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0080_Demodulated dynamics and optimal noise filtering for coriolis vibratory gyroscopes.pdf",
+      "rejected_candidate_sha256": "f152ca919b51b0a39835210da839494bd63521378b64a892f2b1db02627aa881",
+      "identity_rejection": "Different article with generic title overlap",
+      "verified_doi": "10.1134/s2075108726700161",
+      "metadata_title": "Vibratory Gyroscopes",
+      "public_pdf_candidates": [
+        "https://link.springer.com/content/pdf/10.1134/S2075108726700161.pdf"
+      ]
+    },
+    {
+      "row": 11,
+      "source_id": "0QpzjdP-K9wJ",
+      "title": "Three-dimensional performance evaluation of hemispherical coriolis vibratory gyroscopes",
+      "url": "https://www.mdpi.com/2072-666X/14/2/254",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2072-666X/14/2/254/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/14/2/254",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/14/2/254/pdf?version=1675048657",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9965702/pdf/micromachines-14-00254.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/mi14020254",
+      "metadata_title": "Three-Dimensional Performance Evaluation of Hemispherical Coriolis Vibratory Gyroscopes",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/2072-666X/14/2/254/pdf?version=1675048657",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9965702/pdf/micromachines-14-00254.pdf"
+      ]
+    },
+    {
+      "row": 12,
+      "source_id": "3y499kUokFwJ",
+      "title": "Coupled Field Analysis of Hemispherical Resonator Gyroscope.",
+      "url": "https://openurl.ebsco.com/contentitem/gcd:155784487?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:155784487&crl=c&jrnl=09753060",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://openurl.ebsco.com/contentitem/gcd:155784487?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:155784487&crl=c&jrnl=09753060",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://yanthrika.com/eja/index.php/ijvss/article/download/1925/1078",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.4273/ijvss.14.2.06",
+      "metadata_title": "Coupled Field Analysis of Hemispherical Resonator Gyroscope",
+      "public_pdf_candidates": [
+        "https://yanthrika.com/eja/index.php/ijvss/article/download/1925/1078"
+      ]
+    },
+    {
+      "row": 13,
+      "source_id": "DYE2PKHu45AJ",
+      "title": "The Research and Design of Axial Symmetry Resonant MEMS Gyroscope",
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/9789813232808_0011",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.worldscientific.com/doi/abs/10.1142/9789813232808_0011",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1142/9789813232808_0011",
+      "metadata_title": "The Research and Design of Axial Symmetry Resonant MEMS Gyroscope",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 14,
+      "source_id": "2yj9gQoFmHcJ",
+      "title": "Method for measuring voltages in channels of a hemispherical resonator gyroscope with an arbitrary orientation axes",
+      "url": "https://www.academia.edu/download/97594961/29156-59853-1-PB.pdf",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "downloaded_fulltext",
+      "attempts": [
+        {
+          "url": "https://www.academia.edu/download/97594961/29156-59853-1-PB.pdf",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "verified_doi": "10.11591/ijeecs.v29.i2.pp715-724",
+      "metadata_title": "Method for measuring voltages in channels of a hemispherical resonator gyroscope with an arbitrary orientation axes",
+      "public_pdf_candidates": [
+        "https://ijeecs.iaescore.com/index.php/IJEECS/article/viewFile/29156/17020",
+        "https://ijeecs.iaescore.com/index.php/IJEECS/article/download/29156/17020"
+      ],
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S014_Method for measuring voltages in channels of a hemispherical resonator gyroscope with an arbitrary orientation axes.pdf",
+      "source_url": "https://ijeecs.iaescore.com/index.php/IJEECS/article/viewFile/29156/17020",
+      "final_url": "https://ijeecs.iaescore.com/index.php/IJEECS/article/viewFile/29156/17020",
+      "pages": 10,
+      "parser": "pypdf",
+      "tail_characters": 3072,
+      "sha256": "597789e9a822097a72afd17d4daf9ae0b05f000679bc94538a965decf6b53bdc",
+      "bytes": 1141735,
+      "text_extraction_pages": 10
+    },
+    {
+      "row": 15,
+      "source_id": "eI3mUIlM1EIJ",
+      "title": "Micro-scale diamond hemispherical resonator gyroscope",
+      "url": "https://www.academia.edu/download/85496554/f2cfd63a7dd9936bedd48ae602fffb863d08.pdf",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.academia.edu/download/85496554/f2cfd63a7dd9936bedd48ae602fffb863d08.pdf",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 16,
+      "source_id": "2AjbrN_CaLwJ",
+      "title": "Temperature Influence Analysis and Compensation Method of Hemisphere Resonator Gyroscope",
+      "url": "https://saemobilus.sae.org/downloads/papers/2026-99-0514/Full%20Text%20PDF",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://saemobilus.sae.org/downloads/papers/2026-99-0514/Full%20Text%20PDF",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.4271/2026-99-0514",
+      "metadata_title": "Temperature Influence Analysis and Compensation Method of Hemisphere Resonator Gyroscope",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 17,
+      "source_id": "8WbaOK6tnU4J",
+      "title": "Application of conductive graphene films for high-performance hemispherical resonator gyroscopes",
+      "url": "https://pubs.aip.org/aip/apl/article/125/17/174102/3317594",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://pubs.aip.org/aip/apl/article/125/17/174102/3317594",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/5.0230846/20216973/174102_1_5.0230846.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1063/5.0230846",
+      "metadata_title": "Application of conductive graphene films for high-performance hemispherical resonator gyroscopes",
+      "public_pdf_candidates": [
+        "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/5.0230846/20216973/174102_1_5.0230846.pdf"
+      ]
+    },
+    {
+      "row": 18,
+      "source_id": "cSDN6D0O7wQJ",
+      "title": "标题不可用",
+      "url": "#",
+      "year": "1999",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 19,
+      "source_id": "Y6LVQludr8cJ",
+      "title": "Loss mechanisms in metallic hemispherical resonators and cost-effective gyroscope applications",
+      "url": "https://open.metu.edu.tr/handle/11511/115436",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://open.metu.edu.tr/handle/11511/115436",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 20,
+      "source_id": "QZXvbF-ufFsJ",
+      "title": "High-Temperature Piezoelectric Gyroscopes for Harsh Industrial Environments: A Review of Materials, Structural Design, and Circuitry",
+      "url": "https://www.mdpi.com/2079-6412/16/7/810",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2079-6412/16/7/810/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2079-6412/16/7/810",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/coatings16070810",
+      "metadata_title": "High-Temperature Piezoelectric Gyroscopes for Harsh Industrial Environments: A Review of Materials, Structural Design, and Circuitry",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 21,
+      "source_id": "othTkcwqMlMJ",
+      "title": "Analysis of the current status of diamond micro-hemispherical resonators",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2996/1/012002/meta",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S021_Analysis of the current status of diamond micro-hemispherical resonators.pdf",
+      "source_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2996/1/012002/pdf",
+      "final_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2996/1/012002/pdf",
+      "pages": 13,
+      "parser": "pypdf",
+      "tail_characters": 1184,
+      "sha256": "ed7f4b51e2c8fefe7011fbd4efdf2421d614cb0470eed2f390b60d9a6aaa36fe",
+      "bytes": 1100084,
+      "text_extraction_pages": 13
+    },
+    {
+      "row": 22,
+      "source_id": "0YV7LL8MeGUJ",
+      "title": "Microelectromechanical Systems (MEMS) Inertial Units: Multi-Axis Resonant Design Using Side Wall Grown AlN Piezoelectric Transducers",
+      "url": "https://aaltodoc.aalto.fi/items/6e3cffce-eec1-40ab-8636-f9f22b121393",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://aaltodoc.aalto.fi/items/6e3cffce-eec1-40ab-8636-f9f22b121393",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 23,
+      "source_id": "6guE7w4ckQkJ",
+      "title": "Effect of uneven electrostatic forces on the dynamic characteristics of capacitive hemispherical resonator gyroscopes",
+      "url": "https://www.mdpi.com/1424-8220/19/6/1291",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0039_Effect of Uneven Electrostatic Forces on the Dynamic Characteristics of Capacitive Hemispherical Resonator Gyroscop.pdf",
+      "pages": 16,
+      "parser": "pypdf",
+      "tail_characters": 4567,
+      "sha256": "807368b53711b3b9ca768046953c951e6637fa12ad60c8467c46ee7dd57e53ab",
+      "bytes": 5836448,
+      "text_extraction_pages": 16
+    },
+    {
+      "row": 24,
+      "source_id": "Yh9wtUjjFLAJ",
+      "title": "A novel modeling method based on 3D CT images for dynamics analysis of the micro-hemispherical resonator gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9787721/",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9787721/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 25,
+      "source_id": "rJb1yCw4YOMJ",
+      "title": "The high-precision balance method for hemispherical resonator based on synchronous trimming system",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10239706/",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10239706/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2023.3297211",
+      "metadata_title": "The High-Precision Balance Method for Hemispherical Resonator Based on Synchronous Trimming System",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 26,
+      "source_id": "VfAh-eOiyTQJ",
+      "title": "3.54-million Q-factor micro hemispherical resonator gyroscope with segmented displacement startup",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11170014/",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11170014/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 27,
+      "source_id": "XNBNEAUpf5sJ",
+      "title": "Design, fabrication, and characterization of a multicurved surface fusion metal resonant gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10417016/",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10417016/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 28,
+      "source_id": "C8nxC74Ecq0J",
+      "title": "Asymmetric Phase-Delay Modeling and Online Compensation for Whole-Angle Micro-Hemispherical Resonator Gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11677288/",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11677288/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2026.3728523",
+      "metadata_title": "Asymmetric Phase-Delay Modeling and Online Compensation for Whole-Angle Microhemispherical Resonator Gyroscopes",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 29,
+      "source_id": "28AC3jjyPJQJ",
+      "title": "A Study of the Effect of Temperature on the Capacitance Characteristics of a Metal-μhemisphere Resonant Gyroscope",
+      "url": "https://www.mdpi.com/1424-8220/24/21/7088",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/24/21/7088/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/24/21/7088",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/24/21/7088/pdf?version=1730707388",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11548605/pdf/sensors-24-07088.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/s24217088",
+      "metadata_title": "A Study of the Effect of Temperature on the Capacitance Characteristics of a Metal-μhemisphere Resonant Gyroscope",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/1424-8220/24/21/7088/pdf?version=1730707388",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11548605/pdf/sensors-24-07088.pdf"
+      ]
+    },
+    {
+      "row": 30,
+      "source_id": "IvyquL1_oTwJ",
+      "title": "Development of a low damping MEMS resonator",
+      "url": "https://search.proquest.com/openview/51c71d4087dec31862a1fb0351c39526/1?pq-origsite=gscholar&cbl=18750",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/51c71d4087dec31862a1fb0351c39526/1?pq-origsite=gscholar&cbl=18750",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 31,
+      "source_id": "Jtzbdz6yWb8J",
+      "title": "MEMS and MOEMS gyroscopes: A review",
+      "url": "https://link.springer.com/article/10.1007/s13320-023-0693-x",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1122_MEMS and MOEMS Gyroscopes_ A Review.pdf",
+      "pages": 26,
+      "parser": "pypdf",
+      "tail_characters": 4799,
+      "sha256": "cda83b526ce9e8702f0a9962a6b26e6b558f7757a34b2e0074264d9c58201646",
+      "bytes": 4642739,
+      "text_extraction_pages": 26
+    },
+    {
+      "row": 32,
+      "source_id": "AEIc_b-Kj8oJ",
+      "title": "Thin-Film AlN-On-Silicon Resonant Gyroscopes: Design, Fabrication, and Eigenmode Operation",
+      "url": "https://search.proquest.com/openview/d8c751ff1b89f1bc141eaaf185e168d0/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/d8c751ff1b89f1bc141eaaf185e168d0/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 33,
+      "source_id": "6PcMmuFL0aQJ",
+      "title": "The development of micro-gyroscope technology",
+      "url": "https://iopscience.iop.org/article/10.1088/0960-1317/19/11/113001/meta",
+      "year": "2009",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/19/11/113001/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/19/11/113001/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/19/11/113001/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/0960-1317/19/11/113001",
+      "metadata_title": "The development of micro-gyroscope technology",
+      "public_pdf_candidates": [
+        "https://iopscience.iop.org/article/10.1088/0960-1317/19/11/113001/pdf"
+      ]
+    },
+    {
+      "row": 34,
+      "source_id": "JjKoOXEGskEJ",
+      "title": "Bias stability and bandwidth enhancement in micro-hemispherical resonant gyroscopes via alternating pseudo-rotation modulation and adaptive proportional–integral …",
+      "url": "https://pubs.aip.org/aip/rsi/article/97/2/024712/3380458",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 35,
+      "source_id": "k-rawc3N8gEJ",
+      "title": "Fundamental Technologies for the Opto Mechanical Gyroscope",
+      "url": "https://search.proquest.com/openview/48a833f573c718f833915358cf2583d6/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/48a833f573c718f833915358cf2583d6/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 36,
+      "source_id": "fUW0dbYkelQJ",
+      "title": "Theory of New Gyroscopic Sensors of the “Generalized” Foucault Pendulum Series Operating in Two Modes",
+      "url": "https://link.springer.com/article/10.3103/S0025654421080161",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.3103/S0025654421080161",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S0025654421080161.pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S0025654421080161.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3103/s0025654421080161",
+      "metadata_title": "Theory of New Gyroscopic Sensors of the “Generalized” Foucault Pendulum Series Operating in Two Modes",
+      "public_pdf_candidates": [
+        "https://link.springer.com/content/pdf/10.3103/S0025654421080161.pdf"
+      ]
+    },
+    {
+      "row": 37,
+      "source_id": "8BqdN8eHJ6wJ",
+      "title": "Manufacturing fused silica hemispherical resonators using polymer glass suspension and replication molding",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6439/ad5b6a/meta",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S037_Manufacturing fused silica hemispherical resonators using polymer glass suspension and replication molding.pdf",
+      "source_url": "https://iopscience.iop.org/article/10.1088/1361-6439/ad5b6a/pdf",
+      "final_url": "https://iopscience.iop.org/article/10.1088/1361-6439/ad5b6a/pdf",
+      "pages": 12,
+      "parser": "pypdf",
+      "tail_characters": 1626,
+      "sha256": "d3494c9ef2c2b7447251b1bfad341e601525926ed943c30ba9094aa5474ff267",
+      "bytes": 2149017,
+      "text_extraction_pages": 12
+    },
+    {
+      "row": 38,
+      "source_id": "BLZb4EsexSwJ",
+      "title": "Research on frequency trimming of uncoated micro hemispherical resonator using ion beam etching",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012018/meta",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012018/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012018/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012018/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/1742-6596/2982/1/012018",
+      "metadata_title": "Research on frequency trimming of uncoated micro hemispherical resonator using ion beam etching",
+      "public_pdf_candidates": [
+        "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012018/pdf"
+      ]
+    },
+    {
+      "row": 39,
+      "source_id": "Q8dHQziVWgsJ",
+      "title": "Frequency split modulation in micro hemispherical resonator based on rim width",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11098566/",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11098566/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jmems.2025.3589105",
+      "metadata_title": "Frequency Split Modulation in Micro Hemispherical Resonator Based on Rim Width",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 40,
+      "source_id": "5MKxxQCyvgEJ",
+      "title": "Initial demonstration of fused silica dual-shell gyroscope using indirect method of piezoelectric excitation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10225642/",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10225642/",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/ielam/7782634/10214959/10225642-aam.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/lsens.2023.3307067",
+      "metadata_title": "Initial Demonstration of Fused Silica Dual-Shell Gyroscope Using Indirect Method of Piezoelectric Excitation",
+      "public_pdf_candidates": [
+        "https://ieeexplore.ieee.org/ielam/7782634/10214959/10225642-aam.pdf"
+      ]
+    },
+    {
+      "row": 41,
+      "source_id": "07thVs8C1VEJ",
+      "title": "Dynamic modeling and coupling error analysis of imperfect hemispherical resonators",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11018810/",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11018810/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2025.3572899",
+      "metadata_title": "Dynamic Modeling and Coupling Error Analysis of Imperfect Hemispherical Resonators",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 42,
+      "source_id": "CCLH2dR1DPsJ",
+      "title": "A high-precision method of stiffness axes identification for axisymmetric resonator gyroscopes",
+      "url": "https://www.mdpi.com/2072-666X/13/10/1793",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0082_A High-Precision Method of Stiffness Axes Identification for Axisymmetric Resonator Gyroscopes.pdf",
+      "pages": 13,
+      "parser": "pypdf",
+      "tail_characters": 2285,
+      "sha256": "77e31e86dad6e181940a8060789801047ca71a66e2dacb3144bdd05d42bfd9eb",
+      "bytes": 2956794,
+      "text_extraction_pages": 13
+    },
+    {
+      "row": 43,
+      "source_id": "D3mFE6taKQgJ",
+      "title": "Research on cylindrical resonators' damping asymmetry trimming method utilizing damping characteristic of piezoelectric electrodes",
+      "url": "https://pubs.aip.org/aip/adv/article/8/3/035101/22644",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://pubs.aip.org/aip/adv/article/8/3/035101/22644",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/1.5016484/12843946/035101_1_online.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1063/1.5016484",
+      "metadata_title": "Research on cylindrical resonators’ damping asymmetry trimming method utilizing damping characteristic of piezoelectric electrodes",
+      "public_pdf_candidates": [
+        "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/1.5016484/12843946/035101_1_online.pdf"
+      ]
+    },
+    {
+      "row": 44,
+      "source_id": "qwonqDfWTHoJ",
+      "title": "A New Type of Ultrasonic Gyroscopic Sensor Based on a Solid-State Standing-Wave Vibrator: Towards Shock-Resistant Design",
+      "url": "https://www.mdpi.com/1424-8220/26/9/2798",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/26/9/2798/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/26/9/2798",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 45,
+      "source_id": "Hg5jYl-fc3gJ",
+      "title": "Simulation of Electromechanical Processes in a Solid State Wave Gyroscope with Piezoelectric Transducers",
+      "url": "https://link.springer.com/article/10.3103/S0747923925700586",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.3103/S0747923925700586",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S0747923925700586.pdf",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 46,
+      "source_id": "Y4eCA9EXRuYJ",
+      "title": "Structural optimization and excitation method of metal-shell resonator gyroscope driven by composite electrodes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10310010/",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10310010/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2023.3328987",
+      "metadata_title": "Structural Optimization and Excitation Method of Metal-Shell Resonator Gyroscope Driven by Composite Electrodes",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 47,
+      "source_id": "WxNxAu8RmWUJ",
+      "title": "A review of symmetric silicon MEMS gyroscope mode-matching technologies",
+      "url": "https://www.mdpi.com/2072-666x/13/8/1255",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2072-666x/13/8/1255/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666x/13/8/1255",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/13/8/1255/pdf?version=1659617198",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/mi13081255",
+      "metadata_title": "A Review of Symmetric Silicon MEMS Gyroscope Mode-Matching Technologies",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/2072-666X/13/8/1255/pdf?version=1659617198"
+      ],
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0184_Microm- achines 2022_ 13_ 1255. https___doi.org_10.3390_mi13081255.pdf",
+      "pages": 24,
+      "parser": "pypdf",
+      "tail_characters": 2499,
+      "sha256": "ea381316070334be306d8d51810628cdedf1a073eda9cff6664e7ff683c4c63e",
+      "bytes": 7461969,
+      "identity_basis": "manually_reviewed_opening_title",
+      "text_extraction_pages": 24
+    },
+    {
+      "row": 48,
+      "source_id": "TU3H75CQHYsJ",
+      "title": "Cylindrical vibratory gyroscope",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-981-16-2726-2.pdf",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/content/pdf/10.1007/978-981-16-2726-2.pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1007/978-981-16-2726-2.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1007/978-981-16-2726-2",
+      "metadata_title": "Cylindrical Vibratory Gyroscope",
+      "public_pdf_candidates": [
+        "https://link.springer.com/content/pdf/10.1007/978-981-16-2726-2.pdf"
+      ]
+    },
+    {
+      "row": 49,
+      "source_id": "U4J2G3HZLI8J",
+      "title": "Research on Missile Borne Hemispherical Resonance/Micro Electromechanical System Gyroscopic Navigation Technology Based on Coarse Fine Coupling",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10633013/",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10633013/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 50,
+      "source_id": "I73bLX4GjxQJ",
+      "title": "Effect of piezoelectric transducers on the resonator frequencies of a hemispherical resonator gyroscope",
+      "url": "https://link.springer.com/article/10.3103/S1062873819090028",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.3103/S1062873819090028",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S1062873819090028.pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S1062873819090028.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3103/s1062873819090028",
+      "metadata_title": "Effect of Piezoelectric Transducers on the Resonator Frequencies of a Hemispherical Resonator Gyroscope",
+      "public_pdf_candidates": [
+        "https://link.springer.com/content/pdf/10.3103/S1062873819090028.pdf"
+      ]
+    },
+    {
+      "row": 51,
+      "source_id": "8WazghMcVtcJ",
+      "title": "High-Q fused silica micro-shell resonators for navigation-grade MEMS gyroscopes",
+      "url": "https://deepblue.lib.umich.edu/items/5d59e834-9ca1-4b30-b4f7-9d853c9ab5ce",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://deepblue.lib.umich.edu/items/5d59e834-9ca1-4b30-b4f7-9d853c9ab5ce",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 52,
+      "source_id": "uf4y5gr8RLkJ",
+      "title": "A MEMS diamond hemispherical resonator",
+      "url": "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125007/meta",
+      "year": "2013",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125007/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125007/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "http://stacks.iop.org/0960-1317/23/i=12/a=125007/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/0960-1317/23/12/125007",
+      "metadata_title": "A MEMS diamond hemispherical resonator",
+      "public_pdf_candidates": [
+        "http://stacks.iop.org/0960-1317/23/i=12/a=125007/pdf"
+      ]
+    },
+    {
+      "row": 53,
+      "source_id": "w44rLLV2GtkJ",
+      "title": "The development of micromachined gyroscope structure and circuitry technology",
+      "url": "https://www.mdpi.com/1424-8220/14/1/1394",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/14/1/1394/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/14/1/1394",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/14/1/1394/pdf?version=1403343091",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/s140101394",
+      "metadata_title": "The Development of Micromachined Gyroscope Structure and Circuitry Technology",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/1424-8220/14/1/1394/pdf?version=1403343091"
+      ]
+    },
+    {
+      "row": 54,
+      "source_id": "Kn8CS2GPu5cJ",
+      "title": "Research on frequency splitting analysis and tuning methods of six-antinode cylindrical resonator gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10366200/",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10366200/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 55,
+      "source_id": "f5Pd4uDdceYJ",
+      "title": "The Frequency Trimming Research on Uncoated Micro-hemispherical Resonantor Using Ion Beam",
+      "url": "https://qikan.cmes.org/jxgcxb/EN/PDF/10.3901/JME.260248",
+      "year": 0,
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://qikan.cmes.org/jxgcxb/EN/PDF/10.3901/JME.260248",
+          "error": "HTTP Error 500: "
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3901/jme.260248",
+      "metadata_title": "The Frequency Trimming Research on Uncoated Micro-hemispherical Resonantor Using Ion Beam",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 56,
+      "source_id": "YR76mepe4OQJ",
+      "title": "Standing wave binding of hemispherical resonator containing first–third harmonics of mass imperfection under linear vibration excitation",
+      "url": "https://www.mdpi.com/1424-8220/20/19/5454",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0484_Standing Wave Binding of Hemispherical Resonator Containing First_Third Harmonics of Mass Imperfection under Linear.pdf",
+      "pages": 17,
+      "parser": "pypdf",
+      "tail_characters": 4135,
+      "sha256": "597c362245c3c8ac13e78b451b529ce28d47a479d7546f6c0b3a540eac6edd8b",
+      "bytes": 2789023,
+      "text_extraction_pages": 17
+    },
+    {
+      "row": 57,
+      "source_id": "x-G-OxaDNlEJ",
+      "title": "Design and FEM simulation of dual mass resonant MEMS gyroscope",
+      "url": "https://webthesis.biblio.polito.it/16948/",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://webthesis.biblio.polito.it/16948/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 58,
+      "source_id": "eJOHxlyl_fUJ",
+      "title": "Design, analysis and experiment of a novel ring vibratory gyroscope",
+      "url": "https://www.sciencedirect.com/science/article/pii/S092442471100286X",
+      "year": "2011",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S092442471100286X",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.sna.2011.04.039",
+      "metadata_title": "Design, analysis and experiment of a novel ring vibratory gyroscope",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 59,
+      "source_id": "cZGj3OELAtkJ",
+      "title": "标题不可用",
+      "url": "#",
+      "year": "2005",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 60,
+      "source_id": "Wov_CAiV3sUJ",
+      "title": "Effect of diaphragm perforation on quality factor of hemispherical resonator gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7180852/",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7180852/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 61,
+      "source_id": "0RuLayh6jgwJ",
+      "title": "Review of Research Advances in Gyroscopes' Structural Forms and Processing Technologies Viewed from Performance Indices",
+      "url": "https://www.mdpi.com/1424-8220/25/19/6193",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/25/19/6193/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/25/19/6193",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 62,
+      "source_id": "amPDoVGm9L8J",
+      "title": "Kolmiakselisen MEMS gyroskoopin termomekaaninen ja mekaaninen karakterisointi",
+      "url": "https://aaltodoc.aalto.fi/items/849e602d-8c2d-439a-bb9f-e8322f38915e",
+      "year": "2011",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://aaltodoc.aalto.fi/items/849e602d-8c2d-439a-bb9f-e8322f38915e",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 63,
+      "source_id": "YILcUMGqmHQJ",
+      "title": "Characterization of modal frequencies and orientation of axisymmetric resonators in coriolis vibratory gyroscopes",
+      "url": "https://www.mdpi.com/2072-666X/12/10/1206",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2072-666X/12/10/1206/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/12/10/1206",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/12/10/1206/pdf?version=1634264955",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/mi12101206",
+      "metadata_title": "Characterization of Modal Frequencies and Orientation of Axisymmetric Resonators in Coriolis Vibratory Gyroscopes",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/2072-666X/12/10/1206/pdf?version=1634264955"
+      ]
+    },
+    {
+      "row": 64,
+      "source_id": "_awk6E7O7XwJ",
+      "title": "Modeling, Identifying, and Ultra-High‑Precision Trimming of Mass Imperfection in Hemispherical Resonator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11568870/",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11568870/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 65,
+      "source_id": "Rq_9zP8Sz70J",
+      "title": "A novel compensation method of damping asymmetry based on piezoelectric electrodes for cylindrical resonators",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8358131/",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/8358131/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 66,
+      "source_id": "UTQ7nY9B2b0J",
+      "title": "Design and Experiment for N= 3 Wineglass Mode Metal Cylindrical Resonator Gyroscope Closed-Loop System",
+      "url": "https://www.mdpi.com/2079-9292/12/1/131",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2079-9292/12/1/131/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2079-9292/12/1/131",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2079-9292/12/1/131/pdf?version=1672217496",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/electronics12010131",
+      "metadata_title": "Design and Experiment for N = 3 Wineglass Mode Metal Cylindrical Resonator Gyroscope Closed-Loop System",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/2079-9292/12/1/131/pdf?version=1672217496"
+      ]
+    },
+    {
+      "row": 67,
+      "source_id": "YNAFmG2T4AEJ",
+      "title": "Toward Inertial-Navigation-on-Chip: The Physics and Performance Scaling of Multi-Degree-of-Freedom Resonant MEMS Gyroscopes",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=pKivDwAAQBAJ&oi=fnd&pg=PP7&dq=%22piezoelectric%22+%22hemispherical+resonator+gyroscope%22&ots=LvauYsF7bu&sig=7ibrKDkJlJBaQYDWyxS3AZZ2np4",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=pKivDwAAQBAJ&oi=fnd&pg=PP7&dq=%22piezoelectric%22+%22hemispherical+resonator+gyroscope%22&ots=LvauYsF7bu&sig=7ibrKDkJlJBaQYDWyxS3AZZ2np4",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 68,
+      "source_id": "xFTdIQq3dQ4J",
+      "title": "Research on bell-shaped vibratory angular rate gyro's character of resonator",
+      "url": "https://www.mdpi.com/1424-8220/13/4/4724",
+      "year": "2013",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/13/4/4724/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/13/4/4724",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/13/4/4724/pdf?version=1403326463",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/s130404724",
+      "metadata_title": "Research on Bell-Shaped Vibratory Angular Rate Gyro’s Character of Resonator",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/1424-8220/13/4/4724/pdf?version=1403326463"
+      ]
+    },
+    {
+      "row": 69,
+      "source_id": "0XoxK8pQTmIJ",
+      "title": "A real-time automatic mode-matching method based on phase-shifted virtual Coriolis force for MEMS disk resonator gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10296848/",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10296848/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 70,
+      "source_id": "4nHA8r7OizYJ",
+      "title": "Ultrafast Identification Methods for Mass Defects of Hemispherical Resonator",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5213933",
+      "year": 0,
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5213933",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.2139/ssrn.5213933",
+      "metadata_title": "Ultrafast Identification Methods for Mass Defects of Hemispherical Resonator",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 71,
+      "source_id": "vpY2Ukn9mCQJ",
+      "title": "Fiber-Optic Gyroscopes in Modern Navigation Systems: A Comprehensive Review",
+      "url": "https://www.mdpi.com/2673-8732/6/2/28",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2673-8732/6/2/28/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2673-8732/6/2/28",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 72,
+      "source_id": "TK8BOrvQtTwJ",
+      "title": "Thermomechanical and Mechanical Characterization of a 3-axial MEMS Gyroscope",
+      "url": "http://lib.tkk.fi/Dipl/2011/urn100509.pdf",
+      "year": "2011",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S072_Thermomechanical and Mechanical Characterization of a 3-axial MEMS Gyroscope.pdf",
+      "source_url": "http://lib.tkk.fi/Dipl/2011/urn100509.pdf",
+      "final_url": "http://lib.tkk.fi/Dipl/2011/urn100509.pdf",
+      "pages": 84,
+      "parser": "pypdf",
+      "tail_characters": 275,
+      "sha256": "ce357298c094dc42748dcacc7d25bcb5a1dee1bda52ea27367567debd2aa4e4c",
+      "bytes": 4858971,
+      "text_extraction_pages": 84
+    },
+    {
+      "row": 73,
+      "source_id": "7llLigGuXNMJ",
+      "title": "Acceleration drift mechanism analysis and compensation for hemispherical resonant gyro based on dynamics",
+      "url": "https://link.springer.com/article/10.1007/s00542-019-04327-0",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00542-019-04327-0",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1007/s00542-019-04327-0.pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "http://link.springer.com/content/pdf/10.1007/s00542-019-04327-0.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1007/s00542-019-04327-0",
+      "metadata_title": "Acceleration drift mechanism analysis and compensation for hemispherical resonant gyro based on dynamics",
+      "public_pdf_candidates": [
+        "http://link.springer.com/content/pdf/10.1007/s00542-019-04327-0.pdf"
+      ]
+    },
+    {
+      "row": 74,
+      "source_id": "_wzyByTWT14J",
+      "title": "Investigation of dynamic characteristics of fused silica hemispherical resonator with shock and harmonic excitation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S026322412201226X",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S026322412201226X",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.measurement.2022.112030",
+      "metadata_title": "Investigation of dynamic characteristics of fused silica hemispherical resonator with shock and harmonic excitation",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 75,
+      "source_id": "DUcmNJRUhuEJ",
+      "title": "Research on force sensing mechanism based on magnetoelectric composites for vibrating wire",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0888327025011914",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0888327025011914",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.ymssp.2025.113490",
+      "metadata_title": "Research on force sensing mechanism based on magnetoelectric composites for vibrating wire",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 76,
+      "source_id": "j9mdn1BKeQAJ",
+      "title": "A study of the characteristics of the influence of the precession factor of an all-metal micro-hemispherical resonator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10854373/",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10854373/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1049/icp.2024.2794",
+      "metadata_title": "A study of the characteristics of the influence of the precession factor of an all-metal micro-hemispherical resonator",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 77,
+      "source_id": "O4U1LRLg0xcJ",
+      "title": "Micro-manufacturing technology of a three-dimensional curved surface diamond structure for gyroscope applications",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6439/ab44fe/meta",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1361-6439/ab44fe/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1361-6439/ab44fe/meta",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 78,
+      "source_id": "TAUFMbE2UscJ",
+      "title": "Analytical and experimental study of imperfections, stress, and temperature effects in circular MEMS gyroscopes",
+      "url": "https://search.proquest.com/openview/a435324bd23e873e98ac2aa02a3bcf36/1?pq-origsite=gscholar&cbl=2026366&diss=y",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/a435324bd23e873e98ac2aa02a3bcf36/1?pq-origsite=gscholar&cbl=2026366&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 79,
+      "source_id": "t1E51xdnlzEJ",
+      "title": "RETRACTED: Fillet effects on hemispherical shell resonators: Analytical insights for enhanced structural integrity",
+      "url": "https://www.sciencedirect.com/science/article/pii/S026382312500059X",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S026382312500059X",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.tws.2025.112965",
+      "metadata_title": "RETRACTED: Fillet effects on hemispherical shell resonators: Analytical insights for enhanced structural integrity",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 80,
+      "source_id": "LB-StZ_-6LsJ",
+      "title": "Current research advances in high-overload-resistant multimode strapdown optoelectronic systems",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13799/137992E/Current-research-advances-in-high-overload-resistant-multimode-strapdown-optoelectronic/10.1117/12.3074231.short",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13799/137992E/Current-research-advances-in-high-overload-resistant-multimode-strapdown-optoelectronic/10.1117/12.3074231.short",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 81,
+      "source_id": "RiiZIJreUKoJ",
+      "title": "Development and research of the sensitive element of the MEMS gyroscope manufactured using SOI technology",
+      "url": "https://www.mdpi.com/2072-666X/14/4/895",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2072-666X/14/4/895/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/14/4/895",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 82,
+      "source_id": "p6dM8V7IEOAJ",
+      "title": "Hierarchical Elastic–Dissipative Tuning of a Q-Tunable MEMS Resonator for Rate-Integrating Gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11737635/",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11737635/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2026.3741537",
+      "metadata_title": "Hierarchical Elastic–Dissipative Tuning of a Q-Tunable MEMS Resonator for Rate-Integrating Gyroscopes",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 83,
+      "source_id": "IfVnRGsL9f4J",
+      "title": "Design of oscillation control loop with coarse-precision mode transition for solid-state resonant gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7359103/",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7359103/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 84,
+      "source_id": "jtb9E3AUhDMJ",
+      "title": "Indirect excitation of micro-HRG using segmented piezoelectric ALD PHT actuator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10103950/",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P05_Indirect Excitation of micro-HRG Using Segmented Piezoelectric ALD PHT Actuator.pdf",
+      "pages": 4,
+      "parser": "pypdf",
+      "tail_characters": 5881,
+      "sha256": "64b4cf2492108e7e23f846cbb28a6a77d7ac699dd10259fe5384b5edbbfa2e39",
+      "bytes": 3775726,
+      "text_extraction_pages": 4
+    },
+    {
+      "row": 85,
+      "source_id": "wlRCMIR_8bcJ",
+      "title": "Multi-ring disk resonator with elliptic spokes for frequency-modulated gyroscope",
+      "url": "https://www.mdpi.com/1424-8220/23/6/2937",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/23/6/2937/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/23/6/2937",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 86,
+      "source_id": "NcVuqhTc6S4J",
+      "title": "标题不可用",
+      "url": "#",
+      "year": 0,
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 87,
+      "source_id": "ZsZBV1xYhNAJ",
+      "title": "A systematic approach for precision electrostatic mode tuning of a MEMS gyroscope",
+      "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/12/125003/meta",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/12/125003/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/12/125003/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "http://stacks.iop.org/0960-1317/24/i=12/a=125003/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/0960-1317/24/12/125003",
+      "metadata_title": "A systematic approach for precision electrostatic mode tuning of a MEMS gyroscope",
+      "public_pdf_candidates": [
+        "http://stacks.iop.org/0960-1317/24/i=12/a=125003/pdf"
+      ]
+    },
+    {
+      "row": 88,
+      "source_id": "4yp4wQOcMtgJ",
+      "title": "Fundamental investigation of subsurface damage on the quality factor of hemispherical fused silica shell resonator",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0924424722000036",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0924424722000036",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.sna.2022.113365",
+      "metadata_title": "Fundamental investigation of subsurface damage on the quality factor of hemispherical fused silica shell resonator",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 89,
+      "source_id": "Kpx_jyXr4Y0J",
+      "title": "The dynamics of a tuningdisc vibratory gyroscope.",
+      "url": "https://www.researchgate.net/profile/Getachew-Temesgen/publication/399189599_TUTDoR_The_dynamics_of_a_tuningdisc_vibratory_gyroscope_Item_Type_Thesis_THE_DYNAMICS_OF_A_TUNINGDISC_VIBRATORY_GYROSCOPE/links/6953d0ec27359023a011a457/TUTDoR-The-dynamics-of-a-tuningdisc-vibratory-gyroscope-Item-Type-Thesis-THE-DYNAMICS-OF-A-TUNINGDISC-VIBRATORY-GYROSCOPE.pdf",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.researchgate.net/profile/Getachew-Temesgen/publication/399189599_TUTDoR_The_dynamics_of_a_tuningdisc_vibratory_gyroscope_Item_Type_Thesis_THE_DYNAMICS_OF_A_TUNINGDISC_VIBRATORY_GYROSCOPE/links/6953d0ec27359023a011a457/TUTDoR-The-dynamics-of-a-tuningdisc-vibratory-gyroscope-Item-Type-Thesis-THE-DYNAMICS-OF-A-TUNINGDISC-VIBRATORY-GYROSCOPE.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 90,
+      "source_id": "UFr_g5inM2IJ",
+      "title": "Vibration characteristic measurement method of MEMS gyroscopes in vacuum, high and low temperature environment and verification of excitation method",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9535110/",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9535110/",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09535110.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/access.2021.3111629",
+      "metadata_title": "Vibration Characteristic Measurement Method of MEMS Gyroscopes in Vacuum, High and Low Temperature Environment and Verification of Excitation Method",
+      "public_pdf_candidates": [
+        "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09535110.pdf"
+      ]
+    },
+    {
+      "row": 91,
+      "source_id": "A9XeFkd4cqEJ",
+      "title": "Modelling of MEMS vibratory gyroscopes utilizing phase detection",
+      "url": "https://scholar.sun.ac.za/handle/10019.1/3058",
+      "year": "2008",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://scholar.sun.ac.za/handle/10019.1/3058",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 92,
+      "source_id": "OlGlR2ur3JcJ",
+      "title": "标题不可用",
+      "url": "#",
+      "year": "2017",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 93,
+      "source_id": "BsE1eyBY-g4J",
+      "title": "Measurement of vibrating modes for a shell resonator by using dual-interferometers",
+      "url": "https://pubs.aip.org/aip/rsi/article/94/3/035011/2881989",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://pubs.aip.org/aip/rsi/article/94/3/035011/2881989",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/5.0134914/16798614/035011_1_online.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1063/5.0134914",
+      "metadata_title": "Measurement of vibrating modes for a shell resonator by using dual-interferometers",
+      "public_pdf_candidates": [
+        "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/5.0134914/16798614/035011_1_online.pdf"
+      ]
+    },
+    {
+      "row": 94,
+      "source_id": "6OrMkS42i6cJ",
+      "title": "Hemispherical wineglass resonators fabricated from the microcrystalline diamond",
+      "url": "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125016/meta",
+      "year": "2013",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125016/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125016/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "http://stacks.iop.org/0960-1317/23/i=12/a=125016/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125016/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/0960-1317/23/12/125016",
+      "metadata_title": "Hemispherical wineglass resonators fabricated from the microcrystalline diamond",
+      "public_pdf_candidates": [
+        "http://stacks.iop.org/0960-1317/23/i=12/a=125016/pdf",
+        "https://iopscience.iop.org/article/10.1088/0960-1317/23/12/125016/pdf"
+      ]
+    },
+    {
+      "row": 95,
+      "source_id": "OYx05Mqa49gJ",
+      "title": "Utilization of internal resonance in gyroscope design",
+      "url": "https://summit.sfu.ca/item/14823",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "downloaded_fulltext",
+      "attempts": [
+        {
+          "url": "https://summit.sfu.ca/item/14823",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S095_Utilization of internal resonance in gyroscope design.pdf",
+      "source_url": "https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/14823/etd8738_AMarzouk.pdf",
+      "final_url": "https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/14823/etd8738_AMarzouk.pdf",
+      "pages": 114,
+      "parser": "pypdf",
+      "tail_characters": 1209,
+      "sha256": "3eb6e8c5d2ff630d49d02cc3bfe46da939e7253235134810ba8d7effcdb66a50",
+      "bytes": 8479957,
+      "text_extraction_pages": 114
+    },
+    {
+      "row": 96,
+      "source_id": "7XCHWv3O7s8J",
+      "title": "Features of Design of Coriolis Vibratory Gyroscopes Assigned for Unmanned Aerial Vehicles",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8943834/",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/8943834/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/apuavd47061.2019.8943834",
+      "metadata_title": "Features of Design of Coriolis Vibratory Gyroscopes Assigned for Unmanned Aerial Vehicles",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 97,
+      "source_id": "Nq2EnulqdwQJ",
+      "title": "The influence of photothermal effect on the resonance frequency of fused silica micro hemispherical resonator",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6501/acfd4a/meta",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1361-6501/acfd4a/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1361-6501/acfd4a/meta",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 98,
+      "source_id": "zoiWT4787VwJ",
+      "title": "Study on the effect of HF acid etching on the quality factor and frequency split of fused silica hemispherical resonators",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10119478/",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10119478/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/nanoman-aets56035.2022.10119478",
+      "metadata_title": "Study on the effect of HF acid etching on the quality factor and frequency split of fused silica hemispherical resonators",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 99,
+      "source_id": "1mo93pNrHx8J",
+      "title": "Influence of temperature variation on the vibrational characteristics of fused silica cylindrical resonators for coriolis vibratory gyroscopes",
+      "url": "https://www.mdpi.com/1424-8220/20/4/1032",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0187_Influence of Temperature Variation on the Vibrational Characteristics of Fused Silica Cylindrical Resonators for Co.pdf",
+      "pages": 13,
+      "parser": "pypdf",
+      "tail_characters": 4431,
+      "sha256": "6c64c47a2de7fc77955ec7fca3da948fbf5ed13eeb3f3e7983dddf54236ee556",
+      "bytes": 3364115,
+      "text_extraction_pages": 13
+    },
+    {
+      "row": 100,
+      "source_id": "9TXtcFxTaLoJ",
+      "title": "标题不可用",
+      "url": "#",
+      "year": "2013",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 101,
+      "source_id": "cS5V-wmfGGwJ",
+      "title": "A micromachined vibrating ring gyroscope",
+      "url": "https://search.proquest.com/openview/692929719e9d59a8b2462670b879c658/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "1995",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0438_A MICROMACHINED VIBRATING RING GYROSCOPE.pdf",
+      "pages": 8,
+      "parser": "pypdf",
+      "tail_characters": 7679,
+      "sha256": "167fe95ef9e3ea633369ca314c62e5922e0edfcfd542dff5750b3b593a8f72a1",
+      "bytes": 1811156,
+      "text_extraction_pages": 8
+    },
+    {
+      "row": 102,
+      "source_id": "TYLGofJeT2YJ",
+      "title": "Frequency tuning method on teeth-like tines of the fused silica micro-hemispherical resonator using femtosecond laser",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10329949/",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10329949/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jmems.2023.3332669",
+      "metadata_title": "Frequency Tuning Method on Teeth-Like Tines of the Fused Silica Micro-Hemispherical Resonator Using Femtosecond Laser",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 103,
+      "source_id": "Km70APhJ72YJ",
+      "title": "Fused silica cylindrical shell resonators with 25 million Q factors",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6463/ac2447/meta",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1361-6463/ac2447/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1361-6463/ac2447/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1361-6463/ac2447/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/1361-6463/ac2447",
+      "metadata_title": "Fused silica cylindrical shell resonators with 25 million Q factors",
+      "public_pdf_candidates": [
+        "https://iopscience.iop.org/article/10.1088/1361-6463/ac2447/pdf"
+      ]
+    },
+    {
+      "row": 104,
+      "source_id": "S4ig9vjEhvIJ",
+      "title": "Trimming of imperfect hemispherical shell including point mass distributions",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0020740316311018",
+      "year": "2017",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0020740316311018",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.ijmecsci.2017.08.021",
+      "metadata_title": "Trimming of imperfect hemispherical shell including point mass distributions",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 105,
+      "source_id": "dZEM9HRdIhQJ",
+      "title": "Spring design for high-performance microelectromechanical system (MEMS) based tuning fork gyroscope",
+      "url": "https://search.proquest.com/openview/fbe1538898bd6a87f1a6ffb6c8d8277d/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/fbe1538898bd6a87f1a6ffb6c8d8277d/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 106,
+      "source_id": "irl07Sd-MCUJ",
+      "title": "Toward inertial-navigation-on-chip: The physics and performance scaling of multi degree-of-freedom resonant MEMS gyroscopes",
+      "url": "https://search.proquest.com/openview/a88ae869f766be14e7fb939066166276/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/a88ae869f766be14e7fb939066166276/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 107,
+      "source_id": "BnANTAFYv5kJ",
+      "title": "Novel architectures for MEMS inertial sensors and resonators targeting above-IC integration",
+      "url": "https://search.proquest.com/openview/2d3c977cb69f1cef05458ea4aa656539/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/2d3c977cb69f1cef05458ea4aa656539/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 108,
+      "source_id": "f1993pcQz3oJ",
+      "title": "259 second ring-down time and 4.45 million quality factor in 5.5 kHz fused silica birdbath shell resonator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7994167/",
+      "year": "2017",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7994167/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 109,
+      "source_id": "RgZQ1Ty3S90J",
+      "title": "High precision mass balancing method for the fourth harmonic of mass defect of fused quartz hemispherical resonator based on ion beam etching process",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9917348/",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9917348/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/tie.2022.3212381",
+      "metadata_title": "High Precision Mass Balancing Method for the Fourth Harmonic of Mass Defect of Fused Quartz Hemispherical Resonator Based on Ion Beam Etching Process",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 110,
+      "source_id": "Q9BN0y-0dBwJ",
+      "title": "Dynamic analysis of tubular piezoelectric gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/5568838/",
+      "year": "2010",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/5568838/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/edm.2010.5568838",
+      "metadata_title": "Dynamic analysis of tubular piezoelectric gyroscopes",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 111,
+      "source_id": "kshNn1Oda8EJ",
+      "title": "압전소자를이용한와인잔의가진및진동측정실험",
+      "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE02112112",
+      "year": "2012",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE02112112",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE02112112",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 112,
+      "source_id": "lSxNms-Dy0YJ",
+      "title": "Effect of surface morphology on the quality factor of fused silica micro hemispherical resonator",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0272884225064004",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0272884225064004",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.ceramint.2025.12.375",
+      "metadata_title": "Effect of surface morphology on the quality factor of fused silica micro hemispherical resonator",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 113,
+      "source_id": "DQ4G3OXr9joJ",
+      "title": "Structural parameter optimization of the HRG's resonator based on finite element analysis of vibration characteristics",
+      "url": "https://scholar.hit.edu.cn/en/publications/structural-parameter-optimization-of-the-hrgs-resonator-based-on-/",
+      "year": "2010",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://scholar.hit.edu.cn/en/publications/structural-parameter-optimization-of-the-hrgs-resonator-based-on-/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 114,
+      "source_id": "_5QzjUMj32UJ",
+      "title": "Development of 3D High-Q Fused Quartz Micro Structures for Precision Coriolis Vibratory Gyroscopes",
+      "url": "https://search.proquest.com/openview/268aca510e5445a7db3d0878634d62ce/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/268aca510e5445a7db3d0878634d62ce/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 115,
+      "source_id": "g9sxZVWrdo0J",
+      "title": "Experimental demonstration of optical excitation of a dual-shell resonator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11075925/",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11075925/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/lsens.2025.3587611",
+      "metadata_title": "Experimental Demonstration of Optical Excitation of a Dual-Shell Resonator",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 116,
+      "source_id": "qCIwNf41iDgJ",
+      "title": "One-step mechanical trimming for bare micro hemispherical resonators by Gaussian-shaped femtosecond laser",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012033/meta",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012033/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2982/1/012033/meta",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 117,
+      "source_id": "nElHvgI3krsJ",
+      "title": "Effect of metallization on quality factor and noise characteristics in fused silica dual-shell gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9870810/",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9870810/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 118,
+      "source_id": "PCN1NZLmGboJ",
+      "title": "Monolithic cylindrical fused silica resonators with high Q factors",
+      "url": "https://www.mdpi.com/1424-8220/16/8/1185",
+      "year": "2016",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/16/8/1185/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/16/8/1185",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 119,
+      "source_id": "bwwVqTxKLMYJ",
+      "title": "Simulations and experiments on the vibrational characteristics of cylindrical resonators with first three harmonic errors",
+      "url": "https://www.mdpi.com/2072-666X/13/10/1679",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/2072-666X/13/10/1679/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/13/10/1679",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/2072-666X/13/10/1679/pdf?version=1665038878",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/mi13101679",
+      "metadata_title": "Simulations and Experiments on the Vibrational Characteristics of Cylindrical Resonators with First Three Harmonic Errors",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/2072-666X/13/10/1679/pdf?version=1665038878"
+      ]
+    },
+    {
+      "row": 120,
+      "source_id": "Kl8nPrILabUJ",
+      "title": "Mass trimming of micro-shell resonators by femtosecond laser",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14314/1431407/Mass-trimming-of-micro-shell-resonators-by-femtosecond-laser-/10.1117/12.3122563.short",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical resonator gyroscope\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14314/1431407/Mass-trimming-of-micro-shell-resonators-by-femtosecond-laser-/10.1117/12.3122563.short",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 121,
+      "source_id": "R6URggJf7GUJ",
+      "title": "Micromachined polycrystalline diamond hemispherical shell resonators",
+      "url": "https://engineering.purdue.edu/oxidemems/conferences/hh2012/Hilton_Head_2012/2012%20Technical%20Digest/PDFs/Papers/094_0196.pdf",
+      "year": "2012",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S121_Micromachined polycrystalline diamond hemispherical shell resonators.pdf",
+      "source_url": "https://engineering.purdue.edu/oxidemems/conferences/hh2012/Hilton_Head_2012/2012%20Technical%20Digest/PDFs/Papers/094_0196.pdf",
+      "final_url": "https://engineering.purdue.edu/oxidemems/conferences/hh2012/Hilton_Head_2012/2012%20Technical%20Digest/PDFs/Papers/094_0196.pdf",
+      "pages": 4,
+      "parser": "pypdf",
+      "tail_characters": 4765,
+      "sha256": "13c1e8535b9739fcc29ad251e2ced461cc3280436ae18e6b1f4c14c6aa9a6e53",
+      "bytes": 1113721,
+      "text_extraction_pages": 4
+    },
+    {
+      "row": 122,
+      "source_id": "zBai9ADRaKcJ",
+      "title": "Wineglass mode resonators, their applications and study of their quality factor",
+      "url": "https://search.proquest.com/openview/7d990de03f2d3da1c3bbafba71bb5a7d/1?pq-origsite=gscholar&cbl=18750",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/7d990de03f2d3da1c3bbafba71bb5a7d/1?pq-origsite=gscholar&cbl=18750",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 123,
+      "source_id": "cQxiR9XUVGwJ",
+      "title": "High-performance micromachined vibratory rate-and rate-integrating gyroscopes",
+      "url": "https://deepblue.lib.umich.edu/bitstreams/508d1db6-0d07-46cc-9b7d-4b2fd3a2bfd8/download",
+      "year": "2012",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://deepblue.lib.umich.edu/bitstreams/508d1db6-0d07-46cc-9b7d-4b2fd3a2bfd8/download",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 124,
+      "source_id": "NXjTh5WbzGIJ",
+      "title": "Precision curved micro hemispherical resonator shells fabricated by poached-egg micro-molding",
+      "url": "https://ieeexplore.ieee.org/abstract/document/6411085/",
+      "year": "2012",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/6411085/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 125,
+      "source_id": "52KocyKTAVsJ",
+      "title": "A high-q all-fused silica solid-stem wineglass hemispherical resonator formed using micro blow torching and welding",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7051085/",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7051085/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/memsys.2015.7051085",
+      "metadata_title": "A high-q all-fused silica solid-stem wineglass hemispherical resonator formed using micro blow torching and welding",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 126,
+      "source_id": "u7qZqfdk50sJ",
+      "title": "Electronic Alignment Error Dynamic Measurement and Compensation For Hemispherical Resonant Gyro",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10948714/",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10948714/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 127,
+      "source_id": "z804Je1fUmwJ",
+      "title": "Anchor loss in hemispherical shell resonators",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7807224/",
+      "year": "2017",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7807224/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 128,
+      "source_id": "65vs8bPX4hcJ",
+      "title": "Magnetically coupled resonators for rate integrating gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/6985217/",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/6985217/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/icsens.2014.6985217",
+      "metadata_title": "Magnetically coupled resonators for rate integrating gyroscopes",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 129,
+      "source_id": "4FtyUn9juAYJ",
+      "title": "Hemispherical micro-resonators from atomic layer deposition",
+      "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/12/125028/meta",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/12/125028/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/12/125028/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "http://stacks.iop.org/0960-1317/24/i=12/a=125028/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/0960-1317/24/12/125028",
+      "metadata_title": "Hemispherical micro-resonators from atomic layer deposition",
+      "public_pdf_candidates": [
+        "http://stacks.iop.org/0960-1317/24/i=12/a=125028/pdf"
+      ]
+    },
+    {
+      "row": 130,
+      "source_id": "up2NoDGtH4cJ",
+      "title": "Piezoelectric disk gyroscope fabricated with single-crystal lithium niobate",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9372750/",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9372750/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 131,
+      "source_id": "yIbMirswiUAJ",
+      "title": "Microscale hemispherical shell resonating gyroscopes",
+      "url": "https://search.proquest.com/openview/3288c92777b6a49b1864a0b45e344aac/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/3288c92777b6a49b1864a0b45e344aac/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 132,
+      "source_id": "aKmt9gzMJHIJ",
+      "title": "Nonlinear dynamics of a microscale rate integrating gyroscope with a disk resonator under parametric excitation",
+      "url": "https://cyberleninka.ru/article/n/nonlinear-dynamics-of-a-microscale-rate-integrating-gyroscope-with-a-disk-resonator-under-parametric-excitation",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R1135_Nonlinear Dynamics of a Microscale Rate Integrating Gyroscope with a Disk Resonator under Parametric Excitation.pdf",
+      "pages": 31,
+      "parser": "pypdf",
+      "tail_characters": 740,
+      "sha256": "205e3703f6c62ff9fc7272dad54b31876bdeac12367ddd1156c8810f95e89b85",
+      "bytes": 2999866,
+      "text_extraction_pages": 31
+    },
+    {
+      "row": 133,
+      "source_id": "XmSmAM9cX0YJ",
+      "title": "Vibratory Gyroscopes Based on Micro-electro-mechanical and Non-micro-electro-mechanical Systems",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=NWLvEAAAQBAJ&oi=fnd&pg=PR3&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=ctGKm5FoDy&sig=4I_hLFqWcTQCbnGyITZUkUvcy_M",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=NWLvEAAAQBAJ&oi=fnd&pg=PR3&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=ctGKm5FoDy&sig=4I_hLFqWcTQCbnGyITZUkUvcy_M",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 134,
+      "source_id": "ZNrvOcO1ZX8J",
+      "title": "Inertial navigation sensors",
+      "url": "https://publications.sto.nato.int/publications/STO%20Educational%20Notes/RTO-EN-SET-116-2011/EN-SET-116(2011)-02.pdf",
+      "year": "2010",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S134_Inertial navigation sensors.pdf",
+      "source_url": "https://publications.sto.nato.int/publications/STO%20Educational%20Notes/RTO-EN-SET-116-2011/EN-SET-116(2011)-02.pdf",
+      "final_url": "https://publications.sto.nato.int/publications/STO%20Educational%20Notes/RTO-EN-SET-116-2011/EN-SET-116(2011)-02.pdf",
+      "pages": 28,
+      "parser": "pypdf",
+      "tail_characters": 2258,
+      "sha256": "561c4eba72560f9fd3c7efab91979e70e57e0bdbcb3cf1692a35f6a8ba64e4c3",
+      "bytes": 1604372,
+      "text_extraction_pages": 28
+    },
+    {
+      "row": 135,
+      "source_id": "z6rvCfXOVz8J",
+      "title": "Research on the Time‐Domain Measurement Method of Low‐Frequency Splitting for Hemispherical Resonator",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/2021/5559288",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/2021/5559288",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 136,
+      "source_id": "ezHgUVL9RmYJ",
+      "title": "Force to rebalance control of HRG and suppression of its errors on the basis of FPGA",
+      "url": "https://www.mdpi.com/1424-8220/11/12/11761",
+      "year": "2011",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/R0531_Force to Rebalance Control of HRG and Suppression of Its Errors on the Basis of FPGA.pdf",
+      "pages": 13,
+      "parser": "pypdf",
+      "tail_characters": 3060,
+      "sha256": "26b18d035ca6314be54c2eda5974917fc216798667ec59592659405f78731ff1",
+      "bytes": 798923,
+      "text_extraction_pages": 13
+    },
+    {
+      "row": 137,
+      "source_id": "mTpW8AuUV-4J",
+      "title": "Analysis and compensation of imperfection effects in piezoelectric vibratory gyroscopes",
+      "url": "https://search.proquest.com/openview/4628b0a14be30bb4617b048bca09deec/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "1999",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0112_Analysis and compensation of imperfection effects in piezoelectric vibratory gyroscopes.pdf",
+      "pages": 147,
+      "parser": "pypdf",
+      "tail_characters": 1179,
+      "sha256": "32079a7306e207b545d4efc421a9641d2047b2cc5889e7581cdd1ec2f42c3227",
+      "bytes": 971764,
+      "text_extraction_pages": 147
+    },
+    {
+      "row": 138,
+      "source_id": "pyOTpwRvDA8J",
+      "title": "Analyzing the geometric dependence of thermoelastic Q-factor in micro hemispherical resonators via a data-augmented CNN-transformer model",
+      "url": "https://www.nature.com/articles/s41378-026-01324-y",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S138_Analyzing the geometric dependence of thermoelastic Q-factor in micro hemispherical resonators via a data-augmented CNN-transforme.pdf",
+      "source_url": "https://www.nature.com/articles/s41378-026-01324-y.pdf",
+      "final_url": "https://www.nature.com/articles/s41378-026-01324-y.pdf?error=cookies_not_supported&code=b42c75a3-33ed-4b0a-af49-9776e020e508",
+      "pages": 15,
+      "parser": "pypdf",
+      "tail_characters": 6121,
+      "sha256": "369a5c5f67f3437a8be1840280e61da043f12cbba62de221e0b20a45ca4d43b1",
+      "bytes": 3547202,
+      "text_extraction_pages": 15
+    },
+    {
+      "row": 139,
+      "source_id": "CU4-jy84SRkJ",
+      "title": "Predictive analytical model of fundamental frequency and imperfections in glassblown fused quartz hemi-toroidal 3D micro shells",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7808400/",
+      "year": "2016",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7808400/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/icsens.2016.7808400",
+      "metadata_title": "Predictive analytical model of fundamental frequency and imperfections in glassblown fused quartz hemi-toroidal 3D micro shells",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 140,
+      "source_id": "AOxOweWkno8J",
+      "title": "Proposed IEEE inertial systems terminology standard and other inertial sensor standards",
+      "url": "https://ieeexplore.ieee.org/abstract/document/1308978/",
+      "year": "2004",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/1308978/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 141,
+      "source_id": "SLuZmC3EfpIJ",
+      "title": "Effects of rotation on a phononic crystal operated in whispering gallery modes",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.024107",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.024107",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "http://link.aps.org/pdf/10.1103/PhysRevB.109.024107",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1103/physrevb.109.024107",
+      "metadata_title": "Effects of rotation on a phononic crystal operated in whispering gallery modes",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 142,
+      "source_id": "n6cmptiGcXwJ",
+      "title": "High resolution micro ultrasonic machining (HR-μUSM) for post-fabrication trimming of fused silica 3-D microstructures",
+      "url": "https://ieeexplore.ieee.org/abstract/document/6765685/",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/6765685/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 143,
+      "source_id": "5E4cDJ9OnFIJ",
+      "title": "Analysis of a solid state wave gyroscope with thin shell cylindrical resonator and calculation of its conversion factor",
+      "url": "https://www.sid.ir/en/VEWSSID/J_pdf/99120080403.pdf",
+      "year": "2008",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sid.ir/en/VEWSSID/J_pdf/99120080403.pdf",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 144,
+      "source_id": "FrBjO8Ke9PcJ",
+      "title": "The development features and design of a vibratory gyroscope with a metallic cylindrical resonator",
+      "url": "https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-6b9ad63c-6f5a-4f46-b645-938fb71f723c",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-6b9ad63c-6f5a-4f46-b645-938fb71f723c",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 145,
+      "source_id": "aW_iJskCj4IJ",
+      "title": "Inertial sensors technologies for navigation applications: State of the art and future trends",
+      "url": "https://link.springer.com/article/10.1186/s43020-019-0001-5",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.1186/s43020-019-0001-5",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S145_Inertial sensors technologies for navigation applications_ State of the art and future trends.pdf",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/s43020-019-0001-5.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1186/s43020-019-0001-5.pdf?error=cookies_not_supported&code=cf93394a-2618-4451-872e-f66b950a2f2d",
+      "pages": 21,
+      "parser": "pypdf",
+      "tail_characters": 8591,
+      "sha256": "51ca9448b9e50d3138f0680177081b05aead756546199c1de01c44b0fdfe3db3",
+      "bytes": 2457971,
+      "text_extraction_pages": 21
+    },
+    {
+      "row": 146,
+      "source_id": "etBQurRIi7cJ",
+      "title": "Batch-fabricated high Q-factor microcrystalline diamond cylindrical resonator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7051080/",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7051080/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 147,
+      "source_id": "KqMrqXvZd5wJ",
+      "title": "Evolution and capitalisation of a family of MEMS vibrating structure gyros (VSG)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9244905/",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9244905/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 148,
+      "source_id": "rzNtktaSnNgJ",
+      "title": "Study of the performance of an inertial measurement unit on board a launcher",
+      "url": "https://upcommons.upc.edu/entities/publication/61e63e26-2359-4b64-8f1d-3664e9375746",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://upcommons.upc.edu/entities/publication/61e63e26-2359-4b64-8f1d-3664e9375746",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 149,
+      "source_id": "NBQyZSk59dgJ",
+      "title": "Effects of Phase Delay on Closed-Loop Driving Frequency Locking and Detection Output of MEMS Gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11601690/",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11601690/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 150,
+      "source_id": "3v2kF6IlxGcJ",
+      "title": "Design and Fabrication of Fused Silica Dual-Shell Resonators for High Frequency Symmetry and High Quality Factor",
+      "url": "https://search.proquest.com/openview/6581c11b0570f0b8466047967ae42a51/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/6581c11b0570f0b8466047967ae42a51/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 151,
+      "source_id": "tFDNHgVrm3sJ",
+      "title": "Design and development of control electronics for coriolis vibratory gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9438329/",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9438329/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 152,
+      "source_id": "zO-SldSYWTsJ",
+      "title": "Effect of imperfections on fused silica shell resonators",
+      "url": "https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2014/46590/263266",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2014/46590/263266",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 153,
+      "source_id": "CYiOMSgXgzUJ",
+      "title": "Effect of metal annealing on the Q-factor of metal-coated fused silica micro shell resonators",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7102361/",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7102361/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/isiss.2015.7102361",
+      "metadata_title": "Effect of metal annealing on the Q-factor of metal- coated fused silica micro shell resonators",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 154,
+      "source_id": "Sx2V3XNmUY4J",
+      "title": "Proposed IEEE Coriolis Vibratory Gyro standard and other inertial sensor standards",
+      "url": "https://ieeexplore.ieee.org/abstract/document/998929/",
+      "year": "2002",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/998929/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/plans.2002.998929",
+      "metadata_title": "Proposed IEEE Coriolis Vibratory Gyro standard and other inertial sensor standards",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 155,
+      "source_id": "vj9GmO3qLkkJ",
+      "title": "Influence of electrostatic forces on the vibrational characteristics of resonators for coriolis vibratory gyroscopes",
+      "url": "https://www.mdpi.com/1424-8220/20/1/295",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0099_Influence of Electrostatic Forces on the Vibrational Characteristics of Resonators for Coriolis Vibratory Gyro.pdf",
+      "pages": 18,
+      "parser": "pypdf",
+      "tail_characters": 1056,
+      "sha256": "799dc5f86ac4000ea2fde713d9b28d2fefb09f1f6f52a81cca98fdb09d7ec7c8",
+      "bytes": 1246697,
+      "text_extraction_pages": 18
+    },
+    {
+      "row": 156,
+      "source_id": "6mZ_un7eGLgJ",
+      "title": "Gyroscopes",
+      "url": "https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780128177860000463",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780128177860000463",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 157,
+      "source_id": "cl0TCX--ac0J",
+      "title": "Inertial navigation technology from 1970–1995",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/j.2161-4296.1995.tb02334.x",
+      "year": "1995",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/j.2161-4296.1995.tb02334.x",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 158,
+      "source_id": "hnxNdMVKPwYJ",
+      "title": "Proposed IEEE accelerometer standard and other inertial sensor standards",
+      "url": "https://arc.aiaa.org/doi/pdf/10.2514/6.1998-4405",
+      "year": "1998",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://arc.aiaa.org/doi/pdf/10.2514/6.1998-4405",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 159,
+      "source_id": "ffjWoHpoSgoJ",
+      "title": "Localized thermal tuning in fused silica inductive vibrating ring gyroscopes",
+      "url": "https://www.nature.com/articles/s41378-026-01203-6",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S159_Localized thermal tuning in fused silica inductive vibrating ring gyroscopes.pdf",
+      "source_url": "https://www.nature.com/articles/s41378-026-01203-6.pdf",
+      "final_url": "https://www.nature.com/articles/s41378-026-01203-6.pdf?error=cookies_not_supported&code=1295ad04-120e-4e4f-8ed9-018bb059c05a",
+      "pages": 15,
+      "parser": "pypdf",
+      "tail_characters": 4875,
+      "sha256": "82d49092a0df7f15752396f6e7630a3c360cccd53f0edac41136a2d6626386b7",
+      "bytes": 1623735,
+      "text_extraction_pages": 15
+    },
+    {
+      "row": 160,
+      "source_id": "gOm4KLcfZogJ",
+      "title": "Characterization of the bell-shaped vibratory angular rate gyro",
+      "url": "https://www.mdpi.com/1424-8220/13/8/10123",
+      "year": "2013",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0092_Characterization of the Bell-Shaped Vibratory Angular Rate Gyro.pdf",
+      "pages": 28,
+      "parser": "pypdf",
+      "tail_characters": 911,
+      "sha256": "8fd7ba208259c66d861397cd100a82c544f1451131d48523f131226036a07c13",
+      "bytes": 5989542,
+      "text_extraction_pages": 28
+    },
+    {
+      "row": 161,
+      "source_id": "9bQBcLrOC5YJ",
+      "title": "High resolution micro ultrasonic machining for trimming 3D microstructures",
+      "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/6/065017/meta",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/6/065017/pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/0960-1317/24/6/065017/meta",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "http://stacks.iop.org/0960-1317/24/i=6/a=065017/pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1088/0960-1317/24/6/065017",
+      "metadata_title": "High resolution micro ultrasonic machining for trimming 3D microstructures",
+      "public_pdf_candidates": [
+        "http://stacks.iop.org/0960-1317/24/i=6/a=065017/pdf"
+      ]
+    },
+    {
+      "row": 162,
+      "source_id": "for5FysBJMgJ",
+      "title": "3D-soule: A fabrication process for large scale integration and micromachining of spherical structures",
+      "url": "https://ieeexplore.ieee.org/abstract/document/5734358/",
+      "year": "2011",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/5734358/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/memsys.2011.5734358",
+      "metadata_title": "3D-soule: A fabrication process for large scale integration and micromachining of spherical structures",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 163,
+      "source_id": "f17EOKdg62QJ",
+      "title": "Modeling the effect of imperfections in glassblown micro-wineglass fused quartz resonators",
+      "url": "https://asmedigitalcollection.asme.org/vibrationacoustics/article-abstract/139/4/040909/392518",
+      "year": "2017",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://asmedigitalcollection.asme.org/vibrationacoustics/article-abstract/139/4/040909/392518",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "http://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/doi/10.1115/1.4036679/6410678/vib_139_04_040909.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/139/4/040909/6410678/vib_139_04_040909.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1115/1.4036679",
+      "metadata_title": "Modeling the Effect of Imperfections in Glassblown Micro-Wineglass Fused Quartz Resonators",
+      "public_pdf_candidates": [
+        "http://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/doi/10.1115/1.4036679/6410678/vib_139_04_040909.pdf",
+        "https://asmedigitalcollection.asme.org/vibrationacoustics/article-pdf/139/4/040909/6410678/vib_139_04_040909.pdf"
+      ]
+    },
+    {
+      "row": 164,
+      "source_id": "Y9XdYKzEGAMJ",
+      "title": "Design and Fabrication of Fused Silica Dual-Shell Resonators for High Frequency",
+      "url": "https://escholarship.org/content/qt48v519q2/qt48v519q2.pdf?v=lg",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://escholarship.org/content/qt48v519q2/qt48v519q2.pdf?v=lg",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 165,
+      "source_id": "Fp6d1Va4rXQJ",
+      "title": "From stress to success: Demonstrating ultrahigh quality factor dual-shell resonator gyroscopes with low stress topology",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11109118/",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11109118/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/transducers61432.2025.11109118",
+      "metadata_title": "From Stress to Success: Demonstrating Ultrahigh Quality Factor Dual-Shell Resonator Gyroscopes with Low Stress Topology",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 166,
+      "source_id": "tScmDYDwO04J",
+      "title": "A novel gyroscope based on the slow surface acoustic wave in a phononic metamaterial",
+      "url": "https://www.nature.com/articles/s41378-024-00787-1",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0097_A novel gyroscope based on the slow surface acoustic wave in a phononic metamaterial.pdf",
+      "pages": 14,
+      "parser": "pypdf",
+      "tail_characters": 2304,
+      "sha256": "a80ceafc9b3ef1951ecc35ac6ede25ed8c3084197dcff82f46a2616a3b0374d3",
+      "bytes": 3222947,
+      "text_extraction_pages": 14
+    },
+    {
+      "row": 167,
+      "source_id": "zqmGKj5CN8oJ",
+      "title": "New gyroscopes of the “Generalized foucault pendulum” family: some fundamental issues of theory and applied aspects of its implementation in the engineering …",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9133890/",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 168,
+      "source_id": "M8HZ0zwq0HAJ",
+      "title": "An automatic damping-matching method for eliminating 87.64% damping asymmetry of MEMS vibratory gyroscope in rate mode",
+      "url": "https://assets-eu.researchsquare.com/files/rs-3351055/v1_covered_6c3ebfbf-16d1-4e93-a095-b22df5a4b114.pdf",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S168_An automatic damping-matching method for eliminating 87.64% damping asymmetry of MEMS vibratory gyroscope in rate mode.pdf",
+      "source_url": "https://assets-eu.researchsquare.com/files/rs-3351055/v1_covered_6c3ebfbf-16d1-4e93-a095-b22df5a4b114.pdf",
+      "final_url": "https://assets-eu.researchsquare.com/files/rs-3351055/v1_covered_6c3ebfbf-16d1-4e93-a095-b22df5a4b114.pdf",
+      "pages": 11,
+      "parser": "pypdf",
+      "tail_characters": 6640,
+      "sha256": "7eb1fbcc8aee0c5ed34aee67a4c0cc394b66d201749848e9219e229328be07c6",
+      "bytes": 1409009,
+      "text_extraction_pages": 11
+    },
+    {
+      "row": 169,
+      "source_id": "do0A0scQCwMJ",
+      "title": "Micromachined high-Q fused silica bell resonator with complex profile curvature realized using 3D micro blowtorch molding",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7181172/",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7181172/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 170,
+      "source_id": "LH1mh1Y2IUcJ",
+      "title": "MEMS gyroscopes for consumers and industrial applications",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=c9GdDwAAQBAJ&oi=fnd&pg=PA253&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=pIg15syYxw&sig=p9ucwiGhWwtjbvXHvI8Pmo1VW2c",
+      "year": "2011",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=c9GdDwAAQBAJ&oi=fnd&pg=PA253&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=pIg15syYxw&sig=p9ucwiGhWwtjbvXHvI8Pmo1VW2c",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.5772/17689",
+      "metadata_title": "MEMS Gyroscopes for Consumers and Industrial Applications",
+      "public_pdf_candidates": [
+        "https://www.intechopen.com/citation-pdf-url/14952"
+      ]
+    },
+    {
+      "row": 171,
+      "source_id": "PwoKCmftX8UJ",
+      "title": "BATCH MODE MICROMANUFACTURING BASED ON MICRO ELECTRO-DISCHARGE MACHINING AND MICRO ULTRASONIC MACHINING FOR MICRO …",
+      "url": "https://gianchandani.engin.umich.edu/wp-content/uploads/sites/360/2018/01/SMEMicroManufacturing11_Tao.pdf",
+      "year": 0,
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_read",
+      "identity_complete": false
+    },
+    {
+      "row": 172,
+      "source_id": "uwHPyr_VE0UJ",
+      "title": "Modern inertial navigation technology and its application",
+      "url": "https://digital-library.theiet.org/doi/abs/10.1049/ecej%3A20000202",
+      "year": "2000",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://digital-library.theiet.org/doi/abs/10.1049/ecej%3A20000202",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1049/ecej:20000202",
+      "metadata_title": "Modern inertial navigation technology and its application",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 173,
+      "source_id": "2IVR_F6IGpIJ",
+      "title": "130 second ring-down time and 3.98 million quality factor in 10 kHz fused silica micro birdbath shell resonator",
+      "url": "https://engineering.purdue.edu/oxidemems/conferences/hh2016/PDFs/Papers/109_0053.pdf",
+      "year": "2016",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S173_130 second ring-down time and 3.98 million quality factor in 10 kHz fused silica micro birdbath shell resonator.pdf",
+      "source_url": "https://engineering.purdue.edu/oxidemems/conferences/hh2016/PDFs/Papers/109_0053.pdf",
+      "final_url": "https://engineering.purdue.edu/oxidemems/conferences/hh2016/PDFs/Papers/109_0053.pdf",
+      "pages": 4,
+      "parser": "pypdf",
+      "tail_characters": 6635,
+      "sha256": "f4d9aeb5a9e120f6e9e430a13b0a922b03b9da1d33cf4e5d4aae92f29335eafa",
+      "bytes": 1558731,
+      "text_extraction_pages": 4
+    },
+    {
+      "row": 174,
+      "source_id": "G5mRLsloiT8J",
+      "title": "Electromechanical Inertial Sensors",
+      "url": "https://scholar.archive.org/work/d3j3mvf4arb2jfb25eq3udxpdu/access/wayback/https://ieeexplore.ieee.org/ielx7/9086709/9090008/09090075.pdf",
+      "year": 0,
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "candidate_identity_rejected",
+      "identity_complete": true,
+      "source_url": "https://scholar.archive.org/work/d3j3mvf4arb2jfb25eq3udxpdu/access/wayback/https://ieeexplore.ieee.org/ielx7/9086709/9090008/09090075.pdf",
+      "final_url": "https://web.archive.org/web/20201108190855id_/https://ieeexplore.ieee.org/ielx7/9086709/9090008/09090075.pdf",
+      "pages": 7,
+      "parser": "pypdf",
+      "tail_characters": 1728,
+      "bytes": 247496,
+      "text_extraction_pages": 7,
+      "rejected_candidate_path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S174_Electromechanical Inertial Sensors.pdf",
+      "rejected_candidate_sha256": "363c0b78fbd3ac9fc2405e0915fc33e77c6d828bd676a8a6ec5722baf5e06753",
+      "identity_rejection": "Conference programme containing talk title, not target full text",
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 175,
+      "source_id": "lUflvXfMqAsJ",
+      "title": "A simple acoustic method for modal parameter measurement of the resonator for vibratory shell gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/6851847/",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/6851847/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2014.2332879",
+      "metadata_title": "A Simple Acoustic Method for Modal Parameter Measurement of the Resonator for Vibratory Shell Gyroscope",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 176,
+      "source_id": "CCz1fr33JocJ",
+      "title": "Design, fabrication, and modeling of a novel dual-axis control input PZT gyroscope",
+      "url": "https://www.mdpi.com/1424-8220/17/11/2505",
+      "year": "2017",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.mdpi.com/1424-8220/17/11/2505/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/17/11/2505",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.mdpi.com/1424-8220/17/11/2505/pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3390/s17112505",
+      "metadata_title": "Design, Fabrication, and Modeling of a Novel Dual-Axis Control Input PZT Gyroscope",
+      "public_pdf_candidates": [
+        "https://www.mdpi.com/1424-8220/17/11/2505/pdf"
+      ]
+    },
+    {
+      "row": 177,
+      "source_id": "vq2DudsOI-cJ",
+      "title": "Fused Silica Precision Shell Integrating (PSI) Navigation-Grade Micro-Gyroscopes",
+      "url": "https://deepblue.lib.umich.edu/items/d0428a0d-8002-4e0c-898b-ab5afa19b579",
+      "year": "2020",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://deepblue.lib.umich.edu/items/d0428a0d-8002-4e0c-898b-ab5afa19b579",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 178,
+      "source_id": "ybRdfo2KaXsJ",
+      "title": "MEMS-based integrated navigation",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=IfLdaZ_evpgC&oi=fnd&pg=PR5&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=KUO3Qjjxqh&sig=mUURU7X9tSmcQRYMsJgiT_hEwZc",
+      "year": "2010",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=IfLdaZ_evpgC&oi=fnd&pg=PR5&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=KUO3Qjjxqh&sig=mUURU7X9tSmcQRYMsJgiT_hEwZc",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 179,
+      "source_id": "0Ea8nmxP0BwJ",
+      "title": "Frequency-modulated mems gyroscopes: A review",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9558853/",
+      "year": "2021",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9558853/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2021.3117939",
+      "metadata_title": "Frequency-Modulated MEMS Gyroscopes: A Review",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 180,
+      "source_id": "25zy6AkkvXAJ",
+      "title": "Electrostatically actuated MEMS resonators for magnetic and electric field sensing: a review",
+      "url": "https://www.nature.com/articles/s41378-025-01128-6",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S180_Electrostatically actuated MEMS resonators for magnetic and electric field sensing_ a review.pdf",
+      "source_url": "https://www.nature.com/articles/s41378-025-01128-6.pdf",
+      "final_url": "https://www.nature.com/articles/s41378-025-01128-6.pdf?error=cookies_not_supported&code=1c0e30b1-66f8-4647-9777-21953bb93927",
+      "pages": 30,
+      "parser": "pypdf",
+      "tail_characters": 7454,
+      "sha256": "62f6c8cf8f23dd81490f9796672f2b2862d3fa69d96c7ba2dbe656db4e8ff1c0",
+      "bytes": 8155085,
+      "text_extraction_pages": 30
+    },
+    {
+      "row": 181,
+      "source_id": "pGpI68vwBHQJ",
+      "title": "GOBLiTs to OMG: 3D fabrication techniques for an opto-mechanical gyroscope",
+      "url": "https://search.proquest.com/openview/0755144713c95c6886181512cb6be0a9/1?pq-origsite=gscholar&cbl=18750",
+      "year": "2014",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/0755144713c95c6886181512cb6be0a9/1?pq-origsite=gscholar&cbl=18750",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 182,
+      "source_id": "LiNdkYNasRwJ",
+      "title": "Modern inertial technology: navigation, guidance, and control",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=Sjl1qfyaBWcC&oi=fnd&pg=PR5&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=gGmEA81115&sig=JyZLlamjQuf6Sy26OyhChO5ytTI",
+      "year": "2001",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=Sjl1qfyaBWcC&oi=fnd&pg=PR5&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=gGmEA81115&sig=JyZLlamjQuf6Sy26OyhChO5ytTI",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/0967-0661(95)90089-6",
+      "metadata_title": "Modern inertial technology: Navigation, guidance, and control",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 183,
+      "source_id": "Lo0aa7O3rCoJ",
+      "title": "Investigation of cylindrical resonators' damping asymmetry via analyzing q factor circumferential distribution",
+      "url": "https://www.sciencedirect.com/science/article/pii/S092442471731292X",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S092442471731292X",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1016/j.sna.2017.12.024",
+      "metadata_title": "Investigation of cylindrical resonators’ damping asymmetry via analyzing Q factor circumferential distribution",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 184,
+      "source_id": "thlCKmuLOO4J",
+      "title": "17.1 Principles of Inertial Navigation",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=6AF-DwAAQBAJ&oi=fnd&pg=PT332&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=TqwxiN2H4e&sig=B2ooDTb7V_0QCgZ-PGCnlzImkVY",
+      "year": "2018",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=6AF-DwAAQBAJ&oi=fnd&pg=PT332&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=TqwxiN2H4e&sig=B2ooDTb7V_0QCgZ-PGCnlzImkVY",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 185,
+      "source_id": "y44HbwFezK4J",
+      "title": "Demonstration of optomechanical gyroscope for high-precision angular motion detection",
+      "url": "https://opg.optica.org/abstract.cfm?uri=prj-14-1-180",
+      "year": "2025",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://opg.optica.org/abstract.cfm?uri=prj-14-1-180",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 186,
+      "source_id": "QqIeTE3fh3oJ",
+      "title": "Design and fabrication of a novel MEMS vibrating ring gyroscope",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8122396/",
+      "year": "2017",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/8122396/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 187,
+      "source_id": "rWYlP2yPKuoJ",
+      "title": "Toward Self-Contained Pedestrian Inertial Navigation: Fused Silica Dual-Shell Gyroscopes and Navigation Algorithms",
+      "url": "https://search.proquest.com/openview/63aff30c57cf81fa0b365a12feef8c63/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/63aff30c57cf81fa0b365a12feef8c63/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 188,
+      "source_id": "Wdn3AvZcqGUJ",
+      "title": "MEMS angular rate and angular acceleration sensors with CMOS switched capacitor signal conditioning",
+      "url": "https://search.proquest.com/openview/e945d27d8f6974a8e895dc6c8d4df25c/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "year": "2004",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://search.proquest.com/openview/e945d27d8f6974a8e895dc6c8d4df25c/1?pq-origsite=gscholar&cbl=18750&diss=y",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true
+    },
+    {
+      "row": 189,
+      "source_id": "PSgqnVlJj0UJ",
+      "title": "Milli-hertz frequency tuning architecture toward high repeatable micromachined axi-symmetry gyroscopes",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9841422/",
+      "year": "2022",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/9841422/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/tie.2022.3192672",
+      "metadata_title": "Milli-Hertz Frequency Tuning Architecture Toward High Repeatable Micromachined Axi-Symmetry Gyroscopes",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 190,
+      "source_id": "GrdNC7VJhm8J",
+      "title": "High conductivity and low damping thin films for fused silica resonators via atomic diffusion suppression during annealing",
+      "url": "https://link.springer.com/article/10.1007/s11431-025-3312-9",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11431-025-3312-9",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.1007/s11431-025-3312-9.pdf",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 191,
+      "source_id": "QbpYsnJvsJgJ",
+      "title": "Theory of Imperfections of Three-Dimensional Tuning Plate Gyroscope. Part II: Geometric Imperfections",
+      "url": "https://link.springer.com/article/10.3103/S0025654423601611",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.3103/S0025654423601611",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S0025654423601611.pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S0025654423601611.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3103/s0025654423601611",
+      "metadata_title": "Theory of Imperfections of Three-Dimensional Tuning Plate Gyroscope. Part II: Geometric Imperfections",
+      "public_pdf_candidates": [
+        "https://link.springer.com/content/pdf/10.3103/S0025654423601611.pdf"
+      ]
+    },
+    {
+      "row": 192,
+      "source_id": "yln-h6oxohUJ",
+      "title": "Understanding Sensors Part",
+      "url": "https://www.suncam.com/miva/downloads/docs/409.pdf",
+      "year": 0,
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S192_Understanding Sensors Part.pdf",
+      "source_url": "https://www.suncam.com/miva/downloads/docs/409.pdf",
+      "final_url": "https://www.suncam.com/miva/downloads/docs/409.pdf",
+      "pages": 44,
+      "parser": "pypdf",
+      "tail_characters": 1224,
+      "sha256": "f7764f9fb054bd07b74c74fc44a9b6198e033b9406aacf8160642710dceee080",
+      "bytes": 1548672,
+      "text_extraction_pages": 44,
+      "resource_type": "Continuing education course, not journal paper"
+    },
+    {
+      "row": 193,
+      "source_id": "r6J4Uh5VVjEJ",
+      "title": "Thermoelastic damping and support loss in MEMS ring resonators",
+      "url": "https://repository.nottingham.ac.uk/bitstreams/47650301-190f-4c4c-9b21-7427b5930d6f/download",
+      "year": "2016",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S193_Thermoelastic damping and support loss in MEMS ring resonators.pdf",
+      "source_url": "https://repository.nottingham.ac.uk/bitstreams/47650301-190f-4c4c-9b21-7427b5930d6f/download",
+      "final_url": "https://repository.nottingham.ac.uk/server/api/core/bitstreams/47650301-190f-4c4c-9b21-7427b5930d6f/content",
+      "pages": 268,
+      "parser": "pypdf",
+      "tail_characters": 346,
+      "sha256": "5b7c77f635870e23998fde0dfccd9f9963fd0e90269282ac690ae1f3891a92a7",
+      "bytes": 20525153,
+      "text_extraction_pages": 268
+    },
+    {
+      "row": 194,
+      "source_id": "NzC_rduRLPIJ",
+      "title": "High conductivity and low damping thin films for fused silica resonators via atomic diffusion suppression during annealing",
+      "url": "https://www.sciengine.com/doi/10.1007/s11431-025-3312-9",
+      "year": "2026",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://www.sciengine.com/doi/10.1007/s11431-025-3312-9",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 195,
+      "source_id": "z7Y9swkY34kJ",
+      "title": "Modern gyroscopes",
+      "url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2001-4289",
+      "year": "1999",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://arc.aiaa.org/doi/pdf/10.2514/6.2001-4289",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 196,
+      "source_id": "8E-9bQL71HsJ",
+      "title": "Global navigation satellite systems, inertial navigation, and integration",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=YIAxBwAAQBAJ&oi=fnd&pg=PT8&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=YT7zTkV1FL&sig=yiC6Bj8dYLwZpySn862kSmWt2mI",
+      "year": "2015",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=YIAxBwAAQBAJ&oi=fnd&pg=PT8&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=YT7zTkV1FL&sig=yiC6Bj8dYLwZpySn862kSmWt2mI",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119547860",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1002/9781119547860",
+      "metadata_title": "Global Navigation Satellite Systems, Inertial Navigation, and Integration",
+      "public_pdf_candidates": [
+        "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119547860"
+      ]
+    },
+    {
+      "row": 197,
+      "source_id": "ln7DrXmKslQJ",
+      "title": "10.3 Inertial Navigation",
+      "url": "https://books.google.com/books?hl=zh-CN&lr=&id=VXQdq0B3tnUC&oi=fnd&pg=SA10-PA34&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=6RKV17Z2FG&sig=kgxAnOhD8AwUlep6YwAH80kC3Cg",
+      "year": "1998",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://books.google.com/books?hl=zh-CN&lr=&id=VXQdq0B3tnUC&oi=fnd&pg=SA10-PA34&dq=%22piezoelectric%22+%22hemispherical%22+%22rate+integrating%22&ots=6RKV17Z2FG&sig=kgxAnOhD8AwUlep6YwAH80kC3Cg",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "row": 198,
+      "source_id": "FhktakjZu4gJ",
+      "title": "Optical and electrical method characterizing the dynamic behavior of the fused silica cylindrical resonator",
+      "url": "https://www.mdpi.com/1424-8220/19/13/2928",
+      "year": "2019",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0076_Optical and Electrical Method Characterizing the Dynamic Behavior of the Fused Silica Cylindrical Resonator.pdf",
+      "pages": 13,
+      "parser": "pypdf",
+      "tail_characters": 784,
+      "sha256": "8d3df3d00e456b2b7c11d3ac3257a7bc76ea54ae55a2d08c772b3d3f1de97074",
+      "bytes": 2770728,
+      "text_extraction_pages": 13
+    },
+    {
+      "row": 199,
+      "source_id": "Eq1zwdz4Uc0J",
+      "title": "Micro guidance and control synthesis: New components, architectures, and capabilities",
+      "url": "https://ntrs.nasa.gov/citations/19940025288",
+      "year": "1993",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "downloaded_fulltext",
+      "attempts": [
+        {
+          "url": "https://ntrs.nasa.gov/citations/19940025288",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "text_extracted_not_yet_scientifically_read",
+      "identity_complete": true,
+      "path": "D:/学习资料/资料/全角陀螺/Scholar压电专题_20261029/pdf/S199_Micro guidance and control synthesis_ New components, architectures, and capabilities.pdf",
+      "source_url": "https://ntrs.nasa.gov/api/citations/19940025288/downloads/19940025288.pdf",
+      "final_url": "https://ntrs.nasa.gov/api/citations/19940025288/downloads/19940025288.pdf",
+      "pages": 16,
+      "parser": "pypdf",
+      "tail_characters": 1612,
+      "sha256": "90d44f1931c64850d3cd0a64346eb3f71a7959b703486a8059231a3ac7bd172b",
+      "bytes": 1014309,
+      "text_extraction_pages": 16
+    },
+    {
+      "row": 200,
+      "source_id": "lpELKDwIvqcJ",
+      "title": "Quality factor variation measured in a monolithic fused silica cylindrical resonator",
+      "url": "https://ieeexplore.ieee.org/abstract/document/7745667/",
+      "year": "2016",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/7745667/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/inertialsensors.2016.7745667",
+      "metadata_title": "Quality factor variation measured in a monolithic fused silica cylindrical resonator",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 201,
+      "source_id": "0cfEusjMbsAJ",
+      "title": "Achieving mode detection and precise mechanical trimming of uncoated micro shell resonator using interdigital electrode",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10460418/",
+      "year": "2024",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/10460418/",
+          "result": "landing_page_no_validated_pdf"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.1109/jsen.2024.3371165",
+      "metadata_title": "Achieving Mode Detection and Precise Mechanical Trimming of Uncoated Micro Shell Resonator Using Interdigital Electrode",
+      "public_pdf_candidates": []
+    },
+    {
+      "row": 202,
+      "source_id": "U_p9O9-wIzwJ",
+      "title": "Theory of Imperfections of Three-Dimensional Tuning Plate Gyroscope. Part I: Material Imperfections",
+      "url": "https://link.springer.com/article/10.3103/S0025654423600939",
+      "year": "2023",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.3103/S0025654423600939",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S0025654423600939.pdf",
+          "result": "landing_page_no_validated_pdf"
+        },
+        {
+          "url": "https://link.springer.com/content/pdf/10.3103/S0025654423600939.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "verified_doi": "10.3103/s0025654423600939",
+      "metadata_title": "Theory of Imperfections of Three-Dimensional Tuning Plate Gyroscope. Part I: Material Imperfections",
+      "public_pdf_candidates": [
+        "https://link.springer.com/content/pdf/10.3103/S0025654423600939.pdf"
+      ]
+    },
+    {
+      "row": 203,
+      "source_id": "or4nlzXmNFsJ",
+      "title": "Uncommon inertial sensing concepts revisited",
+      "url": "https://arc.aiaa.org/doi/pdf/10.2514/6.1995-3230",
+      "year": "1995",
+      "keyword": "\"piezoelectric\" \"hemispherical\" \"rate integrating\"",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://arc.aiaa.org/doi/pdf/10.2514/6.1995-3230",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_read",
+      "identity_complete": true,
+      "metadata_error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "counts": {
+    "existing_fulltext": 18,
+    "not_obtained": 169,
+    "downloaded_fulltext": 16
+  },
+  "distinct_extracted_pdfs": 34,
+  "extracted_pages": 1120
+}
