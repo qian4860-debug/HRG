@@ -1,0 +1,4 @@
+evidence/*.json -text
+evidence/*.csv -text
+manifest.json -text
+sources.json -text
