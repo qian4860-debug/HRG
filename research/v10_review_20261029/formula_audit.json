@@ -1,0 +1,30 @@
+{
+  "synthetic_only": true,
+  "checks": {
+    "angle_jacobian_finite_difference": true,
+    "detection_gain_first_order": true,
+    "finite_energy_can_have_undefined_pattern_angle": true,
+    "fourth_harmonic_is_not_universal": true,
+    "coherent_quantizer_error_repeats_each_carrier_period": true,
+    "tdm_first_order_against_exact_samples": true,
+    "tdm_X_and_Y_axes_are_not_equivalent_with_fixed_Y_delay": true,
+    "printed_force_expansion_counterexample": true,
+    "piezo_load_stiffness_and_damping": true,
+    "mass_coupling_not_separately_identifiable_from_electrical_IO": true,
+    "low_rate_damping_stable_fixed_point_exists": true,
+    "existing_DAC_positive_rail_counterexample_confirmed": true
+  },
+  "values": {
+    "gain_residual_for_0001deg_carrier_angle_ppm": 19.337617137990797,
+    "coherent_quantizer_4theta_rad": 1.7658284356977355e-17,
+    "coherent_quantizer_8theta_rad": 8.572809471846204e-07,
+    "coherent_quantizer_max_error_rad": 0.0008964415666544712,
+    "tdm_error_at_X_axis_rad": 9.999999998e-06,
+    "tdm_error_at_Y_axis_rad": 0.0,
+    "Rs100k_added_amplitude_decay_s_inv": 0.03584784001624489,
+    "signed_18bit_DAC_top_V": 0.9999923706054688,
+    "existing_DAC_at_vmax_V": 1.0,
+    "ideal_white_20bit_block_carrier_sigma_deg": 0.00012733608692289014
+  },
+  "boundary": "Analytical examples and confirmed limitations, not validation of future algorithms; full V10 latency uses a separate MATLAB audit."
+}
