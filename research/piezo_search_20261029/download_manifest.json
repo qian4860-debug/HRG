@@ -1,0 +1,1803 @@
+{
+  "date": "2026-10-29",
+  "scope": "Acquisition and opening-page identity/PDF validation only; not full scientific review",
+  "library": "D:/学习资料/资料/全角陀螺/压电专题_20261029",
+  "counts": {
+    "downloaded_fulltext": 7,
+    "not_obtained": 23,
+    "existing_fulltext": 2
+  },
+  "records": [
+    {
+      "id": "P01",
+      "title": "Sub-Degree Angle Detection Using Micromachined Dome-Shaped-Diaphragm Resonator with Wine-Glass Mode Vibration",
+      "doi": null,
+      "entry_markdown": "A. Vafanejad, E. S. Kim. **Sub-Degree Angle Detection Using Micromachined Dome-Shaped-Diaphragm Resonator with Wine-Glass Mode Vibration**. Hilton Head Workshop, 2014, 391–394. [会议主办方PDF](https://transducer-research-foundation.org/technical_digests/HiltonHead_2014/hh2014_0391.pdf) | PDF第1–4页文本，包括实验及参考文献；公式未逐项验算 | 压电驱动、压电检测，角度积分功能实验；器件为柔性膜支撑的穹顶结构，不能等同常规中心支柱半球壳，亦未证明完成本项目所需完整全角闭环。最高优先级。 |",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P01_Sub-Degree Angle Detection Using Micromachined Dome-Shaped-Diaphragm Resonator with Wine-Glass Mode Vibration.pdf",
+      "source_url": "https://transducer-research-foundation.org/technical_digests/HiltonHead_2014/hh2014_0391.pdf",
+      "final_url": "https://transducer-research-foundation.org/technical_digests/HiltonHead_2014/hh2014_0391.pdf",
+      "identity_basis": "title_in_first_two_pages",
+      "pages": 4,
+      "parser": "pypdf",
+      "tail_characters": 5215,
+      "sha256": "92728f3f9e3b75a24e8c86a1025ce122f404a70d9ed8d73ada3bb92022653fa3",
+      "bytes": 859681
+    },
+    {
+      "id": "P02",
+      "title": "Miniature hemispherical shell resonator with large-scale effective electrodes based on piezoelectric drive mechanism",
+      "doi": "10.1063/1.4950780",
+      "entry_markdown": "Jian Tang, Weiping Zhang, Yuxiang Cheng, Wu Liu, Yinghai Wang, Dianjun Sun. **Miniature hemispherical shell resonator with large-scale effective electrodes based on piezoelectric drive mechanism**. Review of Scientific Instruments, 2016, 87:055004. DOI: **10.1063/1.4950780**. [出版社](https://pubs.aip.org/aip/rsi/article/87/5/055004/982995/Miniature-hemispherical-shell-resonator-with-large) | 出版社题录、摘要和参考文献 | 曲面压电驱动、电极集成、模态和测振；该摘要不足以证明压电检测与全角闭环。最高优先级。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/1.4950780/15783794/055004_1_online.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Miniature hemispherical shell resonator with large-scale effective electrodes based on piezoelectric drive mechanism",
+      "crossref_metadata": {
+        "DOI": "10.1063/1.4950780",
+        "title": [
+          "Miniature hemispherical shell resonator with large-scale effective electrodes based on piezoelectric drive mechanism"
+        ],
+        "author": [
+          {
+            "given": "Jian",
+            "family": "Tang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University National Key Laboratory of Science and Technology on Micro/Nano Fabrication, Key Laboratory for Thin Film and Micro Fabrication of the Ministry of Education and Shanghai Key Lab of Navigation and Location-Based Services, Department of Micro-Nano Electronics, School of Electronic Information and Electrical Engineering, , Shanghai 200240, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Weiping",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University National Key Laboratory of Science and Technology on Micro/Nano Fabrication, Key Laboratory for Thin Film and Micro Fabrication of the Ministry of Education and Shanghai Key Lab of Navigation and Location-Based Services, Department of Micro-Nano Electronics, School of Electronic Information and Electrical Engineering, , Shanghai 200240, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuxiang",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University National Key Laboratory of Science and Technology on Micro/Nano Fabrication, Key Laboratory for Thin Film and Micro Fabrication of the Ministry of Education and Shanghai Key Lab of Navigation and Location-Based Services, Department of Micro-Nano Electronics, School of Electronic Information and Electrical Engineering, , Shanghai 200240, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University National Key Laboratory of Science and Technology on Micro/Nano Fabrication, Key Laboratory for Thin Film and Micro Fabrication of the Ministry of Education and Shanghai Key Lab of Navigation and Location-Based Services, Department of Micro-Nano Electronics, School of Electronic Information and Electrical Engineering, , Shanghai 200240, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yinghai",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University National Key Laboratory of Science and Technology on Micro/Nano Fabrication, Key Laboratory for Thin Film and Micro Fabrication of the Ministry of Education and Shanghai Key Lab of Navigation and Location-Based Services, Department of Micro-Nano Electronics, School of Electronic Information and Electrical Engineering, , Shanghai 200240, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dianjun",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University National Key Laboratory of Science and Technology on Micro/Nano Fabrication, Key Laboratory for Thin Film and Micro Fabrication of the Ministry of Education and Shanghai Key Lab of Navigation and Location-Based Services, Department of Micro-Nano Electronics, School of Electronic Information and Electrical Engineering, , Shanghai 200240, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              5,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Review of Scientific Instruments"
+        ],
+        "volume": "87",
+        "issue": "5",
+        "page": null,
+        "link": [
+          {
+            "URL": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/1.4950780/15783794/055004_1_online.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://pubs.aip.org/aip/rsi/article-pdf/doi/10.1063/1.4950780/15783794/055004_1_online.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P03",
+      "title": "壓電激發之旋轉金屬半球殼模態變化分析和測試",
+      "doi": null,
+      "entry_markdown": "周傳心主持. **壓電激發之旋轉金屬半球殼模態變化分析和測試 / Analysis and testing on the vibration mode of a metallic hemispherical shell excited piezoelectrically**. 臺灣大學應用力學所，项目NSC 90-2212-E-002-158，执行期2001-08至2002-07. [大学机构库PDF](https://scholars.lib.ntu.edu.tw/bitstreams/eabdb572-42fc-43a8-a4c3-0dce9884849c/download) | 摘要、前言、PDF第4–5页及参考文献；pypdf解析失败，改用pdfplumber核读末页 | 金属半球壳贴压电材料作驱动与感测；薄壳本构、Hamilton、Rayleigh/Ritz、模态测试，是从结构到换能推导的重要入口。报告不是学位论文。最高优先级。 |",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P03_壓電激發之旋轉金屬半球殼模態變化分析和測試.pdf",
+      "source_url": "https://scholars.lib.ntu.edu.tw/bitstreams/eabdb572-42fc-43a8-a4c3-0dce9884849c/download",
+      "final_url": "https://scholars.lib.ntu.edu.tw/server/api/core/bitstreams/eabdb572-42fc-43a8-a4c3-0dce9884849c/content",
+      "identity_basis": "title_in_first_two_pages",
+      "pages": 5,
+      "parser": "pdfplumber",
+      "tail_characters": 2394,
+      "sha256": "f9deae76952616efd2a796d1a12286ac9e13ade32df79231901e8de393728e07",
+      "bytes": 415645
+    },
+    {
+      "id": "P04",
+      "title": "Experimental studies on dynamic response of piezoelectric based hemispherical resonator gyroscope",
+      "doi": "10.1108/SR-08-2023-0343",
+      "entry_markdown": "**Experimental studies on dynamic response of piezoelectric based hemispherical resonator gyroscope**. Sensor Review, 2024, 44(6):638–645. DOI: **10.1108/SR-08-2023-0343**. [出版社摘要](https://www.emerald.com/sr/article-abstract/44/6/638/1216131/Experimental-studies-on-dynamic-response-of?redirectedFrom=fulltext) | 出版社搜索索引摘要，直接打开不稳定 | 压电/光学测量、驱动电压与输出响应及模型对比；具体驱动结构、检测负载与是否全角需查全文。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Experimental studies on dynamic response of piezoelectric based hemispherical resonator gyroscope",
+      "crossref_metadata": {
+        "DOI": "10.1108/sr-08-2023-0343",
+        "title": [
+          "Experimental studies on dynamic response of piezoelectric based hemispherical resonator gyroscope"
+        ],
+        "author": [
+          {
+            "given": "Pradnya",
+            "family": "Chabbi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Diplesh",
+            "family": "Gautam",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Venkatesh Kadbur Prabhakar",
+            "family": "Rao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sujan",
+            "family": "Yenuganti",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Sensor Review"
+        ],
+        "volume": "44",
+        "issue": "6",
+        "page": "638-645",
+        "link": [
+          {
+            "URL": "https://www.emerald.com/insight/content/doi/10.1108/SR-08-2023-0343/full/xml",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://www.emerald.com/insight/content/doi/10.1108/SR-08-2023-0343/full/html",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P05",
+      "title": "Indirect Excitation of micro-HRG Using Segmented Piezoelectric ALD PHT Actuator",
+      "doi": null,
+      "entry_markdown": "Danmeng Wang et al. **Indirect Excitation of micro-HRG Using Segmented Piezoelectric ALD PHT Actuator**. IEEE INERTIAL, 2023. [作者机构公开PDF](https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2023/04/Piezo_actuation_IEEE_Inertial_2023_final_corrected_V2.pdf) | 摘要、测试节及PDF第4页参考文献 | 双壳结构、间接压电驱动、电极分区和有限元；实验采用LDV测量，不能记为压电检测验证。 |",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P05_Indirect Excitation of micro-HRG Using Segmented Piezoelectric ALD PHT Actuator.pdf",
+      "source_url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2023/04/Piezo_actuation_IEEE_Inertial_2023_final_corrected_V2.pdf",
+      "final_url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2023/04/Piezo_actuation_IEEE_Inertial_2023_final_corrected_V2.pdf",
+      "identity_basis": "title_in_first_two_pages",
+      "pages": 4,
+      "parser": "pypdf",
+      "tail_characters": 5881,
+      "sha256": "64b4cf2492108e7e23f846cbb28a6a77d7ac699dd10259fe5384b5edbbfa2e39",
+      "bytes": 3775726
+    },
+    {
+      "id": "P06",
+      "title": "Non-Metallized Dual-Shell Hemispherical Resonator Gyroscope",
+      "doi": null,
+      "entry_markdown": "Austin R. Parrish et al. **Non-Metallized Dual-Shell Hemispherical Resonator Gyroscope**. IEEE/ION PLANS, 2025, 131–135. [ION题录](https://www.ion.org/publications/abstract.cfm?articleID=20077)；[作者PDF](https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2025/05/PLANS_2025_Non_metallized_HRG_V4.pdf) | 摘要、方法和PDF第5页参考文献 | 间接压电驱动＋光学检测＋激光修调。可研究损耗和驱动结构，不能当作两端压电或全角闭环的直接验证。 |",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P06_Non-Metallized Dual-Shell Hemispherical Resonator Gyroscope.pdf",
+      "source_url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2025/05/PLANS_2025_Non_metallized_HRG_V4.pdf",
+      "final_url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2025/05/PLANS_2025_Non_metallized_HRG_V4.pdf",
+      "identity_basis": "title_in_first_two_pages",
+      "pages": 5,
+      "parser": "pypdf",
+      "tail_characters": 6930,
+      "sha256": "3a82e75f7e2eda66b5b13c83fd81d136c6c509b66bb30baad170d3184e55a547",
+      "bytes": 1055501
+    },
+    {
+      "id": "P07",
+      "title": "基于FPGA的压电半球谐振陀螺数字测控系统设计",
+      "doi": null,
+      "entry_markdown": "张钰莹、张卫平、崔峰、刘朝阳、田梦雅、薛冰. **基于FPGA的压电半球谐振陀螺数字测控系统设计**. [大学图书馆保存的期刊目录](https://www.lib.nkust.edu.tw/portal/nkust_admin/journal_index/pdf/109/1001-5868/v.42_n.3_no.209.pdf) | 标题和作者经大学目录核实；正文、正式卷期页和DOI待核 | 标题与接口/数字控制高度相关。检索线索给出《半导体光电》2019,40(3):313–317，但本次未在原刊核实，不直接导出为正式题录；目录文件路径的卷期与该线索不一致。是否FTR或全角以正文为准。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P08",
+      "title": "压电半球谐振微陀螺仪数字控制检测电路探究",
+      "doi": null,
+      "entry_markdown": "汪濙海. **压电半球谐振微陀螺仪数字控制检测电路探究**. 上海交通大学，2016，学位论文. [原刊参考文献入口，参考文献10](https://gxygdjs.xml-journal.net/article/id/f51051c1-0c68-4e62-a9a3-999a8f68531a?viewType=citedby-info) | 经2023年期刊文章参考文献核实标题、作者、学校和年份；未取得该学位论文正文 | 应优先索取完整学位论文。检索汪濙海，也可用Yinghai Wang、WANG Ying-hai避免生僻字漏检；不能预先认定其工作模式。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P09",
+      "title": "一种压电驱动和检测的微型半球谐振陀螺仪及其制备方法",
+      "doi": null,
+      "entry_markdown": "**一种压电驱动和检测的微型半球谐振陀螺仪及其制备方法**. CN104197917A，2014；另有B版. [专利原文](https://patents.google.com/patent/CN104197917A/zh) | 摘要、结构、实施例及引文入口 | 明确逆压电驱动＋正压电检测；适合研究电极、公共端、材料层和信号路径。实施例的角速度读出不等于全角验证。 |",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P09_一种压电驱动和检测的微型半球谐振陀螺仪及其制备方法.pdf",
+      "source_url": "https://patentimages.storage.googleapis.com/33/e4/27/1cfea088fdf154/CN104197917A.pdf",
+      "final_url": "https://patentimages.storage.googleapis.com/33/e4/27/1cfea088fdf154/CN104197917A.pdf",
+      "identity_basis": "official_patent_pdf_link",
+      "pages": 13,
+      "parser": "pypdf",
+      "tail_characters": 0,
+      "sha256": "35e4dd095eaa513d8ada06e334dbd60ba8f56d1d4b98fc13f7a5f78780555e38",
+      "bytes": 1085617
+    },
+    {
+      "id": "P10",
+      "title": "压电半球谐振陀螺仪的全角度控制信号检测系统",
+      "doi": null,
+      "entry_markdown": "**压电半球谐振陀螺仪的全角度控制信号检测系统**. CN105547272A，2016；另有B版. [专利原文](https://patents.google.com/patent/CN105547272A/zh) | 摘要、说明书和专利引文列表 | 压电＋全角最直接的系统架构入口：双PLL、解调、参数运算与控制反馈。应独立核对其“角度稳定”等措辞是否与自由进动目标一致，不照抄为控制律。 |",
+      "status": "existing_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/CN105547272A.pdf",
+      "pages": 7,
+      "parser": "pypdf",
+      "tail_characters": 0,
+      "sha256": "af35d2f22c7a7b30bfe43b5257a9991cab33da20f51b104ec1cf7d9590c5f396",
+      "bytes": 552964,
+      "identity_basis": "existing_patent_filename_and_pdf_structure"
+    },
+    {
+      "id": "P11",
+      "title": "压电半球谐振微陀螺仪的数字信号处理系统",
+      "doi": null,
+      "entry_markdown": "**压电半球谐振微陀螺仪的数字信号处理系统**. CN106017450A，2016；B版2020. [B版原文](https://patents.google.com/patent/CN106017450B/zh) | 摘要及力平衡反馈描述 | 数字检波、PLL、AGC、调相和力平衡反馈；FTR资料，可借接口与实现，不能直接当作全角控制。 |",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P11_压电半球谐振微陀螺仪的数字信号处理系统.pdf",
+      "source_url": "https://patentimages.storage.googleapis.com/f1/6d/49/c69a54689d7af1/CN106017450B.pdf",
+      "final_url": "https://patentimages.storage.googleapis.com/f1/6d/49/c69a54689d7af1/CN106017450B.pdf",
+      "identity_basis": "title_in_first_two_pages",
+      "pages": 12,
+      "parser": "pypdf",
+      "tail_characters": 39,
+      "sha256": "84e0bb79cfc8b7c8c2a25f0a8cd3465d9a982a339415d8c8b9b265912dd7744b",
+      "bytes": 622520
+    },
+    {
+      "id": "P12",
+      "title": "Experimental And Numerical Studies on Mechanical Resonance of Piezoelectric Hemispherical Resonator Gyroscope",
+      "doi": "10.1109/CONECCT52877.2021.9622701",
+      "entry_markdown": "**Experimental And Numerical Studies on Mechanical Resonance of Piezoelectric Hemispherical Resonator Gyroscope**. IEEE CONECCT, 2021. DOI: **10.1109/CONECCT52877.2021.9622701**. [IEEE](https://ieeexplore.ieee.org/abstract/document/9622701/) | IEEE题录摘要；且在P05参考文献7找到 | 机械共振、非接触测试、COMSOL对照；查清实际机电换能、支撑与电边界。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Experimental And Numerical Studies on Mechanical Resonance of Piezoelectric Hemispherical Resonator Gyroscope",
+      "crossref_metadata": {
+        "DOI": "10.1109/conecct52877.2021.9622701",
+        "title": [
+          "Experimental And Numerical Studies on Mechanical Resonance of Piezoelectric Hemispherical Resonator Gyroscope"
+        ],
+        "author": [
+          {
+            "given": "Pradnya",
+            "family": "Chabbi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Birla Institute of Technology and Science,Department of Mechanical Engineering,Pilani,Rajasthan,India,333031"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Diplesh",
+            "family": "Gautam",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Birla Institute of Technology and Science,Department of Mechanical Engineering,Pilani,Rajasthan,India,333031"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Venkatesh KP",
+            "family": "Rao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Birla Institute of Technology and Science,Department of Mechanical Engineering,Pilani,Rajasthan,India,333031"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "2021 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT)"
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "1-5",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/9622410/9622346/09622701.pdf?arnumber=9622701",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P13",
+      "title": "Electrode-Shaping for the Excitation and Detection of Permitted Arbitrary Modes in Arbitrary Geometries in Piezoelectric Resonators",
+      "doi": "10.1109/TUFFC.2012.2290",
+      "entry_markdown": "J. S. Pulskamp et al. **Electrode-Shaping for the Excitation and Detection of Permitted Arbitrary Modes in Arbitrary Geometries in Piezoelectric Resonators**. IEEE TUFFC, 2012,59(5):1043–1060. DOI **10.1109/TUFFC.2012.2290**. [作者机构PDF](https://engineering.purdue.edu/oxidemems/papers/TUFFC2012_Shaping.pdf) | P05 PDF第4页参考文献11 | 电极覆盖、模态应力、驱动和检测的空间积分；已读摘要/部分理论与参考文献，未逐式验算。 |",
+      "status": "downloaded_fulltext",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Electrode-shaping for the excitation and detection of permitted arbitrary modes in arbitrary geometries in piezoelectric resonators",
+      "crossref_metadata": {
+        "DOI": "10.1109/tuffc.2012.2290",
+        "title": [
+          "Electrode-shaping for the excitation and detection of permitted arbitrary modes in arbitrary geometries in piezoelectric resonators"
+        ],
+        "author": [
+          {
+            "given": "Jeffrey",
+            "family": "Pulskamp",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sarah",
+            "family": "Bedair",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ronald",
+            "family": "Polcawich",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gabriel",
+            "family": "Smith",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Joel",
+            "family": "Martin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Brian",
+            "family": "Power",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sunil",
+            "family": "Bhave",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control"
+        ],
+        "volume": "59",
+        "issue": "5",
+        "page": "1043-1060",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/58/6202401/06202429.pdf?arnumber=6202429",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "path": "D:/学习资料/资料/全角陀螺/压电专题_20261029/pdf/P13_Electrode-Shaping for the Excitation and Detection of Permitted Arbitrary Modes in Arbitrary Geometries in Piezoelectric Resonators.pdf",
+      "source_url": "https://engineering.purdue.edu/oxidemems/papers/TUFFC2012_Shaping.pdf",
+      "final_url": "https://engineering.purdue.edu/oxidemems/papers/TUFFC2012_Shaping.pdf",
+      "identity_basis": "title_in_first_two_pages",
+      "pages": 18,
+      "parser": "pypdf",
+      "tail_characters": 2152,
+      "sha256": "dd341e87c456a05ea176a6c97e229d3d2f6735f60b3adfdaf9d0357055725455",
+      "bytes": 4095532
+    },
+    {
+      "id": "P14",
+      "title": "Modal sensors/actuators",
+      "doi": "10.1115/1.2892008",
+      "entry_markdown": "C.-K. Lee, F. C. Moon. **Modal sensors/actuators**. Journal of Applied Mechanics, 1990,57(2):434–441. [作者机构题录摘要](https://research.ibm.com/publications/modal-sensorsactuators) | P13 PDF第16页参考文献11 | 模态选择性、传感/驱动投影的原始理论；仅摘要与引文核实。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "http://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/57/2/434/5461033/434_1.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Modal Sensors/Actuators",
+      "crossref_metadata": {
+        "DOI": "10.1115/1.2892008",
+        "title": [
+          "Modal Sensors/Actuators"
+        ],
+        "author": [
+          {
+            "given": "C.-K.",
+            "family": "Lee",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "IBM Research Division, Almaden Research Center, San Jose, CA 95120-6099"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F. C.",
+            "family": "Moon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical and Aerospace Engineering, Cornell University, Ithaca, NY 14853-7501"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1990,
+              6,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Applied Mechanics"
+        ],
+        "volume": "57",
+        "issue": "2",
+        "page": "434-441",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/57/2/434/5461033/434_1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/appliedmechanics/article-pdf/57/2/434/5461033/434_1.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P15",
+      "title": "IEEE Standard on Piezoelectricity, ANSI/IEEE Std 176–1987",
+      "doi": "10.1109/IEEESTD.1988.79638",
+      "entry_markdown": "**IEEE Standard on Piezoelectricity, ANSI/IEEE Std 176–1987**，父文献记载发行年1988 | P13 PDF第16页参考文献10 | 压电本构、坐标与系数约定。历史标准的引用，不声称为现行最新版本；版本状态另查IEEE。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://rfc.nop.hu/ieee2/ANSI-IEEE%20Std%20176-1987.pdf",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.36.123&rep=rep1&type=pdf",
+          "error": "Public archive connection failed: SSL UNEXPECTED_EOF_WHILE_READING"
+        },
+        {
+          "url": "http://rfc.nop.hu/ieee2/ANSI-IEEE%20Std%20176-1987.pdf",
+          "error": "HTTP404"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted",
+      "version_note": "Historical standard; IEEE marks inactive/withdrawn"
+    },
+    {
+      "id": "P16",
+      "title": "Simulation of Piezoelectric Dome-Shaped-Diaphragm Acoustic Transducers",
+      "doi": null,
+      "entry_markdown": "C. H. Han, E. S. Kim. **Simulation of Piezoelectric Dome-Shaped-Diaphragm Acoustic Transducers**. Journal of Semiconductor Technology and Science,2005,5(1):17–23. [作者实验室题录](https://mems.usc.edu/publications.html) | P01 PDF第4页参考文献8 | 穹顶压电结构建模来源；题录核实，全文待查。声学换能器，不是陀螺闭环。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "crossref_title_candidates": [
+        {
+          "title": [
+            "Micromachined piezoelectric ultrasonic transducers on dome-shaped-diaphragm in silicon substrate"
+          ],
+          "doi": "10.1109/ultsym.1999.849205"
+        },
+        {
+          "title": [
+            "Parylene-diaphragm piezoelectric acoustic transducers"
+          ],
+          "doi": "10.1109/memsys.2000.838506"
+        },
+        {
+          "title": [
+            "A piezoelectric dome-shaped-diaphragm transducer for microgenerator applications"
+          ],
+          "doi": "10.1088/0964-1726/16/6/068"
+        }
+      ],
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P17",
+      "title": "Fabrication of Dome-Shaped Diaphragm with Circular Clamped Boundary on Silicon Substrate",
+      "doi": "10.1109/memsys.1999.746880",
+      "entry_markdown": "C. H. Han, E. S. Kim. **Fabrication of Dome-Shaped Diaphragm with Circular Clamped Boundary on Silicon Substrate**. IEEE MEMS,1999:505–510. [作者实验室题录](https://mems.usc.edu/publications.html) | P01 PDF第4页参考文献4 | 几何、工艺和边界条件来源；题录核实，全文待查。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "crossref_title_candidates": [
+        {
+          "title": [
+            "Fabrication of dome-shaped diaphragm with circular clamped boundary on silicon substrate"
+          ],
+          "doi": "10.1109/memsys.1999.746880"
+        },
+        {
+          "title": [
+            "Micromachined piezoelectric ultrasonic transducers on dome-shaped-diaphragm in silicon substrate"
+          ],
+          "doi": "10.1109/ultsym.1999.849205"
+        },
+        {
+          "title": [
+            "Dome-shaped diaphragm microtransducers"
+          ],
+          "doi": "10.1109/memsys.1995.472570"
+        }
+      ],
+      "doi_basis": "Crossref title match",
+      "openalex_title": "Fabrication of dome-shaped diaphragm with circular clamped boundary on silicon substrate",
+      "crossref_metadata": {
+        "DOI": "10.1109/memsys.1999.746880",
+        "title": [
+          "Fabrication of dome-shaped diaphragm with circular clamped boundary on silicon substrate"
+        ],
+        "author": [
+          {
+            "family": "Cheol-Hyun Han",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Eun Sok Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1999
+            ]
+          ]
+        },
+        "container-title": [
+          "Technical Digest. IEEE International MEMS 99 Conference. Twelfth IEEE International Conference on Micro Electro Mechanical Systems (Cat. No.99CH36291)"
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "505-510",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx4/6037/16111/00746880.pdf?arnumber=746880",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P18",
+      "title": "Micro-control actions of actuator patches laminated on hemispherical shells",
+      "doi": "10.1016/j.jsv.2003.09.016",
+      "entry_markdown": "P. Smithmaitrie, H. S. Tzou. **Micro-control actions of actuator patches laminated on hemispherical shells**. Journal of Sound and Vibration,2004,277(4–5):691–710. DOI **10.1016/j.jsv.2003.09.016**. [出版社预览](https://www.sciencedirect.com/science/article/abs/pii/S0022460X03010770) | 关键词发现的补充种子；其自身参考文献可向下追溯 | 压电贴片对半球壳的膜力/弯矩及模态力；出版社摘要、章节预览和部分参考文献已核实。自由边界球壳的结论须重新检验实际支撑。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Micro-control actions of actuator patches laminated on hemispherical shells",
+      "crossref_metadata": {
+        "DOI": "10.1016/j.jsv.2003.09.016",
+        "title": [
+          "Micro-control actions of actuator patches laminated on hemispherical shells"
+        ],
+        "author": [
+          {
+            "given": "P.",
+            "family": "Smithmaitrie",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "H.S.",
+            "family": "Tzou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Sound and Vibration"
+        ],
+        "volume": "277",
+        "issue": "4-5",
+        "page": "691-710",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0022460X03010770?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0022460X03010770?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P19",
+      "title": "Micro-sensor electromechanics and distributed signal analysis of piezo(electric)-elastic spherical shells",
+      "doi": "10.1006/mssp.2001.1458",
+      "entry_markdown": "**Micro-sensor electromechanics and distributed signal analysis of piezo(electric)-elastic spherical shells**. Mechanical Systems and Signal Processing,2002. DOI线索 **10.1006/mssp.2001.1458** | P18引言参考文献8及出版社参考文献列表 | 检测信号的空间积分、开路电压与壳体应变。标题/期刊/年份来自出版社；DOI与作者、卷期页仍需在该文原刊核实，不将二级题录当全文。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "MICRO-SENSOR ELECTROMECHANICS AND DISTRIBUTED SIGNAL ANALYSIS OF PIEZO(ELECTRIC)-ELASTIC SPHERICAL SHELLS",
+      "crossref_metadata": {
+        "DOI": "10.1006/mssp.2001.1458",
+        "title": [
+          "MICRO-SENSOR ELECTROMECHANICS AND DISTRIBUTED SIGNAL ANALYSIS OF PIEZO(ELECTRIC)-ELASTIC SPHERICAL SHELLS"
+        ],
+        "author": [
+          {
+            "given": "H.S.",
+            "family": "TZOU",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "SMITHMAITRIE",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J.H.",
+            "family": "DING",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2002,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Mechanical Systems and Signal Processing"
+        ],
+        "volume": "16",
+        "issue": "2-3",
+        "page": "185-199",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S088832700191458X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S088832700191458X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P20",
+      "title": "A Coupled Electromechanical Model of an Imperfect Piezoelectric Vibrating Cylinder Gyroscope",
+      "doi": "10.1177/1045389X9600700105",
+      "entry_markdown": "P. W. Loveday. **A Coupled Electromechanical Model of an Imperfect Piezoelectric Vibrating Cylinder Gyroscope**. JIMSS,1996,7(1):44–53. DOI **10.1177/1045389X9600700105**. [出版社](https://journals.sagepub.com/doi/10.1177/1045389X9600700105) | P03 PDF第5页参考文献7 | Hamilton＋Rayleigh–Ritz、压电片位置误差、电FRF与模型对应。出版社摘要及参考文献已读；是圆柱陀螺，不能直接代替半球几何积分。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9600700105",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://researchspace.csir.co.za/bitstreams/8959775f-5e7d-4ee3-8d4b-ba8aa10fa1f9/download",
+          "error": "HTTP Error 500: 500"
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9600700105",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://researchspace.csir.co.za/server/api/core/bitstreams/8959775f-5e7d-4ee3-8d4b-ba8aa10fa1f9/content",
+          "error": "HTTP500 at official repository attachment endpoint; public record found but PDF unavailable"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "A Coupled Electromechanical Model of an Imperfect Piezoelectric Vibrating Cylinder Gyroscope",
+      "crossref_metadata": {
+        "DOI": "10.1177/1045389x9600700105",
+        "title": [
+          "A Coupled Electromechanical Model of an Imperfect Piezoelectric Vibrating Cylinder Gyroscope"
+        ],
+        "author": [
+          {
+            "given": "Philip W.",
+            "family": "Loveday",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Sensor Systems, Division of Materials Science and Technology, CSIR, PO. Box 395, Pretoria, 0001, South Africa"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1996,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Intelligent Material Systems and Structures"
+        ],
+        "volume": "7",
+        "issue": "1",
+        "page": "44-53",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9600700105",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9600700105",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted",
+      "related_existing_fulltext": {
+        "title": "Analysis and compensation of imperfection effects in piezoelectric vibratory gyroscopes",
+        "path": "D:/学习资料/资料/全角陀螺/Lynch1995_被引文献_20261024/pdf/LC0112_Analysis and compensation of imperfection effects in piezoelectric vibratory gyroscopes.pdf",
+        "note": "Related author dissertation, not the requested 1996 journal article; not counted as P20 obtained"
+      }
+    },
+    {
+      "id": "P21",
+      "title": "Modelling of Piezoelectric Actuator Dynamics for Active Structural Control",
+      "doi": "10.1177/1045389X9000100305",
+      "entry_markdown": "N. W. Hagood, W. Chung, A. von Flotow. **Modelling of Piezoelectric Actuator Dynamics for Active Structural Control**. JIMSS,1990,1(3):327–354. DOI **10.1177/1045389X9000100305**. [出版社DOI](https://journals.sagepub.com/doi/10.1177/1045389X9000100305) | P20出版社参考文献及其Crossref目标 | 电压/电荷/机械状态的耦合模型；本次只核实引文和DOI目标，正文待查。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.1177%2F1045389X9000100305",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9000100305",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "crossref_metadata": {
+        "DOI": "10.1177/1045389x9000100305",
+        "title": [
+          "Modelling of Piezoelectric Actuator Dynamics for Active Structural Control"
+        ],
+        "author": [
+          {
+            "given": "Nesbitt W.",
+            "family": "Hagood",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Space Engineering Research Center Massachusetts Institute of Technology Cambridge, Massachusetts"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Walter H.",
+            "family": "Chung",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Space Engineering Research Center Massachusetts Institute of Technology Cambridge, Massachusetts"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andreas",
+            "family": "Von Flotow",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Space Engineering Research Center Massachusetts Institute of Technology Cambridge, Massachusetts"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1990,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Intelligent Material Systems and Structures"
+        ],
+        "volume": "1",
+        "issue": "3",
+        "page": "327-354",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9000100305",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9000100305",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P22",
+      "title": "Simultaneous Sensing and Actuation Using Piezoelectric Materials",
+      "doi": "10.1117/12.51196",
+      "entry_markdown": "N. W. Hagood, E. H. Anderson. **Simultaneous Sensing and Actuation Using Piezoelectric Materials**. SPIE1543. DOI线索 **10.1117/12.51196** | P03参考文献6、P20出版社参考文献 | 同一压电元件同时驱动检测。P03记409–412，P20记409–421；二级题录另有1992。年份/页码需在SPIE原刊复核，不能直接固定为某个版本。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "crossref_title_candidates": [
+        {
+          "title": [
+            "Simultaneous sensing and actuation using piezoelectric materials"
+          ],
+          "doi": "10.1117/12.51196"
+        },
+        {
+          "title": [
+            "Asymmetric actuation and sensing of a beam using piezoelectric materials"
+          ],
+          "doi": "10.1121/1.406237"
+        },
+        {
+          "title": [
+            "Asymmetric actuation and sensing of a beam using piezoelectric materials"
+          ],
+          "doi": "10.1121/1.410099"
+        }
+      ],
+      "doi_basis": "Crossref title match",
+      "openalex_title": "Simultaneous sensing and actuation using piezoelectric materials",
+      "crossref_metadata": {
+        "DOI": "10.1117/12.51196",
+        "title": [
+          "Simultaneous sensing and actuation using piezoelectric materials"
+        ],
+        "author": [
+          {
+            "given": "Nesbitt W.",
+            "family": "Hagood",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eric H.",
+            "family": "Anderson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1992,
+              1,
+              13
+            ]
+          ]
+        },
+        "container-title": [
+          "SPIE Proceedings",
+          "Active and Adaptive Optical Components"
+        ],
+        "volume": "1543",
+        "issue": null,
+        "page": "409",
+        "link": [
+          {
+            "URL": "http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.51196",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P23",
+      "title": "Detailed Models of Piezoceramic Actuation of Beams",
+      "doi": "10.1177/1045389X9000100102",
+      "entry_markdown": "E. F. Crawley, E. H. Anderson. **Detailed Models of Piezoceramic Actuation of Beams**. JIMSS,1990,1(1):4–25 | P03 PDF第5页参考文献5 | 压电片和基体之间的力传递、粘接影响。引用已核实；不是半球陀螺全文验证。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9000100102",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Detailed Models of Piezoceramic Actuation of Beams",
+      "crossref_metadata": {
+        "DOI": "10.1177/1045389x9000100102",
+        "title": [
+          "Detailed Models of Piezoceramic Actuation of Beams"
+        ],
+        "author": [
+          {
+            "given": "Edward F.",
+            "family": "Crawley",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Space Engineering Research Center Massachusetts Institute of Technology Cambridge"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eric H.",
+            "family": "Anderson",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Space Engineering Research Center Massachusetts Institute of Technology Cambridge"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1990,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Intelligent Material Systems and Structures"
+        ],
+        "volume": "1",
+        "issue": "1",
+        "page": "4-25",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9000100102",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1045389X9000100102",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P24",
+      "title": "The Theory of Piezoelectric Shells and Plates",
+      "doi": null,
+      "entry_markdown": "N. N. Rogacheva. **The Theory of Piezoelectric Shells and Plates**. CRC Press,1994. ISBN **9780849344596**. [出版社](https://www.routledge.com/Handbook-of-Thin-Plate-Buckling-and-Postbuckling/Bloom-Coffin/p/book/9780849344596) | P03 PDF第5页参考文献4 | 从三维电弹性到二维压电壳、极化方向和电边界。书目和目录已核实，正文未通读。该出版社URL的slug与实际书名不一致，页面题名及ISBN匹配。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P25",
+      "title": "Shell Theory",
+      "doi": null,
+      "entry_markdown": "F. I. Niordson. **Shell Theory**. North-Holland,1985 | P03 PDF第5页参考文献3 | 旋转壳体坐标、应变与能量基础；引用已核实，书本待查。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "error": "Rejected local text-only match: target title occurred in another document; no source bytes changed"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P26",
+      "title": "On the Beats in the Vibrations of a Revolving Cylinder or Bell",
+      "doi": null,
+      "entry_markdown": "G. H. Bryan. **On the Beats in the Vibrations of a Revolving Cylinder or Bell**. Proceedings of the Cambridge Philosophical Society,1890,7:101–111 | P03 PDF第5页参考文献8 | 旋转振动与进动基础；已有项目文献线索，本清单不重新声称全文新取得。 |",
+      "status": "existing_fulltext",
+      "attempts": [
+        {
+          "error": "Rejected local text-only match: target title occurred in another document; no source bytes changed"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "path": "D:/学习资料/资料/全角陀螺/引用文献_20261023/pdf/Bryan_1890_On_the_beats_original_pages_101-111.pdf",
+      "pages": 11,
+      "parser": "pypdf",
+      "tail_characters": 2188,
+      "sha256": "17ba35b0f9f2562b59da984c014e5b792e8e596bcedb500da1409549f6b1d188",
+      "bytes": 610532,
+      "identity_basis": "previous_verified_manifest_title_and_sha256"
+    },
+    {
+      "id": "P27",
+      "title": "Theory and Error Analysis of Vibrating-Member Gyroscope",
+      "doi": "10.1109/TAC.1978.1101785",
+      "entry_markdown": "B. Friedland, M. F. Hutton. **Theory and Error Analysis of Vibrating-Member Gyroscope**. IEEE Transactions on Automatic Control,1978,23(4):545–556 | P03 PDF第5页参考文献10；其卷号文字存在排版问题，应查正式刊物 | 平均法、误差与轨迹状态。引用已核实，全文推导另核。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "error": "Rejected local text-only match: target title occurred in another document; no source bytes changed"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Theory and error analysis of vibrating-member gyroscope",
+      "crossref_metadata": {
+        "DOI": "10.1109/tac.1978.1101785",
+        "title": [
+          "Theory and error analysis of vibrating-member gyroscope"
+        ],
+        "author": [
+          {
+            "given": "B.",
+            "family": "Friedland",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Hutton",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1978,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "IEEE Transactions on Automatic Control"
+        ],
+        "volume": "23",
+        "issue": "4",
+        "page": "545-556",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/9/24167/01101785.pdf?arnumber=1101785",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P28",
+      "title": "Vibratory gyro analysis by the method of averaging",
+      "doi": null,
+      "entry_markdown": "D. D. Lynch. **Vibratory gyro analysis by the method of averaging**. International Conference on Gyroscopic Technology and Navigation,St. Petersburg,1995 | P05 PDF第4页参考文献1 | 快慢分离和全角慢变量；旧库有题录，本次不升级为全文已得。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "error": "Rejected local text-only match: target title occurred in another document; no source bytes changed"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P29",
+      "title": "Internal Friction in Solids II. General Theory of Thermoelastic Internal Friction",
+      "doi": "10.1103/PhysRev.53.90",
+      "entry_markdown": "C. Zener. **Internal Friction in Solids II. General Theory of Thermoelastic Internal Friction**. Physical Review,1938,53:90 | P05 PDF第4页参考文献3 | 热弹性损耗基础；不代表压电贴片、粘接和电负载损耗已包含。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.1103%2FPhysRev.53.90",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://journals.aps.org/pr/pdf/10.1103/PhysRev.53.90",
+          "error": "HTTP Error 401: Unauthorized"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Internal Friction in Solids II. General Theory of Thermoelastic Internal Friction",
+      "crossref_metadata": {
+        "DOI": "10.1103/physrev.53.90",
+        "title": [
+          "Internal Friction in Solids II. General Theory of Thermoelastic Internal Friction"
+        ],
+        "author": [
+          {
+            "given": "Clarence",
+            "family": "Zener",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1938,
+              1,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Physical Review"
+        ],
+        "volume": "53",
+        "issue": "1",
+        "page": "90-99",
+        "link": [
+          {
+            "URL": "http://link.aps.org/article/10.1103/PhysRev.53.90",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRev.53.90/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P30",
+      "title": "The Dynamics of a Thin Piezoelectric Cylinder Gyroscope",
+      "doi": "10.1243/PIME_PROC_1986_200_128_02",
+      "entry_markdown": "J. S. Burdess. **The Dynamics of a Thin Piezoelectric Cylinder Gyroscope**. Proceedings of the Institution of Mechanical Engineers,1986,200(C4):271–281 | P20出版社参考文献 | 压电旋转壳体的早期动力学；圆柱，需重新推半球。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1243/PIME_PROC_1986_200_128_02",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "The Dynamics of a Thin Piezoelectric Cylinder Gyroscope",
+      "crossref_metadata": {
+        "DOI": "10.1243/pime_proc_1986_200_128_02",
+        "title": [
+          "The Dynamics of a Thin Piezoelectric Cylinder Gyroscope"
+        ],
+        "author": [
+          {
+            "given": "J S",
+            "family": "Burdess",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical Engineering, University of Newcastle upon Tyne"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1986,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the Institution of Mechanical Engineers, Part C: Mechanical Engineering Science"
+        ],
+        "volume": "200",
+        "issue": "4",
+        "page": "271-280",
+        "link": [
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1243/PIME_PROC_1986_200_128_02",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.sagepub.com/doi/pdf/10.1243/PIME_PROC_1986_200_128_02",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P31",
+      "title": "The Theory of a Piezoelectric Disc Gyroscope",
+      "doi": "10.1109/TAES.1986.310776",
+      "entry_markdown": "J. S. Burdess, T. Wren. **The Theory of a Piezoelectric Disc Gyroscope**. IEEE TAES,1986,22(4):410–418. DOI **10.1109/TAES.1986.310776** | P20出版社参考文献及Crossref链接 | 压电陀螺耦合基础；圆盘，作为方法参考。 |",
+      "status": "not_obtained",
+      "attempts": [],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "The Theory of a Piezoelectric Disc Gyroscope",
+      "crossref_metadata": {
+        "DOI": "10.1109/taes.1986.310776",
+        "title": [
+          "The Theory of a Piezoelectric Disc Gyroscope"
+        ],
+        "author": [
+          {
+            "given": "J.S.",
+            "family": "Burdess",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "T.",
+            "family": "Wren",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1986,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "IEEE Transactions on Aerospace and Electronic Systems"
+        ],
+        "volume": "AES-22",
+        "issue": "4",
+        "page": "410-418",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/7/4104218/04104230.pdf?arnumber=4104230",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    },
+    {
+      "id": "P32",
+      "title": "Initial Demonstration of Fused Silica Dual-Shell Gyroscope Using Indirect Method of Piezoelectric Excitation",
+      "doi": "10.1109/LSENS.2023.3307067",
+      "entry_markdown": "D. Wang, N. A. Strnad, A. M. Shkel. **Initial Demonstration of Fused Silica Dual-Shell Gyroscope Using Indirect Method of Piezoelectric Excitation**. IEEE Sensors Letters, 2023, 7(9), 2503004. DOI: **10.1109/LSENS.2023.3307067**. [会议官方摘要](https://epapers2.org/sensors2023/ESR/paper_details.php?paper_id=2093)；[作者报告引文核对入口](https://www.avsconferences.org/ALD2024/Sessions/Schedule/79060) | 官方会议摘要、P06参考文献20及作者报告中的正式题录；本次未通读全文 | 双壳HRG间接压电驱动；电检测方式和全角能力以全文为准。勿与同年P05会议稿误去重。 |",
+      "status": "not_obtained",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/ielam/7782634/10214959/10225642-aam.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/373293113_Initial_Demonstration_of_Fused_Silica_Dual-Shell_Gyroscope_Using_Indirect_Method_of_Piezoelectric_Excitation",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/ielam/7782634/10214959/10225642-aam.pdf",
+          "error": "Not PDF bytes (possibly access or error page)"
+        }
+      ],
+      "reading_status": "not_scientifically_reviewed",
+      "openalex_title": "Initial Demonstration of Fused Silica Dual-Shell Gyroscope Using Indirect Method of Piezoelectric Excitation",
+      "crossref_metadata": {
+        "DOI": "10.1109/lsens.2023.3307067",
+        "title": [
+          "Initial Demonstration of Fused Silica Dual-Shell Gyroscope Using Indirect Method of Piezoelectric Excitation"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7671-0418",
+            "authenticated-orcid": false,
+            "given": "Danmeng",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical, Aerospace Engineering, University of California Irvine, Irvine, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1621-521X",
+            "authenticated-orcid": false,
+            "given": "Nicholas A.",
+            "family": "Strnad",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5517-7709",
+            "authenticated-orcid": false,
+            "given": "Andrei M.",
+            "family": "Shkel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical, Aerospace Engineering, University of California Irvine, Irvine, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "IEEE Sensors Letters"
+        ],
+        "volume": "7",
+        "issue": "9",
+        "page": "1-4",
+        "link": [
+          {
+            "URL": "https://ieeexplore.ieee.org/ielam/7782634/10214959/10225642-aam.pdf",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/7782634/10214959/10225642.pdf?arnumber=10225642",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      "next_action": "Find authorized full text through institution, author repository, or publisher; no access barrier bypass attempted"
+    }
+  ]
+}

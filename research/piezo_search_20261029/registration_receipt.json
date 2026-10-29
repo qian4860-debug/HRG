@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "skill": "C:/Users/11725/.codex/skills/ic-reference-library",
+  "counts": {
+    "downloaded_fulltext": 7,
+    "not_obtained": 23,
+    "existing_fulltext": 2
+  },
+  "unique_obtained_hashes": 9,
+  "skill_manifest_sha256": "409a9b70eb726152c7cd95a01ad02543de967fa95f20dc48bbfeb642bd4fad04",
+  "full_library_index_sha256": "6e7319654f4735cc65b37d62f6147330b94f4adc7f82d1a6bc51dcc4ce03ede2",
+  "full_library_counts": {
+    "directory": 8585,
+    "file": 46377
+  },
+  "index_errors": 0,
+  "checks": [
+    "32 distinct selected records",
+    "9 obtained PDFs have unique verified hashes",
+    "unobtained rows have no target path",
+    "skill route and private path index updated"
+  ],
+  "scientific_reading": "not upgraded by acquisition"
+}
