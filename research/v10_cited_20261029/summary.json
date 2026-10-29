@@ -12,6 +12,13 @@
     "doi": 28
   },
   "collection": "V10核心论文_一级引用_20261029",
-  "status": "planned",
-  "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input"
+  "status": "verified",
+  "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input",
+  "created_items": 87,
+  "existing_memberships_extended": 45,
+  "unique_target_items": 132,
+  "all_source_rows_resolved": true,
+  "existing_metadata_preserved": true,
+  "source_bytes_preserved": true,
+  "total_library_items": 2249
 }
