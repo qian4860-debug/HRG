@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "artifact_type": "project_knowledge_registry",
+  "is_executable_head_profile": false,
+  "updated_on": "2026-10-29",
+  "project": "HRG_WA",
+  "confirmed_facts": {
+    "transduction_principle": {
+      "value": "piezoelectric",
+      "status": "user_confirmed",
+      "source": "User message on 2026-10-29: 我们的原理是压电原理",
+      "measurement_status": "not_a_numeric_measurement"
+    }
+  },
+  "pending_facts": {
+    "actuation_mechanism": null,
+    "sensing_mechanism": null,
+    "piezo_material_and_polarization": null,
+    "electrode_and_patch_layout": null,
+    "pinout_and_polarity": null,
+    "bare_head_or_integrated_frontend": null,
+    "charge_displacement_matrix_C_per_m": null,
+    "force_voltage_matrix_N_per_V": null,
+    "static_capacitance_matrix_F": null,
+    "loss_and_leakage": null,
+    "impedance_or_admittance_sweep": null,
+    "modal_mass_and_normalization": null,
+    "modal_frequencies_Hz": null,
+    "modal_quality_factors": null,
+    "stiffness_and_damping_axes": null,
+    "bryan_factor_and_definition": null,
+    "recommended_and_maximum_amplitude_m": null,
+    "drive_voltage_limits_and_bias_requirements": null,
+    "temperature_dependence": null,
+    "whole_angle_operation_characterization": null
+  },
+  "model_status": {
+    "legacy_capacitive_studies": "historical research fixtures; not a validated physical interface model of this piezoelectric head",
+    "piezoelectric_head_model_implemented": false,
+    "piezoelectric_head_model_validated": false,
+    "legacy_default_numeric_values_are_measured": false,
+    "automatic_profile_or_SPI_update_performed": false
+  },
+  "update_policy": {
+    "unknown_numeric_values": "null, never substitute a legacy assumed value or zero",
+    "new_information": "record source, date, units, reference plane, conditions and uncertainty where available",
+    "historical_evidence": "preserve accepted original bytes and experimental scope",
+    "configuration_boundary": "this registry is not an input accepted by tools/head_config.py; do not pass it as a legacy head profile"
+  },
+  "history": [
+    {
+      "date": "2026-10-29",
+      "change": "Registered user confirmation of piezoelectric principle; drive/sense implementation and all numerical head parameters remain pending"
+    }
+  ]
+}

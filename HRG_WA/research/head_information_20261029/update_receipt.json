@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "scope": "Knowledge update only; no piezoelectric model implementation or new simulation claim",
+  "pass": true,
+  "sha256": {
+    "config/current_head_facts.json": "f2e15c1a385862873b9b2c3b692f39f508e1c0073ef7700c80244b598ecb7c25",
+    "当前表头信息与模型适用边界.md": "10a25bf33047631bf7aba9a190e3e65050a5ca7191835ec98c64c79eaba46244"
+  },
+  "preserved_evidence": [
+    {
+      "artifact": "literature_v7",
+      "dependencies": 217,
+      "unchanged": true
+    },
+    {
+      "artifact": "literature_v8_research",
+      "dependencies": 84,
+      "unchanged": true
+    },
+    {
+      "artifact": "literature_zotero_research",
+      "dependencies": 28,
+      "unchanged": true
+    },
+    {
+      "artifact": "identifiability_v9",
+      "dependencies": 80,
+      "unchanged": true
+    },
+    {
+      "artifact": "research/complete_book_20261027/manifest.json",
+      "dependencies": 13,
+      "unchanged": true
+    },
+    {
+      "artifact": "research/verification_book_v2_20261027/manifest.json",
+      "dependencies": 25,
+      "unchanged": true
+    }
+  ]
+}
