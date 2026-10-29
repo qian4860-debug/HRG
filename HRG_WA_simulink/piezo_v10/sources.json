@@ -1,0 +1,77 @@
+[
+  {
+    "title": "The control algorithm of whole angle mode for HRG based on the vector composition",
+    "doi": "10.1186/s13638-021-01913-7",
+    "path": "C:\\Users\\11725\\Zotero\\storage\\2F6FA5W9\\Zhao_2021_The control algorithm of whole angle mode for HRG based on the vector.pdf",
+    "sha256": "e290b0614b3cfc54fbd247f1e142c012390f2ec610135588530fcd8dbf99d728",
+    "text_pages_reviewed": [
+      1,
+      2,
+      3
+    ],
+    "visual_pages_reviewed": [],
+    "boundary": "Specified pages only, not whole-paper or complete-algorithm reproduction"
+  },
+  {
+    "title": "Identification and Compensation Method of Unbalanced Error in Driving Chain for Rate-Integrating Hemispherical Resonator Gyro",
+    "doi": "10.3390/s24134328",
+    "path": "C:\\Users\\11725\\Zotero\\storage\\33LLJK89\\Sun_2024_Identification and Compensation Method of Unbalanced Error in Driving Chain for.pdf",
+    "sha256": "319f5be698131aee80d4e8bdbe9350d1901e670b6ab0b2d7f8a55bb641af1c52",
+    "text_pages_reviewed": [
+      1,
+      14
+    ],
+    "visual_pages_reviewed": [
+      14
+    ],
+    "boundary": "Specified pages only, not whole-paper or complete-algorithm reproduction"
+  },
+  {
+    "title": "Identification and correction of phase delay errors for hemispherical resonator gyroscopes",
+    "doi": "10.1038/s41598-025-86288-1",
+    "path": "C:\\Users\\11725\\Zotero\\storage\\QCCBYZZ5\\Ning_2025_Identification and correction of phase delay errors for hemispherical resonator.pdf",
+    "sha256": "471ad95582c9daa681d21cdf81b9d8a70dec808edfe0753bf8c43bab7aed7231",
+    "text_pages_reviewed": [
+      1,
+      6
+    ],
+    "visual_pages_reviewed": [
+      6
+    ],
+    "boundary": "Specified pages only, not whole-paper or complete-algorithm reproduction"
+  },
+  {
+    "title": "High sensitivity rate-integrating hemispherical resonator gyroscope with dead area compensation for damping asymmetry",
+    "doi": null,
+    "path": "C:\\Users\\11725\\Zotero\\storage\\UYU9ZQYT\\Zhao_2021_High sensitivity rate-integrating hemispherical resonator gyroscope with dead.pdf",
+    "sha256": "8aae4690a0b6851083541cd73f669fe7a9ef162fc16e7ef95dc1aae0dc9ec97c",
+    "text_pages_reviewed": [
+      1,
+      4
+    ],
+    "visual_pages_reviewed": [],
+    "boundary": "Specified pages only, not whole-paper or complete-algorithm reproduction"
+  },
+  {
+    "title": "A Novel Closed-Loop Single-Channel Time Division Multiplexing Detection Circuit for Hemispherical Resonator Gyroscope",
+    "doi": "10.3390/mi16030273",
+    "path": "C:\\Users\\11725\\Zotero\\storage\\VGZ48WAL\\Wang_2025_A Novel Closed-Loop Single-Channel Time Division Multiplexing Detection Circuit.pdf",
+    "sha256": "5e75627d9857b2895d0d0fe7f8145fedbf519f893f75ee67f285a6998cf900ad",
+    "text_pages_reviewed": [
+      1
+    ],
+    "visual_pages_reviewed": [],
+    "boundary": "Specified pages only, not whole-paper or complete-algorithm reproduction"
+  },
+  {
+    "title": "Influence Mechanism of Quantization Error on the Key Parameters of the Whole-Angle Hemisphere Resonator Gyroscope",
+    "doi": "10.3390/mi17010143",
+    "path": "C:\\Users\\11725\\Zotero\\storage\\3WWC87NP\\Yan_2026_Influence Mechanism of Quantization Error on the Key Parameters of the.pdf",
+    "sha256": "6048bd5fcfbdef566ef48cc505ca6bd5a113fcf8be12ff286cbffed3de830bd7",
+    "text_pages_reviewed": [
+      1
+    ],
+    "visual_pages_reviewed": [],
+    "boundary": "Specified pages only, not whole-paper or complete-algorithm reproduction"
+  }
+]
