@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "source_sha256": "bb1277441317d6f3882d90abf3635d2e4c2120070cac0ba104961c41dfbba8a0",
+  "source_records": 564,
+  "missing_titles": 0,
+  "new_items": 266,
+  "reused_existing_items": 111,
+  "duplicate_source_rows": 187,
+  "reasons": {
+    "title_year_or_url": 237,
+    "new": 266,
+    "doi": 61
+  },
+  "collection": "压电全角_跨全文一级引文_20261029",
+  "status": "verified",
+  "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input",
+  "created_items": 266,
+  "existing_memberships_extended": 111,
+  "unique_target_items": 377,
+  "all_source_rows_resolved": true,
+  "existing_metadata_preserved": true,
+  "source_bytes_preserved": true,
+  "total_library_items": 2515
+}
