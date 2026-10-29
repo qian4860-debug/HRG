@@ -1,0 +1,33 @@
+{
+  "original_sha256": "165bb0545bd0f8a4e053205570787b525ee4b4ea0ea9deb8a3f7cf4373365928",
+  "source_rows": 808,
+  "unique_source_ids": 808,
+  "library": "D:\\学习资料\\资料\\全角陀螺\\Scholar多关键词_20261029_151910",
+  "scope": "Bibliographic JSON and URLs only; not PDF full-text acquisition",
+  "zotero": {
+    "date": "2026-10-29",
+    "source_sha256": "c3b5d3b11c041233f80f1810ba6a1011857c742c4812566076280119f860e864",
+    "source_records": 808,
+    "missing_titles": 14,
+    "new_items": 198,
+    "reused_existing_items": 607,
+    "duplicate_source_rows": 3,
+    "reasons": {
+      "title_year_or_url": 208,
+      "source_identity": 401,
+      "doi": 1,
+      "new": 196,
+      "new_incomplete_title": 2
+    },
+    "collection": "Scholar多关键词_20261029_151910",
+    "status": "verified",
+    "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input",
+    "created_items": 198,
+    "existing_memberships_extended": 0,
+    "unique_target_items": 805,
+    "all_source_rows_resolved": true,
+    "existing_metadata_preserved": true,
+    "source_bytes_preserved": true,
+    "total_library_items": 2162
+  }
+}
