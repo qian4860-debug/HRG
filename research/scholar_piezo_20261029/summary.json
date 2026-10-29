@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "source_sha256": "4b1ee00a0d7c269586b37f709f7bcfc2162cd106607ca289514c02c36e25e05c",
+  "source_records": 203,
+  "missing_titles": 5,
+  "new_items": 186,
+  "reused_existing_items": 16,
+  "duplicate_source_rows": 1,
+  "reasons": {
+    "new": 181,
+    "title_year_or_url": 16,
+    "new_incomplete_title": 5,
+    "doi": 1
+  },
+  "collection": "Scholar压电半球_2026-10-29_203条",
+  "status": "verified",
+  "boundary": "Bibliographic entries and supplied URLs only; no PDF attachments in the input",
+  "created_items": 186,
+  "existing_memberships_extended": 16,
+  "unique_target_items": 202,
+  "all_source_rows_resolved": true,
+  "existing_metadata_preserved": true,
+  "source_bytes_preserved": true,
+  "total_library_items": 1327
+}
