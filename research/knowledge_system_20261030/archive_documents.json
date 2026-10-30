@@ -1,0 +1,750 @@
+[
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/A CMOS op amp with fully-differential gain-enhancement.pdf"
+    ],
+    "sha256": "2701a62a91238253584156e20494186387e51ecdc3956189736b20f8cbb7d27a",
+    "bytes": 221693,
+    "pages": 3,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/2701a62a91238253_A CMOS op amp with fully-differential gain-enhancement.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/A high speed fully differential CMOS opamp.pdf"
+    ],
+    "sha256": "aabf4337fdb3b96ddc606e03d64ca62b68513eb49aacf17d164985ba0ac53c9b",
+    "bytes": 297440,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/aabf4337fdb3b96d_A high speed fully differential CMOS opamp.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/A low noise, low residual offset, chopped amplifier for mixed level applications.pdf"
+    ],
+    "sha256": "ab19868eea2492c85bca91ef7ceffb6aec86f8999998ebcaa2f5ec4b8afc6a62",
+    "bytes": 384581,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/ab19868eea2492c8_A low noise, low residual offset, chopped amplifier for mixed level applications.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/Am improved tail current source for low voltage applications.pdf"
+    ],
+    "sha256": "44abfa8d06098b0f9025f81b38010069d83cdd00adbdfc7698305b4c808a5b63",
+    "bytes": 254986,
+    "pages": 8,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/44abfa8d06098b0f_Am improved tail current source for low voltage applications.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/An improved biasing circuit for high input CMR op amps.pdf"
+    ],
+    "sha256": "af2c20378c77bae7c57fe236c11a256af08d39737353727e224096ed0ed75bf5",
+    "bytes": 283997,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/af2c20378c77bae7_An improved biasing circuit for high input CMR op amps.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/An improved current source for low voltage applications.pdf"
+    ],
+    "sha256": "6931538d6caf228d2b0e7324d3dd1537cbe6011b59c2ddad7dbef37dbfc526de",
+    "bytes": 275157,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/6931538d6caf228d_An improved current source for low voltage applications.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/Folded-cascode CMOS operational amplifier with slew rate enhancement circuit.pdf"
+    ],
+    "sha256": "bd83e2255f428a48996545d71383d1c5642aca5c8b69332d4e47fbaf678c5e2f",
+    "bytes": 314679,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/bd83e2255f428a48_Folded-cascode CMOS operational amplifier with slew rate enhancement circuit.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/fully differential amplifier.pdf"
+    ],
+    "sha256": "3974c1733141301f39cb6b81c32707515cf884d054abf4902b8bea75aff1b3c1",
+    "bytes": 1809740,
+    "pages": 13,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 28,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/3974c1733141301f_fully differential amplifier.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Fully differential basic building blocks based on fully differential difference amplifiers with unity-gain difference feedback.pdf"
+    ],
+    "sha256": "ced4b2b5e08dadab5046427d41e6f94f26a7d30fdbfc62aa9598ddfb1a3220e3",
+    "bytes": 251072,
+    "pages": 3,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/ced4b2b5e08dadab_Fully differential basic building blocks based on fully differential difference amplifiers with unity-gain difference feedback.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Fully differential CMOS programmable analogue sensor interface based on fully differential multiple differences amplifiers.pdf"
+    ],
+    "sha256": "51454a30230ec76d9e1cdfd2d00cf612af4d72535c2e3a07b94cc7be1590362c",
+    "bytes": 315828,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/51454a30230ec76d_Fully differential CMOS programmable analogue sensor interface based on fully differential multiple differences amplifiers.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Fully differential variable gain instrumentation amplifier based on a fully differential DDA topology.pdf"
+    ],
+    "sha256": "c0dd90306f0616b79a9390961d7a88c0fb8bf497edf570308a497ffc5cf513ee",
+    "bytes": 330340,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/c0dd90306f0616b7_Fully differential variable gain instrumentation amplifier based on a fully differential DDA topology.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Low voltage fully differential opamp with high gain wide bandwidth suitable for switched capacitor applications.pdf"
+    ],
+    "sha256": "28a4141ff716f481516c36d50e23b4f4712f3859f953e3cf3adf5685f0b15af4",
+    "bytes": 319562,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/28a4141ff716f481_Low voltage fully differential opamp with high gain wide bandwidth suitable for switched capacitor applications.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/《运放设计宝典》之专题五：共模反馈电路设计与仿真/A comparative study of two SC-CMFB networks used in fully differential OTA.pdf"
+    ],
+    "sha256": "a91a1eab77b9633c098d005a3ec276bd0a67e0992dd3adf487b6bc9f423eb0e4",
+    "bytes": 320853,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/a91a1eab77b9633c_A comparative study of two SC-CMFB networks used in fully differential OTA.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/《运放设计宝典》之专题五：共模反馈电路设计与仿真/Feedback vs. feedforward common-mode control  a comparative study.pdf"
+    ],
+    "sha256": "292e2e7b7af06e98d2220edbb5b60d61cb29d032d64970011ce4d71c54f2d503",
+    "bytes": 278547,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/292e2e7b7af06e98_Feedback vs. feedforward common-mode control  a comparative study.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/《运放设计宝典》之专题五：共模反馈电路设计与仿真/Two SC-CMFB networks used in fully differential OTA  measurements and improvements.pdf"
+    ],
+    "sha256": "c54aa816ccfb35b7b4473c272c11447fa5e58fb413d9e8a21cbeee9eb3c4dbcb",
+    "bytes": 637281,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/c54aa816ccfb35b7_Two SC-CMFB networks used in fully differential OTA  measurements and improvements.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/00340424.pdf"
+    ],
+    "sha256": "4499c7ccd3743864784c8eac82c43a30e3d0f8ab04a97e993a37fd1f3f3485c3",
+    "bytes": 819124,
+    "pages": 9,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/4499c7ccd3743864_00340424.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/00477183.pdf"
+    ],
+    "sha256": "3230ce6aa2e95a3ad64e2305d583be7f3a5926b5ce9409d7073dd8118666f946",
+    "bytes": 1043454,
+    "pages": 12,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/3230ce6aa2e95a3a_00477183.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/00508870.pdf"
+    ],
+    "sha256": "00f355fad61da42287ab8aa4a5c3c69ee76a2de8c94d29ce8ca57f27ecc2b4a2",
+    "bytes": 962442,
+    "pages": 29,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/00f355fad61da422_00508870.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/a high bandwidth constant gm and slew-rate rail-to-rail CMOS input circuit and its application to analog cells for low voltage VLSI systems.pdf"
+    ],
+    "sha256": "6eee9be679d7895b9eaedc503818bd55c000d9f9649be7697cda9512626fdfeb",
+    "bytes": 284856,
+    "pages": 12,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/6eee9be679d7895b_a high bandwidth constant gm and slew-rate rail-to-rail CMOS input circuit and its application to analog cells for low voltage VLSI systems.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/A high speed fully differential CMOS opamp.pdf"
+    ],
+    "sha256": "aabf4337fdb3b96ddc606e03d64ca62b68513eb49aacf17d164985ba0ac53c9b",
+    "bytes": 297440,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/aabf4337fdb3b96d_A high speed fully differential CMOS opamp.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/DESIGN OF A FULLY DIFFERENTIAL HIGH-SPEED HIGH-PRECISION AMPLIFIER.pdf"
+    ],
+    "sha256": "83ce5cad1acf479aaeac0e81b2fcda7133f27e0032547b327f1716118ea4182d",
+    "bytes": 106007,
+    "pages": 8,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1029,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/83ce5cad1acf479a_DESIGN OF A FULLY DIFFERENTIAL HIGH-SPEED HIGH-PRECISION AMPLIFIER.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/Design of high performance two stage CMOS cascode op-amps with stable biasing.pdf"
+    ],
+    "sha256": "1a5e5a85afa8a58be46e29281ba9f9c3bfbc98bc70476ecab6d1018f3d9b94ff",
+    "bytes": 326207,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/1a5e5a85afa8a58b_Design of high performance two stage CMOS cascode op-amps with stable biasing.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/HIGH-SPEED FULLY DIFFERENTIAL CONTINUOUSLY VARIABLE GAIN AMPLIFIER.pdf"
+    ],
+    "sha256": "ac6cb1a11ed0842c770c0649bc77fbcbafb9d49881b4ca01eef3a9f182a266fa",
+    "bytes": 188851,
+    "pages": 18,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/ac6cb1a11ed0842c_HIGH-SPEED FULLY DIFFERENTIAL CONTINUOUSLY VARIABLE GAIN AMPLIFIER.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/On the design of high-speed high-resolution track and holds.pdf"
+    ],
+    "sha256": "1e8f37eda85eccab2741dfec433ced6d7f1be1e096262c332f49f37525c682f6",
+    "bytes": 309298,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/1e8f37eda85eccab_On the design of high-speed high-resolution track and holds.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/eetop.cn_闭环负反馈运放系统 (1).rar"
+    ],
+    "bytes": 2858910,
+    "status": "not_opened_.rar",
+    "machine_first_page_characters": 0
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/a cmos bandgap reference circuit.pdf"
+    ],
+    "sha256": "4a26cbcaf2d44213d1c895b28fcc1ae75b5d331dc50d3b93a33ca76feabc2d8d",
+    "bytes": 209103,
+    "pages": 3,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 0,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/4a26cbcaf2d44213_a cmos bandgap reference circuit.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/a low voltage cmos bandgap reference.pdf"
+    ],
+    "sha256": "1f56d4b5f4bf3291bcd3e2d76ab7234b8809cfbb4717717dff140e7005db6adc",
+    "bytes": 894565,
+    "pages": 5,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/1f56d4b5f4bf3291_a low voltage cmos bandgap reference.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/a precision reference voltage source.pdf"
+    ],
+    "sha256": "9dfcf90227d94f5a4b3623689b7044a0cd70b5e288368e459a7b0e6947dc7f0d",
+    "bytes": 487560,
+    "pages": 5,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/9dfcf90227d94f5a_a precision reference voltage source.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+      "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/bandgap-zkom.pdf"
+    ],
+    "sha256": "3732405e86ee245d8de951913cf707355b7e145a8a17efd6da5a9a162bd40071",
+    "bytes": 126565,
+    "pages": 12,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/3732405e86ee245d_bandgap-zkom.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/1.PDF"
+    ],
+    "sha256": "fd423027552710114a7ac4ba6360377aab25ab4e88c155e81e4d2a58b20f1b8b",
+    "bytes": 412241,
+    "pages": 14,
+    "status": "selected_pages_read",
+    "machine_first_page_characters": 1346,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/fd42302755271011_1.PDF",
+    "pages_read": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/2.pdf"
+    ],
+    "sha256": "16f39c8edfda2bafe662040fd5cf4ddb6b772dddca1ea02547a15990629bcbfe",
+    "bytes": 568904,
+    "pages": 14,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1392,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/16f39c8edfda2baf_2.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/2006JUL18_HA_ACC_TS_2.pdf"
+    ],
+    "sha256": "aad2928662d45b72c2a698bb9bcce8a4a2fffcb00763604c06fe0a565d84d8bf",
+    "bytes": 659487,
+    "pages": 24,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1172,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/aad2928662d45b72_2006JUL18_HA_ACC_TS_2.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/3.pdf"
+    ],
+    "sha256": "639fef98a1bc0eaa6898a65d1a1e00a3fc40d8d015a89ae837f7085e7df84330",
+    "bytes": 470274,
+    "pages": 9,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1005,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/639fef98a1bc0eaa_3.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/4.pdf"
+    ],
+    "sha256": "5462aad40a7bf89d8ba7867c2e8b1f68f44914d32ff6c86b8117a652e4b2bae5",
+    "bytes": 593505,
+    "pages": 13,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1392,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/5462aad40a7bf89d_4.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/5.pdf"
+    ],
+    "sha256": "85ad8e6ddedbd98e3b84f1d0a9736b85462e18c9e055b5b3916fdb0e00d4352b",
+    "bytes": 707507,
+    "pages": 20,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1192,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/85ad8e6ddedbd98e_5.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/6.pdf"
+    ],
+    "sha256": "ebe3a8539c713a06ed27e3ddb6eb785c520f08b6f6b7bd5f5d5c21e0b5611f3b",
+    "bytes": 551322,
+    "pages": 22,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 822,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/ebe3a8539c713a06_6.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____运放稳定性分析____by Tim Green/8.pdf"
+    ],
+    "sha256": "34f390e3f3e3dd58dee236de5f4880fc66a7076403cb8cfeaac7c2e42ca87e62",
+    "bytes": 865372,
+    "pages": 20,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/34f390e3f3e3dd58_8.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____零极点/3____波特图是稳定的充分条件并非必要条件.pdf"
+    ],
+    "sha256": "7ba5553d977d5cb971d1082bdba9270e839bba72b5cff5db7dd20c316af8ebd2",
+    "bytes": 509666,
+    "pages": 4,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/7ba5553d977d5cb9_3____波特图是稳定的充分条件并非必要条件.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____零极点/3好____高阶系统零极点分析.ppt"
+    ],
+    "bytes": 500736,
+    "status": "not_opened_.ppt",
+    "machine_first_page_characters": 0
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____零极点/PZ & filter.pdf"
+    ],
+    "sha256": "2a48d39194e4e5798a392e37b377be11db64c9378fe0545571c53d258920c8eb",
+    "bytes": 414622,
+    "pages": 13,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 642,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/2a48d39194e4e579_PZ & filter.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____20110817____零极点/零极点对电路的影响.doc"
+    ],
+    "bytes": 971264,
+    "status": "not_opened_.doc",
+    "machine_first_page_characters": 0
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "1____CMOS运放性能参数仿真规范.pdf"
+    ],
+    "sha256": "deb5536034b97dd8240e6893f6a9b6ec536d94850f5fc9e73f6dbe078eb37c12",
+    "bytes": 2768627,
+    "pages": 22,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 45,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/deb5536034b97dd8_1____CMOS运放性能参数仿真规范.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(1)引言与统计数据评论.pdf"
+    ],
+    "sha256": "55d16a2eefedecd8eb6fefa6b636e7c0a4af6b3793423ca59c47a3dc8bf5c5da",
+    "bytes": 446068,
+    "pages": 11,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 709,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/55d16a2eefedecd8_(1)引言与统计数据评论.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(2)运算放大器噪声介绍.pdf"
+    ],
+    "sha256": "da33f3c8ed5a7d19db390b019f547e41749d035bda474b453ad6e70407e0a1b4",
+    "bytes": 486532,
+    "pages": 9,
+    "status": "selected_pages_read",
+    "machine_first_page_characters": 671,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/da33f3c8ed5a7d19_(2)运算放大器噪声介绍.pdf",
+    "pages_read": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(3)电阻噪声与计算示例.pdf"
+    ],
+    "sha256": "f13efa113a7ba1446fcfda48825c19c2d6dd2540bcf3ae9dd3337c222ea7e0fb",
+    "bytes": 639734,
+    "pages": 14,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 483,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/f13efa113a7ba144_(3)电阻噪声与计算示例.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(4)SPIC 噪声分析介绍.pdf"
+    ],
+    "sha256": "f26cd3fdf2b61a451c3c29b1abd0fa7c558a5a556402d293ef8e5fd1190d8e3f",
+    "bytes": 375959,
+    "pages": null,
+    "status": "parse_failed_missing_EOF",
+    "machine_first_page_characters": 14,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/f26cd3fdf2b61a45_(4)SPIC 噪声分析介绍.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(5)噪声测量简介.pdf"
+    ],
+    "sha256": "9616d92be3d6ec7956184b7cc20bd81a06528777c72883cc661d60132f7db906",
+    "bytes": 1799707,
+    "pages": 13,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 977,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/9616d92be3d6ec79_(5)噪声测量简介.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(6)噪声测量实例.pdf"
+    ],
+    "sha256": "84486e895683fedb84f00b888c377f9e757332f916f3c38dad82ca802e2852e9",
+    "bytes": 812731,
+    "pages": 13,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 763,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/84486e895683fedb_(6)噪声测量实例.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(7)运算放大器内部噪声.PDF"
+    ],
+    "sha256": "20a0648022c8e5a9018ef5a71e6b098a59f7bd5d0a0b089e408c33b5e88b048c",
+    "bytes": 369240,
+    "pages": 15,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 810,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/20a0648022c8e5a9_(7)运算放大器内部噪声.PDF"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+      "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(8)爆米花噪声(二).pdf"
+    ],
+    "sha256": "d219b0fcbafcdcd0cb4d701d6c0e6ebfa6b04040bd830fc28f12a80a7b5b2ed0",
+    "bytes": 628747,
+    "pages": 9,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 635,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/d219b0fcbafcdcd0_(8)爆米花噪声(二).pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op3.zip",
+      "详细运放设计流程___英文.pdf"
+    ],
+    "sha256": "b05183d0fd03a7efa1c69a7cd2f957424e35d71ed6513a8d85147891b29dcfbe",
+    "bytes": 1212123,
+    "pages": 62,
+    "status": "first_page_read_identity_unconfirmed",
+    "machine_first_page_characters": 1039,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/b05183d0fd03a7ef_详细运放设计流程___英文.pdf",
+    "pages_read": [
+      1
+    ]
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op3.zip",
+      "伯克利OP.pdf"
+    ],
+    "sha256": "b085047d3992425754cb4a30218da9415f61a018cdb0762e89a183614eede074",
+    "bytes": 2531864,
+    "pages": 18,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/b085047d39924257_伯克利OP.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op4.zip",
+      "Berkeley的一篇用于ADC的全差分、510MHz带宽的OTA项目设计.pdf"
+    ],
+    "sha256": "09d1a24f85182c8ef90abae4f4e7994eed37fd7ada40a864f26abefc7c2ddb69",
+    "bytes": 2531864,
+    "pages": 18,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/09d1a24f85182c8e_Berkeley的一篇用于ADC的全差分、510MHz带宽的OTA项目设计.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op4.zip",
+      "CMRR和PSRR推算过程.pdf"
+    ],
+    "sha256": "e407e75b751db6ebcb73ef97615245f331fd061583fd137ff5a9c5c2cc6b8b15",
+    "bytes": 163032,
+    "pages": 11,
+    "status": "first_page_read_identity_unconfirmed",
+    "machine_first_page_characters": 367,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/e407e75b751db6eb_CMRR和PSRR推算过程.pdf",
+    "pages_read": [
+      1
+    ]
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op4.zip",
+      "DiffAmp+CMFB.ppt"
+    ],
+    "bytes": 731136,
+    "status": "not_opened_.ppt",
+    "machine_first_page_characters": 0
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op4.zip",
+      "eetop.cn_CMOS Amp 设计研究报告.pdf"
+    ],
+    "sha256": "24efc705c3617af9816bf25e566a1c8819bea4b4c9b58f2e536a9b382ded40c8",
+    "bytes": 341562,
+    "pages": 6,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 1800,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/24efc705c3617af9_eetop.cn_CMOS Amp 设计研究报告.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op4.zip",
+      "eetop.cn_模拟电路一日通（Ti的模拟电路应用基础资料）.pdf"
+    ],
+    "sha256": "336f1a2f08c58e3886caee6bbe57fd633051b6af7d8d63af346fc450b86ecc3f",
+    "bytes": 2632302,
+    "pages": 254,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 246,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/336f1a2f08c58e38_eetop.cn_模拟电路一日通（Ti的模拟电路应用基础资料）.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op2.zip",
+      "1____CMOS运放性能参数仿真规范.pdf"
+    ],
+    "sha256": "deb5536034b97dd8240e6893f6a9b6ec536d94850f5fc9e73f6dbe078eb37c12",
+    "bytes": 2768627,
+    "pages": 22,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 45,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/deb5536034b97dd8_1____CMOS运放性能参数仿真规范.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op2.zip",
+      "1____eetop.cn_复旦大学模拟电路二级运放实例.pdf"
+    ],
+    "sha256": "587fcfecafbd1533663f07b5850b7b8712ecfcd51d3f2fc50bd76a7574956f44",
+    "bytes": 1565906,
+    "pages": 89,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 158,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/587fcfecafbd1533_1____eetop.cn_复旦大学模拟电路二级运放实例.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op2.zip",
+      "1____eetop.cn_跨导运算放大器设计实例.pdf"
+    ],
+    "sha256": "1969ad5651dad4b4d0e42abf3230e8b1cc45f993574481aa51dca327719db637",
+    "bytes": 332763,
+    "pages": 26,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 40,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/1969ad5651dad4b4_1____eetop.cn_跨导运算放大器设计实例.pdf"
+  },
+  {
+    "archive_chain": [
+      "C:/Users/11725/Downloads/eetop.cn_234.zip",
+      "op2.zip",
+      "1____rail to rail 运放.pdf"
+    ],
+    "sha256": "76a2c97808e2269344e068e6c0029ca8e49f411ad9e344c8156340baf5dddb9d",
+    "bytes": 347209,
+    "pages": 22,
+    "status": "machine_first_page_only",
+    "machine_first_page_characters": 947,
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/PDF/76a2c97808e22693_1____rail to rail 运放.pdf"
+  }
+]

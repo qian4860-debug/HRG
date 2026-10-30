@@ -36,13 +36,12 @@ def main():
             mapping.append(dict(source={'R':'ragot2011','J':'jeanroy2014','Z':'rozelle2009'}[kind],original_equation=n if kind!='Z' else None,
                                 author_numbered=kind!='Z',book_node=f'{kind}{n:02}',pdf_page=page,chapter=p.relative_to(ROOT).as_posix(),heading=s[m.end():].lstrip().splitlines()[0]))
     (HERE/'equation_map.json').write_text(json.dumps(mapping,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
-    cache=ROOT/'HRG_WA_simulink/layered/_work/classics_addendum_20261030'
-    sources=[]
-    for key,count,visual in [('ragot2011',10,list(range(1,11))),('jeanroy2014',8,[1,2,3,4,5,6,7,8]),('rozelle2009',29,[14,16,19,20,21])]:
-        item=json.loads((cache/f'{key}.json').read_text(encoding='utf-8'))
-        sources.append(dict(id=key,path=item['path'],sha256=sha(Path(item['path'])),pdf_pages=count,text_pages_reviewed=list(range(1,count+1)),visual_pages_reviewed=visual,
-                            boundary='Full text read; formula-bearing pages and stated technical figures checked visually; independent derivations distinguished'))
-    (HERE/'sources.json').write_text(json.dumps(dict(date='2026-10-30',sources=sources,ragot_missing_printed_numbers=[32,33,34],rozelle_has_numbered_equations=False),ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+    # Reading evidence is a tracked input. A clean checkout does not need the
+    # ignored extraction/render cache to reconstruct the book or equation map.
+    ledger=json.loads((HERE/'sources.json').read_text(encoding='utf-8'))
+    assert len(ledger['sources'])==3
+    for item in ledger['sources']:
+        if Path(item['path']).exists():assert sha(Path(item['path']))==item['sha256']
     prior=json.loads((ROOT/'research/classics_20261030/manifest.json').read_text(encoding='utf-8'))
     preserved=dict(prior['files']);preserved.update(prior['preserved_previous_files'])
     files=chapters+[p for p in HERE.iterdir() if p.is_file() and p.name!='manifest.json' and p.suffix in {'.md','.py','.m','.csv','.json'}]+[BOOK]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "C01",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/01_结构到机电端口.md",
+    "heading": "### C01：先把连续结构的质量和刚度积分成两个数"
+  },
+  {
+    "id": "C02",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/01_结构到机电端口.md",
+    "heading": "### C02：由同一个能量函数推出压电驱动和检测"
+  },
+  {
+    "id": "C03",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/01_结构到机电端口.md",
+    "heading": "### C03：端口电容和负载怎样反过来改变表头"
+  },
+  {
+    "id": "C04",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/02_检测电路与噪声.md",
+    "heading": "### C04：先不用“虚地”，精确写出电荷放大器"
+  },
+  {
+    "id": "C05",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/02_检测电路与噪声.md",
+    "heading": "### C05：噪声增益、GBW和相位误差从哪里来"
+  },
+  {
+    "id": "C06",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/02_检测电路与噪声.md",
+    "heading": "### C06：把每个噪声源放在正确位置，再换算到角度"
+  },
+  {
+    "id": "C07",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/02_检测电路与噪声.md",
+    "heading": "### C07：从输入噪声反推gm、偏置与器件尺寸"
+  },
+  {
+    "id": "C08",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/03_采样与数据转换.md",
+    "heading": "### C08：电荷守恒不是“任何电容的电荷都不变”"
+  },
+  {
+    "id": "C09",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/03_采样与数据转换.md",
+    "heading": "### C09：建立时间与kT/C必须一起满足"
+  },
+  {
+    "id": "C10",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/03_采样与数据转换.md",
+    "heading": "### C10：量化噪声、动态范围与ADC位数的推导"
+  },
+  {
+    "id": "C11",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/03_采样与数据转换.md",
+    "heading": "### C11：比较器、SAR与ΔΣ的共同电路基础"
+  },
+  {
+    "id": "C12",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/04_驱动参考与电路实现.md",
+    "heading": "### C12：DAC输出是波形，不只是一个实数增益"
+  },
+  {
+    "id": "C13",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/04_驱动参考与电路实现.md",
+    "heading": "### C13：压电驱动器同时要满足力、电流、相位和恢复"
+  },
+  {
+    "id": "C14",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/04_驱动参考与电路实现.md",
+    "heading": "### C14：参考、电源、共模、失配与版图不是最后才处理的细节"
+  },
+  {
+    "id": "C15",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/05_算法辨识与验证.md",
+    "heading": "### C15：从四个I/Q量到能量、方向与三个维持环"
+  },
+  {
+    "id": "C16",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/05_算法辨识与验证.md",
+    "heading": "### C16：没有厂家参数时，先识别可观测组合"
+  },
+  {
+    "id": "C17",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/05_算法辨识与验证.md",
+    "heading": "### C17：模型层级、scoreboard和外部真值各负责什么"
+  },
+  {
+    "id": "C18",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/05_算法辨识与验证.md",
+    "heading": "### C18：把所有模块连接成一个设计方程，而不是分立指标表"
+  },
+  {
+    "id": "C19",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/06_运放专题增补.md",
+    "heading": "### C19：从两个节点KCL推Miller补偿，保留右半平面零点"
+  },
+  {
+    "id": "C20",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/06_运放专题增补.md",
+    "heading": "### C20：失调消除、斩波、CDS和平均为什么不等价"
+  },
+  {
+    "id": "C21",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/06_运放专题增补.md",
+    "heading": "### C21：运放设计报告应如何接入本工程验收"
+  },
+  {
+    "id": "C22",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/07_模拟讲义核查与时钟滤波.md",
+    "heading": "### C22：用基本代数审查讲义，再推相位环"
+  },
+  {
+    "id": "C23",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/07_模拟讲义核查与时钟滤波.md",
+    "heading": "### C23：抗混叠、混频和抽取的三个滤波任务"
+  },
+  {
+    "id": "C24",
+    "author_numbered": false,
+    "chapter": "research/knowledge_system_20261030/chapters/07_模拟讲义核查与时钟滤波.md",
+    "heading": "### C24：电源和热量最终怎样回到角度误差"
+  }
+]

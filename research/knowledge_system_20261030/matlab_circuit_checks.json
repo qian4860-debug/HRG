@@ -1,0 +1,15 @@
+{
+  "matlab": "25.1.0.2943329 (R2025a)",
+  "total": 8,
+  "checks": {
+    "charge_MNA": true,
+    "miller_MNA": true,
+    "thermal_integral": true,
+    "settling": true,
+    "quantization": true,
+    "lecture_counterexample": true,
+    "cic_delay": true,
+    "correlated_average": true
+  },
+  "boundary": "Synthetic circuit mathematics, not transistor or hardware simulation"
+}

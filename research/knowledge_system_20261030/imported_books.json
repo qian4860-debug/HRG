@@ -1,0 +1,26 @@
+[
+  {
+    "id": "razavi_cmos",
+    "original_path": "C:/Users/11725/xwechat_files/wxid_qvgyt57csh8y22_a935/msg/file/2026-10/Design of Analog CMOS Integrated Circuits 2e by Behzad Razavi.pdf",
+    "library_path": "D:/学习资料/面试笔试/模拟IC笔试面试面试题全集（部分有答案）/附赠资料/题库资料包/Design of Analog CMOS Integrated Circuits 2e by Behzad Razavi 拉扎维 英文版.pdf",
+    "sha256": "74493841697435c7fd0ac492d3680a230f896e0de62342f5eeb44114354810b3",
+    "bytes": 9731217,
+    "status": "existing_identical_bytes"
+  },
+  {
+    "id": "razavi_converters",
+    "original_path": "C:/Users/11725/xwechat_files/wxid_qvgyt57csh8y22_a935/msg/file/2026-10/Razavi_Analysis and Design of Data Converters(1).pdf",
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/Razavi_Analysis and Design of Data Converters(1).pdf",
+    "sha256": "5b12e8c5f088935427caf554a2532d097f3cf7659cf805718a2dc0892d35efc6",
+    "bytes": 7354223,
+    "status": "copied_to_library"
+  },
+  {
+    "id": "sansen_bilingual",
+    "original_path": "C:/Users/11725/xwechat_files/wxid_qvgyt57csh8y22_a935/msg/file/2026-10/Analog Design Essentials (Willy Sansen)双语对照by deepseekv4flash.pdf",
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/Analog Design Essentials (Willy Sansen)双语对照by deepseekv4flash.pdf",
+    "sha256": "a3843793140899bcbeba406a921c7fa463c17238830411ea58044892367000f0",
+    "bytes": 103267780,
+    "status": "copied_to_library"
+  }
+]

@@ -1,0 +1,54 @@
+id,formula,operands,value,unit
+pi,pi,{},3.141592653589793,1
+kB,SI exact,{},1.380649e-23,J/K
+T,assumed input,{},300.0,K
+carrier_Hz,assumed input,{},1000.0,Hz
+omega,2*pi*carrier_Hz,"{""pi"": 3.141592653589793, ""carrier_Hz"": 1000.0}",6283.185307179586,rad/s
+Ct,assumed input,{},1e-10,F
+Cf,assumed input,{},1e-11,F
+noise_gain,1+Ct/Cf,"{""Ct"": 1e-10, ""Cf"": 1e-11}",11.000000000000002,1
+GBW,assumed single-pole input,{},10000000.0,Hz
+closed_bandwidth,GBW/noise_gain,"{""GBW"": 10000000.0, ""noise_gain"": 11.000000000000002}",909090.909090909,Hz
+input_noise_target,assumed input,{},1e-08,V/sqrt(Hz)
+MOS_noise_gamma,long-channel teaching assumption,{},0.6666666666666666,1
+noise_topology_factor,teaching assumption,{},2.0,1
+gm_min,4*kB*T*MOS_noise_gamma*noise_topology_factor/input_noise_target^2,"{""kB"": 1.380649e-23, ""T"": 300.0, ""MOS_noise_gamma"": 0.6666666666666666, ""noise_topology_factor"": 2.0, ""input_noise_target"": 1e-08}",0.00022090383999999997,S
+gm_ID,teaching assumption,{},15.0,1/V
+input_device_ID,gm_min/gm_ID,"{""gm_min"": 0.00022090383999999997, ""gm_ID"": 15.0}",1.4726922666666664e-05,A
+ADC_bits,teaching assumption,{},16.0,bit
+ADC_span,teaching assumption,{},2.0,V
+ADC_LSB,ADC_span/2^ADC_bits,"{""ADC_span"": 2.0, ""ADC_bits"": 16.0}",3.0517578125e-05,V
+quantization_RMS,ADC_LSB/sqrt(12),"{""ADC_LSB"": 3.0517578125e-05}",8.809665972742094e-06,V
+sample_C_min,kB*T/quantization_RMS^2,"{""kB"": 1.380649e-23, ""T"": 300.0, ""quantization_RMS"": 8.809665972742094e-06}",5.336858072029592e-11,F
+acquisition_time,teaching assumption,{},2e-06,s
+settling_constants,(ADC_bits+1)*ln(2),"{""ADC_bits"": 16.0}",11.78350206951907,1
+acquisition_tau_max,acquisition_time/settling_constants,"{""acquisition_time"": 2e-06, ""settling_constants"": 11.78350206951907}",1.6972882833987804e-07,s
+effective_R_max,acquisition_tau_max/sample_C_min,"{""acquisition_tau_max"": 1.6972882833987804e-07, ""sample_C_min"": 5.336858072029592e-11}",3180.3136986052664,ohm
+ideal_fullscale_SNR,10*log10[(ADC_span^2/8)/(ADC_LSB^2/12)],"{""ADC_span"": 2.0, ""ADC_LSB"": 3.0517578125e-05}",98.0905112030308,dB
+ADC_signal_peak,teaching assumption,{},0.001,V
+signal_fraction,ADC_signal_peak/(ADC_span/2),"{""ADC_signal_peak"": 0.001, ""ADC_span"": 2.0}",0.001,1
+SNR_without_PGA,ideal_fullscale_SNR+20*log10(signal_fraction),"{""ideal_fullscale_SNR"": 98.0905112030308, ""signal_fraction"": 0.001}",38.0905112030308,dB
+PGA,teaching assumption,{},100.0,1
+SNR_with_PGA,ideal_fullscale_SNR+20*log10(signal_fraction*PGA),"{""ideal_fullscale_SNR"": 98.0905112030308, ""signal_fraction"": 0.001, ""PGA"": 100.0}",78.0905112030308,dB
+DAC_rate,teaching assumption,{},40000.0,sample/s
+DAC_Ts,1/DAC_rate,"{""DAC_rate"": 40000.0}",2.5e-05,s
+hold_argument,pi*carrier_Hz*DAC_Ts,"{""pi"": 3.141592653589793, ""carrier_Hz"": 1000.0, ""DAC_Ts"": 2.5e-05}",0.07853981633974483,rad
+hold_magnitude,sin(hold_argument)/hold_argument,"{""hold_argument"": 0.07853981633974483}",0.9989722332485385,1
+hold_phase_deg,-hold_argument*180/pi,"{""hold_argument"": 0.07853981633974483, ""pi"": 3.141592653589793}",-4.5,deg
+drive_Cp,teaching assumption,{},1e-08,F
+drive_Vpeak,teaching assumption,{},1.0,V
+sinusoidal_drive_Ipeak,omega*drive_Cp*drive_Vpeak,"{""omega"": 6283.185307179586, ""drive_Cp"": 1e-08, ""drive_Vpeak"": 1.0}",6.283185307179586e-05,A
+sinusoidal_min_slew,omega*drive_Vpeak,"{""omega"": 6283.185307179586, ""drive_Vpeak"": 1.0}",6283.185307179586,V/s
+startup_step,teaching assumption,{},5.0,V
+startup_rise,teaching assumption,{},1e-06,s
+startup_capacitive_current,drive_Cp*startup_step/startup_rise,"{""drive_Cp"": 1e-08, ""startup_step"": 5.0, ""startup_rise"": 1e-06}",0.05,A
+feedthrough_Cds,teaching assumption,{},1e-13,F
+feedthrough_Ipeak,omega*feedthrough_Cds*drive_Vpeak,"{""omega"": 6283.185307179586, ""feedthrough_Cds"": 1e-13, ""drive_Vpeak"": 1.0}",6.283185307179586e-10,A
+motion_charge_peak,teaching assumption,{},1e-14,C
+motion_Ipeak,omega*motion_charge_peak,"{""omega"": 6283.185307179586, ""motion_charge_peak"": 1e-14}",6.283185307179586e-11,A
+noise_filter_pole,teaching assumption,{},100.0,Hz
+filter_ENBW,pi*noise_filter_pole/2,"{""pi"": 3.141592653589793, ""noise_filter_pole"": 100.0}",157.07963267948966,Hz
+filtered_voltage_RMS,input_noise_target*sqrt(filter_ENBW),"{""input_noise_target"": 1e-08, ""filter_ENBW"": 157.07963267948966}",1.2533141373155003e-07,V
+reference_charge_step,teaching assumption,{},1e-12,C
+reference_decoupling,teaching assumption,{},1e-08,F
+reference_instantaneous_step,reference_charge_step/reference_decoupling,"{""reference_charge_step"": 1e-12, ""reference_decoupling"": 1e-08}",9.999999999999999e-05,V

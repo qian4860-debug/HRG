@@ -1,0 +1,443 @@
+[
+  {
+    "original_path": "C:/Users/11725/Downloads/eetop.cn_运放设计宝典专题.zip",
+    "entries": [
+      {
+        "name": "运放设计宝典专题/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/A CMOS op amp with fully-differential gain-enhancement.pdf",
+        "bytes": 221693,
+        "compressed": 212018,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/A high speed fully differential CMOS opamp.pdf",
+        "bytes": 297440,
+        "compressed": 287058,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/A low noise, low residual offset, chopped amplifier for mixed level applications.pdf",
+        "bytes": 384581,
+        "compressed": 362435,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/Am improved tail current source for low voltage applications.pdf",
+        "bytes": 254986,
+        "compressed": 224332,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/An improved biasing circuit for high input CMR op amps.pdf",
+        "bytes": 283997,
+        "compressed": 274155,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/An improved current source for low voltage applications.pdf",
+        "bytes": 275157,
+        "compressed": 264234,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/《运放设计宝典》之专题三：运放设计参数优化----速度、精度、噪声/Folded-cascode CMOS operational amplifier with slew rate enhancement circuit.pdf",
+        "bytes": 314679,
+        "compressed": 301175,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/fully differential amplifier.pdf",
+        "bytes": 1809740,
+        "compressed": 1803878,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Fully differential basic building blocks based on fully differential difference amplifiers with unity-gain difference feedback.pdf",
+        "bytes": 251072,
+        "compressed": 241614,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Fully differential CMOS programmable analogue sensor interface based on fully differential multiple differences amplifiers.pdf",
+        "bytes": 315828,
+        "compressed": 300939,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Fully differential variable gain instrumentation amplifier based on a fully differential DDA topology.pdf",
+        "bytes": 330340,
+        "compressed": 312589,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题二：全差分运放设计/《运放设计宝典》之专题二：全差分运放设计/Low voltage fully differential opamp with high gain wide bandwidth suitable for switched capacitor applications.pdf",
+        "bytes": 319562,
+        "compressed": 195862,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/《运放设计宝典》之专题五：共模反馈电路设计与仿真/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/《运放设计宝典》之专题五：共模反馈电路设计与仿真/A comparative study of two SC-CMFB networks used in fully differential OTA.pdf",
+        "bytes": 320853,
+        "compressed": 310171,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/《运放设计宝典》之专题五：共模反馈电路设计与仿真/Feedback vs. feedforward common-mode control  a comparative study.pdf",
+        "bytes": 278547,
+        "compressed": 268994,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题五：共模反馈电路设计与仿真/《运放设计宝典》之专题五：共模反馈电路设计与仿真/Two SC-CMFB networks used in fully differential OTA  measurements and improvements.pdf",
+        "bytes": 637281,
+        "compressed": 523004,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/00340424.pdf",
+        "bytes": 819124,
+        "compressed": 775752,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/00477183.pdf",
+        "bytes": 1043454,
+        "compressed": 995491,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/00508870.pdf",
+        "bytes": 962442,
+        "compressed": 916273,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题六：rail to rail amplifier/《运放设计宝典》之专题六：rail to rail amplifier/a high bandwidth constant gm and slew-rate rail-to-rail CMOS input circuit and its application to analog cells for low voltage VLSI systems.pdf",
+        "bytes": 284856,
+        "compressed": 242744,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/A high speed fully differential CMOS opamp.pdf",
+        "bytes": 297440,
+        "compressed": 287058,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/DESIGN OF A FULLY DIFFERENTIAL HIGH-SPEED HIGH-PRECISION AMPLIFIER.pdf",
+        "bytes": 106007,
+        "compressed": 75575,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/Design of high performance two stage CMOS cascode op-amps with stable biasing.pdf",
+        "bytes": 326207,
+        "compressed": 315927,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/HIGH-SPEED FULLY DIFFERENTIAL CONTINUOUSLY VARIABLE GAIN AMPLIFIER.pdf",
+        "bytes": 188851,
+        "compressed": 167464,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_《运放设计宝典》之专题四：高速运放设计/《运放设计宝典》之专题四：高速运放设计/On the design of high-speed high-resolution track and holds.pdf",
+        "bytes": 309298,
+        "compressed": 299443,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/eetop.cn_闭环负反馈运放系统 (1).rar",
+        "bytes": 2858910,
+        "compressed": 2858910,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/a cmos bandgap reference circuit.pdf",
+        "bytes": 209103,
+        "compressed": 202029,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/a low voltage cmos bandgap reference.pdf",
+        "bytes": 894565,
+        "compressed": 884604,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/a precision reference voltage source.pdf",
+        "bytes": 487560,
+        "compressed": 428406,
+        "directory": false
+      },
+      {
+        "name": "运放设计宝典专题/《运放设计宝典》之专题一：bandgap &amp; bias/bandgap-zkom.pdf",
+        "bytes": 126565,
+        "compressed": 116066,
+        "directory": false
+      }
+    ],
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/eetop.cn_运放设计宝典专题.zip",
+    "sha256": "c73ed7dd97b12fdbf3d7c4222a58ae7ac07bbde9a303a9e6f674c13a718bebda"
+  },
+  {
+    "original_path": "C:/Users/11725/Downloads/eetop.cn_OP1.zip",
+    "entries": [
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/1.PDF",
+        "bytes": 412241,
+        "compressed": 358322,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/2.pdf",
+        "bytes": 568904,
+        "compressed": 527658,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/2006JUL18_HA_ACC_TS_2.pdf",
+        "bytes": 659487,
+        "compressed": 618765,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/3.pdf",
+        "bytes": 470274,
+        "compressed": 423175,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/4.pdf",
+        "bytes": 593505,
+        "compressed": 561506,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/5.pdf",
+        "bytes": 707507,
+        "compressed": 660449,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/6.pdf",
+        "bytes": 551322,
+        "compressed": 498989,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____运放稳定性分析____by Tim Green/8.pdf",
+        "bytes": 865372,
+        "compressed": 717624,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____零极点/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "1____20110817____零极点/3____波特图是稳定的充分条件并非必要条件.pdf",
+        "bytes": 509666,
+        "compressed": 462504,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____零极点/3好____高阶系统零极点分析.ppt",
+        "bytes": 500736,
+        "compressed": 334284,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____零极点/PZ & filter.pdf",
+        "bytes": 414622,
+        "compressed": 388425,
+        "directory": false
+      },
+      {
+        "name": "1____20110817____零极点/零极点对电路的影响.doc",
+        "bytes": 971264,
+        "compressed": 861897,
+        "directory": false
+      },
+      {
+        "name": "1____CMOS运放性能参数仿真规范.pdf",
+        "bytes": 2768627,
+        "compressed": 1979778,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(1)引言与统计数据评论.pdf",
+        "bytes": 446068,
+        "compressed": 431583,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(2)运算放大器噪声介绍.pdf",
+        "bytes": 486532,
+        "compressed": 471488,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(3)电阻噪声与计算示例.pdf",
+        "bytes": 639734,
+        "compressed": 623729,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/1~4/(4)SPIC 噪声分析介绍.pdf",
+        "bytes": 375959,
+        "compressed": 374830,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/",
+        "bytes": 0,
+        "compressed": 0,
+        "directory": true
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(5)噪声测量简介.pdf",
+        "bytes": 1799707,
+        "compressed": 1781694,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(6)噪声测量实例.pdf",
+        "bytes": 812731,
+        "compressed": 795933,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(7)运算放大器内部噪声.PDF",
+        "bytes": 369240,
+        "compressed": 301296,
+        "directory": false
+      },
+      {
+        "name": "运放----运算放大器电路固有噪声的分析与测量系列文档/5~8/(8)爆米花噪声(二).pdf",
+        "bytes": 628747,
+        "compressed": 555972,
+        "directory": false
+      }
+    ],
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/eetop.cn_OP1.zip",
+    "sha256": "465ef6782665447596ec0012d38f7444cfc578d0100a99e445641f5ba85fb487"
+  },
+  {
+    "original_path": "C:/Users/11725/Downloads/eetop.cn_234.zip",
+    "entries": [
+      {
+        "name": "op3.zip",
+        "bytes": 2120660,
+        "compressed": 2120660,
+        "directory": false
+      },
+      {
+        "name": "op4.zip",
+        "bytes": 4241162,
+        "compressed": 4241162,
+        "directory": false
+      },
+      {
+        "name": "op2.zip",
+        "bytes": 3926007,
+        "compressed": 3926007,
+        "directory": false
+      }
+    ],
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/运放专题/eetop.cn_234.zip",
+    "sha256": "1aaff86e2c01e7701257403e751a535c60130a9d8f38a077ea082e80f1eed4ac"
+  }
+]
