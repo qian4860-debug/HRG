@@ -1,0 +1,370 @@
+[
+  {
+    "original_equation": 1,
+    "pdf_page": 1,
+    "scan_printed_page": 18,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L01",
+    "heading": "### 原式(1)，PDF1：旋转坐标中的两条运动方程"
+  },
+  {
+    "original_equation": 2,
+    "pdf_page": 1,
+    "scan_printed_page": 18,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L02",
+    "heading": "### 原式(2)，PDF1：从主轴换到检测/驱动轴"
+  },
+  {
+    "original_equation": 3,
+    "pdf_page": 2,
+    "scan_printed_page": 19,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L03",
+    "heading": "### 原式(3)，PDF2：把旋转后的刚度每一项乘开"
+  },
+  {
+    "original_equation": 4,
+    "pdf_page": 2,
+    "scan_printed_page": 19,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L04",
+    "heading": "### 原式(4)，PDF2：阻尼主轴为什么可以与刚度主轴不同"
+  },
+  {
+    "original_equation": 5,
+    "pdf_page": 2,
+    "scan_printed_page": 19,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L05",
+    "heading": "### 原式(5)，PDF2：四个参数定义，先精确后近似"
+  },
+  {
+    "original_equation": 6,
+    "pdf_page": 2,
+    "scan_printed_page": 19,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L06",
+    "heading": "### 原式(6)，PDF2：泛化到振动陀螺，不凭空确定几何系数"
+  },
+  {
+    "original_equation": 7,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L07",
+    "heading": "### 原式(7)，PDF3：三个基矩阵"
+  },
+  {
+    "original_equation": 8,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L08",
+    "heading": "### 原式(8)，PDF3：把关键乘法真正算一次"
+  },
+  {
+    "original_equation": 9,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L09",
+    "heading": "### 原式(9)，PDF3：向量定义"
+  },
+  {
+    "original_equation": 10,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L10",
+    "heading": "### 原式(10)，PDF3：从两行变成一个矩阵方程"
+  },
+  {
+    "original_equation": 11,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/01_机械与矩阵.md",
+    "anchor": "L11",
+    "heading": "### 原式(11)，PDF3：力的向量与单位"
+  },
+  {
+    "original_equation": 12,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L12",
+    "heading": "### 原式(12)，PDF3：选择随参考相位转动的复包络"
+  },
+  {
+    "original_equation": 13,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L13",
+    "heading": "### 原式(13)，PDF3：复数怎样表示四个实 IQ"
+  },
+  {
+    "original_equation": 14,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L14",
+    "heading": "### 原式(14)，PDF3：力也使用同一个参考"
+  },
+  {
+    "original_equation": 15,
+    "pdf_page": 3,
+    "scan_printed_page": 20,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L15",
+    "heading": "### 原式(15)，PDF3：四个力分量"
+  },
+  {
+    "original_equation": 16,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L16",
+    "heading": "### 原式(16)，PDF4：保留完整求导，再列删除清单"
+  },
+  {
+    "original_equation": 17,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L17",
+    "heading": "### 原式(17)，PDF4：每一项在慢变量里做什么"
+  },
+  {
+    "original_equation": 18,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L18",
+    "heading": "### 原式(18)，PDF4：把式(2)写成Pauli形式"
+  },
+  {
+    "original_equation": 19,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L19",
+    "heading": "### 原式(19)，PDF4：两个坐标向量"
+  },
+  {
+    "original_equation": 20,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L20",
+    "heading": "### 原式(20)，PDF4：从幂级数推指数恒等式"
+  },
+  {
+    "original_equation": 21,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L21",
+    "heading": "### 原式(21)，PDF4：被动旋转的指数写法"
+  },
+  {
+    "original_equation": 22,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L22",
+    "heading": "### 原式(22)，PDF4：共轭转置为什么等于逆"
+  },
+  {
+    "original_equation": 23,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/02_平均法.md",
+    "anchor": "L23",
+    "heading": "### 原式(23)，PDF4：把各向异性写成一个乘积"
+  },
+  {
+    "original_equation": 24,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L24",
+    "heading": "### 原式(24)，PDF4：理想振子是这一整套变量的出发点"
+  },
+  {
+    "original_equation": 25,
+    "pdf_page": 4,
+    "scan_printed_page": 21,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L25",
+    "heading": "### 原式(25)，PDF4：为什么一般轨道可以写成旋转椭圆"
+  },
+  {
+    "original_equation": 26,
+    "pdf_page": 5,
+    "scan_printed_page": 22,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L26",
+    "heading": "### 原式(26)，PDF5：椭圆写回复数，逐行验证"
+  },
+  {
+    "original_equation": 27,
+    "pdf_page": 5,
+    "scan_printed_page": 22,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L27",
+    "heading": "### 原式(27)，PDF5：为什么短轴分量必须带 \\(i\\)"
+  },
+  {
+    "original_equation": 28,
+    "pdf_page": 5,
+    "scan_printed_page": 22,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L28",
+    "heading": "### 原式(28)，PDF5：从振动相位换到参考相位"
+  },
+  {
+    "original_equation": 29,
+    "pdf_page": 5,
+    "scan_printed_page": 22,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L29",
+    "heading": "### 原式(29)，PDF5：相位差的符号与四个IQ完整展开"
+  },
+  {
+    "original_equation": 30,
+    "pdf_page": 5,
+    "scan_printed_page": 22,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L30",
+    "heading": "### 原式(30)，PDF5：先定义七个量，随后检查哪些真正不变"
+  },
+  {
+    "original_equation": 31,
+    "pdf_page": 5,
+    "scan_printed_page": 22,
+    "chapter": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+    "anchor": "L31",
+    "heading": "### 原式(31)，PDF5：七个量逐个乘开"
+  },
+  {
+    "original_equation": 32,
+    "pdf_page": 6,
+    "scan_printed_page": 23,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L32",
+    "heading": "### 原式(32)，PDF6：对椭圆参数表示求导，不跳过乘积法则"
+  },
+  {
+    "original_equation": 33,
+    "pdf_page": 6,
+    "scan_printed_page": 23,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L33",
+    "heading": "### 原式(33)，PDF6：左乘逆变换"
+  },
+  {
+    "original_equation": 34,
+    "pdf_page": 6,
+    "scan_printed_page": 23,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L34",
+    "heading": "### 原式(34)，PDF6：刚度和阻尼只与相对角度有关"
+  },
+  {
+    "original_equation": 35,
+    "pdf_page": 6,
+    "scan_printed_page": 23,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L35",
+    "heading": "### 原式(35)，PDF6：两条复方程拆成四条实方程"
+  },
+  {
+    "original_equation": 36,
+    "pdf_page": 6,
+    "scan_printed_page": 23,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L36",
+    "heading": "### 原式(36)，PDF6：空间力投影"
+  },
+  {
+    "original_equation": 37,
+    "pdf_page": 6,
+    "scan_printed_page": 23,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L37",
+    "heading": "### 原式(37)，PDF6：把两个导数耦合的方程真正消元"
+  },
+  {
+    "original_equation": 38,
+    "pdf_page": 7,
+    "scan_printed_page": 24,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L38",
+    "heading": "### 原式(38)，PDF7：从a、q换到E、Q，四条都保留运算"
+  },
+  {
+    "original_equation": 39,
+    "pdf_page": 7,
+    "scan_printed_page": 24,
+    "chapter": "research/classics_20261030/chapters/04_完整慢方程.md",
+    "anchor": "L39",
+    "heading": "### 原式(39)，PDF7：恢复长短轴，要保留短轴符号"
+  },
+  {
+    "original_equation": 40,
+    "pdf_page": 7,
+    "scan_printed_page": 24,
+    "chapter": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+    "anchor": "L40",
+    "heading": "### 原式(40)，PDF7：每个近似都说明从哪里来"
+  },
+  {
+    "original_equation": 41,
+    "pdf_page": 8,
+    "scan_printed_page": 25,
+    "chapter": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+    "anchor": "L41",
+    "heading": "### 原式(41)，PDF8：四种控制力，不要只说“驱动力”"
+  },
+  {
+    "original_equation": 42,
+    "pdf_page": 8,
+    "scan_printed_page": 25,
+    "chapter": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+    "anchor": "L42",
+    "heading": "### 原式(42)，PDF8：为何四条PI的符号各不相同"
+  },
+  {
+    "original_equation": 43,
+    "pdf_page": 8,
+    "scan_printed_page": 25,
+    "chapter": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+    "anchor": "L43",
+    "heading": "### 原式(43)，PDF8：积分器怎样变成状态"
+  },
+  {
+    "original_equation": 44,
+    "pdf_page": 8,
+    "scan_printed_page": 25,
+    "chapter": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+    "anchor": "L44",
+    "heading": "### 原式(44)，PDF8：代数控制输出"
+  },
+  {
+    "original_equation": 45,
+    "pdf_page": 8,
+    "scan_printed_page": 25,
+    "chapter": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+    "anchor": "L45",
+    "heading": "### 原式(45)，PDF8：把实际反馈量接回状态"
+  },
+  {
+    "original_equation": 46,
+    "pdf_page": 9,
+    "scan_printed_page": 26,
+    "chapter": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+    "anchor": "L46",
+    "heading": "### 原式(46)，PDF9：把完整控制重新接回完整慢模型"
+  }
+]

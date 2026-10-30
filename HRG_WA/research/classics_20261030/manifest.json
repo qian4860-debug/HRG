@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-30",
+  "book": "压电全角验证总书第四版_经典文献逐式演算.md",
+  "equation_groups": 46,
+  "files": {
+    "research/classics_20261030/build_book.py": "f1ec70efdd07f2b836b05681f68d712851efbaae65d876f12dac2d3ad268f267",
+    "research/classics_20261030/chapters/00_阅读说明.md": "10c3970cee91b25abd4cd976ba406d230f544f7c1a67454ffbd6287cbb7a7959",
+    "research/classics_20261030/chapters/01_机械与矩阵.md": "54efbd8e00e6db3a66767b284f385acd28ca7bf144f9d91b6ef21d0e649ccc2a",
+    "research/classics_20261030/chapters/02_平均法.md": "abd8f65bbaa36aea0bafb30bdf979aabe4b33e04f87965382623fa97e5cd3934",
+    "research/classics_20261030/chapters/03_椭圆与二次量.md": "de154716e4f995dab93c0b7a889ef44cb7e935b7db0d10b2777f35650db1ab0b",
+    "research/classics_20261030/chapters/04_完整慢方程.md": "ee326b46e247d2ebb8640481c6d73592ae25b0c8dfc8bd0f76e2456c5f9cf27b",
+    "research/classics_20261030/chapters/05_控制与闭合方程.md": "2570ebfac18322ca1a1666cbb19383bad364929441391de2987456a7dcbf81bc",
+    "research/classics_20261030/chapters/06_完整算例与工程映射.md": "e8c6ab78790b70f0fb9c5a67679fbcdce72a971a66a8920a606f01f862299450",
+    "research/classics_20261030/check_delivery.py": "fb30c89838e689eb7586dc578b86c47e04bcb7266ba91e57d0de82123cc3a78a",
+    "research/classics_20261030/checks.json": "1ab59c956a3d88378d2279244d30b7f69358d68104ce8be25d3d02c2b15166a2",
+    "research/classics_20261030/equation_map.json": "b04b99aad6322510a84d22c964914478b4b4516c0c2ff12685014f9eec03b841",
+    "research/classics_20261030/matlab_checks.json": "2339ce2d19035a151761ade93fb5fa5d852468d1c58d2851ecec53acc94cd22e",
+    "research/classics_20261030/README.md": "2f6d1100c12515c1bbdfb8c828d195309674187d940c63d4001eb8a175d072f9",
+    "research/classics_20261030/register_sources.py": "df29eaf7ded2b35eb0adca989c139f0b257bdd8aa87b64685921584f2d8b6687",
+    "research/classics_20261030/sources.json": "c28d64313388bb9677eaf33b36e5d0eeb79a916420893752c1b93e480954097d",
+    "research/classics_20261030/verify_classics.py": "62fa2d40b7eb8dd6d6fe8c27169d370ede3b597122a48e121a9ce0046d8db5a7",
+    "research/classics_20261030/verify_classics_matlab.m": "479ccb2106f057e91d9ce9f39c0fadb410063d32ac5d7f42d0a822c84283a90a",
+    "research/classics_20261030/worked_example.json": "da5ab681aa7a727079e5bc3d019bde8d1519f9093cf0ff37e411a3e5d3117203",
+    "research/classics_20261030/worked_example.py": "4d3fc950d13f8b1e87253ba6f262abc27b94cbe1894c71c5d0f42f9e35a08d40",
+    "research/classics_20261030/worked_trace.csv": "2c68d6d8daf7bc0d2ea2b817d8617775bafb8088a653477681a29c24beb9f36d",
+    "压电全角验证总书第四版_经典文献逐式演算.md": "faf9f0b2e44f40bd1198551b0c65bb71e2f7cad9a47b711bb9194c1fbec48d1b"
+  },
+  "preserved_previous_files": {
+    "全角HRG从零到当前_完整推导与验证总书.md": "9cca4a1c03f78f746d3b426bc975a8f938ada61bc529a210ea0fe38880a270a6",
+    "全角HRG验证总书第二版_逐行推导与复算.md": "e201c28712fa841b0fe8554aabce5e7e064738f99e6edecab210e28279a34e98",
+    "压电式半球全角陀螺_逐步推导与文献审读.md": "38706f5e0af9a38116b75c89bdfafe1f09b6c3883cca526bb8f918255f6dde0f",
+    "压电全角总书第三版_原理到V10实现.md": "5d642747bdd75a1740d422ae675190271d2b45c8e33653f61303aaf2bd21e39e",
+    "HRG_WA_simulink/piezo_v10/p10_plant.m": "a6118868a5d360a3a829b7ba8f96ce3c417ef8bb625c498f984a134b5fde0fba",
+    "HRG_WA_simulink/piezo_v10/p10_tick.m": "64629529ca142a9d8e2aae2b35427c24ddc11ce59646d91b6fed98ebaaa7516e",
+    "HRG_WA_simulink/piezo_v10/models/hrg_wa_v10_piezo.slx": "45a42f8dd5600b4f84f25ea7be91e6d66508a2be7202a1921d7cdbd93177449e"
+  },
+  "boundary": "Theory book and synthetic independent checks; pending other-five fulltexts explicitly retained"
+}

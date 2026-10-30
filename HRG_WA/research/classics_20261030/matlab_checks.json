@@ -1,0 +1,21 @@
+{
+  "matlab": "25.1.0.2943329 (R2025a)",
+  "synthetic_only": true,
+  "checks": {
+    "rotation_generator": true,
+    "carrier_vs_averaged_small_parameter_fixture": true,
+    "quadratic_derivative_vs_exact_affine_propagation": true,
+    "PI_poles": true
+  },
+  "max_carrier_averaging_displacement_error_normalized": 4.9648523455346418E-7,
+  "max_quadratic_derivative_error": 8.1982712285544324E-11,
+  "PI_pole_real": [
+    -3.5,
+    -3.5
+  ],
+  "PI_pole_imag": [
+    3.5707142142714239,
+    -3.5707142142714239
+  ],
+  "boundary": "Small-parameter independent theory fixture; not a new V10, Simulink, RTL or real-head acceptance"
+}
