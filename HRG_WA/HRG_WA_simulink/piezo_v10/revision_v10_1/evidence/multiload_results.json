@@ -1,0 +1,84 @@
+{
+  "checks": {
+    "intrinsic_gamma_recovery": true,
+    "all_electrical_combinations_recovered": true,
+    "heldout_loads_and_frequencies": true,
+    "full_rank_dimensionless_jacobian": true,
+    "double_loaded_damping_rejected": true,
+    "actual_loaded_pole_matches": true
+  },
+  "relative_errors": {
+    "f0_Hz": 1.5594192603884949e-12,
+    "gamma_intrinsic_per_s": 2.6049891244106504e-08,
+    "Cs_F": 2.4827795597204272e-08,
+    "G0_S": 0.0011184915615247704,
+    "kappa": 2.2211123762438945e-07,
+    "b": 2.889856909327193e-08,
+    "Cds_F": 3.111285061008218e-05
+  },
+  "heldout_load_errors": [
+    6.323399900414745e-07,
+    6.513519352297649e-08,
+    4.2321763369510216e-08
+  ],
+  "jacobian_singular_values": [
+    323.65780487483676,
+    25.95571764794567,
+    13.809996003716892,
+    8.882450127060105,
+    1.6459771017182447,
+    0.028599779197609105,
+    0.00019163139959337377
+  ],
+  "jacobian_condition": 1688960.1889962307,
+  "intrinsic_gamma": 0.3141592653589793,
+  "measured_loaded_gamma": 0.35000867628571086,
+  "wrong_double_counted_gamma": 0.3858582715044463,
+  "fit_history": [
+    {
+      "step": 0,
+      "score": 101.17917074250876,
+      "damping": 0.001
+    },
+    {
+      "step": 1,
+      "score": 8.350181181715172,
+      "damping": 0.0003333333333333333
+    },
+    {
+      "step": 2,
+      "score": 0.2637767913922631,
+      "damping": 0.0001111111111111111
+    },
+    {
+      "step": 3,
+      "score": 0.00018009049902355487,
+      "damping": 3.7037037037037037e-05
+    },
+    {
+      "step": 4,
+      "score": 6.728929614854733e-09,
+      "damping": 1.2345679012345678e-05
+    },
+    {
+      "step": 5,
+      "score": 7.837177118038654e-10,
+      "damping": 4.115226337448559e-06
+    },
+    {
+      "step": 6,
+      "score": 6.21245713209883e-10,
+      "damping": 1.371742112482853e-06
+    },
+    {
+      "step": 7,
+      "score": 6.210960221474853e-10,
+      "damping": 4.5724737082761767e-07
+    },
+    {
+      "step": 8,
+      "score": 6.210960220597754e-10,
+      "damping": 1.5241579027587256e-07
+    }
+  ]
+}

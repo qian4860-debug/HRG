@@ -1,0 +1,21 @@
+{
+  "schema": "v10.1_identified_charge_domain",
+  "status": "synthetic_validation_only",
+  "boundary": "loaded ringdown damping",
+  "parameters": {
+    "f0_Hz": 999.99999999844056,
+    "gamma_intrinsic_per_s": 0.31415925717516463,
+    "Cs_F": 1.0000000248277957E-9,
+    "G0_S": 1.0011184915615249E-10,
+    "kappa": 1.0000002221112376E-6,
+    "b": 1.1000000317884262E-6,
+    "Cds_F": 1.4999533307240849E-13
+  },
+  "bryan_factor": [],
+  "voltage_limit_V": [],
+  "displacement_limit_m": [],
+  "physical_mass": [],
+  "theta_s": [],
+  "theta_d": [],
+  "reference_requirement": "calibrated terminal admittance and independently known load; voltage-ratio-only data cannot fix charge scale"
+}

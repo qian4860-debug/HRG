@@ -1,0 +1,73 @@
+{
+  "status": "synthetic_independent_reference_only",
+  "frequency_Hz": 1000,
+  "sample_period_s": 2.5e-05,
+  "detect_real": [
+    [
+      -9972404109.88023,
+      -249309643.8847801
+    ],
+    [
+      149494718.1723548,
+      -10364964237.408897
+    ]
+  ],
+  "detect_imag": [
+    [
+      545531236.3992141,
+      13636860.812180012
+    ],
+    [
+      -9008065.328613661,
+      624623483.1048994
+    ]
+  ],
+  "drive_real": [
+    [
+      1.0677844450956315e-06,
+      -3.17521469994557e-08
+    ],
+    [
+      2.135557691151429e-08,
+      1.1430855476076317e-06
+    ]
+  ],
+  "drive_imag": [
+    [
+      -2.2039887853617045e-07,
+      7.375400793241243e-09
+    ],
+    [
+      -4.407512133900591e-09,
+      -2.654853522285828e-07
+    ]
+  ],
+  "feedthrough_real": [
+    [
+      -1.2557580785345026e-12,
+      1.0147463679347174e-12
+    ],
+    [
+      -4.960414431058196e-13,
+      7.735249750578721e-13
+    ]
+  ],
+  "feedthrough_imag": [
+    [
+      -1.4365137215085555e-13,
+      -1.986737090246968e-13
+    ],
+    [
+      -7.658781366142824e-13,
+      1.0619819952988006e-12
+    ]
+  ],
+  "nominal_detect_real": -9999678898.077087,
+  "nominal_detect_imag": 46914376.84260041,
+  "reference_planes": {
+    "detect": "known motional charge -> sampled ADC voltage",
+    "drive": "DAC samples -> independently referenced charge acceleration; hold included",
+    "feedthrough": "blocked motion: DAC voltage -> ADC voltage"
+  },
+  "warning": "Without independent injected charge, actuation observation and blocked-motion reference only D*P*B is identifiable; no absolute mass/Theta inferred"
+}

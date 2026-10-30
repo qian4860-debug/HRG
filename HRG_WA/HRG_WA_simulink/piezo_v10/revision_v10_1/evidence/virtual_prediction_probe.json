@@ -1,0 +1,17 @@
+{
+  "total_frames": 800,
+  "valid_frames": 800,
+  "valid_fraction": 1,
+  "angle_status": "valid_center_timestamped_frames",
+  "angle_rms_deg": 0.35829851445119709,
+  "pattern_rms_deg": 0.09924545018727822,
+  "energy_relative_mean": -3.4392234429692081E-5,
+  "quadrature_rms": 3.9680225860635986E-5,
+  "pll_phase_rms": 1.5844493472340332E-5,
+  "bias_deg_s": 0.40448941691108414,
+  "rate_noise_status": "not_estimated_from_deterministic_short_run",
+  "dac_margin_V": 0.43665313720703125,
+  "dac_clip_samples": 0,
+  "build_time_s": 0.1314875,
+  "timestamp_max_age_s": 5.5511151231257827E-17
+}

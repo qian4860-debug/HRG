@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "changed_sample_time_requires_calibration": true,
+    "fractional_window_rejected": true,
+    "unknown_B_motion_rejected": true,
+    "unknown_B_stationary_allowed": true,
+    "active_damping_rejected": true,
+    "negative_capacitance_rejected": true
+  }
+}

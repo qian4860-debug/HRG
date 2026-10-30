@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "WA_independent_states": true,
+    "WA_independent_angle": true,
+    "WA_independent_rate": true,
+    "virtual_independent_states": true,
+    "virtual_independent_angle": true,
+    "virtual_independent_rate": true
+  },
+  "errors": {
+    "WA_state_max": 1.1102230246251565e-15,
+    "WA_angle_max": 5.773159728050814e-15,
+    "WA_rate": 8.431365956969306e-18,
+    "virtual_state_max": 2.500777362968165e-14,
+    "virtual_angle_max": 2.0463630789890885e-12,
+    "virtual_rate": 1.6433902849666282e-14
+  },
+  "scope": "Independent averaged dynamics; ideal calibrated force, no fast ADC/clock equivalence claim"
+}

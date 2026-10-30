@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "unknown_B_not_invented": true,
+    "multiload_state_transfer_replay": true,
+    "loaded_ringdown_poles_replay": true,
+    "loaded_boundary_rejected": true
+  },
+  "max_transfer_relative_error": 1.5995813470805409E-12,
+  "max_loaded_pole_error": 2.2737367544323206E-12,
+  "scope": "State-space replay of independent multi-load fit, not a measured hardware profile"
+}

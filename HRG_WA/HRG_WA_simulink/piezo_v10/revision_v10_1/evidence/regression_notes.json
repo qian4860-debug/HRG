@@ -1,0 +1,11 @@
+{
+  "virtual_prediction_probe.json": {
+    "status": "historical_exploratory_failure_not_acceptance",
+    "context": "Captured before dimensionless discretization and final startup gating. Complete parameter snapshot was not captured; retained for diagnostic provenance only.",
+    "use": "Do not interpret the 0.358 degree value as current validated physical performance. Reproducible regression is p101_verify_discretization."
+  },
+  "low_rate_measurement_debug.csv": {
+    "status": "historical_exploratory_trace_not_acceptance",
+    "context": "Pre-fix low-rate carrier head-vs-readout diagnostic. Complete configuration not sealed at capture; not used for pass/fail."
+  }
+}

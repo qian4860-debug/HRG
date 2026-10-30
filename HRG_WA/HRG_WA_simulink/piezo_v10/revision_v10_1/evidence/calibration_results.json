@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "detect_holdout": true,
+    "drive_holdout": true,
+    "blocked_feedthrough_absolute_bound": true,
+    "independent_train_holdout_seeds": true,
+    "both_channel_offdiagonals_identified": true,
+    "rank_deficient_rejected": true
+  },
+  "holdout_errors": {
+    "detect": 2.969067706320574e-06,
+    "drive": 9.428443675353103e-06,
+    "blocked_feedthrough": 2.2859393214211076e-12
+  },
+  "condition_detect": 1.0409543781921675,
+  "condition_drive": 1.0769663153067572
+}
