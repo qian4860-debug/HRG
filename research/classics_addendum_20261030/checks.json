@@ -1,0 +1,205 @@
+{
+  "seed": 20261030,
+  "random_cases": 512,
+  "total": 38,
+  "passed": 38,
+  "checks": {
+    "R05_256_force_projection_reconstruction": {
+      "error": 8.881784197001252e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R05_circle_determinant_zero": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R04_first_order_remainder_quadratic": {
+      "error": 1.6353940424096436e-09,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "R08_printed_minus_counterexample_correct_plus": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R08_printed_minus_is_not_equal": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R16_frequency_control_positive_from_exact_spring": {
+      "error": 4.999942348170305e-09,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "R16_R17_256_matrix_vs_harmonic_projections": {
+      "error": 1.0658141036401503e-14,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R16_damping_positive_rotation_counterexample": {
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R16_quadrature_positive_counterexample": {
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R17_half_angle_eigenaxis": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R17_missing_half_angle_rejected": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R09_average_power_amplitude_growth": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R20_similarity_direct_identity": {
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R20_scale_gauge_same_AB": {
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R20_scale_gauge_same_similarity": {
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R21_skew_symmetric_decomposition": {
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R22_exact_angle_derivative_determinant": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R23_compensation_order": {
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R26_uniform_angle_bias_zero": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R26_nonuniform_time_bias_nonzero": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R30_numerical_integral_vs_product_DC": {
+      "error": 6.505213034913027e-19,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R29_equal_reversal_cancels_scale": {
+      "error": 1.3010426069826053e-18,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R29_drift_residual_survives": {
+      "error": 1.3010426069826053e-18,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R31_slope_inverse": {
+      "error": 2.393918396847994e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "R35_ordinary_transpose_not_adjoint": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "J03_Q_time_constant_numeric": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "J04_full_vs_half_frequency_two": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "J08_literal_negative_loss_counterexample": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "J09_exact_vs_approx_budget": {
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "J_support_passive_schur_vs_formula": {
+      "error": 1.0842021724855044e-19,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "J_support_nonnegative_loss": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Z04_quadratic_matrix_reconstruction": {
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Z04_angle_and_axes": {
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Z05_parametric_power_integral": {
+      "error": 8.326672684688674e-17,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Z05_linear_piezo_2f_no_fundamental_power": {
+      "error": 9.094947017729283e-17,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Z06_thermal_frequency_0p1C": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Z07_table_ratios": {
+      "error": 1.7763568394002505e-15,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "Z04_beta_noise_gradient": {
+      "error": 1.1136633282227137e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    }
+  },
+  "diagnostics": {
+    "nonuniform_time_bias": -0.10102051443364386,
+    "product_DC": 0.00014035369464144632,
+    "printed_support_inverse_Q": -1.607571015577117e-06,
+    "slow_remainder_ratio": 3.999999998364606
+  },
+  "boundary": "Synthetic algebra and quadrature checks, including rejection of literal inconsistent print; no hardware validation"
+}

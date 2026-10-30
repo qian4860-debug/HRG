@@ -1,0 +1,67 @@
+id,expression,operands,value,unit,source
+pi,pi,{},3.141592653589793,1,本书合成算例
+deg_to_rad,pi/180,"{""pi"": 3.141592653589793}",0.017453292519943295,rad/deg,本书合成算例
+rad_s_to_deg_h,180*3600/pi,"{""pi"": 3.141592653589793}",206264.80624709636,deg/h per rad/s,本书合成算例
+f0,input,{},1000.0,Hz,本书合成算例
+mass,input,{},0.0001,kg,本书合成算例
+amplitude,input,{},1e-06,m,本书合成算例
+Q,input,{},10000.0,1,本书合成算例
+B,input,{},0.27699,1,本书合成算例
+full_split_Hz,input,{},0.2,Hz,本书合成算例
+theta,50*deg_to_rad,"{""deg_to_rad"": 0.017453292519943295}",0.8726646259971648,rad,本书合成算例
+theta_G,20*deg_to_rad,"{""deg_to_rad"": 0.017453292519943295}",0.3490658503988659,rad,本书合成算例
+theta_H,-10*deg_to_rad,"{""deg_to_rad"": 0.017453292519943295}",-0.17453292519943295,rad,本书合成算例
+input_rate,30*deg_to_rad,"{""deg_to_rad"": 0.017453292519943295}",0.5235987755982988,rad/s,本书合成算例
+damping_half_difference,input,{},1e-05,1/s,本书合成算例
+alignment_leak,input,{},1e-05,1,本书合成算例
+phase_leak,input,{},2e-05,rad,本书合成算例
+drive_coupling,input,{},2e-05,N/V,本书合成算例
+sense_coupling,input,{},1e-08,C/m,本书合成算例
+Cf,input,{},1e-11,F,本书合成算例
+Rf,input,{},1000000000.0,ohm,本书合成算例
+omega0,2*pi*f0,"{""pi"": 3.141592653589793, ""f0"": 1000.0}",6283.185307179586,rad/s,本书合成算例
+alpha,2*B,"{""B"": 0.27699}",0.55398,1,本书合成算例
+gamma,omega0/(2*Q),"{""omega0"": 6283.185307179586, ""Q"": 10000.0}",0.3141592653589793,1/s,本书合成算例
+tau_amplitude,1/gamma,"{""gamma"": 0.3141592653589793}",3.183098861837907,s,本书合成算例
+split_half_rate,pi*full_split_Hz,"{""pi"": 3.141592653589793, ""full_split_Hz"": 0.2}",0.6283185307179586,rad/s,本书合成算例
+double_angle_G,2*(theta-theta_G),"{""theta"": 0.8726646259971648, ""theta_G"": 0.3490658503988659}",1.0471975511965979,rad,本书合成算例
+double_angle_H,2*(theta-theta_H),"{""theta"": 0.8726646259971648, ""theta_H"": -0.17453292519943295}",2.0943951023931953,rad,本书合成算例
+cosG,cos(double_angle_G),"{""double_angle_G"": 1.0471975511965979}",0.4999999999999999,1,本书合成算例
+sinG,sin(double_angle_G),"{""double_angle_G"": 1.0471975511965979}",0.8660254037844387,1,本书合成算例
+cosH,cos(double_angle_H),"{""double_angle_H"": 2.0943951023931953}",-0.4999999999999998,1,本书合成算例
+sinH,sin(double_angle_H),"{""double_angle_H"": 2.0943951023931953}",0.8660254037844387,1,本书合成算例
+Ca,gamma+damping_half_difference*cosG,"{""gamma"": 0.3141592653589793, ""damping_half_difference"": 1e-05, ""cosG"": 0.4999999999999999}",0.3141642653589793,1/s,本书合成算例
+Cq,split_half_rate*sinH,"{""split_half_rate"": 0.6283185307179586, ""sinH"": 0.8660254037844387}",0.5441398092702654,1/s,本书合成算例
+natural_detuning,split_half_rate*cosH,"{""split_half_rate"": 0.6283185307179586, ""cosH"": -0.4999999999999998}",-0.31415926535897915,rad/s,本书合成算例
+bias_damping,damping_half_difference*sinG,"{""damping_half_difference"": 1e-05, ""sinG"": 0.8660254037844387}",8.660254037844388e-06,rad/s,本书合成算例
+bias_amplitude_leak,alignment_leak*Ca,"{""alignment_leak"": 1e-05, ""Ca"": 0.3141642653589793}",3.141642653589793e-06,rad/s,本书合成算例
+bias_quadrature_leak,phase_leak*Cq,"{""phase_leak"": 2e-05, ""Cq"": 0.5441398092702654}",1.0882796185405308e-05,rad/s,本书合成算例
+bias_electrical,bias_damping+bias_amplitude_leak+bias_quadrature_leak,"{""bias_damping"": 8.660254037844388e-06, ""bias_amplitude_leak"": 3.141642653589793e-06, ""bias_quadrature_leak"": 1.0882796185405308e-05}",2.268469287683949e-05,rad/s,本书合成算例
+bias_body,-bias_electrical/alpha,"{""bias_electrical"": 2.268469287683949e-05, ""alpha"": 0.55398}",-4.094857734365769e-05,rad/s,本书合成算例
+bias_body_deg_h,bias_body*rad_s_to_deg_h,"{""bias_body"": -4.094857734365769e-05, ""rad_s_to_deg_h"": 206264.80624709636}",-8.446250371883794,deg/h,本书合成算例
+WA_theta_dot,-alpha*input_rate+bias_electrical,"{""alpha"": 0.55398, ""input_rate"": 0.5235987755982988, ""bias_electrical"": 2.268469287683949e-05}",-0.29004056501306874,rad/s,本书合成算例
+WA_estimated_body_rate,-WA_theta_dot/alpha,"{""WA_theta_dot"": -0.29004056501306874, ""alpha"": 0.55398}",0.5235578270209551,rad/s,本书合成算例
+force_normalization,2*mass*amplitude*omega0,"{""mass"": 0.0001, ""amplitude"": 1e-06, ""omega0"": 6283.185307179586}",1.2566370614359173e-06,N per 1/s,本书合成算例
+amplitude_force_peak,force_normalization*Ca,"{""force_normalization"": 1.2566370614359173e-06, ""Ca"": 0.3141642653589793}",3.9479045922888146e-07,N,本书合成算例
+quadrature_force_peak,force_normalization*abs(Cq),"{""force_normalization"": 1.2566370614359173e-06, ""Cq"": 0.5441398092702654}",6.837862509316868e-07,N,本书合成算例
+amplitude_voltage_peak,amplitude_force_peak/drive_coupling,"{""amplitude_force_peak"": 3.9479045922888146e-07, ""drive_coupling"": 2e-05}",0.019739522961444073,V,本书合成算例
+quadrature_voltage_peak,quadrature_force_peak/drive_coupling,"{""quadrature_force_peak"": 6.837862509316868e-07, ""drive_coupling"": 2e-05}",0.03418931254658434,V,本书合成算例
+sense_charge_peak,sense_coupling*amplitude,"{""sense_coupling"": 1e-08, ""amplitude"": 1e-06}",1e-14,C,本书合成算例
+ideal_charge_output_peak,sense_charge_peak/Cf,"{""sense_charge_peak"": 1e-14, ""Cf"": 1e-11}",0.001,V,本书合成算例
+omega_Rf_Cf,omega0*Rf*Cf,"{""omega0"": 6283.185307179586, ""Rf"": 1000000000.0, ""Cf"": 1e-11}",62.831853071795855,1,本书合成算例
+charge_response_magnitude,omega_Rf_Cf/sqrt(1+omega_Rf_Cf^2),"{""omega_Rf_Cf"": 62.831853071795855}",0.9998733725762652,1,本书合成算例
+actual_charge_output_peak,ideal_charge_output_peak*charge_response_magnitude,"{""ideal_charge_output_peak"": 0.001, ""charge_response_magnitude"": 0.9998733725762652}",0.0009998733725762653,V,本书合成算例
+charge_phase_offset,atan(1/omega_Rf_Cf),"{""omega_Rf_Cf"": 62.831853071795855}",0.0159141506994531,rad,本书合成算例
+single_body_bias_budget,0.01/rad_s_to_deg_h,"{""rad_s_to_deg_h"": 206264.80624709636}",4.84813681109536e-08,rad/s,本书合成算例
+single_electrical_bias_budget,alpha*single_body_bias_budget,"{""alpha"": 0.55398, ""single_body_bias_budget"": 4.84813681109536e-08}",2.6857708306106078e-08,rad/s,本书合成算例
+max_single_alignment_leak,single_electrical_bias_budget/abs(Ca),"{""single_electrical_bias_budget"": 2.6857708306106078e-08, ""Ca"": 0.3141642653589793}",8.548938013499772e-08,1,本书合成算例
+max_single_phase_leak,single_electrical_bias_budget/abs(Cq),"{""single_electrical_bias_budget"": 2.6857708306106078e-08, ""Cq"": 0.5441398092702654}",4.9358102179887177e-08,rad,本书合成算例
+max_differential_timing_skew,max_single_phase_leak/omega0,"{""max_single_phase_leak"": 4.9358102179887177e-08, ""omega0"": 6283.185307179586}",7.855585943563899e-12,s,本书合成算例
+J08_phase_ratio,10000*1000/[10*(1000^2-10000^2)],{},-0.010101010101010102,1,Jeanroy PDF2–3 原式7–8
+J08_literal_phase,atan(J08_phase_ratio),"{""J08_phase_ratio"": -0.010101010101010102}",-0.010100666585321907,rad,Jeanroy PDF2–3 原式7–8
+J08_literal_inverseQ,0.001*J08_literal_phase/(2*pi),"{""J08_literal_phase"": -0.010100666585321907, ""pi"": 3.141592653589793}",-1.6075710155771169e-06,1,Jeanroy PDF3 原式8，负值反例
+J08_loss_magnitude_inverseQ,abs(J08_literal_inverseQ),"{""J08_literal_inverseQ"": -1.6075710155771169e-06}",1.6075710155771169e-06,1,本书解释性取绝对值，非原式
+J09_total_inverseQ_rounded,1e-7+1.6e-6,{},1.6999999999999998e-06,1,Jeanroy 原文舍入输入
+J09_Q_global,1/J09_total_inverseQ_rounded,"{""J09_total_inverseQ_rounded"": 1.6999999999999998e-06}",588235.2941176471,1,本书合成算例
+J09_exact_maintenance_deg_s,180*10000*J09_total_inverseQ_rounded,"{""J09_total_inverseQ_rounded"": 1.6999999999999998e-06}",3.0599999999999996,deg/s,本书合成算例
+J09_approx_maintenance_deg_s,180*10000*1.6e-6,{},2.88,deg/s,忽略本征损耗时对应原文2.88

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-30",
+  "sources": [
+    {
+      "id": "ragot2011",
+      "path": "D:/学习资料/资料/全角陀螺/ragot2011.pdf",
+      "sha256": "d05d7c2f0b48a8e81b3947405d434207b30cafabedd975b44fe6e2dab554ddc3",
+      "pdf_pages": 10,
+      "text_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boundary": "Full text read; formula-bearing pages and stated technical figures checked visually; independent derivations distinguished"
+    },
+    {
+      "id": "jeanroy2014",
+      "path": "D:/学习资料/资料/全角陀螺/jeanroy2014.pdf",
+      "sha256": "508ec098aaaf4cf3c3de8fdd1aa736e3de357742de8a9b00feab704a1b9c1eea",
+      "pdf_pages": 8,
+      "text_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boundary": "Full text read; formula-bearing pages and stated technical figures checked visually; independent derivations distinguished"
+    },
+    {
+      "id": "rozelle2009",
+      "path": "D:/学习资料/资料/全角陀螺/the-hemispherical-resonator-gyro-from-wineglass-to-the-planets-david-m-rozelle.pdf",
+      "sha256": "805e3e9c95fef295c95a03180e0665743b97133cf293458ca5427f59868e280e",
+      "pdf_pages": 29,
+      "text_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "visual_pages_reviewed": [
+        14,
+        16,
+        19,
+        20,
+        21
+      ],
+      "boundary": "Full text read; formula-bearing pages and stated technical figures checked visually; independent derivations distinguished"
+    }
+  ],
+  "ragot_missing_printed_numbers": [
+    32,
+    33,
+    34
+  ],
+  "rozelle_has_numbered_equations": false
+}
