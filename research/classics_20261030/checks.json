@@ -1,0 +1,185 @@
+{
+  "synthetic_only": true,
+  "seed": 19951030,
+  "random_cases": 128,
+  "checks": {
+    "07_08_Pauli_squares": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "08_all_six_Pauli_products": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "07_rotation_generator": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "02_rotation_inverse": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "03_stiffness_rotation": {
+      "max_abs_error": 2.3283064365386963e-10,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "04_damping_rotation": {
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "10_scalar_vector_motion": {
+      "max_abs_error": 4.656612873077393e-10,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "18_22_rotation_exponential": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "23_anisotropy_exponential": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "28_IQ_canonical_components": {
+      "max_abs_error": 2.482534153247273e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "31_all_seven_quadratics": {
+      "max_abs_error": 1.6011864169946886e-15,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "31_quadratic_constraints": {
+      "max_abs_error": 5.329070518200751e-15,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "30_true_rotation_invariants": {
+      "max_abs_error": 9.155133597044475e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "30_covariant_pairs": {
+      "max_abs_error": 9.155133597044475e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "34_rotated_Gamma": {
+      "max_abs_error": 8.441528768080323e-17,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "35_38_canonical_vs_complex_derivative": {
+      "max_abs_error": 1.0315407380583415e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "35_E_Q_chain_rule": {
+      "max_abs_error": 1.6653345369377348e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "38_independent_quadratic_derivatives": {
+      "max_abs_error": 3.056265732929336e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "37_two_by_two_elimination": {
+      "max_abs_error": 4.163336342344337e-17,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "39_signed_axis_recovery": {
+      "max_abs_error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "46_expanded_real_forces": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "13_coherent_demodulation": {
+      "max_abs_error": 2.482534153247273e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "V10_positive_frequency_phasor_mapping": {
+      "max_abs_error": 2.482534153247273e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "16_full_derivative_remainder_eps_0.02": {
+      "max_abs_error": 1.0342440364361154e-12,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "16_full_derivative_remainder_eps_0.01": {
+      "max_abs_error": 1.25677258647097e-13,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "16_full_derivative_remainder_eps_0.005": {
+      "max_abs_error": 7.980922288910665e-13,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "16_discarded_terms_second_order_scaling": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "30_R_S_individual_invariance_counterexample": {
+      "passed": true
+    },
+    "39_positive_root_loses_signed_Q": {
+      "passed": true
+    },
+    "37_circle_singularity": {
+      "passed": true
+    },
+    "38_unforced_lossless_E_conservation": {
+      "max_abs_error": 3.469446951953614e-18,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "40_zero_short_axis_zero_phase_limit": {
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "42_local_PI_pole_matching": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "42_PI_zero_conversion": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "42_energy_linearization_is_gamma_not_2gamma": {
+      "max_abs_error": 3.275602011854062e-12,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "16_full_carrier_frequency_correction_is_second_order": {
+      "passed": true
+    }
+  },
+  "passed": 36,
+  "total": 36,
+  "notes": [
+    "Positive-q and individual-invariance counterexamples confirm branch/wording limitations, not a repaired publication.",
+    "No real-head parameters, no claim of implemented new controller or complete Simulink/RTL verification."
+  ]
+}

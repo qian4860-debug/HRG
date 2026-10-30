@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-30",
+  "sources": [
+    {
+      "path": "D:/学习资料/资料/全角陀螺/经典文献_20261030/Lynch_平均法_用户提供九页扫描.pdf",
+      "sha256": "18ca3d2530a7b01174b25086e7480e557a0fd09f318cd067aec0ec4de4574961",
+      "bytes": 710870,
+      "id": "lynch_averaging_scan",
+      "title": "Vibratory Gyro Analysis by the Method of Averaging",
+      "author": "D. D. Lynch",
+      "original_path": "C:/Users/11725/xwechat_files/wxid_qvgyt57csh8y22_a935/msg/file/2026-10/vibratory gyro analysis by the method of averaging-Lynch经典.pdf",
+      "pdf_pages": 9,
+      "printed_pages": "18–26",
+      "visual_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "equations_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "year": "Conventionally cited as 1995; proceedings title/copyright pages absent from provided scan",
+      "boundary": "All 46 numbered equation groups reviewed and independently derived; handwritten annotations not treated as authorial print; not an exact-HRG-geometry or hardware proof"
+    },
+    {
+      "path": "D:/学习资料/资料/全角陀螺/经典文献_20261030/Zurich_2015_Control_of_MEMS_CVG_公开应用笔记.pdf",
+      "sha256": "5044dd06c66bcf84f366953980966c359b1039441cfc1f7b6fcb66257160cb2f",
+      "bytes": 645816,
+      "id": "zhinst_2015",
+      "title": "Control of MEMS Coriolis Vibratory Gyroscopes",
+      "pdf_pages": 9,
+      "text_pages_reviewed": [
+        9
+      ],
+      "url": "https://www.zhinst.com/sites/default/files/zi_appnote_mems_gyroscope.pdf",
+      "boundary": "Reference [6] reviewed as a route to Lynch 1998 Annex B; not a substitute for that original"
+    }
+  ],
+  "recommended_other_papers": [
+    {
+      "id": "lynch_1998",
+      "title": "Coriolis Vibratory Gyros",
+      "status": "conference_TOC_verified_no_fulltext",
+      "url": "https://www.tu-braunschweig.de/index.php?eID=dumpFile&f=177401&t=f&token=535e2fe0f690dfe51fd898b4828c2d6c8952a483",
+      "note": "University TOC says 15/16 September 1998; do not use old erroneous MEMS-PDF mapping"
+    },
+    {
+      "id": "ragot_2011",
+      "title": "A new control mode greatly improving performance of axisymmetrical vibrating gyroscopes",
+      "doi": "10.1134/S2075108711040134",
+      "url": "https://link.springer.com/article/10.1134/S2075108711040134",
+      "status": "publisher_abstract_only_no_equation_claim"
+    },
+    {
+      "id": "jeanroy_2014",
+      "title": "HRG and marine applications",
+      "doi": "10.1134/S2075108714020047",
+      "url": "https://link.springer.com/article/10.1134/S2075108714020047",
+      "status": "publisher_abstract_only_no_equation_claim"
+    },
+    {
+      "id": "rozelle_2009",
+      "title": "The Hemispherical Resonator Gyro: From Wineglass to the Planets",
+      "url": "https://www.researchgate.net/publication/279909300_The_Hemispherical_Resonator_Gyro_From_Wineglass_to_the_Planets",
+      "status": "author_public_fulltext_HTML_partial_sections_reviewed_PDF_not_obtained",
+      "note": "Identity and selected history/electronics excerpts, not whole-paper or equation verification"
+    },
+    {
+      "id": "lynch_history",
+      "title": "HRG Development at Delco, Litton, and Northrop Grumman",
+      "status": "secondary_bibliographic_identity_only_original_not_obtained",
+      "note": "2008 workshop / 2009 proceedings distinction unresolved without original; not two assumed independent papers"
+    }
+  ],
+  "public_download_attempts": [
+    {
+      "id": "rozelle_author",
+      "url": "https://www.researchgate.net/profile/David-Rozelle/publication/279909300_The_Hemispherical_Resonator_Gyro_From_Wineglass_to_the_Planets/links/00b7d53bd65d3c57b4000000/The-Hemispherical-Resonator-Gyro-From-Wineglass-to-the-Planets.pdf",
+      "status": "not_obtained",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "rozelle_original",
+      "url": "https://www.northropgrumman.com/Capabilities/HRG/Documents/hrg.pdf",
+      "status": "not_obtained",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "rozelle_citeseer",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=3a8e1409b948a36b1d95a58930aca570abc75632&repid=rep1&type=pdf",
+      "status": "not_obtained",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "lynch98_toc",
+      "url": "https://www.tu-braunschweig.de/index.php?eID=dumpFile&f=177401&t=f&token=535e2fe0f690dfe51fd898b4828c2d6c8952a483",
+      "status": "not_obtained",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "zhinst_citation",
+      "url": "https://www.zhinst.com/sites/default/files/zi_appnote_mems_gyroscope.pdf",
+      "status": "pdf_downloaded_identity_to_review",
+      "pages": 9,
+      "sha256": "5044dd06c66bcf84f366953980966c359b1039441cfc1f7b6fcb66257160cb2f"
+    },
+    {
+      "id": "rozelle_archived_original",
+      "url": "https://web.archive.org/web/20130921230739id_/http://www.northropgrumman.com/Capabilities/HRG/Documents/hrg.pdf",
+      "status": "not_obtained",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "independent_python_checks": 36,
+  "boundary": "Source identity and explicit reading levels; other-five fulltext gap remains"
+}
