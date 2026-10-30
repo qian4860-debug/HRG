@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "code_domain_2": true,
+    "code_domain_8": true,
+    "code_domain_18": true,
+    "code_domain_20": true,
+    "centers_arithmetic_mean": true,
+    "availability_one_sample_after_end": true,
+    "windows_nonoverlap": true,
+    "unweighted_sample_pseudoreplication_absent": true,
+    "A_independent": true,
+    "B_independent": true,
+    "Ad_independent": true,
+    "Bd_independent": true,
+    "reciprocal_port_energy_128_states": true,
+    "passive_plant_poles": true
+  },
+  "errors": {
+    "A": 1.1920928955078126e-16,
+    "B": 7.275957614183427e-16,
+    "Ad": 8.702084769917879e-11,
+    "Bd": 5.144218384600663e-12
+  },
+  "boundary": "Independent plant/quantizer/time contracts; controller tick replay is a separate scheduling check"
+}
