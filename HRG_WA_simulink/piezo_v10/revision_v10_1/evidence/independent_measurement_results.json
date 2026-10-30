@@ -11,6 +11,7 @@
     "A_independent": true,
     "B_independent": true,
     "Ad_independent": true,
+    "Ad_accuracy_at_charge_scale": true,
     "Bd_independent": true,
     "reciprocal_port_energy_128_states": true,
     "passive_plant_poles": true
@@ -18,8 +19,9 @@
   "errors": {
     "A": 1.1920928955078126e-16,
     "B": 7.275957614183427e-16,
-    "Ad": 8.702084769917879e-11,
-    "Bd": 5.144218384600663e-12
+    "Ad": 2.4252315544170056e-15,
+    "Ad_dimensionless": 9.43689570931383e-15,
+    "Bd": 3.219646771412954e-15
   },
   "boundary": "Independent plant/quantizer/time contracts; controller tick replay is a separate scheduling check"
 }

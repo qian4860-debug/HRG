@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "selected_offline_model_holdout_passed": true,
+    "linear_failure_preserved": true,
+    "train_test_temperatures_disjoint": true,
+    "no_unjustified_algorithm_expansion": true
+  },
+  "heldout_relative_errors": [
+    1.8133003024378503e-07,
+    1.909880104777871e-07,
+    1.98622515903834e-07,
+    1.438661693880696e-07
+  ],
+  "rejected_linear_heldout_errors": [
+    3.5283929033719006e-06,
+    2.484967484031562e-05,
+    2.468563720755651e-05,
+    3.533144718595283e-06
+  ]
+}

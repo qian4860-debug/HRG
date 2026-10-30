@@ -1,0 +1,82 @@
+{
+  "schema": "v10.1",
+  "synthetic": true,
+  "f0": 1000,
+  "gamma_intrinsic": 0.31415926535897931,
+  "Cs": 1E-9,
+  "G0": 1E-10,
+  "kappa": 1E-6,
+  "b": 1.1E-6,
+  "Cds": 0,
+  "Rs": 1000,
+  "B": 0.27699096196168066,
+  "Omega": 0.005,
+  "Ts": 2.5E-5,
+  "Tc": 0.001,
+  "duration": 0.8,
+  "charge_target": 1E-11,
+  "initial_fraction": 0.3,
+  "theta0": 0.4,
+  "Cf": 1E-10,
+  "Rf": 1.0E+9,
+  "driver_tau": [
+    2E-5,
+    2.4E-5
+  ],
+  "afe_bw": [
+    20000,
+    18000
+  ],
+  "detect_matrix": [
+    [
+      1,
+      0.025
+    ],
+    [
+      -0.015,
+      1.04
+    ]
+  ],
+  "drive_matrix": [
+    [
+      1,
+      -0.03
+    ],
+    [
+      0.02,
+      1.08
+    ]
+  ],
+  "split_hz": 0.002,
+  "stiffness_axis": 0.41,
+  "damping_half_difference": 0.02,
+  "damping_axis": -0.23,
+  "adc_span": 2,
+  "adc_bits": 20,
+  "dac_span": 2,
+  "dac_bits": 18,
+  "vmax": 1,
+  "agc_bw": 5,
+  "quad_bw": 4,
+  "pll_gain": 30,
+  "max_detune": 30,
+  "virtual_rate": 0,
+  "virtual_start_min_s": 0.25,
+  "virtual_settle_fraction": 0.01,
+  "predict_heading": true,
+  "max_heading_rate": 100,
+  "virtual_validated_limit": 0.2,
+  "min_amplitude_fraction": 0.02,
+  "min_linearity": 0.1,
+  "max_calibration_condition": 100,
+  "max_frame_age": 0.002,
+  "calibrate_detection": true,
+  "calibrate_drive": true,
+  "noise_rms_V": 0,
+  "noise_seed": 2.026103E+7,
+  "envTs": 0.02,
+  "envDuration": 300,
+  "env_quad_gain": 25,
+  "env_phase_gain": 20,
+  "env_amplitude_gain": 5
+}

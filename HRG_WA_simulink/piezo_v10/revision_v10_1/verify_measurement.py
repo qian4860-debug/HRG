@@ -38,10 +38,17 @@ def main():
     A[6:8]+=p['Cds']/p['Cs']*A[4:6];B[6:8]=p['Cds']/p['Cs']*B[4:6]
     A[8:10,6:8]=I/(p['Rs']*p['Cf']);A[8:10,8:10]=-I/(p['Rf']*p['Cf'])
     A[10:12,8:10]=np.diag(2*np.pi*np.array(p['afe_bw']))@np.array(p['detect_matrix']);A[10:12,10:12]=-np.diag(2*np.pi*np.array(p['afe_bw']))
-    m=np.zeros((14,14));m[:12,:12]=A;m[:12,12:]=B;E=expm(m*p['Ts']);errors={}
+    m=np.zeros((14,14));m[:12,:12]=A;m[:12,12:]=B
+    q=p['charge_target'];vs=max(1e-6,w*q*p['Rs'])
+    scale=np.array([q,q,w*q,w*q,1,1,vs,vs,q/p['Cf'],q/p['Cf'],q/p['Cf'],q/p['Cf'],1,1])
+    E=expm((m*scale[None,:]/scale[:,None])*p['Ts'])*scale[:,None]/scale[None,:];errors={}
     for name,expected in [('A',A),('B',B),('Ad',E[:12,:12]),('Bd',E[:12,12:])]:
         actual=np.loadtxt(EV/(name+'.csv'),delimiter=',');err=float(np.max(abs(actual-expected))/max(1.,np.max(abs(expected))))
         checks[name+'_independent']=err<1e-10;errors[name]=err
+        if name=='Ad':
+            normalized=(actual-expected)*scale[None,:12]/scale[:12,None]
+            errors['Ad_dimensionless']=float(np.max(abs(normalized)))
+            checks['Ad_accuracy_at_charge_scale']=errors['Ad_dimensionless']<1e-10
     rng=np.random.default_rng(31);error=0
     for _ in range(128):
         q=rng.normal(size=2)*1e-11;vel=rng.normal(size=2)*1e-7;vs=rng.normal(size=2)*.001

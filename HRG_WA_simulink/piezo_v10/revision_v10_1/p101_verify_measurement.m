@@ -31,6 +31,14 @@ finite=isfinite(d)&isfinite(r.d);check.simulink_diagnostics_scoreboard=isequal(i
 set_param(mdl,'SimulationCommand','update');check.model_reopens=true;save_system(mdl);close_system(mdl,0);
 load_system(fullfile(root,'models',[mdl '.slx']));set_param(mdl,'SimulationCommand','update');
 check.model_reopens=bdIsLoaded(mdl);
+% Stochastic ADC-input noise must enter the Simulink feedback loop as well as
+% the scheduling replay; precomputed fixture prevents extra Outputs calls
+% from advancing the random stream.
+noisy=p;noisy.noise_rms_V=5e-6;rn=p101_reference(noisy,c);
+mw=get_param(mdl,'ModelWorkspace');assignin(mw,'p',noisy);on=sim(mdl);
+check.noisy_closed_loop_state_scoreboard=max(abs(on.p101_states.Data-rn.x),[],'all')<1e-10;
+check.noisy_closed_loop_ADC_scoreboard=max(abs(on.p101_adc.Data-rn.adc),[],'all')<1e-12;
+assignin(mw,'p',p);close_system(mdl,0);
 pp=p;pp.calibrate_detection=false;uncal=p101_reference(pp,c);uncal=p101_metrics(uncal,pp);
 check.independent_detection_profile_improves=base.angle_rms_deg<uncal.angle_rms_deg;
 pp=p;pp.calibrate_drive=false;uncalDrive=p101_reference(pp,c);uncalDrive=p101_metrics(uncalDrive,pp);

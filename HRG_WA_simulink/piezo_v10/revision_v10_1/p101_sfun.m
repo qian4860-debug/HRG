@@ -7,7 +7,7 @@ b.RegBlockMethod('PostPropagationSetup',@alloc);b.RegBlockMethod('InitializeCond
 b.RegBlockMethod('Outputs',@outputs);b.RegBlockMethod('Update',@update);
 end
 function alloc(b)
-b.NumDworks=1;b.Dwork(1).Name='controller';b.Dwork(1).Dimensions=34;
+b.NumDworks=1;b.Dwork(1).Name='controller';b.Dwork(1).Dimensions=35;
 b.Dwork(1).DatatypeID=0;b.Dwork(1).Complexity='Real';b.Dwork(1).UsedAsDiscState=true;
 end
 function init(b),b.Dwork(1).Data=p101_state('init',b.DialogPrm(1).Data);end

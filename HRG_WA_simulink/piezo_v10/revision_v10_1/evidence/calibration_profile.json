@@ -1,6 +1,7 @@
 {
   "status": "synthetic_independent_reference_only",
   "frequency_Hz": 1000,
+  "sample_period_s": 2.5e-05,
   "detect_real": [
     [
       -9972404109.88023,

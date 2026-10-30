@@ -1,10 +1,11 @@
-function mdl=p101_build(p,c)
-if nargin<1,p=p101_config;end;if nargin<2,c=p101_calibration;end
+function mdl=p101_build(p,c,plant_p)
+if nargin<1,p=p101_config;end;if nargin<2,c=p101_calibration;end;if nargin<3,plant_p=p;end
 root=fileparts(mfilename('fullpath'));addpath(root);mdl='hrg_wa_v10_1_piezo';
+p101_validate(p,c);p101_validate(plant_p);
 assert(abs(p.Tc/p.Ts-round(p.Tc/p.Ts))<1e-10,'Noninteger demodulation window');
 if bdIsLoaded(mdl),close_system(mdl,0);end;new_system(mdl);
-mw=get_param(mdl,'ModelWorkspace');assignin(mw,'p',p);assignin(mw,'c',c);
-[Ad,Bd,x0]=p101_plant(p);assignin(mw,'Ad',Ad);assignin(mw,'Bd',Bd);assignin(mw,'x0',x0);
+mw=get_param(mdl,'ModelWorkspace');assignin(mw,'p',p);assignin(mw,'c',c);assignin(mw,'plant_p',plant_p);
+assert(plant_p.Ts==p.Ts);[Ad,Bd,x0]=p101_plant(plant_p);assignin(mw,'Ad',Ad);assignin(mw,'Bd',Bd);assignin(mw,'x0',x0);
 set_param(mdl,'Solver','FixedStepDiscrete','FixedStep','p.Ts','StopTime','p.duration','ReturnWorkspaceOutputs','on');
 add_block('simulink/Discrete/Discrete State-Space',[mdl '/Intrinsic_Mechanics_and_Explicit_Port_Load'],...
  'A','Ad','B','Bd','C','eye(12)','D','zeros(12,2)','InitialCondition','x0','SampleTime','p.Ts','Position',[70 90 290 170]);

@@ -1,0 +1,124 @@
+{
+  "checks": {
+    "temperature_simulink_vs_mismatched_replay": true,
+    "minimum_profile_independent_holdout": true,
+    "calibration_improves_temperature_errors": true,
+    "valid_temperature_carrier": true,
+    "extrapolation_rejected": true
+  },
+  "cases": {
+    "T1": {
+      "temperature_C": -10,
+      "calibrated": {
+        "total_frames": 500,
+        "valid_frames": 500,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.00071479414435027049,
+        "pattern_rms_deg": 0.00019799151764815785,
+        "energy_relative_mean": -0.0001130910215324521,
+        "quadrature_rms": 4.6519647296335188E-6,
+        "pll_phase_rms": 4.7102924622708087E-5,
+        "bias_deg_s": 0.00016665763809541761,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.430389404296875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "uncalibrated": {
+        "total_frames": 500,
+        "valid_frames": 500,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.4545715442902305,
+        "pattern_rms_deg": 0.12591220933335767,
+        "energy_relative_mean": -0.00011940918773689635,
+        "quadrature_rms": 2.8415154150444603E-6,
+        "pll_phase_rms": 0.062216120629981893,
+        "bias_deg_s": -0.094396807254156251,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.429656982421875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.13248750000000004,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      }
+    },
+    "T3": {
+      "temperature_C": 30,
+      "calibrated": {
+        "total_frames": 500,
+        "valid_frames": 500,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.0056801854218220572,
+        "pattern_rms_deg": 0.0015733600241112065,
+        "energy_relative_mean": -0.0001137650222213793,
+        "quadrature_rms": 3.7374007076079593E-6,
+        "pll_phase_rms": 2.978153902912767E-5,
+        "bias_deg_s": 0.0032530372372317497,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.42913055419921875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "uncalibrated": {
+        "total_frames": 500,
+        "valid_frames": 500,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.14630506096195048,
+        "pattern_rms_deg": 0.040525179575712993,
+        "energy_relative_mean": -0.00011280102952027082,
+        "quadrature_rms": 4.2468257008753706E-6,
+        "pll_phase_rms": 0.020720633445242949,
+        "bias_deg_s": 0.033305120243617467,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.43056488037109375,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      }
+    },
+    "T4": {
+      "temperature_C": 50,
+      "calibrated": {
+        "total_frames": 500,
+        "valid_frames": 500,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.0079961421938124552,
+        "pattern_rms_deg": 0.0022148591182464955,
+        "energy_relative_mean": -0.00011787338677071713,
+        "quadrature_rms": 3.60303301435806E-6,
+        "pll_phase_rms": 3.6870134962373482E-5,
+        "bias_deg_s": 0.0024540227887540692,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.4285125732421875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "uncalibrated": {
+        "total_frames": 500,
+        "valid_frames": 500,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.44914597587151339,
+        "pattern_rms_deg": 0.1244093759178683,
+        "energy_relative_mean": -0.00012972318092985269,
+        "quadrature_rms": 2.7470894928120411E-6,
+        "pll_phase_rms": 0.062159793235022368,
+        "bias_deg_s": 0.093901271274611633,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.43035125732421875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      }
+    }
+  },
+  "holdout_max_relative_error": 1.98622515903834E-7,
+  "algorithm_decision": "Minimal offline model passes fixture. PIR/online identification/TDM remain disabled; gradients/hysteresis not validated."
+}

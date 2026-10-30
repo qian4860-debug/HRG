@@ -45,7 +45,7 @@ def main():
     try:fit_matrix(np.ones((2,10)),np.ones((2,10)));checks['rank_deficient_rejected']=False
     except ValueError:checks['rank_deficient_rejected']=True
     checks={k:bool(v) for k,v in checks.items()}
-    profile=dict(status='synthetic_independent_reference_only',frequency_Hz=1000,
+    profile=dict(status='synthetic_independent_reference_only',frequency_Hz=1000,sample_period_s=Ts,
         detect_real=estimates['detect'].real.tolist(),detect_imag=estimates['detect'].imag.tolist(),
         drive_real=estimates['drive'].real.tolist(),drive_imag=estimates['drive'].imag.tolist(),
         feedthrough_real=estimates['blocked_feedthrough'].real.tolist(),feedthrough_imag=estimates['blocked_feedthrough'].imag.tolist(),

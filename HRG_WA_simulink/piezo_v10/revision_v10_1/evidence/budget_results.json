@@ -1,0 +1,42 @@
+{
+  "status": "conditional_local_linear_budget_verified_by_independent_MC",
+  "checks": {
+    "nine_angles_time_domain_MC_vs_covariance": true,
+    "quantization_has_dither_in_MC": true,
+    "coherent_quantization_not_assumed_white": true,
+    "saturation_budget_is_invalid_not_RSS": true
+  },
+  "worst_body_angle_rms_deg": {
+    "AFE_detector": 0.0011347429085438118,
+    "ADC_quantization_white": 0.00012495882486511013,
+    "clock_common": 3.876231242001043e-07,
+    "clock_independent": 4.9468160545591776e-05
+  },
+  "MC_sigma_to_prediction": [
+    0.989918863367248,
+    0.9997641300703425,
+    1.0009791133367314,
+    0.9989677311322196,
+    0.9935285367770892,
+    1.0033610018536006,
+    1.0074484929952023,
+    0.9861269653447218,
+    0.9985190817094741
+  ],
+  "ADC_input_noise_rms_V": 5e-06,
+  "demod_samples": 40,
+  "DAC_angle_rate_white_PSD_rad2_s2_per_Hz": 1.3799445039799812e-13,
+  "DAC_conditional_ARW_deg_sqrt_h": 0.000903004044542034,
+  "saturation": {
+    "test_peak_V": 1.05,
+    "linear_budget_valid": false,
+    "clipped": true
+  },
+  "assumptions": [
+    "ADC white noise flat over Nyquist; nonoverlapping complete carrier windows",
+    "full real 4x4 covariance of inverse complex calibration",
+    "DAC white/ARW estimate conditional on whitening; coherent quantization separately rejected",
+    "fixed skew is a bias; common/independent random jitter covariances differ",
+    "AFE spec is at ADC input, before deembedding; no measured hardware or closed-loop ARW claim"
+  ]
+}

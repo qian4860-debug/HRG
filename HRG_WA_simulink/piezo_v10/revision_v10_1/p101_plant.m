@@ -14,6 +14,12 @@ A(7:8,7:8)=-(1/p.Rs+p.G0)/p.Cs*eye(2);A(7:8,3:4)=-eye(2)/p.Cs;
 A(7:8,:)=A(7:8,:)+p.Cds/p.Cs*A(5:6,:);B(7:8,:)=p.Cds/p.Cs*B(5:6,:);
 A(9:10,7:8)=eye(2)/(p.Rs*p.Cf);A(9:10,9:10)=-eye(2)/(p.Rf*p.Cf);
 A(11:12,9:10)=diag(2*pi*p.afe_bw)*p.detect_matrix;A(11:12,11:12)=-diag(2*pi*p.afe_bw);
-E=expm([A B;zeros(2,14)]*p.Ts);Ad=E(1:12,1:12);Bd=E(1:12,13:14);
+% Discretize in dimensionless state coordinates: charge C (~1e-11),
+% velocity C/s and voltage V differ by many orders of magnitude. A raw-unit
+% expm can hide low-rate errors behind a small matrix-relative residual.
+qscale=p.charge_target;vscale=max(1e-6,w*qscale*p.Rs);
+sc=[qscale qscale w*qscale w*qscale 1 1 vscale vscale qscale/p.Cf qscale/p.Cf qscale/p.Cf qscale/p.Cf];
+S=diag([sc 1 1]);M=[A B;zeros(2,14)];E=S*expm((S\M*S)*p.Ts)/S;
+Ad=E(1:12,1:12);Bd=E(1:12,13:14);
 x0=zeros(12,1);x0(1:2)=p.initial_fraction*p.charge_target*[cos(p.theta0);sin(p.theta0)];
 end

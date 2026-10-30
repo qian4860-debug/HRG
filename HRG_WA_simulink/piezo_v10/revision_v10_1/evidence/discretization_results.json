@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "dimensionless_ZOH_vs_ODE": true,
+    "raw_SI_regression_detected": true
+  },
+  "scaled_state_max_error": 1.5543122344752192E-15,
+  "raw_SI_scaled_error": 2.4192942495254734E-7,
+  "boundary": "Charge and voltage SI scale imbalance; matrix-relative errors in raw units do not protect low-speed angle fidelity"
+}
