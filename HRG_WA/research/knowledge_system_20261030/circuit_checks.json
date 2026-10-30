@@ -1,0 +1,233 @@
+{
+  "seed": 20261030,
+  "total": 45,
+  "passed": 45,
+  "checks": {
+    "C01_mass_energy_integral_vs_quadratic": {
+      "error": 8.881784197001252e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C01_mass_positive": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C02_force_energy_gradient": {
+      "error": 6.45510311869657e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "C02_charge_energy_gradient": {
+      "error": 1.6310175432465712e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "C03_open_circuit_stiffening_positive": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C03_open_circuit_elimination": {
+      "error": 1.7763568394002505e-15,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C03_BVD_vs_mechanical_elimination": {
+      "error": 4.742874840267547e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C16_nonidentifiable_scaling_counterexample": {
+      "error": 5.551115164484813e-17,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C04_charge_frontend_MNA_vs_transfer": {
+      "error": 5.252698160767132e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C05_voltage_noise_MNA_vs_noise_gain": {
+      "error": 6.489601017780888e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C05_exact_single_pole_NG_bandwidth": {
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    "C06_charge_noise_floor_counterexample": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C09_thermal_noise_integral_vs_kTC": {
+      "error": 7.076981112241754e-09,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    "C06_ENBW_integral": {
+      "error": 1.1116495723939579e-08,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    "C07_MOS_gm_differential_vs_current": {
+      "error": 1.315570916093911e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    "C09_RC_half_LSB_boundary": {
+      "error": 1.6940658945086007e-21,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C09_sampling_cap_noise_allocation": {
+      "error": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C10_uniform_quantization_integral": {
+      "error": 8.333347900624233e-12,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C10_fullscale_SNR": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C10_periodic_quantizer_error_repeats": {
+      "error": 1.096345236817342e-15,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C10_white_error_assumption_rejected_for_periodic_input": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C12_hold_pulse_Fourier_vs_sinc": {
+      "error": 1.0279030859951594e-13,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C13_driver_phase_derivative": {
+      "error": 1.210465061518562e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    "C13_capacitive_current_RMS": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C08_CDAC_charge_conservation": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C11_SAR_MSB_halfscale": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C11_DeltaSigma_exact_integral_vs_lowfreq": {
+      "error": 7.529683589635461e-06,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "C11_comparator_ODE_rate": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C15_PI_pole_matching": {
+      "error": 8.881784197001252e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C06_angle_noise_gradient": {
+      "error": 1.155855966494812e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "C14_reference_charge_step": {
+      "error": 1.3552527156068805e-20,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C19_Miller_MNA_vs_polynomial": {
+      "error": 3.5291791359797024e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C19_right_half_plane_zero": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C19_nulling_resistor_zero_equation": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C19_nulling_resistor_moves_left": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C20_CDS_variance_from_covariance": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C20_average_covariance_vs_lag_sum": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C22_lecture_closed_gain_counterexample": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C22_feedback_linear_solve": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C22_PLL_characteristic": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C23_Butterworth_order_bound": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C23_Butterworth_stop_requirement": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C23_CIC_impulse_vs_rational": {
+      "error": 5.684341886080802e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    "C23_CIC_gain_delay": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "C24_Buck_volt_second_balance": {
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    }
+  },
+  "boundary": "Circuit mathematics and synthetic inputs; no PDK transistor simulation, new RTL run or measured head performance"
+}

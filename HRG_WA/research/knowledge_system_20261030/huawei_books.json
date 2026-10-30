@@ -1,0 +1,34 @@
+[
+  {
+    "id": "huawei_upper",
+    "original_path": "C:/Users/11725/Downloads/eetop.cn_华为模拟电路设计.pdf",
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/eetop.cn_华为模拟电路设计.pdf",
+    "sha256": "533b270a2d7c8cb6222d3e35219a2feb6054a2d0e306ba3adfd3621e2144ea0d",
+    "pdf_pages": 199,
+    "visual_pages_read": [
+      1,
+      2,
+      3,
+      64,
+      68
+    ],
+    "text_extraction": "broken glyph mapping; not relied on",
+    "boundary": "Cover identifies Huawei transmission business department; official distribution not independently verified; upper PDF68 equations missing placeholders, lower PDF6 algebra counterexample"
+  },
+  {
+    "id": "huawei_lower",
+    "original_path": "C:/Users/11725/Downloads/eetop.cn_华为模拟电路下册.pdf",
+    "library_path": "D:/学习资料/资料/电路学习/HRG知识体系_20261030/eetop.cn_华为模拟电路下册.pdf",
+    "sha256": "580de5fd7ab10df28b671d273789f711ac705070a64b76680c861b7137f8c023",
+    "pdf_pages": 82,
+    "visual_pages_read": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "text_extraction": "broken glyph mapping; not relied on",
+    "boundary": "Cover identifies Huawei transmission business department; official distribution not independently verified; upper PDF68 equations missing placeholders, lower PDF6 algebra counterexample"
+  }
+]

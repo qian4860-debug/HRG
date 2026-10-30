@@ -1,0 +1,443 @@
+[
+  {
+    "source": "ragot2011",
+    "original_equation": 1,
+    "author_numbered": true,
+    "book_node": "R01",
+    "pdf_page": 1,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(1)，PDF1：模态方程与自然频率"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 2,
+    "author_numbered": true,
+    "book_node": "R02",
+    "pdf_page": 1,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(2)，PDF1：为什么是椭圆而不是两条无关正弦"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 3,
+    "author_numbered": true,
+    "book_node": "R03",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(3)，PDF2：把控制力分到两种时间基底"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 4,
+    "author_numbered": true,
+    "book_node": "R04",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(4)，PDF2：慢变量究竟怎样求两次导数"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 5,
+    "author_numbered": true,
+    "book_node": "R05",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(5)，PDF2：四次投影与二元消元"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 6,
+    "author_numbered": true,
+    "book_node": "R06",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(6)，PDF2：只在短轴被压到零后解耦"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 7,
+    "author_numbered": true,
+    "book_node": "R07",
+    "pdf_page": 3,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(7)，PDF3：由命令合成物理力"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 8,
+    "author_numbered": true,
+    "book_node": "R08",
+    "pdf_page": 3,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(8)，PDF3：一个必须标出的符号不一致"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 9,
+    "author_numbered": true,
+    "book_node": "R09",
+    "pdf_page": 3,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(9)，PDF3：四个力通道的物理解释表"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 10,
+    "author_numbered": true,
+    "book_node": "R10",
+    "pdf_page": 3,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(10)，PDF3：质量、阻尼、刚度与旋转同时存在"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 11,
+    "author_numbered": true,
+    "book_node": "R11",
+    "pdf_page": 3,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(11)，PDF3：先精确移项，再声明近似"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 12,
+    "author_numbered": true,
+    "book_node": "R12",
+    "pdf_page": 4,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(12)，PDF4：质量缺陷中使用零阶运动"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 13,
+    "author_numbered": true,
+    "book_node": "R13",
+    "pdf_page": 4,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(13)，PDF4：为什么只看到刚度减质量"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 14,
+    "author_numbered": true,
+    "book_node": "R14",
+    "pdf_page": 4,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(14)，PDF4：把所有误差写成率量"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 15,
+    "author_numbered": true,
+    "book_node": "R15",
+    "pdf_page": 4,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(15)，PDF4：幅度固定、短轴为零时再求导"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 16,
+    "author_numbered": true,
+    "book_node": "R16",
+    "pdf_page": 4,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(16)，PDF4：四个投影全部展开，并审查印刷符号"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 17,
+    "author_numbered": true,
+    "book_node": "R17",
+    "pdf_page": 4,
+    "chapter": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+    "heading": "### 原式(17)，PDF4：合并正余弦时为什么必须有半角"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 18,
+    "author_numbered": true,
+    "book_node": "R18",
+    "pdf_page": 5,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(18)，PDF5：检测矩阵不只是一个标量增益"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 19,
+    "author_numbered": true,
+    "book_node": "R19",
+    "pdf_page": 5,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(19)，PDF5：实际驱动力与命令之间再隔一个矩阵"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 20,
+    "author_numbered": true,
+    "book_node": "R20",
+    "pdf_page": 5,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(20)，PDF5：一步一步进行坐标变换"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 21,
+    "author_numbered": true,
+    "book_node": "R21",
+    "pdf_page": 5,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(21)，PDF5：检测增益为何能污染科氏项"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 22,
+    "author_numbered": true,
+    "book_node": "R22",
+    "pdf_page": 5,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(22)，PDF5：方向相关的等效标度因数"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 23,
+    "author_numbered": true,
+    "book_node": "R23",
+    "pdf_page": 5,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(23)，PDF5：补偿矩阵的乘法顺序不能交换"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 24,
+    "author_numbered": true,
+    "book_node": "R24",
+    "pdf_page": 5,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(24)，PDF5：三个零偏来源及乘积关系"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 25,
+    "author_numbered": true,
+    "book_node": "R25",
+    "pdf_page": 6,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(25)，PDF6：锁住驻波时输出是什么"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 26,
+    "author_numbered": true,
+    "book_node": "R26",
+    "pdf_page": 6,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(26)，PDF6：为何主动匀速扫角"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 27,
+    "author_numbered": true,
+    "book_node": "R27",
+    "pdf_page": 6,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(27)，PDF6：必须减掉人为扫角命令"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 28,
+    "author_numbered": true,
+    "book_node": "R28",
+    "pdf_page": 6,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(28)，PDF6：一圈平均剩下哪一项"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 29,
+    "author_numbered": true,
+    "book_node": "R29",
+    "pdf_page": 6,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(29)，PDF6：正反两圈如何抵消执行标度误差"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 30,
+    "author_numbered": true,
+    "book_node": "R30",
+    "pdf_page": 7,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(30)，PDF7：逐项积分，不能把两个零均值乘积也当作零"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 31,
+    "author_numbered": true,
+    "book_node": "R31",
+    "pdf_page": 7,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(31)，PDF7：注入已知频率命令辨识执行标度"
+  },
+  {
+    "source": "ragot2011",
+    "original_equation": 35,
+    "author_numbered": true,
+    "book_node": "R35",
+    "pdf_page": 10,
+    "chapter": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+    "heading": "### 原式(35)，PDF10：互易性约束与“17参数可观”的边界"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 1,
+    "author_numbered": true,
+    "book_node": "J01",
+    "pdf_page": 1,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(1)，PDF1：通用两自由度式与四种力"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 2,
+    "author_numbered": true,
+    "book_node": "J02",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(2)，PDF2：FTR所需方向力"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 3,
+    "author_numbered": true,
+    "book_node": "J03",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(3)，PDF2：Q到振幅时间常数，逐个系数保留"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 4,
+    "author_numbered": true,
+    "book_node": "J04",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(4)，PDF2：频差的Hz、rad/s和半差约定"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 5,
+    "author_numbered": true,
+    "book_node": "J05",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(5)，PDF2：从力泄漏反推幅相误差上限"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 6,
+    "author_numbered": true,
+    "book_node": "J06",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(6)，PDF2：不平衡能量比例的假设"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 7,
+    "author_numbered": true,
+    "book_node": "J07",
+    "pdf_page": 2,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(7)，PDF2：支撑寄生模态的相位式及其限制"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 8,
+    "author_numbered": true,
+    "book_node": "J08",
+    "pdf_page": 3,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(8)，PDF3：Q定义与原文数值重算"
+  },
+  {
+    "source": "jeanroy2014",
+    "original_equation": 9,
+    "author_numbered": true,
+    "book_node": "J09",
+    "pdf_page": 3,
+    "chapter": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+    "heading": "### 原式(9)，PDF3：多个损耗途径为什么倒数相加"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z01",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z01，PDF18–19／印刷16–17：四节点驻波、角度与角增益"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z02",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z02，PDF19–20／印刷17–18：WA不是所有环路都断开"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z03",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z03，PDF20–21／印刷18–19：WA与FR的限制分别来自哪里"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z04",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z04，PDF21–22／印刷19–20：I/Q四变量怎样构造幅度和角度"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z05",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z05，PDF21–22：2倍频参数激励和DC调刚为何不能照搬压电头"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z06",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z06，PDF15–16／印刷13–14：热设计与频率测温的计算"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z07",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z07，PDF16／表5：数字接口、PWM与噪声指标"
+  },
+  {
+    "source": "rozelle2009",
+    "original_equation": null,
+    "author_numbered": false,
+    "book_node": "Z08",
+    "pdf_page": null,
+    "chapter": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+    "heading": "### Z08，全篇：历史、模式选择与外部证据"
+  }
+]

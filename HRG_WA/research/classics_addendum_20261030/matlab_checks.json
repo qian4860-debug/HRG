@@ -1,0 +1,16 @@
+{
+  "matlab": "25.1.0.2943329 (R2025a)",
+  "checks": {
+    "matrix_axes": true,
+    "quadrature_projection": true,
+    "direction_sign": true,
+    "product_DC": true,
+    "reversal": true,
+    "scale_inverse": true,
+    "negative_printed_Q": true,
+    "global_Q": true,
+    "parametric_power": true
+  },
+  "total": 9,
+  "boundary": "Synthetic mathematical checks, not Simulink or hardware performance"
+}
