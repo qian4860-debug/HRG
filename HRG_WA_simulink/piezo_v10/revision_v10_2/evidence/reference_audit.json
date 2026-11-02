@@ -1,0 +1,2786 @@
+{
+  "archive": "C:\\Users\\11725\\xwechat_files\\wxid_qvgyt57csh8y22_a935\\temp\\RWTemp\\2026-11\\cb4ddb28667600e67f7999fb47a06b60\\Gyro.rar",
+  "sha256": "c1eeca0b5c08963c4a8e62099596fa4755bf971613a04b3e327ffdf1323b4e71",
+  "method": "RAR selected source extraction; static ZIP/XML only; no reference code executed",
+  "models": [
+    {
+      "path": "drive/Drive.slx",
+      "sha256": "55c32ceba0cc50e37cefe948a54468a482745602b283a2eafece9f0c46268a82",
+      "block_counts": {
+        "Inport": 27,
+        "DataTypeConversion": 23,
+        "Delay": 45,
+        "From": 5,
+        "Goto": 5,
+        "Sum": 85,
+        "Gain": 101,
+        "Outport": 21,
+        "DownSample": 2,
+        "Reference": 18,
+        "Relay": 4,
+        "ZeroOrderHold": 4,
+        "Constant": 10,
+        "Memory": 8,
+        "Product": 18,
+        "Saturate": 4,
+        "DiscreteFilter": 4,
+        "SubSystem": 19,
+        "TransferFcn": 6,
+        "Abs": 2
+      },
+      "root": [
+        {
+          "name": "AMPFilter",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "AMPFilter2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Abs",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "Abs1",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "CIC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "CIC3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Constant",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "DAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Digital\nFilter Design",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "dspfdesign/Digital\nFilter Design"
+          }
+        },
+        {
+          "name": "Digital\nFilter Design1",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "dspfdesign/Digital\nFilter Design"
+          }
+        },
+        {
+          "name": "Filter",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Gain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain3",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "IIR",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "IIR3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Product",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product1",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "SDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "SDM1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation1",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation2",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Subsystem",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Subsystem1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "target",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "target1",
+          "type": "Constant",
+          "parameters": {}
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)",
+        "dspfdesign/Digital\nFilter Design"
+      ],
+      "callbacks_not_executed": [
+        {
+          "name": "CopyFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'copy');"
+        },
+        {
+          "name": "DeleteFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'close');"
+        },
+        {
+          "name": "LoadFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'load');"
+        },
+        {
+          "name": "ModelCloseFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'close');"
+        },
+        {
+          "name": "PreSaveFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'presave');"
+        },
+        {
+          "name": "PostSaveFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'postsave');"
+        },
+        {
+          "name": "CloseFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'close');"
+        },
+        {
+          "name": "CopyFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'copy');"
+        },
+        {
+          "name": "DeleteFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'close');"
+        },
+        {
+          "name": "LoadFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'load');"
+        },
+        {
+          "name": "ModelCloseFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'close');"
+        },
+        {
+          "name": "PreSaveFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'presave');"
+        },
+        {
+          "name": "PostSaveFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'postsave');"
+        },
+        {
+          "name": "CloseFcn",
+          "text": "dspblkCoreblockFVToolHelper(gcbh,'close');"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "drive/HIlbert/Hilbert.slx",
+      "sha256": "29f1ca7be54808eb2bd87bb43a04a24b4e341beb7beaafb248508a332f7981da",
+      "block_counts": {
+        "Inport": 1,
+        "Delay": 5,
+        "Sum": 5,
+        "Gain": 6,
+        "Outport": 1,
+        "SubSystem": 1
+      },
+      "root": [
+        {
+          "name": "Hilbert",
+          "type": "SubSystem",
+          "parameters": {}
+        }
+      ],
+      "library_references": [],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "drive/HIlbert/testHilbert.slx",
+      "sha256": "20cf1fb9f829ea4b29a2c46d5c97ae31dc77270f9b8624aa8e9511defb4729e7",
+      "block_counts": {
+        "Inport": 1,
+        "Delay": 5,
+        "Sum": 5,
+        "Gain": 6,
+        "Outport": 1,
+        "SubSystem": 1,
+        "Sin": 1
+      },
+      "root": [
+        {
+          "name": "Hilbert",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Sine Wave",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "Ts"
+          }
+        }
+      ],
+      "library_references": [],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "drive/phaseShift/testPhaseShift.slx",
+      "sha256": "c8f145e00e47b721662b86322912e4ee4586144969308d34d0286517dbd2cdaa",
+      "block_counts": {
+        "Inport": 1,
+        "DiscreteFilter": 2,
+        "Gain": 2,
+        "Memory": 2,
+        "Sum": 1,
+        "Outport": 1,
+        "SubSystem": 1,
+        "Sin": 1
+      },
+      "root": [
+        {
+          "name": "PhaseShift",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Sine Wave",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        }
+      ],
+      "library_references": [],
+      "callbacks_not_executed": []
+    },
+    {
+      "path": "final/allMode.slx",
+      "sha256": "38daa9ec46af3e061ba297a402adf688e75c46f9f6a703847151eabce91ebd94",
+      "block_counts": {
+        "Inport": 69,
+        "DataTypeConversion": 58,
+        "Delay": 124,
+        "From": 12,
+        "Goto": 12,
+        "Sum": 229,
+        "Gain": 259,
+        "Outport": 57,
+        "DiscreteFilter": 4,
+        "Memory": 16,
+        "SubSystem": 54,
+        "Product": 42,
+        "TransferFcn": 9,
+        "DownSample": 5,
+        "Reference": 41,
+        "Relay": 10,
+        "ZeroOrderHold": 10,
+        "Constant": 27,
+        "Saturate": 11,
+        "Abs": 3,
+        "Sin": 2
+      },
+      "root": [
+        {
+          "name": "AMPFilter",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Abs1",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "Abs2",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "Abs3",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "Constant1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant2",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant3",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant4",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant5",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant6",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Digital\nFilter Design",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "dspfdesign/Digital\nFilter Design"
+          }
+        },
+        {
+          "name": "Filter1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Filter4",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Filter5",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Filter5E-3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Filter6",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Filter7",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Filter8",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain10",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain11",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain12",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain13",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain19",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain3",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain4",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain5",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain6",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain7",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain8",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain9",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "IIR",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Product1",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product2",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product3",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product4",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product5",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product6",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product7",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product8",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product9",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation1",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation2",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation3",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation4",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation5",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Sine Wave1",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "Sine Wave3",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "Subsystem1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Subsystem2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Sum",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "digitalHeadFinal1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveCIC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveCIC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveCIC2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePhaseShift",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePhaseShift1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePhaseShift2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveSDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveSDM1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveSDM2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "orPID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseCIC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseCIC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDAC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "senseGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "sensePID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "sensePID1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseSDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseSDM1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "target1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "target2",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "target4",
+          "type": "Constant",
+          "parameters": {}
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)",
+        "dspfdesign/Digital\nFilter Design"
+      ],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "final/digitalGyro.slx",
+      "sha256": "9d7d8ae08d099c958092043b857e736b5f635b21794e2b9b7a543446959c3c61",
+      "block_counts": {
+        "Abs": 1,
+        "Constant": 14,
+        "Reference": 17,
+        "Gain": 103,
+        "Sin": 1,
+        "SubSystem": 21,
+        "Product": 19,
+        "Saturate": 5,
+        "Sum": 94,
+        "ToWorkspace": 1,
+        "Inport": 27,
+        "DataTypeConversion": 20,
+        "DiscreteFilter": 2,
+        "Memory": 7,
+        "Outport": 22,
+        "Delay": 50,
+        "TransferFcn": 3,
+        "DownSample": 2,
+        "Relay": 4,
+        "ZeroOrderHold": 4,
+        "From": 5,
+        "Goto": 5
+      },
+      "root": [
+        {
+          "name": "Abs",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "Constant5",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Filter1",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "dsparch4/Biquad Filter"
+          }
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain15",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain4",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain8",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "InputRad1",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "MassVdc",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "MassVdc1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift90",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Product",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product2",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product3",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product8",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product9",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "QuantifyGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "QuantifyGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation2",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Sum1",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "To Workspace",
+          "type": "ToWorkspace",
+          "parameters": {
+            "SampleTime": "-1"
+          }
+        },
+        {
+          "name": "digitalHeadFinal1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveCIC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveSDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "orFilter",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "orPID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseCIC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "senseIIR",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseSDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "sesePID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "target",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "target1",
+          "type": "Constant",
+          "parameters": {}
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)",
+        "dsparch4/Biquad Filter"
+      ],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "final/TJ_Gyro.slx",
+      "sha256": "74e893c3d1026e6d3a82759cc768329f834154b5a7b08602d572eda9095a88b5",
+      "block_counts": {
+        "Inport": 46,
+        "Delay": 86,
+        "Gain": 185,
+        "Sum": 152,
+        "Outport": 40,
+        "DiscreteFilter": 4,
+        "Memory": 11,
+        "SubSystem": 37,
+        "Product": 24,
+        "TransferFcn": 6,
+        "DataTypeConversion": 37,
+        "DownSample": 4,
+        "Reference": 32,
+        "Relay": 8,
+        "ZeroOrderHold": 8,
+        "From": 8,
+        "Goto": 8,
+        "Constant": 14,
+        "Saturate": 7,
+        "Abs": 2,
+        "Sin": 2
+      },
+      "root": [
+        {
+          "name": "Abs1",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "Abs2",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "Constant1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant2",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant3",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Gain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain10",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain3",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain4",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain5",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain6",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain7",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain8",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain9",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Product1",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product2",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product3",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product4",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product5",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation1",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation2",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation3",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation4",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Sine Wave1",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "Sine Wave3",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "Subsystem1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Subsystem2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveCIC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveCIC2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDC2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveIIR4",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePhaseShift1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "drivePhaseShift2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveSDM1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveSDM2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseCIC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseCIC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDAC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "senseGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "sensePID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseSDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseSDM1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "target1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "target2",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "omg",
+          "type": "Outport",
+          "parameters": {}
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)"
+      ],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "Heading/Heading.slx",
+      "sha256": "42128d77fd16c819140e5b71c41913026848183226d4346d5570f72ac506f961",
+      "block_counts": {
+        "Inport": 4,
+        "Gain": 5,
+        "Product": 5,
+        "Sum": 1,
+        "TransferFcn": 3,
+        "Outport": 2
+      },
+      "root": [
+        {
+          "name": "driver V",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "Vdc",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "rad",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "fb",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "Gain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain3",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain4",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Product",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product1",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product2",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product3",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product4",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Sum",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Transfer Fcn1",
+          "type": "TransferFcn",
+          "parameters": {
+            "Denominator": "[1 0]"
+          }
+        },
+        {
+          "name": "drive_mode",
+          "type": "TransferFcn",
+          "parameters": {
+            "Numerator": "[1 0]",
+            "Denominator": "[driveM driveB driveK]"
+          }
+        },
+        {
+          "name": "drive_mode1",
+          "type": "TransferFcn",
+          "parameters": {
+            "Numerator": "1",
+            "Denominator": "[senseM senseB senseK]"
+          }
+        },
+        {
+          "name": "driveOut",
+          "type": "Outport",
+          "parameters": {}
+        },
+        {
+          "name": "senseOut",
+          "type": "Outport",
+          "parameters": {}
+        }
+      ],
+      "library_references": [],
+      "callbacks_not_executed": []
+    },
+    {
+      "path": "Heading/headOr.slx",
+      "sha256": "886d8782889b4e591963437db49d00d55d74546c534872bd57318a20f3d30ad1",
+      "block_counts": {
+        "Inport": 4,
+        "Gain": 6,
+        "Product": 5,
+        "Sum": 1,
+        "TransferFcn": 3,
+        "Outport": 2
+      },
+      "root": [
+        {
+          "name": "driver V",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "Vdc",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "rad",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "fb",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "Gain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain3",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain4",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain5",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Product",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product1",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product2",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product3",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product4",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Sum",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Transfer Fcn1",
+          "type": "TransferFcn",
+          "parameters": {
+            "Denominator": "[1 0]"
+          }
+        },
+        {
+          "name": "drive_mode",
+          "type": "TransferFcn",
+          "parameters": {
+            "Numerator": "[1 0]",
+            "Denominator": "[driveM driveB driveK]"
+          }
+        },
+        {
+          "name": "drive_mode1",
+          "type": "TransferFcn",
+          "parameters": {
+            "Numerator": "1",
+            "Denominator": "[senseM senseB senseK]"
+          }
+        },
+        {
+          "name": "driveOut",
+          "type": "Outport",
+          "parameters": {}
+        },
+        {
+          "name": "senseOut",
+          "type": "Outport",
+          "parameters": {}
+        }
+      ],
+      "library_references": [],
+      "callbacks_not_executed": []
+    },
+    {
+      "path": "orthogonal/final.slx",
+      "sha256": "060e64fb812b78a9b19efcc5544c2fa8cad108536c43eb1e857bc51745ca3cf5",
+      "block_counts": {
+        "SubSystem": 17,
+        "Abs": 1,
+        "Constant": 14,
+        "DataTypeConversion": 15,
+        "Gain": 101,
+        "Sin": 1,
+        "Product": 19,
+        "Saturate": 5,
+        "Sum": 90,
+        "ToWorkspace": 1,
+        "Inport": 23,
+        "Delay": 46,
+        "From": 5,
+        "Goto": 5,
+        "Outport": 18,
+        "DownSample": 2,
+        "DiscreteFilter": 4,
+        "Memory": 7,
+        "TransferFcn": 3,
+        "Reference": 16,
+        "Relay": 4,
+        "ZeroOrderHold": 4
+      },
+      "root": [
+        {
+          "name": "AMPFilter2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Abs2",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "CIC3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "CIC4",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Constant5",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "ConvertIn7",
+          "type": "DataTypeConversion",
+          "parameters": {}
+        },
+        {
+          "name": "DCFilter1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Filter",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Gain11",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain12",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain14",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain15",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain17",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain18",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain19",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "IIR3",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "IIR4",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "InputRad1",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "MassVdc",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "MassVdc1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift2",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift90°1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Product4",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product5",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product6",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product8",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product9",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "QuantifyGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "QuantifyGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation4",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Sum1",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "To Workspace",
+          "type": "ToWorkspace",
+          "parameters": {
+            "SampleTime": "-1"
+          }
+        },
+        {
+          "name": "digitalHeadFinal1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveSDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "orPID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseDAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseGain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "sensePID1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseSDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "target2",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "target3",
+          "type": "Constant",
+          "parameters": {}
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)"
+      ],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "SDM/CIC.slx",
+      "sha256": "ca0f6b51e83a06c0617910c1bc5a176859d4c2d0d6e9a93155ed37b06931f4ad",
+      "block_counts": {
+        "Inport": 1,
+        "DataTypeConversion": 2,
+        "Delay": 10,
+        "DownSample": 1,
+        "Sum": 10,
+        "Outport": 1
+      },
+      "root": [
+        {
+          "name": "in",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "Data Type Conversion",
+          "type": "DataTypeConversion",
+          "parameters": {}
+        },
+        {
+          "name": "Data Type Conversion1",
+          "type": "DataTypeConversion",
+          "parameters": {}
+        },
+        {
+          "name": "Delay",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "Ts"
+          }
+        },
+        {
+          "name": "Delay1",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "Ts"
+          }
+        },
+        {
+          "name": "Delay2",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "Ts"
+          }
+        },
+        {
+          "name": "Delay3",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "Ts"
+          }
+        },
+        {
+          "name": "Delay4",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "Ts"
+          }
+        },
+        {
+          "name": "Delay5",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "16*Ts"
+          }
+        },
+        {
+          "name": "Delay6",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "16*Ts"
+          }
+        },
+        {
+          "name": "Delay7",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "16*Ts"
+          }
+        },
+        {
+          "name": "Delay8",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "16*Ts"
+          }
+        },
+        {
+          "name": "Delay9",
+          "type": "Delay",
+          "parameters": {
+            "SampleTime": "16*Ts"
+          }
+        },
+        {
+          "name": "Downsample",
+          "type": "DownSample",
+          "parameters": {}
+        },
+        {
+          "name": "Sum",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum1",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum2",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum3",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum4",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum5",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum6",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum7",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum8",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum9",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "out",
+          "type": "Outport",
+          "parameters": {}
+        }
+      ],
+      "library_references": [],
+      "callbacks_not_executed": []
+    },
+    {
+      "path": "SDM/IIR.slx",
+      "sha256": "71290eb71636cc0a78b536e0b5556290a452de8a0c572158c492214bbf940162",
+      "block_counts": {
+        "Inport": 1,
+        "Delay": 4,
+        "From": 1,
+        "Goto": 1,
+        "Sum": 8,
+        "Gain": 8,
+        "Outport": 1,
+        "SubSystem": 1
+      },
+      "root": [
+        {
+          "name": "IIR",
+          "type": "SubSystem",
+          "parameters": {}
+        }
+      ],
+      "library_references": [],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "SDM/SDM.slx",
+      "sha256": "cceb7e4a676fa9a2036b92a29132e3717eafd1297ba73c9cfcbbc41ab649529f",
+      "block_counts": {
+        "Inport": 1,
+        "Gain": 9,
+        "Reference": 4,
+        "Relay": 1,
+        "Sum": 2,
+        "ZeroOrderHold": 1,
+        "Outport": 1
+      },
+      "root": [
+        {
+          "name": "in",
+          "type": "Inport",
+          "parameters": {}
+        },
+        {
+          "name": "Gain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain3",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain4",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain5",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain6",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain7",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain8",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "IDEAL Integrator\n(with Delay)",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "SDtoolbox/IDEAL Integrator\n(with Delay)"
+          }
+        },
+        {
+          "name": "IDEAL Integrator\n(with Delay)1",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "SDtoolbox/IDEAL Integrator\n(with Delay)"
+          }
+        },
+        {
+          "name": "IDEAL Integrator\n(with Delay)2",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "SDtoolbox/IDEAL Integrator\n(with Delay)"
+          }
+        },
+        {
+          "name": "IDEAL Integrator\n(with Delay)3",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "SDtoolbox/IDEAL Integrator\n(with Delay)"
+          }
+        },
+        {
+          "name": "Relay",
+          "type": "Relay",
+          "parameters": {}
+        },
+        {
+          "name": "Sum",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Sum1",
+          "type": "Sum",
+          "parameters": {}
+        },
+        {
+          "name": "Zero-Order\nHold",
+          "type": "ZeroOrderHold",
+          "parameters": {
+            "SampleTime": "Ts"
+          }
+        },
+        {
+          "name": "out",
+          "type": "Outport",
+          "parameters": {}
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)"
+      ],
+      "callbacks_not_executed": []
+    },
+    {
+      "path": "SDM/testSDM.slx",
+      "sha256": "8ab7cad715bb9f6cb5d39d13cb272cd1bdc64bf0422efc4b763dc58d952918d1",
+      "block_counts": {
+        "Inport": 3,
+        "DataTypeConversion": 4,
+        "Delay": 14,
+        "DownSample": 1,
+        "Sum": 20,
+        "Outport": 3,
+        "From": 1,
+        "Goto": 1,
+        "Gain": 18,
+        "Reference": 5,
+        "Relay": 1,
+        "ZeroOrderHold": 1,
+        "SubSystem": 3,
+        "Sin": 2,
+        "ToWorkspace": 3
+      },
+      "root": [
+        {
+          "name": "CIC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "IIR",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Power Spectral Density",
+          "type": "Reference",
+          "parameters": {
+            "SourceBlock": "SDtoolbox/Power Spectral Density"
+          }
+        },
+        {
+          "name": "SDM1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Sine Wave",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "Sine Wave1",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "To Workspace",
+          "type": "ToWorkspace",
+          "parameters": {
+            "SampleTime": "-1"
+          }
+        },
+        {
+          "name": "To Workspace1",
+          "type": "ToWorkspace",
+          "parameters": {
+            "SampleTime": "-1"
+          }
+        },
+        {
+          "name": "To Workspace2",
+          "type": "ToWorkspace",
+          "parameters": {
+            "SampleTime": "-1"
+          }
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)",
+        "SDtoolbox/Power Spectral Density"
+      ],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    },
+    {
+      "path": "sense/senseWithDrive.slx",
+      "sha256": "b6952a2241942bfc08784bdc6ebe6dad7574b9a4d0fa3dd35e16eb5a31d8374d",
+      "block_counts": {
+        "SubSystem": 15,
+        "Abs": 1,
+        "Constant": 10,
+        "Gain": 91,
+        "Product": 14,
+        "Saturate": 4,
+        "Sin": 1,
+        "Inport": 20,
+        "DataTypeConversion": 12,
+        "Delay": 40,
+        "From": 4,
+        "Goto": 4,
+        "Sum": 75,
+        "Outport": 16,
+        "DownSample": 2,
+        "Reference": 16,
+        "Relay": 4,
+        "ZeroOrderHold": 4,
+        "DiscreteFilter": 4,
+        "Memory": 6,
+        "TransferFcn": 3
+      },
+      "root": [
+        {
+          "name": "AMPFilter",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Abs",
+          "type": "Abs",
+          "parameters": {}
+        },
+        {
+          "name": "CIC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "CIC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Constant",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant1",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "Constant2",
+          "type": "Constant",
+          "parameters": {}
+        },
+        {
+          "name": "DAC",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "DAC1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "DCFilter",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Gain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain1",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain2",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain3",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain4",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain5",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain6",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "Gain7",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "IIR",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "IIR1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "PhaseShift90°",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Product",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product1",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "Product2",
+          "type": "Product",
+          "parameters": {}
+        },
+        {
+          "name": "SDM",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "SDM1",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation1",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Saturation2",
+          "type": "Saturate",
+          "parameters": {}
+        },
+        {
+          "name": "Sine Wave3",
+          "type": "Sin",
+          "parameters": {
+            "SampleTime": "0"
+          }
+        },
+        {
+          "name": "Subsystem",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "driveGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "drivePID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "senseGain",
+          "type": "Gain",
+          "parameters": {}
+        },
+        {
+          "name": "sensePID",
+          "type": "SubSystem",
+          "parameters": {}
+        },
+        {
+          "name": "target",
+          "type": "Constant",
+          "parameters": {}
+        }
+      ],
+      "library_references": [
+        "SDtoolbox/IDEAL Integrator\n(with Delay)"
+      ],
+      "callbacks_not_executed": [
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        },
+        {
+          "name": "ErrorFcn",
+          "text": "dspFilterRealizedInBasicElemsAlgLoopErrFcnCallback"
+        }
+      ]
+    }
+  ]
+}

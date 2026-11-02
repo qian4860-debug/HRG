@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "five_state_owners": true,
+    "each_state_owned_once": true,
+    "joint_update_independent_random_vectors": true,
+    "all_three_closed_loop_cases": true,
+    "fifteen_reference_models_audited": true,
+    "source_external_dependency_identified": true
+  },
+  "max_normalized_row_assembly_error": 5.551115123125783e-16,
+  "scope": "Structural and shared-ZOH integrity; no independent claim of hardware validity"
+}
