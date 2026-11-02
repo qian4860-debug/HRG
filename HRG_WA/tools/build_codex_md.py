@@ -143,6 +143,10 @@ def category(name):
 
 def build():
     base = git('rev-parse', 'HEAD').decode().strip()
+    prior_path = DEST/'manifest.json'
+    prior = json.loads(prior_path.read_text(encoding='utf-8')) if prior_path.exists() else {}
+    prior_entries = {entry['source']: entry for entry in prior.get('entries', [])}
+    current_docs = sorted(p for p in DEST.glob('[0-9][0-9]_*.md') if not p.name.startswith('00_'))
     tracked = git('ls-files', '-z', '--', '*.md').decode().rstrip('\0').split('\0')
     changed = set(git('diff', '--name-only', '-z', 'HEAD').decode().rstrip('\0').split('\0'))
     sources, excluded = [], []
@@ -177,6 +181,15 @@ def build():
         name, data, text = item['source'], item['data'], item['text']
         archive = mapping[name]
         links = []
+        previous = prior_entries.get(name)
+        if (name != HISTORY and previous and previous['source_sha256'] == digest(data)
+                and previous['archive'] == archive
+                and previous['source_dirty_at_archive'] == item['source_dirty']
+                and (ROOT/archive).exists()
+                and digest((ROOT/archive).read_bytes()) == previous['archive_sha256']):
+            # Retain original snapshot provenance for unchanged historical documents.
+            entries.append(previous)
+            continue
         if name == HISTORY:
             rendered, accepted, omitted = clean_history(text)
             history = {'source_records': len(accepted)+len(omitted), 'kept': len(accepted),
@@ -205,6 +218,10 @@ def build():
              '保留原目录层级以区分重复文件名和版本；正文中的可识别本地链接已调整。'
              '原工程位置保持兼容和原始验收字节。\n\n')
     index += f'共归档 **{len(entries)}** 份既有 Markdown；用户记录清理视图保留 **{history["kept"]}** 条。\n\n'
+    index += '## 本目录新增修订\n\n'
+    for document in reversed(current_docs):
+        index += '- '+mdlink(document.stem, document.name)+'\n'
+    index += '\n'
     for group in sorted(set(x['category'] for x in entries)):
         index += f'## {group}\n\n| 归档文件 | 原位置 | 来源状态 |\n|---|---|---|\n'
         for entry in entries:
@@ -224,7 +241,8 @@ def build():
     readme += ('这里集中管理本项目历次 Codex 对话形成的 Markdown，采用**文件夹 + 索引 + 分版本正文**，'
                '不拼成一个巨型文件。新文档直接写入本目录；既有文档在 `历史文档/` 中保留原相对目录。\n\n')
     readme += '## 从这里开始\n\n'
-    readme += '- [本轮五个创新点 V3](01_五个创新点_复核后改良V3_20261102.md)：采纳并进一步核验 DSH 06 的意见。\n'
+    for document in reversed(current_docs):
+        readme += '- '+mdlink(document.stem, document.name)+'\n'
     readme += '- [全部文档索引](00_文档索引.md)：总书、推导、文献、模型、RTL、配置和历史版本逐项列出。\n'
     readme += '- [用户提问记录](00_用户提问记录.md)：可见原文与交互回执的清理视图。\n'
     readme += '- [DSH 对 V2 的复核](../DSH_md/06_对V2修订意见的可行性复核_20261102.md)及 [DSH 全部文档](../DSH_md/README.md)。\n\n'
@@ -251,8 +269,7 @@ def build():
                 'history_counts': {'source_records': history['source_records'], 'kept': history['kept']},
                 'generated_index_sha256': {name: digest((DEST/name).read_bytes()) for name in
                                           ['README.md', '00_文档索引.md', 'history_filter_audit.json']},
-                'current_document_sha256': {
-                    '01_五个创新点_复核后改良V3_20261102.md': digest((DEST/'01_五个创新点_复核后改良V3_20261102.md').read_bytes())}}
+                'current_document_sha256': {p.name: digest(p.read_bytes()) for p in current_docs}}
     write('manifest.json', json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
     return manifest
 
