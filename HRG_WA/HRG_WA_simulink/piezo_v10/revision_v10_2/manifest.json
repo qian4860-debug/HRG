@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-02",
+  "files": {
+    "audit_reference.py": "b7d20241ca2cc3993cb7a6bbc4ed94f82051454a230c83b8dba8bd03154a96c9",
+    "check_delivery.py": "51de02bbdc26f55d4cab62e998c5c068951a976c275204b3cb35f93f3ec3dece",
+    "evidence/architecture.png": "d191f2b5f8678bea6bd9ccfdda2a0a88811afc278511d3af7e2231044d8ed0a6",
+    "evidence/independent_results.json": "3ac4c41ce0c3d5513ba579097fa0aea6efc281ef7037f36ac237e46358bbea88",
+    "evidence/reference_audit.json": "f75ee0f9000c780acce310c846569115a8c45276c511f2de1f7f0c6a775157b7",
+    "evidence/results.json": "a235944ccc9de2b779de9b8e48150812dc0624035d7590d7e48ba913a057cd60",
+    "models/hrg_wa_v10_2_modular.slx": "4c5ededd502d102bd5a4b67328ea0ca9f99bd0e837000119959cc47309a244d2",
+    "models/hrg_wa_v10_2_modules.slx": "907764d47cb5107bba63708a69f36d5767972fbab3c73e8f4592de5c58bd9969",
+    "models/hrg_wa_v10_2_port_bench.slx": "ba45af06cec8bd40254012d0560e8a86ccb732534edbf8852452ddbb184c3bce",
+    "p102_build.m": "fb0365ff8981359aa9f9e1395adb56806091e0931cc40301a80c1bff80c8910a",
+    "p102_demo.m": "f3a28972380b37ad86cab2593ab74e722ec32056c0d63b57ca6f1d9d89b86a48",
+    "p102_setup.m": "2baf4be20eccee1c8963749f489a89b6e6150e24cdd8a731d69fdc9df3650867",
+    "p102_verify.m": "0bc1dc1066f3966ef98e9cbf27fd6503ebd6654cb7c95efb15a9389593937fd0",
+    "README.md": "b579d7872b78abf7bc9c3c96023647cb9781f10f77d2ad799905cfafa0e12635",
+    "verify_structure.py": "40562c77b5cdb02236cab43882d8ec41cc4bb8f36a7599cdb0c817e147730906",
+    "结构对照与设计说明.md": "50921b0cc4f3aaf0e0b44b46349fb0195e39c011bc9eebb59c4c5fa7c0801314"
+  },
+  "v10_1_manifest_sha256": "09e52886dbf55e84ee2bdb6d68a386aa176c02384d0f0fa713042939162dab5f",
+  "scope": "24 recorded structural checks. No physical parameter or control algorithm change. Reference source not redistributed."
+}
