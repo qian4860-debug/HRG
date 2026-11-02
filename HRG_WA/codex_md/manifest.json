@@ -1,0 +1,3659 @@
+{
+  "schema": 1,
+  "date": "2026-11-02",
+  "source_base_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+  "mode": "central_archive_with_original_paths_preserved",
+  "entries": [
+    {
+      "source": "00_全角陀螺研究总览与资料审阅清单_20261010.md",
+      "archive": "codex_md/历史文档/00_全角陀螺研究总览与资料审阅清单_20261010.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "bb77293d5f7217fe015594d8cc1e8bfb7377bf37fbc22289e808b1819618ee12",
+      "archive_sha256": "33a87a284bcb5dfbe953561dbc95c13bf0b6611070a5f285048ee17e46f6267d",
+      "rewritten_local_links": [
+        {
+          "source_href": "01_已有研究工作与创新点审计_20261010.md",
+          "resolved_target": "codex_md/历史文档/01_已有研究工作与创新点审计_20261010.md"
+        },
+        {
+          "source_href": "02_最新技术进展与文献对照_20261010.md",
+          "resolved_target": "codex_md/历史文档/02_最新技术进展与文献对照_20261010.md"
+        },
+        {
+          "source_href": "03_小论文选题与2025二区期刊匹配_20261010.md",
+          "resolved_target": "codex_md/历史文档/03_小论文选题与2025二区期刊匹配_20261010.md"
+        },
+        {
+          "source_href": "04_博士研究路线与后续进展台账_20261010.md",
+          "resolved_target": "codex_md/历史文档/04_博士研究路线与后续进展台账_20261010.md"
+        }
+      ]
+    },
+    {
+      "source": "01_已有研究工作与创新点审计_20261010.md",
+      "archive": "codex_md/历史文档/01_已有研究工作与创新点审计_20261010.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9d4d0a1df69ad40cac9e42663043f1c7c526d13634a8cf07d4412af8d4f7a508",
+      "archive_sha256": "819cbf088350e72487bdea87476be3fddb0a1cb57c24b13e0d3bfaf755b8893f",
+      "rewritten_local_links": [
+        {
+          "source_href": "02_最新技术进展与文献对照_20261010.md",
+          "resolved_target": "codex_md/历史文档/02_最新技术进展与文献对照_20261010.md"
+        }
+      ]
+    },
+    {
+      "source": "02_最新技术进展与文献对照_20261010.md",
+      "archive": "codex_md/历史文档/02_最新技术进展与文献对照_20261010.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "925d216a4f6032ed598803e176f980fe82468af44b7778ac608e4dd47f08b01c",
+      "archive_sha256": "34caf448123157e6ce114a017dfac36f0f7fa893860b22b7268914e541d1659b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "03_小论文选题与2025二区期刊匹配_20261010.md",
+      "archive": "codex_md/历史文档/03_小论文选题与2025二区期刊匹配_20261010.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "abddfaa0f0c0d0e4cb254cb0e0b0c93d7e26ebdf7d4904bb23f8a4c1a0175352",
+      "archive_sha256": "6cf40ef03e2603b4a1b295bd9ffde138c572aebb406ec33faae55e390b3c0d26",
+      "rewritten_local_links": [
+        {
+          "source_href": "02_最新技术进展与文献对照_20261010.md",
+          "resolved_target": "codex_md/历史文档/02_最新技术进展与文献对照_20261010.md"
+        }
+      ]
+    },
+    {
+      "source": "04_博士研究路线与后续进展台账_20261010.md",
+      "archive": "codex_md/历史文档/04_博士研究路线与后续进展台账_20261010.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "81fe3a02d0a0166f752f04a0f672a52ccce16a6c05a7b77cad03371e6d879b21",
+      "archive_sha256": "508a9b62882f7628930cf5679e1c29d6f2cbda12d6cc340a2da5647de3c1485a",
+      "rewritten_local_links": [
+        {
+          "source_href": "03_小论文选题与2025二区期刊匹配_20261010.md",
+          "resolved_target": "codex_md/历史文档/03_小论文选题与2025二区期刊匹配_20261010.md"
+        },
+        {
+          "source_href": "02_最新技术进展与文献对照_20261010.md",
+          "resolved_target": "codex_md/历史文档/02_最新技术进展与文献对照_20261010.md"
+        },
+        {
+          "source_href": "01_已有研究工作与创新点审计_20261010.md",
+          "resolved_target": "codex_md/历史文档/01_已有研究工作与创新点审计_20261010.md"
+        }
+      ]
+    },
+    {
+      "source": "GIT_WORKFLOW.md",
+      "archive": "codex_md/历史文档/GIT_WORKFLOW.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "4d374e48e79b6e259b951a4f0efe356499cfed861dcc8b9d4edbc5921132b37d",
+      "archive_sha256": "731e39e6dffe2f8f76f53658ca3c8cde92221c4a21a820e56531ddd1ad56d748",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_ASIC_FPGA_model_full/README_ASIC_FPGA_EXTENSION.md",
+      "archive": "codex_md/历史文档/HRG_WA_ASIC_FPGA_model_full/README_ASIC_FPGA_EXTENSION.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "archive_sha256": "d2e66fe845d0def8e852e398f2234b0b1189a20d9909b278703f11d791085b39",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_ASIC_FPGA_model_full/README_HRG_WA_model.md",
+      "archive": "codex_md/历史文档/HRG_WA_ASIC_FPGA_model_full/README_HRG_WA_model.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "archive_sha256": "e6bb6078e5593269ab643c5eb6623aecc649d62357a62919894d183c3437c18d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_ASIC_FPGA_model_full_fixed/README_ASIC_FPGA_EXTENSION.md",
+      "archive": "codex_md/历史文档/HRG_WA_ASIC_FPGA_model_full_fixed/README_ASIC_FPGA_EXTENSION.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "archive_sha256": "accdc3cf4077ae138019347e69340d8d5698c09f68ce002e7248eaab10a368ef",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_ASIC_FPGA_model_full_fixed/README_HRG_WA_model.md",
+      "archive": "codex_md/历史文档/HRG_WA_ASIC_FPGA_model_full_fixed/README_HRG_WA_model.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "archive_sha256": "edf937b2f37c35cb5c30536832cfe0e28843ed32ef6fbfc15817311aacc9f39e",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_ASIC_FPGA_model_full_fixed_v2/README_ASIC_FPGA_EXTENSION.md",
+      "archive": "codex_md/历史文档/HRG_WA_ASIC_FPGA_model_full_fixed_v2/README_ASIC_FPGA_EXTENSION.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5d126d2b30dd252eebd427a20a107c8eaebe7248354e5a5e1c02b64e0cca94bd",
+      "archive_sha256": "133b6e4d6996f42e136885ea750805865205d9a6419c1633706affcba67b91c8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_ASIC_FPGA_model_full_fixed_v2/README_HRG_WA_model.md",
+      "archive": "codex_md/历史文档/HRG_WA_ASIC_FPGA_model_full_fixed_v2/README_HRG_WA_model.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "fbac3ad79efe6caab89416bdce5cf3b667dfa556ee9ee9f8a2d4a539dc6d5977",
+      "archive_sha256": "44fef6e8eaf7d425314e0716aecc639e99b62c8304730e66a1206044d80185c6",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/HRG_WA_V42_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/HRG_WA_V42_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "archive_sha256": "8700172ef872f37ff0843ce291599328287bf41a1ecd25be051e5f5fa8fee206",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+      "archive_sha256": "a4410d15845369dd9b45dc4401bf5d18dd70b6dbadcb8444d7c2a75d03d1870d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8528c352ed0ec01f48bd1bec4ad4e53520a27203d69797e639dca096a56da4d9",
+      "archive_sha256": "ee563c859f47457df454547712a7c9e29f7efb93936fad0359ac056321006959",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "archive_sha256": "acdd8311a5082fe76acf09466d256be3a272f75cf033b52b6d094cb744efb8f7",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "archive_sha256": "c6b73887f76facdd19ff27fe4d17684130d822ac26bb6e18aaa62bb5d12532ce",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_2_2_energy_entry_fix/HRG_WA_Digital_ASIC_MATLAB_v4_2_2/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "4656de5078f853c678f612e5779d4f95ea6bd74a79d4c96fefd63058156003c5",
+      "archive_sha256": "7aa423a8aec26a914a7801a78faf0e4ab322ef747406360b3c7339e49787b706",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/HRG_WA_V42_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/HRG_WA_V42_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "archive_sha256": "905f67cf5b327a49ab0b020df37827c5f852dd1529730fa8d4b8230e17661044",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "4d34a7bc28e842d3d46ccf54b02a10b40d8401fc4b8fc75d26190af69a51f551",
+      "archive_sha256": "cf05aa9ce862ae14c0c9613cebef7013bfff3e11bf770a1cca584080178278ab",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "348b8b6a2d5204017234c9b915daa898016273dcbe280a227b384446987d9390",
+      "archive_sha256": "d1a848e4f3337e4dcdef704b92e84c54a5c072d3abbed63178a64b076f16cb3d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "archive_sha256": "750cc9e45f3192d6a864a624f458d6ec9b310ba9d59fd58024004aa9f4478b2b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "archive_sha256": "1d739287097c81628957b1b15fe0862a0fc38c8798084eebdca3cab2f2f8fedf",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.3.1_在线标定安全释放修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.3.1_在线标定安全释放修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+      "archive_sha256": "d77d4f8c8048c2abdba0b2fc2d4cf3689a5eed89c544433df253bcd7b30a85ac",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.3_在线标定功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/V4.3_在线标定功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+      "archive_sha256": "c5a5d664a3651a9aa5c37eeb72590bc3daeae80cdff5da696c0457beef474019",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_1_online_calibration_safe_release/HRG_WA_Digital_ASIC_MATLAB_v4_3_1/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+      "archive_sha256": "8080688e5901e908137dfb98f01ec0debf2aa814d27f99876b8cddf58802a9f6",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/HRG_WA_V42_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/HRG_WA_V42_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "archive_sha256": "68007c633d0292af919b2fcd407bb4dcab85353633a8d608967c557ea63fa146",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "838338fab557be11694c516eebd32a7eba44da84c4905bc491f110e6ef08a6c6",
+      "archive_sha256": "9082961ef5ffd4d56463763c602a5e26d15b90aaf028f1c525e5745269b9fc34",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "584e1bb45c1768a96b76e788c7ead4a2ddc2f33d9ac0b4e60c6b561f0ae31c68",
+      "archive_sha256": "b03607bc6ac7d61f516c889c6988488f4db510f5ea0ac2e602019a2cc56d4573",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "archive_sha256": "5bf348484503d570037d2eb46f3a636b7d1e8a5ab9be3c58d10ce76b8a11aef8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "archive_sha256": "38f2b4cb29ac38b12bcdb2fc1c3a6a0d927352676e839f6af8125527bc36a8b1",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.3_在线标定功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/V4.3_在线标定功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8375b7c9bea0ae676a428b0398bb6265139eb35f3726597d5922310272953d4b",
+      "archive_sha256": "0711f6bc83921a85676e4c6716bfd34fb52ebe8632275180141108a921d82a15",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_3_online_calibration/HRG_WA_Digital_ASIC_MATLAB_v4_3/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "87fe86eed766c98d96c2497b8075a7fe96e3b5c935270e67c3bc17be5d58e89f",
+      "archive_sha256": "fd1cd5f8fd6b0218f51d87a378c31b75eb7779917bedb88caec09bb64e0606a3",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/HRG_WA_V42_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/HRG_WA_V42_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "1de32f4d74aae9f6b6ae58d3f5283ec4583c6b8b3e5639719067e54667b79a3f",
+      "archive_sha256": "f47c8436904fc152da0f4faa826e9e21af6243ee4715b159cab427b0b6274ff7",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "109e25eb53e046ee84254fbf469c2c8b362b43bcf364d14e922903de3175e6bb",
+      "archive_sha256": "9567196226a480e88190f4ecc7b8230598237763a78559f2c3f8e81aee4a02a4",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9f06bf026e7bbbed74f7aab6ff3e80e58e33cff108707babcc781a0143173346",
+      "archive_sha256": "500068c6c0459a6fe1ae6a28b75159c5428e7240d0d835d4fd4eeecc5a1b25f6",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "055879f24428ead47c1e12366b71c9fd0ed8439b7554cde03ec72e6a0e5cd1d7",
+      "archive_sha256": "825446037337d668647ce5a3482444c4a7e97bf027131307b471578acd0d0f4d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c85119f617cc02a622a9e0ec5fdee534e2fd6ef9d5037b3e321ff29286f80e17",
+      "archive_sha256": "67b4b192bc285ba6777d33dc40ab38569b507180b8e7b341dcad78c641c1eb35",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.3.1_在线标定安全释放修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.3.1_在线标定安全释放修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "6a54d232d8df927b8d684f92df1ada1285b498f30e4d6f6c9cea662b8f00b77e",
+      "archive_sha256": "80f8b1adf9904fd22b34639b42340f7c15b7ce69da562cfa5e933c94e09ccb5c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.3_在线标定功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.3_在线标定功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8f9375899c1735202513d105b00be140bcd119cd61e2331d4acf13508d8d39e9",
+      "archive_sha256": "07cc1da38c673eb0e70eb4737a3a7460d0de0dcdb07b378b75b78031d897b929",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.4_位真ASIC功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/V4.4_位真ASIC功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ca2f9a29f149cb4093955cad7333bafa87f36f71306aa86925b81350966b30e5",
+      "archive_sha256": "f638bc679bf58cc4fa5a3126945473a9926e62389e110121d9c8360eac696fa4",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_4_bittrue_asic/HRG_WA_Digital_ASIC_MATLAB_v4_4/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f0614805be3579552a0ad9a5a7b73e6bdf32ac174925d9f523b92589c9a4acd4",
+      "archive_sha256": "125e76c4f10ed8dd1b91d21b84cf9138af94a71d78f63363229e5f75136d6f8e",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/HRG_WA_V45_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/HRG_WA_V45_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "archive_sha256": "a8aed73a6aae7c481a1426e8b10a03288108cc1152baabaca81ea1f3a6cda695",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "7e10216fc084f2c3139885e39ca02c62bf8c5be10ffa041e1640a08a46faaf4c",
+      "archive_sha256": "485ae5c2b2c94586534e602749c209dffd173cd7452c96cd6faa8d3ad9432a43",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "670daf6f840940114669917374f0dce7df57bcb00c57b05ae7ee21fb51d02c31",
+      "archive_sha256": "ba5c948590b7e13ac68c617419dffa36c35628a6ba3f34ac521ec3f840b1d7ae",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "archive_sha256": "44b245ecdcc192b3f884f956a988d39c5dc80ddb9bc052fb673af741f114daf8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "archive_sha256": "7221b4366ff000084f12d93ef622236aedf94cc0a44bd6ad3bf965fc532c817d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3.1_在线标定安全释放修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3.1_在线标定安全释放修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "archive_sha256": "3a90d35a0c1feee98464a02c95f040fd24be27be6714bd33cd6d02069f2e9e05",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3_在线标定功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3_在线标定功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "archive_sha256": "237a4885b669ff452f8a7795b14dbd007fa369346630c919f29b9b7236ae1583",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.4_位真ASIC功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.4_位真ASIC功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "archive_sha256": "8729d8ce76d5ebb1faacc04512458b5b3e08b804a6818b4a3e704ee7d9339508",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5.1_FRP回归Bug修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5.1_FRP回归Bug修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "archive_sha256": "afa7fcf548e27252fe43791ee3a8eed3370b384b2594cfaa80a4c05ceedec564",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_多误差FRP联合辨识说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_多误差FRP联合辨识说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "archive_sha256": "7a5811568224121ef91dcf7cb5251a3083c231c0134529fe6242e901488f4a9b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_静态审计报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_静态审计报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "archive_sha256": "c3fb2f0735c4b018feea019ed9c3be13530d3b6a1a98c9d447c960b3a3758e62",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification (1)/HRG_WA_Digital_ASIC_MATLAB_v4_5/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "archive_sha256": "5bde185ddda28054723bc9ee5eb1ad53f84f22efec3956fcc2bd77702d84daa8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/HRG_WA_V45_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/HRG_WA_V45_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "archive_sha256": "0ffb66cea0e0af822d4c5409857f24d506aae41e365ef77c997eb90fe7e31bb7",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "96db41561e6d294ca712b7b319930cdd795805ff1421e112460b0ab6ea0b188f",
+      "archive_sha256": "cc957b00821099a2ee23226202a8ee12bb97048281fb41c3a36d4f6e7aa83a6b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8a23d592f082259955cb8661ebf92bb8c399fbddcbb0f16e82f591e96fcd3471",
+      "archive_sha256": "8093a52c0aec51111936831946f2a9d84f2773025a75092156094fd70ea57b4a",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "archive_sha256": "74565dc61fb58c48f722149f22e52bd2a3808fe94230d61d90abe3d89878fa23",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "archive_sha256": "a06b641a5ad9ce560693452c20cb1b3458c2d4f17e4edede7de4cc32bfea6fd4",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3.1_在线标定安全释放修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3.1_在线标定安全释放修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "archive_sha256": "c07adcb8a5d633ce2ebaea23a36cd5f6cfe574064584ec1140b4c24d371aad1b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3_在线标定功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.3_在线标定功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "archive_sha256": "a44b9cbfca359d13dde1bd6b5ca6ec1e76c8e486e50d67290eaa75fead0e410c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.4_位真ASIC功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.4_位真ASIC功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "archive_sha256": "d546d7065810956ede48c6ab3ddb9ef6f0fd4e987092e177bdd2a2dd281c3d95",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_多误差FRP联合辨识说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_多误差FRP联合辨识说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "958bf19c27f8931012689c30436ad98a28f7d18c63fdcf53e623e9ba632f73b7",
+      "archive_sha256": "ea3f8676cb3be920b6397884121df0ae46346682eef3665d69741be9bc9ddf6c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_静态审计报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/V4.5_静态审计报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "fb262f75eb1888ca8ac0bd87531aa15fa26e3801ff7e1fa8243935329c24b8a3",
+      "archive_sha256": "5972e3ea7ea5aeab80ac26ba930b554bef6e6f9869aa4d9f0f37ee1828def2eb",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_5_multi_error_frp_joint_identification/HRG_WA_Digital_ASIC_MATLAB_v4_5/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "archive_sha256": "fd91dab23340c8f772bd869653b26260693104562888af6914df7a4ab9fb7d5b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d6c832ff1546c4822de9410e296d36c2235ca4596a15ddff5ae192bf02755f3e",
+      "archive_sha256": "4a9063b0429aa760cf10c4a3a100a84b35ea321836a8365b44c6aa38ef17b615",
+      "rewritten_local_links": [
+        {
+          "source_href": "config/head_default.json",
+          "resolved_target": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/head_default.json"
+        },
+        {
+          "source_href": "config/README_表头配置.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/README_表头配置.md"
+        },
+        {
+          "source_href": "testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md"
+        },
+        {
+          "source_href": "testbench/scoreboard/README_等价性验证报告.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/README_等价性验证报告.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/README_表头配置.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/README_表头配置.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "24c6631956298cbe0cf53a3be9fa4ab53c32dbe4ab87b41d192d1e5b532b0a9d",
+      "archive_sha256": "a70a3600b927a5f06e9ffc9eb3dc54183a9ec7aa8e29d039a274e5a0c1498dba",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/patent/一种面向全角模式半球谐振陀螺的多速率定点传感器接口电路_发明专利申请草案.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/patent/一种面向全角模式半球谐振陀螺的多速率定点传感器接口电路_发明专利申请草案.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9cf9651d1ee07578694ed50cec93d1093c02e4d7b154a8b46fedcaf7aa736bd5",
+      "archive_sha256": "e157dd84d0b19b9e2eb077ea1a14cca0c42a5b4c964b146c5aa9f14e806de7eb",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/patent/附图绘制与申请前审查清单.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/patent/附图绘制与申请前审查清单.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "60808088ada24380303088ce6836cde50a8f90c70cd8b0318ededcc7af40154e",
+      "archive_sha256": "fc61451f991c3d4486dbe741ca55942c089b13a3120ba876c699b96936567ef7",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/VERIFICATION.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/VERIFICATION.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "298f473421d63749aac23fd252d527a03b77e2b5618564366b0e9cc0191039d2",
+      "archive_sha256": "6bed6280f7e2d782525b22e31cdb94f6f41d8d3a5f29a0ee78494ad7cd66f4b0",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/README_等价性验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/README_等价性验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f2330ab4370e0e32afc4a181d881fe39e85483e1ccf9ca25878c5f51f5875f42",
+      "archive_sha256": "ec5e106d62dc07e71303efec3d61e30047a30311eacadbdb6fe0427f7993888b",
+      "rewritten_local_links": [
+        {
+          "source_href": "RTL修订与Scoreboard验证_20261016.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f1a8ed78b8dfa49aadda99bdf134d7436fc702718c9d63ad5c4a406bcaed86cb",
+      "archive_sha256": "e8166068d6667e68b928c125566b1b698f0095425d24d3039f76118b67cca64f",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_V45_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_V45_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "archive_sha256": "f70b633b963b86883942c9330a7dfbdbfe25e56347437f20ab0294e452b5de15",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f9c0fc30987c4f7c01e2901f7372a2e60fe7933dee4e692b7f597da2e7d7ad65",
+      "archive_sha256": "4356a41771ae83bed7ccc7d81f98baa084afa5d0643ee2a3761d10514f91ae27",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d7dac8153b4db9fb3a35f3219f6af642f9093848d6d43b584799c0434e0d2197",
+      "archive_sha256": "370a7300e3288e0608358e20f217d5fc4ba25ff3c1a324f353a3c55533514ef3",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "archive_sha256": "ee92ca014e7e48d7fd5dc42f95f9a47ac26fe76f36d685ab2b4b71579c598437",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "archive_sha256": "62a0032ebbc2d73bfc2e894cb33bf5614eec0ec603cae43decfed8f9c5b2bcfb",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.3.1_在线标定安全释放修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.3.1_在线标定安全释放修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "archive_sha256": "f6fce8c9fbb24bb64604f8f0844260ea2f5a0585f2a9ed457f1575f138780b54",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.3_在线标定功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.3_在线标定功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "archive_sha256": "3ff035ecb6c58344c181fb7018c148b2ea39d5bfce9b0920d02353236541c214",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.4_位真ASIC功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.4_位真ASIC功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "archive_sha256": "27849ead01cfd495eee74373f8934d914e06348c1286dd91e71d89f20ca6bb8b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5.1_FRP回归Bug修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5.1_FRP回归Bug修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "archive_sha256": "f46a58fc3f38ab09ae1496b61c5f91b4d9b9752335f0bde757e01f5d48280e7b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5_多误差FRP联合辨识说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5_多误差FRP联合辨识说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "archive_sha256": "8a2f05f96a7f8b12d05419b1ff3828216e4ea1b97b6886381605ac98801e6291",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5_静态审计报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.5_静态审计报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "archive_sha256": "10ce0bb077d614d00b5462326f1a4f113c51cb3847528c3dd47e8ac536cd47ad",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.1_FRP门控与A_B验收修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.1_FRP门控与A_B验收修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+      "archive_sha256": "c9f5c9dbbe80d5f5ffc906c1a7a2f7e0c1fd189df8992060fd83c306f1708982",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.2_Oracle_ABC与RLS修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.2_Oracle_ABC与RLS修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "dafd920f89feb833acb41a13073789ef18d07de77df119ef2e163c1353181592",
+      "archive_sha256": "a1aa09cb20430acb1af2c74766a9a36debbd93f5c98fd37fd93a8989fbf56641",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.3_零速符号与配置覆盖修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.3_零速符号与配置覆盖修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "4e6c91bbc05dcf166630bfe1e741301baede9ee82802bcd864fb099b874ad0a0",
+      "archive_sha256": "41d142af05e4f7849b835da21f0da6a687d3ce184cef98b30afd6a7fbf1a956c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.4_RLS等价批量LS与独立角扫说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.4_RLS等价批量LS与独立角扫说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c6f13c1c6d52f0efaf956ce25d792f416d0e7d2ee6231195f909c46bef9680de",
+      "archive_sha256": "210c39ae715bd7e98eb6f5d0fd689b0bc66139f301953b26087ffc4a6aca2fe7",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.5_FRP可观测基函数与独立验证修复报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6.5_FRP可观测基函数与独立验证修复报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "6542651b0790ad40a66b3588079232cb57af09556347d25cae468fd572be68b2",
+      "archive_sha256": "a0eee38fd29b89bf4e16dcc9cdcfcf537abef286ce314e7935ffc0fd2e65be82",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6_独立真值与先进算法说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6_独立真值与先进算法说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+      "archive_sha256": "689bbbdd6c3c42a6ada1ca12cdf13462d755f01460b9c2f840cb99a799e954d4",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/V4.6_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e5af54aa5e4ae2916aff89e25cd65b17e6cb732779e926fc4c80de287f86a4ff",
+      "archive_sha256": "1d80026c1493daec505dda1732f0ac8c543574ee68d9e152f7249c86998ddaed",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/deliverables_hrg_whitepaper/半球谐振陀螺技术详解白皮书_V1.0_20260825.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/deliverables_hrg_whitepaper/半球谐振陀螺技术详解白皮书_V1.0_20260825.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c",
+      "archive_sha256": "23a59eadf8e3e338fe5c53872ac727533a5072e39b44e0fdad8f486614b3fd04",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/deliverables_hrg_whitepaper/半球谐振陀螺资料索引_20260825.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/deliverables_hrg_whitepaper/半球谐振陀螺资料索引_20260825.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+      "archive_sha256": "a664a59294cb28debf20238f1394709ac67f70806a2a5efd88b88fb5359ead2f",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/仿真验证结果汇总.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/仿真验证结果汇总.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "af73f7c07d444d1beb992770efcbf149bd9006738c6584d3a3c3fcd686055e6e",
+      "archive_sha256": "a0c39c0bc1d0c630a13201c4f93b0016e2291ca6e6fb10909ae8ce063ccc6697",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "archive_sha256": "9f6f5589bc3d198aef3ba56e5081ee35702b28c0b6e43a336bd01c46e1e05344",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/HRG_WA_V45_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/HRG_WA_V45_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f934cd6c812ffcc0694f083240618800c7089d12488f9557cd9d628767d92280",
+      "archive_sha256": "7d7e247fb303370b5b9987889c52edbf5d13a4769380dc3743289aed8bbc377a",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "40e106ac502a6625a669e3cbff490e95516ca747640c26750d47de76cf51a42f",
+      "archive_sha256": "14bfeea01863f77983e52b5d23b8b623845bf1e35add1d0f20f22e3a5475b149",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c5cf5109847b71dc60229a526c0ebfe744d4977e20d9471f47b6e0b9d26ebcb6",
+      "archive_sha256": "27781101683c316ea27fd029a648fe24c302202acde4eca522217242d170c526",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.2.2_能量入口可信度修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.2.2_能量入口可信度修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ab53ad67897df689b1694e967d40927d013931d0988cb70ea1c01d497c1e37ba",
+      "archive_sha256": "c07d29708de6b0057b6369423c74ec872f0d88db305d23234da82cd2f9102357",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "87c05e09d120384994518b6982dda266921444ad2dbc9d992a3d60219050845b",
+      "archive_sha256": "925ddd65ad88f611410b2792f51c189f5b56051e657aadb5194d560404cbf533",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.3.1_在线标定安全释放修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.3.1_在线标定安全释放修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d5a651d77c23ea04d6da08240d8bea0de11f563cabc7f8705a8c2960fb62d418",
+      "archive_sha256": "1991c832d07890ec5ddb958742a5906b56b167408944c0a09efefb5a7a820972",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.3_在线标定功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.3_在线标定功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "42775e7031f886dcfa68d2b2cfe1d49bedfe2831376352ca24b1b4628840db88",
+      "archive_sha256": "1b3ca293e13ce72f2cde2921b25f0f111b7b00a283d5829414e6ff3e419d24ff",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.4_位真ASIC功能说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.4_位真ASIC功能说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8acafcb892842a9eb784c03aa3ca50dce500f259cb93b242c8f10d7a498749c1",
+      "archive_sha256": "761c240146c3ee244bf7b69c3c0e63eedb2704dba553d0127c997d33070893cb",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5.1_FRP回归Bug修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5.1_FRP回归Bug修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5b1b66fb95d071c7cd4820bce91d195890e0ee9e8a57cf7ce6e3e283e859bdfb",
+      "archive_sha256": "96175c02ccde4f8d3425e733ff93eb6c440b4031b647b67f4c09f01b42931b49",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5_多误差FRP联合辨识说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5_多误差FRP联合辨识说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "32ceef1419f540855113f4c308a0a6757042b2684727948bdf5dd3f55987925d",
+      "archive_sha256": "f6dddd6eeb8ce370faf0d90a8f8287ee32b47ec740e39eaffc715f467b4e7502",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5_静态审计报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.5_静态审计报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "29922601c1ae84ba5eba8925a10797cfcb5bda058c957a000d481cd6cc913ec7",
+      "archive_sha256": "d471aab2938668ebc16a2a7e926cdb12cb48fc07c75da4eadf379b38bfa725e1",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6.1_FRP门控与A_B验收修复说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6.1_FRP门控与A_B验收修复说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c367bcf109e6ec111edbc8506b77680b0e1dc87ca30815f3b188b1e465c9dfc8",
+      "archive_sha256": "e75bf525706f63fbb1bd1b471fcf1a7672d94bd74f75fe92f4e14ca4f8239b64",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6_独立真值与先进算法说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6_独立真值与先进算法说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5536411fc09ef01bab01cdcfa04920d38e93d6c5e488591ef734db5cb0ac3f01",
+      "archive_sha256": "96ccbe79ea6879e7fe13667c27b75a44eceb5224a97f6f2844709faa48657b9c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/V4.6_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "903e4c15c9057472543f894451117e07d7843c7a20bdf1f8e537bb350e9880e2",
+      "archive_sha256": "d862dc7f9d217e527d7e7b271b45e91b0a995e069481cedd86fe633373cf1627",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_independent_validation/HRG_WA_Digital_ASIC_MATLAB_v4_6/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "82260eb1ede1487fb28455c91af059357ea909ee6aca034b0c23a8d4fd5f2695",
+      "archive_sha256": "2d86730428cb1c6937042e632db9ca1f7e955c9001861e801866aaf9744adbca",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "47b2dbab5c02d1adc219fc57e50b6a859c7c07fa8d0f0408d9df2ae1f2ee584a",
+      "archive_sha256": "2e58b04e3fa4f0dc48d1a49d6d073096a954e92ff6588d4be3b61a27cb20a251",
+      "rewritten_local_links": [
+        {
+          "source_href": "envelope_diagram.png",
+          "resolved_target": "HRG_WA_simulink/envelope_diagram.png"
+        },
+        {
+          "source_href": "validation_plot.png",
+          "resolved_target": "HRG_WA_simulink/validation_plot.png"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/identifiability_v9/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f0482b9dd1bdbb0be269d934b4fe0302f934b2663726bbc0b9814d52c6c74b11",
+      "archive_sha256": "4cebae510fc4962b17b036fe5aceae3a6b144433729b16806c33ad87292b0025",
+      "rewritten_local_links": [
+        {
+          "source_href": "docs/protocol.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/protocol.md"
+        },
+        {
+          "source_href": "docs/from_zero.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/from_zero.md"
+        },
+        {
+          "source_href": "docs/results.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/results.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/identifiability_v9/docs/from_zero.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/from_zero.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "87ce487af1e63f667825dfd97b0fa61ead309ddabfcf95dc27bc01e7e8d18c78",
+      "archive_sha256": "2a16bdd5f8cdf5035087b2bbba56553b4598926475fd4ba9230ddf47611499d8",
+      "rewritten_local_links": [
+        {
+          "source_href": "protocol.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/protocol.md"
+        },
+        {
+          "source_href": "../../../research/theory_20261026/sources.json",
+          "resolved_target": "research/theory_20261026/sources.json"
+        },
+        {
+          "source_href": "../../literature_zotero_research/docs/source_formula_updates.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md"
+        },
+        {
+          "source_href": "../../../research/theory_20261026/derivation_academic_and_intuitive.md",
+          "resolved_target": "codex_md/历史文档/research/theory_20261026/derivation_academic_and_intuitive.md"
+        },
+        {
+          "source_href": "results.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/results.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/identifiability_v9/docs/protocol.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/protocol.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "485429afa06bfec766da2ca14749e08dfc2846d9700ac0e564789d29d96d156f",
+      "archive_sha256": "8aaed46319ce2b22118d22a50e8c65deb06f457ed0451555f6814d0799bb6fa1",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/identifiability_v9/docs/results.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/results.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "60a7db9fffc5b6a583383ba663321affb57b6d69478ecea16d0e91b5d5272484",
+      "archive_sha256": "999f42672b36a6474fba920bc08b48d4986c1ac3040d5c429f8aa547f259baca",
+      "rewritten_local_links": [
+        {
+          "source_href": "protocol.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/protocol.md"
+        },
+        {
+          "source_href": "from_zero.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/identifiability_v9/docs/from_zero.md"
+        },
+        {
+          "source_href": "../evidence/identification_and_rf.png",
+          "resolved_target": "HRG_WA_simulink/identifiability_v9/evidence/identification_and_rf.png"
+        },
+        {
+          "source_href": "../evidence/bias_and_convergence.png",
+          "resolved_target": "HRG_WA_simulink/identifiability_v9/evidence/bias_and_convergence.png"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/layered/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "96bc7a740059136facfdb849e396c0eeb64787498e129b277f278508237bf2cf",
+      "archive_sha256": "d4019b6824088c08da443e2523d35e471d89cc13405f36363bb056d189180a0c",
+      "rewritten_local_links": [
+        {
+          "source_href": "docs/methodology.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/layered/docs/methodology.md"
+        },
+        {
+          "source_href": "docs/results.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/layered/docs/results.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/layered/docs/literature_derivation_comparison.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/docs/literature_derivation_comparison.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "10d835260522d95fa362007c76862e1b95297f34d3af9fb5da3e11eef595795d",
+      "archive_sha256": "62e132831728505906eeadd7f0aa3a0e3cca1412d3ea823402d917167707471e",
+      "rewritten_local_links": [
+        {
+          "source_href": "literature_method_matrix.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/layered/docs/literature_method_matrix.md"
+        },
+        {
+          "source_href": "literature_method_matrix.html",
+          "resolved_target": "HRG_WA_simulink/layered/docs/literature_method_matrix.html"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/layered/docs/literature_method_matrix.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/docs/literature_method_matrix.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ed78b8d683f3b35e5e43a553b257e9a03fcb9d3b304e7a4cbe4f14cdf998ecae",
+      "archive_sha256": "e0d585bf9263a2430f6734d0f4c90c21e1f3d0341e2fa159f4d2f352fcad90a7",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/docs/methodology.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/docs/methodology.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "478278912ec4a960ebeb80a49489a53af3719d847e6c5a7cd6c3cbf47e8ecfaf",
+      "archive_sha256": "985b2a60c126bdcb20c66f097393732c3bb74467aee5efec88b3edead951371f",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/docs/principle_cross_review_papers_patents.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "7f840b0139a805e13da606bbd02519bfdcfa32226b83730b1a63278d14564304",
+      "archive_sha256": "283a8118a2400a46bf84e892f32c73d7a03f91199b538a9763aa534070db889a",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/docs/principle_review_acceptance.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/docs/principle_review_acceptance.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f01001d2a6f4b3e6f8ef846f119fa773cb13771bfe822148380dce62e1596af8",
+      "archive_sha256": "c84eec61be8e17567f9de2f68b04f8b2147a5a94a60c3cc464c5a3ee07298eb5",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/docs/results.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/docs/results.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "4bf7e6bb5c9a512f9981d0cf323ff2d9d8387ccd9d6ca67d3ee79c569546f050",
+      "archive_sha256": "920e8154c37dc6f03539a9415b8cc4753eabce6553fc11a6b18955839c43d63c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/docs/whole_angle_circuit_parameter_derivation.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8dce4b8c3edc326f7aeadccdd31cafb5b390130510ce2fcda02971d8bed7828d",
+      "archive_sha256": "4a4bd2b22a4ea390d1d71275cedb9f94c6b4db8b76bff9ac04e6c0125f872360",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/evidence/demo_window_fix/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/evidence/demo_window_fix/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "504efb65195b529718a947e5b87032e73d478d6b34e16d296fbe8e9a65d943ed",
+      "archive_sha256": "24764724f7dbc3d30cbb26d745c953e6c184b8a5751aa534b90f24aef74ad985",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/evidence/principle_acceptance/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/evidence/principle_acceptance/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9c7f8c9081022c648ac5eaeead8b30a0152ec4032453023ec60d1a20e534d848",
+      "archive_sha256": "2f6715e83d1da33379193444a1f3b589d5e17b06f4f5fe091fee7cb3926859f5",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/layered/evidence/spectrum_fix/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/layered/evidence/spectrum_fix/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "54934b872247ad4e83e59478977bda06ee935d8a5b3bc05558c069ff4075f2dc",
+      "archive_sha256": "f2d0036f7c2565607b48540cf3c1d8b55290b44da20e8b598ae58673737a5a00",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/literature_formula_review/corpus_mapping.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_formula_review/corpus_mapping.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "25fa656f32b3d296a8b75dd481737f988f19b324f100b28e8aa846ceab7f397d",
+      "archive_sha256": "4259fe60814cad9f8123b39a417ec50c34caf8738f685867965b4bbea98b02b0",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/literature_formula_review/formula_by_formula_comparison.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_formula_review/formula_by_formula_comparison.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "313eafaf912788f752332c621c50b3e04ca9a2f831003519c5f5cdcde387e043",
+      "archive_sha256": "f283dd2dc33bd76ccbf06b3e751f99d5cd4b09b146e39a6c4a3993890ed5f11c",
+      "rewritten_local_links": [
+        {
+          "source_href": "corpus_mapping.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_formula_review/corpus_mapping.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_formula_review/source_provenance_note.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_formula_review/source_provenance_note.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d637fc953bc85ba5d1bfe881ebd27e83ec3413e1ac47e63fa647ea84260423df",
+      "archive_sha256": "a7c5bae13cef4b8e96c09940c12d84c55d4d48a6650c0c7040e4be38fd10cea7",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v7/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v7/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "262d5bb074239f73269e8ff1292ba0e5910624bf758a2e0ef07ced2958c3c273",
+      "archive_sha256": "efd81b03d0a86dca6b892cee2492fcf8b25864606e4d4e7a83bb4efcf206aecd",
+      "rewritten_local_links": [
+        {
+          "source_href": "docs/mechanics_to_circuits.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v7/docs/mechanics_to_circuits.md"
+        },
+        {
+          "source_href": "docs/results.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v7/docs/results.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v7/docs/mechanics_to_circuits.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v7/docs/mechanics_to_circuits.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "7d009707a6edce3620d4bdca13eca1ba012bc5485805cf8623cf4a0c1d441752",
+      "archive_sha256": "2e12c873bc5f956543bbc72325eee153b05f3b8405f6c064d5697dc578e3cf48",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../layered/docs/literature_derivation_comparison.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/layered/docs/literature_derivation_comparison.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v7/docs/results.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v7/docs/results.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "25b944ca43d38aa3890834a6de5dee6f7c20b20280ea4cc89f65005852efecd1",
+      "archive_sha256": "52aab4244db5314a7c0d65ac8845265d06a95e7a6b8b50f94e65df33d14de9a9",
+      "rewritten_local_links": [
+        {
+          "source_href": "../evidence/pi_pir.png",
+          "resolved_target": "HRG_WA_simulink/literature_v7/evidence/pi_pir.png"
+        },
+        {
+          "source_href": "../evidence/startup.png",
+          "resolved_target": "HRG_WA_simulink/literature_v7/evidence/startup.png"
+        },
+        {
+          "source_href": "../evidence/tdm.png",
+          "resolved_target": "HRG_WA_simulink/literature_v7/evidence/tdm.png"
+        },
+        {
+          "source_href": "../evidence/noise_increment.png",
+          "resolved_target": "HRG_WA_simulink/literature_v7/evidence/noise_increment.png"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v8_research/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "620244680e48f66e5029fe13b7338895d2c62b09b18e46d8e53832ccccd613f0",
+      "archive_sha256": "7928e5afdd44be81155f22dd06aaa4d32b1e481335b56674bf13f497c26a6329",
+      "rewritten_local_links": [
+        {
+          "source_href": "docs/mechanics_to_algorithms.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md"
+        },
+        {
+          "source_href": "docs/calculation_trace.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/calculation_trace.md"
+        },
+        {
+          "source_href": "docs/model_exploration.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/model_exploration.md"
+        },
+        {
+          "source_href": "docs/new_source_coverage.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/new_source_coverage.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v8_research/docs/calculation_trace.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/calculation_trace.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "764d7fa35bd139c5fc6eea192113a082703ab9797bf5c73c9de4fe1bf93060ef",
+      "archive_sha256": "9039a5c1890b4204bc27b9a98af7732db98e77588d7b02177faf12d79009dd18",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "92c08e6b49b026399c90aeb7eb5baed028678d22c7a13d33ec970306a7637223",
+      "archive_sha256": "481109499df78d50b28c6febdf37ff153534d020ac708c1f89e53d2ac40f7048",
+      "rewritten_local_links": [
+        {
+          "source_href": "calculation_trace.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/calculation_trace.md"
+        },
+        {
+          "source_href": "model_exploration.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/model_exploration.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v8_research/docs/model_exploration.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/model_exploration.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "78054a976d66e8597c6dfb740e85be8e3499842fdac0ab74ec06b2b0d2c6770f",
+      "archive_sha256": "06af9789e2b42e4f782cde82887a7b5e92295de55c57d677b25c5aefce9b5204",
+      "rewritten_local_links": [
+        {
+          "source_href": "../evidence/envelope_comparison.png",
+          "resolved_target": "HRG_WA_simulink/literature_v8_research/evidence/envelope_comparison.png"
+        },
+        {
+          "source_href": "../evidence/carrier_comparison.png",
+          "resolved_target": "HRG_WA_simulink/literature_v8_research/evidence/carrier_comparison.png"
+        },
+        {
+          "source_href": "../evidence/carrier_waveforms.png",
+          "resolved_target": "HRG_WA_simulink/literature_v8_research/evidence/carrier_waveforms.png"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_v8_research/docs/new_source_coverage.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/new_source_coverage.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "3c813784fdccbaea73346c84fc03c9c8f78a52687e49724c2a868260898f3ddf",
+      "archive_sha256": "022b4f22c7895c51bfff18f24fcecf59aa8871fc764d2ce4ae5dc2648a794809",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/literature_zotero_research/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "25cb38cbf9419a8a9345a94566ca54ea8689d4580fb357d0f3d3399cb867c2f8",
+      "archive_sha256": "6616e7154f6fb6c59332c6dbac054a9089ebe26a33e39f4e5ad4d6301d938b43",
+      "rewritten_local_links": [
+        {
+          "source_href": "../literature_v8_research/docs/mechanics_to_algorithms.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md"
+        },
+        {
+          "source_href": "../literature_v8_research/docs/calculation_trace.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/calculation_trace.md"
+        },
+        {
+          "source_href": "docs/source_formula_updates.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md"
+        },
+        {
+          "source_href": "docs/paper_comparison.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/docs/paper_comparison.md"
+        },
+        {
+          "source_href": "../../research/zotero_integration_20261024/hrg_bibliographic_coverage.md",
+          "resolved_target": "codex_md/历史文档/research/zotero_integration_20261024/hrg_bibliographic_coverage.md"
+        },
+        {
+          "source_href": "evidence/zotero_model_comparison.png",
+          "resolved_target": "HRG_WA_simulink/literature_zotero_research/evidence/zotero_model_comparison.png"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_zotero_research/docs/paper_comparison.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/docs/paper_comparison.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c24eb343c080dbdef30e0d3cdf276bd4e30c8e0b44e31ddf7ec5ffa2e7614ba4",
+      "archive_sha256": "6c3b6dc2eb6dc5c1888d5ac39126191dccf03c2b441e6371a0f90e5b7550897e",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../layered/docs/literature_method_matrix.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/layered/docs/literature_method_matrix.md"
+        },
+        {
+          "source_href": "../../layered/docs/literature_derivation_comparison.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/layered/docs/literature_derivation_comparison.md"
+        },
+        {
+          "source_href": "../../../research/zotero_integration_20261024/hrg_bibliographic_coverage.md",
+          "resolved_target": "codex_md/历史文档/research/zotero_integration_20261024/hrg_bibliographic_coverage.md"
+        },
+        {
+          "source_href": "source_formula_updates.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md"
+        },
+        {
+          "source_href": "../../literature_v8_research/docs/mechanics_to_algorithms.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/docs/source_formula_updates.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8bb0d6707a7fa2f867b474399f29cf4cb1c1a8c8a7cd829dbfd89f7f4e555ce3",
+      "archive_sha256": "92fe79a0334b2e517c3bb12117c8613cc8ada12cfd7fa24902a17a5f9b015f92",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../literature_v8_research/docs/mechanics_to_algorithms.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md"
+        },
+        {
+          "source_href": "../../literature_v8_research/docs/calculation_trace.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/calculation_trace.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d38804bd1edacbbc7da373e496b161110889ed8b883742554687e3d9a281591d",
+      "archive_sha256": "a1066b8991d5c83cdfa257c1230640d26a7203be1abccfa661b425c2503c2ce1",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../压电全角总书第三版_原理到V10实现.md",
+          "resolved_target": "codex_md/历史文档/压电全角总书第三版_原理到V10实现.md"
+        },
+        {
+          "source_href": "docs/implementation.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/docs/implementation.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/compensation_research/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/compensation_research/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "3cc82ae17a04d8a97ff8b01204f2b3d8876d26a1468d82c1036581b4b1d0de55",
+      "archive_sha256": "c4b1889bbfbf13d491d4dcbcaf903ee8d724968fd30493c517a481621ca82519",
+      "rewritten_local_links": [
+        {
+          "source_href": "推导与试验设计.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/compensation_research/推导与试验设计.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/compensation_research/推导与试验设计.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/compensation_research/推导与试验设计.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "fd2c70d8539818fdaabfcd8c1859a8061fee7cd5be4eb8e21eebf4488948cedb",
+      "archive_sha256": "449f77d588bb95ef82684c1158df10cae8c5fc71d3758c7d547ad6c1411b0987",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/compensation_research/结论.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/compensation_research/结论.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "969279f5acd3cd6b41468796d4faea47a0453ed17cd1f93c245956e9809bb8fc",
+      "archive_sha256": "6f764ba49fef76af36a3146665633e203c8e7e148b0e73a7d6fecc27a966cc6c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/docs/implementation.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/docs/implementation.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d571b012c76777038a43b6ccfa810c43e0d39a4916fa0d991e4b9320f72d9818",
+      "archive_sha256": "0edb0c4d75ad99628b7ae1bf6377c74e4e4bd9ae268e018eb2752075ddf7da88",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/electrical/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/electrical/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "99b939b251d59beb070571412a4f829bd09dd0201522d65ab08e94e9c0c30da7",
+      "archive_sha256": "e5b91d0925ed1221c9a5803089a03f152acb1a1d8d88c275451d579236465d8e",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../../V10优化研究_缺少表头参数时的电荷域闭环.md",
+          "resolved_target": "codex_md/历史文档/V10优化研究_缺少表头参数时的电荷域闭环.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/identification/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/identification/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "af4f5a99a3abff143b12078e9730a8e50802d8ed9d64ac2354ed0c4a75889314",
+      "archive_sha256": "a9fcc23f2cd2516f75350eb27e2142e554301923b3491e1e2599a0080447dd16",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/noise_research/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/noise_research/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8d2e8561c9a34718b9abdb22629f921a1800c09f57e48c11af80e3d99144bb2d",
+      "archive_sha256": "a68e52f0a9ee7a795a53e2643462036ae2291d4ae8506732f6da34bb82f6dfa9",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/noise_research/结论.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/noise_research/结论.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "7259f2adfc62c73a8f4c89a3ea2c4ba01df24a13015e82b3dc0accdd50bd7af2",
+      "archive_sha256": "86c3d3315b032a8721c2119c55d74ed171d0eb5545f17b8fc3992e604aff8a20",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/nonideal_validation/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/nonideal_validation/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "30fa3c6cb762585970d41a9c66c5198691d587eeb2487b9aa94e1aeefcaf4ede",
+      "archive_sha256": "b843d1dc044296772f99bd156b9fd5f13312103f04bf7f3836aa1ebef3640f2f",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/nonideal_validation/结论.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/nonideal_validation/结论.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "550cbc9ac84cb17831aa99c53295a0eb0fd226cada72b2cda7711e214f481c49",
+      "archive_sha256": "e563b005c7fd3914cdb74a224d1f8eb6f5d91befca6139aaf8bb25fdff42570c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/quality_dashboard/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/quality_dashboard/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9194864190b8da0aee74d3a564302eebafc76cea66e67c45fe7462fc9e5b5de8",
+      "archive_sha256": "3e3b998d3db0080f4e5f04a245f418fb9854030f3d4f6c427571cc0ed4a83caf",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/revision_v10_1/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/revision_v10_1/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e139c9dc8a54a1af4d7a23ce3b5402b27820c2cad2c4e0903a6d3ab655a9fe7c",
+      "archive_sha256": "3e44ab3d22e1ae88a24c8794aa4a3a64109f4b87a4bdc64b5e8ee74c6ffb035c",
+      "rewritten_local_links": [
+        {
+          "source_href": "实现与验证说明.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/revision_v10_1/实现与验证说明.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/revision_v10_1/实现与验证说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/revision_v10_1/实现与验证说明.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "246e98d6c45a10186b5bd1f7186b0517959dc429f27c3d9819ad4beb92ae3f85",
+      "archive_sha256": "39904a198654e23a9897cf004961f968b00b2af13a09dd02f00688f96016f2be",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/revision_v10_2/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/revision_v10_2/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "b579d7872b78abf7bc9c3c96023647cb9781f10f77d2ad799905cfafa0e12635",
+      "archive_sha256": "a54ab8c7521ec8e49f2d7ff484c76fbdc0c1f33d4106a84bbb750f535a5d0adb",
+      "rewritten_local_links": [
+        {
+          "source_href": "结构对照与设计说明.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/revision_v10_2/结构对照与设计说明.md"
+        }
+      ]
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/revision_v10_2/结构对照与设计说明.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/revision_v10_2/结构对照与设计说明.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "50921b0cc4f3aaf0e0b44b46349fb0195e39c011bc9eebb59c4c5fa7c0801314",
+      "archive_sha256": "d69f8ed6b782c7e91bceb20d3727a618da3de09848a6b5b2d65863ec655e6cd8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/README.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/revision_v10_2_cn/README.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c64b8425fd3555c32ee384378ecb241dce49ff2a2cabc57e835bf1ba8fabb01d",
+      "archive_sha256": "f4f6d69a810a8e3bcb64b56abea1dbbb364e38609a90472ea6b17eaa522b1c9f",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA_simulink/原工程分析与建模依据.md",
+      "archive": "codex_md/历史文档/HRG_WA_simulink/原工程分析与建模依据.md",
+      "category": "MATLAB与Simulink建模",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "4db2b3fc9d888c1f120a4080a25de0da6532276729722f14b6ec63a6fe6d7569",
+      "archive_sha256": "52ebadd2871c862ed2cfa92f07276587fb422f1230793991370a919c1e40df36",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包/deliverables/HRG_WA_Digital_ASIC_MATLAB_v3/README.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包/deliverables/HRG_WA_Digital_ASIC_MATLAB_v3/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "784dfc830b50929fcc80569976ec582957d187b3e320cfaca0a22867ffc1075f",
+      "archive_sha256": "76eb7b005fb157873cac0ce0265c771fcf46036a9ced7b67defa38c01c387875",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包/deliverables/HRG_WA_Digital_ASIC_MATLAB_v3/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V3_完整交付包/deliverables/HRG_WA_Digital_ASIC_MATLAB_v3/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5e35c7682d358dceb10f2297def4b528e3cebf5900cf85b5cd4997d86a5e5f58",
+      "archive_sha256": "11a89f00ddd1732d8c5517ecc64d79a5163f5800477bf586a661f359ef5b97ef",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/HRG_WA_V4_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/HRG_WA_V4_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "6506a82d280b91a37bb737a6617041e89ca397922dafd6bd04c1da69a8fabffd",
+      "archive_sha256": "33f7020bc1efe2ba91a58cf30b36b91c65f199bd8d21c80ed407e7a79e721c25",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/README.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "0962f0ede1611520bdd8c375738d90d3ff96d335a9f80fc88fd6ed7586dcedef",
+      "archive_sha256": "58ba3effc1c22bfc96eeafc4259f75afeacb14d0bb45de0547fdf3fdf4ae2eef",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_1_路径校验修正版/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4_1/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+      "archive_sha256": "bb211c81d16a90eb72d7bcad5af25132861913000fdfa5ce1f0b9db4030fc850",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/HRG_WA_V42_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/HRG_WA_V42_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "765df8768584f59c32d64d40d01c43a134ea625c621ceb5066f1565d6a44d727",
+      "archive_sha256": "c58d9944709f8877fdd9c35fd3f53d13302c9fdd18bb6a2d3716bd3ca61362d2",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/PACKAGE_MANIFEST.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/PACKAGE_MANIFEST.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "12c7a91f5c2b3f1e4bda2f46950e14efc5630abde9faf936c2aaa58f883069ff",
+      "archive_sha256": "915cde7a7998b1f150868bcaa22448555a08d96bc11f95413eec3d8d7a7586da",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/README.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "24fa8ae2371640044cb037c922f491bff3a9e997f6e4a7fde0ad507f8bda7f47",
+      "archive_sha256": "0e8c70b5248b9e2f2586556d87692deb53f4b510b4a4362347f367c91c29027c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/V4.2_静态验证报告.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/V4.2_静态验证报告.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "2e9ac997f9774d39f3a973fe3d3a2647fce765413a034e522b776d2b0b7b7de6",
+      "archive_sha256": "79fd1b12b2350931180b6d91186dd9512d4127478b68c14f7710f099d222459e",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_2_1_捕获修正版/HRG_WA_Digital_ASIC_MATLAB_v4_2/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "293ddb30e0e75d3783c108c016c359181708c1d3a2481891bb307dc0a5a8902b",
+      "archive_sha256": "a498c7dd8fdba45fcb658844376dde07add7abdbc7fea15bb3283e8bdbfa0a48",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/HRG_WA_V4_参数与控制器修调指南.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/HRG_WA_V4_参数与控制器修调指南.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "4eda5dd304d8e79a221f49019d081a913e5ba265988d55a73bc697bf53915cd9",
+      "archive_sha256": "aa59e07a0af79c999d8238df2b84fc7239c1dbeb863f38462da182daac6eed1c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/README.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/README.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "47ce58aa30c3fbc76fc8f1fbae63319ed45efc8390bac5429ea9ff36b62b62b9",
+      "archive_sha256": "d1369b78acc9aec97bbf5329465d15bf61a63de3a784b89ab4a8b86df678fc12",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/验证与使用说明.md",
+      "archive": "codex_md/历史文档/HRG_WA全角模式数字ASIC_MATLAB_V4_修正版完整交付包 (2)/deliverables/HRG_WA_Digital_ASIC_MATLAB_v4/验证与使用说明.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "d110af58e1232b6c98e44ecd7e77f27d42d8e0ba02a3784931b19baf9d592682",
+      "archive_sha256": "53a3630ac863a2e029e2d6a2957c367dbeaf6d7fe793831eec27fa967fefe2af",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "V10优化审查_压电表头与Zotero全文证据.md",
+      "archive": "codex_md/历史文档/V10优化审查_压电表头与Zotero全文证据.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8c4b5e17abcb4195fb42e5aed8813df559a7959772992629fcfa19356f068be8",
+      "archive_sha256": "ee93a54b5529d72a311eb51ed77dd0fd1e148501857bbfe1084a34bb86259e6a",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "V10优化研究_缺少表头参数时的电荷域闭环.md",
+      "archive": "codex_md/历史文档/V10优化研究_缺少表头参数时的电荷域闭环.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9f8a78cde42d43efabd6dc920212cb7f2886e1cfa67be3afe790d2470669ac42",
+      "archive_sha256": "fc24adf670e9e0b1d9904cb54d2483448e19759fc2a3aa5bd904f7a897e06df6",
+      "rewritten_local_links": [
+        {
+          "source_href": "V10压电表头_无厂家参数的测试辨识与回填方案.md",
+          "resolved_target": "codex_md/历史文档/V10压电表头_无厂家参数的测试辨识与回填方案.md"
+        }
+      ]
+    },
+    {
+      "source": "V10压电表头_无厂家参数的测试辨识与回填方案.md",
+      "archive": "codex_md/历史文档/V10压电表头_无厂家参数的测试辨识与回填方案.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "28374c2ce22e7012a6b3141eb22302759bde94677b2cc83a98bb63c672170296",
+      "archive_sha256": "90b5922167052c7330c62126a58664b73f901a8ab12a878e636060334e71ad7e",
+      "rewritten_local_links": [
+        {
+          "source_href": "压电全角总书第三版_原理到V10实现.md",
+          "resolved_target": "codex_md/历史文档/压电全角总书第三版_原理到V10实现.md"
+        }
+      ]
+    },
+    {
+      "source": "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/README_HRG_WA_RTL.md",
+      "archive": "codex_md/历史文档/hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/README_HRG_WA_RTL.md",
+      "category": "RTL、配置与历史版本",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "40765794be21c35dc9dec91b67b49937b44807bc0599de65658c4da6551aa563",
+      "archive_sha256": "66983b06a9b6bfd85f10be88403a43c91b4b83c9df586fb58829a031f04ea7b2",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/all_piezo_cited_20261029/README.md",
+      "archive": "codex_md/历史文档/research/all_piezo_cited_20261029/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "72ecf8e39e613587dd9f1c0f7c03bb08e9eb6fa04d04a186dda0aa844e6c1119",
+      "archive_sha256": "96f7d2f2e29a7006cc49d79f68910c4e551fd55db3a9c7fb1a768d496494b0cf",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/README.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "2f6d1100c12515c1bbdfb8c828d195309674187d940c63d4001eb8a175d072f9",
+      "archive_sha256": "97cbe9a28edacda77a2902b49a656af6b1e602c63e98d2989f74418e4f108816",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/chapters/00_阅读说明.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/chapters/00_阅读说明.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "10c3970cee91b25abd4cd976ba406d230f544f7c1a67454ffbd6287cbb7a7959",
+      "archive_sha256": "4cc3e44ac2f2f243f513106326bfc6444d8845272eef6101be857d9f7687a64a",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/chapters/01_机械与矩阵.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/chapters/01_机械与矩阵.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "54efbd8e00e6db3a66767b284f385acd28ca7bf144f9d91b6ef21d0e649ccc2a",
+      "archive_sha256": "664a9261176e758fe7abb827d70ce17ea42151bb5e2f7ac54250096341c4df05",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/chapters/02_平均法.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/chapters/02_平均法.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "abd8f65bbaa36aea0bafb30bdf979aabe4b33e04f87965382623fa97e5cd3934",
+      "archive_sha256": "f73f87b2c9bb6ac777bc0f0ff74e5149158f9841e833bd13217bdafdbbd0b967",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/chapters/03_椭圆与二次量.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/chapters/03_椭圆与二次量.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "de154716e4f995dab93c0b7a889ef44cb7e935b7db0d10b2777f35650db1ab0b",
+      "archive_sha256": "620b9efc1e73fdbac675e204735933090c0e8d1b8ec4bd92f8ec001d31228fe8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/chapters/04_完整慢方程.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/chapters/04_完整慢方程.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ee326b46e247d2ebb8640481c6d73592ae25b0c8dfc8bd0f76e2456c5f9cf27b",
+      "archive_sha256": "4746e94227c551e6f498cf331cf549ca4202485ebc694d553d68f6c11344ebb9",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/chapters/05_控制与闭合方程.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/chapters/05_控制与闭合方程.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "2570ebfac18322ca1a1666cbb19383bad364929441391de2987456a7dcbf81bc",
+      "archive_sha256": "45ababad9cffdef4a26ae48517ec95f465eb6ebb07dab3507baadc96f415cf34",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_20261030/chapters/06_完整算例与工程映射.md",
+      "archive": "codex_md/历史文档/research/classics_20261030/chapters/06_完整算例与工程映射.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e8c6ab78790b70f0fb9c5a67679fbcdce72a971a66a8920a606f01f862299450",
+      "archive_sha256": "a249f2251c600e9b74fcb7331471bd4c4a700eed61eebab189e693d42e5f608f",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_addendum_20261030/README.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "a876757e6fa59d082e05c3e84e9ca0084c476eeb99346c225b14696e06ea7572",
+      "archive_sha256": "9c19064f44bd00284bf1645a6fa71fede86a0b0acde25c22a311c900b037c2b3",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../压电全角验证总书第五版_三篇经典文献贯通.md",
+          "resolved_target": "codex_md/历史文档/压电全角验证总书第五版_三篇经典文献贯通.md"
+        }
+      ]
+    },
+    {
+      "source": "research/classics_addendum_20261030/chapters/00_本版阅读证据.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/chapters/00_本版阅读证据.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "7f2b48af7b42b760d3516c8f7f09ccbf41df2cd1c054175e4d438fd576cb0f26",
+      "archive_sha256": "187cf9726f20472a316a6b4682c1683cf61a21170ee52a36a39ef5b1bbbed792",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/chapters/01_Ragot基础逐式推导.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "00fecd33d79b79e8d9bf29785f07315a2a1ae99e99bd50cd33bf9e92cd74f9c9",
+      "archive_sha256": "62bc9193d2ba153462ac77059aa389f8c965473eb9220375ff5c9de3d994b1ab",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/chapters/02_Ragot接口扫角逐式推导.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "a06011b6e389a50e2ea9857712a407235a348c403dec706030d4130be7b74112",
+      "archive_sha256": "621142ed89012ef14f725a049b71bb5ddd967200e9d1ea1b4302152fbad89695",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/chapters/03_Jeanroy逐式电路预算.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "21d767938fc679008af8e72f2ea31213e48e5cd0355fe74d655085c9fa3c9cde",
+      "archive_sha256": "5a64f16d9becf0b66b776bc01556b8a83e08954a82d7e71b3a9f344bafec6428",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/chapters/04_Rozelle机理与电路拆解.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c0c9d4f52e8eee4724e32e44e6ad0caa7f9aa0830207767e3be82232803100c9",
+      "archive_sha256": "a063aacf61c7d843b76e3cbb2749c5a1eea3e2ab067ebc25d4b2ad67d1607b4d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_addendum_20261030/chapters/05_贯通计算与验收.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/chapters/05_贯通计算与验收.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9f1d846ef5a986c8bb2e2e50c6633e6b3f0c7354c0067c14ff1249546a08a5d2",
+      "archive_sha256": "9a068a5889825f3af463dcc1dbce3d30d9a984f97f8c78338905083966995d6e",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/classics_addendum_20261030/worked_steps.md",
+      "archive": "codex_md/历史文档/research/classics_addendum_20261030/worked_steps.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e0a8f53974a03470a05dc83a914ab5db4242cef4cb6fb8ee9377f3b8daa4316d",
+      "archive_sha256": "32150e80dd2ac8af4eb1e6549c3e1b202ffe31473b3203f4d94a85ebe1d26f8c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/complete_book_20261027/README.md",
+      "archive": "codex_md/历史文档/research/complete_book_20261027/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "0c9f2331a8478fd9fd9bbea123cf8d319bbeaab9a083e7056486fa5fc569d5b3",
+      "archive_sha256": "15165a094130dd67d3731b5cd2360bdb2ddd501f3d827e505b8499c3db74e49c",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../全角HRG从零到当前_完整推导与验证总书.md",
+          "resolved_target": "codex_md/历史文档/全角HRG从零到当前_完整推导与验证总书.md"
+        }
+      ]
+    },
+    {
+      "source": "research/innovation_review_20261102/original_proposal_snapshot.md",
+      "archive": "codex_md/历史文档/research/innovation_review_20261102/original_proposal_snapshot.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "a5cde014d0b6c9b28b89bbfe3012f4feffd884d2dbd2f2bd7774f8867f775be3",
+      "archive_sha256": "eccf55759e21a93231d3a6898b3a54861892f414ad05844ff9522b864998f717",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/innovation_review_20261102/五个创新点_可行性评估与修订V2.md",
+      "archive": "codex_md/历史文档/research/innovation_review_20261102/五个创新点_可行性评估与修订V2.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "54c10b6483b15611c6958d4a0edd47e819cecf210e6d4c6ae691d3abb8b5089c",
+      "archive_sha256": "15f099ba5348bcc41ab8f3ff68e54d131da1464f14943870d3eef076708ea74b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/README.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "fb9f95bef372e725eee3ea94e3708b763f25782ce807995246974ace57c7651a",
+      "archive_sha256": "1b7351072f152a0fd00bd95d39f9fb65e30695f9c652feb106ac8bcdd391c8fa",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../压电全角陀螺_结构到电路全知识体系总书.md",
+          "resolved_target": "codex_md/历史文档/压电全角陀螺_结构到电路全知识体系总书.md"
+        },
+        {
+          "source_href": "../../压电全角陀螺_全知识体系核心阅读版.md",
+          "resolved_target": "codex_md/历史文档/压电全角陀螺_全知识体系核心阅读版.md"
+        },
+        {
+          "source_href": "library_coverage.md",
+          "resolved_target": "codex_md/历史文档/research/knowledge_system_20261030/library_coverage.md"
+        }
+      ]
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/00_知识体系与阅读法.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/00_知识体系与阅读法.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f29820c8d9d68e98684162bf5d2b03437af575905bee2570576321eef34c1a43",
+      "archive_sha256": "c05e48238fa7a1a5bd1b1ac3480622c880f0ea8c3bec6327199e897da4273d89",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/01_结构到机电端口.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/01_结构到机电端口.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9c05f32fa5b838b77e7c441b23ad5a16bb616d434750383b1e962b5f9de1c7b6",
+      "archive_sha256": "95480a25a6a9a9988db8e434e34797be3c38cf5dd9406737e15b50b897d877f3",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/02_检测电路与噪声.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/02_检测电路与噪声.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "8de173f5a615a7f0a65b51eebd5112dc2bc3a96af8a884477c460005fc21984d",
+      "archive_sha256": "23a6941864389f9fe9e4ff5bf72a09cef2e45fead76cf677a0b996b46332cc3d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/03_采样与数据转换.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/03_采样与数据转换.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "aa8ec00a8d75e1666a5a85a68296f024261e204965b7e54a0a875698fb383c36",
+      "archive_sha256": "7dadeaf55ab31439f9a198daaa4d9a3c9d417611f0a9b11fcf56733534ad1b23",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/04_驱动参考与电路实现.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/04_驱动参考与电路实现.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "90c082760fe12f99c7d8d52c28a10d63a922b6369ecbbbdb4e94dc5dc69c9c67",
+      "archive_sha256": "e4322b06bfc5aa4a629870022e201386157ca7ac053886ed1c2929bf7de3e4a0",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/05_算法辨识与验证.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/05_算法辨识与验证.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "6c4b5e669ae7b7d5afa27e2a900c386453afbd93738b96d5eaf2ca9977898941",
+      "archive_sha256": "b2624d9f0500bcc49a8c75ee0dbcf9283afad81c20736dd1f633821b674aa35b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/06_运放专题增补.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/06_运放专题增补.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "637a18cecfebab220acb62d544c5e18e7145cfe658db8b46304e1ff1e7e7d485",
+      "archive_sha256": "aafa2bdc8905400bed4a1059c67d0f0b0d0b82b25e57c79c7e67fa809af03b78",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/chapters/07_模拟讲义核查与时钟滤波.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/chapters/07_模拟讲义核查与时钟滤波.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ed0bb4bcb376ee4bbd7b65bcfcce49a023875fd2d2472be512158265ea199a8d",
+      "archive_sha256": "fb9a3f7023d08250800a93f456c17acfa28e44ee95f1d44ce9ca52ab0178ce3b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/circuit_steps.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/circuit_steps.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "914bb4a518bb2434d21c3785193eeb3e390ab3788f7666f0f06e26d22a8b58e7",
+      "archive_sha256": "34abb69399c81e1a0c6ec9db578ec3e62e27864355c3eb30013b8cc48c836366",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/knowledge_system_20261030/library_coverage.md",
+      "archive": "codex_md/历史文档/research/knowledge_system_20261030/library_coverage.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "eb75aefe148f2740245ccca6d652e9befb579ac921c4d55b0d99d0c3ca36e296",
+      "archive_sha256": "1b1a98042891ccd0ae99cd6ee2ff674966074e064bf7742f8dcae28bba7b4b0c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/literature_20261102/文献融入与五个创新候选.md",
+      "archive": "codex_md/历史文档/research/literature_20261102/文献融入与五个创新候选.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "92c5b5ad9c791133a723e181be2b5067c1d8e37e66d3648da8566e0215ab4a09",
+      "archive_sha256": "464c9fa85eecadb4e0c269298c7cec7cbfa20a959e7f3ed4ec2280ceccd2d597",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/literature_acquisition_20261023/README.md",
+      "archive": "codex_md/历史文档/research/literature_acquisition_20261023/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "1a6f58b6194e09feac47d5b05dea99895176336968306e43b0872d9a22a8d65e",
+      "archive_sha256": "fe17d8d3602cf9230d948ddfa7b0c6c5c526377eb20951c21331e788a8873fda",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/lynch1995_citing_20261024/README.md",
+      "archive": "codex_md/历史文档/research/lynch1995_citing_20261024/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "3dfdd28ed71f51844d928d28ade5aa1897f2a33358d7aa187f963e2062bb9eea",
+      "archive_sha256": "b3a4587310211bb8c8e4bfc46b39fa040b956477bbab412cf864f30b0108ef64",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/lynch1995_citing_20261024/audit_notes.md",
+      "archive": "codex_md/历史文档/research/lynch1995_citing_20261024/audit_notes.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "29d0d842e769879e64332167328ebc03f0c069367e408da9965fbdca6270125c",
+      "archive_sha256": "f3776456709bc7652bb1fe868a7b642393d70b5320f37b6e95b3411ce320b102",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/piezo_search_20261029/下载结果.md",
+      "archive": "codex_md/历史文档/research/piezo_search_20261029/下载结果.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "0680892227c28e7fe9c68d00d6d72070fea08bee0b4c5f53cc6ec505dc38b537",
+      "archive_sha256": "c248ca9b1e925047d144473c0f50cdc13ca3584b1fe56818f32ebe3e4fcb6110",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/piezo_search_20261029/压电半球陀螺_分层引文检索清单.md",
+      "archive": "codex_md/历史文档/research/piezo_search_20261029/压电半球陀螺_分层引文检索清单.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "b269f9d2c5556e9e713df3a6ef65c03465a88a23511cf82cdad22a1743ba1c82",
+      "archive_sha256": "e92bda8c5517737b9453ce4259059a359cf62e5f5106ade5cfb0411a53fa0aef",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/project_master_plan_20261102/evidence/README.md",
+      "archive": "codex_md/历史文档/research/project_master_plan_20261102/evidence/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "b69dd656a8e2923fc60a420928d870689dc0b1fa1aa2b79b4f81641ad14368e5",
+      "archive_sha256": "93f8ec024ec0dc0d412a6160b1e4c8df7dfb2cb958b9f4040386dff4dbf6f0b8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/scholar_151910_20261029/README.md",
+      "archive": "codex_md/历史文档/research/scholar_151910_20261029/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "b8f4cb64f95239ba8b11da94cc82436c68332872122ab6c8f3c3db607e74727e",
+      "archive_sha256": "0cf168dadfae2efa04ece2394bc7b71bef6b199d7694620175c9489e3d248e70",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/scholar_piezo_20261029/README.md",
+      "archive": "codex_md/历史文档/research/scholar_piezo_20261029/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "82b5f1d1432bb037347a116451e159459b93ccca43f78384022f283e0151c28e",
+      "archive_sha256": "142ed1bffd648614333fd082ede7b86fe136a2b46faf2b6c63a949087d824c86",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../压电式半球全角陀螺_逐步推导与文献审读.md",
+          "resolved_target": "codex_md/历史文档/压电式半球全角陀螺_逐步推导与文献审读.md"
+        },
+        {
+          "source_href": "逐条相关性.md",
+          "resolved_target": "codex_md/历史文档/research/scholar_piezo_20261029/逐条相关性.md"
+        }
+      ]
+    },
+    {
+      "source": "research/scholar_piezo_20261029/逐条相关性.md",
+      "archive": "codex_md/历史文档/research/scholar_piezo_20261029/逐条相关性.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "b86e8083092cf4c3cb8f64a12f52d0e65f0cf07ef6fde5581c3c254149493349",
+      "archive_sha256": "4ece5e1b1d678bccd818be89b5413b93f2b4a446c0370d320eddbbf9b5f0d58f",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/theory_20261026/README.md",
+      "archive": "codex_md/历史文档/research/theory_20261026/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "a78c50917ab45336260b42e95b3c91de26e4a2f769352b1e5cdc22cef50cecf9",
+      "archive_sha256": "4d870508e9d2c5bf83d4e69c3c07556d4f3a8e3217a08a6e3e99ee5ef1152a05",
+      "rewritten_local_links": [
+        {
+          "source_href": "derivation_academic_and_intuitive.md",
+          "resolved_target": "codex_md/历史文档/research/theory_20261026/derivation_academic_and_intuitive.md"
+        }
+      ]
+    },
+    {
+      "source": "research/theory_20261026/derivation_academic_and_intuitive.md",
+      "archive": "codex_md/历史文档/research/theory_20261026/derivation_academic_and_intuitive.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "cfad2562a16001d2ad9b78a6fbbceaf40ca99ebdb306f488f5d1badf2993f761",
+      "archive_sha256": "d5d54ad6200262b8ec30f07bdf36bf10b9a069a3025cc54dd1c8cb9f77856913",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_v8_research/docs/mechanics_to_algorithms.md"
+        }
+      ]
+    },
+    {
+      "source": "research/v10_cited_20261029/README.md",
+      "archive": "codex_md/历史文档/research/v10_cited_20261029/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e6bbc8020eff28fbbafceed002c74a01bc1950e0c62f1d2fdafe8954bd91f0f3",
+      "archive_sha256": "4dddb639ee7d2e438b80cc71818b5c37a85448794606d0215a2739d6f03aac58",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/v10_review_20261029/sources_reviewed.md",
+      "archive": "codex_md/历史文档/research/v10_review_20261029/sources_reviewed.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "b57045694775d2cf649f608cde916c9b7c5b531a49d595a69196058cc609465f",
+      "archive_sha256": "54b717455fc13732d66955467e68b3e584cca2aa3f2188bd0a622fed211f3685",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/verification_book_v2_20261027/README.md",
+      "archive": "codex_md/历史文档/research/verification_book_v2_20261027/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ae57126c13049155824718a7f92cdbbfc867df13ec52aaf04ad84f47276be1f4",
+      "archive_sha256": "fb15e7e843eebbca6ed2f321fb5e4a518d588f1ce4c327f47ab1e8988d972b61",
+      "rewritten_local_links": [
+        {
+          "source_href": "../../全角HRG验证总书第二版_逐行推导与复算.md",
+          "resolved_target": "codex_md/历史文档/全角HRG验证总书第二版_逐行推导与复算.md"
+        }
+      ]
+    },
+    {
+      "source": "research/zotero_import_20261026/README.md",
+      "archive": "codex_md/历史文档/research/zotero_import_20261026/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "31ba3387168093532c4f49bcdf6e5fbcebc72b085e71a97d8b9c1ef35c67e605",
+      "archive_sha256": "a2e9304654fbc9b7eece50d176b452d46b9f2da34a1967666838724a08457e28",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "research/zotero_integration_20261024/README.md",
+      "archive": "codex_md/历史文档/research/zotero_integration_20261024/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "bd8bbfe362b994439420300901fe8f8b9f10528b96425c039c1100819b7e8ed4",
+      "archive_sha256": "f903197835806981133fbb5696ad606ad57f19763398e4320d8ec3e0c5149dc9",
+      "rewritten_local_links": [
+        {
+          "source_href": "hrg_bibliographic_coverage.md",
+          "resolved_target": "codex_md/历史文档/research/zotero_integration_20261024/hrg_bibliographic_coverage.md"
+        },
+        {
+          "source_href": "../../HRG_WA_simulink/literature_zotero_research/docs/paper_comparison.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_simulink/literature_zotero_research/docs/paper_comparison.md"
+        }
+      ]
+    },
+    {
+      "source": "research/zotero_integration_20261024/hrg_bibliographic_coverage.md",
+      "archive": "codex_md/历史文档/research/zotero_integration_20261024/hrg_bibliographic_coverage.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "225c27233761b6bd8087f646694099c07f9c243594e855579fd8e7da24d6aaac",
+      "archive_sha256": "211097b47c7c873ac65df48393053e9881cb31b44157994533ef47bb1bd0633b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "全角HRG从零到当前_完整推导与验证总书.md",
+      "archive": "codex_md/历史文档/全角HRG从零到当前_完整推导与验证总书.md",
+      "category": "理论总书与教材",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9cca4a1c03f78f746d3b426bc975a8f938ada61bc529a210ea0fe38880a270a6",
+      "archive_sha256": "3fd1dc511f57347e96f0e59819e7685d29a29e1d8da331688ca794a30651419e",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "全角HRG验证总书第二版_逐行推导与复算.md",
+      "archive": "codex_md/历史文档/全角HRG验证总书第二版_逐行推导与复算.md",
+      "category": "理论总书与教材",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e201c28712fa841b0fe8554aabce5e7e064738f99e6edecab210e28279a34e98",
+      "archive_sha256": "d180d70fdb7612e7ebe63e3ecd6fd5a871a26bc424d5f70d4b741393751b9480",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "全角陀螺/00_索引与白皮书/半球谐振陀螺技术详解白皮书_V1.0_20260825.md",
+      "archive": "codex_md/历史文档/全角陀螺/00_索引与白皮书/半球谐振陀螺技术详解白皮书_V1.0_20260825.md",
+      "category": "资料与文献管理",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9d8513b1a7f5ff0fae112610d4b23576ee7fe9a59712ad45b9ad0cff84c4ff6c",
+      "archive_sha256": "4421dddc89a408ebfe9500bb109bae62c697310e5404651052cbfb4624797130",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md",
+      "archive": "codex_md/历史文档/全角陀螺/00_索引与白皮书/半球谐振陀螺资料索引_20260825.md",
+      "category": "资料与文献管理",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "204e64fd54dd8f3de57d773f55aa2c47435d173542ec35342c8a7592c1ff66b0",
+      "archive_sha256": "6c2619fd7adc27498780c007ed98b1dca13b6b0006df9ff3d85a7c3c9cfe823d",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "全角陀螺/HRG_WA_codex.md",
+      "archive": "codex_md/00_用户提问记录.md",
+      "category": "资料与文献管理",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "working_question_append",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": true,
+      "source_sha256": "e1c584be2bdc90df969046936e954c8551d5f6a6699af60037bdf871872bbff9",
+      "archive_sha256": "8c8723c0a232ff543f9d88367d7412f45eca04de3f0fc0c3d61c07b98a5f5cfd",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "全角陀螺/新增资料_20261021_WoS/README.md",
+      "archive": "codex_md/历史文档/全角陀螺/新增资料_20261021_WoS/README.md",
+      "category": "资料与文献管理",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "9a6aa6ea6502829f37321c4162e11198a5f0d0928eb25daae3927c2fc4ab1a3d",
+      "archive_sha256": "ee6ef0cd5c5f42741d817910255890cab364d162633c7881acb1a036c5fce4b3",
+      "rewritten_local_links": [
+        {
+          "source_href": "pdf/系统与控制/2012_Foucault_Pendulum.pdf",
+          "resolved_target": "全角陀螺/新增资料_20261021_WoS/pdf/系统与控制/2012_Foucault_Pendulum.pdf"
+        },
+        {
+          "source_href": "pdf/电路与数字实现/2011_MEMS_Rate_Control.pdf",
+          "resolved_target": "全角陀螺/新增资料_20261021_WoS/pdf/电路与数字实现/2011_MEMS_Rate_Control.pdf"
+        },
+        {
+          "source_href": "pdf/算法与补偿/2022_Nonlinear_RIG.pdf",
+          "resolved_target": "全角陀螺/新增资料_20261021_WoS/pdf/算法与补偿/2022_Nonlinear_RIG.pdf"
+        },
+        {
+          "source_href": "../新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf",
+          "resolved_target": "全角陀螺/新增资料_20260825/02_控制与信号处理/2021_Dead_Area_Compensation_Rate_Integrating_HRG.pdf"
+        }
+      ]
+    },
+    {
+      "source": "全角陀螺/新增资料_20261021_WoS/检索记录与后续清单.md",
+      "archive": "codex_md/历史文档/全角陀螺/新增资料_20261021_WoS/检索记录与后续清单.md",
+      "category": "资料与文献管理",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "cf475031fa226c42773c613ee708f554c506f9d817156bb4df8bad0526cb8055",
+      "archive_sha256": "87b6b57b9275904c51dafecd556b1e0935f2227e36f4c8d9a011f50b862cb812",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "全角陀螺从理论到产品与ASIC设计教材.md",
+      "archive": "codex_md/历史文档/全角陀螺从理论到产品与ASIC设计教材.md",
+      "category": "理论总书与教材",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "0fd96823e0506b4835be993c374973b10345205d2e89a5b287271214c3b57ee5",
+      "archive_sha256": "1b424551f18149cb4bf6652bd2223bc0a6c99895b7530b7c7400c77b91ccf78a",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "压电全角总书第三版_原理到V10实现.md",
+      "archive": "codex_md/历史文档/压电全角总书第三版_原理到V10实现.md",
+      "category": "理论总书与教材",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5d642747bdd75a1740d422ae675190271d2b45c8e33653f61303aaf2bd21e39e",
+      "archive_sha256": "99188b875aef433d610a80b6edbf3ab33dec17669bb2fefc5e39648077e7e22e",
+      "rewritten_local_links": [
+        {
+          "source_href": "research/piezo_search_20261029/download_manifest.json",
+          "resolved_target": "research/piezo_search_20261029/download_manifest.json"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/逐条相关性.md",
+          "resolved_target": "codex_md/历史文档/research/scholar_piezo_20261029/逐条相关性.md"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/reproduce_piezo.py",
+          "resolved_target": "research/scholar_piezo_20261029/reproduce_piezo.py"
+        }
+      ]
+    },
+    {
+      "source": "压电全角陀螺_全知识体系核心阅读版.md",
+      "archive": "codex_md/历史文档/压电全角陀螺_全知识体系核心阅读版.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "f0c1156d86149f53e79780cf8c147b133bfe451ef597901f8547321226735967",
+      "archive_sha256": "6275f675a99295917220dd5b497a2a4a135edec3985a5bafb04ee651ebb164fc",
+      "rewritten_local_links": [
+        {
+          "source_href": "research/knowledge_system_20261030/library_coverage.md",
+          "resolved_target": "codex_md/历史文档/research/knowledge_system_20261030/library_coverage.md"
+        },
+        {
+          "source_href": "全角HRG从零到当前_完整推导与验证总书.md",
+          "resolved_target": "codex_md/历史文档/全角HRG从零到当前_完整推导与验证总书.md"
+        },
+        {
+          "source_href": "全角HRG验证总书第二版_逐行推导与复算.md",
+          "resolved_target": "codex_md/历史文档/全角HRG验证总书第二版_逐行推导与复算.md"
+        },
+        {
+          "source_href": "压电式半球全角陀螺_逐步推导与文献审读.md",
+          "resolved_target": "codex_md/历史文档/压电式半球全角陀螺_逐步推导与文献审读.md"
+        },
+        {
+          "source_href": "压电全角总书第三版_原理到V10实现.md",
+          "resolved_target": "codex_md/历史文档/压电全角总书第三版_原理到V10实现.md"
+        },
+        {
+          "source_href": "压电全角验证总书第四版_经典文献逐式演算.md",
+          "resolved_target": "codex_md/历史文档/压电全角验证总书第四版_经典文献逐式演算.md"
+        },
+        {
+          "source_href": "压电全角验证总书第五版_三篇经典文献贯通.md",
+          "resolved_target": "codex_md/历史文档/压电全角验证总书第五版_三篇经典文献贯通.md"
+        },
+        {
+          "source_href": "全角陀螺从理论到产品与ASIC设计教材.md",
+          "resolved_target": "codex_md/历史文档/全角陀螺从理论到产品与ASIC设计教材.md"
+        },
+        {
+          "source_href": "压电全角陀螺_结构到电路全知识体系总书.md",
+          "resolved_target": "codex_md/历史文档/压电全角陀螺_结构到电路全知识体系总书.md"
+        }
+      ]
+    },
+    {
+      "source": "压电全角陀螺_结构到电路全知识体系总书.md",
+      "archive": "codex_md/历史文档/压电全角陀螺_结构到电路全知识体系总书.md",
+      "category": "理论总书与教材",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "dc734b1e36c6819bd46bf1a983c801637a6ff24b406a289e9d3ca2835fa53379",
+      "archive_sha256": "8bbe7c1e0b884826d3d97ebfe2095c1da5df15fd877c2af2f7faf533c71419bc",
+      "rewritten_local_links": [
+        {
+          "source_href": "research/knowledge_system_20261030/library_coverage.md",
+          "resolved_target": "codex_md/历史文档/research/knowledge_system_20261030/library_coverage.md"
+        },
+        {
+          "source_href": "全角HRG从零到当前_完整推导与验证总书.md",
+          "resolved_target": "codex_md/历史文档/全角HRG从零到当前_完整推导与验证总书.md"
+        },
+        {
+          "source_href": "全角HRG验证总书第二版_逐行推导与复算.md",
+          "resolved_target": "codex_md/历史文档/全角HRG验证总书第二版_逐行推导与复算.md"
+        },
+        {
+          "source_href": "压电式半球全角陀螺_逐步推导与文献审读.md",
+          "resolved_target": "codex_md/历史文档/压电式半球全角陀螺_逐步推导与文献审读.md"
+        },
+        {
+          "source_href": "压电全角总书第三版_原理到V10实现.md",
+          "resolved_target": "codex_md/历史文档/压电全角总书第三版_原理到V10实现.md"
+        },
+        {
+          "source_href": "压电全角验证总书第四版_经典文献逐式演算.md",
+          "resolved_target": "codex_md/历史文档/压电全角验证总书第四版_经典文献逐式演算.md"
+        },
+        {
+          "source_href": "压电全角验证总书第五版_三篇经典文献贯通.md",
+          "resolved_target": "codex_md/历史文档/压电全角验证总书第五版_三篇经典文献贯通.md"
+        },
+        {
+          "source_href": "全角陀螺从理论到产品与ASIC设计教材.md",
+          "resolved_target": "codex_md/历史文档/全角陀螺从理论到产品与ASIC设计教材.md"
+        },
+        {
+          "source_href": "research/piezo_search_20261029/download_manifest.json",
+          "resolved_target": "research/piezo_search_20261029/download_manifest.json"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/逐条相关性.md",
+          "resolved_target": "codex_md/历史文档/research/scholar_piezo_20261029/逐条相关性.md"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/reproduce_piezo.py",
+          "resolved_target": "research/scholar_piezo_20261029/reproduce_piezo.py"
+        },
+        {
+          "source_href": "research/piezo_search_20261029/download_manifest.json",
+          "resolved_target": "research/piezo_search_20261029/download_manifest.json"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/逐条相关性.md",
+          "resolved_target": "codex_md/历史文档/research/scholar_piezo_20261029/逐条相关性.md"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/reproduce_piezo.py",
+          "resolved_target": "research/scholar_piezo_20261029/reproduce_piezo.py"
+        }
+      ]
+    },
+    {
+      "source": "压电全角验证总书第五版_三篇经典文献贯通.md",
+      "archive": "codex_md/历史文档/压电全角验证总书第五版_三篇经典文献贯通.md",
+      "category": "理论总书与教材",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e26674f3b4022438b09a251f44583897456b04ff907d6a62415080e1f6f2c03d",
+      "archive_sha256": "98f204164e2c091794b2d84856efcb651d5ee71b31f6f02cec703a30bfaccd99",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "压电全角验证总书第四版_经典文献逐式演算.md",
+      "archive": "codex_md/历史文档/压电全角验证总书第四版_经典文献逐式演算.md",
+      "category": "理论总书与教材",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": true,
+      "source_sha256": "faf9f0b2e44f40bd1198551b0c65bb71e2f7cad9a47b711bb9194c1fbec48d1b",
+      "archive_sha256": "6b888c024f98f9ede986cadf562c85dd1b6f480b85d3233aeb5b876fd0419193",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "压电式半球全角陀螺_逐步推导与文献审读.md",
+      "archive": "codex_md/历史文档/压电式半球全角陀螺_逐步推导与文献审读.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "38706f5e0af9a38116b75c89bdfafe1f09b6c3883cca526bb8f918255f6dde0f",
+      "archive_sha256": "fa9fb1881b099096d07b99f2d3caafa99c53b577beaf634e4a2dcc01567de9b0",
+      "rewritten_local_links": [
+        {
+          "source_href": "research/piezo_search_20261029/download_manifest.json",
+          "resolved_target": "research/piezo_search_20261029/download_manifest.json"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/逐条相关性.md",
+          "resolved_target": "codex_md/历史文档/research/scholar_piezo_20261029/逐条相关性.md"
+        },
+        {
+          "source_href": "research/scholar_piezo_20261029/reproduce_piezo.py",
+          "resolved_target": "research/scholar_piezo_20261029/reproduce_piezo.py"
+        }
+      ]
+    },
+    {
+      "source": "当前表头信息与模型适用边界.md",
+      "archive": "codex_md/历史文档/当前表头信息与模型适用边界.md",
+      "category": "工程说明与需求",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "10a25bf33047631bf7aba9a190e3e65050a5ca7191835ec98c64c79eaba46244",
+      "archive_sha256": "c934c0577ecd2b9ad28aa3be9891eab9e258dfd5032b9a54774da946f48bdd8f",
+      "rewritten_local_links": [
+        {
+          "source_href": "config/current_head_facts.json",
+          "resolved_target": "config/current_head_facts.json"
+        }
+      ]
+    },
+    {
+      "source": "研究规划与论文路线_20261010/00_总览与阅读指南.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/00_总览与阅读指南.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "1f6308b785f6d4fe46c377371de6891626bd9048467f4b04d04c6708e4704b7e",
+      "archive_sha256": "bd4cda78dfd073e6b751c9ac2dbaf0fb4d452bd23cc8f27bc4ef1f09d73507ff",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/01_已有研究工作与证据审计.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/01_已有研究工作与证据审计.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "1c163e61b8a821f20f1e773933b8c1037c3b5407a774de064784821b2a6ceb52",
+      "archive_sha256": "505c9a6f786c8a347f633d4d7c2d627d66008a845f844da669d695922cd9b81e",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/02_全角陀螺技术进展_截至20261010.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/02_全角陀螺技术进展_截至20261010.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "b68be58310080bc1fbbd1c7710a78eb937cdcacbac109d8ecb224e5407baf841",
+      "archive_sha256": "8f99ba015f494a66f7d4b36b51ef3b60fab4be7b4cbf54fa82fb16611fbc08f8",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/03_创新候选与已有文献对照.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/03_创新候选与已有文献对照.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "08b67f02a1cc59bc4a68ee51b2db2701570f2104e55df9e14f99ebc432205e66",
+      "archive_sha256": "a73f88f9032dea674d8f690f0101f65d0809c1a23dc00108b72efcfb77cbc283",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/04_小论文选题与实验设计.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/04_小论文选题与实验设计.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ce7ff7df3504d147430aae20629224b682540564deae49369f70cc83a30957a3",
+      "archive_sha256": "ee213f8c2e1c8a023ba183cf8d8d9733480a45b4c0a2a48dfa0d11e6510c2526",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/05_2025中科院分区与附件期刊匹配.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/05_2025中科院分区与附件期刊匹配.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "037eb1cc192c0bd5e4394c75ee6e6da5af47bc802fbf4a48b84b1d5150579915",
+      "archive_sha256": "bdb8486e6673dcba9521bc961f90ded06b0e068dee929214f14ddf8d2ee8e752",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/06_博士研究路线与阶段验收.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/06_博士研究路线与阶段验收.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c4a3ec0ba8205e0dd3b9fcde7491fb655053dd7c695e8e96c6b4b88c67022777",
+      "archive_sha256": "84ae762c5b57a917f5eb96d6a7e21b9f2e1c286552f4c4ea78b53ad33464f82c",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/07_网页版GPT讨论继承与结论差异.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/07_网页版GPT讨论继承与结论差异.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "ae06ec2e23e154d2477278dc6c7c5e78e3700eb5fad6740d44b112c55af2e8b0",
+      "archive_sha256": "b8f183f95cf6745aa20342aac36be4747e476199f15ae1136baa786af135add5",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/08_参考文献与检索记录.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/08_参考文献与检索记录.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "c21e7cd19f5fb602add2870c5361cce62dc054663b948f1c9ef82006a75b03f4",
+      "archive_sha256": "7042d5af8cb4f99eae0ca556bd611c56857f64270d777f67120b3f345150527b",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究规划与论文路线_20261010/09_本轮验证与交付检查.md",
+      "archive": "codex_md/历史文档/研究规划与论文路线_20261010/09_本轮验证与交付检查.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "cb454f40dd51cf10bc52b73f2008bbefc2588dee0ccdce0e0f8226ef520407f5",
+      "archive_sha256": "cb0ec6bb1198d6ff9da390e58d718ed307a613d7790e4bd8ffa6ca05b6d7ede0",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究评估与投稿建议_20261021/完成度与创新选题评估.md",
+      "archive": "codex_md/历史文档/研究评估与投稿建议_20261021/完成度与创新选题评估.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "a6d59c931e5d937c1543b0354987e1a1660c95257d2a3364e7315c24a5afc805",
+      "archive_sha256": "f85c20b6da62703949dd973e11c4ebc1f80646aba6feae757e729ede94285dc4",
+      "rewritten_local_links": [
+        {
+          "source_href": "../HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md",
+          "resolved_target": "codex_md/历史文档/HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/RTL修订与Scoreboard验证_20261016.md"
+        },
+        {
+          "source_href": "../HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/validation_summary.json",
+          "resolved_target": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/config/validation_summary.json"
+        },
+        {
+          "source_href": "../研究规划与论文路线_20261010/evidence/current_validation_summary.json",
+          "resolved_target": "研究规划与论文路线_20261010/evidence/current_validation_summary.json"
+        },
+        {
+          "source_href": "../HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/run_HRG_WA_v46_ab_validation.m",
+          "resolved_target": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/run_HRG_WA_v46_ab_validation.m"
+        },
+        {
+          "source_href": "../HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_nco.v",
+          "resolved_target": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_nco.v"
+        },
+        {
+          "source_href": "../集成电路科学与工程学科顶刊及高水平清单列表.pdf",
+          "resolved_target": "集成电路科学与工程学科顶刊及高水平清单列表.pdf"
+        },
+        {
+          "source_href": "assessment_evidence.json",
+          "resolved_target": "研究评估与投稿建议_20261021/assessment_evidence.json"
+        }
+      ]
+    },
+    {
+      "source": "研究评估与投稿建议_20261021/电路指标调研/README.md",
+      "archive": "codex_md/历史文档/研究评估与投稿建议_20261021/电路指标调研/README.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "85b778706290b45150588b4baa21cd768f2842d9188ef4e10ef2b2549f5502a4",
+      "archive_sha256": "b9a9098bf1e12f650eede11d559c04adf1832027885dbac3692d5a75b98d1e9c",
+      "rewritten_local_links": [
+        {
+          "source_href": "调研结论与模块指标.md",
+          "resolved_target": "codex_md/历史文档/研究评估与投稿建议_20261021/电路指标调研/调研结论与模块指标.md"
+        },
+        {
+          "source_href": "从表头模型推导电路指标.md",
+          "resolved_target": "codex_md/历史文档/研究评估与投稿建议_20261021/电路指标调研/从表头模型推导电路指标.md"
+        },
+        {
+          "source_href": "sources.json",
+          "resolved_target": "研究评估与投稿建议_20261021/电路指标调研/sources.json"
+        },
+        {
+          "source_href": "provisional_spec.json",
+          "resolved_target": "研究评估与投稿建议_20261021/电路指标调研/provisional_spec.json"
+        },
+        {
+          "source_href": "budget_results.json",
+          "resolved_target": "研究评估与投稿建议_20261021/电路指标调研/budget_results.json"
+        },
+        {
+          "source_href": "evidence/user_sources.json",
+          "resolved_target": "研究评估与投稿建议_20261021/电路指标调研/evidence/user_sources.json"
+        }
+      ]
+    },
+    {
+      "source": "研究评估与投稿建议_20261021/电路指标调研/从表头模型推导电路指标.md",
+      "archive": "codex_md/历史文档/研究评估与投稿建议_20261021/电路指标调研/从表头模型推导电路指标.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "5748632b4dafecb0a191b0a13a16f647ddcbe161f940451d35d165ef771750f7",
+      "archive_sha256": "92751aee05a2990ef425811352b9d6483b725b59e2326d46bb834ff94300ce89",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究评估与投稿建议_20261021/电路指标调研/调研结论与模块指标.md",
+      "archive": "codex_md/历史文档/研究评估与投稿建议_20261021/电路指标调研/调研结论与模块指标.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "e8068df45005fc6e4f074b60aaa96449629abed56a696e0c76f632b39ae7b309",
+      "archive_sha256": "6c72f31a89224de520a53bc1daaa849223cc298126815945782a8cf0ec2d98e6",
+      "rewritten_local_links": []
+    },
+    {
+      "source": "研究评估与投稿建议_20261021/第一创新方向_研究步骤与阶段验收.md",
+      "archive": "codex_md/历史文档/研究评估与投稿建议_20261021/第一创新方向_研究步骤与阶段验收.md",
+      "category": "研究、文献与选题",
+      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_mode": "committed_snapshot",
+      "source_encoding": "utf-8",
+      "source_dirty_at_archive": false,
+      "source_sha256": "73b578257d98670bf26bd9b7bb3fc84b4b5d370f190ba83f6885e6d47ba7a10a",
+      "archive_sha256": "ee48ad3e509c27f2be09b777ed71816727be2076e5196ec51e81fe80e3050ae1",
+      "rewritten_local_links": []
+    }
+  ],
+  "excluded": [
+    {
+      "path": "AGENTS.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/01_博士论文五个创新点_20261102.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/02_现状核查_接口ASIC可靠性_压电表头表征_20261102.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/03_项目总体设计_理论与代码核对_20261102.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/04_从机械表头到电路设计_逐步推导_20261102.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/05_全角陀螺文献整合_Lynch主线_20261102.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/06_对V2修订意见的可行性复核_20261102.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/HRG_WA_DSH.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/README.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "hrg_wa_dsh/transcript.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    }
+  ],
+  "history_counts": {
+    "source_records": 384,
+    "kept": 95
+  },
+  "generated_index_sha256": {
+    "README.md": "3ea9b7ce7338fcff1be7b2eadb06b0926e226f43de266d8daf835ce7c1ce00f8",
+    "00_文档索引.md": "9e27dde452109cf2d17f7b3f5947efd7c2558f6a1a33eb59d667ea81e69852c5",
+    "history_filter_audit.json": "d4d7a173837c9a9223064c2e41b24866be522daab4737e9d54f01fff67f9ca90"
+  },
+  "current_document_sha256": {
+    "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e"
+  }
+}

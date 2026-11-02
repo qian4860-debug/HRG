@@ -1,0 +1,78 @@
+{
+  "invariance_is_not_identifiability": {
+    "transfer_difference": 0.0,
+    "damping_spectra": [
+      [
+        0.2,
+        0.3
+      ],
+      [
+        0.2,
+        0.9
+      ]
+    ],
+    "stiffness_spectra": [
+      [
+        4.0,
+        4.3
+      ],
+      [
+        4.0,
+        7.0
+      ]
+    ],
+    "scope": "缺少可控/可观模态时的反例；不否定满秩双输入双输出的条件性正结论"
+  },
+  "conditional_identifiable_invariants": {
+    "inverse_polynomial_coefficient_error": 4.503334391035099e-15,
+    "damping_eigenvalues": [
+      0.34000000000000025,
+      0.25999999999999984
+    ],
+    "stiffness_eigenvalues": [
+      4.129999999999998,
+      3.8699999999999974
+    ],
+    "cos_2_axis_difference": 0.5062202572327775,
+    "scope": "理想满秩传递矩阵；不包含实际有噪声数据拟合或闭环辨识偏差"
+  },
+  "delay_budget": {
+    "cic_s": 0.0014625,
+    "fir_s": 0.002,
+    "pipeline_s": 0.003,
+    "zoh_low_frequency_equivalent_s": 0.0005,
+    "total_s": 0.0069625,
+    "frequency_if_45deg_allocated_Hz": 17.953321364452425,
+    "frequency_if_15deg_allocated_Hz": 5.9844404548174746,
+    "100Hz_delay_limit_with_45deg_allocation_s": 0.00125,
+    "scope": "旧链参数示例；频率为相位预算条件，不是普适闭环带宽上限"
+  },
+  "electrode_observation_rank": {
+    "four_independent_patterns_rank": 4,
+    "four_duplicate_patterns_rank": 1,
+    "scope": "仅针对已指定的线性端口组合参数，非同时辨识增益/相位/位置全部未知量"
+  },
+  "carrier_and_envelope_contract": {
+    "slow_samples_deviation_from_DC": 0.0,
+    "fast_samples_peak_to_peak": 2.0,
+    "scope": "采样反例；慢包络加外部模拟调制器仍可形成合法硬件架构"
+  },
+  "phase_code_resolution_deg": {
+    "pattern": 5.364418029785156e-06,
+    "body_at_B_0_277": 1.9366130071426554e-05
+  },
+  "sources_sha256": {
+    "DSH_md/06_对V2修订意见的可行性复核_20261102.md": "176d4c1752ea156e00d37493f27f8a1433cc8d288215ab4e0c19928758367363",
+    "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3",
+    "HRG_WA_simulink/piezo_v10/noise_research/sn_reference.m": "7921a3a57b098f40783b022c80bc75f57be2ec0215f12b4a73fff5d8462c71d2",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_plant.m": "840ac07dbb8e5e301e3aba199fc97379d588f35f53c0f3969414f195907bbded"
+  },
+  "checks_passed": 6,
+  "script_sha256": "91d78621e3f815de6706042e7e217e8476acb428215eaaf9d5fd1f769b54bd9d",
+  "limits": [
+    "未运行新MATLAB闭环试验",
+    "未做综合/STA",
+    "未证明五项选题的新颖性",
+    "可辨识正结论依赖文中明确的满秩/二阶/去嵌条件"
+  ]
+}
