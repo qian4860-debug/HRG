@@ -1,0 +1,2282 @@
+{
+  "clean": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0,
+      "noise_seed": 2.026103E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          -0.0081948214980294767,
+          0.0049673369401883882
+        ],
+        [
+          0.0049673369401883882,
+          0.006710054458605467
+        ]
+      ],
+      "identified_dD": [
+        [
+          -4.4776775724309587E-7,
+          -7.6081949373662164E-7
+        ],
+        [
+          -7.6081949373662164E-7,
+          -1.264204907623317E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.0028551837411100846,
+      "pattern_rms_deg": 0.00079086009102743255,
+      "energy_relative_mean": 1.1624797602305392E-6,
+      "quadrature_rms": 3.130301467678051E-6,
+      "pll_phase_rms": 1.7643263020636978E-6,
+      "bias_deg_s": -0.00075331125874161385,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429901123046875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.0028486507039727832,
+        "pattern_rms_deg": 0.00078905049878624,
+        "energy_relative_mean": -1.1507357089435288E-7,
+        "quadrature_rms": 2.0544577610689658E-6,
+        "pll_phase_rms": 1.2712202610625416E-6,
+        "bias_deg_s": -0.00072282178817248714,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.429901123046875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 1.63437885814974E-6,
+      "normalized_energy_mean": 0.99999988492642888,
+      "quadrature_RMS": 2.0544577610689658E-6,
+      "PLL_detector_RMS": 1.2712202610625416E-6,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.0028502230621241542,
+      "pattern_rms_deg": 0.00078948602778313652,
+      "energy_relative_mean": -1.2378617363473232E-5,
+      "quadrature_rms": 3.1194315641460216E-6,
+      "pll_phase_rms": 1.6852293219677778E-6,
+      "bias_deg_s": -0.0013890701315411947,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429901123046875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.0022693474375946815,
+      "pattern_rms_deg": 0.00062858872976462592,
+      "energy_relative_mean": -1.1543475627928679E-5,
+      "quadrature_rms": 3.5313051019006626E-6,
+      "pll_phase_rms": 4.512708376823653E-6,
+      "bias_deg_s": -0.00057271068416242207,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429901123046875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "noise500_20261030": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.026103E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11596729122776764,
+      "pattern_rms_deg": 0.032121891553269728,
+      "energy_relative_mean": -1.3518089668762556E-6,
+      "quadrature_rms": 0.0022068530994681216,
+      "pll_phase_rms": 0.0010482211677633382,
+      "bias_deg_s": -0.017053236432228974,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429534912109375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.040836964158928839,
+        "pattern_rms_deg": 0.011311469985976375,
+        "energy_relative_mean": -2.5154228952328772E-5,
+        "quadrature_rms": 0.0008351541567009343,
+        "pll_phase_rms": 0.00036264749489188752,
+        "bias_deg_s": 0.2350595898213465,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.429534912109375,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00055308084028683855,
+      "normalized_energy_mean": 0.99997484577104745,
+      "quadrature_RMS": 0.0008351541567009343,
+      "PLL_detector_RMS": 0.00036264749489188752,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11597351205097287,
+      "pattern_rms_deg": 0.03212361466507354,
+      "energy_relative_mean": -1.2282458033308075E-5,
+      "quadrature_rms": 0.0022130459255882886,
+      "pll_phase_rms": 0.0010487770288512082,
+      "bias_deg_s": -0.017564683215149431,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429534912109375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.0088707411881535012,
+      "pattern_rms_deg": 0.0024571151350197403,
+      "energy_relative_mean": -0.0001167843316018935,
+      "quadrature_rms": 0.00022045040256507016,
+      "pll_phase_rms": 0.00011043293872036679,
+      "bias_deg_s": -0.00066927282407672531,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429534912109375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "noise500_20261110": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.026111E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11465469628022275,
+      "pattern_rms_deg": 0.031758314616083229,
+      "energy_relative_mean": 2.4461949753362688E-5,
+      "quadrature_rms": 0.0021985624059128114,
+      "pll_phase_rms": 0.0011116286579642377,
+      "bias_deg_s": -0.81930769588247021,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.428924560546875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.03989809603560851,
+        "pattern_rms_deg": 0.011051412001342719,
+        "energy_relative_mean": -1.809932815699522E-5,
+        "quadrature_rms": 0.00085393151617415316,
+        "pll_phase_rms": 0.00036715291784684436,
+        "bias_deg_s": 0.044096324502005721,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.428924560546875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00056320103777203294,
+      "normalized_energy_mean": 0.99998190067184312,
+      "quadrature_RMS": 0.00085393151617415316,
+      "PLL_detector_RMS": 0.00036715291784684436,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11466615696332605,
+      "pattern_rms_deg": 0.031761489121720748,
+      "energy_relative_mean": 1.9821135013531332E-5,
+      "quadrature_rms": 0.0022044619517456918,
+      "pll_phase_rms": 0.0011093782490019669,
+      "bias_deg_s": -0.81912807360269169,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.428924560546875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.0085497208821328618,
+      "pattern_rms_deg": 0.0023681954116458502,
+      "energy_relative_mean": 1.6287105855106176E-5,
+      "quadrature_rms": 0.00030695539423003434,
+      "pll_phase_rms": 0.00016514169197248961,
+      "bias_deg_s": -0.0031995116269279461,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.428924560546875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "noise500_20261111": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.0261111E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11257791615075161,
+      "pattern_rms_deg": 0.031183065290238114,
+      "energy_relative_mean": -1.2051989589867418E-5,
+      "quadrature_rms": 0.0022248962224241291,
+      "pll_phase_rms": 0.001139981190162076,
+      "bias_deg_s": 0.32224565749913414,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42911529541015625,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.050102457721269179,
+        "pattern_rms_deg": 0.013877927960858785,
+        "energy_relative_mean": -3.6388664687025951E-5,
+        "quadrature_rms": 0.00083946874117961671,
+        "pll_phase_rms": 0.00039193201533144694,
+        "bias_deg_s": 0.27794429978570645,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.42911529541015625,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00057426808421840087,
+      "normalized_energy_mean": 0.99996361133531286,
+      "quadrature_RMS": 0.00083946874117961671,
+      "PLL_detector_RMS": 0.00039193201533144694,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11259960219383554,
+      "pattern_rms_deg": 0.031189072128173075,
+      "energy_relative_mean": -8.9004856829166812E-6,
+      "quadrature_rms": 0.0022248985625282869,
+      "pll_phase_rms": 0.0011393302217514287,
+      "bias_deg_s": 0.32188160153394513,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42911529541015625,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.023236116647291853,
+      "pattern_rms_deg": 0.0064361943023871927,
+      "energy_relative_mean": -4.0876369095887988E-5,
+      "quadrature_rms": 0.0002508495078167223,
+      "pll_phase_rms": 0.00012209940731768297,
+      "bias_deg_s": -0.0017644142185472089,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42911529541015625,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "noise500_20261112": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.0261112E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.1165551866553648,
+      "pattern_rms_deg": 0.032284733273292739,
+      "energy_relative_mean": -6.6390888578293783E-5,
+      "quadrature_rms": 0.0022245582957029202,
+      "pll_phase_rms": 0.0011420716530797007,
+      "bias_deg_s": 0.72037043464176054,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42937469482421875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.051074117316822439,
+        "pattern_rms_deg": 0.014147068886930379,
+        "energy_relative_mean": -4.5166337679591884E-5,
+        "quadrature_rms": 0.00065170880242187176,
+        "pll_phase_rms": 0.00045357014897234752,
+        "bias_deg_s": 0.0064326429654671807,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.42937469482421875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00055840632052110868,
+      "normalized_energy_mean": 0.99995483366232052,
+      "quadrature_RMS": 0.00065170880242187176,
+      "PLL_detector_RMS": 0.00045357014897234752,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11660120947584288,
+      "pattern_rms_deg": 0.032297481178609151,
+      "energy_relative_mean": -0.00010143085554836784,
+      "quadrature_rms": 0.0022164552903765813,
+      "pll_phase_rms": 0.0011495984368790203,
+      "bias_deg_s": 0.72157434902860029,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42937469482421875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.0060370728773862029,
+      "pattern_rms_deg": 0.0016722146237399757,
+      "energy_relative_mean": -0.00010444924774799524,
+      "quadrature_rms": 0.00024549992543807864,
+      "pll_phase_rms": 0.00013315683290868795,
+      "bias_deg_s": 0.0036591135019786924,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42937469482421875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "noise500_20261113": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.0261113E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11750897724213451,
+      "pattern_rms_deg": 0.032548924645432076,
+      "energy_relative_mean": 5.6820671491708552E-5,
+      "quadrature_rms": 0.00201210906141439,
+      "pll_phase_rms": 0.0011857774904548929,
+      "bias_deg_s": 0.8057761766727104,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.428924560546875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.047802973894140482,
+        "pattern_rms_deg": 0.01324099172356708,
+        "energy_relative_mean": 3.3995471770076335E-5,
+        "quadrature_rms": 0.00068419550072762122,
+        "pll_phase_rms": 0.00066394144992001957,
+        "bias_deg_s": 0.019843267256564198,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.428924560546875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00074700409499337938,
+      "normalized_energy_mean": 1.00003399547177,
+      "quadrature_RMS": 0.00068419550072762122,
+      "PLL_detector_RMS": 0.00066394144992001957,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11748129308641637,
+      "pattern_rms_deg": 0.032541256384508617,
+      "energy_relative_mean": 3.8579217175538361E-5,
+      "quadrature_rms": 0.0020086330801729123,
+      "pll_phase_rms": 0.0012053506370835871,
+      "bias_deg_s": 0.80754892075269724,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.428924560546875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.020061831620300868,
+      "pattern_rms_deg": 0.0055569460392204005,
+      "energy_relative_mean": 8.2017079703788909E-5,
+      "quadrature_rms": 0.00020048173128170993,
+      "pll_phase_rms": 0.00020615227040561215,
+      "bias_deg_s": -0.0035783024125113907,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.428924560546875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "noise500_20261114": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.0261114E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11239419078616478,
+      "pattern_rms_deg": 0.031132175024764445,
+      "energy_relative_mean": 3.0047507512787064E-5,
+      "quadrature_rms": 0.0021123429822283496,
+      "pll_phase_rms": 0.0011581453482656229,
+      "bias_deg_s": -0.613970193515902,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429168701171875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.04163940282482529,
+        "pattern_rms_deg": 0.011533738243958281,
+        "energy_relative_mean": 3.5464641641169692E-5,
+        "quadrature_rms": 0.00069879578855358321,
+        "pll_phase_rms": 0.00041019277422877547,
+        "bias_deg_s": -0.016455811751752467,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.429168701171875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.0005388502684977684,
+      "normalized_energy_mean": 1.0000354646416412,
+      "quadrature_RMS": 0.00069879578855358321,
+      "PLL_detector_RMS": 0.00041019277422877547,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11240729353050843,
+      "pattern_rms_deg": 0.031135804366524536,
+      "energy_relative_mean": 2.9468652540387552E-5,
+      "quadrature_rms": 0.0021109727915535358,
+      "pll_phase_rms": 0.0011615212697971417,
+      "bias_deg_s": -0.61576515059883064,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429168701171875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.0018719399256323949,
+      "pattern_rms_deg": 0.00051851044073539406,
+      "energy_relative_mean": 0.00026503916272591077,
+      "quadrature_rms": 0.00021829413632824636,
+      "pll_phase_rms": 0.00011825629480532126,
+      "bias_deg_s": 0.000478502555080996,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.429168701171875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "rate_0": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.02612E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.12014076265790273,
+      "pattern_rms_deg": 0.033277905419422438,
+      "energy_relative_mean": -2.1658743761365784E-5,
+      "quadrature_rms": 0.0020608107502670535,
+      "pll_phase_rms": 0.0011219881285888754,
+      "bias_deg_s": 0.4885147435734648,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4348907470703125,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.063726461237131,
+        "pattern_rms_deg": 0.017651653800486666,
+        "energy_relative_mean": 1.8334269561215422E-5,
+        "quadrature_rms": 0.00071765755308805682,
+        "pll_phase_rms": 0.00040798391501516038,
+        "bias_deg_s": -0.28539759117843644,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.4348907470703125,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00054331625402346065,
+      "normalized_energy_mean": 1.000018334269561,
+      "quadrature_RMS": 0.00071765755308805682,
+      "PLL_detector_RMS": 0.00040798391501516038,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.12001623599052076,
+      "pattern_rms_deg": 0.033243412658034426,
+      "energy_relative_mean": -2.1383523340245958E-5,
+      "quadrature_rms": 0.0020580873799274516,
+      "pll_phase_rms": 0.0011254951390045731,
+      "bias_deg_s": 0.48867795196170993,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4348907470703125,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.041554023898057679,
+      "pattern_rms_deg": 0.011510089052901663,
+      "energy_relative_mean": -6.0330004458708508E-5,
+      "quadrature_rms": 0.00030180257722521077,
+      "pll_phase_rms": 9.6549863778004323E-5,
+      "bias_deg_s": 0.000971882027327065,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4348907470703125,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "rate_m0_5": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": -0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.02612E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11869803977494653,
+      "pattern_rms_deg": 0.032878284220228274,
+      "energy_relative_mean": -1.3725340686665533E-5,
+      "quadrature_rms": 0.0020697589372109578,
+      "pll_phase_rms": 0.0011176266158687282,
+      "bias_deg_s": 0.53788767069056675,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4351043701171875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.060758055704337045,
+        "pattern_rms_deg": 0.016829432296465698,
+        "energy_relative_mean": 2.416615232081476E-5,
+        "quadrature_rms": 0.00072566408639845989,
+        "pll_phase_rms": 0.00040503701626571265,
+        "bias_deg_s": -0.29584481857769657,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.4351043701171875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00054377072801781016,
+      "normalized_energy_mean": 1.000024166152321,
+      "quadrature_RMS": 0.00072566408639845989,
+      "PLL_detector_RMS": 0.00040503701626571265,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11859379294501284,
+      "pattern_rms_deg": 0.032849408790523484,
+      "energy_relative_mean": -2.4854382123629115E-5,
+      "quadrature_rms": 0.00206699928856677,
+      "pll_phase_rms": 0.0011214769166515768,
+      "bias_deg_s": 0.53649144596015752,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4351043701171875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.038355720260963087,
+      "pattern_rms_deg": 0.010624187851817291,
+      "energy_relative_mean": -6.5131778879234936E-5,
+      "quadrature_rms": 0.00030499965857720159,
+      "pll_phase_rms": 9.3865410459771528E-5,
+      "bias_deg_s": 0.0017620354080509209,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4351043701171875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "rate_2": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 2,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.02612E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.12282711418765431,
+      "pattern_rms_deg": 0.034022000513815563,
+      "energy_relative_mean": -4.6720376126740959E-5,
+      "quadrature_rms": 0.0021190039927422022,
+      "pll_phase_rms": 0.0010943081539483797,
+      "bias_deg_s": 0.1702924503827625,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.41197967529296875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.073231394522990212,
+        "pattern_rms_deg": 0.020284434414718409,
+        "energy_relative_mean": -9.2894562692125149E-6,
+        "quadrature_rms": 0.0007235761830976439,
+        "pll_phase_rms": 0.00039886829735909929,
+        "bias_deg_s": -0.1955319408609168,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.41197967529296875,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00053848718815501862,
+      "normalized_energy_mean": 0.99999071054373123,
+      "quadrature_RMS": 0.0007235761830976439,
+      "PLL_detector_RMS": 0.00039886829735909929,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.12264442706294111,
+      "pattern_rms_deg": 0.033971397831403238,
+      "energy_relative_mean": -0.00023927073985474667,
+      "quadrature_rms": 0.0021213805114984659,
+      "pll_phase_rms": 0.0010941168638015589,
+      "bias_deg_s": 0.17158711404905866,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.41197967529296875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.054282038307339429,
+      "pattern_rms_deg": 0.015035634007990748,
+      "energy_relative_mean": -0.00025985202200229374,
+      "quadrature_rms": 0.00023905530327363524,
+      "pll_phase_rms": 0.0001355561650741801,
+      "bias_deg_s": -0.0024485281519964065,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.41197967529296875,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "combined500": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0.01,
+      "stiffness_axis": 0.61,
+      "damping_half_difference": 0.002,
+      "damping_axis": -0.29,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.0005,
+      "noise_seed": 2.0261201E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          -135.66896309043082,
+          -370.74415609632382
+        ],
+        [
+          -370.74415609632382,
+          135.66928032171489
+        ]
+      ],
+      "identified_dD": [
+        [
+          0.0033459702067283143,
+          -0.00219248561424284
+        ],
+        [
+          -0.00219248561424284,
+          -0.0033451159421418824
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11027391085966667,
+      "pattern_rms_deg": 0.030544876648295697,
+      "energy_relative_mean": -5.3862527047199293E-5,
+      "quadrature_rms": 0.0021846314118889381,
+      "pll_phase_rms": 0.0011165564778168691,
+      "bias_deg_s": 0.44001910231340963,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4288177490234375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.044796327613989995,
+        "pattern_rms_deg": 0.012408177878149688,
+        "energy_relative_mean": -3.0511793471021953E-5,
+        "quadrature_rms": 0.00078911270876614453,
+        "pll_phase_rms": 0.00042566485730179582,
+        "bias_deg_s": 0.012548388472872124,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.4288177490234375,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": true,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.00058038150629492291,
+      "normalized_energy_mean": 0.999969488206529,
+      "quadrature_RMS": 0.00078911270876614453,
+      "PLL_detector_RMS": 0.00042566485730179582,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.11029080073535022,
+      "pattern_rms_deg": 0.030549554991208695,
+      "energy_relative_mean": -7.0243763552246818E-5,
+      "quadrature_rms": 0.0021872855857360571,
+      "pll_phase_rms": 0.0011175575608946171,
+      "bias_deg_s": 0.44170320470277652,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4288177490234375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.033405534757289496,
+      "pattern_rms_deg": 0.0092530312072659753,
+      "energy_relative_mean": -0.0001542985868764335,
+      "quadrature_rms": 0.000266454668267881,
+      "pll_phase_rms": 0.00016022275655162542,
+      "bias_deg_s": -0.0018143934020991015,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.4288177490234375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": true
+  },
+  "noise1000_boundary": {
+    "p": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 1000,
+      "gamma_intrinsic": 0.31415926535897931,
+      "Cs": 1E-9,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 2.5E-5,
+      "Tc": 0.001,
+      "duration": 0.8,
+      "charge_target": 1E-11,
+      "initial_fraction": 0.3,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-5,
+        2.4E-5
+      ],
+      "afe_bw": [
+        20000,
+        18000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0.025
+        ],
+        [
+          -0.015,
+          1.04
+        ]
+      ],
+      "drive_matrix": [
+        [
+          1,
+          -0.03
+        ],
+        [
+          0.02,
+          1.08
+        ]
+      ],
+      "split_hz": 0,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 20,
+      "dac_span": 2,
+      "dac_bits": 18,
+      "vmax": 1,
+      "agc_bw": 5,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0.001,
+      "noise_seed": 2.026103E+7,
+      "heading_start_s": 0,
+      "zero_start_force": true,
+      "enable_tensor_ff": true,
+      "identified_dK": [
+        [
+          0.012466555281938008,
+          0.0010012676164593056
+        ],
+        [
+          0.0010012676164593056,
+          -0.0061121291453661514
+        ]
+      ],
+      "identified_dD": [
+        [
+          1.6434371025902697E-6,
+          -7.2290387735978421E-7
+        ],
+        [
+          -7.2290387735978421E-7,
+          1.2759034858077238E-6
+        ]
+      ],
+      "enable_iq_estimator": true
+    },
+    "before": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.23212938101976374,
+      "pattern_rms_deg": 0.064297740548233853,
+      "energy_relative_mean": -1.770102038389787E-6,
+      "quadrature_rms": 0.0044139447861539453,
+      "pll_phase_rms": 0.0020963396188555658,
+      "bias_deg_s": -0.034023963254419275,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42724609375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1304875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "after": {
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.0821513390396617,
+        "pattern_rms_deg": 0.022755178427036064,
+        "energy_relative_mean": -4.985869320106584E-5,
+        "quadrature_rms": 0.0016699464034508377,
+        "pll_phase_rms": 0.0007252079390453911,
+        "bias_deg_s": 0.4707202254770716,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.42724609375,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1304875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      },
+      "checks": {
+        "valid_fraction": true,
+        "normalized_energy": true,
+        "quadrature": false,
+        "PLL_detector": true,
+        "timestamps": true,
+        "body_angle": true,
+        "no_DAC_clip": true
+      },
+      "normalized_Q_RMS": 0.0011059936145531156,
+      "normalized_energy_mean": 0.99995014130679893,
+      "quadrature_RMS": 0.0016699464034508377,
+      "PLL_detector_RMS": 0.0007252079390453911,
+      "timestamp_max_error_us": 1.9605295165092684E-10,
+      "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+    },
+    "raw_observation": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.23210707377541287,
+      "pattern_rms_deg": 0.0642915616431624,
+      "energy_relative_mean": -3.8368038756120271E-6,
+      "quadrature_rms": 0.0044263123380060719,
+      "pll_phase_rms": 0.0020973134501558982,
+      "bias_deg_s": -0.037121416266960666,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42724609375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1304875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "mechanical_truth": {
+      "total_frames": 800,
+      "valid_frames": 800,
+      "valid_fraction": 1,
+      "angle_status": "valid_center_timestamped_frames",
+      "angle_rms_deg": 0.019852468956706334,
+      "pattern_rms_deg": 0.00549895447363249,
+      "energy_relative_mean": -0.00022214692238098355,
+      "quadrature_rms": 0.00044235070539113254,
+      "pll_phase_rms": 0.0002232262488756896,
+      "bias_deg_s": -0.000707845517562276,
+      "rate_noise_status": "not_estimated_from_deterministic_short_run",
+      "dac_margin_V": 0.42724609375,
+      "dac_clip_samples": 0,
+      "build_time_s": 0.1314875,
+      "timestamp_max_age_s": 5.5511151231257827E-17
+    },
+    "physical_pass": true,
+    "passed": false
+  }
+}

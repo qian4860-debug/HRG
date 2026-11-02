@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "linear_endpoint_no_delay": true,
+    "circular_input_resets_history": true,
+    "clip_resets_history": true,
+    "startup_bypass": true
+  },
+  "linear_max_relative_error": 4.8467614658755617E-16
+}

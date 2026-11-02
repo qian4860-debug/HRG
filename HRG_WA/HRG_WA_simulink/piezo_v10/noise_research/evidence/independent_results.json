@@ -1,0 +1,25 @@
+{
+  "cases": 12,
+  "quality_and_physical_pass": 11,
+  "five_simulink_scoreboards": true,
+  "independent_three_output_scores": true,
+  "noise_variance_gain": 0.11931818181818182,
+  "frequency_responses": {
+    "1": {
+      "gain": 1.0030476403579607,
+      "phase_deg": -0.013810313490739561
+    },
+    "5": {
+      "gain": 1.0696069272015578,
+      "phase_deg": -1.5480367480089265
+    },
+    "10": {
+      "gain": 1.215948571924079,
+      "phase_deg": -9.495386093190609
+    },
+    "20": {
+      "gain": 1.344783433045905,
+      "phase_deg": -41.16430140570562
+    }
+  }
+}
