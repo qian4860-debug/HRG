@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-02",
+  "scope": "Primary publisher search abstracts only; several full pages returned 429/418. Used to flag broad prior art, not to establish exhaustive novelty or patentability.",
+  "records": [
+    {"title": "Modeling, Characterization, and Compensation of Detection and Actuation Coupling Errors for Whole-Angle Micro Hemispherical Resonant Gyroscope", "url": "https://doi.org/10.1109/TIM.2024.3418096"},
+    {"title": "Separation, Identification, and Compensation of Damping, Detection, and Actuation Errors for Rate-Integrating Hemispherical Resonator Gyroscopes", "url": "https://ieeexplore.ieee.org/abstract/document/10964523/"},
+    {"title": "Identification and Compensation of Detection Gain Asymmetry Errors for Hemispherical Resonant Gyroscopes in Whole-Angle Mode", "url": "https://www.mdpi.com/2076-0825/14/6/275"},
+    {"title": "Compensation of Temperature-Induced Bias Drift in Hemispherical Resonator Gyroscopes: An Inherent Data-Driven Architecture", "url": "https://www.mdpi.com/2072-666X/16/4/357"}
+  ]
+}

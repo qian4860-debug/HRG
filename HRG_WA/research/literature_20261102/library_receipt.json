@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-02",
+  "input_count": 19,
+  "unique_pdf_core_count": 18,
+  "new_copies": 18,
+  "records": [
+    {
+      "id": "N01",
+      "title": "用三轴转台辨识陀螺仪误差模型系数时的速率试验设计",
+      "path": "C:\\Users\\11725\\Downloads\\用三轴转台辨识陀螺仪误差模型系数时的速率试验设计.pdf",
+      "sha256": "ec0e915936c3c949a15434735cfaad8f0bce29ee02a25d2c819c04e2a6606a5d",
+      "pages": 6,
+      "chars": 9803,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "可迁移标定温补方法",
+      "pdf_core_sha256": "6ad5d598ec3de00ec5a7693991784682e97c920b19845835d2506ed6f7223ca5",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\可迁移标定温补方法\\用三轴转台辨识陀螺仪误差模型系数时的速率试验设计.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N02",
+      "title": "在反转平台离心机上标定陀螺仪的误差模型系数的方法",
+      "path": "C:\\Users\\11725\\Downloads\\在反转平台离心机上标定陀螺仪的误差模型系数的方法.pdf",
+      "sha256": "dd82537e7b3c066a0637a124e717a48f9bca834c4e931874f94c41f25736c919",
+      "pages": 6,
+      "chars": 11269,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "可迁移标定温补方法",
+      "pdf_core_sha256": "7c03a6ddca7822b5985f6acc696d9bb4f87222dffed35eab7330e2c1d0e704b7",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\可迁移标定温补方法\\在反转平台离心机上标定陀螺仪的误差模型系数的方法.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N03",
+      "title": "液浮陀螺仪在双轴离心机上的标定方法",
+      "path": "C:\\Users\\11725\\Downloads\\液浮陀螺仪在双轴离心机上的标定方法.pdf",
+      "sha256": "78e155cee3349f67a5343307e56d9b4176b9126d5fc30328d02927f0eb3f0456",
+      "pages": 10,
+      "chars": 26193,
+      "extraction": "pdfplumber fallback; original bytes preserved",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "可迁移标定温补方法",
+      "pdf_core_sha256": "27803cc965ee5cc2f99c925309b8f9b7233eb46877a048071972e18838861aa6",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\可迁移标定温补方法\\液浮陀螺仪在双轴离心机上的标定方法.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1,
+        9,
+        10
+      ],
+      "content_boundary": "PDF1-9 main article; PDF10 mixes references of an unrelated HRG nonlinear-detection paper with the continuation of the main article references; not an additional full paper"
+    },
+    {
+      "id": "N04",
+      "title": "基于线振动台的液浮陀螺仪二次项误差系数标定方法研究 (1)",
+      "path": "C:\\Users\\11725\\Downloads\\基于线振动台的液浮陀螺仪二次项误差系数标定方法研究 (1).pdf",
+      "sha256": "f33a084cb7da45694bf82fa06c9d18fb60d4869adf96e67f525127ff8b0a1b2a",
+      "pages": 7,
+      "chars": 35,
+      "extraction": "original",
+      "read_scope": "scan: visual pages 1,2; no machine-readable main text; same PDF core, distinct trailing bytes",
+      "group": "可迁移标定温补方法",
+      "pdf_core_sha256": "8010b0e11ba3dcf5faa186aa53a38ca24fb976d5e78bc6848f11b218cf2df1ea",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\可迁移标定温补方法\\基于线振动台的液浮陀螺仪二次项误差系数标定方法研究 (1).pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "N05",
+      "title": "磁强计和微机械陀螺_加速度计组合定姿的扩展卡尔曼滤波器设计",
+      "path": "C:\\Users\\11725\\Downloads\\磁强计和微机械陀螺_加速度计组合定姿的扩展卡尔曼滤波器设计.pdf",
+      "sha256": "d70fa1d5506398815a1b9d53daf8d7dad929c926ef190df9fea93c3af9a4936b",
+      "pages": 5,
+      "chars": 7521,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "系统背景_非HRG本体",
+      "pdf_core_sha256": "226bb46643329f2bb1e8500d7f843fee11631b9a1624ed0a2526e1b7d1e02517",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\系统背景_非HRG本体\\磁强计和微机械陀螺_加速度计组合定姿的扩展卡尔曼滤波器设计.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N06",
+      "title": "硅微陀螺温度漂移补偿研究",
+      "path": "C:\\Users\\11725\\Downloads\\硅微陀螺温度漂移补偿研究.pdf",
+      "sha256": "46fa52ae9853533c8135afe0770d88dba41433e0527ccf81989e7dc9f12746f2",
+      "pages": 3,
+      "chars": 5623,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "可迁移标定温补方法",
+      "pdf_core_sha256": "254a7d44adc1dcef604fb814656e7f5a1ca3943216ece101a54b186a766ff6e9",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\可迁移标定温补方法\\硅微陀螺温度漂移补偿研究.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N07",
+      "title": "无陀螺惯性测量组合静动态解耦方法",
+      "path": "C:\\Users\\11725\\Downloads\\无陀螺惯性测量组合静动态解耦方法.pdf",
+      "sha256": "426b9fda1eb515773c31d334413c8f5ba9887dea9880208cee02d50e8a286aa6",
+      "pages": 3,
+      "chars": 5565,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "系统背景_非HRG本体",
+      "pdf_core_sha256": "c7aa8885dbcc5cccc4f0bdbccbab54a553ce88fc20f938d22c785c4c7a75a490",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\系统背景_非HRG本体\\无陀螺惯性测量组合静动态解耦方法.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N08",
+      "title": "利用磁强计及微机械加速度计和陀螺的姿态估计扩展卡尔曼滤波器",
+      "path": "C:\\Users\\11725\\Downloads\\利用磁强计及微机械加速度计和陀螺的姿态估计扩展卡尔曼滤波器.pdf",
+      "sha256": "8d51d909a728d1f5da90af6584dcd35d55db994080707ae0b0663809191e490d",
+      "pages": 5,
+      "chars": 7251,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "系统背景_非HRG本体",
+      "pdf_core_sha256": "8265adedaaca33fdca0f6ab958c6899bef4eaa2ae2910bec50212cbe36629774",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\系统背景_非HRG本体\\利用磁强计及微机械加速度计和陀螺的姿态估计扩展卡尔曼滤波器.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N09",
+      "title": "半球谐振陀螺仪谐振子振动特性的有限元分析",
+      "path": "C:\\Users\\11725\\Downloads\\半球谐振陀螺仪谐振子振动特性的有限元分析.pdf",
+      "sha256": "9c713ec78c405fbf4da5ec8ea4212dc93878bd7ab6b5e4ff80d4d4d71975d111",
+      "pages": 5,
+      "chars": 7591,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "113ab5add7d027cfa3193d805bdfd6fdb6f86d27490cb2eb56ae37ef9b4d6c6a",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\半球谐振陀螺仪谐振子振动特性的有限元分析.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N10",
+      "title": "半球谐振陀螺控制及补偿技术",
+      "path": "C:\\Users\\11725\\Downloads\\半球谐振陀螺控制及补偿技术.pdf",
+      "sha256": "777494e4ba67d57cd41a84d0499d06b0a4fbd1d336fff7682373c7b8c771ca38",
+      "error": "Unexpected EOF",
+      "read_scope": "Poppler visual pages 1,2,10; Python text extraction failed; original unchanged",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "d562236e4f995aaca1494782d1d0f886c2130e323f18756cb86d2000c2097b32",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\半球谐振陀螺控制及补偿技术.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1,
+        2,
+        10
+      ],
+      "pages": 10
+    },
+    {
+      "id": "N11",
+      "title": "半球谐振陀螺仪随机误差分析",
+      "path": "C:\\Users\\11725\\Downloads\\半球谐振陀螺仪随机误差分析.pdf",
+      "sha256": "912decf1d4eefabd3139b8484c9510edea933e09f91aa478a6fad748b7f941ab",
+      "pages": 5,
+      "chars": 10133,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "ef46caa4758f472237d674081e947cfd0696530da57dcceaaf081f08559721d3",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\半球谐振陀螺仪随机误差分析.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1,
+        4,
+        5
+      ],
+      "content_boundary": "PDF5 is an unrelated appended paper; HRG conclusions on PDF4"
+    },
+    {
+      "id": "N12",
+      "title": "高精度液浮陀螺仪在双轴转台上的标定方法与误差分析",
+      "path": "C:\\Users\\11725\\Downloads\\高精度液浮陀螺仪在双轴转台上的标定方法与误差分析.pdf",
+      "sha256": "d0b8ca7fabe288f1e95d931c757bc4fa573c0ab9cc45f6752ebd2902bba468d5",
+      "pages": 7,
+      "chars": 14846,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "可迁移标定温补方法",
+      "pdf_core_sha256": "b9fef85b73b15f8106ac1ed4efaa207530afb1e4cf6455380f5986db5c3baa2c",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\可迁移标定温补方法\\高精度液浮陀螺仪在双轴转台上的标定方法与误差分析.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "N13",
+      "title": "基于半球谐振陀螺的捷联惯性姿态系统的一种粒子滤波方法",
+      "path": "C:\\Users\\11725\\Downloads\\基于半球谐振陀螺的捷联惯性姿态系统的一种粒子滤波方法.pdf",
+      "sha256": "9853ed7c17f1a100da4e9b954886903d5a9bce402492caafaa8c3ab3e50edfe4",
+      "pages": 5,
+      "chars": 9405,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "e1e1848255492c68d83da55764915929953bbd3208270aaeba8b6875f37ed17e",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\基于半球谐振陀螺的捷联惯性姿态系统的一种粒子滤波方法.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N14",
+      "title": "基于线振动台的液浮陀螺仪二次项误差系数标定方法研究",
+      "path": "C:\\Users\\11725\\Downloads\\基于线振动台的液浮陀螺仪二次项误差系数标定方法研究.pdf",
+      "sha256": "73c79ceac0f6d403f8f643da4d5e827d2d475ecf1398f7da929d82b120c035aa",
+      "pages": 7,
+      "chars": 35,
+      "extraction": "original",
+      "read_scope": "scan: visual pages 1,2; no machine-readable main text; same PDF core, distinct trailing bytes",
+      "group": "可迁移标定温补方法",
+      "pdf_core_sha256": "8010b0e11ba3dcf5faa186aa53a38ca24fb976d5e78bc6848f11b218cf2df1ea",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\可迁移标定温补方法\\基于线振动台的液浮陀螺仪二次项误差系数标定方法研究 (1).pdf",
+      "action": "reused_core_equivalent",
+      "reviewed_pdf_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "N15",
+      "title": "基于自适应神经模糊推理系统的陀螺建模方法",
+      "path": "C:\\Users\\11725\\Downloads\\基于自适应神经模糊推理系统的陀螺建模方法.pdf",
+      "sha256": "f4a55fc72e14483d206a67911658d3f23cfb0f47299289e2429656dbdcff48ae",
+      "pages": 5,
+      "chars": 9072,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "3a29a60eedd6faed4bd9f93516b8186888bcfd5ddd6ae40a5e9d7ca509175e1e",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\基于自适应神经模糊推理系统的陀螺建模方法.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "N16",
+      "title": "加速度对半球谐振陀螺振动检测系统影响分析",
+      "path": "C:\\Users\\11725\\Downloads\\加速度对半球谐振陀螺振动检测系统影响分析.pdf",
+      "sha256": "24cdc71b3832c2f7a809d104ab9b1a814c71758f316a10b03d328d9d2966d51a",
+      "pages": 6,
+      "chars": 9231,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "bc579cfc6aa601dfd40bea37537d3b8f96bc59b259356f44da04c1e5ebe9eae7",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\加速度对半球谐振陀螺振动检测系统影响分析.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": "N17",
+      "title": "全角模式半球谐振陀螺主要误差分析与补偿方法研究",
+      "path": "C:\\Users\\11725\\Downloads\\全角模式半球谐振陀螺主要误差分析与补偿方法研究.pdf",
+      "sha256": "4956eab3fa0f6897207b8a2411651487ee19063e9e3861e6c70b179db57ff013",
+      "pages": 81,
+      "chars": 47639,
+      "extraction": "original",
+      "read_scope": "English abstract and selected text; Chinese font map corrupt; visual PDF67/72 verified",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "ce467d8b46d6b698ff68fe1127269661695cbe5dace096a069d18e79b46080ce",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\全角模式半球谐振陀螺主要误差分析与补偿方法研究.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        67,
+        72
+      ]
+    },
+    {
+      "id": "N18",
+      "title": "速率积分半球谐振陀螺误差建模与抑制方法研究",
+      "path": "C:\\Users\\11725\\Downloads\\速率积分半球谐振陀螺误差建模与抑制方法研究.pdf",
+      "sha256": "90dd23134adc3f2efaa5296eb07c745b3989d2f1a3ff957162da932a2ff4e859",
+      "pages": 197,
+      "chars": 242307,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "a9eee8773ea276f544c708ba9df92af7980e845c82928d02306f1c8d2f64d936",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\速率积分半球谐振陀螺误差建模与抑制方法研究.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        4,
+        5,
+        9,
+        10,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        174,
+        175,
+        177
+      ]
+    },
+    {
+      "id": "N19",
+      "title": "基于半球谐振陀螺仪的姿态测量系统研究",
+      "path": "C:\\Users\\11725\\Downloads\\基于半球谐振陀螺仪的姿态测量系统研究.pdf",
+      "sha256": "b29fef728072e4723b799a2454966db4efc855ba5ad8a22b8ed21f839de3ce4f",
+      "pages": 155,
+      "chars": 167597,
+      "extraction": "original",
+      "read_scope": "selected-page review, not full formula verification",
+      "group": "HRG直接相关",
+      "pdf_core_sha256": "a3e56859bf2ca6c60eaf517229cbb51249e560e6d57026ea3bdfc9850a657c93",
+      "archive_path": "D:\\学习资料\\资料\\全角陀螺\\新增文献_20261102\\HRG直接相关\\基于半球谐振陀螺仪的姿态测量系统研究.pdf",
+      "action": "copied_original",
+      "reviewed_pdf_pages": [
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    }
+  ],
+  "dedup_rule": "SHA256 of original bytes through final %%EOF; acquisition tail may differ. Originals and both raw hashes retained; not a claim of generic semantic dedup."
+}
