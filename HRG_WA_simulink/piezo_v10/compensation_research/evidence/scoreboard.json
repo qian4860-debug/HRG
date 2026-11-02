@@ -1,0 +1,9 @@
+{
+  "baseline": true,
+  "noise_500u": true,
+  "rate_2": true,
+  "combined_2": true,
+  "holdout1": true,
+  "holdout2": true,
+  "holdout3": true
+}

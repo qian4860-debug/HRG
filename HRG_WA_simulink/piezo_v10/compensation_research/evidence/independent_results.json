@@ -1,0 +1,8 @@
+{
+  "cases": 21,
+  "quality_pass": 20,
+  "holdouts_pass": 3,
+  "seven_simulink_scoreboards": true,
+  "independent_scores_match": true,
+  "tensor_sign_error": 5.721931486816512e-16
+}
