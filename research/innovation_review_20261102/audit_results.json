@@ -1,0 +1,60 @@
+{
+  "scaled_rotation_gauge_relative_output_error": 1.0546233875366885e-15,
+  "delay_counterexample": {
+    "original_pole": 0.30000000000000004,
+    "delayed_poles_real_imag": [
+      [
+        0.4,
+        0.5830951894845301
+      ],
+      [
+        0.4,
+        -0.5830951894845301
+      ]
+    ],
+    "delayed_spectral_radius": 0.7071067811865475
+  },
+  "fir_change": {
+    "old_sum": 9,
+    "new_sum": 10,
+    "old_nyquist_gain": 0.1111111111111111,
+    "new_nyquist_gain": 0.2
+  },
+  "reciprocal_counterexample": {
+    "n": 131071,
+    "exact_floor_quotient": 1,
+    "approx_floor_quotient": 0,
+    "exact_product_minus_approx_product": "1/2251799813685248",
+    "scope": "反例针对先用截断倒数后向下取整；不宣称当前 RTL 最近舍入必在此输入失败"
+  },
+  "invariant_identity": {
+    "max_relative_error": 5.929803397015917e-16,
+    "linear_E_L_R_S": [
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "circular_E_L_R_S": [
+      0.9999999999999998,
+      0.4999999999999999,
+      0.0,
+      0.0
+    ]
+  },
+  "angle_jacobian_max_error": 5.751121801012005e-12,
+  "commutation": {
+    "digital_rotation_bias_invariance": 8.473409486550036e-16,
+    "ideal_four_view_harmonic_factors_m1_to_m4": [
+      6.206335383118183e-17,
+      6.123233995736765e-17,
+      1.3877787807814457e-16,
+      1.0
+    ]
+  },
+  "common_carrier_phase_invariance_error": 2.220446049250313e-16,
+  "dual_mode_absolute_calibration_gauge_error": 4.440892098500626e-16,
+  "checks_passed": 10,
+  "scope": "代数反例与局部恒等式核验；不是完整可辨识性证明、RTL 等价证明或新颖性鉴定",
+  "script_sha256": "6d501b6cb272c310539c43780f96f26ac761211141c44f27983d8f3b84903135"
+}
