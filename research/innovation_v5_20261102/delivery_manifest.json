@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-02",
+  "checks_passed": 10,
+  "artifact_sha256": {
+    "tools/build_codex_md.py": "9d2493b406a7521b41ed14477af5f560a1c79b3dd5e14b16aaaa6ee993cdd306",
+    "codex_md/02_V4复核与深入创新候选V5_20261102.md": "6a0c590fa4bf6eed63bb12f8a6f28889218641a6d128e8951bdb0818c2412d80",
+    "codex_md/manifest.json": "1dba3c8a6ed56f8d264aca1af6c0bf2f99d080f26155b90ab5c11a15a4fd45ef",
+    "research/innovation_v5_20261102/archive_check.json": "738df3fe7c669dc2abd3a08111323cace1b80c0036c899d391545375ce9a72c3",
+    "research/innovation_v5_20261102/deep_checks.py": "a8dfae1ae3343a3fcbe1371f717c79f7bb951269e6e09a5776bd718fcae63b25",
+    "research/innovation_v5_20261102/deep_results.json": "c122448f7dc6ccc691d6bd48aafa700ddfbd3d19309e6d9d74800f9a639c6487",
+    "research/innovation_v5_20261102/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "research/innovation_v5_20261102/sources_reviewed.json": "107a875832b166c1e31b4f487468104555508e2600913cb201e01bc6755aa3da",
+    "research/innovation_v5_20261102/evidence/lynch_page5_reading.png": "df07efac3b8f85afff97d30abad3a9ae3e59c72b5f61cdf4a8115e093a39c1b8"
+  },
+  "source_sha256": {
+    "DSH_md/07_V3可行性判断与创新点优化V4_20261102.md": "d78c118ca7a295418dfd26d5fa3fb239921a830f0ba0a91d96440b1f9347f22d",
+    "codex_md/01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_config.m": "5035fe6035859ad111e0b367de5f69c1ad823abed961963ea2f475462ff4741d",
+    "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3",
+    "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_v46_params.m": "11d521eafd4b883802329faaa53212ad2f6adfa6c04547633c5fe5c662401b4f"
+  },
+  "BOM_free_and_chinese_verified": true,
+  "DSH_question_count": 12,
+  "scope": "方法推导与算子级合成验证；未做新闭环/综合/实测/穷尽查新"
+}

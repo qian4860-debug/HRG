@@ -1,0 +1,146 @@
+{
+  "rank_not_necessary": {
+    "rank_G": 1,
+    "rank_H": 1,
+    "state_controllability_rank": 4,
+    "state_observability_rank": 4,
+    "recovered_diagonal_mode_d_k": [
+      [
+        0.19999999999999984,
+        4.0
+      ],
+      [
+        0.33999999999999997,
+        6.25
+      ]
+    ],
+    "minimum_numerator_at_poles": 1.577393736516027,
+    "scope": "两模态同时对角、欠阻尼且无极零相消；反驳端口满秩作为普遍必要条件"
+  },
+  "B2_does_not_depend_on_frequency_split": [
+    1.1739791494889897,
+    1.1739791494889897,
+    1.1739791494889897,
+    1.1739791494889897
+  ],
+  "time_contract_counterexample": {
+    "both_stamps": {
+      "source": 0,
+      "available": 5,
+      "execution": 8
+    },
+    "nearest_ties_away_output": 1,
+    "nearest_ties_even_output": 0,
+    "variable_FCW_exact_increment": 201,
+    "using_start_FCW_twice": 200
+  },
+  "navigation_metric": {
+    "constraint_rank": 2,
+    "singular_values": [
+      0.14432520924973544,
+      0.07233201659332074
+    ],
+    "W": [
+      [
+        0.6652368349000637,
+        -0.028748745094460067
+      ],
+      [
+        -0.028748745094460067,
+        1.3347631650999363
+      ]
+    ],
+    "W_error_max": 4.440892098500626e-16,
+    "raw_modal_increment_RMS_rad": 0.13078633716688134,
+    "corrected_modal_increment_RMS_rad": 8.193171769470537e-17,
+    "scope": "无噪声合成D/K；仅相对模态角，绝对方向和手性仍需参考"
+  },
+  "degeneracy_and_probe": {
+    "isotropic_rank": 0,
+    "commuting_rank": 1,
+    "independent_probe_rank": 2,
+    "isotropic_with_one_probe_rank": 1,
+    "isotropic_with_two_independent_probes_rank": 2,
+    "scope": "探针为算子级概念验证；未证明现有电极/负载能实现该探针"
+  },
+  "metric_gap_certificate": {
+    "operator_constraint_noise_bound": 0.001,
+    "observed_smallest_nonzero_singular_value": 0.07280966050038948,
+    "measured_null_vector_sine_error": 0.002202408583454411,
+    "certified_upper_bound": 0.013925702935116595,
+    "scope": "已声明谱范数扰动界下的局部度量方向界；实际数据需要独立估计该界"
+  },
+  "metric_noise_sweep": [
+    {
+      "anisotropy_scale": 1.0,
+      "trials": 64,
+      "ideal_smallest_constraint_singular_value": 0.07233201659332074,
+      "non_SPD_or_rank_invalid": 0,
+      "median_W_relative_error_among_SPD": 0.00026078227392533704
+    },
+    {
+      "anisotropy_scale": 0.1,
+      "trials": 64,
+      "ideal_smallest_constraint_singular_value": 0.007233201659332046,
+      "non_SPD_or_rank_invalid": 0,
+      "median_W_relative_error_among_SPD": 0.0025478535078002984
+    },
+    {
+      "anisotropy_scale": 0.01,
+      "trials": 64,
+      "ideal_smallest_constraint_singular_value": 0.0007233201659332121,
+      "non_SPD_or_rank_invalid": 0,
+      "median_W_relative_error_among_SPD": 0.02615588648102475
+    },
+    {
+      "anisotropy_scale": 0.001,
+      "trials": 64,
+      "ideal_smallest_constraint_singular_value": 7.23320165932893e-05,
+      "non_SPD_or_rank_invalid": 5,
+      "median_W_relative_error_among_SPD": 0.2242525499064766
+    },
+    {
+      "anisotropy_scale": 0.0,
+      "trials": 64,
+      "ideal_smallest_constraint_singular_value": 8.704955863348161e-18,
+      "non_SPD_or_rank_invalid": 47,
+      "median_W_relative_error_among_SPD": 0.593276489007473
+    }
+  ],
+  "port_structure": {
+    "motional_inverse_admittance_error": 7.105644194726877e-15,
+    "Y_transpose_Omega_equals_Y_minus_Omega_error": 4.577566798522237e-16,
+    "mechanical_energy_power_balance_error": 3.552713678800501e-15,
+    "scope": "同端口互易线性压电、方形可逆耦合矩阵；非任意驱检交叉传递"
+  },
+  "endpoint_window_tradeoff": {
+    "white_noise_intensity_rad2_s": 1e-09,
+    "angle_second_derivative_rad_s2": 0.2,
+    "continuous_optimal_T_s": 0.08151931096059226,
+    "grid_optimal_T_s": 0.08156576849692912,
+    "32_frame_noise_variance_gain": 0.1193181818181824,
+    "continuous_MSE_model": "4*N0/T + a^2*T^4/144",
+    "scope": "角度直接观测、连续白噪声、局部恒曲率；不直接等于IQ/有色噪声/ARW"
+  },
+  "target_observability_gate": {
+    "observable_target_local_variance": 0.1,
+    "unobservable_target_naive_pseudoinverse_variance": 0.0,
+    "unobservable_target_null_projection": 1.0,
+    "required_action": "先检查目标梯度是否位于信息矩阵可识别子空间，再计算方差；否则拒绝有效认证"
+  },
+  "source_sha256": {
+    "DSH_md/07_V3可行性判断与创新点优化V4_20261102.md": "d78c118ca7a295418dfd26d5fa3fb239921a830f0ba0a91d96440b1f9347f22d",
+    "codex_md/01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_config.m": "5035fe6035859ad111e0b367de5f69c1ad823abed961963ea2f475462ff4741d",
+    "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3",
+    "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_v46_params.m": "11d521eafd4b883802329faaa53212ad2f6adfa6c04547633c5fe5c662401b4f"
+  },
+  "checks_passed": 10,
+  "script_sha256": "a8dfae1ae3343a3fcbe1371f717c79f7bb951269e6e09a5776bd718fcae63b25",
+  "limits": [
+    "算子级合成数值验证，未运行新增MATLAB/Simulink闭环",
+    "未证明实际表头可实现独立探针",
+    "未作RTL综合或实物验收",
+    "未完成新颖性穷尽检索"
+  ]
+}

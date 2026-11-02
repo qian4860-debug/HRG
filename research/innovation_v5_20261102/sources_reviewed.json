@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-02",
+  "input_review": "DSH_md/07_V3可行性判断与创新点优化V4_20261102.md",
+  "lynch": {
+    "path": "D:/学习资料/资料/全角陀螺/经典文献_20261030/Lynch_平均法_用户提供九页扫描.pdf",
+    "sha256": "18ca3d2530a7b01174b25086e7480e557a0fd09f318cd067aec0ec4de4574961",
+    "visually_reviewed_pdf_pages": [
+      5
+    ],
+    "printed_page": 22,
+    "figure": "Fig.2",
+    "equations": "26–31",
+    "reading_image": "evidence/lynch_page5_reading.png",
+    "render_method": "pypdfium2 PdfDocument[4].render(scale=1.4)",
+    "pypdfium2_version": "5.14.0"
+  },
+  "primary_web_sources": [
+    {
+      "url": "https://escholarship.org/uc/item/77w4397w",
+      "scope": "作者存储库题录/摘要；直接PDF请求429，未全文复现"
+    },
+    {
+      "url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2014/04/Supression_MEMS-Sensors_2003.pdf",
+      "scope": "摘要、§IV等相关段落，非逐式全文复现"
+    },
+    {
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/mnl.2016.0413",
+      "scope": "出版方摘要与导纳/并联负载说明"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ejcon.2016.03.001",
+      "scope": "出版方摘要及章节简介；正文403"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026279/",
+      "scope": "摘要和边界/频响相关说明"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9945455/",
+      "scope": "检索返回原始摘要；直接正文验证码阻挡"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20180209816A1/en",
+      "scope": "系数调整/模态对齐说明与相关权利要求；非法律查新"
+    },
+    {
+      "url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2000/6436.html",
+      "scope": "Berkeley原始技术报告页面及摘要"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "archived_existing_markdown": 253,
+  "source_markdown_inventory": 264,
+  "explicitly_excluded_metadata_DSH_and_compatibility_pointers": 11,
+  "clean_history_records": 96,
+  "rewritten_local_link_targets_checked": 129,
+  "other_unreviewed_dirty_sources_use_committed_snapshot": [
+    "压电全角验证总书第四版_经典文献逐式演算.md"
+  ],
+  "status": "passed"
+}
