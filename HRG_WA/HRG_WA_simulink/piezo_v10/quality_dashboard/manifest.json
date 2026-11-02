@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-02",
+  "files": {
+    "check_delivery.py": "6516fe6a2a3ee6ad5daf5f59a3f2b2ed47648e3bc4be66b631948b5c3bce5391",
+    "evidence/quality_dashboard.png": "ded1413e6132326bcaa220343c7fd97a71e9d782bb42f8bca4bbc45cd7f3094c",
+    "evidence/quality_frames.csv": "a6e15e0abcf1e7089c934110928e4e3613765510b1b9557a4cc9a2f394c99903",
+    "evidence/quality_report.html": "590156bcd213b81656b6fa2f4b7a9ad3a0af4a05cb81814dfca06a622681733c",
+    "evidence/quality_report.txt": "db175c15baaa5978e97be46b99a948592bffd9888b0810feaee6ff9d3ad320a1",
+    "evidence/quality_results.json": "a395b3d2fd2ffa8f394ecab85ec5b873d2e9be1072dfce3d53938dd696540a4a",
+    "evidence/quality_text.png": "b23ac80ebf57560b861672523a8848bf45ed0a8da02add461f4fa6b2618d2a80",
+    "evidence/verification.json": "b7abf1088fe5ae38aa0641408c8e9ba60580b81a1745596de1a48e390143ad62",
+    "models/hrg_wa_quality_monitor.slx": "fd4d32c159df32cc27ccaef57e264ebfbd377c5702fe960fbc671c7ee412010a",
+    "quality_build.m": "49041215001b8bdcda1407cee97f728ddb273b480cb290cb22098420ea23aeed",
+    "quality_demo.m": "27730f02bf596c539512b1b10162a2c748c551afb1ee62faa1b2117eb05811ca",
+    "quality_report.m": "81e07c820e32037f24d271513ed1fbbe3ecace01bf9dd04f631cb42c054c82eb",
+    "quality_setup.m": "bab2b4c0ae81053d85af631ce5c1f83e7432817368f2478eee29f2aa9c548030",
+    "quality_sfun.m": "614a4e039e0918bac1aba0fd7ac518931fb2a343ad2efe433bb8f8aa9a634758",
+    "quality_values.m": "3b6c321b4995cdd93ee65531d7d3109c83ff06fee7be121941e2de93df067649",
+    "quality_verify.m": "20ccc3c0d6667ed8ace950bb717fb1bb7f8eb707a5b707d8a10747eb3835e152",
+    "README.md": "9194864190b8da0aee74d3a564302eebafc76cea66e67c45fe7462fc9e5b5de8"
+  },
+  "dependency_manifest": "baf136178d81cdff1dca0d007f79f370aeae3ee2dfbb035032b3c9ad1e978d7b"
+}

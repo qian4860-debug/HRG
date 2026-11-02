@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "observer_preserves_states": true,
+    "observer_preserves_DAC": true,
+    "baseline_quality_pass": true,
+    "frame_count": true,
+    "invalid_residual_is_NaN": true,
+    "clipped_frame_invalid": true,
+    "no_valid_frames_no_angle_score": true,
+    "Q_and_phase_match_original": true,
+    "saved_model_reopens": true
+  }
+}
