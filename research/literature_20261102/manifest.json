@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-02",
+  "files": {
+    "check_delivery.py": "5d0d8e155ce8e4aad2082ad30455600ca5b28a9d210d2352c2868c5156123b89",
+    "finalize_review.py": "599ff08d980f86846f143ae2879cca95fdedaeb43d98a0ff9a98eb466927fc70",
+    "import_library.py": "213821b8ace2da1400c87d317e4ad93d9d95238023af964f2945e140496eff61",
+    "inspect_sources.py": "047a33ce22b27d2f7f89db667558f3c1ebc4c45dfcf9019d3200fc243467c9b9",
+    "library_receipt.json": "8bcd5b72165cefeec6a94c1774a8ac7ae285ab61021c45b52cf3fe4641157609",
+    "online_overlap.json": "197cad63d457febf0880797fd528e33b64c93ac19bbdbba1f8b9e3101cbfb5e9",
+    "sources.json": "451e710893fa91243fb1a80ea0c586d3ba9112e06325d7667f53a58136c775d8",
+    "文献融入与五个创新候选.md": "92c5b5ad9c791133a723e181be2b5067c1d8e37e66d3648da8566e0215ab4a09"
+  },
+  "scope": "Selected-page literature review and five unproven innovation candidates; no model accuracy upgrade"
+}

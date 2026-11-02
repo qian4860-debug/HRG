@@ -1,0 +1,208 @@
+[
+  {
+    "id": "N01",
+    "title": "用三轴转台辨识陀螺仪误差模型系数时的速率试验设计",
+    "path": "C:\\Users\\11725\\Downloads\\用三轴转台辨识陀螺仪误差模型系数时的速率试验设计.pdf",
+    "sha256": "ec0e915936c3c949a15434735cfaad8f0bce29ee02a25d2c819c04e2a6606a5d",
+    "pages": 6,
+    "chars": 9803,
+    "extraction": "original",
+    "metadata": "{'/ModDate': \"D:20060811130353+08'00'\", '/CreationDate': \"D:20060811114524+08'00'\"}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N02",
+    "title": "在反转平台离心机上标定陀螺仪的误差模型系数的方法",
+    "path": "C:\\Users\\11725\\Downloads\\在反转平台离心机上标定陀螺仪的误差模型系数的方法.pdf",
+    "sha256": "dd82537e7b3c066a0637a124e717a48f9bca834c4e931874f94c41f25736c919",
+    "pages": 6,
+    "chars": 11269,
+    "extraction": "original",
+    "metadata": "{'/Creator': 'ººÍõOCR', '/CreationDate': '01/23/13 16:29:03', '/Producer': 'ººÍõ¿Æ¼¼', '/Title': 'NONE', '/Author': 'TOM', '/Subject': 'OCR-PDF', '/Keywords': 'HanWang PDF Technology'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N03",
+    "title": "液浮陀螺仪在双轴离心机上的标定方法",
+    "path": "C:\\Users\\11725\\Downloads\\液浮陀螺仪在双轴离心机上的标定方法.pdf",
+    "sha256": "78e155cee3349f67a5343307e56d9b4176b9126d5fc30328d02927f0eb3f0456",
+    "pages": 10,
+    "chars": 26193,
+    "extraction": "pdfplumber fallback; original bytes preserved",
+    "metadata": "{'CreationDate': \"D:20221209193113+08'00'\", 'Creator': 'Adobe Acrobat Pro 9.1.2', 'ModDate': \"D:20221209195335+08'00'\", 'Producer': 'Adobe Acrobat Pro 9.1.2'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N04",
+    "title": "基于线振动台的液浮陀螺仪二次项误差系数标定方法研究 (1)",
+    "path": "C:\\Users\\11725\\Downloads\\基于线振动台的液浮陀螺仪二次项误差系数标定方法研究 (1).pdf",
+    "sha256": "f33a084cb7da45694bf82fa06c9d18fb60d4869adf96e67f525127ff8b0a1b2a",
+    "pages": 7,
+    "chars": 35,
+    "extraction": "original",
+    "metadata": "{'/Creator': 'ººÍõOCR', '/CreationDate': '05/14/20 16:14:47', '/Producer': 'ººÍõ¿Æ¼¼', '/Title': 'NONE', '/Author': 'TOM', '/Subject': 'OCR-PDF', '/Keywords': 'HanWang PDF Technology'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N05",
+    "title": "磁强计和微机械陀螺_加速度计组合定姿的扩展卡尔曼滤波器设计",
+    "path": "C:\\Users\\11725\\Downloads\\磁强计和微机械陀螺_加速度计组合定姿的扩展卡尔曼滤波器设计.pdf",
+    "sha256": "d70fa1d5506398815a1b9d53daf8d7dad929c926ef190df9fea93c3af9a4936b",
+    "pages": 5,
+    "chars": 7521,
+    "extraction": "original",
+    "metadata": "{'/ModDate': \"D:20051009164621+08'00'\", '/CreationDate': \"D:20051009164621+08'00'\"}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N06",
+    "title": "硅微陀螺温度漂移补偿研究",
+    "path": "C:\\Users\\11725\\Downloads\\硅微陀螺温度漂移补偿研究.pdf",
+    "sha256": "46fa52ae9853533c8135afe0770d88dba41433e0527ccf81989e7dc9f12746f2",
+    "pages": 3,
+    "chars": 5623,
+    "extraction": "original",
+    "metadata": "{'/ModDate': \"D:20090109144327+08'00'\", '/CreationDate': \"D:20090109144327+08'00'\"}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N07",
+    "title": "无陀螺惯性测量组合静动态解耦方法",
+    "path": "C:\\Users\\11725\\Downloads\\无陀螺惯性测量组合静动态解耦方法.pdf",
+    "sha256": "426b9fda1eb515773c31d334413c8f5ba9887dea9880208cee02d50e8a286aa6",
+    "pages": 3,
+    "chars": 5565,
+    "extraction": "original",
+    "metadata": "None",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N08",
+    "title": "利用磁强计及微机械加速度计和陀螺的姿态估计扩展卡尔曼滤波器",
+    "path": "C:\\Users\\11725\\Downloads\\利用磁强计及微机械加速度计和陀螺的姿态估计扩展卡尔曼滤波器.pdf",
+    "sha256": "8d51d909a728d1f5da90af6584dcd35d55db994080707ae0b0663809191e490d",
+    "pages": 5,
+    "chars": 7251,
+    "extraction": "original",
+    "metadata": "None",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N09",
+    "title": "半球谐振陀螺仪谐振子振动特性的有限元分析",
+    "path": "C:\\Users\\11725\\Downloads\\半球谐振陀螺仪谐振子振动特性的有限元分析.pdf",
+    "sha256": "9c713ec78c405fbf4da5ec8ea4212dc93878bd7ab6b5e4ff80d4d4d71975d111",
+    "pages": 5,
+    "chars": 7591,
+    "extraction": "original",
+    "metadata": "None",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N10",
+    "title": "半球谐振陀螺控制及补偿技术",
+    "path": "C:\\Users\\11725\\Downloads\\半球谐振陀螺控制及补偿技术.pdf",
+    "sha256": "777494e4ba67d57cd41a84d0499d06b0a4fbd1d336fff7682373c7b8c771ca38",
+    "error": "Unexpected EOF",
+    "read_scope": "unreadable; not reviewed"
+  },
+  {
+    "id": "N11",
+    "title": "半球谐振陀螺仪随机误差分析",
+    "path": "C:\\Users\\11725\\Downloads\\半球谐振陀螺仪随机误差分析.pdf",
+    "sha256": "912decf1d4eefabd3139b8484c9510edea933e09f91aa478a6fad748b7f941ab",
+    "pages": 5,
+    "chars": 10133,
+    "extraction": "original",
+    "metadata": "{'/ModDate': \"D:20090417105915+08'00'\", '/CreationDate': \"D:20090417105523+08'00'\"}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N12",
+    "title": "高精度液浮陀螺仪在双轴转台上的标定方法与误差分析",
+    "path": "C:\\Users\\11725\\Downloads\\高精度液浮陀螺仪在双轴转台上的标定方法与误差分析.pdf",
+    "sha256": "d0b8ca7fabe288f1e95d931c757bc4fa573c0ab9cc45f6752ebd2902bba468d5",
+    "pages": 7,
+    "chars": 14846,
+    "extraction": "original",
+    "metadata": "{'/Creator': 'ººÍõOCR', '/CreationDate': '11/27/18 15:26:10', '/Producer': 'ººÍõ¿Æ¼¼', '/Title': 'NONE', '/Author': 'TOM', '/Subject': 'OCR-PDF', '/Keywords': 'HanWang PDF Technology'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N13",
+    "title": "基于半球谐振陀螺的捷联惯性姿态系统的一种粒子滤波方法",
+    "path": "C:\\Users\\11725\\Downloads\\基于半球谐振陀螺的捷联惯性姿态系统的一种粒子滤波方法.pdf",
+    "sha256": "9853ed7c17f1a100da4e9b954886903d5a9bce402492caafaa8c3ab3e50edfe4",
+    "pages": 5,
+    "chars": 9405,
+    "extraction": "original",
+    "metadata": "{'/ModDate': \"D:20090506144230+08'00'\", '/CreationDate': \"D:20090506144230+08'00'\"}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N14",
+    "title": "基于线振动台的液浮陀螺仪二次项误差系数标定方法研究",
+    "path": "C:\\Users\\11725\\Downloads\\基于线振动台的液浮陀螺仪二次项误差系数标定方法研究.pdf",
+    "sha256": "73c79ceac0f6d403f8f643da4d5e827d2d475ecf1398f7da929d82b120c035aa",
+    "pages": 7,
+    "chars": 35,
+    "extraction": "original",
+    "metadata": "{'/Creator': 'ººÍõOCR', '/CreationDate': '05/14/20 16:14:47', '/Producer': 'ººÍõ¿Æ¼¼', '/Title': 'NONE', '/Author': 'TOM', '/Subject': 'OCR-PDF', '/Keywords': 'HanWang PDF Technology'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N15",
+    "title": "基于自适应神经模糊推理系统的陀螺建模方法",
+    "path": "C:\\Users\\11725\\Downloads\\基于自适应神经模糊推理系统的陀螺建模方法.pdf",
+    "sha256": "f4a55fc72e14483d206a67911658d3f23cfb0f47299289e2429656dbdcff48ae",
+    "pages": 5,
+    "chars": 9072,
+    "extraction": "original",
+    "metadata": "{'/ModDate': \"D:20091016081722+08'00'\", '/CreationDate': \"D:20091016081722+08'00'\"}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N16",
+    "title": "加速度对半球谐振陀螺振动检测系统影响分析",
+    "path": "C:\\Users\\11725\\Downloads\\加速度对半球谐振陀螺振动检测系统影响分析.pdf",
+    "sha256": "24cdc71b3832c2f7a809d104ab9b1a814c71758f316a10b03d328d9d2966d51a",
+    "pages": 6,
+    "chars": 9231,
+    "extraction": "original",
+    "metadata": "{'/CreationDate': '02/18/14 08:54:51', '/Subject': 'OCR-PDF', '/Author': 'TOM', '/CreationDate--Text': '02/18/14 08:54:51', '/Creator': 'ººÍõOCR', '/Keywords': 'HanWang PDF Technology', '/Producer': 'ººÍõ¿Æ¼¼', '/ModDate': \"D:20140218142507+08'00'\", '/Title': 'NONE'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N17",
+    "title": "全角模式半球谐振陀螺主要误差分析与补偿方法研究",
+    "path": "C:\\Users\\11725\\Downloads\\全角模式半球谐振陀螺主要误差分析与补偿方法研究.pdf",
+    "sha256": "4956eab3fa0f6897207b8a2411651487ee19063e9e3861e6c70b179db57ff013",
+    "pages": 81,
+    "chars": 47639,
+    "extraction": "original",
+    "metadata": "{'/CreationDate': \"D:20250519111111+08'00'\", '/Creator': 'LaTeX with hyperref', '/ModDate': \"D:20250519111111+08'00'\", '/Producer': 'Adobe Acrobat Pro DC (64-bit) 22.1.20085', '/Title': ''}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N18",
+    "title": "速率积分半球谐振陀螺误差建模与抑制方法研究",
+    "path": "C:\\Users\\11725\\Downloads\\速率积分半球谐振陀螺误差建模与抑制方法研究.pdf",
+    "sha256": "90dd23134adc3f2efaa5296eb07c745b3989d2f1a3ff957162da932a2ff4e859",
+    "pages": 197,
+    "chars": 242307,
+    "extraction": "original",
+    "metadata": "{'/Author': 'zhanhj', '/CreationDate': \"D:20250515121546+08'00'\", '/Creator': 'Microsoft® Word LTSC', '/ModDate': \"D:20251013132336+08'00'\", '/Producer': 'Microsoft® Word LTSC', '/Title': '第1章绪论'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  },
+  {
+    "id": "N19",
+    "title": "基于半球谐振陀螺仪的姿态测量系统研究",
+    "path": "C:\\Users\\11725\\Downloads\\基于半球谐振陀螺仪的姿态测量系统研究.pdf",
+    "sha256": "b29fef728072e4723b799a2454966db4efc855ba5ad8a22b8ed21f839de3ce4f",
+    "pages": 155,
+    "chars": 167597,
+    "extraction": "original",
+    "metadata": "{'/CreationDate': \"D:20131025103738+08'00'\", '/Author': 'sun', '/Creator': 'PScript5.dll Version 5.2', '/Producer': 'Acrobat Distiller 7.0 (Windows)', '/ModDate': \"D:20131029141252+08'00'\", '/Title': '<4D6963726F736F667420576F7264202D20CEDEC7A9C3FBD7EED6D5B0E6B1BE2E646F63>'}",
+    "read_scope": "text extracted; review pages recorded separately"
+  }
+]
