@@ -1,0 +1,15 @@
+﻿--- CASE A: damping anisotropy only ---
+Q/E  median 6.852e-07  (must be << 1)
+dtheta measured mean 5.0739e-05 rad/s
+  k=0.25 : 5.0741e-05   k=0.5 : 1.0148e-04   k=-0.25 : -5.0741e-05   k=-0.5 : -1.0148e-04
+best-fit k = 0.2500
+dE measured -1.8918e-03 ; predicted -2gE-dGamma*cos*E -1.6751e-03 ; ratio 0.8855
+theta total drift 1.8268e-02 rad over 360 s
+=====
+--- CASE B: frequency split only ---
+Q/E median 1.737e-02
+dQ measured mean 5.2848e-06 ; passive part 2.5268e-05 ; residual -1.9984e-05
+fitted coefficient on E*sin4 : 1.0484e-04 1/s
+code 2*splitRad = 2.5133e-04 ; 2*dHalf = 1.2566e-04 ; 4*dHalf = 2.5133e-04 ; splitRad = 1.2566e-04
+fitted coefficient on (Q/E)cos4 : -3.1413e-05
+code 0.5*splitRad = 6.2832e-05 ; 0.25*splitRad = 3.1416e-05 ; dHalf = 6.2832e-05 ; 0.5*dHalf=3.1416e-05
