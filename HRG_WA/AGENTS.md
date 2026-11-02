@@ -21,3 +21,10 @@
 用户明确要求将历次 Codex 对话产出的 Markdown 集中到仓库根目录 `codex_md/` 文件夹。统一入口为 `codex_md/README.md`，逐文件索引为 `codex_md/00_文档索引.md`；新 Codex 推导、调研、说明和审查 Markdown 直接写入此目录，研究脚本、JSON、日志等证据仍放 `research/` 或原工程证据目录。DSH 文档继续在 `DSH_md/` 独立维护，活动 `AGENTS.md` 保留根目录。
 
 既有 Markdown 使用 `tools/build_codex_md.py --build` 生成带来源的集中归档，原路径作为已验收依赖和兼容入口保留，避免改写原始哈希；其他人未审的工作区改动不得借复制归档代为提交，归档须使用已提交快照并明确标注。用户原文清理视图为 `codex_md/00_用户提问记录.md`，剔除自动审批、工具上下文和重复项，保持原记录与 Git 历史可追溯。完成后运行 `tools/build_codex_md.py --check`，核对归档/来源哈希与重写链接，再提交并按既有授权同步 GitHub。
+
+## 中文 Markdown 编码纪律（2026-11-02 事故后追加）
+`DSH_md/HRG_WA_DSH.md` 曾因 `Get-Content -Raw` 后 `Set-Content -Encoding UTF8` 往返改写而被按 GBK 二次解码，整篇中文变成乱码，只能从干净提交重建。
+1. **禁止**用 `Get-Content | Set-Content`、`-replace` 管道改写含中文的 UTF-8 文件。
+2. 改写中文 Markdown 一律使用 `edit`/`write` 工具，或用 Python 显式 `encoding="utf-8"` 读写、`newline="\n"`、**不写 BOM**。
+3. 批量文本处理后必须回读校验：`has_bom=False`、关键中文串可读、表格行数与提问条数未变；不通过就回滚重做，不提交。
+4. 发现并行会话把文件改成乱码时，先 `git log -- <path>` 找最后一个干净提交，从该提交重建，再补回缺失条目并在记录里注明。
