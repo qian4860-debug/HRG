@@ -1,0 +1,20 @@
+{
+  "baseline": true,
+  "noise5u_20261102": true,
+  "noise5u_20261103": true,
+  "noise5u_20261104": true,
+  "noise_50u": true,
+  "noise_500u": true,
+  "rate_0": true,
+  "rate_0_05": true,
+  "rate_m0_5": true,
+  "rate_2": true,
+  "split_0_001": true,
+  "split_0_01": true,
+  "damp_0_0002": true,
+  "damp_0_002": true,
+  "detect_mismatch": true,
+  "drive_mismatch": true,
+  "combined_1": true,
+  "combined_2": true
+}

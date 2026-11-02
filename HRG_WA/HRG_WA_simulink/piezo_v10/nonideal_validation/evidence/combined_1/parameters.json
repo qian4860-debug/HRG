@@ -1,0 +1,126 @@
+{
+  "id": "combined_1",
+  "label": "组合非理想等级1",
+  "p": {
+    "schema": "v10.1",
+    "synthetic": true,
+    "f0": 1000,
+    "gamma_intrinsic": 0.31415926535897931,
+    "Cs": 1E-9,
+    "G0": 1E-10,
+    "kappa": 1E-6,
+    "b": 1.1E-6,
+    "Cds": 0,
+    "Rs": 1000,
+    "B": 0.27699096196168066,
+    "Omega": 0.5,
+    "Ts": 2.5E-5,
+    "Tc": 0.001,
+    "duration": 0.8,
+    "charge_target": 1E-11,
+    "initial_fraction": 0.3,
+    "theta0": 0.4,
+    "Cf": 1E-10,
+    "Rf": 1.0E+9,
+    "driver_tau": [
+      2E-5,
+      2.4E-5
+    ],
+    "afe_bw": [
+      20000,
+      18000
+    ],
+    "detect_matrix": [
+      [
+        1,
+        0.025
+      ],
+      [
+        -0.015,
+        1.04
+      ]
+    ],
+    "drive_matrix": [
+      [
+        1,
+        -0.03
+      ],
+      [
+        0.02,
+        1.08
+      ]
+    ],
+    "split_hz": 0.001,
+    "stiffness_axis": 0.61,
+    "damping_half_difference": 0.0002,
+    "damping_axis": -0.29,
+    "adc_span": 2,
+    "adc_bits": 20,
+    "dac_span": 2,
+    "dac_bits": 18,
+    "vmax": 1,
+    "agc_bw": 5,
+    "quad_bw": 4,
+    "pll_gain": 30,
+    "max_detune": 30,
+    "virtual_rate": 0,
+    "virtual_start_min_s": 0.25,
+    "virtual_settle_fraction": 0.01,
+    "predict_heading": true,
+    "max_heading_rate": 100,
+    "virtual_validated_limit": 0.2,
+    "min_amplitude_fraction": 0.02,
+    "min_linearity": 0.1,
+    "max_calibration_condition": 100,
+    "max_frame_age": 0.002,
+    "calibrate_detection": true,
+    "calibrate_drive": true,
+    "noise_rms_V": 5E-6,
+    "noise_seed": 2.026103E+7
+  },
+  "c": {
+    "detect_real": [
+      [
+        -9.9828492548008366E+9,
+        -2.4957077080859977E+8
+      ],
+      [
+        1.4933731342979604E+8,
+        -1.0354050788770258E+10
+      ]
+    ],
+    "detect_imag": [
+      [
+        5.3736529394353056E+8,
+        1.3432711232064612E+7
+      ],
+      [
+        -9.12938211372659E+6,
+        6.330347133758328E+8
+      ]
+    ],
+    "sample_period_s": 2.5E-5,
+    "drive_real": [
+      [
+        1.0677844450956315E-6,
+        -3.17521469994557E-8
+      ],
+      [
+        2.135557691151429E-8,
+        1.1430855476076317E-6
+      ]
+    ],
+    "drive_imag": [
+      [
+        -2.2039887853617045E-7,
+        7.3754007932412431E-9
+      ],
+      [
+        -4.4075121339005908E-9,
+        -2.654853522285828E-7
+      ]
+    ],
+    "nominal_detect_real": -9.9996788980770874E+9,
+    "nominal_detect_imag": 4.6914376842600413E+7
+  }
+}
