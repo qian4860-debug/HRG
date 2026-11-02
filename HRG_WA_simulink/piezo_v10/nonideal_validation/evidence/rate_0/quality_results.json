@@ -1,0 +1,34 @@
+{
+  "metrics": {
+    "total_frames": 800,
+    "valid_frames": 800,
+    "valid_fraction": 1,
+    "angle_status": "valid_center_timestamped_frames",
+    "angle_rms_deg": 0.042764551437527595,
+    "pattern_rms_deg": 0.011845394240540543,
+    "energy_relative_mean": 1.0921853474954446E-6,
+    "quadrature_rms": 3.7072494710252283E-6,
+    "pll_phase_rms": 2.1851471372391003E-6,
+    "bias_deg_s": 9.5189445222705342E-5,
+    "rate_noise_status": "not_estimated_from_deterministic_short_run",
+    "dac_margin_V": 0.43672943115234375,
+    "dac_clip_samples": 0,
+    "build_time_s": 0.1314875,
+    "timestamp_max_age_s": 5.5511151231257827E-17
+  },
+  "checks": {
+    "valid_fraction": true,
+    "normalized_energy": true,
+    "quadrature": true,
+    "PLL_detector": true,
+    "timestamps": true,
+    "body_angle": true,
+    "no_DAC_clip": true
+  },
+  "normalized_Q_RMS": 2.8654499371131614E-6,
+  "normalized_energy_mean": 1.0000010921853475,
+  "quadrature_RMS": 3.7072494710252283E-6,
+  "PLL_detector_RMS": 2.1851471372391003E-6,
+  "timestamp_max_error_us": 1.9605295165092684E-10,
+  "scope": "Synthetic fixture; last 40% valid frames; no truth offset/delay fit; no hardware or ARW claim"
+}

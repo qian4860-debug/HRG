@@ -1,0 +1,7 @@
+{
+  "cases": 18,
+  "quality_pass": 10,
+  "quality_fail": 8,
+  "all_execution_scoreboards_pass": true,
+  "all_independent_scores_match": true
+}
