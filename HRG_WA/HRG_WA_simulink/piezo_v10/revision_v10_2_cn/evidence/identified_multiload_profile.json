@@ -1,0 +1,21 @@
+{
+  "schema": "v10.1_identified_charge_domain",
+  "status": "synthetic_validation_only",
+  "boundary": "intrinsic mechanical parameters at short-circuit sensing boundary; explicit electrical load must remain in model",
+  "parameters": {
+    "f0_Hz": 999.9999999984406,
+    "gamma_intrinsic_per_s": 0.31415925717516463,
+    "Cs_F": 1.0000000248277957e-09,
+    "G0_S": 1.0011184915615249e-10,
+    "kappa": 1.0000002221112376e-06,
+    "b": 1.1000000317884262e-06,
+    "Cds_F": 1.499953330724085e-13
+  },
+  "bryan_factor": null,
+  "voltage_limit_V": null,
+  "displacement_limit_m": null,
+  "physical_mass": null,
+  "theta_s": null,
+  "theta_d": null,
+  "reference_requirement": "calibrated terminal admittance and independently known load; voltage-ratio-only data cannot fix charge scale"
+}

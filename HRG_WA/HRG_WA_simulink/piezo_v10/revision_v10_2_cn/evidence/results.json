@@ -1,0 +1,95 @@
+{
+  "checks": {
+    "case1_normalized_states": true,
+    "case1_DAC_scoreboard": true,
+    "case1_ADC_scoreboard": true,
+    "case1_diagnostics": true,
+    "case2_normalized_states": true,
+    "case2_DAC_scoreboard": true,
+    "case2_ADC_scoreboard": true,
+    "case2_diagnostics": true,
+    "case3_normalized_states": true,
+    "case3_DAC_scoreboard": true,
+    "case3_ADC_scoreboard": true,
+    "case3_diagnostics": true,
+    "saved_baseline_reopens": true,
+    "five_linked_physical_partitions": true,
+    "no_monolithic_state_space": true,
+    "fourteen_scopes": true,
+    "independent_open_port_stimulus": true,
+    "port_bench_reopens": true
+  },
+  "cases": {
+    "case1": {
+      "state_error": 0,
+      "dac_error": 0,
+      "adc_error": 0,
+      "diagnostic_error": 0,
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.0037570701727780058,
+        "pattern_rms_deg": 0.0010406744813153176,
+        "energy_relative_mean": 1.0886598467152453E-6,
+        "quadrature_rms": 3.260185628797344E-6,
+        "pll_phase_rms": 1.7242004223584885E-6,
+        "bias_deg_s": -0.00095000032300652,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.4299468994140625,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      }
+    },
+    "case2": {
+      "state_error": 0,
+      "dac_error": 0,
+      "adc_error": 0,
+      "diagnostic_error": 0,
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.0041685431398874855,
+        "pattern_rms_deg": 0.0011546487742961993,
+        "energy_relative_mean": 9.9601310354913153E-7,
+        "quadrature_rms": 2.2009261156151414E-5,
+        "pll_phase_rms": 1.0656939088907671E-5,
+        "bias_deg_s": -0.0013349593929942926,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.4299468994140625,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      }
+    },
+    "case3": {
+      "state_error": 0,
+      "dac_error": 0,
+      "adc_error": 0,
+      "diagnostic_error": 0,
+      "metrics": {
+        "total_frames": 800,
+        "valid_frames": 800,
+        "valid_fraction": 1,
+        "angle_status": "valid_center_timestamped_frames",
+        "angle_rms_deg": 0.12085298149372725,
+        "pattern_rms_deg": 0.0334751835998847,
+        "energy_relative_mean": -8.9953701787326423E-7,
+        "quadrature_rms": 0.0016870857599337475,
+        "pll_phase_rms": 0.00075569213880232724,
+        "bias_deg_s": -0.17931477543128033,
+        "rate_noise_status": "not_estimated_from_deterministic_short_run",
+        "dac_margin_V": 0.4299163818359375,
+        "dac_clip_samples": 0,
+        "build_time_s": 0.1314875,
+        "timestamp_max_age_s": 5.5511151231257827E-17
+      }
+    }
+  },
+  "port_bench_normalized_error": 0,
+  "scope": "Structural equivalence to sealed V10.1, not a new physical accuracy claim"
+}
