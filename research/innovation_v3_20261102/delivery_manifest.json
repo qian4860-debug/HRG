@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-02",
+  "purpose": "DSH复核后V3研究设计与Codex Markdown集中管理",
+  "files_sha256": {
+    "tools/build_codex_md.py": "da3588fce43d3f2d04113a70f9c3cc602e188f3fc284551fa81a4dfaddab571e",
+    "research/innovation_v3_20261102/check_review.py": "91d78621e3f815de6706042e7e217e8476acb428215eaaf9d5fd1f769b54bd9d",
+    "research/innovation_v3_20261102/review_checks.json": "143bcff17a412c6d23aec514565760fbd2c4af416ec9c058a0e01ff55c8cd0b7",
+    "research/innovation_v3_20261102/archive_check.json": "a938b1681a111803f08bd9ee019acf2aec5b921d27b3f1784853b22cf65678c6",
+    "research/innovation_v3_20261102/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "codex_md/manifest.json": "d9684c8330f6126c09c30b94d3077ff4fd449b1ff2a76544f1d676ca930364cf",
+    "codex_md/01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e"
+  },
+  "limits": [
+    "未进行新MATLAB闭环试验或RTL综合",
+    "归档基于已跟踪文档，不纳入其他人未审改动",
+    "原工程路径和已验收依赖保留原位"
+  ]
+}
