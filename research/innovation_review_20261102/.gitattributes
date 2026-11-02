@@ -1,0 +1,2 @@
+# Preserve the unreviewed source proposal snapshot byte for byte.
+original_proposal_snapshot.md -text whitespace=cr-at-eol
