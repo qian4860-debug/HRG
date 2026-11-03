@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_001.json",
+      "sha256": "0875a8dd1ec457392279e8433355ee3b1b22bda34689e9fdf7648cfa8dad27a4"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_002.json",
+      "sha256": "7868ced1f8554c2207d8a86e6767c7619eb9347ea75a45d0d3f00a764ff70856"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_003.json",
+      "sha256": "0e5516443a6dac1ea83b005bd558fa82df35e416d062d43330243377dad1fea9"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_004.json",
+      "sha256": "6a5201745d5476f467cff9bba0412089917f8c8de1db6a6d113b22e4e514861e"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_005.json",
+      "sha256": "d363f2533a6b33dd1bb0c3c24a307f41ceba6cf6041131d880dd1daf57152f19"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_006.json",
+      "sha256": "3e3455fc73528846b6747321027fde0e7174dba029a809cbca21555866fcdebb"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_007.json",
+      "sha256": "959d1f12e822dcbc15d36ba9a9f46f910669763fc383900d10d0a37ed6620a82"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_008.json",
+      "sha256": "e09d61fc51a10314b71d6ef62fc910b6a321c195bb849dcb21ef61243530a28d"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_009.json",
+      "sha256": "bcab8c9f12c078ac8420c8018f679363a846b8b51dc6d4dd54691ade74071f34"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_010.json",
+      "sha256": "cd1dfef08fa99c0b08c47dd336a8fbd22a2337be1f601e471533e2fe639944ac"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_011.json",
+      "sha256": "2ec07258405982ad43f31e8bb0bd100f3edc63be4110de7ca06ea755c4befed4"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_012.json",
+      "sha256": "b2bf4bf27c103bbeeb9b56f8d3a70cd044e30aca50334721327bcecfbca785ea"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_013.json",
+      "sha256": "3c6b2a6f56383c1aefcef31c63eb67753489fb9d56372ee88000dc2b1d3ab0dc"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_014.json",
+      "sha256": "299a15e92251da4789d49c4b1fe6c1e972df91c409cc364a1313dd93fe2cd682"
+    },
+    {
+      "source": "research\\causal_deembedding_20261103\\data\\observations\\case_015.json",
+      "sha256": "158c7b055beb8b869be4f6c63cc6160b5dd1ba4b3f327e1b2586dfcc86d0cd6d"
+    }
+  ],
+  "fresh_seeds_included": true,
+  "scope": "A2 compact physical port records; sensor fault is explicitly injected after AFE, not a claimed mechanical trajectory"
+}
