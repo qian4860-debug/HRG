@@ -1,0 +1,5 @@
+{错误使用 a2_simulink_check (第 35 行)
+模块 'hrg_wa_a2_causal_frontend/Port_Stream_u_y' 的配置无效。无法在最终工作区数据值后外插输出值，因为未启用插值。
+Suggested Actions:
+    • 启用插值。 - Fix
+} 

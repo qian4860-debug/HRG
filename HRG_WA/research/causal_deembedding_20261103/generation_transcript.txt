@@ -1,0 +1,1 @@
+A2 exported 15 compact SI stream cases and independent instrument records.
