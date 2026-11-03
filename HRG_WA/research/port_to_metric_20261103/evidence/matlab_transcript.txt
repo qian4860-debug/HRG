@@ -1,0 +1,8 @@
+                                     cases: 23
+                     all_model_scoreboards: 1
+               all_eligibility_scoreboards: 1
+             max_model_absolute_difference: 3.5527e-15
+        max_W_absolute_difference_accepted: 3.5055e-14
+    max_angle_absolute_difference_accepted: 3.5083e-14
+                                     scope: 'same-method cross-language replay; not hardware or full piezo model validation'
+

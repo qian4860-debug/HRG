@@ -1,0 +1,409 @@
+{
+  "summary": {
+    "cases": 13,
+    "checks_matched": 13,
+    "accepted": 6,
+    "rejected": 7,
+    "false_accepts": 0,
+    "false_rejects": 0,
+    "independent_cases": 0,
+    "independent_checks_matched": 0,
+    "scope": "条件二阶归一化模型、相对模态角；拒绝不等于精度通过；经验裕量不是严格置信保证"
+  },
+  "cases": [
+    {
+      "id": "case_001",
+      "kind": "A_clean",
+      "cohort": "development",
+      "eligible": true,
+      "expected_eligible": true,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "operator_D": true,
+        "operator_K": true,
+        "heldout_angle": true,
+        "angle_improves": true,
+        "heldout_transfer": true,
+        "observed_C_error_inside_empirical_margin": true,
+        "null_direction_bound_observed": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 9.593284961230112e-16,
+        "K": 4.849318504933154e-16
+      },
+      "OLS_relative_errors": {
+        "D": 9.204364271546628e-16,
+        "K": 3.2455599150784153e-16
+      },
+      "raw_modal_increment_RMS_rad": 0.11362890174063345,
+      "candidate_modal_increment_RMS_rad": 3.605199893952293e-15,
+      "actual_C_error": 7.379841768562417e-16,
+      "empirical_C_margin": 1.0000026737906695e-09,
+      "constraint_gap": 0.026433801054857757,
+      "heldout_transfer_NRMSE": 1.0175517153446782e-15
+    },
+    {
+      "id": "case_002",
+      "kind": "A_noisy",
+      "cohort": "development",
+      "eligible": true,
+      "expected_eligible": true,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "operator_D": true,
+        "operator_K": true,
+        "heldout_angle": true,
+        "angle_improves": true,
+        "heldout_transfer": true,
+        "observed_C_error_inside_empirical_margin": true,
+        "null_direction_bound_observed": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 3.7198766415219787e-05,
+        "K": 3.1598048282720292e-06
+      },
+      "OLS_relative_errors": {
+        "D": 3.721408693578232e-05,
+        "K": 3.1608204779352852e-06
+      },
+      "raw_modal_increment_RMS_rad": 0.12835810247990453,
+      "candidate_modal_increment_RMS_rad": 0.0001853285995241208,
+      "actual_C_error": 1.0576783213067589e-05,
+      "empirical_C_margin": 0.00010326203155329817,
+      "constraint_gap": 0.026147347916960453,
+      "heldout_transfer_NRMSE": 0.0002461562408175127
+    },
+    {
+      "id": "case_003",
+      "kind": "A_noisy",
+      "cohort": "development",
+      "eligible": true,
+      "expected_eligible": true,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "operator_D": true,
+        "operator_K": true,
+        "heldout_angle": true,
+        "angle_improves": true,
+        "heldout_transfer": true,
+        "observed_C_error_inside_empirical_margin": true,
+        "null_direction_bound_observed": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 4.178865549340695e-05,
+        "K": 6.694261884016078e-06
+      },
+      "OLS_relative_errors": {
+        "D": 4.1807040735413437e-05,
+        "K": 6.691168523069944e-06
+      },
+      "raw_modal_increment_RMS_rad": 0.15657344999164108,
+      "candidate_modal_increment_RMS_rad": 0.0002924411996486128,
+      "actual_C_error": 1.392426741044877e-05,
+      "empirical_C_margin": 0.00011613194123329076,
+      "constraint_gap": 0.02604088122284546,
+      "heldout_transfer_NRMSE": 0.00017881513120566585
+    },
+    {
+      "id": "case_004",
+      "kind": "A_noisy",
+      "cohort": "development",
+      "eligible": true,
+      "expected_eligible": true,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "operator_D": true,
+        "operator_K": true,
+        "heldout_angle": true,
+        "angle_improves": true,
+        "heldout_transfer": true,
+        "observed_C_error_inside_empirical_margin": true,
+        "null_direction_bound_observed": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 2.673604063717973e-05,
+        "K": 5.502783011921118e-06
+      },
+      "OLS_relative_errors": {
+        "D": 2.672096612116754e-05,
+        "K": 5.503425490424615e-06
+      },
+      "raw_modal_increment_RMS_rad": 0.1494765446552169,
+      "candidate_modal_increment_RMS_rad": 0.0001410391282644436,
+      "actual_C_error": 7.6240790559936776e-06,
+      "empirical_C_margin": 0.00010608925478162159,
+      "constraint_gap": 0.02610644532365718,
+      "heldout_transfer_NRMSE": 0.0002243842337488306
+    },
+    {
+      "id": "case_005",
+      "kind": "A_noisy",
+      "cohort": "development",
+      "eligible": true,
+      "expected_eligible": true,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "operator_D": true,
+        "operator_K": true,
+        "heldout_angle": true,
+        "angle_improves": true,
+        "heldout_transfer": true,
+        "observed_C_error_inside_empirical_margin": true,
+        "null_direction_bound_observed": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 5.399250269978235e-05,
+        "K": 3.3003684048933728e-06
+      },
+      "OLS_relative_errors": {
+        "D": 5.398762324215167e-05,
+        "K": 3.3038467792344206e-06
+      },
+      "raw_modal_increment_RMS_rad": 0.10710196483548545,
+      "candidate_modal_increment_RMS_rad": 0.00030414613757786895,
+      "actual_C_error": 1.4805226175020962e-05,
+      "empirical_C_margin": 8.419166744699231e-05,
+      "constraint_gap": 0.026250946171835828,
+      "heldout_transfer_NRMSE": 0.00022178759387041233
+    },
+    {
+      "id": "case_006",
+      "kind": "A_noisy",
+      "cohort": "development",
+      "eligible": true,
+      "expected_eligible": true,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "operator_D": true,
+        "operator_K": true,
+        "heldout_angle": true,
+        "angle_improves": true,
+        "heldout_transfer": true,
+        "observed_C_error_inside_empirical_margin": true,
+        "null_direction_bound_observed": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 4.6395100488226795e-05,
+        "K": 4.995737145826413e-06
+      },
+      "OLS_relative_errors": {
+        "D": 4.639101324610813e-05,
+        "K": 4.994404514282098e-06
+      },
+      "raw_modal_increment_RMS_rad": 0.1260557702814911,
+      "candidate_modal_increment_RMS_rad": 0.00021066453953623744,
+      "actual_C_error": 1.3749531624427509e-05,
+      "empirical_C_margin": 0.00010716071235695737,
+      "constraint_gap": 0.026719446425578084,
+      "heldout_transfer_NRMSE": 0.00023904476693486758
+    },
+    {
+      "id": "case_007",
+      "kind": "B_coaxial",
+      "cohort": "development",
+      "eligible": false,
+      "expected_eligible": false,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "rejected_publication_is_NaN": true,
+        "calibration_flag_stays_false": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 6.228342102597433e-16,
+        "K": 3.3126737645300964e-16
+      },
+      "OLS_relative_errors": {
+        "D": 1.7984989580858232e-15,
+        "K": 2.3370930811799135e-16
+      },
+      "raw_modal_increment_RMS_rad": 0.12770187543871656,
+      "candidate_modal_increment_RMS_rad": 0.332058801819766,
+      "actual_C_error": 3.513855194238303e-16,
+      "empirical_C_margin": 1.000001881565553e-09,
+      "constraint_gap": 1.1823649315871199e-16,
+      "heldout_transfer_NRMSE": 1.033016418506104e-15
+    },
+    {
+      "id": "case_008",
+      "kind": "C_isotropic",
+      "cohort": "development",
+      "eligible": false,
+      "expected_eligible": false,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "rejected_publication_is_NaN": true,
+        "calibration_flag_stays_false": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 5.362500126597564e-16,
+        "K": 2.4040072276762046e-16
+      },
+      "OLS_relative_errors": {
+        "D": 4.487933844918716e-16,
+        "K": 3.7149589651213845e-16
+      },
+      "raw_modal_increment_RMS_rad": 0.12191002541719406,
+      "candidate_modal_increment_RMS_rad": null,
+      "actual_C_error": 4.256997676360939e-16,
+      "empirical_C_margin": 1.0000018301087998e-09,
+      "constraint_gap": 3.178677132485198e-17,
+      "heldout_transfer_NRMSE": 7.644323335926632e-16
+    },
+    {
+      "id": "case_009",
+      "kind": "D_weak_noisy",
+      "cohort": "development",
+      "eligible": false,
+      "expected_eligible": false,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "rejected_publication_is_NaN": true,
+        "calibration_flag_stays_false": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 0.005907028063064679,
+        "K": 0.0005158299051368569
+      },
+      "OLS_relative_errors": {
+        "D": 0.005957477728747802,
+        "K": 0.000509276783885409
+      },
+      "raw_modal_increment_RMS_rad": 0.12965860930960957,
+      "candidate_modal_increment_RMS_rad": 0.09028328686634422,
+      "actual_C_error": 0.001584274809044419,
+      "empirical_C_margin": 0.004511141159826365,
+      "constraint_gap": 3.510773234685447e-05,
+      "heldout_transfer_NRMSE": 0.012385889029792376
+    },
+    {
+      "id": "case_010",
+      "kind": "D_weak_noisy",
+      "cohort": "development",
+      "eligible": false,
+      "expected_eligible": false,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "rejected_publication_is_NaN": true,
+        "calibration_flag_stays_false": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 0.002765943484660615,
+        "K": 0.0001973448988904373
+      },
+      "OLS_relative_errors": {
+        "D": 0.00277203224998185,
+        "K": 0.0001939901227575651
+      },
+      "raw_modal_increment_RMS_rad": 0.12133522255263689,
+      "candidate_modal_increment_RMS_rad": null,
+      "actual_C_error": 0.0006510627995963162,
+      "empirical_C_margin": 0.006026156627404072,
+      "constraint_gap": 0.00021740161485548991,
+      "heldout_transfer_NRMSE": 0.010824658603831422
+    },
+    {
+      "id": "case_011",
+      "kind": "D_weak_noisy",
+      "cohort": "development",
+      "eligible": false,
+      "expected_eligible": false,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "rejected_publication_is_NaN": true,
+        "calibration_flag_stays_false": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 0.001610676628120766,
+        "K": 0.0001952415202755131
+      },
+      "OLS_relative_errors": {
+        "D": 0.0015668136948864583,
+        "K": 0.00019015383031505213
+      },
+      "raw_modal_increment_RMS_rad": 0.14036601229584014,
+      "candidate_modal_increment_RMS_rad": null,
+      "actual_C_error": 0.00047765014256588725,
+      "empirical_C_margin": 0.005953774507346933,
+      "constraint_gap": 0.00020777957224161955,
+      "heldout_transfer_NRMSE": 0.012877772079167984
+    },
+    {
+      "id": "case_012",
+      "kind": "D_weak_noisy",
+      "cohort": "development",
+      "eligible": false,
+      "expected_eligible": false,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "rejected_publication_is_NaN": true,
+        "calibration_flag_stays_false": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 0.002062985591441494,
+        "K": 0.0001993159702128718
+      },
+      "OLS_relative_errors": {
+        "D": 0.0020976179711938736,
+        "K": 0.00018562362533204574
+      },
+      "raw_modal_increment_RMS_rad": 0.1389423370685757,
+      "candidate_modal_increment_RMS_rad": null,
+      "actual_C_error": 0.0003203773076255457,
+      "empirical_C_margin": 0.00615275369877102,
+      "constraint_gap": 0.00013120584076725415,
+      "heldout_transfer_NRMSE": 0.013150234332602201
+    },
+    {
+      "id": "case_013",
+      "kind": "D_weak_noisy",
+      "cohort": "development",
+      "eligible": false,
+      "expected_eligible": false,
+      "checks": {
+        "expected_eligibility": true,
+        "raw_measurement_remains_valid": true,
+        "rejected_publication_is_NaN": true,
+        "calibration_flag_stays_false": true
+      },
+      "passed": true,
+      "IV_relative_errors": {
+        "D": 0.002261393545009723,
+        "K": 0.0001933548597242269
+      },
+      "OLS_relative_errors": {
+        "D": 0.0022790651569151166,
+        "K": 0.00020181473891199258
+      },
+      "raw_modal_increment_RMS_rad": 0.1401270807227821,
+      "candidate_modal_increment_RMS_rad": null,
+      "actual_C_error": 0.000648644449792542,
+      "empirical_C_margin": 0.0065404136045356335,
+      "constraint_gap": 0.00011010958008879304,
+      "heldout_transfer_NRMSE": 0.01011060686115364
+    }
+  ]
+}

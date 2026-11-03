@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-03",
+  "status": "frozen_before_independent_records",
+  "estimator_method": "crossfit_iv",
+  "source_sha256": {
+    "a0_common.py": "cfe6e6e9c29cf5e77987b47b0c7b9b82a1409c3c56c803490598831180ef2d61",
+    "fit_records.py": "fb90d68628bc4fed0e590296a3bc6bb1ba220cf2fad96b7767d913791e038490",
+    "acceptance.json": "4f8cbe43f21d3c8f2f707f7cb6dfea24af5c70e88ea5080b7866dc64cc439826"
+  },
+  "public_design": {
+    "schema": "A0-records-v1",
+    "synthetic": true,
+    "normalized_model": true,
+    "sample_rate": 32.0,
+    "samples": 1024,
+    "train_bins": [
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      18,
+      24
+    ],
+    "holdout_bins": [
+      5,
+      7,
+      13,
+      17,
+      23
+    ],
+    "repeats": 6,
+    "reference_omega": 2.0,
+    "uncertainty_inflation": 6.0,
+    "numeric_constraint_floor": 1e-09,
+    "null_direction_budget_rad": 0.02,
+    "known_handedness": 1,
+    "uncertainty_scope": "重复观测估计的经验误差裕量，不是严格有限样本置信证明"
+  },
+  "independent_seed_plan": {
+    "A_noisy": [
+      210,
+      211,
+      212,
+      213,
+      214
+    ],
+    "D_weak_noisy": [
+      510,
+      511,
+      512,
+      513,
+      514
+    ]
+  },
+  "development_cases": 13,
+  "independent_data_not_used_to_select_method_or_thresholds": true
+}

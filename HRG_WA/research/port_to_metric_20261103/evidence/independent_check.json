@@ -1,0 +1,12 @@
+{
+  "cases": 23,
+  "independent_cases": 10,
+  "checks_matched": 23,
+  "accepted": 11,
+  "rejected": 12,
+  "frozen_method_and_thresholds": true,
+  "observation_hashes_checked": 346,
+  "no_private_score_directory_replay_identical": true,
+  "initial_polynomial_IV_failure_reproduced": true,
+  "conditional_and_empirical_only": true
+}

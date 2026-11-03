@@ -1,0 +1,5 @@
+# Keep the byte hashes of generated observations and MATLAB evidence stable.
+data/** -text whitespace=cr-at-eol
+evidence/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+method_freeze.json -text
+manifest.json -text
