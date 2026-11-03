@@ -1,0 +1,15 @@
+{
+  "schema": "A1-debug-thresholds-v1",
+  "synthetic_only": true,
+  "reference_omega": 6283.185307179586,
+  "constraint_floor": 1e-10,
+  "repeat_inflation": 6,
+  "null_direction_budget_rad": 0.02,
+  "heldout_max_relative": 0.00001,
+  "positive_angle_rms_rad": 0.0001,
+  "positive_D_relative": 0.00001,
+  "positive_K_relative": 0.00000001,
+  "positive_kappa_relative": 0.0001,
+  "simulink_normalized_max_error": 0.000001,
+  "scope": "冻结的数值模型调试门限；不是硬件设计指标或统计置信保证"
+}

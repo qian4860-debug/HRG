@@ -1,0 +1,11 @@
+{
+  "comparisons": 27,
+  "all_behavior_and_score_checks": true,
+  "primary_accepted": 4,
+  "primary_rejected": 5,
+  "independent_KCL_rows_checked": 3996,
+  "maximum_noiseless_KCL_relative_difference": 1.6788363400828324e-13,
+  "full_12_state_Simulink_scoreboard": 1.2798533066682438e-11,
+  "no_truth_directory_replay_byte_identical": true,
+  "scope": "实现互校与经验拒绝；非硬件、非无参考、非统计误认证概率保证"
+}
