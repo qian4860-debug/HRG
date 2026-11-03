@@ -69,7 +69,10 @@ def clean_history(text):
         elif message.startswith(('# AGENTS.md', '<environment_context>', '<external_codex_apps_open_page>',
                                  '<turn_aborted>', '<permissions instructions>')):
             reason = '环境注入或回合标记'
-        key = (sid, message)
+        # “进行下一步”等短指令可以在同一会话多次发出；明确任务上下文不同，
+        # 就不是同一消息的重复导入。上下文留在引用外，不能伪装成用户原文。
+        context = re.search(r'^任务上下文：([^\n]+)', block, re.M)
+        key = (sid, message, context.group(1).strip() if context else '')
         if key in seen:
             reason = '同会话同原文重复'
         if reason:

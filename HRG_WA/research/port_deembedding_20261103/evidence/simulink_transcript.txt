@@ -1,0 +1,1 @@
+A1 Simulink 12-state scoreboard: max normalized error 1.27985e-11

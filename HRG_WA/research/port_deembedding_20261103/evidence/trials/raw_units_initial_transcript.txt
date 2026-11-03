@@ -1,0 +1,5131 @@
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.483871e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066552e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.580651e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.598835e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.686216e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.102589e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.382539e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.499399e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099527e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.024437e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.741413e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.420981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.898938e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.627636e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.022705e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533744e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160564e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.082054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.516419e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747941e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.821054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.483871e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066552e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.580651e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.598835e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.686216e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.102589e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.382539e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.499399e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099527e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.024437e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.741413e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.420981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.898938e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.627636e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.022705e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533744e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160564e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.082054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.516419e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747941e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.821054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.483871e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066552e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.580651e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.598835e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.686216e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.102589e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.382539e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.499399e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099527e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.024437e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.741413e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.420981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.898938e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.627636e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.022705e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533744e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160564e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.082054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.516419e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747941e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.821054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.483871e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066552e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.580651e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.598835e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.686216e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.102589e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.382539e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.499399e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099527e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.024437e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.741413e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.420981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.898938e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.627636e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.022705e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533744e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160564e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.082054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.516419e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747941e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.821054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.483871e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066552e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.580651e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.598835e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.686216e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.102589e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.382539e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.499399e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099527e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.024437e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.741413e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.420981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.898938e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.627636e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.022705e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533744e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160564e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.082054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.516419e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747941e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.821054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.483871e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066552e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.580651e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.598835e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.686216e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.102589e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.382539e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.499399e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099527e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.024437e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.741413e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.420981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.898938e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.627636e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.022705e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533744e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160564e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.082054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.516419e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747941e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.821054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.307418e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.137360e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.452177e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.378472e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.493277e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.411350e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.606549e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.959732e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.015247e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.242513e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.128302e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.489274e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066267e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.720324e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.368109e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.787231e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.744002e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.478606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.065681e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.575195e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.597407e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.668691e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.877375e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.380742e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.494149e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.098641e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018720e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.739890e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.402244e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.660986e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.625698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.017117e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.532551e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.159665e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.079508e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513255e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.708843e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.817709e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.478606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.065681e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.575195e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.597407e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.668691e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.877375e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.380742e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.494149e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.098641e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018720e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.739890e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.402244e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.660986e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.625698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.017117e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.532551e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.159665e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.079508e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513255e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.708843e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.817709e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.478606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.065681e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.575195e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.597407e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.668691e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.877375e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.380742e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.494149e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.098641e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018720e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.739890e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.402244e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.660986e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.625698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.017117e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.532551e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.159665e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.079508e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513255e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.708843e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.817709e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.478606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.065681e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.575195e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.597407e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.668691e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.877375e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.380742e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.494149e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.098641e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018720e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.739890e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.402244e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.660986e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.625698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.017117e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.532551e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.159665e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.079508e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513255e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.708843e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.817709e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.478606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.065681e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.575195e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.597407e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.668691e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.877375e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.380742e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.494149e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.098641e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018720e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.739890e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.402244e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.660986e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.625698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.017117e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.532551e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.159665e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.079508e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513255e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.708843e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.817709e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.478606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.065681e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.575195e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.597407e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.668691e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.877375e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.380742e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.494149e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.098641e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018720e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.739890e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.402244e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.660986e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.625698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.017117e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.532551e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.159665e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.079508e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513255e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.708843e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.817709e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.299846e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.129851e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.446458e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.585096e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.488136e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.403760e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.598782e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.953615e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.036837e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.236916e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127414e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.488122e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.065235e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.754207e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.367117e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.751806e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.807593e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.392924e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.051714e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.489951e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.576862e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.574310e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.778522e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.350196e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.408722e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.084426e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.929378e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.717978e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.301107e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.556190e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.592758e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.926168e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513406e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.145614e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.042847e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.496108e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.691546e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.760795e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.392924e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.051714e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.489951e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.576862e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.574310e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.778522e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.350196e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.408722e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.084426e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.929378e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.717978e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.301107e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.556190e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.592758e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.926168e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513406e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.145614e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.042847e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.496108e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.691546e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.760795e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.392924e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.051714e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.489951e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.576862e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.574310e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.778522e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.350196e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.408722e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.084426e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.929378e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.717978e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.301107e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.556190e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.592758e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.926168e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513406e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.145614e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.042847e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.496108e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.691546e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.760795e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.392924e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.051714e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.489951e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.576862e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.574310e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.778522e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.350196e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.408722e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.084426e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.929378e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.717978e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.301107e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.556190e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.592758e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.926168e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513406e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.145614e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.042847e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.496108e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.691546e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.760795e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.392924e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.051714e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.489951e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.576862e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.574310e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.778522e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.350196e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.408722e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.084426e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.929378e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.717978e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.301107e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.556190e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.592758e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.926168e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513406e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.145614e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.042847e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.496108e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.691546e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.760795e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.392924e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.051714e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.489951e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.576862e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.574310e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.778522e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.350196e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.408722e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.084426e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.929378e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.717978e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.301107e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.556190e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.592758e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.926168e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.513406e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.145614e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.042847e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.496108e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.691546e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.760795e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.177222e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.010917e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.376798e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.488645e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.405157e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.280826e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.475743e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.879093e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.026683e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.146538e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.113019e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.469862e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.052649e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.738193e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.351094e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.797159e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.769526e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.432294e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058156e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.529388e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.586278e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.604401e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.856803e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.364589e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.447976e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.090983e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.970716e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728022e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.333240e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.639409e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.608281e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.967964e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522239e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152118e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.059656e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.501565e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.705265e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.787625e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.432294e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058156e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.529388e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.586278e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.604401e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.856803e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.364589e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.447976e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.090983e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.970716e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728022e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.333240e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.639409e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.608281e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.967964e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522239e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152118e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.059656e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.501565e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.705265e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.787625e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.432294e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058156e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.529388e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.586278e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.604401e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.856803e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.364589e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.447976e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.090983e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.970716e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728022e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.333240e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.639409e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.608281e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.967964e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522239e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152118e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.059656e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.501565e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.705265e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.787625e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.432294e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058156e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.529388e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.586278e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.604401e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.856803e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.364589e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.447976e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.090983e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.970716e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728022e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.333240e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.639409e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.608281e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.967964e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522239e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152118e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.059656e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.501565e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.705265e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.787625e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.432294e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058156e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.529388e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.586278e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.604401e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.856803e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.364589e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.447976e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.090983e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.970716e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728022e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.333240e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.639409e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.608281e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.967964e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522239e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152118e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.059656e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.501565e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.705265e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.787625e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.432294e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058156e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.529388e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.586278e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.604401e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.856803e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.364589e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.447976e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.090983e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.970716e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728022e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.333240e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.639409e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.608281e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.967964e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522239e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152118e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.059656e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.501565e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.705265e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.787625e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.233639e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.065888e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.407751e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.679937e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.444073e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.337389e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.532618e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.912209e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.044880e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.188930e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.119643e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.478305e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058243e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.762070e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.358613e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.185525e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.567033e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.479610e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066032e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.581104e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.604237e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.387319e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.425837e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.379339e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.495152e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099002e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.025054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747421e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.198157e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.213988e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.624172e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018187e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533050e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160723e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.093249e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.660691e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.649973e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.815006e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.479610e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066032e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.581104e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.604237e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.387319e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.425837e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.379339e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.495152e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099002e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.025054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747421e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.198157e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.213988e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.624172e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018187e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533050e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160723e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.093249e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.660691e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.649973e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.815006e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.479610e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066032e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.581104e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.604237e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.387319e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.425837e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.379339e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.495152e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099002e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.025054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747421e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.198157e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.213988e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.624172e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018187e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533050e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160723e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.093249e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.660691e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.649973e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.815006e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.479610e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066032e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.581104e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.604237e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.387319e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.425837e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.379339e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.495152e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099002e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.025054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747421e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.198157e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.213988e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.624172e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018187e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533050e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160723e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.093249e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.660691e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.649973e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.815006e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.479610e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066032e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.581104e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.604237e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.387319e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.425837e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.379339e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.495152e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099002e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.025054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747421e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.198157e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.213988e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.624172e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018187e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533050e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160723e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.093249e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.660691e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.649973e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.815006e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.479610e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.066032e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.581104e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.604237e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.387319e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.425837e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.379339e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.495152e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.099002e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.025054e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.747421e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.198157e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.213988e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.624172e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.018187e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.533050e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.160723e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.093249e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.660691e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.649973e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.815006e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.301735e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.134817e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.516106e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.704414e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.487698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.405659e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.604003e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.030786e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.856287e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.236420e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127638e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.488932e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.079520e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.259162e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.367021e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.761719e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.483888e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.652440e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.094143e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.749820e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.639645e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.857679e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.888383e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.443573e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.667429e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127592e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.784903e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.605421e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.672667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.693393e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201488e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.571491e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.188374e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.154660e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.547822e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.710764e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.934408e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.652440e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.094143e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.749820e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.639645e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.857679e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.888383e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.443573e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.667429e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127592e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.784903e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.605421e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.672667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.693393e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201488e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.571491e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.188374e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.154660e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.547822e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.710764e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.934408e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.652440e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.094143e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.749820e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.639645e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.857679e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.888383e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.443573e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.667429e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127592e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.784903e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.605421e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.672667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.693393e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201488e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.571491e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.188374e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.154660e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.547822e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.710764e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.934408e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.652440e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.094143e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.749820e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.639645e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.857679e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.888383e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.443573e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.667429e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127592e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.784903e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.605421e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.672667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.693393e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201488e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.571491e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.188374e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.154660e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.547822e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.710764e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.934408e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.652440e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.094143e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.749820e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.639645e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.857679e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.888383e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.443573e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.667429e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127592e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.784903e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.605421e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.672667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.693393e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201488e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.571491e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.188374e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.154660e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.547822e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.710764e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.934408e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.652440e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.094143e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.749820e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.639645e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.857679e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.888383e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.443573e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.667429e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.127592e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201606e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.784903e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.605421e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.672667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.693393e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.201488e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.571491e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.188374e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.154660e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.547822e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.710764e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.934408e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.548997e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.372931e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.589967e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.715796e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.659173e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.653452e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.850091e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.107012e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.050561e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.423030e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.156625e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.525357e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.091086e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.775885e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.400036e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.785973e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.865101e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.600769e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.085682e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.697902e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.627073e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.804690e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.798281e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.424918e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.615929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.118988e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.147251e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.771510e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.548056e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.577180e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.673302e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.146707e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.559926e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.179849e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.132322e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.537945e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.695018e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.899811e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.600769e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.085682e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.697902e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.627073e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.804690e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.798281e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.424918e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.615929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.118988e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.147251e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.771510e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.548056e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.577180e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.673302e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.146707e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.559926e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.179849e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.132322e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.537945e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.695018e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.899811e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.600769e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.085682e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.697902e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.627073e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.804690e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.798281e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.424918e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.615929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.118988e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.147251e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.771510e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.548056e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.577180e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.673302e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.146707e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.559926e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.179849e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.132322e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.537945e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.695018e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.899811e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.600769e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.085682e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.697902e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.627073e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.804690e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.798281e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.424918e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.615929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.118988e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.147251e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.771510e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.548056e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.577180e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.673302e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.146707e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.559926e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.179849e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.132322e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.537945e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.695018e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.899811e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.600769e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.085682e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.697902e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.627073e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.804690e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.798281e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.424918e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.615929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.118988e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.147251e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.771510e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.548056e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.577180e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.673302e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.146707e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.559926e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.179849e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.132322e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.537945e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.695018e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.899811e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.600769e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.085682e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.697902e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.627073e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.804690e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.798281e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.424918e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.615929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.118988e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.147251e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.771510e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.548056e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.577180e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.673302e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.146707e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.559926e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.179849e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.132322e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.537945e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.695018e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.899811e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.474939e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.300669e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.547134e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.703386e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.608357e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.579245e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.775406e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.061247e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.049201e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.367759e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.147948e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.514300e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.083381e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.773710e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.390271e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.764395e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.856035e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.435675e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058701e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.532698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.587128e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.615667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.665043e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.365661e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.451348e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.091538e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.974186e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.345427e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.435867e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.609438e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.971553e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522986e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152663e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.061175e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.503630e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.671669e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.789626e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.435675e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058701e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.532698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.587128e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.615667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.665043e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.365661e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.451348e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.091538e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.974186e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.345427e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.435867e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.609438e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.971553e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522986e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152663e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.061175e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.503630e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.671669e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.789626e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.435675e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058701e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.532698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.587128e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.615667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.665043e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.365661e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.451348e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.091538e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.974186e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.345427e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.435867e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.609438e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.971553e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522986e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152663e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.061175e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.503630e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.671669e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.789626e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.435675e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058701e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.532698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.587128e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.615667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.665043e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.365661e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.451348e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.091538e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.974186e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.345427e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.435867e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.609438e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.971553e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522986e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152663e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.061175e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.503630e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.671669e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.789626e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.435675e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058701e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.532698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.587128e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.615667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.665043e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.365661e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.451348e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.091538e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.974186e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.345427e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.435867e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.609438e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.971553e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522986e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152663e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.061175e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.503630e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.671669e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.789626e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.435675e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058701e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.532698e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.587128e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.615667e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.665043e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.365661e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.451348e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.091538e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.974186e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.728929e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.345427e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.435867e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.609438e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.971553e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.522986e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.152663e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.061175e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.503630e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.671669e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.789626e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.238459e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.070506e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.411146e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.651027e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.447087e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.342221e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.537395e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.915845e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.043608e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.192213e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.120209e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.479014e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.058858e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.764802e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.359195e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.775786e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.824492e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.325704e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.040679e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.422014e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.560345e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.491133e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.834031e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.325781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.341693e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.073192e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.858145e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.700354e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.211981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.615052e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.566417e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.854781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.498263e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.134399e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.013321e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.480984e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.701266e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.715222e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.325704e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.040679e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.422014e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.560345e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.491133e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.834031e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.325781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.341693e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.073192e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.858145e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.700354e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.211981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.615052e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.566417e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.854781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.498263e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.134399e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.013321e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.480984e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.701266e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.715222e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.325704e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.040679e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.422014e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.560345e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.491133e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.834031e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.325781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.341693e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.073192e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.858145e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.700354e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.211981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.615052e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.566417e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.854781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.498263e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.134399e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.013321e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.480984e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.701266e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.715222e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.325704e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.040679e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.422014e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.560345e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.491133e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.834031e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.325781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.341693e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.073192e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.858145e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.700354e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.211981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.615052e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.566417e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.854781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.498263e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.134399e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.013321e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.480984e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.701266e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.715222e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.325704e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.040679e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.422014e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.560345e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.491133e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.834031e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.325781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.341693e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.073192e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.858145e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.700354e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.211981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.615052e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.566417e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.854781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.498263e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.134399e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.013321e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.480984e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.701266e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.715222e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.325704e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.040679e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.422014e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.560345e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.491133e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.834031e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.325781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.341693e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.073192e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.858145e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.700354e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.211981e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.615052e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  2.566417e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.854781e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.498263e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.134399e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.013321e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.480984e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.701266e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  4.715222e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 29 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.080793e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  8.916500e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.320186e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.560056e-20。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  6.338509e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.184135e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  9.378030e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  5.818500e-18。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.034162e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  7.073908e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.101690e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.455345e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.042402e-17。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.749855e-19。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  1.338199e-16。] 
+[> 位置：a1_generate>make_records (第 76 行)
+位置: a1_generate (第 31 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.763002e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+[警告: 矩阵接近奇异值，或者缩放不良。结果可能不准确。RCOND =  3.785646e-20。] 
+[> 位置：a1_generate (第 42 行)
+] 
+A1: exported 9 cases from original continuous 12-state plant.

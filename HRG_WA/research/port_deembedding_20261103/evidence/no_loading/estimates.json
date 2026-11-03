@@ -1,0 +1,1716 @@
+{
+  "schema": "A1-estimates-v1",
+  "mode": "no_loading",
+  "cases": [
+    {
+      "id": "case_001",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.802525930918481,
+          -0.12622259356026078
+        ],
+        [
+          -0.06763858716860559,
+          0.5412962385797144
+        ]
+      ],
+      "K": [
+        [
+          39468866.96534317,
+          -9199.93076753
+        ],
+        [
+          -4639.3748839301725,
+          39488624.705872856
+        ]
+      ],
+      "B": [
+        [
+          1.3154238629692127e-06,
+          7.500641784960313e-08
+        ],
+        [
+          -5.117236604353731e-08,
+          1.0154792348195994e-06
+        ]
+      ],
+      "kappa": 0.0,
+      "W": [
+        [
+          0.6845287323898438,
+          0.009851965947057699
+        ],
+        [
+          0.009851965947057699,
+          1.3154712676101563
+        ]
+      ],
+      "C": [
+        [
+          -2.0088949694994742e-05,
+          -2.939866928466158e-05,
+          1.0765015491635624e-05
+        ],
+        [
+          -0.00023303696869842513,
+          0.000353885316515941,
+          0.00011751673865008465
+        ]
+      ],
+      "epsilon_C": 1.0000172981171077e-10,
+      "constraint_gap": 3.5781258505230976e-05,
+      "null_direction_bound": 2.7948153160531585e-06,
+      "geometry_eligible": true,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.03633114823466898,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 6.661023027153244e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 1.890174703585055e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.0005347934072562279
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.03229914790925096
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 5.614539163387243e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 7.700441724579046e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 4.603164068831763e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 4.09347862914353e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 5.295652650814669e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 1.0558319953978425e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.00022893995185255562
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.013662346535855295
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 2.1227281450143683e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 2.619215323438867e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 3.6360531203451947e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 3.983574619481554e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 1.2301631844825509e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 2.8255414054962503e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.000607537583700771
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.03633114823466898
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 5.539417404187281e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 2.5593076062409873e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 3.5954359378855024e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 3.983000548206649e-06
+        }
+      ],
+      "maximum_fit_condition": 1.1149961281365641,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_002",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.798660379442555,
+          -0.142951092317826
+        ],
+        [
+          -0.06660036246001609,
+          0.5451544508723064
+        ]
+      ],
+      "K": [
+        [
+          39468604.39479974,
+          -8069.81961613914
+        ],
+        [
+          -4636.879030358753,
+          39488887.79623291
+        ]
+      ],
+      "B": [
+        [
+          1.3325127985798876e-06,
+          1.1652750571541144e-07
+        ],
+        [
+          -4.833670245435757e-08,
+          1.024477870909665e-06
+        ]
+      ],
+      "kappa": 0.0,
+      "W": [
+        [
+          0.6762526853849548,
+          -0.03356532585962589
+        ],
+        [
+          -0.03356532585962589,
+          1.3237473146150451
+        ]
+      ],
+      "C": [
+        [
+          -2.2751372962767874e-05,
+          -2.8529440466794058e-05,
+          1.0599776897223467e-05
+        ],
+        [
+          -0.0002044109188218434,
+          0.00036330054671036323,
+          0.00011745351794057109
+        ]
+      ],
+      "epsilon_C": 1.0000187512951845e-10,
+      "constraint_gap": 3.6560337964377826e-05,
+      "null_direction_bound": 2.735263245061026e-06,
+      "geometry_eligible": true,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.036126794994644586,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 1.119471558793738e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 2.2837181678648737e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.0005692907621864123
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.03211217967295432
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 4.426484215198451e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 2.6868677089912516e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 3.8309779944582493e-07
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 4.14199759529171e-08
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 1.1927702650248879e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 2.8956892619638796e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.00019076245446913003
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.013589719748715416
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 3.889329522853445e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 3.7441472668962363e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 6.355768634355478e-07
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 7.148056102431069e-08
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 1.5176047667317164e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 3.698680627819834e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.0005963819271846243
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.036126794994644586
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 6.454921723188298e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 4.581045316038088e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 6.682046611914324e-07
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 7.191449308156878e-08
+        }
+      ],
+      "maximum_fit_condition": 1.1517611318357353,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_003",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.8574814093228776,
+          0.07498535986426015
+        ],
+        [
+          -0.24373456578456995,
+          0.70475371634038
+        ]
+      ],
+      "K": [
+        [
+          39467818.53798424,
+          -7480.905802413581
+        ],
+        [
+          -4017.148420330126,
+          39489406.273822784
+        ]
+      ],
+      "B": [
+        [
+          1.2838200771565982e-06,
+          1.3392736525581896e-07
+        ],
+        [
+          -1.064649370473164e-07,
+          1.1220380146697234e-06
+        ]
+      ],
+      "kappa": 0.0,
+      "W": null,
+      "C": [
+        [
+          1.1934290681921619e-05,
+          -1.718790424014698e-05,
+          3.879156094697105e-05
+        ],
+        [
+          -0.00018949355765434417,
+          0.00038666277242620657,
+          0.00010175555820369897
+        ]
+      ],
+      "epsilon_C": 1.0000240467140023e-10,
+      "constraint_gap": 4.2612055804448605e-05,
+      "null_direction_bound": 2.3468156480769535e-06,
+      "geometry_eligible": false,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.07947897523580938,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 0.009618595118835956
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 0.029007265344916433
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.07947897523580938
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.06230598524765809
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 0.02990937365872283
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 0.004505359237717843
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 0.0010481777641582245
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 0.00015000344785509725
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 0.009618863876550785
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 0.02900844829567676
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.07945473998565235
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.05088371281876797
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 0.029912652598294568
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 0.0045053213419492385
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 0.0010479186605052773
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 0.0001499416127839007
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 0.009619561452319458
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 0.02901205335131365
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.07944446323038287
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.05757061620888086
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 0.02991797840636766
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 0.00450602407458028
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 0.0010480049451877464
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 0.00014994367918399427
+        }
+      ],
+      "maximum_fit_condition": 1.119283590802909,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_004",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.8139849388824186,
+          0.100872300193991
+        ],
+        [
+          0.05361196390822276,
+          0.5298372826341933
+        ]
+      ],
+      "K": [
+        [
+          39468227.60385503,
+          -7467.850304290339
+        ],
+        [
+          -3969.135426099381,
+          39489264.06768901
+        ]
+      ],
+      "B": [
+        [
+          1.2795190729073816e-06,
+          1.579102937706279e-07
+        ],
+        [
+          -8.832202977629144e-08,
+          1.01299313684511e-06
+        ]
+      ],
+      "kappa": 0.0,
+      "W": null,
+      "C": [
+        [
+          1.6054325196923225e-05,
+          -3.1977846389759754e-05,
+          -8.532609064857943e-06
+        ],
+        [
+          -0.00018916285802362238,
+          0.0003767888160630043,
+          0.00010053937485228102
+        ]
+      ],
+      "epsilon_C": 1.0000186474675019e-10,
+      "constraint_gap": 2.0591954591782122e-10,
+      "null_direction_bound": 0.9441470360858258,
+      "geometry_eligible": false,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.03699996096304249,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 6.658723229173397e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 1.889971665310783e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.0005348633486416114
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.03288141242364879
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 5.614640396221387e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 7.702609391900318e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 4.605641194728699e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 4.095999580523973e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 5.293348370637083e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 1.0556454679812677e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.00022896920438835816
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.013912089733993592
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 2.122884657671495e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 2.62174983748677e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 3.638538141813051e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 3.986095033962899e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 1.2302777370671767e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 2.8257866853726882e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.0006076268204323461
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.03699996096304249
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 5.5391052987098194e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 2.5587641845785807e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 3.5978521467165265e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 3.985520157945613e-06
+        }
+      ],
+      "maximum_fit_condition": 1.1450318231012109,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_005",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.671910806115387,
+          9.204050358613923e-09
+        ],
+        [
+          4.1800127188735765e-09,
+          0.6719108613472299
+        ]
+      ],
+      "K": [
+        [
+          39478744.94911608,
+          1.906627269123069e-05
+        ],
+        [
+          8.649431540968382e-06,
+          39478744.949230485
+        ]
+      ],
+      "B": [
+        [
+          1.3007460086138652e-06,
+          1.564388806190881e-07
+        ],
+        [
+          -9.721901848642126e-08,
+          9.503256061790005e-07
+        ]
+      ],
+      "kappa": 0.0,
+      "W": null,
+      "C": [
+        [
+          1.464870111040138e-12,
+          6.215766156927666e-12,
+          -6.652696863957227e-13
+        ],
+        [
+          4.829543291807688e-13,
+          2.049180004243484e-12,
+          -2.1909266039107155e-13
+        ]
+      ],
+      "epsilon_C": 1.0000313306105526e-10,
+      "constraint_gap": 2.1876289446719134e-16,
+      "null_direction_bound": null,
+      "geometry_eligible": false,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.019971212493699275,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 6.666545308353712e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 1.890578287468471e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.0005326304941211557
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.017812398433989664
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 5.6165407129761885e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 7.696487585958132e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 4.597919943837666e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 4.087813744758937e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 5.300973688567987e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 1.0561469778178615e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.0002279895147425936
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.007535957767853679
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 2.1230582549797523e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 2.6142408741159873e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 3.6307885159051542e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 3.97791140400472e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 1.2297590094472522e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 2.8243811967813526e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.0006049092156815836
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.019971212493699275
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 5.5412335915682956e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 2.5609944508592295e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 3.59033784940943e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 3.977339422019802e-06
+        }
+      ],
+      "maximum_fit_condition": 1.0568659897346315,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_006",
+      "mode": "no_loading",
+      "D": [
+        [
+          285886.3343947761,
+          -94275.48895888233
+        ],
+        [
+          233154.04965551116,
+          -127324.43588365382
+        ]
+      ],
+      "K": [
+        [
+          -103636907.55430667,
+          -378310662.0948718
+        ],
+        [
+          -3585148673.747399,
+          -505099779.42430633
+        ]
+      ],
+      "B": [
+        [
+          0.0002993480236886551,
+          -0.00044006565246053494
+        ],
+        [
+          -0.0004782517858639977,
+          -0.0006245172491413014
+        ]
+      ],
+      "kappa": 0.0,
+      "W": null,
+      "C": [
+        [
+          -15.004410080211523,
+          -46.50254981168953,
+          -37.107619504567815
+        ],
+        [
+          -9.582721016992226,
+          -7.190691428892772,
+          90.81287678946097
+        ]
+      ],
+      "epsilon_C": 602.0208026843978,
+      "constraint_gap": 48.73024015521704,
+      "null_direction_bound": null,
+      "geometry_eligible": false,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 5.0910448285865755,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 4.693210218660143
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 4.572729250845176
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 1.0649257125079687
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.999124341867427
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 1.9549552797051462
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 2.380665153681413
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 1.2889700871362484
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 0.8537454385041143
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 5.0910448285865755
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 4.182846032434912
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 1.03848954424311
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.998910178176067
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 2.0751257944549435
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 1.7277602680687976
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 1.4579004415359245
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 1.0065865535352565
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 4.018235388842922
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 3.7601285382965814
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 1.0687059661283542
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.9988415662832804
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 2.1182939315581284
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 1.5713411187630268
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 1.033868471043929
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 0.9912796868637844
+        }
+      ],
+      "maximum_fit_condition": 5388.425725207787,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_007",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.7984569449162486,
+          -0.14640433180320048
+        ],
+        [
+          -0.0653841530113846,
+          0.5453575315260084
+        ]
+      ],
+      "K": [
+        [
+          39468561.520778,
+          -7396.525840450494
+        ],
+        [
+          -4941.141797069066,
+          39488930.66829047
+        ]
+      ],
+      "B": [
+        [
+          1.3058164974326836e-06,
+          1.4525648697862e-07
+        ],
+        [
+          -6.35879821364219e-08,
+          1.019667388282688e-06
+        ]
+      ],
+      "kappa": 0.0,
+      "W": [
+        [
+          0.6945155050648736,
+          -0.06448881195149408
+        ],
+        [
+          -0.06448881195149408,
+          1.3054844949351267
+        ]
+      ],
+      "C": [
+        [
+          -2.330097309654534e-05,
+          -2.8483691435628203e-05,
+          1.0406211151638695e-05
+        ],
+        [
+          -0.00018735618824889535,
+          0.0003648363639444441,
+          0.00012516058385591644
+        ]
+      ],
+      "epsilon_C": 1.0000165421469093e-10,
+      "constraint_gap": 3.661002847178576e-05,
+      "null_direction_bound": 2.7315446490499962e-06,
+      "geometry_eligible": true,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.03612139232222855,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 1.119630190834011e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 2.285180901581626e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.000569130493169494
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.03210831081781221
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 4.427095204842621e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 2.686953444187389e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 3.8312445356508597e-07
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 4.142448995047385e-08
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 1.1930527274384788e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 2.898876792205058e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.00019083959430968723
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.013587875401416831
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 3.886417869918062e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 3.743543007343391e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 6.355339759626806e-07
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 7.147545886082829e-08
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 1.5179124545881925e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 3.7013387115374586e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.0005963224927586838
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.03612139232222855
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 6.453659300555644e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 4.580764823679471e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 6.681711831443146e-07
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 7.190949003796522e-08
+        }
+      ],
+      "maximum_fit_condition": 1.1650030546812848,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_008",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.7925814721364888,
+          -0.1492887242170988
+        ],
+        [
+          -0.07392662049841993,
+          0.551240696910473
+        ]
+      ],
+      "K": [
+        [
+          39468251.39478802,
+          -7019.841372589548
+        ],
+        [
+          -4293.6460415754445,
+          39489240.27643027
+        ]
+      ],
+      "B": [
+        [
+          1.3311392202735758e-06,
+          1.6866072362923548e-07
+        ],
+        [
+          -8.79675880173617e-08,
+          1.0347114304007402e-06
+        ]
+      ],
+      "kappa": 0.0,
+      "W": [
+        [
+          0.6979671503094923,
+          -0.03291502255332715
+        ],
+        [
+          -0.03291502255332715,
+          1.3020328496905076
+        ]
+      ],
+      "C": [
+        [
+          -2.3760038407034022e-05,
+          -2.7160379711248352e-05,
+          1.1765787078402169e-05
+        ],
+        [
+          -0.00017781465921305653,
+          0.00037593656076833753,
+          0.00010875932476841559
+        ]
+      ],
+      "epsilon_C": 1.0000205544763823e-10,
+      "constraint_gap": 3.633094848958723e-05,
+      "null_direction_bound": 2.752538396727989e-06,
+      "geometry_eligible": true,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.03613573539093792,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 6.660333859372744e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 1.8901233743575748e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.0005349949669807126
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.03211914451879662
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 5.6143059017589055e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 7.700986053958357e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 4.603882336345621e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 4.094195114749095e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 5.294995439638377e-06
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 1.0557946031817187e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.00022902921910309505
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.013586094988444375
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 2.122703213486023e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 2.6198973285186355e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 3.6367754851928965e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 3.98429109101358e-06
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 1.2302139671069158e-05
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 2.8256819678514674e-05
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.0006077818994976474
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.03613573539093792
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 5.539189921680464e-05
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 2.559097647167474e-06
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 3.596136574618407e-06
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 3.983716772046271e-06
+        }
+      ],
+      "maximum_fit_condition": 1.1531736133446902,
+      "reason": "electrical_model_mismatch_or_noise"
+    },
+    {
+      "id": "case_009",
+      "mode": "no_loading",
+      "D": [
+        [
+          0.7104593621394425,
+          -0.20421867989041262
+        ],
+        [
+          -0.10921047205013652,
+          0.6317367478614645
+        ]
+      ],
+      "K": [
+        [
+          39468631.09416092,
+          -8081.645453980912
+        ],
+        [
+          -4049.018792964813,
+          39489407.8870965
+        ]
+      ],
+      "B": [
+        [
+          1.4738641496694225e-06,
+          1.5027985389460323e-07
+        ],
+        [
+          -1.1623563327658573e-07,
+          1.1138064915289255e-06
+        ]
+      ],
+      "kappa": 0.0,
+      "W": [
+        [
+          0.6931268719834015,
+          0.014922985448141433
+        ],
+        [
+          0.014922985448141433,
+          1.3068731280165982
+        ]
+      ],
+      "C": [
+        [
+          -3.250241237626061e-05,
+          -8.859406760625754e-06,
+          1.7381386464178505e-05
+        ],
+        [
+          -0.00020471047079376604,
+          0.00037213779243364933,
+          0.0001025628441733162
+        ]
+      ],
+      "epsilon_C": 1.0000210229040154e-10,
+      "constraint_gap": 3.602374868534954e-05,
+      "null_direction_bound": 2.7760125902212504e-06,
+      "geometry_eligible": true,
+      "electrical_model_compatible": false,
+      "positive_loading": true,
+      "eligible": false,
+      "maximum_validation_relative_error": 0.12113381090589793,
+      "validation_by_frequency_load": [
+        {
+          "frequency_Hz": 400,
+          "load_index": 1,
+          "relative_error": 0.014284271210122807
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 1,
+          "relative_error": 0.0339635247806895
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 1,
+          "relative_error": 0.07789159994150827
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 1,
+          "relative_error": 0.12113381090589793
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 1,
+          "relative_error": 0.027917468861105767
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 1,
+          "relative_error": 0.002787010076131253
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 1,
+          "relative_error": 0.00040956678684609435
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 1,
+          "relative_error": 4.4384140132749264e-05
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 2,
+          "relative_error": 0.014905392032533129
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 2,
+          "relative_error": 0.038343289303194646
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 2,
+          "relative_error": 0.0934234900353199
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 2,
+          "relative_error": 0.06371423148986953
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 2,
+          "relative_error": 0.03409109113958815
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 2,
+          "relative_error": 0.00393254416891265
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 2,
+          "relative_error": 0.0006394730428723863
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 2,
+          "relative_error": 7.05058150525169e-05
+        },
+        {
+          "frequency_Hz": 400,
+          "load_index": 3,
+          "relative_error": 0.018772337474893045
+        },
+        {
+          "frequency_Hz": 750,
+          "load_index": 3,
+          "relative_error": 0.05036748160621447
+        },
+        {
+          "frequency_Hz": 990,
+          "load_index": 3,
+          "relative_error": 0.12022504853022883
+        },
+        {
+          "frequency_Hz": 1000.3,
+          "load_index": 3,
+          "relative_error": 0.11130381945494666
+        },
+        {
+          "frequency_Hz": 1100,
+          "load_index": 3,
+          "relative_error": 0.04311511969481245
+        },
+        {
+          "frequency_Hz": 2100,
+          "load_index": 3,
+          "relative_error": 0.004442562839286509
+        },
+        {
+          "frequency_Hz": 5000,
+          "load_index": 3,
+          "relative_error": 0.0006583448925859289
+        },
+        {
+          "frequency_Hz": 15000,
+          "load_index": 3,
+          "relative_error": 7.074994617985226e-05
+        }
+      ],
+      "maximum_fit_condition": 1.1118036349526361,
+      "reason": "electrical_model_mismatch_or_noise"
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "protocol.json",
+      "sha256": "fc95a3acc8c6bcef2fb4ffeca60340c986c046c89fd6024dbb8782b7172f7142"
+    },
+    {
+      "path": "case_001.json",
+      "sha256": "a63566105ff6dbf301413676081744f3fd68617569828bd547cf913da2faeb33"
+    },
+    {
+      "path": "case_002.json",
+      "sha256": "7d3082ccb2960927bc528e428f6e2de24c61d6e08746a76a8866001be0aa909f"
+    },
+    {
+      "path": "case_003.json",
+      "sha256": "01b54bebc12e06c2f81ef7316d41d4b64ffa06b32384210157316d29a2465d8d"
+    },
+    {
+      "path": "case_004.json",
+      "sha256": "eb6b5d2c9c58bdaf18feac3dff5473ff9bc89d0873a692aeb90f24b5aae9f4f6"
+    },
+    {
+      "path": "case_005.json",
+      "sha256": "e0c7c8fd080b49c3b4ff10a61db64bbd66c7114467d563520f464961a6c0baa9"
+    },
+    {
+      "path": "case_006.json",
+      "sha256": "cf9b1142ed26e607e8651525c469976e64f2d631dae09eccd69d5d00bf3c2afb"
+    },
+    {
+      "path": "case_007.json",
+      "sha256": "9519d0b93a943fa495acb7b4ce294a809c9f4840f99ef4d27e467c9bed31040e"
+    },
+    {
+      "path": "case_008.json",
+      "sha256": "0d12b2c9c59cfe6035c04aec1753cf9ae2f2d322a769c0359e6d18108afc693a"
+    },
+    {
+      "path": "case_009.json",
+      "sha256": "347c99c9706249d5d421c47735ea59ddc413a320203fc47fba19fbcbd2755986"
+    }
+  ],
+  "estimator_sha256": "d135648ca58d85459e20fffc3dfc19e0caddbf4a20070c5133200dccbd5adac6",
+  "threshold_sha256": "01ae12251e7ee9f0fd107f93a19195c076452ed6167d60a1a2f9c5d2e83dba84",
+  "scope": "实常数检测矩阵、静止、线性12状态；独立电路夹具校准；经验门控"
+}
