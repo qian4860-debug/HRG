@@ -1,0 +1,11 @@
+{
+  "schema": "A0-debug-thresholds-v1",
+  "scope": "合成条件模型调试门限，不是实物指标",
+  "clean_operator_relative": 0.000001,
+  "clean_angle_rms_rad": 0.0001,
+  "clean_transfer_NRMSE": 0.00000001,
+  "noisy_D_relative": 0.01,
+  "noisy_K_relative": 0.001,
+  "noisy_angle_rms_rad": 0.002,
+  "noisy_transfer_NRMSE": 0.003
+}

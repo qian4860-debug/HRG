@@ -1,0 +1,477 @@
+{
+  "schema": "A0-records-v1",
+  "synthetic": true,
+  "normalized_model": true,
+  "sample_rate": 32.0,
+  "samples": 1024,
+  "train_bins": [
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    18,
+    24
+  ],
+  "holdout_bins": [
+    5,
+    7,
+    13,
+    17,
+    23
+  ],
+  "repeats": 6,
+  "reference_omega": 2.0,
+  "uncertainty_inflation": 6.0,
+  "numeric_constraint_floor": 1e-09,
+  "null_direction_budget_rad": 0.02,
+  "known_handedness": 1,
+  "uncertainty_scope": "重复观测估计的经验误差裕量，不是严格有限样本置信证明",
+  "cases": [
+    {
+      "id": "case_001",
+      "train": [
+        [
+          "case_001/train_00_0.csv",
+          "case_001/train_00_1.csv"
+        ],
+        [
+          "case_001/train_01_0.csv",
+          "case_001/train_01_1.csv"
+        ],
+        [
+          "case_001/train_02_0.csv",
+          "case_001/train_02_1.csv"
+        ],
+        [
+          "case_001/train_03_0.csv",
+          "case_001/train_03_1.csv"
+        ],
+        [
+          "case_001/train_04_0.csv",
+          "case_001/train_04_1.csv"
+        ],
+        [
+          "case_001/train_05_0.csv",
+          "case_001/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_001/holdout_transfer_0.csv",
+        "case_001/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_001/holdout_motion.csv"
+    },
+    {
+      "id": "case_002",
+      "train": [
+        [
+          "case_002/train_00_0.csv",
+          "case_002/train_00_1.csv"
+        ],
+        [
+          "case_002/train_01_0.csv",
+          "case_002/train_01_1.csv"
+        ],
+        [
+          "case_002/train_02_0.csv",
+          "case_002/train_02_1.csv"
+        ],
+        [
+          "case_002/train_03_0.csv",
+          "case_002/train_03_1.csv"
+        ],
+        [
+          "case_002/train_04_0.csv",
+          "case_002/train_04_1.csv"
+        ],
+        [
+          "case_002/train_05_0.csv",
+          "case_002/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_002/holdout_transfer_0.csv",
+        "case_002/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_002/holdout_motion.csv"
+    },
+    {
+      "id": "case_003",
+      "train": [
+        [
+          "case_003/train_00_0.csv",
+          "case_003/train_00_1.csv"
+        ],
+        [
+          "case_003/train_01_0.csv",
+          "case_003/train_01_1.csv"
+        ],
+        [
+          "case_003/train_02_0.csv",
+          "case_003/train_02_1.csv"
+        ],
+        [
+          "case_003/train_03_0.csv",
+          "case_003/train_03_1.csv"
+        ],
+        [
+          "case_003/train_04_0.csv",
+          "case_003/train_04_1.csv"
+        ],
+        [
+          "case_003/train_05_0.csv",
+          "case_003/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_003/holdout_transfer_0.csv",
+        "case_003/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_003/holdout_motion.csv"
+    },
+    {
+      "id": "case_004",
+      "train": [
+        [
+          "case_004/train_00_0.csv",
+          "case_004/train_00_1.csv"
+        ],
+        [
+          "case_004/train_01_0.csv",
+          "case_004/train_01_1.csv"
+        ],
+        [
+          "case_004/train_02_0.csv",
+          "case_004/train_02_1.csv"
+        ],
+        [
+          "case_004/train_03_0.csv",
+          "case_004/train_03_1.csv"
+        ],
+        [
+          "case_004/train_04_0.csv",
+          "case_004/train_04_1.csv"
+        ],
+        [
+          "case_004/train_05_0.csv",
+          "case_004/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_004/holdout_transfer_0.csv",
+        "case_004/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_004/holdout_motion.csv"
+    },
+    {
+      "id": "case_005",
+      "train": [
+        [
+          "case_005/train_00_0.csv",
+          "case_005/train_00_1.csv"
+        ],
+        [
+          "case_005/train_01_0.csv",
+          "case_005/train_01_1.csv"
+        ],
+        [
+          "case_005/train_02_0.csv",
+          "case_005/train_02_1.csv"
+        ],
+        [
+          "case_005/train_03_0.csv",
+          "case_005/train_03_1.csv"
+        ],
+        [
+          "case_005/train_04_0.csv",
+          "case_005/train_04_1.csv"
+        ],
+        [
+          "case_005/train_05_0.csv",
+          "case_005/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_005/holdout_transfer_0.csv",
+        "case_005/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_005/holdout_motion.csv"
+    },
+    {
+      "id": "case_006",
+      "train": [
+        [
+          "case_006/train_00_0.csv",
+          "case_006/train_00_1.csv"
+        ],
+        [
+          "case_006/train_01_0.csv",
+          "case_006/train_01_1.csv"
+        ],
+        [
+          "case_006/train_02_0.csv",
+          "case_006/train_02_1.csv"
+        ],
+        [
+          "case_006/train_03_0.csv",
+          "case_006/train_03_1.csv"
+        ],
+        [
+          "case_006/train_04_0.csv",
+          "case_006/train_04_1.csv"
+        ],
+        [
+          "case_006/train_05_0.csv",
+          "case_006/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_006/holdout_transfer_0.csv",
+        "case_006/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_006/holdout_motion.csv"
+    },
+    {
+      "id": "case_007",
+      "train": [
+        [
+          "case_007/train_00_0.csv",
+          "case_007/train_00_1.csv"
+        ],
+        [
+          "case_007/train_01_0.csv",
+          "case_007/train_01_1.csv"
+        ],
+        [
+          "case_007/train_02_0.csv",
+          "case_007/train_02_1.csv"
+        ],
+        [
+          "case_007/train_03_0.csv",
+          "case_007/train_03_1.csv"
+        ],
+        [
+          "case_007/train_04_0.csv",
+          "case_007/train_04_1.csv"
+        ],
+        [
+          "case_007/train_05_0.csv",
+          "case_007/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_007/holdout_transfer_0.csv",
+        "case_007/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_007/holdout_motion.csv"
+    },
+    {
+      "id": "case_008",
+      "train": [
+        [
+          "case_008/train_00_0.csv",
+          "case_008/train_00_1.csv"
+        ],
+        [
+          "case_008/train_01_0.csv",
+          "case_008/train_01_1.csv"
+        ],
+        [
+          "case_008/train_02_0.csv",
+          "case_008/train_02_1.csv"
+        ],
+        [
+          "case_008/train_03_0.csv",
+          "case_008/train_03_1.csv"
+        ],
+        [
+          "case_008/train_04_0.csv",
+          "case_008/train_04_1.csv"
+        ],
+        [
+          "case_008/train_05_0.csv",
+          "case_008/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_008/holdout_transfer_0.csv",
+        "case_008/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_008/holdout_motion.csv"
+    },
+    {
+      "id": "case_009",
+      "train": [
+        [
+          "case_009/train_00_0.csv",
+          "case_009/train_00_1.csv"
+        ],
+        [
+          "case_009/train_01_0.csv",
+          "case_009/train_01_1.csv"
+        ],
+        [
+          "case_009/train_02_0.csv",
+          "case_009/train_02_1.csv"
+        ],
+        [
+          "case_009/train_03_0.csv",
+          "case_009/train_03_1.csv"
+        ],
+        [
+          "case_009/train_04_0.csv",
+          "case_009/train_04_1.csv"
+        ],
+        [
+          "case_009/train_05_0.csv",
+          "case_009/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_009/holdout_transfer_0.csv",
+        "case_009/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_009/holdout_motion.csv"
+    },
+    {
+      "id": "case_010",
+      "train": [
+        [
+          "case_010/train_00_0.csv",
+          "case_010/train_00_1.csv"
+        ],
+        [
+          "case_010/train_01_0.csv",
+          "case_010/train_01_1.csv"
+        ],
+        [
+          "case_010/train_02_0.csv",
+          "case_010/train_02_1.csv"
+        ],
+        [
+          "case_010/train_03_0.csv",
+          "case_010/train_03_1.csv"
+        ],
+        [
+          "case_010/train_04_0.csv",
+          "case_010/train_04_1.csv"
+        ],
+        [
+          "case_010/train_05_0.csv",
+          "case_010/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_010/holdout_transfer_0.csv",
+        "case_010/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_010/holdout_motion.csv"
+    },
+    {
+      "id": "case_011",
+      "train": [
+        [
+          "case_011/train_00_0.csv",
+          "case_011/train_00_1.csv"
+        ],
+        [
+          "case_011/train_01_0.csv",
+          "case_011/train_01_1.csv"
+        ],
+        [
+          "case_011/train_02_0.csv",
+          "case_011/train_02_1.csv"
+        ],
+        [
+          "case_011/train_03_0.csv",
+          "case_011/train_03_1.csv"
+        ],
+        [
+          "case_011/train_04_0.csv",
+          "case_011/train_04_1.csv"
+        ],
+        [
+          "case_011/train_05_0.csv",
+          "case_011/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_011/holdout_transfer_0.csv",
+        "case_011/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_011/holdout_motion.csv"
+    },
+    {
+      "id": "case_012",
+      "train": [
+        [
+          "case_012/train_00_0.csv",
+          "case_012/train_00_1.csv"
+        ],
+        [
+          "case_012/train_01_0.csv",
+          "case_012/train_01_1.csv"
+        ],
+        [
+          "case_012/train_02_0.csv",
+          "case_012/train_02_1.csv"
+        ],
+        [
+          "case_012/train_03_0.csv",
+          "case_012/train_03_1.csv"
+        ],
+        [
+          "case_012/train_04_0.csv",
+          "case_012/train_04_1.csv"
+        ],
+        [
+          "case_012/train_05_0.csv",
+          "case_012/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_012/holdout_transfer_0.csv",
+        "case_012/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_012/holdout_motion.csv"
+    },
+    {
+      "id": "case_013",
+      "train": [
+        [
+          "case_013/train_00_0.csv",
+          "case_013/train_00_1.csv"
+        ],
+        [
+          "case_013/train_01_0.csv",
+          "case_013/train_01_1.csv"
+        ],
+        [
+          "case_013/train_02_0.csv",
+          "case_013/train_02_1.csv"
+        ],
+        [
+          "case_013/train_03_0.csv",
+          "case_013/train_03_1.csv"
+        ],
+        [
+          "case_013/train_04_0.csv",
+          "case_013/train_04_1.csv"
+        ],
+        [
+          "case_013/train_05_0.csv",
+          "case_013/train_05_1.csv"
+        ]
+      ],
+      "holdout_transfer": [
+        "case_013/holdout_transfer_0.csv",
+        "case_013/holdout_transfer_1.csv"
+      ],
+      "holdout_motion": "case_013/holdout_motion.csv"
+    }
+  ]
+}
