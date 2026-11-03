@@ -4,6 +4,7 @@ Default is read-only verification. --build refreshes snapshots only in codex_md/
 DSH documents and active AGENTS instructions keep their own authoritative paths.
 """
 import argparse
+from datetime import date
 import hashlib
 import json
 import os
@@ -141,7 +142,9 @@ def category(name):
     return '工程说明与需求'
 
 
-def build():
+def build(snapshot_date=None):
+    snapshot_date = snapshot_date or date.today().isoformat()
+    date.fromisoformat(snapshot_date)
     base = git('rev-parse', 'HEAD').decode().strip()
     prior_path = DEST/'manifest.json'
     prior = json.loads(prior_path.read_text(encoding='utf-8')) if prior_path.exists() else {}
@@ -263,7 +266,7 @@ def build():
                '不会删改原工程文件。`--check` 默认只读，核对归档哈希、来源快照和重写链接目标。'
                '本次更新后按项目规则提交并同步 GitHub。\n')
     write('README.md', readme)
-    manifest = {'schema': 1, 'date': '2026-11-02', 'source_base_commit': base,
+    manifest = {'schema': 1, 'date': snapshot_date, 'source_base_commit': base,
                 'mode': 'central_archive_with_original_paths_preserved',
                 'entries': entries, 'excluded': excluded,
                 'history_counts': {'source_records': history['source_records'], 'kept': history['kept']},
@@ -319,7 +322,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build', action='store_true')
     parser.add_argument('--check', action='store_true')
+    parser.add_argument('--date', help='archive date YYYY-MM-DD; defaults to the local execution date')
     args = parser.parse_args()
     if args.build:
-        build()
+        build(args.date)
     print(json.dumps(check(), ensure_ascii=False, indent=2))
