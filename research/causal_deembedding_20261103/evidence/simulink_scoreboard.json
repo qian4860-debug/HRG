@@ -1,0 +1,1 @@
+{"samples":8192,"channels":12,"maximum_absolute_difference":7.5994766035591965E-14,"profiles":[40,240],"scope":"独立原生Simulink离散实现对Python状态算法；不是实时硬件或全闭环"}

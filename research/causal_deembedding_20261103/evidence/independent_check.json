@@ -1,0 +1,14 @@
+{
+  "profile_case_checks": 30,
+  "chunked_state_bit_identical": true,
+  "future_and_prefix_causal": true,
+  "quality_prefix_causal_and_reference_pending_NaN": true,
+  "short_stream_reference_pending_without_error": true,
+  "maximum_digital_pole_radius": 0.9998426089732931,
+  "independent_frequency_formula_relative_difference": 1.2650614150955264e-13,
+  "noise_kernel_truncation_relative_difference": 2.1154761577523e-09,
+  "excessive_delay_rejected": true,
+  "simulink_maximum_absolute_difference": 7.599476603559197e-14,
+  "no_truth_directory_replay_identical": true,
+  "scope": "双精度离散算法、所列白噪/校准假设与经验角点预算；非闭环稳定性或硬件认证"
+}
