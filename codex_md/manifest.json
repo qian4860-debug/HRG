@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-03",
-  "source_base_commit": "311db0dc8906adbe90851c599277250e901b5efa",
+  "source_base_commit": "ea0800eb06e8583539ad657b3f309951bdb5625a",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "311db0dc8906adbe90851c599277250e901b5efa",
+      "source_commit": "ea0800eb06e8583539ad657b3f309951bdb5625a",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "1679eb2d2501995e0a03bcc3752801c80a96bc84b294084e25ad6ba575fe3a45",
-      "archive_sha256": "baa7474a982b3d146f2e5423591ce4a947e093bb4b24430db3fb1bf347d02ed8",
+      "source_sha256": "88075c5f30f38f469ca5debe485a5aa4413de0fbca801e5a5137a1bbef7db0da",
+      "archive_sha256": "3bdb0a283009ec7b87ea85e46e126990097145953dfc429aa89d8808d3e04d97",
       "rewritten_local_links": []
     },
     {
@@ -3653,13 +3653,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 389,
-    "kept": 100
+    "source_records": 390,
+    "kept": 101
   },
   "generated_index_sha256": {
-    "README.md": "2874f83359dfed3f97f0818b867d790d5ced2591bc47d3b8534b9a4ba452634c",
-    "00_文档索引.md": "fe734be06eee37ab0059b45faf50bb582a751bdf93de39b3a98b3b2a02251cc6",
-    "history_filter_audit.json": "41d45566800858ac685c1466914753c308df49b19873ba8dd0f0f38f998a514b"
+    "README.md": "c98d6c8446da5505596ffc73360aaf659aabe1ea8ff8e030fa1840e9166968a1",
+    "00_文档索引.md": "fc25f2360a26fd8118826e0e08b08bafae3ef28020caba98c102aa5382ffd5ee",
+    "history_filter_audit.json": "4d691f49fe4d15b40241820c8c86ca0efb412845ecc1438ae0429708eb46118d"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3667,6 +3667,7 @@
     "03_读08后的下一步执行单_20261103.md": "900ac37e0fab47656a807d048483cab680aba38cbf231f6a36edb41d0edb137c",
     "04_A0输入输出辨识与退化拒绝_实现及验证_20261103.md": "4721f248ce0060be6f400c18f1b3c5f60801bf50095d0685964e990fbd892c46",
     "05_A1完整压电端口去嵌_加载辨识与失配拒绝_20261103.md": "7a10a2e2efa5da5264e227fae9c261d3f8738ce2bb61421b59498dd655174bfe",
-    "06_A2因果去嵌_噪声校准与延迟预算_20261103.md": "306b36b2067bbfdbc9511e605bd1a481b59f9a9acb84b5efa43ebe6894e305a8"
+    "06_A2因果去嵌_噪声校准与延迟预算_20261103.md": "306b36b2067bbfdbc9511e605bd1a481b59f9a9acb84b5efa43ebe6894e305a8",
+    "07_A3参考帧协方差守恒_重锚定与缺测恢复_20261103.md": "cdf26029d200e1825449f55f8723c1da1df357d83f71dcea722703ef544f9fc0"
   }
 }
