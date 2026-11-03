@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-03",
-  "source_base_commit": "f6793e867ac50461bbcb8ec6b48b9acd61fa6254",
+  "source_base_commit": "45d1d54849c057c8ffa5fe3ec7ce2e848f438e1e",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "f6793e867ac50461bbcb8ec6b48b9acd61fa6254",
+      "source_commit": "45d1d54849c057c8ffa5fe3ec7ce2e848f438e1e",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "726f947b93f1301ca33453c223740fc993fe7c474a34762cb3cc60df8b79092f",
-      "archive_sha256": "0ef49321351a2e57e570995c4bcd134201f2914c832d253aa18bc427d4fea326",
+      "source_sha256": "a86cbfd95316ccd8325bbf14c4b1bb25c2ca00fc7c96f25a8f289e17fb7534c4",
+      "archive_sha256": "62ddbb432b85c394e6263a3108b8690d4696f63355ad03df97c013ef5bf5c8c1",
       "rewritten_local_links": []
     },
     {
@@ -3653,17 +3653,18 @@
     }
   ],
   "history_counts": {
-    "source_records": 386,
-    "kept": 97
+    "source_records": 387,
+    "kept": 98
   },
   "generated_index_sha256": {
-    "README.md": "a4ba4c88f391c7a99429e8a41e7862b386cfc853b4a225af919695cc96ff8bff",
-    "00_文档索引.md": "752908ec06b15b801d9cea4db6b5dfb256cbddb2ef68cffc070280c9b46af95f",
-    "history_filter_audit.json": "1e5d852a35f3b8cb9627eb22ef6d30043a908d9ae57ba0c21e39f90efd8f04cf"
+    "README.md": "221f8639f4e7a87d662c4a3b82a7d0f428670da568bdbac064efc7f2c545c6f9",
+    "00_文档索引.md": "2f7a9c37614637b432b7e36d3cdf5f1ed976f1cbf0c47a8575a0bbb3ae763f52",
+    "history_filter_audit.json": "d167e318f7ca5629a0c6335f38c883a358c1e27b7175a19cd302c2eaeb2996ed"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
     "02_V4复核与深入创新候选V5_20261102.md": "6a0c590fa4bf6eed63bb12f8a6f28889218641a6d128e8951bdb0818c2412d80",
-    "03_读08后的下一步执行单_20261103.md": "900ac37e0fab47656a807d048483cab680aba38cbf231f6a36edb41d0edb137c"
+    "03_读08后的下一步执行单_20261103.md": "900ac37e0fab47656a807d048483cab680aba38cbf231f6a36edb41d0edb137c",
+    "04_A0输入输出辨识与退化拒绝_实现及验证_20261103.md": "4721f248ce0060be6f400c18f1b3c5f60801bf50095d0685964e990fbd892c46"
   }
 }
