@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-03",
+  "request": "阅读DSH_md中08号md，下一步怎么做",
+  "readonly_check": {
+    "command": "python -X utf8 HRG_WA_simulink/piezo_v10/noise_research/check_delivery.py",
+    "exit_code": 0,
+    "observed_status": "PASS",
+    "scope": "复算归档CSV、三组角度指标、既有5个scoreboard布尔结果和交付哈希；不重新仿真"
+  },
+  "noise_500uV_cases": {
+    "noise500_20261030": true,
+    "noise500_20261110": true,
+    "noise500_20261111": true,
+    "noise500_20261112": true,
+    "noise500_20261113": true,
+    "noise500_20261114": true
+  },
+  "noise_1mV_boundary_passed": false,
+  "source_sha256": {
+    "DSH_md/08_现状盘点_下一步补什么_V5研判_20261102.md": "954f296e7d1f12f3aa9312a16e16ed7ed068de84557857e4be96ba1f820d52c7",
+    "HRG_WA_simulink/piezo_v10/noise_research/check_delivery.py": "0d13af52e817a2c879eeb453c38811b09545ffc6b588558eb863317d1ca0f823",
+    "HRG_WA_simulink/piezo_v10/noise_research/evidence/independent_results.json": "48a80007ee148514859e06acbb0d794f8c3dd22b1ef4f74b502bdc61523bc937",
+    "HRG_WA_simulink/piezo_v10/noise_research/evidence/results.json": "cd13c3b9ad7ea4477d8f948009752e0a01d8cec4167cb346cab7dddc3d63808a",
+    "HRG_WA_simulink/piezo_v10/compensation_research/evidence/independent_results.json": "32991ae573ffafd6162a74e31b758ac0d0d9cd37932767957d8ba267d9fbb9ba",
+    "HRG_WA_simulink/piezo_v10/revision_v10_1/evidence/multiload_results.json": "29a76b385b4611ae5ec6ea79774828970743c30f016d98de6d3abbc965d888a3",
+    "HRG_WA_simulink/piezo_v10/revision_v10_1/identify_multiload.py": "47f08400b72e7c631f62d01dc105d1c4daac426ca224e028bdea56e505348e97",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_config.m": "5035fe6035859ad111e0b367de5f69c1ad823abed961963ea2f475462ff4741d",
+    "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3",
+    "codex_md/03_读08后的下一步执行单_20261103.md": "900ac37e0fab47656a807d048483cab680aba38cbf231f6a36edb41d0edb137c"
+  },
+  "encoding_check": {
+    "new_document_and_DSH_BOM_free": true,
+    "raw_history_original_content_preserved": true,
+    "raw_history_preexisting_replacement_characters": 2552
+  },
+  "conclusions": [
+    "第一项新实验为数据到Dy/Ky再到W和退化认证，不向辨识器提供真算子",
+    "当前压电链重建独立时延账本，不套用旧7ms",
+    "多负载条件数已做参数/残差尺度处理，仍需噪声白化与目标风险评估"
+  ],
+  "limits": [
+    "本轮未实现A0新算法",
+    "未新增MATLAB/Simulink仿真或硬件实测",
+    "原验收文件和DSH08保留原位"
+  ]
+}
