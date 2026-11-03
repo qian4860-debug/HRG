@@ -1,0 +1,12 @@
+{错误使用 a3_matlab_check (第 64 行)
+多种原因导致错误。
+原因:
+    错误使用 a3_matlab_check (第 64 行)
+    From Workspace 模块 'hrg_wa_a3_reference_manager/Input_InitialGap' 的输入格式不受支持。输入数据必须使用支持的格式，如时间序列或时间表，并且不能包含 Inf 或 NaN 值。
+    错误使用 a3_matlab_check (第 64 行)
+    From Workspace 模块 'hrg_wa_a3_reference_manager/Input_LongGap' 的输入格式不受支持。输入数据必须使用支持的格式，如时间序列或时间表，并且不能包含 Inf 或 NaN 值。
+    错误使用 a3_matlab_check (第 64 行)
+    From Workspace 模块 'hrg_wa_a3_reference_manager/Input_Noise500u' 的输入格式不受支持。输入数据必须使用支持的格式，如时间序列或时间表，并且不能包含 Inf 或 NaN 值。
+    错误使用 a3_matlab_check (第 64 行)
+    From Workspace 模块 'hrg_wa_a3_reference_manager/Input_ShortGap' 的输入格式不受支持。输入数据必须使用支持的格式，如时间序列或时间表，并且不能包含 Inf 或 NaN 值。
+} 

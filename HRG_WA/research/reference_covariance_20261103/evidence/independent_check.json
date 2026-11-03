@@ -1,0 +1,16 @@
+{
+  "profile_case_checks": 46,
+  "new_seed_checks": 8,
+  "frozen_algorithm_budget_and_score": true,
+  "initial_wait_and_quality_prefix_causal": true,
+  "reference_state_chunk_bit_identical": true,
+  "reanchor_does_not_reset_origin_variance": true,
+  "short_gap_recovered_long_gap_global_invalid": true,
+  "motion_bound_violation_rejected": true,
+  "independent_Gram_relative_difference": 1.978113444191431e-09,
+  "matlab_relative_variance_ratio_min": 0.9189591728601167,
+  "matlab_relative_variance_ratio_max": 1.055572767192258,
+  "simulink_maximum_absolute_difference": 0,
+  "no_truth_directory_replay_byte_identical": true,
+  "scope": "白噪小扰动、冻结W和声明速率/相位界；非硬件、非全闭环或低误认证概率保证"
+}

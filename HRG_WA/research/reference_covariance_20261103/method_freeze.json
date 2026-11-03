@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03",
+  "source_sha256": {
+    "a3_process.py": "77faa593a98323f8b7558e5fb20e9111f2db3738853fe0c92d6a61e92bce30a9",
+    "a3_covariance.py": "207997962fdd9368c5d513c4f610962fb3741d7c0f75d4d6d9ada423bb182ec1",
+    "a3_reference.py": "3837e994a4313c8d23a9e48e21c34e718c8f96766f75b3cb73842751020215bb",
+    "a3_source.py": "8660ff890c9123d12cad481f2781997ca54a757d7e2488477db9c121aff69d98",
+    "a3_common.py": "dddf85fd8032c7721553383392d968e10555f78f6e0c78d598b58a5a9a581e02",
+    "a3_generate.py": "e222b44696e6383c6623f131cbb5b4769837a2216ad16b5e4a50168655c6f281",
+    "a3_score.py": "605ab320fa9b6a1d6841cb36bf640ed3a0c4294979dc711a7c50f7a74f7949f1",
+    "config.json": "dcdc83ec06d07d39679c86e65fc4b56f3202e45ddbe16a65f6d3f3ce558173ac"
+  },
+  "a2_sha256": {
+    "a2_dsp.py": "37cfa980e4904cd1045bdcc0b0a323213e028904e3286ea730fa67bab6746027",
+    "config.json": "af1abf1f9dde266d8d45f5123711b04430617f55b0e0526b9c7f0b2e16079f48"
+  },
+  "development_case_sha256": {
+    "case_001.json": "29821b9d216d14c5d7921dbf50c509d02fc63e1b4200af5bcc95a95939900880",
+    "case_002.json": "63e522c271949d75d0d3b49ed9ec01a309287c1a13624d0a6343c93ab03cb228",
+    "case_003.json": "b4630152ae0563cfb2d339b02703a5bc15b93b6d7bb9cbf5baf1034564fc39bd",
+    "case_004.json": "091ce7e6acf4303c717c253c763949e961fe6cbcf516986c69a6193e503cce3b",
+    "case_005.json": "00ad5edb2c15c7269ff1acd46564240c5052b2941889d8bd706d3afcf7a3ce8f",
+    "case_006.json": "a3d15d9c410b60625bfb7ea9511cb4d73b14b0e063a00af37495d218b8a2edfd",
+    "case_007.json": "87bc4d807a150eb11fd52a20f8a393d016706627f5f86cc64026f758d9b66caa",
+    "case_008.json": "dfffaf137467f6e3840fe066b368f08499ebb1546994af4be4b73094c6d3b536",
+    "case_009.json": "3c6c4f4465d9ed71018095ce2d325f57b3f7f2513775d3a1df606cbfef0a2dff",
+    "case_010.json": "35b6962410652f2de9d2564c03e31847ffb975fe9cb77c16ce640143573bf196",
+    "case_011.json": "dfddf2747fd87e986ec8e0b0263bc37c45468c1cc39e007d9df980608ad1a761",
+    "case_012.json": "48fa2b928bd39de4120e000fa050205af0ce60e5f91917285ae6e8c18c9ecad4",
+    "case_013.json": "a2b786d87dbdc0c449809497776b8f99b152ca61e7534122423009a25bb60b58",
+    "case_014.json": "a52130c6a3490c550171d7fe92ad838cee0e11b26a8b879d2629673ec3a6803e",
+    "case_015.json": "bac4badf567c082482daab280e39674b8634c675a908f2d3ab6ff7ca7f561f5b",
+    "case_016.json": "33215003cf16e4412189436190562d3150568e58a335406e05437dfc91433483",
+    "case_017.json": "47d5d75ece197141f900257d163e2c2133552d30678ed2aba7f0b7bffb4f5cc2",
+    "case_018.json": "484b09dab86a4db7c11355f72113e4206a1b0b68198782d43a28f57b267531fb",
+    "case_019.json": "e3fe47a79493263e10eb2790934328803e41c9d4f9056a220477712b9f2786d9"
+  },
+  "development_profiles": 38,
+  "fresh_seed_plan": [
+    {
+      "id": "case_020",
+      "sigma": 0.0005,
+      "seed": 8801
+    },
+    {
+      "id": "case_021",
+      "sigma": 0.0005,
+      "seed": 8802
+    },
+    {
+      "id": "case_022",
+      "sigma": 0.001,
+      "seed": 8803
+    },
+    {
+      "id": "case_023",
+      "sigma": 0.001,
+      "seed": 8804
+    }
+  ],
+  "scope": "冻结算法、预算与评分后新增独立工作流和探针种子；不改变A2滤波延迟"
+}

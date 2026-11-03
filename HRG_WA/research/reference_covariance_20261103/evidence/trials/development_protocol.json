@@ -1,0 +1,81 @@
+{
+  "schema": "A3-observed-stream-v1",
+  "cases": [
+    {
+      "id": "case_001",
+      "file": "case_001.json"
+    },
+    {
+      "id": "case_002",
+      "file": "case_002.json"
+    },
+    {
+      "id": "case_003",
+      "file": "case_003.json"
+    },
+    {
+      "id": "case_004",
+      "file": "case_004.json"
+    },
+    {
+      "id": "case_005",
+      "file": "case_005.json"
+    },
+    {
+      "id": "case_006",
+      "file": "case_006.json"
+    },
+    {
+      "id": "case_007",
+      "file": "case_007.json"
+    },
+    {
+      "id": "case_008",
+      "file": "case_008.json"
+    },
+    {
+      "id": "case_009",
+      "file": "case_009.json"
+    },
+    {
+      "id": "case_010",
+      "file": "case_010.json"
+    },
+    {
+      "id": "case_011",
+      "file": "case_011.json"
+    },
+    {
+      "id": "case_012",
+      "file": "case_012.json"
+    },
+    {
+      "id": "case_013",
+      "file": "case_013.json"
+    },
+    {
+      "id": "case_014",
+      "file": "case_014.json"
+    },
+    {
+      "id": "case_015",
+      "file": "case_015.json"
+    },
+    {
+      "id": "case_016",
+      "file": "case_016.json"
+    },
+    {
+      "id": "case_017",
+      "file": "case_017.json"
+    },
+    {
+      "id": "case_018",
+      "file": "case_018.json"
+    },
+    {
+      "id": "case_019",
+      "file": "case_019.json"
+    }
+  ]
+}

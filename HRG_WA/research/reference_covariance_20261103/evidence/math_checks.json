@@ -1,0 +1,11 @@
+{
+  "maximum_shifted_kernel_Gram_relative_difference": 1.978113444191431e-09,
+  "retained_origin_variance_example": {
+    "original": 4e-06,
+    "anchor": 1e-06,
+    "current": 1e-06,
+    "correct_global": 4.9999999999999996e-06,
+    "incorrect_drop_offset": 2e-06,
+    "incorrect_zero_anchor": 1e-06
+  }
+}

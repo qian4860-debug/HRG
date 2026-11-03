@@ -1,0 +1,12 @@
+{
+  "schema": "A3-reference-covariance-v1",
+  "reference_holdoff_s": 0.02,
+  "reanchor_period_s": 0.1,
+  "maximum_modal_direction_rate_rad_s": 30,
+  "phase_uncertainty_margin_rad": 0.02,
+  "recovery_guard_s": 0.02,
+  "noise_probe_max_abs_correlation": 0.1,
+  "noise_probe_correlation_lags": [1,2,3,4],
+  "kernel_impulse_samples": 16384,
+  "scope": "保留A2窗口、滤波与0.003rad预算；噪声协方差为白噪小扰动模型；重锚定保留全局初始参考；长缺测需外部参考"
+}
