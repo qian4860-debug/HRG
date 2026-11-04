@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "f8abcc52356fd3d87d45bbcecc40de3953f72789",
+  "sources": [
+    {
+      "path": "DSH_md/09_更新了什么_路线判断与备选_20261103.md",
+      "sha256": "944280f49b8e339835c45495b24537203f255462046d05a8e3c69a0da83a800d"
+    },
+    {
+      "path": "DSH_md/08_现状盘点_下一步补什么_V5研判_20261102.md",
+      "sha256": "954f296e7d1f12f3aa9312a16e16ed7ed068de84557857e4be96ba1f820d52c7"
+    },
+    {
+      "path": "codex_md/03_读08后的下一步执行单_20261103.md",
+      "sha256": "900ac37e0fab47656a807d048483cab680aba38cbf231f6a36edb41d0edb137c"
+    },
+    {
+      "path": "codex_md/07_A3参考帧协方差守恒_重锚定与缺测恢复_20261103.md",
+      "sha256": "cdf26029d200e1825449f55f8723c1da1df357d83f71dcea722703ef544f9fc0"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/06_博士研究路线与阶段验收.md",
+      "sha256": "c12e6e81810afabe1c53171fa4f05fec73960061d2a4de12b5c3fee73fc4766f"
+    },
+    {
+      "path": "研究规划与论文路线_20261010/evidence/archive_邰涵翛-开题v0.5.txt",
+      "sha256": "0d3d42b4b724be08aeef4f4a79d0996f00a90f44c747ff6cacb0906cb6af9b53"
+    },
+    {
+      "path": "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_config.m",
+      "sha256": "5035fe6035859ad111e0b367de5f69c1ad823abed961963ea2f475462ff4741d"
+    },
+    {
+      "path": "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_plant.m",
+      "sha256": "840ac07dbb8e5e301e3aba199fc97379d588f35f53c0f3969414f195907bbded"
+    },
+    {
+      "path": "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m",
+      "sha256": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3"
+    },
+    {
+      "path": "HRG_WA_simulink/piezo_v10/identification/measurement_contract.json",
+      "sha256": "3c46f059db2110250ece3a48794892dec4db493d43d97f89095406a8d6dbdf33"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/README.md",
+      "sha256": "d6c832ff1546c4822de9410e296d36c2235ca4596a15ddff5ae192bf02755f3e"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/top_scoreboard_simulation.log",
+      "sha256": "c4d0960d25412000e58a9d0cf93c8612d73d4e7fc5d8022edce51b81782e4a43"
+    },
+    {
+      "path": "research/causal_deembedding_20261103/config.json",
+      "sha256": "af1abf1f9dde266d8d45f5123711b04430617f55b0e0526b9c7f0b2e16079f48"
+    },
+    {
+      "path": "research/causal_deembedding_20261103/a2_dsp.py",
+      "sha256": "37cfa980e4904cd1045bdcc0b0a323213e028904e3286ea730fa67bab6746027"
+    },
+    {
+      "path": "research/reference_covariance_20261103/evidence/scores.json",
+      "sha256": "94ebd7002dbe28783f2f9a0158b510261362bd6d390ff4263fd1d2bb0568c72b"
+    },
+    {
+      "path": "research/reference_covariance_20261103/evidence/independent_check.json",
+      "sha256": "711f6c20a5d3c4aee34e7112e5787a79c9d35f53569a765ca546b16a130aa04e"
+    },
+    {
+      "path": "research/classics_addendum_20261030/sources.json",
+      "sha256": "d150921614108167f214c44b2a15061b270b069098b1382986a5bd6ead883877"
+    }
+  ],
+  "sealed_files": [
+    {
+      "package": "port_to_metric",
+      "files_checked": 418,
+      "manifest_sha256": "38f2e08efc539d653e853eac0c67cecdc392bbe3c842ec4dea095dbf089775d7"
+    },
+    {
+      "package": "port_deembedding",
+      "files_checked": 80,
+      "manifest_sha256": "1b75a6cc02fe4e7ff2d77a6d36017a85a5744489d032e819f119c227adab3ffe"
+    },
+    {
+      "package": "causal_deembedding",
+      "files_checked": 96,
+      "manifest_sha256": "2a35faa1f72c56e0069d036398d8da381745b4b0c0918b4e8f403e8e92e7fa36"
+    },
+    {
+      "package": "reference_covariance",
+      "files_checked": 119,
+      "manifest_sha256": "789ce26ccc2891974ab5b40ab3cfd2bcc64b3da22951a71ea4c8a0200e420505"
+    }
+  ],
+  "repository_inventory": {
+    "tracked_rtl_files": 38,
+    "rtl_files": [
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_controller.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_cordic.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dpll.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_dsp_core.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_navigation.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_nco.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_pi_aw.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/asyncFifo.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/crc8_param.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/fifoTPRAM.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rCtrl.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/roReg.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/rwRegPG2.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/spiRegPG2.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/spiRegSlave.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/spi_original/wCtlr.v",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/tb_hrg_loop_scoreboard.sv",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/tb_hrg_scoreboard.sv",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/tb_hrg_top_scoreboard.sv",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/tb_hrg_sensor_if.sv",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/tools/tests/tb_custom_head.sv",
+      "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/tools/tests/tb_hrg_profile_spi.sv",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_cic_decimator.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_cordic_atan2.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_demod_frontend.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_eqsr_calc.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_fir5_lpf.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_iq_mixer.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_nco_sincos.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_phase_angle_rate.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_pi_ctrl.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_wa_full_top.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/rtl/hrg_wa_if_top.v",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/tb/hrg_wa_plant_model.sv",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/tb/hrg_wa_raw_plant_model.sv",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/tb/tb_hrg_wa_full_top.sv",
+      "hrg_wa_verilog_rtl_tb_full_frontend_annotated_fix_qparam/tb/tb_hrg_wa_if_top.sv"
+    ],
+    "timing_constraints": [],
+    "synthesis_command_scripts": [
+      {
+        "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/testbench/scoreboard/check_rtl_elaboration.tcl",
+        "rtl_elaboration_only": true
+      }
+    ],
+    "research_csv_count": 540,
+    "research_csv_bytes": 105320268
+  },
+  "latency": {
+    "source_ms": 6.077485239734849,
+    "two_stage_window_ms": 5.9750000000000005,
+    "extra_phase_at_5Hz_rad": 0.19092982981451403,
+    "declared_phase_budget_rad": 0.2,
+    "source_budget_fraction": 0.9546491490725701,
+    "allowed_total_pure_delay_ms": 6.366197723675814,
+    "with_approximate_hold": [
+      {
+        "update_Hz": 1000,
+        "source_delay_ms": 6.077485239734849,
+        "approximate_hold_ms": 0.5,
+        "source_plus_hold_phase_rad": 0.20663779308246302,
+        "source_plus_hold_budget_fraction": 1.033188965412315,
+        "with_one_sample_publication_phase_rad": 0.20742319124586048
+      },
+      {
+        "update_Hz": 2000,
+        "source_delay_ms": 6.077485239734849,
+        "approximate_hold_ms": 0.25,
+        "source_plus_hold_phase_rad": 0.19878381144848853,
+        "source_plus_hold_budget_fraction": 0.9939190572424426,
+        "with_one_sample_publication_phase_rad": 0.19956920961188598
+      }
+    ]
+  },
+  "scope": "事实与哈希复核；未重跑旧仿真、未测返回比/硬件、未做PPA或重新认证论文新颖性"
+}
