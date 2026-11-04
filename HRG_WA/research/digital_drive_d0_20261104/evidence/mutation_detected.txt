@@ -1,0 +1,19 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Wed Nov  4 12:31:58 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/d0_scoreboard/xsim_script.tcl
+# xsim {d0_scoreboard} -testplusarg MUTATE -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+D0_MISMATCH row=2 actual=dffff00002000000010000000100000001 expected=dffff00012000000010000000100000001
+Fatal: scoreboard mismatch
+Time: 36 ns  Iteration: 0  Process: /tb_drive_d0/Initial19_2  Scope: tb_drive_d0  File: C:/Users/11725/Desktop/HRG_WA/research/digital_drive_d0_20261104/tb/tb_drive_d0.sv Line: 34
+$finish called at time : 36 ns
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Nov  4 12:32:00 2026...

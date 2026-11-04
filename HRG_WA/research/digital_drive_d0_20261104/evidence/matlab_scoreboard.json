@@ -1,0 +1,8 @@
+{
+  "rows": 6055,
+  "fields": 9,
+  "maximum_absolute_difference": 0,
+  "passed": true,
+  "scope": "独立MATLAB复数矩阵实现与公开接口golden逐拍核对；非机械闭环",
+  "matlab": "25.1.0.2943329 (R2025a)"
+}
