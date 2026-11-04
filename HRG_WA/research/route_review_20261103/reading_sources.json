@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-03",
+  "local_reference": {
+    "path": "D:\\学习资料\\资料\\全角陀螺\\ragot2011.pdf",
+    "sha256": "d05d7c2f0b48a8e81b3947405d434207b30cafabedd975b44fe6e2dab554ddc3",
+    "text_pages_reviewed_this_turn": [
+      1,
+      7,
+      8,
+      9
+    ],
+    "visual_pages_reviewed_this_turn": [
+      8
+    ],
+    "scope": "工作模式、压电Quapason边界与多速率电路框图；本轮非全篇逐式复核"
+  },
+  "web_sources": [
+    {
+      "url": "https://www.mathworks.com/help/control/ug/analyzing-control-systems-with-delays.html",
+      "read_scope": "Control of Processes with Delays/PI dead-time example；时延相移与完整环路分析"
+    },
+    {
+      "url": "https://docs.amd.com/r/en-US/ug906-vivado-design-analysis/Unconstrained-Paths-Section",
+      "read_scope": "无约束逻辑路径不会进行时序分析"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11736109/",
+      "read_scope": "摘要、Introduction与Structure；平板电容电极，非本压电表头的直接验证"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN105547272A/zh",
+      "read_scope": "摘要、说明书与权利要求模块；不是独立性能测量或新颖性认证"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9227012/",
+      "read_scope": "摘要、结论及模式切换概念；轴对称MEMS，非本压电HRG的指标"
+    },
+    {
+      "url": "https://www.ti.com/lit/an/sloa033a/sloa033a.pdf",
+      "read_scope": "PDF第2–4页等效模型、电压/电荷模式；通用压电接口，不是HRG性能证明"
+    },
+    {
+      "url": "https://www.analog.com/en/resources/analog-dialogue/articles/synchronous-detectors-facilitate-precision.html",
+      "read_scope": "同步检测、近载波噪声、双相I/Q与建立时间；通用电路依据"
+    },
+    {
+      "url": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0350.html",
+      "read_scope": "Circuit Description：电荷转换与ADC输入范围；非器件选型和本项目指标依据"
+    }
+  ],
+  "fixed_user_boundary": "压电驱动、压电检测、全角WA不变；FTR和模式切换仅作为已阅读但不推荐的边界对照"
+}

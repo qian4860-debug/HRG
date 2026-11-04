@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-04",
+  "sources": [
+    {
+      "path": "DSH_md/10_A0-A3质量评估与后面做什么_20261103.md",
+      "sha256": "8035667ad3932c75a0b76676dab1bd7009311530d523daca266b5ce81cc3a77d"
+    },
+    {
+      "path": "DSH_md/11_对09号技术路线比较的评判_20261103.md",
+      "sha256": "6b348420e811f28278e59fd6e5490c42683f3e730790183a098523abc408e507"
+    },
+    {
+      "path": "HRG_WA_simulink/piezo_v10/electrical/p10e_build.m",
+      "sha256": "b547fc6cc9e5aea40e96626e8f9533383b7885e12274b9a1a98f7418063fde3f"
+    },
+    {
+      "path": "HRG_WA_simulink/piezo_v10/electrical/p10e_tick.m",
+      "sha256": "4a2eb869f469f8a9916f8e538c2b6865f6966cf9c8a9c47a558d845f50ef55ce"
+    },
+    {
+      "path": "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m",
+      "sha256": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3"
+    },
+    {
+      "path": "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA/src/hrg_sensor_if_top.v",
+      "sha256": "7db0ac74c9d559f3fee757ea597485c4997c715a50635bf6affb92a8ded4e38f"
+    }
+  ],
+  "butterworth_example": {
+    "cutoff_Hz": 12000,
+    "stop_Hz": 39000,
+    "target_dB": 40,
+    "first_order_attenuation_dB": 10.630517457470889,
+    "minimum_order": 4,
+    "scope": "仅单阻带频点和指定Butterworth截止频率；不是本工程AAF规格"
+  },
+  "sampling_example": {
+    "two_carrier_channels_samples_per_s": 80000,
+    "four_baseband_channels_samples_per_s": 20000,
+    "aggregate_rate_ratio": 4,
+    "scope": "不代表功耗比；ΔΣ输出率不等于调制器频率"
+  },
+  "tdm_example": {
+    "f0_Hz": 1000,
+    "off_time_s": 0.0005,
+    "per_slot_amplitude_loss": {
+      "10000": 0.00015706729631992378,
+      "1000": 0.0015695632719552322,
+      "100": 0.01558523664828626
+    },
+    "minimum_Q_by_allowed_loss": {
+      "0.01": 156.29291893242015,
+      "0.001": 1570.010797666314,
+      "0.0001": 15707.177856694943
+    },
+    "scope": "单个无补能停驱段；未含补能功率、载波相位、电气建立和角度误差"
+  },
+  "primary_sources": [
+    "https://www.analog.com/en/resources/technical-articles/sigmadelta-adcs-tutorial.html",
+    "https://www.analog.com/en/resources/technical-articles/guide-to-antialiasing-filter-basics.html"
+  ]
+}
