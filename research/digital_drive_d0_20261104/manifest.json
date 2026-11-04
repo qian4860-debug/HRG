@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-04",
+  "files": {
+    ".gitattributes": "31548d16ac3f56891a4ea3f9310a6d5ac756a0c046dcb199e88357d56fd77987",
+    ".gitignore": "07d6a9fe35745b7c60140cad5418ce0aed4e8e54420068ec6b2aa5819e1d06c9",
+    "check_d0.py": "a3ff3a3ee92d1f46822287d3796d875bb42fc70aefb4ce7a2774a61652a33a82",
+    "d0_matlab_check.m": "4073233fef06c0f470adff70a610dd00afe7c14d6b2aaa8bb7646001c95cdee1",
+    "data/matlab_vectors.json": "7a74495de87394792d298c07e37cb01d071beb5aadb947bfbd54f48111e5bdb9",
+    "data/vectors.hex": "75cf53657ca4f958e8abc57da6eb0b45eb1b7917b875c297b9f0c557ac78a8f6",
+    "data/vectors_mutated.hex": "c9a486383e68a0192f25fdeea202dd269a21f98be38d912317dd2f07a494c357",
+    "evidence/compile.txt": "635a62caffff394dd561bbe2dd53cd2469a98830eed7fb1659e2b59f1a1b1597",
+    "evidence/elaborate.txt": "bf9aa5014982fc99468f6b94f4f800c713844ddf9b688ecae2c66a4447921ae4",
+    "evidence/generation.json": "f220a0f808e90e6a715edd575542c4581295ed89c6e1ecfb2f75d31a22ea61d4",
+    "evidence/matlab_scoreboard.json": "043ffb88f0f86540b0dfdbe151caea154ff8ef4473026d4f4426fd2df94f84d1",
+    "evidence/matlab_transcript.txt": "ed12687b96db3a39a969e54e7571ee752f8550000c90c618915babf3422bac8b",
+    "evidence/mutation_detected.txt": "43222b761caed90b218913eaa393c89da920f1633c29bcda87acebf5ce82ce54",
+    "evidence/rtl_actual.hex": "ad5f5b939dd6e5b45148658b33219d5fcb532d259b8a00d8d6f3eb5f0b526968",
+    "evidence/rtl_results.json": "54c3a878397e9d525f274195752feca72cd92a1bce501d98b20bb2360d7c68fc",
+    "evidence/rtl_scoreboard.txt": "ad8f3d6853ff312eb483a4746a14df14917bd2d1796b44e47e47c2099b7c6093",
+    "evidence/trials/elaborate_initial.txt": "b4d5e3cb117cfacc33605d189f62bcd2fd75bbf161ff9226ab2ba46a6154f144",
+    "evidence/trials/half_lsb_fixture_initial.txt": "b557694aa2eaa73804c3ee45af7480dcf46a7aad441ee2e24cae36da600e8cbc",
+    "evidence/trials/xsim_plusarg_initial.txt": "70519f188ebb5df0015c2d7d2b37f628b941e04e6220ca144102fef15c752d78",
+    "interface_v0.json": "4672260adc0171a374a71ee68c217f9141f81396f750f67ac4b9f1e058b80153",
+    "rtl/hrg_wa_drive_d0.sv": "c03aca5db5b376df755f7391d2e456bd9d8a7a85bfcced4d090f3e770ffb1101",
+    "run_d0.py": "7dfc042b0267ea03039336dfb13cc131d5e6b63a67780c1dff1367e28b21ae46",
+    "tb/tb_drive_d0.sv": "db4d2af52289d616dd95f0e6ec2a2bfdf270e77e41a08235a4d3174d108fdab9"
+  },
+  "dependencies": {
+    "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_calibration.m": "7cb0fd4e5fb7cb8db4db8590d4b5cfd6d2781f81f25c2769d6762dcd34c4b9b4"
+  }
+}

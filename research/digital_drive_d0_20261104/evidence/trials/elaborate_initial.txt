@@ -1,0 +1,13 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_drive_d0 -s d0_scoreboard 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+ERROR: [XSIM 43-4099] "C:/Users/11725/Desktop/HRG_WA/research/digital_drive_d0_20261104/rtl/hrg_wa_drive_d0.sv" Line 3. Module hrg_wa_drive_d0 doesn't have a timescale but at least one module in design has a timescale.
+ERROR: [XSIM 43-4099] "C:/Users/11725/Desktop/HRG_WA/research/digital_drive_d0_20261104/rtl/hrg_wa_drive_d0.sv" Line 3. Module hrg_wa_drive_d0 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps

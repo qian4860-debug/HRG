@@ -1,0 +1,10 @@
+{
+  "rows": 6055,
+  "active_samples": 4136,
+  "max_floating_code_difference": 3.6953203386510722,
+  "analytic_stage_error_bound_passed": true,
+  "positive_negative_fullscale_checked": true,
+  "positive_negative_half_LSB_checked": true,
+  "seed": 20261104,
+  "scope": "固定标定和外部相干NCO的数字接口算术/时序测试，非机械闭环"
+}

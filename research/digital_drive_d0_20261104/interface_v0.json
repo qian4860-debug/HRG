@@ -1,0 +1,26 @@
+{
+  "schema": "HRG-WA-digital-drive-D0-v0",
+  "status": "synthetic_research_interface_not_product_specification",
+  "sample_rate_Hz": 40000,
+  "example_carrier_Hz": 1000,
+  "example_slow_rate_Hz": 1000,
+  "max_command_age_samples": 80,
+  "system_clock_Hz": null,
+  "command_format": {"width": 20, "fractional_bits": 16, "unit": "F0; F0 is configured motion-charge acceleration [C/s^2]"},
+  "direction_and_carrier_format": {"width": 18, "fractional_bits": 16},
+  "inverse_drive_matrix_format": {"width": 20, "fractional_bits": 16, "definition": "M=F0*inverse(c.drive)/VFS", "packing": "Re00,Re01,Re10,Re11,Im00,Im01,Im10,Im11; lane0 in least significant bits"},
+  "dac_format": {"width": 18, "fractional_bits": 17, "unit": "VFS", "minimum_code": -131072, "maximum_code": 131071},
+  "rounding": "nearest_ties_away_from_zero",
+  "stage_boundaries": ["Fc/Fs after direction projection to fractional16", "complex calibrated voltage to fractional16", "carrier product to DAC fractional17"],
+  "timing": {
+    "reset": "synchronous_active_high_dominates_command_and_sample",
+    "command_update": "atomic snapshot; same-edge sample consumes previous snapshot",
+    "sample_output": "registered at sample_en rising edge; testbench observes after nonblocking updates",
+    "idle": "dac_valid=0; other outputs hold",
+    "sample_id": "trusted external 40kHz sample counter modulo2^32; forward distances must be less than2^31",
+    "freshness": "unsigned(sample_id-command_source_sample)<=80, inclusive; future timestamps rejected under bounded distance assumption"
+  },
+  "invalid_sample_action": "emit zero DAC codes at the sample transaction, drive_active=0, clip flags=0; reset emits no transaction",
+  "validation_dependencies": ["unit direction and coherent sin/cos guaranteed upstream", "calibration_valid is an upstream authorization, not a calibration estimator", "NCO phase follows actual sample epoch", "M already contains declared driver/ZOH compensation; do not compensate twice"],
+  "scope": "static direction held per command; no heading prediction, NCO generation, PI/PLL, ADC deembedding, navigation or physical closed-loop safety claim"
+}
