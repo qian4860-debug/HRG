@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-04",
-  "source_base_commit": "e8559fc4f99ecc4a24de12d1271af02b07ac6fa2",
+  "source_base_commit": "eb7cfd596983d6db1a9fd1c7cc49f6030e32d227",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "e8559fc4f99ecc4a24de12d1271af02b07ac6fa2",
+      "source_commit": "eb7cfd596983d6db1a9fd1c7cc49f6030e32d227",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "9be56c5965bad3d9a0f15a61eed6962e407b476df28c8da056fc8eec6d2815ac",
-      "archive_sha256": "8c3fd229ecaa317d0cc08e7f25d589c461bf0d5d70d7f945a78b68b2d85c3ddf",
+      "source_sha256": "4923093ba2976c5acd587f23caa30e3189e5297756a736337e175230bea53b31",
+      "archive_sha256": "8baedff9e02fee7d90d9617fad3ae55adc74788e60f13b100cdd44815682e93f",
       "rewritten_local_links": []
     },
     {
@@ -3652,6 +3652,10 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/12_盲点清单与向老师汇报_20261103.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3665,13 +3669,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 395,
-    "kept": 106
+    "source_records": 397,
+    "kept": 108
   },
   "generated_index_sha256": {
-    "README.md": "a3798577acebc8fed34f6629a6439693bbaa6867683c3721c471dfe80a599ccc",
-    "00_文档索引.md": "35eaf7a88a53577da8c4fd844f196800e80ea056aec3f8946d0be86d06a60b4e",
-    "history_filter_audit.json": "eae88a4d2c47debc36707760e377c914bb3994c9ec0982fb450d81cad4757f60"
+    "README.md": "73289283ea0240afd5209e3ec5fdeebe762eee5a149288cffafbcaa5060e5f46",
+    "00_文档索引.md": "1ba79b22480faab5f1e58cc9ccb099f6b40dffdea0e5d4967771d5be9b5450f0",
+    "history_filter_audit.json": "c54f2d921901c80ab108fa2efc601f69b059601e4f08c368b5babb9d49ff92d7"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3685,6 +3689,8 @@
     "09_压电全角固定条件下的技术路线比较_20261103.md": "ba1e14a769390d801040ea50217481051b8c9c90d02e59cb186aa26712ad00e7",
     "10_读DSH10与11后的下一步路线_20261104.md": "5238b5095c8891c7311fae3a1318ddac74bf4b706000dd0e6303dcb009bccbd6",
     "11_数字域实现路线与接口边界_20261104.md": "88784fc535f533ebc2f1cc01f0a8c8a5032fa5ed32412bf51188d5fecf223b5f",
-    "12_D0数字驱动接口与逐拍验证_20261104.md": "aae636083cc36a39aeb0de1ae6d9fac47ea7b932c88ca86939cdfad58a798bed"
+    "12_D0数字驱动接口与逐拍验证_20261104.md": "aae636083cc36a39aeb0de1ae6d9fac47ea7b932c88ca86939cdfad58a798bed",
+    "13_核心疑惑与导师汇报提纲_20261104.md": "90365a39339309ca07461fa6a6e357e70d993bb3702b642ed6f44d4513de947e",
+    "14_当前架构信号流图_20261104.md": "7b20db72115c7e2ba9d914855b161215370c4a67fbeb96607726045e0b978907"
   }
 }
