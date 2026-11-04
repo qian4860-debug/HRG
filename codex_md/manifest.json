@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-04",
-  "source_base_commit": "b2d8266123c8d3d8ef3caaf9854a1fdfa50e172a",
+  "source_base_commit": "33989297c11a7c929a735b428049cbfe1956750d",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "b2d8266123c8d3d8ef3caaf9854a1fdfa50e172a",
+      "source_commit": "33989297c11a7c929a735b428049cbfe1956750d",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "5f56081464973172be0a19e758a7d62ba4805547869f66291b7e2c923c649b97",
-      "archive_sha256": "6c834f7f05ef615973f4c4a081742bc532fd2cbdf0d9a7333c3f6f747ec1da44",
+      "source_sha256": "0ad6a9fe1211aae5be495d4282811801b984a2d5869643a72a9188a2fea0a8af",
+      "archive_sha256": "fad4fb6d51de0b5f6c4108faafe399089de55a3c76cde45f52ea0a9b0995b310",
       "rewritten_local_links": []
     },
     {
@@ -3665,13 +3665,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 393,
-    "kept": 104
+    "source_records": 394,
+    "kept": 105
   },
   "generated_index_sha256": {
-    "README.md": "ddb199a7f9f126db05f4a9fa9ef11e2db867c44e67fffb86988ee63ba76c5405",
-    "00_文档索引.md": "c57c4894838a13adfc726422909a71c9d6640d93b5adc728049d0728c9fdbb1a",
-    "history_filter_audit.json": "2858084b99ef87896148b82571c0f4ca0b18a2f84b73cbfdc6bfe8e12d713669"
+    "README.md": "1da48f9bb14833d7ceddc32840452606227555223dff99708f8c00991d45cd4d",
+    "00_文档索引.md": "092da94a744a7373b4c4b41b56229d7ac6c4c720ff0e04f9469dad645351130f",
+    "history_filter_audit.json": "3521b5c1c8d650f0eebaa3e6096b01652b20846a64f8df80fffb1948ee32f6ac"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3683,6 +3683,7 @@
     "07_A3参考帧协方差守恒_重锚定与缺测恢复_20261103.md": "cdf26029d200e1825449f55f8723c1da1df357d83f71dcea722703ef544f9fc0",
     "08_项目全路线复核_立项目标与替代架构_20261103.md": "06b48b6b3193a446a774261c8b8b059424e9392b8f15cf01fec6d7457fe41c12",
     "09_压电全角固定条件下的技术路线比较_20261103.md": "ba1e14a769390d801040ea50217481051b8c9c90d02e59cb186aa26712ad00e7",
-    "10_读DSH10与11后的下一步路线_20261104.md": "10f7fdd82420f33d9b10ad29b7fea29dfc0e6f1eead22d413379c25d8bdd4937"
+    "10_读DSH10与11后的下一步路线_20261104.md": "5238b5095c8891c7311fae3a1318ddac74bf4b706000dd0e6303dcb009bccbd6",
+    "11_数字域实现路线与接口边界_20261104.md": "88784fc535f533ebc2f1cc01f0a8c8a5032fa5ed32412bf51188d5fecf223b5f"
   }
 }
