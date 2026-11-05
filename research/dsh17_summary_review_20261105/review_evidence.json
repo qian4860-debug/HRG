@@ -1,0 +1,74 @@
+{
+  "scope": "read_only_evidence_and_simplified_math_review_not_closed_loop_validation",
+  "source_commit": "a32a9b5233acf9855d91f0c44d3579f263db9e72",
+  "rate_budget_is_hypothetical": true,
+  "rate_rows": [
+    {
+      "body_rate_deg_s": 10,
+      "peak_rate_rad_s": 2.1094756320229567e-06,
+      "peak_rate_deg_h": 0.4351105825221863,
+      "dt_limit_us_for_0p001_deg_s": 1034.21984680654
+    },
+    {
+      "body_rate_deg_s": 100,
+      "peak_rate_rad_s": 0.0002109475632022957,
+      "peak_rate_deg_h": 43.51105825221864,
+      "dt_limit_us_for_0p001_deg_s": 10.342198468065401
+    },
+    {
+      "body_rate_deg_s": 316,
+      "peak_rate_rad_s": 0.002106437987112844,
+      "peak_rate_deg_h": 434.48402328335436,
+      "dt_limit_us_for_0p001_deg_s": 1.0357112710368335
+    },
+    {
+      "body_rate_deg_s": 1000,
+      "peak_rate_rad_s": 0.021094756320229575,
+      "peak_rate_deg_h": 4351.1058252218645,
+      "dt_limit_us_for_0p001_deg_s": 0.10342198468065399
+    }
+  ],
+  "A1_primary_case_003_heldout_voltage_error_percent": 7.945838370057916,
+  "A1_primary_case_009_heldout_voltage_error_percent": 12.183840456042455,
+  "W_constraint_ranks": {
+    "isotropic": 0,
+    "coaxial": 1,
+    "noncoaxial": 2
+  },
+  "frame_8_times_600us": {
+    "period_ms": 4.8,
+    "update_Hz": 208.33333333333334,
+    "ZOH_phase_at_5Hz_deg": 4.319999999999999,
+    "one_extra_frame_phase_at_5Hz_deg": 8.639999999999999
+  },
+  "zero_failures_upper_bound_95pct_if_100_independent_trials": 0.029513049607039932,
+  "checks": {
+    "rate_budget_converts_degrees_to_radians": true,
+    "100deg_s_peak_rate_is_about_43p5_deg_h": true,
+    "A1_AFE_counterexample_uses_1p3_0p75": true,
+    "A1_Cs_counterexample_uses_20pct": true,
+    "A1_7p95pct_is_heldout_voltage_error": true,
+    "A1_12p18pct_is_heldout_voltage_error": true,
+    "FRP_uses_scan_rate_harmonics_not_temperature_harmonics": true,
+    "existing_A2_has_statistical_parameters": true,
+    "W_constraint_rank_depends_on_available_operators": true,
+    "W_has_unresolved_right_rotation": true,
+    "A4_D0_replay_is_64003_cycles": true
+  },
+  "passed": true,
+  "source_sha256": {
+    "DSH_md/17_汇总结论与仍没想到的_20261105.md": "9dc17e8d7e5d1cbb9d133e6abda283726065f071d986220ee407cdd054d7ba9c",
+    "DSH_md/16_对17号复核的回应_单位错误与修正口径_20261105.md": "5c1cd6b06bb31c5a2828b9937978663a32bb45370c6967ba35de92dc597d11bd",
+    "research/port_deembedding_20261103/a1_generate.m": "fabc7e4724ecc37cc774d0be95325dc79a13b502b4326b77d2fd84e5b20ee7af",
+    "research/port_deembedding_20261103/evidence/scores.json": "91476efc733d015973eeacfbf55c7609c9bcbd6f04cb68b12de290a77dcd4683",
+    "research/causal_deembedding_20261103/config.json": "af1abf1f9dde266d8d45f5123711b04430617f55b0e0526b9c7f0b2e16079f48",
+    "research/reference_covariance_20261103/config.json": "dcdc83ec06d07d39679c86e65fc4b56f3202e45ddbe16a65f6d3f3ce558173ac",
+    "research/reference_covariance_20261103/a3_process.py": "77faa593a98323f8b7558e5fb20e9111f2db3738853fe0c92d6a61e92bce30a9",
+    "research/physical_adapter_a4_20261105/config.json": "b0d06c2fbd3664b8e33210774c8d16eae8bd06d64b85e747c2e651f06a987963",
+    "research/physical_adapter_a4_20261105/evidence/rtl_results.json": "5fada3ad9bd66020faf0a776f795f8a0e2f2bf2700c6256e5ec26bd3429c4f44",
+    "research/physical_adapter_a4_20261105/a4_adapter_config.m": "f2e2de1f6d3bd360eea24ea43083d774dbed26f19037d793f5bcddb6232ae1d6",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_plant.m": "840ac07dbb8e5e301e3aba199fc97379d588f35f53c0f3969414f195907bbded",
+    "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_v46_frp_basis.m": "ee0ff8edc2d56dd1b68d8fa7cb338da4615380f572a41d1c73e19e8d3bf747d9"
+  },
+  "script_sha256": "26ea7e61e0249e93f9ab2fd86eaf639cb7c42cfdf96dda6705862fb77b0eb09a"
+}
