@@ -1,0 +1,224 @@
+{
+  "zero": {
+    "float": {
+      "relative_body_RMS_rad": 2.5438984972577948E-6,
+      "energy_relative_mean": -5.1453514935850819E-5,
+      "quadrature_RMS": 2.3052269242491571E-6,
+      "PLL_RMS": 3.8322368141411964E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.4368133544921875,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "integer": {
+      "relative_body_RMS_rad": 1.6772056645996929E-5,
+      "energy_relative_mean": -5.1631554990549944E-5,
+      "quadrature_RMS": 2.411374020046816E-6,
+      "PLL_RMS": 4.3121467765119044E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.4368133544921875,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "trajectory_difference_charge_target": 1.5732707489607417E-5,
+    "body_difference_RMS_rad": 1.5650069801944448E-5,
+    "checks": {
+      "body": true,
+      "body_difference": true,
+      "trajectory": true,
+      "energy": true,
+      "quadrature": true,
+      "PLL": true,
+      "no_clip": true,
+      "valid": true
+    },
+    "passed": true
+  },
+  "positive": {
+    "float": {
+      "relative_body_RMS_rad": 4.8650215095993463E-5,
+      "energy_relative_mean": -5.1402712456405375E-5,
+      "quadrature_RMS": 3.6587057988419303E-6,
+      "PLL_RMS": 3.6381415243696259E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.430023193359375,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "integer": {
+      "relative_body_RMS_rad": 4.88534462013389E-5,
+      "energy_relative_mean": -5.1487868760857758E-5,
+      "quadrature_RMS": 4.6691296698792819E-6,
+      "PLL_RMS": 3.4613765460239184E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.430023193359375,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "trajectory_difference_charge_target": 6.5772241977084887E-6,
+    "body_difference_RMS_rad": 3.2086188129331912E-6,
+    "checks": {
+      "body": true,
+      "body_difference": true,
+      "trajectory": true,
+      "energy": true,
+      "quadrature": true,
+      "PLL": true,
+      "no_clip": true,
+      "valid": true
+    },
+    "passed": true
+  },
+  "negative": {
+    "float": {
+      "relative_body_RMS_rad": 4.7911490394782104E-5,
+      "energy_relative_mean": -5.1453582524230157E-5,
+      "quadrature_RMS": 3.6934127503672451E-6,
+      "PLL_RMS": 3.6901465755059172E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.43685150146484375,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "integer": {
+      "relative_body_RMS_rad": 5.2645262748475343E-5,
+      "energy_relative_mean": -5.1352430967543938E-5,
+      "quadrature_RMS": 4.2580765458210662E-6,
+      "PLL_RMS": 4.0957773398798926E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.4368438720703125,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "trajectory_difference_charge_target": 1.8339194372576843E-5,
+    "body_difference_RMS_rad": 6.6886802309087627E-6,
+    "checks": {
+      "body": true,
+      "body_difference": true,
+      "trajectory": true,
+      "energy": true,
+      "quadrature": true,
+      "PLL": true,
+      "no_clip": true,
+      "valid": true
+    },
+    "passed": true
+  },
+  "fast": {
+    "float": {
+      "relative_body_RMS_rad": 0.00019743751887370888,
+      "energy_relative_mean": -5.1449408239756522E-5,
+      "quadrature_RMS": 1.1423698332788362E-5,
+      "PLL_RMS": 2.9062804749777548E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.41302490234375,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "integer": {
+      "relative_body_RMS_rad": 0.00019959295701692866,
+      "energy_relative_mean": -5.1369901808984153E-5,
+      "quadrature_RMS": 1.2325080154501182E-5,
+      "PLL_RMS": 2.248874668687885E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.41303253173828125,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "trajectory_difference_charge_target": 1.631445094031444E-5,
+    "body_difference_RMS_rad": 3.8471032932272987E-6,
+    "checks": {
+      "body": true,
+      "body_difference": true,
+      "trajectory": true,
+      "energy": true,
+      "quadrature": true,
+      "PLL": true,
+      "no_clip": true,
+      "valid": true
+    },
+    "passed": true
+  },
+  "sign_step": {
+    "float": {
+      "relative_body_RMS_rad": 4.7599709959079911E-5,
+      "energy_relative_mean": -5.1418338213204962E-5,
+      "quadrature_RMS": 2.3387882722383637E-5,
+      "PLL_RMS": 3.705987983866493E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.430023193359375,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "integer": {
+      "relative_body_RMS_rad": 4.4760735048704648E-5,
+      "energy_relative_mean": -5.1369047994964667E-5,
+      "quadrature_RMS": 2.3136591017518613E-5,
+      "PLL_RMS": 4.1745311393318396E-6,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.430023193359375,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "trajectory_difference_charge_target": 6.9704623276675262E-6,
+    "body_difference_RMS_rad": 6.01532275994116E-6,
+    "checks": {
+      "body": true,
+      "body_difference": true,
+      "trajectory": true,
+      "energy": true,
+      "quadrature": true,
+      "PLL": true,
+      "no_clip": true,
+      "valid": true
+    },
+    "passed": true
+  },
+  "noise5u": {
+    "float": {
+      "relative_body_RMS_rad": 6.8909979255476418E-5,
+      "energy_relative_mean": -5.1567747089142912E-5,
+      "quadrature_RMS": 2.2051086035157256E-5,
+      "PLL_RMS": 1.1552305699200143E-5,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.43003082275390625,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "integer": {
+      "relative_body_RMS_rad": 6.518344178071088E-5,
+      "energy_relative_mean": -5.15893856611882E-5,
+      "quadrature_RMS": 2.2155978484028686E-5,
+      "PLL_RMS": 1.1605977946363434E-5,
+      "valid_fraction": 1,
+      "source_origin_s": 0.3004875,
+      "DAC_margin_V": 0.43001556396484375,
+      "DAC_clipped": 0,
+      "max_frame_age_s": 5.5511151231257827E-17
+    },
+    "trajectory_difference_charge_target": 5.1546953074428771E-6,
+    "body_difference_RMS_rad": 4.8647738611533785E-6,
+    "checks": {
+      "body": true,
+      "body_difference": true,
+      "trajectory": true,
+      "energy": true,
+      "quadrature": true,
+      "PLL": true,
+      "no_clip": true,
+      "valid": true
+    },
+    "passed": true
+  }
+}

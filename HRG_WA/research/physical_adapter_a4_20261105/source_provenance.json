@@ -1,0 +1,8 @@
+{
+  "source": "HRG_WA_simulink/piezo_v10/noise_research/sn_tick.m",
+  "sha256": "8c1803db651378bbfd8d3616248253fc49189d3426861b4a93e2dcea0e575dc3",
+  "substitutions": [
+    "function name",
+    "one DAC synthesis line replaced by a4_drive; actual clip feeds original control state"
+  ]
+}

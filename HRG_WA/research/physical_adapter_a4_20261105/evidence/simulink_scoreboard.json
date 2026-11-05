@@ -1,0 +1,7 @@
+{
+  "plant_relative_max": 0,
+  "DAC_bit_identical": true,
+  "ADC_bit_identical": true,
+  "diagnostics_NaN_masks": true,
+  "diagnostic_max": 0
+}

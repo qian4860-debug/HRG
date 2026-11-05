@@ -1,0 +1,21 @@
+A4 zero pass=1 body=1.67721e-05 delta=1.56501e-05 trajectory=1.57327e-05
+A4 positive pass=1 body=4.88534e-05 delta=3.20862e-06 trajectory=6.57722e-06
+A4 negative pass=1 body=5.26453e-05 delta=6.68868e-06 trajectory=1.83392e-05
+A4 fast pass=1 body=0.000199593 delta=3.8471e-06 trajectory=1.63145e-05
+A4 sign_step pass=1 body=4.47607e-05 delta=6.01532e-06 trajectory=6.97046e-06
+{错误使用 assert
+断言失败。
+
+出错 a4_run>a4_ode_check (第 83 行)
+assert(result.passed);
+^^^^^^^^^^^^^^^^^^^^^
+出错 a4_run (第 36 行)
+  ode=a4_ode_check(ri,q,z,cfg);pcn_json(fullfile(root,'evidence','ODE_checks.json'),ode);
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+A4 zero pass=1 body=1.67721e-05 delta=1.56501e-05 trajectory=1.57327e-05
+A4 positive pass=1 body=4.88534e-05 delta=3.20862e-06 trajectory=6.57722e-06
+A4 negative pass=1 body=5.26453e-05 delta=6.68868e-06 trajectory=1.83392e-05
+A4 fast pass=1 body=0.000199593 delta=3.8471e-06 trajectory=1.63145e-05
+A4 sign_step pass=1 body=4.47607e-05 delta=6.01532e-06 trajectory=6.97046e-06
+A4 noise5u pass=1 body=6.51834e-05 delta=4.86477e-06 trajectory=5.1547e-06

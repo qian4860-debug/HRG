@@ -1,0 +1,4 @@
+sim/
+__pycache__/
+slprj/
+*.slxc
