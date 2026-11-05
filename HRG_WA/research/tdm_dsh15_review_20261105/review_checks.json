@@ -1,0 +1,115 @@
+{
+  "scope": "simplified_mathematical_review_not_TDM_or_closed_loop_validation",
+  "budget_rad": 0.003,
+  "budget_deg": 0.17188733853924698,
+  "B": 0.277,
+  "omega_deg_s": 100.0,
+  "angle_rows": [
+    {
+      "dt_us": 125,
+      "alpha_peak_deg": 0.0034625000000000007,
+      "alpha_peak_rad": 6.043202535030367e-05,
+      "absolute_A2_budget_percent": 2.0144008450101225,
+      "relative_A2_upper_bound_percent": 4.028801690020245,
+      "beta_peak_deg": 0.0017312500000000004,
+      "body_peak_deg": 0.00625
+    },
+    {
+      "dt_us": 25,
+      "alpha_peak_deg": 0.0006925000000000001,
+      "alpha_peak_rad": 1.2086405070060733e-05,
+      "absolute_A2_budget_percent": 0.40288016900202445,
+      "relative_A2_upper_bound_percent": 0.8057603380040489,
+      "beta_peak_deg": 0.00034625000000000004,
+      "body_peak_deg": 0.0012499999999999998
+    },
+    {
+      "dt_us": 5,
+      "alpha_peak_deg": 0.0001385,
+      "alpha_peak_rad": 2.4172810140121465e-06,
+      "absolute_A2_budget_percent": 0.08057603380040489,
+      "relative_A2_upper_bound_percent": 0.16115206760080977,
+      "beta_peak_deg": 6.925e-05,
+      "body_peak_deg": 0.00025
+    }
+  ],
+  "instantaneous_alpha_only_dt_limit_ms": 6.2053190808392396,
+  "relative_alpha_two_endpoint_bound_dt_limit_ms": 3.1026595404196198,
+  "first_order_AFE_20k_settling_us": 54.97016991595708,
+  "window_examples": [
+    {
+      "slot_us": 50,
+      "valid_us": -4.970169915957086,
+      "feasible": false,
+      "nominal_fs_for_20_samples_Hz": null,
+      "nominal_samples_at_40k": 0
+    },
+    {
+      "slot_us": 75,
+      "valid_us": 20.029830084042914,
+      "feasible": true,
+      "nominal_fs_for_20_samples_Hz": 998510.7170696033,
+      "nominal_samples_at_40k": 0.8011932033617165
+    },
+    {
+      "slot_us": 100,
+      "valid_us": 45.029830084042906,
+      "feasible": true,
+      "nominal_fs_for_20_samples_Hz": 444150.02150068834,
+      "nominal_samples_at_40k": 1.8011932033617164
+    },
+    {
+      "slot_us": 150,
+      "valid_us": 95.0298300840429,
+      "feasible": true,
+      "nominal_fs_for_20_samples_Hz": 210460.23109072502,
+      "nominal_samples_at_40k": 3.801193203361716
+    },
+    {
+      "slot_us": 600,
+      "valid_us": 545.0298300840429,
+      "feasible": true,
+      "nominal_fs_for_20_samples_Hz": 36695.2392255595,
+      "nominal_samples_at_40k": 21.801193203361716
+    }
+  ],
+  "exact_geometry_remainder_rad": 8.041419802870526e-09,
+  "half_dt_remainder_rad": 2.0103231554614723e-09,
+  "rate_derivative_numeric_rad_s": 0.00015323952896814923,
+  "rate_derivative_first_order_rad_s": 0.00015323882327409393,
+  "checks": {
+    "budget_unit_conversion": true,
+    "125us_occupancy_about_2pct_not_100pct": true,
+    "25us_occupancy_below_half_pct_not_23pct": true,
+    "nonlinear_geometry_remainder_is_second_order": true,
+    "50us_slot_has_no_valid_window_after_55us": true,
+    "100us_slot_requires_about_445k_nominal": true,
+    "600us_slot_counterexample_to_all_40k_TDM_impossible": true,
+    "fixed_magnitude_reverse_scan_is_confounded": true,
+    "multiple_magnitudes_can_separate_two_terms": true,
+    "angle_and_rate_error_have_distinct_scaling": true
+  },
+  "passed": true,
+  "primary_sources_rechecked": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11944256/",
+      "scope": "section 4.2 alternating demodulation"
+    },
+    {
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9215.pdf",
+      "scope": "table 4; minimum conversion rate definition; low-rate degradation note"
+    }
+  ],
+  "source_sha256": {
+    "DSH_md/15_对16号分时复用与高速采样的分析_20261105.md": "c157bdca261accadcece051e0190cc7f155426c16eb6164fbceb370050895c81",
+    "codex_md/16_分时复用与相位校准是否需要高速采样_20261105.md": "6da270130242429665125dbe043f7e33fda9577c5930d4f979af9292daf27bb6",
+    "research/causal_deembedding_20261103/config.json": "af1abf1f9dde266d8d45f5123711b04430617f55b0e0526b9c7f0b2e16079f48",
+    "research/causal_deembedding_20261103/a2_dsp.py": "37cfa980e4904cd1045bdcc0b0a323213e028904e3286ea730fa67bab6746027",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_config.m": "5035fe6035859ad111e0b367de5f69c1ad823abed961963ea2f475462ff4741d",
+    "HRG_WA_simulink/piezo_v10/revision_v10_2_cn/pcn_plant.m": "840ac07dbb8e5e301e3aba199fc97379d588f35f53c0f3969414f195907bbded",
+    "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_v46_params.m": "11d521eafd4b883802329faaa53212ad2f6adfa6c04547633c5fe5c662401b4f",
+    "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_v46_frp_basis.m": "ee0ff8edc2d56dd1b68d8fa7cb338da4615380f572a41d1c73e19e8d3bf747d9",
+    "HRG_WA_Digital_ASIC_MATLAB_v4_6_5_FRP_validation_fix/HRG_WA_v46_simulate.m": "8b586777640dc25e88cadd33f022f90a7e170d26af0085eac15545b3be5de01d"
+  },
+  "script_sha256": "4c94ac77ccabde357cc39a5edb62bd9d91b5dc979c21f5d0bb08059413c71722"
+}
