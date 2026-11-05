@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-05",
-  "source_base_commit": "06d4da9f65e21eaa43cf62cc9e6c5b0fb6b29b5e",
+  "source_base_commit": "3ef9eb65d59f312e8336d5c03f62f36536f57d46",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "06d4da9f65e21eaa43cf62cc9e6c5b0fb6b29b5e",
+      "source_commit": "3ef9eb65d59f312e8336d5c03f62f36536f57d46",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "4b3629a0cb984ebb745948ac08396544e0c0bb4ab42af4d6ba0b7b5532e2d6c3",
-      "archive_sha256": "4c80af713868af2eb1076b26959a3326a8ec30b2672012c0ed8fd74d842b6026",
+      "source_sha256": "a4b7c95df02e3dc02772458d63b911797a603abc0ba30a5f34e60b807338a9f9",
+      "archive_sha256": "686dede647a7f1a4b65d242b7b333f4a371bd944ced5e0dc913a1bdff8811a00",
       "rewritten_local_links": []
     },
     {
@@ -3668,6 +3668,14 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/16_对17号复核的回应_单位错误与修正口径_20261105.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/17_汇总结论与仍没想到的_20261105.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3681,13 +3689,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 400,
-    "kept": 111
+    "source_records": 401,
+    "kept": 112
   },
   "generated_index_sha256": {
-    "README.md": "de3567ff07c651c85239ea487cb193c9391f3d06da305b55c27440c6124a4f49",
-    "00_文档索引.md": "dc97faf7383ddb6059941fdb65586488e7e050351e872af71ac31d86aadfd2bf",
-    "history_filter_audit.json": "370d3db769d469dc994bfb389a7e2c9ba276a1801c6d4716f77f6e5fddbc135a"
+    "README.md": "3ce56ca12b12fd9df24d72c086f76544561c839b1cfe11a61bc7bef5f06f95e2",
+    "00_文档索引.md": "a337467c643b94da26ff16118910bcf1ecab6db2bb5cc1a5c9fb8431619dd98d",
+    "history_filter_audit.json": "163e6ce3ec40daea1fdf708b277eee53c0870b3ab8ddd1843d826b18ec293ec6"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3706,6 +3714,7 @@
     "14_当前架构信号流图_20261104.md": "7b20db72115c7e2ba9d914855b161215370c4a67fbeb96607726045e0b978907",
     "15_物理适配器与A4最小旋转闭环_20261105.md": "b945509b1f017c9a6b882b4741c407b812658e0b6c3329f6918cda8bfe2696dc",
     "16_分时复用与相位校准是否需要高速采样_20261105.md": "6da270130242429665125dbe043f7e33fda9577c5930d4f979af9292daf27bb6",
-    "17_DSH15号分时分析复核_单位窗口与标定混淆_20261105.md": "053d4d7d0d978b2d6597e38e1b74c05b574d849a1f5adff8d37ce2ab8880a045"
+    "17_DSH15号分时分析复核_单位窗口与标定混淆_20261105.md": "053d4d7d0d978b2d6597e38e1b74c05b574d849a1f5adff8d37ce2ab8880a045",
+    "18_DSH17汇总复核_结论边界与下一步验收_20261105.md": "8ee0b9099c411572ac8e35fd0b563218ed8c240dae47398ee39b88429e82018e"
   }
 }
