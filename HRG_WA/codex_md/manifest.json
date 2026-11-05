@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-05",
-  "source_base_commit": "78412be82dd7e749526cfd08d18fb47774c023fd",
+  "source_base_commit": "b6a41c773d8c1c0eeab6edc03a9ed0abb58d1bcd",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "78412be82dd7e749526cfd08d18fb47774c023fd",
+      "source_commit": "b6a41c773d8c1c0eeab6edc03a9ed0abb58d1bcd",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "7a3bb90a9aa57f5525f6647679773987a20827a38b48cb2a96ff8f2620c9a1b1",
-      "archive_sha256": "6ec29aa4bdb848686abf65aeddf3ae1f007e1d478fdd8d60607bc0f51253bda7",
+      "source_sha256": "fedcc91cf036a3927ec2c54ef2aa0a527fdbd04fa345d114be75778d79434cdc",
+      "archive_sha256": "a113c39f8b44d84cae39c6630e4f85c921645bf4749428520318a7799ac7ff58",
       "rewritten_local_links": []
     },
     {
@@ -3660,6 +3660,10 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/14_TDM与相位校准_文献动机与量化_20261103.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3673,13 +3677,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 398,
-    "kept": 109
+    "source_records": 399,
+    "kept": 110
   },
   "generated_index_sha256": {
-    "README.md": "e729eb1c5490f7bbe2d8a117c98a42fdf8d5bd08e0536ba2b0d3ff8f4e4efbad",
-    "00_文档索引.md": "a7b03804daa5d6ad096a309dab311887ab659ff2dc8bab9b878306ecda9734ef",
-    "history_filter_audit.json": "f65ad9402287eee1c17e3518dc00e52641c761a1af8011079a02be264f69e774"
+    "README.md": "18ef80bef85d580bab1a259a04258165a855817f94a56035d6e8acbbb616dc3d",
+    "00_文档索引.md": "6bdb5f6461c366dd5463ce4d452c48622b5a49a92755d1b2a1660e3311c66b08",
+    "history_filter_audit.json": "fc9f794b40a250f4415f1a8e53ed8df314d7577f1920ff591c9b803d42109a3e"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3696,6 +3700,7 @@
     "12_D0数字驱动接口与逐拍验证_20261104.md": "aae636083cc36a39aeb0de1ae6d9fac47ea7b932c88ca86939cdfad58a798bed",
     "13_核心疑惑与导师汇报提纲_20261104.md": "90365a39339309ca07461fa6a6e357e70d993bb3702b642ed6f44d4513de947e",
     "14_当前架构信号流图_20261104.md": "7b20db72115c7e2ba9d914855b161215370c4a67fbeb96607726045e0b978907",
-    "15_物理适配器与A4最小旋转闭环_20261105.md": "b945509b1f017c9a6b882b4741c407b812658e0b6c3329f6918cda8bfe2696dc"
+    "15_物理适配器与A4最小旋转闭环_20261105.md": "b945509b1f017c9a6b882b4741c407b812658e0b6c3329f6918cda8bfe2696dc",
+    "16_分时复用与相位校准是否需要高速采样_20261105.md": "6da270130242429665125dbe043f7e33fda9577c5930d4f979af9292daf27bb6"
   }
 }
