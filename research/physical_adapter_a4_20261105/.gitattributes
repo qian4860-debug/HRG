@@ -1,0 +1,6 @@
+data/** -text whitespace=cr-at-eol
+evidence/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+models/** -text
+manifest.json -text
+*.json -text whitespace=cr-at-eol
+evidence_run.txt -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

@@ -1,0 +1,17 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Thu Nov  5 15:39:20 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/d0_scoreboard/xsim_script.tcl
+# xsim {d0_scoreboard} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+D0_SCOREBOARD_PASS rows=64003
+$finish called at time : 640036 ns : File "C:/Users/11725/Desktop/HRG_WA/research/digital_drive_d0_20261104/tb/tb_drive_d0.sv" Line 39
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Nov  5 15:39:26 2026...

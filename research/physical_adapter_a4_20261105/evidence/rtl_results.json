@@ -1,0 +1,14 @@
+{
+  "physical_samples": 32001,
+  "core_cycles": 64003,
+  "fields": 9,
+  "actual_bit_identical": true,
+  "mutation_rejected": true,
+  "maximum_DAC_code_difference": 0,
+  "schedule": "每载波采样前留一个无sample_en的核心时钟槽；必要时原子加载命令，bootstrap先加载再发首采样",
+  "scope": "对闭环实际端口记录的RTL回放，不是RTL实时闭环、综合或实际DAC建立时间验收",
+  "source_sha256": {
+    "research/digital_drive_d0_20261104/rtl/hrg_wa_drive_d0.sv": "c03aca5db5b376df755f7391d2e456bd9d8a7a85bfcced4d090f3e770ffb1101",
+    "research/digital_drive_d0_20261104/tb/tb_drive_d0.sv": "db4d2af52289d616dd95f0e6ec2a2bfdf270e77e41a08235a4d3174d108fdab9"
+  }
+}

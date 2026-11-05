@@ -1,0 +1,7 @@
+{
+  "maximum_unrounded_error_DAC_LSB": 2.6588514685936389,
+  "one_sample_phase_fault_voltage": 0.063674312988763526,
+  "scale_invariance_voltage_error": 2.288818359375E-5,
+  "metadata_and_singular_matrix_rejections": 3,
+  "passed": true
+}

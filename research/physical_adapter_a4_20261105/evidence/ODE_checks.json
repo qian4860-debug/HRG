@@ -1,0 +1,5 @@
+{
+  "RK4_substeps": 32,
+  "max_charge_error_over_target": 1.9016578300092989E-8,
+  "passed": true
+}

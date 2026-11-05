@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/11725/Desktop/HRG_WA/research/digital_drive_d0_20261104/rtl/hrg_wa_drive_d0.sv" into library work
+INFO: [VRFC 10-311] analyzing module hrg_wa_drive_d0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/11725/Desktop/HRG_WA/research/digital_drive_d0_20261104/tb/tb_drive_d0.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_drive_d0

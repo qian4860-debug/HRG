@@ -1,0 +1,16 @@
+{
+ "schema":"A4-minimal-rotation-debug-v0",
+ "duration_s":0.8,
+ "score_origin_not_before_s":0.3,
+ "score_not_before_s":0.35,
+ "adapter_error_limit_DAC_LSB":16,
+ "trajectory_difference_limit_charge_target":0.02,
+ "relative_body_angle_RMS_limit_rad":0.003,
+ "integer_vs_float_body_angle_RMS_limit_rad":0.0005,
+ "energy_relative_limit":0.05,
+ "quadrature_RMS_limit":0.002,
+ "PLL_RMS_limit":0.003,
+ "ODE_RK4_substeps":8,
+ "ODE_relative_charge_limit":0.00001,
+ "scope":"合成、固定独立校准、关闭预测/张量/虚拟进动和IQ平滑；调试验收非实物规格，非完整A2/A3接入或环路裕量保证"
+}
