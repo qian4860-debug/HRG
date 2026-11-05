@@ -1,0 +1,79 @@
+{
+  "scope": "illustrative_arithmetic_only_not_hardware_or_closed_loop_validation",
+  "slot_us": 50.0,
+  "discard_us": 35.0,
+  "valid_window_us": 15.000000000000005,
+  "rate_examples": [
+    {
+      "fs_Hz": 40000,
+      "nominal_samples_in_window": 0.6000000000000002,
+      "phase_per_sample_deg_at_1kHz": 9.0
+    },
+    {
+      "fs_Hz": 1000000,
+      "nominal_samples_in_window": 15.000000000000005,
+      "phase_per_sample_deg_at_1kHz": 0.36
+    },
+    {
+      "fs_Hz": 5000000,
+      "nominal_samples_in_window": 75.00000000000003,
+      "phase_per_sample_deg_at_1kHz": 0.072
+    },
+    {
+      "fs_Hz": 65000000,
+      "nominal_samples_in_window": 975.0000000000003,
+      "phase_per_sample_deg_at_1kHz": 0.005538461538461538
+    }
+  ],
+  "minimum_fs_for_sample_counts_Hz": {
+    "20": 1333333.3333333328,
+    "64": 4266666.666666665
+  },
+  "phase_time_budget": [
+    {
+      "carrier_Hz": 1000,
+      "phase_budget_deg": 0.1,
+      "time_budget_ns": 277.7777777777778,
+      "phase_per_20ns_tick_deg": 0.0072
+    },
+    {
+      "carrier_Hz": 7322,
+      "phase_budget_deg": 0.1,
+      "time_budget_ns": 37.937418434550366,
+      "phase_per_20ns_tick_deg": 0.0527184
+    },
+    {
+      "carrier_Hz": 9463,
+      "phase_budget_deg": 0.1,
+      "time_budget_ns": 29.354092547582987,
+      "phase_per_20ns_tick_deg": 0.0681336
+    }
+  ],
+  "adc_five_cycle_latency_ns": {
+    "5000000": 1000.0,
+    "65000000": 76.92307692307692
+  },
+  "pu_example_amplitude_decay": {
+    "f_Hz": 9463,
+    "Q": 132000,
+    "tau_s": 4.440125222050129,
+    "time_to_20pct_amplitude_loss_s": 0.9907853103280597
+  },
+  "pu_timing_example": {
+    "drive_ms": 10,
+    "read_ms": 21,
+    "each_discharge_ms": 1,
+    "unusable_read_start_ms": 5,
+    "cycle_ms": 33,
+    "cycle_rate_Hz": 30.3030303030303,
+    "valid_read_ms": 16,
+    "azimuth_deviation_deg_at_200deg_s": 1.6340000000000003
+  },
+  "assumptions": [
+    "nominal fs*Tw is not an exact edge-aligned sample count",
+    "all transient rejection and guard time must be included in discard_s",
+    "phase per sample is not a lower bound on an I/Q phase estimator",
+    "more samples are not automatically statistically independent"
+  ],
+  "script_sha256": "5ae5aa01b39a91e2319bf52130b29237decc1f67693dfe4bcf8c6c47498368b4"
+}
