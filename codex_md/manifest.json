@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "3ef9eb65d59f312e8336d5c03f62f36536f57d46",
-      "source_mode": "working_question_append",
+      "source_commit": "0469b4096004a21bf7c849b72b087141657ddcab",
+      "source_mode": "committed_snapshot",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "a4b7c95df02e3dc02772458d63b911797a603abc0ba30a5f34e60b807338a9f9",
-      "archive_sha256": "686dede647a7f1a4b65d242b7b333f4a371bd944ced5e0dc913a1bdff8811a00",
+      "source_sha256": "8485f882ccaf2b0f182d41673bded82fb08cbd005b68e00477bd545557f807e5",
+      "archive_sha256": "8b76cd7df366794a95db9b5046401fcc6cb144b5034e68ec3c77d91c143c762d",
       "rewritten_local_links": []
     },
     {
@@ -3689,13 +3689,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 401,
-    "kept": 112
+    "source_records": 402,
+    "kept": 113
   },
   "generated_index_sha256": {
-    "README.md": "3ce56ca12b12fd9df24d72c086f76544561c839b1cfe11a61bc7bef5f06f95e2",
-    "00_文档索引.md": "a337467c643b94da26ff16118910bcf1ecab6db2bb5cc1a5c9fb8431619dd98d",
-    "history_filter_audit.json": "163e6ce3ec40daea1fdf708b277eee53c0870b3ab8ddd1843d826b18ec293ec6"
+    "README.md": "2ba41b672eeb61d73903af505e34083937a636d0feb88abc0e5cdad2f588ed54",
+    "00_文档索引.md": "f6df603de15d0e38b5b6e03a94225710a09f1c8d63bac63c7e3950893e51182f",
+    "history_filter_audit.json": "8e1da26bce6283806587bdcd9bbfad06abd0668192e731b97801a5425d98885e"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3715,6 +3715,7 @@
     "15_物理适配器与A4最小旋转闭环_20261105.md": "b945509b1f017c9a6b882b4741c407b812658e0b6c3329f6918cda8bfe2696dc",
     "16_分时复用与相位校准是否需要高速采样_20261105.md": "6da270130242429665125dbe043f7e33fda9577c5930d4f979af9292daf27bb6",
     "17_DSH15号分时分析复核_单位窗口与标定混淆_20261105.md": "053d4d7d0d978b2d6597e38e1b74c05b574d849a1f5adff8d37ce2ab8880a045",
-    "18_DSH17汇总复核_结论边界与下一步验收_20261105.md": "8ee0b9099c411572ac8e35fd0b563218ed8c240dae47398ee39b88429e82018e"
+    "18_DSH17汇总复核_结论边界与下一步验收_20261105.md": "8ee0b9099c411572ac8e35fd0b563218ed8c240dae47398ee39b88429e82018e",
+    "19_低速连续与高速分时复用设计_20261107.md": "3ed752b7d286b7ebd725e43e010a26161b286b812cf2d14f407c5d795fbfdf28"
   }
 }
