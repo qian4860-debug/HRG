@@ -1,5 +1,5 @@
 > Codex 文档归档副本｜原路径：[GIT_WORKFLOW.md](<../../GIT_WORKFLOW.md>)
-> 来源提交：`61ea27a8016a`；源 SHA256：`4d374e48e79b6e259b951a4f0efe356499cfed861dcc8b9d4edbc5921132b37d`。历史结论须结合版本阅读。
+> 来源提交：`b65c56db8ede`；源 SHA256：`a08c3537ce5d4ed4878b517e27e554a978b85e512140f4831764805443d52b3e`。历史结论须结合版本阅读。
 
 # 项目 Git 版本管理
 
@@ -14,6 +14,8 @@ python tools/sync_github_subproject.py             # 生成并校验本地导入
 python tools/sync_github_subproject.py --push      # 用户已持续授权后续工程版本同步
 # 如需使用当前 Windows 系统代理，可追加 --proxy http://127.0.0.1:7897
 ```
+
+> **2026-11-09 迁移更新**：本机现为 `https://github.com/qian4860-debug/HRG.git` 的**完整克隆**（`G:\学习资料\HRG`），本地 `main` 与远端 `main` 顶层布局一致（`HRG_WA/` + `README.md`）。因此本机应直接 `git push origin main`（经代理 `http://127.0.0.1:7897`），不要再运行上面的子树导入脚本；该脚本只适用于旧的“独立 HRG_WA 仓库根”布局，在完整克隆下会因 `HEAD^{tree}` 包含父仓库而在子树断言处失败（2026-11-09 实测）。
 
 脚本保留父仓库其他目录，校验子目录树对象完全相同，并拒绝覆盖本地历史中不存在的远端子项目修改；推送不使用 force，分支和标签原子提交。`codex/github-hrg-wa` 为本地生成的导入分支。GitHub 上直接编辑过子项目时需先协调这些修改，不能直接覆盖。
 

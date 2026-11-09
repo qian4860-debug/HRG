@@ -29,7 +29,7 @@
 - [用户提问记录](00_用户提问记录.md)：可见原文与交互回执的清理视图。
 - [DSH 对 V2 的复核](../DSH_md/06_对V2修订意见的可行性复核_20261102.md)及 [DSH 全部文档](../DSH_md/README.md)。
 
-本次归档 253 份既有 Markdown；提问清理视图 118 条。来源、字节哈希、链接修复与排除原因见 [manifest.json](manifest.json)。
+本次归档 253 份既有 Markdown；提问清理视图 122 条。来源、字节哈希、链接修复与排除原因见 [manifest.json](manifest.json)。
 
 ## 使用和版本边界
 

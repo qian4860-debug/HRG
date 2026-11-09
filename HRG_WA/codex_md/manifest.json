@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "date": "2026-11-05",
-  "source_base_commit": "3ef9eb65d59f312e8336d5c03f62f36536f57d46",
+  "date": "2026-11-09",
+  "source_base_commit": "b65c56db8eded4874dcfb9e2dd5865c406aba798",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -108,12 +108,12 @@
       "source": "GIT_WORKFLOW.md",
       "archive": "codex_md/历史文档/GIT_WORKFLOW.md",
       "category": "工程说明与需求",
-      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_commit": "b65c56db8eded4874dcfb9e2dd5865c406aba798",
       "source_mode": "committed_snapshot",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": false,
-      "source_sha256": "4d374e48e79b6e259b951a4f0efe356499cfed861dcc8b9d4edbc5921132b37d",
-      "archive_sha256": "731e39e6dffe2f8f76f53658ca3c8cde92221c4a21a820e56531ddd1ad56d748",
+      "source_sha256": "a08c3537ce5d4ed4878b517e27e554a978b85e512140f4831764805443d52b3e",
+      "archive_sha256": "d959b049c032b1affddea489f9d2a37f6294ebaafdab4448a4d121667adebf0f",
       "rewritten_local_links": []
     },
     {
@@ -3097,12 +3097,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "1c68434e0f47e3535bfe815be42879d6e3822f76",
-      "source_mode": "committed_snapshot",
+      "source_commit": "b65c56db8eded4874dcfb9e2dd5865c406aba798",
+      "source_mode": "working_question_append",
       "source_encoding": "utf-8",
-      "source_dirty_at_archive": true,
-      "source_sha256": "2dead89a257547d78798d241975f5844a54b852e546c9c04538416a152c767e5",
-      "archive_sha256": "82c2b545bdaf1b3fc8cb10f9d0aad3f421538bb08c486859a98b721ae9134276",
+      "source_dirty_at_archive": false,
+      "source_sha256": "3babfcc32f3b06cf5001949b5a654be34be930bd8099975733facb5dc7fb698a",
+      "archive_sha256": "db93045cf346b11e49dbbcb4be3d84d9d57243699d4da835e87d6e1ae4f4ed38",
       "rewritten_local_links": []
     },
     {
@@ -3317,12 +3317,12 @@
       "source": "压电全角验证总书第四版_经典文献逐式演算.md",
       "archive": "codex_md/历史文档/压电全角验证总书第四版_经典文献逐式演算.md",
       "category": "理论总书与教材",
-      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_commit": "b65c56db8eded4874dcfb9e2dd5865c406aba798",
       "source_mode": "committed_snapshot",
       "source_encoding": "utf-8",
-      "source_dirty_at_archive": true,
+      "source_dirty_at_archive": false,
       "source_sha256": "faf9f0b2e44f40bd1198551b0c65bb71e2f7cad9a47b711bb9194c1fbec48d1b",
-      "archive_sha256": "6b888c024f98f9ede986cadf562c85dd1b6f480b85d3233aeb5b876fd0419193",
+      "archive_sha256": "0c33a13b270d5a4f84736986e59d7bb58ecdd5076651494efc685cb848d7b89f",
       "rewritten_local_links": []
     },
     {
@@ -3676,6 +3676,18 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/18_迁移核查与Git基线_20261109.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/19_分时与不分时两阶段方案_20261109.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/20_两阶段方案复核与设计规范核对_20261109.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3689,13 +3701,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 407,
-    "kept": 118
+    "source_records": 411,
+    "kept": 122
   },
   "generated_index_sha256": {
-    "README.md": "05e367837581830efab16224229342312266b2ba2d4fdd7d3a70ba2f63ef3cc4",
-    "00_文档索引.md": "cc3742e902d241c581ff1c4633a819b03b2db61e724825806225c5f939dd9077",
-    "history_filter_audit.json": "2eaeef5744024730b3416f5902ce6cc1466826e2b906737ac59cd54ae27e651a"
+    "README.md": "1fdf05e5a7552d8e7781d245d91c7524edde1d51acb83b79669eeec659db0d64",
+    "00_文档索引.md": "f8022a782bcf5c53f3acb81a74a5812caf1e4fd6970573b80c94a622de91ce40",
+    "history_filter_audit.json": "a11c2d86a153422d2d36c7fb1cc15b051fcc0f396be8259cc945fef4886996e8"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
