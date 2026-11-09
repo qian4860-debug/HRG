@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-09",
-  "source_base_commit": "b65c56db8eded4874dcfb9e2dd5865c406aba798",
+  "source_base_commit": "9f3ab5d5e9e3dd37c67869da027546814ebfc92e",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -1946,13 +1946,17 @@
       "source": "HRG_WA_simulink/piezo_v10/README.md",
       "archive": "codex_md/历史文档/HRG_WA_simulink/piezo_v10/README.md",
       "category": "MATLAB与Simulink建模",
-      "source_commit": "61ea27a8016a2a76ea8d728ee408883cb3437b4c",
+      "source_commit": "9f3ab5d5e9e3dd37c67869da027546814ebfc92e",
       "source_mode": "committed_snapshot",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": false,
-      "source_sha256": "d38804bd1edacbbc7da373e496b161110889ed8b883742554687e3d9a281591d",
-      "archive_sha256": "a1066b8991d5c83cdfa257c1230640d26a7203be1abccfa661b425c2503c2ce1",
+      "source_sha256": "8924cdbfd69e8b309db4f63232ac9fddcd194e3318e5f988d3ba7f9f79d4db3e",
+      "archive_sha256": "4cabe227478ae450355c6fd1b4a2ba7818973aefadb27d7d421b2223bd6ec85c",
       "rewritten_local_links": [
+        {
+          "source_href": "../../codex_md/22_6800Hz参数回填与原生双方案_20261109.md",
+          "resolved_target": "codex_md/22_6800Hz参数回填与原生双方案_20261109.md"
+        },
         {
           "source_href": "../../压电全角总书第三版_原理到V10实现.md",
           "resolved_target": "codex_md/历史文档/压电全角总书第三版_原理到V10实现.md"
@@ -3097,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "b65c56db8eded4874dcfb9e2dd5865c406aba798",
+      "source_commit": "9f3ab5d5e9e3dd37c67869da027546814ebfc92e",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": false,
-      "source_sha256": "3babfcc32f3b06cf5001949b5a654be34be930bd8099975733facb5dc7fb698a",
-      "archive_sha256": "db93045cf346b11e49dbbcb4be3d84d9d57243699d4da835e87d6e1ae4f4ed38",
+      "source_sha256": "1ce64e82f4300c73b90f373a5a1b747c882e5d258a82bbaa7f267663c04b705f",
+      "archive_sha256": "eb2381fabf6be1e6224e1f6666e335ad38a1799cfecb75a6f4c1d98b327cef11",
       "rewritten_local_links": []
     },
     {
@@ -3688,6 +3692,14 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/21_统一工作基线与模型复验_20261109.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
+      "path": "DSH_md/22_6800Hz建模与转换器采样率_20261109.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3701,13 +3713,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 411,
-    "kept": 122
+    "source_records": 412,
+    "kept": 123
   },
   "generated_index_sha256": {
-    "README.md": "1fdf05e5a7552d8e7781d245d91c7524edde1d51acb83b79669eeec659db0d64",
-    "00_文档索引.md": "f8022a782bcf5c53f3acb81a74a5812caf1e4fd6970573b80c94a622de91ce40",
-    "history_filter_audit.json": "a11c2d86a153422d2d36c7fb1cc15b051fcc0f396be8259cc945fef4886996e8"
+    "README.md": "eb21676153e7d8c233d4aa3f0c287946ff8d6265c0322a1a3b22fb9d34d66beb",
+    "00_文档索引.md": "d826680a36ddde75d104db968150a875d20f4bfcc9f36ad883eed11b3a143bc7",
+    "history_filter_audit.json": "0229574f2cdd54d16766227b693a6ccfbc5b006caa7eff6b8d0dcdcb7720fe42"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3730,6 +3742,7 @@
     "18_DSH17汇总复核_结论边界与下一步验收_20261105.md": "8ee0b9099c411572ac8e35fd0b563218ed8c240dae47398ee39b88429e82018e",
     "19_低速连续与高速分时复用设计_20261107.md": "3ed752b7d286b7ebd725e43e010a26161b286b812cf2d14f407c5d795fbfdf28",
     "20_原生Simulink分时双版本_20261109.md": "d51bdad413f7ba906e083100c64977d5140766e1525ea751e91cdb62ae3e500e",
-    "21_技术对接与表头到电路指标预算.md": "279b68a0a3b0c3fcedbf2f31d3bf97fde6dd919b1b86888951aa45db10886501"
+    "21_技术对接与表头到电路指标预算.md": "279b68a0a3b0c3fcedbf2f31d3bf97fde6dd919b1b86888951aa45db10886501",
+    "22_6800Hz参数回填与原生双方案_20261109.md": "9b7a817db9faf730d09e2a6a6eb43f99c3887f868ddda5cf736fcd8d73580acb"
   }
 }
