@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-09",
-  "source_base_commit": "9f3ab5d5e9e3dd37c67869da027546814ebfc92e",
+  "source_base_commit": "3a5699a372a33e0d761daaf0dbe1453241c9f8c5",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "9f3ab5d5e9e3dd37c67869da027546814ebfc92e",
+      "source_commit": "3a5699a372a33e0d761daaf0dbe1453241c9f8c5",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": false,
-      "source_sha256": "1ce64e82f4300c73b90f373a5a1b747c882e5d258a82bbaa7f267663c04b705f",
-      "archive_sha256": "eb2381fabf6be1e6224e1f6666e335ad38a1799cfecb75a6f4c1d98b327cef11",
+      "source_sha256": "b1be81f3fd677d8566c4d5058bd2cb8b459edf38e7af77a8825f6428f67fb61b",
+      "archive_sha256": "73996e9a9ed917a8ff93f7df01e78facae6e9881558d067f3b3c170fbbf4041d",
       "rewritten_local_links": []
     },
     {
@@ -3713,13 +3713,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 412,
-    "kept": 123
+    "source_records": 413,
+    "kept": 124
   },
   "generated_index_sha256": {
-    "README.md": "eb21676153e7d8c233d4aa3f0c287946ff8d6265c0322a1a3b22fb9d34d66beb",
-    "00_文档索引.md": "d826680a36ddde75d104db968150a875d20f4bfcc9f36ad883eed11b3a143bc7",
-    "history_filter_audit.json": "0229574f2cdd54d16766227b693a6ccfbc5b006caa7eff6b8d0dcdcb7720fe42"
+    "README.md": "a30570f27e6eafff73e53b96a46f0e98303e22c96803d7552f8978a588ac322b",
+    "00_文档索引.md": "2ccb8ea4f0d63a7b816097c7dc49442798a9c55aa80f09fb6b9679cd074ba8a4",
+    "history_filter_audit.json": "0650782259c57dfbae9a36394aa0897f6289676e9f7ffaf19edcc900b689fd95"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
