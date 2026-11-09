@@ -1,4 +1,11 @@
-"""Publish the committed local tree under HRG_WA/ without rewriting history."""
+"""Publish the committed local tree under HRG_WA/ without rewriting history.
+
+LEGACY LAYOUT ONLY: this script assumes ``ROOT`` (parents[1] of tools/) is the
+Git repository root, i.e. the old standalone HRG_WA checkout.  When the project
+is a subdirectory of a full clone of qian4860-debug/HRG (layout: HRG_WA/ +
+README.md), ``HEAD^{tree}`` is the parent-repo tree and the subtree assertion
+below fails.  In that layout use ``git push origin main`` directly.
+"""
 import argparse
 import os
 from pathlib import Path
