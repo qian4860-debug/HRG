@@ -5,6 +5,7 @@ DSH documents and active AGENTS instructions keep their own authoritative paths.
 """
 import argparse
 from datetime import date
+from functools import lru_cache
 import hashlib
 import json
 import os
@@ -17,6 +18,8 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT/'codex_md'
 GIT = ['git', '-c', f'safe.directory={ROOT.as_posix()}']
+if (ROOT.parent/'.git').exists():
+    GIT += ['-c', f'safe.directory={ROOT.parent.as_posix()}']
 OWN_WORKING_SOURCES = {'全角陀螺/HRG_WA_codex.md'}
 HISTORY = '全角陀螺/HRG_WA_codex.md'
 LINK = re.compile(r'(!?\[[^\]\n]*\])\((<[^>\n]+>|[^\s)]+)([^)\n]*)\)')
@@ -24,6 +27,22 @@ LINK = re.compile(r'(!?\[[^\]\n]*\])\((<[^>\n]+>|[^\s)]+)([^)\n]*)\)')
 
 def git(*args):
     return subprocess.check_output(GIT+list(args), cwd=ROOT)
+
+
+@lru_cache(maxsize=None)
+def project_tree(revision):
+    """Resolve the project subtree in a full clone or an imported standalone commit."""
+    prefix = git('rev-parse', '--show-prefix').decode().strip().rstrip('/')
+    if prefix:
+        result = subprocess.run(GIT+['rev-parse','--verify','--quiet',f'{revision}:{prefix}'],
+                                cwd=ROOT,stdout=subprocess.PIPE,check=False)
+        if result.returncode == 0:
+            return result.stdout.decode().strip()
+    return git('rev-parse', revision+'^{tree}').decode().strip()
+
+
+def source_bytes(revision, name):
+    return git('show', project_tree(revision)+':'+name)
 
 
 def digest(data):
@@ -154,7 +173,7 @@ def build(snapshot_date=None):
     prior_entries = {entry['source']: entry for entry in prior.get('entries', [])}
     current_docs = sorted(p for p in DEST.glob('[0-9][0-9]_*.md') if not p.name.startswith('00_'))
     tracked = git('ls-files', '-z', '--', '*.md').decode().rstrip('\0').split('\0')
-    changed = set(git('diff', '--name-only', '-z', 'HEAD').decode().rstrip('\0').split('\0'))
+    changed = set(git('diff', '--relative', '--name-only', '-z', 'HEAD').decode().rstrip('\0').split('\0'))
     sources, excluded = [], []
     for name in sorted(tracked):
         if name.startswith('codex_md/'):
@@ -165,7 +184,7 @@ def build(snapshot_date=None):
         # Preserve a committed, accepted source snapshot when someone else's
         # unreviewed working changes are present. Only our raw question append is allowed.
         source_mode = 'working_question_append' if name in OWN_WORKING_SOURCES else 'committed_snapshot'
-        data = (ROOT/name).read_bytes() if source_mode == 'working_question_append' else git('show', base+':'+name)
+        data = (ROOT/name).read_bytes() if source_mode == 'working_question_append' else source_bytes(base, name)
         try:
             text = data.decode('utf-8-sig')
             encoding = 'utf-8'
@@ -284,7 +303,7 @@ def check():
     manifest = json.loads((DEST/'manifest.json').read_text(encoding='utf-8'))
     assert len({x['source'] for x in manifest['entries']}) == len(manifest['entries'])
     assert len({x['archive'] for x in manifest['entries']}) == len(manifest['entries'])
-    committed_names = git('ls-tree', '-r', '--name-only', '-z', manifest['source_base_commit']).decode().rstrip('\0').split('\0')
+    committed_names = git('ls-tree', '--full-tree', '-r', '--name-only', '-z', project_tree(manifest['source_base_commit'])).decode().rstrip('\0').split('\0')
     expected_sources = {x for x in committed_names if x.endswith('.md') and not x.startswith('codex_md/')}
     covered = {x['source'] for x in manifest['entries']} | {x['path'] for x in manifest['excluded']}
     assert covered == expected_sources, {'missing': sorted(expected_sources-covered), 'extra': sorted(covered-expected_sources)}
@@ -295,7 +314,7 @@ def check():
         payload = (ROOT/entry['archive']).read_bytes()
         assert digest(payload) == entry['archive_sha256'], entry['archive']
         if entry['source_mode'] == 'committed_snapshot':
-            source = git('show', entry['source_commit']+':'+name)
+            source = source_bytes(entry['source_commit'], name)
         else:
             source = (ROOT/name).read_bytes()
         assert digest(source) == entry['source_sha256'], name
