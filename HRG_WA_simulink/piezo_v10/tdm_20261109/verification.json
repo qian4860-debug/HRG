@@ -1,0 +1,137 @@
+{
+  "release": "2025a",
+  "scope": "Synthetic closed-loop simulation",
+  "cases": [
+    {
+      "body_rms_rad": 1.6203273070434418E-6,
+      "body_peak_rad": 3.4079191750246984E-6,
+      "minimum_amplitude": 0.9995844850303649,
+      "maximum_amplitude": 0.99995950185057547,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 1.9984014443252818E-15,
+      "max_IQ_delta": 3.46749972485183E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_separate",
+      "body_rate_rad_s": 0,
+      "native_blocks": 241
+    },
+    {
+      "body_rms_rad": 6.6287721043450869E-5,
+      "body_peak_rad": 0.00011723237290306443,
+      "minimum_amplitude": 0.99958022429760129,
+      "maximum_amplitude": 0.99996014338793759,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 1.7763568394002505E-15,
+      "max_IQ_delta": 4.0603187045212819E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_separate",
+      "body_rate_rad_s": 0.5,
+      "native_blocks": 241
+    },
+    {
+      "body_rms_rad": 7.0553516483812275E-5,
+      "body_peak_rad": 0.00011984938632836339,
+      "minimum_amplitude": 0.99958730095223625,
+      "maximum_amplitude": 0.99996020947569353,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 3.4416913763379853E-15,
+      "max_IQ_delta": 3.4025560147199485E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_separate",
+      "body_rate_rad_s": -0.5,
+      "native_blocks": 241
+    },
+    {
+      "body_rms_rad": 0.00055147081254852432,
+      "body_peak_rad": 0.00095141946443533243,
+      "minimum_amplitude": 0.99954762481373638,
+      "maximum_amplitude": 0.99996065824125691,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 3.9968028886505635E-15,
+      "max_IQ_delta": 3.9496184101039944E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_separate",
+      "body_rate_rad_s": 4,
+      "native_blocks": 241
+    },
+    {
+      "body_rms_rad": 1.1448098432961281E-6,
+      "body_peak_rad": 2.9134913244188709E-6,
+      "minimum_amplitude": 0.999475973904145,
+      "maximum_amplitude": 0.99985853797248758,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 1.9984014443252818E-15,
+      "max_IQ_delta": 3.5113253450680393E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_shared",
+      "body_rate_rad_s": 0,
+      "native_blocks": 243
+    },
+    {
+      "body_rms_rad": 6.6915648068421144E-5,
+      "body_peak_rad": 0.00011599956908825426,
+      "minimum_amplitude": 0.9994719354460524,
+      "maximum_amplitude": 0.9998594008044559,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 2.1094237467877974E-15,
+      "max_IQ_delta": 4.1110084086914966E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_shared",
+      "body_rate_rad_s": 0.5,
+      "native_blocks": 243
+    },
+    {
+      "body_rms_rad": 6.81813400925701E-5,
+      "body_peak_rad": 0.00011851908197635375,
+      "minimum_amplitude": 0.99947802660353213,
+      "maximum_amplitude": 0.99985981506165278,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 1.7763568394002505E-15,
+      "max_IQ_delta": 3.4458547126803296E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_shared",
+      "body_rate_rad_s": -0.5,
+      "native_blocks": 243
+    },
+    {
+      "body_rms_rad": 0.00054918005515034341,
+      "body_peak_rad": 0.00095082151748426824,
+      "minimum_amplitude": 0.999437787239816,
+      "maximum_amplitude": 0.99986010890647614,
+      "settled_frames": 200,
+      "max_angle_delta_rad": 3.9968028886505635E-15,
+      "max_IQ_delta": 4.0167869030938164E-13,
+      "max_DAC_delta_V": 0,
+      "source_to_publication_s": 0.000503125,
+      "model": "hrg_tdm_shared",
+      "body_rate_rad_s": 4,
+      "native_blocks": 243
+    }
+  ],
+  "faults": [
+    {
+      "model": "hrg_tdm_separate",
+      "clipped_samples": 3200,
+      "valid_frames": 0,
+      "drive_samples": 0
+    },
+    {
+      "model": "hrg_tdm_shared",
+      "clipped_samples": 3200,
+      "valid_frames": 0,
+      "drive_samples": 0
+    }
+  ],
+  "electrode_comparison": {
+    "separate_pickoff_peak_while_driving_V": 6.0366556122721385E-5,
+    "shared_pickoff_peak_while_driving_V": 0.99999999875225531,
+    "same_timing": true
+  }
+}
