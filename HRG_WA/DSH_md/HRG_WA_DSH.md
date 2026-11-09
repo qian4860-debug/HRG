@@ -56,6 +56,7 @@
 | 37 | 2026-11-05 | 经过这些讨论，重新给出结论，以及有没有没想到的 | 收敛陈述 | 17 号汇总结论与元问题 | 本次 |
 | 38 | 2026-11-05 | 分析DSH17汇总结论与未想到的问题 | 结论与研究路线复核 | 过程建议保留；技术收敛须限定 | `3ef9eb6` / `32cc8d2` |
 | 39 | 2026-11-09 | 迁移后核对 git/GitHub 遗漏；区分分时复用/不复用；制定低速不分时与高速分时两套计划 | 迁移核查 + 架构计划 | 迁移核查记录、18/19 号文档 | `82279a0` / `d5b6164` |
+| 40 | 2026-11-09 | reference_library（209 条）已从旧机补拷 | 迁移补录 | 路径登记、目录核验、文档更新 | 本次提交 |
 
 ---
 
@@ -885,6 +886,35 @@
 - `DSH_md/19_分时与不分时两阶段方案_20261109.md`
 
 **提交哈希**：`82279a0`（docs：迁移核查 + 两阶段方案）；`d5b6164`（噪声门禁与预算一致性修订）。
+
+---
+
+### 提问 40 · reference_library 补拷核对
+
+**提问原文**
+
+> reference_library（209 条）已经从旧机补拷。
+
+**做了什么**
+
+- 定位到 `G:\学习资料\资料\设计规范\reference_library`，核实入口 `index.html`、`catalog.json`（209 条）、`catalog_current.json`（305 条当前视图）、`r4/`、`releases/R3/`、`ai_study_20261021/` 均在。
+- 更新 `ic-reference-library` 的 `catalog.json`、`catalog.md`、`SKILL.md`：路径改为 `G:\学习资料\资料\设计规范\reference_library`，`exists=true`，删除“未随迁移”标注。
+- 更新迁移核查文档 18：把“209 条缺失”改为“已补拷并核实”。
+
+**结论要点**
+
+- 209 条历史目录已补齐；`catalog.json` 与 README 的 209 条计数一致，`catalog_current.json` 是 2026-10-21 的 305 条当前视图，不是历史快照。
+- `reference_library/README.md` 仍有一处 `D:/学习资料/资料/AI_Study_文献库/20261021` 旧路径；这是该库自身的历史文本，本轮不改原文，只在本项目索引里登记新根路径。
+- 该库不是 Git 仓库；本轮只登记路径，不把 209 条索引搬进 `ic-reference-library` 仓库。
+
+**产出文件**
+
+- `ic-reference-library/references/catalog.json`
+- `ic-reference-library/references/catalog.md`
+- `ic-reference-library/SKILL.md`
+- `DSH_md/18_迁移核查与Git基线_20261109.md`
+
+**提交哈希**：待填。
 
 ---
 
