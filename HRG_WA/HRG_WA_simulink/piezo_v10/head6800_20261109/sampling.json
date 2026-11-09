@@ -1,0 +1,76 @@
+{
+  "head": {
+    "f0_Hz": 6800,
+    "split_Hz": 0.05,
+    "Q": 30000,
+    "parasitic_F": 6E-10,
+    "f_modes_Hz": [
+      6799.975,
+      6800.025
+    ],
+    "ringdown_s": 1.4043083213990766,
+    "linewidth_Hz": 0.22666666666666666,
+    "temperature_model": "No per-head temperature curve supplied"
+  },
+  "carrier_only_strict_lower_Hz": 13600.05,
+  "assumed_envelope_bandwidth_Hz": 100,
+  "with_assumed_sideband_strict_lower_Hz": 13800.05,
+  "AD9215_min_typical_clock_Hz": 5.0E+6,
+  "AD9215_pipeline_cycles": 5,
+  "AD9707_minimum_clock": "No fixed minimum with DC-coupled clock (ADI support); observe board coupling and calibration",
+  "AD9707_settling_0p1_percent_typical_s": 1.1E-8,
+  "modes": [
+    {
+      "mode": "continuous",
+      "fs_ADC_Hz": 1.088E+6,
+      "fs_DAC_Hz": 1.088E+6,
+      "samples_per_carrier": 160,
+      "frame_rate_Hz": 6800,
+      "valid_samples": 160,
+      "valid_window_s": 0.00014705882352941175,
+      "drive_window_s": 0.00014705882352941175,
+      "bleed_s": 0,
+      "settle_s": 0,
+      "tail_s": 0,
+      "DAC_ZOH_carrier_droop_fraction": 6.42539983770618E-5,
+      "analog_AAF_at_Nyquist_dB": -114.78897692267284,
+      "assumed_16_valid_samples_lower_Hz": 108800.00000000001
+    },
+    {
+      "mode": "tdm_shared",
+      "fs_ADC_Hz": 5.44E+6,
+      "fs_DAC_Hz": 5.44E+6,
+      "samples_per_carrier": 800,
+      "frame_rate_Hz": 1700,
+      "valid_samples": 800,
+      "valid_window_s": 0.00014705882352941175,
+      "drive_window_s": 0.00014705882352941175,
+      "bleed_s": 7.3529411764705876E-5,
+      "settle_s": 0.00014705882352941175,
+      "tail_s": 7.3529411764705876E-5,
+      "DAC_ZOH_carrier_droop_fraction": 2.5702074977207445E-6,
+      "analog_AAF_at_Nyquist_dB": -170.68405186239875,
+      "assumed_16_valid_samples_lower_Hz": 108800.00000000001
+    }
+  ],
+  "window_comparison": [
+    {
+      "window_s": 0.00014705882352941175,
+      "samples": 800,
+      "condition_with_unknown_DC": 1.4142135623730956,
+      "worst_normalized_variance": 0.0025000000000000018
+    },
+    {
+      "window_s": 5.5E-5,
+      "samples": 300,
+      "condition_with_unknown_DC": 8.6973078982624958,
+      "worst_normalized_variance": 0.15482958437682193
+    },
+    {
+      "window_s": 1E-5,
+      "samples": 55,
+      "condition_with_unknown_DC": 286.57164086392095,
+      "worst_normalized_variance": 752.37803699019707
+    }
+  ]
+}

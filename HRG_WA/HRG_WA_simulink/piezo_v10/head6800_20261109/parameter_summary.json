@@ -1,0 +1,395 @@
+[
+  {
+    "mode": "continuous",
+    "head": {
+      "f0_Hz": 6800,
+      "split_Hz": 0.05,
+      "Q": 30000,
+      "parasitic_F": 6E-10,
+      "f_modes_Hz": [
+        6799.975,
+        6800.025
+      ],
+      "ringdown_s": 1.4043083213990766,
+      "linewidth_Hz": 0.22666666666666666,
+      "temperature_model": "No per-head temperature curve supplied"
+    },
+    "parameters": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 6800,
+      "gamma_intrinsic": 0.71209433481368634,
+      "Cs": 6E-10,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 9.1911764705882355E-7,
+      "Tc": 0.001,
+      "duration": 0.3,
+      "charge_target": 1E-11,
+      "initial_fraction": 1,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-6,
+        2E-6
+      ],
+      "afe_bw": [
+        20000,
+        20000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "drive_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "split_hz": 0.05,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 16,
+      "dac_span": 1,
+      "dac_bits": 16,
+      "vmax": 0.5,
+      "agc_bw": 10,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0,
+      "noise_seed": 52,
+      "carrier_hz": 6800,
+      "Q": 30000,
+      "pre_gain": 1,
+      "power_gain": 20,
+      "aaf_order": 4,
+      "fs": 1.088E+6,
+      "bleed_R": 15000,
+      "reset_tau": 2E-6,
+      "adc_latency": 1,
+      "log_decimation": 200,
+      "adc_noise_rms": 0,
+      "dac_divisor": 1,
+      "allow_adc_underclock": false,
+      "seed_enabled": false,
+      "seed_seconds": 0.03,
+      "seed_voltage": 0.2,
+      "cv_source": "Existing charge-amplifier equivalent; THX matched analog gain topology"
+    },
+    "gain_check": {
+      "drive_pre_V_per_V": 1,
+      "sense_pre_V_per_V": 1,
+      "driver_post_gain": 20,
+      "detector_V_per_normalized_charge": 0.080323065899780832,
+      "electrode_limit_V": 10
+    },
+    "thx_comparison": {
+      "saved_Kcvd": 10000,
+      "saved_Kcvs": 100000,
+      "saved_Kcsd": 10000,
+      "saved_Kcss": 100000,
+      "reuse_scope": "Analog Gain/filter topology; equal normalized front gain. Saved unequal numbers are not copied as SI charge sensitivity."
+    },
+    "timing_samples": {
+      "drive_end": 160,
+      "sense_start": 0,
+      "valid_start": 0,
+      "valid_end": 160,
+      "frame": 160
+    }
+  },
+  {
+    "mode": "tdm_shared",
+    "head": {
+      "f0_Hz": 6800,
+      "split_Hz": 0.05,
+      "Q": 30000,
+      "parasitic_F": 6E-10,
+      "f_modes_Hz": [
+        6799.975,
+        6800.025
+      ],
+      "ringdown_s": 1.4043083213990766,
+      "linewidth_Hz": 0.22666666666666666,
+      "temperature_model": "No per-head temperature curve supplied"
+    },
+    "parameters": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 6800,
+      "gamma_intrinsic": 0.71209433481368634,
+      "Cs": 6E-10,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 1.8382352941176472E-7,
+      "Tc": 0.001,
+      "duration": 0.3,
+      "charge_target": 1E-11,
+      "initial_fraction": 1,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-6,
+        2E-6
+      ],
+      "afe_bw": [
+        20000,
+        20000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "drive_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "split_hz": 0.05,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 10,
+      "dac_span": 1,
+      "dac_bits": 14,
+      "vmax": 0.5,
+      "agc_bw": 10,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0,
+      "noise_seed": 52,
+      "carrier_hz": 6800,
+      "Q": 30000,
+      "pre_gain": 1,
+      "power_gain": 20,
+      "aaf_order": 4,
+      "fs": 5.44E+6,
+      "bleed_R": 15000,
+      "reset_tau": 2E-6,
+      "adc_latency": 5,
+      "log_decimation": 200,
+      "adc_noise_rms": 0,
+      "dac_divisor": 1,
+      "allow_adc_underclock": false,
+      "seed_enabled": false,
+      "seed_seconds": 0.03,
+      "seed_voltage": 0.2,
+      "cv_source": "Existing charge-amplifier equivalent; THX matched analog gain topology"
+    },
+    "gain_check": {
+      "drive_pre_V_per_V": 1,
+      "sense_pre_V_per_V": 1,
+      "driver_post_gain": 20,
+      "detector_V_per_normalized_charge": 0.080323065899780832,
+      "electrode_limit_V": 10
+    },
+    "thx_comparison": {
+      "saved_Kcvd": 10000,
+      "saved_Kcvs": 100000,
+      "saved_Kcsd": 10000,
+      "saved_Kcss": 100000,
+      "reuse_scope": "Analog Gain/filter topology; equal normalized front gain. Saved unequal numbers are not copied as SI charge sensitivity."
+    },
+    "timing_samples": {
+      "drive_end": 800,
+      "sense_start": 1200,
+      "valid_start": 2000,
+      "valid_end": 2800,
+      "frame": 3200
+    }
+  },
+  {
+    "mode": "tdm_separate",
+    "head": {
+      "f0_Hz": 6800,
+      "split_Hz": 0.05,
+      "Q": 30000,
+      "parasitic_F": 6E-10,
+      "f_modes_Hz": [
+        6799.975,
+        6800.025
+      ],
+      "ringdown_s": 1.4043083213990766,
+      "linewidth_Hz": 0.22666666666666666,
+      "temperature_model": "No per-head temperature curve supplied"
+    },
+    "parameters": {
+      "schema": "v10.1",
+      "synthetic": true,
+      "f0": 6800,
+      "gamma_intrinsic": 0.71209433481368634,
+      "Cs": 6E-10,
+      "G0": 1E-10,
+      "kappa": 1E-6,
+      "b": 1.1E-6,
+      "Cds": 0,
+      "Rs": 1000,
+      "B": 0.27699096196168066,
+      "Omega": 0.5,
+      "Ts": 1.8382352941176472E-7,
+      "Tc": 0.001,
+      "duration": 0.3,
+      "charge_target": 1E-11,
+      "initial_fraction": 1,
+      "theta0": 0.4,
+      "Cf": 1E-10,
+      "Rf": 1.0E+9,
+      "driver_tau": [
+        2E-6,
+        2E-6
+      ],
+      "afe_bw": [
+        20000,
+        20000
+      ],
+      "detect_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "drive_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "split_hz": 0.05,
+      "stiffness_axis": 0.37,
+      "damping_half_difference": 0,
+      "damping_axis": -0.23,
+      "adc_span": 2,
+      "adc_bits": 10,
+      "dac_span": 1,
+      "dac_bits": 14,
+      "vmax": 0.5,
+      "agc_bw": 10,
+      "quad_bw": 4,
+      "pll_gain": 30,
+      "max_detune": 30,
+      "virtual_rate": 0,
+      "virtual_start_min_s": 0.25,
+      "virtual_settle_fraction": 0.01,
+      "predict_heading": true,
+      "max_heading_rate": 100,
+      "virtual_validated_limit": 0.2,
+      "min_amplitude_fraction": 0.02,
+      "min_linearity": 0.1,
+      "max_calibration_condition": 100,
+      "max_frame_age": 0.002,
+      "calibrate_detection": true,
+      "calibrate_drive": true,
+      "noise_rms_V": 0,
+      "noise_seed": 52,
+      "carrier_hz": 6800,
+      "Q": 30000,
+      "pre_gain": 1,
+      "power_gain": 20,
+      "aaf_order": 4,
+      "fs": 5.44E+6,
+      "bleed_R": 15000,
+      "reset_tau": 2E-6,
+      "adc_latency": 5,
+      "log_decimation": 200,
+      "adc_noise_rms": 0,
+      "dac_divisor": 1,
+      "allow_adc_underclock": false,
+      "seed_enabled": false,
+      "seed_seconds": 0.03,
+      "seed_voltage": 0.2,
+      "cv_source": "Existing charge-amplifier equivalent; THX matched analog gain topology"
+    },
+    "gain_check": {
+      "drive_pre_V_per_V": 1,
+      "sense_pre_V_per_V": 1,
+      "driver_post_gain": 20,
+      "detector_V_per_normalized_charge": 0.080323065899780832,
+      "electrode_limit_V": 10
+    },
+    "thx_comparison": {
+      "saved_Kcvd": 10000,
+      "saved_Kcvs": 100000,
+      "saved_Kcsd": 10000,
+      "saved_Kcss": 100000,
+      "reuse_scope": "Analog Gain/filter topology; equal normalized front gain. Saved unequal numbers are not copied as SI charge sensitivity."
+    },
+    "timing_samples": {
+      "drive_end": 800,
+      "sense_start": 1200,
+      "valid_start": 2000,
+      "valid_end": 2800,
+      "frame": 3200
+    }
+  }
+]

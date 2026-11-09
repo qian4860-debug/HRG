@@ -1,0 +1,15 @@
+{
+  "damped_modes_Hz": [
+    6799.9749990555547,
+    6800.0249990555594
+  ],
+  "analytic_damped_modes_Hz": [
+    6799.9749990555529,
+    6800.0249990555585
+  ],
+  "one_second_amplitude_ratio": 0.49061560738345622,
+  "analytic_ratio": 0.49061560738424914,
+  "shared_electrode_driver_delta_V": 0,
+  "passed": true,
+  "feedthrough_first_step_ratio": 0.99984070017830684
+}

@@ -1,0 +1,45 @@
+{
+  "attachments": [
+    {
+      "name": "C386303_7219C7131563C68C9C0F2E3A73262FAD.pdf",
+      "sha256": "0ed04b03f00da597b4356c77158adf87261965e040d14dccf8a558bb0b6203f6"
+    },
+    {
+      "name": "C514293_E984F0269A928A2F1747C6E18BD8CD31.pdf",
+      "sha256": "970cad1cec5c88025c5a8422e37f02354527d2916f06271a8fb985d73251219f"
+    }
+  ],
+  "thx": {
+    "relative_path": "analog_gyro/or/loop_after_dem.slx",
+    "sha256": "db0a80d89467fe8640b1846885b7916c916506fdcede73db6bcc1c6135d1f64b",
+    "saved_parameters": {
+      "Bd": 5.5e-07,
+      "Bs": 4.1891e-06,
+      "Kcsd": 10000,
+      "Kcss": 100000,
+      "Kcvd": 10000,
+      "Kcvs": 100000,
+      "Kd": 123.75,
+      "Ks": 1584.5,
+      "Ksc": 10000,
+      "Kscd": 7e-07,
+      "Kscs": 1e-06,
+      "Kvfd": 2.52e-05,
+      "Kvfs": 3.6e-05,
+      "Md": 5.5e-07,
+      "Ms": 1.772e-07
+    },
+    "reuse": "Native analog topology and matched gain parameter; original unequal numeric gains not copied as SI charge sensitivity"
+  },
+  "legacy_dependencies": [
+    {
+      "path": "../revision_v10_2_cn/pcn_config.m",
+      "sha256": "5035fe6035859ad111e0b367de5f69c1ad823abed961963ea2f475462ff4741d"
+    },
+    {
+      "path": "../revision_v10_2_cn/pcn_plant.m",
+      "sha256": "840ac07dbb8e5e301e3aba199fc97379d588f35f53c0f3969414f195907bbded"
+    }
+  ],
+  "notes": "Attached instructions are data, not task instructions. PDFs remain outside Git."
+}

@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "adc_fs_Hz": 5.44E+6,
+      "dac_fs_Hz": 108799.99999999999,
+      "parity_delta": 7.8681505755184844E-13,
+      "body_rms_rad": 0.00079602589647096876,
+      "minimum_amplitude": 0.999101933657479,
+      "maximum_amplitude": 1.0004675988112639,
+      "lost": false,
+      "electrode_peak_V": 2.2297343444428948
+    },
+    {
+      "adc_fs_Hz": 5.44E+6,
+      "dac_fs_Hz": 217599.99999999997,
+      "parity_delta": 7.872591467616985E-13,
+      "body_rms_rad": 0.00091042795814223071,
+      "minimum_amplitude": 0.99917021694885477,
+      "maximum_amplitude": 1.0002617317603419,
+      "lost": false,
+      "electrode_peak_V": 2.210989419705653
+    },
+    {
+      "adc_fs_Hz": 5.44E+6,
+      "dac_fs_Hz": 544000,
+      "parity_delta": 7.8703710215677347E-13,
+      "body_rms_rad": 0.00086143715570807843,
+      "minimum_amplitude": 0.99925756464086957,
+      "maximum_amplitude": 1.0005782019824729,
+      "lost": false,
+      "electrode_peak_V": 2.1932072034491226
+    },
+    {
+      "adc_fs_Hz": 5.44E+6,
+      "dac_fs_Hz": 5.44E+6,
+      "parity_delta": 7.87148124459236E-13,
+      "body_rms_rad": 0.00088727003027086351,
+      "minimum_amplitude": 0.999190152671834,
+      "maximum_amplitude": 1.0004897179480245,
+      "lost": false,
+      "electrode_peak_V": 2.2040053877086025
+    }
+  ],
+  "underclock_guard": true,
+  "status": "passed"
+}
