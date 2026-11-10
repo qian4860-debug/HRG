@@ -1,0 +1,307 @@
+{
+  "release": "2025a",
+  "scope": "Behavioral model with nominal group symmetry and assumed circuit values",
+  "status": "passed",
+  "topology": [
+    {
+      "mode": "continuous",
+      "drive_map": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "sense_map": [
+        [
+          0,
+          0,
+          -1,
+          -0
+        ],
+        [
+          0,
+          0,
+          -0,
+          -1
+        ]
+      ],
+      "modal_drive_rank": 2,
+      "modal_sense_rank": 2,
+      "group_drive_step_V": [
+        1.9999999766448939,
+        1.1999999859869437,
+        5.0970334334214279E-8,
+        3.058147206829655E-8
+      ],
+      "group_after_bleed_V": []
+    },
+    {
+      "mode": "tdm_shared",
+      "drive_map": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -0
+        ],
+        [
+          -0,
+          -1
+        ]
+      ],
+      "sense_map": [
+        [
+          0.5,
+          0,
+          -0.5,
+          -0
+        ],
+        [
+          0,
+          0.5,
+          -0,
+          -0.5
+        ]
+      ],
+      "modal_drive_rank": 2,
+      "modal_sense_rank": 2,
+      "group_drive_step_V": [
+        1.9999999761338518,
+        1.1999999856803256,
+        -1.9999999761338518,
+        -1.1999999856803258
+      ],
+      "group_after_bleed_V": [
+        0.00056826139195116252,
+        0.00034095676418546,
+        -0.00056826139195116209,
+        -0.0003409567641854602
+      ]
+    }
+  ],
+  "parity": [
+    {
+      "mode": "continuous",
+      "samples": 6529,
+      "native_blocks": 326,
+      "adc_Hz": 1.088E+6,
+      "dac_Hz": 1.088E+6,
+      "frames": 40,
+      "max_trace_delta": 1.9650947535865271E-14,
+      "max_terminal_voltage_delta_V": 4.4408920985006262E-16
+    },
+    {
+      "mode": "tdm_shared",
+      "samples": 32641,
+      "native_blocks": 328,
+      "adc_Hz": 5.44E+6,
+      "dac_Hz": 5.44E+6,
+      "frames": 10,
+      "max_trace_delta": 1.3176126856251358E-12,
+      "max_terminal_voltage_delta_V": 1.1102230246251565E-16
+    },
+    {
+      "mode": "tdm_shared",
+      "samples": 32641,
+      "native_blocks": 328,
+      "adc_Hz": 5.44E+6,
+      "dac_Hz": 217599.99999999997,
+      "frames": 10,
+      "max_trace_delta": 1.3176126856251358E-12,
+      "max_terminal_voltage_delta_V": 5.5511151231257827E-17
+    }
+  ],
+  "nominal": [
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0,
+      "frames": 816,
+      "body_rms_rad": 4.22408679987642E-5,
+      "body_peak_rad": 0.00011742922157940712,
+      "minimum_amplitude": 0.99994198300804116,
+      "maximum_amplitude": 1.0000541039343234,
+      "peak_group_voltage_V": [
+        9.9877184487908135,
+        4.3977638146962912,
+        0.00039400687680911026,
+        0.00016658803422235974
+      ]
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0.5,
+      "frames": 816,
+      "body_rms_rad": 3.0401959439050678E-5,
+      "body_peak_rad": 9.8897508391967981E-5,
+      "minimum_amplitude": 0.99994486452809561,
+      "maximum_amplitude": 1.0000657170738716,
+      "peak_group_voltage_V": [
+        9.9877210475297424,
+        4.3977781255210662,
+        0.00040060617676351357,
+        0.00016652797662895696
+      ]
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": -4,
+      "frames": 816,
+      "body_rms_rad": 9.6801556620413292E-5,
+      "body_peak_rad": 0.00021908487296623536,
+      "minimum_amplitude": 0.99995346911760885,
+      "maximum_amplitude": 1.0000611633752292,
+      "peak_group_voltage_V": [
+        9.9876896013834529,
+        4.3986607364162049,
+        0.00039380347965367656,
+        0.00030565301939945277
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0,
+      "frames": 204,
+      "body_rms_rad": 0.00030928549249387816,
+      "body_peak_rad": 0.00069523939480768768,
+      "minimum_amplitude": 0.99973750347689239,
+      "maximum_amplitude": 1.0001358390420176,
+      "peak_group_voltage_V": [
+        1.0421387394240362,
+        0.44112904624339805,
+        1.042138739424036,
+        0.44112904624339805
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0.5,
+      "frames": 204,
+      "body_rms_rad": 0.0034052660151230561,
+      "body_peak_rad": 0.0058313301920333224,
+      "minimum_amplitude": 0.9992909248823747,
+      "maximum_amplitude": 1.0007252380674994,
+      "peak_group_voltage_V": [
+        1.133973791555843,
+        0.458567107597496,
+        1.1339737915558428,
+        0.458567107597496
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": -4,
+      "frames": 204,
+      "body_rms_rad": 0.0025263171689826665,
+      "body_peak_rad": 0.0057286359576400048,
+      "minimum_amplitude": 0.99761385657694046,
+      "maximum_amplitude": 1.0011440401364538,
+      "peak_group_voltage_V": [
+        1.1245718025089231,
+        0.86031239983988761,
+        1.1245718025089229,
+        0.86031239983988761
+      ]
+    }
+  ],
+  "startup": [
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0.5,
+      "frames": 1020,
+      "body_rms_rad": 0.00012276653982519251,
+      "body_peak_rad": 0.00024296734931270048,
+      "minimum_amplitude": 0.9999371103083714,
+      "maximum_amplitude": 1.000034230501432,
+      "peak_group_voltage_V": [
+        9.99999845911886,
+        9.9999880851309744,
+        0.00035474609720484348,
+        0.00026023478824760562
+      ],
+      "first_valid_frame_s": 0.0041185661764705887
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0.5,
+      "frames": 255,
+      "body_rms_rad": 0.0013132097092004751,
+      "body_peak_rad": 0.0040243986198496839,
+      "minimum_amplitude": 0.998455440371069,
+      "maximum_amplitude": 1.0010509263200467,
+      "peak_group_voltage_V": [
+        9.9999994182016056,
+        9.9999991508581783,
+        9.9999994182016056,
+        9.9999991508581783
+      ],
+      "first_valid_frame_s": 0.0069862132352941182
+    }
+  ],
+  "faults": [
+    {
+      "mode": "continuous",
+      "fault": "ADC overload before acquisition",
+      "overflow_samples": 6524,
+      "frames": 0,
+      "passed": true
+    },
+    {
+      "mode": "continuous",
+      "fault": "ADC overload after acquisition",
+      "overflow_samples": 367,
+      "frames": 157,
+      "passed": true
+    },
+    {
+      "mode": "tdm_shared",
+      "fault": "ADC overload before acquisition",
+      "overflow_samples": 7732,
+      "frames": 0,
+      "passed": true
+    },
+    {
+      "mode": "tdm_shared",
+      "fault": "ADC overload after acquisition",
+      "overflow_samples": 405,
+      "frames": 76,
+      "passed": true
+    }
+  ],
+  "head": {
+    "f0_Hz": 6800,
+    "split_Hz": 0.05,
+    "Q": 30000,
+    "parasitic_F": 6E-10,
+    "f_modes_Hz": [
+      6799.975,
+      6800.025
+    ],
+    "ringdown_s": 1.4043083213990766,
+    "linewidth_Hz": 0.22666666666666666,
+    "temperature_model": "No per-head temperature curve supplied",
+    "group_shunt_F": [
+      6E-10,
+      6E-10,
+      6E-10,
+      6E-10
+    ]
+  }
+}

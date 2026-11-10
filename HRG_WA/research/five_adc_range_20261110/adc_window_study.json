@@ -1,0 +1,4384 @@
+{
+  "matlab_release": "2025a",
+  "frame_Hz": 1700,
+  "score_anchor_frame": 68,
+  "score_first_frame": 102,
+  "score_last_frame": 305,
+  "duration_s": 0.18,
+  "adc_range_sweep": [
+    {
+      "sense_peak_fraction_FS": 0.07552309131303311,
+      "valid_peak_fraction_FS": 0.07545227985348177,
+      "score_clean_peak_by_axis_V": [
+        0.07545227985348177,
+        0.03003818055795687
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.631567284982665,
+        15.379548445673917
+      ],
+      "sense_peak_group_CV_V": [
+        0.07552309131303311,
+        0.03129697911540133,
+        0.07552309131303311,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0018928039285028453,
+      "angle_mean_rad": -0.00033796858049887755,
+      "angle_std_rad": 0.0018623866275162574,
+      "angle_peak_rad": 0.00358135894745186,
+      "amplitude_range": [
+        0.9992909249188754,
+        1.0007252381142695
+      ],
+      "score_quantization_rms_V": [
+        0.0005668572009593058,
+        0.0005600139316463425
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0007633358618806365,
+        0.0009609484434967442,
+        0.00021968390189072438,
+        0.00016232885757811827
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.1510277110074414,
+      "valid_peak_fraction_FS": 0.15088608864704753,
+      "score_clean_peak_by_axis_V": [
+        0.07544304432352376,
+        0.030033924151213278
+      ],
+      "score_clean_peak_by_axis_codes": [
+        77.25367738728833,
+        30.754738330842397
+      ],
+      "sense_peak_group_CV_V": [
+        0.0755138555037207,
+        0.03129697911540133,
+        0.0755138555037207,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.0009765625,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006005962864955393,
+      "angle_mean_rad": 2.1485587591278475e-05,
+      "angle_std_rad": 0.0006002118533302134,
+      "angle_peak_rad": 0.0013887614173066845,
+      "amplitude_range": [
+        0.9993647197798692,
+        1.0004143875615799
+      ],
+      "score_quantization_rms_V": [
+        0.00028238891206507826,
+        0.0002826677327239179
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00028187823739621315,
+        0.00037567221175985376,
+        0.00014931912120346846,
+        9.150884218468838e-05
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 1,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.1510277110074414,
+      "valid_peak_fraction_FS": 0.15088608864704753,
+      "score_clean_peak_by_axis_V": [
+        0.15088608864704753,
+        0.060067848302426556
+      ],
+      "score_clean_peak_by_axis_codes": [
+        77.25367738728833,
+        30.754738330842397
+      ],
+      "sense_peak_group_CV_V": [
+        0.0755138555037207,
+        0.03129697911540133,
+        0.0755138555037207,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006005962864955393,
+      "angle_mean_rad": 2.1485587591278475e-05,
+      "angle_std_rad": 0.0006002118533302134,
+      "angle_peak_rad": 0.0013887614173066845,
+      "amplitude_range": [
+        0.9993647197798692,
+        1.0004143875615799
+      ],
+      "score_quantization_rms_V": [
+        0.0005647778241301565,
+        0.0005653354654478358
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00028187823739621315,
+        0.00037567221175985376,
+        0.00014931912120346846,
+        9.150884218468838e-05
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.3020893530045505,
+      "valid_peak_fraction_FS": 0.30180607496414674,
+      "score_clean_peak_by_axis_V": [
+        0.30180607496414674,
+        0.12014669157172522
+      ],
+      "score_clean_peak_by_axis_codes": [
+        154.52471038164313,
+        61.515106084723314
+      ],
+      "sense_peak_group_CV_V": [
+        0.07552233825113762,
+        0.03129697911540133,
+        0.07552233825113762,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.00048828125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0004895965585242432,
+      "angle_mean_rad": -0.0004255483411422517,
+      "angle_std_rad": 0.00024210204350616374,
+      "angle_peak_rad": 0.0009339009401229809,
+      "amplitude_range": [
+        0.9997378230706769,
+        1.0001681807056848
+      ],
+      "score_quantization_rms_V": [
+        0.0005617950278891363,
+        0.0005639852277503083
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0001160031714694847,
+        0.00013361504594872767,
+        0.00013371961507997637,
+        4.6417396746491894e-05
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 4,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.4530698718647832,
+      "valid_peak_fraction_FS": 0.4526450076304297,
+      "score_clean_peak_by_axis_V": [
+        0.4526450076304297,
+        0.18021047931022752
+      ],
+      "score_clean_peak_by_axis_codes": [
+        231.75424390678,
+        92.26776540683649
+      ],
+      "sense_peak_group_CV_V": [
+        0.0755116453107972,
+        0.03129697911540133,
+        0.0755116453107972,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0003255208333333333,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00014654716357129062,
+      "angle_mean_rad": -6.10895310986564e-05,
+      "angle_std_rad": 0.00013320713322092367,
+      "angle_peak_rad": 0.0003310471790820349,
+      "amplitude_range": [
+        0.9997617808029381,
+        1.0001205576093417
+      ],
+      "score_quantization_rms_V": [
+        0.0005612489799790678,
+        0.0005631134559756863
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        9.280659584342495e-05,
+        7.642149492740373e-05,
+        5.7070674025355055e-05,
+        4.948887767057264e-05
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 6,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6041042252635891,
+      "valid_peak_fraction_FS": 0.603537737800538,
+      "score_clean_peak_by_axis_V": [
+        0.603537737800538,
+        0.2402841438296183
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.01132175387545,
+        123.02548164076457
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551302815794864,
+        0.03129697911540133,
+        0.07551302815794864,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00024478080846405677,
+      "angle_mean_rad": 0.00022249955693893987,
+      "angle_std_rad": 0.00010203720573542133,
+      "angle_peak_rad": 0.0004769153382852276,
+      "amplitude_range": [
+        0.9997691808502587,
+        1.0000795447822899
+      ],
+      "score_quantization_rms_V": [
+        0.0005653258441462253,
+        0.0005637219619615008
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.763413394062635e-05,
+        5.323564976847662e-05,
+        5.32532505961703e-05,
+        2.8060250312090587e-05
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.755159284748253,
+      "valid_peak_fraction_FS": 0.7544511507396554,
+      "score_clean_peak_by_axis_V": [
+        0.7544511507396554,
+        0.3003632475269193
+      ],
+      "score_clean_peak_by_axis_codes": [
+        386.27898917870357,
+        153.78598273378267
+      ],
+      "sense_peak_group_CV_V": [
+        0.0755159284748253,
+        0.03129697911540133,
+        0.0755159284748253,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00017699327562602197,
+      "angle_mean_rad": 0.00015479874734173666,
+      "angle_std_rad": 8.5813562088158e-05,
+      "angle_peak_rad": 0.00037400620404230006,
+      "amplitude_range": [
+        0.9998155419507421,
+        1.0000496225217284
+      ],
+      "score_quantization_rms_V": [
+        0.0005644099465731262,
+        0.0005636127285969649
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        5.072946959227612e-05,
+        4.850944624171418e-05,
+        9.837286357979338e-05,
+        5.890753444366353e-05
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 10,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.9061660716235235,
+      "valid_peak_fraction_FS": 0.9053163392519212,
+      "score_clean_peak_by_axis_V": [
+        0.9053163392519212,
+        0.3604240507159863
+      ],
+      "score_clean_peak_by_axis_codes": [
+        463.52196569698367,
+        184.537113966585
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551383930196029,
+        0.03129697911540133,
+        0.07551383930196029,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.00016276041666666666,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00010351127780322809,
+      "angle_mean_rad": -7.479999825427269e-05,
+      "angle_std_rad": 7.155099505679753e-05,
+      "angle_peak_rad": 0.00022491459339728237,
+      "amplitude_range": [
+        0.9997987669567697,
+        1.0000049423395188
+      ],
+      "score_quantization_rms_V": [
+        0.0005642831050911893,
+        0.0005635778889019329
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.093527916104343e-05,
+        4.029829212123435e-05,
+        3.419102739985615e-05,
+        3.4712315757279294e-05
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 12,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 1.1846603333877264,
+      "valid_peak_fraction_FS": 1.1834573797145689,
+      "score_clean_peak_by_axis_V": [
+        1.1414725916669584,
+        0.4602590976824276
+      ],
+      "score_clean_peak_by_axis_codes": [
+        584.4339669334827,
+        235.65265801340294
+      ],
+      "sense_peak_group_CV_V": [
+        0.0740412708367329,
+        0.03129697911540133,
+        0.0740412708367329,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 72590,
+      "prevalid_overrange_samples": 36417,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0001220703125,
+      "lost": false,
+      "scored_frames": 0,
+      "complete_score": false,
+      "angle_rms_rad": null,
+      "angle_mean_rad": null,
+      "angle_std_rad": null,
+      "angle_peak_rad": null,
+      "amplitude_range": [
+        null,
+        null
+      ],
+      "score_quantization_rms_V": [
+        null,
+        null
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 16,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07551467179481439,
+      "valid_peak_fraction_FS": 0.0754438598746372,
+      "score_clean_peak_by_axis_V": [
+        0.0754438598746372,
+        0.030035689141806217
+      ],
+      "score_clean_peak_by_axis_codes": [
+        39554.31040595379,
+        15747.351388779298
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551467179481439,
+        0.03129697911540133,
+        0.07551467179481439,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 1.9073486328125e-06,
+      "postcombiner_input_referred_step_V": 1.9073486328125e-06,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 1.4451208319475332e-05,
+      "angle_mean_rad": 1.404821362184665e-05,
+      "angle_std_rad": 3.3889697443080307e-06,
+      "angle_peak_rad": 1.871136364842152e-05,
+      "amplitude_range": [
+        0.9999216206477413,
+        0.9999275333887104
+      ],
+      "score_quantization_rms_V": [
+        5.514888273648207e-07,
+        5.507443682878326e-07
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        3.216522498579727e-07,
+        3.011194173709191e-07,
+        3.340132756082143e-07,
+        3.3310496606523377e-07
+      ],
+      "case_id": "range",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 20,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    }
+  ],
+  "operating_cases": [
+    {
+      "sense_peak_fraction_FS": 0.07403870275470162,
+      "valid_peak_fraction_FS": 0.07396288341561798,
+      "score_clean_peak_by_axis_V": [
+        0.07392021477797903,
+        0.03125328604501687
+      ],
+      "score_clean_peak_by_axis_codes": [
+        37.84714996632526,
+        16.001682455048638
+      ],
+      "sense_peak_group_CV_V": [
+        0.07403870275470162,
+        0.0313030538866853,
+        0.07403870275470162,
+        0.0313030538866853
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006356532368647614,
+      "angle_mean_rad": -0.0005553355101082048,
+      "angle_std_rad": 0.0003092854809872402,
+      "angle_peak_rad": 0.001021989875724631,
+      "amplitude_range": [
+        0.9997375035176567,
+        1.000135839060252
+      ],
+      "score_quantization_rms_V": [
+        0.0005650438694159563,
+        0.0005467037303429218
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0006501470033200811,
+        0.0007032523634826695,
+        0.0001665750797044025,
+        0.0003118935616985203
+      ],
+      "case_id": "zero",
+      "rate_rad_s": 0,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.08039104297140287,
+      "valid_peak_fraction_FS": 0.0803120326527634,
+      "score_clean_peak_by_axis_V": [
+        0.0803120326527634,
+        0.0026944966186925215
+      ],
+      "score_clean_peak_by_axis_codes": [
+        41.11976071821486,
+        1.379582268770571
+      ],
+      "sense_peak_group_CV_V": [
+        0.08039104297140287,
+        0.004011013832910397,
+        0.08039104297140287,
+        0.004011013832910397
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.009362611424012691,
+      "angle_mean_rad": 0.004182656336074319,
+      "angle_std_rad": 0.008376388162648046,
+      "angle_peak_rad": 0.02275549021499315,
+      "amplitude_range": [
+        0.9994655664193663,
+        1.0004077814051993
+      ],
+      "score_quantization_rms_V": [
+        0.0005490386974668044,
+        0.0005482537252736456
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00035582680521349506,
+        0.0047764337759827556,
+        0.00012103406062597458,
+        0.0032297717010722985
+      ],
+      "case_id": "positive_near_x",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.05,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.0804031174696408,
+      "valid_peak_fraction_FS": 0.08032066365421575,
+      "score_clean_peak_by_axis_V": [
+        0.02733720607521901,
+        0.080018718973027
+      ],
+      "score_clean_peak_by_axis_codes": [
+        13.996649510512134,
+        40.96958411418982
+      ],
+      "sense_peak_group_CV_V": [
+        0.02734416798189201,
+        0.0804031174696408,
+        0.02734416798189201,
+        0.0804031174696408
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0034502933746405175,
+      "angle_mean_rad": 0.002340113717433047,
+      "angle_std_rad": 0.0025354274118124416,
+      "angle_peak_rad": 0.009727191408993918,
+      "amplitude_range": [
+        0.9979842367121932,
+        1.001085092878943
+      ],
+      "score_quantization_rms_V": [
+        0.0005649987402503039,
+        0.0005656296214075441
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0014248854373472512,
+        0.0006431707152341517,
+        0.00013513130751915446,
+        0.00017982376357195492
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07443927366841047,
+      "valid_peak_fraction_FS": 0.07437363129321994,
+      "score_clean_peak_by_axis_V": [
+        0.07437363129321994,
+        0.04871056723416726
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.07929922212861,
+        24.939810423893636
+      ],
+      "sense_peak_group_CV_V": [
+        0.07443927366841047,
+        0.056802765703275436,
+        0.07443927366841047,
+        0.056802765703275436
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0020435231809635955,
+      "angle_mean_rad": -0.0013261765327277168,
+      "angle_std_rad": 0.0015547484668517486,
+      "angle_peak_rad": 0.004584784038750983,
+      "amplitude_range": [
+        0.9978339908110616,
+        1.0012442768247602
+      ],
+      "score_quantization_rms_V": [
+        0.0005637987298596991,
+        0.0005644799468759718
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0006640783932792315,
+        0.0008678644959652385,
+        0.00021565776527403765,
+        0.000167004150939543
+      ],
+      "case_id": "positive_diagonal",
+      "rate_rad_s": 4,
+      "initial_modal_angle_rad": 0.7853981633974483,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.060385333781222586,
+      "valid_peak_fraction_FS": 0.06035280084776361,
+      "score_clean_peak_by_axis_V": [
+        0.06035280084776361,
+        0.053038572178115966
+      ],
+      "score_clean_peak_by_axis_codes": [
+        30.900634034054967,
+        27.155748955195374
+      ],
+      "sense_peak_group_CV_V": [
+        0.060385333781222586,
+        0.05307054935707469,
+        0.060385333781222586,
+        0.05307054935707469
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.1963989097727415,
+      "angle_mean_rad": -0.19554408467961598,
+      "angle_std_rad": 0.018304171839573023,
+      "angle_peak_rad": 0.20847745795298422,
+      "amplitude_range": [
+        0.4131137420885385,
+        0.9992330824728637
+      ],
+      "score_quantization_rms_V": [
+        0.000565941056312334,
+        0.000557826966122721
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0007997153426243362,
+        0.00069965545010672,
+        0.00023509029982171767,
+        0.00026837058834837954
+      ],
+      "case_id": "seeded_start",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": true,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.14807759147693145,
+      "valid_peak_fraction_FS": 0.1479266675836457,
+      "score_clean_peak_by_axis_V": [
+        0.14792322827709858,
+        0.06253864284480654
+      ],
+      "score_clean_peak_by_axis_codes": [
+        75.73669287787448,
+        32.019785136540946
+      ],
+      "sense_peak_group_CV_V": [
+        0.07403879573846572,
+        0.03130311215808898,
+        0.07403879573846572,
+        0.03130311215808898
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00020923878763256075,
+      "angle_mean_rad": -0.00018323060794483176,
+      "angle_std_rad": 0.00010103175026748378,
+      "angle_peak_rad": 0.00036020381174549506,
+      "amplitude_range": [
+        0.9997708297600214,
+        1.0001333099951868
+      ],
+      "score_quantization_rms_V": [
+        0.0005712651197680309,
+        0.0005505030564152341
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00021898477680324808,
+        0.00022012725940303126,
+        0.00017719180359106212,
+        0.00017697660392771298
+      ],
+      "case_id": "zero",
+      "rate_rad_s": 0,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.16081824826214608,
+      "valid_peak_fraction_FS": 0.16066018583411398,
+      "score_clean_peak_by_axis_V": [
+        0.16066018583411398,
+        0.005387550812753775
+      ],
+      "score_clean_peak_by_axis_codes": [
+        82.25801514706636,
+        2.758426016129933
+      ],
+      "sense_peak_group_CV_V": [
+        0.08040912413107304,
+        0.004011013832910397,
+        0.08040912413107304,
+        0.004011013832910397
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.003261774574428697,
+      "angle_mean_rad": -0.0006328043613521758,
+      "angle_std_rad": 0.0031998018711543964,
+      "angle_peak_rad": 0.0073230440305233485,
+      "amplitude_range": [
+        0.9996076242284865,
+        1.0002675225569022
+      ],
+      "score_quantization_rms_V": [
+        0.0005544132729491097,
+        0.0005808955338982493
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00021760418866262948,
+        0.0017800388831280408,
+        0.00010033736937600463,
+        0.0016193397455734624
+      ],
+      "case_id": "positive_near_x",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.05,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.16082832442963518,
+      "valid_peak_fraction_FS": 0.16066339456993511,
+      "score_clean_peak_by_axis_V": [
+        0.05468972532967343,
+        0.16008105119434607
+      ],
+      "score_clean_peak_by_axis_codes": [
+        28.001139368792796,
+        81.96149821150519
+      ],
+      "sense_peak_group_CV_V": [
+        0.027351812835690863,
+        0.08041416221481759,
+        0.027351812835690863,
+        0.08041416221481759
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0008854321343550966,
+      "angle_mean_rad": -7.027577818397432e-05,
+      "angle_std_rad": 0.0008826388726706175,
+      "angle_peak_rad": 0.0023121435327462525,
+      "amplitude_range": [
+        0.9990447344263664,
+        1.0004657135137467
+      ],
+      "score_quantization_rms_V": [
+        0.0005636481335980639,
+        0.0005651672528565427
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0004889224197352737,
+        0.0002924162943906489,
+        9.232359818240716e-05,
+        0.00014813947906317112
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.1489120102666964,
+      "valid_peak_fraction_FS": 0.14878069596083032,
+      "score_clean_peak_by_axis_V": [
+        0.14878069596083032,
+        0.09740971570542518
+      ],
+      "score_clean_peak_by_axis_codes": [
+        76.17571633194513,
+        49.873774441177694
+      ],
+      "sense_peak_group_CV_V": [
+        0.0744560051333482,
+        0.056802765703275436,
+        0.0744560051333482,
+        0.056802765703275436
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0009635020645457729,
+      "angle_mean_rad": 0.0007661042870103711,
+      "angle_std_rad": 0.000584311945632038,
+      "angle_peak_rad": 0.0023959727339514236,
+      "amplitude_range": [
+        0.9991104406700486,
+        1.0004946556720569
+      ],
+      "score_quantization_rms_V": [
+        0.0005640370645725128,
+        0.0005641847951205807
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.000257373025861373,
+        0.0003200891480752529,
+        0.0001883851459591522,
+        0.00014002083253089685
+      ],
+      "case_id": "positive_diagonal",
+      "rate_rad_s": 4,
+      "initial_modal_angle_rad": 0.7853981633974483,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.12085006610962591,
+      "valid_peak_fraction_FS": 0.12078483200382541,
+      "score_clean_peak_by_axis_V": [
+        0.12078483200382541,
+        0.10606994023814297
+      ],
+      "score_clean_peak_by_axis_codes": [
+        61.84183398595861,
+        54.3078094019292
+      ],
+      "sense_peak_group_CV_V": [
+        0.060425033054812956,
+        0.05306696424673228,
+        0.060425033054812956,
+        0.05306696424673228
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.2228221509640637,
+      "angle_mean_rad": -0.2220889821731027,
+      "angle_std_rad": 0.01806086812883789,
+      "angle_peak_rad": 0.23301576526030193,
+      "amplitude_range": [
+        0.41201956905698406,
+        0.9992240261014368
+      ],
+      "score_quantization_rms_V": [
+        0.0005647772501942513,
+        0.000559665208940897
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00027265054044020863,
+        0.0002734522861108019,
+        0.00013084284037793076,
+        0.00011637006487696198
+      ],
+      "case_id": "seeded_start",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": true,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.2962418997581312,
+      "valid_peak_fraction_FS": 0.29594632192352066,
+      "score_clean_peak_by_axis_V": [
+        0.29594632192352066,
+        0.1251184040949144
+      ],
+      "score_clean_peak_by_axis_codes": [
+        151.52451682484258,
+        64.06062289659617
+      ],
+      "sense_peak_group_CV_V": [
+        0.0740604749395328,
+        0.0313117426569446,
+        0.0740604749395328,
+        0.0313117426569446
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.00048828125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00012256521978027752,
+      "angle_mean_rad": 8.904624402596866e-05,
+      "angle_std_rad": 8.421994730855257e-05,
+      "angle_peak_rad": 0.0002841731154748958,
+      "amplitude_range": [
+        0.9997582900908168,
+        1.0000642473068098
+      ],
+      "score_quantization_rms_V": [
+        0.0005750419673492179,
+        0.0005524019803546559
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00012409225175535343,
+        6.46221333704239e-05,
+        0.0001334393606373918,
+        0.00015945558000285425
+      ],
+      "case_id": "zero",
+      "rate_rad_s": 0,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 4,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.3216450744144576,
+      "valid_peak_fraction_FS": 0.3213322092520947,
+      "score_clean_peak_by_axis_V": [
+        0.3213322092520947,
+        0.010771632768371182
+      ],
+      "score_clean_peak_by_axis_codes": [
+        164.5220911370725,
+        5.515075977406045
+      ],
+      "sense_peak_group_CV_V": [
+        0.08041126860361442,
+        0.004011013832910397,
+        0.0804112686036144,
+        0.004011013832910397
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.00048828125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0020089220884991006,
+      "angle_mean_rad": -0.0016767031268049184,
+      "angle_std_rad": 0.001106541721862397,
+      "angle_peak_rad": 0.00343876529042976,
+      "amplitude_range": [
+        0.9996847550115295,
+        1.0001069060486556
+      ],
+      "score_quantization_rms_V": [
+        0.0005698091294648389,
+        0.0005683171662693706
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00017507097875369773,
+        0.0005658510078557685,
+        8.215738199326874e-05,
+        0.00032721799337367204
+      ],
+      "case_id": "positive_near_x",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.05,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 4,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.32160737769418124,
+      "valid_peak_fraction_FS": 0.3212774917460086,
+      "score_clean_peak_by_axis_V": [
+        0.1093754882651275,
+        0.32018608124843906
+      ],
+      "score_clean_peak_by_axis_codes": [
+        56.00024999174528,
+        163.9352735992008
+      ],
+      "sense_peak_group_CV_V": [
+        0.027350832277510454,
+        0.08040184442354531,
+        0.027350832277510454,
+        0.08040184442354531
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.00048828125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0007202397668276569,
+      "angle_mean_rad": -0.0006403161858441479,
+      "angle_std_rad": 0.0003297582506412242,
+      "angle_peak_rad": 0.001328300098369234,
+      "amplitude_range": [
+        0.9995079592627029,
+        1.0002446050211369
+      ],
+      "score_quantization_rms_V": [
+        0.0005639381576284524,
+        0.0005628445865990061
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00017021444813616584,
+        0.0001334059091529767,
+        5.9571891444853715e-05,
+        0.0001180234083476587
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 4,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.2978210694038834,
+      "valid_peak_fraction_FS": 0.2975584440384511,
+      "score_clean_peak_by_axis_V": [
+        0.2975584440384511,
+        0.1948137978902774
+      ],
+      "score_clean_peak_by_axis_codes": [
+        152.34992334768697,
+        99.74466451982202
+      ],
+      "sense_peak_group_CV_V": [
+        0.07445526735097086,
+        0.056802765703275436,
+        0.07445526735097086,
+        0.056802765703275436
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.00048828125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00032144157067495147,
+      "angle_mean_rad": 0.00016100928633503407,
+      "angle_std_rad": 0.00027820980045976604,
+      "angle_peak_rad": 0.00102158321061796,
+      "amplitude_range": [
+        0.9994204102794217,
+        1.00021837858724
+      ],
+      "score_quantization_rms_V": [
+        0.0005631187225706608,
+        0.0005639891647751839
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00013401895616028093,
+        0.00011966146743851138,
+        0.00015750372060569176,
+        8.972961742929455e-05
+      ],
+      "case_id": "positive_diagonal",
+      "rate_rad_s": 4,
+      "initial_modal_angle_rad": 0.7853981633974483,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 4,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.24170454522634327,
+      "valid_peak_fraction_FS": 0.24157425214010536,
+      "score_clean_peak_by_axis_V": [
+        0.24157425214010536,
+        0.212141255876214
+      ],
+      "score_clean_peak_by_axis_codes": [
+        123.68601709573394,
+        108.61632300862156
+      ],
+      "sense_peak_group_CV_V": [
+        0.06042613630658582,
+        0.05306730131344801,
+        0.06042613630658582,
+        0.05306730131344801
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.00048828125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.21284881789058718,
+      "angle_mean_rad": -0.21207998521248556,
+      "angle_std_rad": 0.018074820875799893,
+      "angle_peak_rad": 0.22233252447633534,
+      "amplitude_range": [
+        0.4116335846032323,
+        0.9990217214216986
+      ],
+      "score_quantization_rms_V": [
+        0.0005639858203373272,
+        0.0005660420515107085
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00010977523901638132,
+        0.00012126255713424117,
+        6.87309392185136e-05,
+        7.47791471567617e-05
+      ],
+      "case_id": "seeded_start",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": true,
+      "span_Vpp": 2,
+      "gain": 4,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.44434680380128366,
+      "valid_peak_fraction_FS": 0.44391016330460137,
+      "score_clean_peak_by_axis_V": [
+        0.44391016330460137,
+        0.18767162803553591
+      ],
+      "score_clean_peak_by_axis_codes": [
+        227.2820036119559,
+        96.08787355419439
+      ],
+      "sense_peak_group_CV_V": [
+        0.07405780063354728,
+        0.031310175811122415,
+        0.07405780063354728,
+        0.031310175811122415
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0003255208333333333,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 7.16165439700009e-05,
+      "angle_mean_rad": 2.0917285751389422e-05,
+      "angle_std_rad": 6.849376998677906e-05,
+      "angle_peak_rad": 0.00014578367096864994,
+      "amplitude_range": [
+        0.9997206521036146,
+        1.0000596489425733
+      ],
+      "score_quantization_rms_V": [
+        0.0005596692098499333,
+        0.0005542331309602165
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00010257327317221093,
+        3.701230413535172e-05,
+        5.947197557507046e-05,
+        5.780460929915221e-05
+      ],
+      "case_id": "zero",
+      "rate_rad_s": 0,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 6,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.48236219213503023,
+      "valid_peak_fraction_FS": 0.48189724807258033,
+      "score_clean_peak_by_axis_V": [
+        0.48189724807258033,
+        0.016156257683789633
+      ],
+      "score_clean_peak_by_axis_codes": [
+        246.73139101316113,
+        8.272003934100292
+      ],
+      "sense_peak_group_CV_V": [
+        0.0803936986891717,
+        0.004011013832910397,
+        0.0803936986891717,
+        0.004011013832910397
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0003255208333333333,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006992825595642058,
+      "angle_mean_rad": -0.0003589197087228347,
+      "angle_std_rad": 0.0006001439334034649,
+      "angle_peak_rad": 0.0014642352922703689,
+      "amplitude_range": [
+        0.9997249893851106,
+        1.0000722192466802
+      ],
+      "score_quantization_rms_V": [
+        0.00057111739742226,
+        0.0005583960303369057
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00010433861600461795,
+        0.0003057821718174127,
+        5.121122316247793e-05,
+        0.00017231471611789487
+      ],
+      "case_id": "positive_near_x",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.05,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 6,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.48241344603152225,
+      "valid_peak_fraction_FS": 0.4819188469361571,
+      "score_clean_peak_by_axis_V": [
+        0.16406433708469123,
+        0.48026949681774805
+      ],
+      "score_clean_peak_by_axis_codes": [
+        84.00094058736191,
+        245.897982370687
+      ],
+      "sense_peak_group_CV_V": [
+        0.02735101130631456,
+        0.08040224100525371,
+        0.02735101130631456,
+        0.08040224100525371
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0003255208333333333,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0003388402740282726,
+      "angle_mean_rad": 0.000260734295801576,
+      "angle_std_rad": 0.00021640323079014122,
+      "angle_peak_rad": 0.0007599979971958382,
+      "amplitude_range": [
+        0.999694148779112,
+        1.0001222121966935
+      ],
+      "score_quantization_rms_V": [
+        0.000564048018729601,
+        0.0005634505514109579
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        9.66038870011819e-05,
+        7.95275038729058e-05,
+        5.460210599955336e-05,
+        5.6053496059516354e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 6,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.44674258989357823,
+      "valid_peak_fraction_FS": 0.4463486433351393,
+      "score_clean_peak_by_axis_V": [
+        0.4463486433351393,
+        0.2922231680395276
+      ],
+      "score_clean_peak_by_axis_codes": [
+        228.53050538759132,
+        149.61826203623812
+      ],
+      "sense_peak_group_CV_V": [
+        0.07445709831559637,
+        0.056802765703275436,
+        0.07445709831559637,
+        0.056802765703275436
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0003255208333333333,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.000357586281918413,
+      "angle_mean_rad": 0.0002969977283262492,
+      "angle_std_rad": 0.0001991489351849067,
+      "angle_peak_rad": 0.0008782801844081645,
+      "amplitude_range": [
+        0.9997095921573378,
+        1.0001509737949486
+      ],
+      "score_quantization_rms_V": [
+        0.0005637316882668626,
+        0.0005660507223979376
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        8.342218300537405e-05,
+        6.946885665479813e-05,
+        6.90747272321738e-05,
+        0.00010074713362305184
+      ],
+      "case_id": "positive_diagonal",
+      "rate_rad_s": 4,
+      "initial_modal_angle_rad": 0.7853981633974483,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 6,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.36254481262228916,
+      "valid_peak_fraction_FS": 0.3623493702125357,
+      "score_clean_peak_by_axis_V": [
+        0.3623493702125357,
+        0.31820748615043687
+      ],
+      "score_clean_peak_by_axis_codes": [
+        185.5228775488183,
+        162.92223290902368
+      ],
+      "sense_peak_group_CV_V": [
+        0.06042413543704819,
+        0.05306657107900524,
+        0.06042413543704819,
+        0.05306657107900524
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0003255208333333333,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.21563775748159925,
+      "angle_mean_rad": -0.21488006252347228,
+      "angle_std_rad": 0.018061040435192542,
+      "angle_peak_rad": 0.22523871487952093,
+      "amplitude_range": [
+        0.41173306578173396,
+        0.9988651898841537
+      ],
+      "score_quantization_rms_V": [
+        0.0005629281457966265,
+        0.0005620910831828868
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        8.417016240885178e-05,
+        7.557487840137612e-05,
+        7.016727561789093e-05,
+        7.905313546128129e-05
+      ],
+      "case_id": "seeded_start",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": true,
+      "span_Vpp": 2,
+      "gain": 6,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.5924202092179608,
+      "valid_peak_fraction_FS": 0.5918388735422435,
+      "score_clean_peak_by_axis_V": [
+        0.5918388735422435,
+        0.2502088241341281
+      ],
+      "score_clean_peak_by_axis_codes": [
+        303.0215032536287,
+        128.10691795667358
+      ],
+      "sense_peak_group_CV_V": [
+        0.0740525261522451,
+        0.0313084074228788,
+        0.0740525261522451,
+        0.0313084074228788
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00018842635200744191,
+      "angle_mean_rad": 0.00017344772230046227,
+      "angle_std_rad": 7.362321481444642e-05,
+      "angle_peak_rad": 0.000355643048791511,
+      "amplitude_range": [
+        0.9998388850843514,
+        1.000019529167666
+      ],
+      "score_quantization_rms_V": [
+        0.0005613355895838613,
+        0.0005624619835719393
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.4721991789905845e-05,
+        4.0327335917508e-05,
+        4.0881888220780736e-05,
+        0.00022920132255741776
+      ],
+      "case_id": "zero",
+      "rate_rad_s": 0,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6431672315834672,
+      "valid_peak_fraction_FS": 0.642546269997482,
+      "score_clean_peak_by_axis_V": [
+        0.642546269997482,
+        0.021540170587712466
+      ],
+      "score_clean_peak_by_axis_codes": [
+        328.9836902387108,
+        11.028567340908783
+      ],
+      "sense_peak_group_CV_V": [
+        0.0803959039479334,
+        0.004011013832910397,
+        0.0803959039479334,
+        0.004011013832910397
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0005009171205063928,
+      "angle_mean_rad": -0.0002559577623243065,
+      "angle_std_rad": 0.00043058516639841397,
+      "angle_peak_rad": 0.0011413944922477534,
+      "amplitude_range": [
+        0.9998179178187298,
+        1.0000387481547026
+      ],
+      "score_quantization_rms_V": [
+        0.0005614106631510835,
+        0.0005646171322169929
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.141584274336398e-05,
+        0.00020267970092066503,
+        6.027264066266372e-05,
+        0.00015133050049042252
+      ],
+      "case_id": "positive_near_x",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.05,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6431411708157633,
+      "valid_peak_fraction_FS": 0.6424816339457342,
+      "score_clean_peak_by_axis_V": [
+        0.21875197898780374,
+        0.6403496859897951
+      ],
+      "score_clean_peak_by_axis_codes": [
+        112.00101324175552,
+        327.8590392267751
+      ],
+      "sense_peak_group_CV_V": [
+        0.02735095492261956,
+        0.08039264635197041,
+        0.02735095492261956,
+        0.08039264635197041
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006037865066331833,
+      "angle_mean_rad": 0.0005781120259737749,
+      "angle_std_rad": 0.00017419710392770733,
+      "angle_peak_rad": 0.0009311669118728383,
+      "amplitude_range": [
+        0.9996993637097674,
+        1.0000861096441938
+      ],
+      "score_quantization_rms_V": [
+        0.0005636506309019946,
+        0.0005629307504783927
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.353747983532725e-05,
+        6.018853897189437e-05,
+        3.674662646377439e-05,
+        5.711235342964168e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.5956481346020123,
+      "valid_peak_fraction_FS": 0.5951228820838224,
+      "score_clean_peak_by_axis_V": [
+        0.5951228820838224,
+        0.3896340515591215
+      ],
+      "score_clean_peak_by_axis_codes": [
+        304.70291562691705,
+        199.4926343982702
+      ],
+      "sense_peak_group_CV_V": [
+        0.07445601682525153,
+        0.056802765703275436,
+        0.07445601682525153,
+        0.056802765703275436
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.000577647412302056,
+      "angle_mean_rad": 0.0005501286299637219,
+      "angle_std_rad": 0.0001761676004079634,
+      "angle_peak_rad": 0.0009400685879761284,
+      "amplitude_range": [
+        0.9997527234968893,
+        1.0000617512014343
+      ],
+      "score_quantization_rms_V": [
+        0.0005637261670360929,
+        0.0005625548878174294
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        5.5403539356646305e-05,
+        5.7930975514373425e-05,
+        6.632834689292094e-05,
+        6.743774656567689e-05
+      ],
+      "case_id": "positive_diagonal",
+      "rate_rad_s": 4,
+      "initial_modal_angle_rad": 0.7853981633974483,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.48336941966082325,
+      "valid_peak_fraction_FS": 0.48310888598057516,
+      "score_clean_peak_by_axis_V": [
+        0.48310888598057516,
+        0.42428155782678645
+      ],
+      "score_clean_peak_by_axis_codes": [
+        247.35174962205448,
+        217.23215760731466
+      ],
+      "sense_peak_group_CV_V": [
+        0.060421177457602906,
+        0.05306717988623513,
+        0.060421177457602906,
+        0.05306717988623513
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.2165322325672213,
+      "angle_mean_rad": -0.2157746108270789,
+      "angle_std_rad": 0.01809765352104627,
+      "angle_peak_rad": 0.2259018301904937,
+      "amplitude_range": [
+        0.41173828753433367,
+        0.9988089347451241
+      ],
+      "score_quantization_rms_V": [
+        0.0005631039704261259,
+        0.0005610829196326076
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.40846143331787e-05,
+        5.5486847812127134e-05,
+        4.900608982139659e-05,
+        5.9867004537107555e-05
+      ],
+      "case_id": "seeded_start",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": true,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.7405337362536942,
+      "valid_peak_fraction_FS": 0.7398034436135102,
+      "score_clean_peak_by_axis_V": [
+        0.7398034436135102,
+        0.31276217152478236
+      ],
+      "score_clean_peak_by_axis_codes": [
+        378.77936313011725,
+        160.13423182068857
+      ],
+      "sense_peak_group_CV_V": [
+        0.07405337362536943,
+        0.031308453585842104,
+        0.07405337362536943,
+        0.031308453585842104
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 9.39466060281041e-05,
+      "angle_mean_rad": 8.219760126626768e-05,
+      "angle_std_rad": 4.549196775554425e-05,
+      "angle_peak_rad": 0.00020578921198134662,
+      "amplitude_range": [
+        0.9998237446822046,
+        0.9999998802546939
+      ],
+      "score_quantization_rms_V": [
+        0.0005664479463841848,
+        0.0005591256828333234
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.440836992518707e-05,
+        2.9621505540360913e-05,
+        3.5198552026553555e-05,
+        5.985019658108263e-05
+      ],
+      "case_id": "zero",
+      "rate_rad_s": 0,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 10,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.8039805469315638,
+      "valid_peak_fraction_FS": 0.8032052621985711,
+      "score_clean_peak_by_axis_V": [
+        0.8032052621985711,
+        0.02692512806355251
+      ],
+      "score_clean_peak_by_axis_codes": [
+        411.2410942456684,
+        13.785665568538885
+      ],
+      "sense_peak_group_CV_V": [
+        0.08039805469315639,
+        0.004011013832910397,
+        0.08039805469315639,
+        0.004011013832910397
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0005727699169740178,
+      "angle_mean_rad": -0.000431655026705528,
+      "angle_std_rad": 0.0003764828225965603,
+      "angle_peak_rad": 0.0011306789325766925,
+      "amplitude_range": [
+        0.9997639922859421,
+        1.0000000392814639
+      ],
+      "score_quantization_rms_V": [
+        0.0005598211524427768,
+        0.0005668814088925213
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        5.4496281775171136e-05,
+        0.00014357838538723824,
+        3.3073295893028714e-05,
+        8.162239866375239e-05
+      ],
+      "case_id": "positive_near_x",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.05,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 10,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.8039474640639934,
+      "valid_peak_fraction_FS": 0.803123054891689,
+      "score_clean_peak_by_axis_V": [
+        0.273442569716428,
+        0.8004366523785468
+      ],
+      "score_clean_peak_by_axis_codes": [
+        140.00259569481113,
+        409.82356601781595
+      ],
+      "sense_peak_group_CV_V": [
+        0.027351210864083313,
+        0.08039474640639935,
+        0.027351210864083313,
+        0.08039474640639935
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0004950044956127979,
+      "angle_mean_rad": 0.00047181039728066894,
+      "angle_std_rad": 0.00014974778694437464,
+      "angle_peak_rad": 0.0007903575754367731,
+      "amplitude_range": [
+        0.9997902677912271,
+        1.0000536434155545
+      ],
+      "score_quantization_rms_V": [
+        0.0005637738569329776,
+        0.0005614227738721811
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.455777620607014e-05,
+        4.922143562069643e-05,
+        4.584403670665476e-05,
+        6.393561510816e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 10,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.7445663439974034,
+      "valid_peak_fraction_FS": 0.7439097713648636,
+      "score_clean_peak_by_axis_V": [
+        0.7439097713648636,
+        0.48704466999043866
+      ],
+      "score_clean_peak_by_axis_codes": [
+        380.88180293881015,
+        249.3668710351046
+      ],
+      "sense_peak_group_CV_V": [
+        0.07445663439974035,
+        0.056802765703275436,
+        0.07445663439974035,
+        0.056802765703275436
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0004596979923621103,
+      "angle_mean_rad": 0.0004279972773048464,
+      "angle_std_rad": 0.00016775152697186778,
+      "angle_peak_rad": 0.0008089846753408514,
+      "amplitude_range": [
+        0.999770712018009,
+        1.0000346914266312
+      ],
+      "score_quantization_rms_V": [
+        0.000563622708570924,
+        0.0005639171351183842
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.753852589464613e-05,
+        4.5695989903916076e-05,
+        3.7399654575488504e-05,
+        3.441606017702023e-05
+      ],
+      "case_id": "positive_diagonal",
+      "rate_rad_s": 4,
+      "initial_modal_angle_rad": 0.7853981633974483,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 10,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6042221009851698,
+      "valid_peak_fraction_FS": 0.60389638436069,
+      "score_clean_peak_by_axis_V": [
+        0.60389638436069,
+        0.5303598246985972
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.1949487926733,
+        271.5442302456818
+      ],
+      "sense_peak_group_CV_V": [
+        0.06042221009851699,
+        0.05306797205721433,
+        0.06042221009851699,
+        0.05306797205721433
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.21545642606747692,
+      "angle_mean_rad": -0.21469805856135157,
+      "angle_std_rad": 0.01806142806526102,
+      "angle_peak_rad": 0.2248040121273489,
+      "amplitude_range": [
+        0.41181354729676733,
+        0.9988057143447131
+      ],
+      "score_quantization_rms_V": [
+        0.0005637194430806242,
+        0.0005622379290248973
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        5.588084207795322e-05,
+        4.739426606941569e-05,
+        5.113048532434497e-05,
+        5.241360550211134e-05
+      ],
+      "case_id": "seeded_start",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": true,
+      "span_Vpp": 2,
+      "gain": 10,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    }
+  ],
+  "gain_screen": [
+    {
+      "gain": 1,
+      "worst_angle_rms_rad": 0.009362611424012691,
+      "peak_fraction_FS": 0.0804031174696408,
+      "complete": true,
+      "no_valid_clipping": true,
+      "eligible": true
+    },
+    {
+      "gain": 2,
+      "worst_angle_rms_rad": 0.003261774574428697,
+      "peak_fraction_FS": 0.16082832442963518,
+      "complete": true,
+      "no_valid_clipping": true,
+      "eligible": true
+    },
+    {
+      "gain": 4,
+      "worst_angle_rms_rad": 0.0020089220884991006,
+      "peak_fraction_FS": 0.3216450744144576,
+      "complete": true,
+      "no_valid_clipping": true,
+      "eligible": true
+    },
+    {
+      "gain": 6,
+      "worst_angle_rms_rad": 0.0006992825595642058,
+      "peak_fraction_FS": 0.48241344603152225,
+      "complete": true,
+      "no_valid_clipping": true,
+      "eligible": true
+    },
+    {
+      "gain": 8,
+      "worst_angle_rms_rad": 0.0006037865066331833,
+      "peak_fraction_FS": 0.6431672315834672,
+      "complete": true,
+      "no_valid_clipping": true,
+      "eligible": true
+    },
+    {
+      "gain": 10,
+      "worst_angle_rms_rad": 0.0005727699169740178,
+      "peak_fraction_FS": 0.8039805469315638,
+      "complete": true,
+      "no_valid_clipping": true,
+      "eligible": false
+    }
+  ],
+  "noise_sensitivity": [
+    {
+      "sense_peak_fraction_FS": 0.0767921814347701,
+      "valid_peak_fraction_FS": 0.07671435768631456,
+      "score_clean_peak_by_axis_V": [
+        0.0754345150562035,
+        0.030034309135098712
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.62247170877619,
+        15.37756627717054
+      ],
+      "sense_peak_group_CV_V": [
+        0.0755053000697726,
+        0.03129697911540133,
+        0.0755053000697726,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0028996157095991294,
+      "angle_mean_rad": 0.002666267291435944,
+      "angle_std_rad": 0.001139644678824458,
+      "angle_peak_rad": 0.005661817507476165,
+      "amplitude_range": [
+        0.9984811825282933,
+        1.0014644861683395
+      ],
+      "score_quantization_rms_V": [
+        0.0005637705715912158,
+        0.0005641970739530895
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00033445324814605727,
+        0.0003894323577426209,
+        0.0003050275896986938,
+        0.0003328771294841979
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.0768528552963754,
+      "valid_peak_fraction_FS": 0.07672719408254453,
+      "score_clean_peak_by_axis_V": [
+        0.07544568812618492,
+        0.030030629122238826
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.62819232060668,
+        15.375682110586279
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551650682515626,
+        0.03129697911540133,
+        0.07551650682515626,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.001501233808368728,
+      "angle_mean_rad": -0.00091438531222723,
+      "angle_std_rad": 0.0011906311133900312,
+      "angle_peak_rad": 0.004114542651690745,
+      "amplitude_range": [
+        0.9981949222896046,
+        1.0012024254539955
+      ],
+      "score_quantization_rms_V": [
+        0.0005633181155953855,
+        0.0005648366913748666
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00036752308404047767,
+        0.000386733221059774,
+        0.00032947625542768734,
+        0.0003235284446903565
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 109
+    },
+    {
+      "sense_peak_fraction_FS": 0.15360816335527036,
+      "valid_peak_fraction_FS": 0.15344432033584351,
+      "score_clean_peak_by_axis_V": [
+        0.07544026442864128,
+        0.03003631690808462
+      ],
+      "score_clean_peak_by_axis_codes": [
+        77.25083077492867,
+        30.75718851387865
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551106578799871,
+        0.03129697911540133,
+        0.07551106578799871,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.0009765625,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0019137579399973001,
+      "angle_mean_rad": 0.0016789648192810408,
+      "angle_std_rad": 0.0009184479236839134,
+      "angle_peak_rad": 0.0043744809512497596,
+      "amplitude_range": [
+        0.9987899481570485,
+        1.0011321760215328
+      ],
+      "score_quantization_rms_V": [
+        0.000281636177071367,
+        0.0002820908008659552
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00017624302480731484,
+        0.00018208430809728434,
+        0.0001709878632145541,
+        0.00015908775866628794
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 1,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.15371992935827947,
+      "valid_peak_fraction_FS": 0.1534707709996824,
+      "score_clean_peak_by_axis_V": [
+        0.07544934596263414,
+        0.030033095340544876
+      ],
+      "score_clean_peak_by_axis_codes": [
+        77.26013026573736,
+        30.753889628717953
+      ],
+      "sense_peak_group_CV_V": [
+        0.07552016342921161,
+        0.03129697911540133,
+        0.07552016342921161,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.0009765625,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0010247955887615896,
+      "angle_mean_rad": -0.00028765011490517866,
+      "angle_std_rad": 0.00098359717879844,
+      "angle_peak_rad": 0.0029044926980790753,
+      "amplitude_range": [
+        0.9983568835965639,
+        1.0012341343468705
+      ],
+      "score_quantization_rms_V": [
+        0.00028209169450797456,
+        0.00028184419236526446
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0001774867223041215,
+        0.00018610671804636999,
+        0.00017235222313740622,
+        0.00018840598353541673
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 1,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 109
+    },
+    {
+      "sense_peak_fraction_FS": 0.15227289578885453,
+      "valid_peak_fraction_FS": 0.15213080461258308,
+      "score_clean_peak_by_axis_V": [
+        0.15087255544697528,
+        0.06007168521938608
+      ],
+      "score_clean_peak_by_axis_codes": [
+        77.24674838885134,
+        30.756702832325672
+      ],
+      "sense_peak_group_CV_V": [
+        0.07550707603815612,
+        0.03129697911540133,
+        0.07550707603815612,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0007924399343031669,
+      "angle_mean_rad": 0.0005438573619312963,
+      "angle_std_rad": 0.0005763507780436655,
+      "angle_peak_rad": 0.001985299410013408,
+      "amplitude_range": [
+        0.999222247573756,
+        1.0007271247518048
+      ],
+      "score_quantization_rms_V": [
+        0.0005634610975689059,
+        0.0005641090517843532
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.00017750309598288453,
+        0.00019178442551890052,
+        0.0001751709272338647,
+        0.00016930037139748579
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.15236542079275642,
+      "valid_peak_fraction_FS": 0.15212783277479514,
+      "score_clean_peak_by_axis_V": [
+        0.15089001869266863,
+        0.06006371852343228
+      ],
+      "score_clean_peak_by_axis_codes": [
+        77.25568957064634,
+        30.752623883997327
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551581569656117,
+        0.03129697911540133,
+        0.07551581569656117,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.0009765625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006688969345116557,
+      "angle_mean_rad": -0.0003785869570864249,
+      "angle_std_rad": 0.0005514481162567623,
+      "angle_peak_rad": 0.0017587848300411393,
+      "amplitude_range": [
+        0.9990184688688878,
+        1.000763723668397
+      ],
+      "score_quantization_rms_V": [
+        0.0005626851015917156,
+        0.0005641438776874775
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0001825747461148501,
+        0.000181706897745223,
+        0.00016790109634136618,
+        0.0001775223747898387
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 2,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 109
+    },
+    {
+      "sense_peak_fraction_FS": 0.6053573009490735,
+      "valid_peak_fraction_FS": 0.6046584450393634,
+      "score_clean_peak_by_axis_V": [
+        0.6035484658734767,
+        0.2402854668832196
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.01681452722005,
+        123.02615904420844
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551436800152428,
+        0.03129697911540133,
+        0.07551436800152428,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0002988227697136992,
+      "angle_mean_rad": 0.0002700948693883714,
+      "angle_std_rad": 0.00012784290840498386,
+      "angle_peak_rad": 0.0006231542263561984,
+      "amplitude_range": [
+        0.9997740908595865,
+        1.0001666744379556
+      ],
+      "score_quantization_rms_V": [
+        0.0005634918811995671,
+        0.0005642980780204375
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.115930139895018e-05,
+        4.309592320474708e-05,
+        4.646380556415606e-05,
+        4.654807725515532e-05
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6054380359987009,
+      "valid_peak_fraction_FS": 0.6046604550376166,
+      "score_clean_peak_by_axis_V": [
+        0.6035619107612542,
+        0.2402810211495759
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.02369830976215,
+        123.02388282858286
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551605119112982,
+        0.03129697911540133,
+        0.07551605119112982,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0001945084523641003,
+      "angle_mean_rad": -0.00014132467922127348,
+      "angle_std_rad": 0.00013364457745857717,
+      "angle_peak_rad": 0.0005659508231853315,
+      "amplitude_range": [
+        0.9997010875053455,
+        1.000092332066137
+      ],
+      "score_quantization_rms_V": [
+        0.0005633066827867041,
+        0.000563768374000971
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.4445524102723574e-05,
+        4.124894864977119e-05,
+        4.6633435440629076e-05,
+        4.389962306307461e-05
+      ],
+      "case_id": "noise",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0.00078125,
+      "noise_seed": 109
+    }
+  ],
+  "window_sweep": [
+    {
+      "sense_peak_fraction_FS": 0.6124136421349299,
+      "valid_peak_fraction_FS": 0.6035489706833532,
+      "score_clean_peak_by_axis_V": [
+        0.6035489706833532,
+        0.24028843561410895
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.01707298987685,
+        123.02767903442378
+      ],
+      "sense_peak_group_CV_V": [
+        0.07655170526686624,
+        0.03172977178560217,
+        0.07655170526686624,
+        0.03172977178560217
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00024861305672121113,
+      "angle_mean_rad": 0.0002285168230470898,
+      "angle_std_rad": 9.792095565673963e-05,
+      "angle_peak_rad": 0.0004926885753605281,
+      "amplitude_range": [
+        0.9997990627534392,
+        1.0000991389421023
+      ],
+      "score_quantization_rms_V": [
+        0.0005652174964615537,
+        0.000563729381499784
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.738785594685376e-05,
+        5.247729170292894e-05,
+        5.194248295853222e-05,
+        2.9430473595349106e-05
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.25,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6520144876891476,
+      "valid_peak_fraction_FS": 0.6424903548737425,
+      "score_clean_peak_by_axis_V": [
+        0.21876442270568416,
+        0.6403591093488209
+      ],
+      "score_clean_peak_by_axis_codes": [
+        112.00738442531029,
+        327.8638639865963
+      ],
+      "sense_peak_group_CV_V": [
+        0.02770858724537673,
+        0.08150181096114345,
+        0.02770858724537673,
+        0.08150181096114345
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0005898076638270177,
+      "angle_mean_rad": 0.0005656000952679233,
+      "angle_std_rad": 0.0001672411807600042,
+      "angle_peak_rad": 0.0008937616398295711,
+      "amplitude_range": [
+        0.9997257872014413,
+        1.0000935350687667
+      ],
+      "score_quantization_rms_V": [
+        0.0005636309711461463,
+        0.0005629635953608301
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.31261176027728e-05,
+        6.227080249458989e-05,
+        3.8254444417337834e-05,
+        5.528661172758655e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.25,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6041042252635891,
+      "valid_peak_fraction_FS": 0.603537737800538,
+      "score_clean_peak_by_axis_V": [
+        0.603537737800538,
+        0.2402841438296183
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.01132175387545,
+        123.02548164076457
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551302815794864,
+        0.03129697911540133,
+        0.07551302815794864,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00024478080846405677,
+      "angle_mean_rad": 0.00022249955693893987,
+      "angle_std_rad": 0.00010203720573542133,
+      "angle_peak_rad": 0.0004769153382852276,
+      "amplitude_range": [
+        0.9997691808502587,
+        1.0000795447822899
+      ],
+      "score_quantization_rms_V": [
+        0.0005653258441462253,
+        0.0005637219619615008
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.763413394062635e-05,
+        5.323564976847662e-05,
+        5.32532505961703e-05,
+        2.8060250312090587e-05
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6431411708157633,
+      "valid_peak_fraction_FS": 0.6424816339457342,
+      "score_clean_peak_by_axis_V": [
+        0.21875197898780374,
+        0.6403496859897951
+      ],
+      "score_clean_peak_by_axis_codes": [
+        112.00101324175552,
+        327.8590392267751
+      ],
+      "sense_peak_group_CV_V": [
+        0.02735095492261956,
+        0.08039264635197041,
+        0.02735095492261956,
+        0.08039264635197041
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006037865066331833,
+      "angle_mean_rad": 0.0005781120259737749,
+      "angle_std_rad": 0.00017419710392770733,
+      "angle_peak_rad": 0.0009311669118728383,
+      "amplitude_range": [
+        0.9996993637097674,
+        1.0000861096441938
+      ],
+      "score_quantization_rms_V": [
+        0.0005636506309019946,
+        0.0005629307504783927
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.353747983532725e-05,
+        6.018853897189437e-05,
+        3.674662646377439e-05,
+        5.711235342964168e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6124233046284266,
+      "valid_peak_fraction_FS": 0.6035366300459035,
+      "score_clean_peak_by_axis_V": [
+        0.6035366300459035,
+        0.24028364612467398
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.0107545835026,
+        123.02522681583308
+      ],
+      "sense_peak_group_CV_V": [
+        0.07655291307855333,
+        0.03172669124802806,
+        0.07655291307855333,
+        0.03172669124802806
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00024792479828486254,
+      "angle_mean_rad": 0.00022717185909140573,
+      "angle_std_rad": 9.929578058278346e-05,
+      "angle_peak_rad": 0.0004893954716005539,
+      "amplitude_range": [
+        0.9997655088013494,
+        1.0000646146402379
+      ],
+      "score_quantization_rms_V": [
+        0.0005652301352624124,
+        0.0005637164931311534
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.721561852957585e-05,
+        5.263659648158379e-05,
+        5.229243541393331e-05,
+        2.8189656151127966e-05
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.75,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6519734351507016,
+      "valid_peak_fraction_FS": 0.642479215070862,
+      "score_clean_peak_by_axis_V": [
+        0.2187520567378662,
+        0.640348356100655
+      ],
+      "score_clean_peak_by_axis_codes": [
+        112.0010530497875,
+        327.85835832353536
+      ],
+      "sense_peak_group_CV_V": [
+        0.02772356812546696,
+        0.0814966793938377,
+        0.02772356812546696,
+        0.0814966793938377
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0005944955154067933,
+      "angle_mean_rad": 0.0005682272489461088,
+      "angle_std_rad": 0.00017476473155052114,
+      "angle_peak_rad": 0.0009209299572436325,
+      "amplitude_range": [
+        0.9996970627872053,
+        1.0000797452728234
+      ],
+      "score_quantization_rms_V": [
+        0.0005636452188544612,
+        0.0005628741540778374
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.384204643102545e-05,
+        6.164812505091186e-05,
+        3.725060929205575e-05,
+        5.590566322053689e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.75,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6032097156228796,
+      "valid_peak_fraction_FS": 0.6032097156228796,
+      "score_clean_peak_by_axis_V": [
+        0.6032097156228796,
+        0.2401525404131213
+      ],
+      "score_clean_peak_by_axis_codes": [
+        308.84337439891436,
+        122.95810069151811
+      ],
+      "sense_peak_group_CV_V": [
+        0.07540121445285995,
+        0.03129379881644259,
+        0.07540121445285995,
+        0.03129379881644259
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 9.026982546241061e-05,
+      "angle_mean_rad": -3.032615559215163e-05,
+      "angle_std_rad": 8.502332430583202e-05,
+      "angle_peak_rad": 0.0002393276962249502,
+      "amplitude_range": [
+        0.999789067259049,
+        1.0000091044968475
+      ],
+      "score_quantization_rms_V": [
+        0.0005631946611472945,
+        0.0005638961728860383
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        3.9449366523722635e-05,
+        4.762269296255737e-05,
+        4.583120121380428e-05,
+        2.7145085623231868e-05
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 1,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6424301707522685,
+      "valid_peak_fraction_FS": 0.6424301707522685,
+      "score_clean_peak_by_axis_V": [
+        0.2185566532097822,
+        0.6400196336655789
+      ],
+      "score_clean_peak_by_axis_codes": [
+        111.90100644340849,
+        327.6900524367764
+      ],
+      "sense_peak_group_CV_V": [
+        0.027319581651222776,
+        0.08030377134403356,
+        0.027319581651222776,
+        0.08030377134403356
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0005597173439229935,
+      "angle_mean_rad": 0.0005340315946295364,
+      "angle_std_rad": 0.00016761193580901436,
+      "angle_peak_rad": 0.0009959540213008156,
+      "amplitude_range": [
+        0.9997883214039837,
+        1.0000515930857714
+      ],
+      "score_quantization_rms_V": [
+        0.000563794273786275,
+        0.0005640133505387259
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.400610264994936e-05,
+        4.9065734505246107e-05,
+        3.399617711443398e-05,
+        4.735123082647851e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 1,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6032047532900147,
+      "valid_peak_fraction_FS": 0.6032047532900147,
+      "score_clean_peak_by_axis_V": [
+        0.6032047532900147,
+        0.24016573888845272
+      ],
+      "score_clean_peak_by_axis_codes": [
+        308.8408336844875,
+        122.96485831088779
+      ],
+      "sense_peak_group_CV_V": [
+        0.07540059416125183,
+        0.03129697911540133,
+        0.07540059416125183,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00010161031345374546,
+      "angle_mean_rad": -5.349952129742016e-05,
+      "angle_std_rad": 8.638551395410744e-05,
+      "angle_peak_rad": 0.00027150333559591844,
+      "amplitude_range": [
+        0.9997973544602189,
+        1.0000100269219536
+      ],
+      "score_quantization_rms_V": [
+        0.0005631882505643259,
+        0.000563893384796849
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        4.0015228256399725e-05,
+        4.7874095837445425e-05,
+        4.6321600586120786e-05,
+        2.6534889287087407e-05
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6424397749539765,
+      "valid_peak_fraction_FS": 0.6424397749539765,
+      "score_clean_peak_by_axis_V": [
+        0.2184459455534341,
+        0.6400285490573694
+      ],
+      "score_clean_peak_by_axis_codes": [
+        111.84432412335826,
+        327.6946171173731
+      ],
+      "sense_peak_group_CV_V": [
+        0.027305743194179263,
+        0.08030497186924707,
+        0.027305743194179263,
+        0.08030497186924707
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0005553501783058384,
+      "angle_mean_rad": 0.000527890322533395,
+      "angle_std_rad": 0.00017246920861392875,
+      "angle_peak_rad": 0.0009098416779754759,
+      "amplitude_range": [
+        0.999805517198072,
+        1.0000578469039552
+      ],
+      "score_quantization_rms_V": [
+        0.0005637764203974682,
+        0.0005639870857974906
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.559027147487048e-05,
+        4.8387760603939636e-05,
+        3.563453598974143e-05,
+        4.657332469197594e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6040541520241653,
+      "valid_peak_fraction_FS": 0.6034869612299927,
+      "score_clean_peak_by_axis_V": [
+        0.6034869612299927,
+        0.2402660800532554
+      ],
+      "score_clean_peak_by_axis_codes": [
+        308.98532414975625,
+        123.01623298726676
+      ],
+      "sense_peak_group_CV_V": [
+        0.07550676900302067,
+        0.03129697911540133,
+        0.07550676900302067,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00019501938506553225,
+      "angle_mean_rad": 0.00016766395881905787,
+      "angle_std_rad": 9.960601118637166e-05,
+      "angle_peak_rad": 0.0004125356986543413,
+      "amplitude_range": [
+        0.9997819961927182,
+        1.000090852950053
+      ],
+      "score_quantization_rms_V": [
+        0.0005653972788692624,
+        0.0005637339851163811
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.337539988324157e-05,
+        5.242299182746576e-05,
+        5.411931229058266e-05,
+        2.855510445821045e-05
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6431057318779994,
+      "valid_peak_fraction_FS": 0.6424463768937807,
+      "score_clean_peak_by_axis_V": [
+        0.21872650647370817,
+        0.6402935070220591
+      ],
+      "score_clean_peak_by_axis_codes": [
+        111.98797131453858,
+        327.83027559529427
+      ],
+      "sense_peak_group_CV_V": [
+        0.027347776452608778,
+        0.08038821648474992,
+        0.027347776452608778,
+        0.08038821648474992
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0005691858878903006,
+      "angle_mean_rad": 0.0005408843709617575,
+      "angle_std_rad": 0.00017724748862190938,
+      "angle_peak_rad": 0.0009153006883969028,
+      "amplitude_range": [
+        0.9997123365851863,
+        1.0000468301560983
+      ],
+      "score_quantization_rms_V": [
+        0.0005637235169907693,
+        0.0005629043027644751
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.440080965783906e-05,
+        5.9993403159793066e-05,
+        3.884309298838363e-05,
+        5.5204971851288486e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6041340316092252,
+      "valid_peak_fraction_FS": 0.603540439106756,
+      "score_clean_peak_by_axis_V": [
+        0.603540439106756,
+        0.2402716477057149
+      ],
+      "score_clean_peak_by_axis_codes": [
+        309.0127048226591,
+        123.01908362532603
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551675395115315,
+        0.03129697911540133,
+        0.07551675395115315,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0002503367952732585,
+      "angle_mean_rad": 0.00022981942782622904,
+      "angle_std_rad": 9.925493267999356e-05,
+      "angle_peak_rad": 0.00047125033610312395,
+      "amplitude_range": [
+        0.9997812614478818,
+        1.000090377402688
+      ],
+      "score_quantization_rms_V": [
+        0.0005653376827157904,
+        0.0005637243609636493
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.794216616388099e-05,
+        5.230914307289992e-05,
+        5.41978314251018e-05,
+        2.790362293120744e-05
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.6431664246445616,
+      "valid_peak_fraction_FS": 0.6424732699516862,
+      "score_clean_peak_by_axis_V": [
+        0.2188547711831924,
+        0.6403365465216497
+      ],
+      "score_clean_peak_by_axis_codes": [
+        112.05364284579451,
+        327.85231181908466
+      ],
+      "sense_peak_group_CV_V": [
+        0.02735684639789905,
+        0.0803958030805702,
+        0.02735684639789905,
+        0.0803958030805702
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.000244140625,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0006119298184296141,
+      "angle_mean_rad": 0.0005878301448427759,
+      "angle_std_rad": 0.00017004065248469756,
+      "angle_peak_rad": 0.0009556121041629506,
+      "amplitude_range": [
+        0.9997105735847712,
+        1.0000974352720486
+      ],
+      "score_quantization_rms_V": [
+        0.0005636740739713799,
+        0.0005629162447322621
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        6.333832542353268e-05,
+        6.149814470209433e-05,
+        4.067485842199178e-05,
+        5.759264513333084e-05
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 8,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    }
+  ],
+  "window_residual_screen": [
+    {
+      "bleed_us": 36.76470588235294,
+      "settle_us": 183.82352941176472,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.13640215003520442,
+      "adc_residual_peak_valid_V": 0.00027814931452021965,
+      "group_CV_residual_peak_sense_V": 0.017050268754400553,
+      "group_CV_residual_peak_valid_V": 3.4768664315027457e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 147.05882352941177,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.002304828260705419,
+      "adc_residual_peak_valid_V": 0.00027806087777049583,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.475761011078034e-05
+    },
+    {
+      "bleed_us": 110.29411764705883,
+      "settle_us": 110.29411764705883,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.00027805952390530194,
+      "adc_residual_peak_valid_V": 0.00027805952390530194,
+      "group_CV_residual_peak_sense_V": 3.4757440626769324e-05,
+      "group_CV_residual_peak_valid_V": 3.4757440626769324e-05
+    },
+    {
+      "bleed_us": 147.05882352941177,
+      "settle_us": 73.52941176470588,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.0002811546300457495,
+      "adc_residual_peak_valid_V": 0.0002811546300457495,
+      "group_CV_residual_peak_sense_V": 3.514432875571869e-05,
+      "group_CV_residual_peak_valid_V": 3.514432875571869e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 73.52941176470588,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.002304828260705419,
+      "adc_residual_peak_valid_V": 0.00027806087777049583,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.475761011078034e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 110.29411764705883,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.002304828260705419,
+      "adc_residual_peak_valid_V": 0.00027806087777049583,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.475761011078034e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 183.82352941176472,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.002304828260705419,
+      "adc_residual_peak_valid_V": 0.00027797010275215726,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.474626284401965e-05
+    }
+  ],
+  "native_parity": [
+    {
+      "gain": 8,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "samples": 32641,
+      "frames": 10,
+      "max_trace_delta": 1.3158363287857355e-12
+    },
+    {
+      "gain": 8,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.75,
+      "samples": 32641,
+      "frames": 10,
+      "max_trace_delta": 1.3098411244527597e-12
+    }
+  ],
+  "provisional_gain": 8,
+  "provisional_headroom_fraction": 0.2,
+  "status": "passed",
+  "candidate_startup": {
+    "sense_peak_fraction_FS": 0.5196713252074502,
+    "valid_peak_fraction_FS": 0.5194205155020142,
+    "score_clean_peak_by_axis_V": [
+      0.5194205155020142,
+      0.39952513324572086
+    ],
+    "score_clean_peak_by_axis_codes": [
+      265.94330393703126,
+      204.55686822180908
+    ],
+    "sense_peak_group_CV_V": [
+      0.06495891565093127,
+      0.05306717988623513,
+      0.06495891565093127,
+      0.05306717988623513
+    ],
+    "valid_clipped_samples": 0,
+    "prevalid_overrange_samples": 0,
+    "adc_step_V": 0.001953125,
+    "postcombiner_input_referred_step_V": 0.000244140625,
+    "lost": false,
+    "scored_frames": 255,
+    "complete_score": true,
+    "angle_rms_rad": 0.00032661645064781584,
+    "angle_mean_rad": 0.0002568169301953589,
+    "angle_std_rad": 0.0002018003225934222,
+    "angle_peak_rad": 0.0007710986030237399,
+    "amplitude_range": [
+      0.9997089891283127,
+      1.0000151660146634
+    ],
+    "score_quantization_rms_V": [
+      0.0005652156187138877,
+      0.000563925693721964
+    ],
+    "score_calibrated_quantization_iq_rms": [
+      6.11003925079934e-05,
+      6.70092888551433e-05,
+      8.422282326275551e-05,
+      5.1477728901397785e-05
+    ],
+    "first_valid_frame_s": 0.008162683823529412,
+    "score_anchor_frame": 594,
+    "score_first_frame": 595,
+    "score_last_frame": 849
+  },
+  "baseline_window_sweep": [
+    {
+      "sense_peak_fraction_FS": 0.0765622019732339,
+      "valid_peak_fraction_FS": 0.07545374648392901,
+      "score_clean_peak_by_axis_V": [
+        0.07545374648392901,
+        0.030038672586924012
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.63231819977165,
+        15.379800364505094
+      ],
+      "sense_peak_group_CV_V": [
+        0.0765622019732339,
+        0.03172977178560217,
+        0.0765622019732339,
+        0.03172977178560217
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.001900210334314088,
+      "angle_mean_rad": -0.00034666046879739196,
+      "angle_std_rad": 0.0018683216623502574,
+      "angle_peak_rad": 0.003503470544721686,
+      "amplitude_range": [
+        0.9993290853584667,
+        1.0008396878040664
+      ],
+      "score_quantization_rms_V": [
+        0.0005669015751175849,
+        0.0005599953873159176
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0007701668324784052,
+        0.0009595862317870934,
+        0.00022335761015390012,
+        0.0001530755535653159
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.25,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.08151260337337515,
+      "valid_peak_fraction_FS": 0.08032193807996693,
+      "score_clean_peak_by_axis_V": [
+        0.027338690332839047,
+        0.08001988097511065
+      ],
+      "score_clean_peak_by_axis_codes": [
+        13.997409450413592,
+        40.97017905925665
+      ],
+      "sense_peak_group_CV_V": [
+        0.02770258188561536,
+        0.08151260337337515,
+        0.02770258188561536,
+        0.08151260337337515
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0034430269181478243,
+      "angle_mean_rad": 0.0023264157006682496,
+      "angle_std_rad": 0.002538153727963451,
+      "angle_peak_rad": 0.009739122697844271,
+      "amplitude_range": [
+        0.9979435404489287,
+        1.0011042711965126
+      ],
+      "score_quantization_rms_V": [
+        0.0005649980440451778,
+        0.0005656239886511259
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0014260789471679067,
+        0.0006417202999112986,
+        0.00013360749343893101,
+        0.0001740598408012593
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.25,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07552309131303311,
+      "valid_peak_fraction_FS": 0.07545227985348177,
+      "score_clean_peak_by_axis_V": [
+        0.07545227985348177,
+        0.03003818055795687
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.631567284982665,
+        15.379548445673917
+      ],
+      "sense_peak_group_CV_V": [
+        0.07552309131303311,
+        0.03129697911540133,
+        0.07552309131303311,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0018928039285028453,
+      "angle_mean_rad": -0.00033796858049887755,
+      "angle_std_rad": 0.0018623866275162574,
+      "angle_peak_rad": 0.00358135894745186,
+      "amplitude_range": [
+        0.9992909249188754,
+        1.0007252381142695
+      ],
+      "score_quantization_rms_V": [
+        0.0005668572009593058,
+        0.0005600139316463425
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0007633358618806365,
+        0.0009609484434967442,
+        0.00021968390189072438,
+        0.00016232885757811827
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.0804031174696408,
+      "valid_peak_fraction_FS": 0.08032066365421575,
+      "score_clean_peak_by_axis_V": [
+        0.02733720607521901,
+        0.080018718973027
+      ],
+      "score_clean_peak_by_axis_codes": [
+        13.996649510512134,
+        40.96958411418982
+      ],
+      "sense_peak_group_CV_V": [
+        0.02734416798189201,
+        0.0804031174696408,
+        0.02734416798189201,
+        0.0804031174696408
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0034502933746405175,
+      "angle_mean_rad": 0.002340113717433047,
+      "angle_std_rad": 0.0025354274118124416,
+      "angle_peak_rad": 0.009727191408993918,
+      "amplitude_range": [
+        0.9979842367121932,
+        1.001085092878943
+      ],
+      "score_quantization_rms_V": [
+        0.0005649987402503039,
+        0.0005656296214075441
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0014248854373472512,
+        0.0006431707152341517,
+        0.00013513130751915446,
+        0.00017982376357195492
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07656278884091365,
+      "valid_peak_fraction_FS": 0.0754518135722835,
+      "score_clean_peak_by_axis_V": [
+        0.0754518135722835,
+        0.030038179818967295
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.631328549009154,
+        15.379548067311255
+      ],
+      "sense_peak_group_CV_V": [
+        0.07656278884091365,
+        0.03172669124802806,
+        0.07656278884091365,
+        0.03172669124802806
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0018990874646823003,
+      "angle_mean_rad": -0.00034418152290641727,
+      "angle_std_rad": 0.0018676381549441708,
+      "angle_peak_rad": 0.003581358947451811,
+      "amplitude_range": [
+        0.9992909249188754,
+        1.0007495887492999
+      ],
+      "score_quantization_rms_V": [
+        0.0005668629795077051,
+        0.0005599965973056325
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0007678198759693381,
+        0.0009609564125228024,
+        0.0002252102796090688,
+        0.0001610929531395823
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.75,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.08150746595326092,
+      "valid_peak_fraction_FS": 0.08032051498274854,
+      "score_clean_peak_by_axis_V": [
+        0.027337289517965182,
+        0.0800184057995813
+      ],
+      "score_clean_peak_by_axis_codes": [
+        13.996692233198173,
+        40.96942376938563
+      ],
+      "sense_peak_group_CV_V": [
+        0.027716755442416793,
+        0.08150746595326092,
+        0.027716755442416793,
+        0.08150746595326092
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.003449651622100734,
+      "angle_mean_rad": 0.002339341589021525,
+      "angle_std_rad": 0.0025352667007114793,
+      "angle_peak_rad": 0.00973901836767424,
+      "amplitude_range": [
+        0.9979162064338349,
+        1.001085092878943
+      ],
+      "score_quantization_rms_V": [
+        0.0005649984934053214,
+        0.0005656228095194098
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0014251858851899101,
+        0.0006462970283924991,
+        0.00013446559394377012,
+        0.0001759115236926111
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.75,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07541535391046725,
+      "valid_peak_fraction_FS": 0.07541535391046725,
+      "score_clean_peak_by_axis_V": [
+        0.07541535391046725,
+        0.030021149716198157
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.61266120215923,
+        15.370828654693456
+      ],
+      "sense_peak_group_CV_V": [
+        0.07541535391046725,
+        0.03129379881644259,
+        0.07541535391046725,
+        0.03129379881644259
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0016780068501890018,
+      "angle_mean_rad": -0.0002597833953395147,
+      "angle_std_rad": 0.001657775490465186,
+      "angle_peak_rad": 0.0030575574480260076,
+      "amplitude_range": [
+        0.9987350180660856,
+        1.0007729869616167
+      ],
+      "score_quantization_rms_V": [
+        0.0005630662886493927,
+        0.0005601289637900763
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0006650032006124066,
+        0.0009534090758118265,
+        0.00017307710639039015,
+        0.00016254626302916056
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 1,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.08029357281029234,
+      "valid_peak_fraction_FS": 0.08029357281029234,
+      "score_clean_peak_by_axis_V": [
+        0.027312943382499393,
+        0.07997504336000846
+      ],
+      "score_clean_peak_by_axis_codes": [
+        13.984227011839689,
+        40.94722220032433
+      ],
+      "sense_peak_group_CV_V": [
+        0.027312943382499393,
+        0.08029357281029234,
+        0.027312943382499393,
+        0.08029357281029234
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.00341972225004416,
+      "angle_mean_rad": 0.002328655207642502,
+      "angle_std_rad": 0.00250436922025618,
+      "angle_peak_rad": 0.009700072055246284,
+      "amplitude_range": [
+        0.9981250646341905,
+        1.0009694528661939
+      ],
+      "score_quantization_rms_V": [
+        0.0005649751942989217,
+        0.0005663343026643926
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0014112107119166604,
+        0.0006273519917757494,
+        0.0001350906395544869,
+        0.00015723218464327443
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 1,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07541496749976295,
+      "valid_peak_fraction_FS": 0.07541496749976295,
+      "score_clean_peak_by_axis_V": [
+        0.07541496749976295,
+        0.030022668661278527
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.61246335987863,
+        15.371606354574606
+      ],
+      "sense_peak_group_CV_V": [
+        0.07541496749976295,
+        0.03129697911540133,
+        0.07541496749976295,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0016775440959930024,
+      "angle_mean_rad": -0.0002725905625658966,
+      "angle_std_rad": 0.0016552487967677213,
+      "angle_peak_rad": 0.0029456980751974837,
+      "amplitude_range": [
+        0.9987518972572264,
+        1.000772986961621
+      ],
+      "score_quantization_rms_V": [
+        0.0005630447958984096,
+        0.0005601382412826366
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0006651119041906536,
+        0.0009516422263426522,
+        0.00017305415348568088,
+        0.00016022276378044849
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.08029602187158587,
+      "valid_peak_fraction_FS": 0.08029602187158587,
+      "score_clean_peak_by_axis_V": [
+        0.027299118588174902,
+        0.07997629692095075
+      ],
+      "score_clean_peak_by_axis_codes": [
+        13.97714871714555,
+        40.94786402352678
+      ],
+      "sense_peak_group_CV_V": [
+        0.027299118588174902,
+        0.08029602187158587,
+        0.027299118588174902,
+        0.08029602187158587
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0031178359741243214,
+      "angle_mean_rad": 0.0018747888287220776,
+      "angle_std_rad": 0.0024911981071851067,
+      "angle_peak_rad": 0.008976008294386523,
+      "amplitude_range": [
+        0.998138581454479,
+        1.0009437049032666
+      ],
+      "score_quantization_rms_V": [
+        0.0005649897062355695,
+        0.0005663211710399349
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0014029933400988206,
+        0.0006251070222146115,
+        0.00013708764313760026,
+        0.00015892529879929683
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.5,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07551749634232569,
+      "valid_peak_fraction_FS": 0.07544659361625386,
+      "score_clean_peak_by_axis_V": [
+        0.07544659361625386,
+        0.03003578817316683
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.628655931521976,
+        15.378323544661416
+      ],
+      "sense_peak_group_CV_V": [
+        0.07551749634232569,
+        0.03129697911540133,
+        0.07551749634232569,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0018912562500895155,
+      "angle_mean_rad": -0.00035213456727079543,
+      "angle_std_rad": 0.001858184988109544,
+      "angle_peak_rad": 0.0036874869049747377,
+      "amplitude_range": [
+        0.9992618825724987,
+        1.0006849781910852
+      ],
+      "score_quantization_rms_V": [
+        0.0005666999260362048,
+        0.0005600038952433748
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0007620837920449791,
+        0.0009646698337500538,
+        0.0002218466010629342,
+        0.00015867260877985915
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.0804003097611969,
+      "valid_peak_fraction_FS": 0.0803178581868842,
+      "score_clean_peak_by_axis_V": [
+        0.0273340245317833,
+        0.08001145430907662
+      ],
+      "score_clean_peak_by_axis_codes": [
+        13.99502056027305,
+        40.96586460624723
+      ],
+      "sense_peak_group_CV_V": [
+        0.027340992327153816,
+        0.0804003097611969,
+        0.027340992327153816,
+        0.0804003097611969
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0033834805266136185,
+      "angle_mean_rad": 0.002243863696171418,
+      "angle_std_rad": 0.0025323933712947345,
+      "angle_peak_rad": 0.009601078272205132,
+      "amplitude_range": [
+        0.9980056729486024,
+        1.0010110500094824
+      ],
+      "score_quantization_rms_V": [
+        0.0005649919195939637,
+        0.0005656967081605935
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.001422698900837892,
+        0.000648447128123464,
+        0.00012965305902667954,
+        0.00016833516886818602
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 0.75,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.07552647080827142,
+      "valid_peak_fraction_FS": 0.07545227082572153,
+      "score_clean_peak_by_axis_V": [
+        0.07545227082572153,
+        0.030036665046559705
+      ],
+      "score_clean_peak_by_axis_codes": [
+        38.631562662769426,
+        15.378772503838569
+      ],
+      "sense_peak_group_CV_V": [
+        0.07552647080827142,
+        0.03129697911540133,
+        0.07552647080827142,
+        0.03129697911540133
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0018873796228745326,
+      "angle_mean_rad": -0.0003117573602943353,
+      "angle_std_rad": 0.0018614535151714963,
+      "angle_peak_rad": 0.003684196812552283,
+      "amplitude_range": [
+        0.9992909249188763,
+        1.0007495887493008
+      ],
+      "score_quantization_rms_V": [
+        0.00056687955009603,
+        0.0005599963465462202
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0007618591722956203,
+        0.0009613896374134888,
+        0.00021663761564446926,
+        0.0001607648659167975
+      ],
+      "case_id": "positive_nominal",
+      "rate_rad_s": 0.5,
+      "initial_modal_angle_rad": 0.4,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    },
+    {
+      "sense_peak_fraction_FS": 0.0804066265173072,
+      "valid_peak_fraction_FS": 0.08031996002165101,
+      "score_clean_peak_by_axis_V": [
+        0.02735007140968919,
+        0.0800170747330935
+      ],
+      "score_clean_peak_by_axis_codes": [
+        14.003236561760865,
+        40.96874226334387
+      ],
+      "sense_peak_group_CV_V": [
+        0.02735007140968919,
+        0.0804066265173072,
+        0.02735007140968919,
+        0.0804066265173072
+      ],
+      "valid_clipped_samples": 0,
+      "prevalid_overrange_samples": 0,
+      "adc_step_V": 0.001953125,
+      "postcombiner_input_referred_step_V": 0.001953125,
+      "lost": false,
+      "scored_frames": 204,
+      "complete_score": true,
+      "angle_rms_rad": 0.0035089247375122454,
+      "angle_mean_rad": 0.0024294768034134303,
+      "angle_std_rad": 0.00253183634447439,
+      "angle_peak_rad": 0.010038134108669522,
+      "amplitude_range": [
+        0.997992322865531,
+        1.0010850928789445
+      ],
+      "score_quantization_rms_V": [
+        0.0005649935626219248,
+        0.0005656560620128115
+      ],
+      "score_calibrated_quantization_iq_rms": [
+        0.0014226887103292493,
+        0.0006464830387253113,
+        0.00013918924506400363,
+        0.00017908670973051436
+      ],
+      "case_id": "negative_near_y",
+      "rate_rad_s": -4,
+      "initial_modal_angle_rad": 1.52,
+      "seeded_start": false,
+      "span_Vpp": 2,
+      "gain": 1,
+      "adc_bits": 10,
+      "bleed_cycles": 0.5,
+      "settle_cycles": 1.25,
+      "noise_rms_V": 0,
+      "noise_seed": 52
+    }
+  ],
+  "baseline_window_residual_screen": [
+    {
+      "bleed_us": 36.76470588235294,
+      "settle_us": 183.82352941176472,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.017050268754400553,
+      "adc_residual_peak_valid_V": 3.4768664315027457e-05,
+      "group_CV_residual_peak_sense_V": 0.017050268754400553,
+      "group_CV_residual_peak_valid_V": 3.4768664315027457e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 147.05882352941177,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.0002881035325881774,
+      "adc_residual_peak_valid_V": 3.475760972131198e-05,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.475761011078034e-05
+    },
+    {
+      "bleed_us": 110.29411764705883,
+      "settle_us": 110.29411764705883,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 3.475744048816274e-05,
+      "adc_residual_peak_valid_V": 3.475744048816274e-05,
+      "group_CV_residual_peak_sense_V": 3.4757440626769324e-05,
+      "group_CV_residual_peak_valid_V": 3.4757440626769324e-05
+    },
+    {
+      "bleed_us": 147.05882352941177,
+      "settle_us": 73.52941176470588,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 3.514432875571869e-05,
+      "adc_residual_peak_valid_V": 3.514432875571869e-05,
+      "group_CV_residual_peak_sense_V": 3.514432875571869e-05,
+      "group_CV_residual_peak_valid_V": 3.514432875571869e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 73.52941176470588,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.0002881035325881774,
+      "adc_residual_peak_valid_V": 3.475760972131198e-05,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.475761011078034e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 110.29411764705883,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.0002881035325881774,
+      "adc_residual_peak_valid_V": 3.475760972131198e-05,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.475761011078034e-05
+    },
+    {
+      "bleed_us": 73.52941176470588,
+      "settle_us": 183.82352941176472,
+      "release_V_per_group": 10,
+      "injection_fC_per_group": 1,
+      "adc_residual_peak_sense_V": 0.0002881035325881774,
+      "adc_residual_peak_valid_V": 3.474626284401966e-05,
+      "group_CV_residual_peak_sense_V": 0.0002881035325881776,
+      "group_CV_residual_peak_valid_V": 3.474626284401965e-05
+    }
+  ]
+}

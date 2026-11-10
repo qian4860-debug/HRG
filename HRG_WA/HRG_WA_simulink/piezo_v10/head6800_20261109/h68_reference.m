@@ -1,5 +1,9 @@
-function [t,trace,frames]=h68_reference(c)
+function [t,trace,frames,adcMonitor]=h68_reference(c)
 % Independent sample-by-sample MATLAB implementation; never called by SLX.
+% Optional adcMonitor rows are taken at the physical sample clock during
+% the connected sensing window, before the ADC pipeline. Columns:
+% tick (zero based), valid, clean X/Y, ADC input X/Y, code voltage X/Y,
+% clipped, and (when available) group C/V A/B/C/D. Codes are zero before valid.
 N=round(c.duration/c.Ts)+1;
 t=(0:c.logDecimation:N-1)'*c.Ts;
 hasGroups=isfield(c,'groupVoltage');
@@ -7,6 +11,14 @@ width=22;
 if hasGroups, width=width+size(c.groupVoltage,1); end
 trace=zeros(numel(t),width);
 frames=zeros(ceil(N/c.frame)+2,width+1); nf=0; nr=0;
+collectADC=nargout>=4;
+hasGroupCV=isfield(c,'portCV');
+if collectADC
+    monitorWidth=9;
+    if hasGroupCV, monitorWidth=monitorWidth+size(c.portCV,1); end
+    adcMonitor=zeros(ceil(N/c.frame)*(c.validEnd-c.senseStart),monitorWidth);
+    na=0;
+end
 x=c.x0; cmd=c.startCommand; acc=zeros(4,1); iq=zeros(4,1);
 seen=false; lost=false; clipped=false; published=false; lastAz=0; angle=0;
 lat=c.adcLatency; fifo=zeros(3,max(1,lat));
@@ -26,10 +38,16 @@ for k=0:N-1
     u=heldDAC*driveOn;
     noise=sqrt(12)*c.p.adc_noise_rms*(noiseState/2^32-.5);
     noiseState=mod(1664525*noiseState+1013904223,2^32);
-    analog=c.pickoff*x+noise;
+    cleanADC=c.pickoff*x;
+    analog=cleanADC+noise;
     clipNow=validSample && any(analog<c.adcMin | analog>c.adcMax);
     adcNow=zeros(2,1);
     if validSample, adcNow=quantize(analog,c.adcStep,c.adcMin,c.adcMax); end
+    if collectADC && senseOn
+        na=na+1;
+        adcMonitor(na,1:9)=[k,validSample,cleanADC',analog',adcNow',clipNow];
+        if hasGroupCV, adcMonitor(na,10:end)=(c.portCV*x)'; end
+    end
     if lat>0
         ptr=mod(k,lat)+1; received=fifo(:,ptr); fifo(:,ptr)=[adcNow;clipNow];
     else
@@ -77,6 +95,7 @@ for k=0:N-1
     end
 end
 frames=frames(1:nf,:);
+if collectADC, adcMonitor=adcMonitor(1:na,:); end
 end
 function y=quantize(x,step,lo,hi)
 y=min(hi,max(lo,step*round(x/step)));
