@@ -25,7 +25,7 @@ range = [2 1 10; 1 1 10; 2 2 10; 2 4 10; 2 6 10; 2 8 10; ...
     2 10 10; 2 12 10; 2 16 10; 2 1 20];
 for k = 1:size(range,1)
     result.adc_range_sweep = [result.adc_range_sweep; ...
-        runCase('range',.5,.4,false,range(k,:),baselineSlots,0,52)]; %#ok<AGROW>
+        runCase('range',.5,.4,false,range(k,:),baselineSlots,0,52)];
 end
 assert(result.adc_range_sweep(1).complete_score && result.adc_range_sweep(end).complete_score);
 % For an ideal quantizer, halving span or doubling post-combiner gain
@@ -43,7 +43,7 @@ for gain = gains
     for k = 1:size(scenarios,1)
         row = scenarios(k,:);
         result.operating_cases = [result.operating_cases; runCase(row{1}, ...
-            row{2},row{3},row{4},[2 gain 10],baselineSlots,0,52)]; %#ok<AGROW>
+            row{2},row{3},row{4},[2 gain 10],baselineSlots,0,52)];
     end
 end
 
@@ -64,7 +64,7 @@ for gain = gains
     result.gain_screen = [result.gain_screen;struct('gain',gain, ...
         'worst_angle_rms_rad',max([tracked.angle_rms_rad]), ...
         'peak_fraction_FS',worstPeak,'complete',complete, ...
-        'no_valid_clipping',noClipping,'eligible',eligible)]; %#ok<AGROW>
+        'no_valid_clipping',noClipping,'eligible',eligible)];
 end
 passed = result.gain_screen([result.gain_screen.eligible]);
 assert(~isempty(passed),'No configuration passed the provisional headroom screen.');
@@ -74,15 +74,7 @@ result.provisional_gain = selectedGain;
 result.provisional_headroom_fraction = screenHeadroom;
 fprintf('Headroom screen picked %.0fx at 2 Vpp (simulation candidate)\n',selectedGain);
 
-c = five_adc_study_config(.5,2,selectedGain,baselineSlots,struct( ...
-    'duration',.5,'seed_enabled',true,'initial_fraction',0,'log_decimation',200));
-[~,trace,frames,monitor] = five_reference(c);
-late = measure(c,trace,frames,monitor,594,(595:849)');
-assert(late.complete_score && all(late.amplitude_range >= .8 & late.amplitude_range <= 1.2));
-late.first_valid_frame_s = frames(1,1);
-late.score_anchor_frame = 594;
-late.score_first_frame = 595;
-late.score_last_frame = 849;
+late = checkStartup(selectedGain,baselineSlots);
 result.candidate_startup = late;
 fprintf('Candidate startup: first valid %.6g s, RMS after 0.35 s %.6g rad\n', ...
     late.first_valid_frame_s,late.angle_rms_rad);
@@ -94,7 +86,7 @@ noiseCases = unique([2 1 10; 1 1 10; 2 2 10; 2 selectedGain 10],'rows','stable')
 for k = 1:size(noiseCases,1)
     for seed = [52 109]
         result.noise_sensitivity = [result.noise_sensitivity; ...
-            runCase('noise',.5,.4,false,noiseCases(k,:),baselineSlots,noiseRms,seed)]; %#ok<AGROW>
+            runCase('noise',.5,.4,false,noiseCases(k,:),baselineSlots,noiseRms,seed)];
     end
 end
 
@@ -146,13 +138,25 @@ fprintf(fid,'%s\n',jsonencode(result,'PrettyPrint',true));
         windowSlots = [.25 1.25; .5 1; .75 .75; 1 .5; .5 .5; .5 .75; .5 1.25];
         cases = [];
         bounds = [];
-        for row = 1:size(windowSlots,1)
-            slots = windowSlots(row,:);
+        for windowIndex = 1:size(windowSlots,1)
+            slots = windowSlots(windowIndex,:);
             cases = [cases; runCase('positive_nominal',.5,.4,false,[2 gain 10],slots,0,52); ...
                 runCase('negative_near_y',-4,1.52,false,[2 gain 10],slots,0,52)]; %#ok<AGROW>
             bounds = [bounds;residualBound(five_adc_study_config(0,2,gain,slots))]; %#ok<AGROW>
         end
     end
+end
+
+function late = checkStartup(gain,slots)
+c = five_adc_study_config(.5,2,gain,slots,struct( ...
+    'duration',.5,'seed_enabled',true,'initial_fraction',0,'log_decimation',200));
+[~,trace,frames,monitor] = five_reference(c);
+late = measure(c,trace,frames,monitor,594,(595:849)');
+assert(late.complete_score && all(late.amplitude_range >= .8 & late.amplitude_range <= 1.2));
+late.first_valid_frame_s = frames(1,1);
+late.score_anchor_frame = 594;
+late.score_first_frame = 595;
+late.score_last_frame = 849;
 end
 
 function m = measure(c,trace,frames,mon,anchorFrame,scoreFrames)
