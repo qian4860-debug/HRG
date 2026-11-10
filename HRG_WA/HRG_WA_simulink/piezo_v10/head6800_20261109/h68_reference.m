@@ -1,8 +1,12 @@
 function [t,trace,frames]=h68_reference(c)
 % Independent sample-by-sample MATLAB implementation; never called by SLX.
 N=round(c.duration/c.Ts)+1;
-t=(0:c.logDecimation:N-1)'*c.Ts; trace=zeros(numel(t),22);
-frames=zeros(ceil(N/c.frame)+2,23); nf=0; nr=0;
+t=(0:c.logDecimation:N-1)'*c.Ts;
+hasGroups=isfield(c,'groupVoltage');
+width=22;
+if hasGroups, width=width+size(c.groupVoltage,1); end
+trace=zeros(numel(t),width);
+frames=zeros(ceil(N/c.frame)+2,width+1); nf=0; nr=0;
 x=c.x0; cmd=c.startCommand; acc=zeros(4,1); iq=zeros(4,1);
 seen=false; lost=false; clipped=false; published=false; lastAz=0; angle=0;
 lat=c.adcLatency; fifo=zeros(3,max(1,lat));
@@ -34,6 +38,7 @@ for k=0:N-1
     adc=received(1:2); overflow=received(3)>0;
     row=[slot,driveOn,senseOn,validSample,adc',u',published,iq',angle, ...
         seen && ~lost,(c.motion*x)',(c.electrode*x)',overflow,lost,dacClip];
+    if hasGroups, row=[row,(c.groupVoltage*x)']; end
     if mod(k,c.logDecimation)==0, nr=nr+1; trace(nr,:)=row; end
     if published, nf=nf+1; frames(nf,:)=[time,row]; end
     published=false;

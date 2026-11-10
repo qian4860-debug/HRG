@@ -1,18 +1,23 @@
-function models = h68_build(outDir)
-% Generate the two native Simulink block diagrams and save their default data.
+function models = h68_build(outDir, models, configs)
+% Generate native Simulink diagrams and save their default model workspace.
 arguments
     outDir (1,:) char = fullfile(fileparts(mfilename('fullpath')), 'models')
+    models (1,:) cell = {'hrg_6800_continuous', 'hrg_6800_tdm_shared', 'hrg_6800_tdm_separate'}
+    configs (1,:) cell = {}
 end
+if isempty(configs)
+    modes = {'continuous','tdm_shared','tdm_separate'};
+    configs = cellfun(@h68_config,modes,'UniformOutput',false);
+end
+assert(numel(models)==numel(configs),'Provide one configuration for each model name.');
 if ~isfolder(outDir), mkdir(outDir); end
 load_system('simulink');
-models = {'hrg_6800_continuous', 'hrg_6800_tdm_shared', 'hrg_6800_tdm_separate'};
-modes = {'continuous','tdm_shared','tdm_separate'};
 for k = 1:numel(models)
     m = models{k};
     assert(~bdIsLoaded(m), 'Close %s before regenerating it.', m);
     new_system(m);
     cleanup = onCleanup(@() close_system(m,0));
-    c = h68_config(modes{k});
+    c = configs{k};
     assignin(get_param(m,'ModelWorkspace'),'c',c);
     set_param(m,'Solver','FixedStepDiscrete','SolverType','Fixed-step', ...
         'FixedStep','c.Ts','StopTime','c.duration','SaveTime','on', ...
@@ -25,15 +30,24 @@ for k = 1:numel(models)
         {'DAC','ADC','ADC clip','DAC clip'}); converters(s);
     plantName = 'Separate electrodes';
     if c.reuse, plantName = 'Shared electrode switch'; end
-    s = group(m,plantName,{'DAC','Drive','Sense'}, {'AFE','Motion','Sense electrode'}); plant(s,c.reuse);
+    plantOutputs = {'AFE','Motion','Sense electrode'};
+    traceInputs = {'Slot','Drive','Sense','Valid','ADC','DAC','Frame pulse', ...
+        'Estimate','Accept','Held angle','Angle valid','Motion','Sense electrode','ADC clip','Lost','DAC clip'};
+    fiveElectrode = isfield(c,'groupVoltage');
+    if fiveElectrode
+        plantName = 'Four electrode groups and COM';
+        plantOutputs{end+1} = 'Group terminal voltages';
+        traceInputs{end+1} = 'Group terminal voltages';
+    end
+    s = group(m,plantName,{'DAC','Drive','Sense'},plantOutputs);
+    plant(s,c,fiveElectrode,plantOutputs);
     s = group(m,'Coherent demodulation',{'ADC','ADC clip','Slot','Capture','Cos','Sin'}, ...
         {'Estimate','Frame usable','Azimuth','Energy'}); demod(s);
     s = group(m,'Amplitude and quadrature',{'Estimate','Energy','Capture','Accept'}, {'Command'}); control(s);
     s = group(m,'Whole angle',{'Azimuth','Usable','Capture'}, ...
         {'Accept','Frame pulse','Held angle','Angle valid','Lost'}); nav(s);
-    s = group(m,'Trace',{'Slot','Drive','Sense','Valid','ADC','DAC','Frame pulse', ...
-        'Estimate','Accept','Held angle','Angle valid','Motion','Sense electrode','ADC clip','Lost','DAC clip'}, {});
-    logging(s);
+    s = group(m,'Trace',traceInputs,{});
+    logging(s,fiveElectrode);
     a = 'Timing'; b = 'Carrier'; d = 'Converters'; q = 'Coherent demodulation';
     f = 'Amplitude and quadrature'; h = 'Whole angle'; g = 'Trace';
     wire(m,plantName,1,d,1); wire(m,f,1,d,2); wire(m,a,2,d,3); wire(m,a,4,d,4);
@@ -49,10 +63,20 @@ for k = 1:numel(models)
     wire(m,d,2,g,5); wire(m,d,1,g,6); wire(m,h,2,g,7); wire(m,q,1,g,8);
     wire(m,h,1,g,9); wire(m,h,3,g,10); wire(m,h,4,g,11);
     wire(m,plantName,2,g,12); wire(m,plantName,3,g,13); wire(m,d,3,g,14); wire(m,h,5,g,15); wire(m,d,4,g,16);
+    if fiveElectrode
+        line = add_line(m,[plantName '/4'],[g '/17'],'autorouting','on');
+        set_param(line,'Name','A B C D relative to COM');
+    end
     Simulink.BlockDiagram.arrangeSystem(m);
-    set_param(m,'Description',['6800 Hz / 50 mHz / Q=30000 / 600 pF. ' ...
+    description = ['6800 Hz / 50 mHz / Q=30000 / 600 pF. ' ...
         'THX2024 analog CV gain with matched channels; piezo adapter scale is assumed. ' ...
-        'Native blocks only. See h68_config and evidence.']);
+        'Native blocks only. See h68_config and evidence.'];
+    if fiveElectrode
+        description = ['6800 Hz whole-angle gyro. Four grouped terminals A/B/C/D relative to COM. ' ...
+            'See five_config for signed routing and physical assumptions. ' ...
+            'Native blocks only; trace columns 23:26 are the group terminal voltages.'];
+    end
+    set_param(m,'Description',description);
     save_system(m,fullfile(outDir,[m '.slx']));
     clear cleanup
 end
@@ -126,19 +150,25 @@ rounded = unary(s,name,'Math Operations/Rounding Function',codes,'Operator','rou
 y = gain(s,[name ' volts'],['c.' kind 'Step'],rounded);
 end
 
-function plant(s,reuse)
+function plant(s,c,fiveElectrode,ports)
 x = 'State vector';
 statePorts = {'Mechanical charge and velocity','Driver voltage','Electrode residual voltage','Analog CV and anti-alias filter'};
 stateRows = {'1:4','5:6','7:8','9:18'};
-for z=1:4
+if fiveElectrode
+    statePorts{3} = 'A B C D terminal voltages';
+    stateRows = c.stateRows;
+end
+for z=1:numel(stateRows)
     q=group(s,statePorts{z},{'Next state'},{'State'});
     row=['c.x0(' stateRows{z} ')']; d=delay(q,'Physical memory',row); wire(q,'Next state',1,d,1); wire(q,d,1,'State',1);
 end
 mux(s,x,statePorts{:});
 drive = sumblk(s,'Drive next state','++',gain(s,'Drive state matrix','c.Ad',x), ...
     gain(s,'Drive voltage matrix','c.Bd','DAC'));
-if reuse
-    floating = gain(s,'Electrode bleed and amplifier reset','c.Af',x);
+if c.reuse
+    bleedName = 'Electrode bleed and amplifier reset';
+    if fiveElectrode, bleedName = 'Four groups bleed and filter decay'; end
+    floating = gain(s,bleedName,'c.Af',x);
     sense = gain(s,'AFE load connected','c.As',x);
     idle = select(s,'Read or discharge',sense,'Sense',floating);
     next = select(s,'Physical drive or sense connection',drive,'Drive',idle);
@@ -148,15 +178,26 @@ else
     unary(s,'Drive timing observed','Sinks/Terminator','Drive');
     unary(s,'Sense timing observed','Sinks/Terminator','Sense');
 end
-for z=1:4
+for z=1:numel(stateRows)
     index=block(s,['State selection ' num2str(z)],'Signal Routing/Selector','NumberOfDimensions','1', ...
-        'IndexOptionArray',{'Index vector (dialog)'},'Indices',stateRows{z},'InputPortWidth','18');
+        'IndexOptionArray',{'Index vector (dialog)'},'Indices',stateRows{z}, ...
+        'InputPortWidth',num2str(c.stateCount));
     wire(s,next,1,index,1); wire(s,index,1,statePorts{z},1);
 end
-filteredInput=gain(s,'Filtered equivalent CV input','c.pickoff/c.cvOutputGain',x);
+filteredMap = 'c.pickoff/c.cvOutputGain';
+if fiveElectrode, filteredMap = 'c.portCV/c.cvOutputGain'; end
+filteredInput=gain(s,'Filtered equivalent CV input',filteredMap,x);
 cvVoltage=gain(s,'THX2024 matched CV gain','c.cvOutputGain',filteredInput);
-outputs(s,{'AFE','Motion','Sense electrode'},cvVoltage, ...
-    gain(s,'Motional charge','c.motion',x),gain(s,'Electrode voltage','c.electrode',x));
+afe = cvVoltage;
+if fiveElectrode
+    afe = gain(s,'Group readout to X and Y','c.portSenseMap',cvVoltage);
+end
+signals = {afe,gain(s,'Motional charge','c.motion',x), ...
+    gain(s,'Electrode voltage','c.electrode',x)};
+if fiveElectrode
+    signals{end+1} = gain(s,'Four group voltages relative to COM','c.groupVoltage',x);
+end
+outputs(s,ports,signals{:});
 end
 
 function demod(s)
@@ -236,13 +277,16 @@ valid = logic(s,'Body angle valid','AND',seen,logic(s,'Reference not lost','NOT'
 outputs(s,{'Accept','Frame pulse','Held angle','Angle valid','Lost'},accept,frame,angle,valid,lost);
 end
 
-function logging(s)
+function logging(s,fiveElectrode)
 iq = delay(s,'Last accepted IQ','zeros(4,1)');
 new = select(s,'Store valid IQ','Estimate','Accept',iq); wire(s,new,1,iq,1);
 signals = {'Slot','Drive','Sense','Valid','ADC','DAC','Frame pulse',iq,'Held angle', ...
     'Angle valid','Motion','Sense electrode','ADC clip','Lost','DAC clip'};
 for i = [2 3 4 10 13 15]
     signals{i} = cast(s,[signals{i} ' to trace'],signals{i});
+end
+if fiveElectrode
+    signals{end+1} = 'Group terminal voltages';
 end
 trace = mux(s,'Trace vector',signals{:});
 unary(s,'Export trace','Sinks/To Workspace',trace,'VariableName','trace','SaveFormat','Array','MaxDataPoints','inf','Decimation','c.logDecimation');
