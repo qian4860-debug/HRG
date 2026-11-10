@@ -69,7 +69,7 @@ for mode={'continuous','tdm_shared'}
  end
  clear cleanup
 end
-result.head=heads{1};result.status='passed';
+result.head=heads{1};result.cv_mode=c.p.cv_mode;result.status='passed';
 checkpoint(here,result);diary off;
 end
 function out=runmodel(m,c)

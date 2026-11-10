@@ -106,13 +106,16 @@
       "seed_enabled": false,
       "seed_seconds": 0.03,
       "seed_voltage": 0.2,
-      "cv_source": "Existing charge-amplifier equivalent; THX matched analog gain topology"
+      "cv_mode": "thx2024",
+      "thx_cv_gain": 10000,
+      "thx_charge_per_input": 1E-6,
+      "cv_source": "thx2024"
     },
     "gain_check": {
       "drive_pre_V_per_V": 1,
       "sense_pre_V_per_V": 1,
       "driver_post_gain": 20,
-      "detector_V_per_normalized_charge": 0.080323065899780832,
+      "detector_V_per_normalized_charge": 0.080323076132138432,
       "electrode_limit_V": 10
     },
     "thx_comparison": {
@@ -120,7 +123,9 @@
       "saved_Kcvs": 100000,
       "saved_Kcsd": 10000,
       "saved_Kcss": 100000,
-      "reuse_scope": "Analog Gain/filter topology; equal normalized front gain. Saved unequal numbers are not copied as SI charge sensitivity."
+      "matched_cv_gain": 10000,
+      "piezo_charge_per_input_unit_C": 1E-6,
+      "reuse_scope": "THX static readout Gain, matched to drive channel source value. Piezo adapter and AAF are external."
     },
     "timing_samples": {
       "drive_end": 160,
@@ -237,13 +242,16 @@
       "seed_enabled": false,
       "seed_seconds": 0.03,
       "seed_voltage": 0.2,
-      "cv_source": "Existing charge-amplifier equivalent; THX matched analog gain topology"
+      "cv_mode": "thx2024",
+      "thx_cv_gain": 10000,
+      "thx_charge_per_input": 1E-6,
+      "cv_source": "thx2024"
     },
     "gain_check": {
       "drive_pre_V_per_V": 1,
       "sense_pre_V_per_V": 1,
       "driver_post_gain": 20,
-      "detector_V_per_normalized_charge": 0.080323065899780832,
+      "detector_V_per_normalized_charge": 0.080323076132138432,
       "electrode_limit_V": 10
     },
     "thx_comparison": {
@@ -251,7 +259,9 @@
       "saved_Kcvs": 100000,
       "saved_Kcsd": 10000,
       "saved_Kcss": 100000,
-      "reuse_scope": "Analog Gain/filter topology; equal normalized front gain. Saved unequal numbers are not copied as SI charge sensitivity."
+      "matched_cv_gain": 10000,
+      "piezo_charge_per_input_unit_C": 1E-6,
+      "reuse_scope": "THX static readout Gain, matched to drive channel source value. Piezo adapter and AAF are external."
     },
     "timing_samples": {
       "drive_end": 800,
@@ -368,13 +378,16 @@
       "seed_enabled": false,
       "seed_seconds": 0.03,
       "seed_voltage": 0.2,
-      "cv_source": "Existing charge-amplifier equivalent; THX matched analog gain topology"
+      "cv_mode": "thx2024",
+      "thx_cv_gain": 10000,
+      "thx_charge_per_input": 1E-6,
+      "cv_source": "thx2024"
     },
     "gain_check": {
       "drive_pre_V_per_V": 1,
       "sense_pre_V_per_V": 1,
       "driver_post_gain": 20,
-      "detector_V_per_normalized_charge": 0.080323065899780832,
+      "detector_V_per_normalized_charge": 0.080323076132138432,
       "electrode_limit_V": 10
     },
     "thx_comparison": {
@@ -382,7 +395,9 @@
       "saved_Kcvs": 100000,
       "saved_Kcsd": 10000,
       "saved_Kcss": 100000,
-      "reuse_scope": "Analog Gain/filter topology; equal normalized front gain. Saved unequal numbers are not copied as SI charge sensitivity."
+      "matched_cv_gain": 10000,
+      "piezo_charge_per_input_unit_C": 1E-6,
+      "reuse_scope": "THX static readout Gain, matched to drive channel source value. Piezo adapter and AAF are external."
     },
     "timing_samples": {
       "drive_end": 800,

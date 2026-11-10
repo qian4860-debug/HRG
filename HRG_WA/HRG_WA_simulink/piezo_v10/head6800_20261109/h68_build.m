@@ -51,7 +51,7 @@ for k = 1:numel(models)
     wire(m,plantName,2,g,12); wire(m,plantName,3,g,13); wire(m,d,3,g,14); wire(m,h,5,g,15); wire(m,d,4,g,16);
     Simulink.BlockDiagram.arrangeSystem(m);
     set_param(m,'Description',['6800 Hz / 50 mHz / Q=30000 / 600 pF. ' ...
-        'Analog CV retained, matched pre-gains; unknown circuit values are assumptions. ' ...
+        'THX2024 analog CV gain with matched channels; piezo adapter scale is assumed. ' ...
         'Native blocks only. See h68_config and evidence.']);
     save_system(m,fullfile(outDir,[m '.slx']));
     clear cleanup
@@ -153,7 +153,9 @@ for z=1:4
         'IndexOptionArray',{'Index vector (dialog)'},'Indices',stateRows{z},'InputPortWidth','18');
     wire(s,next,1,index,1); wire(s,index,1,statePorts{z},1);
 end
-outputs(s,{'AFE','Motion','Sense electrode'},gain(s,'AFE voltage','c.pickoff',x), ...
+filteredInput=gain(s,'Filtered equivalent CV input','c.pickoff/c.cvOutputGain',x);
+cvVoltage=gain(s,'THX2024 matched CV gain','c.cvOutputGain',filteredInput);
+outputs(s,{'AFE','Motion','Sense electrode'},cvVoltage, ...
     gain(s,'Motional charge','c.motion',x),gain(s,'Electrode voltage','c.electrode',x));
 end
 

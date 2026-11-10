@@ -1,0 +1,149 @@
+{
+  "baseline": "hrg-wa-6800-native-20261109",
+  "scope": "Linear model pre-bench estimate",
+  "cv_mode": "legacy_rc",
+  "nominal_carrier_adc_peak_V": 0.080323065899780832,
+  "tdm_half_adc_lsb_V": 0.0009765625,
+  "tdm_screen_limit_V": 8.0323065899780827E-5,
+  "nominal_bleed_us": 73.529411764705884,
+  "nominal_settle_us": 147.05882352941177,
+  "nominal_frame_rate_Hz": 1699.9999999999998,
+  "tdm_inputs": {
+    "release_electrode_V": 10,
+    "release_CV_memory_V": 1,
+    "sense_closure_injection_fC": 1
+  },
+  "tdm": [
+    {
+      "bleed_us": 20.036764705882351,
+      "settle_us_for_peak_limit": null,
+      "peak_at_nominal_settle_V": 6.4681234821226017,
+      "iq_bound_at_nominal_settle_V": 0.0030113917811067275,
+      "peak_by_source_at_nominal_settle_V": [
+        6.4680685973717438,
+        4.4896332811585181E-5,
+        9.9884180468384436E-6
+      ]
+    },
+    {
+      "bleed_us": 40.0735294117647,
+      "settle_us_for_peak_limit": null,
+      "peak_at_nominal_settle_V": 0.69809579682801293,
+      "iq_bound_at_nominal_settle_V": 0.00031035259844064,
+      "peak_by_source_at_nominal_settle_V": [
+        0.69808576370350062,
+        4.4706465439243555E-8,
+        9.9884180468384436E-6
+      ]
+    },
+    {
+      "bleed_us": 59.9264705882353,
+      "settle_us_for_peak_limit": null,
+      "peak_at_nominal_settle_V": 0.076910338992470989,
+      "iq_bound_at_nominal_settle_V": 2.823387829917464E-5,
+      "peak_by_source_at_nominal_settle_V": [
+        0.076900345784640473,
+        4.789783678816481E-9,
+        9.9884180468384436E-6
+      ]
+    },
+    {
+      "bleed_us": 73.529411764705884,
+      "settle_us_for_peak_limit": null,
+      "peak_at_nominal_settle_V": 0.016988095582069238,
+      "iq_bound_at_nominal_settle_V": 1.6704989147080742E-5,
+      "peak_by_source_at_nominal_settle_V": [
+        0.016978114105658609,
+        1.0516663040815765E-9,
+        9.9884180468384436E-6
+      ]
+    },
+    {
+      "bleed_us": 100,
+      "settle_us_for_peak_limit": null,
+      "peak_at_nominal_settle_V": 0.00091392194331787482,
+      "iq_bound_at_nominal_settle_V": 1.614418485096626E-5,
+      "peak_by_source_at_nominal_settle_V": [
+        0.00090393837558095118,
+        5.328054980137112E-11,
+        9.9884180468384436E-6
+      ]
+    },
+    {
+      "bleed_us": 120.03676470588236,
+      "settle_us_for_peak_limit": null,
+      "peak_at_nominal_settle_V": 0.00010500825065117518,
+      "iq_bound_at_nominal_settle_V": 1.5829339604951833E-5,
+      "peak_by_source_at_nominal_settle_V": [
+        9.5022723174443763E-5,
+        5.4413380113476316E-12,
+        9.9884180468384436E-6
+      ]
+    },
+    {
+      "bleed_us": 140.07352941176472,
+      "settle_us_for_peak_limit": 0,
+      "peak_at_nominal_settle_V": 3.1066123379586025E-5,
+      "iq_bound_at_nominal_settle_V": 1.579250734744474E-5,
+      "peak_by_source_at_nominal_settle_V": [
+        2.1085931526058119E-5,
+        5.4619124472661811E-13,
+        9.9884180468384436E-6
+      ]
+    }
+  ],
+  "continuous_direct_gain_V_per_V_per_pF": 0.008032306589978078,
+  "continuous": [
+    {
+      "electrode_peak_V": 1,
+      "coupling_pF": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "adc_feedthrough_peak_V": [
+        8.0323065899780787E-5,
+        0.00080323065899780787,
+        0.008032306589978078,
+        0.080323065899780777
+      ],
+      "max_coupling_pF_for_point1_percent_nominal_signal": 0.010000000000000005,
+      "max_coupling_pF_for_half_adc_lsb": 0.0018996771215802962
+    },
+    {
+      "electrode_peak_V": 5,
+      "coupling_pF": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "adc_feedthrough_peak_V": [
+        0.00040161532949890388,
+        0.004016153294989039,
+        0.040161532949890388,
+        0.40161532949890388
+      ],
+      "max_coupling_pF_for_point1_percent_nominal_signal": 0.0020000000000000013,
+      "max_coupling_pF_for_half_adc_lsb": 0.00037993542431605926
+    },
+    {
+      "electrode_peak_V": 10,
+      "coupling_pF": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "adc_feedthrough_peak_V": [
+        0.00080323065899780776,
+        0.008032306589978078,
+        0.080323065899780777,
+        0.80323065899780777
+      ],
+      "max_coupling_pF_for_point1_percent_nominal_signal": 0.0010000000000000007,
+      "max_coupling_pF_for_half_adc_lsb": 0.00018996771215802963
+    }
+  ]
+}

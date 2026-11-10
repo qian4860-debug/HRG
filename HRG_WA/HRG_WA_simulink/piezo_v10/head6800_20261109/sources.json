@@ -29,7 +29,7 @@
       "Md": 5.5e-07,
       "Ms": 1.772e-07
     },
-    "reuse": "Native analog topology and matched gain parameter; original unequal numeric gains not copied as SI charge sensitivity"
+    "reuse": "Static native Gain on Subsystem Reference output 1 (Kcsd = 10000), reused for both modal readouts. Piezo input conversion is a separate simulation assumption."
   },
   "legacy_dependencies": [
     {

@@ -26,7 +26,9 @@ p.log_decimation=200; p.adc_noise_rms=0; p.noise_seed=52;
 p.dac_divisor=1;
 p.allow_adc_underclock=false; p.seed_enabled=false;
 p.seed_seconds=.03; p.seed_voltage=.2;
-p.cv_source='Existing charge-amplifier equivalent; THX matched analog gain topology';
+p.cv_mode='thx2024';
+p.thx_cv_gain=1e4; % Gain on the drive readout in the THX source model.
+p.thx_charge_per_input=1e-6; % Assumed C per THX input unit for the piezo adapter.
 if ~strcmp(mode,'continuous')
     p.adc_bits=10; p.dac_bits=14; p.fs=5440000; p.adc_latency=5;
 end
@@ -38,6 +40,10 @@ end
 p.gamma_intrinsic=pi*p.f0/p.Q;
 p.drive_matrix=p.pre_gain*p.power_gain*eye(2);
 p.detect_matrix=p.pre_gain*eye(2);
+assert(ismember(p.cv_mode,{'thx2024','legacy_rc'}));
+useThx=strcmp(p.cv_mode,'thx2024');
+assert(p.thx_cv_gain>0 && p.thx_charge_per_input>0);
+p.cv_source=p.cv_mode;
 p.Ts=1/p.fs;
 n=round(p.fs/p.carrier_hz);
 assert(abs(n*p.carrier_hz-p.fs)<1e-7 && mod(n,4)==0,'Choose an integer, multiple-of-four samples per carrier cycle.');
@@ -93,6 +99,20 @@ if c.reuse
     Afloat(9:10,7:8)=0; Afloat(9:10,9:10)=-eye(2)/p.reset_tau;
     Asense(3:4,5:6)=0;
 end
+% THX implements C/V as a static gain. The piezo adapter supplies equivalent
+% input from terminal charge. AAF is separate from the THX C/V stage.
+c.cvOutputGain=1;
+if useThx
+    % KCL gives the transferred charge: -q + Cds*Vdrive - Cs*Ve.
+    chargeMap=[-eye(2),zeros(2),p.Cds*p.drive_matrix,-p.Cs*eye(2),zeros(2,10)]/p.thx_charge_per_input;
+    cutoff=diag(2*pi*p.afe_bw);
+    [Adrive,Afloat,Asense]=useThxReadout(Adrive,Afloat,Asense,cutoff,chargeMap,c.reuse);
+    % AAF states store the input coordinate of the THX gain. The gain
+    % commutes with the identical linear AAF channels.
+    S(11:18,11:18)=eye(8)*p.charge_target/p.thx_charge_per_input;
+    c.cvOutputGain=p.pre_gain*p.thx_cv_gain;
+    c.pickoff=[zeros(2,16),eye(2)*p.charge_target/p.thx_charge_per_input*c.cvOutputGain];
+end
 [c.Ad,c.Bd]=discretize(Adrive,B,S,P,p.Ts);
 [c.Af,~]=discretize(Afloat,B,S,eye(18),p.Ts);
 [c.As,~]=discretize(Asense,B,S,eye(18),p.Ts);
@@ -102,6 +122,10 @@ sensor=-s/(s*p.Cs+1/p.Rs+p.G0);
 chargeAmp=1/(p.Rs*p.Cf*(s+1/(p.Rf*p.Cf)));
 afe=2*pi*p.afe_bw(:);
 Hdet=p.charge_target*diag((afe./(s+afe)).^p.aaf_order)*p.detect_matrix*(chargeAmp*sensor);
+if useThx
+    Hdet=p.charge_target*diag((afe./(s+afe)).^p.aaf_order)*c.cvOutputGain ...
+        /p.thx_charge_per_input*(-1-p.Cs*sensor);
+end
 zoh=(1-exp(-s*p.Ts*p.dac_divisor))/(s*p.Ts*p.dac_divisor);
 Hdrive=p.drive_matrix*diag(zoh./(1+s*p.driver_tau(:)));
 c.detect=real_iq_inverse(Hdet); c.drive=real_iq_inverse(Hdrive);
@@ -109,7 +133,25 @@ c.gain_check=struct('drive_pre_V_per_V',p.pre_gain,'sense_pre_V_per_V',p.pre_gai
     'driver_post_gain',p.power_gain,'detector_V_per_normalized_charge',abs(Hdet(1,1)), ...
     'electrode_limit_V',p.vmax*p.pre_gain*p.power_gain);
 c.thx_comparison=struct('saved_Kcvd',1e4,'saved_Kcvs',1e5,'saved_Kcsd',1e4,'saved_Kcss',1e5, ...
-    'reuse_scope','Analog Gain/filter topology; equal normalized front gain. Saved unequal numbers are not copied as SI charge sensitivity.');
+    'matched_cv_gain',p.thx_cv_gain,'piezo_charge_per_input_unit_C',p.thx_charge_per_input, ...
+    'reuse_scope','THX static readout Gain, matched to drive channel source value. Piezo adapter and AAF are external.');
+end
+
+function [drive,float,sense]=useThxReadout(drive,float,sense,cutoff,chargeMap,reuse)
+sense=setThxInput(sense,cutoff,chargeMap);
+if reuse
+    drive=setThxInput(drive,cutoff,zeros(size(chargeMap)));
+    float=setThxInput(float,cutoff,zeros(size(chargeMap)));
+else
+    drive=setThxInput(drive,cutoff,chargeMap);
+    float=setThxInput(float,cutoff,chargeMap);
+end
+end
+
+function A=setThxInput(A,cutoff,chargeMap)
+A(9:10,:)=0; % No charge-amplifier feedback integrator in the THX gain.
+A(11:12,:)=cutoff*chargeMap;
+A(11:12,11:12)=-cutoff;
 end
 
 function [Ad,Bd]=discretize(A,B,S,P,Ts)
