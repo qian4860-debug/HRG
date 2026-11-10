@@ -1,0 +1,89 @@
+{
+  "generated": "2026-11-10 10:45:19",
+  "cases": [
+    {
+      "mode": "continuous",
+      "fs_Hz": 1.088E+6,
+      "samples_per_carrier": 160,
+      "frame_samples": 160,
+      "frame_rate_Hz": 6800,
+      "adc_bits": 16,
+      "dac_bits": 16,
+      "frames": 272,
+      "body_rms_rad": 3.1905748544896247E-5,
+      "body_peak_rad": 0.00010604858387517138,
+      "amp_min": 0.99997845161285115,
+      "amp_max": 1.0001684092980427
+    },
+    {
+      "mode": "continuous",
+      "fs_Hz": 544000,
+      "samples_per_carrier": 80,
+      "frame_samples": 80,
+      "frame_rate_Hz": 6800,
+      "adc_bits": 16,
+      "dac_bits": 16,
+      "frames": 272,
+      "body_rms_rad": 4.29533973767648E-5,
+      "body_peak_rad": 0.00011485172992415499,
+      "amp_min": 0.99994150111533953,
+      "amp_max": 1.0001766941065948
+    },
+    {
+      "mode": "tdm_shared",
+      "fs_Hz": 5.44E+6,
+      "samples_per_carrier": 800,
+      "frame_samples": 3200,
+      "frame_rate_Hz": 1700,
+      "adc_bits": 10,
+      "dac_bits": 14,
+      "frames": 68,
+      "body_rms_rad": 0.0020218592930622338,
+      "body_peak_rad": 0.0038139227420409191,
+      "amp_min": 0.99882347827376239,
+      "amp_max": 1.000107333440976
+    },
+    {
+      "mode": "tdm_shared",
+      "fs_Hz": 5.0048E+6,
+      "samples_per_carrier": 736,
+      "frame_samples": 2944,
+      "frame_rate_Hz": 1700,
+      "adc_bits": 10,
+      "dac_bits": 14,
+      "frames": 68,
+      "body_rms_rad": 0.0019993462151116355,
+      "body_peak_rad": 0.0037616942424313106,
+      "amp_min": 0.9986546784829694,
+      "amp_max": 1.0001260194880532
+    },
+    {
+      "mode": "tdm_separate",
+      "fs_Hz": 5.44E+6,
+      "samples_per_carrier": 800,
+      "frame_samples": 3200,
+      "frame_rate_Hz": 1700,
+      "adc_bits": 10,
+      "dac_bits": 14,
+      "frames": 68,
+      "body_rms_rad": 0.0020935440044053139,
+      "body_peak_rad": 0.0039555329011589473,
+      "amp_min": 0.9988789817512076,
+      "amp_max": 1.000107333440976
+    },
+    {
+      "mode": "tdm_separate",
+      "fs_Hz": 5.0048E+6,
+      "samples_per_carrier": 736,
+      "frame_samples": 2944,
+      "frame_rate_Hz": 1700,
+      "adc_bits": 10,
+      "dac_bits": 14,
+      "frames": 68,
+      "body_rms_rad": 0.001980967875456431,
+      "body_peak_rad": 0.0037573287496783271,
+      "amp_min": 0.99865467848297551,
+      "amp_max": 1.0001260194880532
+    }
+  ]
+}

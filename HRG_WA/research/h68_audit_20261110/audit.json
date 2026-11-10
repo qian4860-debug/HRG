@@ -1,0 +1,126 @@
+{
+  "generated": "2026-11-10 10:44:02",
+  "modes": [
+    {
+      "mode": "continuous",
+      "head": {
+        "f0_Hz": 6800,
+        "split_Hz": 0.05,
+        "Q": 30000,
+        "parasitic_F": 6E-10,
+        "f_modes_Hz": [
+          6799.975,
+          6800.025
+        ],
+        "ringdown_s": 1.4043083213990766,
+        "linewidth_Hz": 0.22666666666666666,
+        "temperature_model": "No per-head temperature curve supplied"
+      },
+      "adc_bits": 16,
+      "dac_bits": 16,
+      "fs_Hz": 1.088E+6,
+      "samples_per_carrier": 160,
+      "frame_samples": 160,
+      "frame_rate_Hz": 6800,
+      "pre_gain": 1,
+      "power_gain": 20,
+      "drive_pre": 1,
+      "sense_pre": 1,
+      "thx_cv_gain": 10000,
+      "thx_charge_per_input_C": 1E-6,
+      "cv_mode": "thx2024",
+      "blocks": 322,
+      "thx_gain_blocks": 1,
+      "has_runtime_matlab_block": false,
+      "cds_F": 0,
+      "vmax_V": 0.5,
+      "electrode_limit_V": 10,
+      "temperature_model": "No per-head temperature curve supplied"
+    },
+    {
+      "mode": "tdm_shared",
+      "head": {
+        "f0_Hz": 6800,
+        "split_Hz": 0.05,
+        "Q": 30000,
+        "parasitic_F": 6E-10,
+        "f_modes_Hz": [
+          6799.975,
+          6800.025
+        ],
+        "ringdown_s": 1.4043083213990766,
+        "linewidth_Hz": 0.22666666666666666,
+        "temperature_model": "No per-head temperature curve supplied"
+      },
+      "adc_bits": 10,
+      "dac_bits": 14,
+      "fs_Hz": 5.44E+6,
+      "samples_per_carrier": 800,
+      "frame_samples": 3200,
+      "frame_rate_Hz": 1700,
+      "pre_gain": 1,
+      "power_gain": 20,
+      "drive_pre": 1,
+      "sense_pre": 1,
+      "thx_cv_gain": 10000,
+      "thx_charge_per_input_C": 1E-6,
+      "cv_mode": "thx2024",
+      "blocks": 324,
+      "thx_gain_blocks": 1,
+      "has_runtime_matlab_block": false,
+      "cds_F": 0,
+      "vmax_V": 0.5,
+      "electrode_limit_V": 10,
+      "temperature_model": "No per-head temperature curve supplied"
+    },
+    {
+      "mode": "tdm_separate",
+      "head": {
+        "f0_Hz": 6800,
+        "split_Hz": 0.05,
+        "Q": 30000,
+        "parasitic_F": 6E-10,
+        "f_modes_Hz": [
+          6799.975,
+          6800.025
+        ],
+        "ringdown_s": 1.4043083213990766,
+        "linewidth_Hz": 0.22666666666666666,
+        "temperature_model": "No per-head temperature curve supplied"
+      },
+      "adc_bits": 10,
+      "dac_bits": 14,
+      "fs_Hz": 5.44E+6,
+      "samples_per_carrier": 800,
+      "frame_samples": 3200,
+      "frame_rate_Hz": 1700,
+      "pre_gain": 1,
+      "power_gain": 20,
+      "drive_pre": 1,
+      "sense_pre": 1,
+      "thx_cv_gain": 10000,
+      "thx_charge_per_input_C": 1E-6,
+      "cv_mode": "thx2024",
+      "blocks": 322,
+      "thx_gain_blocks": 1,
+      "has_runtime_matlab_block": false,
+      "cds_F": 0,
+      "vmax_V": 0.5,
+      "electrode_limit_V": 10,
+      "temperature_model": "No per-head temperature curve supplied"
+    }
+  ],
+  "rates": {
+    "carrier_only_strict_lower_Hz": 13600.05,
+    "with_100Hz_envelope_strict_lower_Hz": 13800.05,
+    "ad9215_min_clock_Hz": 5.0E+6,
+    "tdm_min_integer_samples_per_cycle": 736,
+    "tdm_min_clock_Hz": 5.0048E+6,
+    "continuous_1us_settle_max_Hz": 1.0E+6,
+    "continuous_2us_settle_max_Hz": 500000,
+    "continuous_544k_samples_per_cycle": 80,
+    "dac_8_samples_per_cycle_Hz": 54400,
+    "dac_16_samples_per_cycle_Hz": 108800,
+    "dac_32_samples_per_cycle_Hz": 217600
+  }
+}
