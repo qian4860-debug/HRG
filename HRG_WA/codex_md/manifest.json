@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-10",
-  "source_base_commit": "fcf15032c31664503008b0dcfe655320d6a6e3ea",
+  "source_base_commit": "d7c7fdf850e07632613de69cf3d059d910bf858b",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "fcf15032c31664503008b0dcfe655320d6a6e3ea",
+      "source_commit": "d7c7fdf850e07632613de69cf3d059d910bf858b",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "a887e016ee0728a0171b632c412614537ea16065d8c79e21360be70274e204e1",
-      "archive_sha256": "b16cf1b918998c0e795a192be879c31130ed733e44e89fd63ed795071b7333bb",
+      "source_sha256": "75422920136d4ea6673801ebc4beb4483cfaf99ffa29fbc29bf83dc46a9bfec5",
+      "archive_sha256": "591cbfe0de6b943fa431f6cf6362b5f3eef939c7b8c1cb4d1c2dfeeb3ef9a8da",
       "rewritten_local_links": []
     },
     {
@@ -3721,13 +3721,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 422,
-    "kept": 133
+    "source_records": 423,
+    "kept": 134
   },
   "generated_index_sha256": {
-    "README.md": "968736fc0d3774b7494216e05080ace4663b786a41d12c8145b994513e7a7293",
-    "00_文档索引.md": "1b4e0864633699ad131ad9e8fdfa04671cbed23cee77b16bad3c5683c0ed2630",
-    "history_filter_audit.json": "733f22cdacb77332f1ad982a422ea4bf8e7f2c3497f20db59f8b26f3a2324da3"
+    "README.md": "e932f179a2e4fdfcee94d46081321bb4f210924c78d7bb6d7a18c530305b3d28",
+    "00_文档索引.md": "c5e46271785bc722d37dbd807bec35154b79159283e666c2bda4d35b5c889ef2",
+    "history_filter_audit.json": "edaecf1e20e950ef45a3284dc0628eb58d8a9c7b70cf0d6a5349a433ad0f4003"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3756,6 +3756,7 @@
     "24_DSH23复核与6800Hz执行基线_20261110.md": "f9d0abbd376ad86a51a014dc71cbc68e3c53e35866e711c22a4a1cbe9dc80f9f",
     "25_五电极接法与文献检索_20261110.md": "b9d649f6dd0307276b895bbcc802462e00727289d171fb4757a88afb17a55a72",
     "26_五电极连续与分时原生建模_20261110.md": "c4d1e6d21a79bcbd9795fbd33c217b15706470e181264edd70858887c61eba67",
-    "27_DSH24独立复核与五电极执行基线_20261110.md": "6fd5f6a65610daad12faf9a0f0e71b0f8146bde0af97aff74f3e722ab44ed879"
+    "27_DSH24独立复核与五电极执行基线_20261110.md": "6fd5f6a65610daad12faf9a0f0e71b0f8146bde0af97aff74f3e722ab44ed879",
+    "28_五电极ADC量程与分时窗口筛选_20261110.md": "47f32d17e9b32eac847b44348ba8d533ed75a5296c3cf41324820a806cf4933b"
   }
 }
