@@ -1,0 +1,97 @@
+{
+  "release_matlab": "R2025a",
+  "simulator_rtl": "Icarus Verilog 13.0",
+  "source_commit": "9899dcc",
+  "matlab_simulink": {
+    "duration_s": 0.18,
+    "omega_rad_s": 0.5,
+    "settle_s": 0.06,
+    "continuous": {
+      "scored_frames": 816,
+      "angle_rms_rad": 3.0401959e-05,
+      "adc_clip_samples": 0,
+      "dac_clip_before_score_samples": 32,
+      "dac_clip_during_score_samples": 0,
+      "status": "PASS_WITH_WARNING",
+      "native_parity_6ms_max_abs_difference": 1.97e-14
+    },
+    "tdm_shared_dac_div25": {
+      "scored_frames": 204,
+      "angle_rms_rad": 0.00342488,
+      "dac_rate_samples_per_s": 217600,
+      "status": "PASS"
+    },
+    "tdm_shared_native_parity_6ms_max_abs_difference": 1.32e-12,
+    "named_node_logs_per_native_model": 23
+  },
+  "rtl_replay": {
+    "continuous": {
+      "ticks": 13057,
+      "frames": 81,
+      "lost_ticks": 0,
+      "dac_clip_ticks": 32,
+      "max_dac_codes": 1,
+      "max_angle_Q24": 33,
+      "max_iq_Q24": 15
+    },
+    "tdm_shared": {
+      "ticks": 65281,
+      "frames": 20,
+      "lost_ticks": 0,
+      "dac_clip_ticks": 0,
+      "max_dac_codes": 1,
+      "max_angle_Q24": 15,
+      "max_iq_Q24": 13
+    },
+    "tdm_shared_div25": {
+      "ticks": 65281,
+      "frames": 20,
+      "lost_ticks": 0,
+      "dac_clip_ticks": 0,
+      "max_dac_codes": 1,
+      "max_angle_Q24": 16,
+      "max_iq_Q24": 13
+    },
+    "continuous_overload": {
+      "ticks": 163201,
+      "frames": 157,
+      "lost_ticks": 137920,
+      "dac_clip_ticks": 15624,
+      "max_dac_codes": 1,
+      "max_angle_Q24": 72,
+      "max_iq_Q24": 15
+    }
+  },
+  "rtl_closed_loop": {
+    "continuous": {
+      "ticks": 13057,
+      "frames": 81,
+      "event_mismatches": 0,
+      "max_vs_MATLAB_rad": 8.88109207e-06,
+      "truth_RMS_rad": 4.7301429e-05,
+      "ADC_clip": 0,
+      "DAC_start": 32,
+      "DAC_steady": 0
+    },
+    "tdm_shared": {
+      "ticks": 65281,
+      "frames": 20,
+      "event_mismatches": 0,
+      "max_vs_MATLAB_rad": 8.94069672e-07,
+      "truth_RMS_rad": 0.000305403327,
+      "ADC_clip": 0,
+      "DAC_start": 0,
+      "DAC_steady": 0
+    },
+    "tdm_shared_div25": {
+      "ticks": 65281,
+      "frames": 20,
+      "event_mismatches": 0,
+      "max_vs_MATLAB_rad": 9.53674316e-07,
+      "truth_RMS_rad": 0.000302159121,
+      "ADC_clip": 0,
+      "DAC_start": 0,
+      "DAC_steady": 0
+    }
+  }
+}
