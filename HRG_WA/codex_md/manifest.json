@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-10",
-  "source_base_commit": "7a5d7fb2bc7e1162dfafe6054cb218f003fddb08",
+  "source_base_commit": "086cec44f6482b5bbfaa323339a226438e0b3887",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "7a5d7fb2bc7e1162dfafe6054cb218f003fddb08",
+      "source_commit": "086cec44f6482b5bbfaa323339a226438e0b3887",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "3b124577f669a2436c857e368dae429b083b14730106e4a90c592fe1aa9f6fb6",
-      "archive_sha256": "de693cbd86fc89e24fb309d9846a264e9c8aa95fc8bddbbdc903f63e5d74fb00",
+      "source_sha256": "764f18519363ce5e3583f1a489d479afaf9480fb4ba965e7abaed19c7e5f024b",
+      "archive_sha256": "ae5fa725fa55d6fcc2cc27e6d0bec5f0df3ecb47b650c72b049b644b5dadf3c6",
       "rewritten_local_links": []
     },
     {
@@ -3717,13 +3717,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 417,
-    "kept": 128
+    "source_records": 418,
+    "kept": 129
   },
   "generated_index_sha256": {
-    "README.md": "282a8b8889c80565b1c6c43ac5270ea8871c914094392c404212289ce15a50d4",
-    "00_文档索引.md": "1f1ec17b84e8163801169b88bbc8bb11e8fa8a57b5cd6e08c701e829f51cace4",
-    "history_filter_audit.json": "004bb9931a6e9ec5c2510218e9c60e0b24a12e903c83d753e8d98afbc1b77a89"
+    "README.md": "3f9a81dbbef49e2b7e098b33b06529ded4e9973737657da700208a15fb0731d2",
+    "00_文档索引.md": "5723abe62ee219316725d8cb715b7c54313f9d8b311c3298453cd02cb7d7d703",
+    "history_filter_audit.json": "a545b04e6ed411035124af7ab4d536693db2b599d4c21feffe33cffc00391e1b"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3749,6 +3749,7 @@
     "21_技术对接与表头到电路指标预算.md": "279b68a0a3b0c3fcedbf2f31d3bf97fde6dd919b1b86888951aa45db10886501",
     "22_6800Hz参数回填与原生双方案_20261109.md": "f290917865fcbe5afa2d31c848d6bebdb9fa9d99541df9fbf98b3e9727a83eba",
     "23_6800Hz_thx2024_CV与T0台架_20261110.md": "9f45b49fd9719a9b560bbb4ab0f805ef52a1e5e876bc6e49bfbc40cd581361d0",
-    "24_DSH23复核与6800Hz执行基线_20261110.md": "f9d0abbd376ad86a51a014dc71cbc68e3c53e35866e711c22a4a1cbe9dc80f9f"
+    "24_DSH23复核与6800Hz执行基线_20261110.md": "f9d0abbd376ad86a51a014dc71cbc68e3c53e35866e711c22a4a1cbe9dc80f9f",
+    "25_五电极接法与文献检索_20261110.md": "e3918f5fb3c022a7a769f1e65f4ac1fd9ad4430004db78722f3c988db84d9544"
   }
 }
