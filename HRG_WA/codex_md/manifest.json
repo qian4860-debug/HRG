@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-10",
-  "source_base_commit": "6cc35173584917b9cf8941ed1481a049007c70e7",
+  "source_base_commit": "fcf15032c31664503008b0dcfe655320d6a6e3ea",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "6cc35173584917b9cf8941ed1481a049007c70e7",
+      "source_commit": "fcf15032c31664503008b0dcfe655320d6a6e3ea",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "27dada9de1060437144bd82fb19b1f3abb70c8e3a06b9fcbaccb4ccea116454e",
-      "archive_sha256": "bf0457c7024b05ad084206d7387ea68924b46693804ded908359ed8e94773b5e",
+      "source_sha256": "a887e016ee0728a0171b632c412614537ea16065d8c79e21360be70274e204e1",
+      "archive_sha256": "b16cf1b918998c0e795a192be879c31130ed733e44e89fd63ed795071b7333bb",
       "rewritten_local_links": []
     },
     {
@@ -3704,6 +3704,10 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/24_五电极方案复核与下一步_20261110.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3717,13 +3721,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 420,
-    "kept": 131
+    "source_records": 422,
+    "kept": 133
   },
   "generated_index_sha256": {
-    "README.md": "c433977da0c471f3d24a78e85c32a61f2d85a52e383eb0ecc0335a72b5dbdbd2",
-    "00_文档索引.md": "e82592a29a477609ffecb110ce47d9d20f0a27d07a6e61328745af0ed60ac4f0",
-    "history_filter_audit.json": "3b51cecac639de85bfceca41af0e7d876c33af2597fb96ff5e5d357b987d7a24"
+    "README.md": "968736fc0d3774b7494216e05080ace4663b786a41d12c8145b994513e7a7293",
+    "00_文档索引.md": "1b4e0864633699ad131ad9e8fdfa04671cbed23cee77b16bad3c5683c0ed2630",
+    "history_filter_audit.json": "733f22cdacb77332f1ad982a422ea4bf8e7f2c3497f20db59f8b26f3a2324da3"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3751,6 +3755,7 @@
     "23_6800Hz_thx2024_CV与T0台架_20261110.md": "9f45b49fd9719a9b560bbb4ab0f805ef52a1e5e876bc6e49bfbc40cd581361d0",
     "24_DSH23复核与6800Hz执行基线_20261110.md": "f9d0abbd376ad86a51a014dc71cbc68e3c53e35866e711c22a4a1cbe9dc80f9f",
     "25_五电极接法与文献检索_20261110.md": "b9d649f6dd0307276b895bbcc802462e00727289d171fb4757a88afb17a55a72",
-    "26_五电极连续与分时原生建模_20261110.md": "c4d1e6d21a79bcbd9795fbd33c217b15706470e181264edd70858887c61eba67"
+    "26_五电极连续与分时原生建模_20261110.md": "c4d1e6d21a79bcbd9795fbd33c217b15706470e181264edd70858887c61eba67",
+    "27_DSH24独立复核与五电极执行基线_20261110.md": "6fd5f6a65610daad12faf9a0f0e71b0f8146bde0af97aff74f3e722ab44ed879"
   }
 }
