@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "date": "2026-11-09",
-  "source_base_commit": "3a5699a372a33e0d761daaf0dbe1453241c9f8c5",
+  "date": "2026-11-10",
+  "source_base_commit": "54a0924fc470467b66d2d8f2fb86a6a228d9168f",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "3a5699a372a33e0d761daaf0dbe1453241c9f8c5",
+      "source_commit": "54a0924fc470467b66d2d8f2fb86a6a228d9168f",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": false,
-      "source_sha256": "b1be81f3fd677d8566c4d5058bd2cb8b459edf38e7af77a8825f6428f67fb61b",
-      "archive_sha256": "73996e9a9ed917a8ff93f7df01e78facae6e9881558d067f3b3c170fbbf4041d",
+      "source_sha256": "6d70f6417101d3d9ebec4c7da613635f266ed5a73de1f2dc289ebf9ded395604",
+      "archive_sha256": "867d02eda6918aa06a7d2b3433d924ec46ac0d52f57ab9c9ff2c86291a91b752",
       "rewritten_local_links": []
     },
     {
@@ -3713,13 +3713,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 413,
-    "kept": 124
+    "source_records": 415,
+    "kept": 126
   },
   "generated_index_sha256": {
-    "README.md": "a30570f27e6eafff73e53b96a46f0e98303e22c96803d7552f8978a588ac322b",
-    "00_文档索引.md": "2ccb8ea4f0d63a7b816097c7dc49442798a9c55aa80f09fb6b9679cd074ba8a4",
-    "history_filter_audit.json": "0650782259c57dfbae9a36394aa0897f6289676e9f7ffaf19edcc900b689fd95"
+    "README.md": "42003d8121d7d2aededc65fc69529f34bf52b85ea13e36ef339c628bd0171085",
+    "00_文档索引.md": "7e1c5e84f9a8123b50895ea670232d28a6a76ceaadbe8a4ca498c42fb40af8ab",
+    "history_filter_audit.json": "7b7b463decc00289175391371648f26a63c141c1502799e3feb02bb2fd2c218b"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3743,6 +3743,7 @@
     "19_低速连续与高速分时复用设计_20261107.md": "3ed752b7d286b7ebd725e43e010a26161b286b812cf2d14f407c5d795fbfdf28",
     "20_原生Simulink分时双版本_20261109.md": "d51bdad413f7ba906e083100c64977d5140766e1525ea751e91cdb62ae3e500e",
     "21_技术对接与表头到电路指标预算.md": "279b68a0a3b0c3fcedbf2f31d3bf97fde6dd919b1b86888951aa45db10886501",
-    "22_6800Hz参数回填与原生双方案_20261109.md": "9b7a817db9faf730d09e2a6a6eb43f99c3887f868ddda5cf736fcd8d73580acb"
+    "22_6800Hz参数回填与原生双方案_20261109.md": "f290917865fcbe5afa2d31c848d6bebdb9fa9d99541df9fbf98b3e9727a83eba",
+    "23_6800Hz_thx2024_CV与T0台架_20261110.md": "9f45b49fd9719a9b560bbb4ab0f805ef52a1e5e876bc6e49bfbc40cd581361d0"
   }
 }
