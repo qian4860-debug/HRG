@@ -1,0 +1,191 @@
+{
+  "generated": "2026-11-10 12:28:21",
+  "modes": [
+    {
+      "mode": "continuous",
+      "group_angles_deg": [
+        0,
+        45,
+        90,
+        135
+      ],
+      "group_charge_gain": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "group_capacitance_F": [
+        6E-10,
+        6E-10,
+        6E-10,
+        6E-10
+      ],
+      "cds_F": 0,
+      "H": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "drive_map": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "sense_map": [
+        [
+          0,
+          0,
+          -1,
+          -0
+        ],
+        [
+          0,
+          0,
+          -0,
+          -1
+        ]
+      ],
+      "rank_H": 2,
+      "rank_drive": 2,
+      "rank_sense": 2,
+      "cond_H": 1,
+      "cond_drive": 1,
+      "cond_sense": 1,
+      "cond_C": 1,
+      "eig_C": [
+        6E-10,
+        6E-10,
+        6E-10,
+        6E-10
+      ],
+      "common_terminal": "COM",
+      "adc_bits": 16,
+      "dac_bits": 16,
+      "fs_Hz": 1.088E+6,
+      "frame_rate_Hz": 6800,
+      "drive_pre": 1,
+      "sense_pre": 1,
+      "thx_cv_gain": 10000
+    },
+    {
+      "mode": "tdm_shared",
+      "group_angles_deg": [
+        0,
+        45,
+        90,
+        135
+      ],
+      "group_charge_gain": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "group_capacitance_F": [
+        6E-10,
+        6E-10,
+        6E-10,
+        6E-10
+      ],
+      "cds_F": 0,
+      "H": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "drive_map": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -0
+        ],
+        [
+          -0,
+          -1
+        ]
+      ],
+      "sense_map": [
+        [
+          0.5,
+          0,
+          -0.5,
+          -0
+        ],
+        [
+          0,
+          0.5,
+          -0,
+          -0.5
+        ]
+      ],
+      "rank_H": 2,
+      "rank_drive": 2,
+      "rank_sense": 2,
+      "cond_H": 1,
+      "cond_drive": 1,
+      "cond_sense": 1,
+      "cond_C": 1,
+      "eig_C": [
+        6E-10,
+        6E-10,
+        6E-10,
+        6E-10
+      ],
+      "common_terminal": "COM",
+      "adc_bits": 10,
+      "dac_bits": 14,
+      "fs_Hz": 5.44E+6,
+      "frame_rate_Hz": 1700,
+      "drive_pre": 1,
+      "sense_pre": 1,
+      "thx_cv_gain": 10000
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "generated": "2026-11-10 12:28:36",
+  "cases": [
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0,
+      "settle_s": 0.04,
+      "frames": 2108,
+      "body_rms_rad": 6.5884403252229211E-5,
+      "body_peak_rad": 0.00015761540675731349
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0,
+      "settle_s": 0.06,
+      "frames": 1972,
+      "body_rms_rad": 3.8960147208008891E-5,
+      "body_peak_rad": 0.00011742922158101035
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0,
+      "settle_s": 0.08,
+      "frames": 1836,
+      "body_rms_rad": 3.7248576942369808E-5,
+      "body_peak_rad": 0.00010786811277846645
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0,
+      "settle_s": 0.1,
+      "frames": 1700,
+      "body_rms_rad": 4.6077316114166445E-5,
+      "body_peak_rad": 0.00012467385115547049
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0,
+      "settle_s": 0.15,
+      "frames": 1360,
+      "body_rms_rad": 5.414635894346678E-5,
+      "body_peak_rad": 0.00013136523584361166
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.04,
+      "frames": 2108,
+      "body_rms_rad": 4.062022938866325E-5,
+      "body_peak_rad": 0.00016035621287804891
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.06,
+      "frames": 1972,
+      "body_rms_rad": 3.2929790179454728E-5,
+      "body_peak_rad": 0.00013899042756707058
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.08,
+      "frames": 1836,
+      "body_rms_rad": 3.5952296491779957E-5,
+      "body_peak_rad": 0.00011933825928850395
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.1,
+      "frames": 1700,
+      "body_rms_rad": 3.2148288308041094E-5,
+      "body_peak_rad": 0.00013423566477538396
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.15,
+      "frames": 1360,
+      "body_rms_rad": 3.5443440590741E-5,
+      "body_peak_rad": 0.00014408798360671105
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": -4,
+      "settle_s": 0.04,
+      "frames": 2108,
+      "body_rms_rad": 0.00026407896178224212,
+      "body_peak_rad": 0.00047276047294242396
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": -4,
+      "settle_s": 0.06,
+      "frames": 1972,
+      "body_rms_rad": 0.00026069800446191322,
+      "body_peak_rad": 0.00045834136716305096
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": -4,
+      "settle_s": 0.08,
+      "frames": 1836,
+      "body_rms_rad": 0.000267890315865887,
+      "body_peak_rad": 0.00045579189830391442
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": -4,
+      "settle_s": 0.1,
+      "frames": 1700,
+      "body_rms_rad": 0.0002385809078532259,
+      "body_peak_rad": 0.00041092403142206635
+    },
+    {
+      "mode": "continuous",
+      "rate_rad_s": -4,
+      "settle_s": 0.15,
+      "frames": 1360,
+      "body_rms_rad": 0.00021554873737845412,
+      "body_peak_rad": 0.00035657760963814233
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0,
+      "settle_s": 0.04,
+      "frames": 527,
+      "body_rms_rad": 0.00058100839696728212,
+      "body_peak_rad": 0.0010219898757246311
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0,
+      "settle_s": 0.06,
+      "frames": 493,
+      "body_rms_rad": 0.00033448274731316018,
+      "body_peak_rad": 0.0008775154177903539
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0,
+      "settle_s": 0.08,
+      "frames": 459,
+      "body_rms_rad": 0.00042789942885150111,
+      "body_peak_rad": 0.001066877507713569
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0,
+      "settle_s": 0.1,
+      "frames": 425,
+      "body_rms_rad": 0.00049688000374851734,
+      "body_peak_rad": 0.0009103700983339963
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0,
+      "settle_s": 0.15,
+      "frames": 340,
+      "body_rms_rad": 0.000493448306873847,
+      "body_peak_rad": 0.000910370098332293
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.04,
+      "frames": 527,
+      "body_rms_rad": 0.0019527138131839846,
+      "body_peak_rad": 0.0045573860929597337
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.06,
+      "frames": 493,
+      "body_rms_rad": 0.0032920901490199948,
+      "body_peak_rad": 0.00583133019203344
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.08,
+      "frames": 459,
+      "body_rms_rad": 0.0019249493815770185,
+      "body_peak_rad": 0.0047858829609776082
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.1,
+      "frames": 425,
+      "body_rms_rad": 0.0026192262382863222,
+      "body_peak_rad": 0.0064665363467354547
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": 0.5,
+      "settle_s": 0.15,
+      "frames": 340,
+      "body_rms_rad": 0.0033769559370217706,
+      "body_peak_rad": 0.0056124954973187924
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": -4,
+      "settle_s": 0.04,
+      "frames": 527,
+      "body_rms_rad": 0.0015996765930712123,
+      "body_peak_rad": 0.003825035053072412
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": -4,
+      "settle_s": 0.06,
+      "frames": 493,
+      "body_rms_rad": 0.0031902173620985512,
+      "body_peak_rad": 0.0064736585457901841
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": -4,
+      "settle_s": 0.08,
+      "frames": 459,
+      "body_rms_rad": 0.0016109686732636503,
+      "body_peak_rad": 0.0039409250492590808
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": -4,
+      "settle_s": 0.1,
+      "frames": 425,
+      "body_rms_rad": 0.0036822471105135094,
+      "body_peak_rad": 0.006891166124955217
+    },
+    {
+      "mode": "tdm_shared",
+      "rate_rad_s": -4,
+      "settle_s": 0.15,
+      "frames": 340,
+      "body_rms_rad": 0.0015965515741591396,
+      "body_peak_rad": 0.003878038241540982
+    }
+  ]
+}
