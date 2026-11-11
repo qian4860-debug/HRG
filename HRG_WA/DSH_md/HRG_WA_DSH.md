@@ -78,6 +78,7 @@
 | 59 | 2026-11-10 | 连续与分时 ADC/DAC 架构、关键词及混合实现 | 电路选型与调研 | 第 29 号报告 | 本次 |
 | 60 | 2026-11-10 | 已有 C/V、ADC、DAC 时组装不分时样机 | 台架实施 | 第 30 号报告 | 本次 |
 | 61 | 2026-11-10 | 五电极关键节点记分板、等价 RTL 与中文注释 | 模型与 RTL | 第 31 号报告 | 本次 |
+| 62 | 2026-11-11 | 复核第 61 条三项是否做到，并给下一步 | 复核与计划 | 覆盖矩阵、注释补齐、6800 模型/RTL 缺口、P0–P4 | 本次提交 |
 
 ---
 
@@ -1234,6 +1235,32 @@
 **落实**：见 [第 31 号报告](../codex_md/31_五电极可视化记分板与RTL对照_20261110.md)。
 
 **提交哈希**：本条随文档提交，模型与 RTL 见对应代码提交。
+
+### 提问 62 · 复核可视化记分板、RTL 与中文注释
+
+**用户原文**
+
+> 检查HRG_WA中这些功能是否做到1.对matlab和原生simulink模型的关键节点，直接添加可视化文字及数据分析，用类似testbench的scoreboard方式，直观观察功能及性能是否正确 2.更新等价的verilog和对应等价的systemverilog testbench 3.在修改编写的同时，添加逐模块以及模块中重要部分的中文注释，以后修改代码也要记得添加注释，下一步应该做什么
+
+**做了什么**
+
+- 逐项核对第 31 号报告、`five_inspect.m`、`five_scoreboard.m`、`five_instrument_model.m`、两份 `*_inspect.slx`、`verification.json`。
+- 核对 `hrg_five_digital.v`、`tb_hrg_five_digital.sv`、`tb_hrg_five_closed_loop.sv`、`hrg_five_analog_plant.sv`、`run_five_rtl.py` 与 Icarus 结果。
+- 给 `five_config.m`、`five_reference.m`、`five_verify.m`、`h68_config.m`、`h68_build.m`、`h68_reference.m`、`h68_verify.m` 补中文模块/关键段注释；`.gitignore` 增加 `*.slx.autosave`。
+
+**结论要点**
+
+- 五电极连续/分时两版：可视化记分板、23 路命名节点、inspect 模型、逐拍 RTL/SV 与闭环 SV 已做到；Icarus 四组回放 + 三组闭环通过。
+- 6800 Hz 三版：只有 `h68_verify` 控制台/JSON 和 `h68_report` 静态 PNG，没有 inspect 模型/交互记分板；`tdm_separate` 没有等价 RTL。
+- 中文注释：五电极 RTL/testbench/scoreboard/inspect/build 已有；`five_config`/`reference`/`verify` 与 `h68_*` 头部本轮补齐；`h68_sampling` 等辅助脚本仍以英文为主。
+- 下一步优先：6800 三版可视化记分板、`tdm_separate` RTL/测试、RTL VCD 波形报告、注释检查清单。
+
+**产出文件**
+
+- `DSH_md/25_可视化记分板_RTL与注释核查_20261111.md`
+- 修改的 MATLAB 注释、`.gitignore`
+
+**提交哈希**：待填。
 
 ## 维护约定
 
