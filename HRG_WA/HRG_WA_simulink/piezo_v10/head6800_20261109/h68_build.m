@@ -1,4 +1,4 @@
-function models = h68_build(outDir, models, configs)
+function models = h68_build(outDir, models, configs, inspect)
 % 生成三份 6800 Hz 原生 Simulink 模型，并把默认参数写入模型工作区。
 % 只使用原生 Gain/Sum/Delay/Switch 等块，不生成 MATLAB Function 或 S-Function。
 % Generate native Simulink diagrams and save their default model workspace.
@@ -6,6 +6,7 @@ arguments
     outDir (1,:) char = fullfile(fileparts(mfilename('fullpath')), 'models')
     models (1,:) cell = {'hrg_6800_continuous', 'hrg_6800_tdm_shared', 'hrg_6800_tdm_separate'}
     configs (1,:) cell = {}
+    inspect (1,1) logical = false
 end
 if isempty(configs)
     modes = {'continuous','tdm_shared','tdm_separate'};
@@ -79,6 +80,8 @@ for k = 1:numel(models)
             'Native blocks only; trace columns 23:26 are the group terminal voltages.'];
     end
     set_param(m,'Description',description);
+    % 检查版在同一原生图上添加旁路测量，行为模型的连接不变。
+    if inspect, h68_instrument_model(m); end
     save_system(m,fullfile(outDir,[m '.slx']));
     clear cleanup
 end

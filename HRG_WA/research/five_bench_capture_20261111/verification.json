@@ -1,0 +1,18 @@
+{
+  "source": "SYNTHETIC_SELFTEST",
+  "nominal_status": "PASS_DATA_CHECKS",
+  "driver_gain": 1.9999999999999998,
+  "driver_phase_deg": -5.7295779513082916,
+  "adc_gain": [
+    1.1999669245928097,
+    0.79998823603886682
+  ],
+  "adc_phase_deg": [
+    -1.7175005944830521,
+    -1.7173911554896886
+  ],
+  "incomplete_status": "INCOMPLETE_DATA_CHECKS",
+  "injected_fault_status": "FAIL_DATA_CHECKS",
+  "missing_samples": 1,
+  "adc_clip_samples": 1
+}

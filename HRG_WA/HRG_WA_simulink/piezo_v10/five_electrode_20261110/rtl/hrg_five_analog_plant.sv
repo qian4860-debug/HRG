@@ -1,8 +1,10 @@
-// 五电极机电表头、驱动和 C/V 的离散行为模型，仅供 SystemVerilog 仿真。
-// MATLAB 配置导出 26 个归一化状态的矩阵。每个采样时刻先观察 x[k]，
+// 压电表头、驱动和 C/V 的离散行为模型，仅供 SystemVerilog 仿真。
+// MATLAB 导出五电极模型的 26 状态或 6800 Hz 分时不复用对照的 18 状态。
+// 每个采样时刻先观察 x[k]，
 // 再用 RTL 实际输出的 DAC 码推进到 x[k+1]，闭环运行期间不回放 ADC。
-module hrg_five_analog_plant;
-    localparam integer N = 26;
+module hrg_five_analog_plant #(
+    parameter integer N = 26
+);
     real transitions [0:3*N*N-1];
     real drive_matrix [0:2*N-1];
     real readout_matrix [0:2*N-1];

@@ -1,9 +1,10 @@
 `timescale 1ns/1ps
 // 五电极 RTL 闭环记分板：数字核驱动实时机电模型，.vec 仅作角度与事件真值。
-// 默认连续模式；编译时覆盖 TDM=1 验证检测电极分时复用。
+// 默认连续模式。TDM=1 可验证分时复用和分时不复用，后者使用 18 状态机电矩阵。
 module tb_hrg_five_closed_loop #(
     parameter TDM=0,
-    parameter DAC_DIVISOR=1
+    parameter DAC_DIVISOR=1,
+    parameter integer PLANT_STATES=26
 );
     localparam AB=TDM ? 10 : 16;
     localparam DB=TDM ? 14 : 16;
@@ -28,7 +29,7 @@ module tb_hrg_five_closed_loop #(
         .published(published), .angle_valid(angle_valid), .tracking_lost(tracking_lost),
         .angle(angle), .ix(), .iy(), .qx(), .qy()
     );
-    hrg_five_analog_plant plant();
+    hrg_five_analog_plant #(.N(PLANT_STATES)) plant();
 
     string directory, scenario;
     integer config_file, vector_file, scanned, row, tick, frames, first_tick, failures;

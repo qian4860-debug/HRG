@@ -8,11 +8,14 @@ import tempfile
 
 
 CASES = {
-    "continuous": (0, 1),
-    "tdm_shared": (1, 1),
-    "tdm_shared_div25": (1, 25),
-    "continuous_overload": (0, 1),
-    "tdm_shared_overload": (1, 1),
+    # 数字分时、DAC 分频、机电仿真状态数。物理拓扑差异在机电矩阵内。
+    "continuous": (0, 1, 26),
+    "tdm_shared": (1, 1, 26),
+    "tdm_shared_div25": (1, 25, 26),
+    "continuous_overload": (0, 1, 26),
+    "tdm_shared_overload": (1, 1, 26),
+    "tdm_separate": (1, 1, 18),
+    "tdm_separate_div25": (1, 25, 18),
 }
 
 
@@ -26,7 +29,7 @@ def find_program(tool, bin_dir):
 
 
 def run_case(stage, toolchain, env, scenario, vcd_dir):
-    tdm, divisor = CASES[scenario]
+    tdm, divisor, plant_states = CASES[scenario]
     compiler, runtime = toolchain
     # 同一场景先跑逐拍回放，再跑独立机电模型。过载用例使用回放检验失锁。
     tops = ["tb_hrg_five_digital"]
@@ -35,13 +38,15 @@ def run_case(stage, toolchain, env, scenario, vcd_dir):
     for top in tops:
         closed_loop = top.endswith("_closed_loop")
         sources = ["hrg_five_digital.v", f"{top}.sv"]
+        parameters = [f"-P{top}.TDM={tdm}", f"-P{top}.DAC_DIVISOR={divisor}"]
         if closed_loop:
             sources.append("hrg_five_analog_plant.sv")
+            parameters.append(f"-P{top}.PLANT_STATES={plant_states}")
         executable = f"{top}.vvp"
         subprocess.run(
             [
                 compiler, "-g2012", "-I.", "-s", top, "-o", executable,
-                f"-P{top}.TDM={tdm}", f"-P{top}.DAC_DIVISOR={divisor}", *sources,
+                *parameters, *sources,
             ],
             cwd=stage,
             env=env,

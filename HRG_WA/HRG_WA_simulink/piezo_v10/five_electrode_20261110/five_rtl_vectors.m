@@ -13,7 +13,12 @@ if ~isfolder(outputDir)
 end
 for scenario = scenarios
     c = caseConfig(scenario,duration);
-    [~,trace,~,adc] = five_reference(c);
+    if strcmp(c.mode,'tdm_separate')
+        % 独立驱检电极对照沿用 6800 Hz 的 18 状态参考，不套用同电极复用模型。
+        [~,trace,~,adc] = h68_reference(c);
+    else
+        [~,trace,~,adc] = five_reference(c);
+    end
     writeCase(outputDir,scenario,c,trace,adc);
 end
 fprintf('已导出 %d 套 MATLAB 对照向量：%s\n',numel(scenarios),outputDir);
@@ -24,11 +29,13 @@ function c = caseConfig(scenario,duration)
 mode = "continuous";
 if startsWith(scenario,"tdm_shared")
     mode = "tdm_shared";
+elseif startsWith(scenario,"tdm_separate")
+    mode = "tdm_separate";
 end
 options = struct('duration',duration,'log_decimation',1);
 switch scenario
-    case {"continuous","tdm_shared"}
-    case "tdm_shared_div25"
+    case {"continuous","tdm_shared","tdm_separate"}
+    case {"tdm_shared_div25","tdm_separate_div25"}
         options.dac_divisor = 25;
     case {"continuous_overload","tdm_shared_overload"}
         options.duration = max(duration,0.15);
@@ -36,7 +43,12 @@ switch scenario
     otherwise
         error('未定义的 RTL 对照工况：%s',scenario);
 end
-c = five_config(char(mode),0.5,options);
+if mode == "tdm_separate"
+    addpath(fullfile(fileparts(mfilename('fullpath')),'..','head6800_20261109'));
+    c = h68_config(char(mode),0.5,options);
+else
+    c = five_config(char(mode),0.5,options);
+end
 if endsWith(scenario,"_overload")
     c.adcMin = -0.05;
     c.adcMax = 0.05;
