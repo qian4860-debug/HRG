@@ -1,4 +1,7 @@
 function [t,trace,frames,adcMonitor]=h68_reference(c)
+% 6800 Hz 逐拍 MATLAB 参考；原生 Simulink 不调用本函数，二者独立对拍。
+% trace 1:22 为控制/转换器/角度列；26 状态五电极版在 23:26 追加组端电压。
+% adcMonitor 为物理采样时刻、ADC 流水线之前的采样，列定义见下方英文说明。
 % Independent sample-by-sample MATLAB implementation; never called by SLX.
 % Optional adcMonitor rows are taken at the physical sample clock during
 % the connected sensing window, before the ADC pipeline. Columns:

@@ -1,6 +1,12 @@
 function c = five_config(mode, omega, overrides)
-% Four electrode groups referenced to COM. Angles and circuit values are
-% configurable assumptions until the measured group-port map is available.
+% 五电极配置：A/B/C/D 四组对称电极相对公共端 COM，另加一个模态表头。
+% 输入：
+%   mode     'continuous' 连续驱检，或 'tdm_shared' 检测电极分时复用；
+%   omega    机体角速度，单位 rad/s，仅用于闭环评分；
+%   overrides 覆盖端口/电路/时序参数的结构体。
+% 输出 c 含 26 状态离散矩阵、组端投影 H、电容矩阵 C、驱动/检测映射、
+% 转换器位宽与四段时序。角度单位 deg，电容单位 F，组增益含极性；
+% COM 在模型中暂定义为理想电位参考，实测回流阻抗需另行回填。
 arguments
     mode (1,:) char = 'continuous'
     omega (1,1) double {mustBeFinite} = 0.5
@@ -10,7 +16,9 @@ assert(ismember(mode,{'continuous','tdm_shared'}), 'Choose continuous or tdm_sha
 here = fileparts(mfilename('fullpath'));
 addpath(fullfile(here,'..','head6800_20261109'));
 
-% Preserve the validated oscillator, controller, timing and converter defaults.
+% 保留已验证的振荡器、控制器、时序和转换器默认值；只替换五端端口参数。
+% 组角默认 0/45/90/135 deg；组增益含压电极性；组端电容默认沿用 600 pF，
+% 但“每组 600 pF”与“四组合计 600 pF”是两种口径，实测前不得混用。
 portOptions = struct('group_angles_deg',[0;45;90;135], ...
     'group_charge_gain',ones(4,1),'group_capacitance_F',[], ...
     'drive_on_resistance_ohm',10);
@@ -38,11 +46,15 @@ assert(numel(cap)==4 && all(isfinite(cap) & cap>0), 'Supply four positive group 
 assert(isscalar(ron) && isfinite(ron) && ron>0, 'Drive on-resistance must be positive.');
 assert(isscalar(p.Cds) && isfinite(p.Cds) && p.Cds>=0, 'Mutual capacitance must be nonnegative.');
 
-% H projects mechanical X/Y to charge on A/B/C/D. The two Cds branches
-% are between A-C and B-D, with signed off-diagonal nodal terms.
+% H 把机械 X/Y 模态投影到 A/B/C/D 四组电荷：
+%   H = gain .* [cos(2*angle), sin(2*angle)]，每行一组。
+% C 为组端对 COM 的 4x4 电容矩阵；当前只含对角组电容与 A-C、B-D
+% 两支互耦 Cds，真实 A-B/B-C/C-D 与 COM 对壳电容需实测后替换。
 H = gain.*[cosd(2*angles),sind(2*angles)];
 opposing = [eye(2),-eye(2)];
 C = diag(cap) + p.Cds*(opposing'*opposing);
+% 连续版：A/B 驱 X/Y，C/D 独立检测；分时版：A/C、B/D 反相驱动，
+% 四组都接检测，模拟半差 (A-C)/2、(B-D)/2 得到 X/Y。两套映射都必须秩 2。
 if c.continuous
     driveMap = [eye(2);zeros(2)];
     driveMask = [true;true;false;false];
@@ -70,8 +82,11 @@ c.commonTerminal = 'COM';
 c.portOptions = portOptions;
 c.head.group_shunt_F = cap;
 
-% SI state layout: motional charge and velocity, driver pole voltages,
-% four group voltages relative to COM, four filter stages on all groups.
+% SI 状态排列（26 维）：
+%   1:4   机械模态电荷与速度；
+%   5:6   驱动极点电压；
+%   7:10  A/B/C/D 四组相对 COM 的端电压；
+%   11:26 四组各四级抗混叠/THX2024 静态 C/V 输入状态。
 [~,~,initial,plant] = pcn_plant(p);
 driveGain = p.pre_gain*p.power_gain;
 afe = 2*pi*repmat(p.afe_bw(:),2,1);
@@ -100,9 +115,11 @@ c.motion = [eye(2),zeros(2,24)];
 c.groupVoltage = [zeros(4,6),eye(4)*vScale,zeros(4,16)];
 c.electrode = senseMap*c.groupVoltage;
 
-% Calibrate the carrier phasors in the active electrical topology.
-% Detection calibration uses motional charge with zero commanded drive;
-% it does not subtract direct drive feedthrough.
+% 在当前电气拓扑下标定载波相量：
+%   Hdet  由“静态 C/V + 四级 AAF + 组端电容/导纳”得到，检测校准只用
+%         机械运动电荷，不扣除驱动直通；Hdrive 由驱动窗的 DAC->组端
+%         电压传递得到。iqInverse 把复数 2x2 响应转成实数 I/Q 校准矩阵。
+% 注意：这里没有包含 Cds 之外的组间互耦，也没有 COM 回流阻抗。
 s = 1i*c.w;
 driveLoad = diag(driveCond + readCond*double(c.continuous) + p.G0);
 if c.continuous

@@ -1,4 +1,9 @@
 function c = h68_config(mode, omega, overrides)
+% 6800 Hz 压电全角表头配置：continuous / tdm_shared / tdm_separate 三模式。
+% 三模式共用同一物理表头（f0、频差、Q、端口电容不随控制方式变化）；
+% 转换器位宽、采样率、ADC 延迟与驱检窗口随模式切换。
+% 未实测的电路值（C/V、驱动极点、AAF、开关注入）保持显式假设，
+% 不把闭环响应当成表头固有参数。
 % Head values are user-supplied; unmeasured circuit values remain assumptions.
 % No runtime MATLAB function is called from any generated Simulink model.
 arguments

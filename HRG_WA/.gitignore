@@ -31,4 +31,5 @@ HRG_WA_simulink/slprj/
 HRG_WA_simulink/*.slxc
 slprj/
 *.slxc
+*.slx.autosave
 HRG_WA_simulink/layered/_work/

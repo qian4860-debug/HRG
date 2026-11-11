@@ -1,4 +1,6 @@
 function result=h68_verify
+% 6800 Hz 三版原生模型回归：3 组 parity、9 组名义闭环、8 组灵敏度、
+% 9 组故障；只验证行为级模型，输出 verification.json，不是硬件验收。
 % Tests use real converter clock rates, not a silently reduced surrogate.
 here=fileparts(mfilename('fullpath')); addpath(here);
 diary(fullfile(here,'verification.log'));

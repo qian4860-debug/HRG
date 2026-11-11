@@ -1,4 +1,6 @@
 function models = h68_build(outDir, models, configs)
+% 生成三份 6800 Hz 原生 Simulink 模型，并把默认参数写入模型工作区。
+% 只使用原生 Gain/Sum/Delay/Switch 等块，不生成 MATLAB Function 或 S-Function。
 % Generate native Simulink diagrams and save their default model workspace.
 arguments
     outDir (1,:) char = fullfile(fileparts(mfilename('fullpath')), 'models')

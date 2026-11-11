@@ -1,7 +1,8 @@
 function [t, trace, frames, adcMonitor] = five_reference(c)
-% Sample-by-sample MATLAB reference for the four groups plus COM.
-% Trace columns 23:26 give A/B/C/D voltage relative to COM.
-% Request the fourth output for pre-quantizer sensing samples (see h68_reference).
+% 五电极 MATLAB 逐拍参考：与原生 Simulink 使用同一列协议和同一评分入口。
+% trace 的 1:22 列沿用 6800 Hz 基线，23:26 列为 A/B/C/D 相对 COM 的端电压。
+% 第 4 个输出 adcMonitor 是量化前采样，便于在 five_inspect 中观察
+% C/V、ADC 输入与流水线输出的波形；不给第 4 输出时保持旧调用兼容。
 arguments
     c (1,1) struct = five_config()
 end

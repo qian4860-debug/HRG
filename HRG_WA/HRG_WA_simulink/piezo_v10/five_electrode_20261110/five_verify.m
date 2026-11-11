@@ -1,6 +1,11 @@
 function result = five_verify(modelDir, receiptPath)
-% Check saved native models against the independent sampled MATLAB loop.
-% The checks qualify the simulated topology and controls, not the hardware.
+% 五电极两版原生模型回归：
+%   1) 拓扑/极性检查：四组+COM 的 H、驱动/检测映射必须秩 2；
+%   2) 逐拍 parity：原生 Simulink 对独立 MATLAB 参考，含 DAC 整数分频；
+%   3) 名义闭环：0/0.5/-4 rad/s 下的角增量 RMS 与归一化振幅；
+%   4) 起振：从零机械状态施加有界启动激励，检查首次有效帧；
+%   5) 故障：ADC 锁定前/后过载不得发布角度或使能反馈。
+% 输出 verification.json。所有判据只针对行为级仿真，不是硬件验收。
 arguments
     modelDir (1,:) char = fullfile(fileparts(mfilename('fullpath')),'models')
     receiptPath (1,:) char = fullfile(fileparts(mfilename('fullpath')),'verification.json')
@@ -24,6 +29,8 @@ for idx = 1:numel(modes)
     heads{idx} = c.head;
     result.topology = [result.topology; checkPorts(c)]; %#ok<AGROW>
 
+    % 逐拍 parity：同一组 ADC 码/开关状态/DAC 命令，原生块与 MATLAB
+    % 参考必须逐列一致；分时版再加一组 DAC /25 整数分频。
     c = five_config(mode,.5,struct('duration',.006,'log_decimation',1));
     result.parity = [result.parity; checkParity(model,c,blockCount)]; %#ok<AGROW>
     if c.reuse
@@ -31,6 +38,8 @@ for idx = 1:numel(modes)
         result.parity = [result.parity; checkParity(model,c,blockCount)]; %#ok<AGROW>
     end
 
+    % 名义闭环：每个速率跑 0.18 s，前 0.06 s 不计分；角度按首个
+    % 有效帧锚定，避免把启动瞬态混进 RMS。
     for rate = [0 .5 -4]
         c = five_config(mode,rate,struct('duration',.18,'log_decimation',200));
         measurement = checkNominal(runModel(model,c),c,.06);
@@ -39,6 +48,8 @@ for idx = 1:numel(modes)
             mode,rate,measurement.frames,measurement.body_rms_rad);
     end
 
+    % 起振：从零机械状态给 0.5 s，前 0.35 s 允许捕获；首次有效帧
+    % 必须早于 0.35 s，且稳态振幅回到 0.8–1.2。
     c = five_config(mode,.5,struct('duration',.5,'initial_fraction',0, ...
         'seed_enabled',true,'log_decimation',200));
     out = runModel(model,c);
@@ -49,6 +60,8 @@ for idx = 1:numel(modes)
     fprintf('STARTUP %s: first valid frame %.6g s, settled amplitude %.6g to %.6g\n', ...
         mode,measurement.first_valid_frame_s,measurement.minimum_amplitude,measurement.maximum_amplitude);
 
+    % 故障：把 ADC 输入压到极小量程，锁定前/后过载都必须撤销发布
+    % 和驱动；这里只验证数字安全行为，不模拟模拟前端的真实恢复。
     c = five_config(mode,.5,struct('duration',.006,'log_decimation',1));
     c.adcMin = -2*c.adcStep;
     c.adcMax = 2*c.adcStep;
