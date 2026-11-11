@@ -1,0 +1,168 @@
+{
+  "source_commit": "f4b2e5b",
+  "matlab_simulink_release": "R2025a",
+  "h68_native_duration_s": 0.3,
+  "h68_score_from_s": 0.1,
+  "h68_native_nominal": [
+    {
+      "mode": "continuous",
+      "omega_rad_s": 0.0,
+      "scored_frames": 1360,
+      "angle_rms_rad": 4.29641807e-05,
+      "amplitude_range": [
+        0.999941983,
+        1.00005244
+      ],
+      "status": "PASS_WITH_WARNING"
+    },
+    {
+      "mode": "continuous",
+      "omega_rad_s": 0.5,
+      "scored_frames": 1360,
+      "angle_rms_rad": 2.97598923e-05,
+      "amplitude_range": [
+        0.999944865,
+        1.00004452
+      ],
+      "status": "PASS_WITH_WARNING"
+    },
+    {
+      "mode": "continuous",
+      "omega_rad_s": -4.0,
+      "scored_frames": 1360,
+      "angle_rms_rad": 0.000199405202,
+      "amplitude_range": [
+        0.999935274,
+        1.00002503
+      ],
+      "status": "PASS_WITH_WARNING"
+    },
+    {
+      "mode": "tdm_shared",
+      "omega_rad_s": 0.0,
+      "scored_frames": 340,
+      "angle_rms_rad": 0.000426112923,
+      "amplitude_range": [
+        0.999756031,
+        1.00013584
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "tdm_shared",
+      "omega_rad_s": 0.5,
+      "scored_frames": 340,
+      "angle_rms_rad": 0.00249230578,
+      "amplitude_range": [
+        0.999346018,
+        1.00079017
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "tdm_shared",
+      "omega_rad_s": -4.0,
+      "scored_frames": 340,
+      "angle_rms_rad": 0.00346579489,
+      "amplitude_range": [
+        0.99763156,
+        1.0013323
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "tdm_separate",
+      "omega_rad_s": 0.0,
+      "scored_frames": 340,
+      "angle_rms_rad": 0.000511267173,
+      "amplitude_range": [
+        0.999794539,
+        1.00025506
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "tdm_separate",
+      "omega_rad_s": 0.5,
+      "scored_frames": 340,
+      "angle_rms_rad": 0.00252181928,
+      "amplitude_range": [
+        0.999332023,
+        1.00078645
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "tdm_separate",
+      "omega_rad_s": -4.0,
+      "scored_frames": 340,
+      "angle_rms_rad": 0.00299526284,
+      "amplitude_range": [
+        0.997602721,
+        1.00118595
+      ],
+      "status": "PASS"
+    }
+  ],
+  "h68_native_parity_6ms": {
+    "continuous": {
+      "named_signals": 23,
+      "max_trace_delta": 1.97e-14,
+      "max_frames_delta": 1.97e-14
+    },
+    "tdm_shared": {
+      "named_signals": 23,
+      "max_trace_delta": 1.32e-12,
+      "max_frames_delta": 1.32e-12
+    },
+    "tdm_separate": {
+      "named_signals": 23,
+      "max_trace_delta": 1.32e-12,
+      "max_frames_delta": 1.32e-12
+    }
+  },
+  "rtl_simulator": "Icarus Verilog 13.0",
+  "rtl_duration_s": 0.012,
+  "rtl_replay": {
+    "tdm_separate": {
+      "ticks": 65281,
+      "frames": 20,
+      "lost_ticks": 0,
+      "dac_clip_ticks": 0,
+      "max_dac_codes": 1,
+      "max_angle_Q24": 25,
+      "max_iq_Q24": 13
+    },
+    "tdm_separate_div25": {
+      "ticks": 65281,
+      "frames": 20,
+      "lost_ticks": 0,
+      "dac_clip_ticks": 0,
+      "max_dac_codes": 1,
+      "max_angle_Q24": 25,
+      "max_iq_Q24": 13
+    }
+  },
+  "rtl_closed_loop": {
+    "tdm_separate": {
+      "ticks": 65281,
+      "frames": 20,
+      "event_mismatches": 0,
+      "max_vs_MATLAB_rad": 1.49011612e-06,
+      "truth_RMS_rad": 0.000299090894,
+      "ADC_clip": 0,
+      "DAC_start": 0,
+      "DAC_steady": 0
+    },
+    "tdm_separate_div25": {
+      "ticks": 65281,
+      "frames": 20,
+      "event_mismatches": 0,
+      "max_vs_MATLAB_rad": 1.49011612e-06,
+      "truth_RMS_rad": 0.000299090894,
+      "ADC_clip": 0,
+      "DAC_start": 0,
+      "DAC_steady": 0
+    }
+  }
+}

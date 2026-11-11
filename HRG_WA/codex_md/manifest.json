@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "date": "2026-11-10",
-  "source_base_commit": "9899dcc1f7afd4e96eb5e0efa0629dd7aeb8d91f",
+  "date": "2026-11-11",
+  "source_base_commit": "f4b2e5be120c8fd57db661601e231c7e27f26463",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "9899dcc1f7afd4e96eb5e0efa0629dd7aeb8d91f",
+      "source_commit": "f4b2e5be120c8fd57db661601e231c7e27f26463",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "1bfc24fa52be7a95f5e01997371a0f821720c30bf5912a130147ddccfc6ed081",
-      "archive_sha256": "56a5c0c74e585af9787950106156c31f530de9d420b0cc4461774a36a422e3c8",
+      "source_sha256": "16c43d4a4b63ecba89d8eee8745851ea3816daf283b47a68e34f2ba1455bf4d6",
+      "archive_sha256": "14f0ac542caa71a3c3ea7c692f32ed465c6cf5708f50bc1cbc4199e923d6c793",
       "rewritten_local_links": []
     },
     {
@@ -3708,6 +3708,10 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/25_可视化记分板_RTL与注释核查_20261111.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3721,13 +3725,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 426,
-    "kept": 137
+    "source_records": 428,
+    "kept": 138
   },
   "generated_index_sha256": {
-    "README.md": "1354717a4d7af7c3acc31b82863ca797a9565bd611f2e2cd10a9e35ce3c5c292",
-    "00_文档索引.md": "61b61f52aec83a69cd647241b70aa30abc823e3b873989d5fb487ebffd3e9759",
-    "history_filter_audit.json": "d907e47eabd486d9de3f3305aac4ff52961ecfe55a58825628a27be26e923ade"
+    "README.md": "ff965b37f30a043f8b2432e2b21f7541caf90002a62f16ced17117fb668f6491",
+    "00_文档索引.md": "5c86dc01eaa11c2163f43542c14b2d6590a5c17d73723465c3b1db03f7ea2af9",
+    "history_filter_audit.json": "c309a975fed209b6492af10208445dc1f12dcd35af5707372f9f497a2616deb4"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3760,6 +3764,7 @@
     "28_五电极ADC量程与分时窗口筛选_20261110.md": "47f32d17e9b32eac847b44348ba8d533ed75a5296c3cf41324820a806cf4933b",
     "29_五电极连续与分时ADC_DAC架构选型_20261110.md": "72285f8315e0dc6a9d465d4e922815c9352cc0175342b6f8551412376cc3db33",
     "30_不分时五电极模块化样机组装与调试_20261110.md": "0dac39e68adc81b72457b66588662849d56585fd49841c79c85f32e37117cec8",
-    "31_五电极可视化记分板与RTL对照_20261110.md": "75a6b9346b3e295281e257c144639854eeb928936b3179c424038425c19fdf81"
+    "31_五电极可视化记分板与RTL对照_20261110.md": "75a6b9346b3e295281e257c144639854eeb928936b3179c424038425c19fdf81",
+    "32_连续版假负载联调与6800验证_20261111.md": "0d1ef7136e2b0138d5875035389b83f5d47aa31b57616a9446aae3068b34944c"
   }
 }
