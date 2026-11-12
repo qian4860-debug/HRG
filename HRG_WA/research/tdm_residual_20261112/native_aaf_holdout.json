@@ -1,0 +1,259 @@
+{
+  "release": "2025a",
+  "scope": "native observer parity on identical frozen-estimator mismatch replay",
+  "matlab_metrics_receipt": "aaf_holdout.json",
+  "holdout_limit_V": 0.0021989325295395791,
+  "total_frames": 900,
+  "cases": [
+    {
+      "name": "switched_rc_nominal",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00033703577245954236,
+      "overall_same_frame_late_rms_rad": 0.0030515903548053282,
+      "paired_guarded_to_late_rms_ratio": 0.11044594236864505
+    },
+    {
+      "name": "five_model_nominal",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00020526477204694811,
+      "overall_same_frame_late_rms_rad": 0.0026083646518755884,
+      "paired_guarded_to_late_rms_ratio": 0.07869481435402409
+    },
+    {
+      "name": "switched_rc_poles_m30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00043613825376049393,
+      "overall_same_frame_late_rms_rad": 0.0031171354829878685,
+      "paired_guarded_to_late_rms_ratio": 0.13991636107598449
+    },
+    {
+      "name": "five_model_poles_m30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00027278022751615,
+      "overall_same_frame_late_rms_rad": 0.0028376446186007568,
+      "paired_guarded_to_late_rms_ratio": 0.096129101483700935
+    },
+    {
+      "name": "switched_rc_poles_p30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00024204311277849515,
+      "overall_same_frame_late_rms_rad": 0.0027521357682375961,
+      "paired_guarded_to_late_rms_ratio": 0.087947373662271733
+    },
+    {
+      "name": "five_model_poles_p30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00021673899083677356,
+      "overall_same_frame_late_rms_rad": 0.0024015702289300425,
+      "paired_guarded_to_late_rms_ratio": 0.090248866439910869
+    },
+    {
+      "name": "switched_rc_order3",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00023603319496261969,
+      "overall_same_frame_late_rms_rad": 0.0028513619874525973,
+      "paired_guarded_to_late_rms_ratio": 0.082779105564738
+    },
+    {
+      "name": "five_model_order3",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00020745838496451113,
+      "overall_same_frame_late_rms_rad": 0.0023799479564228405,
+      "paired_guarded_to_late_rms_ratio": 0.087169294775810813
+    },
+    {
+      "name": "switched_rc_order3_m30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00031456149249318256,
+      "overall_same_frame_late_rms_rad": 0.0033043784102112371,
+      "paired_guarded_to_late_rms_ratio": 0.095195360047481289
+    },
+    {
+      "name": "five_model_order3_m30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 6.5052130349130266E-19,
+      "overall_guarded_rms_rad": 0.00027503394349475926,
+      "overall_same_frame_late_rms_rad": 0.0029413022312837762,
+      "paired_guarded_to_late_rms_ratio": 0.093507542533198471
+    },
+    {
+      "name": "switched_rc_order3_p30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00027809545063376708,
+      "overall_same_frame_late_rms_rad": 0.0024926408708140931,
+      "paired_guarded_to_late_rms_ratio": 0.11156659344309856
+    },
+    {
+      "name": "five_model_order3_p30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00021605346923835598,
+      "overall_same_frame_late_rms_rad": 0.0019932932946349251,
+      "paired_guarded_to_late_rms_ratio": 0.10839020520456148
+    },
+    {
+      "name": "switched_rc_order2_m30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00028947367112426331,
+      "overall_same_frame_late_rms_rad": 0.00300331864635142,
+      "paired_guarded_to_late_rms_ratio": 0.096384601572640408
+    },
+    {
+      "name": "five_model_order2_m30",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.00019952142641640802,
+      "overall_same_frame_late_rms_rad": 0.0024855100148315347,
+      "paired_guarded_to_late_rms_ratio": 0.080273837251036539
+    },
+    {
+      "name": "switched_rc_mixed_poles",
+      "frames": 60,
+      "joint": 60,
+      "late_fallback": 0,
+      "invalid": 0,
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19,
+      "overall_guarded_rms_rad": 0.0003427122093785173,
+      "overall_same_frame_late_rms_rad": 0.0031897257132223215,
+      "paired_guarded_to_late_rms_ratio": 0.10744253274125659
+    }
+  ],
+  "gate_controls": [
+    {
+      "name": "control_early_clip",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "clip",
+      "iq": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "holdout_rms_V": [
+        null,
+        null
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    },
+    {
+      "name": "control_late_clip",
+      "mode": 0,
+      "status": "invalid",
+      "reason": "clip",
+      "iq": [
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          null
+        ]
+      ],
+      "holdout_rms_V": [
+        null,
+        null
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    },
+    {
+      "name": "control_holdout_failure",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "template_mismatch",
+      "iq": [
+        [
+          1.0842021724855044E-18,
+          1.0842021724855044E-18
+        ],
+        [
+          1.5178830414797062E-18,
+          1.5178830414797062E-18
+        ]
+      ],
+      "holdout_rms_V": [
+        0.021989325295395792,
+        0.021989325295395792
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 1.3877787807814457E-17
+    }
+  ],
+  "max_iq_difference_V": 0,
+  "max_holdout_difference_V": 6.5052130349130266E-19
+}

@@ -1,0 +1,334 @@
+{
+  "scope": "Behavioral model, constant rate and fixed score interval",
+  "duration_s": 0.18,
+  "score_start_s": 0.06,
+  "phase_deg": [
+    0,
+    17,
+    45,
+    90,
+    135
+  ],
+  "adc_bits": [
+    10,
+    16
+  ],
+  "rate_rad_s": [
+    0,
+    0.5
+  ],
+  "nominal": [
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 0,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.00030928549249396918,
+      "angle_centered_rms_rad": 0.00030928548098724018,
+      "estimated_rate_rad_s": 7.7184917285627255E-5,
+      "last_error_rad": -0.00018851710072872178,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 0,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 4.1043702567913609E-5,
+      "angle_centered_rms_rad": 2.8048888167880665E-5,
+      "estimated_rate_rad_s": 0.00072464392894610772,
+      "last_error_rad": 6.1990695279007024E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 17,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.00030928549249394213,
+      "angle_centered_rms_rad": 0.00030928548098721367,
+      "estimated_rate_rad_s": 7.7184917285632175E-5,
+      "last_error_rad": -0.00018851710072661734,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 17,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 4.1043702567342939E-5,
+      "angle_centered_rms_rad": 2.8048888167853181E-5,
+      "estimated_rate_rad_s": 0.00072464392894687046,
+      "last_error_rad": 6.19906952791072E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 45,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.000309285492493938,
+      "angle_centered_rms_rad": 0.00030928548098720928,
+      "estimated_rate_rad_s": 7.7184917283604662E-5,
+      "last_error_rad": -0.00018851710072731903,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 45,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 4.104370256653323E-5,
+      "angle_centered_rms_rad": 2.8048888167837934E-5,
+      "estimated_rate_rad_s": 0.00072464392894412081,
+      "last_error_rad": 6.1990695276301479E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 90,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.00030928549249395444,
+      "angle_centered_rms_rad": 0.00030928548098722549,
+      "estimated_rate_rad_s": 7.71849172871129E-5,
+      "last_error_rad": -0.00018851710072812067,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 90,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 4.1043702566872043E-5,
+      "angle_centered_rms_rad": 2.8048888167824741E-5,
+      "estimated_rate_rad_s": 0.000724643928945082,
+      "last_error_rad": 6.1990695277203318E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 135,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.00030928549249394782,
+      "angle_centered_rms_rad": 0.00030928548098721915,
+      "estimated_rate_rad_s": 7.7184917285787446E-5,
+      "last_error_rad": -0.00018851710072721907,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0,
+      "carrier_phase_deg": 135,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 4.1043702567280611E-5,
+      "angle_centered_rms_rad": 2.8048888167788732E-5,
+      "estimated_rate_rad_s": 0.00072464392894359638,
+      "last_error_rad": 6.1990695278906844E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 0,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.0034052660151231103,
+      "angle_centered_rms_rad": 0.0018623866275162581,
+      "estimated_rate_rad_s": 0.51116843762769515,
+      "last_error_rad": -0.002736507643756457,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 0,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 1.6956775304173731E-5,
+      "angle_centered_rms_rad": 1.2715691876561976E-5,
+      "estimated_rate_rad_s": 0.50000242432514852,
+      "last_error_rad": 1.2347208549749744E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 17,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.0034052660151230613,
+      "angle_centered_rms_rad": 0.0018623866275162757,
+      "estimated_rate_rad_s": 0.51116843762769626,
+      "last_error_rad": -0.0027365076437568248,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 17,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 1.6956775304324662E-5,
+      "angle_centered_rms_rad": 1.2715691876513837E-5,
+      "estimated_rate_rad_s": 0.50000242432514708,
+      "last_error_rad": 1.2347208550707311E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 45,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.0034052660151225422,
+      "angle_centered_rms_rad": 0.0018623866275161538,
+      "estimated_rate_rad_s": 0.51116843762769193,
+      "last_error_rad": -0.002736507643756679,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 45,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 1.6956775304517237E-5,
+      "angle_centered_rms_rad": 1.2715691876605198E-5,
+      "estimated_rate_rad_s": 0.50000242432514574,
+      "last_error_rad": 1.2347208550568534E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 90,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.003405266015123685,
+      "angle_centered_rms_rad": 0.00186238662751624,
+      "estimated_rate_rad_s": 0.51116843762769637,
+      "last_error_rad": -0.0027365076437572897,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 90,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 1.6956775304658705E-5,
+      "angle_centered_rms_rad": 1.2715691876577114E-5,
+      "estimated_rate_rad_s": 0.500002424325147,
+      "last_error_rad": 1.2347208551664879E-5,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 135,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.003405266015122648,
+      "angle_centered_rms_rad": 0.0018623866275162134,
+      "estimated_rate_rad_s": 0.51116843762769315,
+      "last_error_rad": -0.0027365076437566027,
+      "max_error_change_from_relabel_rad": 0
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 135,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 1.6956775304018029E-5,
+      "angle_centered_rms_rad": 1.271569187659468E-5,
+      "estimated_rate_rad_s": 0.50000242432514708,
+      "last_error_rad": 1.2347208550193833E-5,
+      "max_error_change_from_relabel_rad": 0
+    }
+  ],
+  "readout_mismatch_at_phase0": [
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 0,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.0018047676719227881,
+      "angle_centered_rms_rad": 0.0017480719956879305,
+      "estimated_rate_rad_s": 0.51436156947998135,
+      "last_error_rad": -0.00057013708916012207,
+      "max_error_change_from_relabel_rad": 0,
+      "known_response_compensated": false
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 0,
+      "adc_bits": 10,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 0.0017466722733178823,
+      "angle_centered_rms_rad": 0.0017314387952860528,
+      "estimated_rate_rad_s": 0.52205654956327807,
+      "last_error_rad": -0.00082575025953624676,
+      "max_error_change_from_relabel_rad": 0,
+      "known_response_compensated": true
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 0,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 6.0083412687998176E-5,
+      "angle_centered_rms_rad": 5.7616637839297024E-5,
+      "estimated_rate_rad_s": 0.49868547848474626,
+      "last_error_rad": -0.00010786367070727415,
+      "max_error_change_from_relabel_rad": 0,
+      "known_response_compensated": false
+    },
+    {
+      "omega_rad_s": 0.5,
+      "carrier_phase_deg": 0,
+      "adc_bits": 16,
+      "score_frames": 204,
+      "detector_center_to_publish_us": 74.5404411764706,
+      "angle_rms_rad": 1.2972184000295075E-5,
+      "angle_centered_rms_rad": 1.2817834493806504E-5,
+      "estimated_rate_rad_s": 0.5000422042875251,
+      "last_error_rad": 1.0744722337308055E-5,
+      "max_error_change_from_relabel_rad": 0,
+      "known_response_compensated": true
+    }
+  ],
+  "native_parity": [
+    {
+      "adc_bits": 10,
+      "carrier_phase_deg": 17,
+      "samples": 32641,
+      "frames": 10,
+      "max_trace_and_frame_delta": 1.2645440250480533E-12,
+      "max_detection_center_delta_s": 0
+    },
+    {
+      "adc_bits": 16,
+      "carrier_phase_deg": 17,
+      "samples": 32641,
+      "frames": 10,
+      "max_trace_and_frame_delta": 1.2626566459061905E-12,
+      "max_detection_center_delta_s": 0
+    }
+  ]
+}

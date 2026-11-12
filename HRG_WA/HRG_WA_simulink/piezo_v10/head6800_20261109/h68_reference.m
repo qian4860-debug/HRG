@@ -27,12 +27,15 @@ seen=false; lost=false; clipped=false; published=false; lastAz=0; angle=0;
 lat=c.adcLatency; fifo=zeros(3,max(1,lat));
 noiseState=[c.p.noise_seed;c.p.noise_seed+1];
 heldDAC=zeros(2,1);
+% 载波初相同时作用在 DAC 调制和相应采样拍的 ADC 解调。
+carrierPhase = 0;
+if isfield(c,'carrierPhase_rad'), carrierPhase = c.carrierPhase_rad; end
 for k=0:N-1
     time=k*c.Ts; slot=mod(k,c.frame);
     driveOn=slot<c.driveEnd;
     senseOn=slot>=c.senseStart && slot<c.validEnd;
     validSample=senseOn && slot>=c.validStart;
-    carrier=[cos(c.w*time);sin(c.w*time)];
+    carrier=[cos(c.w*time+carrierPhase);sin(c.w*time+carrierPhase)];
     useCmd=cmd;
     if c.p.seed_enabled && time<c.p.seed_seconds, useCmd=c.seedCommand; end
     raw=reshape(useCmd,2,2)*carrier;
@@ -67,7 +70,7 @@ for k=0:N-1
     if source>=0
         sourceSlot=mod(source,c.frame);
         if sourceSlot==0, acc(:)=0; clipped=false; end
-        sourceCarrier=[cos(c.w*source*c.Ts);sin(c.w*source*c.Ts)];
+        sourceCarrier=[cos(c.w*source*c.Ts+carrierPhase);sin(c.w*source*c.Ts+carrierPhase)];
         acc=acc+[adc*sourceCarrier(1);adc*sourceCarrier(2)];
         clipped=clipped || overflow;
         if sourceSlot==c.validEnd-1

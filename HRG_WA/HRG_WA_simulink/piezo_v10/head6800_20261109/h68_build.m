@@ -27,7 +27,7 @@ for k = 1:numel(models)
         'TimeSaveName','tout','ReturnWorkspaceOutputs','on');
 
     s = group(m,'Timing',{}, {'Slot','Drive','Sense','Valid','Capture'}); timing(s);
-    s = group(m,'Carrier',{}, {'Cos','Sin'}); carrier(s);
+    s = group(m,'Carrier',{}, {'Cos','Sin'}); carrier(s,c);
     s = group(m,'ADC sample alignment',{'Slot','Capture','Cos','Sin'}, {'Slot delayed','Capture delayed','Cos delayed','Sin delayed'}); alignment(s);
     s = group(m,'Converters',{'ADC input','Command','Drive','Valid','Cos','Sin'}, ...
         {'DAC','ADC','ADC clip','DAC clip'}); converters(s);
@@ -50,7 +50,7 @@ for k = 1:numel(models)
     s = group(m,'Whole angle',{'Azimuth','Usable','Capture'}, ...
         {'Accept','Frame pulse','Held angle','Angle valid','Lost'}); nav(s);
     s = group(m,'Trace',traceInputs,{});
-    logging(s,fiveElectrode);
+    logging(s,fiveElectrode,isfield(c,'framePublishToCenter_s'));
     a = 'Timing'; b = 'Carrier'; d = 'Converters'; q = 'Coherent demodulation';
     f = 'Amplitude and quadrature'; h = 'Whole angle'; g = 'Trace';
     wire(m,plantName,1,d,1); wire(m,f,1,d,2); wire(m,a,2,d,3); wire(m,a,4,d,4);
@@ -104,9 +104,16 @@ capture = cmp(s,'Last valid sample','==',slot,constant(s,'Last valid slot','c.va
 outputs(s,{'Slot','Drive','Sense','Valid','Capture'},slot,drive,sense,valid,capture);
 end
 
-function carrier(s)
-cosine = block(s,'Cosine NCO','Sources/Sine Wave','Frequency','c.w','Phase','pi/2','SampleTime','c.Ts');
-sine = block(s,'Sine NCO','Sources/Sine Wave','Frequency','c.w','Phase','0','SampleTime','c.Ts');
+function carrier(s,c)
+% 初相是调制与解调的共同参数，只在分时相位扫描研究模型中启用。
+phase = '0';
+quadrature = 'pi/2';
+if isfield(c,'carrierPhase_rad')
+    phase = 'c.carrierPhase_rad';
+    quadrature = 'pi/2+c.carrierPhase_rad';
+end
+cosine = block(s,'Cosine NCO','Sources/Sine Wave','Frequency','c.w','Phase',quadrature,'SampleTime','c.Ts');
+sine = block(s,'Sine NCO','Sources/Sine Wave','Frequency','c.w','Phase',phase,'SampleTime','c.Ts');
 outputs(s,{'Cos','Sin'},cosine,sine);
 end
 
@@ -290,7 +297,7 @@ valid = logic(s,'Body angle valid','AND',seen,logic(s,'Reference not lost','NOT'
 outputs(s,{'Accept','Frame pulse','Held angle','Angle valid','Lost'},accept,frame,angle,valid,lost);
 end
 
-function logging(s,fiveElectrode)
+function logging(s,fiveElectrode,reportCenter)
 iq = delay(s,'Last accepted IQ','zeros(4,1)');
 new = select(s,'Store valid IQ','Estimate','Accept',iq); wire(s,new,1,iq,1);
 signals = {'Slot','Drive','Sense','Valid','ADC','DAC','Frame pulse',iq,'Held angle', ...
@@ -303,11 +310,21 @@ if fiveElectrode
 end
 trace = mux(s,'Trace vector',signals{:});
 unary(s,'Export trace','Sinks/To Workspace',trace,'VariableName','trace','SaveFormat','Array','MaxDataPoints','inf','Decimation','c.logDecimation');
-frames=group(s,'Frame records',{'Data'},{});
+frameInputs = {'Data'};
+if reportCenter, frameInputs{end+1} = 'Detection center time'; end
+frames=group(s,'Frame records',frameInputs,{});
 block(frames,'Enable','Ports & Subsystems/Enable');
 unary(frames,'Export frames','Sinks/To Workspace','Data','VariableName','frames','SaveFormat','Array','MaxDataPoints','inf');
 clock=block(s,'Record time','Sources/Clock');
 stamped=mux(s,'Timestamped trace',clock,trace); wire(s,stamped,1,'Frame records',1); wire(s,'Frame pulse',1,'Frame records','Enable');
+if reportCenter
+    % 只在发布帧导出有效检测样本的几何中心，不移动控制更新或原有 frames。
+    offset = constant(s,'Publication to detection center','c.framePublishToCenter_s');
+    center = sumblk(s,'Detection center timestamp','+-',clock,offset);
+    wire(s,center,1,'Frame records',2);
+    unary(frames,'Export detection time','Sinks/To Workspace','Detection center time', ...
+        'VariableName','frame_detection_time_s','SaveFormat','Array','MaxDataPoints','inf');
+end
 end
 
 function s = group(parent,name,inNames,outNames)

@@ -1,4 +1,4 @@
-function modelPath = tdm_residual_build_observer(d, holdoutLimit_V, outDir)
+function modelPath = tdm_residual_build_observer(d, holdoutLimit_V, outDir, model)
 % 生成独立的原生 Simulink 分时窗口残差观测器。
 % 每拍输入一帧对齐到物理采样时刻的 X/Y 数据与聚合过载标志。
 % 相位、模板和投影矩阵在离线标定时确定，运行时只用原生矩阵乘法和门控。
@@ -6,6 +6,7 @@ arguments
     d (1,1) struct
     holdoutLimit_V (1,1) double {mustBePositive}
     outDir (1,:) char = fullfile(fileparts(mfilename('fullpath')),'models')
+    model (1,:) char = 'hrg_tdm_residual_observer'
 end
 
 obs.sampleCount = size(d.jointCarrierMap,2);
@@ -28,7 +29,8 @@ obs.jointDesignOK = logical(d.jointDesignOK) && obs.holdoutCount > 0;
 obs.lateDesignOK = logical(d.lateDesignOK);
 obs.holdoutLimit = holdoutLimit_V;
 
-model = 'hrg_tdm_residual_observer';
+% 试验回放可使用独立名称，与已打开的交付模型并存。
+assert(isvarname(model),'原生观测器需要有效的模型名。');
 assert(~bdIsLoaded(model),'生成前请先关闭已打开的 %s。',model);
 if ~isfolder(outDir), mkdir(outDir); end
 load_system('simulink');

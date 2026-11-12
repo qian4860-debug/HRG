@@ -21,7 +21,7 @@ addpath(fullfile(here,'..','head6800_20261109'));
 % 但“每组 600 pF”与“四组合计 600 pF”是两种口径，实测前不得混用。
 portOptions = struct('group_angles_deg',[0;45;90;135], ...
     'group_charge_gain',ones(4,1),'group_capacitance_F',[], ...
-    'drive_on_resistance_ohm',10);
+    'drive_on_resistance_ohm',10,'diagnostic_carrier_phase_rad',[]);
 % ADC 前独立读出链可配置无量纲增益、单极点 (Hz) 和标定方式。
 % 默认保留旧 26 状态；启用后增加两路物理读出记忆，数字校准默认冻结。
 readout = struct('readout_channel_gain',[],'readout_channel_pole_Hz',[], ...
@@ -52,6 +52,14 @@ for name = string(fieldnames(portOptions))'
     end
 end
 c = h68_config(mode,omega,baseOptions);
+% 研究用载波相对分时窗的初始相位。测量中心按有效样本位置定义。
+if ~isempty(portOptions.diagnostic_carrier_phase_rad)
+    validateattributes(portOptions.diagnostic_carrier_phase_rad,{'double'}, ...
+        {'real','finite','scalar'});
+    c.carrierPhase_rad = portOptions.diagnostic_carrier_phase_rad;
+    c.framePublishToCenter_s = (c.validEnd+c.adcLatency ...
+        -(c.validStart+c.validEnd-1)/2)*c.Ts;
+end
 p = c.p;
 assert(strcmp(p.cv_mode,'thx2024'),'This model uses the matched thx2024 C/V.');
 if isempty(portOptions.group_capacitance_F)

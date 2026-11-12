@@ -1,0 +1,79 @@
+{
+  "window": [
+    {
+      "cycles": 0.5,
+      "includes_aaf": false,
+      "carrier_info_fraction": 0.027035144196791316,
+      "joint_design_ok": false,
+      "late_design_ok": false
+    },
+    {
+      "cycles": 0.5,
+      "includes_aaf": true,
+      "carrier_info_fraction": 2.9353277065238206E-5,
+      "joint_design_ok": false,
+      "late_design_ok": false
+    },
+    {
+      "cycles": 0.7,
+      "includes_aaf": false,
+      "carrier_info_fraction": 0.15464580461064711,
+      "joint_design_ok": true,
+      "late_design_ok": false
+    },
+    {
+      "cycles": 0.7,
+      "includes_aaf": true,
+      "carrier_info_fraction": 0.0012066358170513063,
+      "joint_design_ok": false,
+      "late_design_ok": false
+    },
+    {
+      "cycles": 1,
+      "includes_aaf": false,
+      "carrier_info_fraction": 0.54492892675607107,
+      "joint_design_ok": true,
+      "late_design_ok": false
+    },
+    {
+      "cycles": 1,
+      "includes_aaf": true,
+      "carrier_info_fraction": 0.043113147870660153,
+      "joint_design_ok": false,
+      "late_design_ok": false
+    },
+    {
+      "cycles": 1.15,
+      "includes_aaf": false,
+      "carrier_info_fraction": 0.828034772522341,
+      "joint_design_ok": true,
+      "late_design_ok": true
+    },
+    {
+      "cycles": 1.15,
+      "includes_aaf": true,
+      "carrier_info_fraction": 0.15280993287652797,
+      "joint_design_ok": true,
+      "late_design_ok": true
+    },
+    {
+      "cycles": 2,
+      "includes_aaf": false,
+      "carrier_info_fraction": 0.9410786761579184,
+      "joint_design_ok": true,
+      "late_design_ok": true
+    },
+    {
+      "cycles": 2,
+      "includes_aaf": true,
+      "carrier_info_fraction": 0.87325605957470864,
+      "joint_design_ok": true,
+      "late_design_ok": true
+    }
+  ],
+  "carrier_aligned_holdout_max_V": 1.0415117119438877E-17,
+  "carrier_aligned_iq_bias_max_V": 0.005000000000000001,
+  "route_free_rank": 8,
+  "route_free_unknowns": 12,
+  "route_free_nullity": 4
+}
