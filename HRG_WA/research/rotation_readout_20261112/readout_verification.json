@@ -1,0 +1,70 @@
+{
+  "scope": "Behavioral simulation; known carrier response is a calibration reference",
+  "duration_s": 0.18,
+  "score_start_s": 0.06,
+  "input_rad_s": 0.5,
+  "modes": [
+    {
+      "mode": "continuous",
+      "readout_y_x_magnitude": 0.98145612783870206,
+      "readout_y_x_phase_deg": 1.0365018299133482,
+      "nominal": {
+        "scored_frames": 816,
+        "angle_rms_rad": 3.0401959438820318E-5,
+        "last_frame_s": 0.17985386029411765,
+        "last_error_rad": 6.9656169938564494E-6
+      },
+      "matched_readout": {
+        "scored_frames": 816,
+        "angle_rms_rad": 5.2822421925258536E-5,
+        "last_frame_s": 0.17985386029411765,
+        "last_error_rad": 9.4094394237562162E-6
+      },
+      "frozen": {
+        "scored_frames": 816,
+        "angle_rms_rad": 6.8983060464362873E-5,
+        "last_frame_s": 0.17985386029411765,
+        "last_error_rad": -0.00011316847640267108
+      },
+      "known_response_compensation": {
+        "scored_frames": 816,
+        "angle_rms_rad": 3.2858257943516281E-5,
+        "last_frame_s": 0.17985386029411765,
+        "last_error_rad": 4.4895646791671961E-5
+      },
+      "native_calibrated_max_trace_delta": 1.9872992140790302E-14,
+      "native_frozen_max_trace_delta": 1.9484414082171497E-14
+    },
+    {
+      "mode": "tdm_shared",
+      "readout_y_x_magnitude": 0.98145612783870206,
+      "readout_y_x_phase_deg": 1.0365018299133482,
+      "nominal": {
+        "scored_frames": 204,
+        "angle_rms_rad": 0.0034052660151231103,
+        "last_frame_s": 0.17992738970588237,
+        "last_error_rad": -0.002736507643756457
+      },
+      "matched_readout": {
+        "scored_frames": 204,
+        "angle_rms_rad": 0.0030755728599437134,
+        "last_frame_s": 0.17992738970588237,
+        "last_error_rad": -0.0027028508320873779
+      },
+      "frozen": {
+        "scored_frames": 204,
+        "angle_rms_rad": 0.0018047676719227881,
+        "last_frame_s": 0.17992738970588237,
+        "last_error_rad": -0.00057013708916012207
+      },
+      "known_response_compensation": {
+        "scored_frames": 204,
+        "angle_rms_rad": 0.0017466722733178823,
+        "last_frame_s": 0.17992738970588237,
+        "last_error_rad": -0.00082575025953624676
+      },
+      "native_calibrated_max_trace_delta": 1.3158363287857355E-12,
+      "native_frozen_max_trace_delta": 1.3210543770014738E-12
+    }
+  ]
+}

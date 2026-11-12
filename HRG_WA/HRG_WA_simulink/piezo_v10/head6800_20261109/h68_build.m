@@ -162,6 +162,9 @@ stateRows = {'1:4','5:6','7:8','9:18'};
 if fiveElectrode
     statePorts{3} = 'A B C D terminal voltages';
     stateRows = c.stateRows;
+    if isfield(c,'readoutAnalogMismatch')
+        statePorts{end+1} = 'Analog readout gain and pole';
+    end
 end
 for z=1:numel(stateRows)
     q=group(s,statePorts{z},{'Next state'},{'State'});
@@ -196,6 +199,11 @@ cvVoltage=gain(s,'THX2024 matched CV gain','c.cvOutputGain',filteredInput);
 afe = cvVoltage;
 if fiveElectrode
     afe = gain(s,'Group readout to X and Y','c.portSenseMap',cvVoltage);
+    if isfield(c,'readoutAnalogMismatch')
+        % 失配版 ADC 从附加模拟状态取样；保留半差节点用于对照。
+        unary(s,'Readout before analog mismatch','Sinks/Terminator',afe);
+        afe = gain(s,'ADC input after analog channel mismatch','c.pickoff',x);
+    end
 end
 signals = {afe,gain(s,'Motional charge','c.motion',x), ...
     gain(s,'Electrode voltage','c.electrode',x)};

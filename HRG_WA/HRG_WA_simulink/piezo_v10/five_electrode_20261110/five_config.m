@@ -22,7 +22,29 @@ addpath(fullfile(here,'..','head6800_20261109'));
 portOptions = struct('group_angles_deg',[0;45;90;135], ...
     'group_charge_gain',ones(4,1),'group_capacitance_F',[], ...
     'drive_on_resistance_ohm',10);
+% ADC 前独立读出链可配置无量纲增益、单极点 (Hz) 和标定方式。
+% 默认保留旧 26 状态；启用后增加两路物理读出记忆，数字校准默认冻结。
+readout = struct('readout_channel_gain',[],'readout_channel_pole_Hz',[], ...
+    'readout_calibrate',false);
 baseOptions = overrides;
+for name = string(fieldnames(readout))'
+    if isfield(baseOptions,name)
+        readout.(name) = baseOptions.(name);
+        baseOptions = rmfield(baseOptions,name);
+    end
+end
+hasReadout = ~isempty(readout.readout_channel_gain) || ~isempty(readout.readout_channel_pole_Hz);
+assert(islogical(readout.readout_calibrate) && isscalar(readout.readout_calibrate), ...
+    'readout_calibrate must be a logical scalar.');
+assert(hasReadout || ~readout.readout_calibrate, 'Enable the analog channel model before calibrating.');
+if hasReadout
+    validateattributes(readout.readout_channel_gain,{'double'}, ...
+        {'real','finite','positive','numel',2});
+    validateattributes(readout.readout_channel_pole_Hz,{'double'}, ...
+        {'real','finite','positive','numel',2});
+    readoutGain = readout.readout_channel_gain(:);
+    readoutPole = 2*pi*readout.readout_channel_pole_Hz(:);
+end
 for name = string(fieldnames(portOptions))'
     if isfield(overrides,name)
         portOptions.(name) = overrides.(name);
@@ -71,6 +93,10 @@ assert(rank(H'*driveMap)==2 && rank(senseMap*H)==2, ...
 
 c.stateCount = 26;
 c.stateRows = {'1:4','5:6','7:10','11:26'};
+if hasReadout
+    c.stateCount = 28;
+    c.stateRows{end+1} = '27:28';
+end
 c.portDriveMap = driveMap;
 c.portSenseMap = senseMap;
 c.portCoupling = H;
@@ -94,6 +120,9 @@ qScale = p.charge_target;
 vScale = max(1e-6,c.w*qScale*p.Rs);
 scales = [qScale*[1 1 c.w c.w],1 1,repmat(vScale,1,4), ...
     repmat(qScale/p.thx_charge_per_input,1,16)];
+if hasReadout
+    scales = [scales,repmat(qScale/p.thx_charge_per_input,1,2)];
+end
 S = diag(scales);
 
 driveCond = double(driveMask)/ron;
@@ -106,13 +135,18 @@ bleedCond = repmat(1/p.bleed_R,4,1);
 [c.Ad,c.Bd] = discrete(Ad,Bd);
 [c.Af,~] = discrete(Af,Bf);
 [c.As,~] = discrete(As,Bs);
-c.x0 = S\[initial(1:4);zeros(22,1)];
+c.x0 = S\[initial(1:4);zeros(c.stateCount-4,1)];
 
 c.cvOutputGain = p.pre_gain*p.thx_cv_gain;
-c.portCV = [zeros(4,22),eye(4)*qScale/p.thx_charge_per_input*c.cvOutputGain];
+c.portCV = zeros(4,c.stateCount);
+c.portCV(:,23:26) = eye(4)*qScale/p.thx_charge_per_input*c.cvOutputGain;
 c.pickoff = senseMap*c.portCV;
-c.motion = [eye(2),zeros(2,24)];
-c.groupVoltage = [zeros(4,6),eye(4)*vScale,zeros(4,16)];
+if hasReadout
+    c.pickoff = [zeros(2,26),eye(2)*qScale/p.thx_charge_per_input*c.cvOutputGain];
+    c.readoutAnalogMismatch = readout;
+end
+c.motion = [eye(2),zeros(2,c.stateCount-2)];
+c.groupVoltage = [zeros(4,6),eye(4)*vScale,zeros(4,c.stateCount-10)];
 c.electrode = senseMap*c.groupVoltage;
 
 % 在当前电气拓扑下标定载波相量：
@@ -135,6 +169,13 @@ zoh = (1-exp(-s*c.Ts*p.dac_divisor))/(s*c.Ts*p.dac_divisor);
 VperCommand = (s*C+driveLoad)\(diag(driveCond)*driveGain*driveMap) ...
     * diag(zoh./(1+s*p.driver_tau(:)));
 Hdrive = H'*VperCommand;
+if hasReadout
+    % 只用独立标定得到的参数可进行理想补偿对照。冻结工况保持原检测矩阵。
+    c.readoutCarrierResponse = readoutGain.*readoutPole./(s+readoutPole);
+    if readout.readout_calibrate
+        Hdet = diag(c.readoutCarrierResponse)*Hdet;
+    end
+end
 c.detect = iqInverse(Hdet);
 c.drive = iqInverse(Hdrive);
 c.gain_check.detector_V_per_normalized_charge = abs(Hdet(1,1));
@@ -145,8 +186,8 @@ c.gain_check.sense_condition = cond(Hdet);
     function [A,B] = electricalState(gDrive,gRead,gBleed,readConnected)
         % The four voltage states are continuous at switch transitions.
         % C*dv/dt = Gdrive*(target-v) -(Gread+Gbleed+Gleak)*v - H*dq/dt.
-        A = zeros(26);
-        B = zeros(26,2);
+        A = zeros(c.stateCount);
+        B = zeros(c.stateCount,2);
         A(1:4,1:4) = plant(1:4,1:4);
         % The same piezoelectric group retains its coupling in all slots.
         % Switches alter terminal voltage through KCL, not the force coefficient.
@@ -167,12 +208,19 @@ c.gain_check.sense_condition = cond(Hdet);
             A(rows,rows) = -diag(afe);
             if stage>1, A(rows,rows-4) = diag(afe); end
         end
+        if hasReadout
+            % 组端 C/V 半差之后、量化之前的连续时间读出极点。
+            % 泄放与建立窗同样更新该状态，跨窗保留物理记忆。
+            A(27:28,23:26) = diag(readoutPole.*readoutGain)*senseMap;
+            A(27:28,27:28) = -diag(readoutPole);
+        end
     end
 
     function [F,G] = discrete(A,B)
-        E = expm([S\(A*S),S\B;zeros(2,28)]*c.Ts);
-        F = E(1:26,1:26);
-        G = E(1:26,27:28);
+        n = c.stateCount;
+        E = expm([S\(A*S),S\B;zeros(2,n+2)]*c.Ts);
+        F = E(1:n,1:n);
+        G = E(1:n,n+(1:2));
     end
 end
 

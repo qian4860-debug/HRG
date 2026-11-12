@@ -1,0 +1,531 @@
+{
+  "release": "2025a",
+  "scope": "Offline study using synthetic transients and existing behavioral analog monitor",
+  "fs_Hz": 5.44E+6,
+  "carrier_Hz": 6800,
+  "adc_bits": 10,
+  "adc_step_V": 0.001953125,
+  "adc_min_V": -1,
+  "adc_max_V": 0.998046875,
+  "adc_pipeline_ticks": 5,
+  "physical_samples": [
+    1200,
+    2000,
+    2800
+  ],
+  "full_samples": 1600,
+  "late_samples": 800,
+  "calibration_rng_seed": 6112,
+  "evaluation_rng_seed_base": 12000,
+  "template_tau_s": [
+    2.4E-5,
+    8.9999999999999992E-5
+  ],
+  "physical_aaf_pole_Hz": 20000,
+  "physical_aaf_order": 4,
+  "physical_template_rank": 6,
+  "weight_noise_std_V": [
+    0.0016914865611842916,
+    0.00075383561683304266
+  ],
+  "holdout_limit_V": 0.0021989325295395791,
+  "full_condition": 2.87362086158127,
+  "full_carrier_info_fraction": 0.94107867615791863,
+  "physical_condition": 1.8969106074809527,
+  "physical_carrier_info_fraction": 0.87325605957470864,
+  "training_condition": 2.8736714293874304,
+  "training_carrier_info_fraction": 0.941075591800366,
+  "window_information": [
+    {
+      "carrier_cycles": 0.125,
+      "samples": 100,
+      "condition": 1979.0283885792444,
+      "carrier_info_fraction": 6.65593848662815E-6,
+      "passes_guard": false
+    },
+    {
+      "carrier_cycles": 0.25,
+      "samples": 200,
+      "condition": 248.54482375526783,
+      "carrier_info_fraction": 0.00043331150250827628,
+      "passes_guard": false
+    },
+    {
+      "carrier_cycles": 0.5,
+      "samples": 400,
+      "condition": 29.419311455209186,
+      "carrier_info_fraction": 0.027035144196791316,
+      "passes_guard": false
+    },
+    {
+      "carrier_cycles": 1,
+      "samples": 800,
+      "condition": 4.6421355897085972,
+      "carrier_info_fraction": 0.54492892675607107,
+      "passes_guard": true
+    },
+    {
+      "carrier_cycles": 1.5,
+      "samples": 1200,
+      "condition": 3.2641297959704403,
+      "carrier_info_fraction": 0.78484535014602419,
+      "passes_guard": true
+    },
+    {
+      "carrier_cycles": 2,
+      "samples": 1600,
+      "condition": 2.87362086158127,
+      "carrier_info_fraction": 0.94107867615791863,
+      "passes_guard": true
+    }
+  ],
+  "cases": [
+    {
+      "name": "synthetic_clean",
+      "frames": 64,
+      "common_frames": 64,
+      "truth_kind": "known synthetic carrier coefficients",
+      "methods": [
+        {
+          "method": "full_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00027167769297332044,
+          "common_beta_rms_rad": 0.00027167769297332044,
+          "common_beta_p95_abs_rad": 0.00059232446828050278,
+          "common_iq_rms_V": 4.5538559129681821E-5
+        },
+        {
+          "method": "full_wls",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00024857450457873486,
+          "common_beta_rms_rad": 0.00024857450457873486,
+          "common_beta_p95_abs_rad": 0.00054927773308144367,
+          "common_iq_rms_V": 3.5037419964871042E-5
+        },
+        {
+          "method": "late_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00028456630514472517,
+          "common_beta_rms_rad": 0.00028456630514472517,
+          "common_beta_p95_abs_rad": 0.00057707293287168049,
+          "common_iq_rms_V": 3.9371434268686346E-5
+        },
+        {
+          "method": "guarded_joint",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00026678285168371441,
+          "common_beta_rms_rad": 0.00026678285168371441,
+          "common_beta_p95_abs_rad": 0.0005467538597652144,
+          "common_iq_rms_V": 3.6675490395804162E-5
+        },
+        {
+          "method": "guarded_joint_aaf",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00027161134715276666,
+          "common_beta_rms_rad": 0.00027161134715276666,
+          "common_beta_p95_abs_rad": 0.00055502760883524571,
+          "common_iq_rms_V": 3.7716276082472113E-5
+        }
+      ],
+      "joint_frames": 64,
+      "fallback_frames": 0,
+      "invalid_frames": 0,
+      "mismatch_rejections": 0,
+      "aaf_joint_frames": 64,
+      "aaf_fallback_frames": 0,
+      "aaf_invalid_frames": 0,
+      "aaf_mismatch_rejections": 0,
+      "early_clip_fallbacks": 0,
+      "late_clip_invalids": 0
+    },
+    {
+      "name": "synthetic_matched",
+      "frames": 64,
+      "common_frames": 64,
+      "truth_kind": "known synthetic carrier coefficients",
+      "methods": [
+        {
+          "method": "full_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.008463572297275521,
+          "common_beta_rms_rad": 0.008463572297275521,
+          "common_beta_p95_abs_rad": 0.017340892671778962,
+          "common_iq_rms_V": 0.0014934109985391231
+        },
+        {
+          "method": "full_wls",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.0033651648605401,
+          "common_beta_rms_rad": 0.0033651648605401,
+          "common_beta_p95_abs_rad": 0.0070646994582295184,
+          "common_iq_rms_V": 0.000653962428312495
+        },
+        {
+          "method": "late_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.0015297228995747453,
+          "common_beta_rms_rad": 0.0015297228995747453,
+          "common_beta_p95_abs_rad": 0.0030382598669126404,
+          "common_iq_rms_V": 0.00031924525566693257
+        },
+        {
+          "method": "guarded_joint",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00022488972883253489,
+          "common_beta_rms_rad": 0.00022488972883253489,
+          "common_beta_p95_abs_rad": 0.00040165027384239665,
+          "common_iq_rms_V": 3.4533892431102463E-5
+        },
+        {
+          "method": "guarded_joint_aaf",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00024500266043263471,
+          "common_beta_rms_rad": 0.00024500266043263471,
+          "common_beta_p95_abs_rad": 0.00050423366789170687,
+          "common_iq_rms_V": 3.5977603774601568E-5
+        }
+      ],
+      "joint_frames": 64,
+      "fallback_frames": 0,
+      "invalid_frames": 0,
+      "mismatch_rejections": 0,
+      "aaf_joint_frames": 64,
+      "aaf_fallback_frames": 0,
+      "aaf_invalid_frames": 0,
+      "aaf_mismatch_rejections": 0,
+      "early_clip_fallbacks": 0,
+      "late_clip_invalids": 0
+    },
+    {
+      "name": "synthetic_tau_mismatch",
+      "frames": 64,
+      "common_frames": 64,
+      "truth_kind": "known synthetic carrier coefficients",
+      "methods": [
+        {
+          "method": "full_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.008341821191913526,
+          "common_beta_rms_rad": 0.008341821191913526,
+          "common_beta_p95_abs_rad": 0.016240191555831451,
+          "common_iq_rms_V": 0.0015357896114451804
+        },
+        {
+          "method": "full_wls",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.0031431252272219237,
+          "common_beta_rms_rad": 0.0031431252272219237,
+          "common_beta_p95_abs_rad": 0.0061433441083843521,
+          "common_iq_rms_V": 0.0005934660438031232
+        },
+        {
+          "method": "late_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00075259187321209079,
+          "common_beta_rms_rad": 0.00075259187321209079,
+          "common_beta_p95_abs_rad": 0.0015759836683004735,
+          "common_iq_rms_V": 0.00015516240615896424
+        },
+        {
+          "method": "guarded_joint",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.000399293740949471,
+          "common_beta_rms_rad": 0.000399293740949471,
+          "common_beta_p95_abs_rad": 0.00069425521424693038,
+          "common_iq_rms_V": 5.7685389004815428E-5
+        },
+        {
+          "method": "guarded_joint_aaf",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00027213770315543046,
+          "common_beta_rms_rad": 0.00027213770315543046,
+          "common_beta_p95_abs_rad": 0.00057873169393497792,
+          "common_iq_rms_V": 4.3241964200375522E-5
+        }
+      ],
+      "joint_frames": 64,
+      "fallback_frames": 0,
+      "invalid_frames": 0,
+      "mismatch_rejections": 0,
+      "aaf_joint_frames": 64,
+      "aaf_fallback_frames": 0,
+      "aaf_invalid_frames": 0,
+      "aaf_mismatch_rejections": 0,
+      "early_clip_fallbacks": 0,
+      "late_clip_invalids": 0
+    },
+    {
+      "name": "synthetic_ringing",
+      "frames": 64,
+      "common_frames": 64,
+      "truth_kind": "known synthetic carrier coefficients",
+      "methods": [
+        {
+          "method": "full_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.030996195032210468,
+          "common_beta_rms_rad": 0.030996195032210468,
+          "common_beta_p95_abs_rad": 0.060854684626840967,
+          "common_iq_rms_V": 0.0057800337514208175
+        },
+        {
+          "method": "full_wls",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.02203291121739475,
+          "common_beta_rms_rad": 0.02203291121739475,
+          "common_beta_p95_abs_rad": 0.041158357210217877,
+          "common_iq_rms_V": 0.0036964280396729159
+        },
+        {
+          "method": "late_ols",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.018275196060429381,
+          "common_beta_rms_rad": 0.018275196060429381,
+          "common_beta_p95_abs_rad": 0.031273284119936462,
+          "common_iq_rms_V": 0.0027459922586687085
+        },
+        {
+          "method": "guarded_joint",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.018275196060429367,
+          "common_beta_rms_rad": 0.018275196060429367,
+          "common_beta_p95_abs_rad": 0.031273284119936462,
+          "common_iq_rms_V": 0.002745992258668708
+        },
+        {
+          "method": "guarded_joint_aaf",
+          "accepted_frames": 64,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.018275196060429367,
+          "common_beta_rms_rad": 0.018275196060429367,
+          "common_beta_p95_abs_rad": 0.031273284119936462,
+          "common_iq_rms_V": 0.002745992258668708
+        }
+      ],
+      "joint_frames": 0,
+      "fallback_frames": 64,
+      "invalid_frames": 0,
+      "mismatch_rejections": 64,
+      "aaf_joint_frames": 0,
+      "aaf_fallback_frames": 64,
+      "aaf_invalid_frames": 0,
+      "aaf_mismatch_rejections": 64,
+      "early_clip_fallbacks": 0,
+      "late_clip_invalids": 0
+    },
+    {
+      "name": "synthetic_clip",
+      "frames": 64,
+      "common_frames": 32,
+      "truth_kind": "known synthetic carrier coefficients",
+      "methods": [
+        {
+          "method": "full_ols",
+          "accepted_frames": 32,
+          "coverage": 0.5,
+          "own_beta_rms_rad": 0.0085499868912511066,
+          "common_beta_rms_rad": 0.0085499868912511066,
+          "common_beta_p95_abs_rad": 0.019523449928442016,
+          "common_iq_rms_V": 0.0014125420774948666
+        },
+        {
+          "method": "full_wls",
+          "accepted_frames": 32,
+          "coverage": 0.5,
+          "own_beta_rms_rad": 0.0034745311058531009,
+          "common_beta_rms_rad": 0.0034745311058531009,
+          "common_beta_p95_abs_rad": 0.0082480195551670743,
+          "common_iq_rms_V": 0.00061820505249092928
+        },
+        {
+          "method": "late_ols",
+          "accepted_frames": 48,
+          "coverage": 0.75,
+          "own_beta_rms_rad": 0.0014459198088883469,
+          "common_beta_rms_rad": 0.0014971240391518544,
+          "common_beta_p95_abs_rad": 0.0030837243738816023,
+          "common_iq_rms_V": 0.00030908575137582859
+        },
+        {
+          "method": "guarded_joint",
+          "accepted_frames": 48,
+          "coverage": 0.75,
+          "own_beta_rms_rad": 0.00080307898757251794,
+          "common_beta_rms_rad": 0.000269736980081631,
+          "common_beta_p95_abs_rad": 0.00057874782005534742,
+          "common_iq_rms_V": 3.5080655539684469E-5
+        },
+        {
+          "method": "guarded_joint_aaf",
+          "accepted_frames": 48,
+          "coverage": 0.75,
+          "own_beta_rms_rad": 0.0008026798947635182,
+          "common_beta_rms_rad": 0.00026794918956616855,
+          "common_beta_p95_abs_rad": 0.000543769532917987,
+          "common_iq_rms_V": 3.5304448976614506E-5
+        }
+      ],
+      "joint_frames": 32,
+      "fallback_frames": 16,
+      "invalid_frames": 16,
+      "mismatch_rejections": 0,
+      "aaf_joint_frames": 32,
+      "aaf_fallback_frames": 16,
+      "aaf_invalid_frames": 16,
+      "aaf_mismatch_rejections": 0,
+      "early_clip_fallbacks": 16,
+      "late_clip_invalids": 16
+    },
+    {
+      "name": "model_clean",
+      "frames": 60,
+      "common_frames": 60,
+      "truth_kind": "noise-free late-window monitor proxy",
+      "methods": [
+        {
+          "method": "full_ols",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.0002912664900803276,
+          "common_beta_rms_rad": 0.0002912664900803276,
+          "common_beta_p95_abs_rad": 0.00051791520585658946,
+          "common_iq_rms_V": 0.0048336393371648505
+        },
+        {
+          "method": "full_wls",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00023938506989119204,
+          "common_beta_rms_rad": 0.00023938506989119204,
+          "common_beta_p95_abs_rad": 0.0004103717694082798,
+          "common_iq_rms_V": 0.0015927971994199955
+        },
+        {
+          "method": "late_ols",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00027877046292483482,
+          "common_beta_rms_rad": 0.00027877046292483482,
+          "common_beta_p95_abs_rad": 0.00054080163664510517,
+          "common_iq_rms_V": 4.1668253090673868E-5
+        },
+        {
+          "method": "guarded_joint",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00027877046292484181,
+          "common_beta_rms_rad": 0.00027877046292484181,
+          "common_beta_p95_abs_rad": 0.00054080163664510517,
+          "common_iq_rms_V": 4.1668253090669456E-5
+        },
+        {
+          "method": "guarded_joint_aaf",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00024023427942379216,
+          "common_beta_rms_rad": 0.00024023427942379216,
+          "common_beta_p95_abs_rad": 0.00042380606994230074,
+          "common_iq_rms_V": 3.854108599635741E-5
+        }
+      ],
+      "joint_frames": 0,
+      "fallback_frames": 60,
+      "invalid_frames": 0,
+      "mismatch_rejections": 60,
+      "aaf_joint_frames": 60,
+      "aaf_fallback_frames": 0,
+      "aaf_invalid_frames": 0,
+      "aaf_mismatch_rejections": 0,
+      "early_clip_fallbacks": 0,
+      "late_clip_invalids": 0
+    },
+    {
+      "name": "model_added_residual",
+      "frames": 60,
+      "common_frames": 60,
+      "truth_kind": "noise-free late-window monitor proxy",
+      "methods": [
+        {
+          "method": "full_ols",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.013486603055581,
+          "common_beta_rms_rad": 0.013486603055581,
+          "common_beta_p95_abs_rad": 0.022748399654799332,
+          "common_iq_rms_V": 0.0050669625969815392
+        },
+        {
+          "method": "full_wls",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.0058463707117454161,
+          "common_beta_rms_rad": 0.0058463707117454161,
+          "common_beta_p95_abs_rad": 0.010195112658097361,
+          "common_iq_rms_V": 0.0017399318692615576
+        },
+        {
+          "method": "late_ols",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.0029404008634164262,
+          "common_beta_rms_rad": 0.0029404008634164262,
+          "common_beta_p95_abs_rad": 0.0052377808213406049,
+          "common_iq_rms_V": 0.00032125663118095116
+        },
+        {
+          "method": "guarded_joint",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.002940400863416421,
+          "common_beta_rms_rad": 0.002940400863416421,
+          "common_beta_p95_abs_rad": 0.0052377808213405772,
+          "common_iq_rms_V": 0.00032125663118095263
+        },
+        {
+          "method": "guarded_joint_aaf",
+          "accepted_frames": 60,
+          "coverage": 1,
+          "own_beta_rms_rad": 0.00022762605363929828,
+          "common_beta_rms_rad": 0.00022762605363929828,
+          "common_beta_p95_abs_rad": 0.00045259822928861432,
+          "common_iq_rms_V": 3.482761616312984E-5
+        }
+      ],
+      "joint_frames": 0,
+      "fallback_frames": 60,
+      "invalid_frames": 0,
+      "mismatch_rejections": 60,
+      "aaf_joint_frames": 60,
+      "aaf_fallback_frames": 0,
+      "aaf_invalid_frames": 0,
+      "aaf_mismatch_rejections": 0,
+      "early_clip_fallbacks": 0,
+      "late_clip_invalids": 0
+    }
+  ],
+  "checks": {
+    "exact_recovery": true,
+    "degenerate_basis_fallback": true,
+    "holdout_rejection": true,
+    "early_and_late_clip_gates": true
+  }
+}

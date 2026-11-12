@@ -1,0 +1,254 @@
+{
+  "release": "2025a",
+  "scope": "native frame-vector observer with synthetic and modeled ADC replay",
+  "sample_count": 1600,
+  "late_sample_count": 800,
+  "synthetic_holdout_limit_V": 0.0005,
+  "cases": [
+    {
+      "name": "matched",
+      "mode": 2,
+      "status": "joint",
+      "reason": "none",
+      "iq": [
+        [
+          0.06699999999999999,
+          0.025000000000000005
+        ],
+        [
+          0.0049999999999999992,
+          -0.0029999999999999996
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    },
+    {
+      "name": "early_clip",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "clip",
+      "iq": [
+        [
+          0.0669997180410944,
+          0.025000177231312086
+        ],
+        [
+          0.0049998208517413878,
+          -0.0029998873925231608
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    },
+    {
+      "name": "late_clip",
+      "mode": 0,
+      "status": "invalid",
+      "reason": "clip",
+      "iq": [
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          null
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    },
+    {
+      "name": "heldout_mismatch",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "template_mismatch",
+      "iq": [
+        [
+          0.066999718041094419,
+          0.025000177231312079
+        ],
+        [
+          0.0049998208517413878,
+          -0.0029998873925231621
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 4.3368086899420177E-19
+    },
+    {
+      "name": "rank_failure",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "identifiability",
+      "iq": [
+        [
+          0.0669997180410944,
+          0.025000177231312086
+        ],
+        [
+          0.0049998208517413878,
+          -0.0029998873925231608
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    }
+  ],
+  "model_holdout_limit_V": 0.002205365396385715,
+  "model_noise_budget_V": [
+    0.0016964349202967038,
+    0.0007535857209382907
+  ],
+  "saved_model_condition": 1.9004633010813923,
+  "saved_model_carrier_info": 0.87376270303427339,
+  "model_adc_replay": [
+    {
+      "name": "model_frame_4",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "template_mismatch",
+      "iq": [
+        [
+          -0.017125002455553345,
+          -0.0072389491093218716
+        ],
+        [
+          -0.072023246674782035,
+          -0.030419785808254496
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    },
+    {
+      "name": "model_frame_5",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "template_mismatch",
+      "iq": [
+        [
+          -0.017125002455553345,
+          -0.0072314244867711834
+        ],
+        [
+          -0.072023246674782035,
+          -0.030407285105983992
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 8.6736173798840355E-19
+    },
+    {
+      "name": "model_frame_6",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "template_mismatch",
+      "iq": [
+        [
+          -0.017125002455553345,
+          -0.0072322151120726846
+        ],
+        [
+          -0.072023246674782035,
+          -0.030390440041319838
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 8.6736173798840355E-19
+    },
+    {
+      "name": "model_frame_7",
+      "mode": 1,
+      "status": "late_fallback",
+      "reason": "template_mismatch",
+      "iq": [
+        [
+          -0.017108005549801849,
+          -0.0072322918103235514
+        ],
+        [
+          -0.072032853273537353,
+          -0.030380674717514714
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 1.7347234759768071E-18
+    }
+  ],
+  "model_adc_aaf_replay": [
+    {
+      "name": "aaf_model_frame_4",
+      "mode": 2,
+      "status": "joint",
+      "reason": "none",
+      "iq": [
+        [
+          -0.017128882568481822,
+          -0.0072395527056428963
+        ],
+        [
+          -0.072022957533824775,
+          -0.030418904455281282
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 1.0842021724855044E-19
+    },
+    {
+      "name": "aaf_model_frame_5",
+      "mode": 2,
+      "status": "joint",
+      "reason": "none",
+      "iq": [
+        [
+          -0.017128880082621457,
+          -0.007232385477220488
+        ],
+        [
+          -0.072024791093522986,
+          -0.03040700225767529
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 1.0842021724855044E-19
+    },
+    {
+      "name": "aaf_model_frame_6",
+      "mode": 2,
+      "status": "joint",
+      "reason": "none",
+      "iq": [
+        [
+          -0.017128476170967813,
+          -0.0072328118625436151
+        ],
+        [
+          -0.072025691986597987,
+          -0.030392145972455997
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 0
+    },
+    {
+      "name": "aaf_model_frame_7",
+      "mode": 2,
+      "status": "joint",
+      "reason": "none",
+      "iq": [
+        [
+          -0.017111153861304636,
+          -0.0072338216399487308
+        ],
+        [
+          -0.072035676547495944,
+          -0.030382236367283232
+        ]
+      ],
+      "max_iq_difference_V": 0,
+      "max_holdout_difference_V": 1.0842021724855044E-19
+    }
+  ]
+}
