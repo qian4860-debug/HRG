@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "date": "2026-11-12",
-  "source_base_commit": "6a7a5253a0ced9220a405b49775c516fda59da68",
+  "date": "2026-11-13",
+  "source_base_commit": "f090119696b8b0a8755f470894fc890e1ee7971e",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "6a7a5253a0ced9220a405b49775c516fda59da68",
+      "source_commit": "f090119696b8b0a8755f470894fc890e1ee7971e",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "2c302471a45493fc85f2f188509d7d096163ebbded7f06f1cfc81cdd457f422b",
-      "archive_sha256": "7cf0b7fad0ceafe5dfe530d9a2a74507aee242826b9213a663494e8c5377911c",
+      "source_sha256": "92079ee7844cbf5a90ed4ac4dc07d92a2c71330d88d862fc5ef9bc41de1c5b68",
+      "archive_sha256": "f089cd8ed626002db1d84e28dea3c9a76be66b4f8f70f261b82cf3eec4b11f89",
       "rewritten_local_links": []
     },
     {
@@ -3720,6 +3720,10 @@
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
     {
+      "path": "DSH_md/28_对34号分时归因的评审_20261113.md",
+      "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
+    },
+    {
       "path": "DSH_md/HRG_WA_DSH.md",
       "reason": "活动规则、DSH独立文档或外部参考，保留原入口"
     },
@@ -3733,13 +3737,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 432,
-    "kept": 142
+    "source_records": 434,
+    "kept": 144
   },
   "generated_index_sha256": {
-    "README.md": "058b2fa82f3b530b9c1e4f34c6ba9a040f65b45ac841ad0e1ffd89ea496d3d3a",
-    "00_文档索引.md": "e7430e4eefb928e470f4acb2f604fc2895e24ab44863bcbd395c5780c4311fed",
-    "history_filter_audit.json": "106c50b6cadac4c8b39627c930dff0c71b74363e945ca4986ac68756332842bb"
+    "README.md": "4dcdefaa7f27f8445ea68410f09642fd6aef3129f2564e1a9e5cfc23035d7145",
+    "00_文档索引.md": "7dab144b55c2377eb5dbf92dd70c4f73eb68e28379f157caef7931502ce4ed86",
+    "history_filter_audit.json": "2e58c6c10e739cbf5d9a683f30a35a00bd275fa4c927ad1a7d2582d04c80c7c2"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3775,6 +3779,7 @@
     "31_五电极可视化记分板与RTL对照_20261110.md": "75a6b9346b3e295281e257c144639854eeb928936b3179c424038425c19fdf81",
     "32_连续版假负载联调与6800验证_20261111.md": "0d1ef7136e2b0138d5875035389b83f5d47aa31b57616a9446aae3068b34944c",
     "33_轮转采样复核与分时恢复验证_20261112.md": "d89cf7e90bc94f77388a45ca20c1996595dca8544467f40ac272c134a14e743d",
-    "34_分时基线归因与AAF失配_20261112.md": "1f32a1ac2aa3ab49d1a3e1fe1c4eb5dbf560510a1f13f8f52401fa4770cbfc98"
+    "34_分时基线归因与AAF失配_20261112.md": "1f32a1ac2aa3ab49d1a3e1fe1c4eb5dbf560510a1f13f8f52401fa4770cbfc98",
+    "35_分时量化抖动与检测窗设计_20261113.md": "58d31a71977c5e39efcd118565017fbf9c47015825ace806d0450636f6e6b765"
   }
 }
