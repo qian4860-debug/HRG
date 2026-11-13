@@ -1,5 +1,5 @@
 {
-  "source_records": 436,
+  "source_records": 437,
   "kept": 146,
   "omitted": [
     {
@@ -1160,6 +1160,10 @@
     },
     {
       "source_heading": "## 本轮追加 | 2026-11-11 · 第 25 号规划复核后的执行",
+      "reason": "同会话同原文重复"
+    },
+    {
+      "source_heading": "## 本轮追加 | 2026-11-13 · 五电极三模式同参归因",
       "reason": "同会话同原文重复"
     }
   ],
