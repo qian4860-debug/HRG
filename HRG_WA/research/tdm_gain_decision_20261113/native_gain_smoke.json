@@ -1,0 +1,33 @@
+{
+  "release": "2025a",
+  "scope": "R2025a short-window native parity",
+  "cases": [
+    {
+      "gain": 6,
+      "rate_rad_s": 0.05,
+      "beta_deg": 0,
+      "adc_bits": 10,
+      "samples": 65281,
+      "frames": 20,
+      "max_numeric_difference": 3.0784264026806341E-12
+    },
+    {
+      "gain": 8,
+      "rate_rad_s": -0.05,
+      "beta_deg": 22.5,
+      "adc_bits": 10,
+      "samples": 65281,
+      "frames": 20,
+      "max_numeric_difference": 2.177147351289932E-12
+    },
+    {
+      "gain": 8,
+      "rate_rad_s": 0.01,
+      "beta_deg": 67.5,
+      "adc_bits": 16,
+      "samples": 65281,
+      "frames": 20,
+      "max_numeric_difference": 2.1777024628022446E-12
+    }
+  ]
+}

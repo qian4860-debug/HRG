@@ -1,0 +1,933 @@
+{
+  "release": "2025a",
+  "scope": "Frozen nominal estimator, independent synthetic ADC replay, standing-wave angle",
+  "frame_count": 384,
+  "seeds": [
+    80273,
+    114467,
+    160493
+  ],
+  "frames_per_group": 128,
+  "published_rms_limit_rad": 0.001,
+  "minimum_published_coverage": 0.95,
+  "joint_false_accept_abs_error_threshold_rad": 0.001,
+  "holdout_limit_V": 0.0021989325295395791,
+  "nominal_aaf_pole_Hz": 20000,
+  "nominal_aaf_order": 4,
+  "noise_variance_frozen": true,
+  "rows": [
+    {
+      "observed_cycles_from_sense_start": 1.3,
+      "observed_samples": 1040,
+      "fallback_late_samples": 240,
+      "normalized_joint_condition": 3.503533906359046,
+      "carrier_info_fraction": 0.32611161887421103,
+      "joint_design_ok": true,
+      "late_design_ok": true,
+      "all": {
+        "frames": 384,
+        "joint_frames": 360,
+        "joint_rejected_frames": 24,
+        "late_fallback_frames": 12,
+        "invalid_frames": 12,
+        "published_coverage": 0.96875,
+        "joint_angle_rms_rad": 0.0051205568266475448,
+        "fallback_angle_rms_rad": 0.013639275802606193,
+        "published_angle_rms_rad": 0.0056013619048647214,
+        "erroneous_joint_accepted_frames": 151,
+        "published_frames_over_abs_threshold": 163
+      },
+      "regular": {
+        "frames": 336,
+        "joint_frames": 336,
+        "joint_rejected_frames": 0,
+        "late_fallback_frames": 0,
+        "invalid_frames": 0,
+        "published_coverage": 1,
+        "joint_angle_rms_rad": 0.0014760393577609059,
+        "fallback_angle_rms_rad": null,
+        "published_angle_rms_rad": 0.0014760393577609059,
+        "erroneous_joint_accepted_frames": 137,
+        "published_frames_over_abs_threshold": 137
+      },
+      "stress": [
+        {
+          "kind": "carrier_aligned_interference",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 12,
+            "joint_rejected_frames": 0,
+            "late_fallback_frames": 0,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.00087092039675496467,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": 0.00087092039675496467,
+            "erroneous_joint_accepted_frames": 3,
+            "published_frames_over_abs_threshold": 3
+          }
+        },
+        {
+          "kind": "unmodeled_ringing",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 12,
+            "joint_rejected_frames": 0,
+            "late_fallback_frames": 0,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.026922874714856524,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": 0.026922874714856524,
+            "erroneous_joint_accepted_frames": 11,
+            "published_frames_over_abs_threshold": 11
+          }
+        },
+        {
+          "kind": "early_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 12,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": 0.013639275802606193,
+            "published_angle_rms_rad": 0.013639275802606193,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 12
+          }
+        },
+        {
+          "kind": "late_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 0,
+            "invalid_frames": 12,
+            "published_coverage": 0,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": null,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 0
+          }
+        }
+      ],
+      "groups": [
+        {
+          "name": "low_four_poles",
+          "seed": 80273,
+          "true_poles_Hz": [
+            13600,
+            13600,
+            13600,
+            13600
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0045016216580581869,
+            "fallback_angle_rms_rad": 0.013874689845297914,
+            "published_angle_rms_rad": 0.005081417585014617,
+            "erroneous_joint_accepted_frames": 51,
+            "published_frames_over_abs_threshold": 55
+          }
+        },
+        {
+          "name": "high_three_poles",
+          "seed": 114467,
+          "true_poles_Hz": [
+            25500,
+            25500,
+            25500
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.006266698620386966,
+            "fallback_angle_rms_rad": 0.017193143288660579,
+            "published_angle_rms_rad": 0.0068949479497139692,
+            "erroneous_joint_accepted_frames": 37,
+            "published_frames_over_abs_threshold": 41
+          }
+        },
+        {
+          "name": "heterogeneous_five_poles",
+          "seed": 160493,
+          "true_poles_Hz": [
+            12000,
+            17000,
+            21000,
+            33000,
+            45000
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0043731221677106016,
+            "fallback_angle_rms_rad": 0.0083653056615433374,
+            "published_angle_rms_rad": 0.0045568249544226027,
+            "erroneous_joint_accepted_frames": 63,
+            "published_frames_over_abs_threshold": 67
+          }
+        }
+      ],
+      "G5_aggregate_pass": false,
+      "schedule": {
+        "baseline": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 2000,
+          "window_last_tick": 2799,
+          "publish_tick": 2805,
+          "window_center_to_publish_s": 7.4540441176470588E-5,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true
+        },
+        "early_same_frame": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 1200,
+          "window_last_tick": 2239,
+          "publish_tick": 2245,
+          "window_center_to_publish_s": 9.659926470588235E-5,
+          "publish_to_next_drive_s": 0.00017555147058823529,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true,
+          "publish_advance_s": 0.00010294117647058824
+        },
+        "extended_valid_window": {
+          "frame_ticks": 3440,
+          "frame_rate_Hz": 1581.3953488372092,
+          "window_first_tick": 2000,
+          "window_last_tick": 3039,
+          "publish_tick": 3045,
+          "window_center_to_publish_s": 9.659926470588235E-5,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 108,
+          "carrier_phase_repeat_frames": 10,
+          "aligned_to_DAC_divisor_25": false,
+          "frame_rate_change_percent": -6.9767441860465134,
+          "publish_delay_increase_s": 4.4117647058823532E-5,
+          "estimated_extra_delay_s": 4.4117647058823532E-5,
+          "illustrative_frequency_Hz": [
+            4,
+            10
+          ],
+          "illustrative_extra_lag_deg": [
+            0.06352941176470589,
+            0.15882352941176472
+          ]
+        }
+      }
+    },
+    {
+      "observed_cycles_from_sense_start": 1.5,
+      "observed_samples": 1200,
+      "fallback_late_samples": 400,
+      "normalized_joint_condition": 2.4469826949805853,
+      "carrier_info_fraction": 0.57160287702370793,
+      "joint_design_ok": true,
+      "late_design_ok": true,
+      "all": {
+        "frames": 384,
+        "joint_frames": 360,
+        "joint_rejected_frames": 24,
+        "late_fallback_frames": 12,
+        "invalid_frames": 12,
+        "published_coverage": 0.96875,
+        "joint_angle_rms_rad": 0.004014612658058676,
+        "fallback_angle_rms_rad": 0.014445103654501039,
+        "published_angle_rms_rad": 0.0047252733780502668,
+        "erroneous_joint_accepted_frames": 115,
+        "published_frames_over_abs_threshold": 126
+      },
+      "regular": {
+        "frames": 336,
+        "joint_frames": 336,
+        "joint_rejected_frames": 0,
+        "late_fallback_frames": 0,
+        "invalid_frames": 0,
+        "published_coverage": 1,
+        "joint_angle_rms_rad": 0.0010949756902463852,
+        "fallback_angle_rms_rad": null,
+        "published_angle_rms_rad": 0.0010949756902463852,
+        "erroneous_joint_accepted_frames": 99,
+        "published_frames_over_abs_threshold": 99
+      },
+      "stress": [
+        {
+          "kind": "carrier_aligned_interference",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 12,
+            "joint_rejected_frames": 0,
+            "late_fallback_frames": 0,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.00085057412646635648,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": 0.00085057412646635648,
+            "erroneous_joint_accepted_frames": 5,
+            "published_frames_over_abs_threshold": 5
+          }
+        },
+        {
+          "kind": "unmodeled_ringing",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 12,
+            "joint_rejected_frames": 0,
+            "late_fallback_frames": 0,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.021194781389301452,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": 0.021194781389301452,
+            "erroneous_joint_accepted_frames": 11,
+            "published_frames_over_abs_threshold": 11
+          }
+        },
+        {
+          "kind": "early_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 12,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": 0.014445103654501039,
+            "published_angle_rms_rad": 0.014445103654501039,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 11
+          }
+        },
+        {
+          "kind": "late_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 0,
+            "invalid_frames": 12,
+            "published_coverage": 0,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": null,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 0
+          }
+        }
+      ],
+      "groups": [
+        {
+          "name": "low_four_poles",
+          "seed": 80273,
+          "true_poles_Hz": [
+            13600,
+            13600,
+            13600,
+            13600
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.003731505171911786,
+            "fallback_angle_rms_rad": 0.00878127832702411,
+            "published_angle_rms_rad": 0.00399529874734566,
+            "erroneous_joint_accepted_frames": 42,
+            "published_frames_over_abs_threshold": 46
+          }
+        },
+        {
+          "name": "high_three_poles",
+          "seed": 114467,
+          "true_poles_Hz": [
+            25500,
+            25500,
+            25500
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0052202118848255156,
+            "fallback_angle_rms_rad": 0.020096134070707542,
+            "published_angle_rms_rad": 0.0062768724703034656,
+            "erroneous_joint_accepted_frames": 33,
+            "published_frames_over_abs_threshold": 37
+          }
+        },
+        {
+          "name": "heterogeneous_five_poles",
+          "seed": 160493,
+          "true_poles_Hz": [
+            12000,
+            17000,
+            21000,
+            33000,
+            45000
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0026789179554918951,
+            "fallback_angle_rms_rad": 0.012042325569561804,
+            "published_angle_rms_rad": 0.0034092646425492395,
+            "erroneous_joint_accepted_frames": 40,
+            "published_frames_over_abs_threshold": 43
+          }
+        }
+      ],
+      "G5_aggregate_pass": false,
+      "schedule": {
+        "baseline": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 2000,
+          "window_last_tick": 2799,
+          "publish_tick": 2805,
+          "window_center_to_publish_s": 7.4540441176470588E-5,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true
+        },
+        "early_same_frame": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 1200,
+          "window_last_tick": 2399,
+          "publish_tick": 2405,
+          "window_center_to_publish_s": 0.00011130514705882353,
+          "publish_to_next_drive_s": 0.00014613970588235294,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true,
+          "publish_advance_s": 7.3529411764705876E-5
+        },
+        "extended_valid_window": {
+          "frame_ticks": 3600,
+          "frame_rate_Hz": 1511.1111111111111,
+          "window_first_tick": 2000,
+          "window_last_tick": 3199,
+          "publish_tick": 3205,
+          "window_center_to_publish_s": 0.00011130514705882353,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 180,
+          "carrier_phase_repeat_frames": 2,
+          "aligned_to_DAC_divisor_25": true,
+          "frame_rate_change_percent": -11.111111111111116,
+          "publish_delay_increase_s": 7.3529411764705876E-5,
+          "estimated_extra_delay_s": 7.3529411764705876E-5,
+          "illustrative_frequency_Hz": [
+            4,
+            10
+          ],
+          "illustrative_extra_lag_deg": [
+            0.10588235294117646,
+            0.26470588235294118
+          ]
+        }
+      }
+    },
+    {
+      "observed_cycles_from_sense_start": 1.75,
+      "observed_samples": 1400,
+      "fallback_late_samples": 600,
+      "normalized_joint_condition": 1.9103319759988937,
+      "carrier_info_fraction": 0.84643741351028767,
+      "joint_design_ok": true,
+      "late_design_ok": true,
+      "all": {
+        "frames": 384,
+        "joint_frames": 359,
+        "joint_rejected_frames": 25,
+        "late_fallback_frames": 13,
+        "invalid_frames": 12,
+        "published_coverage": 0.96875,
+        "joint_angle_rms_rad": 0.0025939376161615651,
+        "fallback_angle_rms_rad": 0.0065867779015152186,
+        "published_angle_rms_rad": 0.0028301132698026628,
+        "erroneous_joint_accepted_frames": 76,
+        "published_frames_over_abs_threshold": 84
+      },
+      "regular": {
+        "frames": 336,
+        "joint_frames": 336,
+        "joint_rejected_frames": 0,
+        "late_fallback_frames": 0,
+        "invalid_frames": 0,
+        "published_coverage": 1,
+        "joint_angle_rms_rad": 0.000817201835763165,
+        "fallback_angle_rms_rad": null,
+        "published_angle_rms_rad": 0.000817201835763165,
+        "erroneous_joint_accepted_frames": 64,
+        "published_frames_over_abs_threshold": 64
+      },
+      "stress": [
+        {
+          "kind": "carrier_aligned_interference",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 12,
+            "joint_rejected_frames": 0,
+            "late_fallback_frames": 0,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.000687680378740103,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": 0.000687680378740103,
+            "erroneous_joint_accepted_frames": 2,
+            "published_frames_over_abs_threshold": 2
+          }
+        },
+        {
+          "kind": "unmodeled_ringing",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 11,
+            "joint_rejected_frames": 1,
+            "late_fallback_frames": 1,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.014095369820010775,
+            "fallback_angle_rms_rad": 0.005854419948149836,
+            "published_angle_rms_rad": 0.013600699084118408,
+            "erroneous_joint_accepted_frames": 10,
+            "published_frames_over_abs_threshold": 11
+          }
+        },
+        {
+          "kind": "early_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 12,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": 0.006644164906650955,
+            "published_angle_rms_rad": 0.006644164906650955,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 7
+          }
+        },
+        {
+          "kind": "late_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 0,
+            "invalid_frames": 12,
+            "published_coverage": 0,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": null,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 0
+          }
+        }
+      ],
+      "groups": [
+        {
+          "name": "low_four_poles",
+          "seed": 80273,
+          "true_poles_Hz": [
+            13600,
+            13600,
+            13600,
+            13600
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 119,
+            "joint_rejected_frames": 9,
+            "late_fallback_frames": 5,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0024361973890697124,
+            "fallback_angle_rms_rad": 0.0038335812748489006,
+            "published_angle_rms_rad": 0.0025076553685134564,
+            "erroneous_joint_accepted_frames": 22,
+            "published_frames_over_abs_threshold": 25
+          }
+        },
+        {
+          "name": "high_three_poles",
+          "seed": 114467,
+          "true_poles_Hz": [
+            25500,
+            25500,
+            25500
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0034423354809541232,
+            "fallback_angle_rms_rad": 0.0084806786850203583,
+            "published_angle_rms_rad": 0.0037131506396799675,
+            "erroneous_joint_accepted_frames": 28,
+            "published_frames_over_abs_threshold": 30
+          }
+        },
+        {
+          "name": "heterogeneous_five_poles",
+          "seed": 160493,
+          "true_poles_Hz": [
+            12000,
+            17000,
+            21000,
+            33000,
+            45000
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0015473182173310438,
+            "fallback_angle_rms_rad": 0.0071211654562642482,
+            "published_angle_rms_rad": 0.001988165043337512,
+            "erroneous_joint_accepted_frames": 26,
+            "published_frames_over_abs_threshold": 29
+          }
+        }
+      ],
+      "G5_aggregate_pass": false,
+      "schedule": {
+        "baseline": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 2000,
+          "window_last_tick": 2799,
+          "publish_tick": 2805,
+          "window_center_to_publish_s": 7.4540441176470588E-5,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true
+        },
+        "early_same_frame": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 1200,
+          "window_last_tick": 2599,
+          "publish_tick": 2605,
+          "window_center_to_publish_s": 0.0001296875,
+          "publish_to_next_drive_s": 0.000109375,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true,
+          "publish_advance_s": 3.6764705882352938E-5
+        },
+        "extended_valid_window": {
+          "frame_ticks": 3800,
+          "frame_rate_Hz": 1431.578947368421,
+          "window_first_tick": 2000,
+          "window_last_tick": 3399,
+          "publish_tick": 3405,
+          "window_center_to_publish_s": 0.0001296875,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 270,
+          "carrier_phase_repeat_frames": 4,
+          "aligned_to_DAC_divisor_25": true,
+          "frame_rate_change_percent": -15.789473684210531,
+          "publish_delay_increase_s": 0.00011029411764705883,
+          "estimated_extra_delay_s": 0.00011029411764705883,
+          "illustrative_frequency_Hz": [
+            4,
+            10
+          ],
+          "illustrative_extra_lag_deg": [
+            0.15882352941176472,
+            0.3970588235294118
+          ]
+        }
+      }
+    },
+    {
+      "observed_cycles_from_sense_start": 2,
+      "observed_samples": 1600,
+      "fallback_late_samples": 800,
+      "normalized_joint_condition": 1.8969106074809527,
+      "carrier_info_fraction": 0.87325605957470864,
+      "joint_design_ok": true,
+      "late_design_ok": true,
+      "all": {
+        "frames": 384,
+        "joint_frames": 358,
+        "joint_rejected_frames": 26,
+        "late_fallback_frames": 14,
+        "invalid_frames": 12,
+        "published_coverage": 0.96875,
+        "joint_angle_rms_rad": 0.0023666516678792727,
+        "fallback_angle_rms_rad": 0.0041250867441774124,
+        "published_angle_rms_rad": 0.0024557378120505483,
+        "erroneous_joint_accepted_frames": 34,
+        "published_frames_over_abs_threshold": 44
+      },
+      "regular": {
+        "frames": 336,
+        "joint_frames": 336,
+        "joint_rejected_frames": 0,
+        "late_fallback_frames": 0,
+        "invalid_frames": 0,
+        "published_coverage": 1,
+        "joint_angle_rms_rad": 0.00051282912642906786,
+        "fallback_angle_rms_rad": null,
+        "published_angle_rms_rad": 0.00051282912642906786,
+        "erroneous_joint_accepted_frames": 21,
+        "published_frames_over_abs_threshold": 21
+      },
+      "stress": [
+        {
+          "kind": "carrier_aligned_interference",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 12,
+            "joint_rejected_frames": 0,
+            "late_fallback_frames": 0,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.00090883193630908747,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": 0.00090883193630908747,
+            "erroneous_joint_accepted_frames": 4,
+            "published_frames_over_abs_threshold": 4
+          }
+        },
+        {
+          "kind": "unmodeled_ringing",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 10,
+            "joint_rejected_frames": 2,
+            "late_fallback_frames": 2,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": 0.013809036058004008,
+            "fallback_angle_rms_rad": 0.0070403829956412157,
+            "published_angle_rms_rad": 0.01292938756593926,
+            "erroneous_joint_accepted_frames": 9,
+            "published_frames_over_abs_threshold": 11
+          }
+        },
+        {
+          "kind": "early_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 12,
+            "invalid_frames": 0,
+            "published_coverage": 1,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": 0.0034045898383310794,
+            "published_angle_rms_rad": 0.0034045898383310794,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 8
+          }
+        },
+        {
+          "kind": "late_clip",
+          "metrics": {
+            "frames": 12,
+            "joint_frames": 0,
+            "joint_rejected_frames": 12,
+            "late_fallback_frames": 0,
+            "invalid_frames": 12,
+            "published_coverage": 0,
+            "joint_angle_rms_rad": null,
+            "fallback_angle_rms_rad": null,
+            "published_angle_rms_rad": null,
+            "erroneous_joint_accepted_frames": 0,
+            "published_frames_over_abs_threshold": 0
+          }
+        }
+      ],
+      "groups": [
+        {
+          "name": "low_four_poles",
+          "seed": 80273,
+          "true_poles_Hz": [
+            13600,
+            13600,
+            13600,
+            13600
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 118,
+            "joint_rejected_frames": 10,
+            "late_fallback_frames": 6,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0020402160438311124,
+            "fallback_angle_rms_rad": 0.0044201147441837651,
+            "published_angle_rms_rad": 0.0022150462453488077,
+            "erroneous_joint_accepted_frames": 10,
+            "published_frames_over_abs_threshold": 16
+          }
+        },
+        {
+          "name": "high_three_poles",
+          "seed": 114467,
+          "true_poles_Hz": [
+            25500,
+            25500,
+            25500
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0031742584739919135,
+            "fallback_angle_rms_rad": 0.0045410618780599068,
+            "published_angle_rms_rad": 0.0032273965777470429,
+            "erroneous_joint_accepted_frames": 11,
+            "published_frames_over_abs_threshold": 13
+          }
+        },
+        {
+          "name": "heterogeneous_five_poles",
+          "seed": 160493,
+          "true_poles_Hz": [
+            12000,
+            17000,
+            21000,
+            33000,
+            45000
+          ],
+          "metrics": {
+            "frames": 128,
+            "joint_frames": 120,
+            "joint_rejected_frames": 8,
+            "late_fallback_frames": 4,
+            "invalid_frames": 4,
+            "published_coverage": 0.96875,
+            "joint_angle_rms_rad": 0.0015939717717551938,
+            "fallback_angle_rms_rad": 0.0031031963773605576,
+            "published_angle_rms_rad": 0.0016641592668723967,
+            "erroneous_joint_accepted_frames": 13,
+            "published_frames_over_abs_threshold": 15
+          }
+        }
+      ],
+      "G5_aggregate_pass": false,
+      "schedule": {
+        "baseline": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 2000,
+          "window_last_tick": 2799,
+          "publish_tick": 2805,
+          "window_center_to_publish_s": 7.4540441176470588E-5,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true
+        },
+        "early_same_frame": {
+          "frame_ticks": 3200,
+          "frame_rate_Hz": 1700,
+          "window_first_tick": 1200,
+          "window_last_tick": 2799,
+          "publish_tick": 2805,
+          "window_center_to_publish_s": 0.00014806985294117648,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true,
+          "publish_advance_s": 0
+        },
+        "extended_valid_window": {
+          "frame_ticks": 4000,
+          "frame_rate_Hz": 1360,
+          "window_first_tick": 2000,
+          "window_last_tick": 3599,
+          "publish_tick": 3605,
+          "window_center_to_publish_s": 0.00014806985294117648,
+          "publish_to_next_drive_s": 7.2610294117647064E-5,
+          "frame_phase_advance_deg": 0,
+          "carrier_phase_repeat_frames": 1,
+          "aligned_to_DAC_divisor_25": true,
+          "frame_rate_change_percent": -19.999999999999996,
+          "publish_delay_increase_s": 0.00014705882352941175,
+          "estimated_extra_delay_s": 0.00014705882352941175,
+          "illustrative_frequency_Hz": [
+            4,
+            10
+          ],
+          "illustrative_extra_lag_deg": [
+            0.21176470588235291,
+            0.52941176470588236
+          ]
+        }
+      }
+    }
+  ],
+  "native_1p5_cycle": {
+    "frames": 60,
+    "matches_matlab": true,
+    "max_iq_difference_V": 0,
+    "max_holdout_difference_V": 4.3368086899420177E-19,
+    "metrics": {
+      "frames": 60,
+      "joint_frames": 36,
+      "joint_rejected_frames": 24,
+      "late_fallback_frames": 12,
+      "invalid_frames": 12,
+      "published_coverage": 0.8,
+      "joint_angle_rms_rad": 0.012259682604724332,
+      "fallback_angle_rms_rad": 0.014445103654501039,
+      "published_angle_rms_rad": 0.012840954718156867,
+      "erroneous_joint_accepted_frames": 19,
+      "published_frames_over_abs_threshold": 30
+    }
+  },
+  "G6_loop_margin_status": "not evaluated: timing-only incremental phase lag",
+  "G7_rtl_sync_status": "not evaluated: schedule and implementation impacts only"
+}

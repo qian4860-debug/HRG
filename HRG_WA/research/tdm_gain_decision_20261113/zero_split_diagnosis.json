@@ -1,0 +1,56 @@
+{
+  "scope": "Deterministic five-electrode TDM zero-rate model only",
+  "adc_bits": 16,
+  "post_cv_gain": 8,
+  "duration_s": 30,
+  "cases": [
+    {
+      "split_Hz": 0,
+      "initial_beta_deg": 0,
+      "frames": 51000,
+      "mean_rate_mrad_s": 0,
+      "tail_slope_mrad_s": -0,
+      "net_angle_mrad": 0
+    },
+    {
+      "split_Hz": 0.025,
+      "initial_beta_deg": 0,
+      "frames": 51000,
+      "mean_rate_mrad_s": -1.4834292173244821,
+      "tail_slope_mrad_s": -2.7512722315442395,
+      "net_angle_mrad": -44.50200391431251
+    },
+    {
+      "split_Hz": 0.05,
+      "initial_beta_deg": 0,
+      "frames": 51000,
+      "mean_rate_mrad_s": -4.8794489743013667,
+      "tail_slope_mrad_s": -8.0281806094017814,
+      "net_angle_mrad": -146.38059896493849
+    },
+    {
+      "split_Hz": 0,
+      "initial_beta_deg": 22.5,
+      "frames": 51000,
+      "mean_rate_mrad_s": 0,
+      "tail_slope_mrad_s": -0,
+      "net_angle_mrad": 0
+    },
+    {
+      "split_Hz": 0.025,
+      "initial_beta_deg": 22.5,
+      "frames": 51000,
+      "mean_rate_mrad_s": 1.3434886502098133,
+      "tail_slope_mrad_s": 2.2945797662132197,
+      "net_angle_mrad": 40.303869218853109
+    },
+    {
+      "split_Hz": 0.05,
+      "initial_beta_deg": 22.5,
+      "frames": 51000,
+      "mean_rate_mrad_s": 5.6877176986726248,
+      "tail_slope_mrad_s": 10.278885930421342,
+      "net_angle_mrad": 170.62818524388544
+    }
+  ]
+}

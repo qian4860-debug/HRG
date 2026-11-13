@@ -1,0 +1,25 @@
+{
+  "basis": "ADC datasheet typical illustration only; CV/PGA unknown, omitted from subtotal",
+  "table": [
+    {
+      "Gain": 6,
+      "AdcPeakFraction": 0.453125,
+      "CvNoiseInput_Vrms": 0,
+      "PgaNoiseInput_Vrms": 0,
+      "AdcNoiseInput_Vrms": 0.00013020833333333333,
+      "ApertureNoiseInput_Vrms": 1.140802754433372E-9,
+      "WhiteQuantizationInput_Vrms": 9.3969770375915669E-5,
+      "TotalInput_Vrms": 0.00013020833333833083
+    },
+    {
+      "Gain": 8,
+      "AdcPeakFraction": 0.603516,
+      "CvNoiseInput_Vrms": 0,
+      "PgaNoiseInput_Vrms": 0,
+      "AdcNoiseInput_Vrms": 9.765625E-5,
+      "ApertureNoiseInput_Vrms": 1.1395741492048732E-9,
+      "WhiteQuantizationInput_Vrms": 7.0477327781936748E-5,
+      "TotalInput_Vrms": 9.7656250006648984E-5
+    }
+  ]
+}
