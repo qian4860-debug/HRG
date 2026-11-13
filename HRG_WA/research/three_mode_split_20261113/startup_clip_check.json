@@ -1,0 +1,110 @@
+{
+  "release": "2025a",
+  "clip_cases": [
+    {
+      "split_mHz": 0,
+      "rate_rad_s": 0,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 0,
+      "rate_rad_s": 0.05,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 0,
+      "rate_rad_s": -0.05,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 0,
+      "rate_rad_s": 0.2,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 0,
+      "rate_rad_s": -0.2,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 25,
+      "rate_rad_s": 0,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 25,
+      "rate_rad_s": 0.05,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 25,
+      "rate_rad_s": -0.05,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 25,
+      "rate_rad_s": 0.2,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 25,
+      "rate_rad_s": -0.2,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 50,
+      "rate_rad_s": 0,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 50,
+      "rate_rad_s": 0.05,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 50,
+      "rate_rad_s": -0.05,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 50,
+      "rate_rad_s": 0.2,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    },
+    {
+      "split_mHz": 50,
+      "rate_rad_s": -0.2,
+      "initial_beta_deg": 0,
+      "dac_clip_ticks": 256,
+      "last_dac_clip_s": 0.00026948529411764709
+    }
+  ]
+}

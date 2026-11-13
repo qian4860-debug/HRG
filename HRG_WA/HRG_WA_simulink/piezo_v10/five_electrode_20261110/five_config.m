@@ -1,7 +1,7 @@
 function c = five_config(mode, omega, overrides)
 % 五电极配置：A/B/C/D 四组对称电极相对公共端 COM，另加一个模态表头。
 % 输入：
-%   mode     'continuous' 连续驱检，或 'tdm_shared' 检测电极分时复用；
+%   mode     'continuous' 连续驱检，或 'tdm_shared' 检测电极分时复用，'tdm_separate' 分时但检测电极固定；
 %   omega    机体角速度，单位 rad/s，仅用于闭环评分；
 %   overrides 覆盖端口/电路/时序参数的结构体。
 % 输出 c 含 26 状态离散矩阵、组端投影 H、电容矩阵 C、驱动/检测映射、
@@ -12,7 +12,7 @@ arguments
     omega (1,1) double {mustBeFinite} = 0.5
     overrides (1,1) struct = struct()
 end
-assert(ismember(mode,{'continuous','tdm_shared'}), 'Choose continuous or tdm_shared.');
+assert(ismember(mode,{'continuous','tdm_shared','tdm_separate'}), '未知的五电极驱检模式。');
 here = fileparts(mfilename('fullpath'));
 addpath(fullfile(here,'..','head6800_20261109'));
 
@@ -83,9 +83,9 @@ assert(isscalar(p.Cds) && isfinite(p.Cds) && p.Cds>=0, 'Mutual capacitance must 
 H = gain.*[cosd(2*angles),sind(2*angles)];
 opposing = [eye(2),-eye(2)];
 C = diag(cap) + p.Cds*(opposing'*opposing);
-% 连续版：A/B 驱 X/Y，C/D 独立检测；分时版：A/C、B/D 反相驱动，
-% 四组都接检测，模拟半差 (A-C)/2、(B-D)/2 得到 X/Y。两套映射都必须秩 2。
-if c.continuous
+% 连续和分时不复用：A/B 驱动，C/D 永久接检测输入。分时复用：
+% A/C、B/D 反相驱动，检测窗以模拟半差 (A-C)/2、(B-D)/2 得到 X/Y。
+if ~c.reuse
     driveMap = [eye(2);zeros(2)];
     driveMask = [true;true;false;false];
     senseMap = [zeros(2),-eye(2)];
@@ -136,13 +136,19 @@ S = diag(scales);
 driveCond = double(driveMask)/ron;
 readCond = double(senseMask)/p.Rs;
 bleedCond = repmat(1/p.bleed_R,4,1);
-[Ad,Bd] = electricalState(driveCond,readCond*double(c.continuous), ...
-    zeros(4,1),senseMask & c.continuous);
+% 分时不复用仅门控 DAC 与 ADC。驱动端电气负载和检测端接法在各窗保持一致。
+permanentRead = ~c.reuse;
+[Ad,Bd] = electricalState(driveCond,readCond*double(permanentRead), ...
+    zeros(4,1),senseMask & permanentRead);
 [Af,Bf] = electricalState(zeros(4,1),zeros(4,1),bleedCond,false(4,1));
 [As,Bs] = electricalState(zeros(4,1),readCond,zeros(4,1),senseMask);
 [c.Ad,c.Bd] = discrete(Ad,Bd);
 [c.Af,~] = discrete(Af,Bf);
 [c.As,~] = discrete(As,Bs);
+if strcmp(mode,'tdm_separate')
+    c.Af = c.Ad;
+    c.As = c.Ad;
+end
 c.x0 = S\[initial(1:4);zeros(c.stateCount-4,1)];
 
 c.cvOutputGain = p.pre_gain*p.thx_cv_gain;
@@ -163,8 +169,8 @@ c.electrode = senseMap*c.groupVoltage;
 %         电压传递得到。iqInverse 把复数 2x2 响应转成实数 I/Q 校准矩阵。
 % 注意：这里没有包含 Cds 之外的组间互耦，也没有 COM 回流阻抗。
 s = 1i*c.w;
-driveLoad = diag(driveCond + readCond*double(c.continuous) + p.G0);
-if c.continuous
+driveLoad = diag(driveCond + readCond*double(permanentRead) + p.G0);
+if permanentRead
     senseLoad = driveLoad;
 else
     senseLoad = diag(readCond + p.G0);

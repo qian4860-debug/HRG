@@ -1,0 +1,1869 @@
+{
+  "scope": "deterministic 26-state matched experiment, at common acquisition-center times",
+  "zero_split_contrasts": [
+    {
+      "split_mHz": 25,
+      "initial_beta_deg": 0,
+      "checkpoint_s": [
+        0.06,
+        1,
+        3,
+        5,
+        10,
+        15,
+        20,
+        25,
+        29.99
+      ],
+      "split_effect_mrad": {
+        "continuous": [
+          0,
+          -0.39632200627651676,
+          -1.2559560841044184,
+          -2.113336245574427,
+          -4.261072765508458,
+          -6.411178521631111,
+          -8.564892442143334,
+          -10.711172520727219,
+          -12.837602577919997
+        ],
+        "tdm_separate": [
+          0,
+          -0.40389493000283033,
+          -1.2636158752914477,
+          -2.1275551529040295,
+          -4.275962919411131,
+          -6.419777073870032,
+          -8.572194041702257,
+          -10.710219642935785,
+          -12.850330256319298
+        ],
+        "tdm_shared": [
+          0,
+          -3.288503331926178,
+          -8.996181252155408,
+          -12.674632914768134,
+          -12.39062792223237,
+          -5.031829276748338,
+          -5.920575681771838,
+          -20.58694583355897,
+          -44.33110987646658
+        ]
+      },
+      "separate_minus_continuous_mrad": [
+        0,
+        -0.007572923726313574,
+        -0.007659791187029308,
+        -0.014218907329602626,
+        -0.01489015390267312,
+        -0.008598552238920476,
+        -0.0073015995589233995,
+        0.000952877791434048,
+        -0.012727678399301112
+      ],
+      "shared_minus_separate_mrad": [
+        0,
+        -2.8846084019233476,
+        -7.73256537686396,
+        -10.547077761864104,
+        -8.11466500282124,
+        1.3879477971216936,
+        2.6516183599304197,
+        -9.876726190623186,
+        -31.48077962014728
+      ]
+    },
+    {
+      "split_mHz": 25,
+      "initial_beta_deg": 22.5,
+      "checkpoint_s": [
+        0.06,
+        1,
+        3,
+        5,
+        10,
+        15,
+        20,
+        25,
+        29.99
+      ],
+      "split_effect_mrad": {
+        "continuous": [
+          0,
+          0.3913707519556661,
+          1.2344342733509759,
+          2.068123110095882,
+          4.223498623557449,
+          6.3779308922805775,
+          8.510679051593632,
+          10.664147068034955,
+          12.787889713369356
+        ],
+        "tdm_separate": [
+          0,
+          0.40140217335139206,
+          1.2607049949422828,
+          2.1266181272030433,
+          4.276616242097826,
+          6.433465173841292,
+          8.580945210290434,
+          10.743549813182886,
+          12.888392694275145
+        ],
+        "tdm_shared": [
+          0,
+          3.5772241242190863,
+          9.936267435660962,
+          14.253683661255296,
+          15.210015471393538,
+          7.0060740675289415,
+          4.816863941862677,
+          16.93343427554086,
+          40.12772893164994
+        ]
+      },
+      "separate_minus_continuous_mrad": [
+        0,
+        0.010031421395725937,
+        0.026270721591306945,
+        0.05849501710716121,
+        0.053117618540376554,
+        0.05553428156071405,
+        0.07026615869680164,
+        0.07940274514793089,
+        0.10050298090578913
+      ],
+      "shared_minus_separate_mrad": [
+        0,
+        3.1758219508676944,
+        8.675562440718679,
+        12.127065534052253,
+        10.933399229295713,
+        0.5726088936876499,
+        -3.7640812684277565,
+        6.189884462357975,
+        27.239336237374793
+      ]
+    },
+    {
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "checkpoint_s": [
+        0.06,
+        1,
+        3,
+        5,
+        10,
+        15,
+        20,
+        25,
+        29.99
+      ],
+      "split_effect_mrad": {
+        "continuous": [
+          0,
+          -1.594159616935735,
+          -5.014708843553556,
+          -8.435538643110819,
+          -16.98194527412105,
+          -25.481081221163034,
+          -34.005323377072024,
+          -42.42911658277869,
+          -50.8721324952277
+        ],
+        "tdm_separate": [
+          0,
+          -1.5957276575776904,
+          -5.022962610860206,
+          -8.452323360954786,
+          -16.992762596291,
+          -25.51848321529049,
+          -34.022113345131814,
+          -42.50047123721171,
+          -50.93140945339398
+        ],
+        "tdm_shared": [
+          0,
+          -6.8767547959471065,
+          -16.18067767891934,
+          -17.950602872735008,
+          -9.938266830331223,
+          -36.85013344802667,
+          -93.16020064965751,
+          -138.3559075868411,
+          -146.1421293988824
+        ]
+      },
+      "separate_minus_continuous_mrad": [
+        0,
+        -0.0015680406419553705,
+        -0.008253767306650062,
+        -0.016784717843966845,
+        -0.010817322169952348,
+        -0.03740199412745682,
+        -0.016789968059789828,
+        -0.0713546544330228,
+        -0.059276958166279314
+      ],
+      "shared_minus_separate_mrad": [
+        0,
+        -5.281027138369416,
+        -11.157715068059137,
+        -9.498279511780222,
+        7.0544957659597785,
+        -11.331650232736177,
+        -59.1380873045257,
+        -95.8554363496294,
+        -95.2107199454884
+      ]
+    },
+    {
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "checkpoint_s": [
+        0.06,
+        1,
+        3,
+        5,
+        10,
+        15,
+        20,
+        25,
+        29.99
+      ],
+      "split_effect_mrad": {
+        "continuous": [
+          0,
+          1.5796134085496234,
+          5.019315720550565,
+          8.412767854105569,
+          17.019824006597364,
+          25.607953412768822,
+          34.17922537902805,
+          42.809722407735876,
+          51.356946047566154
+        ],
+        "tdm_separate": [
+          0,
+          1.6012147620043655,
+          5.033198796833135,
+          8.465164059248837,
+          17.057442912512492,
+          25.65941126498412,
+          34.26692392711225,
+          42.88022823716529,
+          51.46995774122222
+        ],
+        "tdm_shared": [
+          0,
+          7.474423109034677,
+          18.054599642699387,
+          20.869572200683205,
+          10.629999271808451,
+          30.720513363308747,
+          88.4703754496329,
+          145.95192831447034,
+          170.3529949801659
+        ]
+      },
+      "separate_minus_continuous_mrad": [
+        0,
+        0.021601353454742123,
+        0.01388307628257035,
+        0.052396205143267593,
+        0.037618905915127954,
+        0.05145785221529664,
+        0.08769854808420519,
+        0.07050582942941475,
+        0.11301169365606256
+      ],
+      "shared_minus_separate_mrad": [
+        0,
+        5.873208347030312,
+        13.021400845866252,
+        12.404408141434368,
+        -6.427443640704041,
+        5.061102098324628,
+        54.203451522520645,
+        103.07170007730505,
+        118.88303723894369
+      ]
+    }
+  ],
+  "signed_pairs": [
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.99379129296822,
+      "negative_fit_mrad_s": -49.99379129296822,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.012417414063559118,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.97469527042114,
+      "negative_fit_mrad_s": -199.97469527042114,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.012652364789433879,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.997036236163005,
+      "negative_fit_mrad_s": -49.997036236163005,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.0059275276739878535,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.9756718850045,
+      "negative_fit_mrad_s": -199.97567157045378,
+      "even_mrad_s": 1.5727535185305896e-07,
+      "odd_scale_error_pct": -0.01216413613542855,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 25,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.567673264195925,
+      "negative_fit_mrad_s": -50.41168027994455,
+      "even_mrad_s": -0.4220035078743116,
+      "odd_scale_error_pct": -0.020646455859518742,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 25,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.63266968803947,
+      "negative_fit_mrad_s": -200.2776059340882,
+      "even_mrad_s": -0.3224681230243647,
+      "odd_scale_error_pct": -0.02243109446808944,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 25,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 50.426143813273086,
+      "negative_fit_mrad_s": -49.57789510023814,
+      "even_mrad_s": 0.42412435651747415,
+      "odd_scale_error_pct": 0.0040389135112173236,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 25,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 200.3227618172659,
+      "negative_fit_mrad_s": -199.67968630015704,
+      "even_mrad_s": 0.32153775855442746,
+      "odd_scale_error_pct": 0.0006120293557287937,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 48.29110350042362,
+      "negative_fit_mrad_s": -51.65846520036963,
+      "even_mrad_s": -1.6836808499730083,
+      "odd_scale_error_pct": -0.0504312992067546,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 198.60044794419954,
+      "negative_fit_mrad_s": -201.1779939109091,
+      "even_mrad_s": -1.2887729833547752,
+      "odd_scale_error_pct": -0.05538953622283849,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 51.708970643421864,
+      "negative_fit_mrad_s": -48.335363315693236,
+      "even_mrad_s": 1.686803663864314,
+      "odd_scale_error_pct": 0.04433395911511706,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 201.36211614561302,
+      "negative_fit_mrad_s": -198.7879467157187,
+      "even_mrad_s": 1.2870847149471558,
+      "odd_scale_error_pct": 0.037515715332925303,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.99096900003631,
+      "negative_fit_mrad_s": -49.99096900003631,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.018061999927387884,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.96360691183148,
+      "negative_fit_mrad_s": -199.96360691183148,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.01819654408425908,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.99094954632223,
+      "negative_fit_mrad_s": -49.99094954632223,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.018100907355544926,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.9638760332133,
+      "negative_fit_mrad_s": -199.96388701390018,
+      "even_mrad_s": -5.4903434403286155e-06,
+      "odd_scale_error_pct": -0.01805923822163491,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.56224837718472,
+      "negative_fit_mrad_s": -50.407606843033854,
+      "even_mrad_s": -0.42267923292456544,
+      "odd_scale_error_pct": -0.030144779781426934,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.6181106078226,
+      "negative_fit_mrad_s": -200.26652540516628,
+      "even_mrad_s": -0.3242073986718452,
+      "odd_scale_error_pct": -0.028840996752788062,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 50.42111613364461,
+      "negative_fit_mrad_s": -49.57506467185945,
+      "even_mrad_s": 0.42302573089257933,
+      "odd_scale_error_pct": -0.0038191944959464763,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 200.31300045872092,
+      "negative_fit_mrad_s": -199.66410809912352,
+      "even_mrad_s": 0.3244461797986986,
+      "odd_scale_error_pct": -0.0057228605388925935,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 48.281834009023484,
+      "negative_fit_mrad_s": -51.65095438112257,
+      "even_mrad_s": -1.6845601860495414,
+      "odd_scale_error_pct": -0.06721160985395658,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 198.5860448939329,
+      "negative_fit_mrad_s": -201.16829340706641,
+      "even_mrad_s": -1.2911242565667607,
+      "odd_scale_error_pct": -0.06141542475017747,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 51.705585679264736,
+      "negative_fit_mrad_s": -48.33146064161352,
+      "even_mrad_s": 1.6870625188256092,
+      "odd_scale_error_pct": 0.03704632087826454,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 201.3538638320314,
+      "negative_fit_mrad_s": -198.76973338269946,
+      "even_mrad_s": 1.2920652246659756,
+      "odd_scale_error_pct": 0.03089930368271876,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.99135645673117,
+      "negative_fit_mrad_s": -49.99135645673117,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.017287086537665086,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.9635299106121,
+      "negative_fit_mrad_s": -199.9635299106121,
+      "even_mrad_s": 0,
+      "odd_scale_error_pct": -0.01823504469394832,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 49.99341106338821,
+      "negative_fit_mrad_s": -49.993408040095304,
+      "even_mrad_s": 1.5116464524567164e-06,
+      "odd_scale_error_pct": -0.013180896516484797,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 199.96368999242534,
+      "negative_fit_mrad_s": -199.96369272865277,
+      "even_mrad_s": -1.3681137147614209e-06,
+      "odd_scale_error_pct": -0.018154319730467883,
+      "both_rate_gates_pass": true
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 46.659956485014504,
+      "negative_fit_mrad_s": -52.7858326812737,
+      "even_mrad_s": -3.0629380981295995,
+      "odd_scale_error_pct": -0.5542108337117879,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 196.02814772808156,
+      "negative_fit_mrad_s": -201.81491707537478,
+      "even_mrad_s": -2.893384673646608,
+      "odd_scale_error_pct": -0.5392337991359186,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 53.12661343083758,
+      "negative_fit_mrad_s": -46.359812806458805,
+      "even_mrad_s": 3.383400312189387,
+      "odd_scale_error_pct": -0.5135737627036119,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 202.19374137155626,
+      "negative_fit_mrad_s": -195.80691823569325,
+      "even_mrad_s": 3.1934115679315056,
+      "odd_scale_error_pct": -0.4998350981876176,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 44.00266721777414,
+      "negative_fit_mrad_s": -55.05782061339184,
+      "even_mrad_s": -5.5275766978088505,
+      "odd_scale_error_pct": -0.9395121688340335,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 192.91191759880917,
+      "negative_fit_mrad_s": -203.4292122226101,
+      "even_mrad_s": -5.258647311900461,
+      "odd_scale_error_pct": -0.9147175446451827,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.05,
+      "positive_fit_mrad_s": 55.71967695430853,
+      "negative_fit_mrad_s": -43.38614797520962,
+      "even_mrad_s": 6.1667644895494576,
+      "odd_scale_error_pct": -0.8941750704818507,
+      "both_rate_gates_pass": false
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "abs_rate_rad_s": 0.2,
+      "positive_fit_mrad_s": 204.13092200520325,
+      "negative_fit_mrad_s": -192.40977646734387,
+      "even_mrad_s": 5.860572768929686,
+      "odd_scale_error_pct": -0.8648253818632323,
+      "both_rate_gates_pass": false
+    }
+  ],
+  "width_order_bits": [
+    10,
+    16
+  ],
+  "width_contrasts": [
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        0,
+        0
+      ],
+      "endpoint_error_mrad": [
+        0,
+        0
+      ],
+      "rms_error_mrad": [
+        0,
+        0
+      ],
+      "detrended_rms_mrad": [
+        0,
+        0
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        -0.025099082538356608,
+        -0.00620870703177904
+      ],
+      "endpoint_error_mrad": [
+        0.4411881969791087,
+        -0.018335244774875248
+      ],
+      "rms_error_mrad": [
+        0.5493053217515833,
+        0.009185348070005662
+      ],
+      "detrended_rms_mrad": [
+        0.32149521154241145,
+        0.0023063554179662783
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        0.025099082538356608,
+        0.00620870703177904
+      ],
+      "endpoint_error_mrad": [
+        -0.4411881969791087,
+        0.018335244774875248
+      ],
+      "rms_error_mrad": [
+        0.5493053217515833,
+        0.009185348070005662
+      ],
+      "detrended_rms_mrad": [
+        0.32149521154241145,
+        0.0023063554179662783
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        0,
+        0
+      ],
+      "endpoint_error_mrad": [
+        0,
+        0
+      ],
+      "rms_error_mrad": [
+        0,
+        0
+      ],
+      "detrended_rms_mrad": [
+        0,
+        0
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        0.0016310319718197664,
+        -0.00296376383699697
+      ],
+      "endpoint_error_mrad": [
+        -0.10995244529385384,
+        -0.014870553828733035
+      ],
+      "rms_error_mrad": [
+        0.11578217370944036,
+        0.00862485730635756
+      ],
+      "detrended_rms_mrad": [
+        0.08932327456712201,
+        0.0018370365835072805
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        -0.0016310319718180098,
+        0.00296376383699697
+      ],
+      "endpoint_error_mrad": [
+        0.10995244529385384,
+        0.014870553828733035
+      ],
+      "rms_error_mrad": [
+        0.1157821737094396,
+        0.00862485730635756
+      ],
+      "detrended_rms_mrad": [
+        0.08932327456712219,
+        0.0018370365835072805
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        -1.7884170684428815,
+        -1.711389653339841
+      ],
+      "endpoint_error_mrad": [
+        -5.302971211004869,
+        -5.000036523359312
+      ],
+      "rms_error_mrad": [
+        2.921240896229419,
+        2.8828128091586875
+      ],
+      "detrended_rms_mrad": [
+        0.06575611635905995,
+        0.0017959535579752193
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        -1.7171495270037798,
+        -1.7088964995763818
+      ],
+      "endpoint_error_mrad": [
+        -5.135623195385575,
+        -4.986916521576207
+      ],
+      "rms_error_mrad": [
+        2.8646156723366283,
+        2.884605735514283
+      ],
+      "detrended_rms_mrad": [
+        0.27516093206695363,
+        0.003792457118156285
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        -1.6489983349071622,
+        -1.658465200369635
+      ],
+      "endpoint_error_mrad": [
+        -4.848436789500143,
+        -4.830725495218707
+      ],
+      "rms_error_mrad": [
+        2.8616582153602628,
+        2.8167562309912326
+      ],
+      "detrended_rms_mrad": [
+        0.2714477681280695,
+        0.015770028866147544
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        1.7019403222344505,
+        1.7056256639425158
+      ],
+      "endpoint_error_mrad": [
+        4.943841031960059,
+        5.003017925458419
+      ],
+      "rms_error_mrad": [
+        2.9610466333503025,
+        2.8654804946544603
+      ],
+      "detrended_rms_mrad": [
+        0.09572029162762082,
+        0.014637019132318244
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        1.7096848139145324,
+        1.7089706434218672
+      ],
+      "endpoint_error_mrad": [
+        4.971355744392642,
+        4.983096489298816
+      ],
+      "rms_error_mrad": [
+        2.9615133103086606,
+        2.886183972981788
+      ],
+      "detrended_rms_mrad": [
+        0.10964981453251962,
+        0.006946562047818131
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        1.6686916080887042,
+        1.6646366843067673
+      ],
+      "endpoint_error_mrad": [
+        4.87484751792805,
+        4.858919891782554
+      ],
+      "rms_error_mrad": [
+        2.8504348623937754,
+        2.8305950473728774
+      ],
+      "detrended_rms_mrad": [
+        0.10631146541229176,
+        0.015436614718305765
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        0,
+        0
+      ],
+      "endpoint_error_mrad": [
+        0,
+        0
+      ],
+      "rms_error_mrad": [
+        0,
+        0
+      ],
+      "detrended_rms_mrad": [
+        0,
+        0
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        -0.026982610823981245,
+        -0.009030999963692832
+      ],
+      "endpoint_error_mrad": [
+        0.4343942628036168,
+        -0.02769007325356676
+      ],
+      "rms_error_mrad": [
+        0.5528702413397675,
+        0.016981039629226306
+      ],
+      "detrended_rms_mrad": [
+        0.3212961460175225,
+        0.0012005976899984924
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        0.026982610823981245,
+        0.009030999963692832
+      ],
+      "endpoint_error_mrad": [
+        -0.4343942628036168,
+        0.02769007325356676
+      ],
+      "rms_error_mrad": [
+        0.5528702413397675,
+        0.016981039629226306
+      ],
+      "detrended_rms_mrad": [
+        0.3212961460175225,
+        0.0012005976899984924
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        0,
+        0
+      ],
+      "endpoint_error_mrad": [
+        0,
+        0
+      ],
+      "rms_error_mrad": [
+        0,
+        0
+      ],
+      "detrended_rms_mrad": [
+        0,
+        0
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        0.00025249709275862377,
+        -0.009050453677771934
+      ],
+      "endpoint_error_mrad": [
+        -0.2393686133252415,
+        -0.026650490823149076
+      ],
+      "rms_error_mrad": [
+        0.14246607939524372,
+        0.016103932488766903
+      ],
+      "detrended_rms_mrad": [
+        0.09166498096567598,
+        0.000881501343284359
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        -0.00025249709275862377,
+        0.009050453677771934
+      ],
+      "endpoint_error_mrad": [
+        0.2393686133252415,
+        0.026650490823149076
+      ],
+      "rms_error_mrad": [
+        0.14246607939524372,
+        0.016103932488766903
+      ],
+      "detrended_rms_mrad": [
+        0.09166498096567598,
+        0.000881501343284359
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        -1.7907924345491886,
+        -1.7135354375262506
+      ],
+      "endpoint_error_mrad": [
+        -5.311825576669694,
+        -5.005747630731465
+      ],
+      "rms_error_mrad": [
+        2.9243606487158025,
+        2.8867235152244572
+      ],
+      "detrended_rms_mrad": [
+        0.06618436746900841,
+        0.0013826051979243643
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        -1.7234276483557947,
+        -1.718165990976519
+      ],
+      "endpoint_error_mrad": [
+        -5.156420607030865,
+        -5.014254377842669
+      ],
+      "rms_error_mrad": [
+        2.887508929260269,
+        2.8993820126176097
+      ],
+      "detrended_rms_mrad": [
+        0.27478543494467816,
+        0.003902491435805599
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        -1.6480508105885443,
+        -1.6509543811225638
+      ],
+      "endpoint_error_mrad": [
+        -4.8618720153207065,
+        -4.814749401610308
+      ],
+      "rms_error_mrad": [
+        2.8611783281743914,
+        2.807802659112088
+      ],
+      "detrended_rms_mrad": [
+        0.2712956902317354,
+        0.016275790527880033
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        1.7048803095557445,
+        1.7157612271263503
+      ],
+      "endpoint_error_mrad": [
+        4.935356456710772,
+        5.015669094397672
+      ],
+      "rms_error_mrad": [
+        2.9886972836123884,
+        2.892470539001059
+      ],
+      "detrended_rms_mrad": [
+        0.09333994197223489,
+        0.001428894687693003
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        1.7114842315828929,
+        1.7055856792647353
+      ],
+      "endpoint_error_mrad": [
+        5.000098992368695,
+        4.975314730586822
+      ],
+      "rms_error_mrad": [
+        2.9543374865304086,
+        2.880539932767332
+      ],
+      "detrended_rms_mrad": [
+        0.1071377424342425,
+        0.005844016380948036
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        1.6733129413474617,
+        1.6685393583864832
+      ],
+      "endpoint_error_mrad": [
+        4.847506115421868,
+        4.8689969098377475
+      ],
+      "rms_error_mrad": [
+        2.8058072834665895,
+        2.8354074115065213
+      ],
+      "detrended_rms_mrad": [
+        0.104027996181173,
+        0.014254171155717501
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        0,
+        0
+      ],
+      "endpoint_error_mrad": [
+        0,
+        0
+      ],
+      "rms_error_mrad": [
+        0,
+        0
+      ],
+      "detrended_rms_mrad": [
+        0,
+        0
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        -0.022833481911835096,
+        -0.008643543268831214
+      ],
+      "endpoint_error_mrad": [
+        0.3974694380834698,
+        -0.026306970156098064
+      ],
+      "rms_error_mrad": [
+        0.5568475795376516,
+        0.015624101677223919
+      ],
+      "detrended_rms_mrad": [
+        0.32198925111237414,
+        0.0013120052256383695
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 0,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        0.022833481911835096,
+        0.008643543268831214
+      ],
+      "endpoint_error_mrad": [
+        -0.3974694380834698,
+        0.026306970156098064
+      ],
+      "rms_error_mrad": [
+        0.5568475795376516,
+        0.015624101677223919
+      ],
+      "detrended_rms_mrad": [
+        0.32198925111237414,
+        0.0013120052256383695
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        0,
+        0
+      ],
+      "endpoint_error_mrad": [
+        0,
+        0
+      ],
+      "rms_error_mrad": [
+        0,
+        0
+      ],
+      "detrended_rms_mrad": [
+        0,
+        0
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        -0.00045670646451016045,
+        -0.006588936611789831
+      ],
+      "endpoint_error_mrad": [
+        -0.10967862819946661,
+        -0.016940125505043868
+      ],
+      "rms_error_mrad": [
+        0.12201631677841536,
+        0.010362378781159502
+      ],
+      "detrended_rms_mrad": [
+        0.09494991686413413,
+        0.0015169395613974825
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        0.00045670646451016045,
+        0.006591959904696662
+      ],
+      "endpoint_error_mrad": [
+        0.10967862819946661,
+        0.0169401255052104
+      ],
+      "rms_error_mrad": [
+        0.12201631677841536,
+        0.010365327991069354
+      ],
+      "detrended_rms_mrad": [
+        0.09494991686413413,
+        0.0015184450031986555
+      ],
+      "rate_gate_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        -5.678699475694972,
+        -5.546540706454178
+      ],
+      "endpoint_error_mrad": [
+        -15.946294619744519,
+        -16.155086542649546
+      ],
+      "rms_error_mrad": [
+        10.584499006842266,
+        10.512163279185526
+      ],
+      "detrended_rms_mrad": [
+        0.7349885426477718,
+        0.5987886545854532
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        -6.014421560543658,
+        -5.997332782225863
+      ],
+      "endpoint_error_mrad": [
+        -17.448687532677088,
+        -17.42045534298259
+      ],
+      "rms_error_mrad": [
+        11.20896868146904,
+        11.106461581256408
+      ],
+      "detrended_rms_mrad": [
+        0.6100015262097851,
+        0.5294508647854889
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 0,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        -5.053661951596761,
+        -5.05782061339184
+      ],
+      "endpoint_error_mrad": [
+        -14.835979063183984,
+        -14.794858413482409
+      ],
+      "rms_error_mrad": [
+        9.851139558145706,
+        9.875989771830014
+      ],
+      "detrended_rms_mrad": [
+        0.7239944786152445,
+        0.6747514078472215
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "rate_error_mrad_s": [
+        6.1940596158766885,
+        6.187502559019526
+      ],
+      "endpoint_error_mrad": [
+        18.1531000979537,
+        18.020550932806657
+      ],
+      "rms_error_mrad": [
+        11.619563295486687,
+        11.59061525411217
+      ],
+      "detrended_rms_mrad": [
+        0.5710955815261713,
+        0.6001065156418052
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "rate_error_mrad_s": [
+        5.720597571803762,
+        5.719676954308535
+      ],
+      "endpoint_error_mrad": [
+        16.720024718326037,
+        16.69918579112317
+      ],
+      "rms_error_mrad": [
+        11.005241099450716,
+        10.98832473640826
+      ],
+      "detrended_rms_mrad": [
+        0.6917986124952258,
+        0.6821680519837857
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "initial_beta_deg": 22.5,
+      "rate_rad_s": -0.05,
+      "rate_error_mrad_s": [
+        6.6144223204281305,
+        6.613852024790384
+      ],
+      "endpoint_error_mrad": [
+        19.170506105772755,
+        19.24206956702723
+      ],
+      "rms_error_mrad": [
+        12.101111091021536,
+        12.144480592267893
+      ],
+      "detrended_rms_mrad": [
+        0.5337221597074234,
+        0.52564587706402
+      ],
+      "rate_gate_pass": [
+        false,
+        false
+      ]
+    }
+  ],
+  "quality_by_mode_and_split": [
+    {
+      "mode": "continuous",
+      "split_mHz": 0,
+      "zero": {
+        "count": 2,
+        "rate_pass": 2,
+        "angle_rms_pass": 2,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 1,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6437869977293444,
+        "max_abs_rate_error_mrad_s": 5.742686419203978e-08,
+        "max_rms_error_mrad": 1.2050675820683429e-05
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 8,
+        "angle_rms_pass": 8,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 4,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6437869977077704,
+        "max_abs_rate_error_mrad_s": 0.025304729578864774,
+        "max_rms_error_mrad": 0.04381812877613872
+      }
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 25,
+      "zero": {
+        "count": 2,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 1,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6437873407572842,
+        "max_abs_rate_error_mrad_s": 0.4296749374166344,
+        "max_rms_error_mrad": 7.418166614873721
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 0,
+        "angle_rms_pass": 8,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 4,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6437873407487867,
+        "max_abs_rate_error_mrad_s": 0.43232673580407316,
+        "max_rms_error_mrad": 0.7303125845261451
+      }
+    },
+    {
+      "mode": "continuous",
+      "split_mHz": 50,
+      "zero": {
+        "count": 2,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 1,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6437876857872531,
+        "max_abs_rate_error_mrad_s": 1.717715791990401,
+        "max_rms_error_mrad": 29.636397684818224
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 4,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6437876857918193,
+        "max_abs_rate_error_mrad_s": 1.7089706434218672,
+        "max_rms_error_mrad": 2.886183972981788
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "zero": {
+        "count": 2,
+        "rate_pass": 2,
+        "angle_rms_pass": 2,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6426627728683941,
+        "max_abs_rate_error_mrad_s": 0,
+        "max_rms_error_mrad": 0
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 8,
+        "angle_rms_pass": 8,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6426596963237585,
+        "max_abs_rate_error_mrad_s": 0.03639308816851034,
+        "max_rms_error_mrad": 0.06098373284757408
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "zero": {
+        "count": 2,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6426605349681145,
+        "max_abs_rate_error_mrad_s": 0.43077835388991487,
+        "max_rms_error_mrad": 7.440404889422579
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 0,
+        "angle_rms_pass": 8,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6426579965727965,
+        "max_abs_rate_error_mrad_s": 0.4377516228152803,
+        "max_rms_error_mrad": 0.7400423779634814
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "zero": {
+        "count": 2,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6426536491339602,
+        "max_abs_rate_error_mrad_s": 1.720468759911462,
+        "max_rms_error_mrad": 29.699759165050562
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6426524182627985,
+        "max_abs_rate_error_mrad_s": 1.718165990976519,
+        "max_rms_error_mrad": 2.8993820126176097
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "zero": {
+        "count": 2,
+        "rate_pass": 2,
+        "angle_rms_pass": 2,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6434076302759257,
+        "max_abs_rate_error_mrad_s": 0,
+        "max_rms_error_mrad": 0
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 8,
+        "angle_rms_pass": 8,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6432142267075264,
+        "max_abs_rate_error_mrad_s": 0.03647008938791325,
+        "max_rms_error_mrad": 0.061395351821793696
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "zero": {
+        "count": 2,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6525920259655914,
+        "max_abs_rate_error_mrad_s": 0.6788994110300479,
+        "max_rms_error_mrad": 16.275136593522
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6432027566171507,
+        "max_abs_rate_error_mrad_s": 4.193081764306759,
+        "max_rms_error_mrad": 7.066355682627758
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "zero": {
+        "count": 2,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 2,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6525748306139143,
+        "max_abs_rate_error_mrad_s": 6.216396857185913,
+        "max_rms_error_mrad": 86.7433285936797
+      },
+      "signed": {
+        "count": 8,
+        "rate_pass": 0,
+        "angle_rms_pass": 0,
+        "adc_peak_pass": 8,
+        "dac_clip_case_count": 0,
+        "adc_clip_case_count": 0,
+        "max_adc_sense_peak_V": 0.6431930501456208,
+        "max_abs_rate_error_mrad_s": 7.590223532656126,
+        "max_rms_error_mrad": 13.441685915954036
+      }
+    }
+  ]
+}
