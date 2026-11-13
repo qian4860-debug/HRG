@@ -1,0 +1,112 @@
+{
+  "release": "2025a",
+  "scope": "native ADC dither parity, 6 ms cases",
+  "models": [
+    "hrg_5e_continuous_dither_inspect",
+    "hrg_5e_tdm_shared_dither_inspect"
+  ],
+  "checks": [
+    {
+      "mode": "continuous",
+      "case_name": "default",
+      "adc_samples": 6529,
+      "frames": 40,
+      "adc_dither_lsb_rms": 0,
+      "observed_dither_rms_V": [
+        0,
+        0
+      ],
+      "clipped_monitor_samples": 0,
+      "max_trace_difference": 1.9650947535865271E-14,
+      "max_frame_difference": 1.9650947535865271E-14,
+      "max_adc_input_difference_V": 1.3877787807814457E-17,
+      "adc_codes_equal": true,
+      "dither_rng_equal": true
+    },
+    {
+      "mode": "continuous",
+      "case_name": "positive",
+      "adc_samples": 6529,
+      "frames": 40,
+      "adc_dither_lsb_rms": 0.3,
+      "observed_dither_rms_V": [
+        8.9860360486107111E-6,
+        9.209833202063211E-6
+      ],
+      "clipped_monitor_samples": 0,
+      "max_trace_difference": 1.9761969838327786E-14,
+      "max_frame_difference": 1.9761969838327786E-14,
+      "max_adc_input_difference_V": 1.3877787807814457E-17,
+      "adc_codes_equal": true,
+      "dither_rng_equal": true
+    },
+    {
+      "mode": "continuous",
+      "case_name": "forced_clip",
+      "adc_samples": 6529,
+      "frames": 0,
+      "adc_dither_lsb_rms": 0.3,
+      "observed_dither_rms_V": [
+        8.9860360486107111E-6,
+        9.209833202063211E-6
+      ],
+      "clipped_monitor_samples": 5377,
+      "max_trace_difference": 0,
+      "max_frame_difference": 0,
+      "max_adc_input_difference_V": 1.3877787807814457E-17,
+      "adc_codes_equal": true,
+      "dither_rng_equal": true
+    },
+    {
+      "mode": "tdm_shared",
+      "case_name": "default",
+      "adc_samples": 32641,
+      "frames": 10,
+      "adc_dither_lsb_rms": 0,
+      "observed_dither_rms_V": [
+        0,
+        0
+      ],
+      "clipped_monitor_samples": 0,
+      "max_trace_difference": 1.3176126856251358E-12,
+      "max_frame_difference": 1.3176126856251358E-12,
+      "max_adc_input_difference_V": 1.3877787807814457E-17,
+      "adc_codes_equal": true,
+      "dither_rng_equal": true
+    },
+    {
+      "mode": "tdm_shared",
+      "case_name": "positive",
+      "adc_samples": 32641,
+      "frames": 10,
+      "adc_dither_lsb_rms": 0.3,
+      "observed_dither_rms_V": [
+        0.00058493660937705965,
+        0.0005884041073721955
+      ],
+      "clipped_monitor_samples": 0,
+      "max_trace_difference": 1.3170575741128232E-12,
+      "max_frame_difference": 1.3170575741128232E-12,
+      "max_adc_input_difference_V": 2.7755575615628914E-17,
+      "adc_codes_equal": true,
+      "dither_rng_equal": true
+    },
+    {
+      "mode": "tdm_shared",
+      "case_name": "forced_clip",
+      "adc_samples": 32641,
+      "frames": 0,
+      "adc_dither_lsb_rms": 0.3,
+      "observed_dither_rms_V": [
+        0.00058493660937705965,
+        0.0005884041073721955
+      ],
+      "clipped_monitor_samples": 6715,
+      "max_trace_difference": 8.6736173798840355E-19,
+      "max_frame_difference": 0,
+      "max_adc_input_difference_V": 2.7755575615628914E-17,
+      "adc_codes_equal": true,
+      "dither_rng_equal": true
+    }
+  ]
+}

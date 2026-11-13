@@ -26,6 +26,12 @@ x=c.x0; cmd=c.startCommand; acc=zeros(4,1); iq=zeros(4,1);
 seen=false; lost=false; clipped=false; published=false; lastAz=0; angle=0;
 lat=c.adcLatency; fifo=zeros(3,max(1,lat));
 noiseState=[c.p.noise_seed;c.p.noise_seed+1];
+% 历史配置可能没有抖动字段。关闭时保持原有逐拍算术与轨迹。
+ditherScale = 0;
+if isfield(c.p,'adc_dither_lsb_rms')
+    ditherScale = sqrt(12)*(c.p.adc_dither_lsb_rms*c.adcStep);
+    ditherState = c.p.adc_dither_seeds(:);
+end
 heldDAC=zeros(2,1);
 % 载波初相同时作用在 DAC 调制和相应采样拍的 ADC 解调。
 carrierPhase = 0;
@@ -46,6 +52,13 @@ for k=0:N-1
     noiseState=mod(1664525*noiseState+1013904223,2^32);
     cleanADC=c.pickoff*x;
     analog=cleanADC+noise;
+    if ditherScale>0
+        % 独立于原噪声的两路确定性发生器，每个物理采样拍先取值再更新。
+        % 69069×32 位无符号状态在 double 精确整数范围内。
+        dither = ditherScale*(ditherState/2^32-.5);
+        ditherState = mod(69069*ditherState+1,2^32);
+        analog = analog+dither;
+    end
     clipNow=validSample && any(analog<c.adcMin | analog>c.adcMax);
     adcNow=zeros(2,1);
     if validSample, adcNow=quantize(analog,c.adcStep,c.adcMin,c.adcMax); end

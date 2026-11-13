@@ -1,4 +1,4 @@
-function models = h68_build(outDir, models, configs, inspect)
+function models = h68_build(outDir, models, configs, inspect, includeAdcDither)
 % 生成三份 6800 Hz 原生 Simulink 模型，并把默认参数写入模型工作区。
 % 只使用原生 Gain/Sum/Delay/Switch 等块，不生成 MATLAB Function 或 S-Function。
 % Generate native Simulink diagrams and save their default model workspace.
@@ -7,6 +7,7 @@ arguments
     models (1,:) cell = {'hrg_6800_continuous', 'hrg_6800_tdm_shared', 'hrg_6800_tdm_separate'}
     configs (1,:) cell = {}
     inspect (1,1) logical = false
+    includeAdcDither (1,1) logical = false
 end
 if isempty(configs)
     modes = {'continuous','tdm_shared','tdm_separate'};
@@ -30,7 +31,10 @@ for k = 1:numel(models)
     s = group(m,'Carrier',{}, {'Cos','Sin'}); carrier(s,c);
     s = group(m,'ADC sample alignment',{'Slot','Capture','Cos','Sin'}, {'Slot delayed','Capture delayed','Cos delayed','Sin delayed'}); alignment(s);
     s = group(m,'Converters',{'ADC input','Command','Drive','Valid','Cos','Sin'}, ...
-        {'DAC','ADC','ADC clip','DAC clip'}); converters(s);
+        {'DAC','ADC','ADC clip','DAC clip'});
+    % 仅研究版或显式启用抖动的配置加入抖动原生支路。
+    configuredDither = isfield(c.p,'adc_dither_lsb_rms') && c.p.adc_dither_lsb_rms > 0;
+    converters(s,includeAdcDither || configuredDither);
     plantName = 'Separate electrodes';
     if c.reuse, plantName = 'Shared electrode switch'; end
     plantOutputs = {'AFE','Motion','Sense electrode'};
@@ -117,7 +121,7 @@ sine = block(s,'Sine NCO','Sources/Sine Wave','Frequency','c.w','Phase',phase,'S
 outputs(s,{'Cos','Sin'},cosine,sine);
 end
 
-function converters(s)
+function converters(s, includeAdcDither)
 zero = constant(s,'Zero volts','zeros(2,1)');
 cmdCos = gain(s,'DAC cosine coefficients','[eye(2) zeros(2)]','Command');
 cmdSin = gain(s,'DAC sine coefficients','[zeros(2) eye(2)]','Command');
@@ -137,6 +141,19 @@ wire(s,noiseNext,1,noiseState,1);
 noise = gain(s,'ADC noise RMS','sqrt(12)*c.p.adc_noise_rms',sumblk(s,'Centered uniform noise','+-', ...
     gain(s,'Uniform generator','1/2^32',noiseState),constant(s,'Noise midpoint','0.5')));
 adcInput = sumblk(s,'ADC input and noise','++','ADC input',noise);
+if includeAdcDither
+    % 量化前注入可配置的双路均匀抖动。使用独立种子，每个 ADC 时钟推进，
+    % 包含无效窗。先加既有 ADC 噪声，再加抖动，过载和量化共用同一电压。
+    ditherState = delay(s,'ADC dither generator','c.p.adc_dither_seeds(:)');
+    ditherNext = binary(s,'Dither LCG modulo','Math Operations/Math Function', ...
+        sumblk(s,'Dither LCG increment','++',gain(s,'Dither LCG multiplier','69069',ditherState), ...
+        constant(s,'Dither LCG offset','1')),constant(s,'Dither LCG modulus','2^32'),'Operator','mod');
+    wire(s,ditherNext,1,ditherState,1);
+    ditherCentered = sumblk(s,'Dither centered uniform','+-', ...
+        gain(s,'Dither uniform generator','1/2^32',ditherState),constant(s,'Dither midpoint','0.5'));
+    dither = gain(s,'ADC dither voltage','sqrt(12)*(c.p.adc_dither_lsb_rms*c.adcStep)',ditherCentered);
+    adcInput = sumblk(s,'ADC input with dither','++',adcInput,dither);
+end
 adcNow = select(s,'ADC valid gate',convert(s,'ADC quantizer',adcInput,'adc'),'Valid',zero);
 adc = pipeline(s,'ADC pipeline data',adcNow,'0');
 % Dot product reduces both per-channel flags to a scalar.

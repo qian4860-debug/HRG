@@ -28,6 +28,8 @@ p.adc_span=2; p.dac_span=1; p.vmax=.5;
 p.bleed_R=15000; p.reset_tau=2e-6;
 p.agc_bw=10; p.quad_bw=4; p.adc_latency=1;
 p.log_decimation=200; p.adc_noise_rms=0; p.noise_seed=52;
+% 可选非减法均匀抖动在量化前注入。单位为 ADC LSB RMS，每轴有独立状态。
+p.adc_dither_lsb_rms=0; p.adc_dither_seeds=[1103515245 2246822519];
 p.dac_divisor=1;
 p.allow_adc_underclock=false; p.seed_enabled=false;
 p.seed_seconds=.03; p.seed_voltage=.2;
@@ -61,6 +63,11 @@ assert(p.Q>0 && p.Cs>0 && p.aaf_order==4);
 assert(p.dac_divisor>=1 && p.dac_divisor==round(p.dac_divisor) && mod(n,p.dac_divisor)==0);
 assert(p.fs/p.dac_divisor>2*(p.f0+p.split_hz/2));
 assert(p.adc_latency>=0 && p.adc_latency==round(p.adc_latency));
+validateattributes(p.adc_dither_lsb_rms,{'double'},{'real','finite','scalar','nonnegative'});
+validateattributes(p.adc_dither_seeds,{'double'}, ...
+    {'real','finite','integer','numel',2,'>=',0,'<',2^32});
+p.adc_dither_seeds=p.adc_dither_seeds(:);
+assert(numel(unique(p.adc_dither_seeds))==2,'ADC 抖动两路种子必须不同。');
 c=struct('mode',mode,'reuse',strcmp(mode,'tdm_shared'),'continuous',strcmp(mode,'continuous'), ...
     'Ts',p.Ts,'w',2*pi*p.carrier_hz,'omega',omega,'duration',p.duration,'B',p.B,'n',n, ...
     'adcLatency',p.adc_latency,'logDecimation',p.log_decimation,'p',p);

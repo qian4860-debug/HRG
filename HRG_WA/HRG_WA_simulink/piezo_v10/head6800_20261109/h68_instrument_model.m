@@ -38,7 +38,9 @@ ports = {
     plant, voltagePort, voltageName
     [plant '/Filtered equivalent CV input'], 1, 'cv_input_filtered'
     [plant '/THX2024 matched CV gain'], 1, 'cv_output_V'
-    [converters '/ADC input and noise'], 1, 'adc_input_V'
+    [converters '/ADC input with dither'], 1, 'adc_input_V'
+    [converters '/ADC input and noise'], 1, 'adc_input_pre_dither_V'
+    [converters '/ADC dither voltage'], 1, 'adc_dither_V'
     converters, 1, 'dac_output_V'
     converters, 2, 'adc_output_V'
     converters, 3, 'adc_clip'
@@ -53,6 +55,12 @@ ports = {
     angle, 4, 'angle_valid'
     angle, 5, 'tracking_lost'
     };
+% 旧图没有抖动节点，仍可以用同一入口追加原有波形标记。
+if getSimulinkBlockHandle([converters '/ADC input with dither']) < 0
+    newPorts = cellfun(@(name) startsWith(name,'adc_input_') || strcmp(name,'adc_dither_V'),ports(:,3));
+    ports(newPorts,:) = [];
+    ports(end+1,:) = {[converters '/ADC input and noise'],1,'adc_input_V'};
+end
 for k = 1:size(ports,1)
     handles = get_param(ports{k,1},'PortHandles');
     set_param(handles.Outport(ports{k,2}),'DataLogging','on', ...
@@ -95,7 +103,7 @@ addNote(timing,{timingNote,'timing_valid 为 ADC 采样窗口，捕获脉冲位�
 addNote([model '/Carrier'],{'载波源同时产生 cos 和 sin，供调制与相干解调共用。'});
 addNote(alignment,{'流水延迟对齐槽号、捕获脉冲和载波相位，解调使用 ADC 对应采样时刻。'});
 addNote(converters,{'DAC 输出是 X/Y 驱动电压指令，ADC 输出是量化并经流水延迟后的等效电压。', ...
-    'adc_input_V 在 ADC 量化前，包含配置的噪声。adc_clip 和 dac_clip 分别观察。'});
+    'adc_input_V 含噪声和可选抖动，在 ADC 量化前。adc_clip 与 dac_clip 分别观察。'});
 addNote(plant,{routing, ...
     voltageNote, ...
     'cv_output_V 为 thx2024 等效增益输出，afe_xy_V 为组合后的双路 ADC 模拟输入。'});
