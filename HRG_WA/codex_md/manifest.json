@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-14",
-  "source_base_commit": "5ba777e2ede6eb53bf8bed6f644403013ff2eaa3",
+  "source_base_commit": "8ffb3fa833ccc92c76394a95eab581713e9af689",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3101,12 +3101,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "5ba777e2ede6eb53bf8bed6f644403013ff2eaa3",
+      "source_commit": "8ffb3fa833ccc92c76394a95eab581713e9af689",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "bc7bf078adbde91609a7bd362394938f27075ae1662ab09d285df44170c218bc",
-      "archive_sha256": "fdc05a95a282954ff193b9a85d32b0415c37a68f75e6de59db4ef63c392de025",
+      "source_sha256": "679efe3d2a9ebe664ef294735cadfca3372764cac062c75d00048eb0a35feaa4",
+      "archive_sha256": "4e32b48e3c073745619ec94e06c3546fbc6d24fbe9c0d66d9bb8b9ddee01675a",
       "rewritten_local_links": []
     },
     {
@@ -3741,13 +3741,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 438,
-    "kept": 147
+    "source_records": 439,
+    "kept": 148
   },
   "generated_index_sha256": {
-    "README.md": "be8082b7de689980a2bb027ffba56cf838a86d296354387b334ef565875dfe39",
-    "00_文档索引.md": "4d398a88e5a79ec89736f5b9375f27a24701e7674a5b58b70fee5c8e08c20445",
-    "history_filter_audit.json": "a715645ef6296219cacb140e6e68ac617e9875324eb6a76e9f67cfb0543ac0bd"
+    "README.md": "050a1d8b8dc3bacaf0ce9c8ca2c4ebe3c72efa8d64a506387427561e2042ed40",
+    "00_文档索引.md": "f38dbaf508a2095a04f69a78c53d71ce1f9c7cbc4b4218798fadbe60bf498a6e",
+    "history_filter_audit.json": "733cde3de89faee12f711ae23fe7adab82754a82bb8403668d1f3a660085b506"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3787,6 +3787,7 @@
     "35_分时量化抖动与检测窗设计_20261113.md": "58d31a71977c5e39efcd118565017fbf9c47015825ace806d0450636f6e6b765",
     "36_分时增益决策与独立窗口盲评_20261113.md": "d900d865d5362412d7a88bef33db62d8b3eb46e56dccdec48d8aa7b71572c38b",
     "37_五电极三模式零速与低速归因_20261113.md": "6c2692319dc3b04336926bf36312d0f957e9172169a57245b1f95b80bb558707",
-    "38_新文献与五电极镜像辨识_20261114.md": "80ce0e7d8544b0c64680eeeefe5f053e9f57d427d45a5235180a2d0720b5023a"
+    "38_新文献与五电极镜像辨识_20261114.md": "80ce0e7d8544b0c64680eeeefe5f053e9f57d427d45a5235180a2d0720b5023a",
+    "39_全角陀螺论文双路线与长期写作记忆_20261114.md": "3f730307e000a91727d6849b22d7a520a196a5b1ddd38103035dd1c587679067"
   }
 }
