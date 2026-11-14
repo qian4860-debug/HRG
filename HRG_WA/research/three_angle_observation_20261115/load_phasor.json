@@ -1,0 +1,32 @@
+{
+  "release": "2025a",
+  "carrier_Hz": 6800,
+  "mutual_capacitance_F": 0,
+  "scope": "Nominal frozen-slot small-signal estimate; excludes transitions and periodic memory",
+  "windows": [
+    {
+      "window": "dedicated",
+      "non_scalar_fraction": 0,
+      "decay_increment_per_s": 0.00055513873667580981,
+      "frequency_increment_mHz": 0.0022427502228666634
+    },
+    {
+      "window": "shared_drive",
+      "non_scalar_fraction": 0,
+      "decay_increment_per_s": 1.0999999266109167E-5,
+      "frequency_increment_mHz": 4.48799969608454E-7
+    },
+    {
+      "window": "shared_bleed",
+      "non_scalar_fraction": 0,
+      "decay_increment_per_s": 0.014374508641923292,
+      "frequency_increment_mHz": 0.87971860930779155
+    },
+    {
+      "window": "shared_sense",
+      "non_scalar_fraction": 0,
+      "decay_increment_per_s": 0.0010992774740855105,
+      "frequency_increment_mHz": 0.004485051645763718
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "release": "2025a",
+  "scope": "Open-loop modal forcing decomposition of identical or drive-map-scaled DAC waveforms",
+  "duration_s": 0.18,
+  "score_start_s": 0.06,
+  "split_Hz": 0.05,
+  "rate_rad_s": 0,
+  "initial_beta_deg": [
+    22.5,
+    67.5
+  ],
+  "cases": [
+    {
+      "drive_V_rms_relative_difference": 1.000378091796553,
+      "non_drive_V_rms_relative_difference": 3.3947159951158725,
+      "non_drive_V_rms_difference": 0.0348045985989604,
+      "shared_minus_separate_angle_slope_rad_s": 0.0084900020958761421,
+      "shared_minus_separate_angle_rms_rad": 0.0006203061399883107,
+      "scored_frames": 204,
+      "source_mode": "tdm_separate",
+      "initial_beta_deg": 22.5,
+      "shared_dac_scale": 1
+    },
+    {
+      "drive_V_rms_relative_difference": 0.00072242927913748116,
+      "non_drive_V_rms_relative_difference": 1.4662874977046614,
+      "non_drive_V_rms_difference": 0.015033230426848379,
+      "shared_minus_separate_angle_slope_rad_s": 0.006556160326975838,
+      "shared_minus_separate_angle_rms_rad": 0.00044729393012493462,
+      "scored_frames": 204,
+      "source_mode": "tdm_separate",
+      "initial_beta_deg": 22.5,
+      "shared_dac_scale": 0.5
+    },
+    {
+      "drive_V_rms_relative_difference": 1.0007308792068357,
+      "non_drive_V_rms_relative_difference": 3.44902720170997,
+      "non_drive_V_rms_difference": 0.016676469972827554,
+      "shared_minus_separate_angle_slope_rad_s": 0.0046601301971375582,
+      "shared_minus_separate_angle_rms_rad": 0.0003345779341967708,
+      "scored_frames": 204,
+      "source_mode": "tdm_shared",
+      "initial_beta_deg": 22.5,
+      "shared_dac_scale": 1
+    },
+    {
+      "drive_V_rms_relative_difference": 0.0014270826034999092,
+      "non_drive_V_rms_relative_difference": 1.5878881609298436,
+      "non_drive_V_rms_difference": 0.0076776342102568458,
+      "shared_minus_separate_angle_slope_rad_s": 0.0033308310748432985,
+      "shared_minus_separate_angle_rms_rad": 0.00022575499398288869,
+      "scored_frames": 204,
+      "source_mode": "tdm_shared",
+      "initial_beta_deg": 22.5,
+      "shared_dac_scale": 0.5
+    },
+    {
+      "drive_V_rms_relative_difference": 1.0003780998170495,
+      "non_drive_V_rms_relative_difference": 3.388716946156753,
+      "non_drive_V_rms_difference": 0.034747027949970331,
+      "shared_minus_separate_angle_slope_rad_s": -0.016018071427647988,
+      "shared_minus_separate_angle_rms_rad": 0.0010642000864154063,
+      "scored_frames": 204,
+      "source_mode": "tdm_separate",
+      "initial_beta_deg": 67.5,
+      "shared_dac_scale": 1
+    },
+    {
+      "drive_V_rms_relative_difference": 0.00072531752450960465,
+      "non_drive_V_rms_relative_difference": 1.4604467071371059,
+      "non_drive_V_rms_difference": 0.014975043167853823,
+      "shared_minus_separate_angle_slope_rad_s": -0.0074883173749751217,
+      "shared_minus_separate_angle_rms_rad": 0.00050190838292938473,
+      "scored_frames": 204,
+      "source_mode": "tdm_separate",
+      "initial_beta_deg": 67.5,
+      "shared_dac_scale": 0.5
+    },
+    {
+      "drive_V_rms_relative_difference": 1.0007312954847034,
+      "non_drive_V_rms_relative_difference": 3.4373585667916471,
+      "non_drive_V_rms_difference": 0.016646876875030022,
+      "shared_minus_separate_angle_slope_rad_s": -0.0088716279735401339,
+      "shared_minus_separate_angle_rms_rad": 0.00058018759469020173,
+      "scored_frames": 204,
+      "source_mode": "tdm_shared",
+      "initial_beta_deg": 67.5,
+      "shared_dac_scale": 1
+    },
+    {
+      "drive_V_rms_relative_difference": 0.0014330070708551631,
+      "non_drive_V_rms_relative_difference": 1.5762592864676173,
+      "non_drive_V_rms_difference": 0.0076337087781449386,
+      "shared_minus_separate_angle_slope_rad_s": -0.0037725451913352,
+      "shared_minus_separate_angle_rms_rad": 0.00025192000706291209,
+      "scored_frames": 204,
+      "source_mode": "tdm_shared",
+      "initial_beta_deg": 67.5,
+      "shared_dac_scale": 0.5
+    }
+  ],
+  "exact_force_checks": [
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_separate",
+      "waveform": "dedicated_fixed_codes",
+      "reference_dedicated_slope_rad_s": 0.0016217088916671608,
+      "max_exact_replay_mechanical_state_abs_delta": 3.3683666966766168E-10,
+      "max_exact_replay_body_angle_delta_rad": 2.6633275665714946E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 4.61743293925501E-5,
+      "force_step_RMS": [
+        1.0380002552123583E-9,
+        1.0383929539445357E-9,
+        2.6432291443668271E-7,
+        2.6442294856599597E-7
+      ]
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_separate",
+      "waveform": "shared_geometric_drive_match",
+      "reference_dedicated_slope_rad_s": 0.0016217088916671608,
+      "max_exact_replay_mechanical_state_abs_delta": 3.3681901712157014E-10,
+      "max_exact_replay_body_angle_delta_rad": 2.6601290582187881E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 4.9628961809665454E-5,
+      "force_step_RMS": [
+        1.0390456921976471E-9,
+        1.0396158389121996E-9,
+        2.645891416678476E-7,
+        2.647343615579693E-7
+      ]
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_shared",
+      "waveform": "dedicated_fixed_codes",
+      "reference_dedicated_slope_rad_s": 0.0036636644638036986,
+      "max_exact_replay_mechanical_state_abs_delta": 3.2603864053015741E-10,
+      "max_exact_replay_body_angle_delta_rad": 2.7768024755655055E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 2.4794682534579795E-5,
+      "force_step_RMS": [
+        5.2110254351327029E-10,
+        5.2103924206863625E-10,
+        1.3269683344324143E-7,
+        1.3268072898545442E-7
+      ]
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_shared",
+      "waveform": "shared_geometric_drive_match",
+      "reference_dedicated_slope_rad_s": 0.0036636644638036986,
+      "max_exact_replay_mechanical_state_abs_delta": 3.2602609500997914E-10,
+      "max_exact_replay_body_angle_delta_rad": 2.7761010471753084E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 2.6655429909581667E-5,
+      "force_step_RMS": [
+        5.2197362559640356E-10,
+        5.2199521531723508E-10,
+        1.3291865614761179E-7,
+        1.3292416936979895E-7
+      ]
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_separate",
+      "waveform": "dedicated_fixed_codes",
+      "reference_dedicated_slope_rad_s": 0.001602739679588569,
+      "max_exact_replay_mechanical_state_abs_delta": 1.7372492333578293E-10,
+      "max_exact_replay_body_angle_delta_rad": 1.7423795430548603E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 4.6172817887797823E-5,
+      "force_step_RMS": [
+        1.0378109405413277E-9,
+        1.0385752693345758E-9,
+        2.6427469731102554E-7,
+        2.6446937682825025E-7
+      ]
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_separate",
+      "waveform": "shared_geometric_drive_match",
+      "reference_dedicated_slope_rad_s": 0.001602739679588569,
+      "max_exact_replay_mechanical_state_abs_delta": 1.7366708071619996E-10,
+      "max_exact_replay_body_angle_delta_rad": 1.7455920801705271E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 4.9523080911406515E-5,
+      "force_step_RMS": [
+        1.038994845140777E-9,
+        1.0396656055967649E-9,
+        2.6457618821128749E-7,
+        2.6474703409452663E-7
+      ]
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_shared",
+      "waveform": "dedicated_fixed_codes",
+      "reference_dedicated_slope_rad_s": 0.0032081505530832835,
+      "max_exact_replay_mechanical_state_abs_delta": 1.6792711665658544E-10,
+      "max_exact_replay_body_angle_delta_rad": 1.8087425844191471E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 2.4822216019018192E-5,
+      "force_step_RMS": [
+        5.2070925304513382E-10,
+        5.2081948687835817E-10,
+        1.3259667917267005E-7,
+        1.3262477011543227E-7
+      ]
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_shared",
+      "waveform": "shared_geometric_drive_match",
+      "reference_dedicated_slope_rad_s": 0.0032081505530832835,
+      "max_exact_replay_mechanical_state_abs_delta": 1.6800050239851316E-10,
+      "max_exact_replay_body_angle_delta_rad": 1.8103859282189456E-10,
+      "max_common_force_cross_topology_angle_delta_rad": 0,
+      "sampled_force_ZOH_body_angle_rms_delta_rad": 2.6633006284107119E-5,
+      "force_step_RMS": [
+        5.2163265411043542E-10,
+        5.2172723974837127E-10,
+        1.3283182628142377E-7,
+        1.328559301073466E-7
+      ]
+    }
+  ],
+  "source_drive_only_checks": [
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_separate",
+      "split_Hz": 0.05,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 8.5487172896137054E-15,
+      "shared_minus_separate_angle_slope_rad_s": 2.3327516219820412E-5,
+      "shared_minus_separate_angle_rms_rad": 1.4073490712682838E-6
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 7.8825834748386114E-15,
+      "shared_minus_separate_angle_slope_rad_s": 2.6281973678663786E-5,
+      "shared_minus_separate_angle_rms_rad": 1.589958868330427E-6
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_separate",
+      "split_Hz": 0.05,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 9.2148511043888E-15,
+      "shared_minus_separate_angle_slope_rad_s": -2.4973043421089972E-5,
+      "shared_minus_separate_angle_rms_rad": 1.4942492531969585E-6
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 6.8833827526759706E-15,
+      "shared_minus_separate_angle_slope_rad_s": -2.8163163335592391E-5,
+      "shared_minus_separate_angle_rms_rad": 1.6898141704433263E-6
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_separate",
+      "split_Hz": 0,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 9.6589403142388619E-15,
+      "shared_minus_separate_angle_slope_rad_s": -6.3471702404888207E-16,
+      "shared_minus_separate_angle_rms_rad": 2.4863620929647725E-16
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_shared",
+      "split_Hz": 0,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 1.9206858326015208E-14,
+      "shared_minus_separate_angle_slope_rad_s": -3.8526071262451865E-18,
+      "shared_minus_separate_angle_rms_rad": 1.1225082430140911E-16
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_separate",
+      "split_Hz": 0,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 9.6589403142388619E-15,
+      "shared_minus_separate_angle_slope_rad_s": -1.2191093675111877E-15,
+      "shared_minus_separate_angle_rms_rad": 3.0322010386468579E-16
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_shared",
+      "split_Hz": 0,
+      "score_frames": 204,
+      "max_source_self_reconstruction_state_delta": 1.9206858326015208E-14,
+      "shared_minus_separate_angle_slope_rad_s": 3.92484350986219E-17,
+      "shared_minus_separate_angle_rms_rad": 2.5295381420739358E-16
+    }
+  ]
+}
