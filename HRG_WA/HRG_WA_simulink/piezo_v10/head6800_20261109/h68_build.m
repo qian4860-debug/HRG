@@ -1,4 +1,4 @@
-function models = h68_build(outDir, models, configs, inspect, includeAdcDither)
+function models = h68_build(outDir, models, configs, inspect, includeAdcDither, observeAngles)
 % 生成三份 6800 Hz 原生 Simulink 模型，并把默认参数写入模型工作区。
 % 只使用原生 Gain/Sum/Delay/Switch 等块，不生成 MATLAB Function 或 S-Function。
 % Generate native Simulink diagrams and save their default model workspace.
@@ -8,6 +8,7 @@ arguments
     configs (1,:) cell = {}
     inspect (1,1) logical = false
     includeAdcDither (1,1) logical = false
+    observeAngles (1,1) logical = false
 end
 if isempty(configs)
     modes = {'continuous','tdm_shared','tdm_separate'};
@@ -74,6 +75,7 @@ for k = 1:numel(models)
         line = add_line(m,[plantName '/4'],[g '/17'],'autorouting','on');
         set_param(line,'Name','A B C D relative to COM');
     end
+    if observeAngles, connectAngleObserver(m,plantName); end
     Simulink.BlockDiagram.arrangeSystem(m);
     description = ['6800 Hz / 50 mHz / Q=30000 / 600 pF. ' ...
         'THX2024 analog CV gain with matched channels; piezo adapter scale is assumed. ' ...
@@ -237,7 +239,8 @@ end
 outputs(s,ports,signals{:});
 end
 
-function demod(s)
+function demod(s,calibration)
+if nargin<2, calibration = '2/c.n*c.detect'; end
 zero = constant(s,'Zero','0');
 reset = cmp(s,'Reset at frame start','==','Slot',zero);
 acc = delay(s,'Window accumulator','zeros(4,1)');
@@ -248,7 +251,7 @@ clip = delay(s,'Window clipping history','0');
 previousClip = select(s,'Clear old clip',zero,reset,clip);
 clipNext = logic(s,'Clip in this window','OR',previousClip,'ADC clip');
 wire(s,cast(s,'Remember window clip',clipNext),1,clip,1);
-iq = gain(s,'IQ and channel calibration','2/c.n*c.detect',accNext);
+iq = gain(s,'IQ and channel calibration',calibration,accNext);
 I = gain(s,'I components','[eye(2) zeros(2)]',iq);
 Q = gain(s,'Q components','[zeros(2) eye(2)]',iq);
 modal = sumblk(s,'Modal powers','++',product(s,'I squared',I,I),product(s,'Q squared',Q,Q));
@@ -264,6 +267,77 @@ line = cmp(s,'Standing wave resolvable','>=',radius,gain(s,'Linearity floor','c.
 usable = logic(s,'Valid fit','AND',strong,line,logic(s,'Unclipped','NOT',clipNext));
 unary(s,'Capture timing observed','Sinks/Terminator','Capture');
 outputs(s,{'Estimate','Frame usable','Azimuth','Energy'},iq,usable,az,energy);
+end
+
+function connectAngleObserver(model,plant)
+% The diagnostic branches use the exact aperture selected for the ADC.
+% Their candidates are sampled one tick after capture, alongside publication.
+name = 'Three angle observations';
+ports = {'Motion','Clean CV','Physical valid','Aligned slot','Capture','Cos','Sin', ...
+    'Quantized azimuth','Quantized usable','Published','Body angle','Angle valid'};
+s = group(model,name,ports,{});
+sources = {plant,2; plant,1; 'Timing',4; 'ADC sample alignment',1; ...
+    'ADC sample alignment',2; 'ADC sample alignment',3; 'ADC sample alignment',4; ...
+    'Coherent demodulation',3; 'Coherent demodulation',2; ...
+    'Whole angle',2; 'Whole angle',3; 'Whole angle',4};
+for index = 1:size(sources,1)
+    wire(model,sources{index,1},sources{index,2},name,index);
+end
+mechanical = 'Mechanical charge demodulation';
+readout = 'Unquantized CV demodulation';
+observeDemod(s,mechanical,'Motion','2/c.n*eye(4)');
+observeDemod(s,readout,'Clean CV','2/c.n*c.detect');
+appendAngleRecords(s,mechanical,readout);
+Simulink.BlockDiagram.arrangeSystem(s);
+end
+
+function observeDemod(s,name,signal,calibration)
+window = select(s,[signal ' sampled in ADC aperture'],signal,'Physical valid', ...
+    constant(s,[signal ' outside window'],'zeros(2,1)'));
+aligned = pipeline(s,[signal ' aligned to ADC output'],window,'0');
+observer = group(s,name,{'ADC','ADC clip','Slot','Capture','Cos','Sin'}, ...
+    {'Estimate','Frame usable','Azimuth','Energy'});
+demod(observer,calibration);
+sources = {aligned,constant(s,[signal ' has no converter clipping'],'false'), ...
+    'Aligned slot','Capture','Cos','Sin'};
+for index = 1:numel(sources), wire(s,sources{index},1,name,index); end
+for index = [1 4]
+    sink = block(s,[signal ' unused output ' num2str(index)],'Sinks/Terminator');
+    wire(s,name,index,sink,1);
+end
+end
+
+function appendAngleRecords(s,mechanical,readout)
+% Preserve the azimuth and usability at capture, including rejected frames.
+azimuths = {mechanical,3; readout,3; 'Quantized azimuth',1};
+statuses = {mechanical,2; readout,2; 'Quantized usable',1};
+angles = block(s,'Capture-time Stokes azimuths','Signal Routing/Mux','Inputs','3');
+usable = block(s,'Capture-time usable flags','Signal Routing/Mux','Inputs','3');
+for index = 1:3
+    wire(s,azimuths{index,1},azimuths{index,2},angles,index);
+    [source,port] = deal(statuses{index,1},statuses{index,2});
+    numeric = block(s,['Usable flag ' num2str(index)], ...
+        'Signal Attributes/Data Type Conversion','OutDataTypeStr','double');
+    wire(s,source,port,numeric,1);
+    wire(s,numeric,1,usable,index);
+end
+heldAz = delay(s,'Stokes azimuths at publication','zeros(3,1)');
+heldUsable = delay(s,'Usable flags at publication','zeros(3,1)');
+wire(s,angles,1,heldAz,1);
+wire(s,usable,1,heldUsable,1);
+candidate = delay(s,'Candidate pulse at publication','0');
+wire(s,cast(s,'Capture as number','Capture'),1,candidate,1);
+
+clock = block(s,'Publication timestamp','Sources/Clock');
+record = mux(s,'Angle observation row',clock,heldAz,heldUsable,'Published', ...
+    'Body angle',cast(s,'Angle validity as number','Angle valid'));
+collector = 'Candidate records';
+logger = group(s,collector,{'Data'},{});
+block(logger,'Enable','Ports & Subsystems/Enable');
+unary(logger,'Export candidates','Sinks/To Workspace','Data', ...
+    'VariableName','angleCandidates','SaveFormat','Array','MaxDataPoints','inf');
+wire(s,record,1,collector,1);
+wire(s,candidate,1,collector,'Enable');
 end
 
 function control(s)
