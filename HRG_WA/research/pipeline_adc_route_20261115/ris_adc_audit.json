@@ -1,0 +1,35 @@
+{
+  "source": "savedrecs (1).ris",
+  "sha256": "617a47faafb078823e909c044462b36a306345af827983275adae00e63e66d1a",
+  "records": 999,
+  "types": {
+    "BOOK": 17,
+    "CPAPER": 207,
+    "JOUR": 462,
+    "PAT": 313
+  },
+  "fields": {
+    "title": 965,
+    "abstract": 0,
+    "doi": 538
+  },
+  "keyword_counts": {
+    "adc": 0,
+    "sar": 0,
+    "pipeline": 1,
+    "sigma_delta": 0,
+    "cmos": 0,
+    "calibration": 147,
+    "ai": 6
+  },
+  "adc_related_hits": [
+    {
+      "row": 602,
+      "keyword": "pipeline",
+      "title": "Semi-spherical harmonic oscillator dry cleaning            system for gyroscope, has liquid carbon dioxide storage            tank whose liquid returning port is connected with            liquid discharging output port of cleaning container            through medium output pipeline",
+      "year": ""
+    }
+  ],
+  "scope": "题录/摘要关键词分诊；不等于全文检索或论文质量判断。",
+  "verdict": "当前 RIS 只有 999 条题录，没有 AB/KW 字段；ADC/SAR/Sigma-Delta 命中为 0，pipeline 仅命中一条清洗设备专利。它不能评判 Pipeline ADC 的学术新颖性；且当前 SHA256 与既有 ris_screen_summary.json 记录的 7e1d3f... 不一致，此前声称的 913 条摘要/282 条校准命中无法由当前文件复现。"
+}
