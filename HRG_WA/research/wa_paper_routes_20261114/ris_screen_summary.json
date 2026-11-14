@@ -1,0 +1,31 @@
+{
+  "source": "savedrecs (1).ris",
+  "sha256": "7e1d3f7356414b811beef6f6d0f93ee797053d85c2fb2712f9e4dbf803b012be",
+  "scope": "keyword triage on RIS metadata, not full text or paper-type verdict",
+  "counts": {
+    "abstract": 913,
+    "doi": 538,
+    "identifier_repeat": 0,
+    "keyword:ai": 15,
+    "keyword:calibration": 282,
+    "keyword:circuit": 20,
+    "keyword:disturbance": 36,
+    "keyword:piezo": 102,
+    "keyword:resonant_gyro": 828,
+    "keyword:space": 123,
+    "keyword:switching": 30,
+    "keyword:temperature": 214,
+    "keyword:whole_angle": 123,
+    "records": 999,
+    "screen:A": 175,
+    "screen:AB": 94,
+    "screen:B": 190,
+    "screen:gyro_context": 386,
+    "screen:other": 154,
+    "title": 965,
+    "type:BOOK": 17,
+    "type:CPAPER": 207,
+    "type:JOUR": 462,
+    "type:PAT": 313
+  }
+}
