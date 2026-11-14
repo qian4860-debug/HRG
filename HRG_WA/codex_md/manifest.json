@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-15",
-  "source_base_commit": "a9781f6684bdf043bd08fedfaeeaf91f32f7c565",
+  "source_base_commit": "70fa439ec334cc11d383f9d1589dcbf40fb30ab2",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3113,10 +3113,10 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "a9781f6684bdf043bd08fedfaeeaf91f32f7c565",
+      "source_commit": "70fa439ec334cc11d383f9d1589dcbf40fb30ab2",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
-      "source_dirty_at_archive": true,
+      "source_dirty_at_archive": false,
       "source_sha256": "d261c8e2568987cdd863104a4bac2bc7d0e9bce1f080536bb9baf1fa9cd8e3e4",
       "archive_sha256": "77e801a9234f83b3dc0966f6f8929aac4747545c5c4d155fa7ac3e259fc501df",
       "rewritten_local_links": []
@@ -3769,8 +3769,8 @@
     "kept": 150
   },
   "generated_index_sha256": {
-    "README.md": "b0565d0f9df629658d20dcf72a45223209107802f89325d6f73eda5fe72f8b4f",
-    "00_文档索引.md": "fccfda649a6129496bbf36fa9e3040be6838d4642d61d00b06b14c7f136bf707",
+    "README.md": "8fc7743bbd2ad4178d97f3b92e773f8836d37eeb55d102c2f30cdb2f13f1fb09",
+    "00_文档索引.md": "48f1bfed6c8e04caa822d95774ee8a478238e6828f47873b76c59c4a2fc3f57e",
     "history_filter_audit.json": "5e9e74c12c745c40f4bc191ab4d5c1b4291c9b234ab1898cb9bcf1421138aa05"
   },
   "current_document_sha256": {
@@ -3813,6 +3813,7 @@
     "37_五电极三模式零速与低速归因_20261113.md": "6c2692319dc3b04336926bf36312d0f957e9172169a57245b1f95b80bb558707",
     "38_新文献与五电极镜像辨识_20261114.md": "80ce0e7d8544b0c64680eeeefe5f053e9f57d427d45a5235180a2d0720b5023a",
     "39_全角陀螺论文双路线与长期写作记忆_20261114.md": "d7967ba05d705aeffed423b7d2f789da932d4fa6a91ba393bd885db232bcac81",
-    "40_三角观测与独立驱动参考盲测_20261115.md": "9125c44d5be84eb274551f031c61983f98535938d9905d4838c18e1165359c5e"
+    "40_三角观测与独立驱动参考盲测_20261115.md": "9125c44d5be84eb274551f031c61983f98535938d9905d4838c18e1165359c5e",
+    "41_假负载采集协议与回放验收_20261115.md": "ce20ca422c65ed03cfe92649f5f8b64f537c8b7b579b779dc51726fce6167994"
   }
 }
