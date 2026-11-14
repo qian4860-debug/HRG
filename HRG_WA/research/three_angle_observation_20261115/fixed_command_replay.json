@@ -1,0 +1,208 @@
+{
+  "release": "2025a",
+  "scope": "Open-loop replay of identical DAC voltages from two closed-loop TDM sources onto three five-terminal plants",
+  "duration_s": 0.18,
+  "score_start_s": 0.06,
+  "split_Hz": 0.05,
+  "rate_rad_s": 0,
+  "adc_DAC_clock_Hz": 5.44E+6,
+  "physical_initial_beta_deg": [
+    22.5,
+    67.5
+  ],
+  "source_modes": [
+    "tdm_separate",
+    "tdm_shared"
+  ],
+  "target_modes": [
+    "continuous",
+    "tdm_separate",
+    "tdm_shared"
+  ],
+  "drive_waveform_contract": "Same quantized DAC drive samples, zero volts outside the source drive window",
+  "force_contract": "Equal DAC voltage, topology-specific electrode loading and modal force",
+  "cases": [
+    {
+      "initial_beta_deg": 22.5,
+      "source": "tdm_separate",
+      "target": "continuous",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.08050537109375,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 1,
+      "mechanical_body_slope_rad_s": 0.0016217088627004136,
+      "mechanical_body_rms_rad": 0.00010873583926343495,
+      "mechanical_body_last_rad": 0.00019203900318099374,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source": "tdm_separate",
+      "target": "tdm_separate",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.08050537109375,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 1,
+      "mechanical_body_slope_rad_s": 0.0016217088627004136,
+      "mechanical_body_rms_rad": 0.00010873583926343495,
+      "mechanical_body_last_rad": 0.00019203900318099374,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source": "tdm_separate",
+      "target": "tdm_shared",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.08050537109375,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 2,
+      "mechanical_body_slope_rad_s": 0.010111711041473891,
+      "mechanical_body_rms_rad": 0.0007288363965148179,
+      "mechanical_body_last_rad": 0.001193799280605975,
+      "shared_minus_separate_slope_rad_s": 0.0084900021787734786
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source": "tdm_shared",
+      "target": "continuous",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.040283203125,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 0.5,
+      "mechanical_body_slope_rad_s": 0.0036636644338237817,
+      "mechanical_body_rms_rad": 0.00022775076298265208,
+      "mechanical_body_last_rad": 0.00043638349439301848,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source": "tdm_shared",
+      "target": "tdm_separate",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.040283203125,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 0.5,
+      "mechanical_body_slope_rad_s": 0.0036636644338237817,
+      "mechanical_body_rms_rad": 0.00022775076298265208,
+      "mechanical_body_last_rad": 0.00043638349439301848,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "source": "tdm_shared",
+      "target": "tdm_shared",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.040283203125,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 1,
+      "mechanical_body_slope_rad_s": 0.0083237947186540866,
+      "mechanical_body_rms_rad": 0.00056131331817032952,
+      "mechanical_body_last_rad": 0.00098598095568555068,
+      "shared_minus_separate_slope_rad_s": 0.0046601302848303036
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source": "tdm_separate",
+      "target": "continuous",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.08056640625,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 1,
+      "mechanical_body_slope_rad_s": 0.0016027397082249986,
+      "mechanical_body_rms_rad": 0.00010740431884782406,
+      "mechanical_body_last_rad": 0.00018972286181361781,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source": "tdm_separate",
+      "target": "tdm_separate",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.08056640625,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 1,
+      "mechanical_body_slope_rad_s": 0.0016027397082249986,
+      "mechanical_body_rms_rad": 0.00010740431884782406,
+      "mechanical_body_last_rad": 0.00018972286181361781,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source": "tdm_separate",
+      "target": "tdm_shared",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.08056640625,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 2,
+      "mechanical_body_slope_rad_s": -0.014415331802489453,
+      "mechanical_body_rms_rad": 0.00095679881180220111,
+      "mechanical_body_last_rad": -0.0017065016527465131,
+      "shared_minus_separate_slope_rad_s": -0.016018071510714452
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source": "tdm_shared",
+      "target": "continuous",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.040283203125,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 0.5,
+      "mechanical_body_slope_rad_s": 0.0032081505829804928,
+      "mechanical_body_rms_rad": 0.00020123977314912716,
+      "mechanical_body_last_rad": 0.00038165249982019962,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source": "tdm_shared",
+      "target": "tdm_separate",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.040283203125,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 0.5,
+      "mechanical_body_slope_rad_s": 0.0032081505829804928,
+      "mechanical_body_rms_rad": 0.00020123977314912716,
+      "mechanical_body_last_rad": 0.00038165249982019962,
+      "shared_minus_separate_slope_rad_s": null
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "source": "tdm_shared",
+      "target": "tdm_shared",
+      "source_frame_count": 306,
+      "score_frames": 204,
+      "source_dac_peak_V": 0.040283203125,
+      "drive_duty": 0.25,
+      "modal_drive_map_norm_ratio_to_source": 1,
+      "mechanical_body_slope_rad_s": -0.0056634774787542629,
+      "mechanical_body_rms_rad": 0.00037916772337862547,
+      "mechanical_body_last_rad": -0.00067084568375731627,
+      "shared_minus_separate_slope_rad_s": -0.0088716280617347557
+    }
+  ],
+  "independent_reference": [
+    {
+      "mode": "tdm_separate",
+      "frames": 20,
+      "max_beta_delta_rad": 8.7485574340462335E-14,
+      "max_time_delta_s": 1.7347234759768071E-18
+    },
+    {
+      "mode": "tdm_shared",
+      "frames": 20,
+      "max_beta_delta_rad": 1.6814327707947996E-13,
+      "max_time_delta_s": 1.7347234759768071E-18
+    }
+  ]
+}
