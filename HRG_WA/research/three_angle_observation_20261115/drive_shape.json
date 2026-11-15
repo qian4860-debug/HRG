@@ -1,0 +1,2052 @@
+{
+  "release": "2025a",
+  "scope": "Synthetic constrained shared topology drive shaping",
+  "conditions_columns": [
+    "physical_initial_beta_deg",
+    "body_rate_rad_s",
+    "split_Hz"
+  ],
+  "conditions": [
+    [
+      22.5,
+      0,
+      0.05
+    ],
+    [
+      67.5,
+      0,
+      0.05
+    ],
+    [
+      22.5,
+      0.05,
+      0.05
+    ],
+    [
+      67.5,
+      -0.05,
+      0.05
+    ],
+    [
+      22.5,
+      0,
+      0
+    ]
+  ],
+  "condition_labels": [
+    "train_and_time_holdout",
+    "opposite_beta",
+    "positive_rate",
+    "negative_rate",
+    "zero_split"
+  ],
+  "training_frames": 40,
+  "train_condition": [
+    22.5,
+    0,
+    0.05
+  ],
+  "score_start_s": 0.06,
+  "duration_s": 0.18,
+  "dac_bits": 14,
+  "dac_rate_Hz": 5.44E+6,
+  "dac_rails_V": [
+    -0.5,
+    0.49993896484375
+  ],
+  "window_order": [
+    "drive",
+    "bleed",
+    "sense_including_settle",
+    "tail"
+  ],
+  "window_weight_columns": [
+    "drive",
+    "bleed",
+    "sense_including_settle",
+    "tail",
+    "full_frame_carrier_moment"
+  ],
+  "window_weights": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      10,
+      10,
+      10,
+      0
+    ],
+    [
+      1,
+      100,
+      100,
+      100,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      10
+    ]
+  ],
+  "method_names": [
+    "half_dac",
+    "drive_only_weight",
+    "equal_window_weight",
+    "off_window_x10",
+    "off_window_x100",
+    "carrier_moment_only",
+    "equal_plus_moment_x10"
+  ],
+  "edge_tau_s": [
+    1E-6,
+    4E-6,
+    1.6E-5
+  ],
+  "coefficient_order": [
+    "carrier_same_phase",
+    "carrier_quadrature",
+    "edge1_same_phase",
+    "edge1_quadrature",
+    "edge2_same_phase",
+    "edge2_quadrature",
+    "edge3_same_phase",
+    "edge3_quadrature"
+  ],
+  "coefficients": [
+    [
+      0,
+      1.5236991943089307E-14,
+      -0.00010847907467843932,
+      -0.00011331627803883882,
+      -0.00011179508031171188,
+      0.0062010862308210686,
+      -0.00010975635088533835
+    ],
+    [
+      0,
+      -1.3266125024385984E-15,
+      -7.5594633788625621E-5,
+      -7.85609524330622E-5,
+      -7.6368615049062242E-5,
+      0.026115733909010938,
+      -6.1021013701755148E-5
+    ],
+    [
+      0,
+      -2.0367410367235671E-15,
+      -0.88786049090774688,
+      -0.92449118916934558,
+      -0.922786323828042,
+      -0.048491198953541585,
+      -0.88980081676865053
+    ],
+    [
+      0,
+      2.4361587924504281E-16,
+      0.07087610526905061,
+      0.07442876710980921,
+      0.07475816772417937,
+      -0.0041891991024823319,
+      0.0718295086691814
+    ],
+    [
+      0,
+      3.5942557776640509E-16,
+      0.033695500806374727,
+      0.034297498191395645,
+      0.031519490894142452,
+      -0.10799115757079125,
+      0.028880262138443604
+    ],
+    [
+      0,
+      -2.2961859538818463E-16,
+      -0.020637595907483389,
+      -0.021614178061611682,
+      -0.021509190734115339,
+      -0.032242622786357769,
+      -0.020611440856262455
+    ],
+    [
+      0,
+      6.0997724746336669E-17,
+      0.0041652358926453454,
+      0.0043477523951243862,
+      0.0042795160572644316,
+      -0.11800199412498226,
+      0.0041440630550776472
+    ],
+    [
+      0,
+      1.6173291375752688E-16,
+      0.00663967713839002,
+      0.0069020231677237613,
+      0.0067208251500769367,
+      -0.13177221265672465,
+      0.0063638805396835476
+    ]
+  ],
+  "unprojected_coefficients": [
+    [
+      0,
+      1.5236991943089307E-14,
+      -0.00010847907467843932,
+      -0.00011331627803883882,
+      -0.00011179508031171188,
+      0.0062010862308210686,
+      -0.00010975635088533835
+    ],
+    [
+      0,
+      -1.3266125024385984E-15,
+      -7.5594633788625621E-5,
+      -7.85609524330622E-5,
+      -7.6368615049062242E-5,
+      0.026115733909010938,
+      -6.1021013701755148E-5
+    ],
+    [
+      0,
+      -2.0367410367235671E-15,
+      -0.88786049090774688,
+      -0.92449118916934558,
+      -0.922786323828042,
+      -0.048491198953541585,
+      -0.88980081676865053
+    ],
+    [
+      0,
+      2.4361587924504281E-16,
+      0.07087610526905061,
+      0.07442876710980921,
+      0.07475816772417937,
+      -0.0041891991024823319,
+      0.0718295086691814
+    ],
+    [
+      0,
+      3.5942557776640509E-16,
+      0.033695500806374727,
+      0.034297498191395645,
+      0.031519490894142452,
+      -0.10799115757079125,
+      0.028880262138443604
+    ],
+    [
+      0,
+      -2.2961859538818463E-16,
+      -0.020637595907483389,
+      -0.021614178061611682,
+      -0.021509190734115339,
+      -0.032242622786357769,
+      -0.020611440856262455
+    ],
+    [
+      0,
+      6.0997724746336669E-17,
+      0.0041652358926453454,
+      0.0043477523951243862,
+      0.0042795160572644316,
+      -0.11800199412498226,
+      0.0041440630550776472
+    ],
+    [
+      0,
+      1.6173291375752688E-16,
+      0.00663967713839002,
+      0.0069020231677237613,
+      0.0067208251500769367,
+      -0.13177221265672465,
+      0.0063638805396835476
+    ]
+  ],
+  "training_rail_projection": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "fit_objective": "Weighted per-window mean squared H'v and full-frame normalized carrier moment residual, plus trace-scaled ridge",
+  "cases": [
+    {
+      "condition": "train_and_time_holdout",
+      "method": "half_dac",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 266,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        0.00060053209141053179,
+        0.012010092391984214,
+        7.2129912859042854E-7,
+        1.2346225821726265E-82
+      ],
+      "force_error_rms_V": [
+        0.000606144761457098,
+        0.038129110978352351,
+        2.2904658072531647E-6,
+        3.9235525746211708E-82
+      ],
+      "force_reference_rms_V": [
+        1.1186224804670752,
+        0.026730978725705838,
+        1.4437269209302033E-18,
+        3.9235525746211708E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00055190543975638788,
+      "carrier_moment_error_rms_V": 0.0034405305078335073,
+      "carrier_moment_reference_rms_V": 0.279760427848675,
+      "force_relative_error_by_window": [
+        0.00054186713752078829,
+        1.4264016057775506,
+        1.5864951841290054E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016217088916671608,
+      "shared_body_vs_truth_slope_rad_s": 0.0081778692186429986,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0065561603269758363,
+      "dedicated_body_vs_truth_rms_rad": 0.0001087358412786398,
+      "shared_body_vs_truth_rms_rad": 0.00055602063017861974,
+      "shared_minus_dedicated_body_rms_rad": 0.00044729393012493462,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0118845275483063E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00015401268922371578,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.0001238963759849264
+    },
+    {
+      "condition": "train_and_time_holdout",
+      "method": "drive_only_weight",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 266,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        0.00060184621147842945,
+        0.012021670133978018,
+        7.2181763653387845E-7,
+        1.2346225821726265E-82
+      ],
+      "force_error_rms_V": [
+        0.00060580609164570922,
+        0.038112281703881812,
+        2.289678268444463E-6,
+        3.9235525746211708E-82
+      ],
+      "force_reference_rms_V": [
+        1.1186224804670752,
+        0.026730978725705838,
+        1.4437269209302033E-18,
+        3.9235525746211708E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00053047701982407382,
+      "carrier_moment_error_rms_V": 0.0034409972879980814,
+      "carrier_moment_reference_rms_V": 0.279760427848675,
+      "force_relative_error_by_window": [
+        0.00054156438139233343,
+        1.4257720263430216,
+        1.5859496939831304E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016217088916671608,
+      "shared_body_vs_truth_slope_rad_s": 0.0081825731966012824,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0065608643049341209,
+      "dedicated_body_vs_truth_rms_rad": 0.0001087358412786398,
+      "shared_body_vs_truth_rms_rad": 0.00055633688443125072,
+      "shared_minus_dedicated_body_rms_rad": 0.00044761017842891604,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0118845275483063E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00015410028879337651,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.00012398397390686497
+    },
+    {
+      "condition": "train_and_time_holdout",
+      "method": "equal_window_weight",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 266,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        0.0022796161240543839,
+        0.0053732618410502067,
+        2.9214179170581271E-7,
+        1.2346225821726265E-82
+      ],
+      "force_error_rms_V": [
+        0.0065953333498820939,
+        0.017073500385541136,
+        9.2853017974673184E-7,
+        3.9235525746211708E-82
+      ],
+      "force_reference_rms_V": [
+        1.1186224804670752,
+        0.026730978725705838,
+        1.4437269209302033E-18,
+        3.9235525746211708E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.046059078316315026,
+      "carrier_moment_error_rms_V": 0.00067534199994123939,
+      "carrier_moment_reference_rms_V": 0.279760427848675,
+      "force_relative_error_by_window": [
+        0.0058959420761222729,
+        0.63871587197525281,
+        6.4314806788286072E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016217088916671608,
+      "shared_body_vs_truth_slope_rad_s": 0.0040501517450016724,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0024284428533345118,
+      "dedicated_body_vs_truth_rms_rad": 0.0001087358412786398,
+      "shared_body_vs_truth_rms_rad": 0.000273368899741804,
+      "shared_minus_dedicated_body_rms_rad": 0.0001646359506072869,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0118845275483063E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.5720714509888538E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.5602670332188142E-5
+    },
+    {
+      "condition": "train_and_time_holdout",
+      "method": "off_window_x10",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 266,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        0.0023738146492337849,
+        0.0053501330209359283,
+        2.7387258259769784E-7,
+        1.2346225821726265E-82
+      ],
+      "force_error_rms_V": [
+        0.00688760328342535,
+        0.017001766003818967,
+        8.6988680451182624E-7,
+        3.9235525746211708E-82
+      ],
+      "force_reference_rms_V": [
+        1.1186224804670752,
+        0.026730978725705838,
+        1.4437269209302033E-18,
+        3.9235525746211708E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.048116956707315854,
+      "carrier_moment_error_rms_V": 0.00057287771969349464,
+      "carrier_moment_reference_rms_V": 0.279760427848675,
+      "force_relative_error_by_window": [
+        0.0061572187254358285,
+        0.636032304625989,
+        6.0252863051923425E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016217088916671608,
+      "shared_body_vs_truth_slope_rad_s": 0.0038658647944753229,
+      "shared_minus_dedicated_body_slope_rad_s": 0.002244155902808161,
+      "dedicated_body_vs_truth_rms_rad": 0.0001087358412786398,
+      "shared_body_vs_truth_rms_rad": 0.00026101052386466914,
+      "shared_minus_dedicated_body_rms_rad": 0.00015227809105547544,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0118845275483063E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.2297556087396917E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.2179654927144544E-5
+    },
+    {
+      "condition": "train_and_time_holdout",
+      "method": "off_window_x100",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 266,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        0.0023870821801447303,
+        0.005349802796085882,
+        2.717957757394369E-7,
+        1.2346225821726265E-82
+      ],
+      "force_error_rms_V": [
+        0.0069417341595514525,
+        0.017000932280467507,
+        8.6312320399478444E-7,
+        3.9235525746211708E-82
+      ],
+      "force_reference_rms_V": [
+        1.1186224804670752,
+        0.026730978725705838,
+        1.4437269209302033E-18,
+        3.9235525746211708E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.0485450556123641,
+      "carrier_moment_error_rms_V": 0.00056114340505918189,
+      "carrier_moment_reference_rms_V": 0.279760427848675,
+      "force_relative_error_by_window": [
+        0.006205609381864886,
+        0.636001115219869,
+        5.9784381068316443E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016217088916671608,
+      "shared_body_vs_truth_slope_rad_s": 0.003865464953726232,
+      "shared_minus_dedicated_body_slope_rad_s": 0.00224375606205907,
+      "dedicated_body_vs_truth_rms_rad": 0.0001087358412786398,
+      "shared_body_vs_truth_rms_rad": 0.00026072858201422371,
+      "shared_minus_dedicated_body_rms_rad": 0.00015199526295219798,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0118845275483063E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.2219460743024782E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.2101314098747922E-5
+    },
+    {
+      "condition": "train_and_time_holdout",
+      "method": "carrier_moment_only",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 266,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        0.070291585154373545,
+        0.093819218737077173,
+        3.9460791559100955E-6,
+        1.2346225821726265E-82
+      ],
+      "force_error_rms_V": [
+        0.071313652320749266,
+        0.096957168865591026,
+        4.2605943317624908E-6,
+        3.9235525746211708E-82
+      ],
+      "force_reference_rms_V": [
+        1.1186224804670752,
+        0.026730978725705838,
+        1.4437269209302033E-18,
+        3.9235525746211708E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.28826036931307175,
+      "carrier_moment_error_rms_V": 9.0943509566944951E-6,
+      "carrier_moment_reference_rms_V": 0.279760427848675,
+      "force_relative_error_by_window": [
+        0.063751313393033734,
+        3.6271462358522695,
+        2.9511081839613828E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.04083251953125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016217088916671608,
+      "shared_body_vs_truth_slope_rad_s": 0.0016484845887868372,
+      "shared_minus_dedicated_body_slope_rad_s": 2.6775697119676289E-5,
+      "dedicated_body_vs_truth_rms_rad": 0.0001087358412786398,
+      "shared_body_vs_truth_rms_rad": 0.00011037105793756145,
+      "shared_minus_dedicated_body_rms_rad": 1.6415416578433906E-6,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0118845275483063E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 3.0571785510853536E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.5469220290621281E-7
+    },
+    {
+      "condition": "train_and_time_holdout",
+      "method": "equal_plus_moment_x10",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 266,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        0.0023140866273045715,
+        0.0053621175430416624,
+        2.8615045664689163E-7,
+        1.2346225821726265E-82
+      ],
+      "force_error_rms_V": [
+        0.0067246930037439048,
+        0.017038717176195702,
+        9.1012801495201311E-7,
+        3.9235525746211708E-82
+      ],
+      "force_reference_rms_V": [
+        1.1186224804670752,
+        0.026730978725705838,
+        1.4437269209302033E-18,
+        3.9235525746211708E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.047029341239683428,
+      "carrier_moment_error_rms_V": 0.00063370903967908368,
+      "carrier_moment_reference_rms_V": 0.279760427848675,
+      "force_relative_error_by_window": [
+        0.0060115839983262654,
+        0.63741463980929458,
+        6.3040177595747217E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016217088916671608,
+      "shared_body_vs_truth_slope_rad_s": 0.0040070878747931558,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0023853789831259956,
+      "dedicated_body_vs_truth_rms_rad": 0.0001087358412786398,
+      "shared_body_vs_truth_rms_rad": 0.00027036470829259855,
+      "shared_minus_dedicated_body_rms_rad": 0.00016163147790103962,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0118845275483063E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.4888580630456047E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.4770458547097096E-5
+    },
+    {
+      "condition": "opposite_beta",
+      "method": "half_dac",
+      "beta_deg": 67.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00060886197284663792,
+        0.035807895519995171,
+        2.1511864292493178E-6,
+        3.6859330064138918E-82
+      ],
+      "force_reference_rms_V": [
+        1.1173167619810214,
+        0.0251109766788758,
+        1.3562914243907479E-18,
+        3.6859330064138918E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00054556002411106639,
+      "carrier_moment_error_rms_V": 0.003240936116916161,
+      "carrier_moment_reference_rms_V": 0.27943355254459967,
+      "force_relative_error_by_window": [
+        0.00054493228202100489,
+        1.4259857741860746,
+        1.5860797986064392E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001602739679588569,
+      "shared_body_vs_truth_slope_rad_s": -0.0058855776953865508,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0074883173749751208,
+      "dedicated_body_vs_truth_rms_rad": 0.00010740431684717075,
+      "shared_body_vs_truth_rms_rad": 0.00039450407530171934,
+      "shared_minus_dedicated_body_rms_rad": 0.00050190838292938473,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9750025042334971E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00010927406331562654,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.00013902408580424185
+    },
+    {
+      "condition": "opposite_beta",
+      "method": "drive_only_weight",
+      "beta_deg": 67.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00060814395276999984,
+        0.035793471121121842,
+        2.1505105167361309E-6,
+        3.6859330064138918E-82
+      ],
+      "force_reference_rms_V": [
+        1.1173167619810214,
+        0.0251109766788758,
+        1.3562914243907479E-18,
+        3.6859330064138918E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00052456645717307963,
+      "carrier_moment_error_rms_V": 0.0032399186483668416,
+      "carrier_moment_reference_rms_V": 0.27943355254459967,
+      "force_relative_error_by_window": [
+        0.00054428965308973831,
+        1.4254113481469048,
+        1.5855814451544954E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001602739679588569,
+      "shared_body_vs_truth_slope_rad_s": -0.0058908487018725269,
+      "shared_minus_dedicated_body_slope_rad_s": -0.007493588381461096,
+      "dedicated_body_vs_truth_rms_rad": 0.00010740431684717075,
+      "shared_body_vs_truth_rms_rad": 0.00039485228684989649,
+      "shared_minus_dedicated_body_rms_rad": 0.0005022565945635596,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9750025042334971E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00010937051476732229,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.00013912053727975821
+    },
+    {
+      "condition": "opposite_beta",
+      "method": "equal_window_weight",
+      "beta_deg": 67.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00613639297437737,
+        0.016036287781479617,
+        8.712717449030552E-7,
+        3.6859330064138918E-82
+      ],
+      "force_reference_rms_V": [
+        1.1173167619810214,
+        0.0251109766788758,
+        1.3562914243907479E-18,
+        3.6859330064138918E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.042816440901749485,
+      "carrier_moment_error_rms_V": 0.00063013757399128366,
+      "carrier_moment_reference_rms_V": 0.27943355254459967,
+      "force_relative_error_by_window": [
+        0.0054920799393517036,
+        0.63861664906765192,
+        6.4239272565955676E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001602739679588569,
+      "shared_body_vs_truth_slope_rad_s": -0.00095435395788047461,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0025570936374690427,
+      "dedicated_body_vs_truth_rms_rad": 0.00010740431684717075,
+      "shared_body_vs_truth_rms_rad": 6.4727931886062761E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.00017213006209742309,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9750025042334971E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.7929052118910666E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.7678471482889046E-5
+    },
+    {
+      "condition": "opposite_beta",
+      "method": "off_window_x10",
+      "beta_deg": 67.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0064024244992800967,
+        0.01597087881398554,
+        8.165956863743017E-7,
+        3.6859330064138918E-82
+      ],
+      "force_reference_rms_V": [
+        1.1173167619810214,
+        0.0251109766788758,
+        1.3562914243907479E-18,
+        3.6859330064138918E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.044699813633704663,
+      "carrier_moment_error_rms_V": 0.0005364222429742908,
+      "carrier_moment_reference_rms_V": 0.27943355254459967,
+      "force_relative_error_by_window": [
+        0.00573017851081773,
+        0.63601185323153042,
+        6.0207981241282275E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001602739679588569,
+      "shared_body_vs_truth_slope_rad_s": -0.00074618163682836972,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0023489213164169386,
+      "dedicated_body_vs_truth_rms_rad": 0.00010740431684717075,
+      "shared_body_vs_truth_rms_rad": 5.0819506804879167E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.00015822044435738827,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9750025042334971E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.4076544076301656E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.3825633084557544E-5
+    },
+    {
+      "condition": "opposite_beta",
+      "method": "off_window_x100",
+      "beta_deg": 67.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0064520039263346344,
+        0.015970234645678223,
+        8.1110697823006311E-7,
+        3.6859330064138918E-82
+      ],
+      "force_reference_rms_V": [
+        1.1173167619810214,
+        0.0251109766788758,
+        1.3562914243907479E-18,
+        3.6859330064138918E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.045077570606354832,
+      "carrier_moment_error_rms_V": 0.00052560848646414653,
+      "carrier_moment_reference_rms_V": 0.27943355254459967,
+      "force_relative_error_by_window": [
+        0.0057745521645044713,
+        0.63598620037399511,
+        5.9803296227019641E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001602739679588569,
+      "shared_body_vs_truth_slope_rad_s": -0.0007319347152198554,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0023346743948084244,
+      "dedicated_body_vs_truth_rms_rad": 0.00010740431684717075,
+      "shared_body_vs_truth_rms_rad": 4.9853163240401135E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.00015725418404492002,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9750025042334971E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.3808875642791407E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.3557987711101571E-5
+    },
+    {
+      "condition": "opposite_beta",
+      "method": "carrier_moment_only",
+      "beta_deg": 67.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.072213793783684033,
+        0.094815304645791909,
+        4.0417194087745649E-6,
+        3.6859330064138918E-82
+      ],
+      "force_reference_rms_V": [
+        1.1173167619810214,
+        0.0251109766788758,
+        1.3562914243907479E-18,
+        3.6859330064138918E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.2964874741684842,
+      "carrier_moment_error_rms_V": 8.9108858055428242E-6,
+      "carrier_moment_reference_rms_V": 0.27943355254459967,
+      "force_relative_error_by_window": [
+        0.064631442256041852,
+        3.7758509299860781,
+        2.979978591688083E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.04083251953125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001602739679588569,
+      "shared_body_vs_truth_slope_rad_s": 0.001580494171333735,
+      "shared_minus_dedicated_body_slope_rad_s": -2.2245508254833858E-5,
+      "dedicated_body_vs_truth_rms_rad": 0.00010740431684717075,
+      "shared_body_vs_truth_rms_rad": 0.0001061461460382887,
+      "shared_minus_dedicated_body_rms_rad": 1.2774290429974382E-6,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9750025042334971E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 2.9401523099670627E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 3.5383629945764954E-7
+    },
+    {
+      "condition": "opposite_beta",
+      "method": "equal_plus_moment_x10",
+      "beta_deg": 67.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0062577272224959178,
+        0.016004258238648737,
+        8.5402915576519377E-7,
+        3.6859330064138918E-82
+      ],
+      "force_reference_rms_V": [
+        1.1173167619810214,
+        0.0251109766788758,
+        1.3562914243907479E-18,
+        3.6859330064138918E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.04372387040429801,
+      "carrier_moment_error_rms_V": 0.00059136022956343063,
+      "carrier_moment_reference_rms_V": 0.27943355254459967,
+      "force_relative_error_by_window": [
+        0.0056006742540950184,
+        0.6373411294715613,
+        6.2967968417910437E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001602739679588569,
+      "shared_body_vs_truth_slope_rad_s": -0.00089226555921954453,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0024950052388081141,
+      "dedicated_body_vs_truth_rms_rad": 0.00010740431684717075,
+      "shared_body_vs_truth_rms_rad": 6.0628788742335418E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.00016803032477540663,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9750025042334971E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.6793626516311002E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.6542881298273504E-5
+    },
+    {
+      "condition": "positive_rate",
+      "method": "half_dac",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00060388060415020859,
+        0.035663233442781279,
+        2.1423609760202177E-6,
+        3.6699938818049875E-82
+      ],
+      "force_reference_rms_V": [
+        1.1172416323644165,
+        0.025003504949518678,
+        1.3504263970064365E-18,
+        3.6699938818049875E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00054317429188495989,
+      "carrier_moment_error_rms_V": 0.0032203930438084042,
+      "carrier_moment_reference_rms_V": 0.27940214877329328,
+      "force_relative_error_by_window": [
+        0.00054051029486989056,
+        1.426329369213807,
+        1.5864329820339011E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016169393177781746,
+      "shared_body_vs_truth_slope_rad_s": 0.0081509452850679238,
+      "shared_minus_dedicated_body_slope_rad_s": 0.006534005967289749,
+      "dedicated_body_vs_truth_rms_rad": 0.00010838275390785275,
+      "shared_body_vs_truth_rms_rad": 0.00055435591018950837,
+      "shared_minus_dedicated_body_rms_rad": 0.0004459830287811095,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0021043264992239E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00015355157683253498,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.00012353326816066343
+    },
+    {
+      "condition": "positive_rate",
+      "method": "drive_only_weight",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0006041307772378234,
+        0.035647067119195068,
+        2.1416032878356506E-6,
+        3.6699938818049875E-82
+      ],
+      "force_reference_rms_V": [
+        1.1172416323644165,
+        0.025003504949518678,
+        1.3504263970064365E-18,
+        3.6699938818049875E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.000539576574969084,
+      "carrier_moment_error_rms_V": 0.0032205148518067456,
+      "carrier_moment_reference_rms_V": 0.27940214877329328,
+      "force_relative_error_by_window": [
+        0.00054073421517537119,
+        1.425682806917087,
+        1.5858719087416086E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016169393177781746,
+      "shared_body_vs_truth_slope_rad_s": 0.0081557019099710859,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0065387625921929119,
+      "dedicated_body_vs_truth_rms_rad": 0.00010838275390785275,
+      "shared_body_vs_truth_rms_rad": 0.00055467235074208824,
+      "shared_minus_dedicated_body_rms_rad": 0.00044629945588664169,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0021043264992239E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00015363922800559776,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.00012362091560901554
+    },
+    {
+      "condition": "positive_rate",
+      "method": "equal_window_weight",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00617986472258861,
+        0.015970040427001259,
+        8.6845752282030418E-7,
+        3.6699938818049875E-82
+      ],
+      "force_reference_rms_V": [
+        1.1172416323644165,
+        0.025003504949518678,
+        1.3504263970064365E-18,
+        3.6699938818049875E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.043113235307966062,
+      "carrier_moment_error_rms_V": 0.00063213871038673064,
+      "carrier_moment_reference_rms_V": 0.27940214877329328,
+      "force_relative_error_by_window": [
+        0.0055313591470004322,
+        0.6387120709374261,
+        6.4309874625189575E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016169393177781746,
+      "shared_body_vs_truth_slope_rad_s": 0.0040330342227708916,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0024160949049927172,
+      "dedicated_body_vs_truth_rms_rad": 0.00010838275390785275,
+      "shared_body_vs_truth_rms_rad": 0.000272313210198919,
+      "shared_minus_dedicated_body_rms_rad": 0.00016393385101098152,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0021043264992239E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.5428298047871916E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.5408195089614605E-5
+    },
+    {
+      "condition": "positive_rate",
+      "method": "off_window_x10",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0064523845011153083,
+        0.015903047475610083,
+        8.1372078000429746E-7,
+        3.6699938818049875E-82
+      ],
+      "force_reference_rms_V": [
+        1.1172416323644165,
+        0.025003504949518678,
+        1.3504263970064365E-18,
+        3.6699938818049875E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.045030740095754508,
+      "carrier_moment_error_rms_V": 0.00053615558934115191,
+      "carrier_moment_reference_rms_V": 0.27940214877329328,
+      "force_relative_error_by_window": [
+        0.0057752811157422927,
+        0.63603272852017567,
+        6.025658131447345E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016169393177781746,
+      "shared_body_vs_truth_slope_rad_s": 0.0038468535101519761,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0022299141923738017,
+      "dedicated_body_vs_truth_rms_rad": 0.00010838275390785275,
+      "shared_body_vs_truth_rms_rad": 0.00025990053610581179,
+      "shared_minus_dedicated_body_rms_rad": 0.00015152207523524858,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0021043264992239E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.1990099510305331E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.1970245377841655E-5
+    },
+    {
+      "condition": "positive_rate",
+      "method": "off_window_x100",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0065028888065924093,
+        0.0159022560864028,
+        8.07412107648172E-7,
+        3.6699938818049875E-82
+      ],
+      "force_reference_rms_V": [
+        1.1172416323644165,
+        0.025003504949518678,
+        1.3504263970064365E-18,
+        3.6699938818049875E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.045432831693178771,
+      "carrier_moment_error_rms_V": 0.00052572998428368066,
+      "carrier_moment_reference_rms_V": 0.27940214877329328,
+      "force_relative_error_by_window": [
+        0.0058204855764552536,
+        0.63600107738930911,
+        5.9789419803849084E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016169393177781746,
+      "shared_body_vs_truth_slope_rad_s": 0.0038509002657637808,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0022339609479856059,
+      "dedicated_body_vs_truth_rms_rad": 0.00010838275390785275,
+      "shared_body_vs_truth_rms_rad": 0.00025979537886777759,
+      "shared_minus_dedicated_body_rms_rad": 0.0001514153905541061,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0021043264992239E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.1960971905785E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.1940694685385424E-5
+    },
+    {
+      "condition": "positive_rate",
+      "method": "carrier_moment_only",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.071169174188073933,
+        0.096534752026459836,
+        4.219300321805216E-6,
+        3.6699938818049875E-82
+      ],
+      "force_reference_rms_V": [
+        1.1172416323644165,
+        0.025003504949518678,
+        1.3504263970064365E-18,
+        3.6699938818049875E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.28783237342937762,
+      "carrier_moment_error_rms_V": 9.61979827040906E-6,
+      "carrier_moment_reference_rms_V": 0.27940214877329328,
+      "force_relative_error_by_window": [
+        0.063700789629060575,
+        3.8608487978529644,
+        3.1244207986146953E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.04083251953125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016169393177781746,
+      "shared_body_vs_truth_slope_rad_s": 0.0016465176700068544,
+      "shared_minus_dedicated_body_slope_rad_s": 2.9578352228679651E-5,
+      "dedicated_body_vs_truth_rms_rad": 0.00010838275390785275,
+      "shared_body_vs_truth_rms_rad": 0.00011017726237966098,
+      "shared_minus_dedicated_body_rms_rad": 1.8003396990977646E-6,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0021043264992239E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 3.0518105892846786E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.9867782511089251E-7
+    },
+    {
+      "condition": "positive_rate",
+      "method": "equal_plus_moment_x10",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0063025508105732687,
+        0.015937176558561906,
+        8.5099437644745947E-7,
+        3.6699938818049875E-82
+      ],
+      "force_reference_rms_V": [
+        1.1172416323644165,
+        0.025003504949518678,
+        1.3504263970064365E-18,
+        3.6699938818049875E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.044032292893059238,
+      "carrier_moment_error_rms_V": 0.00059256944932767146,
+      "carrier_moment_reference_rms_V": 0.27940214877329328,
+      "force_relative_error_by_window": [
+        0.0056411707440897916,
+        0.63739770047193722,
+        6.3016716670668237E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.0016169393177781746,
+      "shared_body_vs_truth_slope_rad_s": 0.003987858455243137,
+      "shared_minus_dedicated_body_slope_rad_s": 0.0023709191374649617,
+      "dedicated_body_vs_truth_rms_rad": 0.00010838275390785275,
+      "shared_body_vs_truth_rms_rad": 0.00026920696729621375,
+      "shared_minus_dedicated_body_rms_rad": 0.00016082740463759838,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.0021043264992239E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 7.456789683816495E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.4547737520368838E-5
+    },
+    {
+      "condition": "negative_rate",
+      "method": "half_dac",
+      "beta_deg": 67.5,
+      "rate_rad_s": -0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00060753269318434655,
+        0.035952649728436564,
+        2.159884480113911E-6,
+        3.7008453471654425E-82
+      ],
+      "force_reference_rms_V": [
+        1.11739525460331,
+        0.02521257337320457,
+        1.3617786320648239E-18,
+        3.7008453471654425E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00056338709181270679,
+      "carrier_moment_error_rms_V": 0.0032545233952917482,
+      "carrier_moment_reference_rms_V": 0.27945394406890012,
+      "force_relative_error_by_window": [
+        0.00054370437916351157,
+        1.4259809657766365,
+        1.5860760546954268E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001613523110150247,
+      "shared_body_vs_truth_slope_rad_s": -0.0059008374849535252,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0075143605951037721,
+      "dedicated_body_vs_truth_rms_rad": 0.0001082122727993942,
+      "shared_body_vs_truth_rms_rad": 0.00039521379789446827,
+      "shared_minus_dedicated_body_rms_rad": 0.00050342601452239952,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9973821538764009E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00010947065005931801,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.00013944445603909447
+    },
+    {
+      "condition": "negative_rate",
+      "method": "drive_only_weight",
+      "beta_deg": 67.5,
+      "rate_rad_s": -0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00060702696545605385,
+        0.0359383055474728,
+        2.1592122776150903E-6,
+        3.7008453471654425E-82
+      ],
+      "force_reference_rms_V": [
+        1.11739525460331,
+        0.02521257337320457,
+        1.3617786320648239E-18,
+        3.7008453471654425E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.000543616527945557,
+      "carrier_moment_error_rms_V": 0.0032534171860602455,
+      "carrier_moment_reference_rms_V": 0.27945394406890012,
+      "force_relative_error_by_window": [
+        0.00054325178396390846,
+        1.42541203611002,
+        1.5855824337184243E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001613523110150247,
+      "shared_body_vs_truth_slope_rad_s": -0.0059060636769913384,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0075195867871415863,
+      "dedicated_body_vs_truth_rms_rad": 0.0001082122727993942,
+      "shared_body_vs_truth_rms_rad": 0.00039556109361436838,
+      "shared_minus_dedicated_body_rms_rad": 0.00050377331018562068,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9973821538764009E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 0.00010956684783485831,
+      "shared_minus_dedicated_physical_beta_rms_rad": 0.00013954065379893522
+    },
+    {
+      "condition": "negative_rate",
+      "method": "equal_window_weight",
+      "beta_deg": 67.5,
+      "rate_rad_s": -0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0061584933271243555,
+        0.016101548525571059,
+        8.7497026309107362E-7,
+        3.7008453471654425E-82
+      ],
+      "force_reference_rms_V": [
+        1.11739525460331,
+        0.02521257337320457,
+        1.3617786320648239E-18,
+        3.7008453471654425E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.042976876124099096,
+      "carrier_moment_error_rms_V": 0.00063304940582791555,
+      "carrier_moment_reference_rms_V": 0.27945394406890012,
+      "force_relative_error_by_window": [
+        0.005511472598217452,
+        0.63863169725798286,
+        6.42520188295496E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001613523110150247,
+      "shared_body_vs_truth_slope_rad_s": -0.000956670573426875,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0025701936835771221,
+      "dedicated_body_vs_truth_rms_rad": 0.0001082122727993942,
+      "shared_body_vs_truth_rms_rad": 6.4649252488512408E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.00017286053899699262,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9973821538764009E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.7907258636896628E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.78808069819916E-5
+    },
+    {
+      "condition": "negative_rate",
+      "method": "off_window_x10",
+      "beta_deg": 67.5,
+      "rate_rad_s": -0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0064258342763721795,
+        0.016035585469282552,
+        8.2027731674042706E-7,
+        3.7008453471654425E-82
+      ],
+      "force_reference_rms_V": [
+        1.11739525460331,
+        0.02521257337320457,
+        1.3617786320648239E-18,
+        3.7008453471654425E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.044867701138967132,
+      "carrier_moment_error_rms_V": 0.000539269669664818,
+      "carrier_moment_reference_rms_V": 0.27945394406890012,
+      "force_relative_error_by_window": [
+        0.0057507262984157169,
+        0.63601542103293818,
+        6.0235731228699426E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001613523110150247,
+      "shared_body_vs_truth_slope_rad_s": -0.00074948327240871419,
+      "shared_minus_dedicated_body_slope_rad_s": -0.0023630063825589615,
+      "dedicated_body_vs_truth_rms_rad": 0.0001082122727993942,
+      "shared_body_vs_truth_rms_rad": 5.0794933230682817E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.00015900565145533774,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9973821538764009E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.4069737418346172E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.404312835395771E-5
+    },
+    {
+      "condition": "negative_rate",
+      "method": "off_window_x100",
+      "beta_deg": 67.5,
+      "rate_rad_s": -0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0064788063945716168,
+        0.016034842974370238,
+        8.1425697918952361E-7,
+        3.7008453471654425E-82
+      ],
+      "force_reference_rms_V": [
+        1.11739525460331,
+        0.02521257337320457,
+        1.3617786320648239E-18,
+        3.7008453471654425E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.045271988975328151,
+      "carrier_moment_error_rms_V": 0.00052757061383564127,
+      "carrier_moment_reference_rms_V": 0.27945394406890012,
+      "force_relative_error_by_window": [
+        0.00579813308485159,
+        0.63598597164269455,
+        5.979363752792113E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001613523110150247,
+      "shared_body_vs_truth_slope_rad_s": -0.00073345199115614119,
+      "shared_minus_dedicated_body_slope_rad_s": -0.002346975101306388,
+      "dedicated_body_vs_truth_rms_rad": 0.0001082122727993942,
+      "shared_body_vs_truth_rms_rad": 4.9730697197831734E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.00015794131639285908,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9973821538764009E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.3774953655852469E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.37483171611522E-5
+    },
+    {
+      "condition": "negative_rate",
+      "method": "carrier_moment_only",
+      "beta_deg": 67.5,
+      "rate_rad_s": -0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.072228254104790487,
+        0.094841039950263231,
+        4.0440570195910579E-6,
+        3.7008453471654425E-82
+      ],
+      "force_reference_rms_V": [
+        1.11739525460331,
+        0.02521257337320457,
+        1.3617786320648239E-18,
+        3.7008453471654425E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.29653747122495483,
+      "carrier_moment_error_rms_V": 9.4203742075614149E-6,
+      "carrier_moment_reference_rms_V": 0.27945394406890012,
+      "force_relative_error_by_window": [
+        0.0646398432490502,
+        3.7616564777579757,
+        2.9696875280376343E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.04083251953125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001613523110150247,
+      "shared_body_vs_truth_slope_rad_s": 0.0015901375525704732,
+      "shared_minus_dedicated_body_slope_rad_s": -2.3385557579773813E-5,
+      "dedicated_body_vs_truth_rms_rad": 0.0001082122727993942,
+      "shared_body_vs_truth_rms_rad": 0.00010686704335038526,
+      "shared_minus_dedicated_body_rms_rad": 1.3693522905378991E-6,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9973821538764009E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 2.9601205139623841E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 3.7929820822052347E-7
+    },
+    {
+      "condition": "negative_rate",
+      "method": "equal_plus_moment_x10",
+      "beta_deg": 67.5,
+      "rate_rad_s": -0.05,
+      "split_Hz": 0.05,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0062827641766209042,
+        0.016069049114623205,
+        8.5751265858053988E-7,
+        3.7008453471654425E-82
+      ],
+      "force_reference_rms_V": [
+        1.11739525460331,
+        0.02521257337320457,
+        1.3617786320648239E-18,
+        3.7008453471654425E-82
+      ],
+      "last_16_drive_samples_force_rms_V": 0.043905162049406275,
+      "carrier_moment_error_rms_V": 0.0005936516586717422,
+      "carrier_moment_reference_rms_V": 0.27945394406890012,
+      "force_relative_error_by_window": [
+        0.0056226873621826583,
+        0.63734268123939608,
+        6.2970048023173877E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": 0.001613523110150247,
+      "shared_body_vs_truth_slope_rad_s": -0.00089534980894823406,
+      "shared_minus_dedicated_body_slope_rad_s": -0.002508872919098481,
+      "dedicated_body_vs_truth_rms_rad": 0.0001082122727993942,
+      "shared_body_vs_truth_rms_rad": 6.0587666475390367E-5,
+      "shared_minus_dedicated_body_rms_rad": 0.0001687986595303314,
+      "dedicated_physical_beta_vs_truth_rms_rad": 2.9973821538764009E-5,
+      "shared_physical_beta_vs_truth_rms_rad": 1.6782236020031847E-5,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.6755703081148709E-5
+    },
+    {
+      "condition": "zero_split",
+      "method": "half_dac",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.000630378349385968,
+        2.980947968338697E-5,
+        1.5907356815861379E-9,
+        5.9682118435218856E-85
+      ],
+      "force_reference_rms_V": [
+        1.1078411601595,
+        3.7260265636735528E-5,
+        2.1960883521839806E-21,
+        5.9682118435218856E-85
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00059392126538262177,
+      "carrier_moment_error_rms_V": 0.00014027678028068278,
+      "carrier_moment_reference_rms_V": 0.27696042421324524,
+      "force_relative_error_by_window": [
+        0.00056901510077059247,
+        0.80003400872154007,
+        7.24349582749789E+11,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": -2.1430127139738441E-16,
+      "shared_body_vs_truth_slope_rad_s": 5.3912420972892541E-16,
+      "shared_minus_dedicated_body_slope_rad_s": 7.5342548112630989E-16,
+      "dedicated_body_vs_truth_rms_rad": 1.2232249986474546E-16,
+      "shared_body_vs_truth_rms_rad": 1.4915532874045463E-16,
+      "shared_minus_dedicated_body_rms_rad": 1.8561735347720885E-16,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.3882226907093396E-17,
+      "shared_physical_beta_vs_truth_rms_rad": 4.1314677989529245E-17,
+      "shared_minus_dedicated_physical_beta_rms_rad": 5.1414329296433389E-17
+    },
+    {
+      "condition": "zero_split",
+      "method": "drive_only_weight",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.00062687835615291964,
+        0.00021804536107883926,
+        7.923921189760677E-9,
+        5.9682118435218856E-85
+      ],
+      "force_reference_rms_V": [
+        1.1078411601595,
+        3.7260265636735528E-5,
+        2.1960883521839806E-21,
+        5.9682118435218856E-85
+      ],
+      "last_16_drive_samples_force_rms_V": 0.00066658828837738791,
+      "carrier_moment_error_rms_V": 0.00013502360637471933,
+      "carrier_moment_reference_rms_V": 0.27696042421324524,
+      "force_relative_error_by_window": [
+        0.00056585580920523449,
+        5.851954014623681,
+        3.608197813116418E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": -2.1430127139738441E-16,
+      "shared_body_vs_truth_slope_rad_s": -1.2232027625828223E-16,
+      "shared_minus_dedicated_body_slope_rad_s": 9.1980995139102172E-17,
+      "dedicated_body_vs_truth_rms_rad": 1.2232249986474546E-16,
+      "shared_body_vs_truth_rms_rad": 1.1570550128933986E-16,
+      "shared_minus_dedicated_body_rms_rad": 1.4981385436514539E-16,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.3882226907093396E-17,
+      "shared_physical_beta_vs_truth_rms_rad": 3.204937810639273E-17,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.1497083635788753E-17
+    },
+    {
+      "condition": "zero_split",
+      "method": "equal_window_weight",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0010205558129742632,
+        0.00012978677637988183,
+        4.2073491331039737E-9,
+        5.9682118435218856E-85
+      ],
+      "force_reference_rms_V": [
+        1.1078411601595,
+        3.7260265636735528E-5,
+        2.1960883521839806E-21,
+        5.9682118435218856E-85
+      ],
+      "last_16_drive_samples_force_rms_V": 0.0040832469593222549,
+      "carrier_moment_error_rms_V": 3.6956783203007206E-5,
+      "carrier_moment_reference_rms_V": 0.27696042421324524,
+      "force_relative_error_by_window": [
+        0.0009212113159140342,
+        3.4832488218206059,
+        1.9158378254316687E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": -2.1430127139738441E-16,
+      "shared_body_vs_truth_slope_rad_s": 1.0787299953486305E-16,
+      "shared_minus_dedicated_body_slope_rad_s": 3.2217427093224746E-16,
+      "dedicated_body_vs_truth_rms_rad": 1.2232249986474546E-16,
+      "shared_body_vs_truth_rms_rad": 1.2550023683416807E-16,
+      "shared_minus_dedicated_body_rms_rad": 1.5241950804281125E-16,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.3882226907093396E-17,
+      "shared_physical_beta_vs_truth_rms_rad": 3.4762431327114959E-17,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.2218826154504413E-17
+    },
+    {
+      "condition": "zero_split",
+      "method": "off_window_x10",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0010588085814185631,
+        4.7121435945759226E-5,
+        2.6763437566371875E-9,
+        5.9682118435218856E-85
+      ],
+      "force_reference_rms_V": [
+        1.1078411601595,
+        3.7260265636735528E-5,
+        2.1960883521839806E-21,
+        5.9682118435218856E-85
+      ],
+      "last_16_drive_samples_force_rms_V": 0.0044219034673529355,
+      "carrier_moment_error_rms_V": 2.8918693195074607E-5,
+      "carrier_moment_reference_rms_V": 0.27696042421324524,
+      "force_relative_error_by_window": [
+        0.00095574042515817208,
+        1.2646564682378809,
+        1.2186867408934614E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": -2.1430127139738441E-16,
+      "shared_body_vs_truth_slope_rad_s": 7.0310080053973272E-17,
+      "shared_minus_dedicated_body_slope_rad_s": 2.8461135145135769E-16,
+      "dedicated_body_vs_truth_rms_rad": 1.2232249986474546E-16,
+      "shared_body_vs_truth_rms_rad": 1.1399125094708639E-16,
+      "shared_minus_dedicated_body_rms_rad": 1.4716207217713869E-16,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.3882226907093396E-17,
+      "shared_physical_beta_vs_truth_rms_rad": 3.15745462550488E-17,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.0762563936619927E-17
+    },
+    {
+      "condition": "zero_split",
+      "method": "off_window_x100",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0010517691858233948,
+        4.4853577106150315E-5,
+        2.6399960641803812E-9,
+        5.9682118435218856E-85
+      ],
+      "force_reference_rms_V": [
+        1.1078411601595,
+        3.7260265636735528E-5,
+        2.1960883521839806E-21,
+        5.9682118435218856E-85
+      ],
+      "last_16_drive_samples_force_rms_V": 0.0044189609532594354,
+      "carrier_moment_error_rms_V": 2.8661087519859794E-5,
+      "carrier_moment_reference_rms_V": 0.27696042421324524,
+      "force_relative_error_by_window": [
+        0.00094938626912180056,
+        1.20379112546982,
+        1.2021356342767085E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": -2.1430127139738441E-16,
+      "shared_body_vs_truth_slope_rad_s": 1.5025167792355926E-16,
+      "shared_minus_dedicated_body_slope_rad_s": 3.6455294932094374E-16,
+      "dedicated_body_vs_truth_rms_rad": 1.2232249986474546E-16,
+      "shared_body_vs_truth_rms_rad": 1.2859947479559892E-16,
+      "shared_minus_dedicated_body_rms_rad": 1.5112229714994673E-16,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.3882226907093396E-17,
+      "shared_physical_beta_vs_truth_rms_rad": 3.562089223139985E-17,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.1859510461422696E-17
+    },
+    {
+      "condition": "zero_split",
+      "method": "carrier_moment_only",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.070215357227354613,
+        0.093447392657968045,
+        3.9077201089678E-6,
+        5.9682118435218856E-85
+      ],
+      "force_reference_rms_V": [
+        1.1078411601595,
+        3.7260265636735528E-5,
+        2.1960883521839806E-21,
+        5.9682118435218856E-85
+      ],
+      "last_16_drive_samples_force_rms_V": 0.28546255909868212,
+      "carrier_moment_error_rms_V": 1.3261101704317843E-5,
+      "carrier_moment_reference_rms_V": 0.27696042421324524,
+      "force_relative_error_by_window": [
+        0.063380347068207374,
+        2507.9636728578948,
+        1.7794002254424892E+15,
+        1
+      ],
+      "peak_abs_dac_V": 0.04083251953125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": -2.1430127139738441E-16,
+      "shared_body_vs_truth_slope_rad_s": -3.9416986660395294E-16,
+      "shared_minus_dedicated_body_slope_rad_s": -1.7986859520656851E-16,
+      "dedicated_body_vs_truth_rms_rad": 1.2232249986474546E-16,
+      "shared_body_vs_truth_rms_rad": 1.3237151981466181E-16,
+      "shared_minus_dedicated_body_rms_rad": 1.5687529604271009E-16,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.3882226907093396E-17,
+      "shared_physical_beta_vs_truth_rms_rad": 3.6665714609792845E-17,
+      "shared_minus_dedicated_physical_beta_rms_rad": 4.3453039158893703E-17
+    },
+    {
+      "condition": "zero_split",
+      "method": "equal_plus_moment_x10",
+      "beta_deg": 22.5,
+      "rate_rad_s": 0,
+      "split_Hz": 0,
+      "force_evaluation_frames": 306,
+      "angle_scoring_frames": 204,
+      "train_force_rms_V_by_window": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "force_error_rms_V": [
+        0.0010076121155267704,
+        9.9165614455977517E-5,
+        2.8934848062242923E-9,
+        5.9682118435218856E-85
+      ],
+      "force_reference_rms_V": [
+        1.1078411601595,
+        3.7260265636735528E-5,
+        2.1960883521839806E-21,
+        5.9682118435218856E-85
+      ],
+      "last_16_drive_samples_force_rms_V": 0.004055175827269498,
+      "carrier_moment_error_rms_V": 3.5264922893221087E-5,
+      "carrier_moment_reference_rms_V": 0.27696042421324524,
+      "force_relative_error_by_window": [
+        0.000909527603561598,
+        2.6614306892704613,
+        1.317563022155625E+12,
+        1
+      ],
+      "peak_abs_dac_V": 0.040283203125,
+      "prequantizer_gain_rail_samples": 0,
+      "prequantizer_gain_rail_axis_codes": 0,
+      "possible_drive_ticks": 244800,
+      "possible_drive_axis_codes": 489600,
+      "dedicated_body_vs_truth_slope_rad_s": -2.1430127139738441E-16,
+      "shared_body_vs_truth_slope_rad_s": -1.2357237357431194E-15,
+      "shared_minus_dedicated_body_slope_rad_s": -1.0214224643457352E-15,
+      "dedicated_body_vs_truth_rms_rad": 1.2232249986474546E-16,
+      "shared_body_vs_truth_rms_rad": 2.7709702009672051E-16,
+      "shared_minus_dedicated_body_rms_rad": 3.4312324768894081E-16,
+      "dedicated_physical_beta_vs_truth_rms_rad": 3.3882226907093396E-17,
+      "shared_physical_beta_vs_truth_rms_rad": 7.6753370153305773E-17,
+      "shared_minus_dedicated_physical_beta_rms_rad": 9.5042038448775734E-17
+    }
+  ],
+  "checks": {
+    "half_dac_vs_report42_body_slope_delta_rad_s": 1.7347234759768071E-18,
+    "fixed_window_same_clocks_and_code_rails": true
+  }
+}

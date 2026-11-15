@@ -1,0 +1,231 @@
+{
+  "release": "2025a",
+  "scope": "Nominal symmetric five-terminal electrical model, source-driven force only",
+  "contract": "Target DAC command is zero outside drive, but electrical state is arbitrary per frame",
+  "source": "Closed-loop quantized DAC replay with motion current suppressed only in the electrical force model",
+  "sampling": "All physical off-drive sample ticks, including just after the drive slot boundary",
+  "duration_s": 0.18,
+  "score_start_s": 0.06,
+  "split_Hz": 0.05,
+  "initial_beta_deg": [
+    22.5,
+    67.5
+  ],
+  "cases": [
+    {
+      "score_frames": 204,
+      "off_drive_ticks_per_frame": 2400,
+      "target_reachable_dimensions": 2,
+      "reference_modal_voltage_rms_V": 0.011636034200589385,
+      "off_drive_rms_lower_bound_V": 0.007400510220708186,
+      "off_drive_relative_rms_lower_bound": 0.63599935279782327,
+      "off_drive_modal_acceleration_rms_lower_bound_C_s2": 8.1405612427790043E-9,
+      "bleed_residual_at_joint_optimum_V": 0.018127473783595645,
+      "sense_residual_at_joint_optimum_V": 9.2003947154497529E-7,
+      "tail_residual_at_joint_optimum_V": 4.1835490722280671E-82,
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_separate",
+      "target_mode": "tdm_shared"
+    },
+    {
+      "score_frames": 204,
+      "off_drive_ticks_per_frame": 2400,
+      "target_reachable_dimensions": 6,
+      "reference_modal_voltage_rms_V": 0.022310911893240821,
+      "off_drive_rms_lower_bound_V": 0.012155471361320698,
+      "off_drive_relative_rms_lower_bound": 0.54482180824725712,
+      "off_drive_modal_acceleration_rms_lower_bound_C_s2": 1.3371018497452769E-8,
+      "bleed_residual_at_joint_optimum_V": 0.029774702067227297,
+      "sense_residual_at_joint_optimum_V": 2.2859996011174267E-6,
+      "tail_residual_at_joint_optimum_V": 1.0836694614545963E-81,
+      "initial_beta_deg": 22.5,
+      "source_mode": "tdm_shared",
+      "target_mode": "tdm_separate"
+    },
+    {
+      "score_frames": 204,
+      "off_drive_ticks_per_frame": 2400,
+      "target_reachable_dimensions": 2,
+      "reference_modal_voltage_rms_V": 0.011637802059449139,
+      "off_drive_rms_lower_bound_V": 0.0074014520395477819,
+      "off_drive_relative_rms_lower_bound": 0.6359836678557601,
+      "off_drive_modal_acceleration_rms_lower_bound_C_s2": 8.14159724350256E-9,
+      "bleed_residual_at_joint_optimum_V": 0.018129780759163171,
+      "sense_residual_at_joint_optimum_V": 9.20194666925276E-7,
+      "tail_residual_at_joint_optimum_V": 4.1843763191661235E-82,
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_separate",
+      "target_mode": "tdm_shared"
+    },
+    {
+      "score_frames": 204,
+      "off_drive_ticks_per_frame": 2400,
+      "target_reachable_dimensions": 6,
+      "reference_modal_voltage_rms_V": 0.022347154516167294,
+      "off_drive_rms_lower_bound_V": 0.012175217132679125,
+      "off_drive_relative_rms_lower_bound": 0.54482180824725723,
+      "off_drive_modal_acceleration_rms_lower_bound_C_s2": 1.3392738845947038E-8,
+      "bleed_residual_at_joint_optimum_V": 0.029823069131062887,
+      "sense_residual_at_joint_optimum_V": 2.2897130585480244E-6,
+      "tail_residual_at_joint_optimum_V": 1.0854298118990946E-81,
+      "initial_beta_deg": 67.5,
+      "source_mode": "tdm_shared",
+      "target_mode": "tdm_separate"
+    }
+  ],
+  "validation": [
+    {
+      "source_mode": "tdm_separate",
+      "initial_beta_deg": 22.5,
+      "own_relative_residual": 4.5901756206431543E-15,
+      "max_target_basis_error": 4.9613016807866096E-15
+    },
+    {
+      "source_mode": "tdm_shared",
+      "initial_beta_deg": 22.5,
+      "own_relative_residual": 1.3611359981370535E-15,
+      "max_target_basis_error": 1.4507351519710556E-15
+    },
+    {
+      "source_mode": "tdm_separate",
+      "initial_beta_deg": 67.5,
+      "own_relative_residual": 4.5833160557217285E-15,
+      "max_target_basis_error": 4.9613016807866096E-15
+    },
+    {
+      "source_mode": "tdm_shared",
+      "initial_beta_deg": 67.5,
+      "own_relative_residual": 1.3532577329802422E-15,
+      "max_target_basis_error": 1.4507351519710556E-15
+    }
+  ],
+  "passive_sensitivity_scope": "Same source and switched timing; vary only target ideal bleed resistance; no feasible DAC, protection, peak or hardware acceptance implied",
+  "passive_sensitivity": [
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 1000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.53655755261540183,
+      "off_drive_rms_lower_bound_V": 0.0062434020328173542
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 2000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.24994981990189374,
+      "off_drive_rms_lower_bound_V": 0.002908424652809593
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 3000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.053021820717788069,
+      "off_drive_rms_lower_bound_V": 0.00061696371924970081
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 3333.3344444448144,
+      "matches_source_driver_pole": true,
+      "off_drive_relative_rms_lower_bound": 0.001234996518625215,
+      "off_drive_rms_lower_bound_V": 1.4370461728331826E-5
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 5000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.19945886645082192,
+      "off_drive_rms_lower_bound_V": 0.0023209101916325547
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 10000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.49953982229123167,
+      "off_drive_rms_lower_bound_V": 0.0058126624567371157
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 15000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.63599935279782327,
+      "off_drive_rms_lower_bound_V": 0.007400510220708186
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 30000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.79972223938585862,
+      "off_drive_rms_lower_bound_V": 0.0093055953284657822
+    },
+    {
+      "initial_beta_deg": 22.5,
+      "shared_bleed_R_ohm": 50000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.87388256288235888,
+      "off_drive_rms_lower_bound_V": 0.010168527388997832
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 1000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.5366160430077852,
+      "off_drive_rms_lower_bound_V": 0.0062450312904494508
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 2000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.25000100011915871,
+      "off_drive_rms_lower_bound_V": 0.00290946215405109
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 3000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.053067460651552177,
+      "off_drive_rms_lower_bound_V": 0.0006175886028603701
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 3333.3344444448144,
+      "matches_source_driver_pole": true,
+      "off_drive_relative_rms_lower_bound": 0.0013246995856938865,
+      "off_drive_rms_lower_bound_V": 1.5416591566539735E-5
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 5000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.19942532448065764,
+      "off_drive_rms_lower_bound_V": 0.00232087245194731
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 10000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.49951838730383047,
+      "off_drive_rms_lower_bound_V": 0.005813296116497231
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 15000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.6359836678557601,
+      "off_drive_rms_lower_bound_V": 0.0074014520395477819
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 30000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.79971355852890436,
+      "off_drive_rms_lower_bound_V": 0.0093069080984170827
+    },
+    {
+      "initial_beta_deg": 67.5,
+      "shared_bleed_R_ohm": 50000,
+      "matches_source_driver_pole": false,
+      "off_drive_relative_rms_lower_bound": 0.87387708087424432,
+      "off_drive_rms_lower_bound_V": 0.010170008491503683
+    }
+  ]
+}
