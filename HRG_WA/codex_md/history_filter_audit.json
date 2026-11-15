@@ -1,5 +1,5 @@
 {
-  "source_records": 442,
+  "source_records": 443,
   "kept": 151,
   "omitted": [
     {
@@ -1164,6 +1164,10 @@
     },
     {
       "source_heading": "## 本轮追加 | 2026-11-13 · 五电极三模式同参归因",
+      "reason": "同会话同原文重复"
+    },
+    {
+      "source_heading": "## 本轮追加 | 2026-11-15 · 受限 DAC 波形与窗外可达性",
       "reason": "同会话同原文重复"
     }
   ],

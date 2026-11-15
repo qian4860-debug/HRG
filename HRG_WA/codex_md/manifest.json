@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-15",
-  "source_base_commit": "adafe8b8fd962b8f1fe92773a9a01c20c87d6c78",
+  "source_base_commit": "e034a256fa2893db005c47b93464dac180578983",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3113,11 +3113,11 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "adafe8b8fd962b8f1fe92773a9a01c20c87d6c78",
+      "source_commit": "e034a256fa2893db005c47b93464dac180578983",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "b5561e64c81f642a3fabe3fb3071ebad26bf5bb4cc9deb848688f40e305cd86a",
+      "source_sha256": "7bc8dde7a25b6445f89088e6c0d6d9a647a66854299715edc13b03911f69a720",
       "archive_sha256": "c6da5077b318c27d8f5d349333f152cbd40fb82a279794affca7c039ac3f4670",
       "rewritten_local_links": []
     },
@@ -3765,13 +3765,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 442,
+    "source_records": 443,
     "kept": 151
   },
   "generated_index_sha256": {
-    "README.md": "a412f2252dd0e8ffcafdb5090014de352c0379a4bc01e5a42fd597b29ae15d51",
-    "00_文档索引.md": "4cd395e42403b41af99620305c1484e64149952e71f281b1e65ed2386649810c",
-    "history_filter_audit.json": "34cc1e1f3fb43d88dc175840ab305b4faa299f23a156f6010c59ace077c95720"
+    "README.md": "959d4d4bd68cc5b6fbaa2364e9ce1eac905435dd01539e4b10e79f761eed23b2",
+    "00_文档索引.md": "69483a5f1a63bff6d2a365a0b4d8e1317c0e0f66ad355cff7212ded80990ecef",
+    "history_filter_audit.json": "6ba8c9d721918cd422959dbb006a346ea77c173c43fceb8e8b71a2c94967e75f"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3816,6 +3816,7 @@
     "40_三角观测与独立驱动参考盲测_20261115.md": "9125c44d5be84eb274551f031c61983f98535938d9905d4838c18e1165359c5e",
     "41_假负载采集协议与回放验收_20261115.md": "ce20ca422c65ed03cfe92649f5f8b64f537c8b7b579b779dc51726fce6167994",
     "42_ADC选型与论文路线复核执行计划_20261115.md": "54fa6b67631079b8cde5de52ef451bafc6336d8bf3a28f28805c3e705464b797",
-    "42_等模态力回放与驱动归一化_20261115.md": "ad5620b82727f5583aad29a9708fa411d48e6986a3917ed74d5e4a6557259be8"
+    "42_等模态力回放与驱动归一化_20261115.md": "ad5620b82727f5583aad29a9708fa411d48e6986a3917ed74d5e4a6557259be8",
+    "43_受限DAC波形与窗外可达性_20261115.md": "1658a6b3d1120c1f0b09c0aa8578851443e49996f23983ce0227461f480fae72"
   }
 }
