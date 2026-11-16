@@ -1,6 +1,6 @@
 {
-  "source_records": 444,
-  "kept": 151,
+  "source_records": 445,
+  "kept": 152,
   "omitted": [
     {
       "source_heading": "## 0039 | 2026-10-26T10:28:24.396Z",
@@ -1174,6 +1174,5 @@
       "source_heading": "## 本轮追加 | 2026-11-16 · 泄放阻值与DAC联合整形",
       "reason": "同会话同原文重复"
     }
-  ],
-  "scope": "保留用户原文/回执；不含助手全文，原始档案保持原位"
+  ]
 }

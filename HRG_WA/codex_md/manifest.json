@@ -3117,8 +3117,8 @@
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "d0f164e639044c5e5f39c291971005a0356d508d401e4c7566e54faf904d9b06",
-      "archive_sha256": "c6da5077b318c27d8f5d349333f152cbd40fb82a279794affca7c039ac3f4670",
+      "source_sha256": "55c004716818e4ad192fb3c8991e102f85f090e57a3fe40301f8c4d584f40d95",
+      "archive_sha256": "3b71304d98e9b383e9a6b2fac358749f058dbbdf4e0f88ac967ebe8a654e448d",
       "rewritten_local_links": []
     },
     {
@@ -3765,13 +3765,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 444,
-    "kept": 151
+    "source_records": 445,
+    "kept": 152
   },
   "generated_index_sha256": {
-    "README.md": "aa3ed162f2dee436a2d07086d3aa4d5307e221e515e36095c69783c3b94c6f79",
-    "00_文档索引.md": "61b00a311ad1bca83283e5c4b5729e74f5fe16aeeaabd75474cebbba6c3585ad",
-    "history_filter_audit.json": "c29a1ad4a55cf50835d81d4b6866bc35e0d205dcdcc9bf5611bad3ac498d245a"
+    "README.md": "e9280b27568dd3c3ef50b05cb3ab2420a6cc5d84b4721a614dc820ce7ee6fc67",
+    "00_文档索引.md": "e3d9f5471168d552a5a9583655e8f0bf0d89e256121e3a99acaafdaafbdd6f9e",
+    "history_filter_audit.json": "68544009164c89ce11a8cc329b4501c1e6a18b691e3ae345a3968798f2fbcace"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3818,6 +3818,7 @@
     "42_ADC选型与论文路线复核执行计划_20261115.md": "54fa6b67631079b8cde5de52ef451bafc6336d8bf3a28f28805c3e705464b797",
     "42_等模态力回放与驱动归一化_20261115.md": "ad5620b82727f5583aad29a9708fa411d48e6986a3917ed74d5e4a6557259be8",
     "43_受限DAC波形与窗外可达性_20261115.md": "1658a6b3d1120c1f0b09c0aa8578851443e49996f23983ce0227461f480fae72",
-    "44_泄放阻值与DAC联合整形_20261116.md": "ff565f2c3300890e26218d91233b56068a3f6c28984b48a905d77beb2726edf8"
+    "44_泄放阻值与DAC联合整形_20261116.md": "ff565f2c3300890e26218d91233b56068a3f6c28984b48a905d77beb2726edf8",
+    "45_AD9215采集对时与回放验收_20261116.md": "b4b90513f11fea512e41d898b41769705d74248ee0d0b97b63fa7fabbaf156f0"
   }
 }
