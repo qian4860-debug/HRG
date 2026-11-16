@@ -1,5 +1,5 @@
 {
-  "source_records": 443,
+  "source_records": 444,
   "kept": 151,
   "omitted": [
     {
@@ -1168,6 +1168,10 @@
     },
     {
       "source_heading": "## 本轮追加 | 2026-11-15 · 受限 DAC 波形与窗外可达性",
+      "reason": "同会话同原文重复"
+    },
+    {
+      "source_heading": "## 本轮追加 | 2026-11-16 · 泄放阻值与DAC联合整形",
       "reason": "同会话同原文重复"
     }
   ],
