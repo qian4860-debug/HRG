@@ -14,10 +14,35 @@ FIELDS = ("sample_index", "time_s", "frame_id", "sense_tick", "adc_x_code",
           "adc_y_code", "drive_ref_x_V", "drive_ref_y_V", "adc_clip")
 LABELS = ("frame_id", "validated_route", "case", "injection", "truth_beta_rad")
 ARMS = {"off", "pos_x", "neg_x", "pos_y", "neg_y", "pos_xy", "neg_xy"}
+AD9215_CODINGS = ("offset-binary", "twos-complement-word", "signed")
 
 
-def prepare(samples, labels, out):
-    """逐帧以检测接通为第 0 拍；源序号用于检查遗漏和重排。"""
+def ad9215_centered(code, coding):
+    """把无符号 10 位总线字或已符号扩展的整数统一成 [-512, 511]。"""
+    if coding == "signed":
+        if -512 <= code <= 511:
+            return code
+    elif 0 <= code <= 1023:
+        if coding == "offset-binary":
+            return code - 512
+        if coding == "twos-complement-word":
+            return code - 1024 if code >= 512 else code
+    raise ValueError(f"AD9215 码 {code} 超出 {coding} 的范围")
+
+
+def prepare(samples, labels, out, *, coding=None, vpp=None, delay=None):
+    """检测接通是第 0 拍。原始模式用后续输出码配对当前参考。"""
+    if coding is None:
+        if vpp is not None or delay is not None:
+            raise ValueError("原始输入需要同时指定 AD9215 码制、差分量程和总延迟")
+        step = ADC_STEP
+        delay = 0
+    else:
+        if (coding not in AD9215_CODINGS or vpp is None or not np.isfinite(vpp)
+                or not 0 < vpp or type(delay) is not int or not 0 <= delay < 2*N):
+            raise ValueError("需指定有效的 AD9215 码制、正差分量程和两周期以内的非负整数总延迟")
+        step = vpp / 1024
+    raw_count = 2*N + delay
     groups = defaultdict(list)
     previous = None
     clock_origin = None
@@ -32,20 +57,23 @@ def prepare(samples, labels, out):
             if not (np.isfinite([time, *witness]).all() and
                     abs(time-(clock_origin+sample/FS)) <= .1/FS):
                 raise ValueError("共同时钟对齐超出第 0.1 拍，本入口不能自动修正")
-            if not (sample >= 0 and frame >= 0 and clip in (0,1) and
-                    all(-32768 <= code <= 32767 for code in (x,y))):
-                raise ValueError("序号、ADC 码或过载位超出范围")
+            if not (sample >= 0 and frame >= 0 and clip in (0,1)):
+                raise ValueError("序号或过载位超出范围")
+            if coding is not None:
+                x, y = (ad9215_centered(code, coding) for code in (x,y))
+            elif not all(-32768 <= code <= 32767 for code in (x,y)):
+                raise ValueError("已对齐的有符号 16 位 ADC 码超出范围")
             if previous:
-                step = (sample-previous[0], frame-previous[1], tick-previous[2])
-                if not ((step == (1,0,1)) or
-                        (step == (2*N+1,1,1-2*N) and tick == 0)):
+                index_step = (sample-previous[0], frame-previous[1], tick-previous[2])
+                if not ((index_step == (1,0,1)) or
+                        (index_step == (4*N-raw_count+1,1,1-raw_count) and tick == 0)):
                     raise ValueError(f"帧 {frame} 拍 {tick} 缺样、缺帧或顺序错误")
             if tick != len(groups[frame]):
                 raise ValueError("检测窗口缺少起点或样本")
             groups[frame].append((x,y,*witness,clip))
             previous = (sample,frame,tick)
-    if not groups or any(len(g)!=2*N for g in groups.values()):
-        raise ValueError("每帧需要两周期完整采集")
+    if not groups or any(len(g)!=raw_count for g in groups.values()):
+        raise ValueError(f"每帧需要 {raw_count} 拍，包括原始码的尾部延迟拍")
     indexed = {}
     with labels.open(encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
@@ -60,8 +88,13 @@ def prepare(samples, labels, out):
     ordered = [indexed[k] for k in groups]
     valid, case, injection, truth = zip(*ordered)
     data = np.array(list(groups.values()))
-    np.savez_compressed(out, adc_V=data[:,:,:2]*ADC_STEP,drive_ref_V=data[:,:,2:4],
-                        adc_clip=np.any(data[:,:,4],axis=1),validated_route=valid,
+    # ADC 过载位与输出码同拍。独立参考、sense_tick 和时标仍属于采样拍。
+    output = data[:,delay:raw_count,:]
+    clip_samples = output[:,:,4].astype(bool)
+    np.savez_compressed(out, adc_V=output[:,:,:2]*step,drive_ref_V=data[:,:2*N,2:4],
+                        adc_clip=np.any(clip_samples,axis=1),adc_clip_samples=clip_samples,
+                        adc_code_format=coding or "aligned-signed16", adc_LSB_V=step,
+                        adc_delay_cycles=delay, validated_route=valid,
                         case=case,injection=injection,truth_beta_rad=truth)
     return len(ordered)
 
@@ -100,8 +133,13 @@ if __name__ == "__main__":
     convert = sub.add_parser("convert")
     for item in ("samples","labels","output"):
         convert.add_argument(item,type=Path)
+    convert.add_argument("--ad9215-coding",choices=AD9215_CODINGS)
+    convert.add_argument("--differential-vpp",type=float)
+    convert.add_argument("--observed-delay-cycles",type=int)
     args = parser.parse_args()
     if args.action == "convert":
-        print(f"完整采样帧 {prepare(args.samples,args.labels,args.output)}")
+        count = prepare(args.samples,args.labels,args.output, coding=args.ad9215_coding,
+                        vpp=args.differential_vpp, delay=args.observed_delay_cycles)
+        print(f"完整采样帧 {count}")
     else:
         synthetic_example(args.directory)
