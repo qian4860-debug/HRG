@@ -31,11 +31,14 @@ for k = 1:numel(models)
     s = group(m,'Timing',{}, {'Slot','Drive','Sense','Valid','Capture'}); timing(s);
     s = group(m,'Carrier',{}, {'Cos','Sin'}); carrier(s,c);
     s = group(m,'ADC sample alignment',{'Slot','Capture','Cos','Sin'}, {'Slot delayed','Capture delayed','Cos delayed','Sin delayed'}); alignment(s);
-    s = group(m,'Converters',{'ADC input','Command','Drive','Valid','Cos','Sin'}, ...
+    converterInputs = {'ADC input','Command','Drive','Valid','Cos','Sin'};
+    hasDriveShape = isfield(c,'dacShape');
+    if hasDriveShape, converterInputs{end+1} = 'Drive slot'; end
+    s = group(m,'Converters',converterInputs, ...
         {'DAC','ADC','ADC clip','DAC clip'});
     % 仅研究版或显式启用抖动的配置加入抖动原生支路。
     configuredDither = isfield(c.p,'adc_dither_lsb_rms') && c.p.adc_dither_lsb_rms > 0;
-    converters(s,includeAdcDither || configuredDither);
+    converters(s,includeAdcDither || configuredDither,hasDriveShape);
     plantName = 'Separate electrodes';
     if c.reuse, plantName = 'Shared electrode switch'; end
     plantOutputs = {'AFE','Motion','Sense electrode'};
@@ -60,6 +63,7 @@ for k = 1:numel(models)
     f = 'Amplitude and quadrature'; h = 'Whole angle'; g = 'Trace';
     wire(m,plantName,1,d,1); wire(m,f,1,d,2); wire(m,a,2,d,3); wire(m,a,4,d,4);
     wire(m,b,1,d,5); wire(m,b,2,d,6);
+    if hasDriveShape, wire(m,a,1,d,7); end
     wire(m,d,1,plantName,1); wire(m,a,2,plantName,2); wire(m,a,3,plantName,3);
     wire(m,a,1,'ADC sample alignment',1); wire(m,a,5,'ADC sample alignment',2);
     wire(m,b,1,'ADC sample alignment',3); wire(m,b,2,'ADC sample alignment',4);
@@ -123,11 +127,14 @@ sine = block(s,'Sine NCO','Sources/Sine Wave','Frequency','c.w','Phase',phase,'S
 outputs(s,{'Cos','Sin'},cosine,sine);
 end
 
-function converters(s, includeAdcDither)
+function converters(s, includeAdcDither, hasDriveShape)
 zero = constant(s,'Zero volts','zeros(2,1)');
 cmdCos = gain(s,'DAC cosine coefficients','[eye(2) zeros(2)]','Command');
 cmdSin = gain(s,'DAC sine coefficients','[zeros(2) eye(2)]','Command');
 raw = sumblk(s,'Modulated DAC','++',product(s,'Cosine DAC',cmdCos,'Cos'),product(s,'Sine DAC',cmdSin,'Sin'));
+if hasDriveShape
+    raw = shapeFeedbackDrive(s,raw,cmdCos,cmdSin);
+end
 seedClock = block(s,'Startup clock','Sources/Clock');
 seedGate = logic(s,'Bounded startup enabled','AND',cmp(s,'Startup duration','<',seedClock,constant(s,'Startup seconds','c.p.seed_seconds')),constant(s,'Startup requested','c.p.seed_enabled'));
 seed = sumblk(s,'Startup waveform','++',product(s,'Seed cosine',gain(s,'Seed I','[eye(2) zeros(2)]',constant(s,'Seed command','c.seedCommand')),'Cos'), ...
@@ -170,6 +177,32 @@ dacFlags = logic(s,'DAC over range','OR',cmp(s,'DAC low','<',raw,constant(s,'DAC
 dacClip = logic(s,'Driven DAC clip','AND','Drive',cmp(s,'DAC any clip','>', ...
     gain(s,'DAC clip count','[1 1]',cast(s,'DAC flags as double',dacFlags)),constant(s,'DAC no clip','0')));
 outputs(s,{'DAC','ADC','ADC clip','DAC clip'},dac,adc,clip,dacClip);
+end
+
+function y = shapeFeedbackDrive(s,main,cmdCos,cmdSin)
+% 以驱动窗最后一个 DAC 样本为时间零点。保护窗和检测窗钳住指数输入。
+% 整形使用本帧已保存的反馈 I/Q，后级仍执行起振旁路、量化与驱动门控。
+last = constant(s,'Last drive slot','c.driveEnd-1');
+offset = sumblk(s,'Drive slot relative to end','+-','Drive slot',last);
+offset = unary(s,'Limit drive exponent time','Discontinuities/Saturation',offset, ...
+    'UpperLimit','0','LowerLimit','-inf');
+edgeExponent = gain(s,'Drive shape inverse time constants','c.Ts./c.dacShape.taus_s(:)',offset);
+edges = unary(s,'Drive shape exponential basis','Math Operations/Math Function',edgeExponent,'Operator','exp');
+gainAtSlot = sumblk(s,'Drive shaping in phase','++', ...
+    constant(s,'Constant in-phase coefficient','c.dacShape.coeffs(1)'), ...
+    gain(s,'In-phase edge coefficients','reshape(c.dacShape.coeffs(3:2:end),1,[])',edges));
+quadratureAtSlot = sumblk(s,'Drive shaping quadrature','++', ...
+    constant(s,'Constant quadrature coefficient','c.dacShape.coeffs(2)'), ...
+    gain(s,'Quadrature edge coefficients','reshape(c.dacShape.coeffs(4:2:end),1,[])',edges));
+carrierQuadrature = sumblk(s,'Quadrature carrier command','+-', ...
+    product(s,'Sine coefficient times cosine',cmdSin,'Cos'), ...
+    product(s,'Cosine coefficient times sine',cmdCos,'Sin'));
+inPhase = product(s,'In-phase correction',main,gainAtSlot);
+quadrature = product(s,'Quadrature correction',carrierQuadrature,quadratureAtSlot);
+% 共用电极的闭环标定已含近半幅，系数按专用电极参考乘二后加入。
+dedicatedScale = gain(s,'Scale correction from dedicated reference','2', ...
+    sumblk(s,'Carrier drive correction','++',inPhase,quadrature));
+y = sumblk(s,'Shaped feedback DAC before limits','++',main,dedicatedScale);
 end
 
 function y = convert(s,name,x,kind)

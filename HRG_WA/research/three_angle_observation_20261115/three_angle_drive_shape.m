@@ -1,8 +1,13 @@
-function result = three_angle_drive_shape(outPath)
+function result = three_angle_drive_shape(outPath,opts)
 % 冻结窗内整形器，比较共用检测电极与专用驱动拓扑的外加模态输入和机械角。
 % 训练不读取闭环角误差。按窗改变电压目标权重，验证使用独立完整输入轨迹。
 arguments
     outPath (1,:) char = fullfile(fileparts(mfilename('fullpath')),'drive_shape.json')
+    opts.BleedOhm (1,1) double {mustBeFinite,mustBePositive} = 15000
+    opts.FrozenCoefficients (:,:) double {mustBeFinite} = []
+    opts.Methods (1,:) string = string.empty(1,0)
+    opts.FitOnly (1,1) logical = false
+    opts.ElectricalMonitor (1,1) logical = false
 end
 here = fileparts(mfilename('fullpath'));
 addpath(fullfile(here,'..','three_mode_split_20261113'),fullfile(here,'..','tdm_gain_20261113'));
@@ -13,20 +18,35 @@ labels = ["train_and_time_holdout","opposite_beta","positive_rate","negative_rat
 fitWeights = [1 0 0 0 0;1 1 1 1 0;1 10 10 10 0;1 100 100 100 0;0 0 0 0 1;1 1 1 1 10];
 methodNames = ["half_dac","drive_only_weight","equal_window_weight", ...
     "off_window_x10","off_window_x100","carrier_moment_only","equal_plus_moment_x10"];
+if ~isempty(opts.Methods)
+    [known,indices] = ismember(opts.Methods,methodNames);
+    assert(all(known) && indices(1)==1 && numel(unique(indices))==numel(indices), ...
+        '必须以半幅基线开头，并指定不同的已知整形目标。');
+    methodNames = methodNames(indices);
+    fitWeights = fitWeights(indices(2:end)-1,:);
+end
 taus = [1 4 16]*1e-6;
 splitFrames = 40;
 s = three_mode_split_config("tdm_separate",0,.05,22.5,duration,16);
-c = three_mode_split_config("tdm_shared",0,.05,22.5,duration,16);
+c = three_mode_split_config("tdm_shared",0,.05,22.5,duration,16,struct('bleed_R',opts.BleedOhm));
 sourceLift = liftTopology(s,s,true);
 sharedLift = liftTopology(c,s,true);
 [~,info,debug] = tdm_gain_fast(s);
 assert(info.published_frames==info.expected_frames && info.expected_frames>splitFrames);
 trainDac = debug.dac(:,:,1:splitFrames);
-gram = windowFit(s,sourceLift,sharedLift,trainDac,taus);
 coefs = zeros(2+2*numel(taus),numel(methodNames));
 rawCoefs = coefs;
 trainProjection = ones(1,numel(methodNames));
-for j = 2:numel(methodNames)
+if isempty(opts.FrozenCoefficients)
+    gram = windowFit(s,sourceLift,sharedLift,trainDac,taus);
+else
+    assert(isequal(size(opts.FrozenCoefficients),size(coefs)) && ...
+        all(opts.FrozenCoefficients(:,1)==0),'冻结系数须与方法数一致。');
+    coefs = opts.FrozenCoefficients;
+    rawCoefs = nan(size(coefs));
+    trainProjection = nan(size(trainProjection));
+end
+for j = 2:numel(methodNames)*isempty(opts.FrozenCoefficients)
     weights = fitWeights(j-1,:);
     g = sum(gram.normal.*reshape(weights,1,1,[]),3);
     h = gram.rhs*weights';
@@ -42,6 +62,7 @@ result = struct('release',version('-release'),'scope','Synthetic constrained sha
     'conditions_columns',["physical_initial_beta_deg","body_rate_rad_s","split_Hz"], ...
     'conditions',conditions,'condition_labels',labels,'training_frames',splitFrames, ...
     'train_condition',conditions(1,:),'score_start_s',scoreStart,'duration_s',duration, ...
+    'bleed_Ohm',opts.BleedOhm,'uses_frozen_coefficients',~isempty(opts.FrozenCoefficients), ...
     'dac_bits',c.p.dac_bits,'dac_rate_Hz',1/c.Ts,'dac_rails_V',[c.dacMin c.dacMax], ...
     'window_order',["drive","bleed","sense_including_settle","tail"], ...
     'window_weight_columns',["drive","bleed","sense_including_settle","tail","full_frame_carrier_moment"], ...
@@ -52,11 +73,12 @@ result = struct('release',version('-release'),'scope','Synthetic constrained sha
     'coefficients',coefs,'unprojected_coefficients',rawCoefs,'training_rail_projection',trainProjection, ...
     'fit_objective','Weighted per-window mean squared H''v and full-frame normalized carrier moment residual, plus trace-scaled ridge', ...
     'cases',[],'checks',[]);
+if opts.FitOnly, return; end
 for row = 1:size(conditions,1)
     args = num2cell(conditions(row,:));
     [beta,rate,split] = deal(args{:});
     source = three_mode_split_config("tdm_separate",rate,split,beta,duration,16);
-    shared = three_mode_split_config("tdm_shared",rate,split,beta,duration,16);
+    shared = three_mode_split_config("tdm_shared",rate,split,beta,duration,16,struct('bleed_R',opts.BleedOhm));
     if row>1, [~,info,debug] = tdm_gain_fast(source); end
     fixed = debug.dac;
     assert(info.expected_frames==size(fixed,3) && info.published_frames==info.expected_frames);
@@ -64,7 +86,7 @@ for row = 1:size(conditions,1)
     sourceForce = response(sourceLift,zeros(6,1),source,s,fixed,true);
     sourcePlant = liftTopology(source,s,false);
     [reference,time] = mechanicalAngle(response(sourcePlant,source.x0,source,s,fixed,false),source,s);
-    sharedPlant = liftTopology(shared,s,false);
+    sharedPlant = liftTopology(shared,s,false,opts.ElectricalMonitor);
     steady = time>=scoreStart;
     assert(nnz(steady)>100);
     for j = 1:numel(methodNames)
@@ -73,7 +95,11 @@ for row = 1:size(conditions,1)
         dac = min(c.dacMax,max(c.dacMin,c.dacStep*round(command/c.dacStep)));
         assert(all(dac>=c.dacMin & dac<=c.dacMax,'all'));
         h = response(sharedLift,zeros(6,1),shared,s,dac,true);
-        mech = response(sharedPlant,shared.x0,shared,s,dac,false);
+        if opts.ElectricalMonitor
+            [mech,monitor] = response(sharedPlant,shared.x0,shared,s,dac,false);
+        else
+            mech = response(sharedPlant,shared.x0,shared,s,dac,false);
+        end
         estimated = mechanicalAngle(mech,shared,s);
         [slopes,errors,angleRms] = angleScore(estimated(steady),reference(steady),time(steady),rate,c.B);
         if row==1
@@ -89,10 +115,12 @@ for row = 1:size(conditions,1)
         momentSource = carrierMoment(sourceForce(:,validation),s);
         edge = repmat((0:s.frame-1)'>=s.driveEnd-16 & (0:s.frame-1)'<s.driveEnd,n,1);
         boundaryError = h(:,edge & validation)-sourceForce(:,edge & validation);
-        result.cases = [result.cases;struct('condition',labels(row),'method',methodNames(j), ...
+        [forcePeak,forceEnergy] = peakAndEnergy(h-sourceForce,s,validation);
+        entry = struct('condition',labels(row),'method',methodNames(j), ...
             'beta_deg',beta,'rate_rad_s',rate,'split_Hz',split, ...
             'force_evaluation_frames',nnz(validation)/s.frame,'angle_scoring_frames',nnz(steady), ...
             'train_force_rms_V_by_window',trainRms,'force_error_rms_V',eV,'force_reference_rms_V',rV, ...
+            'force_error_peak_V_by_window',forcePeak,'force_error_energy_V2_s_per_frame_by_window',forceEnergy, ...
             'last_16_drive_samples_force_rms_V',sqrt(mean(boundaryError.^2,'all')), ...
             'carrier_moment_error_rms_V',sqrt(mean(momentError.^2,'all')), ...
             'carrier_moment_reference_rms_V',sqrt(mean(momentSource.^2,'all')), ...
@@ -105,9 +133,13 @@ for row = 1:size(conditions,1)
             'shared_minus_dedicated_body_rms_rad',errors(3), ...
             'dedicated_physical_beta_vs_truth_rms_rad',angleRms(1), ...
             'shared_physical_beta_vs_truth_rms_rad',angleRms(2), ...
-            'shared_minus_dedicated_physical_beta_rms_rad',angleRms(3))]; %#ok<AGROW>
+            'shared_minus_dedicated_physical_beta_rms_rad',angleRms(3));
+        if opts.ElectricalMonitor
+            entry.electrical = monitor;
+        end
+        result.cases = [result.cases;entry]; %#ok<AGROW>
     end
-    if row==1
+    if row==1 && opts.BleedOhm==15000
         % 半幅窗际波形须复现第 42 号回放，确认 DAC 次序、机械缩放和锚点。
         old = jsondecode(fileread(fullfile(here,'modal_force_replay.json')));
         oldCases = old.cases;
@@ -223,7 +255,21 @@ end
 relative = errorRms./sourceRms;
 end
 
-function lifted = liftTopology(c,s,electricalOnly)
+function [pk,en] = peakAndEnergy(e,s,include)
+% 每窗记录峰值及两轴残差平方积分，按完整帧归一化，单位 V²·s/帧。
+ids = repmat(slotId(s),size(e,2)/s.frame,1);
+frames = nnz(include)/s.frame;
+pk = zeros(1,4);
+en = zeros(1,4);
+for j = 1:4
+    r = e(:,ids==j & include);
+    pk(j) = max(abs(r),[],'all');
+    en(j) = s.Ts*sum(r.^2,'all')/frames;
+end
+end
+
+function lifted = liftTopology(c,s,electricalOnly,monitor)
+if nargin<4, monitor=false; end
 % 拟合采用独立六状态外加电气模型，机械评分采用完整五端状态。
 ids = slotId(s);
 lengths = accumarray(ids,1);
@@ -236,6 +282,9 @@ if electricalOnly
     end
 else
     output = c.motion;
+    if monitor
+        output = [output;c.pickoff;c.portCV;c.groupVoltage];
+    end
 end
 lifted = cell(1,4);
 for k = 1:4
@@ -278,11 +327,21 @@ q = struct('length',n,'obs',size(c,1),'state',state,'transition',r, ...
     'endDrive',endDrive,'nFFT',f,'impulseFFT',fft(response,f,1));
 end
 
-function y = response(q,x,c,s,dac,wide)
+function [y,monitor] = response(q,x,c,s,dac,wide)
 % DAC 输入只存在于首窗；所有时窗继续推进电气或机电状态。
 lengths = cellfun(@(a) a.length,q);
 edges = [0,cumsum(lengths)];
 fCount = size(dac,3);
+instrument = nargout>=2;
+if instrument
+    vCap = zeros(fCount,1);
+    bleedJ = zeros(fCount,1);
+    monitor = struct('detect_connect_adc_peak_V',0,'detect_sense_adc_peak_V',0, ...
+        'detect_valid_adc_peak_V',0,'detect_connect_cv_group_peak_V',0, ...
+        'detect_sense_cv_group_peak_V',0,'detect_connect_group_voltage_peak_V',0, ...
+        'detect_group_voltage_peak_V',0,'max_bleed_peak_current_A_per_group',0, ...
+        'valid_adc_clip_ticks',0,'valid_adc_total_ticks',fCount*c.n);
+end
 if wide
     y = zeros(2,s.frame*fCount);
 else
@@ -291,7 +350,7 @@ end
 for f = 1:fCount
     for k = 1:4
         step = q{k};
-        if wide || k==3
+        if wide || k==3 || (instrument && (k==2 || k==4))
             obs = reshape(step.state*x,step.obs,step.length);
         end
         x = step.transition*x;
@@ -307,9 +366,42 @@ for f = 1:fCount
         if wide
             y(:,(f-1)*s.frame+edges(k)+(1:step.length)) = obs;
         elseif k==3
-            y(:,(f-1)*c.n+(1:c.n)) = obs(:,c.validStart-c.senseStart+1:end);
+            val = c.validStart-c.senseStart+1:step.length;
+            y(:,(f-1)*c.n+(1:c.n)) = obs(1:2,val);
+        end
+        if instrument && k==3
+            % 从实际检测接通边沿算前 16 拍，另报整窗和有效 ADC 窗。
+            early = 1:min(16,size(obs,2));
+            adc = obs(3:4,:);
+            cv = obs(5:8,:);
+            v = obs(9:12,:);
+            monitor.detect_connect_adc_peak_V = max(monitor.detect_connect_adc_peak_V,max(abs(adc(:,early)),[],'all'));
+            monitor.detect_sense_adc_peak_V = max(monitor.detect_sense_adc_peak_V,max(abs(adc),[],'all'));
+            monitor.detect_valid_adc_peak_V = max(monitor.detect_valid_adc_peak_V,max(abs(adc(:,val)),[],'all'));
+            monitor.detect_connect_cv_group_peak_V = max(monitor.detect_connect_cv_group_peak_V,max(abs(cv(:,early)),[],'all'));
+            monitor.detect_sense_cv_group_peak_V = max(monitor.detect_sense_cv_group_peak_V,max(abs(cv),[],'all'));
+            monitor.detect_connect_group_voltage_peak_V = max(monitor.detect_connect_group_voltage_peak_V,max(abs(v(:,early)),[],'all'));
+            monitor.detect_group_voltage_peak_V = max(monitor.detect_group_voltage_peak_V,max(abs(v),[],'all'));
+            monitor.valid_adc_clip_ticks = monitor.valid_adc_clip_ticks + nnz(any(adc(:,val)<c.adcMin | adc(:,val)>c.adcMax,1));
+            vCap(f) = .5*(v(:,1)'*c.portCapacitance_F*v(:,1));
+        elseif instrument && (k==2 || k==4)
+            v = obs(9:12,:);
+            % 离散采样近似积分四个泄放电阻的耗能和单组峰值电流。
+            for axis = 1:4
+                vEnd = c.groupVoltage(axis,:)*x;
+                bleedJ(f) = bleedJ(f)+c.Ts/c.p.bleed_R*trapz([v(axis,:),vEnd].^2);
+            end
+            monitor.max_bleed_peak_current_A_per_group = max(monitor.max_bleed_peak_current_A_per_group,max(abs(v),[],'all')/c.p.bleed_R);
         end
     end
+end
+if instrument
+    monitor.max_capacitive_energy_at_detect_connect_J = max(vCap);
+    monitor.max_bleed_energy_J_per_frame = max(bleedJ);
+    monitor.mean_bleed_energy_J_per_frame = mean(bleedJ);
+    monitor.detect_connect_adc_fraction_FS = monitor.detect_connect_adc_peak_V/(c.p.adc_span/2);
+    monitor.detect_sense_adc_fraction_FS = monitor.detect_sense_adc_peak_V/(c.p.adc_span/2);
+    monitor.score_connect_samples = 16;
 end
 end
 

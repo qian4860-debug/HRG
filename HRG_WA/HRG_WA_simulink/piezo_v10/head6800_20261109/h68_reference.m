@@ -50,6 +50,14 @@ if isfield(c.p,'adc_dither_lsb_rms')
     ditherState = c.p.adc_dither_seeds(:);
 end
 heldDAC=zeros(2,1);
+% 可选整形系数以专用电极参考拟合，窗内指数在最后一拍取 1。
+hasDriveShape = isfield(c,'dacShape');
+if hasDriveShape
+    ticks = (0:c.driveEnd-1)'-(c.driveEnd-1);
+    edges = exp((ticks*c.Ts)./c.dacShape.taus_s(:)');
+    coefficients = reshape(c.dacShape.coeffs,2,[]);
+    shapeByTick = [ones(c.driveEnd,1),edges]*coefficients';
+end
 % 载波初相同时作用在 DAC 调制和相应采样拍的 ADC 解调。
 carrierPhase = 0;
 if isfield(c,'carrierPhase_rad'), carrierPhase = c.carrierPhase_rad; end
@@ -60,8 +68,14 @@ for k=0:N-1
     validSample=senseOn && slot>=c.validStart;
     carrier=[cos(c.w*time+carrierPhase);sin(c.w*time+carrierPhase)];
     useCmd=cmd;
-    if c.p.seed_enabled && time<c.p.seed_seconds, useCmd=c.seedCommand; end
+    seeding=c.p.seed_enabled && time<c.p.seed_seconds;
+    if seeding, useCmd=c.seedCommand; end
     raw=reshape(useCmd,2,2)*carrier;
+    % 保留起振预设幅相；闭环共用电极的参考需乘二后应用冻结增量。
+    if hasDriveShape && driveOn && ~seeding
+        quadrature=reshape(useCmd,2,2)*[-carrier(2);carrier(1)];
+        raw=raw+2*(shapeByTick(slot+1,1)*raw+shapeByTick(slot+1,2)*quadrature);
+    end
     dacClip=driveOn && any(raw<c.dacMin | raw>c.dacMax);
     if mod(k,c.p.dac_divisor)==0, heldDAC=quantize(raw,c.dacStep,c.dacMin,c.dacMax); end
     u=heldDAC*driveOn;
