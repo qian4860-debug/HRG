@@ -1,5 +1,5 @@
 {
-  "source_records": 446,
+  "source_records": 447,
   "kept": 152,
   "omitted": [
     {
@@ -1176,6 +1176,10 @@
     },
     {
       "source_heading": "## 本轮追加 | 2026-11-17 · 泄放极点估计与容差闭环",
+      "reason": "同会话同原文重复"
+    },
+    {
+      "source_heading": "## 本轮追加 | 2026-11-17 · 共同漂移与量化归因",
       "reason": "同会话同原文重复"
     }
   ],
