@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "long_native": [
+    {
+      "mode": "tdm_separate",
+      "duration_s": 20,
+      "native_runtime_s": 1.6355821,
+      "frames": 34000,
+      "max_trace_delta": 2.6506574712925612E-15,
+      "rail_free": true
+    },
+    {
+      "mode": "tdm_shared",
+      "duration_s": 20,
+      "native_runtime_s": 0.4060754,
+      "frames": 34000,
+      "max_trace_delta": 1.6209256159527285E-14,
+      "rail_free": true
+    }
+  ],
+  "probe_regression": [
+    {
+      "mode": "continuous",
+      "periodic_carrier": false,
+      "probe_read_is_exact_noop": true
+    },
+    {
+      "mode": "continuous",
+      "periodic_carrier": true,
+      "probe_read_is_exact_noop": true
+    },
+    {
+      "mode": "tdm_separate",
+      "periodic_carrier": false,
+      "probe_read_is_exact_noop": true
+    },
+    {
+      "mode": "tdm_separate",
+      "periodic_carrier": true,
+      "probe_read_is_exact_noop": true
+    },
+    {
+      "mode": "tdm_shared",
+      "periodic_carrier": false,
+      "probe_read_is_exact_noop": true
+    },
+    {
+      "mode": "tdm_shared",
+      "periodic_carrier": true,
+      "probe_read_is_exact_noop": true
+    }
+  ]
+}

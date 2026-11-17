@@ -1,0 +1,237 @@
+{
+  "status": "passed_scoped_checks",
+  "periodic_parity": [
+    {
+      "mode": "continuous",
+      "converter_mismatches": 0,
+      "events_equal": true,
+      "max_angle_delta_rad": 6.6613381477509392E-16,
+      "max_frames_delta": 4.0084309569504706E-16
+    },
+    {
+      "mode": "tdm_separate",
+      "converter_mismatches": 0,
+      "events_equal": true,
+      "max_angle_delta_rad": 6.6613381477509392E-16,
+      "max_frames_delta": 4.0082276690431295E-16
+    },
+    {
+      "mode": "tdm_shared",
+      "converter_mismatches": 0,
+      "events_equal": true,
+      "max_angle_delta_rad": 6.6613381477509392E-16,
+      "max_frames_delta": 4.008702007493592E-16
+    }
+  ],
+  "lift_short_checks": [
+    {
+      "mode": "tdm_separate",
+      "max_candidate_angle_delta_rad": 5.25135490647699E-13,
+      "max_native_lift_trace_delta": 1.5404344466674047E-15,
+      "precompute_seconds": 0.0265133,
+      "full_reference_seconds": 10.2341903,
+      "lift_reference_seconds": 0.0489544,
+      "rail_free": true,
+      "adc_bound_V": 0.45450161768321296,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.0805095470488741
+    },
+    {
+      "mode": "tdm_separate_holdout1",
+      "max_candidate_angle_delta_rad": 3.7693459464804846E-13,
+      "max_native_lift_trace_delta": null,
+      "precompute_seconds": null,
+      "full_reference_seconds": null,
+      "lift_reference_seconds": null,
+      "rail_free": true,
+      "adc_bound_V": 0.642017725598699,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.11373997103643244
+    },
+    {
+      "mode": "tdm_separate_holdout2",
+      "max_candidate_angle_delta_rad": 7.3296924085752835E-13,
+      "max_native_lift_trace_delta": null,
+      "precompute_seconds": null,
+      "full_reference_seconds": null,
+      "lift_reference_seconds": null,
+      "rail_free": true,
+      "adc_bound_V": 0.45512978663052117,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.0805104508022594
+    },
+    {
+      "mode": "tdm_shared",
+      "max_candidate_angle_delta_rad": 2.0474733020137137E-12,
+      "max_native_lift_trace_delta": 7.8409501114151681E-16,
+      "precompute_seconds": 0.0229854,
+      "full_reference_seconds": 10.019289,
+      "lift_reference_seconds": 0.0079922,
+      "rail_free": true,
+      "adc_bound_V": 0.45492816709357914,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.040258388802109531
+    },
+    {
+      "mode": "tdm_shared_holdout1",
+      "max_candidate_angle_delta_rad": 5.6929461145216465E-13,
+      "max_native_lift_trace_delta": null,
+      "precompute_seconds": null,
+      "full_reference_seconds": null,
+      "lift_reference_seconds": null,
+      "rail_free": true,
+      "adc_bound_V": 0.64260287132348426,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.056875093014717888
+    },
+    {
+      "mode": "tdm_shared_holdout2",
+      "max_candidate_angle_delta_rad": 3.6415315207705135E-12,
+      "max_native_lift_trace_delta": null,
+      "precompute_seconds": null,
+      "full_reference_seconds": null,
+      "lift_reference_seconds": null,
+      "rail_free": true,
+      "adc_bound_V": 0.45554470185673085,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.0402588407199941
+    }
+  ],
+  "lift_long_runs": [
+    {
+      "mode": "tdm_separate",
+      "duration_s": 20,
+      "runtime_s": 0.3935448,
+      "window_edges_s": [
+        [
+          0.02,
+          0.06
+        ],
+        [
+          0.08,
+          0.12
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          19,
+          20
+        ]
+      ],
+      "slopes_mechanical_readout_total_mrad_s": [
+        [
+          1.0997669375586663,
+          -0.0026942434750626579,
+          1.0970726940836033
+        ],
+        [
+          1.586094042399016,
+          -0.00042779858013201883,
+          1.5856662438188844
+        ],
+        [
+          1.7160518329213206,
+          -0.00010384257999857105,
+          1.7159479903413182
+        ],
+        [
+          1.7183106249828737,
+          -0.00078559600603775553,
+          1.7175250289768342
+        ],
+        [
+          1.72021744796843,
+          -0.000859041801872858,
+          1.7193584061665126
+        ],
+        [
+          1.7214104032307807,
+          0.00072112006192673339,
+          1.7221315232927159
+        ]
+      ],
+      "rail_free": true,
+      "adc_bound_V": 0.64707743455137656,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.080971255125878577
+    },
+    {
+      "mode": "tdm_shared",
+      "duration_s": 20,
+      "runtime_s": 0.3809889,
+      "window_edges_s": [
+        [
+          0.02,
+          0.06
+        ],
+        [
+          0.08,
+          0.12
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          19,
+          20
+        ]
+      ],
+      "slopes_mechanical_readout_total_mrad_s": [
+        [
+          1.0989859295077216,
+          -0.0025754908394752004,
+          1.0964104386682465
+        ],
+        [
+          1.585103174717049,
+          -0.00040259802576134439,
+          1.5847005766912874
+        ],
+        [
+          1.7179295467877491,
+          -0.00010397646735522304,
+          1.7178255703203862
+        ],
+        [
+          1.7268542530777753,
+          -0.00078692643991032927,
+          1.7260673266378754
+        ],
+        [
+          1.7286842287262689,
+          -0.000861443945682254,
+          1.7278227847806678
+        ],
+        [
+          1.7138243390104235,
+          0.00072134585853171629,
+          1.7145456848689928
+        ]
+      ],
+      "rail_free": true,
+      "adc_bound_V": 0.65091797383382288,
+      "adc_peak_V": null,
+      "dac_bound_V": 0.040530448086165564
+    }
+  ],
+  "scope": "TDM frame lift is unquantized, noiseless and full-valid only; excludes continuous delayed control and low-bit behavior."
+}

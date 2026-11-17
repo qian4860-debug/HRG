@@ -116,6 +116,22 @@ end
 
 function carrier(s,c)
 % 初相是调制与解调的共同参数，只在分时相位扫描研究模型中启用。
+if isfield(c,'periodicCarrier') && c.periodicCarrier
+    % 研究用公共周期内整数相位：避免 sin(wt+pi/2) 与 cos(wt) 的长期舍入差异。
+    % 与 MATLAB 采用相同的乘法顺序；这里只用原生 Delay/Gain/Switch/Trig。
+    phase='0';
+    if isfield(c,'carrierPhase_rad'), phase='c.carrierPhase_rad'; end
+    tick=delay(s,'Carrier tick','0');
+    next=sumblk(s,'Next carrier tick','++',tick,constant(s,'One carrier tick','1'));
+    reset=cmp(s,'Carrier period reached','>=',next,constant(s,'Carrier period ticks','c.n'));
+    wrap=select(s,'Wrap carrier tick',constant(s,'Zero carrier tick','0'),reset,next);
+    wire(s,wrap,1,tick,1);
+    angle=sumblk(s,'Bounded carrier phase','++', ...
+        gain(s,'Carrier angular frequency','c.w',gain(s,'Carrier tick time','c.Ts',tick)), ...
+        constant(s,'Carrier initial phase',phase));
+    outputs(s,{'Cos','Sin'},trig(s,'Bounded cosine','cos',angle),trig(s,'Bounded sine','sin',angle));
+    return
+end
 phase = '0';
 quadrature = 'pi/2';
 if isfield(c,'carrierPhase_rad')

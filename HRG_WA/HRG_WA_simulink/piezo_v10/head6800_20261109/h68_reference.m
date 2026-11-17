@@ -1,4 +1,4 @@
-function [t,trace,frames,adcMonitor,angleCandidates]=h68_reference(c,collectADCMonitor)
+function [t,trace,frames,adcMonitor,angleCandidates,numericProbe]=h68_reference(c,collectADCMonitor)
 % 6800 Hz 逐拍 MATLAB 参考；原生 Simulink 不调用本函数，二者独立对拍。
 % trace 1:22 为控制/转换器/角度列；26 状态五电极版在 23:26 追加组端电压。
 % adcMonitor 为物理采样时刻、ADC 流水线之前的采样，列定义见下方英文说明。
@@ -15,6 +15,10 @@ arguments
     collectADCMonitor (1,1) logical = true
 end
 N=round(c.duration/c.Ts)+1;
+% 可选第六输出仅用于定位浮点/量化分歧，不改变控制和状态更新。
+% 列为 cos、sin、量化前 DAC 两路、量化前 ADC 两路、当前归一化物理状态。
+numericProbe=[];
+if nargout>=6, numericProbe=zeros(N,6+c.stateCount); end
 t=(0:c.logDecimation:N-1)'*c.Ts;
 hasGroups=isfield(c,'groupVoltage');
 width=22;
@@ -61,12 +65,15 @@ end
 % 载波初相同时作用在 DAC 调制和相应采样拍的 ADC 解调。
 carrierPhase = 0;
 if isfield(c,'carrierPhase_rad'), carrierPhase = c.carrierPhase_rad; end
+periodicCarrier=isfield(c,'periodicCarrier') && c.periodicCarrier;
 for k=0:N-1
     time=k*c.Ts; slot=mod(k,c.frame);
     driveOn=slot<c.driveEnd;
     senseOn=slot>=c.senseStart && slot<c.validEnd;
     validSample=senseOn && slot>=c.validStart;
-    carrier=[cos(c.w*time+carrierPhase);sin(c.w*time+carrierPhase)];
+    carrierTime=time;
+    if periodicCarrier, carrierTime=mod(k,c.n)*c.Ts; end
+    carrier=[cos(c.w*carrierTime+carrierPhase);sin(c.w*carrierTime+carrierPhase)];
     useCmd=cmd;
     seeding=c.p.seed_enabled && time<c.p.seed_seconds;
     if seeding, useCmd=c.seedCommand; end
@@ -111,6 +118,7 @@ for k=0:N-1
         analog = analog+dither;
     end
     clipNow=validSample && any(analog<c.adcMin | analog>c.adcMax);
+    if nargout>=6, numericProbe(k+1,:)=[carrier',raw',analog',x']; end
     adcNow=zeros(2,1);
     if validSample, adcNow=quantize(analog,c.adcStep,c.adcMin,c.adcMax); end
     if collectADC && senseOn
@@ -139,7 +147,13 @@ for k=0:N-1
     if source>=0
         sourceSlot=mod(source,c.frame);
         if sourceSlot==0, acc(:)=0; clipped=false; end
-        sourceCarrier=[cos(c.w*source*c.Ts+carrierPhase);sin(c.w*source*c.Ts+carrierPhase)];
+        if periodicCarrier
+            % 载波相位只用周期内整数拍；解调严格复用来源采样拍，避免长时间角度增长。
+            phaseSource=c.w*(mod(source,c.n)*c.Ts)+carrierPhase;
+        else
+            phaseSource=c.w*source*c.Ts+carrierPhase;
+        end
+        sourceCarrier=[cos(phaseSource);sin(phaseSource)];
         acc=acc+[adc*sourceCarrier(1);adc*sourceCarrier(2)];
         clipped=clipped || overflow;
         if sourceSlot==c.validEnd-1

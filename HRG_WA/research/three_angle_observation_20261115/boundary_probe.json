@@ -1,0 +1,65 @@
+{
+  "status": "diagnostic_complete",
+  "cases": [
+    {
+      "mode": "continuous",
+      "first_code_difference_row": 273791,
+      "first_output_time_s": 0.050329044117647062,
+      "converter_mismatches": 26,
+      "max_carrier_difference_before_first_code": 1.3162582135350931E-11,
+      "max_state_difference_before_first_code": 1.1368683772161603E-13,
+      "first_code_details": {
+        "converter": "DAC",
+        "axis": 1,
+        "sample_tick": 273790,
+        "reference_scaled_code": -319.49999997911095,
+        "native_scaled_code": -319.50000034754487,
+        "threshold_code": -319.5,
+        "reference_minus_threshold_LSB": 2.0889046936645173E-8,
+        "native_minus_threshold_LSB": -3.475448693279759E-7,
+        "raw_delta_V": -2.2487421647010564E-11,
+        "reference_round": -319,
+        "native_round": -320
+      },
+      "max_angle_difference_rad": 1.6587434958914571E-7,
+      "native_state_matlab_cv_V": [
+        -0.45196743570657572,
+        -0.45163418861578081
+      ],
+      "native_adc_V": [
+        -0.45196743570657572,
+        -0.45163418861578081
+      ]
+    },
+    {
+      "mode": "tdm_separate",
+      "first_code_difference_row": 400264,
+      "first_output_time_s": 0.073577757352941184,
+      "converter_mismatches": 25,
+      "max_carrier_difference_before_first_code": 1.9376944493387782E-11,
+      "max_state_difference_before_first_code": 4.5474735088646412E-13,
+      "first_code_details": {
+        "converter": "DAC",
+        "axis": 1,
+        "sample_tick": 400263,
+        "reference_scaled_code": -985.4999989246096,
+        "native_scaled_code": -985.50000074576189,
+        "threshold_code": -985.5,
+        "reference_minus_threshold_LSB": 1.0753904007287929E-6,
+        "native_minus_threshold_LSB": -7.4576189490471734E-7,
+        "raw_delta_V": -1.1115431491903749E-10,
+        "reference_round": -985,
+        "native_round": -986
+      },
+      "max_angle_difference_rad": 1.5458789048850008E-7,
+      "native_state_matlab_cv_V": [
+        -0.355205916694203,
+        -0.35299463691137251
+      ],
+      "native_adc_V": [
+        -0.355205916694203,
+        -0.35299463691137245
+      ]
+    }
+  ]
+}
