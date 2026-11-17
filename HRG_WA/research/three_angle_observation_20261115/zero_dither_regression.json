@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "mode": "continuous",
+      "duration_s": 0.12,
+      "converter_mismatches": 0,
+      "event_flags_equal": true,
+      "max_angle_delta_rad": 0,
+      "whole_trace_exact": true,
+      "whole_frames_exact": true,
+      "whole_candidates_exact": true
+    },
+    {
+      "mode": "tdm_separate",
+      "duration_s": 0.12,
+      "converter_mismatches": 0,
+      "event_flags_equal": true,
+      "max_angle_delta_rad": 0,
+      "whole_trace_exact": true,
+      "whole_frames_exact": true,
+      "whole_candidates_exact": true
+    }
+  ]
+}

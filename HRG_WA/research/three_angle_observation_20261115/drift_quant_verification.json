@@ -1,0 +1,1872 @@
+{
+  "status": "completed_with_explicit_parity_gates",
+  "release": "2025a",
+  "duration_s": 0.12,
+  "group_capacitance_F": 7.2E-10,
+  "bleed_R_ohm": 2777.77854938293,
+  "stiffness_axis_modal_rad": 0.37,
+  "physical_axis_beta_deg": 10.599719209920229,
+  "true_mirror_beta_deg": -1.3005615801595418,
+  "absolute_budget_mrad_s": 0.25,
+  "cases": [
+    {
+      "label": "continuous_beta22.50000_split0.000",
+      "mode": "continuous",
+      "split_Hz": 0,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45520354957268183,
+      "peak_fraction_half_span": 0.45520354957268183,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 272,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.8987950986827889E-10,
+          "readout_mrad_s": -6.2456275102454975E-12,
+          "publication_mrad_s": -1.8363388235803341E-10,
+          "total_mrad_s": 0,
+          "detrended_rms_mrad": [
+            5.1613378296707188E-12,
+            1.0718382620090059E-12,
+            5.2310753949877594E-12,
+            0
+          ],
+          "anchored_error_rms_mrad": [
+            1.0214244370598278E-11,
+            1.5333547085341732E-12,
+            1.1163486799923961E-11,
+            0
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 271,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -8.5769118284412389E-10,
+          "readout_mrad_s": -1.7742541104698643E-11,
+          "publication_mrad_s": 8.754337239488229E-10,
+          "total_mrad_s": 0,
+          "detrended_rms_mrad": [
+            6.1924983906969036E-12,
+            1.1603467524443992E-12,
+            6.2300302203382665E-12,
+            0
+          ],
+          "anchored_error_rms_mrad": [
+            2.8081277803879034E-11,
+            1.2404847144796188E-12,
+            2.7810160790613905E-11,
+            0
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": true
+    },
+    {
+      "label": "continuous_beta22.50000_split0.050",
+      "mode": "continuous",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45520456847335555,
+      "peak_fraction_half_span": 0.45520456847335555,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 272,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.1228609444199391,
+          "readout_mrad_s": -0.063962194213498913,
+          "publication_mrad_s": -0.00717983069025776,
+          "total_mrad_s": 1.0517189195161825,
+          "detrended_rms_mrad": [
+            0.00096947977626319183,
+            9.8276865818983E-5,
+            0.0017488168659947239,
+            0.0022332740378132212
+          ],
+          "anchored_error_rms_mrad": [
+            0.0239122151078002,
+            0.0016902437614982541,
+            0.0017529655087678341,
+            0.022212236797357027
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 271,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5763901886300615,
+          "readout_mrad_s": -0.013465315203264151,
+          "publication_mrad_s": 0.00846110648064993,
+          "total_mrad_s": 1.5713859799074474,
+          "detrended_rms_mrad": [
+            0.00015074992311995416,
+            2.030176414908728E-5,
+            0.0015750482991692088,
+            0.0015586765864186235
+          ],
+          "anchored_error_rms_mrad": [
+            0.035937844224646909,
+            0.00035626710891100311,
+            0.0036131893988741192,
+            0.038500129017593039
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "continuous_beta-1.30056_split0.000",
+      "mode": "continuous",
+      "split_Hz": 0,
+      "beta_deg": -1.3005615801595418,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": false,
+      "peak_adc_V": 0.64302776203644862,
+      "peak_fraction_half_span": 0.64302776203644862,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 272,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -0.089854710601446522,
+          "readout_mrad_s": 7.7011386150310131E-5,
+          "publication_mrad_s": -0.1648905421385935,
+          "total_mrad_s": -0.25466824135388966,
+          "detrended_rms_mrad": [
+            0.0004571460318213064,
+            2.4258272346078321E-6,
+            0.00066310352436916469,
+            0.00084479191704273538
+          ],
+          "anchored_error_rms_mrad": [
+            0.0012742508192861697,
+            3.8453620939182168E-6,
+            0.0037103836534598078,
+            0.0047961769147192058
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 271,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 0.056362443940763986,
+          "readout_mrad_s": 4.8615156673534763E-5,
+          "publication_mrad_s": -0.014117041147241159,
+          "total_mrad_s": 0.042294017950196355,
+          "detrended_rms_mrad": [
+            2.0850476774101256E-5,
+            4.9540093899791616E-7,
+            0.00010843850856703617,
+            0.00010388077306891712
+          ],
+          "anchored_error_rms_mrad": [
+            0.0013617261669612915,
+            1.5875207678363797E-6,
+            0.00046299058398589278,
+            0.00092421247923946972
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "continuous_beta-1.30056_split0.050",
+      "mode": "continuous",
+      "split_Hz": 0.05,
+      "beta_deg": -1.3005615801595418,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": false,
+      "peak_adc_V": 0.6430284780179788,
+      "peak_fraction_half_span": 0.6430284780179788,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 272,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.1098918477564284,
+          "readout_mrad_s": 0.063962016288949541,
+          "publication_mrad_s": -0.028466840667946615,
+          "total_mrad_s": -1.0743966721354252,
+          "detrended_rms_mrad": [
+            0.00093782748048229481,
+            9.8611508106046544E-5,
+            0.0015151510238509982,
+            0.0017789884218042669
+          ],
+          "anchored_error_rms_mrad": [
+            0.023635981798071387,
+            0.0016889701121703422,
+            0.0023805577468938317,
+            0.023711335265535167
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 271,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.5934027673014532,
+          "readout_mrad_s": 0.013552255563660657,
+          "publication_mrad_s": 0.0074196633814926655,
+          "total_mrad_s": -1.5724308483562996,
+          "detrended_rms_mrad": [
+            0.00035582438589321173,
+            2.1410507358284972E-5,
+            0.0013447075419716244,
+            0.001380882187315548
+          ],
+          "anchored_error_rms_mrad": [
+            0.03591466307077084,
+            0.00035513302699947849,
+            0.0019940540948621827,
+            0.034287039736779316
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "tdm_separate_beta22.50000_split0.000",
+      "mode": "tdm_separate",
+      "split_Hz": 0,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45436507658250863,
+      "peak_fraction_half_span": 0.45436507658250863,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -4.8227924158813046E-10,
+          "readout_mrad_s": -1.159400129101009E-11,
+          "publication_mrad_s": 4.938732428791405E-10,
+          "total_mrad_s": 0,
+          "detrended_rms_mrad": [
+            7.5183352706888717E-12,
+            1.044331282452094E-12,
+            7.545291298773687E-12,
+            0
+          ],
+          "anchored_error_rms_mrad": [
+            1.1032712900312298E-11,
+            1.0568319727133616E-12,
+            1.1071377742042775E-11,
+            0
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 4.6203038010736462E-10,
+          "readout_mrad_s": 2.3363570745148229E-11,
+          "publication_mrad_s": -4.8539395085251254E-10,
+          "total_mrad_s": 0,
+          "detrended_rms_mrad": [
+            9.1715596814169073E-12,
+            1.3509039954356421E-12,
+            9.2809224933670958E-12,
+            0
+          ],
+          "anchored_error_rms_mrad": [
+            2.46034644235947E-11,
+            1.766112087835818E-12,
+            2.371612064892001E-11,
+            0
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": true
+    },
+    {
+      "label": "tdm_separate_beta22.50000_split0.050",
+      "mode": "tdm_separate",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45439846065301975,
+      "peak_fraction_half_span": 0.45439846065301975,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0997473834948213,
+          "readout_mrad_s": -0.0026941706360388939,
+          "publication_mrad_s": -0.01466045788202053,
+          "total_mrad_s": 1.0823927549767622,
+          "detrended_rms_mrad": [
+            0.00093714350709575057,
+            4.4413797993203441E-6,
+            0.0011004405042504164,
+            0.0012570418109575079
+          ],
+          "anchored_error_rms_mrad": [
+            0.023238111282798384,
+            7.0907680897811621E-5,
+            0.0012233969764050452,
+            0.023518118353466184
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5887099837935119,
+          "readout_mrad_s": -0.00042781525222813135,
+          "publication_mrad_s": -0.037228993943099545,
+          "total_mrad_s": 1.5510531745981844,
+          "detrended_rms_mrad": [
+            0.00019987068808058776,
+            9.2412801599992933E-7,
+            0.0010523701581665677,
+            0.0010971908098873033
+          ],
+          "anchored_error_rms_mrad": [
+            0.03590439472122911,
+            1.1740078468185697E-5,
+            0.0011604312032810606,
+            0.035490009979291422
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "tdm_separate_beta-1.30056_split0.000",
+      "mode": "tdm_separate",
+      "split_Hz": 0,
+      "beta_deg": -1.3005615801595418,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.64190786636821862,
+      "peak_fraction_half_span": 0.64190786636821862,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 0.010173206472931884,
+          "readout_mrad_s": 1.0211703601594259E-6,
+          "publication_mrad_s": -0.026778305049196108,
+          "total_mrad_s": -0.016604077405904066,
+          "detrended_rms_mrad": [
+            2.3820579970154471E-5,
+            2.1652903501260997E-9,
+            0.00027725553684962873,
+            0.00028880119149361983
+          ],
+          "anchored_error_rms_mrad": [
+            0.00023645135840802891,
+            2.4834181030874123E-8,
+            0.000433039287370705,
+            0.00035600256902502145
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -0.0047642318501099241,
+          "readout_mrad_s": 2.5084795498795873E-7,
+          "publication_mrad_s": -0.0018197913811467869,
+          "total_mrad_s": -0.0065837723833017218,
+          "detrended_rms_mrad": [
+            5.8264568704134229E-6,
+            2.3779419281030163E-10,
+            4.296949012941284E-5,
+            4.3602137656369844E-5
+          ],
+          "anchored_error_rms_mrad": [
+            9.7143386942264811E-5,
+            5.7447879330234436E-9,
+            5.9437376036150223E-5,
+            0.00014469183734267929
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": true
+    },
+    {
+      "label": "tdm_separate_beta-1.30056_split0.050",
+      "mode": "tdm_separate",
+      "split_Hz": 0.05,
+      "beta_deg": -1.3005615801595418,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.64189946262745923,
+      "peak_fraction_half_span": 0.64189946262745923,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.1005754343036358,
+          "readout_mrad_s": 0.0026943567117643629,
+          "publication_mrad_s": -0.0055086419125562665,
+          "total_mrad_s": -1.1033897195044278,
+          "detrended_rms_mrad": [
+            0.00093636869754724526,
+            4.4390452128493634E-6,
+            0.0017395041123987201,
+            0.0020108405605173047
+          ],
+          "anchored_error_rms_mrad": [
+            0.02327562870011286,
+            7.0907507308670486E-5,
+            0.0023936358865785934,
+            0.021958526897983152
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.586034759918282,
+          "readout_mrad_s": 0.00042799292317966496,
+          "publication_mrad_s": 0.026659224883602551,
+          "total_mrad_s": -1.5589475421114998,
+          "detrended_rms_mrad": [
+            0.00018578290984538884,
+            9.1977611006908212E-7,
+            0.0010293285665477288,
+            0.000992502329565607
+          ],
+          "anchored_error_rms_mrad": [
+            0.03581746662084475,
+            1.1741955178399864E-5,
+            0.00128708756613263,
+            0.0350530425976773
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "tdm_shared_beta22.50000_split0.000",
+      "mode": "tdm_shared",
+      "split_Hz": 0,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45476515684761565,
+      "peak_fraction_half_span": 0.45476515684761565,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -5.2828460285223381E-10,
+          "readout_mrad_s": -1.8402144505641271E-12,
+          "publication_mrad_s": 5.30124817302798E-10,
+          "total_mrad_s": 0,
+          "detrended_rms_mrad": [
+            4.1186369400305884E-12,
+            1.1194878043094739E-12,
+            4.0636415951540346E-12,
+            0
+          ],
+          "anchored_error_rms_mrad": [
+            9.4643010418368277E-12,
+            1.2779320054773094E-12,
+            9.85354701712186E-12,
+            0
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 8.21262349440989E-10,
+          "readout_mrad_s": 1.6639960349800809E-11,
+          "publication_mrad_s": -8.3790230979079E-10,
+          "total_mrad_s": 0,
+          "detrended_rms_mrad": [
+            5.5106255592985616E-12,
+            1.1289848591391703E-12,
+            5.3990364117425977E-12,
+            0
+          ],
+          "anchored_error_rms_mrad": [
+            3.0149074596775704E-11,
+            1.1698311895055603E-12,
+            2.996795477244736E-11,
+            0
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": true
+    },
+    {
+      "label": "tdm_shared_beta22.50000_split0.050",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45478003457927718,
+      "peak_fraction_half_span": 0.45478003457927718,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0988652593406574,
+          "readout_mrad_s": -0.0025755229606199935,
+          "publication_mrad_s": -0.0077860038084228249,
+          "total_mrad_s": 1.0885037325716145,
+          "detrended_rms_mrad": [
+            0.00096070646082200282,
+            4.2579139341830145E-6,
+            0.00093207212721315379,
+            0.0013301989937134647
+          ],
+          "anchored_error_rms_mrad": [
+            0.02316740279497434,
+            6.7808755210236983E-5,
+            0.0010644034926199503,
+            0.022647847511771756
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5931014085962398,
+          "readout_mrad_s": -0.00040253665412839283,
+          "publication_mrad_s": -0.02788124284354495,
+          "total_mrad_s": 1.5648176290985667,
+          "detrended_rms_mrad": [
+            0.00027903412767233722,
+            8.8662390532422824E-7,
+            0.0011752913925470666,
+            0.0012110543016802041
+          ],
+          "anchored_error_rms_mrad": [
+            0.035839145506539369,
+            1.10864664685343E-5,
+            0.0020859524229156724,
+            0.037152234356886853
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "tdm_shared_beta-1.30056_split0.000",
+      "mode": "tdm_shared",
+      "split_Hz": 0,
+      "beta_deg": -1.3005615801595418,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.642472010181661,
+      "peak_fraction_half_span": 0.642472010181661,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -0.049476744517298228,
+          "readout_mrad_s": 6.1552382081372442E-7,
+          "publication_mrad_s": 0.0010310550183323588,
+          "total_mrad_s": -0.048445073975145046,
+          "detrended_rms_mrad": [
+            8.4578859068873535E-5,
+            2.5896139992002187E-9,
+            0.00021168720500664687,
+            0.00025145168298891865
+          ],
+          "anchored_error_rms_mrad": [
+            0.000900753907397646,
+            1.8076132074158441E-8,
+            0.00021797936312956543,
+            0.000962538843907765
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -0.050708314571127622,
+          "readout_mrad_s": -8.5370405001050946E-8,
+          "publication_mrad_s": -0.0036038583060620738,
+          "total_mrad_s": -0.054312258247594683,
+          "detrended_rms_mrad": [
+            8.9793217306190087E-6,
+            8.4253826419140189E-10,
+            0.00013618802795028684,
+            0.00013597606529561137
+          ],
+          "anchored_error_rms_mrad": [
+            0.0011401756468991725,
+            1.5475799893749754E-9,
+            0.00014244655693037011,
+            0.001167029009626167
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": true
+    },
+    {
+      "label": "tdm_shared_beta-1.30056_split0.050",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": -1.3005615801595418,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.642454265388493,
+      "peak_fraction_half_span": 0.642454265388493,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.1013281132660504,
+          "readout_mrad_s": 0.0025754193459505987,
+          "publication_mrad_s": -0.0043098844088814382,
+          "total_mrad_s": -1.1030625783289809,
+          "detrended_rms_mrad": [
+            0.00095224069573036387,
+            4.2565861461150224E-6,
+            0.0017753059445535021,
+            0.0020503104740607642
+          ],
+          "anchored_error_rms_mrad": [
+            0.023255420245984891,
+            6.7807162953079154E-5,
+            0.0021752309804073775,
+            0.022251719080032466
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.5633636754806648,
+          "readout_mrad_s": 0.00040256312060704268,
+          "publication_mrad_s": 0.02191646981119233,
+          "total_mrad_s": -1.5410446425488655,
+          "detrended_rms_mrad": [
+            0.00018515293585339449,
+            8.814610582726701E-7,
+            0.000886385236983238,
+            0.00083678495977093246
+          ],
+          "anchored_error_rms_mrad": [
+            0.035330107036605871,
+            1.1081496477890727E-5,
+            0.0010421194432827638,
+            0.034781555429642362
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_negative_split",
+      "mode": "tdm_shared",
+      "split_Hz": -0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45481899800495651,
+      "peak_fraction_half_span": 0.45481899800495651,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0819746533717782,
+          "readout_mrad_s": 0.0020505185986981964,
+          "publication_mrad_s": -0.0056121242726247765,
+          "total_mrad_s": 1.0784130476978515,
+          "detrended_rms_mrad": [
+            0.00095348499761040324,
+            2.8104266730753888E-6,
+            0.0010974346954376946,
+            0.0013852002297096938
+          ],
+          "anchored_error_rms_mrad": [
+            0.022818586622284986,
+            5.2734024061262253E-5,
+            0.0011155134387632398,
+            0.023016074528773682
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5552564728034763,
+          "readout_mrad_s": 0.00062159009135940278,
+          "publication_mrad_s": 0.031078261849378393,
+          "total_mrad_s": 1.586956324744214,
+          "detrended_rms_mrad": [
+            0.00014651077165391739,
+            5.79464115594242E-7,
+            0.00122811954417088,
+            0.0012300839638389168
+          ],
+          "anchored_error_rms_mrad": [
+            0.035221458559572143,
+            1.540256509436491E-5,
+            0.0015498764682517175,
+            0.036193113886904361
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_negative_split_mirror",
+      "mode": "tdm_shared",
+      "split_Hz": -0.05,
+      "beta_deg": -1.3005615801595418,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.64249137143264057,
+      "peak_fraction_half_span": 0.64249137143264057,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.0822567053389072,
+          "readout_mrad_s": -0.0020503860496456305,
+          "publication_mrad_s": -0.0081256379041561889,
+          "total_mrad_s": -1.0924327292927092,
+          "detrended_rms_mrad": [
+            0.00095719231799958429,
+            2.8096345944766912E-6,
+            0.001346380156172253,
+            0.0017152326361432721
+          ],
+          "anchored_error_rms_mrad": [
+            0.022830460331328448,
+            5.273072123488245E-5,
+            0.0017484615529189881,
+            0.023911673487827519
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": -1.5578000463579069,
+          "readout_mrad_s": -0.0006214063917791661,
+          "publication_mrad_s": 0.031623012430974949,
+          "total_mrad_s": -1.5267984403187114,
+          "detrended_rms_mrad": [
+            0.00030872208364058165,
+            5.7741143196395646E-7,
+            0.0010050358134464689,
+            0.00081959663584193782
+          ],
+          "anchored_error_rms_mrad": [
+            0.034995801539767571,
+            1.5395055157237279E-5,
+            0.0029927413845537874,
+            0.037270051921739468
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_on_axis",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 10.599719209920229,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.59959677807166534,
+      "peak_fraction_half_span": 0.59959677807166534,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 0.014476126383470933,
+          "readout_mrad_s": -4.1435476412834092E-7,
+          "publication_mrad_s": -0.019787997718706835,
+          "total_mrad_s": -0.0053122856900000319,
+          "detrended_rms_mrad": [
+            8.5224444379674113E-5,
+            1.9082837161523263E-9,
+            0.00094678904238214181,
+            0.00094813213735334514
+          ],
+          "anchored_error_rms_mrad": [
+            0.00029450604507903452,
+            7.66532553072219E-9,
+            0.001194596638713293,
+            0.0010576663156669378
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 0.0068491774123236714,
+          "readout_mrad_s": -9.4298999935879251E-8,
+          "publication_mrad_s": 0.010885393662586035,
+          "total_mrad_s": 0.017734476775909769,
+          "detrended_rms_mrad": [
+            2.2199684030768712E-5,
+            3.444340340496401E-9,
+            0.001056978637899592,
+            0.0010555475120042992
+          ],
+          "anchored_error_rms_mrad": [
+            0.00012019310110511252,
+            5.6376534516200524E-9,
+            0.0011386155140229446,
+            0.0011824587367984588
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": true
+    },
+    {
+      "label": "shared_quad_off",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 16,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 0,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45481544305413274,
+      "peak_fraction_half_span": 0.45481544305413274,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.7671097400291285,
+          "readout_mrad_s": -0.00721237861204241,
+          "publication_mrad_s": 0.013247922114464574,
+          "total_mrad_s": 1.77314528353155,
+          "detrended_rms_mrad": [
+            0.0025920806604944955,
+            2.5479384089317859E-7,
+            0.00098943287083653043,
+            0.0028252581996328187
+          ],
+          "anchored_error_rms_mrad": [
+            0.0357892904536809,
+            0.00016519681284385429,
+            0.0010093777229950513,
+            0.035834971782555916
+          ],
+          "adc_step_V": 3.0517578125E-5
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 4.3003626572921485,
+          "readout_mrad_s": -0.0069596329408116928,
+          "publication_mrad_s": 0.0022762606328374704,
+          "total_mrad_s": 4.2956792849841756,
+          "detrended_rms_mrad": [
+            0.0024767207290772118,
+            2.4538861435666472E-7,
+            0.00096892468570882514,
+            0.0026500270146934055
+          ],
+          "anchored_error_rms_mrad": [
+            0.093692491665405234,
+            0.00015940900610082281,
+            0.000996771418426878,
+            0.093354962878443651
+          ],
+          "adc_step_V": 3.0517578125E-5
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_adc12",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 12,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45478287710084558,
+      "peak_fraction_half_span": 0.45478287710084558,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0940011578559317,
+          "readout_mrad_s": -0.002580329722719705,
+          "publication_mrad_s": 0.81462809562212724,
+          "total_mrad_s": 1.9060489237553389,
+          "detrended_rms_mrad": [
+            0.00098411590964039559,
+            4.26140919773439E-6,
+            0.016117512499632655,
+            0.015967446412677482
+          ],
+          "anchored_error_rms_mrad": [
+            0.022993511763321636,
+            6.7975955367870452E-5,
+            0.019158919760384103,
+            0.030950809308878995
+          ],
+          "adc_step_V": 0.00048828125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5847429057510434,
+          "readout_mrad_s": -0.000404046237651715,
+          "publication_mrad_s": -0.916911010958353,
+          "total_mrad_s": 0.66742784855503912,
+          "detrended_rms_mrad": [
+            0.00016679504289668516,
+            8.799096245664553E-7,
+            0.01619880545133506,
+            0.016206321089841332
+          ],
+          "anchored_error_rms_mrad": [
+            0.035852327974681422,
+            1.1092693987656692E-5,
+            0.023970824183075789,
+            0.024496461822113565
+          ],
+          "adc_step_V": 0.00048828125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_adc10",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45479742534855583,
+      "peak_fraction_half_span": 0.45479742534855583,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.1870830209340861,
+          "readout_mrad_s": -0.0025721065529498376,
+          "publication_mrad_s": -8.34106176402095,
+          "total_mrad_s": -7.1565508496398138,
+          "detrended_rms_mrad": [
+            0.00054285887713770319,
+            4.4159328360326121E-6,
+            0.061317643948866879,
+            0.060886462155788718
+          ],
+          "anchored_error_rms_mrad": [
+            0.025619263448777987,
+            6.7872536770747577E-5,
+            0.1150152799842913,
+            0.10292178287038696
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5771243283252117,
+          "readout_mrad_s": -0.00040232353233177925,
+          "publication_mrad_s": -2.1297678264946764,
+          "total_mrad_s": -0.553045821701797,
+          "detrended_rms_mrad": [
+            0.0001092105869062964,
+            9.1998709258761106E-7,
+            0.031976135330645666,
+            0.031967980234342705
+          ],
+          "anchored_error_rms_mrad": [
+            0.035749778433509884,
+            1.1055440506102491E-5,
+            0.040381172001420704,
+            0.04355305982682274
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_adc10_span1p5",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 10,
+      "adc_span_V": 1.5,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45479065856799222,
+      "peak_fraction_half_span": 0.60638754475732293,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.086334555281681,
+          "readout_mrad_s": -0.0025997174256766351,
+          "publication_mrad_s": 1.9869831173620955,
+          "total_mrad_s": 3.0707179552181003,
+          "detrended_rms_mrad": [
+            0.0010931878115504586,
+            4.3172982347915729E-6,
+            0.035298904885268365,
+            0.034833798333763946
+          ],
+          "anchored_error_rms_mrad": [
+            0.022712047319258796,
+            6.8293538390864516E-5,
+            0.047876303574597968,
+            0.049860077843269554
+          ],
+          "adc_step_V": 0.00146484375
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5816522360129701,
+          "readout_mrad_s": -0.00039505655404500418,
+          "publication_mrad_s": -0.30356356377914245,
+          "total_mrad_s": 1.2776936156797829,
+          "detrended_rms_mrad": [
+            0.00015793182206627886,
+            9.146323568266301E-7,
+            0.03486803758841845,
+            0.034811807205157745
+          ],
+          "anchored_error_rms_mrad": [
+            0.035798740692143394,
+            1.0996437941665619E-5,
+            0.037050322658889613,
+            0.057113957809202323
+          ],
+          "adc_step_V": 0.00146484375
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_adc10_dither_seed1",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0.5,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45643361458906528,
+      "peak_fraction_half_span": 0.45643361458906528,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0859395621103505,
+          "readout_mrad_s": -0.0025659025072458643,
+          "publication_mrad_s": 2.0662453718058105,
+          "total_mrad_s": 3.1496190314089159,
+          "detrended_rms_mrad": [
+            0.0010103433813781495,
+            4.1522399911979945E-6,
+            0.1358329598696513,
+            0.13576260959364747
+          ],
+          "anchored_error_rms_mrad": [
+            0.022740812989519361,
+            6.7679351656250465E-5,
+            0.19435344146979877,
+            0.20984823035342792
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.6123117159473814,
+          "readout_mrad_s": -0.00040758027599777671,
+          "publication_mrad_s": 4.2795859371120057,
+          "total_mrad_s": 5.89149007278339,
+          "detrended_rms_mrad": [
+            0.00042003279462209494,
+            8.2685864971705225E-7,
+            0.18341684682717346,
+            0.18329319248481715
+          ],
+          "anchored_error_rms_mrad": [
+            0.0358848744041159,
+            1.1182854039247199E-5,
+            0.43594900538885634,
+            0.46604498762520863
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_adc10_dither_seed2",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0.5,
+      "dither_seeds": [
+        12345,
+        9.87654321E+8
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45643815459257586,
+      "peak_fraction_half_span": 0.45643815459257586,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0946721905153505,
+          "readout_mrad_s": -0.0025778817891514007,
+          "publication_mrad_s": 2.0506470634491336,
+          "total_mrad_s": 3.1427413721753323,
+          "detrended_rms_mrad": [
+            0.0010366291722361466,
+            4.0728428679755024E-6,
+            0.15663031713478812,
+            0.15637319740183717
+          ],
+          "anchored_error_rms_mrad": [
+            0.022768736667004734,
+            6.74691046419169E-5,
+            0.42933540340937076,
+            0.44766466346927
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5777612058430008,
+          "readout_mrad_s": -0.00040666858861822768,
+          "publication_mrad_s": 1.6930326699154072,
+          "total_mrad_s": 3.2703872071697897,
+          "detrended_rms_mrad": [
+            0.00029871091342888016,
+            9.1344262757536985E-7,
+            0.15522513449057476,
+            0.15514222676591338
+          ],
+          "anchored_error_rms_mrad": [
+            0.035355291069809204,
+            1.1049386188547072E-5,
+            0.19275187498580904,
+            0.1796331876454092
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "shared_adc10_dither_seed3",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0.5,
+      "dither_seeds": [
+        3.14159265E+8,
+        2.71828183E+8
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45647161857417812,
+      "peak_fraction_half_span": 0.45647161857417812,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0533612101815524,
+          "readout_mrad_s": -0.0025796962232509358,
+          "publication_mrad_s": -0.9658982852660446,
+          "total_mrad_s": 0.0848832286922568,
+          "detrended_rms_mrad": [
+            0.00096580642060058435,
+            4.2777437966322785E-6,
+            0.16497755308524764,
+            0.1651501514633307
+          ],
+          "anchored_error_rms_mrad": [
+            0.022443406739259739,
+            6.79328784527506E-5,
+            0.2738774485577361,
+            0.25902890221350328
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5694073229090686,
+          "readout_mrad_s": -0.00042194683026527274,
+          "publication_mrad_s": -1.1014139469042492,
+          "total_mrad_s": 0.46757142917455435,
+          "detrended_rms_mrad": [
+            0.00016606255833448333,
+            9.7810485552279079E-7,
+            0.13719994997487039,
+            0.13715709526784153
+          ],
+          "anchored_error_rms_mrad": [
+            0.03545860011658284,
+            1.136767559739911E-5,
+            0.19894088719747741,
+            0.17781196089865531
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "holdout_rate-0.05_plain",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": -0.05,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45621334973069655,
+      "peak_fraction_half_span": 0.45621334973069655,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0216836615394362,
+          "readout_mrad_s": -0.0024771694058467212,
+          "publication_mrad_s": -1.9720844709693268,
+          "total_mrad_s": -0.95287797883573766,
+          "detrended_rms_mrad": [
+            0.00090788313962584025,
+            4.2377699534842776E-6,
+            0.056680684169343992,
+            0.057145091291242046
+          ],
+          "anchored_error_rms_mrad": [
+            0.021696818386961039,
+            6.5513927695648E-5,
+            0.19791663767225998,
+            0.17980413885462113
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.6315168725701585,
+          "readout_mrad_s": -0.00028854787276890581,
+          "publication_mrad_s": 5.48114189374103,
+          "total_mrad_s": 7.1123702184384188,
+          "detrended_rms_mrad": [
+            0.00046812578147395646,
+            8.2094887460566106E-7,
+            0.052636190266734294,
+            0.052839624421851222
+          ],
+          "anchored_error_rms_mrad": [
+            0.036529234990003392,
+            8.454421077330392E-6,
+            0.087640085003668031,
+            0.11533568707226256
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "holdout_rate-0.05_dither",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": -0.05,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0.5,
+      "dither_seeds": [
+        12345,
+        9.87654321E+8
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45772867091250197,
+      "peak_fraction_half_span": 0.45772867091250197,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.1157353940612269,
+          "readout_mrad_s": -0.00248707563468533,
+          "publication_mrad_s": 1.5725181218257689,
+          "total_mrad_s": 2.6857664402523107,
+          "detrended_rms_mrad": [
+            0.00096567966961291155,
+            4.0325080987321569E-6,
+            0.15232866494345693,
+            0.15204400628498813
+          ],
+          "anchored_error_rms_mrad": [
+            0.0233024620464019,
+            6.54051610147721E-5,
+            0.44360644783604231,
+            0.46238727012719433
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5599571380601907,
+          "readout_mrad_s": -0.000318595750535051,
+          "publication_mrad_s": -0.05444338191418141,
+          "total_mrad_s": 1.5051951603954743,
+          "detrended_rms_mrad": [
+            0.00021726081283707395,
+            9.3337528483083011E-7,
+            0.14923720157397488,
+            0.14920964701344011
+          ],
+          "anchored_error_rms_mrad": [
+            0.035231758790404161,
+            8.8685886218160927E-6,
+            0.25805512322833124,
+            0.2346412752997874
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "holdout_rate+0.05_plain",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0.05,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0,
+      "dither_seeds": [
+        1.103515245E+9,
+        2.246822519E+9
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45627740553614377,
+      "peak_fraction_half_span": 0.45627740553614377,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.1548254661055286,
+          "readout_mrad_s": -0.0026970131519968694,
+          "publication_mrad_s": 1.0170762566982081,
+          "total_mrad_s": 2.1692047096517393,
+          "detrended_rms_mrad": [
+            0.0010450701304333526,
+            4.2967262088738755E-6,
+            0.062754776755102576,
+            0.063382354300191693
+          ],
+          "anchored_error_rms_mrad": [
+            0.02459544372183807,
+            7.0444547362012586E-5,
+            0.11002089834683974,
+            0.0969993053808971
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5646462234473173,
+          "readout_mrad_s": -0.0004931181156713776,
+          "publication_mrad_s": -1.574093799476463,
+          "total_mrad_s": -0.00994069414481668,
+          "detrended_rms_mrad": [
+            0.0001864977587259284,
+            1.0425082088321587E-6,
+            0.058709382868537142,
+            0.058665153202583517
+          ],
+          "anchored_error_rms_mrad": [
+            0.035409046407244196,
+            1.3331693050890699E-5,
+            0.061487666789738687,
+            0.066993725117789088
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    },
+    {
+      "label": "holdout_rate+0.05_dither",
+      "mode": "tdm_shared",
+      "split_Hz": 0.05,
+      "beta_deg": 22.5,
+      "omega_rad_s": 0.05,
+      "adc_bits": 10,
+      "adc_span_V": 2,
+      "dither_lsb_rms": 0.5,
+      "dither_seeds": [
+        12345,
+        9.87654321E+8
+      ],
+      "quad_bw_Hz": 4,
+      "full_publication": true,
+      "no_clipping": true,
+      "peak_adc_V": 0.45782936421681253,
+      "peak_fraction_half_span": 0.45782936421681253,
+      "windows": [
+        {
+          "start_s": 0.02,
+          "end_s": 0.06,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.0796358616340225,
+          "readout_mrad_s": -0.0026670003211673519,
+          "publication_mrad_s": 1.8571828484727608,
+          "total_mrad_s": 2.9341517097856165,
+          "detrended_rms_mrad": [
+            0.00099378829296505522,
+            4.0895557429843738E-6,
+            0.15559960035237261,
+            0.15544563438626208
+          ],
+          "anchored_error_rms_mrad": [
+            0.022531700085811297,
+            6.9573263003859352E-5,
+            0.53744265326824059,
+            0.55591076713206133
+          ],
+          "adc_step_V": 0.001953125
+        },
+        {
+          "start_s": 0.08,
+          "end_s": 0.12,
+          "frames": 68,
+          "all_frames_usable": true,
+          "mechanical_mrad_s": 1.5571204325520533,
+          "readout_mrad_s": -0.00049317432111734027,
+          "publication_mrad_s": 0.74253051688268812,
+          "total_mrad_s": 2.2991577751136236,
+          "detrended_rms_mrad": [
+            0.00025974260212493908,
+            9.025477594172504E-7,
+            0.15631328931408109,
+            0.15627301196237345
+          ],
+          "anchored_error_rms_mrad": [
+            0.035038305862399463,
+            1.2990928373731158E-5,
+            0.20817817013401232,
+            0.19133737002239823
+          ],
+          "adc_step_V": 0.001953125
+        }
+      ],
+      "offline_absolute_screen_pass": false
+    }
+  ],
+  "native_parity": [
+    {
+      "label": "continuous_beta22.50000_split0.050",
+      "event_flags_equal": true,
+      "converter_mismatches": 26,
+      "first_code_mismatch_row": 273791,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": false,
+      "max_angle_delta_rad": 1.6587434958914571E-7,
+      "max_frame_delta": 1.4971097650118476E-7,
+      "late_native_minus_matlab_mrad_s": 9.40809694816025E-6
+    },
+    {
+      "label": "tdm_separate_beta22.50000_split0.050",
+      "event_flags_equal": true,
+      "converter_mismatches": 25,
+      "first_code_mismatch_row": 400264,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": false,
+      "max_angle_delta_rad": 1.5458789048850008E-7,
+      "max_frame_delta": 1.3952430879841048E-7,
+      "late_native_minus_matlab_mrad_s": 0.00015180989241381226
+    },
+    {
+      "label": "tdm_shared_beta22.50000_split0.050",
+      "event_flags_equal": true,
+      "converter_mismatches": 0,
+      "first_code_mismatch_row": -1,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": true,
+      "max_angle_delta_rad": 4.8849813083506888E-15,
+      "max_frame_delta": 2.228872642007218E-11,
+      "late_native_minus_matlab_mrad_s": -1.6580958828171788E-11
+    },
+    {
+      "label": "shared_adc10",
+      "event_flags_equal": true,
+      "converter_mismatches": 0,
+      "first_code_mismatch_row": -1,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": true,
+      "max_angle_delta_rad": 4.6629367034256575E-15,
+      "max_frame_delta": 2.2285284728695842E-11,
+      "late_native_minus_matlab_mrad_s": -1.7485679570938828E-11
+    },
+    {
+      "label": "shared_adc10_dither_seed1",
+      "event_flags_equal": true,
+      "converter_mismatches": 2,
+      "first_code_mismatch_row": 496142,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": true,
+      "max_angle_delta_rad": 3.0239619697169928E-9,
+      "max_frame_delta": 2.1079902268184014E-9,
+      "late_native_minus_matlab_mrad_s": -1.8456347561368602E-12
+    },
+    {
+      "label": "short_continuous",
+      "event_flags_equal": true,
+      "converter_mismatches": 0,
+      "first_code_mismatch_row": -1,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": true,
+      "max_angle_delta_rad": 3.7747582837255322E-15,
+      "max_frame_delta": 1.0244027848216319E-12,
+      "late_native_minus_matlab_mrad_s": null
+    },
+    {
+      "label": "short_tdm_separate",
+      "event_flags_equal": true,
+      "converter_mismatches": 0,
+      "first_code_mismatch_row": -1,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": true,
+      "max_angle_delta_rad": 2.2204460492503131E-15,
+      "max_frame_delta": 1.010858063921205E-12,
+      "late_native_minus_matlab_mrad_s": null
+    },
+    {
+      "label": "short_tdm_shared",
+      "event_flags_equal": true,
+      "converter_mismatches": 0,
+      "first_code_mismatch_row": -1,
+      "angle_gate_rad": 1E-7,
+      "angle_gate_pass": true,
+      "max_angle_delta_rad": 2.886579864025407E-15,
+      "max_frame_delta": 1.01108010852613E-12,
+      "late_native_minus_matlab_mrad_s": null
+    }
+  ],
+  "note": "Synthetic closed-loop sensitivity; static corners and short windows are not steady-state bias or measured thermal recovery."
+}
