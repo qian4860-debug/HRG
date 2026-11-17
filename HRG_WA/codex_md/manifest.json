@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "date": "2026-11-17",
-  "source_base_commit": "0793c0f9a917693a943d1060d533130bf24eac47",
+  "source_base_commit": "b1390307f287e34be13f787dee73cd1279e27291",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3113,12 +3113,12 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "0793c0f9a917693a943d1060d533130bf24eac47",
+      "source_commit": "b1390307f287e34be13f787dee73cd1279e27291",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "0790ea1b5dd94863741471825aa17626110cfa18f0c534623e1a6d2aa26e85a3",
-      "archive_sha256": "3b71304d98e9b383e9a6b2fac358749f058dbbdf4e0f88ac967ebe8a654e448d",
+      "source_sha256": "5dba2cf8623a51e60aa779977ad99cd9aed7ddc4b22f9e1725b169b403897cad",
+      "archive_sha256": "21c55db004ea254f9d9c46e935d5f6d69e3de56d3e733fbd1427b0e28a9ec0c4",
       "rewritten_local_links": []
     },
     {
@@ -3765,13 +3765,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 447,
-    "kept": 152
+    "source_records": 449,
+    "kept": 153
   },
   "generated_index_sha256": {
-    "README.md": "3f982e9de4478e56de4a2d1de1a9a1f0012c4dbad2512953c492132ab611989d",
-    "00_文档索引.md": "e3af1f7816a8998ee7b9aecc2d45a79e81254d65e714dc8b1704079e8091643b",
-    "history_filter_audit.json": "8f8f8bf71b86a8092cefd846b05298ed75893d50eca609b5199836d5020baf81"
+    "README.md": "154f4e3967b3823e5bbf6c84c085ed1ccc6da15290997d30316af97338110f7c",
+    "00_文档索引.md": "17493617f60c6bd4e67ea8f7d62be206429a965aab9b9ef0f8f965e3e79b8f71",
+    "history_filter_audit.json": "cb14c1b8814c52823f8e3bf402141490cf8fd981a58fe52b854e8bace9773145"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3821,6 +3821,7 @@
     "44_泄放阻值与DAC联合整形_20261116.md": "ff565f2c3300890e26218d91233b56068a3f6c28984b48a905d77beb2726edf8",
     "45_AD9215采集对时与回放验收_20261116.md": "b4b90513f11fea512e41d898b41769705d74248ee0d0b97b63fa7fabbaf156f0",
     "46_泄放极点估计与容差闭环_20261117.md": "73edd6e2f2bf14ba9a6eb17fac521f5f5f39790fec234c5bac16dcffe3fbed96",
-    "47_共同漂移与量化归因_20261117.md": "c7dc8fd25f2fa93ba1188131ee8d84fd666c226252f103b1423b5d2d8462e746"
+    "47_共同漂移与量化归因_20261117.md": "c7dc8fd25f2fa93ba1188131ee8d84fd666c226252f103b1423b5d2d8462e746",
+    "48_量化边界定位与帧级长时模型_20261117.md": "149549a124217c093c0c907aa5b1568076badba560c24628078bbf044368de75"
   }
 }

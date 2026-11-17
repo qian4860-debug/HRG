@@ -1,6 +1,6 @@
 {
-  "source_records": 447,
-  "kept": 152,
+  "source_records": 449,
+  "kept": 153,
   "omitted": [
     {
       "source_heading": "## 0039 | 2026-10-26T10:28:24.396Z",
@@ -1180,6 +1180,10 @@
     },
     {
       "source_heading": "## 本轮追加 | 2026-11-17 · 共同漂移与量化归因",
+      "reason": "同会话同原文重复"
+    },
+    {
+      "source_heading": "## 本轮追加 | 2026-11-17 · 量化边界与帧级慢模型",
       "reason": "同会话同原文重复"
     }
   ],
