@@ -1,0 +1,110 @@
+{
+  "windows_s": [
+    [
+      0.02,
+      0.06
+    ],
+    [
+      0.16,
+      0.24
+    ]
+  ],
+  "cases": [
+    {
+      "bits": 10,
+      "rate_rad_s": -0.001,
+      "error_raw_corrected_mrad_s": [
+        [
+          -10.260767400896215,
+          -11.368848130211218
+        ],
+        [
+          5.6178306393623858,
+          4.509580339834347
+        ]
+      ],
+      "full_and_unclipped": true
+    },
+    {
+      "bits": 10,
+      "rate_rad_s": 0,
+      "error_raw_corrected_mrad_s": [
+        [
+          -10.001453072170301,
+          -11.10967340446957
+        ],
+        [
+          4.4615616481056746,
+          3.352692286557545
+        ]
+      ],
+      "full_and_unclipped": true
+    },
+    {
+      "bits": 10,
+      "rate_rad_s": 0.001,
+      "error_raw_corrected_mrad_s": [
+        [
+          -9.1423112836052187,
+          -10.250690338522897
+        ],
+        [
+          5.03166137796838,
+          3.9221616179789898
+        ]
+      ],
+      "full_and_unclipped": true
+    },
+    {
+      "bits": 16,
+      "rate_rad_s": -0.001,
+      "error_raw_corrected_mrad_s": [
+        [
+          0.6699301801881502,
+          -0.4379565852714602
+        ],
+        [
+          1.0962087986491083,
+          -0.0116809116152822
+        ]
+      ],
+      "full_and_unclipped": true
+    },
+    {
+      "bits": 16,
+      "rate_rad_s": 0,
+      "error_raw_corrected_mrad_s": [
+        [
+          0.69893069818290432,
+          -0.40907168194079391
+        ],
+        [
+          1.0924187580626683,
+          -0.016055832238387045
+        ]
+      ],
+      "full_and_unclipped": true
+    },
+    {
+      "bits": 16,
+      "rate_rad_s": 0.001,
+      "error_raw_corrected_mrad_s": [
+        [
+          0.68757170118301369,
+          -0.420547270491693
+        ],
+        [
+          1.0856573842337887,
+          -0.0234011841604789
+        ]
+      ],
+      "full_and_unclipped": true
+    }
+  ],
+  "source_mode": "tdm_shared",
+  "dac_bits": 14,
+  "duration_s": 0.24,
+  "full_scale_V": 2,
+  "beta_deg": 28.125,
+  "split_Hz": 0.05
+}
