@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "date": "2026-11-17",
-  "source_base_commit": "b1390307f287e34be13f787dee73cd1279e27291",
+  "date": "2026-11-18",
+  "source_base_commit": "310478076f16433cae142ebbebc5ca90a830dbcf",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3113,11 +3113,11 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "b1390307f287e34be13f787dee73cd1279e27291",
+      "source_commit": "310478076f16433cae142ebbebc5ca90a830dbcf",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "5dba2cf8623a51e60aa779977ad99cd9aed7ddc4b22f9e1725b169b403897cad",
+      "source_sha256": "d540ac745dea4ee470efa2e962eb15c448e17bf7f33976a83bca3f0177919c65",
       "archive_sha256": "21c55db004ea254f9d9c46e935d5f6d69e3de56d3e733fbd1427b0e28a9ec0c4",
       "rewritten_local_links": []
     },
@@ -3765,13 +3765,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 449,
+    "source_records": 450,
     "kept": 153
   },
   "generated_index_sha256": {
-    "README.md": "154f4e3967b3823e5bbf6c84c085ed1ccc6da15290997d30316af97338110f7c",
-    "00_文档索引.md": "17493617f60c6bd4e67ea8f7d62be206429a965aab9b9ef0f8f965e3e79b8f71",
-    "history_filter_audit.json": "cb14c1b8814c52823f8e3bf402141490cf8fd981a58fe52b854e8bace9773145"
+    "README.md": "354ee1e8bc9bd46d4455027f2fda0c95438a8fa1148c67efdf8bf9f57281337b",
+    "00_文档索引.md": "5b995631947884d0cb275f6ade493494ebe0eb420760e5d68ba657ab462ae5be",
+    "history_filter_audit.json": "55c4833aca4968696b56be3dd4182d8823ccf55c96b2cd53eaf478e5f2ff8a76"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3822,6 +3822,7 @@
     "45_AD9215采集对时与回放验收_20261116.md": "b4b90513f11fea512e41d898b41769705d74248ee0d0b97b63fa7fabbaf156f0",
     "46_泄放极点估计与容差闭环_20261117.md": "73edd6e2f2bf14ba9a6eb17fac521f5f5f39790fec234c5bac16dcffe3fbed96",
     "47_共同漂移与量化归因_20261117.md": "c7dc8fd25f2fa93ba1188131ee8d84fd666c226252f103b1423b5d2d8462e746",
-    "48_量化边界定位与帧级长时模型_20261117.md": "149549a124217c093c0c907aa5b1568076badba560c24628078bbf044368de75"
+    "48_量化边界定位与帧级长时模型_20261117.md": "149549a124217c093c0c907aa5b1568076badba560c24628078bbf044368de75",
+    "49_频差补偿与真实低速保留_20261118.md": "bf3a8c5490e1a0051dcc2b80262e0430e63fa3437e49e955cbb626ff385a8139"
   }
 }
