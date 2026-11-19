@@ -42275,3 +42275,15 @@ Session: `01a13f99-cd01-7191-8332-0d0ba2b7ca46`
 会话来源：Codex / 全角陀螺 2。
 
 > 继续下一步
+
+## 本轮追加 | 2026-11-19 · 三套 Pipeline ADC 工程复核
+
+会话来源：Codex / 全角陀螺 2。
+
+> 详细讲述techrevzwb中的LTC2217、LTC2255、pipeline文件夹中的pipeline ADC全工程中从晶体管级到模块级再到整个电路级的详细工作原理和计算，核心依据techrevzwb中的LTC2217、LTC2255、pipeline文件夹中的pipeline ADC全工程，以及我下载的pipeline文献，以及全角陀螺中采用的pipeline ADC方案，在180nm工艺下如何最快搭出一个符合全角陀螺性能需求的pipeline，是否以至少10位 10MHz为标准
+
+## 本轮追加 | 2026-11-19 · 三套 Pipeline ADC 工程复核补充
+
+会话来源：Codex / 全角陀螺 2。
+
+> 不仅要读pdf，还要详细读取文件夹里面的整体工程
