@@ -3117,8 +3117,8 @@
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "a3bb2fe2e262ade7b849b3d21c5c84a5b6ef2bcd80638c1f6f0b8f2ad97ea932",
-      "archive_sha256": "c1f84775818c763113603aa170e212bca0e911a519fcd2a976fa7906b1fc0bf3",
+      "source_sha256": "8195b45609bcaa385f6846bcdf80bdbc4ba565ac44c06e62a5f54a2c8e28f384",
+      "archive_sha256": "d3b3cd73f3f369884b644eef72f86a153d18fe8257688bafff8e243925732c0e",
       "rewritten_local_links": []
     },
     {
@@ -3781,13 +3781,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 455,
-    "kept": 158
+    "source_records": 456,
+    "kept": 159
   },
   "generated_index_sha256": {
-    "README.md": "116885dec93ec91108e4c3b84ae4836006dc367eed72299d35078191a85a063e",
-    "00_文档索引.md": "bd4eca059595ad4e020627763fc6a95333be5793d049e2e87b339d6ee4a5daf9",
-    "history_filter_audit.json": "799316d8c711af242b4d02f5a6b234419131f1ea9cd69881cd98a449f6c8a611"
+    "README.md": "2d37126a9eb68c90cc6736a11d40e253dc1e3bdf0c69b2a5234057a36a132c0c",
+    "00_文档索引.md": "6f570a55858e58aa39a53adb9d9e976b28ae67ff8e64eeb3a5e7f43e62d53126",
+    "history_filter_audit.json": "8d2877d9295a3aa6c367b69bdd7235d1b6e759a1b1638ebdee9ccd7eb3dec867"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3840,6 +3840,7 @@
     "48_量化边界定位与帧级长时模型_20261117.md": "149549a124217c093c0c907aa5b1568076badba560c24628078bbf044368de75",
     "49_频差补偿与真实低速保留_20261118.md": "bf3a8c5490e1a0051dcc2b80262e0430e63fa3437e49e955cbb626ff385a8139",
     "50_三套Pipeline_ADC工程复核与180nm实现_20261119.md": "3dd130cc915b89541c401058d705d818a0abdb7c95314fe86e407de5e9552522",
-    "51_方向计划与两项关键证据复核_20261119.md": "1bd2dd01429c35d7ed75ac9bd5f5ff1ab6643534737fc49a9faf6fff019ebede"
+    "51_方向计划与两项关键证据复核_20261119.md": "1bd2dd01429c35d7ed75ac9bd5f5ff1ab6643534737fc49a9faf6fff019ebede",
+    "52_LTC2217全工程工作原理与SH_AMP逐图复核_20261119.md": "a38242894ed47f979462464b312be1b4196560b93c06fd9986918885385d9dec"
   }
 }
