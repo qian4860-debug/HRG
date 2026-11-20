@@ -12,6 +12,8 @@ from blind_drive_reference import FS, CARRIER, N, ADC_STEP, synth
 
 FIELDS = ("sample_index", "time_s", "frame_id", "sense_tick", "adc_x_code",
           "adc_y_code", "drive_ref_x_V", "drive_ref_y_V", "adc_clip")
+# 这三列来自参考采集器的独立状态与时间标签，需与 ADC 采用同一触发纪元。
+WITNESS_FIELDS = ("reference_healthy", "reference_frame_id", "reference_sample_index")
 LABELS = ("frame_id", "validated_route", "case", "injection", "truth_beta_rad")
 ARMS = {"off", "pos_x", "neg_x", "pos_y", "neg_y", "pos_xy", "neg_xy"}
 AD9215_CODINGS = ("offset-binary", "twos-complement-word", "signed")
@@ -47,14 +49,19 @@ def prepare(samples, labels, out, *, coding=None, vpp=None, delay=None):
     previous = None
     clock_origin = None
     with samples.open(encoding="utf-8-sig", newline="") as f:
-        for row in csv.DictReader(f):
+        reader = csv.DictReader(f)
+        witness_columns = set(WITNESS_FIELDS).intersection(reader.fieldnames or ())
+        if witness_columns and len(witness_columns) != len(WITNESS_FIELDS):
+            raise ValueError("参考健康、参考帧号及参考样本序号必须成组记录")
+        witness_records = defaultdict(list)
+        for row in reader:
             sample, frame, tick, x, y, clip = (int(row[col]) for col in
                 ("sample_index", "frame_id", "sense_tick", "adc_x_code", "adc_y_code", "adc_clip"))
             time = float(row["time_s"])
             witness = [float(row[c]) for c in ("drive_ref_x_V", "drive_ref_y_V")]
             if clock_origin is None:
                 clock_origin = time-sample/FS
-            if not (np.isfinite([time, *witness]).all() and
+            if not (np.isfinite(time) and
                     abs(time-(clock_origin+sample/FS)) <= .1/FS):
                 raise ValueError("共同时钟对齐超出第 0.1 拍，本入口不能自动修正")
             if not (sample >= 0 and frame >= 0 and clip in (0,1)):
@@ -71,6 +78,12 @@ def prepare(samples, labels, out, *, coding=None, vpp=None, delay=None):
             if tick != len(groups[frame]):
                 raise ValueError("检测窗口缺少起点或样本")
             groups[frame].append((x,y,*witness,clip))
+            # 仅参考信号的检测窗参与核验，尾部 ADC 流水延迟拍不参与参考健康判断。
+            if witness_columns and tick < 2*N:
+                healthy, ref_frame, ref_sample = (int(row[k]) for k in WITNESS_FIELDS)
+                if healthy not in (0, 1):
+                    raise ValueError("参考健康位必须为 0 或 1")
+                witness_records[frame].append((healthy, ref_frame, ref_sample == sample))
             previous = (sample,frame,tick)
     if not groups or any(len(g)!=raw_count for g in groups.values()):
         raise ValueError(f"每帧需要 {raw_count} 拍，包括原始码的尾部延迟拍")
@@ -91,11 +104,19 @@ def prepare(samples, labels, out, *, coding=None, vpp=None, delay=None):
     # ADC 过载位与输出码同拍。独立参考、sense_tick 和时标仍属于采样拍。
     output = data[:,delay:raw_count,:]
     clip_samples = output[:,:,4].astype(bool)
+    status = {}
+    if witness_columns:
+        witnesses = list(witness_records.values())
+        status = dict(reference_healthy=[all(row[0] for row in frame) for frame in witnesses],
+                      reference_frame_id=[frame[0][1] for frame in witnesses],
+                      adc_frame_id=list(groups),
+                      reference_samples_aligned=[all(row[2] and row[1] == key for row in frame)
+                                                 for key, frame in witness_records.items()])
     np.savez_compressed(out, adc_V=output[:,:,:2]*step,drive_ref_V=data[:,:2*N,2:4],
                         adc_clip=np.any(clip_samples,axis=1),adc_clip_samples=clip_samples,
                         adc_code_format=coding or "aligned-signed16", adc_LSB_V=step,
                         adc_delay_cycles=delay, validated_route=valid,
-                        case=case,injection=injection,truth_beta_rad=truth)
+                        case=case,injection=injection,truth_beta_rad=truth, **status)
     return len(ordered)
 
 
@@ -110,14 +131,14 @@ def synthetic_example(directory):
         with (directory/f"{name}.csv").open("w",newline="",encoding="utf-8") as f, (
                directory/f"{name}_labels.csv").open("w",newline="",encoding="utf-8") as l:
             samples, labels = csv.writer(f),csv.writer(l)
-            samples.writerow(FIELDS)
+            samples.writerow(FIELDS + WITNESS_FIELDS)
             labels.writerow(LABELS)
             for k,(adc,ref,clip,valid,case,inj,truth) in enumerate(batch):
                 labels.writerow((k,int(valid),case,inj,truth))
                 for tick,((x,y),(u,v)) in enumerate(zip(adc,ref,strict=True)):
                     index = k*4*N + tick
                     samples.writerow((index,index/FS,k,tick,round(x/ADC_STEP),
-                                      round(y/ADC_STEP),u,v,int(clip)))
+                                      round(y/ADC_STEP),u,v,int(clip),1,k,index))
     metadata = dict(sample_rate_Hz=FS,carrier_Hz=CARRIER,sample_origin="sense_connect",
                     independent_reference=True,calibration_motion_source_off=True,
                     calibration_batch_id="synthetic-calibration",blind_batch_id="synthetic-blind",

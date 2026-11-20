@@ -1,0 +1,110 @@
+{
+  "scope": "paired synthetic witness-failure replay; external health bit is supplied",
+  "calibration_seed": 98263,
+  "blind_seed": 192841,
+  "calibration_frames": 84,
+  "angle_limit_mrad": 1.0,
+  "paired_frames": 84,
+  "cases": {
+    "verified_nominal": {
+      "frames": 84,
+      "released": 84,
+      "withheld": 0,
+      "false_release": 0,
+      "coverage": 1.0,
+      "max_released_mrad": 0.027315593673193916,
+      "reason_counts": {
+        "released": 84
+      }
+    },
+    "verified_hidden_5mV": {
+      "frames": 84,
+      "released": 84,
+      "withheld": 0,
+      "false_release": 84,
+      "coverage": 1.0,
+      "max_released_mrad": 24.950286955463252,
+      "reason_counts": {
+        "released": 84
+      }
+    },
+    "hidden_route_flag_off": {
+      "frames": 84,
+      "released": 0,
+      "withheld": 84,
+      "false_release": 0,
+      "coverage": 0.0,
+      "max_released_mrad": null,
+      "reason_counts": {
+        "withheld": 84
+      }
+    },
+    "reference_stuck_zero_no_health": {
+      "frames": 84,
+      "released": 84,
+      "withheld": 0,
+      "false_release": 67,
+      "coverage": 1.0,
+      "max_released_mrad": 80.64263168546337,
+      "reason_counts": {
+        "released": 84
+      }
+    },
+    "reference_stuck_zero_fault_asserted": {
+      "frames": 84,
+      "released": 0,
+      "withheld": 84,
+      "false_release": 0,
+      "coverage": 0.0,
+      "max_released_mrad": null,
+      "reason_counts": {
+        "withheld": 84
+      }
+    },
+    "reference_nonfinite_guarded": {
+      "frames": 84,
+      "released": 0,
+      "withheld": 84,
+      "false_release": 0,
+      "coverage": 0.0,
+      "max_released_mrad": null,
+      "reason_counts": {
+        "withheld": 84
+      }
+    },
+    "healthy_guard_nominal": {
+      "frames": 84,
+      "released": 84,
+      "withheld": 0,
+      "false_release": 0,
+      "coverage": 1.0,
+      "max_released_mrad": 0.027315593673193916,
+      "reason_counts": {
+        "released": 84
+      }
+    },
+    "healthy_guard_hidden": {
+      "frames": 84,
+      "released": 84,
+      "withheld": 0,
+      "false_release": 84,
+      "coverage": 1.0,
+      "max_released_mrad": 24.950286955463252,
+      "reason_counts": {
+        "released": 84
+      }
+    }
+  },
+  "capture_regression": {
+    "historical_synthetic_receipt_equal": true,
+    "valid_replay_frames": 28,
+    "mixed_fault_reference_status": {
+      "ok": 24,
+      "nonfinite_reference": 1,
+      "reference_out_of_time": 2,
+      "external_reference_fault": 1
+    },
+    "legacy_reference_released": 0,
+    "baseline_rows_unchanged": true
+  }
+}

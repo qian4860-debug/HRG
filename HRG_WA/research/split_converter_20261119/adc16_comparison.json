@@ -1,0 +1,402 @@
+{
+  "mode": "tdm_shared",
+  "adc_bits": 16,
+  "dac_bits": 14,
+  "fs_Hz": 5.44E+6,
+  "adc_span_V": 2,
+  "gain": 8,
+  "beta_deg": 28.125,
+  "split_Hz": 0.05,
+  "noise_rms_V": 0,
+  "dither_lsb_rms": 0,
+  "windows_s": [
+    [
+      0.02,
+      0.06
+    ],
+    [
+      0.16,
+      0.24
+    ]
+  ],
+  "absolute_limit_mrad_s": 0.25,
+  "gain_tolerance": 0.05,
+  "cases": [
+    {
+      "phase_deg": 0,
+      "truth_mrad_s": -1,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.6699301801881502,
+          -0.4379565852714602
+        ],
+        [
+          1.0962087986491083,
+          -0.0116809116152822
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -1.4379565852714602,
+        -1.0116809116152823
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": 0
+    },
+    {
+      "phase_deg": 0,
+      "truth_mrad_s": -0.3,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.70495345536393761,
+          -0.40301493466707289
+        ],
+        [
+          1.0879410418115993,
+          -0.020358830432624139
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -0.70301493466707288,
+        -0.32035883043262414
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "phase_deg": 0,
+      "truth_mrad_s": 0,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.69893069818290432,
+          -0.40907168194079391
+        ],
+        [
+          1.0924187580626683,
+          -0.016055832238387045
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -0.40907168194079391,
+        -0.016055832238387045
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": 0
+    },
+    {
+      "phase_deg": 0,
+      "truth_mrad_s": 0.3,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.71594445147757846,
+          -0.39209317016063289
+        ],
+        [
+          1.0821578989430236,
+          -0.026492866361120679
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -0.0920931701606329,
+        0.2735071336388793
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "phase_deg": 0,
+      "truth_mrad_s": 1,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.68757170118301369,
+          -0.420547270491693
+        ],
+        [
+          1.0856573842337887,
+          -0.0234011841604789
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        0.579452729508307,
+        0.97659881583952113
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": 0
+    },
+    {
+      "phase_deg": 17,
+      "truth_mrad_s": -1,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.66993018021550654,
+          -0.43795658524410425
+        ],
+        [
+          1.0962087986439433,
+          -0.011680911620448858
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -1.4379565852441043,
+        -1.0116809116204488
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "phase_deg": 17,
+      "truth_mrad_s": -0.3,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.70495345536997878,
+          -0.40301493466103194
+        ],
+        [
+          1.0879410418167945,
+          -0.020358830427431245
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -0.70301493466103193,
+        -0.32035883042743124
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "phase_deg": 17,
+      "truth_mrad_s": 0,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.69893069819486264,
+          -0.40907168192883697
+        ],
+        [
+          1.0924187580680005,
+          -0.016055832233053707
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -0.40907168192883697,
+        -0.016055832233053707
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "phase_deg": 17,
+      "truth_mrad_s": 0.3,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.71594445148533614,
+          -0.39209317015287504
+        ],
+        [
+          1.0821578989402305,
+          -0.026492866363912768
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        -0.092093170152875048,
+        0.2735071336360872
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "phase_deg": 17,
+      "truth_mrad_s": 1,
+      "frames": 408,
+      "valid_frames": 408,
+      "adc_clip_ticks": 0,
+      "dac_clip_ticks": 0,
+      "window_frames": [
+        68,
+        136
+      ],
+      "raw_corrected_error_mrad_s": [
+        [
+          0.68757170116221911,
+          -0.42054727051248836
+        ],
+        [
+          1.0856573842355937,
+          -0.023401184158675224
+        ]
+      ],
+      "corrected_output_mrad_s": [
+        0.57945272948751159,
+        0.9765988158413248
+      ],
+      "absolute_pass": [
+        false,
+        true
+      ],
+      "max_history_delta_mrad_s": null
+    }
+  ],
+  "pairs": [
+    {
+      "phase_deg": 0,
+      "amplitude_mrad_s": 0.3,
+      "gain": [
+        1.0182029408440667,
+        0.989776606785839
+      ],
+      "directions_correct": [
+        false,
+        true
+      ],
+      "pass": [
+        false,
+        true
+      ]
+    },
+    {
+      "phase_deg": 0,
+      "amplitude_mrad_s": 1,
+      "gain": [
+        1.0087046573898837,
+        0.99413986372740171
+      ],
+      "directions_correct": [
+        true,
+        true
+      ],
+      "pass": [
+        false,
+        true
+      ]
+    },
+    {
+      "phase_deg": 17,
+      "amplitude_mrad_s": 0.3,
+      "gain": [
+        1.0182029408469282,
+        0.98977660677253076
+      ],
+      "directions_correct": [
+        false,
+        true
+      ],
+      "pass": [
+        false,
+        true
+      ]
+    },
+    {
+      "phase_deg": 17,
+      "amplitude_mrad_s": 1,
+      "gain": [
+        1.0087046573658078,
+        0.99413986373088681
+      ],
+      "directions_correct": [
+        true,
+        true
+      ],
+      "pass": [
+        false,
+        true
+      ]
+    }
+  ]
+}
