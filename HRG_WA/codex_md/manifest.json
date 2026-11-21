@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "date": "2026-11-20",
-  "source_base_commit": "af21001f878436fb0775db914e1ad20475ff6f76",
+  "date": "2026-11-21",
+  "source_base_commit": "79112ffed7ab28985741e4d06fddbaad7e527e3c",
   "mode": "central_archive_with_original_paths_preserved",
   "entries": [
     {
@@ -3113,11 +3113,11 @@
       "source": "全角陀螺/HRG_WA_codex.md",
       "archive": "codex_md/00_用户提问记录.md",
       "category": "资料与文献管理",
-      "source_commit": "af21001f878436fb0775db914e1ad20475ff6f76",
+      "source_commit": "79112ffed7ab28985741e4d06fddbaad7e527e3c",
       "source_mode": "working_question_append",
       "source_encoding": "utf-8",
       "source_dirty_at_archive": true,
-      "source_sha256": "25fb540ccd27af72965793742c13b99bbc584f11a1c7c2d4bde92ab41a08d850",
+      "source_sha256": "37a846ddce840896c8fe794df29eecd1cc9c512f0edb2526c0efe2b232852eb4",
       "archive_sha256": "5e8e627f010c47ed2dc4151fecaf3612f586b36ba34f7d782a7cf868b8f54af2",
       "rewritten_local_links": []
     },
@@ -3781,13 +3781,13 @@
     }
   ],
   "history_counts": {
-    "source_records": 459,
+    "source_records": 461,
     "kept": 160
   },
   "generated_index_sha256": {
-    "README.md": "3f8575ced9e6079771a77a9efe8d0801bd9deb44510f9506df45f35ea353ddb5",
-    "00_文档索引.md": "aa02ddee18d708a839c075d9a911f73ef317b6173e91d272553693153fded71d",
-    "history_filter_audit.json": "2bcea5c6267389d6811bd35391693093ded6da82bff9d19fc27bfb5756ac0637"
+    "README.md": "fff52d594aebcd43f66a0d2e5128bcf42f46b1ed262728d8e1c062e6b47442d7",
+    "00_文档索引.md": "679d6ec9171ba39ef4cb9f425c0b363335d5361c1fa37767283dd115d97fe748",
+    "history_filter_audit.json": "cb7298ae602300d0ead997f3719d3b6628b253827f266a512ca1bd99c617e532"
   },
   "current_document_sha256": {
     "01_五个创新点_复核后改良V3_20261102.md": "40e1c0b5f27d63ef8179d53a8ff156cf4016631573ed29df4703326a7cb4518e",
@@ -3842,6 +3842,7 @@
     "50_三套Pipeline_ADC工程复核与180nm实现_20261119.md": "3dd130cc915b89541c401058d705d818a0abdb7c95314fe86e407de5e9552522",
     "51_方向计划与两项关键证据复核_20261119.md": "1bd2dd01429c35d7ed75ac9bd5f5ff1ab6643534737fc49a9faf6fff019ebede",
     "52_LTC2217全工程工作原理与SH_AMP逐图复核_20261119.md": "a38242894ed47f979462464b312be1b4196560b93c06fd9986918885385d9dec",
-    "53_因果测频与转换器低速仿真验证_20261120.md": "83e466e23b8dbfe4cb1925c376c72799dd2776a4253bba17b0c4500df9b31bff"
+    "53_因果测频与转换器低速仿真验证_20261120.md": "83e466e23b8dbfe4cb1925c376c72799dd2776a4253bba17b0c4500df9b31bff",
+    "54_测频拒发与同表头停驱及12位量程验证_20261121.md": "85aba27e082f887ef9a51bdeddccf91f0fd2499907b0a505e40b3a01b5fc8790"
   }
 }
