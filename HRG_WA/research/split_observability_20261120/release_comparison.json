@@ -14,11 +14,12 @@
     "frame_threshold_mHz": 0.71,
     "rate_threshold_mrad_s": 0.25
   },
+  "sha256_convention": "UTF-8 JSON with LF line endings, as stored by Git",
   "sha256": {
     "old_estimates": "bd303f2d37840645c85c81449ab0b0142028217efa7ae34e9f208b7e64c82e80",
     "new_estimates": "500d5fd4a01b64341963e7c6c7f914d6b74b845cdba0f1c282c5a64256a7e787",
-    "old_replay": "5ae6aba55ad4a2a230e962b2c442fbc74c12442471869f3347abdb246d082747",
-    "new_replay": "d6da089a9b313af14c03a9580a39521b2ea758cc6dc93bf538d137b285dc55ae"
+    "old_replay": "0fad74a2bdf173988bdb73b6ef7aba1ba0d792e4bd8acde27b7cc1d7ddc0d859",
+    "new_replay": "73856e713b9cce0ab07b24acbd2e788d322feeecffa8c3670ca3af61f7c8afe7"
   },
   "frame_by_case": {
     "axis_error": {

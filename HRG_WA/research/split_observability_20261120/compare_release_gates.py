@@ -24,7 +24,8 @@ def read(path):
 
 
 def sha256(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    # 与仓库 eol=lf 的 JSON 字节一致，Windows 重新生成的 CRLF 不应改变回执来源。
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def measured_frames(rows, truth):
@@ -179,6 +180,7 @@ def compare(old_est, new_est, old_replay, new_replay):
     return dict(scope="paired 20 s witness runs; modes and speeds reuse the same witnesses",
                 state_order=LABELS, rejected_diagnostic_order=["finite_within_budget","finite_over_budget","no_finite_candidate"],
                 units=dict(frame_threshold_mHz=SPLIT_BUDGET_MHZ,rate_threshold_mrad_s=RATE_BUDGET_MRAD_S),
+                sha256_convention="UTF-8 JSON with LF line endings, as stored by Git",
                 sha256=dict(zip(["old_estimates","new_estimates","old_replay","new_replay"],map(sha256,inputs))),
                 frame_by_case={key:dict(runs=v["count"],**transitions(v["matrix"]),
                     old_rejected_diagnostics=v["old_rejected"].tolist(),new_rejected_diagnostics=v["new_rejected"].tolist())
