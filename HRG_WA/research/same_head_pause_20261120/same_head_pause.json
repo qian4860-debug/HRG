@@ -1,0 +1,2407 @@
+{
+  "scope": "unquantized same-head native force blanking, frozen mode axes; optional noise on estimator input only",
+  "start_s": 1,
+  "baseline_angle_deg": 28.125,
+  "rows": [
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53474753124140906,
+      "dac_peak_V": 1.2682544366565698,
+      "baseline_delta": 1.8873791418627661E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027445665427468,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 8.1418544300720478E-16,
+        "uncertainty_mHz": 0.0011490753014428137,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 0.48810159463969494,
+        "uncertainty_mHz": 1.7892364635203943,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.31875816990214545,
+        "uncertainty_mHz": 1.4945974576280658,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53474753124140906,
+      "dac_peak_V": 0.374161325535435,
+      "baseline_delta": 1.8873791418627661E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027445665427468,
+      "peak_body_delta_mrad": 7.7157005675119708E-11,
+      "post_1s_delta_slope_mrad_s": -3.5811991552578532E-12,
+      "quiet": {
+        "split_est_mHz": 8.1418544300720478E-16,
+        "uncertainty_mHz": 0.0011490753014428137,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 0.48810159463969494,
+        "uncertainty_mHz": 1.7892364635203943,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.31875816990214545,
+        "uncertainty_mHz": 1.4945974576280658,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53474753124140906,
+      "dac_peak_V": 2.1236352631446418,
+      "baseline_delta": 1.8873791418627661E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49017856798677861,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 1.6723491846843073E-16,
+        "uncertainty_mHz": 0.00041142434741467285,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 0.6465866788994824,
+        "uncertainty_mHz": 0.79524318254551929,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.30964211552236232,
+        "uncertainty_mHz": 0.55238941462213331,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53474753124140906,
+      "dac_peak_V": 0.37416132553543879,
+      "baseline_delta": 1.8873791418627661E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49017856798677861,
+      "peak_body_delta_mrad": 2.1403553782085159E-10,
+      "post_1s_delta_slope_mrad_s": 2.1830613036233327E-12,
+      "quiet": {
+        "split_est_mHz": 1.6723491846843073E-16,
+        "uncertainty_mHz": 0.00041142434741467285,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 0.6465866788994824,
+        "uncertainty_mHz": 0.79524318254551929,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.30964211552236232,
+        "uncertainty_mHz": 0.55238941462213331,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53474753124140906,
+      "dac_peak_V": 2.7223852884053064,
+      "baseline_delta": 1.8873791418627661E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311551168318094,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 1.9233080919864323E-16,
+        "uncertainty_mHz": 0.00022618687413035563,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 0.026259631655656816,
+        "uncertainty_mHz": 0.51570553293079824,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.0043897249186990554,
+        "uncertainty_mHz": 0.29751336973453796,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53474753124140906,
+      "dac_peak_V": 0.37416132553543424,
+      "baseline_delta": 1.8873791418627661E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311551168318094,
+      "peak_body_delta_mrad": 2.6694319885521941E-10,
+      "post_1s_delta_slope_mrad_s": -2.5391729241805516E-12,
+      "quiet": {
+        "split_est_mHz": 1.9233080919864323E-16,
+        "uncertainty_mHz": 0.00022618687413035563,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 0.026259631655656816,
+        "uncertainty_mHz": 0.51570553293079824,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.0043897249186990554,
+        "uncertainty_mHz": 0.29751336973453796,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.5347418606743316,
+      "dac_peak_V": 1.2680156537415865,
+      "baseline_delta": 1.609823385706477E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027435577970454,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 25.415667230378098,
+        "uncertainty_mHz": 0.0017973332708498765,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 24.86850853634569,
+        "uncertainty_mHz": 1.7898987900359893,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.33682227495157135,
+        "uncertainty_mHz": 1.4952557271600802,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.5347418606743316,
+      "dac_peak_V": 0.3738491290010737,
+      "baseline_delta": 1.609823385706477E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027435577970454,
+      "peak_body_delta_mrad": 1.06175577806547,
+      "post_1s_delta_slope_mrad_s": 0.036821228765276146,
+      "quiet": {
+        "split_est_mHz": 25.415667230378098,
+        "uncertainty_mHz": 0.0017973332708498765,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 24.86850853634569,
+        "uncertainty_mHz": 1.7898987900359893,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.33682227495157135,
+        "uncertainty_mHz": 1.4952557271600802,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.5347418606743316,
+      "dac_peak_V": 2.1207724346359553,
+      "baseline_delta": 1.609823385706477E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49017844521413556,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 25.364950802844348,
+        "uncertainty_mHz": 0.0045632062176769635,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 24.782901216664726,
+        "uncertainty_mHz": 0.794020522596876,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.28501222876343046,
+        "uncertainty_mHz": 0.55230490436924606,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.5347418606743316,
+      "dac_peak_V": 0.373500950273066,
+      "baseline_delta": 1.609823385706477E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49017844521413556,
+      "peak_body_delta_mrad": 4.012450523717086,
+      "post_1s_delta_slope_mrad_s": 0.10470858035791912,
+      "quiet": {
+        "split_est_mHz": 25.364950802844348,
+        "uncertainty_mHz": 0.0045632062176769635,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 24.782901216664726,
+        "uncertainty_mHz": 0.794020522596876,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.28501222876343046,
+        "uncertainty_mHz": 0.55230490436924606,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.5347418606743316,
+      "dac_peak_V": 2.7137371107102655,
+      "baseline_delta": 1.609823385706477E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311541771218468,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 25.294866984843971,
+        "uncertainty_mHz": 0.0078602613122037354,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 25.376410006188006,
+        "uncertainty_mHz": 0.51707278212861674,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.012978002665438734,
+        "uncertainty_mHz": 0.29834631921721333,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.5347418606743316,
+      "dac_peak_V": 0.37287133421435376,
+      "baseline_delta": 1.609823385706477E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311541771218468,
+      "peak_body_delta_mrad": 8.835593860267787,
+      "post_1s_delta_slope_mrad_s": 0.17482840448068224,
+      "quiet": {
+        "split_est_mHz": 25.294866984843971,
+        "uncertainty_mHz": 0.0078602613122037354,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 25.376410006188006,
+        "uncertainty_mHz": 0.51707278212861674,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.012978002665438734,
+        "uncertainty_mHz": 0.29834631921721333,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53473123594334293,
+      "dac_peak_V": 1.2672857697823856,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027429668872887,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.661849006642726,
+        "uncertainty_mHz": 0.014254824429770201,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.06141941190748,
+        "uncertainty_mHz": 1.7880094611144437,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35586104271365882,
+        "uncertainty_mHz": 1.4954181985277804,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53473123594334293,
+      "dac_peak_V": 0.37291508455573597,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027429668872887,
+      "peak_body_delta_mrad": 4.3315046819916772,
+      "post_1s_delta_slope_mrad_s": 0.15873674033809068,
+      "quiet": {
+        "split_est_mHz": 50.661849006642726,
+        "uncertainty_mHz": 0.014254824429770201,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.06141941190748,
+        "uncertainty_mHz": 1.7880094611144437,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35586104271365882,
+        "uncertainty_mHz": 1.4954181985277804,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53473123594334293,
+      "dac_peak_V": 2.1117535720642975,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.4901784198309424,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.26696436484368,
+        "uncertainty_mHz": 0.035229376225837564,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.757551644786325,
+        "uncertainty_mHz": 0.79055402824438947,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26108620640915592,
+        "uncertainty_mHz": 0.55203614690321545,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53473123594334293,
+      "dac_peak_V": 0.37145401059803684,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.4901784198309424,
+      "peak_body_delta_mrad": 16.734747299460121,
+      "post_1s_delta_slope_mrad_s": 0.47496810980282766,
+      "quiet": {
+        "split_est_mHz": 50.26696436484368,
+        "uncertainty_mHz": 0.035229376225837564,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.757551644786325,
+        "uncertainty_mHz": 0.79055402824438947,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26108620640915592,
+        "uncertainty_mHz": 0.55203614690321545,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53473123594334293,
+      "dac_peak_V": 2.6849485722890996,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311549747729653,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 49.742156677588149,
+        "uncertainty_mHz": 0.058457951609659456,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.865572907325863,
+        "uncertainty_mHz": 0.5199214568077315,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020080996337792787,
+        "uncertainty_mHz": 0.29945904875605733,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53473123594334293,
+      "dac_peak_V": 0.36862373541724708,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311549747729653,
+      "peak_body_delta_mrad": 38.222791488406024,
+      "post_1s_delta_slope_mrad_s": 0.84728024855555684,
+      "quiet": {
+        "split_est_mHz": 49.742156677588149,
+        "uncertainty_mHz": 0.058457951609659456,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.865572907325863,
+        "uncertainty_mHz": 0.5199214568077315,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020080996337792787,
+        "uncertainty_mHz": 0.29945904875605733,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53473459402875223,
+      "dac_peak_V": 1.2674992717690976,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027429664983132,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.679810880305936,
+        "uncertainty_mHz": 0.014027393771322855,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.079265544800265,
+        "uncertainty_mHz": 1.7883405783153845,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35536488774729852,
+        "uncertainty_mHz": 1.4956845625792683,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53473459402875223,
+      "dac_peak_V": 0.37297762480044538,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027429664983132,
+      "peak_body_delta_mrad": 4.326792566562931,
+      "post_1s_delta_slope_mrad_s": 0.15855564746604431,
+      "quiet": {
+        "split_est_mHz": 50.679810880305936,
+        "uncertainty_mHz": 0.014027393771322855,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.079265544800265,
+        "uncertainty_mHz": 1.7883405783153845,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35536488774729852,
+        "uncertainty_mHz": 1.4956845625792683,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53473459402875223,
+      "dac_peak_V": 2.1122476980553988,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49017841992930505,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.288522106393444,
+        "uncertainty_mHz": 0.034947465568124982,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.779078851834832,
+        "uncertainty_mHz": 0.79069304955834074,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26064175105992726,
+        "uncertainty_mHz": 0.552139178439647,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53473459402875223,
+      "dac_peak_V": 0.3715407022711093,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49017841992930505,
+      "peak_body_delta_mrad": 16.711975267583952,
+      "post_1s_delta_slope_mrad_s": 0.47427843665592778,
+      "quiet": {
+        "split_est_mHz": 50.288522106393444,
+        "uncertainty_mHz": 0.034947465568124982,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.779078851834832,
+        "uncertainty_mHz": 0.79069304955834074,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26064175105992726,
+        "uncertainty_mHz": 0.552139178439647,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53473459402875223,
+      "dac_peak_V": 2.6857873764857367,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.343115497732768,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 49.766320525103971,
+        "uncertainty_mHz": 0.058166082197239656,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.8899621548924,
+        "uncertainty_mHz": 0.51999655807298972,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020661682595334154,
+        "uncertainty_mHz": 0.29953395335829541,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53473459402875223,
+      "dac_peak_V": 0.36873872335200414,
+      "baseline_delta": 1.9984014443252818E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.343115497732768,
+      "peak_body_delta_mrad": 38.161288776518361,
+      "post_1s_delta_slope_mrad_s": 0.84585731648689255,
+      "quiet": {
+        "split_est_mHz": 49.766320525103971,
+        "uncertainty_mHz": 0.058166082197239656,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.8899621548924,
+        "uncertainty_mHz": 0.51999655807298972,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020661682595334154,
+        "uncertainty_mHz": 0.29953395335829541,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53472807644850273,
+      "dac_peak_V": 1.2670721884116058,
+      "baseline_delta": 1.6653345369377348E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027429672767783,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.643898190350185,
+        "uncertainty_mHz": 0.0144819673941634,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.043584114705055,
+        "uncertainty_mHz": 1.7876788493630116,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35635693739630203,
+        "uncertainty_mHz": 1.4951522191162119,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53472807644850273,
+      "dac_peak_V": 0.37285252113821549,
+      "baseline_delta": 1.6653345369377348E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70027429672767783,
+      "peak_body_delta_mrad": 4.3362132861203309,
+      "post_1s_delta_slope_mrad_s": 0.15891764121543553,
+      "quiet": {
+        "split_est_mHz": 50.643898190350185,
+        "uncertainty_mHz": 0.0144819673941634,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.043584114705055,
+        "uncertainty_mHz": 1.7876788493630116,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35635693739630203,
+        "uncertainty_mHz": 1.4951522191162119,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53472807644850273,
+      "dac_peak_V": 2.1112592087397206,
+      "baseline_delta": 1.6653345369377348E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.4901784197326422,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.245424987437062,
+        "uncertainty_mHz": 0.03551078204090459,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.736042547063469,
+        "uncertainty_mHz": 0.79041527083682,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26153042168110052,
+        "uncertainty_mHz": 0.551933308778644,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53472807644850273,
+      "dac_peak_V": 0.37136727734621233,
+      "baseline_delta": 1.6653345369377348E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.4901784197326422,
+      "peak_body_delta_mrad": 16.757499105855551,
+      "post_1s_delta_slope_mrad_s": 0.4756567419456878,
+      "quiet": {
+        "split_est_mHz": 50.245424987437062,
+        "uncertainty_mHz": 0.03551078204090459,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.736042547063469,
+        "uncertainty_mHz": 0.79041527083682,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26153042168110052,
+        "uncertainty_mHz": 0.551933308778644,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53472807644850273,
+      "dac_peak_V": 2.6841092897964258,
+      "baseline_delta": 1.6653345369377348E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311549722185847,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 49.718017946539966,
+        "uncertainty_mHz": 0.058749181905902857,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.841208685264228,
+        "uncertainty_mHz": 0.5198466791422095,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.01950084817778882,
+        "uncertainty_mHz": 0.29938429842898195,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_shared",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53472807644850273,
+      "dac_peak_V": 0.36850868195675751,
+      "baseline_delta": 1.6653345369377348E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34311549722185847,
+      "peak_body_delta_mrad": 38.284226669785234,
+      "post_1s_delta_slope_mrad_s": 0.84870005254829661,
+      "quiet": {
+        "split_est_mHz": 49.718017946539966,
+        "uncertainty_mHz": 0.058749181905902857,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.841208685264228,
+        "uncertainty_mHz": 0.5198466791422095,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.01950084817778882,
+        "uncertainty_mHz": 0.29938429842898195,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53427714873633758,
+      "dac_peak_V": 2.5342854811279829,
+      "baseline_delta": 2.6922908347160046E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.700538851085128,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 3.6038913694550882E-19,
+        "uncertainty_mHz": 0.00114663667187782,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 0.48796033641580422,
+        "uncertainty_mHz": 1.7888736293817913,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.31879350764011116,
+        "uncertainty_mHz": 1.4945822649618168,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53427714873633758,
+      "dac_peak_V": 0.37416132553546844,
+      "baseline_delta": 2.6922908347160046E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.700538851085128,
+      "peak_body_delta_mrad": 5.7517040594180148E-11,
+      "post_1s_delta_slope_mrad_s": 4.2453743930852912E-11,
+      "quiet": {
+        "split_est_mHz": 3.6038913694550882E-19,
+        "uncertainty_mHz": 0.00114663667187782,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 0.48796033641580422,
+        "uncertainty_mHz": 1.7888736293817913,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.31879350764011116,
+        "uncertainty_mHz": 1.4945822649618168,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53427714873633758,
+      "dac_peak_V": 4.2442048414169946,
+      "baseline_delta": 2.6922908347160046E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054899794245183,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 2.6331306883455216E-19,
+        "uncertainty_mHz": 0.00041054690965656424,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 0.64611004006420758,
+        "uncertainty_mHz": 0.79492164206590255,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.30959326054371727,
+        "uncertainty_mHz": 0.55238285322964431,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53427714873633758,
+      "dac_peak_V": 0.37416132553546866,
+      "baseline_delta": 2.6922908347160046E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054899794245183,
+      "peak_body_delta_mrad": 5.7517040594180148E-11,
+      "post_1s_delta_slope_mrad_s": -9.4005462610540473E-12,
+      "quiet": {
+        "split_est_mHz": 2.6331306883455216E-19,
+        "uncertainty_mHz": 0.00041054690965656424,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 0.64611004006420758,
+        "uncertainty_mHz": 0.79492164206590255,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.30959326054371727,
+        "uncertainty_mHz": 0.55238285322964431,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53427714873633758,
+      "dac_peak_V": 5.4415677392104218,
+      "baseline_delta": 2.6922908347160046E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34350460222098678,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 6.0327354292788886E-18,
+        "uncertainty_mHz": 0.00022570217811385539,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 0.026236226260614524,
+        "uncertainty_mHz": 0.51539429865469222,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.0044045303959145106,
+        "uncertainty_mHz": 0.29750982490186151,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 0,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53427714873633758,
+      "dac_peak_V": 0.37416132553546844,
+      "baseline_delta": 2.6922908347160046E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34350460222098678,
+      "peak_body_delta_mrad": 5.7517040594180148E-11,
+      "post_1s_delta_slope_mrad_s": -2.0565463770934363E-12,
+      "quiet": {
+        "split_est_mHz": 6.0327354292788886E-18,
+        "uncertainty_mHz": 0.00022570217811385539,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 0.026236226260614524,
+        "uncertainty_mHz": 0.51539429865469222,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.0044045303959145106,
+        "uncertainty_mHz": 0.29750982490186151,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53427154232937224,
+      "dac_peak_V": 2.5338099864022308,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053872080163793,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 25.41544593484582,
+        "uncertainty_mHz": 0.0018061850354195916,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 24.86845639699477,
+        "uncertainty_mHz": 1.7895347643954218,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.33685786388461209,
+        "uncertainty_mHz": 1.4952400284396172,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53427154232937224,
+      "dac_peak_V": 0.37384873032079591,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053872080163793,
+      "peak_body_delta_mrad": 1.2134864057057553,
+      "post_1s_delta_slope_mrad_s": 0.10694136534301039,
+      "quiet": {
+        "split_est_mHz": 25.41544593484582,
+        "uncertainty_mHz": 0.0018061850354195916,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 24.86845639699477,
+        "uncertainty_mHz": 1.7895347643954218,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.33685786388461209,
+        "uncertainty_mHz": 1.4952400284396172,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53427154232937224,
+      "dac_peak_V": 4.23848594484244,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054880532888168,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 25.364567685206836,
+        "uncertainty_mHz": 0.0045755846116093827,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 24.782988923456891,
+        "uncertainty_mHz": 0.79369937065890572,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.28496239242808796,
+        "uncertainty_mHz": 0.55229815375588931,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53427154232937224,
+      "dac_peak_V": 0.37350067225894795,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054880532888168,
+      "peak_body_delta_mrad": 4.4360215297929031,
+      "post_1s_delta_slope_mrad_s": 0.369882972481066,
+      "quiet": {
+        "split_est_mHz": 25.364567685206836,
+        "uncertainty_mHz": 0.0045755846116093827,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 24.782988923456891,
+        "uncertainty_mHz": 0.79369937065890572,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.28496239242808796,
+        "uncertainty_mHz": 0.55229815375588931,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53427154232937224,
+      "dac_peak_V": 5.4242854762617423,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.3435043897578301,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 25.294325865277131,
+        "uncertainty_mHz": 0.0078753875494125374,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 25.375814407534591,
+        "uncertainty_mHz": 0.516766048875043,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.012992463270637845,
+        "uncertainty_mHz": 0.29834522315599615,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 25,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53427154232937224,
+      "dac_peak_V": 0.37287119044855355,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.3435043897578301,
+      "peak_body_delta_mrad": 9.5011926858119971,
+      "post_1s_delta_slope_mrad_s": 0.63987229528139478,
+      "quiet": {
+        "split_est_mHz": 25.294325865277131,
+        "uncertainty_mHz": 0.0078753875494125374,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 25.375814407534591,
+        "uncertainty_mHz": 0.516766048875043,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.012992463270637845,
+        "uncertainty_mHz": 0.29834522315599615,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.534260730956206,
+      "dac_peak_V": 2.5323576279362516,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053859296112,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.661403142295008,
+        "uncertainty_mHz": 0.014271742459608468,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.061169487995713,
+        "uncertainty_mHz": 1.7876451345325077,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35589587568004427,
+        "uncertainty_mHz": 1.4954023953291982,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.534260730956206,
+      "dac_peak_V": 0.37291371725073652,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053859296112,
+      "peak_body_delta_mrad": 4.9630318950361048,
+      "post_1s_delta_slope_mrad_s": 0.45025496221502331,
+      "quiet": {
+        "split_est_mHz": 50.661403142295008,
+        "uncertainty_mHz": 0.014271742459608468,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.061169487995713,
+        "uncertainty_mHz": 1.7876451345325077,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35589587568004427,
+        "uncertainty_mHz": 1.4954023953291982,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.534260730956206,
+      "dac_peak_V": 4.2204710028244667,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054859960263841,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.266159464449373,
+        "uncertainty_mHz": 0.035252553427360882,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.757205578328623,
+        "uncertainty_mHz": 0.79023447931751856,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26103393718139428,
+        "uncertainty_mHz": 0.55202940715307314,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.534260730956206,
+      "dac_peak_V": 0.37145312140990538,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054859960263841,
+      "peak_body_delta_mrad": 18.557385396901356,
+      "post_1s_delta_slope_mrad_s": 1.6136781184093363,
+      "quiet": {
+        "split_est_mHz": 50.266159464449373,
+        "uncertainty_mHz": 0.035252553427360882,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.757205578328623,
+        "uncertainty_mHz": 0.79023447931751856,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26103393718139428,
+        "uncertainty_mHz": 0.55202940715307314,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.534260730956206,
+      "dac_peak_V": 5.3667567297672907,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34350414901117265,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 49.740926213840069,
+        "uncertainty_mHz": 0.058485737048118332,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.8642662231378,
+        "uncertainty_mHz": 0.5196214420834997,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020097574324761287,
+        "uncertainty_mHz": 0.29945805758500615,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.534260730956206,
+      "dac_peak_V": 0.36862341643462365,
+      "baseline_delta": 2.7755575615628914E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34350414901117265,
+      "peak_body_delta_mrad": 41.234859891844778,
+      "post_1s_delta_slope_mrad_s": 2.9369083498385335,
+      "quiet": {
+        "split_est_mHz": 49.740926213840069,
+        "uncertainty_mHz": 0.058485737048118332,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.8642662231378,
+        "uncertainty_mHz": 0.5196214420834997,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020097574324761287,
+        "uncertainty_mHz": 0.29945805758500615,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53426414452510584,
+      "dac_peak_V": 2.5327842524324109,
+      "baseline_delta": 2.8449465006019636E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053859300230892,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.679365080769259,
+        "uncertainty_mHz": 0.014044312557642677,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.079015735586424,
+        "uncertainty_mHz": 1.7879761832562755,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35539976158931585,
+        "uncertainty_mHz": 1.4956687561559781,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53426414452510584,
+      "dac_peak_V": 0.37297625569845916,
+      "baseline_delta": 2.8449465006019636E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053859300230892,
+      "peak_body_delta_mrad": 4.9575205338052335,
+      "post_1s_delta_slope_mrad_s": 0.44970395052831913,
+      "quiet": {
+        "split_est_mHz": 50.679365080769259,
+        "uncertainty_mHz": 0.014044312557642677,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.079015735586424,
+        "uncertainty_mHz": 1.7879761832562755,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35539976158931585,
+        "uncertainty_mHz": 1.4956687561559781,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53426414452510584,
+      "dac_peak_V": 4.2214585304367862,
+      "baseline_delta": 2.8449465006019636E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054859985613425,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.287717775427758,
+        "uncertainty_mHz": 0.03497065334606201,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.778733421491218,
+        "uncertainty_mHz": 0.79037344300382051,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26058950540732567,
+        "uncertainty_mHz": 0.552132436947506,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53426414452510584,
+      "dac_peak_V": 0.37153981110165035,
+      "baseline_delta": 2.8449465006019636E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054859985613425,
+      "peak_body_delta_mrad": 18.531559560251406,
+      "post_1s_delta_slope_mrad_s": 1.6110700226282639,
+      "quiet": {
+        "split_est_mHz": 50.287717775427758,
+        "uncertainty_mHz": 0.03497065334606201,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.778733421491218,
+        "uncertainty_mHz": 0.79037344300382051,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26058950540732567,
+        "uncertainty_mHz": 0.552132436947506,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53426414452510584,
+      "dac_peak_V": 5.3684333305356189,
+      "baseline_delta": 2.8449465006019636E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34350414947930957,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 49.765091353781685,
+        "uncertainty_mHz": 0.058193891635848982,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.888656634489365,
+        "uncertainty_mHz": 0.51969643463727155,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020678234394586027,
+        "uncertainty_mHz": 0.299532961408334,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": -0.3,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53426414452510584,
+      "dac_peak_V": 0.36873840197244223,
+      "baseline_delta": 2.8449465006019636E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.34350414947930957,
+      "peak_body_delta_mrad": 41.167294430824782,
+      "post_1s_delta_slope_mrad_s": 2.9312553439447764,
+      "quiet": {
+        "split_est_mHz": 49.765091353781685,
+        "uncertainty_mHz": 0.058193891635848982,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.888656634489365,
+        "uncertainty_mHz": 0.51969643463727155,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.020678234394586027,
+        "uncertainty_mHz": 0.299532961408334,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 0.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53425752306989294,
+      "dac_peak_V": 2.5319308447856623,
+      "baseline_delta": 2.8033131371785203E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053859291639975,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.643452260793232,
+        "uncertainty_mHz": 0.014498884334293952,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.043334075809696,
+        "uncertainty_mHz": 1.7873145911239523,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35639172960195803,
+        "uncertainty_mHz": 1.4951364191034866,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 0.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53425752306989294,
+      "dac_peak_V": 0.37285115562268834,
+      "baseline_delta": 2.8033131371785203E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.70053859291639975,
+      "peak_body_delta_mrad": 4.96853908306098,
+      "post_1s_delta_slope_mrad_s": 0.45080548881157689,
+      "quiet": {
+        "split_est_mHz": 50.643452260793232,
+        "uncertainty_mHz": 0.014498884334293952,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 107
+      },
+      "noisy": {
+        "split_est_mHz": 50.043334075809696,
+        "uncertainty_mHz": 1.7873145911239523,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.35639172960195803,
+        "uncertainty_mHz": 1.4951364191034866,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 107
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53425752306989294,
+      "dac_peak_V": 4.2194830008012225,
+      "baseline_delta": 2.8033131371785203E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054859934421152,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 50.244619518085692,
+        "uncertainty_mHz": 0.035533948500119518,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.735695845144782,
+        "uncertainty_mHz": 0.79009577941443421,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26147812897688716,
+        "uncertainty_mHz": 0.55192657075431284,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53425752306989294,
+      "dac_peak_V": 0.37136639012895217,
+      "baseline_delta": 2.8033131371785203E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.49054859934421152,
+      "peak_body_delta_mrad": 18.583187732976118,
+      "post_1s_delta_slope_mrad_s": 1.6162831517955256,
+      "quiet": {
+        "split_est_mHz": 50.244619518085692,
+        "uncertainty_mHz": 0.035533948500119518,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      },
+      "noisy": {
+        "split_est_mHz": 49.735695845144782,
+        "uncertainty_mHz": 0.79009577941443421,
+        "valid": false,
+        "reason": "uncertainty",
+        "samples_used": 213
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.26147812897688716,
+        "uncertainty_mHz": 0.55192657075431284,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 213
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1.5,
+      "limited": 0,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": false,
+      "cv_peak_V": 0.53425752306989294,
+      "dac_peak_V": 5.3650791727928571,
+      "baseline_delta": 2.8033131371785203E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.3435041485378989,
+      "peak_body_delta_mrad": null,
+      "post_1s_delta_slope_mrad_s": null,
+      "quiet": {
+        "split_est_mHz": 49.71678619282936,
+        "uncertainty_mHz": 0.058776943237339861,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.839900839694486,
+        "uncertainty_mHz": 0.519546772944654,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.019517452231479528,
+        "uncertainty_mHz": 0.29938330802578117,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    },
+    {
+      "mode": "tdm_separate",
+      "split_mHz": 50,
+      "truth_rate_mrad_s": 0.3,
+      "pause_s": 1.5,
+      "limited": 1,
+      "duration_s": 5,
+      "frames": 8500,
+      "valid_fraction": 1,
+      "rail_free": true,
+      "cv_peak_V": 0.53425752306989294,
+      "dac_peak_V": 0.36850836535690124,
+      "baseline_delta": 2.8033131371785203E-15,
+      "dac_limit_V": 0.49999999999909051,
+      "adc_limit_V": 0.999999999998181,
+      "end_to_start_amp_ratio": 0.3435041485378989,
+      "peak_body_delta_mrad": 41.302349196879263,
+      "post_1s_delta_slope_mrad_s": 2.94255221568468,
+      "quiet": {
+        "split_est_mHz": 49.71678619282936,
+        "uncertainty_mHz": 0.058776943237339861,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "noisy": {
+        "split_est_mHz": 49.839900839694486,
+        "uncertainty_mHz": 0.519546772944654,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      },
+      "drive_on_noisy": {
+        "split_est_mHz": 0.019517452231479528,
+        "uncertainty_mHz": 0.29938330802578117,
+        "valid": true,
+        "reason": "conditional_precision",
+        "samples_used": 319
+      }
+    }
+  ]
+}

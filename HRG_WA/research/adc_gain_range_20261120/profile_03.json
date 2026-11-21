@@ -1,0 +1,160 @@
+{
+  "profile": 3,
+  "mode": "tdm_shared",
+  "adc_bits": 12,
+  "gain": 8,
+  "span_Vpp": 1,
+  "input_lsb_uV": 30.517578125,
+  "beta_deg": 28.125,
+  "split_Hz": 0.05,
+  "dac_bits": 14,
+  "fs_Hz": 5.44E+6,
+  "noise_V_rms": 0,
+  "rate_windows_s": [
+    [
+      0.02,
+      0.06
+    ],
+    [
+      0.16,
+      0.24
+    ]
+  ],
+  "cases": [
+    {
+      "rate_mrad_s": -1,
+      "frame_count": 408,
+      "valid_frames": 1,
+      "connected_valid_peak_V": [
+        0.53460301914133435,
+        0.53407067156241617
+      ],
+      "connected_valid_margin_V": [
+        -0.034603019141334346,
+        -0.034314812187416166
+      ],
+      "adc_clipped_ticks": 19525,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        null,
+        null
+      ],
+      "corrected_rate_mrad_s": [
+        null,
+        null
+      ],
+      "individual_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "rate_mrad_s": -0.3,
+      "frame_count": 408,
+      "valid_frames": 1,
+      "connected_valid_peak_V": [
+        0.53460297811348956,
+        0.53407062039081854
+      ],
+      "connected_valid_margin_V": [
+        -0.034602978113489558,
+        -0.03431476101581854
+      ],
+      "adc_clipped_ticks": 19510,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        null,
+        null
+      ],
+      "corrected_rate_mrad_s": [
+        null,
+        null
+      ],
+      "individual_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "rate_mrad_s": 0,
+      "frame_count": 408,
+      "valid_frames": 1,
+      "connected_valid_peak_V": [
+        0.53460296053012291,
+        0.53407059846012894
+      ],
+      "connected_valid_margin_V": [
+        -0.034602960530122906,
+        -0.034314739085128942
+      ],
+      "adc_clipped_ticks": 19507,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        null,
+        null
+      ],
+      "corrected_rate_mrad_s": [
+        null,
+        null
+      ],
+      "individual_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "rate_mrad_s": 0.3,
+      "frame_count": 408,
+      "valid_frames": 1,
+      "connected_valid_peak_V": [
+        0.53460294294675581,
+        0.534070576529438
+      ],
+      "connected_valid_margin_V": [
+        -0.03460294294675581,
+        -0.034314717154438013
+      ],
+      "adc_clipped_ticks": 19536,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        null,
+        null
+      ],
+      "corrected_rate_mrad_s": [
+        null,
+        null
+      ],
+      "individual_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "rate_mrad_s": 1,
+      "frame_count": 408,
+      "valid_frames": 1,
+      "connected_valid_peak_V": [
+        0.53460290191889437,
+        0.534070525357818
+      ],
+      "connected_valid_margin_V": [
+        -0.034602901918894369,
+        -0.03431466598281796
+      ],
+      "adc_clipped_ticks": 19527,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        null,
+        null
+      ],
+      "corrected_rate_mrad_s": [
+        null,
+        null
+      ],
+      "individual_pass": [
+        false,
+        false
+      ]
+    }
+  ]
+}

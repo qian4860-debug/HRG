@@ -1,0 +1,761 @@
+{
+  "scope": "5.44 MSPS noiseless closed loop, 2 window scores; physical overload dynamics excluded",
+  "baseline_connected_peak_V": 0.5347483337991219,
+  "baseline_gain_ceiling_if_waveform_unchanged": 14.953003580566051,
+  "windows_s": [
+    [
+      0.02,
+      0.06
+    ],
+    [
+      0.16,
+      0.24
+    ]
+  ],
+  "rate_limit_mrad_s": 0.25,
+  "gain_tolerance": 0.05,
+  "profiles": [
+    {
+      "profile": 1,
+      "bits": 12,
+      "gain": 8,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 61.03515625,
+      "min_connected_margin_V": 0.4652516662008781,
+      "min_valid_margin_V": 0.4652956325340645,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        0
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.7283281156995363,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 1.0769983714356284,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 0.8402936727622896,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 1.0652269963318903,
+          "directions_ok": true,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": 3.3306690738754696e-16
+    },
+    {
+      "profile": 2,
+      "bits": 12,
+      "gain": 16,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 30.517578125,
+      "min_connected_margin_V": -0.06920603828266869,
+      "min_valid_margin_V": -0.06862962437483233,
+      "adc_clipped_ticks": 97605,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 5,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        0
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 3,
+      "bits": 12,
+      "gain": 8,
+      "span_Vpp": 1,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 30.517578125,
+      "min_connected_margin_V": -0.034603019141334346,
+      "min_valid_margin_V": -0.034314812187416166,
+      "adc_clipped_ticks": 97605,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 5,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        0
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 4,
+      "bits": 12,
+      "gain": 32,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 15.2587890625,
+      "min_connected_margin_V": -1.1384120765653374,
+      "min_valid_margin_V": -1.1367709674996647,
+      "adc_clipped_ticks": 1075106,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 0,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        0
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 5,
+      "bits": 12,
+      "gain": 48,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 10.172526041666666,
+      "min_connected_margin_V": -2.2076181148480063,
+      "min_valid_margin_V": -2.204912310624497,
+      "adc_clipped_ticks": 1271183,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 0,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        0
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 6,
+      "bits": 12,
+      "gain": 64,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 7.62939453125,
+      "min_connected_margin_V": -3.2768241531306748,
+      "min_valid_margin_V": -3.2730536537493293,
+      "adc_clipped_ticks": 1363760,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 0,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        0
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 7,
+      "bits": 12,
+      "gain": 128,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 3.814697265625,
+      "min_connected_margin_V": -7.5536483062613495,
+      "min_valid_margin_V": -7.545619026248659,
+      "adc_clipped_ticks": 1499311,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 0,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        0
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": null,
+          "directions_ok": false,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 8,
+      "bits": 16,
+      "gain": 8,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 3.814697265625,
+      "min_connected_margin_V": 0.46525644484957096,
+      "min_valid_margin_V": 0.46575824841054325,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        5
+      ],
+      "pair_pass": [
+        0,
+        2
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 1.0182029408440667,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.9897766067858388,
+          "directions_ok": true,
+          "passed": true
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 1.0087046573898837,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 0.9941398637274019,
+          "directions_ok": true,
+          "passed": true
+        }
+      ],
+      "max_history_delta_mrad_s": 4.440892098500626e-16
+    },
+    {
+      "profile": 9,
+      "bits": 12,
+      "gain": 10,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 48.828125,
+      "min_connected_margin_V": 0.33156307456229617,
+      "min_valid_margin_V": 0.3317398765538283,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        5
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 1.2223008303257865,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.5781396819593215,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 1.2484050619726481,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 0.8896620634550276,
+          "directions_ok": true,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 10,
+      "bits": 12,
+      "gain": 12,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 40.690104166666664,
+      "min_connected_margin_V": 0.19788035916920943,
+      "min_valid_margin_V": 0.1981908162183158,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        2
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.7984903936777528,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 1.2534236002129269,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 0.7365921088934347,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 1.2951380328731923,
+          "directions_ok": true,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 11,
+      "bits": 12,
+      "gain": 14,
+      "span_Vpp": 2,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 34.877232142857146,
+      "min_connected_margin_V": 0.06419691079497403,
+      "min_valid_margin_V": 0.06464024956687431,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        3
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.9879318319502958,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.8788191501754116,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 1.1039070526366528,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 1.053915767206696,
+          "directions_ok": true,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 12,
+      "bits": 12,
+      "gain": 7,
+      "span_Vpp": 1,
+      "beta_deg": 28.125,
+      "input_lsb_uV": 34.877232142857146,
+      "min_connected_margin_V": 0.032098455397487013,
+      "min_valid_margin_V": 0.032320124783437154,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        3
+      ],
+      "pair_pass": [
+        0,
+        0
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.9879318319502958,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.8788191501754116,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 1.1039070526366528,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 1.053915767206696,
+          "directions_ok": true,
+          "passed": false
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 13,
+      "bits": 12,
+      "gain": 14,
+      "span_Vpp": 2,
+      "beta_deg": 61.875,
+      "input_lsb_uV": 34.877232142857146,
+      "min_connected_margin_V": 0.06392498851449901,
+      "min_valid_margin_V": 0.06446767465401326,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        5
+      ],
+      "pair_pass": [
+        0,
+        2
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.8630959377314222,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.9927811775954086,
+          "directions_ok": true,
+          "passed": true
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 0.9160146429046604,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 1.0266690804475813,
+          "directions_ok": true,
+          "passed": true
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    },
+    {
+      "profile": 14,
+      "bits": 12,
+      "gain": 10,
+      "span_Vpp": 2,
+      "beta_deg": 5.625,
+      "input_lsb_uV": 48.828125,
+      "min_connected_margin_V": 0.2115453092461318,
+      "min_valid_margin_V": 0.21182413067968064,
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "valid_frames": 2040,
+      "frames": 2040,
+      "rate_pass": [
+        0,
+        5
+      ],
+      "pair_pass": [
+        0,
+        1
+      ],
+      "pairs": [
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.9938571708856485,
+          "directions_ok": false,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 0.3,
+          "gain": 0.9118050268297409,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 0,
+          "amplitude_mrad_s": 1,
+          "gain": 1.0149342745274845,
+          "directions_ok": true,
+          "passed": false
+        },
+        {
+          "window_index": 1,
+          "amplitude_mrad_s": 1,
+          "gain": 0.9719693007840238,
+          "directions_ok": true,
+          "passed": true
+        }
+      ],
+      "max_history_delta_mrad_s": null
+    }
+  ]
+}

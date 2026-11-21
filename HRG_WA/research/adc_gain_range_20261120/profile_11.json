@@ -1,0 +1,160 @@
+{
+  "profile": 11,
+  "mode": "tdm_shared",
+  "adc_bits": 12,
+  "gain": 14,
+  "span_Vpp": 2,
+  "input_lsb_uV": 34.877232142857146,
+  "beta_deg": 28.125,
+  "split_Hz": 0.05,
+  "dac_bits": 14,
+  "fs_Hz": 5.44E+6,
+  "noise_V_rms": 0,
+  "rate_windows_s": [
+    [
+      0.02,
+      0.06
+    ],
+    [
+      0.16,
+      0.24
+    ]
+  ],
+  "cases": [
+    {
+      "rate_mrad_s": -1,
+      "frame_count": 408,
+      "valid_frames": 408,
+      "connected_valid_peak_V": [
+        0.935803089205026,
+        0.93487146918312569
+      ],
+      "connected_valid_margin_V": [
+        0.064196910794974027,
+        0.064640249566874308
+      ],
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        -0.6532041447528576,
+        -0.1416164070131205
+      ],
+      "corrected_rate_mrad_s": [
+        -1.6532041447528576,
+        -1.1416164070131205
+      ],
+      "individual_pass": [
+        false,
+        true
+      ]
+    },
+    {
+      "rate_mrad_s": -0.3,
+      "frame_count": 408,
+      "valid_frames": 408,
+      "connected_valid_peak_V": [
+        0.93578856529231735,
+        0.9348566300130462
+      ],
+      "connected_valid_margin_V": [
+        0.064211434707682646,
+        0.0646550887369538
+      ],
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        -0.61143797662777422,
+        -0.22874443720376197
+      ],
+      "corrected_rate_mrad_s": [
+        -0.91143797662777426,
+        -0.528744437203762
+      ],
+      "individual_pass": [
+        false,
+        true
+      ]
+    },
+    {
+      "rate_mrad_s": 0,
+      "frame_count": 408,
+      "valid_frames": 408,
+      "connected_valid_peak_V": [
+        0.93578334722962586,
+        0.93485140955308133
+      ],
+      "connected_valid_margin_V": [
+        0.064216652770374139,
+        0.064660309196918675
+      ],
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        -0.55718610528886969,
+        -0.29038880687872121
+      ],
+      "corrected_rate_mrad_s": [
+        -0.55718610528886969,
+        -0.29038880687872121
+      ],
+      "individual_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "rate_mrad_s": 0.3,
+      "frame_count": 408,
+      "valid_frames": 408,
+      "connected_valid_peak_V": [
+        0.93577807591067153,
+        0.93484612968326564
+      ],
+      "connected_valid_margin_V": [
+        0.064221924089328475,
+        0.064665589066734364
+      ],
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        -0.61867887745759687,
+        -0.30145294709851506
+      ],
+      "corrected_rate_mrad_s": [
+        -0.31867887745759688,
+        -0.0014529470985150672
+      ],
+      "individual_pass": [
+        false,
+        false
+      ]
+    },
+    {
+      "rate_mrad_s": 1,
+      "frame_count": 408,
+      "valid_frames": 408,
+      "connected_valid_peak_V": [
+        0.935765582193096,
+        0.93483356616167124
+      ],
+      "connected_valid_margin_V": [
+        0.064234417806903976,
+        0.064678152588328763
+      ],
+      "adc_clipped_ticks": 0,
+      "dac_clipped_ticks": 0,
+      "corrected_error_mrad_s": [
+        -0.44539003947955214,
+        -0.0337848725997284
+      ],
+      "corrected_rate_mrad_s": [
+        0.55460996052044786,
+        0.9662151274002716
+      ],
+      "individual_pass": [
+        false,
+        true
+      ]
+    }
+  ]
+}

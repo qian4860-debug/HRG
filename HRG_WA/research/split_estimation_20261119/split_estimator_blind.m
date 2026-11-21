@@ -23,7 +23,7 @@ for c = 1:numel(conditions)
             % 每个工况/频差/整次运行有独立的种子，似然和门限在这些运行之外规定。
             id = sprintf('%s_f%03d_r%02d',char(name),f,rep);
             seed = 246810+10000*c+100*f+rep;
-            input = generate_run(f,name,seed,fs,duration_s,burst_s);
+            input = split_ringdown_fixture(f,name,seed,fs,duration_s,burst_s);
             for tick = 1:round(duration_s/tick_s)
                 last = round(tick*tick_s*fs);
                 % 已知脉冲起点来自采集触发。每次读取最多一个已开始的衰减段。
@@ -61,52 +61,6 @@ fid = fopen(file,'w','n','UTF-8');
 assert(fid >= 0, '无法创建测频回执');
 closer = onCleanup(@() fclose(fid));
 fprintf(fid,'%s\n',jsonencode(result));    % 不可估计字段序列化为 null
-end
-
-function s = generate_run(f,name,seed,fs,duration_s,burst_s)
-% 双模态生成器以 6800 Hz、Q≈30000 为中心，允许两个衰减时常不同。
-% 两路复基带共享公共 LO 漂移，每次激励具有独立相位与幅度。
-r = RandStream('mt19937ar','Seed',seed);
-t = (0:1/fs:duration_s-1/fs)';
-truth = repmat(f,size(t));
-if name == "split_step"
-    truth(t>=10.25) = 25;
-end
-snr_db = 46;
-if name == "low_snr"
-    snr_db = 22;
-end
-strength = 0.8;
-if name == "weak_mode"
-    strength = 0.015;
-end
-mix_deg = 0;
-if name == "axis_error"
-    mix_deg = 12;               % 留出盲点，估计器始终假设模态轴校准正确
-end
-trigger = mod((0:numel(t)-1)',round(burst_s*fs)) == 0;
-if name == "single_burst"
-    trigger(2:end) = false;
-end
-starts = [find(trigger);numel(t)+1];
-q = 30000*(0.93+0.14*rand(r,1,2));
-tau = q/(pi*6800);
-common_phase = 2*pi*(0.10*t + 0.03*sin(1.1*t));
-signal = complex(zeros(numel(t),2));
-for k = 1:numel(starts)-1
-    ix = starts(k):starts(k+1)-1;
-    age = t(ix)-t(ix(1));
-    % 模态相位差积分产生真实频差。输入阶跃时保持相位连续。
-    half_phase = pi/fs*[0;cumsum(truth(ix(1:end-1))*1e-3)];
-    phase0 = 2*pi*rand(r,1,2);
-    amplitude = (0.85+0.3*rand(r,1,2)).*[1,strength];
-    signal(ix,:) = amplitude.*exp(-age./tau).* ...
-        exp(1i*(common_phase(ix)+[-half_phase,half_phase]+phase0));
-end
-rotation = [cosd(mix_deg),-sind(mix_deg);sind(mix_deg),cosd(mix_deg)];
-noise_scale = 10^(-snr_db/20)/sqrt(2);  % 参考单位模态初始幅度，为每一实部的标准差
-iq = signal*rotation + noise_scale*(randn(r,size(signal))+1i*randn(r,size(signal)));
-s = struct('time_s',t,'iq',iq,'trigger',trigger,'truth',truth,'snr_db',snr_db);
 end
 
 function summary = summarize(rows,conditions)

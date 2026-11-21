@@ -1,9 +1,11 @@
-function reading = estimate_ringdown_split(time_s, iq)
+function [reading,fit] = estimate_ringdown_split(time_s, iq)
 % 单次激励后两路主轴复包络的因果频差估计。time_s 为已取得的样本时刻，
 % iq 为 N×2（实部 I、虚部 Q）；量纲可归一化，但两路应共用载波与时钟。
 % 两通道须已有独立的模态轴校准。本函数不接收输入频差、工况、噪声或转速真值。
 reading = struct('split_est_mHz',NaN,'uncertainty_mHz',NaN, ...
     'valid',false,'reason',"invalid_input",'samples_used',0);
+% 可选第二输出仅含本次已经用于估计的观测与权重，供因果变点检验复用。
+fit = struct('time_s',[],'phase_rad',[],'inverse_variance',[]);
 t = time_s(:);
 if size(iq,2) ~= 2 || size(iq,1) ~= numel(t) || numel(t) < 10 || ...
         any(~isfinite(t)) || any(~isfinite(iq),'all') || any(diff(t) <= 0)
@@ -36,6 +38,9 @@ phase = unwrap(angle(v(:,2).*conj(v(:,1))));
 variance = sum(noise_power./(2*abs(v).^2),2);
 w = 1./variance;
 t = t(usable);
+if nargout > 1
+    fit = struct('time_s',t,'phase_rad',phase,'inverse_variance',w);
+end
 centered_time = t-sum(w.*t)/sum(w);
 centered_phase = phase-sum(w.*phase)/sum(w);
 sxx = sum(w.*centered_time.^2);
